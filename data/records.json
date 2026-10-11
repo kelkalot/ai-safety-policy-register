@@ -1,9 +1,9 @@
 {
  "meta": {
   "name": "AI Safety Policy Register",
-  "version": "1.3",
+  "version": "1.4",
   "snapshot_date": "2026-10-11",
-  "record_count": 269,
+  "record_count": 284,
   "scope": "Official governmental and intergovernmental AI safety and AI regulation instruments (core safety + regulation), global coverage.",
   "research_snapshot_date": "2026-10-11",
   "archive_note": "Local copies of sources are created by tools/archive.py on the machine where the register is deployed."
@@ -1152,7 +1152,20 @@
     "accountability & liability",
     "international cooperation"
    ],
-   "related": [],
+   "related": [
+    {
+     "slug": "gh-national-ai-strategy-2025-2035",
+     "id": "GH-01"
+    },
+    {
+     "slug": "et-national-ai-policy-2024",
+     "id": "ET-01"
+    },
+    {
+     "slug": "zm-national-ai-strategy-2024-2026",
+     "id": "ZM-01"
+    }
+   ],
    "notes": "Endorsed by the AU Executive Council at its 45th Ordinary Session, Accra, 18-19 Jul 2024. Published on au.int on 9 Aug 2024. It has six focus areas, one of them an inclusive governance and regulatory framework.",
    "verification": {
     "level": "A",
@@ -18247,7 +18260,12 @@
     "accountability & liability",
     "deepfakes & synthetic media"
    ],
-   "related": [],
+   "related": [
+    {
+     "slug": "et-national-ai-policy-2024",
+     "id": "ET-01"
+    }
+   ],
    "notes": "Draft dated March 2026; approved by Cabinet 25 Mar 2026 (with a special Cabinet sitting 1 Apr 2026); gazetted 10 Apr 2026 for 60 days of comment (to 10 June 2026). Withdrawal notice signed 4 June 2026 and gazetted 12 June 2026 ('withdrawn in its entirety'); no reason given. Gazette No. 54840 is taken from the notice file name and cover header. No replacement draft was found as of Oct 2026.",
    "verification": {
     "level": "A",
@@ -27669,7 +27687,8 @@
       "error": null,
       "method": "browser"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -28369,8 +28388,21 @@
     "transparency & labelling",
     "evaluation & testing"
    ],
-   "related": [],
-   "notes": "The PDF at the official URL carries the year 2025 on its cover and 'Version Number 1' in its document-control table; no month is given, so date_published is 2025. Law-firm commentaries describe an earlier version 2.0 of September 2023 (which introduced risk tiers from low to unacceptable) and a version 1.0 of 2022; the 2025 edition does not state how it relates to that numbering. Commentators disagree on whether the principles are binding on the entities in scope; the document itself describes SDAIA as monitoring compliance, so it is recorded here as non-binding guidance pending clarification. SDAIA's generative AI guidelines and the draft Global AI Hub Law are not yet in the register.",
+   "related": [
+    {
+     "slug": "sa-sdaia-generative-ai-guidelines",
+     "id": "SA-02"
+    },
+    {
+     "slug": "sa-sdaia-deepfakes-guidelines",
+     "id": "SA-03"
+    },
+    {
+     "slug": "sa-draft-global-ai-hub-law",
+     "id": "SA-04"
+    }
+   ],
+   "notes": "The PDF at the official URL carries the year 2025 on its cover and 'Version Number 1' in its document-control table; no month is given, so date_published is 2025. Law-firm commentaries describe an earlier version 2.0 of September 2023 (which introduced risk tiers from low to unacceptable) and a version 1.0 of 2022; the 2025 edition does not state how it relates to that numbering. Commentators disagree on whether the principles are binding on the entities in scope; the document itself describes SDAIA as monitoring compliance, so it is recorded here as non-binding guidance pending clarification. SDAIA's generative AI guidelines (SA-02), its deepfakes guidelines (SA-03) and CST's draft Global AI Hub Law (SA-04) are recorded separately.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -28518,7 +28550,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -28641,7 +28674,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -28823,7 +28857,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -28920,7 +28955,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -29041,7 +29077,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -29171,7 +29208,8 @@
       "error": "HTTP 403 Forbidden",
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -29301,7 +29339,8 @@
       "error": "HTTP 403 Forbidden",
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -29420,7 +29459,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -29545,7 +29585,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -29666,7 +29707,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -29801,7 +29843,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -29936,7 +29979,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -30076,7 +30120,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -30186,7 +30231,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -30293,7 +30339,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -30425,7 +30472,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -30551,7 +30599,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -30658,7 +30707,8 @@
       "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
       "method": "browser"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -30764,7 +30814,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -30885,7 +30936,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -31022,7 +31074,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -31149,7 +31202,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -31275,7 +31329,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -31408,7 +31463,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -31488,7 +31544,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -31615,7 +31672,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -31699,7 +31757,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -31817,7 +31876,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -31945,7 +32005,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -32131,7 +32192,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -32322,7 +32384,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -32411,7 +32474,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -32590,7 +32654,8 @@
       "error": null,
       "method": "browser"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -32786,7 +32851,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -32912,7 +32978,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -33020,7 +33087,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -33116,7 +33184,8 @@
       "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -33213,7 +33282,8 @@
       "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -33329,7 +33399,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -33463,7 +33534,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -33566,7 +33638,8 @@
       "error": "The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -33688,7 +33761,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -33811,7 +33885,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -33896,7 +33971,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -34077,7 +34153,8 @@
       "error": null,
       "method": "browser"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -34164,7 +34241,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -34282,7 +34360,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -34375,7 +34454,8 @@
       "error": "The site's robots.txt does not allow automated downloads of this page",
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -34493,7 +34573,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -34648,7 +34729,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -34832,7 +34914,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -34953,7 +35036,8 @@
       "error": null,
       "method": "http"
      }
-    ]
+    ],
+    "integrity_flag": null
    }
   },
   {
@@ -35054,6 +35138,1729 @@
       "ok": true,
       "http_status": 200,
       "error": null,
+      "method": "http"
+     }
+    ],
+    "integrity_flag": null
+   }
+  },
+  {
+   "id": "SA-02",
+   "slug": "sa-sdaia-generative-ai-guidelines",
+   "title": "Generative Artificial Intelligence Guidelines (for Government and for Public)",
+   "original_title": null,
+   "short_title": "SDAIA Generative AI Guidelines",
+   "jurisdiction": "Saudi Arabia",
+   "country": "Saudi Arabia",
+   "jurisdiction_level": "National",
+   "region": "Middle East & North Africa",
+   "issuing_body": "Saudi Data and Artificial Intelligence Authority (SDAIA)",
+   "instrument_type": "Guidelines / framework",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2025-05",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": "SDAIA-P116E (government version); SDAIA-P115E (public version)",
+   "official_url": "https://sdaia.gov.sa/en/SDAIA/about/Files/GenAIGuidelinesForGovernmentENCompressed.pdf",
+   "secondary_url": "https://sdaia.gov.sa/en/SDAIA/about/Files/GenerativeAIPublicEN.pdf",
+   "language": "Arabic, English",
+   "summary": "Two companion SDAIA guidelines on generative AI. The government version governs the use of government data in GenAI tools: entities must apply SDAIA's AI Ethics Principles, must not use GenAI for critical decisions affecting individuals or the Kingdom's vital interests, must human-review outputs, must not enter restricted or classified data, and must rate tools on a four-level risk scale (little or no, limited, high with conformity assessment, unacceptable); data offices approve tools and audit training data, and AI-generated content is to be disclosed. The public version sets seven principles, including reliability and safety with human-oversight triggers, and lists risks and mitigations.",
+   "safety_topics": [
+    "public-sector use",
+    "risk-based classification",
+    "human oversight",
+    "transparency & labelling",
+    "general-purpose / frontier AI"
+   ],
+   "related": [
+    {
+     "id": "SA-01",
+     "slug": "saudi-sdaia-ai-ethics-principles"
+    },
+    {
+     "id": "SA-03",
+     "slug": "sa-sdaia-deepfakes-guidelines"
+    }
+   ],
+   "notes": "Both PDFs carry 'May 2025' and 'Version Number 1' in their document-control tables and are listed on SDAIA's Regulations and Policies page as two versions of one 'Generative AI Guideline' (one for government employees, one for the public). Third-party trackers report a first release of the government guideline on 10 January 2024 and of the public guideline on 11 January 2024; the May 2025 editions do not refer to earlier versions. The government guideline says it may be updated as needed and phrases several rules for government entities as mandatory, but it is published as guidance rather than as a regulation.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Both PDFs downloaded from sdaia.gov.sa and read; SDAIA's Regulations and Policies page fetched.",
+    "note": "The two English PDFs confirm titles, SDAIA as issuer, May 2025 and version 1 in the document-control tables, document numbers, scope and the risk scale; the Arabic editions were not fetched. The January 2024 first-release dates rest on Digital Policy Alert and a regulations tracker.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:45:21Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/SA-02/2026-10-11/official.pdf",
+      "url": "https://sdaia.gov.sa/en/SDAIA/about/Files/GenAIGuidelinesForGovernmentENCompressed.pdf",
+      "final_url": "https://sdaia.gov.sa/en/SDAIA/about/Files/GenAIGuidelinesForGovernmentENCompressed.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 4176935,
+      "sha256": "fb2427075540afee124b5bd8a9e497ed6a0a99db54ecfe64c6900d451ee5a2cb",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:45:51Z",
+      "last_checked": "2026-10-11T19:45:51Z",
+      "method": "http",
+      "last_modified": "Thu, 30 Oct 2025 09:01:33 GMT",
+      "etag": "\"{2E21CE92-C217-466C-BE81-4A4953C612AD},2\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/SA-02/2026-10-11/secondary.pdf",
+      "url": "https://sdaia.gov.sa/en/SDAIA/about/Files/GenerativeAIPublicEN.pdf",
+      "final_url": "https://sdaia.gov.sa/en/SDAIA/about/Files/GenerativeAIPublicEN.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 3493738,
+      "sha256": "c4a2451c19eb3e782d23922fd4c5a1c7e8bcb92e95c37c9509ba6bfa57739fb9",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:46:26Z",
+      "last_checked": "2026-10-11T19:46:26Z",
+      "method": "http",
+      "last_modified": "Thu, 30 Oct 2025 09:01:35 GMT",
+      "etag": "\"{7A28DCD2-AFBB-4CDF-9162-C9BDC61CF3C4},2\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://sdaia.gov.sa/en/SDAIA/about/Files/GenAIGuidelinesForGovernmentENCompressed.pdf",
+      "attempted_at": "2026-10-11T19:45:51Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://sdaia.gov.sa/en/SDAIA/about/Files/GenerativeAIPublicEN.pdf",
+      "attempted_at": "2026-10-11T19:46:26Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ],
+    "integrity_flag": null
+   }
+  },
+  {
+   "id": "SA-03",
+   "slug": "sa-sdaia-deepfakes-guidelines",
+   "title": "Deepfakes Guidelines: Mitigating Risks While Fostering Innovation",
+   "original_title": null,
+   "short_title": "SDAIA Deepfakes Guidelines",
+   "jurisdiction": "Saudi Arabia",
+   "country": "Saudi Arabia",
+   "jurisdiction_level": "National",
+   "region": "Middle East & North Africa",
+   "issuing_body": "Saudi Data and Artificial Intelligence Authority (SDAIA)",
+   "instrument_type": "Guidelines / framework",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2025-05",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": "SDAIA-P119 (Version 2)",
+   "official_url": "https://sdaia.gov.sa/en/SDAIA/about/Files/File0001.pdf",
+   "secondary_url": "https://sdaia.gov.sa/en/SDAIA/about/Pages/RegulationsAndPolicies.aspx",
+   "language": "Arabic, English",
+   "summary": "SDAIA guidance on deepfakes (hyper-realistic synthetic audio, video or other content). It defines deepfakes, describes malicious uses (imposter scams, identity fraud, non-consensual manipulation, espionage, disinformation) and non-malicious uses, and gives separate guidance to technology developers (data protection, consent, documentation, human oversight, accountability, audit trails), content creators (consent, labelling, ownership logs), regulators, and consumers (detection and prevention). It rests on principles of privacy, transparency, accountability and social benefit and says the guidance will be reassessed as threats evolve.",
+   "safety_topics": [
+    "deepfakes & synthetic media",
+    "transparency & labelling",
+    "accountability & liability",
+    "human oversight"
+   ],
+   "related": [
+    {
+     "id": "SA-01",
+     "slug": "saudi-sdaia-ai-ethics-principles"
+    },
+    {
+     "id": "SA-02",
+     "slug": "sa-sdaia-generative-ai-guidelines"
+    }
+   ],
+   "notes": "The cover is dated 2025 and the document-control table gives May 2025, 'Version Number 2' and document number SDAIA-P119, so an earlier version exists (the text surveys the regulatory landscape 'as of June 2024'); the date of version 1 was not found on SDAIA's site. Listed on SDAIA's Regulations and Policies page under 'Deepfakes Guidelines' (file name File0001.pdf).",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "PDF (56 pages) downloaded from sdaia.gov.sa and read; SDAIA's Regulations and Policies page fetched, which links the file under 'Deepfakes Guidelines'.",
+    "note": "Title, SDAIA as issuer, May 2025, version 2, document number and the structure of the guidance confirmed from the PDF. Only the English edition was fetched.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:45:21Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/SA-03/2026-10-11/official.pdf",
+      "url": "https://sdaia.gov.sa/en/SDAIA/about/Files/File0001.pdf",
+      "final_url": "https://sdaia.gov.sa/en/SDAIA/about/Files/File0001.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 4097526,
+      "sha256": "362f4a58dc88df7d0092eec8b75f1df0eca3856c7e429d40bd70090f1bbe546f",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:46:09Z",
+      "last_checked": "2026-10-11T19:46:09Z",
+      "method": "http",
+      "last_modified": "Tue, 02 Dec 2025 10:25:30 GMT",
+      "etag": "\"{FA839346-6103-4C95-80FD-A146DFC2FE59},1\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/SA-03/2026-10-11/secondary.html",
+      "url": "https://sdaia.gov.sa/en/SDAIA/about/Pages/RegulationsAndPolicies.aspx",
+      "final_url": "https://sdaia.gov.sa/en/SDAIA/about/Pages/RegulationsAndPolicies.aspx",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 81955,
+      "sha256": "a2b9727c45c6b2f61d599c2f6f01e80c70419e74bf7de3dec21a5fbd098febee",
+      "text_sha256": "423c5163f0643081bfd1df0a64b973e8aa4bcc3c0a14dc077761843dd0d3b48b",
+      "retrieved_at": "2026-10-11T19:46:28Z",
+      "last_checked": "2026-10-11T19:46:28Z",
+      "method": "http",
+      "last_modified": "Sun, 11 Oct 2026 19:46:28 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://sdaia.gov.sa/en/SDAIA/about/Files/File0001.pdf",
+      "attempted_at": "2026-10-11T19:46:09Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://sdaia.gov.sa/en/SDAIA/about/Pages/RegulationsAndPolicies.aspx",
+      "attempted_at": "2026-10-11T19:46:28Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ],
+    "integrity_flag": null
+   }
+  },
+  {
+   "id": "SA-04",
+   "slug": "sa-draft-global-ai-hub-law",
+   "title": "Global AI Hub Law (draft for public consultation)",
+   "original_title": null,
+   "short_title": "Saudi draft Global AI Hub Law",
+   "jurisdiction": "Saudi Arabia",
+   "country": "Saudi Arabia",
+   "jurisdiction_level": "National",
+   "region": "Middle East & North Africa",
+   "issuing_body": "Communications, Space and Technology Commission (CST)",
+   "instrument_type": "Bill / draft law",
+   "legal_force": "Proposed",
+   "status": "Draft / proposed",
+   "date_published": "2025-04-14",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://www.cst.gov.sa/en/media-center/news/N2025041401",
+   "secondary_url": "https://istitlaa.ncc.gov.sa/en/Transportation/citc/globalailaw/Pages/default.aspx",
+   "language": "Arabic, English",
+   "summary": "Draft law published by CST for public consultation (14 April to 14 May 2025) to let foreign states and companies host data, applications and services in Saudi data centres under the laws of a designated foreign country ('data embassies'). It defines three models: Private Hubs operated by a guest country under a bilateral agreement, Extended Hubs run by authorised operators under the guest country's laws, and Virtual Hubs run by Saudi providers for customers under a designated foreign state's jurisdiction. Designated states and providers would need Council of Ministers sign-off, and the Council could terminate agreements to protect sovereignty and national security.",
+   "safety_topics": [
+    "national security & military",
+    "international cooperation"
+   ],
+   "related": [],
+   "notes": "Despite its title the draft concerns the legal regime for hosting foreign data and advanced-technology services in Saudi data centres rather than AI safety rules. Law-firm summaries report that the law would enter into force 60 days after publication in the Official Gazette and that implementing regulations and bilateral agreements would follow. No adoption, royal decree or gazette publication was found as of October 2026, so the instrument is recorded as a draft.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "CST news release of 14 April 2025 fetched (title, consultation dates, three hub models, link to the Istitlaa consultation page); Saudi Press Agency release fetched; Clyde & Co and Bird & Bird summaries read for the draft's structure.",
+    "note": "The CST release confirms title, issuer, consultation window and the three centre models. The Istitlaa page (secondary_url) is linked from the CST release but did not resolve from this machine, so the draft text itself was not read; the description of guest countries, designated foreign states and Council of Ministers powers rests on law-firm summaries and the Istitlaa page excerpt shown in search results.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": "The secondary source could not be downloaded (The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl').",
+    "last_attempt": "2026-10-11T19:45:21Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/SA-04/2026-10-11/official.html",
+      "url": "https://www.cst.gov.sa/en/media-center/news/N2025041401",
+      "final_url": "https://www.cst.gov.sa/en/media-center/news/CST-Publishes-a-Public-Consultation-for-the-Global-AI-Hub-Law",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 165229,
+      "sha256": "677e98a66ee67a5c7f537f0792a6cb45cb87eaf3bda7ba1f8cbf7ebfbd40839a",
+      "text_sha256": "a30667097b71ead39315a9fe5269df454ca97dc61df44794d60d258b4ab5527f",
+      "retrieved_at": "2026-10-11T19:45:26Z",
+      "last_checked": "2026-10-11T19:45:26Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": "\"11v7pyhoh2a3jf5\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.cst.gov.sa/en/media-center/news/N2025041401",
+      "attempted_at": "2026-10-11T19:45:26Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://istitlaa.ncc.gov.sa/en/Transportation/citc/globalailaw/Pages/default.aspx",
+      "attempted_at": "2026-10-11T19:46:11Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     }
+    ],
+    "integrity_flag": null
+   }
+  },
+  {
+   "id": "EG-01",
+   "slug": "eg-charter-for-responsible-ai-2023",
+   "title": "Egyptian Charter for Responsible AI",
+   "original_title": null,
+   "short_title": "Egyptian Charter for Responsible AI",
+   "jurisdiction": "Egypt",
+   "country": "Egypt",
+   "jurisdiction_level": "National",
+   "region": "Middle East & North Africa",
+   "issuing_body": "National Council for Artificial Intelligence (NCAI), chaired by the Minister of Communications and Information Technology",
+   "instrument_type": "Guidelines / framework",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2023-04",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": "2023 v1.0",
+   "official_url": "https://ai.gov.eg/SynchedFiles/en/Resources/Egyptian%20Charter%20For%20Responsible%20AI.pdf",
+   "secondary_url": "https://mcit.gov.eg/en/Media_Center/Press_Room/Press_Releases/66939",
+   "language": "Arabic, English",
+   "summary": "Egypt's first national interpretation of international responsible-AI guidance (OECD, UNESCO), adopted by the National Council for AI. It sets five values (human-centeredness, transparency and explainability, fairness, accountability, security and safety), 13 general guidelines for all actors and 16 implementation guidelines for entities developing, deploying or managing AI, including impact assessments before government AI projects, MCIT supervision of government projects, systematic AI risk management across the development life cycle, and testing so that systems pose no unreasonable safety risk. The Council says it will review the charter annually.",
+   "safety_topics": [
+    "accountability & liability",
+    "evaluation & testing",
+    "transparency & labelling",
+    "public-sector use",
+    "human oversight"
+   ],
+   "related": [
+    {
+     "id": "EG-02",
+     "slug": "eg-national-ai-governance-framework-guide-2026"
+    },
+    {
+     "id": "EG-03",
+     "slug": "eg-national-generative-ai-guidelines-2026"
+    },
+    {
+     "id": "EG-04",
+     "slug": "eg-national-ai-strategy-second-edition-2025"
+    },
+    {
+     "id": "OECD-01",
+     "slug": "oecd-recommendation-ai"
+    }
+   ],
+   "notes": "MCIT's press release of 20 April 2023 says the charter was launched at the Council's seventh meeting; a policy tracker gives 19 April 2023 as the adoption date, so only the month is recorded. The PDF is labelled '2023 v1.0'. It was followed in March 2026 by the Guide to Egypt's National AI Governance Framework and related guidelines (EG-02, EG-03), which build on it. The original host aicm.ai.gov.eg now serves an expired certificate; the copy on the Council's site ai.gov.eg was used.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Charter PDF (v1.0, 8 pages) downloaded from ai.gov.eg and read; MCIT press release of 20 April 2023 and MCIT's Artificial Intelligence page fetched.",
+    "note": "The PDF and the press release confirm title, issuer, version, the five values, the 13 general and 16 implementation guidelines and the annual-review commitment. The exact meeting date is not given on the official pages.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": "The secondary source could not be downloaded (robots.txt returned HTTP 500, which RFC 9309 treats as 'do not crawl').",
+    "last_attempt": "2026-10-11T19:45:21Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/EG-01/2026-10-11/official.pdf",
+      "url": "https://ai.gov.eg/SynchedFiles/en/Resources/Egyptian%20Charter%20For%20Responsible%20AI.pdf",
+      "final_url": "https://ai.gov.eg/SynchedFiles/en/Resources/Egyptian%20Charter%20For%20Responsible%20AI.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 457347,
+      "sha256": "64e06fb84da1502053d79ca8d7d11c2f2f628d23cf78c1a9782c9ae8c2acaa49",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:45:25Z",
+      "last_checked": "2026-10-11T19:45:25Z",
+      "method": "http",
+      "last_modified": "Mon, 15 Sep 2025 07:03:00 GMT",
+      "etag": "\"57cafbc5e26dc1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://ai.gov.eg/SynchedFiles/en/Resources/Egyptian%20Charter%20For%20Responsible%20AI.pdf",
+      "attempted_at": "2026-10-11T19:45:25Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://mcit.gov.eg/en/Media_Center/Press_Room/Press_Releases/66939",
+      "attempted_at": "2026-10-11T19:45:25Z",
+      "ok": false,
+      "http_status": null,
+      "error": "robots.txt returned HTTP 500, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     }
+    ],
+    "integrity_flag": null
+   }
+  },
+  {
+   "id": "EG-02",
+   "slug": "eg-national-ai-governance-framework-guide-2026",
+   "title": "Guide to Egypt's National AI Governance Framework",
+   "original_title": null,
+   "short_title": "Egypt National AI Governance Framework (2026)",
+   "jurisdiction": "Egypt",
+   "country": "Egypt",
+   "jurisdiction_level": "National",
+   "region": "Middle East & North Africa",
+   "issuing_body": "National Council for Artificial Intelligence, Quantum Computing, and Emerging Technologies (NCAI); prepared by the Egyptian Center for Responsible AI (ECRAI)",
+   "instrument_type": "Guidelines / framework",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2026-03-15",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": "EG-NCAI-GOV-FW-2026-02 (Edition 2.0)",
+   "official_url": "https://ai.gov.eg/SynchedFiles/ar/Resources/Guide%20to%20Egypt%E2%80%99s%20National%20AI%20Governance%20Framework%2015-3-2026.pdf",
+   "secondary_url": "https://ai.gov.eg/SynchedFiles/ar/Resources/Egypt%20National%20Guidelines%20for%20Trustworthy%20and%20Responsible%20AI.pdf",
+   "language": "English",
+   "summary": "Policy guide for Egypt's National AI Governance Framework, approved for publication in March 2026. It adopts a 'State as Orchestrator' model with central policy-setting by the Council and oversight by sectoral regulators, and sorts AI systems into four tiers: prohibited (unacceptable risk, e.g. social scoring, exploitation of children, manipulation), high-risk (e.g. critical infrastructure, biometrics) subject to a mandatory 'dual-check' of ethical impact assessment plus technical audit, limited-risk (chatbots, deepfakes) subject to transparency and labelling, and minimal-risk under voluntary codes; general-purpose AI with systemic impact counts as high-risk. It also plans an AI audit lab.",
+   "safety_topics": [
+    "risk-based classification",
+    "prohibited practices",
+    "general-purpose / frontier AI",
+    "evaluation & testing",
+    "transparency & labelling",
+    "critical infrastructure"
+   ],
+   "related": [
+    {
+     "id": "EG-01",
+     "slug": "eg-charter-for-responsible-ai-2023"
+    },
+    {
+     "id": "EG-03",
+     "slug": "eg-national-generative-ai-guidelines-2026"
+    },
+    {
+     "id": "EG-04",
+     "slug": "eg-national-ai-strategy-second-edition-2025"
+    }
+   ],
+   "notes": "The guide's document-control table records a version 1.0 for public consultation (January 2026), integration of feedback (February 2026) and authorisation by the Minister of Communications and Information Technology as Council chair on 15 March 2026 (Edition 2.0, 'Approved for Publication'). Trackers report the release of the guide, the Trustworthy and Responsible AI guidelines and the generative AI guidelines on 14 March 2026, and MCIT's AI page lists a March 2026 news item on the Council adopting the governance framework. The companion 'Egypt National Guidelines for Trustworthy and Responsible AI' (Edition 2.0, authorised 25 March 2026; secondary_url) is described as Product 1 of the framework and its operational manual; it organises obligations around institutional governance, AI life-cycle governance (impact assessments, post-deployment monitoring and audit, incident response), stakeholder engagement, and society and sustainability. It is recorded with the guide rather than as a separate entry.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Guide PDF (32 pages) and the Trustworthy and Responsible AI guidelines PDF (80 pages) downloaded from ai.gov.eg and read; MCIT's Artificial Intelligence page fetched; OECD.AI entry and Digital Policy Alert entries fetched for release dates.",
+    "note": "The PDFs confirm titles, issuing bodies, edition numbers, document IDs, authorisation dates (15 and 25 March 2026) and the four risk tiers. The 14 March 2026 public release date rests on Digital Policy Alert; MCIT's own publication pages render only through scripts and could not be read.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:45:25Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/EG-02/2026-10-11/official.pdf",
+      "url": "https://ai.gov.eg/SynchedFiles/ar/Resources/Guide%20to%20Egypt%E2%80%99s%20National%20AI%20Governance%20Framework%2015-3-2026.pdf",
+      "final_url": "https://ai.gov.eg/SynchedFiles/ar/Resources/Guide%20to%20Egypt%E2%80%99s%20National%20AI%20Governance%20Framework%2015-3-2026.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 1805890,
+      "sha256": "491cf412b207a877cde1d17f899cee1d87ffa1d88c05f14a62eda9734580c37e",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:45:34Z",
+      "last_checked": "2026-10-11T19:45:34Z",
+      "method": "http",
+      "last_modified": "Wed, 18 Mar 2026 09:14:21 GMT",
+      "etag": "\"1fb619bb7b6dc1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/EG-02/2026-10-11/secondary.pdf",
+      "url": "https://ai.gov.eg/SynchedFiles/ar/Resources/Egypt%20National%20Guidelines%20for%20Trustworthy%20and%20Responsible%20AI.pdf",
+      "final_url": "https://ai.gov.eg/SynchedFiles/ar/Resources/Egypt%20National%20Guidelines%20for%20Trustworthy%20and%20Responsible%20AI.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 3425606,
+      "sha256": "bd52908b1a6d630c5f033af1989926630af0109ae9132bb3c797f9b16dbf3ccb",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:45:53Z",
+      "last_checked": "2026-10-11T19:45:53Z",
+      "method": "http",
+      "last_modified": "Wed, 24 Jun 2026 09:49:18 GMT",
+      "etag": "\"6bc46db9be3dd1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://ai.gov.eg/SynchedFiles/ar/Resources/Guide%20to%20Egypt%E2%80%99s%20National%20AI%20Governance%20Framework%2015-3-2026.pdf",
+      "attempted_at": "2026-10-11T19:45:34Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://ai.gov.eg/SynchedFiles/ar/Resources/Egypt%20National%20Guidelines%20for%20Trustworthy%20and%20Responsible%20AI.pdf",
+      "attempted_at": "2026-10-11T19:45:53Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ],
+    "integrity_flag": null
+   }
+  },
+  {
+   "id": "EG-03",
+   "slug": "eg-national-generative-ai-guidelines-2026",
+   "title": "Egypt's National Generative AI Guidelines",
+   "original_title": null,
+   "short_title": "Egypt Generative AI Guidelines (2026)",
+   "jurisdiction": "Egypt",
+   "country": "Egypt",
+   "jurisdiction_level": "National",
+   "region": "Middle East & North Africa",
+   "issuing_body": "National Council for Artificial Intelligence, Quantum Computing, and Emerging Technologies (NCAI); developed under the Ministry of Communications and Information Technology with the Egyptian Center for Responsible AI",
+   "instrument_type": "Guidelines / framework",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2026-03",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": "Version 1.0",
+   "official_url": "https://ai.gov.eg/SynchedFiles/ar/Resources/EGYPT%20National%20Guidlines%20for%20Generative%20AI.pdf",
+   "secondary_url": "https://mcit.gov.eg/en/Artificial_Intelligence",
+   "language": "English",
+   "summary": "Guidelines for the safe and trustworthy development and use of generative AI in Egypt's public and private sectors, approved by the National Council as part of the 2026 governance framework. They address misinformation and deepfakes, hallucinations and inaccurate outputs, privacy, misuse and intellectual property, and set expectations on human oversight and decision authority, disclosure of AI-generated content (visible notices or provenance mechanisms such as metadata and watermarking), restrictions in high-risk contexts, accountability across the AI life cycle and incident monitoring. The document states it was drafted with generative AI tools and reviewed by humans.",
+   "safety_topics": [
+    "general-purpose / frontier AI",
+    "deepfakes & synthetic media",
+    "transparency & labelling",
+    "human oversight",
+    "incident reporting"
+   ],
+   "related": [
+    {
+     "id": "EG-01",
+     "slug": "eg-charter-for-responsible-ai-2023"
+    },
+    {
+     "id": "EG-02",
+     "slug": "eg-national-ai-governance-framework-guide-2026"
+    }
+   ],
+   "notes": "Dated March 2026 (version 1.0) with no exact day; a policy tracker gives 14 March 2026 as the release date. Listed on MCIT's AI page as 'Egypt National Generative AI Guidelines' together with the governance framework guide and the trustworthy AI guidelines. The guidelines treat lip-sync and similar synthetic-media capabilities as high-risk enabling capabilities requiring disclosure and labelling.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Guidelines PDF (52 pages) downloaded from ai.gov.eg and read; MCIT's Artificial Intelligence page fetched; Digital Policy Alert entry fetched.",
+    "note": "The PDF confirms title, version 1.0, March 2026, the Council's approval and the content on hallucinations, disclosure, human oversight and high-risk restrictions. The 14 March 2026 release date rests on Digital Policy Alert.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": "The secondary source could not be downloaded (robots.txt returned HTTP 500, which RFC 9309 treats as 'do not crawl').",
+    "last_attempt": "2026-10-11T19:45:53Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/EG-03/2026-10-11/official.pdf",
+      "url": "https://ai.gov.eg/SynchedFiles/ar/Resources/EGYPT%20National%20Guidlines%20for%20Generative%20AI.pdf",
+      "final_url": "https://ai.gov.eg/SynchedFiles/ar/Resources/EGYPT%20National%20Guidlines%20for%20Generative%20AI.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 3894773,
+      "sha256": "793815b574bdaee85a7a294da2b63c698a2ddf65eb8d2a03d7276729eda042f9",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:46:16Z",
+      "last_checked": "2026-10-11T19:46:16Z",
+      "method": "http",
+      "last_modified": "Wed, 01 Apr 2026 09:03:22 GMT",
+      "etag": "\"9c2a64b6c1dc1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://ai.gov.eg/SynchedFiles/ar/Resources/EGYPT%20National%20Guidlines%20for%20Generative%20AI.pdf",
+      "attempted_at": "2026-10-11T19:46:16Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://mcit.gov.eg/en/Artificial_Intelligence",
+      "attempted_at": "2026-10-11T19:46:16Z",
+      "ok": false,
+      "http_status": null,
+      "error": "robots.txt returned HTTP 500, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     }
+    ],
+    "integrity_flag": null
+   }
+  },
+  {
+   "id": "EG-04",
+   "slug": "eg-national-ai-strategy-second-edition-2025",
+   "title": "Egypt National Artificial Intelligence Strategy, Second Edition (2025-2030)",
+   "original_title": null,
+   "short_title": "Egypt National AI Strategy 2.0 (2025-2030)",
+   "jurisdiction": "Egypt",
+   "country": "Egypt",
+   "jurisdiction_level": "National",
+   "region": "Middle East & North Africa",
+   "issuing_body": "National Council for Artificial Intelligence (NCAI); Ministry of Communications and Information Technology",
+   "instrument_type": "Strategy / action plan",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2025-01",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://ai.gov.eg/SynchedFiles/en/Resources/AIstrategy%20English%2016-1-2025-1.pdf",
+   "secondary_url": "https://mcit.gov.eg/en/Artificial_Intelligence",
+   "language": "Arabic, English",
+   "summary": "Second edition of Egypt's national AI strategy, built on six pillars (governance, technology, data, infrastructure, ecosystem, talent). The governance pillar serves the objective 'Ensure Ethical and Responsible AI Use' through two initiatives: an 'Egypt National AI Regulatory System' (a comprehensive and adaptive regulatory system, regulations for AI testing and deployment to ensure safety and ethics, and an AI assurance framework across sectors) and global and regional AI dialogues including unified Arab AI standards. It lists the 2023 Charter for Responsible AI among existing governance elements; the March 2026 governance framework implements this pillar.",
+   "safety_topics": [
+    "evaluation & testing",
+    "international cooperation",
+    "accountability & liability"
+   ],
+   "related": [
+    {
+     "id": "EG-01",
+     "slug": "eg-charter-for-responsible-ai-2023"
+    },
+    {
+     "id": "EG-02",
+     "slug": "eg-national-ai-governance-framework-guide-2026"
+    }
+   ],
+   "notes": "The PDF file name on ai.gov.eg carries the date 16 January 2025 and press reports date the release to January 2025; the document itself gives no exact day. Most of the strategy concerns economic targets for 2030 (for example 7.7% ICT contribution to GDP, 250 AI start-ups and 30,000 trained specialists); it is recorded because its governance pillar commits to a national AI regulatory system and safety-oriented rules for AI testing and deployment.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Strategy PDF (52 pages) downloaded from ai.gov.eg and the governance pillar read; MCIT's Artificial Intelligence page, which lists the strategy, fetched.",
+    "note": "Title, edition, 2025-2030 period, issuing bodies and the governance-pillar initiatives confirmed from the PDF. The January 2025 release date rests on the file name and press reports; MCIT's publication page for the strategy renders only through scripts.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": "The secondary source could not be downloaded (robots.txt returned HTTP 500, which RFC 9309 treats as 'do not crawl').",
+    "last_attempt": "2026-10-11T19:46:11Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/EG-04/2026-10-11/official.pdf",
+      "url": "https://ai.gov.eg/SynchedFiles/en/Resources/AIstrategy%20English%2016-1-2025-1.pdf",
+      "final_url": "https://ai.gov.eg/SynchedFiles/en/Resources/AIstrategy%20English%2016-1-2025-1.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 10723962,
+      "sha256": "4e5739e811831c8da71e9a649f9709302939833e03fbbd026123455a441e2060",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:47:21Z",
+      "last_checked": "2026-10-11T19:47:21Z",
+      "method": "http",
+      "last_modified": "Thu, 16 Jan 2025 10:21:56 GMT",
+      "etag": "\"58133278068db1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://ai.gov.eg/SynchedFiles/en/Resources/AIstrategy%20English%2016-1-2025-1.pdf",
+      "attempted_at": "2026-10-11T19:47:21Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://mcit.gov.eg/en/Artificial_Intelligence",
+      "attempted_at": "2026-10-11T19:47:21Z",
+      "ok": false,
+      "http_status": null,
+      "error": "robots.txt returned HTTP 500, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     }
+    ],
+    "integrity_flag": null
+   }
+  },
+  {
+   "id": "TR-01",
+   "slug": "tr-ai-bill-2-2234-2024",
+   "title": "Artificial Intelligence Bill (Yapay Zeka Kanun Teklifi, 2/2234)",
+   "original_title": "Yapay Zeka Kanun Teklifi",
+   "short_title": "Türkiye AI Bill 2/2234 (2024)",
+   "jurisdiction": "Türkiye",
+   "country": "Türkiye",
+   "jurisdiction_level": "National",
+   "region": "Middle East & North Africa",
+   "issuing_body": "Grand National Assembly of Türkiye (TBMM); private member's bill by Ömer Faruk Gergerlioğlu (Peoples' Equality and Democracy Party, Kocaeli)",
+   "instrument_type": "Bill / draft law",
+   "legal_force": "Proposed",
+   "status": "Draft / proposed",
+   "date_published": "2024-06-24",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": "TBMM Esas No. 2/2234 (28th term, 2nd legislative year)",
+   "official_url": "https://www.tbmm.gov.tr/Yasama/KanunTeklifi/e21539a0-888a-4500-81be-01904a918c53",
+   "secondary_url": "https://cdn.tbmm.gov.tr/KKBSPublicFile/D28/Y2/T2/WebOnergeMetni/e50ccc8a-ab90-45fa-a553-76b880c78fb8.pdf",
+   "language": "Turkish",
+   "summary": "Eight-article private member's bill, the first AI bill submitted to the Turkish parliament. It defines AI and AI operators (providers, deployers or users, importers, distributors), requires development, use and distribution to follow principles of security, transparency, fairness, accountability and privacy, mandates risk assessment with special measures for high-risk systems, which must be registered with supervisory authorities and undergo conformity assessment, empowers those authorities to audit compliance, and sets EU-style fines: up to TRY 35 million or 7% of turnover for prohibited practices, TRY 15 million or 3% for breaches and TRY 7.5 million or 1.5% for false information.",
+   "safety_topics": [
+    "risk-based classification",
+    "accountability & liability",
+    "prohibited practices",
+    "evaluation & testing"
+   ],
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    },
+    {
+     "id": "TR-02",
+     "slug": "tr-ai-criminal-code-amendments-bill-2-3358-2025"
+    }
+   ],
+   "notes": "Received by the TBMM Presidency on 24 June 2024 and referred on 25 June 2024 to the Industry, Trade, Energy, Natural Resources, Information and Technology Committee (lead) and the Justice Committee; the TBMM record shows the status 'in committee' with no further action as of October 2026. Commentators note that it does not define high-risk systems, name the supervisory authority or list the prohibited practices it penalises. A second, broader private member's bill (2/3358) was submitted in November 2025.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "TBMM bill page fetched (title, number, receipt date, committee referrals, status, sponsor) and the bill text PDF (14 pages) downloaded from cdn.tbmm.gov.tr and read.",
+    "note": "Official page and PDF confirm title, date, sponsor, the eight articles, the fine levels and the 'in committee' status. Nothing rests on secondary sources except the characterisation of the bill as the first AI bill in Türkiye (law-firm commentary).",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:46:16Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/TR-01/2026-10-11/official.html",
+      "url": "https://www.tbmm.gov.tr/Yasama/KanunTeklifi/e21539a0-888a-4500-81be-01904a918c53",
+      "final_url": "https://www.tbmm.gov.tr/Yasama/KanunTeklifi/e21539a0-888a-4500-81be-01904a918c53",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 62336,
+      "sha256": "581acedf1bd552c982b1578386e7a9c116c3acc4655cb92f8dfc9bb350fd90bb",
+      "text_sha256": "3e2559be048fa2d2138b97c542dab5acbb6555b25c216fd91e2c238f6929101e",
+      "retrieved_at": "2026-10-11T19:46:19Z",
+      "last_checked": "2026-10-11T19:46:19Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/TR-01/2026-10-11/document-1.pdf",
+      "url": "https://cdn.tbmm.gov.tr/KKBSPublicFile/D28/Y2/T2/WebOnergeMetni/e50ccc8a-ab90-45fa-a553-76b880c78fb8.pdf",
+      "final_url": "https://cdn.tbmm.gov.tr/KKBSPublicFile/D28/Y2/T2/WebOnergeMetni/e50ccc8a-ab90-45fa-a553-76b880c78fb8.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 553173,
+      "sha256": "2c05eee92104215df4f82e22b87256c3c180a9b734ae7f3d6a795a517bccc42d",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:46:22Z",
+      "last_checked": "2026-10-11T19:46:22Z",
+      "method": "http",
+      "last_modified": "Tue, 25 Jun 2024 14:33:01 GMT",
+      "etag": "\"2c54c294cc7da1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/TR-01/2026-10-11/document-2.pdf",
+      "url": "https://www.tbmm.gov.tr/Files/CerezAydinlatmaMetni.pdf",
+      "final_url": "https://www.tbmm.gov.tr/Files/CerezAydinlatmaMetni.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 382434,
+      "sha256": "e0241481b442b22f870af4936787f649d1202d05142a0bfdcd4918e1401ae962",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:46:23Z",
+      "last_checked": "2026-10-11T19:46:23Z",
+      "method": "http",
+      "last_modified": "Thu, 05 Dec 2024 14:26:53 GMT",
+      "etag": "\"d1c8ba2147db1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/TR-01/2026-10-11/secondary.pdf",
+      "url": "https://cdn.tbmm.gov.tr/KKBSPublicFile/D28/Y2/T2/WebOnergeMetni/e50ccc8a-ab90-45fa-a553-76b880c78fb8.pdf",
+      "final_url": "https://cdn.tbmm.gov.tr/KKBSPublicFile/D28/Y2/T2/WebOnergeMetni/e50ccc8a-ab90-45fa-a553-76b880c78fb8.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 553173,
+      "sha256": "2c05eee92104215df4f82e22b87256c3c180a9b734ae7f3d6a795a517bccc42d",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:46:25Z",
+      "last_checked": "2026-10-11T19:46:25Z",
+      "method": "http",
+      "last_modified": "Tue, 25 Jun 2024 14:33:01 GMT",
+      "etag": "\"2c54c294cc7da1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.tbmm.gov.tr/Yasama/KanunTeklifi/e21539a0-888a-4500-81be-01904a918c53",
+      "attempted_at": "2026-10-11T19:46:19Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://cdn.tbmm.gov.tr/KKBSPublicFile/D28/Y2/T2/WebOnergeMetni/e50ccc8a-ab90-45fa-a553-76b880c78fb8.pdf",
+      "attempted_at": "2026-10-11T19:46:22Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.tbmm.gov.tr/Files/CerezAydinlatmaMetni.pdf",
+      "attempted_at": "2026-10-11T19:46:23Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://cdn.tbmm.gov.tr/KKBSPublicFile/D28/Y2/T2/WebOnergeMetni/e50ccc8a-ab90-45fa-a553-76b880c78fb8.pdf",
+      "attempted_at": "2026-10-11T19:46:25Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ],
+    "integrity_flag": null
+   }
+  },
+  {
+   "id": "TR-02",
+   "slug": "tr-ai-criminal-code-amendments-bill-2-3358-2025",
+   "title": "Bill Amending the Turkish Penal Code No. 5237 and Certain Laws (artificial intelligence provisions, 2/3358)",
+   "original_title": "5237 Sayılı ve 26/9/2004 Tarihli Türk Ceza Kanunu ve Bazı Kanunlarda Değişiklik Yapılmasına Dair Kanun Teklifi",
+   "short_title": "Türkiye AI amendments bill 2/3358 (deepfake labelling)",
+   "jurisdiction": "Türkiye",
+   "country": "Türkiye",
+   "jurisdiction_level": "National",
+   "region": "Middle East & North Africa",
+   "issuing_body": "Grand National Assembly of Türkiye (TBMM); private member's bill by Halil Öztürk (Nationalist Movement Party, Kırıkkale)",
+   "instrument_type": "Bill / draft law",
+   "legal_force": "Proposed",
+   "status": "Draft / proposed",
+   "date_published": "2025-11-07",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": "TBMM Esas No. 2/3358 (28th term, 4th legislative year)",
+   "official_url": "https://cdn.tbmm.gov.tr/KKBSPublicFile/D28/Y4/T2/WebOnergeMetni/5b8d2dc6-9dee-41e8-98c6-ee5b28ca9608.pdf",
+   "secondary_url": "https://www.morogluarseven.com/insights/ma-gazette-en/ma-gazette-edition-156-18-december-2025-en/draft-law-proposing-amendments-to-certain-laws-regarding-artificial-intelligence-submitted-to-the-turkish-grand-national-assembly/",
+   "language": "Turkish",
+   "summary": "Private member's bill amending the Penal Code, Internet Law No. 5651, Data Protection Law No. 6698, Electronic Communications Law No. 5809 and Cybersecurity Law No. 7545. As summarised by a Turkish law firm, it defines AI systems, treats a person who directs an AI system to commit a crime as the perpetrator, requires removal or blocking within six hours of AI content that violates personal rights, endangers public security or is a deepfake, mandates a non-removable 'Generated by Artificial Intelligence' label on deepfakes (fines of TRY 500,000 to 5 million), sets provider duties (traceable training data, hallucination controls, human oversight) and gives the ICT Authority blocking powers.",
+   "safety_topics": [
+    "deepfakes & synthetic media",
+    "transparency & labelling",
+    "accountability & liability",
+    "human oversight",
+    "evaluation & testing"
+   ],
+   "related": [
+    {
+     "id": "TR-01",
+     "slug": "tr-ai-bill-2-2234-2024"
+    }
+   ],
+   "notes": "The bill text (signed 23 July 2025) bears the TBMM registry stamps '07 Kasım 2025' (receipt) and 'Tarih: 10-11-2025, Esas No: 2/3358', with the Industry, Trade, Energy, Natural Resources, Information and Technology Committee as lead committee and the Justice and Digital Media committees as secondary committees. A policy tracker lists it as introduced on 7 November 2025 and under deliberation; the sponsor publicised it in September 2025, and Turkish press reports describe it as an 11-article bill. No committee report or vote was found as of October 2026. The scanned PDF has no text layer; its cover was read by OCR.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Official bill PDF (7 pages) downloaded from cdn.tbmm.gov.tr; cover and TBMM registry stamps read by OCR; Moroğlu Arseven summary and Digital Policy Alert entry fetched for content and status.",
+    "note": "The PDF confirms title, sponsor, signature date and TBMM registration (receipt 7 November 2025, Esas No. 2/3358 dated 10 November 2025, committee referrals). The TBMM bill web page could not be located. The article-by-article content rests on the law-firm summary and Turkish press reports and was not read from the scanned text.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:46:25Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/TR-02/2026-10-11/official.pdf",
+      "url": "https://cdn.tbmm.gov.tr/KKBSPublicFile/D28/Y4/T2/WebOnergeMetni/5b8d2dc6-9dee-41e8-98c6-ee5b28ca9608.pdf",
+      "final_url": "https://cdn.tbmm.gov.tr/KKBSPublicFile/D28/Y4/T2/WebOnergeMetni/5b8d2dc6-9dee-41e8-98c6-ee5b28ca9608.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 350854,
+      "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:46:28Z",
+      "last_checked": "2026-10-11T19:46:28Z",
+      "method": "http",
+      "last_modified": "Mon, 10 Nov 2025 08:27:30 GMT",
+      "etag": "\"fbf79db1b52dc1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/TR-02/2026-10-11/secondary.html",
+      "url": "https://www.morogluarseven.com/insights/ma-gazette-en/ma-gazette-edition-156-18-december-2025-en/draft-law-proposing-amendments-to-certain-laws-regarding-artificial-intelligence-submitted-to-the-turkish-grand-national-assembly/",
+      "final_url": "https://www.morogluarseven.com/insights/ma-gazette-en/ma-gazette-edition-156-18-december-2025-en/draft-law-proposing-amendments-to-certain-laws-regarding-artificial-intelligence-submitted-to-the-turkish-grand-national-assembly/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 145187,
+      "sha256": "3a083aca14527dcb72721f1bc4c121cd18fc3d867f3bb85c3c5e101feec2271d",
+      "text_sha256": "f2c8e65f158863b5df9bccff19cc8d8dcdf82bc8c498ff95ed7e82d2a4eff45c",
+      "retrieved_at": "2026-10-11T19:46:31Z",
+      "last_checked": "2026-10-11T19:46:31Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://cdn.tbmm.gov.tr/KKBSPublicFile/D28/Y4/T2/WebOnergeMetni/5b8d2dc6-9dee-41e8-98c6-ee5b28ca9608.pdf",
+      "attempted_at": "2026-10-11T19:46:28Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.morogluarseven.com/insights/ma-gazette-en/ma-gazette-edition-156-18-december-2025-en/draft-law-proposing-amendments-to-certain-laws-regarding-artificial-intelligence-submitted-to-the-turkish-grand-national-assembly/",
+      "attempted_at": "2026-10-11T19:46:31Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ],
+    "integrity_flag": null
+   }
+  },
+  {
+   "id": "QA-01",
+   "slug": "qa-mcit-ai-ethics-principles-guidelines-2024",
+   "title": "Artificial Intelligence in Qatar: Principles and Guidelines for Ethical Development and Deployment",
+   "original_title": null,
+   "short_title": "Qatar MCIT ethical AI development guidelines",
+   "jurisdiction": "Qatar",
+   "country": "Qatar",
+   "jurisdiction_level": "National",
+   "region": "Middle East & North Africa",
+   "issuing_body": "Ministry of Communications and Information Technology (MCIT)",
+   "instrument_type": "Guidelines / framework",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2024-05-16",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://www.sharek.gov.qa/en/conversations/forum-communication-and-it/artificial-intelligence-in-qatarprinciples-and-guidelines-for-ethical-use/66459f29a539ca547cb4f702",
+   "secondary_url": "https://prod16-assets.sprinklr.com/prod16-cdata/DAM/160136/33fb390b-d120-47f2-8708-532dcb1e15c3-1252740832/MCIT_National_AI_Strategy_-_AI.pdf",
+   "language": "English",
+   "summary": "Voluntary, legally non-binding guidance from Qatar's MCIT for organisations developing or deploying AI systems that affect the public, published with a companion document for AI users. It sets eight principles: do no harm; ensure system robustness, security and safety; avoid perpetuating bias and discrimination; protect the environment; safeguard privacy; promote transparency; develop a human-centred approach; and assign ultimate accountability to humans, each with practical guidelines such as risk and impact assessments at design and deployment, testing and monitoring, and disclosure to affected people. MCIT states that the documents will be updated every one to two years.",
+   "safety_topics": [
+    "accountability & liability",
+    "evaluation & testing",
+    "transparency & labelling",
+    "human oversight"
+   ],
+   "related": [],
+   "notes": "Posted on the government e-participation portal Sharek on 16 May 2024 together with 'Artificial Intelligence in Qatar: Principles and Guidelines for Ethical Use' (six principles for users of AI systems). MCIT's AI Committee page and a November 2024 edition of the ethical-use guidelines are hosted on mcit.gov.qa, which was showing a maintenance page in October 2026. A Qatar News Agency report of May 2025 describes both documents as MCIT's ethical AI frameworks. Qatar's 2019 National AI Strategy, the National Cyber Security Agency's 2024 guidelines on secure AI adoption and the Qatar Central Bank's 2024 AI guideline for licensed financial institutions are not recorded here.",
+   "verification": {
+    "level": "B",
+    "verified_on": "2026-10-11",
+    "method": "Sharek (Hukoomi) forum page fetched; both guideline PDFs attached there downloaded and read; Qatar News Agency report of 25 May 2025 fetched.",
+    "note": "mcit.gov.qa (AI Committee page, guidelines page and PDF links) returned a maintenance page or HTTP 500, so the MCIT-hosted originals could not be fetched; title, scope, non-binding status, the eight principles and the 16 May 2024 posting date come from the official Sharek portal and its attachments. Trackers give conflicting dates (2024 publication; 8 May 2025 'effective').",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:46:26Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/QA-01/2026-10-11/official.html",
+      "url": "https://www.sharek.gov.qa/en/conversations/forum-communication-and-it/artificial-intelligence-in-qatarprinciples-and-guidelines-for-ethical-use/66459f29a539ca547cb4f702",
+      "final_url": "https://www.sharek.gov.qa/en/conversations/forum-communication-and-it/artificial-intelligence-in-qatarprinciples-and-guidelines-for-ethical-use/66459f29a539ca547cb4f702",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 223429,
+      "sha256": "eee23e04c95a3392284aa73fcb83aba71707ea7c4b48725e9dab4d64b6322d21",
+      "text_sha256": "12ad99776b1737860dc5efb50be29daabd823ba3dea36d927676004d74620aaa",
+      "retrieved_at": "2026-10-11T19:46:29Z",
+      "last_checked": "2026-10-11T19:46:29Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/QA-01/2026-10-11/secondary.pdf",
+      "url": "https://prod16-assets.sprinklr.com/prod16-cdata/DAM/160136/33fb390b-d120-47f2-8708-532dcb1e15c3-1252740832/MCIT_National_AI_Strategy_-_AI.pdf",
+      "final_url": "https://prod16-assets.sprinklr.com/prod16-cdata/DAM/160136/33fb390b-d120-47f2-8708-532dcb1e15c3-1252740832/MCIT_National_AI_Strategy_-_AI.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 494106,
+      "sha256": "cd255ff29ad1426f2399ac9b4a8ff96c1d7ad80598582684d5949e5780e432b2",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:46:32Z",
+      "last_checked": "2026-10-11T19:46:32Z",
+      "method": "http",
+      "last_modified": "Thu, 16 May 2024 05:12:49 GMT",
+      "etag": "0x8DC7566D4F6094B",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.sharek.gov.qa/en/conversations/forum-communication-and-it/artificial-intelligence-in-qatarprinciples-and-guidelines-for-ethical-use/66459f29a539ca547cb4f702",
+      "attempted_at": "2026-10-11T19:46:29Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://prod16-assets.sprinklr.com/prod16-cdata/DAM/160136/33fb390b-d120-47f2-8708-532dcb1e15c3-1252740832/MCIT_National_AI_Strategy_-_AI.pdf",
+      "attempted_at": "2026-10-11T19:46:32Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ],
+    "integrity_flag": null
+   }
+  },
+  {
+   "id": "JO-01",
+   "slug": "jo-national-ai-code-of-ethics-2022",
+   "title": "The National Artificial Intelligence Code of Ethics (National Charter for Artificial Intelligence Ethics)",
+   "original_title": "الميثاق الوطني لأخلاقيات الذكاء الاصطناعي",
+   "short_title": "Jordan National AI Ethics Charter",
+   "jurisdiction": "Jordan",
+   "country": "Jordan",
+   "jurisdiction_level": "National",
+   "region": "Middle East & North Africa",
+   "issuing_body": "Ministry of Digital Economy and Entrepreneurship (MoDEE); approved by the Council of Ministers",
+   "instrument_type": "Guidelines / framework",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2022-08-03",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://modee.gov.jo/ebv4.0/root_storage/en/eb_list_page/%D8%A7%D9%84%D9%86%D8%B3%D8%AE%D8%A9_%D8%A7%D9%84%D9%86%D9%87%D8%A7%D8%A6%D9%8A%D8%A9_-_%D9%85%D9%8A%D8%AB%D8%A7%D9%82_%D8%A7%D9%84%D8%A7%D8%AE%D9%84%D8%A7%D9%82%D9%8A%D8%A7%D8%AA_-_%D8%A7%D9%84%D9%85%D9%82%D8%B1%D8%A9_%D9%85%D9%86_%D8%A7%D9%84%D8%B1%D8%A6%D8%A7%D8%B3%D8%A93-8-2022_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9-0.pdf",
+   "secondary_url": "https://modee.gov.jo/en/pages/aicustompage",
+   "language": "Arabic, English",
+   "summary": "Bilingual charter prepared by a MoDEE-chaired technical committee under the Jordanian AI Policy 2020 and approved by the Cabinet in August 2022. It sets eight ethical principles for the responsible use of AI (humanity and society; inclusiveness and justice; privacy and data; transparency; responsibility and accountability; reliability; integrity and non-fakeness; environment and sustainability), adds principles for virtual environments and the metaverse and for AI research ethics, describes the health, societal, rights-related and economic risks of non-compliance, and gives compliance guidelines. It addresses public and private institutions, civil society and individuals.",
+   "safety_topics": [
+    "accountability & liability",
+    "transparency & labelling",
+    "deepfakes & synthetic media",
+    "human oversight"
+   ],
+   "related": [
+    {
+     "id": "UNESCO-01",
+     "slug": "unesco-recommendation-ethics-ai"
+    }
+   ],
+   "notes": "A draft was published for consultation on 10 February 2022 with comments due by 1 March 2022. The final bilingual PDF on modee.gov.jo is filed as the version approved by the Prime Ministry on 3-8-2022, and the Jordan News Agency reported Cabinet approval of the 'National Charter for Artificial Intelligence Ethics' on 3 August 2022. Jordan's AI Strategy and Implementation Plan 2023-2027 (approved by the Council of Ministers in October 2022; modee.gov.jo PDF 40435648.pdf) commits under its objective on a regulatory environment for safe AI deployment to a follow-up system for compliance with the charter; it is not recorded separately because its safety content is limited to that objective.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Final bilingual PDF (32 pages) downloaded from modee.gov.jo and read; MoDEE's AI page (which lists the code of ethics) and its February 2022 consultation news page fetched; the 2023-2027 strategy PDF downloaded for context.",
+    "note": "The PDF and MoDEE pages confirm title, issuer, structure and content; the 3 August 2022 approval date comes from the official file name and a Petra news item seen in search results (the Petra page itself returned HTTP 522).",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:46:28Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/JO-01/2026-10-11/official.pdf",
+      "url": "https://modee.gov.jo/ebv4.0/root_storage/en/eb_list_page/%D8%A7%D9%84%D9%86%D8%B3%D8%AE%D8%A9_%D8%A7%D9%84%D9%86%D9%87%D8%A7%D8%A6%D9%8A%D8%A9_-_%D9%85%D9%8A%D8%AB%D8%A7%D9%82_%D8%A7%D9%84%D8%A7%D8%AE%D9%84%D8%A7%D9%82%D9%8A%D8%A7%D8%AA_-_%D8%A7%D9%84%D9%85%D9%82%D8%B1%D8%A9_%D9%85%D9%86_%D8%A7%D9%84%D8%B1%D8%A6%D8%A7%D8%B3%D8%A93-8-2022_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9-0.pdf",
+      "final_url": "https://modee.gov.jo/ebv4.0/root_storage/en/eb_list_page/%D8%A7%D9%84%D9%86%D8%B3%D8%AE%D8%A9_%D8%A7%D9%84%D9%86%D9%87%D8%A7%D8%A6%D9%8A%D8%A9_-_%D9%85%D9%8A%D8%AB%D8%A7%D9%82_%D8%A7%D9%84%D8%A7%D8%AE%D9%84%D8%A7%D9%82%D9%8A%D8%A7%D8%AA_-_%D8%A7%D9%84%D9%85%D9%82%D8%B1%D8%A9_%D9%85%D9%86_%D8%A7%D9%84%D8%B1%D8%A6%D8%A7%D8%B3%D8%A93-8-2022_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9-0.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 1057566,
+      "sha256": "3c7a8553a9cb1dd99f1271f4140c8d0e61112023598c6c453c3abbbbbd69e605",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:46:37Z",
+      "last_checked": "2026-10-11T19:46:37Z",
+      "method": "http",
+      "last_modified": "Thu, 20 Oct 2022 07:21:06 GMT",
+      "etag": "\"4518a18454e4d81:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/JO-01/2026-10-11/secondary.html",
+      "url": "https://modee.gov.jo/en/pages/aicustompage",
+      "final_url": "https://modee.gov.jo/en/pages/aicustompage",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 212289,
+      "sha256": "2e3c7dcffd0657c154393d41d23a100e775b25ee1912773022475b0e23f014c6",
+      "text_sha256": "8087bc399430f73a0a688c6f3e1507253cdf5553a37580cd68bcb5a86c9e72b2",
+      "retrieved_at": "2026-10-11T19:46:40Z",
+      "last_checked": "2026-10-11T19:46:40Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://modee.gov.jo/ebv4.0/root_storage/en/eb_list_page/%D8%A7%D9%84%D9%86%D8%B3%D8%AE%D8%A9_%D8%A7%D9%84%D9%86%D9%87%D8%A7%D8%A6%D9%8A%D8%A9_-_%D9%85%D9%8A%D8%AB%D8%A7%D9%82_%D8%A7%D9%84%D8%A7%D8%AE%D9%84%D8%A7%D9%82%D9%8A%D8%A7%D8%AA_-_%D8%A7%D9%84%D9%85%D9%82%D8%B1%D8%A9_%D9%85%D9%86_%D8%A7%D9%84%D8%B1%D8%A6%D8%A7%D8%B3%D8%A93-8-2022_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9-0.pdf",
+      "attempted_at": "2026-10-11T19:46:37Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://modee.gov.jo/en/pages/aicustompage",
+      "attempted_at": "2026-10-11T19:46:40Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ],
+    "integrity_flag": null
+   }
+  },
+  {
+   "id": "GH-01",
+   "slug": "gh-national-ai-strategy-2025-2035",
+   "title": "Republic of Ghana National Artificial Intelligence Strategy 2025-2035",
+   "original_title": null,
+   "short_title": "Ghana National AI Strategy 2025-2035",
+   "jurisdiction": "Ghana",
+   "country": "Ghana",
+   "jurisdiction_level": "National",
+   "region": "Sub-Saharan Africa",
+   "issuing_body": "Ministry of Communication, Digital Technology and Innovations",
+   "instrument_type": "Strategy / action plan",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2025-12",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://moc.gov.gh/wp-content/uploads/2023/03/National-Artificial-Intelligence-Strategy.pdf",
+   "secondary_url": "https://gna.org.gh/2026/04/ghana-to-invest-250m-in-ai-centre-launch-national-strategy/",
+   "language": "English",
+   "summary": "Ten-year strategy ('Ghana 2035: The AI-Powered Society') with eight pillars: AI education, youth jobs, digital infrastructure, data access and governance, ecosystem coordination, sectoral adoption, applied research and public-sector adoption. It aligns with the UNESCO Recommendation on the Ethics of AI, contains a 'Risks of AI' analysis (bias, cybersecurity, privacy, safety, inequality), and proposes a Responsible AI Authority or National AI Office with a legal mandate for coordination, incident reporting and oversight of AI system qualification, a soft guideline-based regulatory approach, possible mandatory insurance for high-risk AI outputs, and safe-AI guidance for developers.",
+   "safety_topics": [
+    "incident reporting",
+    "accountability & liability",
+    "public-sector use",
+    "research priorities"
+   ],
+   "related": [
+    {
+     "id": "AU-01",
+     "slug": "au-continental-ai-strategy"
+    },
+    {
+     "id": "UNESCO-01",
+     "slug": "unesco-recommendation-ethics-ai"
+    }
+   ],
+   "notes": "The document is dated December 2025 on its cover and was launched by President John Dramani Mahama in Accra on 24 April 2026, when a USD 250 million AI computing centre and USD 20 million for implementation were announced. Press reports say the ministry is drafting an Emerging Technologies Bill to provide a legal framework for AI; no bill text was found. The strategy PDF is hosted at moc.gov.gh (the '2023/03' in the path is the upload folder, not the document date). Earlier drafts were consulted on from April 2025.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Strategy PDF (84 pages) downloaded from moc.gov.gh and read; Ghana News Agency report of 24 April 2026 on the launch fetched.",
+    "note": "The PDF confirms title, issuing ministry, December 2025 date, the eight pillars, the risk analysis and the Responsible AI Authority proposal. The launch date comes from the state news agency; the Information Services Department page on the launch could not be reached. moc.gov.gh answered two of three repeat requests for the PDF (HTTP 200, 10.7 MB) and timed out on the third, so automated archiving may need retries.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:46:31Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/GH-01/2026-10-11/official.pdf",
+      "url": "https://moc.gov.gh/wp-content/uploads/2023/03/National-Artificial-Intelligence-Strategy.pdf",
+      "final_url": "https://moc.gov.gh/wp-content/uploads/2023/03/National-Artificial-Intelligence-Strategy.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 10661981,
+      "sha256": "7c2856022e5c04ee3591b7a2f8b799f249137bc00115ce104fedf69c38dbae29",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:47:35Z",
+      "last_checked": "2026-10-11T19:47:35Z",
+      "method": "http",
+      "last_modified": "Tue, 14 Jul 2026 11:16:48 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/GH-01/2026-10-11/secondary.html",
+      "url": "https://gna.org.gh/2026/04/ghana-to-invest-250m-in-ai-centre-launch-national-strategy/",
+      "final_url": "https://gna.org.gh/2026/04/ghana-to-invest-250m-in-ai-centre-launch-national-strategy/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 125561,
+      "sha256": "3ee689ca224713cbf21f3346c6e4483d097c0fd5e636b3468e5fafd584911fc0",
+      "text_sha256": "e2f3c693f2f8ee00f77d3f57a893e72ac39733ac32c91e3bc55c07c2b8b02e9f",
+      "retrieved_at": "2026-10-11T19:47:38Z",
+      "last_checked": "2026-10-11T19:47:38Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://moc.gov.gh/wp-content/uploads/2023/03/National-Artificial-Intelligence-Strategy.pdf",
+      "attempted_at": "2026-10-11T19:47:35Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://gna.org.gh/2026/04/ghana-to-invest-250m-in-ai-centre-launch-national-strategy/",
+      "attempted_at": "2026-10-11T19:47:38Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ],
+    "integrity_flag": null
+   }
+  },
+  {
+   "id": "MU-01",
+   "slug": "mu-fair-guidelines-ai-2026",
+   "title": "FAIR Guidelines for the Development and Use of Artificial Intelligence",
+   "original_title": null,
+   "short_title": "Mauritius FAIR AI Guidelines",
+   "jurisdiction": "Mauritius",
+   "country": "Mauritius",
+   "jurisdiction_level": "National",
+   "region": "Sub-Saharan Africa",
+   "issuing_body": "Ministry of Information Technology, Communication and Innovation (Artificial Intelligence Unit); adopted by Cabinet",
+   "instrument_type": "Guidelines / framework",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2026-04-09",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://aim.govmu.org/aim/wp-content/uploads/2026/04/fairguidelines.pdf",
+   "secondary_url": "https://mitci.govmu.org/mitci/national-ai-strategy-and-fair-guidelines-unveiled-to-position-mauritius-as-a-high-tech-innovation-driven-economy/",
+   "language": "English",
+   "summary": "Non-binding national guidelines (Fairness, Accountability, Inclusiveness and Integrity, Responsibility) accompanying the 'AI for Mauritius' strategy. They apply across sectors and the whole AI life cycle, including imported systems, and set a risk-based governance model with indicative low, medium, high and unacceptable-risk tiers, escalation controls and safeguards, data-protection alignment, transparency, explainability and human oversight, accountability, auditability and record-keeping, procurement and vendor governance, a section on generative, foundation and agentic AI, and monitoring. Cabinet stated that the guidelines will evolve into AI regulations as the ecosystem matures.",
+   "safety_topics": [
+    "risk-based classification",
+    "human oversight",
+    "accountability & liability",
+    "general-purpose / frontier AI",
+    "transparency & labelling"
+   ],
+   "related": [],
+   "notes": "Cabinet agreed on 13 February 2026 to adopt the national AI strategy 'AI for Mauritius' as the guiding policy framework together with the FAIR guideline document (Prime Minister's Office Cabinet highlights). Both were launched on 9 April 2026 in Phoenix (the ministry's release of 10 April 2026 says 'launched yesterday'; UNDP also gives 9 April). The guidelines state that they are not a law and create no legal obligations. The same PDF is also hosted at mitci.govmu.org as 'FINAL-GUIDELINES-15AVRIL.pdf'. The accompanying strategy (aim.govmu.org/aim/wp-content/uploads/2026/04/aistrategy.pdf) describes a hybrid, risk-proportionate governance approach but is not recorded separately. The 2018 Mauritius AI Strategy (mitci.govmu.org), which proposed a Mauritius AI Council and a chapter on regulation, ethics and data protection, is not recorded because its safety content is limited.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Guidelines PDF (38 pages) downloaded from the AI Unit site aim.govmu.org and read; MITCI release of 10 April 2026 and the Cabinet highlights of 13 February 2026 (pmo.govmu.org PDF) fetched; the strategy PDF downloaded for context.",
+    "note": "The PDF confirms title, issuing ministry, non-binding status, scope and the risk tiers; the official release and Cabinet highlights confirm the launch and adoption dates.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:46:32Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/MU-01/2026-10-11/official.pdf",
+      "url": "https://aim.govmu.org/aim/wp-content/uploads/2026/04/fairguidelines.pdf",
+      "final_url": "https://aim.govmu.org/aim/wp-content/uploads/2026/04/fairguidelines.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 1948705,
+      "sha256": "f025c3f55ca3b56fd46ee2015779ddb38e1c87c9af0941d30662cb1176986572",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:46:47Z",
+      "last_checked": "2026-10-11T19:46:47Z",
+      "method": "http",
+      "last_modified": "Wed, 15 Apr 2026 06:05:36 GMT",
+      "etag": "\"cea28ee09dccdc1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/MU-01/2026-10-11/secondary.html",
+      "url": "https://mitci.govmu.org/mitci/national-ai-strategy-and-fair-guidelines-unveiled-to-position-mauritius-as-a-high-tech-innovation-driven-economy/",
+      "final_url": "https://mitci.govmu.org/mitci/national-ai-strategy-and-fair-guidelines-unveiled-to-position-mauritius-as-a-high-tech-innovation-driven-economy/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 160628,
+      "sha256": "e83595c90c716a33ec345945ba2ac97a6181060b08c18c02f88068c872371814",
+      "text_sha256": "7e4b7e9f76bd8d47f0b6d065ca2d2527252ce7db1fc0254be935709927d10d5b",
+      "retrieved_at": "2026-10-11T19:47:04Z",
+      "last_checked": "2026-10-11T19:47:04Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://aim.govmu.org/aim/wp-content/uploads/2026/04/fairguidelines.pdf",
+      "attempted_at": "2026-10-11T19:46:47Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://mitci.govmu.org/mitci/national-ai-strategy-and-fair-guidelines-unveiled-to-position-mauritius-as-a-high-tech-innovation-driven-economy/",
+      "attempted_at": "2026-10-11T19:47:04Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ],
+    "integrity_flag": null
+   }
+  },
+  {
+   "id": "ET-01",
+   "slug": "et-national-ai-policy-2024",
+   "title": "National Artificial Intelligence Policy",
+   "original_title": "ብሔራዊ የአርቲፊሻል ኢንተለጀንስ ፖሊሲ",
+   "short_title": "Ethiopia National AI Policy",
+   "jurisdiction": "Ethiopia",
+   "country": "Ethiopia",
+   "jurisdiction_level": "National",
+   "region": "Sub-Saharan Africa",
+   "issuing_body": "Council of Ministers of the Federal Democratic Republic of Ethiopia; prepared by the Ethiopian Artificial Intelligence Institute with the Ministry of Innovation and Technology",
+   "instrument_type": "Strategy / action plan",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2024-06",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "http://www.mint.gov.et/documents/d/guest/ethiopian_ai__policy-2?download=true",
+   "secondary_url": "https://api.oecd.ai/storage//policy-initiatives/Apr2026/117ojpi25umobo9d90-Ethiopian%20ai%20policy.pdf",
+   "language": "Amharic, English",
+   "summary": "Ethiopia's first national AI policy, approved by the Council of Ministers in June 2024 after preparation led by the Ethiopian AI Institute. Besides capacity building, infrastructure, data and research, it identifies AI development risks (data privacy and security, ethics and bias, exclusion, loss of autonomy) and commits to a comprehensive legal and ethical framework: data-protection and AI data proclamations, ethical guidelines on fairness, accountability and transparency, certification of domestic and imported AI products and services, licensing of private developers, and regulating the pace of AI deployment so that systems respect national security, sovereignty and societal values.",
+   "safety_topics": [
+    "accountability & liability",
+    "evaluation & testing",
+    "national security & military",
+    "research priorities"
+   ],
+   "related": [
+    {
+     "id": "AU-01",
+     "slug": "au-continental-ai-strategy"
+    }
+   ],
+   "notes": "The bilingual document (Amharic and English) is dated June 2024 (Sene 2016 in the Ethiopian calendar). A policy tracker and the state news agency report approval at the Council of Ministers' 37th regular meeting, dated 27 June 2024 by the tracker. The policy states that it takes effect on approval by the Council of Ministers in line with Council of Ministers Regulation No. 510/2022, which established the Ethiopian AI Institute, and OECD.AI lists it as active (entry: oecd.ai/en/dashboards/policy-initiatives/national-artificial-intelligence-policy). The Ministry of Innovation and Technology lists the document as 'Ethiopian AI Policy, Version 1.0, Approved'.",
+   "verification": {
+    "level": "B",
+    "verified_on": "2026-10-11",
+    "method": "OECD.AI policy entry fetched and its hosted PDF (78 pages, bilingual) downloaded and read; the Ministry of Innovation and Technology and ENA sites refused connections from this machine.",
+    "note": "The OECD.AI copy confirms title, June 2024 date, issuing bodies and the regulation-and-ethics content. The official MInT document URL is recorded as official_url although it could not be fetched (connection refused); it is listed on MInT's 'Policy, regulation and strategy' page according to search results. The 27 June 2024 Council of Ministers date rests on Digital Policy Alert and an ENA report seen in search results.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "partial",
+    "flag": "The official source could not be downloaded (The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'); only the secondary source was saved.",
+    "last_attempt": "2026-10-11T19:46:40Z",
+    "files": [
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/ET-01/2026-10-11/secondary.pdf",
+      "url": "https://api.oecd.ai/storage//policy-initiatives/Apr2026/117ojpi25umobo9d90-Ethiopian%20ai%20policy.pdf",
+      "final_url": "https://api.oecd.ai/storage//policy-initiatives/Apr2026/117ojpi25umobo9d90-Ethiopian%20ai%20policy.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 2460742,
+      "sha256": "c1b26449e2019c784b8e574faa36005c078a16e06b9eb507459af11a95ff9264",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:47:28Z",
+      "last_checked": "2026-10-11T19:47:28Z",
+      "method": "http",
+      "last_modified": "Thu, 23 Apr 2026 16:04:21 GMT",
+      "etag": "W/\"258c46-19dbb15cf4e\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "http://www.mint.gov.et/documents/d/guest/ethiopian_ai__policy-2?download=true",
+      "attempted_at": "2026-10-11T19:47:25Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://api.oecd.ai/storage//policy-initiatives/Apr2026/117ojpi25umobo9d90-Ethiopian%20ai%20policy.pdf",
+      "attempted_at": "2026-10-11T19:47:28Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ],
+    "integrity_flag": null
+   }
+  },
+  {
+   "id": "ZM-01",
+   "slug": "zm-national-ai-strategy-2024-2026",
+   "title": "National Artificial Intelligence Strategy 2024-2026",
+   "original_title": null,
+   "short_title": "Zambia National AI Strategy",
+   "jurisdiction": "Zambia",
+   "country": "Zambia",
+   "jurisdiction_level": "National",
+   "region": "Sub-Saharan Africa",
+   "issuing_body": "Ministry of Technology and Science",
+   "instrument_type": "Strategy / action plan",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2024-11-21",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://www.mots.gov.zm/wp-content/uploads/2025/02/Zambia-Ai-Strategy-Book-option-2.pdf",
+   "secondary_url": "https://www.mots.gov.zm/?p=4492",
+   "language": "English",
+   "summary": "Zambia's first national AI strategy, developed with support from Finland and the Tony Blair Institute and launched in Lusaka on 21 November 2024. It sets guiding principles of fairness, transparency, accountability, data privacy, inclusivity and sustainability aligned with the AU Continental AI Strategy, UNESCO's Recommendation and the OECD AI Principles, and prioritises a policy and regulatory framework for ethical and responsible AI alongside skills, infrastructure, research and sectoral adoption. Governance measures include a National AI Council, technical working groups, AI ethics guidelines, extending the regulator ZICTA's mandate to AI, regulatory sandboxes, and risk management.",
+   "safety_topics": [
+    "accountability & liability",
+    "international cooperation",
+    "transparency & labelling",
+    "public-sector use"
+   ],
+   "related": [
+    {
+     "id": "AU-01",
+     "slug": "au-continental-ai-strategy"
+    },
+    {
+     "id": "UNESCO-01",
+     "slug": "unesco-recommendation-ethics-ai"
+    },
+    {
+     "id": "OECD-01",
+     "slug": "oecd-recommendation-ai"
+    }
+   ],
+   "notes": "The cover reads 'National Artificial Intelligence Strategy 2024-2026' and the foreword refers to the 2024-2026 strategy, but the running page header says '2025-2027' and OECD.AI lists it under 2025-2027. The ministry announced in July 2024 that the strategy would be launched on Independence Day (24 October 2024); its release dated 21 November 2024 (published 25 November) reports the launch that day in Lusaka. The PDF was uploaded to mots.gov.zm in February 2025 and is byte-identical to the copy hosted by OECD.AI.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Strategy PDF (60 pages) downloaded from mots.gov.zm and read; the ministry's launch release and its July 2024 pre-announcement fetched; OECD.AI entry fetched.",
+    "note": "The PDF confirms title, issuing ministry, principles and governance measures; the ministry's release confirms the 21 November 2024 launch (a Zambia Daily Mail report of 22 November 2024 agrees). The strategy period is stated inconsistently in the document itself.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'. The secondary source could not be downloaded (The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl').",
+    "last_attempt": "2026-10-11T19:47:04Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.mots.gov.zm/wp-content/uploads/2025/02/Zambia-Ai-Strategy-Book-option-2.pdf",
+      "attempted_at": "2026-10-11T19:47:05Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.mots.gov.zm/?p=4492",
+      "attempted_at": "2026-10-11T19:47:05Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
       "method": "http"
      }
     ]
