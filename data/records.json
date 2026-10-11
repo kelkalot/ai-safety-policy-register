@@ -3,7 +3,7 @@
   "name": "AI Safety Policy Register",
   "version": "1.4",
   "snapshot_date": "2026-10-11",
-  "record_count": 284,
+  "record_count": 285,
   "scope": "Official governmental and intergovernmental AI safety and AI regulation instruments (core safety + regulation), global coverage.",
   "research_snapshot_date": "2026-10-11",
   "archive_note": "Local copies of sources are created by tools/archive.py on the machine where the register is deployed."
@@ -14969,7 +14969,7 @@
    "date_in_force": null,
    "date_last_updated": null,
    "official_identifier": null,
-   "official_url": "https://oecd.ai/en/dashboards/policy-initiatives/kenya-artificial-intelligence-strategy-2025-2030",
+   "official_url": "https://ict.go.ke/ict-ministry-set-launch-national-artificial-intelligence-strategy-2025-2030",
    "secondary_url": "https://api.oecd.ai/storage//policy-initiatives/Apr2026/117ojpi25umobl2fb8-Kenya%20AI%20Strategy%202025%20-%202030.pdf",
    "language": "English",
    "summary": "National AI strategy whose governance pillar calls for harmonised AI policy, agile legal and regulatory frameworks, AI risk and safety mechanisms, ethical oversight, impact assessments and sector-specific standards, plus data sovereignty and cybersecurity safeguards.",
@@ -14984,60 +14984,14 @@
     "level": "B",
     "verified_on": "2026-10-11",
     "method": "alternative-official-url-fetched",
-    "note": "The ministry site (ict.go.ke) disallows automated fetching. The OECD.AI policy-initiative page and its OECD-hosted copy of the strategy PDF confirm title, responsible ministry, 2025 start and governance/safety content. Not confirmed on a fetched page: The fetched OECD.AI page gives only the start year 2025. (Launch month (March 2025) is from the research brief and background knowledge; the fetched OECD.AI page gives only the start year 2025.)",
+    "note": "The ministry's launch announcement (ict.go.ke, fetched 11 Oct 2026: launch on 27 March 2025 by the Ministry of Information, Communications and the Digital Economy) is now the official URL; it does not link the strategy document, which is held as the OECD-hosted copy in the secondary URL. The ministry site (ict.go.ke) disallows automated fetching. The OECD.AI policy-initiative page and its OECD-hosted copy of the strategy PDF confirm title, responsible ministry, 2025 start and governance/safety content. Not confirmed on a fetched page: The fetched OECD.AI page gives only the start year 2025. (Launch month (March 2025) is from the research brief and background knowledge; the fetched OECD.AI page gives only the start year 2025.)",
     "second_check": null
    },
    "local_copy": {
-    "status": "archived",
-    "flag": null,
-    "last_attempt": "2026-10-11T14:01:16Z",
+    "status": "partial",
+    "flag": "The official source could not be downloaded (The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'); only the secondary source was saved.",
+    "last_attempt": "2026-10-11T20:06:47Z",
     "files": [
-     {
-      "role_key": "official",
-      "role": "official",
-      "label": "Official source",
-      "path": "archive/KE-01/2026-10-11/official.html",
-      "url": "https://oecd.ai/en/dashboards/policy-initiatives/kenya-artificial-intelligence-strategy-2025-2030",
-      "final_url": "https://oecd.ai/en/dashboards/policy-initiatives/kenya-artificial-intelligence-strategy-2025-2030",
-      "http_status": 200,
-      "content_type": "text/html",
-      "bytes": 259888,
-      "sha256": "5082ff061f6be7c2dcf9b5f27329b07f9333e713faa6c7fdc95f336e1ba03d4a",
-      "retrieved_at": "2026-10-11T14:01:17Z",
-      "last_checked": "2026-10-11T14:01:17Z",
-      "method": "http",
-      "last_modified": null,
-      "etag": null,
-      "changed": false,
-      "previous_sha256": null,
-      "previous_path": null,
-      "stale": false,
-      "warning": null,
-      "integrity": "ok"
-     },
-     {
-      "role_key": "document-1",
-      "role": "document",
-      "label": "Linked document (PDF)",
-      "path": "archive/KE-01/2026-10-11/document-1.pdf",
-      "url": "https://api.oecd.ai/storage//policy-initiatives/Apr2026/117ojpi25umobl2fb8-Kenya%20AI%20Strategy%202025%20-%202030.pdf",
-      "final_url": "https://api.oecd.ai/storage//policy-initiatives/Apr2026/117ojpi25umobl2fb8-Kenya%20AI%20Strategy%202025%20-%202030.pdf",
-      "http_status": 200,
-      "content_type": "application/pdf",
-      "bytes": 23931312,
-      "sha256": "55e33e3ebf2c78bb8024bae1229fa7d557e32eeb81726021f5d163a637e3b145",
-      "retrieved_at": "2026-10-11T14:01:20Z",
-      "last_checked": "2026-10-11T14:01:20Z",
-      "method": "http",
-      "last_modified": "Thu, 23 Apr 2026 14:34:59 GMT",
-      "etag": "W/\"16d29b0-19dbac3fb00\"",
-      "changed": false,
-      "previous_sha256": null,
-      "previous_path": null,
-      "stale": false,
-      "warning": null,
-      "integrity": "ok"
-     },
      {
       "role_key": "secondary",
       "role": "secondary",
@@ -15049,8 +15003,9 @@
       "content_type": "application/pdf",
       "bytes": 23931312,
       "sha256": "55e33e3ebf2c78bb8024bae1229fa7d557e32eeb81726021f5d163a637e3b145",
-      "retrieved_at": "2026-10-11T14:01:24Z",
-      "last_checked": "2026-10-11T14:01:24Z",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T20:06:51Z",
+      "last_checked": "2026-10-11T20:06:51Z",
       "method": "http",
       "last_modified": "Thu, 23 Apr 2026 14:34:59 GMT",
       "etag": "W/\"16d29b0-19dbac3fb00\"",
@@ -15065,33 +15020,23 @@
     "attempts": [
      {
       "role": "official",
-      "url": "https://oecd.ai/en/dashboards/policy-initiatives/kenya-artificial-intelligence-strategy-2025-2030",
-      "attempted_at": "2026-10-11T14:01:17Z",
-      "ok": true,
-      "http_status": 200,
-      "error": null,
-      "method": "http"
-     },
-     {
-      "role": "document",
-      "url": "https://api.oecd.ai/storage//policy-initiatives/Apr2026/117ojpi25umobl2fb8-Kenya%20AI%20Strategy%202025%20-%202030.pdf",
-      "attempted_at": "2026-10-11T14:01:20Z",
-      "ok": true,
-      "http_status": 200,
-      "error": null,
+      "url": "https://ict.go.ke/ict-ministry-set-launch-national-artificial-intelligence-strategy-2025-2030",
+      "attempted_at": "2026-10-11T20:06:48Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
       "method": "http"
      },
      {
       "role": "secondary",
       "url": "https://api.oecd.ai/storage//policy-initiatives/Apr2026/117ojpi25umobl2fb8-Kenya%20AI%20Strategy%202025%20-%202030.pdf",
-      "attempted_at": "2026-10-11T14:01:24Z",
+      "attempted_at": "2026-10-11T20:06:51Z",
       "ok": true,
       "http_status": 200,
       "error": null,
       "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -16900,13 +16845,13 @@
    "issuing_body": "Sejm and Senate of Poland (Ministry of Digital Affairs)",
    "instrument_type": "Law",
    "legal_force": "Binding",
-   "status": "Adopted, not yet in force",
-   "date_published": "2026-07",
-   "date_in_force": null,
+   "status": "Partially in force",
+   "date_published": "2026-07-03",
+   "date_in_force": "2026-08-11",
    "date_last_updated": "2026-07-27",
-   "official_identifier": null,
-   "official_url": "https://www.gov.pl/web/cyfryzacja/ustawa-o-systemach-ai--bezpieczny-rozwoj-sztucznej-inteligencji-w-polsce",
-   "secondary_url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+   "official_identifier": "Dz.U. 2026 poz. 1003 (ustawa z dnia 3 lipca 2026 r. o systemach sztucznej inteligencji)",
+   "official_url": "https://eli.gov.pl/eli/DU/2026/1003/ogl",
+   "secondary_url": "https://www.gov.pl/web/cyfryzacja/ustawa-o-systemach-ai--bezpieczny-rozwoj-sztucznej-inteligencji-w-polsce",
    "language": "Polish",
    "summary": "Poland's law implementing the EU AI Act. It creates the Commission for the Development and Security of Artificial Intelligence (KRiBSI), an independent collegial supervisor that includes the competition, financial, broadcasting and electronic communications regulators. KRiBSI handles complaints about AI systems, runs free regulatory sandboxes for SMEs and issues opinions. Parliament removed its power to issue bans and orders such as market withdrawal.",
    "safety_topics": [
@@ -16921,35 +16866,84 @@
      "id": "EU-03"
     }
    ],
-   "notes": "The Ministry of Digital Affairs reported on 27 Jul 2026 that the President had signed the Act and it was going to the Journal of Laws (Dziennik Ustaw). The signing date, Dziennik Ustaw number and entry-into-force date were not verified. The ministry expected the KRiBSI chair, who must be appointed within two months of entry into force, to be in place in October 2026, with the commission starting in November 2026. That timeline implies the Act probably entered into force around August 2026, so the status shown may be out of date. The Commission's single point of contact list (updated 7 Sep 2026) shows KRiBSI.",
+   "notes": "Adopted by the Sejm on 3 July 2026 (passed 11 June 2026), published in the Dziennik Ustaw on 27 July 2026 (item 1003) and in force from 11 August 2026, with Article 125(4) from 28 July 2026 and Articles 8-18 and Chapters 3-5, 8 and 9 (including the supervisory procedures and penalties of the Commission for the Development and Safety of AI) from 28 October 2026. The Ministry of Digital Affairs reported on 27 Jul 2026 that the President had signed the Act and it was going to the Journal of Laws (Dziennik Ustaw). The signing date, Dziennik Ustaw number and entry-into-force date were not verified. The ministry expected the KRiBSI chair, who must be appointed within two months of entry into force, to be in place in October 2026, with the commission starting in November 2026. That timeline implies the Act probably entered into force around August 2026, so the status shown may be out of date. The Commission's single point of contact list (updated 7 Sep 2026) shows KRiBSI.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "gov.pl Ministry of Digital Affairs page (27 Jul 2026) fetched: presidential signature, KRiBSI composition and timeline confirmed. Dziennik Ustaw and legislacja.gov.pl blocked by robots.",
+    "note": "The Dziennik Ustaw ELI page (eli.gov.pl, item DU/2026/1003) confirms the title, the date of the act (3 July 2026), publication on 27 July 2026, entry into force on 11 August 2026 with the staged provisions, the issuing body (Sejm) and links to the published text (PDF). Earlier verification rested on the Ministry of Digital Affairs page, now the secondary URL. gov.pl Ministry of Digital Affairs page (27 Jul 2026) fetched: presidential signature, KRiBSI composition and timeline confirmed. Dziennik Ustaw and legislacja.gov.pl blocked by robots.",
     "second_check": null
    },
    "local_copy": {
-    "status": "archived",
-    "flag": null,
-    "last_attempt": "2026-10-11T14:02:12Z",
+    "status": "archived-review",
+    "flag": "The page is a JavaScript application shell; the saved copy holds only the site's navigation, not the document.",
+    "last_attempt": "2026-10-11T20:06:47Z",
     "files": [
      {
       "role_key": "official",
       "role": "official",
       "label": "Official source",
-      "path": "archive/PL-01/2026-10-11/official.html",
-      "url": "https://www.gov.pl/web/cyfryzacja/ustawa-o-systemach-ai--bezpieczny-rozwoj-sztucznej-inteligencji-w-polsce",
-      "final_url": "https://www.gov.pl/web/cyfryzacja/ustawa-o-systemach-ai--bezpieczny-rozwoj-sztucznej-inteligencji-w-polsce",
+      "path": "archive/PL-01/2026-10-11/official-2.html",
+      "url": "https://eli.gov.pl/eli/DU/2026/1003/ogl",
+      "final_url": "https://eli.gov.pl/eli/DU/2026/1003/ogl",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 39759,
-      "sha256": "9a1887f5706dd3015a4c814752606ffa7be4719698faf5671e81cd09b54327c9",
-      "retrieved_at": "2026-10-11T14:02:14Z",
-      "last_checked": "2026-10-11T14:02:14Z",
+      "bytes": 42948,
+      "sha256": "67556484d4afa70f7bccc190cf1c449b0d8efba538d450e3a4ca03b0038caeb9",
+      "text_sha256": "6f6638a40cfd6a1af4f851847b9aecc1a449033249ff7bc07c95a03bb88bf556",
+      "retrieved_at": "2026-10-11T20:06:49Z",
+      "last_checked": "2026-10-11T20:06:49Z",
       "method": "http",
       "last_modified": null,
-      "etag": "W/\"09a1887f5706dd3015a4c814752606ffa\"",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The page is a JavaScript application shell; the saved copy holds only the site's navigation, not the document",
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-rendered",
+      "role": "official-rendered",
+      "label": "Official source, rendered in a browser",
+      "path": "archive/PL-01/2026-10-11/official-rendered.html",
+      "url": "https://eli.gov.pl/eli/DU/2026/1003/ogl",
+      "final_url": "https://eli.gov.pl/eli/DU/2026/1003/ogl",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 45060,
+      "sha256": "0d2c7ed836baa2a16e392ac85c1553529894e9ddae153e75eea09558dd48d52f",
+      "text_sha256": "d1459471aee0ef4723de0ec621149ab74884ce400e2839ddcc3b5ec75f3b3aa0",
+      "retrieved_at": "2026-10-11T20:06:56Z",
+      "last_checked": "2026-10-11T20:06:56Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The page is a JavaScript application shell; the saved copy holds only the site's navigation, not the document",
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-print",
+      "role": "official-print",
+      "label": "Official source, printed to PDF by a browser",
+      "path": "archive/PL-01/2026-10-11/official-print.pdf",
+      "url": "https://eli.gov.pl/eli/DU/2026/1003/ogl",
+      "final_url": "https://eli.gov.pl/eli/DU/2026/1003/ogl",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 229286,
+      "sha256": "b85bf8fefc0fd5474b8fe643d9b95b7e480e2a231351707d0adae7bbd2763a48",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T20:06:56Z",
+      "last_checked": "2026-10-11T20:06:56Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
       "changed": false,
       "previous_sha256": null,
       "previous_path": null,
@@ -16961,18 +16955,19 @@
       "role_key": "secondary",
       "role": "secondary",
       "label": "Secondary source",
-      "path": "archive/PL-01/2026-10-11/secondary.html",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
-      "final_url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "path": "archive/PL-01/2026-10-11/secondary-2.html",
+      "url": "https://www.gov.pl/web/cyfryzacja/ustawa-o-systemach-ai--bezpieczny-rozwoj-sztucznej-inteligencji-w-polsce",
+      "final_url": "https://www.gov.pl/web/cyfryzacja/ustawa-o-systemach-ai--bezpieczny-rozwoj-sztucznej-inteligencji-w-polsce",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 63994,
-      "sha256": "8b6e901b1b78ffeb932e4d24f2b69eb99ec773f48c19f7442a8ca9484decb97f",
-      "retrieved_at": "2026-10-11T14:02:15Z",
-      "last_checked": "2026-10-11T14:02:15Z",
+      "bytes": 39759,
+      "sha256": "9a1887f5706dd3015a4c814752606ffa7be4719698faf5671e81cd09b54327c9",
+      "text_sha256": "1d423b05185fbfbcec6a8bcdac6240f38d6856e44eb69b9e1c25eae59846c49c",
+      "retrieved_at": "2026-10-11T20:06:52Z",
+      "last_checked": "2026-10-11T20:06:52Z",
       "method": "http",
-      "last_modified": "Sun, 11 Oct 2026 14:02:15 GMT",
-      "etag": "\"1791727335-gzip\"",
+      "last_modified": null,
+      "etag": "W/\"09a1887f5706dd3015a4c814752606ffa\"",
       "changed": false,
       "previous_sha256": null,
       "previous_path": null,
@@ -16984,8 +16979,8 @@
     "attempts": [
      {
       "role": "official",
-      "url": "https://www.gov.pl/web/cyfryzacja/ustawa-o-systemach-ai--bezpieczny-rozwoj-sztucznej-inteligencji-w-polsce",
-      "attempted_at": "2026-10-11T14:02:14Z",
+      "url": "https://eli.gov.pl/eli/DU/2026/1003/ogl",
+      "attempted_at": "2026-10-11T20:06:49Z",
       "ok": true,
       "http_status": 200,
       "error": null,
@@ -16993,15 +16988,23 @@
      },
      {
       "role": "secondary",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
-      "attempted_at": "2026-10-11T14:02:15Z",
+      "url": "https://www.gov.pl/web/cyfryzacja/ustawa-o-systemach-ai--bezpieczny-rozwoj-sztucznej-inteligencji-w-polsce",
+      "attempted_at": "2026-10-11T20:06:52Z",
       "ok": true,
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://eli.gov.pl/eli/DU/2026/1003/ogl",
+      "attempted_at": "2026-10-11T20:06:56Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "browser"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -18864,13 +18867,13 @@
      "id": "EU-03"
     }
    ],
-   "notes": "Time-limited: the decree stays in force for at most 36 months from 10 Nov 2023 (so until about 10 Nov 2026), or until the EU AI Regulation is applicable in Spain if that comes first. Since the AI Act became generally applicable on 2 Aug 2026, it may already have lapsed. No official repeal notice was verified; treat the status as uncertain.",
+   "notes": "Time-limited: the decree stays in force for at most 36 months from 10 Nov 2023 (so until about 10 Nov 2026), or until the EU AI Regulation is applicable in Spain if that comes first. Since the AI Act became generally applicable on 2 Aug 2026, it may already have lapsed. No official repeal notice was verified; treat the status as uncertain. Its second final provision limits its validity to 36 months from entry into force (10 November 2023, so to November 2026) or, if earlier, until the EU AI Regulation is applicable in Spain, which for most obligations was 2 August 2026; the Government nevertheless continued the sandbox calls in 2026, and the pending organic law on the good use and governance of AI would repeal the decree expressly. Whether the decree has formally lapsed is therefore uncertain and the status should be re-checked against the BOE.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
     "note": "BOE ELI page fetched: title, BOE núm. 268 of 9 Nov 2023, in force 10 Nov 2023, 36-month validity clause.",
-    "second_check": null
+    "second_check": "BOE page fetched 11 Oct 2026: the second final provision (36 months or until the EU AI Regulation applies) confirmed; the page shows no repeal notice."
    },
    "local_copy": {
     "status": "archived",
@@ -22153,10 +22156,10 @@
    "issuing_body": "The White House (President Joseph R. Biden Jr.) / National Security Council",
    "instrument_type": "Executive order / decree",
    "legal_force": "Binding",
-   "status": "In force",
+   "status": "Revoked / withdrawn",
    "date_published": "2024-10-24",
    "date_in_force": "2024-10-24",
-   "date_last_updated": null,
+   "date_last_updated": "2026-06-05",
    "official_identifier": "National Security Memorandum 25 (NSM-25)",
    "official_url": "https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2024/10/24/fact-sheet-biden-harris-administration-outlines-coordinated-approach-to-harness-power-of-ai-for-u-s-national-security/",
    "secondary_url": null,
@@ -22186,15 +22189,19 @@
     {
      "slug": "us-eo-14409",
      "id": "US-23"
+    },
+    {
+     "slug": "us-nspm-11-ai-national-security-enterprise",
+     "id": "US-28"
     }
    ],
-   "notes": "Signed 24 Oct 2024 under EO 14110 Sec. 4.8, with the companion Framework published the same day. STATUS UNCERTAIN: no public rescission or replacement could be found, so 'In force' is provisional. Because it was issued under the revoked EO 14110, it falls within the EO 14179 Sec. 5 review of EO 14110 actions, and its AISI-centred provisions are outdated by the 2025 reorganisation of AISI into CAISI. EO 14409 (Jun 2026) sets up a separate national-security (NSA/CISA/Treasury) framework for classified frontier-model evaluations.",
+   "notes": "Rescinded and replaced on 5 June 2026 by National Security Presidential Memorandum 11 (NSPM-11) on AI in the national security enterprise. Signed 24 Oct 2024 under EO 14110 Sec. 4.8, with the companion Framework published the same day. STATUS UNCERTAIN: no public rescission or replacement could be found, so 'In force' is provisional. Because it was issued under the revoked EO 14110, it falls within the EO 14179 Sec. 5 review of EO 14110 actions, and its AISI-centred provisions are outdated by the 2025 reorganisation of AISI into CAISI. EO 14409 (Jun 2026) sets up a separate national-security (NSA/CISA/Treasury) framework for classified frontier-model evaluations.",
    "verification": {
     "level": "B",
     "verified_on": "2026-10-11",
     "method": "alternative-official-url-fetched",
     "note": "The NSM text URL on the NARA-archived Biden White House site was too long to fetch. The archived 24 Oct 2024 fact sheet was fetched instead and confirms the NSM, the Framework and the AISI role. Current status (rescinded or not) could not be confirmed from an official source; flagged for follow-up.",
-    "second_check": null
+    "second_check": "White House fact sheet of 5 June 2026 (fetched 11 Oct 2026) states that NSPM-11 'rescinds and replaces the Biden Administration's NSM-25'."
    },
    "local_copy": {
     "status": "archived",
@@ -36721,6 +36728,133 @@
       "ok": false,
       "http_status": null,
       "error": "The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "US-28",
+   "slug": "us-nspm-11-ai-national-security-enterprise",
+   "title": "National Security Presidential Memorandum 11: Artificial Intelligence in the National Security Enterprise",
+   "original_title": null,
+   "short_title": "NSPM-11 on AI in the national security enterprise (2026)",
+   "jurisdiction": "United States",
+   "country": "United States",
+   "jurisdiction_level": "National",
+   "region": "North America",
+   "issuing_body": "President of the United States (The White House)",
+   "instrument_type": "Executive order / decree",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2026-06-05",
+   "date_in_force": "2026-06-05",
+   "date_last_updated": null,
+   "official_identifier": "NSPM-11",
+   "official_url": "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/",
+   "secondary_url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-signs-historic-directive-on-ai-in-the-national-security-enterprise/",
+   "language": "English",
+   "summary": "Presidential memorandum that rescinds and replaces NSM-25 of October 2024 and sets the policy for AI across the national security enterprise under four pillars: adoption (removing barriers and bringing frontier models to national security users quickly), adaptation (commercial and open-source models from diverse suppliers), assurance (AI that is reliable, robust, steerable and controllable, with no vendor or adversary able to disable or alter fielded systems without government approval, backed by testing, evaluation, validation and verification) and accountability (no use of AI for censorship, ideological bias or unlawful surveillance; leaders answerable for civil liberties and privacy). It orders an update of DoD Directive 3000.09 on autonomy in weapon systems within 90 days, standardised national security AI test and evaluation methodologies and a joint AI risk-management strategy within 120 days, and a classified annex within 90 days.",
+   "safety_topics": [
+    "national security & military",
+    "evaluation & testing",
+    "human oversight",
+    "accountability & liability",
+    "general-purpose / frontier AI"
+   ],
+   "related": [
+    {
+     "id": "US-09",
+     "slug": "us-nsm-25"
+    },
+    {
+     "id": "US-16",
+     "slug": "us-ai-action-plan-2025"
+    },
+    {
+     "id": "US-11",
+     "slug": "us-eo-14179"
+    }
+   ],
+   "notes": "Section 3(f) rescinds NSM-25 (US-09) and its associated guidance, including the Framework to Advance AI Governance and Risk Management in National Security. The text does not use the word 'safety'; its safeguards are framed as reliability, robustness, controllability, security practices and civil liberties. The classified annex and the updated weapons-autonomy directive were due by early September 2026 and are not public.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "official-url-fetched",
+    "note": "The memorandum's text on whitehouse.gov (fetched) confirms the title, date, addressees, section structure, the rescission of NSM-25 in Sec. 3(f), the four pillars in Sec. 2, the 90-day directive on autonomy in weapon systems in Sec. 3(a), the classified annex in Sec. 3(d) and the 120-day deliverables in Sec. 5. The White House fact sheet of the same day (fetched) matches.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T20:06:47Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/US-28/2026-10-11/official.html",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/",
+      "final_url": "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 312375,
+      "sha256": "970246dbd75cc7c13f3e17b486ca93e6a8e59dc9f5eb9a065b4acce9e23c04bc",
+      "text_sha256": "682a79c82f6036da6cd468eb9939ac7e176954675a72d114daa599eca85c033d",
+      "retrieved_at": "2026-10-11T20:06:49Z",
+      "last_checked": "2026-10-11T20:06:49Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/US-28/2026-10-11/secondary.html",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-signs-historic-directive-on-ai-in-the-national-security-enterprise/",
+      "final_url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-signs-historic-directive-on-ai-in-the-national-security-enterprise/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 271401,
+      "sha256": "b263b00c2c4119dae5a59c834b92616fa7823d7e9622a7af28431fce923eb29e",
+      "text_sha256": "e819b64707187590447f81464cd24a670dc1007de88723107c19b211bb2dce50",
+      "retrieved_at": "2026-10-11T20:06:52Z",
+      "last_checked": "2026-10-11T20:06:52Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/",
+      "attempted_at": "2026-10-11T20:06:49Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-signs-historic-directive-on-ai-in-the-national-security-enterprise/",
+      "attempted_at": "2026-10-11T20:06:52Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
       "method": "http"
      }
     ]
