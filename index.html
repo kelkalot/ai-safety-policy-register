@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Register of official governmental and intergovernmental AI safety and AI regulation instruments, with local copies of every source.">
+<title>AI Safety Policy Register</title>
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<noscript><p style="padding:16px">This register needs JavaScript to display. The data is also available as <a href="data/records.csv">data/records.csv</a> and <a href="data/records.json">data/records.json</a>.</p></noscript>
+<header class="masthead">
+  <div class="wrap">
+    <div class="mast-top">
+      <div class="mast-title">
+        <p class="eyebrow">Official instruments · global · governmental &amp; intergovernmental</p>
+        <h1>AI Safety Policy Register</h1>
+        <p class="lede">Laws, executive orders, safety frameworks, AI safety institute mandates and international declarations on AI safety and AI regulation. Each record links to its primary official source and carries the date it was last checked.</p>
+      </div>
+      <div class="stamp" aria-label="Snapshot information">
+        <b>Snapshot <span id="snapDate"></span></b>
+        <span>Version <span id="snapVer"></span> · <span id="snapCount"></span> records</span>
+        <span>Sources checked <span id="snapChecked"></span></span>
+        <span>Local copies <span id="snapArchive"></span></span>
+      </div>
+    </div>
+    <ul class="figures" id="figures"></ul>
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" id="tab-register" aria-selected="true" aria-controls="view-register">Register</button>
+      <button class="tab" role="tab" id="tab-about" aria-selected="false" aria-controls="view-about">Method &amp; coverage</button>
+    </div>
+  </div>
+</header>
+
+<section id="view-register" role="tabpanel" aria-labelledby="tab-register">
+  <div class="wrap band">
+    <div class="chart-card">
+      <div class="chart-head">
+        <h2>Instruments by year of adoption or publication</h2>
+        <ul class="legend">
+          <li><i style="background:var(--series-1)"></i>Binding</li>
+          <li><i style="background:var(--series-2)"></i>Non-binding</li>
+          <li><i style="background:var(--series-3)"></i>Proposed</li>
+        </ul>
+      </div>
+      <div class="chart-box" id="chartBox">
+        <svg id="chart" role="img" aria-label="Stacked bar chart of instruments per year by legal force"></svg>
+        <div class="tip" id="tip" hidden></div>
+      </div>
+      <p class="chart-head" style="margin:0"><span style="color:var(--ink-3);font-size:12.5px">Counts follow the filters below. Click a year to filter the register to it.</span></p>
+    </div>
+  </div>
+
+  <div class="wrap layout">
+    <aside class="filters closed" id="filters" aria-label="Filters">
+      <div class="filters-head"><h2>Filter</h2><button class="linkbtn" id="clearAll">Clear all</button></div>
+      <div class="facet" style="border-top:0;padding-top:0">
+        <label class="field" for="country">Country or body
+          <select id="country"><option value="">All</option></select>
+        </label>
+      </div>
+      <div class="facet">
+        <div class="field">Year (published)
+          <div class="yr">
+            <select id="yearFrom" aria-label="From year"><option value="">From</option></select>
+            <select id="yearTo" aria-label="To year"><option value="">To</option></select>
+          </div>
+        </div>
+      </div>
+      <div id="facets"></div>
+    </aside>
+
+    <main style="min-width:0">
+      <div class="toolbar">
+        <div class="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+          <input id="q" type="search" placeholder="Search titles, identifiers, issuers, summaries…" aria-label="Search the register" autocomplete="off">
+        </div>
+        <button class="btn btn-filters" id="toggleFilters" aria-expanded="false" aria-controls="filters">Filters</button>
+        <select id="sort" aria-label="Sort order">
+          <option value="date_desc">Newest first</option>
+          <option value="date_asc">Oldest first</option>
+          <option value="updated">Recently updated</option>
+          <option value="jur">Jurisdiction A–Z</option>
+          <option value="title">Title A–Z</option>
+          <option value="id">Record ID</option>
+        </select>
+        <button class="btn" id="dlCsv" title="Export the filtered records as CSV"><span class="wide-only">Export </span>CSV</button>
+        <button class="btn" id="dlJson" title="Export the filtered records as JSON"><span class="wide-only">Export </span>JSON</button>
+      </div>
+      <div class="resultbar">
+        <span id="count" aria-live="polite"></span>
+        <div class="chips" id="chips"></div>
+        <button class="linkbtn" id="copyLink" title="Copy a link that reproduces the current search, filters and sort">Copy link to this view</button>
+      </div>
+      <div class="notice" id="archiveNotice" hidden></div>
+      <div class="list" id="list">
+        <div class="list-head" aria-hidden="true">
+          <span>ID</span><span>Instrument</span><span>Jurisdiction</span><span class="col-type">Type</span><span>Status</span><span>Published</span><span>Checks</span>
+        </div>
+        <div id="rows"></div>
+      </div>
+    </main>
+  </div>
+</section>
+
+<section id="view-about" role="tabpanel" aria-labelledby="tab-about" hidden>
+  <div class="wrap about">
+    <div class="prose">
+      <h2>What is in the register</h2>
+      <p>The register covers official instruments on AI safety and AI regulation issued by governments, legislatures, regulators and intergovernmental bodies. It includes:</p>
+      <ul>
+        <li>AI-specific laws and implementing regulations, including major sub-national laws such as US state statutes.</li>
+        <li>Executive orders, decrees and cabinet decisions on AI.</li>
+        <li>Government safety and risk-management frameworks, guidelines, voluntary codes and technical standards.</li>
+        <li>Founding mandates of AI safety and AI security institutes.</li>
+        <li>Flagship national AI strategies, only where they contain substantial safety or risk-governance content.</li>
+        <li>Intergovernmental declarations, treaties, resolutions and government-commissioned scientific reports.</li>
+        <li>Major pending bills, and revoked, lapsed or superseded instruments, kept for context and labelled as such.</li>
+      </ul>
+      <p>It leaves out R&amp;D or industrial strategies without safety content, general privacy laws that are not AI-specific, minor sectoral circulars, and documents written by companies, think tanks or the press.</p>
+
+      <h2>How each record was verified</h2>
+      <p>Every record was researched on 11 October 2026 against an official primary source: a government or legislature website, an official gazette, EUR-Lex, or the site of the intergovernmental body. The official page was fetched to confirm the title, date and status. The level shows how strong that confirmation is.</p>
+      <div class="levels">
+        <div class="level v-A"><span class="lv">A</span><p><strong>Official source fetched.</strong> The official URL on the record loaded, and the title, date and status were confirmed on it.</p></div>
+        <div class="level v-B"><span class="lv">B</span><p><strong>Alternative official source.</strong> The primary page blocked automated access, so the details were confirmed on another official page, such as a ministry press release, a translation hosted by a government, or the OECD.AI entry.</p></div>
+        <div class="level v-C"><span class="lv">C</span><p><strong>Not confirmed on an official page.</strong> No official copy could be fetched. Details rest on news reports or official statements about the document. Re-check these before citing them.</p></div>
+      </div>
+      <p>Six records with surprising 2026 developments got a second, independent fetch of their official page. Those records show a second-check note in their verification block.</p>
+      <p>Dates use ISO format; a date is shortened to <span class="mono">YYYY-MM</span> or <span class="mono">YYYY</span> when the source gives no exact day. <span class="mono">date_published</span> is the adoption, signature or issue date. <span class="mono">date_in_force</span> is the entry-into-force or effective date. Phased application dates are listed in each record's notes.</p>
+
+      <h2>Local copies of sources</h2>
+      <p>Every source is also stored on the machine that hosts the register, so the register does not depend on links that can move or disappear. <code>tools/archive.py</code> downloads the official URL, up to two PDFs that page links to on the same official site (usually the legal text), and the secondary URL. Each file is saved under <code>archive/&lt;ID&gt;/&lt;date&gt;/</code> with its SHA-256 hash, the UTC time it was retrieved, the final URL after redirects and the HTTP status. Each dated folder also holds a <code>SHA256SUMS</code> file, so <code>sha256sum -c SHA256SUMS</code> checks the copies independently.</p>
+      <p>Anything that does not work is flagged on the record, with the reason:</p>
+      <div class="levels" id="lcLegend"></div>
+      <p>The archiver checks <code>robots.txt</code> before downloading and waits between requests to the same site. Re-running it keeps unchanged files once, stores a changed source as a new dated snapshot, and keeps an earlier copy if the source later disappears. <code>python3 tools/archive.py --verify</code> re-hashes every local file and flags any that are missing or have been modified. Setup and update steps are in <code>README.md</code>.</p>
+
+      <h3>Records to re-check first</h3>
+      <ul id="weakList"></ul>
+
+      <h2>Known coverage gaps</h2>
+      <p>Research for this snapshot hit a search limit, so some jurisdictions are missing or thin. They are listed here so the gaps are visible rather than silent. A second pass on 11 October 2026 added six records that were in this list (DE-01, VN-02, UN-10, INT-16, AE-02, SA-01) and found an official source for US-IL-02.</p>
+      <ul>
+        <li><strong>Europe:</strong> the Netherlands, Austria, Belgium, Czechia, Hungary, Iceland and Ukraine. Italy's implementing decree under Law 132/2025 is unconfirmed.</li>
+        <li><strong>Asia:</strong> the official gazette text of Viet Nam's AI Law and its implementing decrees, and the AI chapter of its Digital Technology Industry Law; South Korea's Enforcement Decree under the AI Basic Act; Thailand, Indonesia, the Philippines, Bangladesh, Sri Lanka and Uzbekistan; India's March 2024 MeitY advisories.</li>
+        <li><strong>Middle East &amp; Africa:</strong> Saudi Arabia's generative AI guidelines and draft Global AI Hub Law, Egypt, Turkey, Qatar, Jordan and Morocco; South Africa's 2024 National AI Policy Framework (circulated for comment but never published on the department's site); Ghana, Mauritius, Ethiopia and Zambia.</li>
+        <li><strong>Americas:</strong> Mexico's federal AI bill (2026), Argentina, the Montevideo Declaration (2024); further 2026 US state chatbot and frontier-AI laws beyond California, Colorado, New York, Texas, Utah and Illinois.</li>
+        <li><strong>International:</strong> REAIM outcomes after the 2024 Blueprint, the 2025 UNGA follow-up resolution on AI in the military domain and the Secretary-General's report A/80/78, the G20 2025 AI outcome, BRICS statements, and the June 2026 G7 leaders' summit outcome.</li>
+      </ul>
+
+      <h2>Field reference</h2>
+      <div class="schema">
+        <table>
+          <thead><tr><th>Field</th><th>Meaning</th></tr></thead>
+          <tbody>
+            <tr><td>id</td><td>Register ID: jurisdiction code plus sequence, e.g. EU-01, US-CA-03.</td></tr>
+            <tr><td>title / short_title</td><td>Official title (official English title where one exists) and common short name.</td></tr>
+            <tr><td>original_title</td><td>Title in the original language, where it is not English.</td></tr>
+            <tr><td>jurisdiction / level</td><td>Issuing country, bloc or body; International, Supranational, National or Sub-national.</td></tr>
+            <tr><td>instrument_type</td><td>Law, regulation, executive order, guidelines, voluntary code, standard, institute mandate, declaration, treaty, resolution, bill, strategy or report.</td></tr>
+            <tr><td>legal_force / status</td><td>Binding, non-binding or proposed; current status as of the snapshot.</td></tr>
+            <tr><td>date_*</td><td>Published or adopted, in force, and last updated (amendment, new version, delay or status change). ISO dates; <span class="mono">YYYY-MM</span> or <span class="mono">YYYY</span> when the source gives no exact day.</td></tr>
+            <tr><td>official_identifier</td><td>The citable number: CELEX or OJ reference, EO number, CETS number, UN symbol, bill number.</td></tr>
+            <tr><td>official_url / secondary_url</td><td>Primary official source, and a second authoritative source where useful.</td></tr>
+            <tr><td>verification</td><td>Level (A/B/C), date checked, method, what was confirmed, and any second check.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <aside class="side">
+      <h3>This snapshot</h3>
+      <dl id="snapStats"></dl>
+      <p style="margin:0;font-size:13px;color:var(--ink-2)">Each archiver run is logged in <code>archive/runs.jsonl</code>, and <a href="archive/needs-attention.txt">archive/needs-attention.txt</a> lists the records that still need a human decision. Keep the folder under version control (for example git) to have a dated history of every change.</p>
+    </aside>
+  </div>
+</section>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" hidden role="dialog" aria-modal="true" aria-labelledby="dTitle">
+  <div class="d-head">
+    <span class="mono" id="dId"></span>
+    <div class="d-nav">
+      <button class="iconbtn" id="dPrev" aria-label="Previous record"><svg viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"></path></svg></button>
+      <button class="iconbtn" id="dNext" aria-label="Next record"><svg viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"></path></svg></button>
+      <button class="iconbtn" id="dClose" aria-label="Close record"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"></path></svg></button>
+    </div>
+  </div>
+  <div class="d-body" id="dBody"></div>
+</aside>
+<div class="toast" id="toast" hidden role="status"></div>
+
+<script src="data/records.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

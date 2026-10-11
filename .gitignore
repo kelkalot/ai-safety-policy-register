@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+# macOS / editors
+.DS_Store
+.vscode/
+.idea/
+# atomic-write leftovers
+*.tmp
+# local credentials for the optional auth_basic block in deploy/nginx.conf
+deploy/.htpasswd
+# cron output (section 3 of the README)
+archive/cron.log
+# share bundles built by tools/package.py
+dist/
+# The source documents (hundreds of MB) and generated binaries stay out of git.
+# Back them up with: python3 tools/package.py  (dist/*.zip). Rebuild the binaries with: python3 tools/build.py
+archive/*
+!archive/README.txt
+data/register.sqlite
+data/register.xlsx
