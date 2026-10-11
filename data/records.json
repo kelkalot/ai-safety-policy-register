@@ -3,7 +3,7 @@
   "name": "AI Safety Policy Register",
   "version": "1.3",
   "snapshot_date": "2026-10-11",
-  "record_count": 226,
+  "record_count": 238,
   "scope": "Official governmental and intergovernmental AI safety and AI regulation instruments (core safety + regulation), global coverage.",
   "research_snapshot_date": "2026-10-11",
   "archive_note": "Local copies of sources are created by tools/archive.py on the machine where the register is deployed."
@@ -1924,6 +1924,14 @@
     {
      "slug": "hiroshima-ai-process-comprehensive-policy-framework",
      "id": "G7-03"
+    },
+    {
+     "slug": "g7-leaders-statement-ai-for-prosperity-2025",
+     "id": "G7-05"
+    },
+    {
+     "slug": "g7-leaders-call-safer-digital-space-minors-2026",
+     "id": "G7-06"
     }
    ],
    "notes": "Adopted in Paris on 29 May under the French G7 Presidency. The text does not print the year; 2026 is inferred from its references to a March 2026 action plan and the 2027 US Presidency, and from the OECD's May 2026 press release. Also encourages AI procurement guidelines and support for France's open-source 'Meta-detector' synthetic-content tool. The June 2026 G7 Leaders' Summit outcome on AI was not checked.",
@@ -3294,9 +3302,13 @@
     {
      "slug": "reaim-2024-blueprint-for-action",
      "id": "INT-16"
+    },
+    {
+     "slug": "reaim-2026-pathways-to-action",
+     "id": "INT-20"
     }
    ],
-   "notes": "Agreed at the first REAIM summit, The Hague, 15-16 Feb 2023. It was followed by the REAIM 'Blueprint for Action', adopted at the second summit in Seoul in Sep 2024, and a third REAIM summit hosted by Spain. The Blueprint for Action is recorded as INT-16; the third summit's outcome document is not yet in the register.",
+   "notes": "Agreed at the first REAIM summit, The Hague, 15-16 Feb 2023. It was followed by the REAIM 'Blueprint for Action', adopted at the second summit in Seoul in Sep 2024, and a third REAIM summit hosted by Spain. The Blueprint for Action is recorded as INT-16; the third summit's outcome, the Pathways to Action (A Coruña, Feb 2026), as INT-20.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -4238,9 +4250,13 @@
     {
      "slug": "unga-resolution-79-239-ai-military-domain",
      "id": "UN-10"
+    },
+    {
+     "slug": "unga-resolution-80-58-ai-military-domain",
+     "id": "UN-11"
     }
    ],
-   "notes": "The informal consultations were held in New York in May 2025. Related: A/RES/79/239 on artificial intelligence in the military domain (24 Dec 2024), recorded as UN-10. Any UNGA-80 (Dec 2025) follow-up resolutions were not verified. The UN Secretary-General's New Agenda for Peace (2023) called for a legally binding instrument on LAWS by 2026.",
+   "notes": "The informal consultations were held in New York in May 2025. Related: A/RES/79/239 on artificial intelligence in the military domain (24 Dec 2024), recorded as UN-10. The follow-up resolution on AI in the military domain, 80/58 of 1 Dec 2025, is recorded as UN-11. The UN Secretary-General's New Agenda for Peace (2023) called for a legally binding instrument on LAWS by 2026.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -4397,6 +4413,10 @@
     {
      "slug": "un-hlab-governing-ai-for-humanity",
      "id": "UN-04"
+    },
+    {
+     "slug": "un-global-dialogue-ai-governance-2026-co-chairs-summary",
+     "id": "UN-13"
     }
    ],
    "notes": "Adopted without a vote at the 89th plenary meeting on 26 Aug 2025 (draft A/79/L.118, co-facilitated by Costa Rica and Spain; document dated 27 Aug 2025). The Global Dialogue was launched at a high-level meeting on 25 Sep 2025. The General Assembly appointed the Panel members in Feb 2026 (SG statement dated 12 Feb 2026), and the Panel first met in Mar 2026. The first full Global Dialogue was held in Geneva on 6-7 Jul 2026, co-chaired by El Salvador and Estonia, and a Co-Chairs' Summary was published. The next session is in New York on 3-4 May 2027.",
@@ -27787,6 +27807,14 @@
     {
      "slug": "reaim-2023-call-to-action",
      "id": "INT-14"
+    },
+    {
+     "slug": "unga-resolution-80-58-ai-military-domain",
+     "id": "UN-11"
+    },
+    {
+     "slug": "un-sg-report-a-80-78-ai-military-domain",
+     "id": "UN-12"
     }
    ],
    "notes": "Adopted on 24 December 2024 on the recommendation of the First Committee (A/79/408, para. 114); the document is dated 31 December 2024. The resolution explicitly excludes civilian AI and complements, rather than replaces, the separate First Committee track on lethal autonomous weapons systems (resolutions 78/241 and 79/62). The requested Secretary-General's report was issued as A/80/78 for the eightieth session. The recorded vote is reported as 159 in favour, 2 against and 5 abstentions (UN Digital Library voting record, not fetched).",
@@ -28067,9 +28095,13 @@
     {
      "slug": "political-declaration-responsible-military-ai",
      "id": "INT-13"
+    },
+    {
+     "slug": "reaim-2026-pathways-to-action",
+     "id": "INT-20"
     }
    ],
-   "notes": "The official_url is the host ministry's press release on the summit outcome (dated 10 Sep 2024), which confirms the endorsement and the headline principles. Press reports state that China attended but did not endorse the document (not confirmed on an official page). Later REAIM outcomes are not yet in the register.",
+   "notes": "The official_url is the host ministry's press release on the summit outcome (dated 10 Sep 2024), which confirms the endorsement and the headline principles. Press reports state that China attended but did not endorse the document (not confirmed on an official page). The third summit's outcome, the Pathways to Action (A Coruña, Feb 2026), is recorded as INT-20.",
    "verification": {
     "level": "B",
     "verified_on": "2026-10-11",
@@ -29823,6 +29855,1478 @@
       "role": "secondary",
       "url": "https://www.normattiva.it/eli/id/2026/10/08/26G00200/ORIGINAL",
       "attempted_at": "2026-10-11T19:16:32Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "INT-20",
+   "slug": "reaim-2026-pathways-to-action",
+   "title": "REAIM 2026 Pathways to Action",
+   "original_title": null,
+   "short_title": "REAIM Pathways to Action (A Coruña, 2026)",
+   "jurisdiction": "REAIM Summit (A Coruña, 2026)",
+   "country": "International",
+   "jurisdiction_level": "International",
+   "region": "Global",
+   "issuing_body": "Participating states of the third Summit on Responsible Artificial Intelligence in the Military Domain (REAIM), hosted by Spain (Ministry of Foreign Affairs, European Union and Cooperation, and Ministry of Defence) in coordination with the Netherlands and the Republic of Korea; endorsed by 45 states according to the host ministry's page",
+   "instrument_type": "Declaration / statement",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2026-02",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf",
+   "secondary_url": "https://exteriores.gob.es/en/REAIM2026/Paginas/default.aspx",
+   "language": "English",
+   "summary": "Outcome document of the third REAIM summit (A Coruña, 4-5 February 2026), building on the 2023 Call to Action and 2024 Blueprint. Its 28 paragraphs invite states and stakeholders to operationalise responsible military AI: compliance with humanitarian and human rights law, a 'responsible by design' approach, accountability of states and individuals with no 'accountability gaps', AI assurance for reliability, security and bias while anticipating AGI or ASI, and decision support that assists rather than replaces human judgement. National measures include pre-deployment risk assessments, TEVV, legal reviews, audit trails with incident reporting and a national focal point.",
+   "safety_topics": [
+    "national security & military",
+    "human oversight",
+    "accountability & liability",
+    "evaluation & testing",
+    "incident reporting",
+    "international cooperation"
+   ],
+   "related": [
+    {
+     "id": "INT-14",
+     "slug": "reaim-2023-call-to-action"
+    },
+    {
+     "id": "INT-16",
+     "slug": "reaim-2024-blueprint-for-action"
+    },
+    {
+     "id": "UN-10",
+     "slug": "unga-resolution-79-239-ai-military-domain"
+    },
+    {
+     "id": "UN-11",
+     "slug": "unga-resolution-80-58-ai-military-domain"
+    },
+    {
+     "id": "UN-12",
+     "slug": "un-sg-report-a-80-78-ai-military-domain"
+    },
+    {
+     "id": "INT-13",
+     "slug": "political-declaration-responsible-military-ai"
+    }
+   ],
+   "notes": "The Spanish host page presents the document as 'Declaración de A Coruña: REAIM 2026 - Camino para la acción' and lists 45 endorsing states 'as of today' (Albania, Armenia, Australia, Austria, Belgium, Bulgaria, Canada, Chile, Croatia, Cyprus, Czech Republic, Denmark, Ecuador, Finland, France, Georgia, Germany, Ghana, Greece, Hungary, Iceland, Ireland, Italy, Japan, Kenya, Luxembourg, Malta, Morocco, Netherlands, Norway, Pakistan, Panama, Philippines, Portugal, Republic of Korea, Romania, Senegal, Singapore, Slovenia, Spain, Sweden, Switzerland, Türkiye, Ukraine, United Kingdom); the United States and China are not on the list. The document remains open to further endorsement, so the count may change. Neither the PDF nor the host page prints an adoption date; the summit closed on 5 February 2026 and the PDF file was created on 28 January 2026, so the month is recorded rather than a day. The text notes UNGA resolutions 79/239 and 80/58, the Secretary-General's report A/80/78 and the Global Commission on REAIM's 'Responsible by Design' report. The 2024 Blueprint was supported by 61 states, so the endorsement base is narrower this time.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Official English PDF of the document fetched from the Spanish Ministry of Foreign Affairs site and read in full; the ministry's REAIM 2026 declaration page (Spanish and English) and its 5 February 2026 closing press release were also fetched.",
+    "note": "The PDF confirms the title and the full 28-paragraph text. The declaration page confirms the 45 endorsing states and that the document is open to accession; the press release confirms the summit dates (4-5 February 2026), the organisers and the co-host role of the Netherlands and the Republic of Korea. No official page gives the exact date of adoption or endorsement.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:18:32Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/INT-20/2026-10-11/official.pdf",
+      "url": "https://exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf",
+      "final_url": "https://exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 262210,
+      "sha256": "1c7d431a7e88c234f1a2cfdc0a6bc5682ed29871fcf0043b71de9009b4113dc0",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:18:36Z",
+      "last_checked": "2026-10-11T19:18:36Z",
+      "method": "http",
+      "last_modified": "Thu, 05 Feb 2026 13:20:43 GMT",
+      "etag": "\"{DF17154E-4822-480A-953C-F6B80673EE13},1\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/INT-20/2026-10-11/secondary.html",
+      "url": "https://exteriores.gob.es/en/REAIM2026/Paginas/default.aspx",
+      "final_url": "https://exteriores.gob.es/en/REAIM2026/Paginas/default.aspx",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 36974,
+      "sha256": "277a37fd3f1287f6283b1fc85463e84adccd69464b766083e3b5025aa1a00a2b",
+      "text_sha256": "65cc40ac34f58ffafd54d157af3652bc691f2ab0dabeba61e1f3a37c6f773cc0",
+      "retrieved_at": "2026-10-11T19:18:39Z",
+      "last_checked": "2026-10-11T19:18:39Z",
+      "method": "http",
+      "last_modified": "Sun, 11 Oct 2026 19:18:38 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf",
+      "attempted_at": "2026-10-11T19:18:36Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://exteriores.gob.es/en/REAIM2026/Paginas/default.aspx",
+      "attempted_at": "2026-10-11T19:18:39Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "UN-11",
+   "slug": "unga-resolution-80-58-ai-military-domain",
+   "title": "Artificial intelligence in the military domain and its implications for international peace and security (A/RES/80/58)",
+   "original_title": null,
+   "short_title": "UNGA resolution 80/58 on AI in the military domain",
+   "jurisdiction": "United Nations",
+   "country": "International",
+   "jurisdiction_level": "International",
+   "region": "Global",
+   "issuing_body": "United Nations General Assembly (on the report of the First Committee)",
+   "instrument_type": "Resolution",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2025-12-01",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": "A/RES/80/58",
+   "official_url": "https://documents.un.org/doc/undoc/gen/n25/339/20/pdf/n2533920.pdf",
+   "secondary_url": "https://docs.un.org/en/A/RES/80/58",
+   "language": "Arabic, Chinese, English, French, Russian, Spanish",
+   "summary": "Second General Assembly resolution on AI in the military domain, following resolution 79/239. It reaffirms that international law, including the UN Charter, humanitarian law and human rights law, applies throughout the AI life cycle, notes the Secretary-General's report A/80/78, encourages national, regional and global efforts and UN-facilitated knowledge exchanges, and resolves to bridge divides between countries. It decides to convene informal exchanges in Geneva as a three-day meeting in 2026, open to all states, international organisations, the ICRC, academia, civil society and industry, with UNODA support and a factual summary to the First Committee. Civilian AI is excluded.",
+   "safety_topics": [
+    "national security & military",
+    "international cooperation",
+    "human oversight",
+    "accountability & liability"
+   ],
+   "related": [
+    {
+     "id": "UN-10",
+     "slug": "unga-resolution-79-239-ai-military-domain"
+    },
+    {
+     "id": "UN-12",
+     "slug": "un-sg-report-a-80-78-ai-military-domain"
+    },
+    {
+     "id": "UN-06",
+     "slug": "unga-79-62-lethal-autonomous-weapons"
+    },
+    {
+     "id": "UN-01",
+     "slug": "unga-78-241-lethal-autonomous-weapons"
+    },
+    {
+     "id": "INT-20",
+     "slug": "reaim-2026-pathways-to-action"
+    }
+   ],
+   "notes": "Adopted at the 52nd plenary meeting on 1 December 2025 on the recommendation of the First Committee (A/80/534, para. 7; draft A/C.1/80/L.46); the document is dated 5 December 2025, which some sources quote as the adoption date. The recorded plenary vote is reported as 167 in favour, 5 against (Burundi, DPRK, Israel, Russian Federation, United States) and 5 abstentions (Argentina, Belarus, Iran, Nicaragua, Saudi Arabia); the First Committee vote on 6 November 2025 was reported as 166-5-5. The United States, which supported 79/239, voted against this text, reportedly objecting that it risked a centralised global governance regime for a critical technology. The informal exchanges mandated by paragraphs 9-10 were held in Geneva on 15-17 June 2026 under UNODA auspices. A separate First Committee text on AI in nuclear command, control and communications was reported in the same session but has not been verified. The preamble also notes Security Council meetings on AI held on 18 July 2023, 19 December 2024, 4 April 2025 and 24 September 2025.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Official UN document A/RES/80/58 (PDF, 4 pages) fetched from documents.un.org and read in full; the docs.un.org viewer page was also fetched.",
+    "note": "Symbol, title, adoption on 1 December 2025 at the 52nd plenary meeting, the First Committee reference and operative paragraphs 1-11 are confirmed from the PDF. The vote figures and the First Committee vote come from secondary sources (the UN press release GA/12736 as reported in search results, un-project.org and Arms Control Association, the latter fetched); the press.un.org page itself did not render. The June 2026 Geneva meeting dates come from UNODA meeting-page search results; the UNODA page returned an empty body.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "partial",
+    "flag": "The official source could not be downloaded (The site's robots.txt does not allow automated downloads of this page); only the secondary source was saved. The secondary source is a bot-check or empty page (The page has very little readable text (79 characters); it probably needs JavaScript).",
+    "last_attempt": "2026-10-11T19:18:32Z",
+    "files": [
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/UN-11/2026-10-11/secondary.html",
+      "url": "https://docs.un.org/en/A/RES/80/58",
+      "final_url": "https://docs.un.org/en/A/RES/80/58",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 4181,
+      "sha256": "778fe9fd120c7d75218425c0de7aee856b3f8a5922e91ae79e980bc4193cf5a3",
+      "text_sha256": "8d649a2af0212925c1c5e1d30be34ee87ba1dbb3382ab89af0bfa752a0476db0",
+      "retrieved_at": "2026-10-11T19:18:35Z",
+      "last_checked": "2026-10-11T19:18:35Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": "\"1055-dyGJtZhYbWFPbitauvKVOLlEGFk\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The page has very little readable text (79 characters); it probably needs JavaScript",
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://documents.un.org/doc/undoc/gen/n25/339/20/pdf/n2533920.pdf",
+      "attempted_at": "2026-10-11T19:18:32Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's robots.txt does not allow automated downloads of this page",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://docs.un.org/en/A/RES/80/58",
+      "attempted_at": "2026-10-11T19:18:35Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "UN-12",
+   "slug": "un-sg-report-a-80-78-ai-military-domain",
+   "title": "Artificial intelligence in the military domain and its implications for international peace and security: Report of the Secretary-General (A/80/78)",
+   "original_title": null,
+   "short_title": "UN SG report A/80/78 on AI in the military domain",
+   "jurisdiction": "United Nations",
+   "country": "International",
+   "jurisdiction_level": "International",
+   "region": "Global",
+   "issuing_body": "United Nations Secretary-General, pursuant to General Assembly resolution 79/239 (prepared with the Office for Disarmament Affairs)",
+   "instrument_type": "Report (government-commissioned)",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2025-06-05",
+   "date_in_force": null,
+   "date_last_updated": "2026-02-04",
+   "official_identifier": "A/80/78",
+   "official_url": "https://documents.un.org/doc/undoc/gen/n25/107/66/pdf/n2510766.pdf",
+   "secondary_url": "https://disarmament.unoda.org/en/our-work/emerging-challenges/artificial-intelligence-military-domain",
+   "language": "English (submissions in Chinese, English, French, Russian and Spanish)",
+   "summary": "First Secretary-General's report on AI in the military domain, requested by resolution 79/239 and focused on areas other than lethal autonomous weapons. The 151-page report consolidates submissions from 31 states, the EU, international organisations, the ICRC, civil society, academia and industry, catalogues normative proposals and summarises views on next steps. The Secretary-General names human responsibility and accountability as the chief challenge, calls machines with the discretion to take human lives 'politically unacceptable and morally repugnant', urges that nuclear-use decisions be made by humans, and warns that AI can lower barriers to chemical and biological weapons.",
+   "safety_topics": [
+    "national security & military",
+    "human oversight",
+    "accountability & liability",
+    "catastrophic risk",
+    "international cooperation"
+   ],
+   "related": [
+    {
+     "id": "UN-10",
+     "slug": "unga-resolution-79-239-ai-military-domain"
+    },
+    {
+     "id": "UN-11",
+     "slug": "unga-resolution-80-58-ai-military-domain"
+    },
+    {
+     "id": "INT-20",
+     "slug": "reaim-2026-pathways-to-action"
+    },
+    {
+     "id": "UN-06",
+     "slug": "unga-79-62-lethal-autonomous-weapons"
+    }
+   ],
+   "notes": "Dated 5 June 2025 and reissued for technical reasons on 4 February 2026. States whose submissions are annexed include Argentina, Austria, Chile, China, Egypt, El Salvador, Finland, France, Germany, Greece, India, Indonesia, Iran, Israel, Italy, Japan, Lithuania, Mexico, the Netherlands, New Zealand, Norway, Pakistan, Peru, the Republic of Korea, the Russian Federation, Serbia, Singapore, Spain, Switzerland, Ukraine and the United Kingdom; the United States did not submit. Resolution 80/58 (December 2025) 'notes' the report and uses it as the basis for the 2026 Geneva informal exchanges, and the REAIM 2026 Pathways to Action also cites it. The Secretary-General's annual science-and-technology report (A/80/237) is a companion document.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Official UN document A/80/78 (PDF, 151 pages) fetched from documents.un.org; the summary, table of contents and Section VII (observations and conclusions) were read; the UNODA topic page was fetched.",
+    "note": "Symbol, title, date (5 June 2025), the reissue note, the structure and the Secretary-General's observations are confirmed from the PDF. The UNODA page confirms the mandate under 79/239, the focus beyond LAWS and the annex of views. Sections III-VI were only skimmed via the table of contents.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "partial",
+    "flag": "The official source could not be downloaded (The site's robots.txt does not allow automated downloads of this page); only the secondary source was saved.",
+    "last_attempt": "2026-10-11T19:18:32Z",
+    "files": [
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/UN-12/2026-10-11/secondary.html",
+      "url": "https://disarmament.unoda.org/en/our-work/emerging-challenges/artificial-intelligence-military-domain",
+      "final_url": "https://disarmament.unoda.org/en/our-work/emerging-challenges/artificial-intelligence-military-domain",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 138137,
+      "sha256": "21064515a00a38cf824fbf7c611b263e587c3ce1e95d034f54411cde81b6802f",
+      "text_sha256": "830355b3768ca4018f98da51472795ca7d1136e4b1da417dba72d8dfa3b37107",
+      "retrieved_at": "2026-10-11T19:18:38Z",
+      "last_checked": "2026-10-11T19:18:38Z",
+      "method": "http",
+      "last_modified": "Sun, 11 Oct 2026 19:18:37 GMT",
+      "etag": "\"1791746317-gzip\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://documents.un.org/doc/undoc/gen/n25/107/66/pdf/n2510766.pdf",
+      "attempted_at": "2026-10-11T19:18:35Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's robots.txt does not allow automated downloads of this page",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://disarmament.unoda.org/en/our-work/emerging-challenges/artificial-intelligence-military-domain",
+      "attempted_at": "2026-10-11T19:18:38Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "UN-13",
+   "slug": "un-global-dialogue-ai-governance-2026-co-chairs-summary",
+   "title": "UN Global Dialogue on Artificial Intelligence Governance: Co-Chairs' Summary (Geneva, 6-7 July 2026)",
+   "original_title": null,
+   "short_title": "UN Global Dialogue on AI Governance 2026 Co-Chairs' Summary",
+   "jurisdiction": "United Nations",
+   "country": "International",
+   "jurisdiction_level": "International",
+   "region": "Global",
+   "issuing_body": "Co-Chairs of the Global Dialogue on Artificial Intelligence Governance (Permanent Representatives of El Salvador and Estonia), supported by a Joint Secretariat of ITU, UNESCO and the UN Office for Digital and Emerging Technologies",
+   "instrument_type": "Report (government-commissioned)",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2026-09",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://www.un.org/global-dialogue-ai-governance/sites/default/files/2026-09/ai_dialogue_co-chairs_summary.pdf",
+   "secondary_url": "https://www.un.org/ai-dialogue",
+   "language": "English",
+   "summary": "Official summary of the inaugural UN Global Dialogue on AI Governance (Geneva, 6-7 July 2026, under resolution 79/325), with delegations from 163 countries. The Co-Chairs record convergence on four points: AI's promise must be weighed against risks and capacity built; divides in compute, data and skills shape who can govern AI; human rights, especially children's protection, apply across the life cycle; and no single actor can govern AI alone. The cluster on safe, secure and trustworthy AI found safety frameworks often lack evidence, called for a shared minimum baseline, and highlighted technical standards, open benchmarks, shared evaluation tools, third-party testing and incident reporting.",
+   "safety_topics": [
+    "international cooperation",
+    "evaluation & testing",
+    "human oversight",
+    "accountability & liability",
+    "child safety",
+    "incident reporting"
+   ],
+   "related": [
+    {
+     "id": "UN-07",
+     "slug": "unga-79-325-scientific-panel-global-dialogue"
+    },
+    {
+     "id": "UN-08",
+     "slug": "un-scientific-panel-preliminary-report"
+    },
+    {
+     "id": "UN-05",
+     "slug": "global-digital-compact"
+    },
+    {
+     "id": "UN-02",
+     "slug": "unga-78-265-safe-secure-trustworthy-ai"
+    }
+   ],
+   "notes": "A chair's summary, not a negotiated outcome: it records discussions and areas of convergence without binding commitments. The document is dated for the 6-7 July 2026 session; the PDF was created on 8 September 2026 and is filed under the UN site's 2026-09 folder, so September 2026 is used as the issue date. The Scientific Panel presented its Preliminary Report (UN-08) at the session. An AI Dialogue Partnerships Hub showcased over 350 commitments. The second Dialogue is scheduled for New York on 3-4 May 2027, back-to-back with the STI Forum. The BRICS AI statement (July 2025) committed its members to operationalising this Dialogue.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Co-Chairs' Summary PDF (18 pages) fetched from un.org and read (executive summary, overview, clusters 3 and 4); the un.org AI Dialogue page was fetched.",
+    "note": "The PDF confirms the title, the session dates and venue, participation figures, co-chairs, the four areas of convergence and the cluster findings. The un.org page confirms the summary's publication, the co-chairs and the May 2027 second session. The exact publication day is not stated on either page.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:18:32Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/UN-13/2026-10-11/official.pdf",
+      "url": "https://www.un.org/global-dialogue-ai-governance/sites/default/files/2026-09/ai_dialogue_co-chairs_summary.pdf",
+      "final_url": "https://www.un.org/global-dialogue-ai-governance/sites/default/files/2026-09/ai_dialogue_co-chairs_summary.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 513485,
+      "sha256": "a45d45d19f4d200710dc8701f425e6cdeb357bcb23fe4346101210ab3cc91b8c",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:18:35Z",
+      "last_checked": "2026-10-11T19:18:35Z",
+      "method": "http",
+      "last_modified": "Tue, 08 Sep 2026 18:14:12 GMT",
+      "etag": "W/\"6aa05074-7d5cd\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/UN-13/2026-10-11/secondary.html",
+      "url": "https://www.un.org/ai-dialogue",
+      "final_url": "https://www.un.org/global-dialogue-ai-governance/en",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 91684,
+      "sha256": "b56eb64316d20d1cd4b02cec32bfab218268dbfc455a86648873ccae63c96f89",
+      "text_sha256": "a9d58fad58ccbb1d38080acf109a727448dee0eac6990a229ff331a968a3f81f",
+      "retrieved_at": "2026-10-11T19:18:37Z",
+      "last_checked": "2026-10-11T19:18:37Z",
+      "method": "http",
+      "last_modified": "Sun, 11 Oct 2026 17:23:18 GMT",
+      "etag": "W/\"1791739398\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.un.org/global-dialogue-ai-governance/sites/default/files/2026-09/ai_dialogue_co-chairs_summary.pdf",
+      "attempted_at": "2026-10-11T19:18:35Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.un.org/ai-dialogue",
+      "attempted_at": "2026-10-11T19:18:37Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G20-01",
+   "slug": "g20-johannesburg-leaders-declaration-2025-ai",
+   "title": "G20 South Africa Summit: Leaders' Declaration (Johannesburg, 22-23 November 2025)",
+   "original_title": null,
+   "short_title": "G20 Johannesburg Leaders' Declaration 2025 (AI section)",
+   "jurisdiction": "G20",
+   "country": "International",
+   "jurisdiction_level": "International",
+   "region": "Global",
+   "issuing_body": "G20 Leaders (South African G20 Presidency)",
+   "instrument_type": "Declaration / statement",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2025-11-22",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://dirco.gov.za/wp-content/uploads/2025/11/2025-G20-Summit-Declaration.pdf",
+   "secondary_url": "https://www.g20.utoronto.ca/2025/251122-declaration.html",
+   "language": "English",
+   "summary": "Leaders' declaration of the first G20 summit in Africa. Its section on 'Artificial Intelligence, Data Governance and Innovation for Sustainable Development' (paragraphs 44-47) welcomes the G20 AI task force, reaffirms the G20 AI Principles and commits to cooperation to share AI's benefits and mitigate risks. It states that safe, secure and trustworthy AI requires addressing human rights, transparency and explainability, fairness, accountability, regulation, safety, appropriate human oversight, ethics, bias, privacy, data protection and data governance, and recognises the UN's role in AI cooperation. Leaders also welcome the AI for Africa Initiative.",
+   "safety_topics": [
+    "international cooperation",
+    "human oversight",
+    "accountability & liability",
+    "transparency & labelling"
+   ],
+   "related": [
+    {
+     "id": "OECD-01",
+     "slug": "oecd-recommendation-ai"
+    },
+    {
+     "id": "UN-07",
+     "slug": "unga-79-325-scientific-panel-global-dialogue"
+    },
+    {
+     "id": "G20-02",
+     "slug": "g20-innovation-ministerial-statement-2026"
+    }
+   ],
+   "notes": "The 122-paragraph declaration was adopted at the opening of the summit on 22 November 2025, with the United States absent from the meeting; press reports say Argentina publicly distanced itself, which is not reflected in the text. The official PDF on g20.org (wp-content/uploads/2025/11/2025-G20-Summit-Declaration.pdf) returns HTTP 403 from this machine, so the identical PDF hosted by South Africa's Department of International Relations and Cooperation is cited. The AI section is a general governance commitment rather than a dedicated AI instrument; the 2025 Digital Economy Working Group produced only a chair's statement. Paragraph 122 hands the presidency to the United States for 2026, the United Kingdom for 2027 and the Republic of Korea for 2028.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Official PDF of the declaration fetched from the DIRCO (South African foreign ministry) site and the AI section read in full; the G20 Research Group HTML reprint returned HTTP 200.",
+    "note": "The PDF confirms the title, the summit dates, the AI paragraphs 44-47 and the closing paragraphs. The 22 November adoption timing and the US absence rest on press reports summarised in search results (not fetched). The g20.org host could not be reached.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:18:35Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/G20-01/2026-10-11/official.pdf",
+      "url": "https://dirco.gov.za/wp-content/uploads/2025/11/2025-G20-Summit-Declaration.pdf",
+      "final_url": "https://dirco.gov.za/wp-content/uploads/2025/11/2025-G20-Summit-Declaration.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 1286326,
+      "sha256": "7e878591411ce6a5ad729c93151de595aca4462b52e2c5dea6f25f548b14b33a",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:18:40Z",
+      "last_checked": "2026-10-11T19:18:40Z",
+      "method": "http",
+      "last_modified": "Sat, 22 Nov 2025 14:35:37 GMT",
+      "etag": "\"13a0b6-6921ca39-1d06;;;\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/G20-01/2026-10-11/secondary.html",
+      "url": "https://www.g20.utoronto.ca/2025/251122-declaration.html",
+      "final_url": "https://www.g20.utoronto.ca/2025/251122-declaration.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 84755,
+      "sha256": "fc9b42d6e42ca884bb3c6257713bdfab2cc26bb39f9edac37b3f3bc9c09db1d5",
+      "text_sha256": "e6eb5db83afb5a3611071884db85632d69729b9db963003b88df6c6165bfb581",
+      "retrieved_at": "2026-10-11T19:18:43Z",
+      "last_checked": "2026-10-11T19:18:43Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://dirco.gov.za/wp-content/uploads/2025/11/2025-G20-Summit-Declaration.pdf",
+      "attempted_at": "2026-10-11T19:18:40Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.g20.utoronto.ca/2025/251122-declaration.html",
+      "attempted_at": "2026-10-11T19:18:43Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G20-02",
+   "slug": "g20-innovation-ministerial-statement-2026",
+   "title": "G20 Innovation Ministerial Statement (Chapel Hill, 2 September 2026), including the Carolina Principles for Emerging Technologies",
+   "original_title": null,
+   "short_title": "G20 Innovation Ministerial Statement 2026 (Chapel Hill)",
+   "jurisdiction": "G20",
+   "country": "International",
+   "jurisdiction_level": "International",
+   "region": "Global",
+   "issuing_body": "G20 Innovation Ministers under the United States G20 Presidency; ministerial hosted by the US Department of Commerce and the White House Office of Science and Technology Policy",
+   "instrument_type": "Declaration / statement",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2026-09-02",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://www.commerce.gov/news/press-releases/2026/09/g20-innovation-ministerial-concludes-consensus-statement",
+   "secondary_url": "https://assets.publishing.service.gov.uk/media/6a996786f5b35599aec19180/g20-innovation-ministerial-statement.pdf",
+   "language": "English",
+   "summary": "Consensus statement of the G20 Innovation Ministerial (Chapel Hill, 1-2 September 2026), the first AI-related outcome of the US presidency. It frames emerging technologies as drivers of prosperity when deployed 'in a secure and reliable manner', endorses sector-specific, risk-based approaches where appropriate and asks members to preserve national sovereignty in technology governance. Six pillars cover pro-innovation policy, AI in public services, workforce, IP policies for AI, 'AI for standards and standards for AI' and industrial innovation. The Carolina Principles favour secure real-world testing and existing sector regulation, with new rules only for novel issues.",
+   "safety_topics": [
+    "international cooperation",
+    "risk-based classification",
+    "evaluation & testing",
+    "public-sector use"
+   ],
+   "related": [
+    {
+     "id": "G20-01",
+     "slug": "g20-johannesburg-leaders-declaration-2025-ai"
+    },
+    {
+     "id": "OECD-01",
+     "slug": "oecd-recommendation-ai"
+    }
+   ],
+   "notes": "The Commerce Department lists the African Union, Argentina, Australia, Brazil, Canada, China, the European Union, France, Germany, India, Indonesia, Italy, Japan, Mexico, Poland, Russia, Saudi Arabia, South Korea, Türkiye and the United Kingdom as present; it describes the statement as a consensus text but does not list signatories per document. The texts of the AI Prosperity Objectives and the AI Prosperity Compact were not retrieved. Compared with the Johannesburg declaration's list of safety requirements, the statement is innovation-led and contains no provisions on frontier-model risk or safety institutes. The G20 Leaders' Summit of the US presidency is scheduled for 14-15 December 2026 in Miami, so no 2026 leaders' AI outcome exists yet. The same PDF is also hosted by Japan's Ministry of Internal Affairs and Communications.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Commerce Department press release (2 September 2026) fetched; the full statement PDF fetched from the UK government publishing service and from soumu.go.jp and read; the G20 Research Group reprint fetched.",
+    "note": "The press release confirms the date, the four named deliverables and the attending delegations. The PDF confirms the title, the Chapel Hill venue, the preamble and the six pillars, including the Carolina Principles. The press release's document links are tracking redirects, so the Commerce-hosted PDF location was not confirmed.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "partial",
+    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
+    "last_attempt": "2026-10-11T19:18:37Z",
+    "files": [
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/G20-02/2026-10-11/secondary.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/6a996786f5b35599aec19180/g20-innovation-ministerial-statement.pdf",
+      "final_url": "https://assets.publishing.service.gov.uk/media/6a996786f5b35599aec19180/g20-innovation-ministerial-statement.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 392983,
+      "sha256": "3c7a87070da448a74fb7456cd0d4fda3b815562744ad0fc006505ec58e23c997",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:18:43Z",
+      "last_checked": "2026-10-11T19:18:43Z",
+      "method": "http",
+      "last_modified": "Thu, 03 Sep 2026 12:26:46 GMT",
+      "etag": "\"6a996786-5ff17\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.commerce.gov/news/press-releases/2026/09/g20-innovation-ministerial-concludes-consensus-statement",
+      "attempted_at": "2026-10-11T19:18:40Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://assets.publishing.service.gov.uk/media/6a996786f5b35599aec19180/g20-innovation-ministerial-statement.pdf",
+      "attempted_at": "2026-10-11T19:18:43Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://www.commerce.gov/news/press-releases/2026/09/g20-innovation-ministerial-concludes-consensus-statement",
+      "attempted_at": "2026-10-11T19:19:42Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
+      "method": "browser"
+     }
+    ]
+   }
+  },
+  {
+   "id": "BRICS-01",
+   "slug": "brics-leaders-statement-global-governance-ai-2025",
+   "title": "BRICS Leaders' Statement on the Global Governance of Artificial Intelligence",
+   "original_title": "Declaração dos Líderes do BRICS sobre Governança Global da Inteligência Artificial",
+   "short_title": "BRICS AI Governance Statement (Rio, 2025)",
+   "jurisdiction": "BRICS",
+   "country": "International",
+   "jurisdiction_level": "International",
+   "region": "Global",
+   "issuing_body": "BRICS Leaders, 17th BRICS Summit, Rio de Janeiro (Brazilian BRICS Chairship 2025)",
+   "instrument_type": "Declaration / statement",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2025-07-06",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://brics.br/en/documents/presidency-documents/250706_brics_ggai_declarationfinal.pdf/@@download/file",
+   "secondary_url": "http://en.kremlin.ru/events/president/news/77373",
+   "language": "English (Portuguese version published by Brazil)",
+   "summary": "First standalone BRICS leaders' text on AI governance, adopted at the Rio summit alongside the Leaders' Declaration. It sets guidelines for non-military AI: the United Nations at the core of global AI governance, digital sovereignty and each country's right to its own regulatory framework, fair competition, data governance, equitable access to AI technology and compute, copyright protection with transparency over model inputs and outputs, open-source development and inclusive standard-setting. Under 'Safety and Trust must be Inherent to AI Systems' it commits to addressing immediate and long-term risks and malicious use, and calls for a 'prudent approach' to AGI.",
+   "safety_topics": [
+    "international cooperation",
+    "general-purpose / frontier AI",
+    "accountability & liability",
+    "transparency & labelling"
+   ],
+   "related": [
+    {
+     "id": "UN-07",
+     "slug": "unga-79-325-scientific-panel-global-dialogue"
+    },
+    {
+     "id": "UN-05",
+     "slug": "global-digital-compact"
+    },
+    {
+     "id": "BRICS-02",
+     "slug": "brics-new-delhi-declaration-2026-ai"
+    },
+    {
+     "id": "CN-11",
+     "slug": "cn-global-ai-governance-action-plan"
+    }
+   ],
+   "notes": "Adopted on 6 July 2025; the Kremlin's summit readout lists it with the final Declaration and the Leaders' Framework Declaration on Climate Finance as the three documents adopted. The statement says the guidelines 'strictly refer to the use of AI in the non-military domain' and that BRICS 'will remain open to revisiting them', welcoming contributions from other developing countries. The 2026 New Delhi Declaration (BRICS-02) commits members to implement it. The official brics.br host does not resolve from this machine; the text was read from an Internet Archive capture (29 November 2025) of the official PDF URL, and the Portuguese title comes from the Brazilian Foreign Ministry press-note listing, whose page could not be opened. Membership at the time of adoption was not verified from an official page.",
+   "verification": {
+    "level": "B",
+    "verified_on": "2026-10-11",
+    "method": "Internet Archive capture of the official brics.br PDF fetched (HTTP 200) and read in full; the Kremlin's official readout of the summit plenary (6 July 2025) fetched via curl; the Brazilian MFA press-note URL returned 404/captcha and the Planalto news page body did not render.",
+    "note": "The archived PDF confirms the title and full text. The Kremlin page confirms the exact title, the adoption after the 17th summit and the 6 July 2025 date. The live brics.br site could not be reached from this machine, hence level B despite the full text having been read.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "partial",
+    "flag": "The official source could not be downloaded (DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'); only the secondary source was saved.",
+    "last_attempt": "2026-10-11T19:18:38Z",
+    "files": [
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/BRICS-01/2026-10-11/secondary.html",
+      "url": "http://en.kremlin.ru/events/president/news/77373",
+      "final_url": "http://en.kremlin.ru/events/president/news/77373",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 41512,
+      "sha256": "345d8f9001f060d678d126165b4d79ad304a593408b1f792492d7f0e63d0dce4",
+      "text_sha256": "20ecabffc4ece79d66dd7cac39fb8dae05ee4d52a53562f6f4c72018a66b30f4",
+      "retrieved_at": "2026-10-11T19:18:41Z",
+      "last_checked": "2026-10-11T19:18:41Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://brics.br/en/documents/presidency-documents/250706_brics_ggai_declarationfinal.pdf/@@download/file",
+      "attempted_at": "2026-10-11T19:18:39Z",
+      "ok": false,
+      "http_status": null,
+      "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "http://en.kremlin.ru/events/president/news/77373",
+      "attempted_at": "2026-10-11T19:18:41Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "BRICS-02",
+   "slug": "brics-new-delhi-declaration-2026-ai",
+   "title": "New Delhi Declaration: Building for Resilience, Innovation, Cooperation and Sustainability (XVIII BRICS Summit)",
+   "original_title": null,
+   "short_title": "BRICS New Delhi Declaration 2026 (AI paragraphs)",
+   "jurisdiction": "BRICS",
+   "country": "International",
+   "jurisdiction_level": "International",
+   "region": "Global",
+   "issuing_body": "BRICS Leaders, XVIII BRICS Summit, New Delhi (Indian BRICS Chairship 2026)",
+   "instrument_type": "Declaration / statement",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2026-09-12",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://dirco.gov.za/wp-content/uploads/2026/09/New-Delhi-Declaration-2026.pdf",
+   "secondary_url": "https://www.sanews.gov.za/south-africa/brics-summit-concludes-adoption-new-delhi-declaration-0",
+   "language": "English",
+   "summary": "140-paragraph declaration of the 18th BRICS summit (New Delhi, 12-13 September 2026). Paragraph 81 recognises AI's development potential, calls cooperation on access to AI resources 'while ensuring its safety, security, inclusiveness and reliability', energy-efficient AI, trustworthy AI and risk mitigation essential for the Global South, acknowledges India's AI Impact Summit and the Shanghai World AI Conference, and commits members to implement the 2025 BRICS Leaders' Statement on the Global Governance of AI. Paragraph 48 calls for action against malicious software, cybercrime, disinformation and deepfakes and for interoperable ICT supply-chain security rules.",
+   "safety_topics": [
+    "international cooperation",
+    "deepfakes & synthetic media",
+    "research priorities"
+   ],
+   "related": [
+    {
+     "id": "BRICS-01",
+     "slug": "brics-leaders-statement-global-governance-ai-2025"
+    },
+    {
+     "id": "INT-02",
+     "slug": "new-delhi-declaration-ai-impact"
+    }
+   ],
+   "notes": "A general summit declaration whose AI content is limited to the paragraphs summarised; it contains no new AI instrument but makes the 2025 AI statement an implementation commitment. Press reports say it was adopted unanimously on the first summit day (12 September 2026), the date printed on the document. It should not be confused with the 'New Delhi Declaration on AI Impact' of the February 2026 AI Impact Summit (INT-02). The Indian host websites (brics2026.gov.in, mea.gov.in) do not resolve from this machine, so the South African DIRCO-hosted copy of the official text is cited; the Indian Ministry of External Affairs lists the document under the same title.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Official text PDF (45 pages) fetched from the DIRCO site and the AI, ICT-security and financial-sector paragraphs read; the SAnews page returned HTTP 200 but was not read.",
+    "note": "The PDF confirms the title, the New Delhi, 12 September 2026 dateline, the summit dates and paragraphs 48, 81, 95 and 139-140. The Indian host page could not be reached, so the text is verified from a member government's copy.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:18:39Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/BRICS-02/2026-10-11/official.pdf",
+      "url": "https://dirco.gov.za/wp-content/uploads/2026/09/New-Delhi-Declaration-2026.pdf",
+      "final_url": "https://dirco.gov.za/wp-content/uploads/2026/09/New-Delhi-Declaration-2026.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 457116,
+      "sha256": "263d59b39230b4b2648318282a254fbd6e629415689cd123fdccad96878de0e9",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:18:44Z",
+      "last_checked": "2026-10-11T19:18:44Z",
+      "method": "http",
+      "last_modified": "Sat, 12 Sep 2026 12:34:22 GMT",
+      "etag": "\"6f99c-6aa546ce-279b62;;;\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/BRICS-02/2026-10-11/secondary.html",
+      "url": "https://www.sanews.gov.za/south-africa/brics-summit-concludes-adoption-new-delhi-declaration-0",
+      "final_url": "https://www.sanews.gov.za/south-africa/brics-summit-concludes-adoption-new-delhi-declaration-0",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 32442,
+      "sha256": "f64824aae74a6e00e4ed3ce2f95b1affd059c30e4bedb7a4ca4e9ad81c489e1f",
+      "text_sha256": "f07118bb6a1954af403ddf335d8833ee2322fa2dd94ac851b297049b829355b3",
+      "retrieved_at": "2026-10-11T19:18:47Z",
+      "last_checked": "2026-10-11T19:18:47Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://dirco.gov.za/wp-content/uploads/2026/09/New-Delhi-Declaration-2026.pdf",
+      "attempted_at": "2026-10-11T19:18:44Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.sanews.gov.za/south-africa/brics-summit-concludes-adoption-new-delhi-declaration-0",
+      "attempted_at": "2026-10-11T19:18:47Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G7-05",
+   "slug": "g7-leaders-statement-ai-for-prosperity-2025",
+   "title": "G7 Leaders' Statement on AI for Prosperity",
+   "original_title": null,
+   "short_title": "G7 Leaders' Statement on AI for Prosperity (Kananaskis, 2025)",
+   "jurisdiction": "G7",
+   "country": "International",
+   "jurisdiction_level": "International",
+   "region": "Global",
+   "issuing_body": "G7 Leaders (Canadian G7 Presidency), Kananaskis Summit",
+   "instrument_type": "Declaration / statement",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2025-06-17",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://www.pm.gc.ca/en/news/statements/2025/06/17/leaders-statement-ai-prosperity",
+   "secondary_url": "https://www.g7.utoronto.ca/summit/2025kananaskis/250617-ai.html",
+   "language": "English",
+   "summary": "Leaders' statement adopted at Kananaskis on 17 June 2025, one of the few consensus texts of a summit without a final communiqué. It commits the G7 to human-centric AI that drives adoption of 'secure, responsible, and trustworthy AI', mitigates negative externalities and promotes national security. Priorities are public-sector AI adoption respecting human rights, privacy, transparency, fairness and accountability, an annexed AI Adoption Roadmap for SMEs that leverages the Hiroshima AI Process and the OECD-run HAIP Reporting Framework, the 2024 action plan on AI at work, an AI-energy workplan and cooperation with developing partners. There is no frontier-risk section.",
+   "safety_topics": [
+    "public-sector use",
+    "international cooperation",
+    "accountability & liability"
+   ],
+   "related": [
+    {
+     "id": "G7-01",
+     "slug": "hiroshima-process-guiding-principles-advanced-ai"
+    },
+    {
+     "id": "G7-02",
+     "slug": "hiroshima-process-code-of-conduct"
+    },
+    {
+     "id": "G7-03",
+     "slug": "hiroshima-ai-process-comprehensive-policy-framework"
+    },
+    {
+     "id": "OECD-02",
+     "slug": "haip-reporting-framework"
+    },
+    {
+     "id": "UN-05",
+     "slug": "global-digital-compact"
+    },
+    {
+     "id": "G7-04",
+     "slug": "g7-ministerial-declaration-digital-technology-2026"
+    }
+   ],
+   "notes": "Dated 17 June 2025, Kananaskis, Alberta. Safety and risk content is light: the operative commitments concern adoption, SMEs, public-sector use and energy, with safety expressed through the 'secure, responsible and trustworthy' formula and the HAIP reporting framework. The annex 'G7 AI Adoption Roadmap' asks ministers to deliver an AI Adoption Blueprint with the OECD and an AI-energy workplan before the end of 2025. According to the G7 Research Group, a Kananaskis Common Vision on quantum technologies was adopted alongside; Canada hosted a Research 7+ meeting in Ottawa in November 2025 to follow up (NSERC news, not fetched). The 2026 French presidency continued the HAIP work in the May 2026 ministerial declaration (G7-04).",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Official statement page fetched from the Prime Minister of Canada's website (pm.gc.ca); the G7 Research Group reprint also fetched.",
+    "note": "The pm.gc.ca page confirms the title, date, place, the main commitments and the annex on the AI Adoption Roadmap. The quantum statement and the Research 7+ follow-up rest on secondary pages (G7 Research Group, NSERC) seen only in search results.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:18:41Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/G7-05/2026-10-11/official.html",
+      "url": "https://www.pm.gc.ca/en/news/statements/2025/06/17/leaders-statement-ai-prosperity",
+      "final_url": "https://www.pm.gc.ca/en/news/statements/2025/06/17/g7-leaders-statement-ai-prosperity",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 54021,
+      "sha256": "3eefb3c29fb1cebbce267a54cb6e0923850de4c21892cd6df180a4b5b80afdfc",
+      "text_sha256": "1881afee8524b931c44fd9f769114b38b8667cde1fc54fef1c1956a599cb336f",
+      "retrieved_at": "2026-10-11T19:18:46Z",
+      "last_checked": "2026-10-11T19:18:46Z",
+      "method": "http",
+      "last_modified": "Sun, 11 Oct 2026 06:10:52 GMT",
+      "etag": "\"1791699052\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/G7-05/2026-10-11/secondary.html",
+      "url": "https://www.g7.utoronto.ca/summit/2025kananaskis/250617-ai.html",
+      "final_url": "https://www.g7.utoronto.ca/summit/2025kananaskis/250617-ai.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 18643,
+      "sha256": "6183b7f3bacde0dd5ac1a0d7fa3d058ef7cb7ea1526c62eb3d420ba875cf99be",
+      "text_sha256": "c26b26388b0940e38c1836d3fd07156d95c895fcbf6fdfb97e9421aa457cb593",
+      "retrieved_at": "2026-10-11T19:18:49Z",
+      "last_checked": "2026-10-11T19:18:49Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.pm.gc.ca/en/news/statements/2025/06/17/leaders-statement-ai-prosperity",
+      "attempted_at": "2026-10-11T19:18:46Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.g7.utoronto.ca/summit/2025kananaskis/250617-ai.html",
+      "attempted_at": "2026-10-11T19:18:49Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G7-06",
+   "slug": "g7-leaders-call-safer-digital-space-minors-2026",
+   "title": "G7 Leaders' Call on a Safer Digital Space for Minors",
+   "original_title": null,
+   "short_title": "G7 Leaders' Call on a Safer Digital Space for Minors (Evian, 2026)",
+   "jurisdiction": "G7",
+   "country": "International",
+   "jurisdiction_level": "International",
+   "region": "Global",
+   "issuing_body": "G7 Leaders (French G7 Presidency), Evian Summit",
+   "instrument_type": "Declaration / statement",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2026-06-17",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://www.elysee.fr/en/G7evian/2026/06/17/leaders-call-on-a-safer-digital-space-for-minors",
+   "secondary_url": "https://www.elysee.fr/en/emmanuel-macron/2026/06/17/g7-summit-in-evian-day-three",
+   "language": "English",
+   "summary": "One of nine texts adopted at the Evian summit (15-17 June 2026) and the only one with AI provisions. The leaders recognise risks from children's use of conversational AI systems and urge providers to set safety defaults, parental controls and privacy-preserving age assurance; commit to prohibiting the generation, manipulation and distribution of child sexual abuse material, including deepfakes of minors; call for detection and removal measures and age-appropriate recommender systems; and call for shared data, impartial evaluations and common standards to assess the impact of AI models and algorithmic systems on minors' safety.",
+   "safety_topics": [
+    "child safety",
+    "deepfakes & synthetic media",
+    "evaluation & testing",
+    "transparency & labelling",
+    "prohibited practices"
+   ],
+   "related": [
+    {
+     "id": "G7-04",
+     "slug": "g7-ministerial-declaration-digital-technology-2026"
+    },
+    {
+     "id": "G7-01",
+     "slug": "hiroshima-process-guiding-principles-advanced-ai"
+    },
+    {
+     "id": "G7-05",
+     "slug": "g7-leaders-statement-ai-for-prosperity-2025"
+    }
+   ],
+   "notes": "Evian produced no dedicated leaders' statement on AI. A working lunch on 'Ensuring the safe, rapid and effective deployment of artificial intelligence' with partner countries and AI company leaders took place on 17 June 2026; President Macron afterwards reported broad consensus on regulating AI and labelling AI-generated content, discussion of keeping frontier models away from authoritarian regimes and cyber threats, and plans for a platform among democracies to set common standards for frontier AI developers, with a ministerial meeting foreseen in September 2026. No official outcome of that follow-up had been published by October 2026. The summit's other eight texts concern growth, critical minerals, geopolitical issues, cancer, Ebola, partnerships, drug trafficking and migrant smuggling.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Official text fetched from the Élysée G7 Evian site; the Élysée day-three summary page and the G7 Research Group's Evian document index were also fetched.",
+    "note": "The Élysée page confirms the title, the 17 June 2026 date and the AI-related provisions summarised. The day-three page confirms the AI working lunch and Macron's follow-up plans. The G7 Research Group index confirms that no separate AI leaders' statement was issued.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:18:43Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/G7-06/2026-10-11/official.html",
+      "url": "https://www.elysee.fr/en/G7evian/2026/06/17/leaders-call-on-a-safer-digital-space-for-minors",
+      "final_url": "https://www.elysee.fr/en/G7evian/2026/06/17/leaders-call-on-a-safer-digital-space-for-minors",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 175640,
+      "sha256": "8ed45e47dcfe4e4439cbe5ff572c3f6b47909984ecd3274289b6a8753abecba0",
+      "text_sha256": "6912315102f3cd1a052c8a401c1285434506f14fdf3ee5f8eee5f4664831af90",
+      "retrieved_at": "2026-10-11T19:18:46Z",
+      "last_checked": "2026-10-11T19:18:46Z",
+      "method": "http",
+      "last_modified": "Sun, 11 Oct 2026 19:18:45 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/G7-06/2026-10-11/secondary.html",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/06/17/g7-summit-in-evian-day-three",
+      "final_url": "https://www.elysee.fr/en/emmanuel-macron/2026/06/17/g7-summit-in-evian-day-three",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 229513,
+      "sha256": "c84069a22d82bfdb7115ff3c465ada19054afade5f4d28a2dc060823ac26eb56",
+      "text_sha256": "b083d7a509bdba00f85e55fe28ff46f53f4cc17f4593ff2c880e702dc1c01c3b",
+      "retrieved_at": "2026-10-11T19:18:48Z",
+      "last_checked": "2026-10-11T19:18:48Z",
+      "method": "http",
+      "last_modified": "Sun, 11 Oct 2026 19:18:48 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.elysee.fr/en/G7evian/2026/06/17/leaders-call-on-a-safer-digital-space-for-minors",
+      "attempted_at": "2026-10-11T19:18:45Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/06/17/g7-summit-in-evian-day-three",
+      "attempted_at": "2026-10-11T19:18:48Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "INT-21",
+   "slug": "five-country-ministerial-communique-2026-ai",
+   "title": "Five Country Ministerial Communiqué 2026",
+   "original_title": null,
+   "short_title": "Five Country Ministerial Communiqué 2026 (AI and national security)",
+   "jurisdiction": "Five Country Ministerial (Australia, Canada, New Zealand, United Kingdom, United States)",
+   "country": "International",
+   "jurisdiction_level": "International",
+   "region": "Global",
+   "issuing_body": "Home Affairs, Interior and Security Ministers of Australia, Canada, New Zealand, the United Kingdom and the United States, meeting under Australia's chairmanship in Sydney",
+   "instrument_type": "Declaration / statement",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2026-08-26",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://www.gov.uk/government/publications/five-country-ministerial-communique-2026/five-country-ministerial-communique-2026",
+   "secondary_url": "https://www.gov.uk/government/publications/five-country-ministerial-communique-2026",
+   "language": "English",
+   "summary": "Joint communiqué of the Five Country Ministerial (Sydney, 25-26 August 2026) with a dedicated section on AI and national security. The ministers commit to shaping AI's opportunities while countering risks from malicious use, to deepen collaboration with industry 'including enabling timely access to frontier models to support secure innovation and strengthen cyber security', and to ensure the safe, secure and responsible application of AI. They discussed the national security implications of AI models and 'characteristics of an artificial intelligence model that may require additional government scrutiny', and shared lessons from national AI tabletop exercises.",
+   "safety_topics": [
+    "national security & military",
+    "general-purpose / frontier AI",
+    "international cooperation",
+    "child safety"
+   ],
+   "related": [
+    {
+     "id": "US-23",
+     "slug": "us-eo-14409"
+    },
+    {
+     "id": "GB-07",
+     "slug": "uk-ai-security-institute-2025"
+    },
+    {
+     "id": "INT-11",
+     "slug": "international-network-ai-safety-institutes"
+    }
+   ],
+   "notes": "The communiqué is dated 26 August 2026, Sydney, and was published on GOV.UK on 28 August 2026. It is a political statement of interior ministers rather than an AI instrument, and the criteria for models requiring 'additional government scrutiny' are not published; a commentary cited in search results reported that none of the five governments had released them. Included because it is the first Five Eyes ministerial text to address frontier-model access and scrutiny, complementing the June 2026 US executive order on frontier AI and cybersecurity (US-23).",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "GOV.UK publication page and full HTML communiqué fetched (Home Office policy paper, published 28 August 2026).",
+    "note": "The GOV.UK document confirms the title, the Sydney 25-26 August 2026 meeting, the 26 August dateline, the participating ministers and the full text of the AI and national security section. Other host-government copies were not checked.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:18:43Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/INT-21/2026-10-11/official.html",
+      "url": "https://www.gov.uk/government/publications/five-country-ministerial-communique-2026/five-country-ministerial-communique-2026",
+      "final_url": "https://www.gov.uk/government/publications/five-country-ministerial-communique-2026/five-country-ministerial-communique-2026",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 88051,
+      "sha256": "b10ea8fb838845b3e30ad195982fa92119a582417c02e89fb9b084c576037a92",
+      "text_sha256": "25f11e1250d759b209b6c413aebb0e5be959f406a2658087478abeafd8eee7fe",
+      "retrieved_at": "2026-10-11T19:18:46Z",
+      "last_checked": "2026-10-11T19:18:46Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": "W/\"b10ea8fb838845b3e30ad195982fa921\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/INT-21/2026-10-11/secondary.html",
+      "url": "https://www.gov.uk/government/publications/five-country-ministerial-communique-2026",
+      "final_url": "https://www.gov.uk/government/publications/five-country-ministerial-communique-2026",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 65684,
+      "sha256": "fc4978892ab84b5a8ee30cd7e3a209138ec2772599e18ef6c9241469032d9a42",
+      "text_sha256": "2b09a9568fb30cccd664c8ff0537ba16ccf2dc83a6f9e0069d867a36466e2f04",
+      "retrieved_at": "2026-10-11T19:18:48Z",
+      "last_checked": "2026-10-11T19:18:48Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": "W/\"fc4978892ab84b5a8ee30cd7e3a20913\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.gov.uk/government/publications/five-country-ministerial-communique-2026/five-country-ministerial-communique-2026",
+      "attempted_at": "2026-10-11T19:18:46Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.uk/government/publications/five-country-ministerial-communique-2026",
+      "attempted_at": "2026-10-11T19:18:48Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "INT-22",
+   "slug": "hiroshima-ai-process-friends-group-action-plan-2026",
+   "title": "Hiroshima AI Process Friends Group Action Plan 2026",
+   "original_title": null,
+   "short_title": "HAIP Friends Group Action Plan 2026",
+   "jurisdiction": "Hiroshima AI Process Friends Group",
+   "country": "International",
+   "jurisdiction_level": "International",
+   "region": "Global",
+   "issuing_body": "Hiroshima AI Process Friends Group (66 countries and regions) with its Partners Community, at the Second In-Person Meeting hosted by Japan's Ministry of Internal Affairs and Communications in Tokyo",
+   "instrument_type": "Strategy / action plan",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2026-03-16",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/pdf/image_20260316_2_2.pdf",
+   "secondary_url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/3/16_2.html",
+   "language": "English",
+   "summary": "Voluntary action plan agreed at the second in-person meeting of the Hiroshima AI Process Friends Group (Tokyo, 15-16 March 2026) to promote safe, secure and trustworthy AI over the following year. It lists workshops on the OECD AI Principles toolkit and the HAIP Reporting Framework, capacity-building and information-sharing on AI governance and transparency, a group study on interoperability between the HAIP and other frameworks, AI Academy courses with the World Bank and talent programmes for the Global South. An annex details member and partner projects, including a Singapore IMDA workshop on chatbot safety transparency and agentic-AI risks.",
+   "safety_topics": [
+    "international cooperation",
+    "transparency & labelling",
+    "general-purpose / frontier AI"
+   ],
+   "related": [
+    {
+     "id": "G7-02",
+     "slug": "hiroshima-process-code-of-conduct"
+    },
+    {
+     "id": "G7-03",
+     "slug": "hiroshima-ai-process-comprehensive-policy-framework"
+    },
+    {
+     "id": "OECD-02",
+     "slug": "haip-reporting-framework"
+    },
+    {
+     "id": "G7-04",
+     "slug": "g7-ministerial-declaration-digital-technology-2026"
+    },
+    {
+     "id": "OECD-01",
+     "slug": "oecd-recommendation-ai"
+    }
+   ],
+   "notes": "The Friends Group was launched in May 2024 as a voluntary framework of countries supporting the HAIP; as of March 2026 it had 66 countries and regions and 38 Partners Community organisations. Thirty-four member countries and regions, Brazil as observer and 32 partner organisations attended the Tokyo meeting. The plan is explicitly voluntary and was 'shared in the coming international discussions', including the May 2026 G7 digital ministerial under the French presidency (G7-04). The meeting also launched an OECD pilot to revise the HAIP Reporting Framework (later released as version 2.0) and a World Bank AI Academy. Safety content is mostly procedural (reporting, transparency, interoperability) rather than new obligations.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Action Plan PDF (8 pages) fetched from the MIC Japan site and read; the MIC press release of 16 March 2026 fetched.",
+    "note": "The PDF confirms the title, the 16 March 2026 date, the membership figures and the listed initiatives. The press release confirms the meeting dates, attendance and the OECD and World Bank announcements.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:18:47Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/INT-22/2026-10-11/official.pdf",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/pdf/image_20260316_2_2.pdf",
+      "final_url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/pdf/image_20260316_2_2.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 290945,
+      "sha256": "4c324616e053f45786b3de1dd70976380d7df8667034b9445cc2f9d046cf75ac",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:18:53Z",
+      "last_checked": "2026-10-11T19:18:53Z",
+      "method": "http",
+      "last_modified": "Fri, 03 Apr 2026 06:00:02 GMT",
+      "etag": "\"47081-64e880724525f\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/INT-22/2026-10-11/secondary.html",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/3/16_2.html",
+      "final_url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/3/16_2.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 21307,
+      "sha256": "ac425431222f93436842005729989361d242d282a3a9dd2d838aae20b0b5321f",
+      "text_sha256": "3595671cc3823c3e70ad9d34d5e1559ed495c64520d85ef60a6090e2f11e0c54",
+      "retrieved_at": "2026-10-11T19:18:56Z",
+      "last_checked": "2026-10-11T19:18:56Z",
+      "method": "http",
+      "last_modified": "Fri, 03 Apr 2026 06:00:03 GMT",
+      "etag": "W/\"533b-64e880732cd69\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/pdf/image_20260316_2_2.pdf",
+      "attempted_at": "2026-10-11T19:18:53Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/3/16_2.html",
+      "attempted_at": "2026-10-11T19:18:56Z",
       "ok": true,
       "http_status": 200,
       "error": null,
