@@ -488,6 +488,10 @@ def pdf_candidates(res, rec, limit):
             score += 2
         if re.search(r"factsheet|fact-sheet|infographic|summary|press|brochure|poster", hay):
             score -= 2
+        if re.search(r"accessib|certificat|veto[- ]message|signing[- ]message|privacy[- ]policy|terms", hay):
+            continue  # site boilerplate or another bill's message, never the instrument
+        if score <= 0:
+            continue  # a PDF whose link says nothing about this document is more likely noise than the text
         scored.append((-score, pos, url))
     scored.sort()
     return [u for _, _, u in scored[:limit]]
