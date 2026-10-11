@@ -6,8 +6,11 @@ Every record links to its official source, says how and when it was verified, an
 
 Everything runs from this folder. The app makes no requests to other websites, and there is nothing to install to view it.
 
+**The records are an AI-based extraction.** An AI agent researched and wrote them from the official pages it could fetch; no human has reviewed every record. `AGENTS.md` describes how the data was made, its limitations, and the method and commands for extending or re-checking it with another agent pass.
+
 ```
 ai-safety-policy-register/
+├── AGENTS.md               how the data was made, its limits, and the method for agent passes
 ├── index.html              the app
 ├── assets/                 app.css, app.js
 ├── data/
@@ -22,6 +25,7 @@ ai-safety-policy-register/
 │   ├── build.py            regenerates records.js / .csv / .sqlite / .xlsx from records.json
 │   ├── validate.py         checks records.json before a build
 │   ├── export_xlsx.py      writes the Excel workbook (used by build.py)
+│   ├── merge.py            merges a research pass into records.json with checks
 │   └── package.py          zips everything into one shareable file
 ├── examples/
 │   └── analysis.py         example analysis run straight from register.sqlite
