@@ -3,7 +3,7 @@
   "name": "AI Safety Policy Register",
   "version": "1.3",
   "snapshot_date": "2026-10-11",
-  "record_count": 214,
+  "record_count": 226,
   "scope": "Official governmental and intergovernmental AI safety and AI regulation instruments (core safety + regulation), global coverage.",
   "research_snapshot_date": "2026-10-11",
   "archive_note": "Local copies of sources are created by tools/archive.py on the machine where the register is deployed."
@@ -13699,7 +13699,7 @@
    "status": "In force",
    "date_published": "2025-09-23",
    "date_in_force": "2025-10-10",
-   "date_last_updated": null,
+   "date_last_updated": "2026-10-07",
    "official_identifier": "Legge n. 132/2025 (GU Serie Generale n. 223 del 25-09-2025; 25G00143)",
    "official_url": "https://www.gazzettaufficiale.it/eli/id/2025/09/25/25G00143/sg",
    "secondary_url": null,
@@ -13717,9 +13717,17 @@
     {
      "slug": "eu-ai-act",
      "id": "EU-03"
+    },
+    {
+     "slug": "it-dlgs-160-2026-police-ai-and-liability",
+     "id": "IT-02"
+    },
+    {
+     "slug": "it-dlgs-179-2026-ai-authorities-powers",
+     "id": "IT-03"
     }
    ],
-   "notes": "Published in the GU on 25 Sep 2025 and in force since 10 Oct 2025. The Commission's single point of contact list (updated 7 Sep 2026) shows ACN. Secondary sources report that the Council of Ministers gave preliminary approval to two implementing legislative decrees on 10 Jun 2026: one on authorities and training, one on police use of AI and liability, adding Article 437-bis to the Criminal Code. They also report that one was published as Legislative Decree No. 160 of 9 Sep 2026. Neither decree was verified on an official source, so they are not recorded separately.",
+   "notes": "Published in the GU on 25 Sep 2025 and in force since 10 Oct 2025. The Commission's single point of contact list (updated 7 Sep 2026) shows ACN. Two implementing legislative decrees followed: Legislative Decree No. 160 of 9 Sep 2026 on police use of AI and AI liability, in force 30 Sep 2026 (IT-02), and Legislative Decree No. 179 of 7 Oct 2026 on the powers of the national AI authorities, in force 23 Oct 2026 (IT-03); both are verified on the Gazzetta Ufficiale.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -28304,6 +28312,1523 @@
      }
     ],
     "integrity_flag": null
+   }
+  },
+  {
+   "id": "NL-01",
+   "slug": "nl-uitvoeringswet-ai-verordening-draft-bill",
+   "title": "Implementation Act for the Artificial Intelligence Regulation (Uitvoeringswet AI-verordening) – draft bill",
+   "original_title": "Wetsvoorstel tot uitvoering van de verordening artificiële intelligentie (Uitvoeringswet AI-verordening)",
+   "short_title": "Netherlands AI Act implementation act (draft)",
+   "jurisdiction": "Netherlands",
+   "country": "Netherlands",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "Ministry of Economic Affairs and Climate Policy (State Secretary for Digital Economy and Sovereignty)",
+   "instrument_type": "Bill / draft law",
+   "legal_force": "Proposed",
+   "status": "Draft / proposed",
+   "date_published": "2026-04-20",
+   "date_in_force": null,
+   "date_last_updated": "2026-06-01",
+   "official_identifier": null,
+   "official_url": "https://www.internetconsultatie.nl/uaiv",
+   "secondary_url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/04/20/kabinet-zet-stap-met-toezicht-op-europese-ai-regels",
+   "language": "Dutch",
+   "summary": "Draft Dutch act implementing the EU AI Act, put out for public consultation on 20 April 2026. It contains only the provisions the Regulation leaves to member states: it designates ten market surveillance authorities (AP, RDI, ILT, IGJ, NVWA, the Labour Inspectorate, AFM, DNB, the Procurator General at the Supreme Court and the chair of the Council of State's judicial division), gives the Autoriteit Persoonsgegevens the supervisory role where no sector regulator exists, makes the RDI the single point of contact with the AP and RDI jointly coordinating, and sets out powers, cooperation, notifying authorities, penalties and an AI regulatory sandbox.",
+   "safety_topics": [
+    "accountability & liability",
+    "risk-based classification",
+    "prohibited practices",
+    "transparency & labelling",
+    "evaluation & testing"
+   ],
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    },
+    {
+     "id": "EU-18",
+     "slug": "eu-digital-omnibus-ai"
+    }
+   ],
+   "notes": "Consultation ran from 20 April to 1 June 2026 and is closed. The accompanying letter to the House (Kamerstuk 22 112, nr. 4318, 20 April 2026) states that the cabinet accepted that the implementing act will probably enter into force later than the AI Act requires; the next steps are the mandatory reviews, advice of the Council of State and then submission to the House, and no bill number exists yet. The letter notes that the Digital Omnibus on AI may shift application dates and will be reflected where possible. The Commission's list of single points of contact (7 September 2026) shows the RDI for the Netherlands with the designation marked as pending. The Netherlands published its list of fundamental-rights authorities in autumn 2024.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Fetched the internetconsultatie.nl consultation page (uaiv), the Rijksoverheid news release of 20 April 2026 and the parliamentary letter kst-22112-4318 (PDF), plus the Commission's single-point-of-contact list.",
+    "note": "The consultation page confirmed the title, ministry, dates 20-04-2026 to 01-06-2026, status closed, the ten authorities and the document list; the letter confirmed the RDI as single point of contact, AP/RDI coordination and the expected late entry into force. No bill number exists yet.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "partial",
+    "flag": "The official source could not be downloaded (The site's robots.txt does not allow automated downloads of this page); only the secondary source was saved.",
+    "last_attempt": "2026-10-11T19:15:56Z",
+    "files": [
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/NL-01/2026-10-11/secondary.html",
+      "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/04/20/kabinet-zet-stap-met-toezicht-op-europese-ai-regels",
+      "final_url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/04/20/kabinet-zet-stap-met-toezicht-op-europese-ai-regels",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 247814,
+      "sha256": "139650ad4200e668fc363b970d46f2267507696056c05b45e0f27d2253d113e7",
+      "text_sha256": "39911c3b11892e518b7bd6b950a0e6ca323309a6c89c60ccdc15c90f9df0e0c2",
+      "retrieved_at": "2026-10-11T19:16:03Z",
+      "last_checked": "2026-10-11T19:16:03Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.internetconsultatie.nl/uaiv",
+      "attempted_at": "2026-10-11T19:15:56Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's robots.txt does not allow automated downloads of this page",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/04/20/kabinet-zet-stap-met-toezicht-op-europese-ai-regels",
+      "attempted_at": "2026-10-11T19:16:03Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "NL-02",
+   "slug": "nl-government-wide-vision-generative-ai-2024",
+   "title": "Government-wide Vision on Generative AI",
+   "original_title": "Overheidsbrede visie generatieve AI",
+   "short_title": "Netherlands generative AI vision (2024)",
+   "jurisdiction": "Netherlands",
+   "country": "Netherlands",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "Government of the Netherlands (Ministry of the Interior and Kingdom Relations with the Ministries of Economic Affairs and Climate Policy, Education, Culture and Science, and Social Affairs and Employment)",
+   "instrument_type": "Strategy / action plan",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2024-01-18",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://www.rijksoverheid.nl/documenten/2024/01/01/overheidsbrede-visie-generatieve-ai",
+   "secondary_url": "https://rijksoverheid.nl/onderwerpen/ict/documenten/kamerstukken/2024/01/18/kamerbrief-bij-overheidsbrede-visie-generatieve-ai-artificiele-intelligentie",
+   "language": "Dutch",
+   "summary": "Government-wide vision on generative AI sent to the House on 18 January 2024. It maps the opportunities and risks of generative AI (disinformation and deepfakes, discrimination, dependence on a few large providers, unreliable model guardrails), sets four principles under which generative AI must be safe and just and serve human well-being, sustainability and prosperity, and lists six action lines: cooperation, closely monitoring developments, shaping and applying legislation including the EU AI Act, building knowledge and skills, innovating with generative AI, and strong and clear supervision and enforcement.",
+   "safety_topics": [
+    "general-purpose / frontier AI",
+    "deepfakes & synthetic media",
+    "transparency & labelling",
+    "public-sector use",
+    "international cooperation"
+   ],
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    },
+    {
+     "id": "NL-01",
+     "slug": "nl-uitvoeringswet-ai-verordening-draft-bill"
+    }
+   ],
+   "notes": "The report is dated January 2024 (listed as 01-01-2024 on rijksoverheid.nl) and was sent to parliament on 18 January 2024 with a cover letter. A provisional central-government position on the use of generative AI (December 2023) was replaced by a government-wide position sent to the House on 22 April 2025. An English translation was announced on government.nl (17 January 2024) but that page returned 404 when fetched.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Fetched the rijksoverheid.nl document page, the Kamerbrief page of 18 January 2024 and the full vision PDF from open.overheid.nl.",
+    "note": "The PDF confirmed the title, the table of contents (risks chapter, four principles, six action lines including supervision and enforcement) and the stated aim of safe and just generative AI; the Kamerbrief page confirmed the date and the senders.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:15:56Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/NL-02/2026-10-11/official.html",
+      "url": "https://www.rijksoverheid.nl/documenten/2024/01/01/overheidsbrede-visie-generatieve-ai",
+      "final_url": "https://www.rijksoverheid.nl/documenten/2024/01/01/overheidsbrede-visie-generatieve-ai",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 248565,
+      "sha256": "28f158d317dd5041af85931013205595dfe361083fefb3e726a1793a0aa2c36b",
+      "text_sha256": "ed770b7d5c37a0d001161320731e62bc4ce6368ca57020f9e98ccc3fdd0a85b4",
+      "retrieved_at": "2026-10-11T19:16:01Z",
+      "last_checked": "2026-10-11T19:16:01Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/NL-02/2026-10-11/secondary.html",
+      "url": "https://rijksoverheid.nl/onderwerpen/ict/documenten/kamerstukken/2024/01/18/kamerbrief-bij-overheidsbrede-visie-generatieve-ai-artificiele-intelligentie",
+      "final_url": "https://www.rijksoverheid.nl/documenten/2024/01/18/kamerbrief-bij-overheidsbrede-visie-generatieve-ai-artificiele-intelligentie",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 252186,
+      "sha256": "fb4d56207886ae6f573beddc7fae298f350b8a3ca72a6aea986e7ecc7c3cae7f",
+      "text_sha256": "5466130233cc3db82272fd73ca3b1c9a58d56bc520eb2768c77fa144e54f7db3",
+      "retrieved_at": "2026-10-11T19:16:03Z",
+      "last_checked": "2026-10-11T19:16:03Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.rijksoverheid.nl/documenten/2024/01/01/overheidsbrede-visie-generatieve-ai",
+      "attempted_at": "2026-10-11T19:16:01Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://rijksoverheid.nl/onderwerpen/ict/documenten/kamerstukken/2024/01/18/kamerbrief-bij-overheidsbrede-visie-generatieve-ai-artificiele-intelligentie",
+      "attempted_at": "2026-10-11T19:16:03Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "AT-01",
+   "slug": "at-ki-servicestelle-rtr-law-2024",
+   "title": "Federal Act amending the KommAustria Act and the Telecommunications Act 2021 (establishing the AI Service Centre at RTR)",
+   "original_title": "Bundesgesetz, mit dem das KommAustria-Gesetz und das Telekommunikationsgesetz 2021 geändert werden",
+   "short_title": "Austria KI-Servicestelle (RTR AI Service Centre) law",
+   "jurisdiction": "Austria",
+   "country": "Austria",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "Austrian Parliament (Nationalrat and Bundesrat), on initiative 3821/A",
+   "instrument_type": "Institutional mandate",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2024-02-26",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": "BGBl. I Nr. 6/2024 (3821/A XXVII. GP)",
+   "official_url": "https://www.parlament.gv.at/gegenstand/XXVII/A/3821",
+   "secondary_url": "https://www.bmf.gv.at/presse/pressemeldungen/2024/jaenner/KI-servicestelle.html",
+   "language": "German",
+   "summary": "Amendment to the KommAustria Act (new § 17(8), § 18(3a) and § 20c) and the Telecommunications Act 2021 (new § 194a) that tasks the regulator RTR-GmbH with building and running a Service Centre for Artificial Intelligence (KI-Servicestelle). The centre builds competence, runs an information portal on AI projects and provides information and advice to companies, media and the public on the regulatory framework for AI, including the risk-based requirements of the EU AI Act. Supervision of the centre is split between the chair of KommAustria, the Federal Chancellor and the Finance Minister. The government presented it as the first step towards a national AI authority.",
+   "safety_topics": [
+    "risk-based classification",
+    "transparency & labelling"
+   ],
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    }
+   ],
+   "notes": "Introduced in the Nationalrat on 15 December 2023, passed on 31 January 2024, the Bundesrat raised no objection on 15 February 2024, and the act was promulgated as BGBl. I Nr. 6/2024 on 26 February 2024. The entry-into-force date was not confirmed on the fetched pages. As of October 2026 Austria has not adopted a law implementing the EU AI Act: a parliamentary question of 2 April 2026 (5638/J) recorded that no notifying or market surveillance authority had been designated, on 30 July 2026 the Federal Chancellery said no date for a consultation draft could yet be given, and the Commission's list of single points of contact (7 September 2026) shows no entry for Austria.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Fetched the Austrian Parliament page for 3821/A and the bill text PDF, the Finance Ministry press release of 22 January 2024, the parliamentary question 5638/J and an ORF report of 30 July 2026.",
+    "note": "The Parliament page confirmed the title, the dates and BGBl. I Nr. 6/2024; the bill text confirmed §§ 17(8), 18(3a) and 20c KOG and § 194a TKG 2021. The RIS copy of the Federal Law Gazette returned HTTP 503, so the entry-into-force date was not verified.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:15:56Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/AT-01/2026-10-11/official.html",
+      "url": "https://www.parlament.gv.at/gegenstand/XXVII/A/3821",
+      "final_url": "https://www.parlament.gv.at/gegenstand/XXVII/A/3821",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 165455,
+      "sha256": "33a955b8fa276566c8c7846a3ffa801c83c5291818787c75a4044db1e06787d9",
+      "text_sha256": "dd8b195383309abe7ebe66f2bf5af14d092ebdd7d556660bb94eb6c524c9e06a",
+      "retrieved_at": "2026-10-11T19:15:59Z",
+      "last_checked": "2026-10-11T19:15:59Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": "\"172hnwj\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/AT-01/2026-10-11/document-1.pdf",
+      "url": "https://www.parlament.gv.at/dokument/XXVII/A/3821/imfname_1601223.pdf",
+      "final_url": "https://www.parlament.gv.at/dokument/XXVII/A/3821/imfname_1601223.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 2993884,
+      "sha256": "3b1b50baf4abbf9da3a2b3cd2619351188472fe1a9e0ece11484814f344a81d1",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:16:01Z",
+      "last_checked": "2026-10-11T19:16:01Z",
+      "method": "http",
+      "last_modified": "Fri, 02 Feb 2024 16:49:54 GMT",
+      "etag": "\"65bd1d32-2daedc\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/AT-01/2026-10-11/document-2.pdf",
+      "url": "https://www.parlament.gv.at/dokument/XXVII/A/3821/fname_1601762.pdf",
+      "final_url": "https://www.parlament.gv.at/dokument/XXVII/A/3821/fname_1601762.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 134980,
+      "sha256": "bbafa09d6da2493b114a023fefb19406fb0cf9fc128cde0ffe4a5c62cf9e86e7",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:16:03Z",
+      "last_checked": "2026-10-11T19:16:03Z",
+      "method": "http",
+      "last_modified": "Fri, 02 Feb 2024 16:49:58 GMT",
+      "etag": "\"65bd1d36-20f44\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/AT-01/2026-10-11/secondary.html",
+      "url": "https://www.bmf.gv.at/presse/pressemeldungen/2024/jaenner/KI-servicestelle.html",
+      "final_url": "https://www.bmf.gv.at/presse/pressemeldungen/2024/jaenner/KI-servicestelle.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 382630,
+      "sha256": "a64fd44db67040608ec1746163b17cd1f9e44b0ca09d020e247cb62dd8fe2b17",
+      "text_sha256": "ade2a7e9de429dd749ad1b4a1dfc48c2ae41b11353ea73b59751f20aec43042a",
+      "retrieved_at": "2026-10-11T19:16:09Z",
+      "last_checked": "2026-10-11T19:16:09Z",
+      "method": "http",
+      "last_modified": "Sun, 11 Oct 2026 19:16:08 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.parlament.gv.at/gegenstand/XXVII/A/3821",
+      "attempted_at": "2026-10-11T19:15:59Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.parlament.gv.at/dokument/XXVII/A/3821/imfname_1601223.pdf",
+      "attempted_at": "2026-10-11T19:16:01Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.parlament.gv.at/dokument/XXVII/A/3821/fname_1601762.pdf",
+      "attempted_at": "2026-10-11T19:16:03Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.bmf.gv.at/presse/pressemeldungen/2024/jaenner/KI-servicestelle.html",
+      "attempted_at": "2026-10-11T19:16:09Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "CZ-01",
+   "slug": "cz-draft-act-on-artificial-intelligence",
+   "title": "Draft Act on Artificial Intelligence and on Amendments to Certain Related Acts",
+   "original_title": "Návrh zákona o umělé inteligenci a o změně některých souvisejících zákonů",
+   "short_title": "Czech AI Act adaptation bill",
+   "jurisdiction": "Czechia",
+   "country": "Czechia",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "Ministry of Industry and Trade (MPO), Government of the Czech Republic",
+   "instrument_type": "Bill / draft law",
+   "legal_force": "Proposed",
+   "status": "Draft / proposed",
+   "date_published": "2025-09-26",
+   "date_in_force": null,
+   "date_last_updated": "2026-08-06",
+   "official_identifier": null,
+   "official_url": "https://mpo.gov.cz/cz/rozcestnik/pro-media/tiskove-zpravy/mpo-pripravilo-navrh-zakona-o-umele-inteligenci--cilem-je-vytvorit-co-nejlepsi-prostredi-pro-rozvoj-ai-v-cesku--289653/",
+   "secondary_url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+   "language": "Czech",
+   "summary": "Draft national law adapting Czech law to the EU AI Act, prepared by the Ministry of Industry and Trade and released for inter-ministerial comments on 26 September 2025. It is limited to the institutional, procedural and sanction provisions left to member states: the Czech Telecommunication Office as main market surveillance authority and single point of contact, the Czech National Bank and the Office for Personal Data Protection as further market surveillance authorities, the Office for Technical Standardisation (ÚNMZ) as notifying authority, a national regulatory sandbox, a role for the Public Defender of Rights, lower fine ceilings for SMEs and reprimands instead of offence proceedings.",
+   "safety_topics": [
+    "accountability & liability",
+    "risk-based classification",
+    "evaluation & testing"
+   ],
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    },
+    {
+     "id": "CZ-02",
+     "slug": "cz-ai-act-implementation-plan-2025"
+    }
+   ],
+   "notes": "The draft (about ten pages, 25 to 26 sections) is reported as material 503/26 in the government's eKLEP system; the Legislative Council of the Government interrupted its discussion on 6 August 2026 and no Chamber of Deputies print existed by 11 August 2026. The ministry had expected the law to take effect during 2026. The Commission's list of single points of contact (7 September 2026) shows the Czech Telecommunication Office with the designation marked as pending. The government's May 2025 implementation plan (CZ-02) assigned the same institutional roles.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Fetched the MPO press release of 26 September 2025, the Commission's list of AI Act single points of contact, and the Lupa.cz (29 Sep 2025) and Vlivoskop tracker (updated 11 Aug 2026) articles on the draft's status.",
+    "note": "The MPO release confirmed the title, date, authorities, sandbox and SME measures. The August 2026 Legislative Council interruption and the material number 503/26 rest on the Vlivoskop tracker and were not confirmed on a government page.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "partial",
+    "flag": "The official source could not be downloaded (The site's robots.txt does not allow automated downloads of this page); only the secondary source was saved.",
+    "last_attempt": "2026-10-11T19:15:56Z",
+    "files": [
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/CZ-01/2026-10-11/secondary.html",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "final_url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 63994,
+      "sha256": "db95eaac7c27c90e7928e619e8ddd57c31bf8e8e5e950ed5595e09a3e03ff4cf",
+      "text_sha256": "da6b4ffa33dee78ca450a42a02ac35de9407fc0d711d77a1634c2873560815e4",
+      "retrieved_at": "2026-10-11T19:15:58Z",
+      "last_checked": "2026-10-11T19:15:58Z",
+      "method": "http",
+      "last_modified": "Sun, 11 Oct 2026 19:03:42 GMT",
+      "etag": "\"1791745422-gzip\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://mpo.gov.cz/cz/rozcestnik/pro-media/tiskove-zpravy/mpo-pripravilo-navrh-zakona-o-umele-inteligenci--cilem-je-vytvorit-co-nejlepsi-prostredi-pro-rozvoj-ai-v-cesku--289653/",
+      "attempted_at": "2026-10-11T19:15:56Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's robots.txt does not allow automated downloads of this page",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "attempted_at": "2026-10-11T19:15:58Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "CZ-02",
+   "slug": "cz-ai-act-implementation-plan-2025",
+   "title": "Proposal for the Implementation of the Artificial Intelligence Act in the Czech Republic (approved by the Government on 28 May 2025)",
+   "original_title": "Návrh implementace Aktu o umělé inteligenci v České republice",
+   "short_title": "Czech AI Act implementation plan (2025)",
+   "jurisdiction": "Czechia",
+   "country": "Czechia",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "Government of the Czech Republic (lead: Ministry of Industry and Trade)",
+   "instrument_type": "Strategy / action plan",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2025-05-28",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://agenturacas.gov.cz/wp-content/uploads/TZ-UNMZ-Implementace-AI-Act-v-CR.pdf",
+   "secondary_url": "https://asociace.ai/vlada-schvalila-navrh-implementace-ai-aktu-a-jmenovala-vladniho-zmocnence-pro-ai/",
+   "language": "Czech",
+   "summary": "Non-legislative government material approved on 28 May 2025 that sets the national architecture for applying the EU AI Act. It makes the Ministry of Industry and Trade the coordinator, charged with drafting the national AI Act and setting up an AI competence centre for eGovernment; names the Czech Telecommunication Office as market surveillance authority, the Office for Technical Standardisation (ÚNMZ) as notifying authority for the bodies that certify high-risk systems, and the Czech Standardisation Agency as operator of a regulatory sandbox for testing AI under supervision; and covers the staffing and funding needed. The government also appointed a Government Commissioner for AI.",
+   "safety_topics": [
+    "accountability & liability",
+    "risk-based classification",
+    "evaluation & testing"
+   ],
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    },
+    {
+     "id": "CZ-01",
+     "slug": "cz-draft-act-on-artificial-intelligence"
+    }
+   ],
+   "notes": "The standardisation agency's release and press reports describe the material as covering the national AI law, the supervisory and support infrastructure and the related personnel and financial measures; oversight of implementation moved from the Deputy Prime Minister to the Ministry of Industry and Trade, and Deputy Minister Jan Kavalírek was appointed Government Commissioner for AI. The government resolution number was not located. The draft law that follows from the plan is CZ-01.",
+   "verification": {
+    "level": "B",
+    "verified_on": "2026-10-11",
+    "method": "Fetched the joint ÚNMZ and Czech Standardisation Agency press release (PDF on agenturacas.gov.cz) and the Czech AI Association note of 29 May 2025.",
+    "note": "The official agency release confirmed the approval date, the material's title and the roles of MPO, ČTÚ, ÚNMZ and ČAS; the vlada.cz record of the meeting and the resolution number were not found, hence level B.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:15:58Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/CZ-02/2026-10-11/official.pdf",
+      "url": "https://agenturacas.gov.cz/wp-content/uploads/TZ-UNMZ-Implementace-AI-Act-v-CR.pdf",
+      "final_url": "https://agenturacas.gov.cz/wp-content/uploads/TZ-UNMZ-Implementace-AI-Act-v-CR.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 530314,
+      "sha256": "70a0447d961669dfd9a6ce91567ee2e01f0d1ff95e5147792e73f5abe60178d3",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:16:01Z",
+      "last_checked": "2026-10-11T19:16:01Z",
+      "method": "http",
+      "last_modified": "Wed, 28 May 2025 16:53:11 GMT",
+      "etag": "\"8178a-68373f77-322592;;;\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/CZ-02/2026-10-11/secondary.html",
+      "url": "https://asociace.ai/vlada-schvalila-navrh-implementace-ai-aktu-a-jmenovala-vladniho-zmocnence-pro-ai/",
+      "final_url": "https://asociace.ai/vlada-schvalila-navrh-implementace-ai-aktu-a-jmenovala-vladniho-zmocnence-pro-ai/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 93925,
+      "sha256": "d3a93ffdec81e7432cb2a17a9ca0d4715e287fff887f436f0dd72b7506a16384",
+      "text_sha256": "ac5b0721450bc9a643c76df6fd7eb4126707a6c9a92ecbd09cd6c8bb975347dc",
+      "retrieved_at": "2026-10-11T19:16:08Z",
+      "last_checked": "2026-10-11T19:16:08Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://agenturacas.gov.cz/wp-content/uploads/TZ-UNMZ-Implementace-AI-Act-v-CR.pdf",
+      "attempted_at": "2026-10-11T19:16:01Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://asociace.ai/vlada-schvalila-navrh-implementace-ai-aktu-a-jmenovala-vladniho-zmocnence-pro-ai/",
+      "attempted_at": "2026-10-11T19:16:08Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "HU-01",
+   "slug": "hu-act-lxxv-2025-ai-act-implementation",
+   "title": "Act LXXV of 2025 on the implementation in Hungary of the European Union Regulation on artificial intelligence",
+   "original_title": "2025. évi LXXV. törvény az Európai Unió mesterséges intelligenciáról szóló rendeletének magyarországi végrehajtásáról",
+   "short_title": "Hungary AI Act implementation law",
+   "jurisdiction": "Hungary",
+   "country": "Hungary",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "National Assembly of Hungary (Országgyűlés)",
+   "instrument_type": "Law",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2025-10-31",
+   "date_in_force": "2025-12-01",
+   "date_last_updated": "2026-08-02",
+   "official_identifier": "2025. évi LXXV. törvény (bill T/12632)",
+   "official_url": "https://njt.jog.gov.hu/eli/TV/2025/75",
+   "secondary_url": "https://cms.law/en/hun/legal-updates/hungary-implements-institutional-framework-for-eu-ai-act",
+   "language": "Hungarian",
+   "summary": "Hungary's framework law for applying the EU AI Act. It provides for a government-designated AI notifying authority, which assesses, designates, notifies and monitors conformity assessment bodies for high-risk systems, and an AI market surveillance authority with general competence that also runs the national AI regulatory sandbox and acts as the single point of contact. The market surveillance authority may impose administrative fines, with amounts set by government decree. The Act creates the Hungarian Artificial Intelligence Council, an advisory body without decision-making powers chaired by a Prime Minister's appointee, and calls for a national AI strategy.",
+   "safety_topics": [
+    "accountability & liability",
+    "risk-based classification",
+    "evaluation & testing"
+   ],
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    },
+    {
+     "id": "HU-02",
+     "slug": "hu-govt-decree-344-2025-ai-act-implementation"
+    }
+   ],
+   "notes": "Adopted by the National Assembly on 21 October 2025 (bill T/12632) and promulgated on 31 October 2025. In force on the 31st day after promulgation (1 December 2025); sections 3(2) and 10 on the regulatory sandbox took effect on 2 August 2026. The designations and fine amounts are in Government Decree 344/2025 (X. 31.) (HU-02). The Commission's list of single points of contact (7 September 2026) showed no entry for Hungary.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Fetched the act on the National Legislation Database (njt.jog.gov.hu, ELI TV/2025/75) and the CMS Hungary legal update of 6 November 2025.",
+    "note": "The njt page confirmed the title, number, adoption on 21 October 2025, promulgation on 31 October 2025, the entry-into-force rules, the authorities, the AI Council and the fine provision. The Magyar Közlöny issue number was not shown on the page.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": "The secondary source could not be downloaded (HTTP 403 Forbidden).",
+    "last_attempt": "2026-10-11T19:16:03Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/HU-01/2026-10-11/official.html",
+      "url": "https://njt.jog.gov.hu/eli/TV/2025/75",
+      "final_url": "https://njt.jog.gov.hu/jogszabaly/2025-75-00-00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 84585,
+      "sha256": "8713146c377590a9c7395df9dbcd42e14e3d6ee89ca32dc2ee19293fe486c7b1",
+      "text_sha256": "1def64df3e9f0655470aab7d7dc9523af8eb0c8221d21901f9f353d4e0faa9b0",
+      "retrieved_at": "2026-10-11T19:16:09Z",
+      "last_checked": "2026-10-11T19:16:09Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/HU-01/2026-10-11/document-1.pdf",
+      "url": "https://njt.jog.gov.hu/bundles/njtfrontend/docs/akadalymentesitesi.pdf?v3be09a83f.13594.20260828124931.2.7.1",
+      "final_url": "https://njt.jog.gov.hu/bundles/njtfrontend/docs/akadalymentesitesi.pdf?v3be09a83f.13594.20260828124931.2.7.1",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 558827,
+      "sha256": "a052f5909a281717e22cba6f5b845a6bd5f06e552edaa422960aa30907f68e6d",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:16:15Z",
+      "last_checked": "2026-10-11T19:16:15Z",
+      "method": "http",
+      "last_modified": "Fri, 28 Aug 2026 12:42:46 GMT",
+      "etag": "\"886eb-65a1aca109d80\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://njt.jog.gov.hu/eli/TV/2025/75",
+      "attempted_at": "2026-10-11T19:16:09Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://njt.jog.gov.hu/bundles/njtfrontend/docs/akadalymentesitesi.pdf?v3be09a83f.13594.20260828124931.2.7.1",
+      "attempted_at": "2026-10-11T19:16:15Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://cms.law/en/hun/legal-updates/hungary-implements-institutional-framework-for-eu-ai-act",
+      "attempted_at": "2026-10-11T19:16:17Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "HU-02",
+   "slug": "hu-govt-decree-344-2025-ai-act-implementation",
+   "title": "Government Decree 344/2025 (X. 31.) on the implementation of Act LXXV of 2025 on the implementation in Hungary of the EU Regulation on artificial intelligence",
+   "original_title": "344/2025. (X. 31.) Korm. rendelet (az Európai Unió mesterséges intelligenciáról szóló rendeletének magyarországi végrehajtásáról szóló 2025. évi LXXV. törvény végrehajtása)",
+   "short_title": "Hungary AI Act implementing decree 344/2025",
+   "jurisdiction": "Hungary",
+   "country": "Hungary",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "Government of Hungary",
+   "instrument_type": "Regulation / implementing rule",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2025-10-31",
+   "date_in_force": "2025-12-01",
+   "date_last_updated": "2026-10-02",
+   "official_identifier": "344/2025. (X. 31.) Korm. rendelet",
+   "official_url": "https://njt.jog.gov.hu/jogszabaly/2025-344-20-22",
+   "secondary_url": "https://cms.law/en/hun/legal-updates/hungary-implements-institutional-framework-for-eu-ai-act",
+   "language": "Hungarian",
+   "summary": "Implementing decree under Act LXXV of 2025. It designates the National Accreditation Authority as Hungary's AI notifying authority and the minister responsible for enterprise development as AI market surveillance authority and single point of contact under Article 70 of the AI Act. It converts the AI Act's maximum fines into forint amounts (HUF 13.3 billion, 5.7 billion and 2.85 billion under Article 99; HUF 570 million and 285 million under Article 100), payable within 30 days, and sets reporting duties: the authorities report at least annually to the Government and the Hungarian AI Council, and accredited conformity assessment bodies report by 31 January each year.",
+   "safety_topics": [
+    "accountability & liability",
+    "risk-based classification",
+    "evaluation & testing"
+   ],
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    },
+    {
+     "id": "HU-01",
+     "slug": "hu-act-lxxv-2025-ai-act-implementation"
+    }
+   ],
+   "notes": "Dated 31 October 2025; in force on the 31st day after promulgation. Amended by Government Decree 224/2026 (X. 1.), in force the day after its promulgation (2 October 2026), which adjusts decrees connected with the remit of the minister for science and technology and repealed § 5(1)(e); the current identity of the market surveillance minister should be read with that amendment. CMS reports that the Hungarian National Bank acts as market surveillance authority for high-risk AI systems used directly in financial services; this was not visible on the fetched decree page.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Fetched the decree on the National Legislation Database (njt.jog.gov.hu), the amending decree 224/2026 (X. 1.) on the same database and the CMS Hungary legal update.",
+    "note": "The njt page confirmed the number, date, § 1 designations, § 4 fine amounts, § 6 entry-into-force rule and the footnotes on the 224/2026 amendment. The Hungarian title is given in descriptive form because the page summary did not reproduce it verbatim.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": "The secondary source could not be downloaded (HTTP 403 Forbidden).",
+    "last_attempt": "2026-10-11T19:16:03Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/HU-02/2026-10-11/official.html",
+      "url": "https://njt.jog.gov.hu/jogszabaly/2025-344-20-22",
+      "final_url": "https://njt.jog.gov.hu/jogszabaly/2025-344-20-22",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 68292,
+      "sha256": "9f8bdee6e1feb6b9e7949c602d447e573710327faf41ec6369fde1a44da2cec0",
+      "text_sha256": "001e30eba94d198b494a73e7d0bd5116ec3893a0dba485e6b80bb1c1baa91d20",
+      "retrieved_at": "2026-10-11T19:16:12Z",
+      "last_checked": "2026-10-11T19:16:12Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/HU-02/2026-10-11/document-1.pdf",
+      "url": "https://njt.jog.gov.hu/bundles/njtfrontend/docs/akadalymentesitesi.pdf?v3be09a83f.13594.20260828124931.2.7.1",
+      "final_url": "https://njt.jog.gov.hu/bundles/njtfrontend/docs/akadalymentesitesi.pdf?v3be09a83f.13594.20260828124931.2.7.1",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 558827,
+      "sha256": "a052f5909a281717e22cba6f5b845a6bd5f06e552edaa422960aa30907f68e6d",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:16:19Z",
+      "last_checked": "2026-10-11T19:16:19Z",
+      "method": "http",
+      "last_modified": "Fri, 28 Aug 2026 12:42:46 GMT",
+      "etag": "\"886eb-65a1aca109d80\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://njt.jog.gov.hu/jogszabaly/2025-344-20-22",
+      "attempted_at": "2026-10-11T19:16:12Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://njt.jog.gov.hu/bundles/njtfrontend/docs/akadalymentesitesi.pdf?v3be09a83f.13594.20260828124931.2.7.1",
+      "attempted_at": "2026-10-11T19:16:19Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://cms.law/en/hun/legal-updates/hungary-implements-institutional-framework-for-eu-ai-act",
+      "attempted_at": "2026-10-11T19:16:20Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "IS-01",
+   "slug": "is-ai-action-plan-2025-2027",
+   "title": "Iceland's AI Action Plan 2025-2027",
+   "original_title": null,
+   "short_title": "Iceland AI Action Plan 2025-2027",
+   "jurisdiction": "Iceland",
+   "country": "Iceland",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "Ministry of Culture, Innovation and Higher Education (Iceland)",
+   "instrument_type": "Strategy / action plan",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2025-07-01",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": "ISBN 978-9935-570-05-5",
+   "official_url": "https://www.stjornarradid.is/frettir/grein/2025-07-01-Icelands-AI-Action-Plan-2025-2027/",
+   "secondary_url": "https://www.stjornarradid.is/library/?itemid=55ec2a72-a5b9-11f0-b896-005056bcde1f",
+   "language": "Icelandic; English",
+   "summary": "Iceland's first national AI action plan, with 20 actions in five pillars (AI to benefit everyone, competitive business, education, public services, healthcare), building on the 2021 AI strategy. Its safety-governance content includes Action 2, which assesses the adaptations arising from incorporating the EU AI Act through the EEA Agreement and prepares an AI bill naming the responsible institutions (spring 2026); Action 5, which analyses AI's effect on democratic debate, information disorder and foreign interference and sets guidelines for transparent AI use in politics (autumn 2026); and Action 16, updating standards for safe, transparent public-sector use of AI (spring 2027).",
+   "safety_topics": [
+    "risk-based classification",
+    "public-sector use",
+    "deepfakes & synthetic media",
+    "transparency & labelling",
+    "international cooperation"
+   ],
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    }
+   ],
+   "notes": "Published in July 2025 (ISBN 978-9935-570-05-5); a draft was consulted in November 2024 and some secondary sources call it the 2024–2026 plan with 25 measures, while the published document lists 20 numbered actions. As of 11 October 2026 the EFTA EEA-Lex entry for Regulation (EU) 2024/1689 still shows the AI Act under scrutiny by the EEA EFTA states with no Joint Committee Decision, and no Icelandic AI bill was found on the Althingi site.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Fetched the Government of Iceland news item of 1 July 2025 and the full plan PDF from the government library, and the EFTA EEA-Lex page for Regulation (EU) 2024/1689.",
+    "note": "The PDF confirmed the title, ministry, July 2025 date, ISBN, the 20 actions and the text of Actions 2, 5 and 16. The Icelandic-language title was not verified, so original_title is null.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:16:08Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/IS-01/2026-10-11/official.html",
+      "url": "https://www.stjornarradid.is/frettir/grein/2025-07-01-Icelands-AI-Action-Plan-2025-2027/",
+      "final_url": "https://www.stjornarradid.is/frettir/grein/2025-07-01-Icelands-AI-Action-Plan-2025-2027/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 2318199,
+      "sha256": "bf03b0f25baaf541479c18153c511ab7ef1678da43226d964b4215bbdcb0fef7",
+      "text_sha256": "e38f359e16e0ee10ef89c0a3f19471858474148e21b249876af59dc018a1043d",
+      "retrieved_at": "2026-10-11T19:16:12Z",
+      "last_checked": "2026-10-11T19:16:12Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/IS-01/2026-10-11/secondary.pdf",
+      "url": "https://www.stjornarradid.is/library/?itemid=55ec2a72-a5b9-11f0-b896-005056bcde1f",
+      "final_url": "https://www.stjornarradid.is/library/?itemid=55ec2a72-a5b9-11f0-b896-005056bcde1f",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 7221361,
+      "sha256": "77fea448f9076ca0f0d43f903c564a149497ec0466546945a2da1f6536cc61f1",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:16:16Z",
+      "last_checked": "2026-10-11T19:16:16Z",
+      "method": "http",
+      "last_modified": "Mon, 10 Nov 2025 18:14:01 GMT",
+      "etag": "\"d/6kSPkHbKDw1D+QPFZKFJSX7ARmVGlFotofZTbMYfE=\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.stjornarradid.is/frettir/grein/2025-07-01-Icelands-AI-Action-Plan-2025-2027/",
+      "attempted_at": "2026-10-11T19:16:12Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.stjornarradid.is/library/?itemid=55ec2a72-a5b9-11f0-b896-005056bcde1f",
+      "attempted_at": "2026-10-11T19:16:16Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "UA-01",
+   "slug": "ua-ai-regulation-roadmap-2023",
+   "title": "Roadmap for the Regulation of Artificial Intelligence in Ukraine",
+   "original_title": "Дорожня карта з регулювання штучного інтелекту в Україні",
+   "short_title": "Ukraine AI Regulation Roadmap (2023)",
+   "jurisdiction": "Ukraine",
+   "country": "Ukraine",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "Ministry of Digital Transformation of Ukraine",
+   "instrument_type": "Strategy / action plan",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2023-10-07",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://www.kmu.gov.ua/news/rehuliuvannia-shtuchnoho-intelektu-v-ukraini-mintsyfry-prezentuvalo-dorozhniu-kartu",
+   "secondary_url": "https://thedigital.gov.ua/news/shtuchnyy-intelekt/vid-samorehuliatsiyi-do-yevropeyskykh-pravyl-hotuyemo-profilnyy-zakon-pro-shtuchnyy-intelekt-v-ukrayini",
+   "language": "Ukrainian",
+   "summary": "First policy document setting out Ukraine's approach to regulating AI, presented by the Ministry of Digital Transformation on 7 October 2023 after work with its AI expert committee and a strategic session with Ukrainian AI companies. It adopts a bottom-up approach: before any binding law, businesses receive tools to prepare for future requirements, namely voluntary codes of conduct, a White Paper explaining the regulatory approach, general and sector-specific recommendations and a regulatory sandbox, with a law modelled on the EU AI Act to follow. The stated aim is to balance business interests with the protection of citizens' rights.",
+   "safety_topics": [
+    "risk-based classification",
+    "international cooperation",
+    "transparency & labelling"
+   ],
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    },
+    {
+     "id": "UA-02",
+     "slug": "ua-ai-regulation-white-paper-2024"
+    },
+    {
+     "id": "COE-01",
+     "slug": "coe-framework-convention-ai"
+    }
+   ],
+   "notes": "Followed by the White Paper on AI regulation of June 2024 (UA-02), sector recommendations for media, an AI regulatory sandbox, an AI glossary (version 2.0 in 2026) and Ukraine's signature of the Council of Europe Framework Convention on AI. On 15 June 2026 the ministry announced a joint working group to draft a dedicated AI law aligned with EU rules during 2026; no draft text had been published by October 2026.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Fetched the Cabinet of Ministers news item of 7 October 2023 (kmu.gov.ua) and the Ministry of Digital Transformation news item of 15 June 2026 on the planned AI law.",
+    "note": "The Cabinet portal confirmed the title, date, authorship and the bottom-up tools; the ministry page confirmed the later instruments and the 2026 working group. The roadmap document itself is linked only through a URL shortener and was not fetched.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:16:09Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/UA-01/2026-10-11/official.html",
+      "url": "https://www.kmu.gov.ua/news/rehuliuvannia-shtuchnoho-intelektu-v-ukraini-mintsyfry-prezentuvalo-dorozhniu-kartu",
+      "final_url": "https://www.kmu.gov.ua/news/rehuliuvannia-shtuchnoho-intelektu-v-ukraini-mintsyfry-prezentuvalo-dorozhniu-kartu",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 248238,
+      "sha256": "7a1a5f2f37da257c5e669cab36a8847d89616d7ca0849d0b50520a3a2ec65691",
+      "text_sha256": "203098cbd7324a295a226e5f3cf1723129eb4d073f03e2db47765ec6aa344ad2",
+      "retrieved_at": "2026-10-11T19:16:14Z",
+      "last_checked": "2026-10-11T19:16:14Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/UA-01/2026-10-11/secondary.html",
+      "url": "https://thedigital.gov.ua/news/shtuchnyy-intelekt/vid-samorehuliatsiyi-do-yevropeyskykh-pravyl-hotuyemo-profilnyy-zakon-pro-shtuchnyy-intelekt-v-ukrayini",
+      "final_url": "https://thedigital.gov.ua/news/shtuchnyy-intelekt/vid-samorehuliatsiyi-do-yevropeyskykh-pravyl-hotuyemo-profilnyy-zakon-pro-shtuchnyy-intelekt-v-ukrayini",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 86613,
+      "sha256": "0c5fe5b7928e531eb7580e82a3b92243182885cc1cc223d25a5539aefa1217e6",
+      "text_sha256": "314c1c84968eeb1f6c2c74934fcb347463319de814314f4984251d05ad0b7f97",
+      "retrieved_at": "2026-10-11T19:16:18Z",
+      "last_checked": "2026-10-11T19:16:18Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.kmu.gov.ua/news/rehuliuvannia-shtuchnoho-intelektu-v-ukraini-mintsyfry-prezentuvalo-dorozhniu-kartu",
+      "attempted_at": "2026-10-11T19:16:14Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://thedigital.gov.ua/news/shtuchnyy-intelekt/vid-samorehuliatsiyi-do-yevropeyskykh-pravyl-hotuyemo-profilnyy-zakon-pro-shtuchnyy-intelekt-v-ukrayini",
+      "attempted_at": "2026-10-11T19:16:18Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "UA-02",
+   "slug": "ua-ai-regulation-white-paper-2024",
+   "title": "White Paper on AI Regulation in Ukraine: the Vision of the Ministry of Digital Transformation (consultation version)",
+   "original_title": "Біла книга з регулювання ШІ в Україні: бачення Мінцифри (версія для консультацій)",
+   "short_title": "Ukraine AI Regulation White Paper (2024)",
+   "jurisdiction": "Ukraine",
+   "country": "Ukraine",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "Ministry of Digital Transformation of Ukraine",
+   "instrument_type": "Strategy / action plan",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2024-06",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://storage.thedigital.gov.ua/files/d/9d/0bbc3a705c821a197bedfcdfe00899d9.pdf",
+   "secondary_url": "https://thedigital.gov.ua/news/shtuchnyy-intelekt/vid-samorehuliatsiyi-do-yevropeyskykh-pravyl-hotuyemo-profilnyy-zakon-pro-shtuchnyy-intelekt-v-ukrayini",
+   "language": "Ukrainian",
+   "summary": "Consultation document explaining Ukraine's two-stage, bottom-up approach to AI regulation. Stage one, planned for two to three years without mandatory rules, provides preparatory tools: a regulatory sandbox based on the EU AI Act, a methodology for assessing AI's impact on human rights, AI labelling tools, voluntary codes of conduct, general and sectoral recommendations (starting with media) and a responsible-AI web portal. Stage two is a law analogous to the EU AI Act, with an indicative timeline of a draft law in 2026–2027. Defence applications are excluded. The paper also proposes cooperation with large AI platforms and documents public concern about uncontrolled AI and manipulation.",
+   "safety_topics": [
+    "risk-based classification",
+    "transparency & labelling",
+    "international cooperation"
+   ],
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    },
+    {
+     "id": "UA-01",
+     "slug": "ua-ai-regulation-roadmap-2023"
+    }
+   ],
+   "notes": "Dated June 2024 and presented on 26 June 2024 according to press reports. The ministry states that it is an analytical consultation material, not a public-policy document under the Law on Law-making Activity, prepared with USAID and UK support. The follow-up step, a dedicated AI law, was entrusted to a joint working group announced on 15 June 2026; no bill had been registered in the Verkhovna Rada by October 2026.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Downloaded the White Paper PDF from the ministry's file storage (storage.thedigital.gov.ua) and fetched the ministry news item of 15 June 2026 that refers to it.",
+    "note": "The PDF confirmed the title, June 2024 date, author ministry, status statement, the two-stage approach, the tools and the 2026–2027 timeline. The exact presentation date (26 June 2024) rests on press reports.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-11T19:16:16Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/UA-02/2026-10-11/official.pdf",
+      "url": "https://storage.thedigital.gov.ua/files/d/9d/0bbc3a705c821a197bedfcdfe00899d9.pdf",
+      "final_url": "https://storage.thedigital.gov.ua/files/d/9d/0bbc3a705c821a197bedfcdfe00899d9.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 28827448,
+      "sha256": "c0611a5df47d530c3f3f06b7215329d2b05dc1188d73f917a8ad190db545f728",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T19:16:20Z",
+      "last_checked": "2026-10-11T19:16:20Z",
+      "method": "http",
+      "last_modified": "Tue, 19 Aug 2025 09:35:44 GMT",
+      "etag": "\"b51f158b243f9d202de8249fcb6bc43a-6\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/UA-02/2026-10-11/secondary.html",
+      "url": "https://thedigital.gov.ua/news/shtuchnyy-intelekt/vid-samorehuliatsiyi-do-yevropeyskykh-pravyl-hotuyemo-profilnyy-zakon-pro-shtuchnyy-intelekt-v-ukrayini",
+      "final_url": "https://thedigital.gov.ua/news/shtuchnyy-intelekt/vid-samorehuliatsiyi-do-yevropeyskykh-pravyl-hotuyemo-profilnyy-zakon-pro-shtuchnyy-intelekt-v-ukrayini",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 86613,
+      "sha256": "9a46b198da2ddb3ecee418d7b69fdf5e4299e6ddab86d2a3b3714e18eff4b140",
+      "text_sha256": "314c1c84968eeb1f6c2c74934fcb347463319de814314f4984251d05ad0b7f97",
+      "retrieved_at": "2026-10-11T19:16:20Z",
+      "last_checked": "2026-10-11T19:16:20Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://storage.thedigital.gov.ua/files/d/9d/0bbc3a705c821a197bedfcdfe00899d9.pdf",
+      "attempted_at": "2026-10-11T19:16:20Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://thedigital.gov.ua/news/shtuchnyy-intelekt/vid-samorehuliatsiyi-do-yevropeyskykh-pravyl-hotuyemo-profilnyy-zakon-pro-shtuchnyy-intelekt-v-ukrayini",
+      "attempted_at": "2026-10-11T19:16:20Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "IT-02",
+   "slug": "it-dlgs-160-2026-police-ai-and-liability",
+   "title": "Legislative Decree No. 160 of 9 September 2026 adapting national law to Regulation (EU) 2024/1689 on artificial intelligence, concerning the use of AI systems for police activities and civil and criminal liability",
+   "original_title": "Decreto legislativo 9 settembre 2026, n. 160 – Adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, del 13 giugno 2024, che stabilisce regole armonizzate sull'intelligenza artificiale, in materia di utilizzo dei sistemi di intelligenza artificiale per l'attività di polizia e di responsabilità civile e penale",
+   "short_title": "Italy D.Lgs. 160/2026 (police AI and AI liability decree)",
+   "jurisdiction": "Italy",
+   "country": "Italy",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "Government of Italy (legislative decree adopted under Article 24 of Law 132/2025)",
+   "instrument_type": "Law",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2026-09-09",
+   "date_in_force": "2026-09-30",
+   "date_last_updated": null,
+   "official_identifier": "Decreto legislativo 9 settembre 2026, n. 160 (GU Serie Generale n. 214 del 15-09-2026; 26G00179)",
+   "official_url": "https://www.gazzettaufficiale.it/eli/id/2026/09/15/26G00179/sg",
+   "secondary_url": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-09-15&numeroGazzetta=214",
+   "language": "Italian",
+   "summary": "First implementing decree under Law 132/2025. Title I governs police use of AI systems under the principles of proportionality, non-discrimination, human oversight and transparency, including biometric categorisation and real-time remote biometric identification. Article 12 inserts Article 437-bis into the Criminal Code, punishing with one to five years' imprisonment the omission of required security measures or human oversight for high-risk AI systems where life or public safety is endangered. Articles 16-20 on civil liability let courts order disclosure of AI Act documentation, presume causation where an AI Act obligation is breached, and allow direct action against insurers.",
+   "safety_topics": [
+    "accountability & liability",
+    "human oversight",
+    "risk-based classification",
+    "public-sector use"
+   ],
+   "related": [
+    {
+     "id": "IT-01",
+     "slug": "it-law-132-2025-ai"
+    },
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    },
+    {
+     "id": "IT-03",
+     "slug": "it-dlgs-179-2026-ai-authorities-powers"
+    }
+   ],
+   "notes": "Approved in preliminary form by the Council of Ministers on 10 June 2026 (Atto del Governo n. 418, sent to the Senate on 24 June 2026), issued on 9 September 2026, published in GU n. 214 of 15 September 2026 and in force from 30 September 2026. 22 articles in three titles. Police AI systems already contracted, under development or in use must be brought into line with Chapter II of Title I within one year of entry into force. The second decree under the same delegation is D.Lgs. 179/2026 (IT-03).",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Fetched the Gazzetta Ufficiale ELI page and the GU issue index (n. 214 of 15-09-2026) and extracted the decree text from a GU copy hosted by a legal publisher.",
+    "note": "The ELI page confirmed the title, number, date, GU reference and entry into force on 30/09/2026; the decree text confirmed the legal basis (Art. 24 of Law 132/2025), Articles 1, 2, 12, 16–21 and the signature date. The Council of Ministers and Atto del Governo dates rest on legal-press sources.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": "A linked file (https://www.gazzettaufficiale.it/caricaHtml?nomeTiles=formatoGraficoPdf) was not a PDF and was skipped.",
+    "last_attempt": "2026-10-11T19:16:17Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/IT-02/2026-10-11/official.html",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2026/09/15/26G00179/sg",
+      "final_url": "https://www.gazzettaufficiale.it/eli/id/2026/09/15/26G00179/sg",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 17415,
+      "sha256": "cca115b60740db536bbd640bf2ed6adec62a36403b39ef44936d1e5d11a2bcee",
+      "text_sha256": "9f81adcab367c5ddff913f1c225dc28d5974c711d6c21ef3ea43ffbb53edd13a",
+      "retrieved_at": "2026-10-11T19:16:23Z",
+      "last_checked": "2026-10-11T19:16:23Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/IT-02/2026-10-11/secondary.html",
+      "url": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-09-15&numeroGazzetta=214",
+      "final_url": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-09-15&numeroGazzetta=214",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 73774,
+      "sha256": "d6c63175ca9e2ba3b27045ec8e1a2d4536deadf9b84c804dd2313aec7eb61588",
+      "text_sha256": "8e59135222f03e72c34b6b2686936ef782830762d5b927375f62aa432910540c",
+      "retrieved_at": "2026-10-11T19:16:31Z",
+      "last_checked": "2026-10-11T19:16:31Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2026/09/15/26G00179/sg",
+      "attempted_at": "2026-10-11T19:16:23Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.gazzettaufficiale.it/caricaHtml?nomeTiles=formatoGraficoPdf",
+      "attempted_at": "2026-10-11T19:16:27Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio?dataPubblicazioneGazzetta=2026-09-15&numeroGazzetta=214",
+      "attempted_at": "2026-10-11T19:16:31Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "IT-03",
+   "slug": "it-dlgs-179-2026-ai-authorities-powers",
+   "title": "Legislative Decree No. 179 of 7 October 2026 adapting national law to Regulation (EU) 2024/1689 on artificial intelligence, concerning the powers of the national authorities and the use of artificial intelligence in training",
+   "original_title": "Decreto legislativo 7 ottobre 2026, n. 179 – Adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, del 13 giugno 2024, che stabilisce regole armonizzate sull'intelligenza artificiale, in materia di poteri delle Autorità nazionali e di utilizzo dell'intelligenza artificiale nella formazione",
+   "short_title": "Italy D.Lgs. 179/2026 (AI authorities' powers decree)",
+   "jurisdiction": "Italy",
+   "country": "Italy",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "Government of Italy (legislative decree adopted under Law 132/2025)",
+   "instrument_type": "Law",
+   "legal_force": "Binding",
+   "status": "Adopted, not yet in force",
+   "date_published": "2026-10-07",
+   "date_in_force": "2026-10-23",
+   "date_last_updated": null,
+   "official_identifier": "Decreto legislativo 7 ottobre 2026, n. 179 (GU Serie Generale n. 234 del 08-10-2026; 26G00200)",
+   "official_url": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00200/sg",
+   "secondary_url": "https://www.normattiva.it/eli/id/2026/10/08/26G00200/ORIGINAL",
+   "language": "Italian",
+   "summary": "Second implementing decree under Law 132/2025, giving Italy's AI governance its operative powers. It confirms AgID and ACN as the national AI authorities, with AgID as notifying authority and ACN as market surveillance authority and single point of contact, and lists the Bank of Italy, CONSOB, IVASS and the data protection authority (within Article 74(8) of the AI Act) as sector market surveillance authorities, coordinated by a committee at the Prime Minister's Office. It regulates notification of conformity assessment bodies, market surveillance, sanctions aligned with the AI Act maxima, regulatory sandboxes run by AgID and ACN, and AI in education, professions, work and health.",
+   "safety_topics": [
+    "accountability & liability",
+    "risk-based classification",
+    "evaluation & testing",
+    "public-sector use"
+   ],
+   "related": [
+    {
+     "id": "IT-01",
+     "slug": "it-law-132-2025-ai"
+    },
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    },
+    {
+     "id": "IT-02",
+     "slug": "it-dlgs-160-2026-police-ai-and-liability"
+    }
+   ],
+   "notes": "Approved in preliminary form on 10 June 2026 (Atto del Governo n. 421, sent to the Senate on 3 July 2026 with parliamentary opinions due in mid-August), finally approved by the Council of Ministers on 4 August 2026 according to legal-press sources, issued on 7 October 2026 and published in GU n. 234 of 8 October 2026; in force from 23 October 2026, within the delegation deadline of 10 October 2026. 54 articles in five chapters. Several follow-up acts are due within 90 days to 12 months (teacher training decree, professional training rules, fair-compensation parameters). Legal commentators noted differences between the Council of Ministers press release and the published text on the Garante's remit and on fine ceilings; the published text prevails.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "Fetched the Gazzetta Ufficiale ELI page, the GU issue index (n. 234 of 08-10-2026) and the Normattiva original text (first part), plus a legal blog overview of 9 October 2026.",
+    "note": "The ELI page confirmed the title, number, date, GU reference and entry into force on 23/10/2026; Normattiva confirmed the structure (Chapters I–V, 54 articles) and the Article 1 definitions naming AgID, ACN and the sector authorities. The Council of Ministers dates and the sanction details rest on secondary sources.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": "A linked file (https://www.gazzettaufficiale.it/caricaHtml?nomeTiles=formatoGraficoPdf) was not a PDF and was skipped.",
+    "last_attempt": "2026-10-11T19:16:18Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/IT-03/2026-10-11/official.html",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00200/sg",
+      "final_url": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00200/sg",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 17392,
+      "sha256": "4765126a9c7c9aff6286f513edc4377bf068484b9b87187aee064f1521407a58",
+      "text_sha256": "7513a23673943f57d6a3dd153133867bc81d3a5c27adfe3bd5f30ebd0d4d8ce2",
+      "retrieved_at": "2026-10-11T19:16:25Z",
+      "last_checked": "2026-10-11T19:16:25Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/IT-03/2026-10-11/secondary.html",
+      "url": "https://www.normattiva.it/eli/id/2026/10/08/26G00200/ORIGINAL",
+      "final_url": "https://www.normattiva.it/eli/id/2026/10/08/26G00200/ORIGINAL",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 276992,
+      "sha256": "8da27e815fe0cb8314f1355219c8096330b49a633e6a583b39b890adcf694072",
+      "text_sha256": "8e630ae8aa7dfd4ff8791268c59d41c21087b9eab5f8fa1b81fbadbb49116f17",
+      "retrieved_at": "2026-10-11T19:16:32Z",
+      "last_checked": "2026-10-11T19:16:32Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/08/26G00200/sg",
+      "attempted_at": "2026-10-11T19:16:25Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.gazzettaufficiale.it/caricaHtml?nomeTiles=formatoGraficoPdf",
+      "attempted_at": "2026-10-11T19:16:29Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.normattiva.it/eli/id/2026/10/08/26G00200/ORIGINAL",
+      "attempted_at": "2026-10-11T19:16:32Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
    }
   }
  ]

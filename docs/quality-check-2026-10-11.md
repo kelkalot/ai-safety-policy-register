@@ -6,7 +6,7 @@ A second AI agent reviewed all 214 records of snapshot 2026-10-11 against their 
 
 - AUS-07 and CA-ON-01 now carry the publication dates their archived official pages state (25 Nov 2025; 25 Nov 2024).
 - INT-14, UN-06, UN-01, VN-01 and AE-01 no longer describe their sister records (INT-16, UN-10, VN-02, AE-02) as unrecorded and link to them; GB-02 links to INT-06, EU-02 and EU-06 to EU-18, INT-11 to US-15.
-- US-TX-01: the archiver now recognises JavaScript application shells; the record is flagged `archived-review` until the statute text is stored (the browser render also returns only the shell).
+- US-TX-01: the archiver now recognises JavaScript application shells, and its browser mode waits for page text to settle; the statute chapter is now stored (rendered page and print PDF).
 - CA-01 raised to level A (the archiver stored the full directive). FI-01 flagged: the stored Finlex page is a stub.
 - `date_published` follows the documented rule (date of the act, not of gazette publication): EU-03, EU-05, ES-01 and PE-01 re-dated, gazette dates kept in notes. JP-06 dated to the current (second) AI Basic Plan.
 - `date_last_updated` reserved for amendments and new versions: cleared on CL-01, US-14, AUS-04, US-03, KR-01 (events moved to notes) and on EU-09, CA-08, DK-02, US-CA-03 (equal to the publication date).
@@ -16,7 +16,7 @@ A second AI agent reviewed all 214 records of snapshot 2026-10-11 against their 
 
 ## Still open
 
-- FI-01: store the Finlex statute PDF by hand. US-TX-01: store the rendered chapter by hand. KE-01: replace the OECD.AI mirror with the ministry URL once it is known.
+- FI-01: store the Finlex statute PDF by hand. KE-01: replace the OECD.AI mirror with the ministry URL once it is known.
 - PL-01, ES-02 and US-09: status needs re-verification on the official source.
 - JP-03 (two J-AISI guides) and EU-13 (draft Art. 73 guidance vs the GPAI incident template) may deserve separate records.
 - Language qualifiers in a few records, the issuer order in SG-01/SG-02, the MeitY suffixes in IN-01 to IN-03, dash style in composed titles, the unrelated linked PDFs stored for US-CA-01/02/07/08, and the topic tags of SG-06 and ES-01.
