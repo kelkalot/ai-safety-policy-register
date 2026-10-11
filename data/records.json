@@ -1,7 +1,7 @@
 {
  "meta": {
   "name": "AI Safety Policy Register",
-  "version": "1.2",
+  "version": "1.3",
   "snapshot_date": "2026-10-11",
   "record_count": 214,
   "scope": "Official governmental and intergovernmental AI safety and AI regulation instruments (core safety + regulation), global coverage.",
@@ -877,12 +877,12 @@
      "id": "ASEAN-02"
     }
    ],
-   "notes": "The ASEAN page gives only '2024' as the year. The Feb 2024 date reflects the researcher's knowledge that the 4th ASEAN Digital Ministers' Meeting in Singapore endorsed the guide that month; please verify. In 2025 it was supplemented by the Expanded ASEAN Guide on AI Governance and Ethics – Generative AI, which is the reason for the 2025-01 last-updated date.",
+   "notes": "The ASEAN page gives only '2024' as the year. In 2025 it was supplemented by the Expanded ASEAN Guide on AI Governance and Ethics – Generative AI, which is the reason for the 2025-01 last-updated date.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "asean.org page fetched: title, year 2024 and scope (traditional AI, non-military/dual-use) confirmed. The exact endorsement date and the topics on risk-based governance and human involvement are from the researcher's knowledge.",
+    "note": "asean.org page fetched: title, year 2024 and scope (traditional AI, non-military/dual-use) confirmed. The exact endorsement date and the topics on risk-based governance and human involvement are from the researcher's knowledge. The Feb 2024 date reflects the researcher's knowledge that the 4th ASEAN Digital Ministers' Meeting in Singapore endorsed the guide that month; please verify.",
     "second_check": null
    },
    "local_copy": {
@@ -1030,12 +1030,12 @@
      "id": "ASEAN-01"
     }
    ],
-   "notes": "The ASEAN page gives no date. Its files sit in a Jan 2025 upload folder, and the researcher understands it was endorsed at the 5th ASEAN Digital Ministers' Meeting in Jan 2025; the month is therefore inferred. The specific generative-AI risks covered were not confirmed from the page.",
+   "notes": "The ASEAN page gives no date. The specific generative-AI risks covered were not confirmed from the page.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "asean.org page fetched: title and description confirmed. The date is inferred from the upload path (2025/01) and page metadata (last modified 8 May 2025).",
+    "note": "asean.org page fetched: title and description confirmed. The date is inferred from the upload path (2025/01) and page metadata (last modified 8 May 2025). Not confirmed on a fetched page: The month is therefore inferred. (Its files sit in a Jan 2025 upload folder, and the researcher understands it was endorsed at the 5th ASEAN Digital Ministers' Meeting in Jan 2025; the month is therefore inferred.)",
     "second_check": null
    },
    "local_copy": {
@@ -1320,7 +1320,7 @@
    "official_identifier": "CETS No. 225",
    "official_url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
    "secondary_url": "https://www.coe.int/en/web/portal/-/council-of-europe-opens-first-ever-global-treaty-on-ai-for-signature",
-   "language": "English, French (official)",
+   "language": "English, French",
    "summary": "The first legally binding international treaty on AI. Parties must ensure that activities across the AI lifecycle are consistent with human rights, democracy and the rule of law, through risk and impact assessment, transparency, oversight, accountability and remedies. It applies fully to the public sector; for the private sector, Parties choose how to address risks.",
    "safety_topics": [
     "accountability & liability",
@@ -1992,7 +1992,7 @@
    "title": "International Scientific Report on the Safety of Advanced AI: interim report",
    "original_title": null,
    "short_title": "International AI Safety Report (interim, 2024)",
-   "jurisdiction": "International AI Safety Report",
+   "jurisdiction": "International AI Safety Report (AI Safety Summit process)",
    "country": "International",
    "jurisdiction_level": "International",
    "region": "Global",
@@ -2150,7 +2150,7 @@
    "title": "International AI Safety Report 2025",
    "original_title": null,
    "short_title": "International AI Safety Report 2025",
-   "jurisdiction": "International AI Safety Report",
+   "jurisdiction": "International AI Safety Report (AI Safety Summit process)",
    "country": "International",
    "jurisdiction_level": "International",
    "region": "Global",
@@ -2340,7 +2340,7 @@
    "title": "International AI Safety Report 2026",
    "original_title": null,
    "short_title": "International AI Safety Report 2026",
-   "jurisdiction": "International AI Safety Report",
+   "jurisdiction": "International AI Safety Report (AI Safety Summit process)",
    "country": "International",
    "jurisdiction_level": "International",
    "region": "Global",
@@ -2560,6 +2560,10 @@
     {
      "slug": "g7-ministerial-declaration-digital-technology-2026",
      "id": "G7-04"
+    },
+    {
+     "slug": "us-caisi",
+     "id": "US-15"
     }
    ],
    "notes": "Launched 20 Nov 2024 in San Francisco with the US as inaugural chair. Renamed 'International Network for Advanced AI Measurement, Evaluation and Science', confirmed at the Network's meeting in San Diego alongside NeurIPS; the UK announced this on 9 Dec 2025 and took on a 'Network Coordinator' role. The US now takes part through NIST's Center for AI Standards and Innovation (CAISI), the renamed US AI Safety Institute. On 13 Feb 2026 NIST published the Network's consensus practices and open questions on automated AI evaluations. The G7 Digital & Technology Ministerial Declaration (May 2026) tasks France with working with the Network and the OECD on comparable risk-assessment frameworks.",
@@ -2655,7 +2659,7 @@
    "title": "Santiago Declaration to Promote Ethical Artificial Intelligence in Latin America and the Caribbean",
    "original_title": "Declaración de Santiago: Para promover una inteligencia artificial ética en América Latina y el Caribe",
    "short_title": "Santiago Declaration",
-   "jurisdiction": "Latin America & Caribbean ministerial summit",
+   "jurisdiction": "Santiago ministerial summit on AI (2023)",
    "country": "International",
    "jurisdiction_level": "International",
    "region": "Latin America & Caribbean",
@@ -2685,12 +2689,12 @@
      "id": "UY-01"
     }
    ],
-   "notes": "Adopted at the summit in Santiago, 23–24 Oct 2023. The text does not list signatory countries. A follow-up second summit (Montevideo, Oct 2024) reportedly adopted a 'Montevideo Declaration'; it is not recorded separately because no official text could be fetched this session.",
+   "notes": "Adopted at the summit in Santiago, 23–24 Oct 2023. The text does not list signatory countries. A follow-up second summit (Montevideo, Oct 2024) reportedly adopted a 'Montevideo Declaration'.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "Chilean Ministry of Science PDF confirms title, date (23–24 Oct 2023) and commitments.",
+    "note": "Chilean Ministry of Science PDF confirms title, date (23–24 Oct 2023) and commitments. Not confirmed on a fetched page: A follow-up second summit (Montevideo, Oct 2024) reportedly adopted a 'Montevideo Declaration'. (A follow-up second summit (Montevideo, Oct 2024) reportedly adopted a 'Montevideo Declaration'; it is not recorded separately because no official text could be fetched this session.)",
     "second_check": null
    },
    "local_copy": {
@@ -3155,7 +3159,7 @@
    "title": "Political Declaration on Responsible Military Use of Artificial Intelligence and Autonomy",
    "original_title": null,
    "short_title": "Political Declaration on Military AI",
-   "jurisdiction": "Political Declaration endorsers (US-led)",
+   "jurisdiction": "Political Declaration on Responsible Military Use of AI (US-led initiative)",
    "country": "International",
    "jurisdiction_level": "International",
    "region": "Global",
@@ -3286,9 +3290,13 @@
     {
      "slug": "unga-78-241-lethal-autonomous-weapons",
      "id": "UN-01"
+    },
+    {
+     "slug": "reaim-2024-blueprint-for-action",
+     "id": "INT-16"
     }
    ],
-   "notes": "Agreed at the first REAIM summit, The Hague, 15-16 Feb 2023. It was followed by the REAIM 'Blueprint for Action', adopted at the second summit in Seoul in Sep 2024, and a third REAIM summit hosted by Spain. Neither follow-up could be fetched from an official source in this session, so both are left out as separate records; this is a known gap.",
+   "notes": "Agreed at the first REAIM summit, The Hague, 15-16 Feb 2023. It was followed by the REAIM 'Blueprint for Action', adopted at the second summit in Seoul in Sep 2024, and a third REAIM summit hosted by Spain. The Blueprint for Action is recorded as INT-16; the third summit's outcome document is not yet in the register.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -3534,7 +3542,7 @@
   {
    "id": "UN-01",
    "slug": "unga-78-241-lethal-autonomous-weapons",
-   "title": "Lethal autonomous weapons systems",
+   "title": "Lethal autonomous weapons systems (A/RES/78/241)",
    "original_title": null,
    "short_title": "UNGA resolution 78/241 on LAWS",
    "jurisdiction": "United Nations",
@@ -3566,14 +3574,18 @@
     {
      "slug": "political-declaration-responsible-military-ai",
      "id": "INT-13"
+    },
+    {
+     "slug": "unga-resolution-79-239-ai-military-domain",
+     "id": "UN-10"
     }
    ],
-   "notes": "Austria-led. The adoption date (22 Dec 2023) and the recorded vote (reported as 152 in favour, 4 against, 11 abstentions) are from the researcher's knowledge and could not be re-checked; please verify. The Secretary-General's report was issued in 2024 (A/79/88, symbol unverified). Discussions continue in the CCW Group of Governmental Experts on LAWS.",
+   "notes": "Austria-led. The Secretary-General's report was issued in 2024 (A/79/88, symbol unverified). Discussions continue in the CCW Group of Governmental Experts on LAWS.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "PARTIAL. The docs.un.org viewer page loaded and confirmed the symbol, but not the title, date or text. UN document servers and the Digital Library search blocked automated fetching, and the shared web-search budget ran out. Title, date and content are from the researcher's knowledge and need confirming.",
+    "note": "PARTIAL. The docs.un.org viewer page loaded and confirmed the symbol, but not the title, date or text. UN document servers and the Digital Library search blocked automated fetching, and the shared web-search budget ran out. Title, date and content are from the researcher's knowledge and need confirming. The adoption date (22 Dec 2023) and the recorded vote (reported as 152 in favour, 4 against, 11 abstentions) are from the researcher's knowledge and could not be re-checked; please verify.",
     "second_check": null
    },
    "local_copy": {
@@ -4190,7 +4202,7 @@
   {
    "id": "UN-06",
    "slug": "unga-79-62-lethal-autonomous-weapons",
-   "title": "Lethal autonomous weapons systems",
+   "title": "Lethal autonomous weapons systems (A/RES/79/62)",
    "original_title": null,
    "short_title": "UNGA resolution 79/62 on LAWS",
    "jurisdiction": "United Nations",
@@ -4222,14 +4234,18 @@
     {
      "slug": "political-declaration-responsible-military-ai",
      "id": "INT-13"
+    },
+    {
+     "slug": "unga-resolution-79-239-ai-military-domain",
+     "id": "UN-10"
     }
    ],
-   "notes": "The adoption date (2 Dec 2024) and the vote (reported as 166 in favour, 3 against, 15 abstentions) are from the researcher's knowledge and could not be re-checked. The informal consultations were held in New York in May 2025. Related: A/RES/79/239, 'Artificial intelligence in the military domain and its implications for international peace and security' (Dec 2024), not separately verified. Any UNGA-80 (Dec 2025) follow-up resolutions were not verified. The UN Secretary-General's New Agenda for Peace (2023) called for a legally binding instrument on LAWS by 2026.",
+   "notes": "The informal consultations were held in New York in May 2025. Related: A/RES/79/239 on artificial intelligence in the military domain (24 Dec 2024), recorded as UN-10. Any UNGA-80 (Dec 2025) follow-up resolutions were not verified. The UN Secretary-General's New Agenda for Peace (2023) called for a legally binding instrument on LAWS by 2026.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "PARTIAL. The docs.un.org viewer page loaded and confirmed the symbol, but not the title, date or text. Fetching was blocked and the search budget ran out. Content and date are from the researcher's knowledge and need confirming. The New Agenda for Peace recommendation was confirmed on a UNODA page.",
+    "note": "PARTIAL. The docs.un.org viewer page loaded and confirmed the symbol, but not the title, date or text. Fetching was blocked and the search budget ran out. Content and date are from the researcher's knowledge and need confirming. The New Agenda for Peace recommendation was confirmed on a UNODA page. The adoption date (2 Dec 2024) and the vote (reported as 166 in favour, 3 against, 15 abstentions) are from the researcher's knowledge and could not be re-checked.",
     "second_check": null
    },
    "local_copy": {
@@ -4842,7 +4858,7 @@
    "title": "Agreement on the Establishment of the World Artificial Intelligence Cooperation Organization",
    "original_title": null,
    "short_title": "WAICO Agreement",
-   "jurisdiction": "WAICO founding members (China-led)",
+   "jurisdiction": "World AI Cooperation Organization (WAICO)",
    "country": "International",
    "jurisdiction_level": "International",
    "region": "Global",
@@ -5168,14 +5184,18 @@
     {
      "slug": "eu-gpai-code-of-practice",
      "id": "EU-10"
+    },
+    {
+     "slug": "eu-digital-omnibus-ai",
+     "id": "EU-18"
     }
    ],
-   "notes": "Adopted 24 Jan 2024. EUR-Lex metadata gives an entry-into-force date of 21 Feb 2024. The Office has more than 125 staff in six units, including A3 AI Safety, plus a Lead Scientific Adviser and an International Affairs Adviser. Its GPAI enforcement powers, including fines, became enforceable on 2 Aug 2026. The Digital Omnibus on AI (Reg. (EU) 2026/1744) widened its supervisory remit over AI systems based on GPAI models and over AI embedded in VLOPs/VLOSEs. The C(2024) 390 reference comes from the seed list and could not be independently confirmed on the fetched pages.",
+   "notes": "Adopted 24 Jan 2024. EUR-Lex metadata gives an entry-into-force date of 21 Feb 2024. The Office has more than 125 staff in six units, including A3 AI Safety, plus a Lead Scientific Adviser and an International Affairs Adviser. Its GPAI enforcement powers, including fines, became enforceable on 2 Aug 2026. The Digital Omnibus on AI (Reg. (EU) 2026/1744) widened its supervisory remit over AI systems based on GPAI models and over AI embedded in VLOPs/VLOSEs.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "EUR-Lex ELI page loaded and confirmed the title, decision date of 24 Jan 2024, and entry-into-force metadata of 21 Feb 2024. The Commission library page confirmed the content (AI Office within DG CONNECT). The Commission AI Office policy page confirmed the unit structure, including the AI Safety unit.",
+    "note": "EUR-Lex ELI page loaded and confirmed the title, decision date of 24 Jan 2024, and entry-into-force metadata of 21 Feb 2024. The Commission library page confirmed the content (AI Office within DG CONNECT). The Commission AI Office policy page confirmed the unit structure, including the AI Safety unit. The C(2024) 390 reference comes from the seed list and could not be independently confirmed on the fetched pages.",
     "second_check": null
    },
    "local_copy": {
@@ -5349,7 +5369,7 @@
    "instrument_type": "Law",
    "legal_force": "Binding",
    "status": "Partially in force",
-   "date_published": "2024-07-12",
+   "date_published": "2024-06-13",
    "date_in_force": "2024-08-01",
    "date_last_updated": "2026-07-27",
    "official_identifier": "Regulation (EU) 2024/1689",
@@ -5776,7 +5796,7 @@
    "instrument_type": "Law",
    "legal_force": "Binding",
    "status": "In force",
-   "date_published": "2024-11-18",
+   "date_published": "2024-10-23",
    "date_in_force": "2024-12-08",
    "date_last_updated": null,
    "official_identifier": "Directive (EU) 2024/2853",
@@ -6001,6 +6021,10 @@
     {
      "slug": "eu-report-review-prohibitions-annex-iii",
      "id": "EU-15"
+    },
+    {
+     "slug": "eu-digital-omnibus-ai",
+     "id": "EU-18"
     }
    ],
    "notes": "Published 4 Feb 2025, two days after the Art. 5 prohibitions began to apply (2 Feb 2025). Approved in content by a Commission Communication; the C(2025) document number was not shown on the fetched page and is left null. The page shows a last update of 31 July 2025. No update was found covering the ninth prohibition added by the Digital Omnibus on AI (applies from 2 Dec 2026). Enforcement and penalties for the prohibitions apply from 2 Aug 2026.",
@@ -6450,12 +6474,12 @@
    "jurisdiction_level": "Supranational",
    "region": "Europe",
    "issuing_body": "European Commission",
-   "instrument_type": "Technical standard",
+   "instrument_type": "Regulation / implementing rule",
    "legal_force": "Binding",
    "status": "In force",
    "date_published": "2025-06-23",
    "date_in_force": "2025-06-23",
-   "date_last_updated": "2025-06-23",
+   "date_last_updated": null,
    "official_identifier": "C(2025) 3871 final (repealing C(2023) 3215 of 22 May 2023)",
    "official_url": "https://ec.europa.eu/transparency/documents-register/api/files/C(2025)3871_0/de00000001072818?rendition=false",
    "secondary_url": "https://digital-strategy.ec.europa.eu/en/policies/ai-act-standardisation",
@@ -7358,7 +7382,7 @@
    "official_identifier": "COM(2026) 234 final",
    "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52026DC0234",
    "secondary_url": null,
-   "language": "All official EU languages (EN version fetched)",
+   "language": "All 24 official EU languages",
    "summary": "The first annual assessment required by AI Act Art. 112(1). It concludes there is no immediate need to amend the Art. 5 prohibitions or the Annex III high-risk list because implementation experience is limited. It flags AI-generated child sexual abuse material and non-consensual intimate deepfakes as a possible regulatory gap to monitor.",
    "safety_topics": [
     "prohibited practices",
@@ -8093,7 +8117,7 @@
    "jurisdiction_level": "National",
    "region": "Oceania",
    "issuing_body": "Digital Transformation Agency (DTA)",
-   "instrument_type": "Guidelines / framework",
+   "instrument_type": "Regulation / implementing rule",
    "legal_force": "Binding",
    "status": "In force",
    "date_published": "2024-09-01",
@@ -8115,12 +8139,12 @@
      "id": "AUS-06"
     }
    ],
-   "notes": "Took effect on 1 Sep 2024. It is administratively binding on non-corporate Commonwealth entities (with some exceptions), not legislation. The DTA page fetched on 2026-10-11 still shows 'Version 1.1'. The researcher could not verify reports of a later strengthened version (e.g. one adding mandatory AI use-case impact assessments) because the search budget was exhausted.",
+   "notes": "Took effect on 1 Sep 2024. It is administratively binding on non-corporate Commonwealth entities (with some exceptions), not legislation. The DTA page fetched on 2026-10-11 still shows 'Version 1.1'.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "DTA policy page fetched: title, Version 1.1, effective 1 Sep 2024, and the accountable-official and transparency-statement deadlines confirmed.",
+    "note": "DTA policy page fetched: title, Version 1.1, effective 1 Sep 2024, and the accountable-official and transparency-statement deadlines confirmed. The researcher could not verify reports of a later strengthened version (e.g. one adding mandatory AI use-case impact assessments) because the search budget was exhausted.",
     "second_check": null
    },
    "local_copy": {
@@ -8207,12 +8231,12 @@
      "id": "AUS-06"
     }
    ],
-   "notes": "Royal Assent and 'as made' date: 2 Sep 2024. Commencement is reportedly the day after Royal Assent (3 Sep 2024), but the commencement table text could not be read from the fetched page, so date_in_force is left null. The Government's Senate committee response (Apr 2026) cites these August 2024 Criminal Code amendments on AI-generated sexual material. The aggravated-offence detail comes from the researcher's background knowledge.",
+   "notes": "Royal Assent and 'as made' date: 2 Sep 2024. Commencement is reportedly the day after Royal Assent (3 Sep 2024), but the commencement table text could not be read from the fetched page, so date_in_force is left null. The Government's Senate committee response (Apr 2026) cites these August 2024 Criminal Code amendments on AI-generated sexual material.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "Federal Register of Legislation page fetched: title, Act No. 78, 2024, and the 2 Sep 2024 as-made date confirmed. Commencement text not visible.",
+    "note": "Federal Register of Legislation page fetched: title, Act No. 78, 2024, and the 2 Sep 2024 as-made date confirmed. Commencement text not visible. The aggravated-offence detail comes from the researcher's background knowledge.",
     "second_check": null
    },
    "local_copy": {
@@ -8390,12 +8414,12 @@
    "jurisdiction_level": "National",
    "region": "Oceania",
    "issuing_body": "Department of Industry, Science and Resources",
-   "instrument_type": "Bill / draft law",
+   "instrument_type": "Guidelines / framework",
    "legal_force": "Proposed",
    "status": "Revoked / withdrawn",
    "date_published": "2024-09-05",
    "date_in_force": null,
-   "date_last_updated": "2025-12-02",
+   "date_last_updated": null,
    "official_identifier": null,
    "official_url": "https://consult.industry.gov.au/ai-mandatory-guardrails",
    "secondary_url": null,
@@ -8794,7 +8818,7 @@
    "instrument_type": "Institutional mandate",
    "legal_force": "Non-binding",
    "status": "Published (non-binding, current)",
-   "date_published": null,
+   "date_published": "2025-11-25",
    "date_in_force": null,
    "date_last_updated": null,
    "official_identifier": null,
@@ -8818,12 +8842,12 @@
      "id": "INT-11"
     }
    ],
-   "notes": "Funding: A$29.8 million over four years from 2025-26, then A$7.9 million a year ongoing from 2029-30 (per the Senate committee response). The DISR announcement page is undated apart from an 'Updated 17 December' note on the renaming of the International Network of AI Safety Institutes to the 'International Network for Advanced AI Measurement, Evaluation and Science'. The announcement was reportedly made in late Nov 2025 (around 25 Nov 2025), shortly before the National AI Plan. Not confirmed on an official page, so date_published is null. A DISR MoU with Canada on AI safety institute collaboration was published on 5 Mar 2026.",
+   "notes": "Funding: A$29.8 million over four years from 2025-26, then A$7.9 million a year ongoing from 2029-30 (per the Senate committee response). The DISR news page is dated 25 November 2025 and states that the minister announced the Australian AI Safety Institute on that day, shortly before the National AI Plan; the page also carries an 'Updated 17 December' note on the renaming of the International Network of AI Safety Institutes to the 'International Network for Advanced AI Measurement, Evaluation and Science'. A DISR MoU with Canada on AI safety institute collaboration was published on 5 Mar 2026.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "DISR news page fetched: mandate, non-regulatory role and network membership confirmed; no publication date shown. Funding and the frontier-model testing role were confirmed from the Government response to the Senate Select Committee (1 Apr 2026).",
+    "note": "DISR news page fetched: mandate, non-regulatory role and network membership confirmed; the page is dated 25 November 2025 (confirmed on the stored copy in the 11 Oct 2026 quality check). Funding and the frontier-model testing role were confirmed from the Government response to the Senate Select Committee (1 Apr 2026).",
     "second_check": null
    },
    "local_copy": {
@@ -8938,12 +8962,12 @@
      "id": "BR-02"
     }
    ],
-   "notes": "Presented in the Senate 3 May 2023; Senate plenary approved the substitute text 10 Dec 2024; sent to the Chamber of Deputies 17 Mar 2025. A Chamber Special Committee was set up in 2025 (rapporteur Dep. Aguinaldo Ribeiro). Chamber record status: 'Aguardando Parecer do Relator na Comissão Especial' (last action 2 Sep 2026). Press reports (Aug 2026) say the vote was pushed to after the Oct 2026 general elections; any Chamber amendments send the bill back to the Senate. Summary of content reflects the Senate-approved text, not re-read in full this session. The Brazilian AI Plan (PBIA 2024–2028) was excluded as mainly an investment plan and because gov.br could not be fetched.",
+   "notes": "Presented in the Senate 3 May 2023; Senate plenary approved the substitute text 10 Dec 2024; sent to the Chamber of Deputies 17 Mar 2025. A Chamber Special Committee was set up in 2025 (rapporteur Dep. Aguinaldo Ribeiro). Chamber record status: 'Aguardando Parecer do Relator na Comissão Especial' (last action 2 Sep 2026). Press reports (Aug 2026) say the vote was pushed to after the Oct 2026 general elections; any Chamber amendments send the bill back to the Senate. The Brazilian AI Plan (PBIA 2024–2028) was excluded as mainly an investment plan and because gov.br could not be fetched.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "Chamber page confirms PL 2338/2023, its ementa, receipt 17/03/2025 and status awaiting rapporteur's report (last action 02/09/2026). Senate page confirms author, presentation 03/05/2023, plenary approval (Dec 2024 records) and referral to the Chamber.",
+    "note": "Chamber page confirms PL 2338/2023, its ementa, receipt 17/03/2025 and status awaiting rapporteur's report (last action 02/09/2026). Senate page confirms author, presentation 03/05/2023, plenary approval (Dec 2024 records) and referral to the Chamber. Summary of content reflects the Senate-approved text, not re-read in full this session.",
     "second_check": null
    },
    "local_copy": {
@@ -9054,12 +9078,12 @@
      "id": "BR-01"
     }
    ],
-   "notes": "Signed 27 Feb 2024; published in DJE-TSE no. 29 of 4 Mar 2024; applied to the 2024 municipal elections. Whether the TSE revised these rules for the Oct 2026 general elections was not checked this session.",
+   "notes": "Signed 27 Feb 2024; published in DJE-TSE no. 29 of 4 Mar 2024; applied to the 2024 municipal elections.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "TSE consolidated-legislation page confirms title, date, DJE publication 4 Mar 2024 and arts. 9-B, 9-C, 9-E on AI/synthetic content and deepfakes.",
+    "note": "TSE consolidated-legislation page confirms title, date, DJE publication 4 Mar 2024 and arts. 9-B, 9-C, 9-E on AI/synthetic content and deepfakes. Whether the TSE revised these rules for the Oct 2026 general elections was not checked this session.",
     "second_check": null
    },
    "local_copy": {
@@ -9147,10 +9171,10 @@
    ],
    "notes": "Binding on federal institutions as Treasury Board policy (not a statute). Launched 4 March 2019; effective April 2019, with compliance required for new systems from 1 April 2020. Amended 1 April 2021, 25 April 2023 (third review) and 24 June 2025 (fourth review: more transparency, stronger testing/monitoring and senior-level accountability; Algorithmic Impact Assessment updated). Reviewed every two years.",
    "verification": {
-    "level": "B",
+    "level": "A",
     "verified_on": "2026-10-11",
-    "method": "alternative-official-url-fetched",
-    "note": "tbs-sct.canada.ca returned 'Request Rejected' to the fetcher. canada.ca 'Progress on AI in government' page confirms launch 4 Mar 2019, compliance 1 Apr 2020 and amendments 1 Apr 2021, 25 Apr 2023 and 24 Jun 2025; the AI Strategy full-text page confirms the fourth-review content.",
+    "method": "official-url-fetched",
+    "note": "The official TBS directive page was stored in full by the archiver on 11 Oct 2026 (effective 1 April 2019, compliance by 1 April 2020, amendments to 24 June 2025 confirmed on it). During the research pass tbs-sct.canada.ca had returned 'Request Rejected'. canada.ca 'Progress on AI in government' page confirms launch 4 Mar 2019, compliance 1 Apr 2020 and amendments 1 Apr 2021, 25 Apr 2023 and 24 Jun 2025; the AI Strategy full-text page confirms the fourth-review content.",
     "second_check": null
    },
    "local_copy": {
@@ -9986,7 +10010,7 @@
    "status": "Draft / proposed",
    "date_published": "2026-06-10",
    "date_in_force": null,
-   "date_last_updated": "2026-06-10",
+   "date_last_updated": null,
    "official_identifier": "Bill C-34 (45th Parliament, 1st Session)",
    "official_url": "https://www.parl.ca/legisinfo/en/bill/45-1/c-34",
    "secondary_url": "https://www.canada.ca/en/canadian-heritage/services/safe-social-media-act.html",
@@ -10103,7 +10127,7 @@
    "status": "Published (non-binding, current)",
    "date_published": "2024-04-11",
    "date_in_force": null,
-   "date_last_updated": "2025-01-28",
+   "date_last_updated": null,
    "official_identifier": "Decreto N° 12 de 2024, Ministerio de Ciencia, Tecnología, Conocimiento e Innovación",
    "official_url": "https://www.diariooficial.interior.gob.cl/publicaciones/2025/01/28/44060/01/2600578.pdf",
    "secondary_url": "https://minciencia.gob.cl/areas/inteligencia-artificial/politica-nacional-de-inteligencia-artificial/",
@@ -10813,7 +10837,7 @@
    "official_identifier": null,
    "official_url": "https://www.mfa.gov.cn/eng/zy/gb/202405/t20240531_11367503.html",
    "secondary_url": "https://www.gov.cn/lianbo/fabu/202310/content_6910006.htm",
-   "language": "Chinese; English",
+   "language": "Chinese, English",
    "summary": "China's statement of its position on global AI governance. It calls for a testing and assessment system based on AI risk levels, tiered and category-based management, keeping AI under human control, explainability and traceability, a prudent and responsible approach to military AI, and discussions under the UN on an international institution to govern AI.",
    "safety_topics": [
     "risk-based classification",
@@ -11108,7 +11132,7 @@
    "official_identifier": null,
    "official_url": "https://www.cac.gov.cn/2024-09/09/c_1727567886199789.htm",
    "secondary_url": "https://www.tc260.org.cn/front/postDetail.html?id=20240909102807",
-   "language": "Chinese; English",
+   "language": "Chinese, English",
    "summary": "China's first national AI safety governance framework. Its principles are inclusive and prudent development, risk-oriented agile governance, combined technical and management measures, and open cooperation. It classifies inherent risks (model/algorithm, data, system) and application risks (cyber, real-world, cognitive, ethical), and sets out technical countermeasures, comprehensive governance measures and safety guidelines for developers, providers and users.",
    "safety_topics": [
     "risk-based classification",
@@ -11457,7 +11481,7 @@
    "issuing_body": "State Administration for Market Regulation / Standardization Administration of China (drafted by TC260)",
    "instrument_type": "Technical standard",
    "legal_force": "Non-binding",
-   "status": "In force",
+   "status": "Published (non-binding, current)",
    "date_published": "2025-04-25",
    "date_in_force": "2025-11-01",
    "date_last_updated": null,
@@ -11583,7 +11607,7 @@
    "official_identifier": null,
    "official_url": "https://www.fmprc.gov.cn/mfa_eng/xw/zyxw/202507/t20250729_11679232.html",
    "secondary_url": "https://un.china-mission.gov.cn/eng/zgyw/202507/t20250729_11679232.htm",
-   "language": "Chinese; English",
+   "language": "Chinese, English",
    "summary": "China's action plan for international AI governance. On safety it calls for timely AI risk assessment, risk testing and evaluation systems, tiered and categorised management, a widely recognised safety governance framework, information sharing and emergency response for AI safety threats, and traceability of AI services. It also calls for regular safety assessments of AI used in public services, safety guidelines for open-source communities, and support for the UN Independent International Scientific Panel on AI and the Global Dialogue on AI Governance.",
    "safety_topics": [
     "evaluation & testing",
@@ -11602,7 +11626,7 @@
      "id": "INT-15"
     }
    ],
-   "notes": "Released 26 Jul 2025 at the 2025 World Artificial Intelligence Conference (WAIC) and High-Level Meeting on Global AI Governance in Shanghai. The Chinese-language title was not checked, so original_title is null. The text does not mention the World AI Cooperation Organization, which China proposed at the same conference and which was set up by treaty in July 2026 (see intl-waico-agreement).",
+   "notes": "Released 26 Jul 2025 at the 2025 World Artificial Intelligence Conference (WAIC) and High-Level Meeting on Global AI Governance in Shanghai. The Chinese-language title was not checked, so original_title is null. The text does not mention the World AI Cooperation Organization, which China proposed at the same conference and which was set up by treaty in July 2026 (see INT-15).",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -11947,12 +11971,12 @@
      "id": "CN-15"
     }
    ],
-   "notes": "Adopted 28 Oct 2025 at the 18th session of the 14th NPC Standing Committee; in force 1 Jan 2026. The amendment also changes other parts of the Cybersecurity Law, such as liability provisions; only the AI article is summarised here. China has not adopted a comprehensive AI law: we could not check, in this pass, whether a draft AI law appeared in NPC or State Council legislative plans for 2026.",
+   "notes": "Adopted 28 Oct 2025 at the 18th session of the 14th NPC Standing Committee; in force 1 Jan 2026. The amendment also changes other parts of the Cybersecurity Law, such as liability provisions; only the AI article is summarised here. China has not adopted a comprehensive AI law.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "NPC page fetched: title, adoption 28 Oct 2025 (18th session of 14th NPCSC), effective 1 Jan 2026, and text of new Article 20 on AI confirmed.",
+    "note": "NPC page fetched: title, adoption 28 Oct 2025 (18th session of 14th NPCSC), effective 1 Jan 2026, and text of new Article 20 on AI confirmed. Not confirmed on a fetched page: China has not adopted a comprehensive AI law. (China has not adopted a comprehensive AI law: we could not check, in this pass, whether a draft AI law appeared in NPC or State Council legislative plans for 2026.)",
     "second_check": null
    },
    "local_copy": {
@@ -12471,12 +12495,12 @@
      "id": "CO-02"
     }
    ],
-   "notes": "Approved 14 Feb 2025. The axis structure is from the researcher's background knowledge; the full policy text was not re-read this session (DNP domains block automated fetching).",
+   "notes": "Approved 14 Feb 2025.",
    "verification": {
     "level": "B",
     "verified_on": "2026-10-11",
     "method": "alternative-official-url-fetched",
-    "note": "DNP pages (dnp.gov.co, colaboracion.dnp.gov.co) disallow automated fetching. The government normative compilation on colpensiones.gov.co confirms the title, 'Documento CONPES 4144 DNP de 2025', approval 14 Feb 2025 and approved-version status.",
+    "note": "DNP pages (dnp.gov.co, colaboracion.dnp.gov.co) disallow automated fetching. The government normative compilation on colpensiones.gov.co confirms the title, 'Documento CONPES 4144 DNP de 2025', approval 14 Feb 2025 and approved-version status. The axis structure is from the researcher's background knowledge; the full policy text was not re-read this session (DNP domains block automated fetching).",
     "second_check": null
    },
    "local_copy": {
@@ -12855,7 +12879,7 @@
    "status": "Draft / proposed",
    "date_published": "2026-10-08",
    "date_in_force": null,
-   "date_last_updated": "2026-10-08",
+   "date_last_updated": null,
    "official_identifier": "TRIS notification 2025/0654/DK (draft)",
    "official_url": "https://kum.dk/aktuelt/nyheder/kulturminister-vil-daemme-op-for-delinger-af-digitale-efterligninger-fra-aarsskiftet",
    "secondary_url": "https://intellectual-property-helpdesk.ec.europa.eu/news-events/news/denmarks-proposed-copyright-rules-deepfakes-2026-06-01_en",
@@ -12975,7 +12999,7 @@
    "official_identifier": "1377/2025 (Government proposal HE/RP 46/2025 vp)",
    "official_url": "https://www.finlex.fi/fi/lainsaadanto/2025/1377",
    "secondary_url": "https://www.parliament.fi/pdf/RSv+162/2025+rd?lang=sv",
-   "language": "Finnish; Swedish",
+   "language": "Finnish, Swedish",
    "summary": "Finland's national law supplementing the EU AI Act, using a decentralised supervision model. Traficom supervises Article 50 transparency obligations and is the single point of contact. The Data Protection Ombudsman supervises prohibited practices. Sector authorities (Tukes, the Financial Supervisory Authority, the Energy Authority, Fimea, Customs and others) cover high-risk areas, and an AI penalty fee board at Traficom imposes administrative fines up to the AI Act maxima.",
    "safety_topics": [
     "prohibited practices",
@@ -12995,12 +13019,12 @@
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "Finlex statute page and PDF (1377/2025) fetched: title, signed 22 Dec 2025, in force 1 Jan 2026, authorities; Eduskunta RSv 162/2025 rd fetched.",
+    "note": "Finlex statute page and PDF (1377/2025) fetched during research (the archiver's stored copy of the page is only a stub): title, signed 22 Dec 2025, in force 1 Jan 2026, authorities; Eduskunta RSv 162/2025 rd fetched.",
     "second_check": null
    },
    "local_copy": {
-    "status": "archived",
-    "flag": "The secondary source could not be downloaded (HTTP 404 Not Found).",
+    "status": "archived-review",
+    "flag": "The stored copy of the Finlex page is a short stub (title and menus, no statute text); store the statute PDF by hand into archive/FI-01/2026-10-11/. The secondary PDF URL returned 404.",
     "last_attempt": "2026-10-11T14:00:39Z",
     "files": [
      {
@@ -13488,7 +13512,7 @@
    "official_identifier": null,
    "official_url": "https://aioffice.gov.ie/news-and-updates/ai-office-of-ireland-established-under-the-ai-regulation-bill-2026-paul-byrne-appointed-as-ceo/",
    "secondary_url": "https://enterprise.gov.ie/en/what-we-do/innovation-research-development/artificial-intelligence/eu-ai-act/",
-   "language": "English; Irish",
+   "language": "English, Irish",
    "summary": "Ireland's law implementing the EU AI Act through a distributed model, in which existing sector regulators act as competent authorities. It establishes the AI Office of Ireland (Oifig IS na hÉireann) as an independent statutory body to coordinate them, act as single point of contact, provide shared technical expertise and promote safe, responsible AI.",
    "safety_topics": [
     "risk-based classification",
@@ -13775,7 +13799,7 @@
    "official_identifier": null,
    "official_url": "https://aisi.go.jp/about/",
    "secondary_url": "https://www.ipa.go.jp/pressrelease/2023/press20240214.html",
-   "language": "Japanese; English",
+   "language": "Japanese, English",
    "summary": "Japan's AI Safety Institute, the central government body for AI safety. It develops and promotes methods and standards for evaluating AI safety, supports government guideline-making, works with industry and academia, and cooperates with counterpart institutes such as those of the UK and US.",
    "safety_topics": [
     "safety institute",
@@ -13940,7 +13964,7 @@
    "official_identifier": null,
    "official_url": "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20240419_report.html",
    "secondary_url": "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20240419_14.pdf",
-   "language": "Japanese; English (tentative translation)",
+   "language": "Japanese, English (tentative translation)",
    "summary": "Single set of voluntary AI governance guidelines for AI developers, providers and business users. It sets common principles (human-centricity, safety, fairness, privacy, security, transparency, accountability and others), recommends risk-based, agile AI governance across the life cycle, and includes specific guidance for advanced AI systems based on the Hiroshima AI Process.",
    "safety_topics": [
     "accountability & liability",
@@ -14040,7 +14064,7 @@
    "official_identifier": null,
    "official_url": "https://aisi.go.jp/output/output_information/260707/",
    "secondary_url": "https://aisi.go.jp/output/output_information/250331_1/",
-   "language": "Japanese; English",
+   "language": "Japanese, English",
    "summary": "Two companion technical guides from J-AISI for AI developers and providers. One sets the perspectives for evaluating AI safety, and version 1.20 adds 'observation and control' for AI agent systems. The other sets a methodology for red-teaming AI systems, including LLM-based systems.",
    "safety_topics": [
     "evaluation & testing",
@@ -14413,7 +14437,7 @@
    "official_identifier": null,
    "official_url": "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_guideline.html",
    "secondary_url": "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_gl_eng_20260116.pdf",
-   "language": "Japanese; English",
+   "language": "Japanese, English",
    "summary": "Government guideline under Article 13 of the AI Promotion Act, aligned with international norms. It applies to all AI stakeholders (government, R&D institutions, businesses, citizens) and promotes risk-based, life-cycle and agile AI governance. Developers and businesses are asked to set up AI governance, ensure adequate safety and be transparent. Governments are asked to examine suitable governance approaches and be accountable for public-sector AI use. Users are asked to use AI responsibly and build AI literacy.",
    "safety_topics": [
     "risk-based classification",
@@ -14592,13 +14616,13 @@
    "instrument_type": "Strategy / action plan",
    "legal_force": "Non-binding",
    "status": "Published (non-binding, current)",
-   "date_published": "2025-12-23",
+   "date_published": "2026-07-14",
    "date_in_force": null,
-   "date_last_updated": "2026-07-14",
+   "date_last_updated": null,
    "official_identifier": null,
    "official_url": "https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html",
    "secondary_url": "https://www8.cao.go.jp/cstp/ai/ai_plan/aiplan_eng_20260714.pdf",
-   "language": "Japanese; English",
+   "language": "Japanese, English",
    "summary": "Statutory national AI plan under the AI Promotion Act. The current second plan, 'Japan AI Transformation: A Stronger Nation. Greater Prosperity.', rests on the principle of promoting innovation while mitigating risks and has a dedicated pillar on enhancing AI trustworthiness. That pillar calls for strengthening the AI Safety Institute's technical evaluation (model assessment, traceability, guardrails, crisis-time information sharing) and feeding evaluation results into policy. It also covers continuous review of the AI Act, guidance on rights, transparency and fairness, AI cyber-defence for critical infrastructure, allocating responsibility in the agentic AI era, and international leadership through the AISI network.",
    "safety_topics": [
     "safety institute",
@@ -14910,12 +14934,12 @@
     "research priorities"
    ],
    "related": [],
-   "notes": "Launch month (March 2025) is from the research brief and background knowledge; the fetched OECD.AI page gives only the start year 2025. Builds on the Data Protection Act; includes a results framework with KPIs to 2030.",
+   "notes": "Builds on the Data Protection Act; includes a results framework with KPIs to 2030.",
    "verification": {
     "level": "B",
     "verified_on": "2026-10-11",
     "method": "alternative-official-url-fetched",
-    "note": "The ministry site (ict.go.ke) disallows automated fetching. The OECD.AI policy-initiative page and its OECD-hosted copy of the strategy PDF confirm title, responsible ministry, 2025 start and governance/safety content.",
+    "note": "The ministry site (ict.go.ke) disallows automated fetching. The OECD.AI policy-initiative page and its OECD-hosted copy of the strategy PDF confirm title, responsible ministry, 2025 start and governance/safety content. Not confirmed on a fetched page: The fetched OECD.AI page gives only the start year 2025. (Launch month (March 2025) is from the research brief and background knowledge; the fetched OECD.AI page gives only the start year 2025.)",
     "second_check": null
    },
    "local_copy": {
@@ -15066,12 +15090,12 @@
      "id": "ASEAN-01"
     }
    ],
-   "notes": "The MASTIC/MOSTI publication page dates it September 2024. The National AI Action Plan 2026-2030 refers to the AIGE as issued by MOSTI 'in 2023', which may reflect an earlier draft. The September 2024 date of the published guidelines is used here. The seven principles' names and the three stakeholder groups are from the researcher's background knowledge; the fetched page lists title, date and publisher only.",
+   "notes": "The MASTIC/MOSTI publication page dates it September 2024. The National AI Action Plan 2026-2030 refers to the AIGE as issued by MOSTI 'in 2023', which may reflect an earlier draft. The September 2024 date of the published guidelines is used here.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "MASTIC (MOSTI) publication page fetched: title, publisher and September 2024 date confirmed. The 'seven AI principles' were confirmed via the ai.gov.my AICE page.",
+    "note": "MASTIC (MOSTI) publication page fetched: title, publisher and September 2024 date confirmed. The 'seven AI principles' were confirmed via the ai.gov.my AICE page. Not confirmed on a fetched page: The fetched page lists title, date and publisher only. (The seven principles' names and the three stakeholder groups are from the researcher's background knowledge; the fetched page lists title, date and publisher only.)",
     "second_check": null
    },
    "local_copy": {
@@ -15186,12 +15210,12 @@
      "id": "MY-03"
     }
    ],
-   "notes": "Issued by AI Malaysia Berhad, the institutionalised National AI Office (NAIO) under the Ministry of Digital. The page gives no publication date; a download image filename references July 2026, so it appears to have been released in mid-2026. The NAIO was originally launched in Dec 2024 (researcher background; not verified).",
+   "notes": "Issued by AI Malaysia Berhad, the institutionalised National AI Office (NAIO) under the Ministry of Digital. The page gives no publication date; a download image filename references July 2026, so it appears to have been released in mid-2026. The NAIO was originally launched in Dec 2024.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "ai.gov.my AICE page fetched: title, issuer, voluntary status and link to the AIGE principles confirmed. No explicit date on the page.",
+    "note": "ai.gov.my AICE page fetched: title, issuer, voluntary status and link to the AIGE principles confirmed. No explicit date on the page. Not confirmed on a fetched page: The NAIO was originally launched in Dec 2024. (The NAIO was originally launched in Dec 2024 (researcher background; not verified).)",
     "second_check": null
    },
    "local_copy": {
@@ -15876,12 +15900,12 @@
      "id": "NG-01"
     }
    ],
-   "notes": "Finalised Sept 2025 (the file is dated 19 Sept 2025), replacing the Aug 2024 draft. OECD.AI also lists a National AI Trust (2025). NCAIR published a 'Two years of NAIS' impact compilation in Apr 2026. No Nigerian AI-specific bill was verified this session.",
+   "notes": "Finalised Sept 2025 (the file is dated 19 Sept 2025), replacing the Aug 2024 draft. OECD.AI also lists a National AI Trust (2025). NCAIR published a 'Two years of NAIS' impact compilation in Apr 2026.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "NCAIR-hosted PDF confirms title, Sept 2025 date, FMCIDE authorship, 2025–2029 horizon and governance/ethics content; OECD.AI listing confirms publication in Sept 2025.",
+    "note": "NCAIR-hosted PDF confirms title, Sept 2025 date, FMCIDE authorship, 2025–2029 horizon and governance/ethics content; OECD.AI listing confirms publication in Sept 2025. No Nigerian AI-specific bill was verified this session.",
     "second_check": null
    },
    "local_copy": {
@@ -15979,7 +16003,7 @@
    "official_identifier": null,
    "official_url": "https://www.regjeringen.no/en/documents/nasjonal-strategi-for-kunstig-intelligens/id2685594/",
    "secondary_url": "https://www.regjeringen.no/no/aktuelt/varsler-ny-nasjonal-strategi-for-kunstig-intelligens/id3175602/",
-   "language": "Norwegian; English",
+   "language": "Norwegian, English",
    "summary": "Norway's national AI strategy. Its chapter on 'Trustworthy AI' adopts the EU ethics principles for trustworthy AI, privacy by design, and security in AI systems. It says supervisory authorities should check that AI in their sectors is responsible and trustworthy, and it sets up a data-protection regulatory sandbox at the Norwegian Data Protection Authority (Datatilsynet).",
    "safety_topics": [
     "transparency & labelling",
@@ -16649,7 +16673,7 @@
    "instrument_type": "Law",
    "legal_force": "Binding",
    "status": "In force",
-   "date_published": "2023-07-05",
+   "date_published": "2023-07-04",
    "date_in_force": "2023-07-06",
    "date_last_updated": "2025-09-09",
    "official_identifier": "Ley N° 31814",
@@ -17578,12 +17602,12 @@
      "id": "ASEAN-02"
     }
    ],
-   "notes": "Proposed as a draft in Jan 2024 (consultation to 15 Mar 2024; 70+ responses) and finalised on 30 May 2024. It was launched together with an AI Governance Playbook for the Digital Forum of Small States. The names of the nine dimensions come from the framework's Annex A as known to the researcher. The fetched factsheet confirms 'nine dimensions' but did not list them.",
+   "notes": "Proposed as a draft in Jan 2024 (consultation to 15 Mar 2024; 70+ responses) and finalised on 30 May 2024. It was launched together with an AI Governance Playbook for the Digital Forum of Small States. The fetched factsheet confirms 'nine dimensions' but did not list them.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "IMDA factsheet fetched: title, 30 May 2024 finalisation, IMDA + AI Verify Foundation as issuers, 'nine dimensions', and the link to aiverifyfoundation.sg/resources/mgf-gen-ai/ confirmed.",
+    "note": "IMDA factsheet fetched: title, 30 May 2024 finalisation, IMDA + AI Verify Foundation as issuers, 'nine dimensions', and the link to aiverifyfoundation.sg/resources/mgf-gen-ai/ confirmed. The names of the nine dimensions come from the framework's Annex A as known to the researcher.",
     "second_check": null
    },
    "local_copy": {
@@ -18192,12 +18216,12 @@
     "deepfakes & synthetic media"
    ],
    "related": [],
-   "notes": "Draft dated March 2026; approved by Cabinet 25 Mar 2026 (with a special Cabinet sitting 1 Apr 2026); gazetted 10 Apr 2026 for 60 days of comment (to 10 June 2026). Withdrawal notice signed 4 June 2026 and gazetted 12 June 2026 ('withdrawn in its entirety'); no reason given. Gazette No. 54840 is taken from the notice file name and cover header. It followed DCDT's 'South Africa National AI Policy Framework' discussion document (Aug 2024), which is not recorded separately because dcdt.gov.za blocks automated fetching. No replacement draft was found as of Oct 2026.",
+   "notes": "Draft dated March 2026; approved by Cabinet 25 Mar 2026 (with a special Cabinet sitting 1 Apr 2026); gazetted 10 Apr 2026 for 60 days of comment (to 10 June 2026). Withdrawal notice signed 4 June 2026 and gazetted 12 June 2026 ('withdrawn in its entirety'); no reason given. Gazette No. 54840 is taken from the notice file name and cover header. No replacement draft was found as of Oct 2026.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "gov.za PDFs of GN 3880 (10 Apr 2026, GG 54477) and of the withdrawal notice 3978 of 2026 (signed 4 June, gazetted 12 June 2026) fetched; both confirm title, dates and issuing minister.",
+    "note": "gov.za PDFs of GN 3880 (10 Apr 2026, GG 54477) and of the withdrawal notice 3978 of 2026 (signed 4 June, gazetted 12 June 2026) fetched; both confirm title, dates and issuing minister. It followed DCDT's 'South Africa National AI Policy Framework' discussion document (Aug 2024), which is not recorded separately because dcdt.gov.za blocks automated fetching.",
     "second_check": null
    },
    "local_copy": {
@@ -18291,11 +18315,11 @@
    "status": "Published (non-binding, current)",
    "date_published": "2024-11",
    "date_in_force": null,
-   "date_last_updated": "2026-01-22",
+   "date_last_updated": null,
    "official_identifier": null,
    "official_url": "https://www.aisi.re.kr/eng/contents/22",
    "secondary_url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=71019&lang=ENG",
-   "language": "Korean; English",
+   "language": "Korean, English",
    "summary": "Korea's national AI safety institute. It evaluates risks of AI models and systems, researches prevention and mitigation, supports international AI safety standards, and represents Korea in cooperation with other AI safety institutes. Its divisions cover AI safety policy and international cooperation, AI safety evaluation, and AI safety research.",
    "safety_topics": [
     "safety institute",
@@ -18433,7 +18457,8 @@
     "deepfakes & synthetic media",
     "human oversight",
     "safety institute",
-    "accountability & liability"
+    "accountability & liability",
+    "incident reporting"
    ],
    "related": [
     {
@@ -18441,12 +18466,12 @@
      "id": "KR-01"
     }
    ],
-   "notes": "Passed by the National Assembly on 26 Dec 2024, consolidating 19 bills (per OECD.AI). Promulgated 21 Jan 2025 and in force one year later, on 22 Jan 2026 (Addenda Art. 1); the digital medical device part of Art. 2(4)(d) applies from 24 Jan 2026. Enforcement powers include fact-finding investigations and stop or correction orders (Art. 40). Administrative fines of up to KRW 30 million apply for failing to give AI notice, failing to appoint a domestic agent, or ignoring orders (Art. 43). Details such as the compute threshold and high-impact criteria are set by Presidential Enforcement Decree; we could not verify the decree's number, date or contents, or any reported grace period for fines, because law.go.kr and msit.go.kr block automated fetching.",
+   "notes": "Passed by the National Assembly on 26 Dec 2024, consolidating 19 bills (per OECD.AI). Promulgated 21 Jan 2025 and in force one year later, on 22 Jan 2026 (Addenda Art. 1); the digital medical device part of Art. 2(4)(d) applies from 24 Jan 2026. Enforcement powers include fact-finding investigations and stop or correction orders (Art. 40). Administrative fines of up to KRW 30 million apply for failing to give AI notice, failing to appoint a domestic agent, or ignoring orders (Art. 43). Details such as the compute threshold and high-impact criteria are set by Presidential Enforcement Decree.",
    "verification": {
     "level": "B",
     "verified_on": "2026-10-11",
     "method": "alternative-official-url-fetched",
-    "note": "law.go.kr blocks automated fetching (robots.txt). The KLRI English statute page (Korea Legislation Research Institute) was fetched instead: Act No. 20676 of 21 Jan 2025, MSIT as ministry, article contents and the Addenda (in force 1 year after promulgation) confirmed. OECD.AI entry fetched: passage 26 Dec 2024 and entry into force January 2026.",
+    "note": "law.go.kr blocks automated fetching (robots.txt). The KLRI English statute page (Korea Legislation Research Institute) was fetched instead: Act No. 20676 of 21 Jan 2025, MSIT as ministry, article contents and the Addenda (in force 1 year after promulgation) confirmed. OECD.AI entry fetched: passage 26 Dec 2024 and entry into force January 2026. Not confirmed on a fetched page: Details such as the compute threshold and high-impact criteria are set by Presidential Enforcement Decree. (Details such as the compute threshold and high-impact criteria are set by Presidential Enforcement Decree; we could not verify the decree's number, date or contents, or any reported grace period for fines, because law.go.kr and msit.go.kr block automated fetching.)",
     "second_check": null
    },
    "local_copy": {
@@ -18611,7 +18636,7 @@
    "instrument_type": "Institutional mandate",
    "legal_force": "Binding",
    "status": "In force",
-   "date_published": "2023-09-02",
+   "date_published": "2023-08-22",
    "date_in_force": "2023-09-03",
    "date_last_updated": null,
    "official_identifier": "Real Decreto 729/2023; BOE-A-2023-18911 (BOE núm. 210)",
@@ -18942,12 +18967,12 @@
      "id": "EU-03"
     }
    ],
-   "notes": "Approved by the Council of Ministers on 11 Mar 2025 in first reading, for urgent processing. As an anteproyecto it had to return to the Council of Ministers as a proyecto de ley before going to the Cortes Generales. Whether it was submitted to or adopted by the Cortes by October 2026 could not be verified, because the web search budget ran out.",
+   "notes": "Approved by the Council of Ministers on 11 Mar 2025 in first reading, for urgent processing. As an anteproyecto it had to return to the Council of Ministers as a proyecto de ley before going to the Cortes Generales.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "La Moncloa Council of Ministers referencia of 11 Mar 2025 fetched: title, content (sanctions, deepfake labelling, authorities) confirmed. Status after March 2025 not verified.",
+    "note": "La Moncloa Council of Ministers referencia of 11 Mar 2025 fetched: title, content (sanctions, deepfake labelling, authorities) confirmed. Status after March 2025 not verified. Whether it was submitted to or adopted by the Cortes by October 2026 could not be verified, because the web search budget ran out.",
     "second_check": null
    },
    "local_copy": {
@@ -19372,7 +19397,7 @@
    "jurisdiction_level": "National",
    "region": "Europe",
    "issuing_body": "Swiss Federal Council",
-   "instrument_type": "Executive order / decree",
+   "instrument_type": "Strategy / action plan",
    "legal_force": "Non-binding",
    "status": "Published (non-binding, current)",
    "date_published": "2025-02-12",
@@ -19381,7 +19406,7 @@
    "official_identifier": null,
    "official_url": "https://www.admin.ch/gov/en/start/documentation/media-releases.msg-id-104110.html",
    "secondary_url": "https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen.msg-id-104110.html",
-   "language": "German; French; Italian; English",
+   "language": "German, French, Italian, English",
    "summary": "Federal Council decision setting Switzerland's approach to AI regulation: ratify the Council of Europe Framework Convention on AI and make the necessary changes to Swiss law, while continuing sector-specific AI regulation in areas such as healthcare and transport, rather than adopting an EU-style horizontal AI act.",
    "safety_topics": [
     "international cooperation",
@@ -19497,7 +19522,7 @@
    "official_identifier": "Presidential Order Hua-Zong-Yi-Yi-Zi No. 11500001671 (華總一義字第11500001671號)",
    "official_url": "https://law.nstc.gov.tw/LawContent.aspx?id=GL000592",
    "secondary_url": "https://law.nstc.gov.tw/EngLawList.aspx?id=GL000592",
-   "language": "Chinese (Traditional); English",
+   "language": "Chinese (Traditional), English",
    "summary": "Framework law (20 articles) setting seven principles for government AI policy: sustainability and well-being, human autonomy, privacy and data governance, security, transparency and explainability, fairness and non-discrimination, and accountability. The government must avoid or restrict AI uses that endanger life, safety, liberty or property or cause discrimination or misinformation, and require disclosure or labelling of AI outputs and warnings for high-risk AI. MODA must develop a risk classification framework and evaluation and verification tools, the government must define liability and remedies for high-risk AI, and agencies must risk-assess their own AI use.",
    "safety_topics": [
     "risk-based classification",
@@ -19513,12 +19538,12 @@
      "id": "TW-02"
     }
    ],
-   "notes": "Promulgated 14 Jan 2026 and in force on promulgation (Art. 20). Agencies must review and amend conflicting laws and measures within two years of entry into force (Art. 18). The Legislative Yuan passed it in late December 2025; the exact third-reading date (reported as 23 Dec 2025) and the earlier NSTC (2024) and Executive Yuan (2025) drafts were not verified on official pages. law.moj.gov.tw blocks automated fetching, so the NSTC law database (official) is cited.",
+   "notes": "Promulgated 14 Jan 2026 and in force on promulgation (Art. 20). Agencies must review and amend conflicting laws and measures within two years of entry into force (Art. 18). The Legislative Yuan passed it in late December 2025.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "NSTC law database pages fetched: title, promulgation 14 Jan 2026, presidential order number, effective on promulgation (Art. 20), 20 articles, NSTC as competent authority and key provisions confirmed. The official English title 'Artificial Intelligence Basic Act' is confirmed on the NSTC English list page. MODA's AI Basic Act page states the law has been promulgated and is in force.",
+    "note": "NSTC law database pages fetched: title, promulgation 14 Jan 2026, presidential order number, effective on promulgation (Art. 20), 20 articles, NSTC as competent authority and key provisions confirmed. The official English title 'Artificial Intelligence Basic Act' is confirmed on the NSTC English list page. MODA's AI Basic Act page states the law has been promulgated and is in force. Not confirmed on a fetched page: The Legislative Yuan passed it in late December 2025. (The Legislative Yuan passed it in late December 2025; the exact third-reading date (reported as 23 Dec 2025) and the earlier NSTC (2024) and Executive Yuan (2025) drafts were not verified on official pages. law.moj.gov.tw blocks automated fetching, so the NSTC law database (official) is cited.)",
     "second_check": null
    },
    "local_copy": {
@@ -19772,8 +19797,13 @@
     "accountability & liability",
     "public-sector use"
    ],
-   "related": [],
-   "notes": "Launched Oct 2017; the detailed strategy document was published later (the AI Office lists the strategy as a 2018 publication). The UAE Charter for the Development and Use of AI (reported June 2024) and any 2025–26 UAE AI legislation could not be verified this session and are not recorded.",
+   "related": [
+    {
+     "slug": "uae-charter-development-and-use-of-ai",
+     "id": "AE-02"
+    }
+   ],
+   "notes": "Launched Oct 2017; the detailed strategy document was published later (the AI Office lists the strategy as a 2018 publication). The UAE Charter for the Development and Use of AI (2024) is recorded as AE-02. The official u.ae page titles the strategy 'UAE Strategy for Artificial Intelligence'; the 2031 horizon is used on the AI Office's site and in common usage.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -20014,6 +20044,10 @@
     {
      "slug": "uk-ai-safety-institute-2023",
      "id": "GB-03"
+    },
+    {
+     "slug": "frontier-ai-safety-commitments",
+     "id": "INT-06"
     }
    ],
    "notes": "GOV.UK marks it 'historic' (published under the 2022-2024 Sunak government). It has not been formally replaced. It was the forerunner of the Frontier AI Safety Commitments (Seoul, May 2024), which are covered under international records.",
@@ -20589,7 +20623,6 @@
    "summary": "A voluntary baseline of cyber security requirements for AI systems, including generative AI. It has 13 principles across five lifecycle phases: secure design, development, deployment, maintenance and end of life. It is intended as the basis of a global ETSI standard.",
    "safety_topics": [
     "critical infrastructure",
-    "national security & military",
     "accountability & liability"
    ],
    "related": [],
@@ -21448,7 +21481,7 @@
    "status": "Superseded",
    "date_published": "2023-07-21",
    "date_in_force": null,
-   "date_last_updated": "2026-09-29",
+   "date_last_updated": null,
    "official_identifier": null,
    "official_url": "https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/07/21/fact-sheet-biden-harris-administration-secures-voluntary-commitments-from-leading-artificial-intelligence-companies-to-manage-the-risks-posed-by-ai/",
    "secondary_url": null,
@@ -21471,12 +21504,12 @@
      "id": "US-04"
     }
    ],
-   "notes": "Announced 21 Jul 2023. A second group of eight companies joined in September 2023 (per the researcher's prior knowledge; not shown on the fetched page). Never formally withdrawn, but the Biden White House page is archived. On 29 Sep 2026 the Trump White House and six frontier companies signed a new voluntary accord, the 'Joint Commitment on Frontier Responsibilities'. 'Superseded' is a judgement that the 2026 accord replaces it as the operative federal-industry voluntary framework.",
+   "notes": "Announced 21 Jul 2023. Never formally withdrawn, but the Biden White House page is archived. On 29 Sep 2026 the Trump White House and six frontier companies signed a new voluntary accord, the 'Joint Commitment on Frontier Responsibilities'. 'Superseded' is a judgement that the 2026 accord replaces it as the operative federal-industry voluntary framework. A second group of eight companies joined in September 2023.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "Fetched the archived White House fact sheet and confirmed the title, 21 Jul 2023 date, the seven companies and the commitments.",
+    "note": "Fetched the archived White House fact sheet and confirmed the title, 21 Jul 2023 date, the seven companies and the commitments. Not confirmed on a fetched page: A second group of eight companies joined in September 2023. (A second group of eight companies joined in September 2023 (per the researcher's prior knowledge; not shown on the fetched page).)",
     "second_check": null
    },
    "local_copy": {
@@ -21784,7 +21817,7 @@
    "jurisdiction_level": "National",
    "region": "North America",
    "issuing_body": "Office of Management and Budget, Executive Office of the President",
-   "instrument_type": "Guidelines / framework",
+   "instrument_type": "Regulation / implementing rule",
    "legal_force": "Binding",
    "status": "Superseded",
    "date_published": "2024-03-28",
@@ -22190,12 +22223,12 @@
      "id": "US-11"
     }
    ],
-   "notes": "Published 15 Jan 2025 and effective 13 Jan 2025, with compliance due 15 May 2025. On 13 May 2025 BIS announced its rescission: enforcement officials were told not to enforce it, and a formal rescission regulation and future replacement rule were promised. Publication of the formal rescission rule could not be confirmed (the Federal Register search is blocked to the fetch tool), but the rule is not being enforced.",
+   "notes": "Published 15 Jan 2025 and effective 13 Jan 2025, with compliance due 15 May 2025. On 13 May 2025 BIS announced its rescission: enforcement officials were told not to enforce it, and a formal rescission regulation and future replacement rule were promised. Publication of the formal rescission rule could not be confirmed, but the rule is not being enforced.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "The Federal Register page confirms the title, BIS, the 15 Jan 2025 publication, 13 Jan 2025 effective date, 90 FR 4544 and the model-weight controls (ECCN 4E091, 10^26). The bis.gov press release confirms the 13 May 2025 rescission announcement and non-enforcement.",
+    "note": "The Federal Register page confirms the title, BIS, the 15 Jan 2025 publication, 13 Jan 2025 effective date, 90 FR 4544 and the model-weight controls (ECCN 4E091, 10^26). The bis.gov press release confirms the 13 May 2025 rescission announcement and non-enforcement. Not confirmed on a fetched page: Publication of the formal rescission rule could not be confirmed, but the rule is not being enforced. (Publication of the formal rescission rule could not be confirmed (the Federal Register search is blocked to the fetch tool), but the rule is not being enforced.)",
     "second_check": null
    },
    "local_copy": {
@@ -22515,7 +22548,7 @@
    "jurisdiction_level": "National",
    "region": "North America",
    "issuing_body": "Office of Management and Budget, Executive Office of the President",
-   "instrument_type": "Guidelines / framework",
+   "instrument_type": "Regulation / implementing rule",
    "legal_force": "Binding",
    "status": "In force",
    "date_published": "2025-04-03",
@@ -22613,7 +22646,7 @@
    "jurisdiction_level": "National",
    "region": "North America",
    "issuing_body": "Office of Management and Budget, Executive Office of the President",
-   "instrument_type": "Guidelines / framework",
+   "instrument_type": "Regulation / implementing rule",
    "legal_force": "Binding",
    "status": "In force",
    "date_published": "2025-04-03",
@@ -22710,7 +22743,7 @@
    "status": "In force",
    "date_published": "2025-05-19",
    "date_in_force": "2025-05-19",
-   "date_last_updated": "2026-05-19",
+   "date_last_updated": null,
    "official_identifier": "Public Law 119-12; 139 Stat. 55 (S. 146, 119th Congress)",
    "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ12",
    "secondary_url": "https://www.congress.gov/bill/119th-congress/senate-bill/146",
@@ -23229,12 +23262,12 @@
      "id": "US-25"
     }
    ],
-   "notes": "Introduced 29 Sep 2025 and referred to the Senate Commerce, Science, and Transportation Committee. No further action could be verified (congress.gov blocked to the fetch tool); presumed still in committee as of Oct 2026. Program would sunset after 7 years.",
+   "notes": "Introduced 29 Sep 2025 and referred to the Senate Commerce, Science, and Transportation Committee. Program would sunset after 7 years. No further action could be verified; presumed still in committee as of Oct 2026.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "The GovInfo bill page and HTML text confirm the bill number, title, 29 Sep 2025 introduction, sponsors, committee referral and provisions. Later status was not verifiable.",
+    "note": "The GovInfo bill page and HTML text confirm the bill number, title, 29 Sep 2025 introduction, sponsors, committee referral and provisions. Later status was not verifiable. Not confirmed on a fetched page: No further action could be verified; presumed still in committee as of Oct 2026. (No further action could be verified (congress.gov blocked to the fetch tool); presumed still in committee as of Oct 2026.)",
     "second_check": null
    },
    "local_copy": {
@@ -23355,7 +23388,7 @@
    "jurisdiction_level": "National",
    "region": "North America",
    "issuing_body": "Office of Management and Budget, Executive Office of the President",
-   "instrument_type": "Guidelines / framework",
+   "instrument_type": "Regulation / implementing rule",
    "legal_force": "Binding",
    "status": "In force",
    "date_published": "2025-12-11",
@@ -24784,8 +24817,13 @@
     "evaluation & testing",
     "accountability & liability"
    ],
-   "related": [],
-   "notes": "The Government portal reported approval on 29 Aug 2026. The Decision number and signing date were not stated on the fetched pages. It appears to replace Decision 127/QD-TTg (Jan 2021) on the national AI strategy to 2030, but this is not confirmed. Safety content is modest. Viet Nam's Law on Artificial Intelligence (reportedly adopted by the National Assembly in Dec 2025) and the AI provisions of the Law on Digital Technology Industry (reportedly Law No. 71/2025/QH15 of 14 Jun 2025) could NOT be verified in this session and are not recorded. Context: the Law on High Technology (No. 133/2025/QH15, adopted 10 Dec 2025, effective 1 Jul 2026) was confirmed on the Government portal.",
+   "related": [
+    {
+     "slug": "viet-nam-law-on-artificial-intelligence-2025",
+     "id": "VN-02"
+    }
+   ],
+   "notes": "The Government portal reported approval on 29 Aug 2026. The Decision number and signing date were not stated on the fetched pages. It appears to replace Decision 127/QD-TTg (Jan 2021) on the national AI strategy to 2030, but this is not confirmed. Safety content is modest. Viet Nam's Law on Artificial Intelligence (134/2025/QH15, adopted 10 Dec 2025) is recorded as VN-02; the AI provisions of the Law on Digital Technology Industry (Law No. 71/2025/QH15 of 14 Jun 2025) are not yet in the register. Context: the Law on High Technology (No. 133/2025/QH15, adopted 10 Dec 2025, effective 1 Jul 2026) was confirmed on the Government portal.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -24882,7 +24920,7 @@
    "instrument_type": "Law",
    "legal_force": "Binding",
    "status": "Adopted, not yet in force",
-   "date_published": "2024-11",
+   "date_published": "2024-11-25",
    "date_in_force": null,
    "date_last_updated": null,
    "official_identifier": "S.O. 2024, c. 24 (Bill 194, 43rd Parliament, 1st Session)",
@@ -24903,7 +24941,7 @@
      "id": "CA-01"
     }
    ],
-   "notes": "Royal Assent received (S.O. 2024, c. 24) in Nov 2024 (month inferred from the committee reprint date; exact assent date not shown on the fetched page). Schedule 1 commences on a day named by proclamation, and the AI duties apply only to entities and circumstances prescribed by regulation. Whether Schedule 1 has been proclaimed and whether AI regulations have been made could NOT be confirmed (Ontario e-Laws requires JavaScript), so status may be outdated.",
+   "notes": "Royal Assent received on 25 November 2024 (S.O. 2024, c. 24), as shown on the Legislative Assembly's bill page and in the enacted-bill PDF. Schedule 1 commences on a day named by proclamation, and the AI duties apply only to entities and circumstances prescribed by regulation. Whether Schedule 1 has been proclaimed and whether AI regulations have been made could NOT be confirmed (Ontario e-Laws requires JavaScript), so status may be outdated.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -25038,7 +25076,7 @@
    "official_identifier": null,
    "official_url": "https://www.digitalpolicy.gov.hk/en/our_work/data_governance/policies_standards/ethical_ai_framework/",
    "secondary_url": "https://www.digitalpolicy.gov.hk/en/our_work/data_governance/policies_standards/ethical_ai_framework/doc/Ethical_AI_Framework_en.pdf",
-   "language": "English; Chinese",
+   "language": "English, Chinese",
    "summary": "Framework for government bureaux and departments, also offered in adapted form to other organisations, on building ethics into AI and big-data projects. It sets 12 Ethical AI Principles (including transparency and explainability, reliability, robustness and security, human oversight, safety and accountability) and an AI Application Impact Assessment. High-risk projects need IT Board or CIO review, and assessments are repeated at four life-cycle stages.",
    "safety_topics": [
     "public-sector use",
@@ -25220,7 +25258,7 @@
    "official_identifier": null,
    "official_url": "https://www.digitalpolicy.gov.hk/en/our_work/data_governance/policies_standards/ethical_ai_framework/",
    "secondary_url": "https://www.digitalpolicy.gov.hk/en/our_work/data_governance/policies_standards/ethical_ai_framework/doc/HK_Generative_AI_Technical_and_Application_Guideline_en.pdf",
-   "language": "English; Chinese",
+   "language": "English, Chinese",
    "summary": "Non-binding guidance for generative AI developers, service providers and users on risks such as hallucination, bias, deepfakes, jailbreaking and data leakage. It sets a governance framework with five dimensions (privacy, IP, crime prevention, reliability, system security) and a four-tier risk model (unacceptable, high, limited, low). It assigns role-based duties, including content labelling and watermarking of high-risk outputs, independent audits, pre-deployment risk assessment and human oversight matched to impact.",
    "safety_topics": [
     "general-purpose / frontier AI",
@@ -25581,12 +25619,12 @@
      "id": "US-CA-05"
     }
    ],
-   "notes": "Signed September 2024 (exact date not verified). Originally operative 1 Jan 2026. AB 853 (Wicks), signed 13 Oct 2025, delayed operation to 2 Aug 2026 and extended provenance duties to large online platforms and capture-device makers in later years. The 2 Aug 2026 date and AB 853's details are from the researcher's knowledge and a secondary source (Wikipedia: 'August 2026'); leginfo could not be fetched to confirm. The House Great American AI Act discussion draft named parts of SB 942 for preemption.",
+   "notes": "Signed September 2024 (exact date not verified). Originally operative 1 Jan 2026. AB 853 (Wicks), signed 13 Oct 2025, delayed operation to 2 Aug 2026 and extended provenance duties to large online platforms and capture-device makers in later years. The House Great American AI Act discussion draft named parts of SB 942 for preemption.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "The Governor's 29 Sep 2024 release confirms SB 942 (Becker) was signed and its provenance and detection-tool requirements. The 13 Oct 2025 release confirms AB 853 (California AI Transparency Act) was signed. The operative-date change was not confirmed on an official page.",
+    "note": "The Governor's 29 Sep 2024 release confirms SB 942 (Becker) was signed and its provenance and detection-tool requirements. The 13 Oct 2025 release confirms AB 853 (California AI Transparency Act) was signed. The operative-date change was not confirmed on an official page. Not confirmed on a fetched page: 'August 2026'); leginfo could not be fetched to confirm. (The 2 Aug 2026 date and AB 853's details are from the researcher's knowledge and a secondary source (Wikipedia: 'August 2026'); leginfo could not be fetched to confirm.)",
     "second_check": null
    },
    "local_copy": {
@@ -25744,7 +25782,7 @@
    "status": "Lapsed",
    "date_published": "2024-09-29",
    "date_in_force": null,
-   "date_last_updated": "2024-09-29",
+   "date_last_updated": null,
    "official_identifier": "California Senate Bill 1047 (2023-2024 Regular Session)",
    "official_url": "https://www.gov.ca.gov/wp-content/uploads/2024/09/SB-1047-Veto-Message.pdf",
    "secondary_url": null,
@@ -26003,12 +26041,12 @@
      "id": "US-25"
     }
    ],
-   "notes": "Signed 29 Sep 2025; effective 1 Jan 2026. Applies to frontier models trained above 10^26 operations; most duties fall on 'large frontier developers' with over $500M in annual revenue. Penalties up to $1M per violation. Incident reports are due within 15 days, or 24 hours where there is imminent risk of death or serious injury (per researcher knowledge of the statute; leginfo could not be fetched to confirm the text or chapter number). Federal pressure: commentators named it a likely target under EO 14365, and the federal FRONTIER Act would preempt it. On 14 Sep 2026 Fortune reported an allegation that OpenAI's latest releases may not comply (secondary source). Governor's EO N-9-26 (18 Sep 2026) seeks recommendations by 16 Nov 2026 on strengthening state law: independent verification of filings, onsite auditors, a 'kill switch', and loss-of-control incidents. Not amended as of verification.",
+   "notes": "Signed 29 Sep 2025; effective 1 Jan 2026. Applies to frontier models trained above 10^26 operations; most duties fall on 'large frontier developers' with over $500M in annual revenue. Penalties up to $1M per violation. Federal pressure: commentators named it a likely target under EO 14365, and the federal FRONTIER Act would preempt it. On 14 Sep 2026 Fortune reported an allegation that OpenAI's latest releases may not comply (secondary source). Governor's EO N-9-26 (18 Sep 2026) seeks recommendations by 16 Nov 2026 on strengthening state law: independent verification of filings, onsite auditors, a 'kill switch', and loss-of-control incidents. Not amended as of verification. Incident reports are due within 15 days, or 24 hours where there is imminent risk of death or serious injury.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "The Governor's press release (gov.ca.gov, 29 Sep 2025) confirms the title, signing and key provisions. leginfo.legislature.ca.gov returned errors, so the chapter number and statutory text were not verified. The 1 Jan 2026 effective date is from secondary sources and is consistent with the EO N-9-26 description of the law as 'in effect in 2026'.",
+    "note": "The Governor's press release (gov.ca.gov, 29 Sep 2025) confirms the title, signing and key provisions. leginfo.legislature.ca.gov returned errors, so the chapter number and statutory text were not verified. The 1 Jan 2026 effective date is from secondary sources and is consistent with the EO N-9-26 description of the law as 'in effect in 2026'. Not confirmed on a fetched page: Incident reports are due within 15 days, or 24 hours where there is imminent risk of death or serious injury. (Incident reports are due within 15 days, or 24 hours where there is imminent risk of death or serious injury (per researcher knowledge of the statute; leginfo could not be fetched to confirm the text or chapter number).)",
     "second_check": null
    },
    "local_copy": {
@@ -26164,12 +26202,12 @@
      "id": "US-CA-05"
     }
    ],
-   "notes": "Signed 13 Oct 2025 in a package that also included AB 1043 (age-verification signals), AB 316 (no 'autonomous AI' liability defence), AB 621 (deepfake pornography) and AB 853 (AI Transparency Act amendments). Effective 1 Jan 2026, with annual reporting from 1 Jul 2027 (per researcher knowledge; leginfo not fetchable). Built on by SB 1119 ('companion chatbots: children's safety') and SB 867 (companion chatbots in toys), signed 10 Sep 2026.",
+   "notes": "Signed 13 Oct 2025 in a package that also included AB 1043 (age-verification signals), AB 316 (no 'autonomous AI' liability defence), AB 621 (deepfake pornography) and AB 853 (AI Transparency Act amendments). Built on by SB 1119 ('companion chatbots: children's safety') and SB 867 (companion chatbots in toys), signed 10 Sep 2026. Effective 1 Jan 2026, with annual reporting from 1 Jul 2027.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "The Governor's press release (gov.ca.gov, 13 Oct 2025) confirms SB 243's signing and provisions. The effective date is from secondary sources because leginfo could not be fetched.",
+    "note": "The Governor's press release (gov.ca.gov, 13 Oct 2025) confirms SB 243's signing and provisions. The effective date is from secondary sources because leginfo could not be fetched. Not confirmed on a fetched page: Effective 1 Jan 2026, with annual reporting from 1 Jul 2027. (Effective 1 Jan 2026, with annual reporting from 1 Jul 2027 (per researcher knowledge; leginfo not fetchable).)",
     "second_check": null
    },
    "local_copy": {
@@ -26764,12 +26802,12 @@
      "id": "US-24"
     }
    ],
-   "notes": "Signed 17 May 2024 (per researcher knowledge; the legislature page shows the bill but not its history). It never took effect. The original 1 Feb 2026 date was delayed to 30 Jun 2026 by SB25B-004 (signed 28 Aug 2025; Chapter 3, 2025 Extraordinary Session). xAI sued in the US District Court for Colorado on 9 Apr 2026 and DOJ filed a companion complaint on 24 Apr 2026 (EO 14365 explicitly singled out Colorado's law). A stipulated order of 27 Apr 2026 paused AG enforcement. The law was then repealed and reenacted in narrower form by SB 26-189 (signed May 2026, effective 1 Jan 2027).",
+   "notes": "It never took effect. The original 1 Feb 2026 date was delayed to 30 Jun 2026 by SB25B-004 (signed 28 Aug 2025; Chapter 3, 2025 Extraordinary Session). xAI sued in the US District Court for Colorado on 9 Apr 2026 and DOJ filed a companion complaint on 24 Apr 2026 (EO 14365 explicitly singled out Colorado's law). A stipulated order of 27 Apr 2026 paused AG enforcement. The law was then repealed and reenacted in narrower form by SB 26-189 (signed May 2026, effective 1 Jan 2027).",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "The leg.colorado.gov SB24-205 page loads with the title 'Consumer Protections for Artificial Intelligence'. The SB25B-004 page confirms the delay to 30 Jun 2026 and the 28 Aug 2025 signing. The SB26-189 page confirms repeal and reenactment. Litigation details are from law-firm sources (McDermott, Arnold & Porter).",
+    "note": "The leg.colorado.gov SB24-205 page loads with the title 'Consumer Protections for Artificial Intelligence'. The SB25B-004 page confirms the delay to 30 Jun 2026 and the 28 Aug 2025 signing. The SB26-189 page confirms repeal and reenactment. Litigation details are from law-firm sources (McDermott, Arnold & Porter). Signed 17 May 2024 (per researcher knowledge; the legislature page shows the bill but not its history).",
     "second_check": null
    },
    "local_copy": {
@@ -27191,12 +27229,12 @@
      "id": "US-UT-01"
     }
    ],
-   "notes": "Signed about 1 Aug 2025 and announced by IDFPR on 4 Aug 2025; effective on becoming law. Penalties up to $10,000 per violation. All details are from the researcher's prior knowledge. The Public Act number is omitted because it could not be verified. No official URL could be fetched (ILGA robots-blocked), so official_url is null. Official source added 11 Oct 2026: the IDFPR press release announcing the signing; the ILGA bill page still could not be reached.",
+   "notes": "Signed on Friday 1 Aug 2025 and announced by IDFPR on 4 Aug 2025; effective on becoming law. Penalties up to $10,000 per violation. The Public Act number is omitted because it could not be verified. The official source is the IDFPR press release announcing the signing (added 11 Oct 2026); the ILGA bill page could not be reached.",
    "verification": {
     "level": "B",
     "verified_on": "2026-10-11",
-    "method": "Illinois Department of Financial and Professional Regulation press release (PDF, 4 Aug 2025) fetched and read; the ILGA bill-status pages are unreachable (connection refused or timeout).",
-    "note": "The press release confirms that Governor Pritzker signed the Wellness and Oversight for Psychological Resources Act (HB 1806) on Friday 1 Aug 2025, that it prohibits using AI to provide therapy or make therapeutic decisions while allowing administrative and supplementary support for licensed behavioural-health professionals, and that IDFPR enforces it. The Public Act number and the effective date are not in the release and remain unconfirmed.",
+    "method": "alternative-official-url-fetched",
+    "note": "Illinois Department of Financial and Professional Regulation press release (PDF, 4 Aug 2025) fetched and read; the ILGA bill-status pages are unreachable (connection refused or timeout). The press release confirms that Governor Pritzker signed the Wellness and Oversight for Psychological Resources Act (HB 1806) on Friday 1 Aug 2025, that it prohibits using AI to provide therapy or make therapeutic decisions while allowing administrative and supplementary support for licensed behavioural-health professionals, and that IDFPR enforces it. The Public Act number and the effective date are not in the release and remain unconfirmed.",
     "second_check": null
    },
    "local_copy": {
@@ -27388,18 +27426,18 @@
      "id": "US-UT-01"
     }
    ],
-   "notes": "Effective 1 Jan 2026. Signed 22 Jun 2025 (per researcher knowledge; capitol.texas.gov blocks automated fetch). Per the researcher's knowledge, the Act also creates a regulatory sandbox and a Texas Artificial Intelligence Council; not verified on the fetched page. No private right of action. A rebuttable presumption of reasonable care applies.",
+   "notes": "Effective 1 Jan 2026. No private right of action. A rebuttable presumption of reasonable care applies. The Act also creates a regulatory sandbox and a Texas Artificial Intelligence Council; not verified on the fetched page.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "The Texas Statutes page for Business & Commerce Code Chapter 552 confirms it was added by Acts 2025, 89th Leg., R.S., Ch. 1174 (H.B. 149), effective 1 Jan 2026, and summarises the prohibited uses, disclosure duties and enforcement. The bill history page is robots-blocked, so the signing date is unverified.",
+    "note": "The statutes site is a JavaScript application, so a plain download yields only the site shell; the local copy is taken with the archiver's headless-browser mode. The Texas Statutes page for Business & Commerce Code Chapter 552 confirms it was added by Acts 2025, 89th Leg., R.S., Ch. 1174 (H.B. 149), effective 1 Jan 2026, and summarises the prohibited uses, disclosure duties and enforcement. The bill history page is robots-blocked, so the signing date is unverified. Signed 22 Jun 2025 (per researcher knowledge; capitol.texas.gov blocks automated fetch). Not confirmed on a fetched page: The Act also creates a regulatory sandbox and a Texas Artificial Intelligence Council; not verified on the fetched page. (Per the researcher's knowledge, the Act also creates a regulatory sandbox and a Texas Artificial Intelligence Council; not verified on the fetched page.)",
     "second_check": null
    },
    "local_copy": {
     "status": "archived",
-    "flag": "The secondary source could not be downloaded (robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl').",
-    "last_attempt": "2026-10-11T14:05:27Z",
+    "flag": "The secondary source could not be downloaded (The site's robots.txt does not allow automated downloads of this page). Saved with a headless browser because the plain download looked incomplete. A source changed since the previous snapshot; both versions are kept.",
+    "last_attempt": "2026-10-11T18:09:33Z",
     "files": [
      {
       "role_key": "official",
@@ -27412,14 +27450,63 @@
       "content_type": "text/html",
       "bytes": 250874,
       "sha256": "dbfba8a96dc3cd584157ca66aaafdf67e0ed15dd5a0c8a58f3d4bd0f109fc646",
-      "retrieved_at": "2026-10-11T14:05:31Z",
-      "last_checked": "2026-10-11T14:05:31Z",
+      "text_sha256": "dda82cf8ec332b58704300a64a10ae941c23fda19827e40985bded6f703245c7",
+      "retrieved_at": "2026-10-11T18:09:37Z",
+      "last_checked": "2026-10-11T18:09:37Z",
       "method": "http",
       "last_modified": "Tue, 12 May 2026 15:11:35 GMT",
       "etag": "\"80ed609f21e2dc1:0\"",
       "changed": false,
       "previous_sha256": null,
       "previous_path": null,
+      "stale": false,
+      "warning": "The page is a JavaScript application shell; the saved copy holds only the site's navigation, not the document",
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-rendered",
+      "role": "official-rendered",
+      "label": "Official source, rendered in a browser",
+      "path": "archive/US-TX-01/2026-10-11/official-rendered-2.html",
+      "url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm",
+      "final_url": "https://statutes.capitol.texas.gov/?tab=1&code=BC&chapter=BC.552&artSec=",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 295233,
+      "sha256": "c1223fb086d5a28d9f24222571b4bd270b6ec7d19447300260caf12488a1f12c",
+      "text_sha256": "50a510571dce079b993d4a7d4e37e872ead57b236f6bccad6cf3df3808f89104",
+      "retrieved_at": "2026-10-11T18:09:46Z",
+      "last_checked": "2026-10-11T18:09:46Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": true,
+      "previous_sha256": "8427d4eab5d034980641708dbfb29ec2862936c9769ac8292f51c06321d36676",
+      "previous_path": "archive/US-TX-01/2026-10-11/official-rendered.html",
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-print",
+      "role": "official-print",
+      "label": "Official source, printed to PDF by a browser",
+      "path": "archive/US-TX-01/2026-10-11/official-print-2.pdf",
+      "url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm",
+      "final_url": "https://statutes.capitol.texas.gov/?tab=1&code=BC&chapter=BC.552&artSec=",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 494566,
+      "sha256": "1e19dfea2bf53b533963be1e02d21c28e560b6b73bdea7768d735df3225eb870",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-11T18:09:46Z",
+      "last_checked": "2026-10-11T18:09:46Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": true,
+      "previous_sha256": "fcc1f26ca81965f4bfb934ebb004ece80eb04849bb0942486aa4f728293b3755",
+      "previous_path": "archive/US-TX-01/2026-10-11/official-print.pdf",
       "stale": false,
       "warning": null,
       "integrity": "ok"
@@ -27443,9 +27530,62 @@
       "http_status": null,
       "error": "robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'",
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm",
+      "attempted_at": "2026-10-11T18:07:47Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149",
+      "attempted_at": "2026-10-11T18:07:49Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's robots.txt does not allow automated downloads of this page",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm",
+      "attempted_at": "2026-10-11T18:07:54Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "browser"
+     },
+     {
+      "role": "official",
+      "url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm",
+      "attempted_at": "2026-10-11T18:09:37Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149",
+      "attempted_at": "2026-10-11T18:09:37Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's robots.txt does not allow automated downloads of this page",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm",
+      "attempted_at": "2026-10-11T18:09:46Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "browser"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -27480,12 +27620,12 @@
      "id": "US-TX-01"
     }
    ],
-   "notes": "Signed 13 Mar 2024; effective 1 May 2024 (standard Utah effective date, not shown on the fetched page). 2025 amendments, per researcher knowledge (le.utah.gov 2025 pages were robots-blocked): SB 226 narrowed proactive disclosure to 'high-risk' interactions and clear consumer requests; SB 332 extended the Act's repeal date from 1 May 2025 to 1 Jul 2027; HB 452 added rules for mental-health chatbots. In Feb 2026 Axios reported that a further Utah AI transparency bill stalled after White House pressure linked to EO 14365.",
+   "notes": "Signed 13 Mar 2024; effective 1 May 2024 (standard Utah effective date, not shown on the fetched page). In Feb 2026 Axios reported that a further Utah AI transparency bill stalled after White House pressure linked to EO 14365. SB 226 narrowed proactive disclosure to 'high-risk' interactions and clear consumer requests; SB 332 extended the Act's repeal date from 1 May 2025 to 1 Jul 2027; HB 452 added rules for mental-health chatbots.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
     "method": "official-url-fetched",
-    "note": "The le.utah.gov SB0149 (2024) page confirms the title 'Artificial Intelligence Amendments', the vote history and the governor's signature on 13 Mar 2024. The 2025 amendments (SB 226, SB 332, HB 452) could not be fetched or searched and should be re-verified.",
+    "note": "The le.utah.gov SB0149 (2024) page confirms the title 'Artificial Intelligence Amendments', the vote history and the governor's signature on 13 Mar 2024. The 2025 amendments (SB 226, SB 332, HB 452) could not be fetched or searched and should be re-verified. Not confirmed on a fetched page: SB 226 narrowed proactive disclosure to 'high-risk' interactions and clear consumer requests; SB 332 extended the Act's repeal date from 1 May 2025 to 1 Jul 2027; HB 452 added rules for mental-health chatbots. (2025 amendments, per researcher knowledge (le.utah.gov 2025 pages were robots-blocked): SB 226 narrowed proactive disclosure to 'high-risk' interactions and clear consumer requests; SB 332 extended the Act's repeal date from 1 May 2025 to 1 Jul 2027; HB 452 added rules for mental-health chatbots.)",
     "second_check": null
    },
    "local_copy": {
@@ -27645,8 +27785,8 @@
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
-    "method": "Official UN document A/RES/79/239 (PDF) fetched and read; UNODA topic page fetched.",
-    "note": "Symbol, title, adoption on 24 Dec 2024 on the report of the First Committee and operative paragraphs 1-9 confirmed from the PDF text. The UNODA page confirms it was the Assembly's first resolution on this topic and names the follow-up report A/80/78. The vote figures come from the UN Digital Library record and were not fetched.",
+    "method": "official-url-fetched",
+    "note": "Official UN document A/RES/79/239 (PDF) fetched and read; UNODA topic page fetched. Symbol, title, adoption on 24 Dec 2024 on the report of the First Committee and operative paragraphs 1-9 confirmed from the PDF text. The UNODA page confirms it was the Assembly's first resolution on this topic and names the follow-up report A/80/78. The vote figures come from the UN Digital Library record and were not fetched.",
     "second_check": null
    },
    "local_copy": {
@@ -27739,8 +27879,8 @@
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
-    "method": "gesetze-im-internet.de (Federal Ministry of Justice portal) fetched: law header and table of contents.",
-    "note": "Full title, abbreviation KI-MIG, Ausfertigungsdatum 22.07.2026, Fundstelle BGBl. 2026 I Nr. 223, entry into force 29.07.2026 (Art. 5), § 2(1) naming the Bundesnetzagentur as the market surveillance authority, and the section structure (§§ 1-20) confirmed. Parliamentary dates are from press reports, not from an official page.",
+    "method": "official-url-fetched",
+    "note": "gesetze-im-internet.de (Federal Ministry of Justice portal) fetched: law header and table of contents. Full title, abbreviation KI-MIG, Ausfertigungsdatum 22.07.2026, Fundstelle BGBl. 2026 I Nr. 223, entry into force 29.07.2026 (Art. 5), § 2(1) naming the Bundesnetzagentur as the market surveillance authority, and the section structure (§§ 1-20) confirmed. Parliamentary dates are from press reports, not from an official page.",
     "second_check": null
    },
    "local_copy": {
@@ -27822,12 +27962,12 @@
      "id": "VN-01"
     }
    ],
-   "notes": "High risk is defined as possible significant harm to life, health, rights, national security or the public interest; medium risk as possible confusion or manipulation of users who do not realise they are interacting with AI or AI-generated content. Legal databases (not official pages) give the law number 134/2025/QH15, Official Gazette No. 40-01/2026 of 22 Jan 2026, Article 7 prohibited acts, mandatory labelling of AI-generated content, transition periods of 12 to 18 months for existing systems depending on sector, and a Prime Minister's implementation plan (Decision 367/QĐ-TTg of 4 Mar 2026). The official_url is the National Assembly's newspaper report of the vote; the law text on the Government's legal portals could not be located in this pass, so the secondary URL is an unofficial database copy with an English translation.",
+   "notes": "High risk is defined as possible significant harm to life, health, rights, national security or the public interest; medium risk as possible confusion or manipulation of users who do not realise they are interacting with AI or AI-generated content. Legal databases (not official pages) give the law number 134/2025/QH15, Official Gazette No. 40-01/2026 of 22 Jan 2026, Article 7 prohibited acts, mandatory labelling of AI-generated content, transition periods of 12 to 18 months for existing systems depending on sector, and a Prime Minister's implementation plan (Decision 367/QĐ-TTg of 4 Mar 2026). The official_url is the National Assembly's newspaper report of the vote.",
    "verification": {
     "level": "B",
     "verified_on": "2026-10-11",
-    "method": "National Assembly newspaper (daibieunhandan.vn) report of 10 Dec 2025 fetched; the law text on official government portals could not be located.",
-    "note": "The report confirms passage on 10 Dec 2025 with 429 of 434 deputies in favour, 8 chapters and 35 articles, entry into force on 1 Mar 2026, the scope, the three risk tiers (Art. 9) and the exclusion of defence, security and cipher uses. The law number and gazette reference come from legal databases.",
+    "method": "alternative-official-url-fetched",
+    "note": "National Assembly newspaper (daibieunhandan.vn) report of 10 Dec 2025 fetched; the law text on official government portals could not be located. The report confirms passage on 10 Dec 2025 with 429 of 434 deputies in favour, 8 chapters and 35 articles, entry into force on 1 Mar 2026, the scope, the three risk tiers (Art. 9) and the exclusion of defence, security and cipher uses. The law number and gazette reference come from legal databases. Not confirmed on a fetched page: The official_url is the National Assembly's newspaper report of the vote. (The official_url is the National Assembly's newspaper report of the vote; the law text on the Government's legal portals could not be located in this pass, so the secondary URL is an unofficial database copy with an English translation.)",
     "second_check": null
    },
    "local_copy": {
@@ -27921,12 +28061,12 @@
      "id": "INT-13"
     }
    ],
-   "notes": "The official_url is the host ministry's press release on the summit outcome (dated 10 Sep 2024), which confirms the endorsement and the headline principles. The Blueprint text itself is published on the summit website (secondary_url, post dated 11 Sep 2024, with an English PDF and an unofficial Korean translation), which current TLS clients could not connect to in this pass. Press reports state that China attended but did not endorse the document (not confirmed on an official page). Later REAIM outcomes are not yet in the register.",
+   "notes": "The official_url is the host ministry's press release on the summit outcome (dated 10 Sep 2024), which confirms the endorsement and the headline principles. Press reports state that China attended but did not endorse the document (not confirmed on an official page). Later REAIM outcomes are not yet in the register.",
    "verification": {
     "level": "B",
     "verified_on": "2026-10-11",
-    "method": "Ministry of Foreign Affairs of the Republic of Korea press release fetched; the summit website could not be reached (TLS handshake rejected).",
-    "note": "The press release confirms the summit dates (9-10 Sep 2024), the co-organisers, that the Blueprint for Action was endorsed as the outcome document at the closing session, support by 61 states, and the five headline principles. The document text was not read.",
+    "method": "alternative-official-url-fetched",
+    "note": "Ministry of Foreign Affairs of the Republic of Korea press release fetched; the summit website could not be reached (TLS handshake rejected). The press release confirms the summit dates (9-10 Sep 2024), the co-organisers, that the Blueprint for Action was endorsed as the outcome document at the closing session, support by 61 states, and the five headline principles. The document text was not read. The Blueprint text itself is published on the summit website (secondary_url, post dated 11 Sep 2024, with an English PDF and an unofficial Korean translation), which current TLS clients could not connect to in this pass.",
     "second_check": null
    },
    "local_copy": {
@@ -28019,8 +28159,8 @@
    "verification": {
     "level": "B",
     "verified_on": "2026-10-11",
-    "method": "Official UAE Government portal page (u.ae) fetched; the charter PDF on ai.gov.ae and the uaelegislation.gov.ae entry returned HTTP 403.",
-    "note": "The u.ae page confirms the title and the twelve principles. It gives no issue date, issuing body or statement of legal status; those details rest on press reports.",
+    "method": "alternative-official-url-fetched",
+    "note": "Official UAE Government portal page (u.ae) fetched; the charter PDF on ai.gov.ae and the uaelegislation.gov.ae entry returned HTTP 403. The u.ae page confirms the title and the twelve principles. It gives no issue date, issuing body or statement of legal status; those details rest on press reports.",
     "second_check": null
    },
    "local_copy": {
@@ -28118,8 +28258,8 @@
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
-    "method": "Official PDF on sdaia.gov.sa downloaded and read (50 pages).",
-    "note": "Title, SDAIA as issuer, the 2025 cover date and 'Version Number 1' in the document-control table, the stated objectives, the scope and principles-and-controls structure, and SDAIA's roles confirmed from the text. The server rejected one fetch tool with 'Request Rejected' and served the PDF to another, so automated archiving may be intermittent.",
+    "method": "official-url-fetched",
+    "note": "Official PDF on sdaia.gov.sa downloaded and read (50 pages). Title, SDAIA as issuer, the 2025 cover date and 'Version Number 1' in the document-control table, the stated objectives, the scope and principles-and-controls structure, and SDAIA's roles confirmed from the text. The server rejected one fetch tool with 'Request Rejected' and served the PDF to another, so automated archiving may be intermittent.",
     "second_check": null
    },
    "local_copy": {

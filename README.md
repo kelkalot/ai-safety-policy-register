@@ -150,6 +150,8 @@ sqlite3 data/register.sqlite "SELECT record_id, path, sha256, retrieved_at FROM 
 
 The SQLite file has the tables `records`, `topics`, `related`, `archive_files`, `archive_attempts` and `meta`.
 
+A few stored PDFs are AES-encrypted by their publishers (some Japanese and Californian documents). `pypdf` needs the `cryptography` package to read them (`python3 -m pip install cryptography`); poppler's `pdftotext` reads them as well.
+
 ### Analysis without the app
 
 The web page is only a viewer. `data/register.sqlite`, `data/records.csv` and `data/records.json` carry the same data and can be used directly in SQL, pandas, R or a spreadsheet; `archive/` holds the source documents for text analysis, with `archive_files` giving each file's path and hash. `examples/analysis.py` shows how: it answers seven questions with plain SQL (growth per year, binding share per region, topics and topic pairs, time from publication to entry into force, verification and archive coverage) and writes `examples/output/analysis.md` plus a chart if matplotlib is installed.

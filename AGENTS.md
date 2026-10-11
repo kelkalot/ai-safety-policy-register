@@ -19,6 +19,7 @@ No human has reviewed every record. Treat the register as a well-organised start
 - **Dates can be partial** (`YYYY-MM` or `YYYY`) when the source gives no exact day. Five records have no publication date; their notes say why.
 - **Local copies are third-party documents** and some are bot-check pages or empty JavaScript shells; those records are flagged `archived-review`, `partial` or `failed`, and listed in `archive/needs-attention.txt`.
 - Nothing here is legal advice.
+- **A content quality check** of every record against its archived source was run on 11 October 2026 by a second AI agent; its report, with what was fixed and what is still open, is `docs/quality-check-2026-10-11.md`. Repeat it after large additions (section 5 explains the method; the report shows what to look for).
 
 To report an error: fix `data/records.json`, run the validation and build (section 3), and commit, or open an issue naming the record ID and the official source that contradicts it.
 

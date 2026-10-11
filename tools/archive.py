@@ -90,6 +90,9 @@ BOT_PATTERNS = [
 WAF_PATTERN = re.compile(r"awswaf|gokuprops|challenge-platform|cf-challenge|/cdn-cgi/challenge|_incapsula_resource|"
                          r"datadome|px-captcha|distil_r_captcha|bm-verify|queue-it\.net|hcaptcha\.com|recaptcha/api", re.I)
 
+# Single-page-application shells: the HTML carries a mount point and the content arrives by script.
+APP_SHELL_PATTERN = re.compile(r"<app-root|\bng-app\b|ng-version=|id=\"root\"|id=\"app\"|id=\"__next\"|data-reactroot|__NEXT_DATA__|id=\"__nuxt\"", re.I)
+
 STOPWORDS = set("""
 the and for with from that this into under over about their which other these those such shall upon
 act law laws rules rule order measures measure provisions provision regulation regulations decree
@@ -426,8 +429,11 @@ def inspect_html(res, rec):
         if re.search(pat, low_title) or (len(text) < 3000 and re.search(pat, low_text)):
             warnings.append(msg)
             break
+    raw_head = decode_html(res.body[:300000], res.content_type) if len(text) < 2500 else ""
+    if len(text) < 2500 and not warnings and APP_SHELL_PATTERN.search(raw_head) and not WAF_PATTERN.search(raw_head):
+        warnings.append("The page is a JavaScript application shell; the saved copy holds only the site's navigation, not the document")
     if len(text) < 600 and not warnings:
-        if WAF_PATTERN.search(decode_html(res.body[:300000], res.content_type)):
+        if WAF_PATTERN.search(raw_head):
             warnings.append("The site returned a JavaScript bot-check page (web application firewall) instead of the document")
         else:
             warnings.append("The page has very little readable text (%d characters); it probably needs JavaScript" % len(text))
@@ -734,6 +740,16 @@ class BrowserFetcher:
             if status and status >= 400:
                 return Result(url, False, status, page.url, error="HTTP %d (in browser)" % status, code="http",
                               method="browser"), None
+            prev = -1  # single-page apps keep loading after "networkidle": wait until the visible text stops growing
+            for _ in range(8):
+                page.wait_for_timeout(1000)
+                try:
+                    n = len(page.inner_text("body") or "")
+                except Exception:
+                    break
+                if n == prev:
+                    break
+                prev = n
             html_bytes = page.content().encode("utf-8")
             res = Result(url, True, status, page.url, {"content-type": "text/html; charset=utf-8"}, html_bytes,
                          method="browser")
