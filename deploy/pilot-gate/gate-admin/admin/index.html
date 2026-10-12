@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pilot access - AI Safety Policy Register</title>
+<link rel="stylesheet" href="/assets/app.css?v=2">
+<style>
+  /* Admin-only pieces. Colours, fonts and tab buttons come from the viewer's app.css. */
+  main.wrap { padding-block: 24px 40px; }
+  .panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; }
+  .panel[hidden], #denied[hidden] { display: none; }
+  h2 { font-size: 15px; margin: 22px 0 8px; color: var(--ink); }
+  .muted { color: var(--ink-3); font-size: 13px; line-height: 1.5; }
+  .gate-row { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 6px; font-size: 14px; }
+  .gate-row b.on { color: var(--ok); }
+  .gate-row b.off { color: var(--bad); }
+  form.add { display: flex; gap: 8px; flex-wrap: wrap; align-items: flex-start; }
+  .field { flex: 1 1 260px; display: flex; flex-direction: column; gap: 4px; }
+  .field label { font-size: 13px; color: var(--ink-2); }
+  input[type=email] { font: inherit; font-size: 14px; padding: 7px 10px; border: 1px solid var(--line); border-radius: var(--r); background: var(--surface-2); color: var(--ink); }
+  input[aria-invalid=true] { border-color: var(--bad); }
+  .error { color: var(--bad); font-size: 13px; min-height: 1.1em; }
+  .row-btn { font: inherit; font-size: 13px; padding: 5px 10px; border: 1px solid var(--line); border-radius: var(--r); background: var(--surface-2); color: var(--ink); cursor: pointer; margin-left: 6px; }
+  .row-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .row-btn.danger { color: var(--bad); }
+  .row-btn:disabled { opacity: .5; cursor: default; }
+  .btn { font: inherit; font-size: 14px; font-weight: 600; padding: 7px 14px; border: 1px solid var(--line); border-radius: var(--r); background: var(--surface-2); color: var(--ink); cursor: pointer; }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  .btn:disabled { opacity: .5; cursor: default; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 9px 6px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+  th { color: var(--ink-3); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
+  td.actions { text-align: right; white-space: nowrap; }
+  .badge { font-size: 12px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink-3); }
+  .badge.admin { color: var(--ok); border-color: var(--ok); }
+  td { word-break: break-word; }
+  @media (max-width: 600px) {
+    .panel { padding: 12px; }
+    form.add .btn { flex: 1 1 auto; }
+    thead { display: none; }
+    table, tbody, tr, td { display: block; width: 100%; }
+    tr { border-bottom: 1px solid var(--line); padding: 8px 0; }
+    td { border: 0; padding: 3px 0; }
+    td.actions { text-align: left; white-space: normal; }
+    td.actions .row-btn { margin-left: 0; margin-right: 6px; margin-top: 6px; }
+  }
+  #message { min-height: 1.2em; font-size: 13px; margin: 12px 0 0; color: var(--ink-2); }
+  #message.ok { color: var(--ok); }
+  #message.err { color: var(--bad); }
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <div class="mast-top">
+      <div class="mast-title">
+        <p class="eyebrow">Pilot access</p>
+        <h1>AI Safety Policy Register</h1>
+      </div>
+    </div>
+    <div class="tabs" role="tablist">
+      <a class="tab" href="/" role="tab" aria-selected="false" style="text-decoration:none">Register</a>
+      <button class="tab" role="tab" type="button" aria-selected="true">Admin</button>
+      <span class="tab-actions">
+        <button class="tab-btn" type="button" id="tab-logout" hidden>Pilot logout</button>
+      </span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="panel" id="panel" hidden>
+    <div class="gate-row">
+      <span>Pilot gate: <b id="gateState">...</b></span>
+      <button type="button" class="btn" id="gateBtn" disabled>...</button>
+    </div>
+    <p class="muted" id="gateNote"></p>
+    <form id="addForm" class="add" novalidate>
+      <div class="field">
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" autocomplete="off" maxlength="254" placeholder="name@example.org" aria-describedby="emailError">
+        <div class="error" id="emailError" role="alert"></div>
+      </div>
+      <button type="submit" class="btn primary" data-action="add">Approve</button>
+      <button type="button" class="btn" data-action="grant">Approve as admin</button>
+    </form>
+    <p class="muted">Approved users can sign in. Admins can also approve and remove users here. One address per field.</p>
+
+    <h2>Users</h2>
+    <table>
+      <thead><tr><th>Email</th><th>Role</th><th></th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <p id="message" role="status"></p>
+  </section>
+
+  <section class="panel" id="denied" hidden>
+    <p id="deniedText"></p>
+  </section>
+</main>
+<script src="/admin/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sign in - AI Safety Policy Register</title>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0; font-family: system-ui, sans-serif; background: #f6f7f9; color: #1d1f23; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 16px; box-sizing: border-box; }
+  main { width: 100%; max-width: 420px; }
+  h1 { font-size: 1.2rem; margin: 0 0 .5rem; }
+  p { font-size: .9rem; color: #555; line-height: 1.4; }
+  #clerk-root { min-height: 19rem; }
+  #status { font-size: .85rem; color: #555; min-height: 1.2em; }
+  #account-actions { margin-top: 1rem; }
+  #account-actions[hidden] { display: none; }
+  #signout { font: inherit; font-size: .9rem; padding: .5rem .9rem; border: 1px solid #888; border-radius: 6px; background: transparent; color: inherit; cursor: pointer; }
+  @media (prefers-color-scheme: dark) { body { background: #16181c; color: #e8e9ec; } p, #status { color: #a7abb3; } }
+</style>
+</head>
+<body data-publishable-key="pk_test_Z3Jvd24tY2FyaWJvdS04NTI5LmNsZXJrLmFjY291bnRzLmRldiQ" data-clerk-domain="grown-caribou-8529.clerk.accounts.dev">
+<main>
+  <h1>AI Safety Policy Register</h1>
+  <p>Private pilot. Sign in with an account that has been granted access. There is no self sign-up. To request access, email Michael at <a href="mailto:michael@simula.no">michael@simula.no</a>.</p>
+  <div id="clerk-root"></div>
+  <p id="status"></p>
+  <div id="account-actions" hidden>
+    <button type="button" id="signout">Sign out and use another account</button>
+  </div>
+</main>
+<script src="/sign-in/sign-in.js"></script>
+</body>
+</html>
