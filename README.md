@@ -1,6 +1,6 @@
 # AI Safety Policy Register
 
-A database of 284 official governmental and intergovernmental instruments on AI safety and AI regulation: laws, executive orders, safety frameworks, AI safety institute mandates, treaties and declarations. Research snapshot: 11 October 2026.
+A database of 340 official governmental and intergovernmental instruments on AI safety and AI regulation: laws, executive orders, safety frameworks, AI safety institute mandates, treaties and declarations. Research snapshot: 11 and 12 October 2026.
 
 Every record links to its official source, says how and when it was verified, and can keep a **local copy** of its sources with a SHA-256 hash and a UTC timestamp. Anything that cannot be stored locally is **flagged on the record** with the reason.
 
@@ -174,9 +174,9 @@ Two things to keep in mind: `date_published` can be a partial date (`YYYY-MM` or
 
 The scope, the verification levels (A, B, C), the records to re-check first and the known coverage gaps are explained in the app under **Method & coverage**. In short:
 
-- 254 records were confirmed on the official page, 23 on an alternative official page, and 7 could not be confirmed on an official page. Re-check the last group before citing.
-- Coverage was extended on 11 October 2026 by six agent research passes following `AGENTS.md` (76 records). The remaining gaps are listed in the app under Method & coverage. Most are official texts behind sites that refuse automated access (Mexico, Nevada, Viet Nam's gazette, the UN document server) or instruments that do not exist yet (Belgian and Austrian implementing laws, the G20 2026 outcome).
-- Record status reflects the research snapshot of 11 October 2026. The archiver detects changes to the source pages, but it does not re-interpret legal status. Update `status` and the date fields in `records.json` when a law's status changes.
+- 303 records were confirmed on the official page, 28 on an alternative official page, and 9 could not be confirmed on an official page. Re-check the last group before citing.
+- Coverage was extended on 11 and 12 October 2026 by eleven agent research passes following `AGENTS.md` (132 records added, two content checks applied). The remaining gaps are listed in the app under Method & coverage: instruments that do not exist yet, and official texts behind sites that refuse automated access (those records exist at level B or C and say so).
+- Record status reflects the research snapshot of 11 and 12 October 2026. The archiver detects changes to the source pages, but it does not re-interpret legal status. Update `status` and the date fields in `records.json` when a law's status changes.
 
 ## 7. Share it as one file
 
