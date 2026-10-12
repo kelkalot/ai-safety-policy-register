@@ -121,6 +121,14 @@
    .concat([["Local files", R.reduce(function (a, r) { return a + (r.local_copy.files || []).length; }, 0)], ["Local size", fmtBytes(R.reduce(function (a, r) { return a + (r.local_copy.files || []).reduce(function (b, f) { return b + (f.bytes || 0); }, 0); }, 0))]])
    .map(function (x) { return "<dt>" + esc(x[0]) + "</dt><dd>" + esc(x[1]) + "</dd>"; }).join("");
 
+  var usStates = new Set(R.filter(function (r) { return r.jurisdiction_level === "Sub-national" && r.country === "United States"; }).map(function (r) { return r.jurisdiction; }));
+  var COUNT = {
+    records: R.length, countries: countries.size, states: usStates.size, snapshot: META.snapshot_date,
+    levelA: cnt(function (r) { return r.verification.level === "A"; }), levelB: cnt(function (r) { return r.verification.level === "B"; }),
+    levelC: cnt(function (r) { return r.verification.level === "C"; }), nocopy: cnt(function (r) { return r.local_copy.status !== "archived"; })
+  };
+  document.querySelectorAll("[data-count]").forEach(function (el) { var v = COUNT[el.getAttribute("data-count")]; if (v != null) el.textContent = String(v); });
+
   var weak = R.filter(function (r) { return r.verification.level !== "A"; });
   $("#weakList").innerHTML = weak.map(function (r) {
     return '<li><a href="#' + esc(r.id) + '" data-open="' + esc(r.id) + '">' + esc(r.id) + "</a> " + esc(r.short_title || r.title) + " <span class=\"mono\" style=\"font-size:12px\">(level " + r.verification.level + ")</span></li>";
