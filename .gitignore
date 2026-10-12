@@ -22,3 +22,6 @@ data/register.xlsx
 
 # Pilot gate: real env file with secrets
 deploy/pilot-gate/.env
+
+# Pilot gate: local secrets and email lists (never commit)
+deploy/pilot-gate/local/
