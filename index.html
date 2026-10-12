@@ -4,9 +4,36 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
-<meta name="description" content="Register of official governmental and intergovernmental AI safety and AI regulation instruments, with local copies of every source.">
-<title>AI Safety Policy Register</title>
-<link rel="stylesheet" href="assets/app.css">
+<meta name="description" content="Searchable register of official government and intergovernmental AI safety and AI regulation instruments: laws, executive orders, safety frameworks and treaties, each with its official source and a local copy.">
+<title>AI Safety Policy Register: official AI safety and AI regulation instruments</title>
+<link rel="canonical" href="https://airegister.sushant.no/">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Safety Policy Register">
+<meta property="og:title" content="AI Safety Policy Register">
+<meta property="og:description" content="Official governmental and intergovernmental AI safety and AI regulation instruments, with local copies of their sources.">
+<meta property="og:url" content="https://airegister.sushant.no/">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="AI Safety Policy Register">
+<meta name="twitter:description" content="Official governmental and intergovernmental AI safety and AI regulation instruments, with local copies of their sources.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "AI Safety Policy Register",
+  "description": "A register of official governmental and intergovernmental instruments on AI safety and AI regulation, each linked to its official source, with verification level and local copies of sources.",
+  "url": "https://airegister.sushant.no/",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "keywords": ["AI safety", "AI regulation", "AI governance", "policy", "legislation", "executive orders", "AI safety institutes"],
+  "distribution": [
+    { "@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://airegister.sushant.no/data/records.csv" },
+    { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://airegister.sushant.no/data/records.json" }
+  ]
+}
+</script>
+<link rel="stylesheet" href="assets/app.css?v=2">
 </head>
 <body>
 <noscript><p style="padding:16px">This register needs JavaScript to display. The data is also available as <a href="data/records.csv">data/records.csv</a> and <a href="data/records.json">data/records.json</a>.</p></noscript>
@@ -29,6 +56,10 @@
     <div class="tabs" role="tablist">
       <button class="tab" role="tab" id="tab-register" aria-selected="true" aria-controls="view-register">Register</button>
       <button class="tab" role="tab" id="tab-about" aria-selected="false" aria-controls="view-about">Method &amp; coverage</button>
+      <span class="tab-actions">
+        <button class="tab-btn primary" type="button" id="tab-admin" hidden>Admin</button>
+        <button class="tab-btn" type="button" id="tab-logout" hidden>Pilot logout</button>
+      </span>
     </div>
   </div>
 </header>
@@ -210,5 +241,6 @@
 
 <script src="data/records.js"></script>
 <script src="assets/app.js"></script>
+<script src="assets/pilot-tabs.js?v=3"></script>
 </body>
 </html>

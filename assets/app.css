@@ -73,6 +73,12 @@ h1 { font-size: clamp(30px, 4.4vw, 46px); line-height: 1.04; letter-spacing: -.0
 .tab { appearance: none; border: 0; background: none; padding: 10px 14px 12px; border-bottom: 2.5px solid transparent; color: var(--ink-2); font-weight: 600; cursor: pointer; }
 .tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
 .tab:hover { color: var(--ink); }
+.tabs .tab-actions { margin-left: auto; display: flex; gap: 8px; align-items: center; padding-bottom: 8px; }
+.tab-btn { appearance: none; font: inherit; font-size: 13px; font-weight: 600; padding: 6px 12px; border: 1px solid var(--line); border-radius: var(--r); background: var(--surface-2); color: var(--ink); cursor: pointer; }
+.tab-btn:hover { border-color: var(--accent); color: var(--accent); }
+.tab-btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.tab-btn.primary:hover { color: var(--accent-ink); filter: brightness(1.1); }
+.tab-btn[hidden] { display: none; }
 
 /* Chart band */
 .band { padding-block: 22px 8px; }
