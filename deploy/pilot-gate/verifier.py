@@ -28,13 +28,10 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 DOMAIN = os.environ["CLERK_DOMAIN"].strip().lower()
 COOKIE_NAME = "register_pilot"
 COOKIE_TTL = int(os.environ.get("SESSION_TTL_SECONDS", "28800"))
-SECRET_FILE = os.environ.get("COOKIE_SECRET_FILE", "/run/secrets/cookie-secret")
-with open(SECRET_FILE, "rb") as fh:
-    SECRET = fh.read().strip()
+# Both secrets come from the env file (see .env.example). Missing ones stop the service at start.
+SECRET = os.environ["COOKIE_SECRET"].encode("utf-8")
 # Clerk secret key: used only to read a user's email at login.
-CLERK_SECRET_FILE = os.environ.get("CLERK_SECRET_FILE", "/run/secrets/clerk-secret")
-with open(CLERK_SECRET_FILE, "rb") as fh:
-    CLERK_SECRET = fh.read().strip().decode("utf-8")
+CLERK_SECRET = os.environ["CLERK_SECRET_KEY"].strip()
 
 # The config folder is mounted as a directory, so files can be replaced atomically.
 CONFIG_DIR = os.environ.get("CONFIG_DIR", "/config")

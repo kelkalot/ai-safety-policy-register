@@ -13,10 +13,9 @@ Puts the register behind sign-in. Only approved users can view it; admins approv
 
 ## Secrets and config (not in git)
 
-Keep these outside the repository, for example in `~/register-auth/`:
+Keep these outside the repository, in `~/register-auth/`:
 
-- `cookie-secret`: random string that signs pilot cookies (mode 600).
-- `clerk-secret`: the Clerk secret key (mode 600). Only the verifier reads it.
+- `.env`: the secrets and settings the verifier reads (`CLERK_SECRET_KEY`, `COOKIE_SECRET`, `CLERK_DOMAIN`, ...). Copy `.env.example`, fill it in, `chmod 600`. Never commit it.
 - `config/allowed-emails.txt`: one email per line.
 - `config/admins.txt`: one email per line.
 - `config/pilot-gate.json`: written by the admin page (`{"enabled": true|false}`).
@@ -26,10 +25,8 @@ Keep these outside the repository, for example in `~/register-auth/`:
 ```bash
 docker network create register-net
 docker run -d --name register-auth --network register-net --restart unless-stopped \
-  -e CLERK_DOMAIN=<clerk frontend domain> -e CONFIG_DIR=/config \
+  --env-file ~/register-auth/.env \
   -v <repo>/deploy/pilot-gate/verifier.py:/app/verifier.py:ro \
-  -v ~/register-auth/cookie-secret:/run/secrets/cookie-secret:ro \
-  -v ~/register-auth/clerk-secret:/run/secrets/clerk-secret:ro \
   -v ~/register-auth/config:/config \
   python:3.12-slim python -I /app/verifier.py
 
@@ -42,7 +39,7 @@ docker run -d --name ai-safety-policy-register --network register-net --restart 
   nginx:1.27.4-alpine
 ```
 
-Set `SSL_CERT_FILE` and mount the host CA bundle too if outbound TLS to Clerk fails behind an interception proxy.
+Add `-v /etc/ssl/certs/ca-certificates.crt:/etc/ssl/certs/host-ca-bundle.crt:ro` to the verifier run only if outbound TLS to Clerk fails behind an interception proxy (and keep `SSL_CERT_FILE` in `.env`).
 
 The sign-in page has the Clerk publishable key and domain in `signin/index.html`. Change them there if the Clerk instance changes. The Clerk secret key never goes in this folder, because nginx would serve it.
 
