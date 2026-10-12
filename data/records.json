@@ -3,7 +3,7 @@
   "name": "AI Safety Policy Register",
   "version": "1.5",
   "snapshot_date": "2026-10-11",
-  "record_count": 302,
+  "record_count": 313,
   "scope": "Official governmental and intergovernmental AI safety and AI regulation instruments (core safety + regulation), global coverage.",
   "research_snapshot_date": "2026-10-11",
   "archive_note": "Local copies of sources are created by tools/archive.py on the machine where the register is deployed."
@@ -38963,6 +38963,1479 @@
       "http_status": 200,
       "error": null,
       "method": "browser"
+     }
+    ]
+   }
+  },
+  {
+   "id": "RO-01",
+   "slug": "ro-draft-law-responsible-use-of-ai-plx-184-2025",
+   "title": "Legislative proposal on the responsible use of artificial intelligence (Senate L140/2025, Chamber of Deputies Pl-x 184/2025)",
+   "original_title": "Propunere legislativă privind utilizarea responsabilă a inteligenței artificiale",
+   "short_title": "Romania draft AI law (Pl-x 184/2025)",
+   "jurisdiction": "Romania",
+   "country": "Romania",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "Parliament of Romania (private members' bill by SOS România senators and deputies; Senate file L140/2025, Chamber of Deputies file Pl-x 184/2025)",
+   "instrument_type": "Bill / draft law",
+   "legal_force": "Proposed",
+   "status": "Draft / proposed",
+   "date_published": "2025-03-31",
+   "date_in_force": null,
+   "date_last_updated": "2025-09-16",
+   "official_identifier": "L140/2025 (Senate, registered as B114); Pl-x 184/2025 (Chamber of Deputies)",
+   "official_url": "https://www.senat.ro/legis/lista.aspx?nr_cls=L140&an_cls=2025",
+   "secondary_url": "https://www.cdep.ro/comisii/tehnologia_informatiei/pdf/2025/pv0916.pdf",
+   "language": "Romanian",
+   "summary": "Private members' bill by SOS România senators and deputies that would create a national framework for the use, development and deployment of AI in Romania: transparency and accountability measures, protection of fundamental rights, prevention of abusive AI use in critical sectors and support for innovation. The Senate rejected it on 2 June 2025 (84 votes for rejection, 40 against, 2 abstentions); the Legislative Council, the Economic and Social Council, the National Audiovisual Council, ANCOM and every consulted committee gave negative opinions. The Chamber of Deputies, the decisional chamber, began committee debate on 16 September 2025; no further decision was recorded by October 2026.",
+   "safety_topics": [
+    "accountability & liability",
+    "transparency & labelling",
+    "critical infrastructure"
+   ],
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    }
+   ],
+   "notes": "It is the only AI-specific bill before the Romanian Parliament, and it is not an AI Act implementing law. Romania had no national AI Act implementing law by October 2026: a Government memorandum (date and number not published) proposed ANCOM as national market surveillance authority and single point of contact, with the Financial Supervisory Authority and the National Bank of Romania for high-risk AI in financial services and the data protection authority for high-risk biometric, migration and justice systems. On 24 July 2026 ANCOM stated that the authorities named in the memorandum were drafting the national law that will set powers, cooperation and the sanctions regime, and that no sanctions can be applied until it enters into force. A parliamentary question of 14 September 2026 (no. 6258A) noted that the Article 70 designation deadline of 2 August 2025 had been missed. The Commission's list of single points of contact (7 September 2026) shows ANCOM with the designation marked as pending.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-12",
+    "method": "official-url-fetched",
+    "note": "Fetched the Senate legislative file L140/2025, the Chamber of Deputies IT and communications committee minute of 16 September 2025 (PDF), ANCOM's press release of 24 July 2026 and the parliamentary question no. 6258A/14.09.2026 (cdep.ro PDF). The Senate page confirmed the title, the initiators, registration on 31 March 2025, rejection on 2 June 2025 with the vote count and transmission to the Chamber as PLX184/2025 on 4 June 2025; the committee minute confirmed the negative opinions and the committee's debate. The bill's status after September 2025 could not be confirmed because the cdep.ro legislative file page could not be located. The memorandum designating ANCOM was not fetched; its content rests on ANCOM's own release.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-12T04:37:40Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/RO-01/2026-10-12/official.html",
+      "url": "https://www.senat.ro/legis/lista.aspx?nr_cls=L140&an_cls=2025",
+      "final_url": "https://www.senat.ro/legis/lista.aspx?nr_cls=L140&an_cls=2025",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 230292,
+      "sha256": "e5405630564f5cf7e52a9aa4beb62bfe86f7130625a261782a6a043b4963af33",
+      "text_sha256": "39bcaa0c745313664596dc0e1f96d46bb900001391433359478704c246962757",
+      "retrieved_at": "2026-10-12T04:37:43Z",
+      "last_checked": "2026-10-12T04:37:43Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/RO-01/2026-10-12/document-1.pdf",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L140AD.PDF?nocache=true",
+      "final_url": "https://www.senat.ro/legis/PDF/2025/25L140AD.PDF?nocache=true",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 30317,
+      "sha256": "85d8607ace3f9107f5ced72ec122e76a46d60977640689936a114a7005fcc14d",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-12T04:37:46Z",
+      "last_checked": "2026-10-12T04:37:46Z",
+      "method": "http",
+      "last_modified": "Wed, 14 May 2025 09:30:59 GMT",
+      "etag": "\"2184c5e6b2c4db1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/RO-01/2026-10-12/document-2.pdf",
+      "url": "https://www.senat.ro/legis/PDF%5C2025%5C25L140AD.pdf?nocache=true",
+      "final_url": "https://www.senat.ro/legis/PDF%5C2025%5C25L140AD.pdf?nocache=true",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 30317,
+      "sha256": "85d8607ace3f9107f5ced72ec122e76a46d60977640689936a114a7005fcc14d",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-12T04:37:48Z",
+      "last_checked": "2026-10-12T04:37:48Z",
+      "method": "http",
+      "last_modified": "Wed, 14 May 2025 09:30:59 GMT",
+      "etag": "\"2184c5e6b2c4db1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/RO-01/2026-10-12/secondary.pdf",
+      "url": "https://www.cdep.ro/comisii/tehnologia_informatiei/pdf/2025/pv0916.pdf",
+      "final_url": "https://www.cdep.ro/comisii/tehnologia_informatiei/pdf/2025/pv0916.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 303758,
+      "sha256": "c5d7e96e0552bdf8b15d600ec99c1db4fd26a8602a02c5ca08532ad09c6f0db5",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-12T04:37:51Z",
+      "last_checked": "2026-10-12T04:37:51Z",
+      "method": "http",
+      "last_modified": "Thu, 25 Sep 2025 12:16:28 GMT",
+      "etag": "\"4a28e-63f9f237cdf00\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.senat.ro/legis/lista.aspx?nr_cls=L140&an_cls=2025",
+      "attempted_at": "2026-10-12T04:37:43Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L140AD.PDF?nocache=true",
+      "attempted_at": "2026-10-12T04:37:46Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.senat.ro/legis/PDF%5C2025%5C25L140AD.pdf?nocache=true",
+      "attempted_at": "2026-10-12T04:37:48Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.cdep.ro/comisii/tehnologia_informatiei/pdf/2025/pv0916.pdf",
+      "attempted_at": "2026-10-12T04:37:51Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "BG-01",
+   "slug": "bg-council-of-ministers-decision-398-2025-ai-act-fundamental-rights-authorities",
+   "title": "Council of Ministers Decision No. 398 of 18 June 2025 designating national authorities protecting fundamental rights, including the right to non-discrimination, under Article 77 of Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+   "original_title": "Решение № 398 на Министерския съвет от 18 юни 2025 г. за определяне на национални органи по защита на основните права, включително правото на недискриминация, съгласно чл. 77 от Регламент (ЕС) 2024/1689 (Акт за изкуствения интелект)",
+   "short_title": "Bulgaria CMS Decision 398/2025 (AI Act fundamental-rights authorities)",
+   "jurisdiction": "Bulgaria",
+   "country": "Bulgaria",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "Council of Ministers of the Republic of Bulgaria",
+   "instrument_type": "Executive order / decree",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2025-06-18",
+   "date_in_force": "2025-06-18",
+   "date_last_updated": null,
+   "official_identifier": "Решение на Министерския съвет № 398 от 18.06.2025 г.",
+   "official_url": "https://pris.government.bg/document/deef8dca4eba715a35b3dc266ae23adb/3ac6276165987a941aaa4305496b3e54",
+   "secondary_url": "https://www.bta.bg/bg/news/1039767",
+   "language": "Bulgarian",
+   "summary": "Bulgaria's only adopted AI Act designation act as of October 2026. Under Article 77(2) of the AI Act, the Council of Ministers designates seven bodies as the national authorities that supervise or enforce EU fundamental-rights law in relation to the high-risk AI systems of Annex III: the Ombudsman, the Central Election Commission, the Commission for Protection against Discrimination, the Commission for Personal Data Protection, the Consumer Protection Commission, the State Agency for Child Protection and the General Labour Inspectorate, each within its statutory powers. The Minister of e-Government must notify the European Commission and the Member States and publish the list.",
+   "safety_topics": [
+    "risk-based classification",
+    "accountability & liability"
+   ],
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    },
+    {
+     "id": "BG-02",
+     "slug": "bg-bill-on-the-use-and-development-of-artificial-intelligence-2026"
+    }
+   ],
+   "notes": "Signed by Prime Minister Rosen Zhelyazkov. The decision does not designate market surveillance authorities, a notifying authority or a single point of contact and sets no penalties. According to Ministry of e-Government answers reported by BTA on 9 January 2026, a draft decision naming the Bulgarian Accreditation Service as notifying authority had not yet been submitted to the Council of Ministers, a draft decision on market surveillance had not entered interministerial coordination, an interministerial working group was to draft the national framework by March 2026, and the sanctions regime was undetermined. The Commission's list of single points of contact (7 September 2026) has no entry for Bulgaria. A private members' bill with a fuller framework was filed in September 2026 (BG-02).",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-12",
+    "method": "official-url-fetched",
+    "note": "Retrieved the decision's transcript (Word file) and its index entry from the Council of Ministers' legal information system (pris.government.bg); fetched the BTA report of 9 January 2026 and the Commission's list of single points of contact. The official transcript confirmed the number, date, title, legal basis, the seven bodies and the tasks given to the Minister of e-Government. The portal's document page timed out on several attempts before succeeding and serves the text as a .doc file; no State Gazette publication was shown in the index. The status of the further designations rests on the ministry's answers as reported by BTA.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-12T04:37:40Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/BG-01/2026-10-12/official.doc",
+      "url": "https://pris.government.bg/document/deef8dca4eba715a35b3dc266ae23adb/3ac6276165987a941aaa4305496b3e54",
+      "final_url": "https://pris.government.bg/document/deef8dca4eba715a35b3dc266ae23adb/3ac6276165987a941aaa4305496b3e54",
+      "http_status": 200,
+      "content_type": "application/msword",
+      "bytes": 50176,
+      "sha256": "90bd0820ff93aaea0f575865762742a90b9fe9ce7071553c4a9133a3b972004a",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-12T04:37:43Z",
+      "last_checked": "2026-10-12T04:37:43Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/BG-01/2026-10-12/secondary.html",
+      "url": "https://www.bta.bg/bg/news/1039767",
+      "final_url": "https://www.bta.bg/bg/news/1039767",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 369051,
+      "sha256": "d8c47ba2a81d25bcd447c163dd4aaf32bbc5edd6a70cb36f5ffb7432c2d136df",
+      "text_sha256": "050bd4ad1555b4f6e1cf673e510d85b1eabc408609ec8c0c6f302af8addc34a6",
+      "retrieved_at": "2026-10-12T04:37:47Z",
+      "last_checked": "2026-10-12T04:37:47Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://pris.government.bg/document/deef8dca4eba715a35b3dc266ae23adb/3ac6276165987a941aaa4305496b3e54",
+      "attempted_at": "2026-10-12T04:37:43Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.bta.bg/bg/news/1039767",
+      "attempted_at": "2026-10-12T04:37:47Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "BG-02",
+   "slug": "bg-bill-on-the-use-and-development-of-artificial-intelligence-2026",
+   "title": "Bill on the Use and Development of Artificial Intelligence (No. 52-654-01-151)",
+   "original_title": "Законопроект за използването и развитието на изкуствения интелект",
+   "short_title": "Bulgaria AI use and development bill (2026)",
+   "jurisdiction": "Bulgaria",
+   "country": "Bulgaria",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "National Assembly of the Republic of Bulgaria (52nd), private members' bill by Bozhidar Bozhanov and nine other MPs of Democratic Bulgaria",
+   "instrument_type": "Bill / draft law",
+   "legal_force": "Proposed",
+   "status": "Draft / proposed",
+   "date_published": "2026-09-24",
+   "date_in_force": null,
+   "date_last_updated": "2026-09-25",
+   "official_identifier": "52-654-01-151",
+   "official_url": "https://www.parliament.bg/bg/bills/ID/167569",
+   "secondary_url": "https://www.parliament.bg/bills/52/52-654-01-151.pdf",
+   "language": "Bulgarian",
+   "summary": "Opposition bill filed on 24 September 2026 for an AI framework: measures applying Regulation (EU) 2024/1689, AI use in the public sector, AI skills, investment incentives, and limits on national-security risks from malicious AI use and on risks to children. A national coordinator would prepare a national AI strategy, coordinate the sectoral competent authorities and analyse market surveillance, which is split among sector regulators such as the Financial Supervision Commission. It carries over the AI Act's prohibited practices, bans using children's data to train models, provides deepfake removal orders and sets fines of up to BGN 50,000 (BGN 5 million for large platforms).",
+   "safety_topics": [
+    "public-sector use",
+    "child safety",
+    "prohibited practices",
+    "national security & military",
+    "deepfakes & synthetic media"
+   ],
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    },
+    {
+     "id": "BG-01",
+     "slug": "bg-council-of-ministers-decision-398-2025-ai-act-fundamental-rights-authorities"
+    }
+   ],
+   "notes": "Re-submission of a bill first tabled by the same group in the 51st National Assembly in 2025 (the sponsors' published text is addressed to the 51st Assembly). Distributed on 25 September 2026 to the Committee on Innovation and Digital Transformation (lead) and seven other committees; no first-reading vote was recorded by 11 October 2026. The government's own AI Act framework was still in preparation (see BG-01). Reported details of the 2026 text (ministry of innovation and digital transformation as lead, sector supervisors, fine bands, deepfake removal orders) come from press accounts of the filed bill; the only adopted designation remains Decision 398/2025.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-12",
+    "method": "official-url-fetched",
+    "note": "Fetched the National Assembly's bill record (page and its JSON API) and downloaded the official bill PDF; read the sponsors' 2025 text (dabulgaria.bg) and the Focus News (26 September 2026) and Sega (24 September 2026) reports. The parliament record confirmed the signature 52-654-01-151, the title, the date 24 September 2026, the ten sponsors and the committee distribution of 25 September 2026. The official PDF is a 48-page scan without a text layer, so the provisions were read from the sponsors' 2025 version and from press reports of the 2026 filing; differences between the two versions could not be checked in detail.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": "Saved with a headless browser because the plain download looked incomplete.",
+    "last_attempt": "2026-10-12T04:37:40Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/BG-02/2026-10-12/official.html",
+      "url": "https://www.parliament.bg/bg/bills/ID/167569",
+      "final_url": "https://www.parliament.bg/bg/bills/ID/167569",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 4304,
+      "sha256": "1b6ddb3c8c87c4904749801896e5daf0ca0d1ada7c8e7767fc3a720f7bf1c6f1",
+      "text_sha256": "7f77f7a4e6df4a08827547d13173b7a9876b127637b4d135f4b9821d6bb740bb",
+      "retrieved_at": "2026-10-12T04:37:43Z",
+      "last_checked": "2026-10-12T04:37:43Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The page is a JavaScript application shell; the saved copy holds only the site's navigation, not the document",
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-rendered",
+      "role": "official-rendered",
+      "label": "Official source, rendered in a browser",
+      "path": "archive/BG-02/2026-10-12/official-rendered.html",
+      "url": "https://www.parliament.bg/bg/bills/ID/167569",
+      "final_url": "https://www.parliament.bg/bg/bills/ID/167569",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 288324,
+      "sha256": "43b81eeb8405576ecabc3686c221bd2ea108757c5d9530e89433c420ca8149e5",
+      "text_sha256": "be4906a0b8368176a37ab0ca4974dab980ac3dc49e66957bf114c82e31e93627",
+      "retrieved_at": "2026-10-12T04:38:35Z",
+      "last_checked": "2026-10-12T04:38:35Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-print",
+      "role": "official-print",
+      "label": "Official source, printed to PDF by a browser",
+      "path": "archive/BG-02/2026-10-12/official-print.pdf",
+      "url": "https://www.parliament.bg/bg/bills/ID/167569",
+      "final_url": "https://www.parliament.bg/bg/bills/ID/167569",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 114098,
+      "sha256": "d87716b1d2e37bbefddc6a2a75bc46378c3445c4e42d05d93f08475d8191e649",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-12T04:38:35Z",
+      "last_checked": "2026-10-12T04:38:35Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/BG-02/2026-10-12/secondary.pdf",
+      "url": "https://www.parliament.bg/bills/52/52-654-01-151.pdf",
+      "final_url": "https://www.parliament.bg/bills/52/52-654-01-151.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 23098072,
+      "sha256": "26fa41253c29908350a9f512df999e276614afad12bdf72cda3a9d6a963ca0bd",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-12T04:37:50Z",
+      "last_checked": "2026-10-12T04:37:50Z",
+      "method": "http",
+      "last_modified": "Thu, 24 Sep 2026 05:57:46 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.parliament.bg/bg/bills/ID/167569",
+      "attempted_at": "2026-10-12T04:37:43Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.parliament.bg/bills/52/52-654-01-151.pdf",
+      "attempted_at": "2026-10-12T04:37:50Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://www.parliament.bg/bg/bills/ID/167569",
+      "attempted_at": "2026-10-12T04:38:35Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "browser"
+     }
+    ]
+   }
+  },
+  {
+   "id": "SK-01",
+   "slug": "sk-act-318-2025-conformity-assessment-ai-act-adaptation",
+   "title": "Act No. 318/2025 Coll. amending Act No. 56/2018 Coll. on conformity assessment of products and making designated products available on the market, and amending certain acts",
+   "original_title": "Zákon č. 318/2025 Z. z., ktorým sa mení a dopĺňa zákon č. 56/2018 Z. z. o posudzovaní zhody výrobku, sprístupňovaní určeného výrobku na trhu a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a ktorým sa menia a dopĺňajú niektoré zákony",
+   "short_title": "Slovakia Act 318/2025 (conformity assessment, AI Act adaptation)",
+   "jurisdiction": "Slovakia",
+   "country": "Slovakia",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "National Council of the Slovak Republic",
+   "instrument_type": "Law",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2025-11-21",
+   "date_in_force": "2026-01-01",
+   "date_last_updated": null,
+   "official_identifier": "318/2025 Z. z. (legislative process LP/2025/161)",
+   "official_url": "https://static.slov-lex.sk/static/SK/ZZ/2025/318/20260101.html",
+   "secondary_url": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2025/318/",
+   "language": "Slovak",
+   "summary": "Omnibus amendment of the product conformity assessment act and nine other acts that adapts Slovak conformity-assessment law to recent EU product legislation, including the AI Act. It adds Regulation (EU) 2024/1689 to the EU acts covered by the notified-body regime of Act 56/2018 and empowers the Office (the Slovak Office of Standards, Metrology and Testing) to fine an authorised (notified) body at the levels of Article 99(4) and (6) of the AI Act for breaches of the obligations in Article 99(4)(f), with parallel fines under the Cyber Resilience Act. It designates no market surveillance authority, single point of contact or AI sandbox; those are left to the government bill SK-02.",
+   "safety_topics": [
+    "evaluation & testing",
+    "accountability & liability"
+   ],
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    },
+    {
+     "id": "SK-02",
+     "slug": "sk-government-bill-state-administration-ai-and-european-data-regulation-1447"
+    }
+   ],
+   "notes": "Approved by the National Council on 21 October 2025, promulgated in the Collection of Laws on 21 November 2025 and in force from 1 January 2026. The act has 77 amending points in Article I and also amends the acts on administrative fees, maritime navigation, internal market control, labour inspection, public health, hazardous substances, cybersecurity and accessibility; only its AI Act provisions are summarised here. Under the pending government bill (SK-02) the same Office is to be Slovakia's notifying authority for the AI Act.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "official-url-fetched",
+    "note": "Fetched the consolidated text on the static Slov-Lex portal (version effective 1 January 2026) and the Slov-Lex record page; secondary descriptions from regulations.ai. The Slov-Lex text confirmed the number, title, approval on 21 October 2025, promulgation on 21 November 2025, effect from 1 January 2026, the insertion of Regulation 2024/1689 into the covered EU acts and the fine provision in section 28(6). The full set of amending points was not reviewed; the identification of 'the Office' as the Office of Standards, Metrology and Testing follows the definitions of Act 56/2018 and secondary descriptions.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": "A linked PDF could not be downloaded (https://static.slov-lex.sk/static/pdf/SK/ZZ/2025/318/ZZ_2025_318_20260101.pdf: HTTP 404 Not Found). The secondary source is a bot-check or empty page (The page is a JavaScript application shell; the saved copy holds only the site's navigation, not the document).",
+    "last_attempt": "2026-10-12T04:37:40Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/SK-01/2026-10-12/official.html",
+      "url": "https://static.slov-lex.sk/static/SK/ZZ/2025/318/20260101.html",
+      "final_url": "https://static.slov-lex.sk/static/SK/ZZ/2025/318/20260101.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 231015,
+      "sha256": "f61e26b06aa5eac06ffbb3094d2e68c25d6c305be834c91eb563034c438a0d67",
+      "text_sha256": "c178681aa48c269d264e9275f3edeec8c6180c682af83b13723f624f249c9147",
+      "retrieved_at": "2026-10-12T04:37:43Z",
+      "last_checked": "2026-10-12T04:37:43Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/SK-01/2026-10-12/secondary.html",
+      "url": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2025/318/",
+      "final_url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2025/318/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 2910,
+      "sha256": "293aed9eff22e2e79154eb3f9618698d2fb293c3be5f6c9c8815ed3b5296160b",
+      "text_sha256": "9f1043a7a16fab5496612d677c123a609d1ef71a47cc4a2e28c7428778a27c98",
+      "retrieved_at": "2026-10-12T04:37:48Z",
+      "last_checked": "2026-10-12T04:37:48Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The page is a JavaScript application shell; the saved copy holds only the site's navigation, not the document",
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://static.slov-lex.sk/static/SK/ZZ/2025/318/20260101.html",
+      "attempted_at": "2026-10-12T04:37:43Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://static.slov-lex.sk/static/pdf/SK/ZZ/2025/318/ZZ_2025_318_20260101.pdf",
+      "attempted_at": "2026-10-12T04:37:45Z",
+      "ok": false,
+      "http_status": 404,
+      "error": "HTTP 404 Not Found",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2025/318/",
+      "attempted_at": "2026-10-12T04:37:48Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "SK-02",
+   "slug": "sk-government-bill-state-administration-ai-and-european-data-regulation-1447",
+   "title": "Government bill for an Act on state administration in the field of artificial intelligence and European data regulation and on amendments to certain acts (parliamentary print 1447)",
+   "original_title": "Vládny návrh zákona o štátnej správe v oblasti umelej inteligencie a európskej dátovej regulácie a o zmene a doplnení niektorých zákonov",
+   "short_title": "Slovak AI Act implementation bill (print 1447)",
+   "jurisdiction": "Slovakia",
+   "country": "Slovakia",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "Government of the Slovak Republic (Ministry of Investments, Regional Development and Informatization, MIRRI SR), before the National Council of the Slovak Republic",
+   "instrument_type": "Bill / draft law",
+   "legal_force": "Proposed",
+   "status": "Draft / proposed",
+   "date_published": "2026-08-28",
+   "date_in_force": null,
+   "date_last_updated": "2026-09-17",
+   "official_identifier": "Parlamentná tlač 1447 (IX. volebné obdobie); LP/2026/17; UV-23232/2026",
+   "official_url": "https://www.nrsr.sk/web/Default.aspx?sid=zakony/zakon&ZakZborID=13&CisObdobia=9&CPT=1447",
+   "secondary_url": "https://www.nrsr.sk/web/Dynamic/DocumentPreview.aspx?DocID=598951",
+   "language": "Slovak",
+   "summary": "Government bill creating Slovakia's institutional framework for the AI Act, the Data Governance Act and the Data Act. As described in the bill: MIRRI SR becomes general market surveillance authority and single point of contact; the Office of Standards, Metrology and Testing is the notifying authority; the Ministry of Justice (AI used by courts), the Office of the Inspection Service, the data protection office and the National Security Authority act as sectoral authorities; MIRRI runs a regulatory sandbox with priority for SMEs; fines for AI Act breaches follow Article 99 and are preceded by a remediation order of at most 15 working days. Proposed effect: 1 January 2027.",
+   "safety_topics": [
+    "accountability & liability",
+    "risk-based classification",
+    "evaluation & testing"
+   ],
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    },
+    {
+     "id": "SK-01",
+     "slug": "sk-act-318-2025-conformity-assessment-ai-act-adaptation"
+    }
+   ],
+   "notes": "Successor to the draft 'Act on the organisation of public administration in the field of artificial intelligence' (LP/2025/401), which MIRRI put into interministerial comment in July-August 2025 with a proposed effect of 1 January 2026 that was not met. The reworked draft (LP/2026/17) closed its comment procedure in February 2026 with 574 comments; the Government approved it on 26 August 2026 and submitted it to the National Council on 28 August 2026. On 17 September 2026 the National Council (resolution no. 1631) referred it to second reading and assigned it to the finance and budget, constitutional law and public administration committees, the last as lead committee, with deadlines of 13 and 16 November 2026. The Commission's list of single points of contact (7 September 2026) has no entry for Slovakia. A separate SNS private members' bill on AI misuse (deepfakes) was reported in second reading in May 2026 and is not covered here.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "official-url-fetched",
+    "note": "Fetched the National Council print page for tlač 1447, the first-reading resolution of 17 September 2026 (DocID 598951), the bill's cover page (DocID 596315), and the aiprioritymap.com and regulations.ai summaries of the bill and its 2025 predecessor. The National Council pages confirmed the title, the submitter, submission on 28 August 2026, the committees and deadlines and the resolution of 17 September 2026. The substantive content (authorities, sandbox, fines, 1 January 2027) rests on the aiprioritymap summary of the bill text, and the government approval date of 26 August 2026 on that summary and a LinkedIn post; the Slov-Lex legislative-process pages require JavaScript and could not be read, and no MIRRI press release was found.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-12T04:37:47Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/SK-02/2026-10-12/official.html",
+      "url": "https://www.nrsr.sk/web/Default.aspx?sid=zakony/zakon&ZakZborID=13&CisObdobia=9&CPT=1447",
+      "final_url": "https://www.nrsr.sk/web/Default.aspx?sid=zakony/zakon&ZakZborID=13&CisObdobia=9&CPT=1447",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 88127,
+      "sha256": "1d73c51d3e488393da97329b748b7a12b534c55bff183a70c40966081f774658",
+      "text_sha256": "a1cb60e68df6bb5da8538962aa05acc6f24a5d44cd8f130cd51bd33d393bfb0a",
+      "retrieved_at": "2026-10-12T04:37:51Z",
+      "last_checked": "2026-10-12T04:37:51Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/SK-02/2026-10-12/secondary.html",
+      "url": "https://www.nrsr.sk/web/Dynamic/DocumentPreview.aspx?DocID=598951",
+      "final_url": "https://www.nrsr.sk/web/Dynamic/DocumentPreview.aspx?DocID=598951",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 76512,
+      "sha256": "b13214ffb6fe5a091d6bc189c39a0fb508c61d8bb79550897bdee46660f51e8e",
+      "text_sha256": "c64bde170df22de1553a9dd650ee765fe5688a633dda028339f7a8a33af3aca9",
+      "retrieved_at": "2026-10-12T04:37:53Z",
+      "last_checked": "2026-10-12T04:37:53Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.nrsr.sk/web/Default.aspx?sid=zakony/zakon&ZakZborID=13&CisObdobia=9&CPT=1447",
+      "attempted_at": "2026-10-12T04:37:51Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.nrsr.sk/web/Dynamic/DocumentPreview.aspx?DocID=598951",
+      "attempted_at": "2026-10-12T04:37:53Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "LT-01",
+   "slug": "lt-law-xv-105-technology-and-innovation-law-ai-act-amendments",
+   "title": "Law No. XV-105 amending Articles 1, 2, 11, 13, 14, 17 and 21 of the Law on Technology and Innovation No. XIII-1414 and supplementing it with an Annex (AI Act implementation)",
+   "original_title": "Lietuvos Respublikos technologijų ir inovacijų įstatymo Nr. XIII-1414 1, 2, 11, 13, 14, 17, 21 straipsnių pakeitimo ir Įstatymo papildymo priedu įstatymas",
+   "short_title": "Lithuania AI Act amendments (Law XV-105)",
+   "jurisdiction": "Lithuania",
+   "country": "Lithuania",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "Seimas of the Republic of Lithuania",
+   "instrument_type": "Law",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2025-01-14",
+   "date_in_force": "2025-04-01",
+   "date_last_updated": "2026-01-01",
+   "official_identifier": "XV-105 (TAR, 2025-01-22, No. 715)",
+   "official_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/51938be0d27711efbd239e318cbd5b26",
+   "secondary_url": "https://e-seimas.lrs.lt/rs/legalact/TAD/51938be0d27711efbd239e318cbd5b26/",
+   "language": "Lithuanian",
+   "summary": "First Lithuanian legislation adapting national law to the AI Act. It adds Regulation (EU) 2024/1689 to the annex of EU acts implemented by the Law on Technology and Innovation, imports its definitions, and assigns to the institution authorised under the law (the Innovation Agency, according to secondary descriptions) the functions of national notifying authority under Articles 28(1) and 70(1) of the AI Act from 2 August 2025 and the duty to set up and supervise an AI regulatory sandbox under Article 57(1) from 1 January 2026, both under procedures adopted by the Minister of Economy and Innovation. It contains no penalty provisions and does not itself name a market surveillance authority.",
+   "safety_topics": [
+    "evaluation & testing",
+    "accountability & liability"
+   ],
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    }
+   ],
+   "notes": "Adopted on 14 January 2025, published in the Register of Legal Acts on 22 January 2025, in force from 1 April 2025 with the notifying-authority provisions from 2 August 2025 and the sandbox provisions from 1 January 2026. A companion law of the same date, XV-106, amended the Law on Information Society Services; according to secondary descriptions it ties the Communications Regulatory Authority (RRT) to market surveillance, and the Commission's list of single points of contact (7 September 2026) names RRT without a pending mark. In May 2026 the Government cleared a separate draft 'Law on the implementation of the EU Artificial Intelligence Act' (competences of implementing institutions, complaints, investigations, liability; intended effect 2 August 2026) together with further amendments to this law, the information society law and the Bank of Lithuania law; its registration and status in the Seimas could not be confirmed.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "official-url-fetched",
+    "note": "Fetched the e-seimas record page and the e-seimas text of Law XV-105, the Commission's list of single points of contact and the regulations.ai summary of the XV-105/XV-106 package. The e-seimas pages confirmed the title, number, adoption on 14 January 2025, publication on 22 January 2025, the staggered entry into force, the notifying-authority and sandbox provisions and the annex. The identification of the Innovation Agency and the content of XV-106 rest on regulations.ai, because e-TAR returned HTTP 403 and the lrv.lt documents on the 2026 draft are behind a Cloudflare challenge.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-12T04:37:48Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/LT-01/2026-10-12/official.html",
+      "url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/51938be0d27711efbd239e318cbd5b26",
+      "final_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/51938be0d27711efbd239e318cbd5b26",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 100794,
+      "sha256": "2be8cf5fef5fecc28226994cca88a45c6e8c97343a68b6846b9e83cda5afc014",
+      "text_sha256": "76c0c5c12a4cb15af6133cb6007b8a75a45788be7de2df64f10fa3e74445e9f0",
+      "retrieved_at": "2026-10-12T04:37:51Z",
+      "last_checked": "2026-10-12T04:37:51Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/LT-01/2026-10-12/secondary.html",
+      "url": "https://e-seimas.lrs.lt/rs/legalact/TAD/51938be0d27711efbd239e318cbd5b26/",
+      "final_url": "https://e-seimas.lrs.lt/rs/legalact/TAD/51938be0d27711efbd239e318cbd5b26/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 35018,
+      "sha256": "e68d51a298f47edd902dc6b51f0cbbd18d1de367b80b54e5f7f891e8b9e95006",
+      "text_sha256": "9051d4049ede33300ff3ed10883a0282fafe14547f310cf94b4639228bad865f",
+      "retrieved_at": "2026-10-12T04:37:54Z",
+      "last_checked": "2026-10-12T04:37:54Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/51938be0d27711efbd239e318cbd5b26",
+      "attempted_at": "2026-10-12T04:37:51Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://e-seimas.lrs.lt/rs/legalact/TAD/51938be0d27711efbd239e318cbd5b26/",
+      "attempted_at": "2026-10-12T04:37:54Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "LV-01",
+   "slug": "lv-artificial-intelligence-centre-law-2025",
+   "title": "Artificial Intelligence Centre Law",
+   "original_title": "Mākslīgā intelekta centra likums",
+   "short_title": "Latvia AI Centre Law",
+   "jurisdiction": "Latvia",
+   "country": "Latvia",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "Saeima of the Republic of Latvia",
+   "instrument_type": "Law",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2025-03-06",
+   "date_in_force": "2025-03-20",
+   "date_last_updated": "2026-06-01",
+   "official_identifier": "Latvijas Vēstnesis 2025/55.1 (19.03.2025); bill No. 811/Lp14",
+   "official_url": "https://likumi.lv/ta/id/359339",
+   "secondary_url": "https://www.saeima.lv/en/news/saeima-news/34443-saeima-approves-the-creation-of-an-artificial-intelligence-technology-ecosystem-in-latvia",
+   "language": "Latvian",
+   "summary": "Establishes the foundation Mākslīgā intelekta centrs (AI Centre) to build Latvia's AI ecosystem and reduce AI-related risks, so that AI is used ethically, responsibly and safely respecting fundamental rights. Its tasks include identifying AI security risks in the public and private sectors, raising risk-management literacy, drafting AI guidelines, proposing measures against risks to human rights, democratic governance or public safety and, from 1 June 2026, giving opinions on AI and deepfake use in election campaigns. It runs a regulatory sandbox with the competent authorities in which legal requirements may be set aside for a period, provided testing does not endanger safety or health.",
+   "safety_topics": [
+    "evaluation & testing",
+    "deepfakes & synthetic media",
+    "research priorities"
+   ],
+   "related": [
+    {
+     "id": "LV-02",
+     "slug": "lv-informative-report-ai-act-implementation-2025"
+    }
+   ],
+   "notes": "Adopted in final reading on 6 March 2025, promulgated on 19 March 2025 and in force the next day; the centre had to be founded by 31 March 2025 and the Cabinet's sandbox and data rules were due by 31 May 2025. The foundation's council has nine members from the Ministry of Smart Administration and Regional Development, the Ministry of Economics, the Ministry of Defence, the ICT industry association and the universities' association; VARAM supervises its delegated functions. Amendments adopted on 14 May 2026 (in force 1 June 2026) removed section 7(5). The law does not refer to Regulation (EU) 2024/1689; Latvia's AI Act authorities were set out in the Cabinet's 2025 implementation report (LV-02).",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "official-url-fetched",
+    "note": "Fetched the consolidated text on likumi.lv and the Saeima press release of 7 March 2025. likumi.lv confirmed the title, adoption, promulgation, entry into force, publication reference, the 2026 amendment and the content of Articles 1 to 9; the Saeima release confirmed the vote and the founding members. The bill number 811/Lp14 comes from the Digital Policy Alert tracker surfaced in search results and was not checked on the Saeima site.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-12T04:37:50Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/LV-01/2026-10-12/official.html",
+      "url": "https://likumi.lv/ta/id/359339",
+      "final_url": "https://likumi.lv/ta/id/359339",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 60316,
+      "sha256": "0651920f126607ab22245eb3a97764059be39181aab5f07a141880e854f15c0e",
+      "text_sha256": "40ca2ec299979d6987f9416e1dabeffe597d56333f821dc56fd421ea255f0c38",
+      "retrieved_at": "2026-10-12T04:38:01Z",
+      "last_checked": "2026-10-12T04:38:01Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/LV-01/2026-10-12/secondary.html",
+      "url": "https://www.saeima.lv/en/news/saeima-news/34443-saeima-approves-the-creation-of-an-artificial-intelligence-technology-ecosystem-in-latvia",
+      "final_url": "https://www.saeima.lv/en/news/saeima-news/34443-saeima-approves-the-creation-of-an-artificial-intelligence-technology-ecosystem-in-latvia",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 28861,
+      "sha256": "1c78a297835d95d2e531a2628e24396ccd55a90d34120e98ec0b25d77c713966",
+      "text_sha256": "b13202d23de8c806a13c367d7557389f1dd09e18b787482ed5150ac81d39f5a9",
+      "retrieved_at": "2026-10-12T04:38:04Z",
+      "last_checked": "2026-10-12T04:38:04Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://likumi.lv/ta/id/359339",
+      "attempted_at": "2026-10-12T04:38:01Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.saeima.lv/en/news/saeima-news/34443-saeima-approves-the-creation-of-an-artificial-intelligence-technology-ecosystem-in-latvia",
+      "attempted_at": "2026-10-12T04:38:04Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "LV-02",
+   "slug": "lv-informative-report-ai-act-implementation-2025",
+   "title": "Informative report 'On the implementation of the requirements of the Artificial Intelligence Act' (Cabinet of Ministers, 25 February 2025)",
+   "original_title": "Informatīvais ziņojums 'Par Mākslīgā intelekta akta prasību ieviešanu'",
+   "short_title": "Latvia AI Act implementation report (2025)",
+   "jurisdiction": "Latvia",
+   "country": "Latvia",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "Cabinet of Ministers of the Republic of Latvia (prepared by the Ministry of Smart Administration and Regional Development, VARAM)",
+   "instrument_type": "Strategy / action plan",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2025-02-25",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://www.varam.gov.lv/en/article/latvia-takes-step-towards-safe-and-responsible-artificial-intelligence-government-examines-implementation-plan-ai-act",
+   "secondary_url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+   "language": "Latvian, English",
+   "summary": "Latvia's institutional plan for applying the AI Act directly, without a standalone AI law. Examined by the Cabinet on 25 February 2025, the report describes the Act's requirements, the actions public authorities must take and the legal changes and resources needed. It designates VARAM as the authority responsible for the Act overall and for cooperation with the European Commission, the Ministry of Economics as notifying authority and the Ombudsman as fundamental-rights authority, and names twelve market surveillance authorities led by the Consumer Rights Protection Centre, with the State Data Inspectorate for prohibited practices and high-risk systems and the Bank of Latvia for finance.",
+   "safety_topics": [
+    "risk-based classification",
+    "accountability & liability",
+    "prohibited practices"
+   ],
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    },
+    {
+     "id": "LV-01",
+     "slug": "lv-artificial-intelligence-centre-law-2025"
+    },
+    {
+     "id": "LV-03",
+     "slug": "lv-financial-market-digital-operational-resilience-and-ai-use-law"
+    }
+   ],
+   "notes": "The Commission's list of single points of contact (7 September 2026) names the Consumer Rights Protection Centre (PTAC) for Latvia without a pending mark. The financial-sector designation was legislated in the Financial Market Digital Operational Resilience and AI Use Law (LV-03), and the AI Centre Law (LV-01) provides the regulatory sandbox. A 2025 government review of a draft amendment to the Ombudsman Law noted that PTAC's market surveillance competence under the AI Act covers only AI embedded in physical products, not stand-alone software. No general AI Act implementing law or penalty regime outside the financial sector was found by October 2026.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "official-url-fetched",
+    "note": "Fetched VARAM's press release of 25 February 2025 and the Commission's list of single points of contact; the PTAC competence point comes from a search result quoting a government review on the TAP portal. The ministry release confirmed the date, the report's title and the designated authorities. The report itself on the legal-acts drafting portal was not fetched, so the single point of contact, sanctions and timetable details were not checked there.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": "A linked PDF could not be downloaded (https://www.varam.gov.lv/sites/varam/files/content/files/varam-info-rpp-en.pdf: HTTP 404 Not Found). A linked PDF could not be downloaded (https://www.varam.gov.lv/sites/varam/files/content/files/rpp_kopsavilkums_eng.pdf: HTTP 404 Not Found).",
+    "last_attempt": "2026-10-12T04:37:51Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/LV-02/2026-10-12/official.html",
+      "url": "https://www.varam.gov.lv/en/article/latvia-takes-step-towards-safe-and-responsible-artificial-intelligence-government-examines-implementation-plan-ai-act",
+      "final_url": "https://www.varam.gov.lv/en/article/latvia-takes-step-towards-safe-and-responsible-artificial-intelligence-government-examines-implementation-plan-ai-act",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 90741,
+      "sha256": "d644d8e5c924bf2d0f4f8a8b6a32f7022886faaff6090704454c936ae44d3482",
+      "text_sha256": "491a7a92e6983c020b6fd569056255f9e1482adfa035387b7f03ebd66e1dd3ff",
+      "retrieved_at": "2026-10-12T04:37:54Z",
+      "last_checked": "2026-10-12T04:37:54Z",
+      "method": "http",
+      "last_modified": "Mon, 12 Oct 2026 04:37:53 GMT",
+      "etag": "W/\"1791779873\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/LV-02/2026-10-12/secondary.html",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "final_url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 63994,
+      "sha256": "846b561e81c3257c82c75132183296cd57112fa9cbeaa9e29ed90be8fb1b0f7e",
+      "text_sha256": "da6b4ffa33dee78ca450a42a02ac35de9407fc0d711d77a1634c2873560815e4",
+      "retrieved_at": "2026-10-12T04:38:00Z",
+      "last_checked": "2026-10-12T04:38:00Z",
+      "method": "http",
+      "last_modified": "Mon, 12 Oct 2026 04:04:58 GMT",
+      "etag": "\"1791777898-gzip\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.varam.gov.lv/en/article/latvia-takes-step-towards-safe-and-responsible-artificial-intelligence-government-examines-implementation-plan-ai-act",
+      "attempted_at": "2026-10-12T04:37:54Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.varam.gov.lv/sites/varam/files/content/files/varam-info-rpp-en.pdf",
+      "attempted_at": "2026-10-12T04:37:56Z",
+      "ok": false,
+      "http_status": 404,
+      "error": "HTTP 404 Not Found",
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.varam.gov.lv/sites/varam/files/content/files/rpp_kopsavilkums_eng.pdf",
+      "attempted_at": "2026-10-12T04:37:58Z",
+      "ok": false,
+      "http_status": 404,
+      "error": "HTTP 404 Not Found",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "attempted_at": "2026-10-12T04:38:00Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "LV-03",
+   "slug": "lv-financial-market-digital-operational-resilience-and-ai-use-law",
+   "title": "Financial Market Digital Operational Resilience and Artificial Intelligence Use Law",
+   "original_title": "Finanšu tirgus digitālās darbības noturības un mākslīgā intelekta izmantošanas likums",
+   "short_title": "Latvia financial-sector DORA and AI Act law",
+   "jurisdiction": "Latvia",
+   "country": "Latvia",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "Saeima of the Republic of Latvia",
+   "instrument_type": "Law",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2025-09-11",
+   "date_in_force": "2025-10-01",
+   "date_last_updated": null,
+   "official_identifier": "Latvijas Vēstnesis 2025/188.1 (30.09.2025)",
+   "official_url": "https://likumi.lv/ta/id/363378-finansu-tirgus-digitalas-darbibas-noturibas-un-maksliga-intelekta-izmantosanas-likums",
+   "secondary_url": "https://lvportals.lv/skaidrojumi/381139-stajies-speka-finansu-tirgus-digitalas-darbibas-noturibas-un-maksliga-intelekta-izmantosanas-likums-2025",
+   "language": "Latvian",
+   "summary": "Sectoral law applying the EU Digital Operational Resilience Act and the AI Act to Latvian financial market participants (credit institutions, insurers, payment institutions, investment firms, crypto-asset service providers and others). Latvijas Banka supervises AI Act compliance under Article 74(6), may set additional requirements and shares information with the European Central Bank. For AI Act breaches (prohibited practices, high-risk operator and notified-body duties, transparency, false information) it may warn, fine up to EUR 35 million or 7 percent, 15 million or 3 percent, or 7.5 million or 1 percent of turnover, stop conduct and ban individuals for up to two years.",
+   "safety_topics": [
+    "accountability & liability",
+    "prohibited practices",
+    "transparency & labelling",
+    "risk-based classification"
+   ],
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    },
+    {
+     "id": "LV-02",
+     "slug": "lv-informative-report-ai-act-implementation-2025"
+    }
+   ],
+   "notes": "Adopted by the Saeima on 11 September 2025, promulgated on 30 September 2025 and in force from 1 October 2025 together with nine related amending laws. Prepared by the Ministry of Finance with Latvijas Banka and submitted to the Cabinet in March 2025. It is the first Latvian law with an AI Act penalty regime; outside the financial sector supervision rests on the authorities named in the Cabinet's 2025 report (LV-02). Sanctions are published on Latvijas Banka's website for up to five years; proceedings must start within five years of a breach; appeals go to the Administrative District Court and do not suspend decisions other than warnings and fines.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-12",
+    "method": "official-url-fetched",
+    "note": "Fetched the law on likumi.lv, the LV portāls explainer of 2 October 2025 and the Ministry of Finance release of 20 March 2025 on LV portāls. likumi.lv confirmed the title, adoption, promulgation, entry into force, publication reference and the AI Act provisions in Chapters II to IV (Articles 7 to 14); the explainer and release confirmed the preparation and the nine accompanying amendments.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-12T04:37:53Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/LV-03/2026-10-12/official.html",
+      "url": "https://likumi.lv/ta/id/363378-finansu-tirgus-digitalas-darbibas-noturibas-un-maksliga-intelekta-izmantosanas-likums",
+      "final_url": "https://likumi.lv/ta/id/363378-finansu-tirgus-digitalas-darbibas-noturibas-un-maksliga-intelekta-izmantosanas-likums",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 97406,
+      "sha256": "6f44228848b8bc6a8a8c519a1b03e7752e0c6f2909dfc7aeefdde56b191025e6",
+      "text_sha256": "44c8044f4ac0aba89e4d19ff0055ad366bc950d30f949ad5398e1f8c90a27f69",
+      "retrieved_at": "2026-10-12T04:38:26Z",
+      "last_checked": "2026-10-12T04:38:26Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/LV-03/2026-10-12/secondary.html",
+      "url": "https://lvportals.lv/skaidrojumi/381139-stajies-speka-finansu-tirgus-digitalas-darbibas-noturibas-un-maksliga-intelekta-izmantosanas-likums-2025",
+      "final_url": "https://lvportals.lv/skaidrojumi/381139-stajies-speka-finansu-tirgus-digitalas-darbibas-noturibas-un-maksliga-intelekta-izmantosanas-likums-2025",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 143084,
+      "sha256": "d1df6eb4139f6a056a2bf4d693999a52f09e20e448a367964b29b0d66d0ce58c",
+      "text_sha256": "b4ab4f09f7933f5f3db2a1d4a2ceef7a228c064edb200e7ec6ad0f66f5f323d4",
+      "retrieved_at": "2026-10-12T04:38:31Z",
+      "last_checked": "2026-10-12T04:38:31Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://likumi.lv/ta/id/363378-finansu-tirgus-digitalas-darbibas-noturibas-un-maksliga-intelekta-izmantosanas-likums",
+      "attempted_at": "2026-10-12T04:38:26Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://lvportals.lv/skaidrojumi/381139-stajies-speka-finansu-tirgus-digitalas-darbibas-noturibas-un-maksliga-intelekta-izmantosanas-likums-2025",
+      "attempted_at": "2026-10-12T04:38:31Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "RS-01",
+   "slug": "rs-ethical-guidelines-reliable-and-responsible-ai-2023",
+   "title": "Ethical Guidelines for the Development, Application and Use of Reliable and Responsible Artificial Intelligence",
+   "original_title": "Етичке смернице за развој, примену и употребу поуздане и одговорне вештачке интелигенције",
+   "short_title": "Serbia AI Ethics Guidelines (2023)",
+   "jurisdiction": "Serbia",
+   "country": "Serbia",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "Government of the Republic of Serbia (adopted by Government Conclusion)",
+   "instrument_type": "Guidelines / framework",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2023-03-23",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://www.srbija.gov.rs/vest/en/203799/ethical-guidelines-for-development-use-of-artificial-intelligence-adopted.php",
+   "secondary_url": "https://kmp.respaweb.eu/download/doc/Ethical%20Guidelines%20for%20Development%20Application%20and%20Use%20of%20Artificial%20Inteligence.pdf/e841c4ca3e9354bf0e6191eea34d1ee6.pdf",
+   "language": "Serbian",
+   "summary": "Non-binding guidelines adopted by Government Conclusion on 23 March 2023 as a preventive mechanism for checking that AI systems meet ethical and safety standards. The text (February 2023, 41 pages) defines ethics, AI systems, high-risk AI systems and personal data protection, and lays down principles beginning with explainability and verifiability, dignity and the prohibition of harm, drawing on the 2021 UNESCO Recommendation on the Ethics of AI and the Commission's 2021 AI Act proposal. It applies to state bodies, local authorities, institutions, public enterprises and regulators and gives standards and a method for checking them.",
+   "safety_topics": [
+    "risk-based classification",
+    "transparency & labelling",
+    "accountability & liability"
+   ],
+   "related": [
+    {
+     "id": "UNESCO-01",
+     "slug": "unesco-recommendation-ethics-ai"
+    },
+    {
+     "id": "RS-02",
+     "slug": "rs-ai-development-strategy-2025-2030"
+    }
+   ],
+   "notes": "These remain Serbia's only adopted AI-specific governance instrument with safety content; no later (2024 or 2025) edition was found. The 2025-2030 AI strategy (RS-02) plans a dedicated AI law, and a ministry working group had a working draft in 2026, but no official draft had been published for consultation by October 2026. The number of the Government Conclusion and any Službeni glasnik reference were not found; the Serbian-language text was read from a copy hosted by the Regional School of Public Administration (ReSPA).",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-12",
+    "method": "official-url-fetched",
+    "note": "Fetched the Government of Serbia's English news item of 23 March 2023 and the full Serbian text of the guidelines (ReSPA copy, 41 pages); law-firm summaries (Schoenherr) via search results. The government news item confirmed adoption by Conclusion on 23 March 2023 and the purpose; the PDF confirmed the title, the February 2023 date, the structure (high-risk systems in section 2.3, principles in section 3) and the UNESCO basis. A self-assessment questionnaire mentioned by law-firm summaries was not located in the extracted text and is not asserted here.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-12T04:37:54Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/RS-01/2026-10-12/official.html",
+      "url": "https://www.srbija.gov.rs/vest/en/203799/ethical-guidelines-for-development-use-of-artificial-intelligence-adopted.php",
+      "final_url": "https://www.srbija.gov.rs/vest/en/203799/ethical-guidelines-for-development-use-of-artificial-intelligence-adopted.php",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 115994,
+      "sha256": "4e8d4b6e9820ef9de036c35132887b288c0df45a36bfeb78ba5cededf2f1d7f8",
+      "text_sha256": "0be69477fce98ce62fd66d5b5e2c9515bd2ca65ba41af9ff298cfcabdf489fcd",
+      "retrieved_at": "2026-10-12T04:37:56Z",
+      "last_checked": "2026-10-12T04:37:56Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/RS-01/2026-10-12/secondary.pdf",
+      "url": "https://kmp.respaweb.eu/download/doc/Ethical%20Guidelines%20for%20Development%20Application%20and%20Use%20of%20Artificial%20Inteligence.pdf/e841c4ca3e9354bf0e6191eea34d1ee6.pdf",
+      "final_url": "https://kmp.respaweb.eu/download/doc/Ethical%20Guidelines%20for%20Development%20Application%20and%20Use%20of%20Artificial%20Inteligence.pdf/e841c4ca3e9354bf0e6191eea34d1ee6.pdf",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 972409,
+      "sha256": "e0e1e15427502ae80e5763c71340c4f30cd2237a1adf0c7dd9a04dab32f9c75e",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-12T04:37:59Z",
+      "last_checked": "2026-10-12T04:37:59Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.srbija.gov.rs/vest/en/203799/ethical-guidelines-for-development-use-of-artificial-intelligence-adopted.php",
+      "attempted_at": "2026-10-12T04:37:56Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://kmp.respaweb.eu/download/doc/Ethical%20Guidelines%20for%20Development%20Application%20and%20Use%20of%20Artificial%20Inteligence.pdf/e841c4ca3e9354bf0e6191eea34d1ee6.pdf",
+      "attempted_at": "2026-10-12T04:37:59Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "RS-02",
+   "slug": "rs-ai-development-strategy-2025-2030",
+   "title": "Strategy for the Development of Artificial Intelligence in the Republic of Serbia for the period 2025-2030",
+   "original_title": "Стратегија развоја вештачке интелигенције у Републици Србији за период 2025–2030. године",
+   "short_title": "Serbia AI Strategy 2025-2030",
+   "jurisdiction": "Serbia",
+   "country": "Serbia",
+   "jurisdiction_level": "National",
+   "region": "Europe",
+   "issuing_body": "Government of the Republic of Serbia (proposed by the Ministry of Science, Technological Development and Innovation)",
+   "instrument_type": "Strategy / action plan",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2025-01-10",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://nitra.gov.rs/images/vesti/2025/2025-01-10-link/Strategija%20razvoja%20vestacke%20inteligencije%202025-2030.pdf",
+   "secondary_url": "https://www.srbija.gov.rs/tekst/437277",
+   "language": "Serbian",
+   "summary": "Successor to the 2020-2025 AI strategy, adopted under Article 38(1) of the Law on the Planning System. Beyond education, research, infrastructure and adoption in the public and private sectors, its first special objective is a clear institutional and legal framework through a dedicated law regulating the application of AI so that its use is secure, safe and reliable and aligned with international standards while enabling innovation. It reviews the risks to be addressed (privacy, algorithmic bias, misuse, inequality, absence of clear rules, energy use) and positions Serbia against the EU AI Act; secondary sources report that it schedules the AI law for the end of 2027.",
+   "safety_topics": [
+    "accountability & liability",
+    "research priorities",
+    "public-sector use"
+   ],
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    },
+    {
+     "id": "RS-01",
+     "slug": "rs-ethical-guidelines-reliable-and-responsible-ai-2023"
+    }
+   ],
+   "notes": "Press reports place adoption at the Government session of 10 January 2025, the date in the ministry's publication folder; the Službeni glasnik issue number was not found and the government's strategy web page gives no date. A June 2024 consultation draft had covered 2024-2030. By October 2026 the planned AI law existed only as a working version of a ministry working group (reported to copy the EU AI Act, with an AI agency and an AI systems register a year after entry into force); officials cited end-2026 and the strategy end-2027 as targets.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-11",
+    "method": "official-url-fetched",
+    "note": "Fetched the strategy PDF from the Ministry of Science, Technological Development and Innovation site and the Government of Serbia's strategy page; adoption date from Biznis.rs and Kurir reports in search results. The PDF confirmed the title, the legal basis, the predecessor strategy and the objectives and risk discussion summarised here. The adoption date and the end-2027 timetable for the AI law rest on press and academic sources; the gazette reference was not confirmed.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-12T04:37:59Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/RS-02/2026-10-12/official.pdf",
+      "url": "https://nitra.gov.rs/images/vesti/2025/2025-01-10-link/Strategija%20razvoja%20vestacke%20inteligencije%202025-2030.pdf",
+      "final_url": "https://nitra.gov.rs/images/vesti/2025/2025-01-10-link/Strategija%20razvoja%20vestacke%20inteligencije%202025-2030.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 482814,
+      "sha256": "8791787a72e2a7ca2559ae5c60c5b4fcadd4a7b7c735bfcd3af0161834dfd6fe",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-12T04:38:02Z",
+      "last_checked": "2026-10-12T04:38:02Z",
+      "method": "http",
+      "last_modified": "Tue, 29 Jul 2025 07:51:33 GMT",
+      "etag": "\"68887d85-75dfe\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/RS-02/2026-10-12/secondary.html",
+      "url": "https://www.srbija.gov.rs/tekst/437277",
+      "final_url": "https://www.srbija.gov.rs/tekst/437277",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 96534,
+      "sha256": "25061a5db0a4c5945016a70bb47391ad25bf68d1b621c5c0cac1564a9ab12d7c",
+      "text_sha256": "da2af519fb555ae7c37c81c6c259d052534eb6277fbfe3715c051d75ac286c89",
+      "retrieved_at": "2026-10-12T04:38:02Z",
+      "last_checked": "2026-10-12T04:38:02Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://nitra.gov.rs/images/vesti/2025/2025-01-10-link/Strategija%20razvoja%20vestacke%20inteligencije%202025-2030.pdf",
+      "attempted_at": "2026-10-12T04:38:02Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.srbija.gov.rs/tekst/437277",
+      "attempted_at": "2026-10-12T04:38:02Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
     ]
    }
