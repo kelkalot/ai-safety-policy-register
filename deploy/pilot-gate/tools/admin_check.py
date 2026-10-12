@@ -1,0 +1,21 @@
+"""Browser check for the pilot gate. Usage: python3 admin_check.py OUTPUT_DIR
+
+Needs Playwright and the Chromium it installed. Reads the admin cookie from mint_cookie.py.
+"""
+import os, subprocess, sys
+from playwright.sync_api import sync_playwright
+out = subprocess.run(["python3", "-I", os.path.join(os.path.dirname(os.path.abspath(__file__)), "mint_cookie.py"), "sushant@simula.no", "u_admin"], capture_output=True, text=True).stdout.strip()
+name, value = out.split("=", 1)
+errors = []
+with sync_playwright() as p:
+    b = p.chromium.launch(executable_path="/home/sushant/.cache/ms-playwright/chromium-1181/chrome-linux/chrome")
+    pg = b.new_page(viewport={"width": 1100, "height": 560})
+    pg.on("console", lambda m: errors.append(m.text) if m.type == "error" else None)
+    pg.on("pageerror", lambda e: errors.append(str(e)))
+    pg.context.add_cookies([{"name": name, "value": value, "url": "http://localhost:8090/"}])
+    pg.goto("http://localhost:8090/admin/", wait_until="load", timeout=30000)
+    pg.wait_for_timeout(800)
+    print("gate row:", pg.inner_text("#gateState"), "|", pg.inner_text("#gateBtn"))
+    pg.screenshot(path=f"{sys.argv[1]}/admin2.png")
+    print("errors:", errors or "none")
+    b.close()
