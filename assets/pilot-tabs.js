@@ -12,4 +12,11 @@
   fetch("/admin/api/users", { credentials: "same-origin", cache: "no-store" })
     .then(function (resp) { if (resp.ok) adminTab.hidden = false; })
     .catch(function () { /* not admin, or not served through the gate */ });
+
+  // Pilot logout is hidden by default and shown only while the gate is on,
+  // because it means nothing when the gate is off.
+  fetch("/_auth/gate", { credentials: "same-origin", cache: "no-store" })
+    .then(function (resp) { return resp.ok ? resp.json() : null; })
+    .then(function (data) { if (data && data.enabled === true) logoutTab.hidden = false; })
+    .catch(function () { /* offline: stays hidden */ });
 })();
