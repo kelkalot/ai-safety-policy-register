@@ -3,7 +3,7 @@
   "name": "AI Safety Policy Register",
   "version": "1.5",
   "snapshot_date": "2026-10-11",
-  "record_count": 313,
+  "record_count": 325,
   "scope": "Official governmental and intergovernmental AI safety and AI regulation instruments (core safety + regulation), global coverage.",
   "research_snapshot_date": "2026-10-11",
   "archive_note": "Local copies of sources are created by tools/archive.py on the machine where the register is deployed."
@@ -875,6 +875,14 @@
     {
      "slug": "asean-expanded-guide-generative-ai",
      "id": "ASEAN-02"
+    },
+    {
+     "slug": "brunei-aiti-guide-on-ai-governance-and-ethics-2025",
+     "id": "BN-01"
+    },
+    {
+     "slug": "cambodia-draft-national-ai-strategy-2025-2030",
+     "id": "KH-01"
     }
    ],
    "notes": "The ASEAN page gives only '2024' as the year. In 2025 it was supplemented by the Expanded ASEAN Guide on AI Governance and Ethics – Generative AI, which is the reason for the 2025-01 last-updated date.",
@@ -14891,7 +14899,12 @@
     "human oversight",
     "deepfakes & synthetic media"
    ],
-   "related": [],
+   "related": [
+    {
+     "slug": "kyrgyzstan-digital-code-2025-ai-chapter",
+     "id": "KG-01"
+    }
+   ],
    "notes": "Signed on 17 Nov 2025, together with a companion law amending other legislative acts on AI and digitalisation. That companion law aligns existing laws with the AI Law and also covers digital assets, personal-data consent and information security. The Akorda notice does not give the law's number or entry-into-force date. Entry into force is reportedly 60 days after official publication (around Jan 2026), but this was not confirmed, so date_in_force is null. Status 'In force' assumes that commencement period has passed. Kazakhstan also created a Ministry of Artificial Intelligence and Digital Development in 2025 (referenced on primeminister.kz). The official legal database (adilet.zan.kz) requires JavaScript and could not be fetched. Uzbekistan and other Central Asian states were not covered.",
    "verification": {
     "level": "A",
@@ -18496,6 +18509,26 @@
     {
      "slug": "kr-ai-basic-act-enforcement-decree",
      "id": "KR-03"
+    },
+    {
+     "slug": "kr-ai-basic-act-transparency-guideline-2026",
+     "id": "KR-04"
+    },
+    {
+     "slug": "kr-ai-basic-act-safety-guideline-draft-2026",
+     "id": "KR-05"
+    },
+    {
+     "slug": "kr-high-impact-ai-determination-guideline-2026",
+     "id": "KR-06"
+    },
+    {
+     "slug": "kr-high-impact-ai-operator-duties-guideline-2026",
+     "id": "KR-07"
+    },
+    {
+     "slug": "kr-ai-impact-assessment-guideline-2026",
+     "id": "KR-08"
     }
    ],
    "notes": "Passed by the National Assembly on 26 Dec 2024, consolidating 19 bills (per OECD.AI). Promulgated 21 Jan 2025 and in force one year later, on 22 Jan 2026 (Addenda Art. 1); the digital medical device part of Art. 2(4)(d) applies from 24 Jan 2026. Enforcement powers include fact-finding investigations and stop or correction orders (Art. 40). Administrative fines of up to KRW 30 million apply for failing to give AI notice, failing to appoint a domestic agent, or ignoring orders (Art. 43). Details such as the compute threshold and high-impact criteria are set by Presidential Enforcement Decree.",
@@ -27903,8 +27936,8 @@
    "date_in_force": "2026-03-01",
    "date_last_updated": null,
    "official_identifier": "Law No. 134/2025/QH15",
-   "official_url": "https://daibieunhandan.vn/quoc-hoi-thong-qua-luat-tri-tue-nhan-tao-10399959.html",
-   "secondary_url": "https://thuvienphapluat.vn/van-ban/EN/Cong-nghe-thong-tin/Law-134-2025-QH15-Artificial-Intelligence/689735/tieng-anh.aspx",
+   "official_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat134.signed.pdf",
+   "secondary_url": "https://congbao.chinhphu.vn/van-ban/luat-so-134-2025-qh15-468694.htm",
    "language": "Vietnamese",
    "summary": "Viet Nam's first dedicated AI law, passed on 10 December 2025 by 429 of 434 deputies present and in force from 1 March 2026. In 8 chapters and 35 articles it governs the research, development, provision, deployment and use of AI systems and the state management of AI; classifies systems as high, medium or low risk, with management measures proportionate to the risk; encourages controlled testing of technology and voluntary compliance mechanisms; prioritises AI in public administration and public services; treats data, computing and safe AI infrastructure as strategic national assets; and excludes AI used solely for national defence, security or cipher purposes.",
    "safety_topics": [
@@ -27940,33 +27973,57 @@
      "id": "VN-07"
     }
    ],
-   "notes": "High risk is defined as possible significant harm to life, health, rights, national security or the public interest; medium risk as possible confusion or manipulation of users who do not realise they are interacting with AI or AI-generated content. Legal databases (not official pages) give the law number 134/2025/QH15, Official Gazette No. 40-01/2026 of 22 Jan 2026, Article 7 prohibited acts, mandatory labelling of AI-generated content, transition periods of 12 to 18 months for existing systems depending on sector, and a Prime Minister's implementation plan (Decision 367/QĐ-TTg of 4 Mar 2026). The official_url is the National Assembly's newspaper report of the vote.",
+   "notes": "High risk is defined as possible significant harm to life, health, rights, national security or the public interest; medium risk as possible confusion or manipulation of users who do not realise they are interacting with AI or AI-generated content. The official signed text (20 pages, 8 chapters, 35 articles) is published on the Government portal (vanban.chinhphu.vn, document 216334) and in Official Gazette No. 40 of 22 January 2026. Article 1 excludes AI used solely for defence, security and cipher purposes; Article 3 defines developers, providers, deployers, affected persons and 'serious incidents'; Article 4 requires human control and the ability to intervene in every AI decision, system safety and data security; Article 5 promotes controlled testing, risk-proportionate management and voluntary compliance. Article 33 repeals Article 3(9), 4(7), 12(6), point đ of 34(2) and Chapter IV of Law 71/2025/QH15; Article 34 sets entry into force on 1 March 2026; Article 35 gives existing systems 18 months (health, education, finance) or 12 months (others) to comply, during which the state management agency may suspend a system at risk of serious harm. Implementing instruments: Decision 367/QĐ-TTg, Decree 142/2026/NĐ-CP, Circular 05/2026/TT-BKHCN and Decision 33/2026/QĐ-TTg (VN-03 to VN-06). The National Assembly newspaper's report of the vote (daibieunhandan.vn, 10 Dec 2025) was the official source until the signed text was located.",
    "verification": {
-    "level": "B",
-    "verified_on": "2026-10-11",
-    "method": "alternative-official-url-fetched",
-    "note": "National Assembly newspaper report fetched; the law's number and dates additionally confirmed on Government-portal documents (signed PDFs of Decision 367/QĐ-TTg, Decree 142/2026/NĐ-CP and Decision 33/2026/QĐ-TTg) and the Can Tho provincial legal-education page; the law text itself was not found on vanban.chinhphu.vn, congbao.chinhphu.vn, quochoi.vn, datafiles.chinhphu.vn or vbpl.vn. Decision 367/QĐ-TTg (official PDF) states that Law No. 134/2025/QH15 was passed by the 15th National Assembly's 10th session on 10 Dec 2025 and takes effect on 1 Mar 2026; Decree 142 and Decision 33 cite the law by number. The Can Tho page confirms Art. 7 prohibited acts, Art. 8 portal and database, the repeal of Chapter IV and other provisions of Law 71/2025/QH15, and transition periods of 18 months (health, education, finance) and 12 months (others). Implementing instruments now exist: Decree 142/2026/NĐ-CP, Circular 05/2026/TT-BKHCN and Decision 33/2026/QĐ-TTg (see VN-03 to VN-06). The gazette reference still rests on legal databases.",
-    "second_check": null
+    "level": "A",
+    "verified_on": "2026-10-12",
+    "method": "official-url-fetched",
+    "note": "Government portal document page (vanban.chinhphu.vn, docid 216334) fetched: number, title, issuer, dates, signatory and link to the signed PDF; the signed PDF (luat134.signed.pdf, 20 pages, portal signature of 12 January 2026) downloaded and its first and last pages read by OCR; the Official Gazette page (congbao.chinhphu.vn) fetched for the gazette reference. The portal page confirms Law No. 134/2025/QH15, issued 10 Dec 2025, effective 1 Mar 2026, signed by Trần Thanh Mẫn; the PDF confirms the title, Chapter I Articles 1-5, Chapter VIII Articles 33-35 and the closing formula (adopted by the 15th National Assembly, 10th session, 10 Dec 2025); the gazette page confirms Công báo No. 40 of 22 Jan 2026. The article-level content of the middle chapters was not re-read in this session and rests on the earlier verification and legal databases.",
+    "second_check": "National Assembly newspaper report of the vote (previous official_url) and the signed PDFs of Decision 367/QĐ-TTg, Decree 142/2026/NĐ-CP and Decision 33/2026/QĐ-TTg, which cite the law by number."
    },
    "local_copy": {
     "status": "archived",
-    "flag": "The secondary source could not be downloaded (HTTP 403 Forbidden).",
-    "last_attempt": "2026-10-11T15:42:19Z",
+    "flag": null,
+    "last_attempt": "2026-10-12T04:43:31Z",
     "files": [
      {
       "role_key": "official",
       "role": "official",
       "label": "Official source",
-      "path": "archive/VN-02/2026-10-11/official.html",
-      "url": "https://daibieunhandan.vn/quoc-hoi-thong-qua-luat-tri-tue-nhan-tao-10399959.html",
-      "final_url": "https://daibieunhandan.vn/quoc-hoi-thong-qua-luat-tri-tue-nhan-tao-10399959.html",
+      "path": "archive/VN-02/2026-10-12/official.pdf",
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat134.signed.pdf",
+      "final_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat134.signed.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 1060110,
+      "sha256": "53be2f9993e5060cc0ce723fc506d6535c9358978dbbeff11324c8d6236cae69",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-12T04:43:36Z",
+      "last_checked": "2026-10-12T04:43:36Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/VN-02/2026-10-12/secondary.html",
+      "url": "https://congbao.chinhphu.vn/van-ban/luat-so-134-2025-qh15-468694.htm",
+      "final_url": "https://congbao.chinhphu.vn/van-ban/luat-so-134-2025-qh15-468694.htm",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 93629,
-      "sha256": "e637423b36f7abeb631701bce3101ffc33e9e6185f2f1b9226dfa8c852644f56",
-      "text_sha256": "ae9321cd0ffc296dc50628896eec943d83ce7a6490ad1095879b2230cbf1f886",
-      "retrieved_at": "2026-10-11T15:42:24Z",
-      "last_checked": "2026-10-11T15:42:24Z",
+      "bytes": 147702,
+      "sha256": "62b3ec18a4fcb5e55196e09c088085345694eff49e76c82a1904c0a033902bac",
+      "text_sha256": "b91645df185ecf53387cf83180a1ace8d493ad4691f54f8e9f0efd64e9a89760",
+      "retrieved_at": "2026-10-12T04:43:42Z",
+      "last_checked": "2026-10-12T04:43:42Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -27981,8 +28038,8 @@
     "attempts": [
      {
       "role": "official",
-      "url": "https://daibieunhandan.vn/quoc-hoi-thong-qua-luat-tri-tue-nhan-tao-10399959.html",
-      "attempted_at": "2026-10-11T15:42:24Z",
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat134.signed.pdf",
+      "attempted_at": "2026-10-12T04:43:36Z",
       "ok": true,
       "http_status": 200,
       "error": null,
@@ -27990,15 +28047,14 @@
      },
      {
       "role": "secondary",
-      "url": "https://thuvienphapluat.vn/van-ban/EN/Cong-nghe-thong-tin/Law-134-2025-QH15-Artificial-Intelligence/689735/tieng-anh.aspx",
-      "attempted_at": "2026-10-11T15:42:27Z",
-      "ok": false,
-      "http_status": 403,
-      "error": "HTTP 403 Forbidden",
+      "url": "https://congbao.chinhphu.vn/van-ban/luat-so-134-2025-qh15-468694.htm",
+      "attempted_at": "2026-10-12T04:43:42Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
       "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -33792,6 +33848,26 @@
     {
      "id": "KR-01",
      "slug": "kr-aisi"
+    },
+    {
+     "slug": "kr-ai-basic-act-transparency-guideline-2026",
+     "id": "KR-04"
+    },
+    {
+     "slug": "kr-ai-basic-act-safety-guideline-draft-2026",
+     "id": "KR-05"
+    },
+    {
+     "slug": "kr-high-impact-ai-determination-guideline-2026",
+     "id": "KR-06"
+    },
+    {
+     "slug": "kr-high-impact-ai-operator-duties-guideline-2026",
+     "id": "KR-07"
+    },
+    {
+     "slug": "kr-ai-impact-assessment-guideline-2026",
+     "id": "KR-08"
     }
    ],
    "notes": "Enacted as Presidential Decree No. 36053 on 21 Jan 2026 after Cabinet approval on 20 Jan 2026 and a notice-and-comment draft of September to November 2025; its addenda repeal the earlier Regulation on the National AI Strategy Committee and carry the committee over. The ministry said enforcement (fact-finding and fines) would be suspended for at least a year. The decree was amended by Presidential Decree No. 36580 of 18 Aug 2026 (consequential amendment, in force 20 Aug 2026); a further partial amendment on participation and cost support for AI-vulnerable groups and on AI research institutes passed Cabinet on 14 Jul 2026 (press). MSIT also prepared two notifications and five guidelines (transparency, safety, high-impact AI determination, high-impact AI operator duties, AI impact assessment).",
@@ -33970,14 +34046,18 @@
     {
      "id": "TH-02",
      "slug": "thailand-etda-ai-governance-guideline-for-executives-2023"
+    },
+    {
+     "slug": "thailand-digital-thailand-ai-ethics-guideline",
+     "id": "TH-03"
     }
    ],
-   "notes": "Sources differ on the hearing window: Tilleke & Gibbins report release on 2 July 2026 with about 30 days of comments; Rajah & Tann report 9 July to 14 August 2026. The hearing was hosted on the central law-consultation system (law.go.th), with comments to MDES. Thai PBS Policy Watch reports the next steps as review by the Council of State, Cabinet approval and submission to the House, with a government target of entering the legislative process by September 2026. The draft succeeds the 2022-2023 ONDE draft Royal Decree on business operations using AI and the ETDA draft AI innovation promotion act, neither of which was enacted. Core provisions would apply on publication, with risk-control and incident provisions 180 days later.",
+   "notes": "Sources differ on the hearing window: Tilleke & Gibbins report release on 2 July 2026 with about 30 days of comments; Rajah & Tann report 9 July to 14 August 2026. The hearing was hosted on the central law-consultation system (law.go.th), with comments to MDES. On 1 August 2026 Thai PBS Policy Watch reported that the hearing had concluded and that the next steps are review by the Council of State, Cabinet approval and submission to the House, with a government target of entering the legislative process by September 2026. The draft follows ETDA's consultation of 11-24 June 2025 on the '(Draft) Principles of the Law on Artificial Intelligence', which ETDA described as Thailand's first general AI law: risk-based supervision focused on high-risk uses affecting rights, freedoms or safety, a mix of soft and hard law, sector regulators empowered to issue controls or incentives, and promotion measures such as a text-and-data-mining exception and a regulatory sandbox. It succeeds the 2022-2023 ONDE draft Royal Decree on business operations using AI and the ETDA draft AI innovation promotion act, neither of which was enacted. Core provisions would apply on publication, with risk-control and incident provisions 180 days later.",
    "verification": {
     "level": "C",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-12",
     "method": "search-confirmed",
-    "note": "Law-firm analyses (Tilleke & Gibbins, Rajah & Tann), Thai PBS Policy Watch and Bangkok Biznews coverage fetched; the official hearing page on law.go.th (survey_id NzU4MERHQV9MQVdfRlJPTlRFTkQ=) and ETDA's news pages returned 403/404. CAUTION: existence, issuer, July 2026 hearing and the risk-tier content rest on two law-firm notes and Thai press; the exact release and closing dates conflict between sources and no official page could be fetched. The ETDA site (fetched) documents the AI Governance Center and a 2023 study on drafting an AI law but not this draft.",
+    "note": "Law-firm analyses (Tilleke & Gibbins, Rajah & Tann), Thai PBS Policy Watch (1 Aug 2026) and Bangkok Biznews coverage fetched; ETDA's official news page on the June 2025 principles consultation fetched; the official hearing pages on law.go.th (both survey IDs) returned 403 to every method tried. CAUTION: existence, issuer, July 2026 hearing and the risk-tier content of the 2026 draft still rest on two law-firm notes and Thai press; the exact release and closing dates conflict between sources and no official page for the 2026 draft could be fetched. The ETDA page confirms only the predecessor consultation of June 2025 and its design principles.",
     "second_check": null
    },
    "local_copy": {
@@ -34056,6 +34136,10 @@
     {
      "id": "TH-01",
      "slug": "thailand-draft-act-on-artificial-intelligence-2026"
+    },
+    {
+     "slug": "thailand-digital-thailand-ai-ethics-guideline",
+     "id": "TH-03"
     }
    ],
    "notes": "Listed under 2023 on the AIGC research and recommendations page; the fetched English document is an 18-slide presentation version prepared by the AIGC team. ETDA and MDES later issued a Generative AI governance guideline for organisations (reported 30 Oct 2024) and, in September 2025, asked the Cabinet to endorse use of the AI Governance Guideline in organisations, especially government agencies; neither the 2024 guideline's official page nor a Cabinet decision was located. The AIGC was renamed AI Governance Practice Center (AIGPC) and announced an AI governance sandbox for 2027. The official spelling of the title is 'Guideline for Executive' (singular).",
@@ -34542,7 +34626,12 @@
     "accountability & liability",
     "public-sector use"
    ],
-   "related": [],
+   "related": [
+    {
+     "slug": "nepal-national-ai-policy-2082-2025",
+     "id": "NP-01"
+    }
+   ],
    "notes": "Draft v1.1 was released on 25 Jan 2026 and Draft v2.0 on 9 Feb 2026; online public consultation ran from 26 Jan to 8 Feb 2026 and the policy committee was reviewing submissions, with adoption still pending at the time of checking. It replaces the April 2024 draft National AI Policy of the previous government, which was never adopted. The Independent Oversight Committee is to sit within the executive council of a proposed NDGIA body that would itself require legislation. Drafted under the interim government with a National AI Policy Steering Committee formed in July 2025.",
    "verification": {
     "level": "A",
@@ -34732,6 +34821,10 @@
     {
      "id": "KZ-01",
      "slug": "kazakhstan-law-on-artificial-intelligence"
+    },
+    {
+     "slug": "kyrgyzstan-digital-code-2025-ai-chapter",
+     "id": "KG-01"
     }
    ],
    "notes": "Adopted by the Legislative Chamber on 12 Aug 2025 (first reading 15 Apr 2025), approved by the Senate on 1 Nov 2025, signed and in force 21 Jan 2026. The law implements the legislative tasks in the 2024 AI strategy (PQ-358). Kazakhstan adopted a standalone AI law in Nov 2025. Press reports on the first-reading draft described mandatory labelling of AI-generated information resources, with the procedure to be set by government resolution.",
@@ -40432,6 +40525,1445 @@
       "role": "secondary",
       "url": "https://www.srbija.gov.rs/tekst/437277",
       "attempted_at": "2026-10-12T04:38:02Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "KR-04",
+   "slug": "kr-ai-basic-act-transparency-guideline-2026",
+   "title": "Guideline on Securing AI Transparency (Article 31 of the AI Basic Act)",
+   "original_title": "인공지능 투명성 확보 가이드라인",
+   "short_title": "Korea AI transparency guideline (Art. 31)",
+   "jurisdiction": "South Korea",
+   "country": "South Korea",
+   "jurisdiction_level": "National",
+   "region": "East Asia",
+   "issuing_body": "Ministry of Science and ICT (AI Safety and Trust Support Division), distributed through the National Information Society Agency (NIA)",
+   "instrument_type": "Guidelines / framework",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2026-01-21",
+   "date_in_force": null,
+   "date_last_updated": "2026-01-27",
+   "official_identifier": null,
+   "official_url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=14",
+   "secondary_url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156740669",
+   "language": "Korean",
+   "summary": "Guidance from the Ministry of Science and ICT on meeting the transparency duty of Article 31 of Korea's AI Basic Act, in force since 22 January 2026. It explains the three duties: prior notice to users that a product or service runs on high-impact or generative AI (para. 1); marking outputs as generated by generative AI (para. 2); and notice or marking of AI outputs that are hard to distinguish from reality, such as deepfakes, so that people can clearly recognise them (para. 3). It sets out acceptable notice channels and marking methods (visible, audible or machine-readable) with service examples. The ministry has said fines will not be imposed during a grace period of at least one year.",
+   "safety_topics": [
+    "transparency & labelling",
+    "deepfakes & synthetic media",
+    "general-purpose / frontier AI"
+   ],
+   "related": [
+    {
+     "id": "KR-02",
+     "slug": "kr-ai-basic-act"
+    },
+    {
+     "id": "KR-03",
+     "slug": "kr-ai-basic-act-enforcement-decree"
+    },
+    {
+     "id": "KR-05",
+     "slug": "kr-ai-basic-act-safety-guideline-draft-2026"
+    },
+    {
+     "id": "KR-06",
+     "slug": "kr-high-impact-ai-determination-guideline-2026"
+    }
+   ],
+   "notes": "Announced by MSIT press release of 21 January 2026 for the Act's entry into force on 22 January 2026; a draft had been released in September 2025. NIA posted a revised file dated 26 January 2026 and notes a wording change to the service examples on 27 January 2026, so the text may change again. Press reports of the launch add that outputs taken outside a service need a visible or audible watermark or machine-readable metadata, that labelling inside a service can be more flexible, and that overseas providers serving Korean users are covered; those details were not checked against the full text. The Korea AI Software Industry Association (KOSA) runs an AI Basic Act help desk that also hosts the guideline under the name '생성형 인공지능 투명성 확보 가이드라인'.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-12",
+    "method": "official-url-fetched",
+    "note": "NIA guideline PDF (33 pages) downloaded from the NIA post 'AI기본법 시행 및 하위법령 공개(1.22.~)' and its first sections read; korea.kr press release page (MSIT, 2026.01.21) and the MSIT library post (22 Jan 2026, AI Safety and Trust Support Division) fetched. The PDF confirms the title, the Article 31 basis, the three duties and the chapter structure (overview, article-by-article explanation, prior-notice methods, marking methods, references). The press release page confirms the 21 Jan 2026 release; NIA's post gives the 27 Jan 2026 revision. The grace period and the watermark/metadata details rest on korea.kr policy news and press (Newsseoul, Byline Network).",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-12T04:43:31Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/KR-04/2026-10-12/official.pdf",
+      "url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=14",
+      "final_url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=14",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 1670902,
+      "sha256": "f3c9206fc9e8b33d1ac7cf973bb00422efd2b0296347fa0346456bd807ef020d",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-12T04:43:48Z",
+      "last_checked": "2026-10-12T04:43:48Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/KR-04/2026-10-12/secondary.html",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156740669",
+      "final_url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156740669",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 150270,
+      "sha256": "f21c99106eafe5ee077c4d9dfd341220d6ba7ac158512de1648d7766251f2f0c",
+      "text_sha256": "41af02dbd4954b924962b685886344c9bd087ffeaf58d84e423176afef3c5ab0",
+      "retrieved_at": "2026-10-12T04:43:53Z",
+      "last_checked": "2026-10-12T04:43:53Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=14",
+      "attempted_at": "2026-10-12T04:43:48Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156740669",
+      "attempted_at": "2026-10-12T04:43:53Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "KR-05",
+   "slug": "kr-ai-basic-act-safety-guideline-draft-2026",
+   "title": "Guideline on Securing AI Safety (draft, Article 32 of the AI Basic Act)",
+   "original_title": "인공지능 안전성 확보 가이드라인(안)",
+   "short_title": "Korea frontier AI safety guideline (Art. 32, draft)",
+   "jurisdiction": "South Korea",
+   "country": "South Korea",
+   "jurisdiction_level": "National",
+   "region": "East Asia",
+   "issuing_body": "Ministry of Science and ICT, distributed through the National Information Society Agency (NIA) and the Korea AI Software Industry Association (KOSA) help desk",
+   "instrument_type": "Guidelines / framework",
+   "legal_force": "Proposed",
+   "status": "Draft / proposed",
+   "date_published": "2026-01-22",
+   "date_in_force": null,
+   "date_last_updated": "2026-02",
+   "official_identifier": null,
+   "official_url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=15",
+   "secondary_url": "https://www.sw.or.kr/AI_act_helpdesk/main.jsp",
+   "language": "Korean",
+   "summary": "Draft guidance for operators subject to the safety duty of Article 32 of Korea's AI Basic Act, which covers AI trained with at least 10^26 floating-point operations of cumulative compute, using frontier-level technology and posing a risk of broad, serious impact on life, safety or fundamental rights. It explains how to determine whether a system and operator are in scope; risk identification, assessment and mitigation across the life cycle; a risk-management system with safety-incident prevention and response; and reporting, including submission of safety-measure results to the Minister within three months of recognising applicability.",
+   "safety_topics": [
+    "general-purpose / frontier AI",
+    "incident reporting",
+    "evaluation & testing",
+    "catastrophic risk"
+   ],
+   "related": [
+    {
+     "id": "KR-02",
+     "slug": "kr-ai-basic-act"
+    },
+    {
+     "id": "KR-03",
+     "slug": "kr-ai-basic-act-enforcement-decree"
+    },
+    {
+     "id": "KR-01",
+     "slug": "kr-aisi"
+    },
+    {
+     "id": "KR-04",
+     "slug": "kr-ai-basic-act-transparency-guideline-2026"
+    }
+   ],
+   "notes": "Both the NIA version (file dated 22 January 2026, 71 pages) and the later KOSA version carry a header stating that the guideline is a draft (안) still being written and may differ from the final text. The guideline implements a ministry notification, 'Notification on the methods of implementing the AI safety obligation' (인공지능 안전성 확보 의무의 이행방법 등에 관한 고시); the NIA version leaves its number blank and the KOSA version cites it as draft notification No. 2026-126 of February 2026, so the notification itself had not been finalised when these versions were issued. The KOSA version (titled '최첨단 인공지능 안전성 확보 가이드라인' on the help-desk page) describes an initial incident report within 24 hours of recognising an incident, a follow-up report within 7 days and a results report within 15 days. The ministry announced a grace period of at least one year before enforcement of the Act's fines.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-12",
+    "method": "official-url-fetched",
+    "note": "NIA guideline PDF (71 pages) downloaded from the NIA post of 22 Jan 2026 and read with pdftotext; the KOSA help-desk page and its copy of the guideline fetched and compared. The PDFs confirm the title, the draft marking, the Article 32 and Decree Article 24 basis, the 10^26 FLOPs threshold, the compute-calculation methods, the chapter structure and the three-month submission rule (draft notification Art. 8). The incident-reporting timelines come from the KOSA version. No final notification was found on law.go.kr or msit.go.kr.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": "The secondary source could not be downloaded (The site's robots.txt does not allow automated downloads of this page).",
+    "last_attempt": "2026-10-12T04:43:31Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/KR-05/2026-10-12/official.pdf",
+      "url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=15",
+      "final_url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=15",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 3859699,
+      "sha256": "c49c4fa002e60d21a4964fbea992e1ae2f3554063db6e5da262b1d74aeb32dd5",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-12T04:43:43Z",
+      "last_checked": "2026-10-12T04:43:43Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=15",
+      "attempted_at": "2026-10-12T04:43:43Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.sw.or.kr/AI_act_helpdesk/main.jsp",
+      "attempted_at": "2026-10-12T04:43:44Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's robots.txt does not allow automated downloads of this page",
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "KR-06",
+   "slug": "kr-high-impact-ai-determination-guideline-2026",
+   "title": "Guideline for Determining High-Impact AI (Article 33(3) of the AI Basic Act)",
+   "original_title": "고영향 인공지능 판단 가이드라인",
+   "short_title": "Korea high-impact AI determination guideline",
+   "jurisdiction": "South Korea",
+   "country": "South Korea",
+   "jurisdiction_level": "National",
+   "region": "East Asia",
+   "issuing_body": "Ministry of Science and ICT and National Information Society Agency (NIA)",
+   "instrument_type": "Guidelines / framework",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2026-01-22",
+   "date_in_force": null,
+   "date_last_updated": "2026-04-29",
+   "official_identifier": null,
+   "official_url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=27",
+   "secondary_url": "https://www.msit.go.kr/user/ais/requestAi.do",
+   "language": "Korean",
+   "summary": "Guidance under Article 33(3) of Korea's AI Basic Act, which lets the Minister of Science and ICT publish criteria and examples for 'high-impact AI'. It sets a two-step test: whether the AI is used in a domain listed in Article 2(4), such as energy, drinking water, health care, nuclear safety, biometric identification, criminal investigation, hiring, loan screening or public services; and whether it may significantly affect or endanger life, physical safety or fundamental rights, weighing impact, severity, frequency and the domain's specifics. Domain-by-domain decision flows and examples follow. Operators self-assess and may ask the ministry to confirm.",
+   "safety_topics": [
+    "risk-based classification",
+    "human oversight",
+    "critical infrastructure",
+    "accountability & liability"
+   ],
+   "related": [
+    {
+     "id": "KR-02",
+     "slug": "kr-ai-basic-act"
+    },
+    {
+     "id": "KR-03",
+     "slug": "kr-ai-basic-act-enforcement-decree"
+    },
+    {
+     "id": "KR-07",
+     "slug": "kr-high-impact-ai-operator-duties-guideline-2026"
+    },
+    {
+     "id": "KR-08",
+     "slug": "kr-ai-impact-assessment-guideline-2026"
+    }
+   ],
+   "notes": "First published with the Act's entry into force on 22 January 2026 after a draft of September 2025. NIA records revisions on 29 January 2026 (decision flows for criminal investigation and arrest), 13 February 2026 (health-care criteria and a non-applicable example) and 29 April 2026 (health-care decision flow); the file recorded here is the 29 April 2026 version (216 pages). It reproduces the Act and the Enforcement Decree in annexes. The ministry's online form for confirmation requests (Article 33) asks operators to review the guideline first and refers them to the AI Basic Act help desk run by KOSA.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-12",
+    "method": "official-url-fetched",
+    "note": "NIA guideline PDF (216 pages, version of 29 April 2026) downloaded from the NIA post and its introductory chapters and domain table read; the NIA post (revision notices) and the MSIT confirmation-request page fetched. The PDF confirms the title, the Article 33(3) basis, the two-step test, the domain table keyed to Article 2(4) and the examples. Revision dates come from the NIA post. The MSIT page confirms the confirmation procedure and the KOSA help desk.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-12T04:43:31Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/KR-06/2026-10-12/official.pdf",
+      "url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=27",
+      "final_url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=27",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 15147929,
+      "sha256": "c67782a5b61bbcc4753925c6fea47dbca8a522d67c0966aa8ea32782a2da005c",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-12T04:43:55Z",
+      "last_checked": "2026-10-12T04:43:55Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/KR-06/2026-10-12/secondary.html",
+      "url": "https://www.msit.go.kr/user/ais/requestAi.do",
+      "final_url": "https://www.msit.go.kr/user/ais/requestAi.do",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 109672,
+      "sha256": "7b013c6ade6ea42e8a677ec1a279f06ad1b2d2451fe6b82b1fe984200668516a",
+      "text_sha256": "c18abe55e1cdaaf2d847059e9b2eef21fde00b0c1234c90a4d9055933f410bd4",
+      "retrieved_at": "2026-10-12T04:44:01Z",
+      "last_checked": "2026-10-12T04:44:01Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=27",
+      "attempted_at": "2026-10-12T04:43:55Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.msit.go.kr/user/ais/requestAi.do",
+      "attempted_at": "2026-10-12T04:44:01Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "KR-07",
+   "slug": "kr-high-impact-ai-operator-duties-guideline-2026",
+   "title": "Guideline on the Responsibilities of High-Impact AI Business Operators (Article 34 of the AI Basic Act)",
+   "original_title": "고영향 인공지능 사업자 책무 가이드라인",
+   "short_title": "Korea high-impact AI operator duties guideline",
+   "jurisdiction": "South Korea",
+   "country": "South Korea",
+   "jurisdiction_level": "National",
+   "region": "East Asia",
+   "issuing_body": "Ministry of Science and ICT, distributed through the National Information Society Agency (NIA)",
+   "instrument_type": "Guidelines / framework",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2026-01-22",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=23",
+   "secondary_url": "https://nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=99835&bcIdx=28987",
+   "language": "Korean",
+   "summary": "Guidance on the duties that Article 34 of Korea's AI Basic Act places on operators providing high-impact AI or products using it: a risk-management plan; measures to explain, as far as technically feasible, the AI's final results, the main criteria behind them and an overview of the training data; user-protection measures; human management and supervision of the AI; and documents evidencing the safety and reliability measures taken, plus further matters decided by the National AI Strategy Committee. It reproduces the relevant decree and notification provisions and appends a safety-and-trust document template, a self-check list and a hiring example.",
+   "safety_topics": [
+    "human oversight",
+    "accountability & liability",
+    "transparency & labelling",
+    "evaluation & testing",
+    "risk-based classification"
+   ],
+   "related": [
+    {
+     "id": "KR-02",
+     "slug": "kr-ai-basic-act"
+    },
+    {
+     "id": "KR-03",
+     "slug": "kr-ai-basic-act-enforcement-decree"
+    },
+    {
+     "id": "KR-06",
+     "slug": "kr-high-impact-ai-determination-guideline-2026"
+    },
+    {
+     "id": "KR-08",
+     "slug": "kr-ai-impact-assessment-guideline-2026"
+    }
+   ],
+   "notes": "Published with the Act's entry into force on 22 January 2026 (111 pages). The guideline cites a 'technical notification' setting out the detailed measures under Article 34(2), reproducing its Articles 4 to 6 on the risk-management plan, the explanation plan and user protection; the notification's number and status were not located. It refers to ISO/IEC TS 42119-2:2025 on AI system testing among reference standards. The ministry announced that fact-finding and fines would be suspended for at least a year after entry into force, except in serious cases.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-12",
+    "method": "official-url-fetched",
+    "note": "NIA guideline PDF (111 pages) downloaded from the NIA post of 22 Jan 2026 and its table of contents, background and chapter 3 headings read with pdftotext. The PDF confirms the title, the Article 34 basis, the five duties plus the committee clause, the structure (purpose, provisions, measures, annexes) and the hiring example. The grace period rests on korea.kr policy news.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-12T04:43:42Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/KR-07/2026-10-12/official.pdf",
+      "url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=23",
+      "final_url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=23",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 6939891,
+      "sha256": "cbbd8a304563f879b2a584860481255cfb7b7e2d990fb13916404e306eea104e",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-12T04:44:01Z",
+      "last_checked": "2026-10-12T04:44:01Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/KR-07/2026-10-12/secondary.html",
+      "url": "https://nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=99835&bcIdx=28987",
+      "final_url": "https://nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=99835&bcIdx=28987",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 137272,
+      "sha256": "a8676c32975bd6d8815c31a40bf72a588eeaa5b49cc1b0b81cad28156da710cc",
+      "text_sha256": "7107c522bcf15863123972d70038fa563b83b0ae797fd2cf8f4fd7eb0f09aec3",
+      "retrieved_at": "2026-10-12T04:44:05Z",
+      "last_checked": "2026-10-12T04:44:05Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=23",
+      "attempted_at": "2026-10-12T04:44:01Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=99835&bcIdx=28987",
+      "attempted_at": "2026-10-12T04:44:05Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "KR-08",
+   "slug": "kr-ai-impact-assessment-guideline-2026",
+   "title": "Guideline on AI Impact Assessment (Article 35 of the AI Basic Act)",
+   "original_title": "인공지능 영향평가 가이드라인",
+   "short_title": "Korea AI impact assessment guideline",
+   "jurisdiction": "South Korea",
+   "country": "South Korea",
+   "jurisdiction_level": "National",
+   "region": "East Asia",
+   "issuing_body": "Ministry of Science and ICT, distributed through the National Information Society Agency (NIA)",
+   "instrument_type": "Guidelines / framework",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2026-01-22",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=24",
+   "secondary_url": "https://nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=99835&bcIdx=28987",
+   "language": "Korean",
+   "summary": "Guidance for the fundamental-rights impact assessment of Article 35 of Korea's AI Basic Act. Operators providing products or services that use high-impact AI are to endeavour to assess in advance their impact on people's fundamental rights, and state bodies must prefer assessed products when they use high-impact AI. The guideline explains the assessment's concept and legal basis and the main considerations at each stage (preparation, assessment, follow-up), and appends a report template, examples of how system functions can infringe rights and FAQs. It presents the assessment as protecting rights while keeping interoperability with regimes such as the EU AI Act.",
+   "safety_topics": [
+    "accountability & liability",
+    "evaluation & testing",
+    "public-sector use",
+    "risk-based classification"
+   ],
+   "related": [
+    {
+     "id": "KR-02",
+     "slug": "kr-ai-basic-act"
+    },
+    {
+     "id": "KR-03",
+     "slug": "kr-ai-basic-act-enforcement-decree"
+    },
+    {
+     "id": "KR-06",
+     "slug": "kr-high-impact-ai-determination-guideline-2026"
+    },
+    {
+     "id": "KR-07",
+     "slug": "kr-high-impact-ai-operator-duties-guideline-2026"
+    },
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    }
+   ],
+   "notes": "Dated 2026 on its cover and published with the Act's entry into force on 22 January 2026 (39 pages). The assessment is an obligation of effort for operators, not a mandatory procedure; details may be set by Presidential Decree (Article 35(3)). Products and services already on the market before 22 January 2026 are to be assessed at the operator's discretion. The KOSA help desk lists the document as '고영향 인공지능 영향평가 가이드라인'. The guideline cites the EU AI Act's Article 27 fundamental-rights impact assessment and the EU GPAI Code of Practice safety chapter as reference points.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-12",
+    "method": "official-url-fetched",
+    "note": "NIA guideline PDF (39 pages) downloaded from the NIA post of 22 Jan 2026 and its chapter 1 read with pdftotext; the KOSA help-desk listing fetched. The PDF confirms the title, the 2026 date, the Article 35 text and purpose, the three-stage structure and the annexes. The publication day comes from the NIA post and file name (260122).",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-12T04:43:44Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/KR-08/2026-10-12/official.pdf",
+      "url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=24",
+      "final_url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=24",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 429515,
+      "sha256": "a67ce99e960511d53f537a759aaeba6049faed220e430cc5ee1ff8817c39ea47",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-12T04:44:05Z",
+      "last_checked": "2026-10-12T04:44:05Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/KR-08/2026-10-12/secondary.html",
+      "url": "https://nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=99835&bcIdx=28987",
+      "final_url": "https://nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=99835&bcIdx=28987",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 136102,
+      "sha256": "b219479a6a894a394c47d4d4de5577d933e25050dcf00d5ac17648b3d2eb1d8f",
+      "text_sha256": "2a2c74fbdb1d6290eaf43fbf419a9e3fe85f14845836eb1d4053d3c6dd09deea",
+      "retrieved_at": "2026-10-12T04:44:09Z",
+      "last_checked": "2026-10-12T04:44:09Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=24",
+      "attempted_at": "2026-10-12T04:44:05Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=99835&bcIdx=28987",
+      "attempted_at": "2026-10-12T04:44:09Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "KG-01",
+   "slug": "kyrgyzstan-digital-code-2025-ai-chapter",
+   "title": "Digital Code of the Kyrgyz Republic (Chapter 23 on artificial intelligence systems)",
+   "original_title": "Цифровой кодекс Кыргызской Республики",
+   "short_title": "Kyrgyzstan Digital Code (AI chapter)",
+   "jurisdiction": "Kyrgyzstan",
+   "country": "Kyrgyzstan",
+   "jurisdiction_level": "National",
+   "region": "Central Asia",
+   "issuing_body": "Jogorku Kenesh (Parliament) of the Kyrgyz Republic; signed by the President",
+   "instrument_type": "Law",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2025-07-31",
+   "date_in_force": "2026-02-06",
+   "date_last_updated": null,
+   "official_identifier": "Code No. 178 of 31 July 2025 (brought into force by Law No. 179 of 31 July 2025)",
+   "official_url": "https://cbd.minjust.gov.kg/3-48/edition/35412/ru",
+   "secondary_url": "https://cbd.minjust.gov.kg/4-5604/edition/35394/ru",
+   "language": "Russian, Kyrgyz",
+   "summary": "Kyrgyzstan's codified digital law; Chapter 23 (Articles 191-197) is the country's first binding AI regulation. AI may be developed and used freely except as the Code provides, under seven principles: risk reduction, openness, explainability, human control, accuracy, reliability and security. Using AI to cause deliberate unlawful harm to protected interests is prohibited. Every AI system needs an owner-led danger assessment. 'Increased-danger' systems must meet Cabinet requirements on risk management, data quality and documentation, keep logs and confirm conformity by a signed declaration before use; their users must keep effective human control.",
+   "safety_topics": [
+    "risk-based classification",
+    "human oversight",
+    "accountability & liability",
+    "prohibited practices",
+    "transparency & labelling",
+    "evaluation & testing"
+   ],
+   "related": [
+    {
+     "id": "KG-02",
+     "slug": "kyrgyzstan-cabinet-order-1181-t-high-risk-ai-conformity-declaration"
+    },
+    {
+     "id": "KZ-01",
+     "slug": "kazakhstan-law-on-artificial-intelligence"
+    },
+    {
+     "id": "UZ-02",
+     "slug": "uzbekistan-law-zru-1115-ai-regulation-amendments-2026"
+    }
+   ],
+   "notes": "Signed on 31 July 2025 and officially published in early August 2025 (the register of legal acts gives 5 August 2025 for Law No. 179 and 8 August 2025 for the Code). Law No. 179 brings the Code into force six months after its official publication; the Ministry of Justice register records 6 February 2026 as the entry-into-force date. Article 194 lets professional associations of AI-system owners adopt binding rules on ethics, danger assessment, risk management and quality management, and Article 126 treats AI used in 'digital well-being' services as increased-danger AI. Article 197 requires owners and users of AI that interacts with consumers to tell them they are dealing with AI unless this is obvious, to publish information on their AI use, and to inform people subjected to emotion-recognition or biometric-categorisation systems, with exceptions for defence, national security and law enforcement. The Cabinet of Ministers approved the content and form of the conformity declaration on 31 December 2025 (Order No. 1181-t). In September 2026 the Ministry of Digital Development put a draft Regulation on AI ethics out for public discussion, which would require owners to self-assess the ethics and safety of a system before launch, mandatory for public bodies and increased-danger systems and advisory for the private sector (press report).",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-12",
+    "method": "official-url-fetched",
+    "note": "Full text of the Code (edition 35412) and of Law No. 179 retrieved from the Ministry of Justice central register of legal acts (cbd.minjust.gov.kg) through the site's own data interface, together with the register's metadata for both acts; Chapter 23 and Article 126 read in full. The register confirms number 178, adoption on 31 July 2025, publication dates, status 'in force' and the 6 February 2026 entry-into-force date; Law No. 179 Article 1 confirms the six-month rule. Articles 191-196 were read in full and Article 197 in part. The September 2026 draft ethics regulation rests on an Economist.kg report.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived-review",
+    "flag": "The site returned a JavaScript bot-check page (web application firewall) instead of the document. The secondary source is a bot-check or empty page (The site returned a JavaScript bot-check page (web application firewall) instead of the document). The browser retry also failed (Browser could not load the page: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://cbd.minjust.gov.kg/3-48/edition/35412/ru).",
+    "last_attempt": "2026-10-12T04:43:53Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/KG-01/2026-10-12/official.html",
+      "url": "https://cbd.minjust.gov.kg/3-48/edition/35412/ru",
+      "final_url": "https://cbd.minjust.gov.kg/3-48/edition/35412/ru",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 2275,
+      "sha256": "ed7eb871d2061cf3a0bac825cbe70bda87a17304765a47e4ea5cec2b6a6593b0",
+      "text_sha256": "b7197003da3d16c2e13d5347f3add72bed6ee10a26365920e06721bd9c6201ab",
+      "retrieved_at": "2026-10-12T04:43:56Z",
+      "last_checked": "2026-10-12T04:43:56Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": "W/\"8e3-ro8L3zf4ncG1kqCd9X03pyBmazI\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The site returned a JavaScript bot-check page (web application firewall) instead of the document",
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/KG-01/2026-10-12/secondary.html",
+      "url": "https://cbd.minjust.gov.kg/4-5604/edition/35394/ru",
+      "final_url": "https://cbd.minjust.gov.kg/4-5604/edition/35394/ru",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 2296,
+      "sha256": "e3a4667230f5792890c4d5f951420019d5aa35189617b80836c7f55c0638127d",
+      "text_sha256": "0192975fd4dc4adf99a2caabbeae5b0724b6b8c6f925d8fb31b5547104290512",
+      "retrieved_at": "2026-10-12T04:43:58Z",
+      "last_checked": "2026-10-12T04:43:58Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": "W/\"8f8-ByRXDRMTSgq83AGG0ywUbbuIQb8\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The site returned a JavaScript bot-check page (web application firewall) instead of the document",
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://cbd.minjust.gov.kg/3-48/edition/35412/ru",
+      "attempted_at": "2026-10-12T04:43:56Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://cbd.minjust.gov.kg/4-5604/edition/35394/ru",
+      "attempted_at": "2026-10-12T04:43:58Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://cbd.minjust.gov.kg/3-48/edition/35412/ru",
+      "attempted_at": "2026-10-12T04:44:18Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Browser could not load the page: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://cbd.minjust.gov.kg/3-48/edition/35412/ru",
+      "method": "browser"
+     }
+    ]
+   }
+  },
+  {
+   "id": "KG-02",
+   "slug": "kyrgyzstan-cabinet-order-1181-t-high-risk-ai-conformity-declaration",
+   "title": "Order of the Cabinet of Ministers No. 1181-t approving the requirements for and form of the declaration of conformity of increased-danger AI systems with the Digital Code",
+   "original_title": "Распоряжение Кабинета Министров Кыргызской Республики от 31 декабря 2025 года № 1181-т «Об утверждении Требований к содержанию декларации о соответствии систем искусственного интеллекта повышенной опасности обязательным требованиям, установленным Цифровым кодексом Кыргызской Республики»",
+   "short_title": "Kyrgyzstan high-risk AI conformity declaration order (1181-t)",
+   "jurisdiction": "Kyrgyzstan",
+   "country": "Kyrgyzstan",
+   "jurisdiction_level": "National",
+   "region": "Central Asia",
+   "issuing_body": "Cabinet of Ministers of the Kyrgyz Republic (Chairman A. A. Kasymaliev)",
+   "instrument_type": "Regulation / implementing rule",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2025-12-31",
+   "date_in_force": "2026-02",
+   "date_last_updated": null,
+   "official_identifier": "Order of the Cabinet of Ministers No. 1181-т of 31 December 2025",
+   "official_url": "https://cbd.minjust.gov.kg/57-19664/edition/45932/ru",
+   "secondary_url": null,
+   "language": "Russian, Kyrgyz",
+   "summary": "Implementing act under Article 195 of Kyrgyzstan's Digital Code. It approves the requirements for the content of the declaration by which owners of 'increased-danger' AI systems confirm conformity with the Code's mandatory requirements (Annex 1) and the declaration form (Annex 2). All owners of AI systems used in Kyrgyzstan, whatever their legal form or ownership, must, before putting an increased-danger system into use, adopt the declaration in the approved form and publish it on their website as a digital document signed with a qualified digital signature and open to the public. The form identifies the owner, names the system and its purpose and states that it meets the Code's parameters.",
+   "safety_topics": [
+    "risk-based classification",
+    "accountability & liability",
+    "transparency & labelling",
+    "evaluation & testing"
+   ],
+   "related": [
+    {
+     "id": "KG-01",
+     "slug": "kyrgyzstan-digital-code-2025-ai-chapter"
+    }
+   ],
+   "notes": "The order states that it enters into force fifteen days after the Digital Code does; the Code took effect on 6 February 2026, which puts the order's effective date in late February 2026, although the Ministry of Justice register lists 6 February 2026 as its entry-into-force date. The order complements the Code's Articles 193-196 on danger assessment, increased-danger systems and user duties; the Cabinet's detailed requirements on risk management, system characteristics, data quality and documentation under Article 194(4) were not located.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-12",
+    "method": "official-url-fetched",
+    "note": "Text of the order (edition 45932) and the register metadata retrieved from the Ministry of Justice central register of legal acts (cbd.minjust.gov.kg) through the site's data interface and read in full, including the declaration form. The register confirms the number, the 31 December 2025 date, status 'in force' and the Article 195 basis; the operative paragraphs and the form were read. The late-February effective date is computed from paragraph 3 of the order and the Code's entry into force.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived-review",
+    "flag": "The site returned a JavaScript bot-check page (web application firewall) instead of the document. The browser retry also failed (Browser could not load the page: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://cbd.minjust.gov.kg/57-19664/edition/45932/ru).",
+    "last_attempt": "2026-10-12T04:43:58Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/KG-02/2026-10-12/official.html",
+      "url": "https://cbd.minjust.gov.kg/57-19664/edition/45932/ru",
+      "final_url": "https://cbd.minjust.gov.kg/57-19664/edition/45932/ru",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 2848,
+      "sha256": "26b4565aeeefa90d16357c1b6063361348b7fc79bb0c404efd3b852484233838",
+      "text_sha256": "55854962c25e77b019bee6ffedeaeec471b5882b1d336e2d79b2f0ae91b6724c",
+      "retrieved_at": "2026-10-12T04:44:01Z",
+      "last_checked": "2026-10-12T04:44:01Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": "W/\"b20-XP4ZzfvHmoIJVPbikRIo9XT0s08\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The site returned a JavaScript bot-check page (web application firewall) instead of the document",
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://cbd.minjust.gov.kg/57-19664/edition/45932/ru",
+      "attempted_at": "2026-10-12T04:44:01Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://cbd.minjust.gov.kg/57-19664/edition/45932/ru",
+      "attempted_at": "2026-10-12T04:44:18Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Browser could not load the page: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://cbd.minjust.gov.kg/57-19664/edition/45932/ru",
+      "method": "browser"
+     }
+    ]
+   }
+  },
+  {
+   "id": "AZ-01",
+   "slug": "azerbaijan-ai-strategy-2025-2028",
+   "title": "Artificial Intelligence Strategy of the Republic of Azerbaijan for 2025–2028 (approved by Presidential Order No. 530)",
+   "original_title": "Azərbaycan Respublikasının 2025–2028-ci illər üçün süni intellekt Strategiyası",
+   "short_title": "Azerbaijan AI Strategy 2025–2028",
+   "jurisdiction": "Azerbaijan",
+   "country": "Azerbaijan",
+   "jurisdiction_level": "National",
+   "region": "Central Asia",
+   "issuing_body": "President of the Republic of Azerbaijan (Order of 19 March 2025); implementation coordinated by the Cabinet of Ministers",
+   "instrument_type": "Strategy / action plan",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2025-03-19",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": "Presidential Order (Sərəncam) No. 530 of 19 March 2025",
+   "official_url": "https://president.az/az/articles/view/68364",
+   "secondary_url": "https://static.president.az/upload/Files/2025/03/19/5a0fb1886a7316cb1b95458f366c1bd6_3415396.pdf",
+   "language": "Azerbaijani",
+   "summary": "Azerbaijan's first national AI strategy, approved by presidential order on 19 March 2025. Its first priority direction is AI governance: designating national priority sectors and responsible state bodies, creating a normative legal framework for responsible and ethical AI, approving rules to identify and prevent personal-data risks in the design, deployment and use of AI systems, and applying AI standards. Goals include AI-supporting legislation, data-privacy and cybersecurity laws and public awareness of AI risks. The order also tasks the special-communications service with analysing information-security risks of AI in state bodies.",
+   "safety_topics": [
+    "accountability & liability",
+    "public-sector use",
+    "research priorities",
+    "international cooperation"
+   ],
+   "related": [
+    {
+     "id": "KZ-01",
+     "slug": "kazakhstan-law-on-artificial-intelligence"
+    },
+    {
+     "id": "UZ-01",
+     "slug": "uzbekistan-ai-technologies-development-strategy-2030"
+    }
+   ],
+   "notes": "The Cabinet of Ministers coordinates and supervises the measures, reports to the President once a year and commissions monitoring by the Center for Analysis of Economic Reforms and Communication. The strategy's action plan (section 8) assigns the legal-framework and data-risk measures to the Cabinet with the Ministry of Digital Development and Transport and other bodies; a Cabinet order on implementing Order No. 530 and a Cabinet decision approving the list of national priority sectors for AI and the responsible state bodies followed. A presidential decree of 27 February 2026 created a Digital Development Council chaired by the First Vice-President to coordinate policy on digitalisation, e-government, AI and innovation. The register has no Caucasus grouping; Azerbaijan is placed under Central Asia pending a decision on regional classification.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-12",
+    "method": "official-url-fetched",
+    "note": "The order's page on president.az (text, date, operative clauses) and the strategy PDF linked from president.az (24 pages) fetched and read; the Ministry of Digital Development's copy of the order and strategy, two Cabinet of Ministers documents on nk.gov.az citing Order No. 530, and the 27 February 2026 decree page on president.az also fetched. The president.az page confirms the title, 19 March 2025 date, signatory and clauses 1-4; the PDF confirms goals 5.1.4-5.1.7, priority direction 6.1.1 with measures 6.1.1.2.1-6.1.1.2.5 and action-plan items 8.1.3-8.1.4. The order number 530 appears only in the Cabinet documents, not on the president.az page. An e-qanun.az entry was not located.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-12T04:44:01Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/AZ-01/2026-10-12/official.html",
+      "url": "https://president.az/az/articles/view/68364",
+      "final_url": "https://president.az/az/articles/view/68364",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 51855,
+      "sha256": "bcc47355e17a7a09f60254dd937fede4a46e8239e316be53e86c91d03372fd3c",
+      "text_sha256": "7d1f357c9db8bb39ef0691a3f0e672f23689cd51b03aadc8aa1fd9ef41a96521",
+      "retrieved_at": "2026-10-12T04:44:03Z",
+      "last_checked": "2026-10-12T04:44:03Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/AZ-01/2026-10-12/secondary.pdf",
+      "url": "https://static.president.az/upload/Files/2025/03/19/5a0fb1886a7316cb1b95458f366c1bd6_3415396.pdf",
+      "final_url": "https://static.president.az/upload/Files/2025/03/19/5a0fb1886a7316cb1b95458f366c1bd6_3415396.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 556704,
+      "sha256": "aafab72084ef1cb64e005c76e0e1ee02c6b41e2727b0077e4ff69511eaf397ee",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-12T04:44:06Z",
+      "last_checked": "2026-10-12T04:44:06Z",
+      "method": "http",
+      "last_modified": "Wed, 19 Mar 2025 09:07:55 GMT",
+      "etag": "\"67da896b-87ea0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://president.az/az/articles/view/68364",
+      "attempted_at": "2026-10-12T04:44:03Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://static.president.az/upload/Files/2025/03/19/5a0fb1886a7316cb1b95458f366c1bd6_3415396.pdf",
+      "attempted_at": "2026-10-12T04:44:06Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "BN-01",
+   "slug": "brunei-aiti-guide-on-ai-governance-and-ethics-2025",
+   "title": "Guide on Artificial Intelligence (AI) Governance and Ethics for Brunei Darussalam",
+   "original_title": "Garis Panduan Tadbir Urus dan Etika Kecerdasan Buatan untuk Brunei Darussalam",
+   "short_title": "Brunei AI Governance and Ethics Guide (AITI)",
+   "jurisdiction": "Brunei Darussalam",
+   "country": "Brunei Darussalam",
+   "jurisdiction_level": "National",
+   "region": "South & Southeast Asia",
+   "issuing_body": "Authority for Info-communications Technology Industry of Brunei Darussalam (AITI), with the AI Governance and Ethics Working Group",
+   "instrument_type": "Guidelines / framework",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2025-04-11",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://www.aiti.gov.bn/news/2025/guide-on-artificial-intelligence-governance-and-ethics-for-brunei-darussalam/",
+   "secondary_url": "https://www.aiti.gov.bn/guide-books/guide-on-ai-governance-and-ethics-for-brunei-darussalam",
+   "language": "English, Malay",
+   "summary": "Brunei's first national AI governance instrument: a principles-based, guide for organisations that design, develop, deploy or use AI, released by the ICT regulator AITI on 11 April 2025 after a 2024 consultation. It sets seven principles (transparency and explainability; data protection and governance; security and safety; robustness and reliability; fairness and equity; human centricity; accountability and integrity), and a governance framework across people, process and technology: governance roles, risk impact assessments that set the level of human involvement, lifecycle risk management, testing, security controls, incident response and user communication.",
+   "safety_topics": [
+    "human oversight",
+    "accountability & liability",
+    "evaluation & testing",
+    "transparency & labelling"
+   ],
+   "related": [
+    {
+     "id": "ASEAN-01",
+     "slug": "asean-guide-ai-governance-ethics"
+    },
+    {
+     "id": "MY-01",
+     "slug": "malaysia-national-guidelines-ai-governance-ethics"
+    }
+   ],
+   "notes": "Prepared by a working group led by AITI with 24 member organisations formed in May 2024; a public consultation paper was issued on 9 July 2024. The guide describes itself as a baseline of considerations and safeguards that organisations may extend with sector-specific measures and refers to the ASEAN guides and ISO/IEC 42001. AITI's AI governance page lists a 'Second Edition' of the guide without a date; in a parliamentary answer of 15 March 2026 the Minister of Transport and Infocommunications said the working group had reconvened in August 2025 to prepare Version 2.0 for publication in the second quarter of 2026. Officials have also said a national Data and AI Strategy is being prepared. The OECD.AI Policy Navigator added the guide on 29 April 2026.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-12",
+    "method": "official-url-fetched",
+    "note": "AITI news release of 11 April 2025 fetched (title, principles, working group); the guide PDF (39 pages) served from AITI's guide-books page fetched and read; AITI's AI governance and ethics page and the OECD.AI entry fetched. The news page and PDF confirm the title, date, issuer, the seven principles and the governance framework content (risk impact assessments, human-oversight levels, incident response). The PDF carries an AITI 2024 copyright line. The Second Edition file could not be retrieved, so its date and changes are unknown; the Version 2.0 timeline comes from a third-party mirror of the Hansard.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-12T04:44:01Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/BN-01/2026-10-12/official.html",
+      "url": "https://www.aiti.gov.bn/news/2025/guide-on-artificial-intelligence-governance-and-ethics-for-brunei-darussalam/",
+      "final_url": "https://www.aiti.gov.bn/news/2025/guide-on-artificial-intelligence-governance-and-ethics-for-brunei-darussalam/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 52505,
+      "sha256": "90c70a7c370069c3b1cd2fde736d482b2f5e4f9d20c8d75e34be3f67ab94166c",
+      "text_sha256": "96e980b2813d347b6ce9a8d6fa44d540d025045c4481207c80ff445eb7bd4ced",
+      "retrieved_at": "2026-10-12T04:44:05Z",
+      "last_checked": "2026-10-12T04:44:05Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/BN-01/2026-10-12/secondary.pdf",
+      "url": "https://www.aiti.gov.bn/guide-books/guide-on-ai-governance-and-ethics-for-brunei-darussalam",
+      "final_url": "https://www.aiti.gov.bn/guide-books/guide-on-ai-governance-and-ethics-for-brunei-darussalam",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 10398543,
+      "sha256": "c1bebec57cf3896f611ecbdba2a2c18280abb4793c8485f158fbd19f2df867ea",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-12T04:44:16Z",
+      "last_checked": "2026-10-12T04:44:16Z",
+      "method": "http",
+      "last_modified": "Wed, 09 Apr 2025 05:44:04 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.aiti.gov.bn/news/2025/guide-on-artificial-intelligence-governance-and-ethics-for-brunei-darussalam/",
+      "attempted_at": "2026-10-12T04:44:05Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.aiti.gov.bn/guide-books/guide-on-ai-governance-and-ethics-for-brunei-darussalam",
+      "attempted_at": "2026-10-12T04:44:16Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "TH-03",
+   "slug": "thailand-digital-thailand-ai-ethics-guideline",
+   "title": "Digital Thailand – AI Ethics Guideline (Thailand AI Ethics Principles and Guideline)",
+   "original_title": "แนวปฏิบัติจริยธรรมปัญญาประดิษฐ์ (Digital Thailand - AI Ethics Guideline)",
+   "short_title": "Thailand AI Ethics Guideline (MDES)",
+   "jurisdiction": "Thailand",
+   "country": "Thailand",
+   "jurisdiction_level": "National",
+   "region": "South & Southeast Asia",
+   "issuing_body": "Ministry of Digital Economy and Society (Office of the National Digital Economy and Society Commission)",
+   "instrument_type": "Guidelines / framework",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": null,
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://www.etda.or.th/getattachment/9d370f25-f37a-4b7c-b661-48d2d730651d/Digital-Thailand-AI-Ethics-Principle-and-Guideline.pdf.aspx?lang=th-TH",
+   "secondary_url": null,
+   "language": "Thai (English headings)",
+   "summary": "Thailand's national AI ethics principles and practice guideline, prepared under the Ministry of Digital Economy and Society. It is addressed to researchers, designers, developers and providers of AI as a guide for their work, to users so that they know their rights and the risks of AI services, and to state agencies and regulators as a basis for promoting, supporting and supervising AI, so that AI is trustworthy, secure, beneficial to people, society and the environment, transparent, inclusive and fair, and consistent with law, ethics and human rights. It reviews foreign frameworks (OECD, EU, Singapore, Dubai), sets out six AI ethics principles and gives practice guidelines for each.",
+   "safety_topics": [
+    "transparency & labelling",
+    "accountability & liability",
+    "human oversight"
+   ],
+   "related": [
+    {
+     "id": "TH-02",
+     "slug": "thailand-etda-ai-governance-guideline-for-executives-2023"
+    },
+    {
+     "id": "TH-01",
+     "slug": "thailand-draft-act-on-artificial-intelligence-2026"
+    }
+   ],
+   "notes": "The 46-page document hosted by ETDA is undated. It cites the Ministry's strategy for B.E. 2563-2567 (2020-2024), so it is not earlier than 2020; a university mirror file is dated December 2020 and catalogue records and the OECD.AI Policy Navigator give 2021. The six principles it sets out (competitiveness and sustainability; law and ethics; transparency and accountability; security and privacy; fairness; reliability) were later carried into ETDA's 2023 AI Governance Guideline for Executives. A first draft of the ethics framework was reported in 2019. The guideline has no enforcement mechanism; Thailand's binding AI framework is still at the stage of the 2026 draft Act on Artificial Intelligence.",
+   "verification": {
+    "level": "B",
+    "verified_on": "2026-10-12",
+    "method": "alternative-official-url-fetched",
+    "note": "The PDF hosted on the ETDA (government agency) website fetched and read with pdftotext: introduction, table of contents and parts of the study section. The document confirms the title, purpose, audiences and structure (study and analysis, AI ethics principles, AI ethics guidelines, glossary, references). Its cover and attribution are not text-extractable and it carries no date, so the issuing office and year rest on the register's existing TH-02 record, library catalogue records and secondary descriptions; level B rather than A for that reason.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-12T04:44:05Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/TH-03/2026-10-12/official.pdf",
+      "url": "https://www.etda.or.th/getattachment/9d370f25-f37a-4b7c-b661-48d2d730651d/Digital-Thailand-AI-Ethics-Principle-and-Guideline.pdf.aspx?lang=th-TH",
+      "final_url": "https://www.etda.or.th/getattachment/9d370f25-f37a-4b7c-b661-48d2d730651d/Digital-Thailand-AI-Ethics-Principle-and-Guideline.pdf.aspx?lang=th-TH",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 1289499,
+      "sha256": "4cd1165385996de0a870270795745f5925c8eab47fcecd05b1a3215b4b9250ea",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-12T04:44:11Z",
+      "last_checked": "2026-10-12T04:44:11Z",
+      "method": "http",
+      "last_modified": "Mon, 29 Jun 2020 03:51:25 GMT",
+      "etag": "\"th-th|9d370f25-f37a-4b7c-b661-48d2d730651d|6/29/2020 3:51:25 AM|LiveSite\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.etda.or.th/getattachment/9d370f25-f37a-4b7c-b661-48d2d730651d/Digital-Thailand-AI-Ethics-Principle-and-Guideline.pdf.aspx?lang=th-TH",
+      "attempted_at": "2026-10-12T04:44:11Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "NP-01",
+   "slug": "nepal-national-ai-policy-2082-2025",
+   "title": "National Artificial Intelligence (A.I.) Policy, 2082 (2025)",
+   "original_title": "राष्ट्रिय आर्टिफिसियल इन्टेलिजेन्स (ए.आई.) नीति, २०८२",
+   "short_title": "Nepal National AI Policy 2082 (2025)",
+   "jurisdiction": "Nepal",
+   "country": "Nepal",
+   "jurisdiction_level": "National",
+   "region": "South & Southeast Asia",
+   "issuing_body": "Government of Nepal, Council of Ministers, on the proposal of the Ministry of Communication and Information Technology",
+   "instrument_type": "Strategy / action plan",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2025-08-11",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://giwmscdnone.gov.np/media/pdf_upload/National%20AI%20Policy-Final_uxc94vg.pdf",
+   "secondary_url": "https://lawcommission.gov.np/content/13606/national-artificial-intelligence--ai--policy--2082/",
+   "language": "Nepali, English",
+   "summary": "Nepal's first national AI policy, endorsed by the Cabinet in August 2025. It commits the government to a risk-management and AI governance framework aligned with global standards. Action policies include laws to assess the risks of AI and ensure accountable use; standards for data, algorithms and technologies; benchmarking and certification of AI systems; standards against cybersecurity risks and AI-driven misinformation; a regulatory sandbox for safe development and testing; and capacity on privacy, ethics and human-rights risks. An AI Regulation Council chaired by the ICT minister, served by a National AI Centre, is to guide and regulate AI.",
+   "safety_topics": [
+    "accountability & liability",
+    "evaluation & testing",
+    "deepfakes & synthetic media",
+    "public-sector use",
+    "research priorities"
+   ],
+   "related": [
+    {
+     "id": "IN-02",
+     "slug": "india-ai-governance-guidelines"
+    },
+    {
+     "id": "BD-01",
+     "slug": "bangladesh-national-ai-policy-2026-2030-draft"
+    }
+   ],
+   "notes": "The Cabinet endorsed the policy at its meeting of 11 August 2025 (press reports; the document itself is undated). The Nepal Law Commission lists it under the date 6 Asoj 2083 (22 September 2026) with the Nepali text and an official English version. The AI Regulation Council comprises the minister, secretaries of the Prime Minister's Office, ICT, finance and education ministries, the chair of the Nepal Telecommunications Authority, the CEO of the E-Governance Board and three experts, meets at least twice a year, and is served by the National AI Centre; the Ministry reviews implementation annually. Section 14 on risk identification concerns implementation risks of the policy, not AI-system risk classification, which is left to future laws and standards. Press reported the National AI Centre's inauguration in November 2025.",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-12",
+    "method": "official-url-fetched",
+    "note": "Nepal Law Commission page for the policy fetched and both linked PDFs (Nepali, 32 pages; English, 20 pages) downloaded and the English text read; The Himalayan Times report of 14 August 2025 fetched for the Cabinet date. The PDFs confirm the title, structure, strategies 8.1-8.11, action policies 9.1-9.11, the AI Regulation Council composition and functions and the National AI Centre. The 11 August 2025 Cabinet date comes from The Himalayan Times; the Law Commission page gives only its own listing date.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-12T04:44:06Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/NP-01/2026-10-12/official.pdf",
+      "url": "https://giwmscdnone.gov.np/media/pdf_upload/National%20AI%20Policy-Final_uxc94vg.pdf",
+      "final_url": "https://giwmscdnone.gov.np/media/pdf_upload/National%20AI%20Policy-Final_uxc94vg.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 610860,
+      "sha256": "c8dad816f35f455fe04973d648f3326d660dc9316943114b68a08203bce47eb2",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-12T04:44:12Z",
+      "last_checked": "2026-10-12T04:44:12Z",
+      "method": "http",
+      "last_modified": "Thu, 27 Nov 2025 13:42:26 GMT",
+      "etag": "\"9576a2a49f5227f2c11818f788d45e4b\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/NP-01/2026-10-12/secondary.html",
+      "url": "https://lawcommission.gov.np/content/13606/national-artificial-intelligence--ai--policy--2082/",
+      "final_url": "https://lawcommission.gov.np/content/13606/national-artificial-intelligence--ai--policy--2082/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 135646,
+      "sha256": "5472a3afa2d39ded1aac1224bb3f1dd62a08edca0e97b1b746059fa0f106cb8a",
+      "text_sha256": "7ffed3e6256c5fd9d9ea83c57e99c83701eb8e7b9ad87f247de0a837bea57671",
+      "retrieved_at": "2026-10-12T04:44:17Z",
+      "last_checked": "2026-10-12T04:44:17Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://giwmscdnone.gov.np/media/pdf_upload/National%20AI%20Policy-Final_uxc94vg.pdf",
+      "attempted_at": "2026-10-12T04:44:12Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://lawcommission.gov.np/content/13606/national-artificial-intelligence--ai--policy--2082/",
+      "attempted_at": "2026-10-12T04:44:17Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "KH-01",
+   "slug": "cambodia-draft-national-ai-strategy-2025-2030",
+   "title": "Draft National Artificial Intelligence Strategy 2025–2030",
+   "original_title": "យុទ្ធសាស្ត្រជាតិស្តីពីបញ្ញាសិប្បនិម្មិត ២០២៥–២០៣០",
+   "short_title": "Cambodia draft National AI Strategy 2025–2030",
+   "jurisdiction": "Cambodia",
+   "country": "Cambodia",
+   "jurisdiction_level": "National",
+   "region": "South & Southeast Asia",
+   "issuing_body": "Ministry of Post and Telecommunications (MPTC), with technical support from UN-ESCAP",
+   "instrument_type": "Strategy / action plan",
+   "legal_force": "Proposed",
+   "status": "Draft / proposed",
+   "date_published": "2025-06",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://mptc.gov.kh/en/2025/04/press-release-on-the-deep-dive-workshop-on-draft-national-artificial-intelligence-strategy/",
+   "secondary_url": "https://oecd.ai/en/dashboards/policy-initiatives/national-artificial-intelligence-strategy-2025-2030",
+   "language": "Khmer, English",
+   "summary": "Cambodia's draft national AI strategy, prepared by the Ministry of Post and Telecommunications and put to public consultation in June 2025. Of its six priorities and 41 measures, priority 5, 'ethical and responsible AI', directs a National AI Governance Framework harmonising governance from national to sectoral level, risk assessments of AI use by sector and key application, datasets for safety evaluation of AI models, and a mix of supply-side regulation and direct regulation of high-risk applications. Implementation would run through the Digital Government Committee and an inter-ministerial working group with annual action plans and a 2030 evaluation.",
+   "safety_topics": [
+    "risk-based classification",
+    "evaluation & testing",
+    "accountability & liability",
+    "international cooperation",
+    "research priorities"
+   ],
+   "related": [
+    {
+     "id": "ASEAN-01",
+     "slug": "asean-guide-ai-governance-ethics"
+    },
+    {
+     "id": "ASEAN-02",
+     "slug": "asean-expanded-guide-generative-ai"
+    }
+   ],
+   "notes": "MPTC drafted the strategy over more than a year with UN-ESCAP, presented a second version at a deep-dive workshop on 7-8 April 2025, consulted some 34 ministries and institutions in May 2025 and announced a public consultation on 11 June 2025 (Announcement No. 1497, comments to 20 June 2025, as reported by law firms and Open Development Cambodia), followed by a national workshop in July 2025. Version 5 of the English draft is dated June 2025. The OECD.AI Policy Navigator, updated 9 June 2026, still lists it as a draft under development, and no adoption decision was found. The draft also mentions the UNESCO ethics readiness assessment carried out with the Cambodia Academy of Digital Technology.",
+   "verification": {
+    "level": "B",
+    "verified_on": "2026-10-12",
+    "method": "alternative-official-url-fetched",
+    "note": "Three MPTC press releases on the draft (22 April, 13 May and 20 May 2025) fetched; the OECD.AI entry (status, priorities, governance content) fetched; the June 2025 draft (version 5 for consultation, 29 pages) downloaded from Open Development Cambodia and its priority 5 measures read. The MPTC pages confirm the issuer, the draft's existence, its goal and the consultation process but do not host the text or state its date; the content rests on the Open Development Cambodia copy and the OECD.AI summary. The announcement number and comment deadline come from law-firm and Open Development summaries.",
+    "second_check": null
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-12T04:44:09Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/KH-01/2026-10-12/official.html",
+      "url": "https://mptc.gov.kh/en/2025/04/press-release-on-the-deep-dive-workshop-on-draft-national-artificial-intelligence-strategy/",
+      "final_url": "https://mptc.gov.kh/en/2025/04/press-release-on-the-deep-dive-workshop-on-draft-national-artificial-intelligence-strategy/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 220717,
+      "sha256": "e8d8c77cee2f04be2415128228473ea704cd8519f63535d50c6a05f49296bfbc",
+      "text_sha256": "f0695f2dff36e3f4ebde56c70c11cee678333927b675a7b04ba59996f52890be",
+      "retrieved_at": "2026-10-12T04:44:14Z",
+      "last_checked": "2026-10-12T04:44:14Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/KH-01/2026-10-12/secondary.html",
+      "url": "https://oecd.ai/en/dashboards/policy-initiatives/national-artificial-intelligence-strategy-2025-2030",
+      "final_url": "https://oecd.ai/en/dashboards/policy-initiatives/national-artificial-intelligence-strategy-2025-2030",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 339447,
+      "sha256": "7530a026e2741b5c1eeac231a3e1af7727f1171cfd73da87cf94b1f4e21d1be0",
+      "text_sha256": "7ee28cbc048b5a8c2efa9b73fa7ef0ce20d61e8265d47bb057770035904b813d",
+      "retrieved_at": "2026-10-12T04:44:16Z",
+      "last_checked": "2026-10-12T04:44:16Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://mptc.gov.kh/en/2025/04/press-release-on-the-deep-dive-workshop-on-draft-national-artificial-intelligence-strategy/",
+      "attempted_at": "2026-10-12T04:44:14Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://oecd.ai/en/dashboards/policy-initiatives/national-artificial-intelligence-strategy-2025-2030",
+      "attempted_at": "2026-10-12T04:44:16Z",
       "ok": true,
       "http_status": 200,
       "error": null,
