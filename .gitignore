@@ -19,3 +19,6 @@ archive/*
 !archive/README.txt
 data/register.sqlite
 data/register.xlsx
+
+# Pilot gate: real env file with secrets
+deploy/pilot-gate/.env
