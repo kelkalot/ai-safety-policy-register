@@ -93,6 +93,15 @@ def main(argv=None):
             rec["local_copy"] = None  # the archiver will fetch the new URLs
         updated.append(rid)
 
+    TOKENS = {"A": "official-url-fetched", "B": "alternative-official-url-fetched", "C": "search-confirmed"}
+    for rid in list(added) + list(updated):
+        v = by[rid].get("verification") or {}
+        if isinstance(v, dict) and v.get("level") in TOKENS and v.get("method") not in TOKENS.values():
+            # research passes tend to write a sentence here; the register keeps one of three tokens and the sentence in the note
+            v["note"] = ((v.get("method") or "").rstrip() + " " + (v.get("note") or "")).strip()
+            v["method"] = TOKENS[v["level"]]
+        if len(by[rid].get("summary") or "") > 700:
+            print("WARNING  %-10s summary is %d characters (700 is the register's limit)" % (rid, len(by[rid]["summary"])))
     build.normalise(db)
     touched = set(added) | set(updated)
     checks = validate.check(db)

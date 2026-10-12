@@ -150,7 +150,7 @@ sqlite3 data/register.sqlite "SELECT record_id, path, sha256, retrieved_at FROM 
 
 The SQLite file has the tables `records`, `topics`, `related`, `archive_files`, `archive_attempts` and `meta`.
 
-A few stored PDFs are AES-encrypted by their publishers (some Japanese and Californian documents). `pypdf` needs the `cryptography` package to read them (`python3 -m pip install cryptography`); poppler's `pdftotext` reads them as well.
+A few stored PDFs are AES-encrypted by their publishers (some Japanese and Californian documents). `pypdf` needs the `cryptography` package to read them (`python3 -m pip install cryptography`); poppler's `pdftotext` reads them as well. A few official PDFs (Vietnamese decrees, a Turkish bill) are scans without a text layer; searching them needs OCR (for example `pdftoppm` with `tesseract`).
 
 ### Analysis without the app
 

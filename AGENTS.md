@@ -92,7 +92,7 @@ This is the method that produced the data. Follow it so new records are comparab
 | `safety_topics` | 2 to 6 values from the topic list in `tools/validate.py` |
 | `related` | `[{"id": ..., "slug": ...}]`; only IDs that exist or are in the same pass; an AI Act implementing law relates to `EU-03` |
 | `notes` | status details, phased dates, discrepancies between sources, later instruments; plain prose for readers |
-| `verification` | `{"level", "verified_on", "method", "note", "second_check"}`: what was fetched and what it confirmed; what rests on secondary sources |
+| `verification` | `{"level", "verified_on", "method", "note", "second_check"}`; `method` is one of exactly `official-url-fetched` (A), `alternative-official-url-fetched` (B) or `search-confirmed` (C); `note` says what was fetched, what it confirmed and what rests on secondary sources. Every remark about fetching, blocked sites or what could not be verified belongs here, never in `notes` or `summary`, which describe the instrument only |
 
 **Step 6. Hand the pass over as one JSON file** and merge it:
 
