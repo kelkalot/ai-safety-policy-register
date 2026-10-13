@@ -416,7 +416,7 @@ def build_all(out, ns, name, github_url):
     (sp / "data").mkdir()
     shutil.copy2(ROOT / "index.html", sp / "index.html")
     for f in (ROOT / "assets").iterdir():
-        if f.is_file() and f.name != "site-config.js":
+        if f.is_file() and f.name != "site-config.js" and " 2." not in f.name:  # skip macOS conflict copies
             shutil.copy2(f, sp / "assets" / f.name)
     for f in ("records.js", "records.json", "records.csv"):
         shutil.copy2(ROOT / "data" / f, sp / "data" / f)
