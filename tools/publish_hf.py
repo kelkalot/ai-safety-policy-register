@@ -430,25 +430,28 @@ def build_all(out, ns, name, github_url):
     return st
 
 
-def push(out, ns, name, private):
+def push(out, ns, name, private, only=("dataset", "archive", "space")):
     from huggingface_hub import HfApi
     api = HfApi()
     ds_id, ar_id, sp_id = "%s/%s" % (ns, name), "%s/%s-archive" % (ns, name), "%s/%s" % (ns, name)
     stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
-    api.create_repo(ds_id, repo_type="dataset", private=private, exist_ok=True)
-    api.create_repo(ar_id, repo_type="dataset", private=private, exist_ok=True)
-    api.create_repo(sp_id, repo_type="space", space_sdk="static", private=private, exist_ok=True)
-    api.upload_folder(repo_id=ds_id, repo_type="dataset", folder_path=str(out / "dataset"),
-                      commit_message="Publish register data (%s)" % stamp,
-                      delete_patterns=["data/*", "raw/*", "docs/*"])
-    print("uploaded", ds_id)
-    api.upload_folder(repo_id=ar_id, repo_type="dataset", folder_path=str(out / "archive"),
-                      commit_message="Publish stored source documents (%s)" % stamp, delete_patterns=["archive/**"])
-    api.update_repo_settings(ar_id, repo_type="dataset", gated="auto")
-    print("uploaded", ar_id, "(gated, automatic approval)")
-    api.upload_folder(repo_id=sp_id, repo_type="space", folder_path=str(out / "space"),
-                      commit_message="Publish web app (%s)" % stamp, delete_patterns=["assets/*", "data/*"])
-    print("uploaded", sp_id)
+    if "dataset" in only:
+        api.create_repo(ds_id, repo_type="dataset", private=private, exist_ok=True)
+        api.upload_folder(repo_id=ds_id, repo_type="dataset", folder_path=str(out / "dataset"),
+                          commit_message="Publish register data (%s)" % stamp,
+                          delete_patterns=["data/*", "raw/*", "docs/*"])
+        print("uploaded", ds_id)
+    if "archive" in only:
+        api.create_repo(ar_id, repo_type="dataset", private=private, exist_ok=True)
+        api.upload_folder(repo_id=ar_id, repo_type="dataset", folder_path=str(out / "archive"),
+                          commit_message="Publish stored source documents (%s)" % stamp, delete_patterns=["archive/**"])
+        api.update_repo_settings(ar_id, repo_type="dataset", gated="auto")
+        print("uploaded", ar_id, "(gated, automatic approval)")
+    if "space" in only:
+        api.create_repo(sp_id, repo_type="space", space_sdk="static", private=private, exist_ok=True)
+        api.upload_folder(repo_id=sp_id, repo_type="space", folder_path=str(out / "space"),
+                          commit_message="Publish web app (%s)" % stamp, delete_patterns=["assets/*", "data/*"])
+        print("uploaded", sp_id)
     return ds_id, ar_id, sp_id
 
 
@@ -459,6 +462,7 @@ def main(argv=None):
     ap.add_argument("--github", default="https://github.com/kelkalot/ai-safety-policy-register")
     ap.add_argument("--out", default=str(ROOT / "dist" / "hf"))
     ap.add_argument("--push", action="store_true", help="upload to Hugging Face after building")
+    ap.add_argument("--only", default="dataset,archive,space", help="comma-separated subset to upload: dataset, archive, space")
     ap.add_argument("--private", action="store_true", help="create the repos as private (existing repos keep their visibility)")
     args = ap.parse_args(argv)
     out = Path(args.out)
@@ -466,7 +470,7 @@ def main(argv=None):
     print("Built %s: %d records; archive %d of %d stored files (%.0f MB), %d third-party copies left out."
           % (out, st["n"], st["pub_files"], st["files"], st["pub_mb"], st["excluded"]))
     if args.push:
-        push(out, args.namespace, args.name, args.private)
+        push(out, args.namespace, args.name, args.private, [x.strip() for x in args.only.split(",") if x.strip()])
     return 0
 
 
