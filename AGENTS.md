@@ -6,9 +6,23 @@ Instructions for people and AI agents who work on this repository. Read it befor
 
 The AI Safety Policy Register is a database of official governmental and intergovernmental instruments on AI safety and AI regulation. The data is `data/records.json`; everything else in `data/` is generated from it.
 
-**The records are an AI-based extraction.** They were researched and written by an AI agent (Claude, Anthropic) on 11 and 12 October 2026 in this sequence: web search for the instrument, fetch of the official page or document, confirmation of title, date and status on that page, then a summary, status notes, topic tags and a verification level written by the agent. Eleven further AI passes on 11 and 12 October 2026 added records for the jurisdictions the first pass had listed as gaps, and two content quality checks (in `docs/`) were applied. Later passes are recorded in the git history and in each record's `verification` block. `tools/archive.py` then downloaded every source it could reach and stored it under `archive/` with a SHA-256 hash.
+**The records are an AI-based extraction.** AI agents researched and wrote them on 11 and 12 October 2026, working in Claude Code, Anthropic's agentic coding tool, with the model Claude Fable 5.1 (`claude-fable-5-1`). For each instrument an agent searched the web, fetched the official page or document, confirmed the title, date and status on it, and wrote the summary, the status notes, the topic tags and a verification level. A Python archiver, `tools/archive.py`, then stored every source it could reach under `archive/` with a SHA-256 hash, using headless Chromium for pages that need JavaScript. PDF text was read with pypdf, and scanned PDFs with Tesseract OCR.
 
-No human has reviewed every record. Treat the register as a well-organised starting point with its evidence attached, not as an authority.
+| Pass | Result |
+|---|---|
+| First research pass, 11 October | 208 records |
+| Gap pass by the coordinating agent | 6 records added, 1 source updated |
+| Five regional passes in parallel | 70 records added |
+| Content quality check 1 | fixes, `docs/quality-check-2026-10-11.md` |
+| Status re-verification | 3 statuses updated, 1 record added |
+| Content quality check 2 | fixes, `docs/quality-check-2026-10-12.md` |
+| Five regional passes in parallel, 12 October | 55 records added |
+
+Every pass and both checks used Claude Fable 5.1. The same log is machine-readable in `meta.provenance` in `data/records.json`, and the git history holds every change.
+
+**Why agents.** Agents are what made this register possible: 340 instruments from 87 countries, each checked against its official source and stored with a hash, in two days. They also make the work repeatable. The method in section 5 is complete enough for another agent to follow, so anyone can extend the register, re-verify every record after laws change, or rerun the method with a different model and compare the results. Every record carries its evidence, the official URL and a hashed copy of the source, so checking a record does not depend on trusting whoever wrote it. A rerun gives comparable records, not identical ones, because language models are not deterministic.
+
+**Human review.** No human has reviewed every record. Michael Riegler checked 50 randomly chosen records by hand in October 2026 and found no problems. That rules out frequent errors, not occasional ones: with no problems in 50, the error rate is probably below about 6 percent. Treat the register as a well-organised starting point with its evidence attached, not as an authority.
 
 ## 2. Limitations
 
@@ -19,7 +33,7 @@ No human has reviewed every record. Treat the register as a well-organised start
 - **Dates can be partial** (`YYYY-MM` or `YYYY`) when the source gives no exact day. Five records have no publication date; their notes say why.
 - **Local copies are third-party documents** and some are bot-check pages or empty JavaScript shells; those records are flagged `archived-review`, `partial` or `failed`, and listed in `archive/needs-attention.txt`.
 - Nothing here is legal advice.
-- **A content quality check** of every record against its archived source was run on 11 October 2026 by a second AI agent; its report, with what was fixed and what is still open, is `docs/quality-check-2026-10-11.md`. Repeat it after large additions (section 5 explains the method; the report shows what to look for).
+- **Two content quality checks**, in which a second agent compared the records with their stored sources, ran on 11 and 12 October 2026. Their reports in `docs/` say what was fixed and what is still open. Repeat the check after large additions; the reports show what to look for.
 
 To report an error: fix `data/records.json`, run the validation and build (section 3), and commit, or open an issue naming the record ID and the official source that contradicts it.
 
@@ -100,7 +114,8 @@ This is the method that produced the data. Follow it so new records are comparab
 **Step 6. Hand the pass over as one JSON file** and merge it:
 
 ```json
-{"records": [ ...full records... ],
+{"provenance": {"date": "2026-11-02", "agent": "Claude Code", "model": "claude-fable-5-1", "scope": "what the pass covered"},
+ "records": [ ...full records... ],
  "updates": [ {"id": "VN-02", "official_url": "...", "verification": {"level": "A", "verified_on": "...", "method": "...", "note": "..."}} ],
  "not_found": [ {"target": "...", "what_you_tried": "...", "best_lead": null} ],
  "summary": "what was found and the main uncertainties"}
@@ -113,7 +128,7 @@ python3 tools/archive.py --only <new IDs> --browser
 python3 tools/archive.py --verify
 ```
 
-Then update the "Known coverage gaps" list in `index.html` and the counts in README section 6, run `python3 tools/build.py`, and commit. The `not_found` list goes into the gap list or into the commit message, so the next pass knows what was tried.
+`tools/merge.py` adds the pass's `provenance` entry, with the IDs it added or updated, to `meta.provenance.passes`, so the log of who made which records stays complete. Then update the "Known coverage gaps" list in `index.html` and the counts in README section 6, run `python3 tools/build.py`, and commit. The `not_found` list goes into the gap list or into the commit message, so the next pass knows what was tried.
 
 ## 6. Method for re-checking existing records
 
@@ -123,7 +138,7 @@ Trigger: a status change in the news, a flagged source in `archive/needs-attenti
 
 Copy, fill in the targets and the output path, and give it to an agent that can search and fetch the web:
 
-> Read AGENTS.md in this repository and follow sections 4 and 5 exactly. Today is <date>; every fact must come from a page you fetch now. Do not modify any file in the repository and do not contact anyone. Targets: <list of jurisdictions or instruments, with what to look for>. Check data/records.json first so you add nothing that exists; continue the ID numbering of each code. Write the pass to <path>/pass.json in the format of section 5 step 6, run `python3 tools/merge.py <path>/pass.json --dry-run` and fix every reported problem. Finish with the summary, the list of record IDs with verification levels, and the not_found list.
+> Read AGENTS.md in this repository and follow sections 4 and 5 exactly. Today is <date>; every fact must come from a page you fetch now. Do not modify any file in the repository and do not contact anyone. Targets: <list of jurisdictions or instruments, with what to look for>. Check data/records.json first so you add nothing that exists; continue the ID numbering of each code. Write the pass to <path>/pass.json in the format of section 5 step 6, run `python3 tools/merge.py <path>/pass.json --dry-run` and fix every reported problem. Put the date, the agent and the model you are running as into the pass's `provenance` entry. Finish with the summary, the list of record IDs with verification levels, and the not_found list.
 
 Several agents can run in parallel if each uses different ID codes.
 

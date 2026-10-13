@@ -6,7 +6,7 @@ Every record links to its official source, says how and when it was verified, an
 
 Everything runs from this folder. The app makes no requests to other websites, and there is nothing to install to view it.
 
-**The records are an AI-based extraction.** An AI agent researched and wrote them from the official pages it could fetch; no human has reviewed every record. `AGENTS.md` describes how the data was made, its limitations, and the method and commands for extending or re-checking it with another agent pass.
+**The records are an AI-based extraction**, made by AI agents in Claude Code with the model Claude Fable 5.1, following the method in `AGENTS.md`. That is what made a register of this size possible in two days, and it makes the work repeatable: anyone can extend it, re-verify it or rerun the method with another model. No human has reviewed every record; a hand check of 50 randomly chosen records found no problems. `AGENTS.md` describes how the data was made, its limitations, and the method and commands for another agent pass.
 
 **On Hugging Face** as *Every AI Policy Ever*:
 

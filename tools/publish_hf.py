@@ -245,9 +245,19 @@ Despite the name, it is not every AI policy: scope is limited to official instru
 
 ## How it was made
 
-The records are an **AI-based extraction**. AI agents (Claude, by Anthropic) researched each instrument, fetched its official page or document, confirmed the title, date and status there, and wrote the summary, the status notes, the topic tags and a verification level. Using agents is what made a register of this breadth possible in a short time; it also means errors are possible, and no human has reviewed every record.
+The records are an **AI-based extraction**. AI agents researched each instrument, fetched its official page or document, confirmed the title, date and status there, and wrote the summary, the status notes, the topic tags and a verification level.
 
-The method is written down in `AGENTS.md` in this repository, so that anyone can extend or re-check the register with another agent pass. Two content quality checks, in which a second agent compared the records with their stored sources, are in `docs/`, with what was fixed and what is still open. Every stored source carries its retrieval time and SHA-256 hash, so a record can be traced to the exact document it was based on.
+| | |
+|---|---|
+| Agent | Claude Code, Anthropic's agentic coding tool, with its web search and web fetch tools; research passes and quality checks ran as agents following `AGENTS.md` |
+| Model | Claude Fable 5.1 (`claude-fable-5-1`), for every research pass and both quality checks |
+| Other tools | a Python archiver that stores each source with its SHA-256 hash, headless Chromium for pages that need JavaScript, pypdf and Tesseract OCR for PDF text |
+| Research dates | 11 and 12 October 2026, in twelve research passes and two quality checks; `meta.provenance` in `raw/records.json` logs them |
+| Human review | Michael Riegler checked 50 randomly chosen records by hand and found no problems |
+
+Agents are what made this register possible: {n} instruments from {countries} countries, each checked against its official source and stored with a hash, in two days. They also make it repeatable. The method is written down in `AGENTS.md`, complete enough for another agent to follow, so anyone can extend the register, re-verify it after laws change, or rerun the method with a different model and compare the results. Every record carries its evidence, so checking a record does not depend on trusting whoever wrote it. A rerun gives comparable records, not identical ones, because language models are not deterministic.
+
+No human has reviewed every record. The hand check of 50 records rules out frequent errors, not occasional ones: with no problems in 50, the error rate is probably below about 6 percent. Two content quality checks, in which a second agent compared the records with their stored sources, are in `docs/`, with what was fixed and what is still open.
 
 | Verification level | Meaning | Records |
 |---|---|---:|
@@ -420,7 +430,7 @@ datasets:
 
 A searchable register of official instruments on AI safety and AI regulation: laws, executive orders, frameworks, AI safety institute mandates, declarations and bills from governments and intergovernmental bodies. Each record links to its official source, says how it was verified, and has a ready-made citation.
 
-The records are an AI-based extraction; the [dataset card](https://huggingface.co/datasets/{ns}/{name}) explains the method and its limits. The data can be downloaded from the [dataset](https://huggingface.co/datasets/{ns}/{name}), and the stored source documents from the [archive dataset](https://huggingface.co/datasets/{ns}/{name}-archive).
+The records are an AI-based extraction, made by AI agents in Claude Code with the model Claude Fable 5.1 and spot-checked by hand; the [dataset card](https://huggingface.co/datasets/{ns}/{name}) explains the method, why it is repeatable, and its limits. The data can be downloaded from the [dataset](https://huggingface.co/datasets/{ns}/{name}), and the stored source documents from the [archive dataset](https://huggingface.co/datasets/{ns}/{name}-archive).
 """.format(ns=ns, name=name)
 
 

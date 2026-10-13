@@ -5,7 +5,8 @@
     python3 tools/merge.py research.json --dry-run  # only report what would happen
 
 research.json has the shape described in AGENTS.md:
-  {"records": [ <new record>, ... ],          full records in the register's schema
+  {"provenance": {"date", "agent", "model", "scope"},  who made the pass; appended to meta.provenance.passes
+   "records": [ <new record>, ... ],          full records in the register's schema
    "updates": [ {"id": "VN-02", "official_url": "...", "verification": {...}}, ... ],   fields to change on existing records
    "not_found": [...], "summary": "..."}      kept for the human reader, ignored here
 
@@ -120,6 +121,13 @@ def main(argv=None):
     if args.dry_run:
         print("Dry run: nothing written."); return 0
     db["meta"]["record_count"] = len(R)
+    prov = src.get("provenance")
+    if isinstance(prov, dict) and (added or updated):
+        entry = dict(prov)
+        entry.update({"records_added": len(added), "ids": added, "ids_updated": updated})
+        db["meta"].setdefault("provenance", {}).setdefault("passes", []).append(entry)
+    elif added or updated:
+        print("WARNING  the pass has no 'provenance' entry (date, agent, model, scope); add one so the log stays complete")
     build.save(db)
     print("Merged into data/records.json and rebuilt the data files (%d records)." % len(R))
     if touched:

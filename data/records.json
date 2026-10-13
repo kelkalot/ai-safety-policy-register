@@ -6,7 +6,86 @@
   "record_count": 340,
   "scope": "Official governmental and intergovernmental AI safety and AI regulation instruments (core safety + regulation), global coverage.",
   "research_snapshot_date": "2026-10-11/2026-10-12",
-  "archive_note": "Local copies of sources are created by tools/archive.py on the machine where the register is deployed."
+  "archive_note": "Local copies of sources are created by tools/archive.py on the machine where the register is deployed.",
+  "provenance": {
+   "method": "AGENTS.md, sections 4 to 6",
+   "agent": "Claude Code (Anthropic)",
+   "model": "Claude Fable 5.1 (claude-fable-5-1)",
+   "research_dates": "2026-10-11/2026-10-12",
+   "tools": "web search and web fetch in Claude Code; tools/archive.py with headless Chromium (Playwright); pypdf; Tesseract OCR",
+   "human_review": "Michael Riegler checked 50 randomly chosen records by hand in October 2026 and found no problems. No full human review.",
+   "passes": [
+    {
+     "date": "2026-10-11",
+     "agent": "Claude Code",
+     "model": "claude-fable-5-1",
+     "scope": "first research pass",
+     "records_added": 208
+    },
+    {
+     "date": "2026-10-11",
+     "agent": "Claude Code",
+     "model": "claude-fable-5-1",
+     "scope": "gap pass by the coordinating agent",
+     "records_added": 6,
+     "ids": [
+      "DE-01",
+      "VN-02",
+      "UN-10",
+      "INT-16",
+      "AE-02",
+      "SA-01"
+     ],
+     "ids_updated": [
+      "US-IL-02"
+     ]
+    },
+    {
+     "date": "2026-10-11",
+     "agent": "Claude Code",
+     "model": "claude-fable-5-1",
+     "scope": "five regional passes in parallel (Europe, international, Americas, Asia, Middle East and Africa) and US-IL-03 by the coordinating agent",
+     "records_added": 70
+    },
+    {
+     "date": "2026-10-11",
+     "agent": "Claude Code",
+     "model": "claude-fable-5-1",
+     "scope": "content quality check 1",
+     "report": "docs/quality-check-2026-10-11.md"
+    },
+    {
+     "date": "2026-10-11",
+     "agent": "Claude Code",
+     "model": "claude-fable-5-1",
+     "scope": "status re-verification",
+     "records_added": 1,
+     "ids": [
+      "US-28"
+     ],
+     "ids_updated": [
+      "PL-01",
+      "US-09",
+      "ES-02",
+      "KE-01"
+     ]
+    },
+    {
+     "date": "2026-10-12",
+     "agent": "Claude Code",
+     "model": "claude-fable-5-1",
+     "scope": "content quality check 2",
+     "report": "docs/quality-check-2026-10-12.md"
+    },
+    {
+     "date": "2026-10-12",
+     "agent": "Claude Code",
+     "model": "claude-fable-5-1",
+     "scope": "five regional passes in parallel (EU south and west, EU east and north, Americas, Gulf and Africa, Asia)",
+     "records_added": 55
+    }
+   ]
+  }
  },
  "records": [
   {
