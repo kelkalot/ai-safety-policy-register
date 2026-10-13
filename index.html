@@ -53,6 +53,7 @@
       </div>
     </div>
     <ul class="figures" id="figures"></ul>
+    <p class="site-notice" id="siteNotice" hidden></p>
     <div class="tabs" role="tablist">
       <button class="tab" role="tab" id="tab-register" aria-selected="true" aria-controls="view-register">Register</button>
       <button class="tab" role="tab" id="tab-about" aria-selected="false" aria-controls="view-about">Method &amp; coverage</button>
@@ -173,7 +174,7 @@
       <ul id="weakList"></ul>
 
       <h2>Coverage and known gaps</h2>
-      <p>The register holds <span data-count="records"></span> instruments from <span data-count="countries"></span> countries, <span data-count="states"></span> of them US states, and from the main intergovernmental bodies and summit processes. Every G20 member and 25 of the 27 EU member states have at least one record. Statuses are as of <span data-count="snapshot"></span>. A country missing from the register may still have AI instruments.</p>
+      <p>The register holds <span data-count="records"></span> instruments from <span data-count="countries"></span> countries and from the main intergovernmental bodies and summit processes. Sub-national records include <span data-count="states"></span> US states. Every G20 member and 25 of the 27 EU member states have at least one record. Statuses are as of <span data-count="snapshot"></span>. A country missing from the register may still have AI instruments.</p>
 
       <h3>Not adopted yet</h3>
       <p>As of the snapshot these instruments did not exist in adopted or published form, so there is nothing to record:</p>
@@ -239,6 +240,7 @@
 </aside>
 <div class="toast" id="toast" hidden role="status"></div>
 
+<script src="assets/site-config.js"></script>
 <script src="data/records.js"></script>
 <script src="assets/app.js"></script>
 <script src="assets/pilot-tabs.js?v=3"></script>

@@ -8,11 +8,17 @@ Everything runs from this folder. The app makes no requests to other websites, a
 
 **The records are an AI-based extraction.** An AI agent researched and wrote them from the official pages it could fetch; no human has reviewed every record. `AGENTS.md` describes how the data was made, its limitations, and the method and commands for extending or re-checking it with another agent pass.
 
+**On Hugging Face** as *Every AI Policy Ever*:
+
+- [Web app](https://huggingface.co/spaces/kelkalot/every-ai-policy-ever): the register in the browser, nothing to install.
+- [Dataset](https://huggingface.co/datasets/kelkalot/every-ai-policy-ever): the records as Parquet tables, with the dataset card, the method and the quality reports.
+- [Source documents](https://huggingface.co/datasets/kelkalot/every-ai-policy-ever-archive): the stored copies of the official sources, open to anyone with a free Hugging Face account.
+
 ```
 ai-safety-policy-register/
 ├── AGENTS.md               how the data was made, its limits, and the method for agent passes
 ├── index.html              the app
-├── assets/                 app.css, app.js
+├── assets/                 app.css, app.js, site-config.js (where the app is hosted)
 ├── data/
 │   ├── records.json        the database (single source of truth)
 │   ├── records.js          generated: what the app loads
@@ -25,6 +31,7 @@ ai-safety-policy-register/
 │   ├── build.py            regenerates records.js / .csv / .sqlite / .xlsx from records.json
 │   ├── validate.py         checks records.json before a build
 │   ├── export_xlsx.py      writes the Excel workbook (used by build.py)
+│   ├── publish_hf.py       publishes the dataset, the source documents and the app to Hugging Face
 │   ├── merge.py            merges a research pass into records.json with checks
 │   └── package.py          zips everything into one shareable file
 ├── examples/
@@ -190,4 +197,39 @@ The git repository holds the code and the text data (`records.json`, `records.js
 ## 8. Excel workbook
 
 `data/register.xlsx` is written by `tools/build.py` whenever the `openpyxl` package is installed (`python3 -m pip install openpyxl`; `python3 tools/export_xlsx.py` writes it on its own). It has six sheets: **About** (what the file is, a glossary of every column), **Records** (the 33 columns of `records.csv` with clickable URLs, filters and a frozen header), **Topics** and **Related** (one row per topic and per link, ready for pivot tables), **Local copies** (one row per stored file with hash and retrieval time) and **Needs attention** (the records that are not cleanly archived). It contains no formulas, so every viewer shows the same values; dates are ISO text because some are partial.
+
+## 9. Publish to Hugging Face
+
+```bash
+python3 -m pip install huggingface_hub pyarrow
+hf auth login                              # with a token that has write access
+python3 tools/publish_hf.py                # build dist/hf/ and stop, to review the cards and tables
+python3 tools/publish_hf.py --push         # build and upload
+```
+
+The tool builds three repositories from `data/records.json`:
+
+- **`kelkalot/every-ai-policy-ever`** (dataset): the records, topics, related links and a manifest of every stored source file as Parquet tables, plus the full JSON, CSV and Excel files, `AGENTS.md` and the quality reports. The dataset card is generated with the current counts.
+- **`kelkalot/every-ai-policy-ever-archive`** (dataset, gated with automatic approval): the stored copies of the official sources with their `SHA256SUMS`. A Hugging Face account is needed to download them, which keeps crawlers out. Copies of third-party pages (law-firm alerts, newspapers, NGO and think-tank pages, listed in `THIRD_PARTY_HOSTS` in the tool) are left out; their URLs and hashes stay in the manifest.
+- **`kelkalot/every-ai-policy-ever`** (static Space): the web app. Its "Local copy" links point at the archive dataset.
+
+`--private` creates the repositories as private, for a review before they go public. Run the tool again after every update; it replaces the data, the cards and the app.
+
+## 10. License and citation
+
+The records, summaries and notes are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The stored source documents remain under their publishers' terms.
+
+```bibtex
+@dataset{riegler_gautam_2026_every_ai_policy_ever,
+  title     = {Every AI Policy Ever: a register of official AI safety and AI regulation instruments},
+  author    = {Riegler, Michael and Gautam, Sushant},
+  year      = {2026},
+  version   = {1.6},
+  publisher = {Hugging Face},
+  url       = {https://huggingface.co/datasets/kelkalot/every-ai-policy-ever},
+  note      = {AI-assisted extraction, snapshot 2026-10-12}
+}
+```
+
+Say in your own text that the register is an AI-assisted extraction, and name the verification level of the records you rely on.
 

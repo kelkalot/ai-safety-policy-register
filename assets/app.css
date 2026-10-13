@@ -127,6 +127,8 @@ h1 { font-size: clamp(30px, 4.4vw, 46px); line-height: 1.04; letter-spacing: -.0
 .btn:hover { border-color: var(--ink-3); }
 .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
 .btn-filters { display: none; }
+.site-notice { margin: 4px 0 14px; font-size: 13.5px; color: var(--ink-2); }
+.site-notice a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 .resultbar { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; justify-content: space-between; font-size: 13.5px; color: var(--ink-2); margin-bottom: 8px; }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip { appearance: none; border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 3px 10px; font-size: 12.5px; cursor: pointer; color: var(--ink-2); }

@@ -37,6 +37,8 @@ To report an error: fix `data/records.json`, run the validation and build (secti
 | `tools/archive.py` | downloads, hashes and flags sources; `--verify` re-hashes; `--browser` retries in headless Chromium |
 | `tools/merge.py` | merges a research pass (section 5) into `records.json` with checks |
 | `tools/package.py` | zips everything into one shareable file |
+| `tools/publish_hf.py` | publishes the dataset, the gated source documents and the app to Hugging Face (README section 9) |
+| `assets/site-config.js` | where the app is hosted; the Hugging Face Space gets its own copy |
 | `examples/analysis.py` | example analysis from the SQLite file |
 
 ```bash
@@ -46,6 +48,7 @@ python3 tools/merge.py pass.json --dry-run   # check a research pass; drop --dry
 python3 tools/archive.py --only ID1,ID2 --browser   # store the sources of new or changed records
 python3 tools/archive.py --verify         # integrity check; rewrites needs-attention.txt
 python3 tools/package.py                  # dist/*.zip
+python3 tools/publish_hf.py --push        # Hugging Face dataset, source documents and Space
 ```
 
 Python 3.8 or later and the standard library are enough for everything except `register.xlsx` (needs `openpyxl`) and `--browser` (needs `playwright`).

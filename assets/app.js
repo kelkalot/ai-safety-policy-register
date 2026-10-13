@@ -27,6 +27,14 @@
   }
 
   var $ = function (s) { return document.querySelector(s); };
+  var SITE = window.SITE_CONFIG || {};
+  var archiveExcluded = new Set(SITE.archiveExcluded || []);
+  /* Link to a stored source file: relative when the archive sits next to the app, otherwise under SITE.archiveBase. */
+  function archiveHref(path) {
+    if (!path) return "";
+    if (!SITE.archiveBase) return path;
+    return archiveExcluded.has(path) ? "" : SITE.archiveBase + path;
+  }
   var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); };
 
   var STATUS_ORDER = ["In force", "Partially in force", "Adopted, not yet in force", "Published (non-binding, current)", "Draft / proposed", "Superseded", "Revoked / withdrawn", "Lapsed"];
@@ -94,6 +102,12 @@
   if (notAttempted) {
     $("#archiveNotice").hidden = false;
     $("#archiveNotice").innerHTML = "<span><strong>" + notAttempted + " of " + R.length + " records have no local copy yet.</strong> Run the archiver on the machine that hosts this register to store every source with a hash and timestamp.</span><code>python3 tools/archive.py</code>";
+  }
+  if (SITE.datasetUrl) {
+    $("#siteNotice").hidden = false;
+    $("#siteNotice").innerHTML = 'Download the data from the <a href="' + esc(SITE.datasetUrl) + '" target="_blank" rel="noopener">Hugging Face dataset</a>' +
+      (SITE.archiveDatasetUrl ? '. The stored source documents are in a <a href="' + esc(SITE.archiveDatasetUrl) + '" target="_blank" rel="noopener">companion dataset</a>, open to anyone with a free Hugging Face account' : "") +
+      ". The records are an AI-based extraction; check the verification level before citing a record.";
   }
   $("#lcLegend").innerHTML = LC_ORDER.map(function (k) {
     var ic = LC_ICON[k];
@@ -260,12 +274,12 @@
     var files = (lc.files || []).map(function (f, i) {
       var meta = [f.content_type, fmtBytes(f.bytes), f.http_status ? "HTTP " + f.http_status : "", f.method === "browser" ? "saved by headless browser" : "", f.last_modified ? "server date " + f.last_modified : ""].filter(Boolean);
       return '<div class="file' + (f.stale ? " stale" : "") + '">' +
-        '<div class="file-top"><a href="' + esc(f.path) + '" target="_blank" rel="noopener">' + esc(f.label || f.role) + '</a><span class="mono" style="font-size:12px;color:var(--ink-3)">' + esc(f.path) + "</span></div>" +
+        '<div class="file-top">' + (archiveHref(f.path) ? '<a href="' + esc(archiveHref(f.path)) + '" target="_blank" rel="noopener">' + esc(f.label || f.role) + "</a>" : "<span>" + esc(f.label || f.role) + ' <span style="color:var(--ink-3)">(third-party copy, not published; see the original URL)</span></span>') + '<span class="mono" style="font-size:12px;color:var(--ink-3)">' + esc(f.path) + "</span></div>" +
         '<div class="meta"><span>Retrieved ' + esc((f.retrieved_at || "").replace("T", " ").replace("Z", " UTC")) + "</span>" + (f.last_checked && f.last_checked !== f.retrieved_at ? "<span>unchanged at " + esc(f.last_checked.replace("T", " ").replace("Z", " UTC")) + "</span>" : "") + meta.map(function (m) { return "<span>" + esc(m) + "</span>"; }).join("") + "</div>" +
         '<div class="hash"><span>SHA-256 ' + esc(f.sha256) + '</span><button type="button" data-hash="' + esc(f.sha256) + '">Copy</button></div>' +
         (f.final_url && f.final_url !== f.url ? '<div class="meta"><span>Redirected to ' + esc(f.final_url) + "</span></div>" : "") +
         (f.stale ? '<div class="warn">This source could not be downloaded on ' + esc((f.last_failed || "").slice(0, 10)) + " (" + esc(f.last_error || "") + "). This is the earlier copy.</div>" : "") +
-        (f.changed ? '<div class="warn">Changed since the previous snapshot' + (f.previous_path ? ' (earlier version: <a href="' + esc(f.previous_path) + '" target="_blank" rel="noopener">' + esc(f.previous_path) + "</a>)" : "") + ".</div>" : "") +
+        (f.changed ? '<div class="warn">Changed since the previous snapshot' + (f.previous_path && archiveHref(f.previous_path) ? ' (earlier version: <a href="' + esc(archiveHref(f.previous_path)) + '" target="_blank" rel="noopener">' + esc(f.previous_path) + "</a>)" : "") + ".</div>" : "") +
         (f.warning ? '<div class="warn">' + esc(f.warning) + "</div>" : "") +
         (f.integrity && f.integrity !== "ok" ? '<div class="warn" style="color:var(--bad)">Integrity check: file ' + esc(f.integrity) + ".</div>" : "") +
         "</div>";
