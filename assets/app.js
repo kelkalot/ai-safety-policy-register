@@ -281,6 +281,7 @@
         (f.stale ? '<div class="warn">This source could not be downloaded on ' + esc((f.last_failed || "").slice(0, 10)) + " (" + esc(f.last_error || "") + "). This is the earlier copy.</div>" : "") +
         (f.changed ? '<div class="warn">Changed since the previous snapshot' + (f.previous_path && archiveHref(f.previous_path) ? ' (earlier version: <a href="' + esc(archiveHref(f.previous_path)) + '" target="_blank" rel="noopener">' + esc(f.previous_path) + "</a>)" : "") + ".</div>" : "") +
         (f.warning ? '<div class="warn">' + esc(f.warning) + "</div>" : "") +
+        (SITE.archiveRedacted && SITE.archiveRedacted[f.path] ? '<div class="warn">Published copy: ' + esc(SITE.archiveRedacted[f.path]) + ". The SHA-256 above is the original page's.</div>" : "") +
         (f.integrity && f.integrity !== "ok" ? '<div class="warn" style="color:var(--bad)">Integrity check: file ' + esc(f.integrity) + ".</div>" : "") +
         "</div>";
     }).join("");

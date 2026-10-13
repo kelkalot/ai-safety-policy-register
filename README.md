@@ -217,7 +217,7 @@ The tool builds three repositories from `data/records.json`:
 
 ## 10. License and citation
 
-The records, summaries and notes are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The stored source documents remain under their publishers' terms.
+The code, the web app and the records, summaries and notes are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); see `LICENSE`. The stored source documents remain under their publishers' terms.
 
 ```bibtex
 @dataset{riegler_gautam_2026_every_ai_policy_ever,

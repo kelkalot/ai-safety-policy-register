@@ -14,12 +14,20 @@ Repos (change with --namespace and --name):
 Copies of third-party pages (law firms, newspapers, NGOs, think tanks) are kept out of the archive dataset;
 their URLs and hashes stay in the manifest. Edit THIRD_PARTY_HOSTS when new secondary sources are added.
 
+Some official pages embed live access tokens in their scripts (for example a commenting service's
+administrator token). The local archive keeps the exact copy; in the published copy each unexpired token is
+replaced with REDACTED-ACCESS-TOKEN, and the manifest records both hashes (`sha256` = original,
+`published_sha256` = published file). --squash-archive rewrites the archive dataset's history into one commit,
+so that earlier revisions holding a token are no longer reachable.
+
 Needs: huggingface_hub and pyarrow (pip install huggingface_hub pyarrow), and `hf auth login`.
 """
 import argparse
+import base64
 import datetime as dt
 import hashlib
 import json
+import re
 import shutil
 import sys
 import urllib.parse
@@ -51,6 +59,49 @@ def is_third_party(f):
     return host_of(f) in THIRD_PARTY_HOSTS
 
 
+JWT_RE = re.compile(rb"eyJ[A-Za-z0-9_-]{8,}\.eyJ[A-Za-z0-9_-]{8,}\.[A-Za-z0-9_-]{8,}")
+PLACEHOLDER = b"REDACTED-ACCESS-TOKEN"
+TEXT_SUFFIXES = {".html", ".htm", ".txt", ".json", ".xml", ".js"}
+
+
+def live_tokens(data, now=None):
+    """JWTs in a file that are still valid: unexpired, or without an expiry. Expired tokens are left alone."""
+    now = now or dt.datetime.now(dt.timezone.utc).timestamp()
+    found = {}
+    for m in JWT_RE.finditer(data):
+        tok = m.group(0)
+        try:
+            part = tok.split(b".")[1]
+            payload = json.loads(base64.urlsafe_b64decode(part + b"=" * (-len(part) % 4)))
+        except Exception:
+            continue  # looks like a JWT but is not one
+        exp = payload.get("exp") if isinstance(payload, dict) else None
+        if isinstance(exp, (int, float)) and exp < now:
+            continue
+        found[tok] = payload if isinstance(payload, dict) else {}
+    return found
+
+
+def redaction_plan(files):
+    """path -> (published bytes, note) for stored text files that carry live tokens."""
+    plan = {}
+    for f in files:
+        if not f["in_archive_dataset"] or Path(f["path"]).suffix.lower() not in TEXT_SUFFIXES:
+            continue
+        data = (ROOT / f["path"]).read_bytes()
+        toks = live_tokens(data)
+        if not toks:
+            continue
+        new = data
+        for tok in toks:
+            new = new.replace(tok, PLACEHOLDER)
+        issuers = sorted({str(p.get("iss") or "unknown issuer") for p in toks.values()})
+        note = ("%d access token(s) embedded by the source page (issued by %s) replaced with %s; "
+                "the rest of the file is unchanged" % (len(toks), ", ".join(issuers), PLACEHOLDER.decode()))
+        plan[f["path"]] = (new, note)
+    return plan
+
+
 # ----------------------------------------------------------------------------- tables
 
 def tables(db, archive_repo_url):
@@ -75,8 +126,14 @@ def tables(db, archive_repo_url):
                 "method": f.get("method"), "stale": bool(f.get("stale")), "integrity": f.get("integrity"),
                 "in_archive_dataset": published,
                 "archive_url": "%s/blob/main/%s" % (archive_repo_url, f["path"]) if published else None,
+                "redacted": False, "published_sha256": f.get("sha256") if published else None, "redaction_note": None,
             })
-    return records, topics, related, files
+    plan = redaction_plan(files)
+    for row in files:
+        if row["path"] in plan:
+            data, note = plan[row["path"]]
+            row.update({"redacted": True, "published_sha256": hashlib.sha256(data).hexdigest(), "redaction_note": note})
+    return records, topics, related, files, plan
 
 
 def write_parquet(rows, path, schema):
@@ -101,7 +158,8 @@ def schemas():
         "source_files": pa.schema([("record_id", s), ("role", s), ("path", s), ("url", s), ("final_url", s), ("host", s),
                                    ("http_status", i), ("content_type", s), ("bytes", i), ("sha256", s),
                                    ("retrieved_at", s), ("last_checked", s), ("method", s), ("stale", b),
-                                   ("integrity", s), ("in_archive_dataset", b), ("archive_url", s)]),
+                                   ("integrity", s), ("in_archive_dataset", b), ("archive_url", s),
+                                   ("redacted", b), ("published_sha256", s), ("redaction_note", s)]),
     }
 
 
@@ -120,6 +178,7 @@ def stats(db, files):
         "nonbinding": force["Non-binding"], "proposed": force["Proposed"], "countries": len(countries),
         "states": len(states), "intl": intl, "files": len(files), "pub_files": len(pub),
         "pub_mb": sum(f["bytes"] or 0 for f in pub) / 1e6, "excluded": len(files) - len(pub),
+        "redacted": sum(1 for f in files if f.get("redacted")),
         "with_copy": sum(1 for r in R if (r.get("local_copy") or {}).get("status") == "archived"),
         "years": "%s to %s" % (min(r["date_published"][:4] for r in R if r.get("date_published")),
                                max(r["date_published"][:4] for r in R if r.get("date_published"))),
@@ -221,7 +280,7 @@ df.groupby(["region", "legal_force"]).size().unstack(fill_value=0)
 | `records` (default) | {n} | instrument |
 | `topics` | {n_topics} | instrument and safety topic |
 | `related` | {n_related} | link between two records |
-| `source_files` | {files} | stored copy of a source, with URL, hash, retrieval time and a link into the archive dataset |
+| `source_files` | {files} | stored copy of a source, with URL, hash, retrieval time and a link into the archive dataset; `redacted` marks the few published copies in which a live access token embedded by the source site was replaced |
 
 `raw/records.json` is the full nested source of truth, with the complete verification and local-copy history of each record. `raw/records.csv` and `raw/register.xlsx` hold the same records for spreadsheets.
 
@@ -324,6 +383,10 @@ The `source_files` table of the main dataset lists every stored file with its or
 
 Some stored files are bot-check pages or empty JavaScript shells that an official site returned instead of the document; the record's `local_flag` in the main dataset says so.
 
+## Redacted access tokens
+
+{redacted} stored page(s) carried live access tokens that the source site embeds in its own scripts, such as a commenting service's login token. In the published copy each such token is replaced with `REDACTED-ACCESS-TOKEN`; nothing else in the file changed. `REDACTIONS.md` lists the files with their original and published hashes, and `SHA256SUMS` lists the published files. Expired tokens are left as they were.
+
 ## Terms
 
 The documents remain under their publishers' terms (see `LICENSE.md`). If you hold rights in a file and want it removed, open a discussion on this dataset naming the path.
@@ -369,7 +432,7 @@ def build_all(out, ns, name, github_url):
     if errors:
         raise SystemExit("records.json has %d validation error(s); run tools/validate.py" % len(errors))
     repo_url = "https://huggingface.co/datasets/%s/%s" % (ns, name)
-    records, topics, related, files = tables(db, repo_url + "-archive")
+    records, topics, related, files, plan = tables(db, repo_url + "-archive")
     st = stats(db, files)
     st["n_topics"], st["n_related"] = len(topics), len(related)
     if out.exists():
@@ -399,15 +462,27 @@ def build_all(out, ns, name, github_url):
             src = ROOT / f["path"]
             dst = ar / f["path"]
             dst.parent.mkdir(parents=True, exist_ok=True)
-            try:
-                dst.hardlink_to(src)
-            except (OSError, AttributeError):
-                shutil.copy2(src, dst)
-            by_dir[dst.parent].append((f["sha256"], dst.name))
+            if f["path"] in plan:
+                dst.write_bytes(plan[f["path"]][0])  # a new file, so the local exact copy is never touched
+            else:
+                try:
+                    dst.hardlink_to(src)
+                except (OSError, AttributeError):
+                    shutil.copy2(src, dst)
+            by_dir[dst.parent].append((f["published_sha256"], dst.name))
     for folder, entries in by_dir.items():
         lines = sorted(set("%s  %s" % e for e in entries), key=lambda l: l.split("  ", 1)[1])
         (folder / "SHA256SUMS").write_text("\n".join(lines) + "\n", encoding="utf-8")
     card, lic = archive_card(st, ns, name)
+    if plan:
+        rows = ["| File | Original SHA-256 | Published SHA-256 | What was replaced |", "|---|---|---|---|"]
+        for f in files:
+            if f["redacted"]:
+                rows.append("| `%s` | `%s` | `%s` | %s |" % (f["path"], f["sha256"], f["published_sha256"], f["redaction_note"]))
+        (ar / "REDACTIONS.md").write_text("# Redacted access tokens\n\nThese stored pages carried live access tokens that the source site embeds in its own scripts. "
+                                         "In the published copy each token is replaced with `%s`; nothing else in the file changed. "
+                                         "The original hash identifies the exact page as it was served.\n\n%s\n"
+                                         % (PLACEHOLDER.decode(), "\n".join(rows)), encoding="utf-8")
     (ar / "README.md").write_text(card, encoding="utf-8")
     (ar / "LICENSE.md").write_text(lic, encoding="utf-8")
 
@@ -421,7 +496,8 @@ def build_all(out, ns, name, github_url):
     for f in ("records.js", "records.json", "records.csv"):
         shutil.copy2(ROOT / "data" / f, sp / "data" / f)
     excluded = sorted(f["path"] for f in files if f["path"] and not f["in_archive_dataset"])
-    config = {"archiveBase": repo_url + "-archive/blob/main/", "archiveExcluded": excluded,
+    redacted = {f["path"]: f["redaction_note"] for f in files if f["redacted"]}
+    config = {"archiveBase": repo_url + "-archive/blob/main/", "archiveExcluded": excluded, "archiveRedacted": redacted,
               "datasetUrl": repo_url, "archiveDatasetUrl": repo_url + "-archive"}
     (sp / "assets" / "site-config.js").write_text(
         "/* Written by tools/publish_hf.py for the Hugging Face Space. */\nwindow.SITE_CONFIG = %s;\n"
@@ -430,7 +506,7 @@ def build_all(out, ns, name, github_url):
     return st
 
 
-def push(out, ns, name, private, only=("dataset", "archive", "space")):
+def push(out, ns, name, private, only=("dataset", "archive", "space"), squash_archive=False):
     from huggingface_hub import HfApi
     api = HfApi()
     ds_id, ar_id, sp_id = "%s/%s" % (ns, name), "%s/%s-archive" % (ns, name), "%s/%s" % (ns, name)
@@ -447,6 +523,10 @@ def push(out, ns, name, private, only=("dataset", "archive", "space")):
                           commit_message="Publish stored source documents (%s)" % stamp, delete_patterns=["archive/**"])
         api.update_repo_settings(ar_id, repo_type="dataset", gated="auto")
         print("uploaded", ar_id, "(gated, automatic approval)")
+        if squash_archive:
+            api.super_squash_history(repo_id=ar_id, repo_type="dataset",
+                                     commit_message="Stored source documents (history squashed %s)" % stamp)
+            print("squashed the history of", ar_id)
     if "space" in only:
         api.create_repo(sp_id, repo_type="space", space_sdk="static", private=private, exist_ok=True)
         api.upload_folder(repo_id=sp_id, repo_type="space", folder_path=str(out / "space"),
@@ -463,14 +543,16 @@ def main(argv=None):
     ap.add_argument("--out", default=str(ROOT / "dist" / "hf"))
     ap.add_argument("--push", action="store_true", help="upload to Hugging Face after building")
     ap.add_argument("--only", default="dataset,archive,space", help="comma-separated subset to upload: dataset, archive, space")
+    ap.add_argument("--squash-archive", action="store_true", help="rewrite the archive dataset's history into one commit")
     ap.add_argument("--private", action="store_true", help="create the repos as private (existing repos keep their visibility)")
     args = ap.parse_args(argv)
     out = Path(args.out)
     st = build_all(out, args.namespace, args.name, args.github)
-    print("Built %s: %d records; archive %d of %d stored files (%.0f MB), %d third-party copies left out."
-          % (out, st["n"], st["pub_files"], st["files"], st["pub_mb"], st["excluded"]))
+    print("Built %s: %d records; archive %d of %d stored files (%.0f MB), %d third-party copies left out, "
+          "%d with access tokens replaced." % (out, st["n"], st["pub_files"], st["files"], st["pub_mb"], st["excluded"], st["redacted"]))
     if args.push:
-        push(out, args.namespace, args.name, args.private, [x.strip() for x in args.only.split(",") if x.strip()])
+        push(out, args.namespace, args.name, args.private, [x.strip() for x in args.only.split(",") if x.strip()],
+             squash_archive=args.squash_archive)
     return 0
 
 
