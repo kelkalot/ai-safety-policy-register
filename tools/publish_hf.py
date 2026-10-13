@@ -415,8 +415,9 @@ def build_all(out, ns, name, github_url):
     (sp / "assets").mkdir(parents=True)
     (sp / "data").mkdir()
     shutil.copy2(ROOT / "index.html", sp / "index.html")
-    for f in ("app.css", "app.js"):
-        shutil.copy2(ROOT / "assets" / f, sp / "assets" / f)
+    for f in (ROOT / "assets").iterdir():
+        if f.is_file() and f.name != "site-config.js":
+            shutil.copy2(f, sp / "assets" / f.name)
     for f in ("records.js", "records.json", "records.csv"):
         shutil.copy2(ROOT / "data" / f, sp / "data" / f)
     excluded = sorted(f["path"] for f in files if f["path"] and not f["in_archive_dataset"])
