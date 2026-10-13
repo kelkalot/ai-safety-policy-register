@@ -25,3 +25,6 @@ deploy/pilot-gate/.env
 
 # Pilot gate: local secrets and email lists (never commit)
 deploy/pilot-gate/local/
+
+# macOS / iCloud conflict copies ("name 2.ext")
+* 2.*
