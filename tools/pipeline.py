@@ -457,7 +457,8 @@ def select_records(db, scope):
 def cmd_new(args):
     if args.type not in RUN_TYPES:
         raise SystemExit("--type must be one of %s" % ", ".join(RUN_TYPES))
-    label = args.label or args.scope or ("queue" if args.type == "refresh" else "all")
+    label = args.label or args.scope or ("leads" if getattr(args, "leads", None) else
+                                         "queue" if args.type == "refresh" else "all")
     base = "%s-%s-%s" % (today(), args.type, slugify(label, 32))
     run_id, n = base, 2
     while (RUNS / run_id).exists():
@@ -468,7 +469,22 @@ def cmd_new(args):
                        ("stages", {s: {"tool": None, "model": None, "date": None} for s in STAGES}),
                        ("status", None)])
     db = load_db()
-    if args.type == "discover":
+    if args.type == "discover" and getattr(args, "leads", None):
+        # a leads run follows up known leads only; its cells are where each lead belongs, and they are not marked
+        # as searched, because nobody searched them as a whole
+        f = load_frame()
+        leads = (read_json(Path(args.leads), {}) or {}).get("leads") or []
+        known = {cell_id(j, t) for j, t, c in frame_cells(f)}
+        bad = [l.get("cell") for l in leads if l.get("cell") not in known]
+        if not leads or bad:
+            raise SystemExit("--leads needs {\"leads\": [{\"lead\", \"cell\", ...}]} with frame cells; unknown: %s"
+                             % ", ".join(map(str, bad[:10])))
+        cells = sorted({l["cell"] for l in leads})
+        run["mode"] = "leads"
+        run["leads"] = leads
+        run["cells"] = cells
+        run["groups"] = group_cells(f, cells, args.group_size)
+    elif args.type == "discover":
         f = load_frame()
         cells = select_frame(f, args.scope, args.days or f.get("stale_days", STALE_DAYS))
         if not cells:
@@ -644,7 +660,8 @@ def cmd_dedupe(args):
             unknown.append(l.get("cell"))
             continue
         j, cell = hit
-        cell.update({"last_searched": l.get("date") or today(), "outcome": l.get("outcome"), "run_id": args.run})
+        if run.get("mode") != "leads":  # a leads run did not search the cell as a whole
+            cell.update({"last_searched": l.get("date") or today(), "outcome": l.get("outcome"), "run_id": args.run})
         for u in l.get("new_portals") or []:
             if u not in cell["where_to_look"]:
                 cell["where_to_look"].append(u)
@@ -1007,6 +1024,9 @@ MONTHS.update({m[:3]: i for m, i in list(MONTHS.items())})
 MONTHS["sept"] = 9
 
 
+JP_ERAS = {"令和": 2018, "平成": 1988}  # Reiwa 1 = 2019, Heisei 1 = 1989
+
+
 def dates_in(text):
     """Full dates written in a quote, as ISO strings (English month names and numeric forms)."""
     t = norm_text(text)
@@ -1026,11 +1046,15 @@ def dates_in(text):
         add(y, MONTHS[m], d)
     for d, m, y in re.findall(r"\b(\d{1,2})\.(\d{1,2})\.(\d{4})\b", t):
         add(y, m, d)
+    for d, m, y in re.findall(r"\b(\d{1,2})(?:st|nd|rd|th)? day of (%s),? (?:in the year )?(\d{4})\b" % mon, t):
+        add(y, MONTHS[m], d)  # executive orders: "this 30th day of March 2026"
     for a, b, y in re.findall(r"\b(\d{1,2})/(\d{1,2})/(\d{4})\b", t):  # day/month or month/day: accept both
         add(y, b, a)
         add(y, a, b)
     for y, m, d in re.findall(r"(\d{4})\s*[年년]\s*(\d{1,2})\s*[月월]\s*(\d{1,2})\s*[日일]", t):  # Chinese, Japanese, Korean
         add(y, m, d)
+    for era, y, m, d in re.findall(r"(令和|平成)\s*(\d{1,2}|元)\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日", t):  # Japanese eras
+        add(JP_ERAS[era] + (1 if y == "元" else int(y)), m, d)
     for y, m, d in re.findall(r"\b(\d{4})\.\s*(\d{1,2})\.\s*(\d{1,2})\.?(?!\d)", t):  # Korean 2026. 1. 20.
         add(y, m, d)
     for d, m, y in re.findall(r"ngày\s*(\d{1,2})\s*tháng\s*(\d{1,2})\s*năm\s*(\d{4})", t):  # Vietnamese
@@ -1051,6 +1075,8 @@ def months_in(text):
         add(y, MONTHS[m])
     for y, m in re.findall(r"(\d{4})\s*[年년]\s*(\d{1,2})\s*[月월](?!\s*\d{1,2}\s*[日일])", t):
         add(y, m)
+    for era, y, m in re.findall(r"(令和|平成)\s*(\d{1,2}|元)\s*年\s*(\d{1,2})\s*月(?!\s*\d{1,2}\s*日)", t):
+        add(JP_ERAS[era] + (1 if y == "元" else int(y)), m)
     for mt in re.finditer(r"tháng\s*(\d{1,2})\s*năm\s*(\d{4})", t):  # not when a day number precedes it
         if not re.search(r"ngày\s*\d{1,2}\s*$", t[:mt.start()]):
             add(mt.group(2), mt.group(1))
@@ -1079,7 +1105,11 @@ def value_hint(field, value, quotes):
     hay = norm_text(" ".join(quotes))
     if field.startswith("date_") and re.match(r"^\d{4}", str(value)):
         year = str(value)[:4]
-        if year not in hay and str(int(year) + 543) not in hay:  # Buddhist-era years appear in Thai sources
+        y = int(year)
+        eras = [("令和%s年" % ("元" if y == 2019 else y - 2018)) if y > 2018 else "",
+                ("平成%s年" % ("元" if y == 1989 else y - 1988)) if 1988 < y < 2020 else ""]
+        if year not in hay and str(int(year) + 543) not in hay and not any(e and e in hay.replace(" ", "") for e in eras):
+            # Buddhist-era years appear in Thai sources, Japanese era years in Japanese ones
             return "warning", "no quote for %s shows the year %s" % (field, year)
         found = dates_in(" ".join(quotes))
         if found and not any(x.startswith(str(value)) for x in found):
@@ -1529,11 +1559,15 @@ def cmd_assemble(args):
         proposed = {k for k, v in rec.items() if k != "verification" and (cur is None or cur.get(k) != v)}
         blockers, standing, applied = [], [], []
 
-        def problem(field, msg):
+        def problem(field, msg, open_question=False):
             # A problem with a value the run changes, or with a new record, holds the record back. A problem with a
-            # value the run leaves as published (an old claim, a source that cannot be stored, a possible newer
-            # version) becomes an open question and does not hold back the run's checked corrections.
-            (blockers if cur is None or (field is not None and field in proposed) else standing).append(msg)
+            # value the run leaves as published (an old claim, a source that cannot be stored) becomes an open
+            # question and does not hold back the run's checked corrections; so does a possible newer version,
+            # also for a new record, which is right as recorded until the newer one is stored.
+            if open_question:
+                standing.append(msg)
+            else:
+                (blockers if cur is None or (field is not None and field in proposed) else standing).append(msg)
         if overall not in ("accept", "accept-with-fixes"):
             problem(None, "checker: %s" % (ch.get("note") or overall))
         for field, fv in (ch.get("fields") or {}).items():
@@ -1558,7 +1592,8 @@ def cmd_assemble(args):
         newer = [x for x in (ch.get("newer_versions") or []) + (ch.get("extra_urls") or [])
                  if not any(t in by and t != target for t in re.findall(r"\b[A-Z0-9]{2,6}(?:-[A-Z]{2})?-\d{2}\b", str(x)))]
         if newer:
-            problem(None, "the checker found something possibly newer: %s" % "; ".join(str(x) for x in newer)[:300])
+            problem(None, "the checker found something possibly newer: %s" % "; ".join(str(x) for x in newer)[:300],
+                    open_question=True)
         # a check counts only when it covers every factual field the record sets or confirms
         need = [k for k in FACT_FIELDS if (ex.get("record") or {}).get(k) is not None]
         if is_update:
@@ -1680,6 +1715,9 @@ def cmd_assemble(args):
             updates.append(upd_by[tid])
         ctx.setdefault(tid, {}).setdefault("fields", {})["related"] = {
             "reason": "two-way link to %s added in run %s" % (", ".join(add), args.run), "evidence": []}
+    for q in questions:  # a new record's question names the ID it was given
+        if not q.get("record_id") and q.get("cand_id") in assigned:
+            q["record_id"] = assigned[q["cand_id"]]
     ex_stage = stages.get("extract") or {}
     prov = {"date": today(), "agent": ex_stage.get("tool") or (run.get("coordinator") or {}).get("tool"),
             "model": ex_stage.get("model") or (run.get("coordinator") or {}).get("model"),
@@ -1971,13 +2009,22 @@ def collect_questions(db):
     state = {}  # record ID -> open question from the latest run that raised one, or None once a later run settled it
     for run_id in run_order():
         p = read_json(RUNS / run_id / "pass.json", {}) or {}
-        touched = {u.get("id") for u in p.get("updates") or []} | {r.get("id") for r in p.get("records") or []}
+        # a record counts as checked again only when the run changed or re-verified it, not when it only gained links
+        touched = {u.get("id") for u in p.get("updates") or [] if set(u) - {"id", "related"}} | \
+                  {r.get("id") for r in p.get("records") or []}
         raised = {}
         for x, held in [(x, True) for x in p.get("needs_human") or []] + [(x, False) for x in p.get("questions") or []]:
             rid = x.get("record_id") or (x.get("cand_id") if x.get("cand_id") in by else None)
             key = "record:%s@%s" % (rid, run_id) if rid else "candidate:%s@%s" % (x.get("cand_id"), run_id)
+            title = None
+            if not rid:  # a candidate has no record yet: name it from its extraction or the collector's candidate
+                ex = read_json(RUNS / run_id / "extractions" / ("%s.json" % x.get("cand_id")), {}) or {}
+                cand = next((c for c in (read_json(RUNS / run_id / "candidates.json", {}) or {}).get("candidates") or []
+                             if c.get("cand_id") == x.get("cand_id")), {})
+                title = (ex.get("record") or {}).get("title") or cand.get("title_as_found")
             raised[rid or key] = {"key": key, "kind": "record" if rid else "candidate", "subject": rid or x.get("cand_id"),
-                                  "run_id": run_id, "held_back": held, "why": x.get("why"), "records": [rid] if rid else []}
+                                  "run_id": run_id, "held_back": held, "why": x.get("why"), "records": [rid] if rid else [],
+                                  "title": title}
         for rid in touched:
             if rid not in raised:
                 state[rid] = None  # a later run checked the record without raising anything
@@ -2019,7 +2066,9 @@ def collect_questions(db):
 
 
 def question_title(q, by):
-    if q["kind"] in ("record", "candidate"):
+    if q["kind"] == "candidate":
+        return "Candidate %s, %s: not added, open question from run %s" % (q["subject"], (q.get("title") or "")[:90], q["run_id"])
+    if q["kind"] == "record":
         r = by.get(q["subject"]) or {}
         return "%s %s: open question from run %s" % (q["subject"], r.get("short_title") or r.get("title") or "", q["run_id"])
     if q["kind"] == "host":
@@ -2033,7 +2082,8 @@ def question_body(q, by, repo):
     if q["kind"] in ("record", "candidate"):
         r = by.get(q["subject"]) or {}
         run = q["run_id"]
-        L += ["**Record:** %s, %s" % (q["subject"], r.get("title") or ""),
+        L += [("**Record:** %s, %s" % (q["subject"], r.get("title") or "")) if q["kind"] == "record" else
+              ("**Candidate:** %s, %s (not in the register)" % (q["subject"], q.get("title") or "")),
               "**Run:** [%s](%sruns/%s/report.md)" % (run, blob, run),
               "**Now:** " + ("the run's change is held back; the published record is unchanged." if q.get("held_back")
                              else "the run's checked corrections are merged; this point about a published value is open."),
@@ -2287,6 +2337,7 @@ def main(argv=None):
     s.add_argument("--days", type=int)
     s.add_argument("--limit", type=int, default=25, help="refresh: records taken from the queue")
     s.add_argument("--group-size", type=int, default=10)
+    s.add_argument("--leads", help="discover: follow up only these leads, a JSON file {\"leads\": [{\"lead\", \"cell\", \"seen_in\", \"url\"}]}")
     s = sub.add_parser("status")
     s.add_argument("--run", required=True)
     s = sub.add_parser("stage", help="record the tool and model of a stage")
