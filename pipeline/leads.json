@@ -1,0 +1,38 @@
+{
+ "about": "Leads for the pipeline: instruments suggested in GitHub issues and accepted by a maintainer, and leads a maintainer added with `pipeline.py leads --add`. `pipeline.py new --type discover --leads pipeline/leads.json` takes the queued ones. Written by tools/pipeline.py intake and leads.",
+ "leads": [
+  {
+   "id": "L001",
+   "lead": "Florida HB 919 (2024), Artificial Intelligence Use in Political Advertising",
+   "cell": "US-FL/legislature",
+   "url": "https://www.flsenate.gov/Session/Bill/2024/919",
+   "seen_in": "https://ai-law-center.orrick.com/florida/",
+   "why": "Disclosure of AI-generated content in political advertising; listed as in effect in a law-firm tracker.",
+   "state": "queued",
+   "added_by": "Michael Riegler",
+   "added": "2026-10-14"
+  },
+  {
+   "id": "L002",
+   "lead": "Florida SB 1680 (2024), Advanced Technology",
+   "cell": "US-FL/legislature",
+   "url": "https://www.flsenate.gov/Session/Bill/2024/1680",
+   "seen_in": "https://ai-law-center.orrick.com/florida/",
+   "why": "Creates the Government Technology Modernization Council on AI and other technologies; listed in a law-firm tracker for AI-generated child sexual abuse material.",
+   "state": "queued",
+   "added_by": "Michael Riegler",
+   "added": "2026-10-14"
+  },
+  {
+   "id": "L003",
+   "lead": "Florida CS/CS/SB 262 (2023), technology transparency (Florida Digital Bill of Rights), Laws of Florida ch. 2023-201",
+   "cell": "US-FL/legislature",
+   "url": "https://laws.flrules.org/2023/201",
+   "seen_in": "https://ai-law-center.orrick.com/florida/",
+   "why": "Listed in a law-firm tracker for automated decision-making; mainly a privacy and technology-transparency law, so the run decides scope against pipeline/scope-decisions.md.",
+   "state": "queued",
+   "added_by": "Michael Riegler",
+   "added": "2026-10-14"
+  }
+ ]
+}
