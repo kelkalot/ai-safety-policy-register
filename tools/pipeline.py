@@ -713,8 +713,18 @@ def html_text(path):
     return "\n".join(out).strip(), None, "html"
 
 
+def garbled_share(pages):
+    """Share of non-space characters that are control, unassigned or private-use code points: near 0 for real text,
+    high when a PDF's font encoding defeats the extractor (pypdf then returns shifted or random characters)."""
+    import unicodedata
+    chars = [ch for ch in "".join(pages) if not ch.isspace()]
+    bad = sum(1 for ch in chars if unicodedata.category(ch) in ("Cc", "Cn", "Co") or ch == "\ufffd")
+    return bad / len(chars) if chars else 0.0
+
+
 def pdf_text(path, ocr_lang, ocr_pages=60):
-    """Text of a PDF with [page N] markers: pypdf, else pdftotext; OCR with tesseract when it is a scan."""
+    """Text of a PDF with [page N] markers: pypdf, else pdftotext (also when pypdf's text is garbled);
+    OCR with tesseract when it is a scan."""
     pages, method, warning, n_pages = [], None, None, 0
     try:
         import pypdf
@@ -725,15 +735,18 @@ def pdf_text(path, ocr_lang, ocr_pages=60):
         n_pages, method = len(pages), "pypdf"
     except Exception:
         pages = []
-    if not pages and shutil.which("pdftotext"):
+    garbled = pages and garbled_share(pages) > 0.05
+    if (not pages or garbled) and shutil.which("pdftotext"):
         try:
             out = subprocess.run(["pdftotext", "-layout", str(path), "-"], capture_output=True, timeout=300)
-            pages = out.stdout.decode("utf-8", "replace").split("\f")
-            if pages and not pages[-1].strip():
-                pages = pages[:-1]
-            n_pages, method = len(pages), "pdftotext"
+            alt = out.stdout.decode("utf-8", "replace").split("\f")
+            if alt and not alt[-1].strip():
+                alt = alt[:-1]
+            if alt and (not pages or garbled_share(alt) < garbled_share(pages)):
+                pages, n_pages = alt, len(alt)
+                method = "pdftotext (pypdf's text was garbled)" if garbled else "pdftotext"
         except Exception:
-            pages = []
+            pass
     if not pages:
         return "", 0, None, "no PDF text extractor worked (install pypdf, or poppler's pdftotext)"
     chars = sum(len(p.strip()) for p in pages)
@@ -965,10 +978,15 @@ def check_item(index, cid, item, record_id=None):
     if kind in ("official", "alt-official"):
         role, url = index.file_info(cid, record_id).get(path, (None, None))
         host = url_host(url)
-        if role in SECONDARY_ROLES:
+        is_official = official_host(host, index.code_for(cid, record_id), index.frame_hosts, index.rejected_hosts)
+        if role in SECONDARY_ROLES and is_official and kind == "official":
+            warnings.append("%s was stored as the record's secondary source; from an official host it counts as "
+                            "another official source (alt-official), not as the official one" % path)
+            kind = "alt-official"
+        elif role in SECONDARY_ROLES and not is_official:
             warnings.append("%s was stored as a secondary source, so it counts as secondary, not %s" % (path, kind))
             kind = "secondary"
-        elif not official_host(host, index.code_for(cid, record_id), index.frame_hosts, index.rejected_hosts):
+        elif not is_official:
             warnings.append("host %s is not recognised as official, so this quote counts as secondary; if the host is "
                             "official, a human records it with tools/pipeline.py hosts --add" % (host or "(unknown)"))
             kind = "secondary"
