@@ -36,7 +36,7 @@ The run ID and candidate IDs. For each: `runs/<run-id>/extractions/<cand-id>.jso
  "overall": "accept | accept-with-fixes | needs-human | reject", "note": "one paragraph for the report"}
 ```
 
-Give every factual field a verdict: `supported`, `unsupported`, `contradicted` or `judgment-differs` (for summary wording, topics and similar, where you would have chosen differently but the extractor's choice is defensible). `reject` is for records that should not be in the register at all (out of scope, not an official instrument, a duplicate). What happens next is mechanical: a field you mark `contradicted` or `unsupported` without a fix whose quotes the evidence script can find, or an unsupported summary claim, sends the record to a human instead of the register.
+Give every factual field the record sets or confirms a verdict, and check at least one summary claim of a new record; `assemble` sends a record whose check leaves a field without a verdict to a human. Verdicts: `supported`, `unsupported`, `contradicted` or `judgment-differs` (for summary wording, topics and similar, where you would have chosen differently but the extractor's choice is defensible). `reject` is for records that should not be in the register at all (out of scope, not an official instrument, a duplicate). What happens next is mechanical: a field you mark `contradicted` or `unsupported` without a fix whose quotes the evidence script can find, or an unsupported summary claim, sends the record to a human instead of the register.
 
 ## Done when
 

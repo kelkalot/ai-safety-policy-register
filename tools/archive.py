@@ -43,6 +43,7 @@ import datetime as dt
 import gzip
 import hashlib
 import html
+import ipaddress
 import json
 import re
 import socket
@@ -262,10 +263,36 @@ def describe_network_error(exc):
     return "Connection failed: %s" % s, "network"
 
 
+# In pipeline run mode the archiver downloads URLs that agents supplied. It then fetches only public sites,
+# so a page that misleads an agent cannot make the archiver read this machine or the local network.
+PUBLIC_ONLY = False
+
+
+def is_public_url(url):
+    """False when the URL's host resolves to a loopback, private, link-local or otherwise non-public address."""
+    host = urllib.parse.urlsplit(url).hostname
+    if not host:
+        return False
+    try:
+        infos = socket.getaddrinfo(host, None)
+    except (socket.gaierror, UnicodeError):
+        return True  # cannot resolve: the download fails on its own and is reported as a DNS error
+    for info in infos:
+        try:
+            ip = ipaddress.ip_address(info[4][0].split("%")[0])
+        except ValueError:
+            return False
+        if ip.is_private or ip.is_loopback or ip.is_link_local or ip.is_reserved or ip.is_multicast or ip.is_unspecified:
+            return False
+    return True
+
+
 class _Redirects(urllib.request.HTTPRedirectHandler):
     """Follow HTTP 308 like 307. Python before 3.11 treats 308 as an error."""
 
     def redirect_request(self, req, fp, code, msg, headers, newurl):
+        if PUBLIC_ONLY and not is_public_url(newurl):
+            raise urllib.error.HTTPError(newurl, code, "redirect to a local or private address refused", headers, fp)
         return super().redirect_request(req, fp, 307 if code == 308 else code, msg, headers, newurl)
 
     def http_error_308(self, req, fp, code, msg, headers):
@@ -382,6 +409,9 @@ class Fetcher:
             return Result(url, False, error="The URL is malformed (%s)" % e, code="bad-url")
         if not url.lower().startswith(("http://", "https://")):
             return Result(url, False, error="Not an http(s) URL", code="bad-url")
+        if PUBLIC_ONLY and not is_public_url(url):
+            return Result(url, False, error="Refused: the address is local or private, and pipeline runs fetch only public sites",
+                          code="private-host")
         if self.respect_robots:
             rp, note, rcode = self._robots_for(url)
             if not rp.can_fetch(AGENT_TOKEN, url):
@@ -695,7 +725,7 @@ def run_http(job, fetcher, args):
             job.official_error = res.error or ("HTTP %s" % res.status)
             for key in [k for k in job.prev_files if k.startswith(("official", "document-"))]:
                 job.keep_previous(key, job.official_error)
-            job.need_browser = res.code not in ("robots", "bad-url", "dns", "timeout")
+            job.need_browser = res.code not in ("robots", "bad-url", "dns", "timeout", "private-host")
     sec = rec.get("secondary_url")
     if sec and not args.no_secondary:
         r3 = fetcher.get(sec)
@@ -734,6 +764,9 @@ class BrowserFetcher:
 
     def get(self, url):
         url = iri_to_uri(url)
+        if PUBLIC_ONLY and not is_public_url(url):
+            return Result(url, False, error="Refused: the address is local or private", code="private-host",
+                          method="browser"), None
         page = self.ctx.new_page()
         try:
             try:
@@ -1034,6 +1067,8 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description="Download local copies of the register's sources and flag failures.")
     ap.add_argument("--only", help="comma-separated record IDs or slugs, e.g. EU-01,US-07 (with --run: candidate IDs)")
     ap.add_argument("--run", help="store the sources of a pipeline run's candidates (runs/<RUN>/candidates.json)")
+    ap.add_argument("--allow-private-hosts", action="store_true",
+                    help="with --run: also fetch local and private addresses (only for tests against a local test site)")
     ap.add_argument("--status", help="only records whose local status is one of these, e.g. failed,partial,not-attempted")
     ap.add_argument("--pdfs", type=int, default=2, help="max linked PDFs to save per official page (default 2, 0 = none)")
     ap.add_argument("--no-secondary", action="store_true", help="do not download secondary URLs")
@@ -1060,6 +1095,8 @@ def main(argv=None):
         print("Records that need a decision: %d, listed in %s" % (todo, ATTENTION_FILE.relative_to(ROOT)))
         return 1 if n else 0
 
+    global PUBLIC_ONLY
+    PUBLIC_ONLY = bool(args.run) and not args.allow_private_hosts
     rd, where = None, {}
     if args.run:
         rd, recs, where = select_run(db, args)

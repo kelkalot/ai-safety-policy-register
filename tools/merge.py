@@ -181,6 +181,9 @@ def main(argv=None):
         print("WARNING  the pass has no 'provenance' entry (date, agent, model, scope); add one so the log stays complete")
     build.save(db)
     history.append(events)
+    if events:  # the app data and HISTORY.md show the history, so write them again with the new events
+        build.write_js(db)
+        build.write_history_md()
     print("Merged into data/records.json and rebuilt the data files (%d records)." % len(R))
     print("Appended %d event(s) to data/history.jsonl." % len(events))
     if touched:

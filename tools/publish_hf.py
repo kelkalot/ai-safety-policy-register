@@ -118,7 +118,8 @@ def tables(db, archive_repo_url):
         topics += [{"record_id": r["id"], "topic": t} for t in r.get("safety_topics") or []]
         related += [{"record_id": r["id"], "related_id": x["id"]} for x in r.get("related") or [] if x.get("id")]
         for f in (r.get("local_copy") or {}).get("files") or []:
-            published = bool(f.get("path")) and (ROOT / f["path"]).is_file() and not is_third_party(f)
+            present = bool(f.get("path")) and (ROOT / f["path"]).is_file()
+            published = present and not is_third_party(f)
             files.append({
                 "record_id": r["id"], "role": f.get("label") or f.get("role"), "path": f.get("path"),
                 "url": f.get("url"), "final_url": f.get("final_url"), "host": host_of(f),
@@ -128,6 +129,7 @@ def tables(db, archive_repo_url):
                 "in_archive_dataset": published,
                 "archive_url": "%s/blob/main/%s" % (archive_repo_url, f["path"]) if published else None,
                 "redacted": False, "published_sha256": f.get("sha256") if published else None, "redaction_note": None,
+                "_missing": not present,
             })
     plan = redaction_plan(files)
     for row in files:
@@ -180,7 +182,9 @@ def stats(db, files):
         "n": len(R), "A": lv["A"], "B": lv["B"], "C": lv["C"], "binding": force["Binding"],
         "nonbinding": force["Non-binding"], "proposed": force["Proposed"], "countries": len(countries),
         "states": len(states), "intl": intl, "files": len(files), "pub_files": len(pub),
-        "pub_mb": sum(f["bytes"] or 0 for f in pub) / 1e6, "excluded": len(files) - len(pub),
+        "pub_mb": sum(f["bytes"] or 0 for f in pub) / 1e6,
+        "missing": sum(1 for f in files if f.get("_missing")),
+        "excluded": sum(1 for f in files if not f["in_archive_dataset"] and not f.get("_missing")),
         "redacted": sum(1 for f in files if f.get("redacted")),
         "with_copy": sum(1 for r in R if (r.get("local_copy") or {}).get("status") == "archived"),
         "years": "%s to %s" % (min(r["date_published"][:4] for r in R if r.get("date_published")),
@@ -233,10 +237,8 @@ configs:
   data_files: data/related.parquet
 - config_name: source_files
   data_files: data/source_files.parquet
-- config_name: history
-  data_files: data/history.parquet
----
-""" % PRETTY_NAME
+%s---
+""" % (PRETTY_NAME, "- config_name: history\n  data_files: data/history.parquet\n" if st.get("n_history") else "")
     body = """
 # {pretty}
 
@@ -296,8 +298,7 @@ df.groupby(["region", "legal_force"]).size().unstack(fill_value=0)
 | `topics` | {n_topics} | instrument and safety topic |
 | `related` | {n_related} | link between two records |
 | `source_files` | {files} | stored copy of a source, with URL, hash, retrieval time and a link into the archive dataset; `redacted` marks the few published copies in which a live access token embedded by the source site was replaced |
-| `history` | {n_history} | event in a record's history: added, a field changed, re-verified without change, checked by a human, a scope decision; `old`, `new` and `evidence` are JSON text. `HISTORY.md` is the readable version |
-
+{history_row}
 `raw/records.json` is the full nested source of truth, with the complete verification and local-copy history of each record. `raw/records.csv` and `raw/register.xlsx` hold the same records for spreadsheets.
 
 ### Fields of `records`
@@ -352,7 +353,10 @@ Open a discussion on this dataset naming the record ID and the official source t
 """.format(pretty=PRETTY_NAME, space=space_url, archive=archive_url, ns=ns, name=name,
            snapshot=meta.get("snapshot_date"), version=meta.get("version"), github=github_url,
            bibtex=bibtex(meta, repo_url), authors=authors, affiliation=AFFILIATION,
-           nocopy=st["n"] - st["with_copy"], **st)
+           nocopy=st["n"] - st["with_copy"],
+           history_row=("| `history` | %d | event in a record's history: added, a field changed, re-verified without change, "
+                        "checked by a human, a scope decision; `old`, `new` and `evidence` are JSON text. `HISTORY.md` is the "
+                        "readable version |\n" % st["n_history"]) if st.get("n_history") else "", **st)
     return yaml + body
 
 
@@ -462,14 +466,16 @@ def build_all(out, ns, name, github_url):
     write_parquet(records, ds / "data" / "records.parquet", sch["records"])
     write_parquet(topics, ds / "data" / "topics.parquet", sch["topics"])
     write_parquet(related, ds / "data" / "related.parquet", sch["related"])
-    write_parquet(files, ds / "data" / "source_files.parquet", sch["source_files"])
+    write_parquet([{k: v for k, v in f.items() if k != "_missing"} for f in files], ds / "data" / "source_files.parquet",
+                  sch["source_files"])
     hist = []
     for e in history.load():
         row = {k: e.get(k) for k in history.KEYS}
         for k in ("old", "new", "evidence"):
             row[k] = None if row[k] is None else (row[k] if isinstance(row[k], str) else json.dumps(row[k], ensure_ascii=False))
         hist.append(row)
-    write_parquet(hist, ds / "data" / "history.parquet", sch["history"])
+    if hist:  # no history table until the first pipeline run has written events
+        write_parquet(hist, ds / "data" / "history.parquet", sch["history"])
     (ds / "raw").mkdir()
     for f in ("records.json", "records.csv", "register.xlsx", "history.jsonl"):
         if (ROOT / "data" / f).is_file():
@@ -499,6 +505,7 @@ def build_all(out, ns, name, github_url):
     for folder, entries in by_dir.items():
         lines = sorted(set("%s  %s" % e for e in entries), key=lambda l: l.split("  ", 1)[1])
         (folder / "SHA256SUMS").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    ar.mkdir(parents=True, exist_ok=True)  # also in a clone without stored documents
     card, lic = archive_card(st, ns, name)
     if plan:
         rows = ["| File | Original SHA-256 | Published SHA-256 | What was replaced |", "|---|---|---|---|"]
@@ -575,7 +582,13 @@ def main(argv=None):
     out = Path(args.out)
     st = build_all(out, args.namespace, args.name, args.github)
     print("Built %s: %d records; archive %d of %d stored files (%.0f MB), %d third-party copies left out, "
-          "%d with access tokens replaced." % (out, st["n"], st["pub_files"], st["files"], st["pub_mb"], st["excluded"], st["redacted"]))
+          "%d with access tokens replaced, %d missing on this machine." % (out, st["n"], st["pub_files"], st["files"],
+                                                                          st["pub_mb"], st["excluded"], st["redacted"], st["missing"]))
+    only = [x.strip() for x in args.only.split(",") if x.strip()]
+    if args.push and "archive" in only and st["missing"]:
+        # the archive upload deletes remote files that are not present here, so a clone without archive/ would empty it
+        raise SystemExit("Not uploading the archive: %d stored files are missing on this machine. Publish the archive only "
+                         "from the machine that holds archive/, or leave it out with --only dataset,space." % st["missing"])
     if args.push:
         push(out, args.namespace, args.name, args.private, [x.strip() for x in args.only.split(",") if x.strip()],
              squash_archive=args.squash_archive)

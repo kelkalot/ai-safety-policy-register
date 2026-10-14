@@ -54,6 +54,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import build  # noqa: E402
 import history  # noqa: E402
+import publish_hf  # noqa: E402  (its list of third-party hosts)
 import validate  # noqa: E402
 
 ROOT = build.ROOT
@@ -80,6 +81,13 @@ IN_FORCE = {"In force", "Partially in force"}
 ENDED = {"Superseded", "Revoked / withdrawn", "Lapsed"}
 CURRENT = IN_FORCE | ENDED | {"Published (non-binding, current)"}  # statuses a passed in-force date does not contradict
 QUOTE_MAX = 300
+QUOTE_MIN_ALNUM = 8   # a quote needs at least this many letters or digits to identify a passage ("2026" is not enough)
+# Which stored files can count as official evidence. The archiver sets a file's role; an agent only labels its quotes,
+# so a label is capped by the role and by the host the file came from.
+SECONDARY_ROLES = {"secondary"}
+GOV_HOST = re.compile(r"\.(gov|mil|int)$|(^|\.)(gov|gob|gouv|govt|gv|go|gub|mil|admin|gc)\.[a-z]{2,3}$"
+                      r"|(^|\.)(europa\.eu|un\.org|unesco\.org|oecd\.org|oecd\.ai|wto\.org|asean\.org)$")
+NOT_OFFICIAL_HOSTS = set(publish_hf.THIRD_PARTY_HOSTS)
 SUMMARY_MIN, SUMMARY_MAX = 250, 700
 TOPICS_MIN, TOPICS_MAX = 2, 6
 STALE_DAYS = 180
@@ -792,6 +800,25 @@ class TextIndex:
         self.texts = {t["file"]: t for t in (read_json(d / "texts.json", {}) or {}).get("files") or []}
         self.records = {r["id"]: r for r in db["records"]}
         self._cache = {}
+        self.cells = {c["cand_id"]: c.get("cell") for c in candidates(d)}
+        self.frame_hosts = {j["code"]: j.get("known_hosts") or [] for j in (load_frame().get("jurisdictions") or [])}
+
+    def file_info(self, cid, record_id=None):
+        """path -> (archive role, URL it came from) for every file a candidate may quote."""
+        out = {p: (role, url) for p, _, role, url in stored_files(self.sources, cid)}
+        rid = record_id or (self.sources.get(cid) or {}).get("record_id")
+        if rid and rid in self.records:
+            for f in (self.records[rid].get("local_copy") or {}).get("files") or []:
+                if f.get("path"):
+                    out.setdefault(f["path"], (f.get("role"), f.get("final_url") or f.get("url")))
+        return out
+
+    def code_for(self, cid, record_id=None):
+        cell = self.cells.get(cid) or ""
+        if "/" in cell:
+            return cell.split("/")[0]
+        rid = record_id or (self.sources.get(cid) or {}).get("record_id") or cid
+        return re.sub(r"-\d+$", "", rid or "")
 
     def files_for(self, cid, record_id=None):
         out = {p: digest for p, digest, _, _ in stored_files(self.sources, cid)}
@@ -820,6 +847,24 @@ class TextIndex:
                     pages[0] = raw
                 self._cache[path] = {k: (norm_text(v), loose(v)) for k, v in pages.items()}
         return self._cache[path]
+
+
+def url_host(url):
+    return (urllib.parse.urlsplit(url or "").hostname or "").lower()
+
+
+def official_host(host, code, frame_hosts):
+    """A host counts as official when it is a government domain, or one of the jurisdiction's known_hosts in
+    pipeline/frame.json, and not a known third-party site. Humans add hosts to known_hosts after checking them."""
+    if not host or host in NOT_OFFICIAL_HOSTS or ("www." + host) in NOT_OFFICIAL_HOSTS:
+        return False
+    if GOV_HOST.search(host):
+        return True
+    for h in frame_hosts.get(code) or []:
+        h = h.lower()
+        if host == h or host.endswith("." + h) or h.endswith("." + host.replace("www.", "", 1)):
+            return True
+    return False
 
 
 def check_item(index, cid, item, record_id=None):
@@ -852,6 +897,9 @@ def check_item(index, cid, item, record_id=None):
         return False, kind, problems, warnings
     if len(quote) > QUOTE_MAX:
         warnings.append("quote is %d characters (limit %d)" % (len(quote), QUOTE_MAX))
+    if len(loose(quote)) < QUOTE_MIN_ALNUM:
+        problems.append("quote %r is too short to identify a passage (at least %d letters or digits)" % (quote, QUOTE_MIN_ALNUM))
+        return False, kind, problems, warnings
     pages = index.pages(path)
     if pages is None:
         problems.append("no text for %s; run textify" % path)
@@ -870,6 +918,16 @@ def check_item(index, cid, item, record_id=None):
     m = re.search(r"\bp(?:age|\.|p\.)?\s*(\d+)", item.get("locator") or "", re.I)
     if m and 0 not in pages and int(m.group(1)) not in found:
         warnings.append("quote is on page %s, not %s" % (", ".join(map(str, found[:3])), m.group(1)))
+    if kind in ("official", "alt-official"):
+        role, url = index.file_info(cid, record_id).get(path, (None, None))
+        host = url_host(url)
+        if role in SECONDARY_ROLES:
+            warnings.append("%s was stored as a secondary source, so it counts as secondary, not %s" % (path, kind))
+            kind = "secondary"
+        elif not official_host(host, index.code_for(cid, record_id), index.frame_hosts):
+            warnings.append("host %s is not recognised as official, so this quote counts as secondary; if the host is "
+                            "official, a human adds it to known_hosts in pipeline/frame.json" % (host or "(unknown)"))
+            kind = "secondary"
     return not problems, kind, problems, warnings
 
 
@@ -1326,6 +1384,19 @@ def cmd_assemble(args):
         for claim in ch.get("summary_claims") or []:
             if claim.get("verdict") in ("unsupported", "contradicted"):
                 blockers.append("summary claim %s: %r" % (claim["verdict"], (claim.get("claim") or "")[:80]))
+        # a check counts only when it covers every factual field the record sets or confirms
+        is_update = dec == "update" or bool(c.get("record_id"))
+        need = [k for k in FACT_FIELDS if (ex.get("record") or {}).get(k) is not None]
+        if is_update:
+            need += [k for k in ((ex.get("judgment") or {}).get("confirmed") or []) if k in FACT_FIELDS]
+            need += [k for k in LEVEL_FIELDS if (by.get(target) or {}).get(k) is not None]
+        verdicts = ch.get("fields") or {}
+        missing = [k for k in dict.fromkeys(need) if (verdicts.get(k) or {}).get("verdict") not in VERDICTS]
+        if missing:
+            blockers.append("the checker gave no verdict for %s" % ", ".join(missing))
+        new_summary = (ex.get("record") or {}).get("summary") is not None
+        if new_summary and not [x for x in ch.get("summary_claims") or [] if x.get("verdict") in VERDICTS]:
+            blockers.append("the checker checked no claim of the summary")
         ev = evaluate(index, cid, dict(ex, record=rec, evidence=evidence), db)
         blockers += ev["errors"]
         if blockers:
@@ -1566,6 +1637,8 @@ def cmd_log_human(args):
         raise SystemExit("--result is ok or problem")
     history.append([history.event(args.id, "human-checked", run_id=args.run, new="%s: %s" % (args.result, args.note or ""),
                                   tool="human", model=args.by)])
+    build.write_js(build.normalise(db))
+    build.write_history_md()
     print("Logged a human check of %s (%s)." % (args.id, args.result))
     if args.result == "problem":
         print("Fix it with a refresh run: python3 tools/pipeline.py new --type refresh --scope ids:%s" % args.id)
@@ -1583,6 +1656,8 @@ def cmd_log_scope(args):
                                                    args.note.rstrip(".") + ".", args.by or "Maintainer", today())
     with open(SCOPE_DECISIONS, "a", encoding="utf-8") as f:
         f.write(line)
+    build.write_js(build.normalise(db))
+    build.write_history_md()
     print("Logged the scope decision and added it to pipeline/scope-decisions.md.")
     if args.decision == "out":
         print("Records are never deleted: give the record a status and a note in a refresh run, or keep it with a scope note.")
