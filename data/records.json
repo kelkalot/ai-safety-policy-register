@@ -1,7 +1,7 @@
 {
  "meta": {
   "name": "AI Safety Policy Register",
-  "version": "1.6",
+  "version": "1.7",
   "snapshot_date": "2026-10-12",
   "record_count": 340,
   "scope": "Official governmental and intergovernmental AI safety and AI regulation instruments (core safety + regulation), global coverage.",
@@ -83,6 +83,31 @@
      "model": "claude-fable-5-1",
      "scope": "five regional passes in parallel (EU south and west, EU east and north, Americas, Gulf and Africa, Asia)",
      "records_added": 55
+    },
+    {
+     "date": "2026-10-14",
+     "agent": "Claude Code",
+     "model": "claude-opus-5-5",
+     "run_id": "2026-10-14-issue-2-scope-notes",
+     "scope": "issue #2: scope_note for 13 borderline records, caveats moved out of notes",
+     "records_added": 0,
+     "ids": [],
+     "ids_updated": [
+      "SA-04",
+      "CN-12",
+      "GB-05",
+      "EU-05",
+      "CN-04",
+      "US-MT-01",
+      "CA-08",
+      "INT-06",
+      "INT-19",
+      "GB-10",
+      "NO-03",
+      "NZ-02",
+      "US-26"
+     ],
+     "history_events": 26
     }
    ]
   }
@@ -711,7 +736,7 @@
      "id": "INT-01"
     }
    ],
-   "notes": "The original 16 signatories were Amazon, Anthropic, Cohere, Google, G42, IBM, Inflection AI, Meta, Microsoft, Mistral AI, Naver, OpenAI, Samsung Electronics, Technology Innovation Institute, xAI and Zhipu.ai. Magic, Minimax, 01.ai and NVIDIA were added on 7 Feb 2025, making 20. Signatories committed to publish safety frameworks before the Paris AI Action Summit (Feb 2025). These are company commitments, included because governments published and brokered them.",
+   "notes": "The original 16 signatories were Amazon, Anthropic, Cohere, Google, G42, IBM, Inflection AI, Meta, Microsoft, Mistral AI, Naver, OpenAI, Samsung Electronics, Technology Innovation Institute, xAI and Zhipu.ai. Magic, Minimax, 01.ai and NVIDIA were added on 7 Feb 2025, making 20. Signatories committed to publish safety frameworks before the Paris AI Action Summit (Feb 2025).",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -792,7 +817,8 @@
      }
     ],
     "integrity_flag": null
-   }
+   },
+   "scope_note": "Commitments made by AI companies, not by governments; included because governments brokered and published them."
   },
   {
    "id": "INT-07",
@@ -5965,7 +5991,7 @@
      "id": "EU-03"
     }
    ],
-   "notes": "Adopted 23 Oct 2024. Published in OJ L on 18 Nov 2024. In force 8 Dec 2024. Member States must transpose it by 9 Dec 2026, and it applies to products placed on the market from 9 Dec 2026; Directive 85/374/EEC continues to govern products placed on the market before then. Not AI-specific, but included because it is the EU's operative liability instrument for AI after the AI Liability Directive proposal was withdrawn.",
+   "notes": "Adopted 23 Oct 2024. Published in OJ L on 18 Nov 2024. In force 8 Dec 2024. Member States must transpose it by 9 Dec 2026, and it applies to products placed on the market from 9 Dec 2026; Directive 85/374/EEC continues to govern products placed on the market before then.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -6128,7 +6154,8 @@
      }
     ],
     "integrity_flag": null
-   }
+   },
+   "scope_note": "Not AI-specific; included as the EU's operative liability instrument for AI after the AI Liability Directive proposal was withdrawn."
   },
   {
    "id": "EU-06",
@@ -10184,7 +10211,7 @@
      "id": "CA-07"
     }
    ],
-   "notes": "First reading 10 June 2026; LEGISinfo shows the bill awaiting second reading in the House of Commons with no debate yet (checked 11 Oct 2026). Included because it directly regulates AI chatbots and synthetic content; it is not a general AI law.",
+   "notes": "First reading 10 June 2026; LEGISinfo shows the bill awaiting second reading in the House of Commons with no debate yet (checked 11 Oct 2026).",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -10265,7 +10292,8 @@
      }
     ],
     "integrity_flag": null
-   }
+   },
+   "scope_note": "An online-safety bill rather than a general AI law; included because it regulates AI chatbots and synthetic content directly."
   },
   {
    "id": "CL-01",
@@ -10907,7 +10935,7 @@
      "id": "CN-15"
     }
    ],
-   "notes": "Signed 7 Sept 2023, published 8–10 Oct 2023, effective 1 Dec 2023 (Art. 56). Not AI-specific; included because of its AI-related review list and because it is the parent framework for the AI-specific ethics measures of March 2026.",
+   "notes": "Signed 7 Sept 2023, published 8–10 Oct 2023, effective 1 Dec 2023 (Art. 56).",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -10983,7 +11011,8 @@
      }
     ],
     "integrity_flag": null
-   }
+   },
+   "scope_note": "Not AI-specific; included for its AI-related review list and as the parent framework of the AI-specific ethics measures of March 2026."
   },
   {
    "id": "CN-05",
@@ -11892,7 +11921,7 @@
      "id": "CN-13"
     }
    ],
-   "notes": "Signed 21 Aug 2025 and published 27 Aug 2025. Borderline inclusion: we included it because it is the current flagship national AI policy with dedicated sections on safety and law/ethics (sections 13–14), but safety is a minority of the text (roughly one-fifth). The NDRC coordinates implementation.",
+   "notes": "Signed 21 Aug 2025 and published 27 Aug 2025. The NDRC coordinates implementation.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -11973,7 +12002,8 @@
      }
     ],
     "integrity_flag": null
-   }
+   },
+   "scope_note": "A national AI development policy in which safety is a minority of the text, about one-fifth (sections 13 and 14 on safety, law and ethics); included as China's current flagship national AI policy."
   },
   {
    "id": "CN-13",
@@ -15706,7 +15736,7 @@
      "id": "NZ-01"
     }
    ],
-   "notes": "Published in July 2025, alongside the Responsible AI Guidance for Businesses. Safety and risk content is limited: it is mainly an adoption strategy. It is included as NZ's flagship policy that sets the country's light-touch approach (no standalone AI law). The fetched page did not explicitly state the 'existing laws' approach. The MBIE Digital Policy page shows 'Last updated: 22 October 2025'.",
+   "notes": "Published in July 2025, alongside the Responsible AI Guidance for Businesses. The fetched page did not explicitly state the 'existing laws' approach. The MBIE Digital Policy page shows 'Last updated: 22 October 2025'.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -15773,7 +15803,8 @@
      }
     ],
     "integrity_flag": null
-   }
+   },
+   "scope_note": "Mainly an adoption strategy with limited safety and risk content; included as the flagship policy that sets New Zealand's light-touch approach, with no standalone AI law."
   },
   {
    "id": "NZ-03",
@@ -16504,7 +16535,7 @@
      "id": "NO-01"
     }
    ],
-   "notes": "Proposed in the 2026 state budget (15 Oct 2025): NOK 10m for KI Norge plus NOK 20m for the sandbox, supervision and guidance. A director post was advertised on 11 Feb 2026 and KI Norge opened on 12 Jun 2026 under director Hans Christian Holte. It is not an AI safety institute and does not do frontier model evaluations. It is included as Norway's main new institutional vehicle for responsible AI and AI Act compliance support.",
+   "notes": "Proposed in the 2026 state budget (15 Oct 2025): NOK 10m for KI Norge plus NOK 20m for the sandbox, supervision and guidance. A director post was advertised on 11 Feb 2026 and KI Norge opened on 12 Jun 2026 under director Hans Christian Holte.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -16585,7 +16616,8 @@
      }
     ],
     "integrity_flag": null
-   }
+   },
+   "scope_note": "An AI adoption and AI Act guidance agency rather than an AI safety institute, with no frontier model evaluations; included as Norway's main new institution for responsible AI and AI Act compliance support."
   },
   {
    "id": "PK-01",
@@ -20661,7 +20693,7 @@
      "id": "GB-04"
     }
    ],
-   "notes": "Prepared by Matt Clifford and accepted by government; a separate 'Government Response' was published alongside it. Included because it is the current flagship policy and has a dedicated safety and regulation section, though its safety content is limited compared with its economic focus.",
+   "notes": "Prepared by Matt Clifford and accepted by government; a separate 'Government Response' was published alongside it.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -20774,7 +20806,8 @@
      }
     ],
     "integrity_flag": null
-   }
+   },
+   "scope_note": "Mainly an economic and adoption plan with a limited safety and regulation section; included as the UK's current flagship AI policy."
   },
   {
    "id": "GB-06",
@@ -21334,7 +21367,7 @@
      "id": "GB-04"
     }
    ],
-   "notes": "First reading 8 Sep 2026; second reading provisionally scheduled for 13 Nov 2026. It is a backbench bill without government support, so it is very unlikely to become law. It is included as a marker of parliamentary pressure. Secondary reporting describes a 11 Sep 2026 cross-party letter from about 70 MPs and peers to Prime Minister Andy Burnham calling for an international superintelligence ban; that letter was not verified on an official site. No government AI bill had been introduced as of October 2026.",
+   "notes": "First reading 8 Sep 2026; second reading provisionally scheduled for 13 Nov 2026. It is a backbench bill without government support, so it is very unlikely to become law. Secondary reporting describes a 11 Sep 2026 cross-party letter from about 70 MPs and peers to Prime Minister Andy Burnham calling for an international superintelligence ban; that letter was not verified on an official site. No government AI bill had been introduced as of October 2026.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -21394,7 +21427,8 @@
       "method": "browser"
      }
     ]
-   }
+   },
+   "scope_note": "A backbench private member's bill without government support, very unlikely to become law; included as a marker of parliamentary pressure on superintelligence."
   },
   {
    "id": "US-01",
@@ -24594,7 +24628,7 @@
      "id": "US-22"
     }
    ],
-   "notes": "Signed 29 Sep 2026; published 2 Oct 2026. It does not require changes to existing regulations, contracts or prior presidential actions. The legislative definition proposal is due about 28 Nov 2026. Consequences: NIST now presents CAISI as the 'Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)', and the White House refers to a 'National Super Intelligence Policy Framework'. It was signed the same day the White House and six frontier AI companies announced the 'Joint Commitment on Frontier Responsibilities'. Included for its governance relevance (terminology and a forthcoming statutory definition), not for safety content.",
+   "notes": "Signed 29 Sep 2026; published 2 Oct 2026. It does not require changes to existing regulations, contracts or prior presidential actions. The legislative definition proposal is due about 28 Nov 2026. Consequences: NIST now presents CAISI as the 'Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)', and the White House refers to a 'National Super Intelligence Policy Framework'. It was signed the same day the White House and six frontier AI companies announced the 'Joint Commitment on Frontier Responsibilities'.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -24748,7 +24782,8 @@
      }
     ],
     "integrity_flag": null
-   }
+   },
+   "scope_note": "Sets terminology for superintelligence and asks for a statutory definition rather than safety rules; included for its governance relevance."
   },
   {
    "id": "US-27",
@@ -31285,7 +31320,7 @@
      "slug": "international-network-ai-safety-institutes"
     }
    ],
-   "notes": "The communiqué is dated 26 August 2026, Sydney, and was published on GOV.UK on 28 August 2026. Included because it is the first Five Eyes ministerial text to address frontier-model access and scrutiny, complementing the June 2026 US executive order on frontier AI and cybersecurity (US-23). It is a political statement of interior ministers rather than an AI instrument, and the criteria for models requiring 'additional government scrutiny' are not published.",
+   "notes": "The communiqué is dated 26 August 2026, Sydney, and was published on GOV.UK on 28 August 2026. The criteria for models requiring 'additional government scrutiny' are not published; the communiqué complements the June 2026 US executive order on frontier AI and cybersecurity (US-23).",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -31368,7 +31403,8 @@
      }
     ],
     "integrity_flag": null
-   }
+   },
+   "scope_note": "A communiqué of interior ministers with one section on AI and national security, not an AI instrument; included as the first Five Eyes ministerial text on access to frontier models and their scrutiny."
   },
   {
    "id": "INT-20",
@@ -33328,7 +33364,7 @@
      "slug": "us-nist-ai-rmf"
     }
    ],
-   "notes": "The introduced bill's title referred to requiring shutdowns of AI-controlled critical infrastructure; a shutdown mandate is not in the enacted sections, which keep only the risk-management-policy duty. Included because it contains a critical-infrastructure AI risk-management obligation; it otherwise limits rather than imposes regulation. Signed 16 Apr 2025 and assigned chapter number 150 the next day per the Montana Free Press tracker. Montana acts without an effective-date clause take effect on 1 October after passage; SB 212's text was not checked for such a clause, so date_in_force is left empty.",
+   "notes": "The introduced bill's title referred to requiring shutdowns of AI-controlled critical infrastructure; a shutdown mandate is not in the enacted sections, which keep only the risk-management-policy duty. Signed 16 Apr 2025 and assigned chapter number 150 the next day per the Montana Free Press tracker. Montana acts without an effective-date clause take effect on 1 October after passage; SB 212's text was not checked for such a clause, so date_in_force is left empty.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -33411,7 +33447,8 @@
      }
     ],
     "integrity_flag": null
-   }
+   },
+   "scope_note": "Mainly limits the regulation of computing; included for its one critical-infrastructure AI risk-management obligation."
   },
   {
    "id": "VN-03",
@@ -35478,7 +35515,7 @@
      "id": "SA-01"
     }
    ],
-   "notes": "Scope caveat: despite its title the draft concerns the legal regime for hosting foreign data and advanced-technology services in Saudi data centres rather than AI safety rules; it is kept because it is the Kingdom's first draft statute with 'AI' in its title and bears on where frontier systems may be hosted. Despite its title the draft concerns the legal regime for hosting foreign data and advanced-technology services in Saudi data centres rather than AI safety rules. No adoption, royal decree or gazette publication was found as of October 2026, so the instrument is recorded as a draft.",
+   "notes": "No adoption, royal decree or gazette publication was found as of October 2026, so the instrument is recorded as a draft.",
    "verification": {
     "level": "A",
     "verified_on": "2026-10-11",
@@ -35537,7 +35574,8 @@
      }
     ],
     "integrity_flag": null
-   }
+   },
+   "scope_note": "A draft law on hosting foreign data and advanced-technology services in Saudi data centres rather than on AI safety; included as the Kingdom's first draft statute with 'AI' in its title, which bears on where frontier AI systems may be hosted."
   },
   {
    "id": "EG-01",

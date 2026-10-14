@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "Bash(python3 tools/pipeline.py *)",
+      "Bash(python3 tools/archive.py *)",
+      "Bash(python3 tools/merge.py *)",
+      "Bash(python3 tools/build.py)",
+      "Bash(python3 tools/validate.py *)",
+      "Bash(python3 tools/history.py *)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(git checkout -b run/*)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ],
+    "deny": [
+      "Bash(git push)",
+      "Bash(git push *)",
+      "Bash(python3 tools/publish_hf.py *)",
+      "Bash(python3 tools/package.py *)",
+      "Bash(python3 tools/archive.py *--ignore-robots*)",
+      "Bash(python3 tools/archive.py *--allow-private-hosts*)"
+    ]
+  }
+}

@@ -1,148 +1,268 @@
 # AGENTS.md
 
-Instructions for people and AI agents who work on this repository. Read it before changing anything. It says how the data was made, what its limits are, and how to extend or re-check it with the same method.
+Instructions for people and AI agents who work on this repository. Read it before changing anything. It says how the data is made, what its limits are, and how to extend or re-check it with the same method. Claude Code and Codex both read this file automatically when they are started in the repository; section 8 says how to run the pipeline with either of them.
 
-## 1. What this is and how the data was made
+## 1. What this is and how the data is made
 
 The AI Safety Policy Register is a database of official governmental and intergovernmental instruments on AI safety and AI regulation. The data is `data/records.json`; everything else in `data/` is generated from it.
 
-**The records are an AI-based extraction.** AI agents researched and wrote them on 11 and 12 October 2026, working in Claude Code, Anthropic's agentic coding tool, with the model Claude Fable 5.1 (`claude-fable-5-1`). For each instrument an agent searched the web, fetched the official page or document, confirmed the title, date and status on it, and wrote the summary, the status notes, the topic tags and a verification level. A Python archiver, `tools/archive.py`, then stored every source it could reach under `archive/` with a SHA-256 hash, using headless Chromium for pages that need JavaScript. PDF text was read with pypdf, and scanned PDFs with Tesseract OCR.
+**The records are an AI-based extraction.** The first 340 records (version 1.6, 11 and 12 October 2026) were made by single agents that searched, fetched, extracted and graded each record in one go, working in Claude Code with Claude Fable 5.1. That method is described in this file as of commit `96430a0`; the passes are logged in `meta.provenance` in `data/records.json`.
 
-| Pass | Result |
-|---|---|
-| First research pass, 11 October | 208 records |
-| Gap pass by the coordinating agent | 6 records added, 1 source updated |
-| Five regional passes in parallel | 70 records added |
-| Content quality check 1 | fixes, `docs/quality-check-2026-10-11.md` |
-| Status re-verification | 3 statuses updated, 1 record added |
-| Content quality check 2 | fixes, `docs/quality-check-2026-10-12.md` |
-| Five regional passes in parallel, 12 October | 55 records added |
+From the first pipeline run on, the register is maintained by the pipeline in sections 5 to 7. Separate agents collect candidates, extract records from stored copies of the sources, and check them; every hand-off is a file in `runs/<run-id>/`, and every step that can be done by a script is done by a script. The pipeline exists so that a run can be repeated, compared with earlier runs, and checked by someone who does not trust the agents.
 
-Every pass and both checks used Claude Fable 5.1. The same log is machine-readable in `meta.provenance` in `data/records.json`, and the git history holds every change.
+**Why agents.** Agents made it possible to research 340 instruments from 87 countries, each checked against its official source and stored with a hash, in two days. They also make the work repeatable: anyone can clone this repository, run the pipeline with their own subscription, and compare the result with the published register, or rerun it with a different model. A rerun gives comparable records, not identical ones, because language models are not deterministic; section 7.4 says how the difference is measured.
 
-**Why agents.** Agents are what made this register possible: 340 instruments from 87 countries, each checked against its official source and stored with a hash, in two days. They also make the work repeatable. The method in section 5 is complete enough for another agent to follow, so anyone can extend the register, re-verify every record after laws change, or rerun the method with a different model and compare the results. Every record carries its evidence, the official URL and a hashed copy of the source, so checking a record does not depend on trusting whoever wrote it. A rerun gives comparable records, not identical ones, because language models are not deterministic.
-
-**Human review.** No human has reviewed every record. Michael Riegler checked 50 randomly chosen records by hand in October 2026 and found no problems. That rules out frequent errors, not occasional ones: with no problems in 50, the error rate is probably below about 6 percent. Treat the register as a well-organised starting point with its evidence attached, not as an authority.
+**Human review.** No human has reviewed every record. Michael Riegler checked 50 randomly chosen records by hand in October 2026 and found no problems. That rules out frequent errors, not occasional ones: with no problems in 50, the error rate is probably below about 6 percent. Every pipeline run adds a human sample (section 7.5). Treat the register as a well-organised starting point with its evidence attached, not as an authority.
 
 ## 2. Limitations
 
-- **Extraction errors are possible.** Dates can be misread, a status can lag behind an amendment, an English title can differ from the official translation, and a summary can over- or under-state what an instrument does. Non-English documents were read as machine-extracted text and rendered into English by the agent.
-- **The verification level is the key field.** A: the official page was fetched and confirmed the title, date and status. B: an alternative official page confirmed them. C: no official page could be fetched; the record rests on secondary sources and says `CAUTION` in its verification note. Re-check C records before citing them.
-- **It is a snapshot.** `meta.snapshot_date` says when the research was done. Laws change; the archiver notices when a source page changes, but it does not re-interpret legal status.
-- **Coverage is uneven.** The "Known coverage gaps" section in the app (Method & coverage tab) is the honest to-do list. Absence from the register means nothing about a jurisdiction.
-- **Dates can be partial** (`YYYY-MM` or `YYYY`) when the source gives no exact day. Five records have no publication date; their notes say why.
+- **Extraction errors are possible.** Dates can be misread, a status can lag behind an amendment, an English title can differ from the official translation, and a summary can over- or under-state what an instrument does. Non-English documents are read as machine-extracted text and rendered into English by the agent.
+- **The verification level is the key field.** A: the official source was stored and confirms the title, date and status. B: another official source confirms them. C: no official source could be stored; the record rests on secondary sources and says `CAUTION` in its verification note. Re-check C records before citing them. For records made by the pipeline the level is computed from the evidence by a script (section 5.5), not chosen by the agent.
+- **It is a snapshot.** `meta.snapshot_date` says when every record was last re-verified together. Single records are refreshed more often; `verification.verified_on` and `data/history.jsonl` say when.
+- **Coverage is uneven.** `pipeline/frame.json` records which places have been searched and when, and `pipeline/coverage.md` sums it up (section 7.1). Absence from the register means nothing about a jurisdiction that the frame shows as not yet searched.
+- **Dates can be partial** (`YYYY-MM` or `YYYY`) when the source gives no exact day.
 - **Local copies are third-party documents** and some are bot-check pages or empty JavaScript shells; those records are flagged `archived-review`, `partial` or `failed`, and listed in `archive/needs-attention.txt`.
 - Nothing here is legal advice.
-- **Two content quality checks**, in which a second agent compared the records with their stored sources, ran on 11 and 12 October 2026. Their reports in `docs/` say what was fixed and what is still open. Repeat the check after large additions; the reports show what to look for.
 
-To report an error: fix `data/records.json`, run the validation and build (section 3), and commit, or open an issue naming the record ID and the official source that contradicts it.
+To report an error: open an issue naming the record ID and the official source that contradicts it. A maintainer turns it into a refresh run for that record (section 6).
 
 ## 3. Repository map and commands
 
+If a tool fails or seems to be missing, an agent stops and says so; it does not imitate the tool by hand.
+
 | Path | What it is |
 |---|---|
-| `data/records.json` | the database; the only data file to edit |
-| `data/records.js`, `records.csv`, `register.sqlite`, `register.xlsx` | generated by `tools/build.py`; never edit |
-| `index.html`, `assets/` | the viewer; works offline; reads `data/records.js` |
-| `archive/<ID>/<date>/` | local copies with `SHA256SUMS`; owned by `tools/archive.py` |
-| `archive/needs-attention.txt` | records that need a human decision, rewritten after every archiver run |
-| `tools/validate.py` | schema and vocabulary checks; run by `build.py` |
-| `tools/build.py` | validates, then regenerates every derived file |
-| `tools/archive.py` | downloads, hashes and flags sources; `--verify` re-hashes; `--browser` retries in headless Chromium |
-| `tools/merge.py` | merges a research pass (section 5) into `records.json` with checks |
-| `tools/package.py` | zips everything into one shareable file |
-| `tools/publish_hf.py` | publishes the dataset, the gated source documents and the app to Hugging Face (README section 9) |
-| `assets/site-config.js` | where the app is hosted; the Hugging Face Space gets its own copy |
-| `examples/analysis.py` | example analysis from the SQLite file |
+| `data/records.json` | the database; written only by `tools/merge.py` (and `tools/archive.py` for `local_copy`) |
+| `data/history.jsonl` | append-only change log, one line per event; written only by `tools/merge.py` and `tools/pipeline.py` (section 9) |
+| `data/records.js`, `records.csv`, `register.sqlite`, `register.xlsx`, `HISTORY.md` | generated by `tools/build.py`; never edit |
+| `runs/<run-id>/` | everything one pipeline run produced: plan, candidates, extractions, checks, report (section 5); committed |
+| `pipeline/frame.json` | the coverage frame: every jurisdiction and source type, with when it was last searched |
+| `pipeline/coverage.md` | the coverage table, written by `tools/pipeline.py frame --report` |
+| `pipeline/scope-decisions.md` | precedents for borderline scope cases; read before deciding scope |
+| `pipeline/refresh-requests.jsonl` | existing records a collector found news about; `queue` puts them first |
+| `pipeline/roles/*.md` | step-by-step instructions for each agent role |
+| `.claude/`, `.agents/`, `.codex/` | settings, skills and subagents for Claude Code and Codex; the skills only point at `pipeline/roles/` |
+| `archive/<ID>/<date>/` | local copies of record sources with `SHA256SUMS`; owned by `tools/archive.py` |
+| `archive/_runs/<run-id>/<cand-id>/` | local copies of a run's candidate sources, with a `.txt` text layer next to each file |
+| `tools/pipeline.py` | the run scripts (below); `tools/history.py` shows or checks the history |
+| `tools/validate.py`, `tools/build.py` | schema and vocabulary checks; `build.py` runs them, then regenerates every derived file |
+| `tools/archive.py` | downloads, hashes and flags sources; `--verify` re-hashes every stored file; `--run` stores a run's sources (public sites only) |
+| `tools/merge.py` | merges a pass into `records.json` with checks and writes the history |
+| `tools/package.py`, `tools/publish_hf.py` | the shareable zip, and the Hugging Face dataset, archive and Space; human steps only (section 8) |
+| `index.html`, `assets/` | the web app; `assets/site-config.js` says where it is hosted |
+| `examples/analysis.py`, `docs/` | an example analysis from the SQLite file; the quality-check reports |
 
 ```bash
-python3 tools/validate.py --strict        # list every problem in records.json
-python3 tools/build.py                    # regenerate data/*.js/.csv/.sqlite/.xlsx (stops on errors)
-python3 tools/merge.py pass.json --dry-run   # check a research pass; drop --dry-run to merge
-python3 tools/archive.py --only ID1,ID2 --browser   # store the sources of new or changed records
-python3 tools/archive.py --verify         # integrity check; rewrites needs-attention.txt
-python3 tools/package.py                  # dist/*.zip
-python3 tools/publish_hf.py --push        # Hugging Face dataset, source documents and Space
+python3 tools/pipeline.py new --type discover --scope "codes:DK,FI,IS,NO,SE"   # create runs/<run-id>/
+python3 tools/pipeline.py status --run <run-id>      # what each stage has produced; use it to resume
+python3 tools/pipeline.py stage --run <run-id> --stage extract --tool "Claude Code" --model <model>
+python3 tools/pipeline.py dedupe --run <run-id>      # number candidates, drop duplicates, update the frame
+python3 tools/archive.py --run <run-id> --browser    # store the candidates' sources and requested extra_urls
+python3 tools/pipeline.py textify --run <run-id>     # .txt with [page N] markers for every stored file; texts.json
+python3 tools/pipeline.py evidence --run <run-id>    # check every quote and hash, compute levels, flag rule breaches
+python3 tools/pipeline.py sample --run <run-id>      # draw the blind double-extraction sample
+python3 tools/pipeline.py compare --run <run-id>     # field agreement between the two extractions
+python3 tools/pipeline.py assemble --run <run-id>    # build runs/<run-id>/pass.json from checked records
+python3 tools/merge.py runs/<run-id>/pass.json --dry-run   # then without --dry-run; writes the history
+python3 tools/pipeline.py report --run <run-id>      # write runs/<run-id>/report.md, draw the human sample
+python3 tools/pipeline.py log-human --run <run-id> --id <ID> --result ok --note "..." --by <name>
+python3 tools/pipeline.py log-scope --id <ID> --decision in --note "..." --by <name>
+python3 tools/pipeline.py queue                      # records due for a refresh run (section 6)
+python3 tools/pipeline.py frame --due | --report     # cells due for a search; the coverage table
+python3 tools/build.py                               # validate and regenerate data files and HISTORY.md
+python3 tools/archive.py --verify                    # re-hash every stored file; flags missing or changed copies
 ```
 
-Python 3.8 or later and the standard library are enough for everything except `register.xlsx` (needs `openpyxl`) and `--browser` (needs `playwright`).
+Human steps, never run by an agent: `python3 tools/package.py` (the zip in `dist/`) and `python3 tools/publish_hf.py --push` (Hugging Face; README section 9).
+
+Scopes: a discover run selects frame cells with `codes:FI,SE`, `region:Europe`, `level:Sub-national`, `types:legislature,gazette`, `due` and `all`, combined with spaces (quote values with spaces: `region:"Sub-Saharan Africa"`). A refresh or recheck run selects records with `ids:EU-03,US-09`, `codes:`, `region:`, `level:` or `all`; a refresh run without a scope takes the top of the queue.
+
+Python 3.8 or later and the standard library are enough for the core; `pypdf` reads PDFs, `playwright` gives the browser retry, and `tesseract` reads scanned PDFs.
 
 ## 4. Rules for any agent
 
-1. **Every fact comes from a page fetched in the current session.** Never write a date, number, title, status or URL from memory. Never invent a URL or an identifier. If a page could not be fetched, say so in `verification.note` and lower the level.
-2. **Say what you did not verify.** A record marked `CAUTION` is better than a confident wrong one. Put fetch problems and unconfirmed details in `verification.note`, never in the public `notes`.
-3. **Never contact anyone.** No e-mail, no web forms, no identification strings in requests beyond the archiver's own user agent. The archiver respects `robots.txt`; do not work around site blocks other than the documented `--browser` retry. Records that cannot be fetched go to the human via `archive/needs-attention.txt`.
-4. **Edit only `data/records.json`** for data. Never hand-edit generated files or anything under `archive/`; `tools/archive.py --verify` detects tampering with stored copies.
-5. **Keep the controlled vocabularies** in `tools/validate.py`. A new topic or status value is added there and in the app's field reference in the same commit, never ad hoc.
-6. **Never delete a record.** An instrument that is withdrawn, replaced or expired keeps its record with status `Revoked / withdrawn`, `Superseded` or `Lapsed` and a note saying what happened.
-7. **Run `python3 tools/build.py` before committing**; it refuses to build on validation errors. Commit `records.json`, `records.js` and `records.csv`. Never commit `archive/`, `dist/`, `register.sqlite` or `register.xlsx` (they are in `.gitignore`).
-8. **Keep provenance honest.** When you change a record, set `verification.verified_on` to today and describe what you fetched. Bump `meta.version` when records change. Change `meta.snapshot_date` only after a full re-verification of every record.
-9. **No scope creep.** The register covers official instruments on AI safety and AI regulation (section 5, step 1). Company documents, think-tank reports, privacy laws that are not AI-specific and strategies without safety content stay out.
+1. **Every fact comes from a stored copy.** Quote it from the text of a file under `archive/`, stored by `tools/archive.py`. A page you saw with a web fetch or a browser but did not store is a lead, not evidence. Never write a date, number, title, status or URL from memory, and never invent a URL or an identifier.
+2. **Every factual field carries evidence**: the file, its SHA-256, a locator (page or heading) and a verbatim quote of at most 300 characters. A field you cannot support stays `null` and goes into `open_questions`. An honest gap is better than a confident wrong value.
+3. **Stay in your role.** A collector finds candidates and does not write records. An extractor writes records from stored files and does not search for other instruments (it lists them as `leads`). A checker reports verdicts and evidence-backed fixes and does not rewrite records. Each role writes only its own output files in `runs/<run-id>/`.
+4. **Scripts own the bookkeeping.** Agents never assign record IDs, slugs, verification levels or `verification.method`, never edit `data/records.json` or `data/history.jsonl` directly, and never change generated files or anything under `archive/` (reading is fine; storing goes through `tools/archive.py`).
+5. **Keep the public text clean.** `summary` and `notes` describe the instrument only. Fetch problems, blocked sites, hedges such as "as reported" or "as summarised by counsel", and anything about how the research was done go into `verification.note`.
+6. **Keep the controlled vocabularies** in `tools/validate.py`. A new topic or status value is added there and in the app's field reference in the same commit, never ad hoc.
+7. **Never delete a record.** An instrument that is withdrawn, replaced or expired keeps its record with status `Revoked / withdrawn`, `Superseded` or `Lapsed` and a note saying what happened.
+8. **Never contact anyone.** No e-mail, no web forms, no identification strings in requests beyond the archiver's own user agent. The archiver respects `robots.txt`; do not work around site blocks other than the documented `--browser` retry.
+9. **Inclusive scope, flagged.** Scope is section 10. A borderline instrument is included with a `scope_note` saying why, not left out and not sent to a human; `pipeline/scope-decisions.md` keeps the precedents. Only the clear exclusions in section 10 stay out.
+10. **Commit on a branch, never push.** A run ends with one commit on the branch `run/<run-id>` containing the run folder and the merged data. The human reviews, merges and publishes.
 
-## 5. Method for a research pass (adding records)
+## 5. The pipeline
 
-This is the method that produced the data. Follow it so new records are comparable with the old ones.
+```
+ frame cells (discover)      COLLECT ──▶ candidates ──▶ ARCHIVE + TEXTIFY (scripts)
+ or refresh queue ───────────────────────────────────────────▲      │
+                                                              │      ▼
+                           more sources needed ── extra_urls ─┘   EXTRACT ──▶ record + evidence
+                                                                      │
+                                                    EVIDENCE CHECK (script) ──▶ CHECK (fresh agent)
+                                                                      │
+                                       ASSEMBLE + MERGE (scripts) ──▶ records.json, history.jsonl, report.md
+```
 
-**Step 1. Scope.** In: AI-specific laws and implementing regulations, including major sub-national ones; executive orders, decrees and cabinet decisions; government safety and risk-management frameworks, guidelines, voluntary codes and technical standards; founding mandates of AI safety or security institutes; national AI strategies only where they contain substantial safety or risk-governance content; intergovernmental declarations, treaties, resolutions and government-commissioned scientific reports; major pending bills; revoked or superseded instruments kept for context. Out: R&D or industrial strategies without safety content, general privacy laws, minor sectoral circulars, documents by companies, think tanks or the press.
+A run has a type. **discover** searches frame cells for instruments not yet in the register. **refresh** re-extracts and re-checks records from the queue (section 6). **recheck** refreshes every record; it is the only run that may change `meta.snapshot_date`.
 
-**Step 2. Pick targets.** Start from "Known coverage gaps" in `index.html`, or from a jurisdiction you are asked to check. First search `data/records.json` by title, identifier, URL and jurisdiction so you do not add what exists.
+What is fixed and what is left to the agents:
 
-**Step 3. Find and fetch the official source.** Search, then fetch the page of the issuing body, the legislature, the official gazette or EUR-Lex. Confirm title, date and status on it. If it is a PDF, extract the text and read it. Prefer the legal text or the issuing body's own announcement as `official_url`, and a gazette entry, parliament page, official translation or OECD.AI entry as `secondary_url`.
+| Stage | Fixed by scripts, schemas and these rules | Left to the agent's judgment |
+|---|---|---|
+| Collect | the frame of cells to search, the source types, the candidate format, logging every cell searched, the duplicate check | which queries, which languages, which pages to follow, when a cell is exhausted |
+| Archive | everything | only whether to add a further source to `extra_urls` |
+| Extract | the schema and vocabularies, evidence for every factual field, IDs and levels by script, summary length, where remarks go | reading the document, choosing the authoritative version, the summary, the topic tags, the status of phased or amended instruments, confirming scope |
+| Check | a fresh context, the checklist, the verdict format, quote matching by script, the sample sizes | hunting for contradictions, newer versions, amendments and stale statuses |
+| Merge | everything | nothing |
 
-**Step 4. Assign the verification level** as defined in section 2. Use C only for instruments that clearly matter and that at least two reputable independent sources describe consistently.
+The rule of thumb behind the table: fix whatever a later run must be compared against; leave open whatever depends on how a particular country publishes its law.
 
-**Step 5. Write the record.** All keys present, `null` where unknown.
+### 5.1 Run folder
+
+`tools/pipeline.py new` creates `runs/<YYYY-MM-DD>-<type>-<short-scope>/` with `run.json`:
+
+```json
+{"run_id": "2026-11-02-discover-europe", "type": "discover", "scope": ["frame cells or record IDs"],
+ "started": "2026-11-02", "stages": {"collect": {"tool": "Claude Code", "model": "..."},
+ "extract": {}, "check": {}, "blind": {}}, "status": "collecting"}
+```
+
+Each stage writes its own files: `candidates/<group>.json` and `search-log.jsonl` (collect), `extractions/<cand-id>.json` (extract), `extractions-blind/<cand-id>.json` (blind sample), `checks/<cand-id>.json` (check). The scripts write `candidates.json`, `sources.json`, `texts.json`, `evidence.json`, `sample.json`, `agreement.json`, `pass.json` and `report.md`. In a discover run, candidate IDs are `C001`, `C002`, ... and final record IDs are assigned at assembly, so rejected candidates leave no gaps in the numbering; in refresh and recheck runs the candidate ID is the record ID.
+
+### 5.2 Collect → `pipeline/roles/collect.md`
+
+Input: frame cells. Output: candidates with title as found, URL, source kind, how it was found, a scope guess with a one-sentence reason, and the language; plus one `search-log.jsonl` line per cell with the queries tried, the pages visited and the outcome (`found`, `nothing`, `blocked`). Trackers, law-firm notes and news are allowed as leads only; a candidate needs a URL on an official site, or the note that none was found.
+
+### 5.3 Archive and text (scripts)
+
+`archive.py --run` stores every candidate URL and every `extra_urls` entry under `archive/_runs/<run-id>/<cand-id>/` and lists them in `sources.json`; in refresh and recheck runs it archives the records themselves, as a normal archiver run would. `pipeline.py textify` writes a `.txt` next to each stored file, with `[page N]` markers for PDFs and OCR for scans, and lists file, hash and text in `texts.json`. Extraction and checking read these text files, so the extractor and the checker see exactly the same bytes. A new record's `local_copy` points at the files stored during the run; later archiver runs add new snapshots under `archive/<ID>/<date>/`.
+
+### 5.4 Extract → `pipeline/roles/extract.md`
+
+Input: one candidate (or, in a refresh run, one record) and its stored text. Output `extractions/<cand-id>.json`:
+
+```json
+{"cand_id": "C014", "decision": "record | update | duplicate | out-of-scope | needs-human",
+ "target_id": null,
+ "record": {"title": "...", "date_published": "2026-03-12", "status": "In force"},
+ "evidence": {"date_published": [{"file": "archive/_runs/.../official.pdf", "sha256": "...",
+              "locator": "page 1", "quote": "...", "source_kind": "official"}]},
+ "judgment": {"status_reasoning": "...", "scope_reasoning": "..."},
+ "extra_urls": [], "leads": [], "open_questions": []}
+```
+
+`record` holds every field in the table in section 5.6 except `id`, `slug` and `verification.level`/`method`/`verified_on`, which the scripts set. `source_kind` is `official` (issuing body, legislature, gazette, official law database), `alt-official` (another official body, an official translation) or `secondary`.
+
+### 5.5 Check → `pipeline/roles/check.md`
+
+First `pipeline.py evidence` checks mechanically: every quote appears in the stored text it names, the hash matches, every factual field has evidence, dates are valid and consistent, summary length is 250 to 700 characters, no process language in `summary` or `notes`. It computes the level: A when title, date and status are supported by `official` evidence, B when by `alt-official` evidence, C otherwise (with `CAUTION` added to the note).
+
+Then a checker agent in a fresh context, ideally another model or tool than the extractor, works through the checklist in `check.md` and writes `checks/<cand-id>.json` with a verdict per field (`supported`, `unsupported`, `contradicted`, `judgment-differs`), fixes that carry their own evidence, and an overall verdict (`accept`, `accept-with-fixes`, `needs-human`, `reject`). The checker does not see the extractor's `judgment` block or search log.
+
+`pipeline.py assemble` applies only fixes whose evidence passes the evidence script, adds reverse `related` links, assigns IDs and slugs, and writes `pass.json`. A record goes to `needs-human` instead when a field stays `contradicted` or `unsupported`, a summary claim is unsupported, or the evidence script still finds an error. `merge.py` writes the records and the history (section 9).
+
+### 5.6 Record fields
 
 | Field | Rule |
 |---|---|
-| `id` | `<CODE>-<NN>`: ISO 3166-1 alpha-2 country code or a body code already in use (`UN`, `EU`, `G7`, `OECD`, `COE`, `INT`, ...); sub-national `US-CA-03`, `CA-ON-01`. Continue the numbering used for that code. |
-| `slug` | unique, lower-case-with-hyphens |
+| `id`, `slug` | set by script: `<CODE>-<NN>` with the ISO 3166-1 alpha-2 code or a body code in use (`UN`, `EU`, `G7`, `OECD`, `COE`, `INT`, ...); sub-national `US-CA-03` |
 | `title`, `original_title` | official English title where one exists, otherwise an accurate English rendering; original-language title when not English |
 | `short_title` | common short name, about 60 characters at most |
-| `jurisdiction`, `country`, `jurisdiction_level`, `region` | copy the spelling used for the same country or body in existing records; vocabularies in `tools/validate.py` |
+| `jurisdiction`, `country`, `jurisdiction_level`, `region` | copy the spelling used for the same country or body in existing records |
 | `issuing_body` | the institution that adopted or issued it |
 | `instrument_type`, `legal_force`, `status` | vocabularies in `tools/validate.py`; a bill is `Proposed` and `Draft / proposed`; a vetoed or expired bill stays `Proposed` with status `Lapsed` or `Revoked / withdrawn` |
-| `date_published`, `date_in_force`, `date_last_updated` | ISO; `YYYY-MM` or `YYYY` when the source gives no day; adoption or issue date, entry into force, last amendment or status change |
-| `official_identifier` | the citable number: law or decree number, gazette reference, bill number, UN symbol, CELEX |
-| `language` | language(s) of the official text |
-| `summary` | 250 to 700 characters; what the instrument does and its safety or risk-governance content; no evaluation, no speculation |
+| `date_published`, `date_in_force`, `date_last_updated` | ISO, or `YYYY-MM` / `YYYY` when the source gives no day; adoption or issue date, entry into force, last amendment or new version (not consultation dates or partial commencements; those go in `notes`) |
+| `official_identifier` | the citable number: law or decree number, gazette reference, bill number, UN symbol, CELEX; never a version label or a description |
+| `language` | language(s) of the official text, comma-separated |
+| `summary` | 250 to 700 characters; what the instrument does and its safety or risk-governance content; no evaluation, no hedges |
 | `safety_topics` | 2 to 6 values from the topic list in `tools/validate.py` |
-| `related` | `[{"id": ..., "slug": ...}]`; only IDs that exist or are in the same pass; an AI Act implementing law relates to `EU-03` |
-| `notes` | status details, phased dates, discrepancies between sources, later instruments; plain prose for readers |
-| `verification` | `{"level", "verified_on", "method", "note", "second_check"}`; `method` is one of exactly `official-url-fetched` (A), `alternative-official-url-fetched` (B) or `search-confirmed` (C); `note` says what was fetched, what it confirmed and what rests on secondary sources. Every remark about fetching, blocked sites or what could not be verified belongs here, never in `notes` or `summary`, which describe the instrument only |
+| `related` | IDs of existing records; an AI Act implementing law relates to `EU-03` |
+| `notes` | status details, phased dates, discrepancies between sources, later instruments; plain prose about the instrument |
+| `scope_note` | absent for an instrument clearly in scope; for a borderline one, one or two sentences on why it is borderline and why it is included. The app shows it as a badge and a Scope filter |
+| `verification.note` | what was stored and what it confirmed, and everything that rests on secondary sources or could not be confirmed |
 
-**Step 6. Hand the pass over as one JSON file** and merge it:
+## 6. Refresh runs and the update loop
 
-```json
-{"provenance": {"date": "2026-11-02", "agent": "Claude Code", "model": "claude-fable-5-1", "scope": "what the pass covered"},
- "records": [ ...full records... ],
- "updates": [ {"id": "VN-02", "official_url": "...", "verification": {"level": "A", "verified_on": "...", "method": "...", "note": "..."}} ],
- "not_found": [ {"target": "...", "what_you_tried": "...", "best_lead": null} ],
- "summary": "what was found and the main uncertainties"}
-```
+The archiver runs weekly (README section 3) and stores a new snapshot when a source's visible text changes. `pipeline.py queue` lists the records due for a refresh run:
+
+- a collector reported news about it (`pipeline/refresh-requests.jsonl`);
+- a date the record itself announces has passed: `date_in_force` is today or earlier but the status is still a draft or not yet in force;
+- it is `Adopted, not yet in force` with no in-force date;
+- a source changed since the record was last verified;
+- it is level C, or its local copy is flagged in `archive/needs-attention.txt`;
+- `verified_on` is older than 180 days.
+
+Records named in an issue go into a refresh run by ID (`--scope "ids:..."`). A refresh run skips collection: its candidates are the records. The extractor gets the current record and the newly stored text and returns only changed fields with evidence, plus the fields it confirmed unchanged, always including title, date and status. A record that is re-verified without changes still gets a `re-verified` history event, so readers can see that it was checked.
+
+## 7. Quality controls
+
+### 7.1 Coverage frame
+
+`pipeline/frame.json` has one cell per jurisdiction and source type: the 193 UN member states, Taiwan, the EU, the US states, the register's other sub-national jurisdictions and the intergovernmental bodies it covers, 1,391 cells in all. Source types: legislature, official gazette or law database, head of government or cabinet, ministries for digital affairs, science and technology, and justice, AI-specific regulators and AI safety institutes, election authorities, and, for intergovernmental bodies, their document repositories. A jurisdiction is added with `pipeline.py frame --add`. Each cell holds the official portals found so far (`where_to_look`), the date last searched, the outcome and the run ID. `pipeline.py frame --due` lists cells never searched or not searched for 180 days, and `pipeline.py frame --report` writes the coverage table for the app and README.
+
+### 7.2 Scope precedents
+
+`pipeline/scope-decisions.md` records the general rules and every borderline decision as a short case: instrument, decision, reason, who decided, date. Extractors and checkers apply them; borderline records carry a `scope_note`, and a human adds a new case when a run raises a question the rules do not settle.
+
+### 7.3 Checker independence
+
+The checker starts in a fresh context with only the run ID and candidate IDs: a new session, or a subagent (`checker` in `.claude/agents/` and `.codex/agents/`). The strongest setup is a different tool or model from the extractor's, for example extraction in Claude Code and checking in Codex. `run.json` records which tool and model ran each stage.
+
+### 7.4 Repeatability measure
+
+`pipeline.py sample` picks 10 percent of the run's extractions, at least 5. A second extractor, in a fresh context and without seeing the first extraction, extracts them again into `extractions-blind/`. `pipeline.py compare` reports agreement per field: exact for dates, identifiers, status, legal force and instrument type; overlap for topics. The agreement table goes into `report.md` and is the run's repeatability number; fields that disagree go to the checker.
+
+### 7.5 Human sample
+
+`pipeline.py report` draws 5 of the run's accepted records at random for a human, who also decides every `needs-human` item. The human logs each check with `pipeline.py log-human`, which writes a `human-checked` event to the history, and each scope decision with `pipeline.py log-scope`, which also adds the case to `pipeline/scope-decisions.md`.
+
+## 8. Running it with Claude Code or Codex
+
+No API keys are needed. Both tools run under the subscription you sign in with (a Claude plan for Claude Code, a ChatGPT plan for Codex), and everything the agents need is in this repository. Run it on your own machine: the archiver has to reach government sites directly, and cloud sandboxes often restrict outbound network access.
 
 ```bash
-python3 tools/merge.py pass.json --dry-run    # id, slug, URL and title collisions, vocabularies, related IDs
-python3 tools/merge.py pass.json              # writes records.json, rebuilds the data files
-python3 tools/archive.py --only <new IDs> --browser
-python3 tools/archive.py --verify
+git clone https://github.com/kelkalot/ai-safety-policy-register && cd ai-safety-policy-register
+python3 -m pip install pypdf playwright && python3 -m playwright install chromium
+claude    # Claude Code: reads AGENTS.md, .claude/settings.json, .claude/skills/, .claude/agents/
+codex     # Codex: reads AGENTS.md, .agents/skills/, .codex/agents/, and .codex/config.toml once you trust the project
 ```
 
-`tools/merge.py` adds the pass's `provenance` entry, with the IDs it added or updated, to `meta.provenance.passes`, so the log of who made which records stays complete. Then update the "Known coverage gaps" list in `index.html` and the counts in README section 6, run `python3 tools/build.py`, and commit. The `not_found` list goes into the gap list or into the commit message, so the next pass knows what was tried.
+A fresh clone has no `archive/`, because the stored documents are not in git. Before a refresh or recheck run, run `python3 tools/archive.py --browser` once to store current copies, or download the earlier copies from the archive dataset on Hugging Face (`kelkalot/every-ai-policy-ever-archive`, free account needed) if you want to compare against the published snapshot.
 
-## 6. Method for re-checking existing records
+The repository carries the settings. `.claude/settings.json` lets Claude Code search, fetch, run the pipeline's own tools (`pipeline.py`, `archive.py`, `merge.py`, `build.py`, `validate.py`, `history.py`) and commit on a branch without asking each time. It denies `git push`, `publish_hf.py` and `package.py`, and `archive.py` with `--ignore-robots` or `--allow-private-hosts`; any other command still asks. `.codex/config.toml` sets Codex's web search to live (its default is a cached index) and allows network access in its sandbox, because the archiver downloads from government sites. In a pipeline run the archiver fetches only public addresses, so a page that misleads an agent cannot make it read your machine or local network.
 
-Trigger: a status change in the news, a flagged source in `archive/needs-attention.txt`, a C-level record, or a scheduled re-verification. Fetch the official page again. Update `status`, `date_in_force`, `date_last_updated` and `notes`; keep the earlier facts in `notes` ("Until 2 Aug 2026 ..."). Set `verification.verified_on` to today, describe what was fetched in `method` and `note`, and put an independent confirmation in `second_check`. If the official URL moved, change it; `tools/merge.py` resets the local copy so the archiver fetches the new one. Never delete a record (rule 6).
+The same skills exist in both tools; each is a pointer to a file in `pipeline/roles/`, so both tools follow the same text.
 
-## 7. Prompt template for a research pass with an agent
+| What | Claude Code | Codex |
+|---|---|---|
+| a whole discover run | `/run-pipeline discover Nordic countries` | `$run-pipeline discover Nordic countries` |
+| a refresh run from the queue | `/run-pipeline refresh` | `$run-pipeline refresh` |
+| one stage of an existing run | `/collect <run-id>`, `/extract <run-id>`, `/check <run-id>` | `$collect`, `$extract`, `$check` with the run ID |
 
-Copy, fill in the targets and the output path, and give it to an agent that can search and fetch the web:
+For a cross-tool check, run everything up to extraction in one tool, then open the other tool in the same folder and run its check skill on the run ID. Collectors and extractors can run in parallel as subagents, because each writes only its own files and IDs are assigned at merge. Subscriptions have usage limits; split a recheck of the whole register into runs by region.
 
-> Read AGENTS.md in this repository and follow sections 4 and 5 exactly. Today is <date>; every fact must come from a page you fetch now. Do not modify any file in the repository and do not contact anyone. Targets: <list of jurisdictions or instruments, with what to look for>. Check data/records.json first so you add nothing that exists; continue the ID numbering of each code. Write the pass to <path>/pass.json in the format of section 5 step 6, run `python3 tools/merge.py <path>/pass.json --dry-run` and fix every reported problem. Put the date, the agent and the model you are running as into the pass's `provenance` entry. Finish with the summary, the list of record IDs with verification levels, and the not_found list.
+## 9. History
 
-Several agents can run in parallel if each uses different ID codes.
+Git keeps every version of `data/records.json`, but a diff of one large JSON file does not tell a reader what changed in a record, why, or on what evidence, and it does not show checks that changed nothing. So the register keeps its own history, and git remains the tamper-evident layer under it.
 
-## 8. Citing the register
+- `data/history.jsonl`: append-only, written only by `tools/merge.py` and by `tools/pipeline.py log-human` and `log-scope`. One line per event: `{"date", "run_id", "record_id", "event", "field", "old", "new", "reason", "evidence", "tool", "model"}`, where `event` is `added`, `changed`, `re-verified`, `source-changed`, `human-checked` or `scope-decision`. Lines are never edited or deleted; a correction is a new event.
+- `runs/<run-id>/report.md`: the account of each run for humans: what was added, changed and confirmed, what was not found, the agreement table, the human sample and the open questions.
+- `HISTORY.md` and the History section on each record page in the app are generated from it by `tools/build.py`, and `tools/publish_hf.py` publishes it as the `history` configuration on Hugging Face. `python3 tools/history.py <ID>` prints one record's history.
+- Each run is one commit, with the message `run <run-id>: N added, M changed, K re-verified`.
+
+## 10. Scope
+
+The register is inclusive: it includes borderline instruments and flags them with a `scope_note`, instead of leaving them out.
+
+In, with no note: AI-specific laws and implementing regulations, including sub-national ones; executive orders, decrees and cabinet decisions on AI; government safety and risk-management frameworks, guidelines, voluntary codes and technical standards; mandates of AI safety, security and supervisory bodies; national AI strategies whose main content is safety or risk governance; intergovernmental declarations, treaties, resolutions and government-commissioned scientific reports; pending bills; revoked, vetoed or superseded instruments kept for context.
+
+In, with a `scope_note`: strategies and action plans with some safety or risk-governance content but a different main focus; laws that are not AI-specific but are the operative instrument for an AI-safety question (liability, deepfakes, ethics review); company commitments that governments brokered and published; instruments with "AI" in the title whose content is mainly about something else; private members' bills with little chance of passing.
+
+Out: documents by companies, think tanks or the press; general privacy, data or cybersecurity laws; strategies with no safety content; minor sectoral circulars. `pipeline/scope-decisions.md` holds the precedents. A record already in the register is never deleted; how to mark one later judged out is an open question in that file.
+
+## 11. Citing the register
 
 Cite the record, its verification level and the snapshot, and the stored copy where one exists. The app's "Citation" box on each record produces this form:
 

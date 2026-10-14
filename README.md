@@ -145,7 +145,9 @@ To check weekly and keep a dated history in git, add a crontab entry like this o
 0 3 * * 1  cd /srv/ai-safety-policy-register && python3 tools/archive.py >> archive/cron.log 2>&1 && python3 tools/archive.py --verify >> archive/cron.log 2>&1; git add -A && git commit -qm "archive run $(date -u +\%F)"
 ```
 
-To edit or add records, change `data/records.json`, then run `python3 tools/build.py`. The build first runs `tools/validate.py`, which checks required fields, the controlled vocabularies (instrument type, legal force, status, level, region, topics), ISO dates, related IDs and URLs. It stops on errors and summarises warnings; `python3 tools/validate.py --strict` lists every warning. A date may be shortened to `YYYY-MM` or `YYYY` when the source gives no exact day. New records start as `not-attempted` until the next archiver run.
+New instruments and status changes are found and checked by the agent pipeline described in `AGENTS.md` (sections 5 to 8): collectors search a coverage frame (`pipeline/frame.json`), extractors write records with quoted evidence from stored copies, a fresh checker verifies them, and `tools/pipeline.py` and `tools/merge.py` do the bookkeeping. It runs from a clone in Claude Code or Codex under your own subscription; no API keys are needed. Every change is logged in `data/history.jsonl` and summarised in `HISTORY.md` and on each record page, and each run leaves a report in `runs/<run-id>/report.md`.
+
+To edit or add records by hand, change `data/records.json`, then run `python3 tools/build.py`. The build first runs `tools/validate.py`, which checks required fields, the controlled vocabularies (instrument type, legal force, status, level, region, topics), ISO dates, related IDs and URLs. It stops on errors and summarises warnings; `python3 tools/validate.py --strict` lists every warning. A date may be shortened to `YYYY-MM` or `YYYY` when the source gives no exact day. New records start as `not-attempted` until the next archiver run.
 
 ## 4. Check the data independently
 

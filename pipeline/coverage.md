@@ -1,0 +1,278 @@
+# Search coverage
+
+Written 2026-10-14 by tools/pipeline.py frame --report from pipeline/frame.json: 259 jurisdictions, 1391 cells; 0 cells searched by the pipeline, 0 of them within 180 days.
+
+| Region | Cells | Searched | Within 180 days | Jurisdictions with records |
+|---|---:|---:|---:|---:|
+| Central Asia | 48 | 0 | 0 | 4 |
+| East Asia | 40 | 0 | 0 | 5 |
+| Europe | 270 | 0 | 0 | 35 |
+| Global | 7 | 0 | 0 | 7 |
+| Latin America & Caribbean | 198 | 0 | 0 | 11 |
+| Middle East & North Africa | 120 | 0 | 0 | 9 |
+| North America | 220 | 0 | 0 | 29 |
+| Oceania | 84 | 0 | 0 | 2 |
+| South & Southeast Asia | 115 | 0 | 0 | 13 |
+| Sub-Saharan Africa | 289 | 0 | 0 | 11 |
+
+## Never searched by the pipeline (259)
+
+- UN United Nations (Global), 13 record(s) from earlier research
+- UNESCO UNESCO (Global), 1 record(s) from earlier research
+- OECD OECD (Global), 2 record(s) from earlier research
+- G7 G7 (Global), 6 record(s) from earlier research
+- G20 G20 (Global), 2 record(s) from earlier research
+- COE Council of Europe (Europe), 2 record(s) from earlier research
+- NATO NATO (Europe), 1 record(s) from earlier research
+- AU African Union (Sub-Saharan Africa), 1 record(s) from earlier research
+- ASEAN ASEAN (South & Southeast Asia), 2 record(s) from earlier research
+- BRICS BRICS (Global), 2 record(s) from earlier research
+- INT Summits and other multilateral initiatives (Global), 20 record(s) from earlier research
+- EU European Union (Europe), 19 record(s) from earlier research
+- AL Albania (Europe)
+- AD Andorra (Europe)
+- AT Austria (Europe), 1 record(s) from earlier research
+- BY Belarus (Europe)
+- BE Belgium (Europe)
+- BA Bosnia and Herzegovina (Europe)
+- BG Bulgaria (Europe), 2 record(s) from earlier research
+- HR Croatia (Europe), 1 record(s) from earlier research
+- CY Cyprus (Europe), 1 record(s) from earlier research
+- CZ Czechia (Europe), 2 record(s) from earlier research
+- DK Denmark (Europe), 2 record(s) from earlier research
+- EE Estonia (Europe)
+- FI Finland (Europe), 1 record(s) from earlier research
+- FR France (Europe), 1 record(s) from earlier research
+- DE Germany (Europe), 1 record(s) from earlier research
+- GR Greece (Europe), 3 record(s) from earlier research
+- HU Hungary (Europe), 2 record(s) from earlier research
+- IS Iceland (Europe), 1 record(s) from earlier research
+- IE Ireland (Europe), 1 record(s) from earlier research
+- IT Italy (Europe), 3 record(s) from earlier research
+- LV Latvia (Europe), 3 record(s) from earlier research
+- LI Liechtenstein (Europe)
+- LT Lithuania (Europe), 1 record(s) from earlier research
+- LU Luxembourg (Europe), 1 record(s) from earlier research
+- MT Malta (Europe), 2 record(s) from earlier research
+- MD Moldova (Europe)
+- MC Monaco (Europe)
+- ME Montenegro (Europe)
+- NL Netherlands (Europe), 2 record(s) from earlier research
+- MK North Macedonia (Europe)
+- NO Norway (Europe), 3 record(s) from earlier research
+- PL Poland (Europe), 1 record(s) from earlier research
+- PT Portugal (Europe), 1 record(s) from earlier research
+- RO Romania (Europe), 1 record(s) from earlier research
+- RU Russia (Europe), 1 record(s) from earlier research
+- SM San Marino (Europe)
+- RS Serbia (Europe), 2 record(s) from earlier research
+- SK Slovakia (Europe), 2 record(s) from earlier research
+- SI Slovenia (Europe), 2 record(s) from earlier research
+- ES Spain (Europe), 3 record(s) from earlier research
+- SE Sweden (Europe), 2 record(s) from earlier research
+- CH Switzerland (Europe), 1 record(s) from earlier research
+- UA Ukraine (Europe), 2 record(s) from earlier research
+- GB United Kingdom (Europe), 10 record(s) from earlier research
+- CA Canada (North America), 8 record(s) from earlier research
+- US United States (North America), 28 record(s) from earlier research
+- AG Antigua and Barbuda (Latin America & Caribbean)
+- AR Argentina (Latin America & Caribbean), 3 record(s) from earlier research
+- BS Bahamas (Latin America & Caribbean)
+- BB Barbados (Latin America & Caribbean)
+- BZ Belize (Latin America & Caribbean)
+- BO Bolivia (Latin America & Caribbean), 1 record(s) from earlier research
+- BR Brazil (Latin America & Caribbean), 2 record(s) from earlier research
+- CL Chile (Latin America & Caribbean), 2 record(s) from earlier research
+- CO Colombia (Latin America & Caribbean), 2 record(s) from earlier research
+- CR Costa Rica (Latin America & Caribbean)
+- CU Cuba (Latin America & Caribbean)
+- DM Dominica (Latin America & Caribbean)
+- DO Dominican Republic (Latin America & Caribbean)
+- EC Ecuador (Latin America & Caribbean), 1 record(s) from earlier research
+- SV El Salvador (Latin America & Caribbean)
+- GD Grenada (Latin America & Caribbean)
+- GT Guatemala (Latin America & Caribbean)
+- GY Guyana (Latin America & Caribbean)
+- HT Haiti (Latin America & Caribbean)
+- HN Honduras (Latin America & Caribbean)
+- JM Jamaica (Latin America & Caribbean), 1 record(s) from earlier research
+- MX Mexico (Latin America & Caribbean), 1 record(s) from earlier research
+- NI Nicaragua (Latin America & Caribbean)
+- PA Panama (Latin America & Caribbean)
+- PY Paraguay (Latin America & Caribbean), 1 record(s) from earlier research
+- PE Peru (Latin America & Caribbean), 2 record(s) from earlier research
+- KN Saint Kitts and Nevis (Latin America & Caribbean)
+- LC Saint Lucia (Latin America & Caribbean)
+- VC Saint Vincent and the Grenadines (Latin America & Caribbean)
+- SR Suriname (Latin America & Caribbean)
+- TT Trinidad and Tobago (Latin America & Caribbean)
+- UY Uruguay (Latin America & Caribbean), 1 record(s) from earlier research
+- VE Venezuela (Latin America & Caribbean)
+- CN China (East Asia), 17 record(s) from earlier research
+- JP Japan (East Asia), 6 record(s) from earlier research
+- MN Mongolia (East Asia)
+- KP North Korea (East Asia)
+- KR South Korea (East Asia), 8 record(s) from earlier research
+- AF Afghanistan (South & Southeast Asia)
+- BD Bangladesh (South & Southeast Asia), 1 record(s) from earlier research
+- BT Bhutan (South & Southeast Asia)
+- BN Brunei Darussalam (South & Southeast Asia), 1 record(s) from earlier research
+- KH Cambodia (South & Southeast Asia), 1 record(s) from earlier research
+- IN India (South & Southeast Asia), 3 record(s) from earlier research
+- ID Indonesia (South & Southeast Asia), 2 record(s) from earlier research
+- LA Laos (South & Southeast Asia)
+- MY Malaysia (South & Southeast Asia), 3 record(s) from earlier research
+- MV Maldives (South & Southeast Asia)
+- MM Myanmar (South & Southeast Asia)
+- NP Nepal (South & Southeast Asia), 1 record(s) from earlier research
+- PK Pakistan (South & Southeast Asia), 2 record(s) from earlier research
+- PH Philippines (South & Southeast Asia), 2 record(s) from earlier research
+- SG Singapore (South & Southeast Asia), 8 record(s) from earlier research
+- LK Sri Lanka (South & Southeast Asia)
+- TH Thailand (South & Southeast Asia), 3 record(s) from earlier research
+- TL Timor-Leste (South & Southeast Asia)
+- VN Viet Nam (South & Southeast Asia), 7 record(s) from earlier research
+- AM Armenia (Central Asia)
+- AZ Azerbaijan (Central Asia), 1 record(s) from earlier research
+- GE Georgia (Central Asia)
+- KZ Kazakhstan (Central Asia), 1 record(s) from earlier research
+- KG Kyrgyzstan (Central Asia), 2 record(s) from earlier research
+- TJ Tajikistan (Central Asia)
+- TM Turkmenistan (Central Asia)
+- UZ Uzbekistan (Central Asia), 2 record(s) from earlier research
+- DZ Algeria (Middle East & North Africa)
+- BH Bahrain (Middle East & North Africa), 1 record(s) from earlier research
+- EG Egypt (Middle East & North Africa), 4 record(s) from earlier research
+- IR Iran (Middle East & North Africa)
+- IQ Iraq (Middle East & North Africa)
+- IL Israel (Middle East & North Africa), 1 record(s) from earlier research
+- JO Jordan (Middle East & North Africa), 1 record(s) from earlier research
+- KW Kuwait (Middle East & North Africa)
+- LB Lebanon (Middle East & North Africa)
+- LY Libya (Middle East & North Africa)
+- MA Morocco (Middle East & North Africa)
+- OM Oman (Middle East & North Africa), 1 record(s) from earlier research
+- QA Qatar (Middle East & North Africa), 1 record(s) from earlier research
+- SA Saudi Arabia (Middle East & North Africa), 4 record(s) from earlier research
+- SD Sudan (Middle East & North Africa)
+- SY Syria (Middle East & North Africa)
+- TN Tunisia (Middle East & North Africa)
+- TR Türkiye (Middle East & North Africa), 2 record(s) from earlier research
+- AE United Arab Emirates (Middle East & North Africa), 2 record(s) from earlier research
+- YE Yemen (Middle East & North Africa)
+- AO Angola (Sub-Saharan Africa)
+- BJ Benin (Sub-Saharan Africa), 1 record(s) from earlier research
+- BW Botswana (Sub-Saharan Africa)
+- BF Burkina Faso (Sub-Saharan Africa)
+- BI Burundi (Sub-Saharan Africa)
+- CV Cabo Verde (Sub-Saharan Africa)
+- CM Cameroon (Sub-Saharan Africa)
+- CF Central African Republic (Sub-Saharan Africa)
+- TD Chad (Sub-Saharan Africa)
+- KM Comoros (Sub-Saharan Africa)
+- CG Congo (Sub-Saharan Africa)
+- CI Côte d'Ivoire (Sub-Saharan Africa)
+- CD Democratic Republic of the Congo (Sub-Saharan Africa)
+- DJ Djibouti (Sub-Saharan Africa)
+- GQ Equatorial Guinea (Sub-Saharan Africa)
+- ER Eritrea (Sub-Saharan Africa)
+- SZ Eswatini (Sub-Saharan Africa)
+- ET Ethiopia (Sub-Saharan Africa), 1 record(s) from earlier research
+- GA Gabon (Sub-Saharan Africa)
+- GM Gambia (Sub-Saharan Africa)
+- GH Ghana (Sub-Saharan Africa), 1 record(s) from earlier research
+- GN Guinea (Sub-Saharan Africa)
+- GW Guinea-Bissau (Sub-Saharan Africa)
+- KE Kenya (Sub-Saharan Africa), 2 record(s) from earlier research
+- LS Lesotho (Sub-Saharan Africa)
+- LR Liberia (Sub-Saharan Africa)
+- MG Madagascar (Sub-Saharan Africa)
+- MW Malawi (Sub-Saharan Africa)
+- ML Mali (Sub-Saharan Africa)
+- MR Mauritania (Sub-Saharan Africa)
+- MU Mauritius (Sub-Saharan Africa), 1 record(s) from earlier research
+- MZ Mozambique (Sub-Saharan Africa)
+- NA Namibia (Sub-Saharan Africa)
+- NE Niger (Sub-Saharan Africa)
+- NG Nigeria (Sub-Saharan Africa), 2 record(s) from earlier research
+- RW Rwanda (Sub-Saharan Africa), 1 record(s) from earlier research
+- ST Sao Tome and Principe (Sub-Saharan Africa)
+- SN Senegal (Sub-Saharan Africa), 1 record(s) from earlier research
+- SC Seychelles (Sub-Saharan Africa)
+- SL Sierra Leone (Sub-Saharan Africa)
+- SO Somalia (Sub-Saharan Africa)
+- ZA South Africa (Sub-Saharan Africa), 2 record(s) from earlier research
+- SS South Sudan (Sub-Saharan Africa)
+- TZ Tanzania (Sub-Saharan Africa)
+- TG Togo (Sub-Saharan Africa)
+- UG Uganda (Sub-Saharan Africa)
+- ZM Zambia (Sub-Saharan Africa), 1 record(s) from earlier research
+- ZW Zimbabwe (Sub-Saharan Africa)
+- AUS Australia (Oceania), 7 record(s) from earlier research
+- FJ Fiji (Oceania)
+- KI Kiribati (Oceania)
+- MH Marshall Islands (Oceania)
+- FM Micronesia (Oceania)
+- NR Nauru (Oceania)
+- NZ New Zealand (Oceania), 3 record(s) from earlier research
+- PW Palau (Oceania)
+- PG Papua New Guinea (Oceania)
+- WS Samoa (Oceania)
+- SB Solomon Islands (Oceania)
+- TO Tonga (Oceania)
+- TV Tuvalu (Oceania)
+- VU Vanuatu (Oceania)
+- TW Taiwan (East Asia), 2 record(s) from earlier research
+- HK Hong Kong SAR (China) (East Asia), 2 record(s) from earlier research
+- CA-ON Ontario (Canada) (North America), 1 record(s) from earlier research
+- US-AK Alaska (US) (North America)
+- US-AL Alabama (US) (North America)
+- US-AR Arkansas (US) (North America), 1 record(s) from earlier research
+- US-AZ Arizona (US) (North America)
+- US-CA California (US) (North America), 9 record(s) from earlier research
+- US-CO Colorado (US) (North America), 2 record(s) from earlier research
+- US-CT Connecticut (US) (North America), 1 record(s) from earlier research
+- US-DC District of Columbia (US) (North America)
+- US-DE Delaware (US) (North America)
+- US-FL Florida (US) (North America), 1 record(s) from earlier research
+- US-GA Georgia (US) (North America), 1 record(s) from earlier research
+- US-HI Hawaii (US) (North America), 1 record(s) from earlier research
+- US-IA Iowa (US) (North America), 1 record(s) from earlier research
+- US-ID Idaho (US) (North America), 1 record(s) from earlier research
+- US-IL Illinois (US) (North America), 3 record(s) from earlier research
+- US-IN Indiana (US) (North America)
+- US-KS Kansas (US) (North America)
+- US-KY Kentucky (US) (North America), 1 record(s) from earlier research
+- US-LA Louisiana (US) (North America)
+- US-MA Massachusetts (US) (North America)
+- US-MD Maryland (US) (North America)
+- US-ME Maine (US) (North America), 2 record(s) from earlier research
+- US-MI Michigan (US) (North America)
+- US-MN Minnesota (US) (North America), 1 record(s) from earlier research
+- US-MO Missouri (US) (North America)
+- US-MS Mississippi (US) (North America)
+- US-MT Montana (US) (North America), 1 record(s) from earlier research
+- US-NC North Carolina (US) (North America)
+- US-ND North Dakota (US) (North America)
+- US-NE Nebraska (US) (North America), 1 record(s) from earlier research
+- US-NH New Hampshire (US) (North America)
+- US-NJ New Jersey (US) (North America), 1 record(s) from earlier research
+- US-NM New Mexico (US) (North America)
+- US-NV Nevada (US) (North America), 1 record(s) from earlier research
+- US-NY New York (US) (North America), 1 record(s) from earlier research
+- US-OH Ohio (US) (North America)
+- US-OK Oklahoma (US) (North America)
+- US-OR Oregon (US) (North America), 1 record(s) from earlier research
+- US-PA Pennsylvania (US) (North America)
+- US-RI Rhode Island (US) (North America), 1 record(s) from earlier research
+- US-SC South Carolina (US) (North America)
+- US-SD South Dakota (US) (North America)
+- US-TN Tennessee (US) (North America)
+- US-TX Texas (US) (North America), 1 record(s) from earlier research
+- US-UT Utah (US) (North America), 1 record(s) from earlier research
+- US-VA Virginia (US) (North America), 1 record(s) from earlier research
+- US-VT Vermont (US) (North America), 1 record(s) from earlier research
+- US-WA Washington (US) (North America), 1 record(s) from earlier research
+- US-WI Wisconsin (US) (North America)
+- US-WV West Virginia (US) (North America)
+- US-WY Wyoming (US) (North America), 1 record(s) from earlier research

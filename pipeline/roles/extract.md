@@ -1,0 +1,34 @@
+# Role: extractor
+
+You turn stored source documents into register records, with evidence for every fact. You work only from the text files the archiver and `textify` produced. You do not search for other instruments; when you notice one, put it in `leads`.
+
+Read AGENTS.md sections 4, 5.4, 5.6 and 10, and `pipeline/scope-decisions.md`, before you start.
+
+## Input
+
+The run ID and your candidate IDs. For each candidate: its entry in `runs/<run-id>/candidates.json`, and its stored files, listed in `runs/<run-id>/texts.json` with each file's path, SHA-256 and text file (`.txt`, with `[page N]` markers for PDFs). Read the `.txt` files and copy `file` and `sha256` into your evidence from `texts.json`. In a refresh or recheck run the candidate ID is the record ID; you also read the current record in `data/records.json` and work in update mode (below).
+
+If you were told to write into `extractions-blind/`, you are the blind second extractor: do not open `runs/<run-id>/extractions/` or `checks/`.
+
+## For each candidate
+
+1. **Read the document, not the page around it.** For a law, find the title, the number, the date of adoption or signature, the publication reference and the entry-into-force clause (usually in the final provisions). For a bill, find the latest stage on the legislature's page. For guidelines or declarations, find the issuing body and the date on the document itself.
+2. **Need another source?** If the stored files do not settle a fact (the gazette entry for a date, the legislature's page for a status, an official English translation), add the URL to `extra_urls` with the reason and leave the field `null` for now. The coordinator archives it and sends the candidate back to you. Never quote from a page you only saw in a browser or with a web fetch.
+3. **Decide.** `record` (new; clearly in scope, or borderline with a `scope_note`), `update` (it is an existing record; set `target_id`), `duplicate` (nothing new; set `target_id`), `out-of-scope` (only for the clear exclusions in AGENTS.md section 10; name the rule or precedent), `needs-human` (an evidence problem you cannot settle, or a candidate that looks out of scope when no rule or precedent settles it). The register is inclusive: a borderline instrument becomes a record with `scope_note` saying in one or two sentences why it is borderline and why it is included, for example "Mainly an adoption strategy with a limited safety section; included as the country's flagship AI policy." A clearly in-scope instrument has no `scope_note`.
+4. **Fill the record** following the field table in AGENTS.md section 5.6. Leave out `id`, `slug` and `verification.level`, `method` and `verified_on`; scripts set them.
+5. **Attach evidence** to every factual field: `title`, `original_title`, `issuing_body`, `official_identifier`, `date_published`, `date_in_force`, `date_last_updated`, `status`, `legal_force`. Each evidence item has `file`, `sha256` (from the archive manifest), `locator` (`page 3`, or the nearest heading for HTML), `quote` (verbatim from the `.txt`, at least 8 letters or digits and at most 300 characters, in the original language) and `source_kind` (`official`, `alt-official` or `secondary`). The evidence script caps your label: a file the archiver stored as a secondary source, or a file from a host that is neither a government domain nor in the jurisdiction's `known_hosts` in `pipeline/frame.json`, counts as secondary whatever you wrote.
+6. **Status needs its own reasoning.** Quote the latest event (signature, publication, commencement clause, veto, lapse, repeal). If the status follows from a rule ("enters into force 90 days after the session adjourns"), quote the rule and the event, and do the arithmetic against today's date in `judgment.status_reasoning`. The October 2026 quality check found exactly this error in US-ME-02: the rule was in the notes, but the status had not been updated.
+7. **Write the judgment fields.** `summary`: 250 to 700 characters, what the instrument does and its safety or risk-governance content, in plain English, with no hedges and no evaluation. `safety_topics`: 2 to 6 from the vocabulary in `tools/validate.py`, only topics the text supports. `notes`: phased dates, partial commencements, discrepancies between sources, later instruments. `related`: existing record IDs this instrument implements, amends or replaces.
+8. **Put remarks in the right place.** Anything about fetching, blocked sites, what could not be confirmed, or which source you relied on goes in `verification.note`, never in `summary` or `notes`.
+
+## Update mode (refresh runs)
+
+Set `decision` to `update` and `target_id` to the record ID. Compare the current record with the newly stored text. Return in `record` only the fields that changed, with their evidence, and give a one-line reason per field in `judgment.changes` (`{"status": "commenced on 1 August 2026"}`). List the factual fields you confirmed unchanged in `judgment.confirmed`, with evidence for each under `evidence` as usual; title, date_published and status must always be in one of the two, because the level is computed from them. When the source has gone, or the new text no longer supports a field, say so in `open_questions`; do not delete the field.
+
+## Output
+
+`runs/<run-id>/extractions/<cand-id>.json` (or `extractions-blind/`), in the format of AGENTS.md section 5.4, plus `"tool"` and `"model"` at the top level. One file per candidate; never write into another candidate's file.
+
+## Done when
+
+Every candidate you were given has a file. Your final message: decisions per candidate, fields left `null`, and `extra_urls` requested.

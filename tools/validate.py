@@ -28,7 +28,7 @@ REQUIRED = ["id", "slug", "title", "short_title", "jurisdiction", "country", "ju
             "issuing_body", "instrument_type", "legal_force", "status", "language", "summary",
             "safety_topics", "verification"]
 OPTIONAL = ["original_title", "date_published", "date_in_force", "date_last_updated", "official_identifier",
-            "official_url", "secondary_url", "related", "notes", "local_copy"]
+            "official_url", "secondary_url", "related", "notes", "scope_note", "local_copy"]
 
 VOCAB = {
     "instrument_type": ["Law", "Regulation / implementing rule", "Executive order / decree", "Guidelines / framework",
@@ -108,6 +108,8 @@ def check(db):
         for t in r.get("safety_topics") or []:
             if t not in TOPICS:
                 warn(rid, "safety topic %r is not in the shared topic list; add it to tools/validate.py if it is new" % t)
+        if r.get("scope_note") is not None and (not isinstance(r["scope_note"], str) or not r["scope_note"].strip()):
+            err(rid, "scope_note must be text saying why the record is borderline, or absent for a clearly in-scope record")
         if r.get("safety_topics") and not isinstance(r["safety_topics"], list):
             err(rid, "safety_topics must be a list")
 
