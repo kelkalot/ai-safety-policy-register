@@ -49,7 +49,9 @@ import validate  # noqa: E402
 
 ROOT = build.ROOT
 AUTHORS = [("Riegler", "Michael"), ("Gautam", "Sushant")]
-AFFILIATION = "Simula"
+AFFILIATION = "AI Safety Department, SimulaMet & OsloMet"
+MAINTAINERS = [("Michael A. Riegler", "michael@simula.no"), ("Sushant Gautam", "sushant@simula.no")]
+CONTACT = "%s, %s" % (" and ".join("%s (%s)" % m for m in MAINTAINERS), AFFILIATION)
 PRETTY_NAME = "Every AI Policy Ever"
 
 # Hosts of secondary copies that are commentary or press rather than official publications.
@@ -369,7 +371,11 @@ Authors: {authors} ({affiliation}). Please say in your own text that the registe
 ## Corrections and updates
 
 Everything a person adds goes through an issue on [GitHub]({github}): *Suggest an instrument* for a missing instrument or news about a record, *Provide a document* for a source the archiver cannot download, and a comment on an issue labelled `question` to help settle an open question. A maintainer decides with one line, the next pipeline run applies it, and the change is recorded in the history with the issue link. The README's "How to contribute" section explains the mechanism.
-""".format(pretty=PRETTY_NAME, space=space_url, archive=archive_url, ns=ns, name=name,
+
+## Contact
+
+For anything the issue forms do not cover, or that should not be public, write to the maintainers: {contact}.
+""".format(pretty=PRETTY_NAME, space=space_url, contact=CONTACT, archive=archive_url, ns=ns, name=name,
            snapshot=meta.get("snapshot_date"), version=meta.get("version"), github=github_url,
            bibtex=bibtex(meta, repo_url), authors=authors, affiliation=AFFILIATION,
            nocopy=st["n"] - st["with_copy"],
@@ -428,8 +434,8 @@ Some stored files are bot-check pages or empty JavaScript shells that an officia
 
 ## Terms
 
-The documents remain under their publishers' terms (see `LICENSE.md`). If you hold rights in a file and want it removed, open a discussion on this dataset naming the path.
-""".format(pretty=PRETTY_NAME, ns=ns, name=name, main=main, **st)
+The documents remain under their publishers' terms (see `LICENSE.md`). If you hold rights in a file and want it removed, open a discussion on this dataset naming the path, or write to the maintainers: {contact}.
+""".format(pretty=PRETTY_NAME, ns=ns, name=name, main=main, contact=CONTACT, **st)
     lic = """# Terms for the stored source documents
 
 The files in `archive/` are copies of documents published by governments, legislatures, courts, regulators and intergovernmental organisations. They are stored for research and to verify the records of the register. Copyright and reuse terms are those of each publisher; many official texts are in the public domain or under open government licences, and some are not. The register's authors claim no rights in them.
@@ -439,7 +445,7 @@ The register's own records, summaries and notes are licensed separately under CC
     return yaml + body, lic
 
 
-def space_card(ns, name):
+def space_card(ns, name, github_url):
     return """---
 title: Every AI Policy Ever
 emoji: 📜
@@ -460,7 +466,9 @@ datasets:
 A searchable register of official instruments on AI safety and AI regulation: laws, executive orders, frameworks, AI safety institute mandates, declarations and bills from governments and intergovernmental bodies. Each record links to its official source, says how it was verified, and has a ready-made citation.
 
 The records are an AI-based extraction, made by AI agents in Claude Code with the model Claude Fable 5.1 and spot-checked by hand; the [dataset card](https://huggingface.co/datasets/{ns}/{name}) explains the method, why it is repeatable, and its limits. The data can be downloaded from the [dataset](https://huggingface.co/datasets/{ns}/{name}), and the stored source documents from the [archive dataset](https://huggingface.co/datasets/{ns}/{name}-archive).
-""".format(ns=ns, name=name)
+
+Suggestions, corrections and documents a site blocks go through the issue forms on [GitHub]({github}); the app's Contribute tab explains how. For anything else, write to the maintainers: {contact}.
+""".format(ns=ns, name=name, github=github_url, contact=CONTACT)
 
 
 # ----------------------------------------------------------------------------- build
@@ -552,11 +560,11 @@ def build_all(out, ns, name, github_url, changes_md=""):
     excluded = sorted(f["path"] for f in files if f["path"] and not f["in_archive_dataset"])
     redacted = {f["path"]: f["redaction_note"] for f in files if f["redacted"]}
     config = {"archiveBase": repo_url + "-archive/blob/main/", "archiveExcluded": excluded, "archiveRedacted": redacted,
-              "datasetUrl": repo_url, "archiveDatasetUrl": repo_url + "-archive"}
+              "datasetUrl": repo_url, "archiveDatasetUrl": repo_url + "-archive", "repoUrl": github_url}
     (sp / "assets" / "site-config.js").write_text(
         "/* Written by tools/publish_hf.py for the Hugging Face Space. */\nwindow.SITE_CONFIG = %s;\n"
         % json.dumps(config, ensure_ascii=False, indent=1), encoding="utf-8")
-    (sp / "README.md").write_text(space_card(ns, name), encoding="utf-8")
+    (sp / "README.md").write_text(space_card(ns, name, github_url), encoding="utf-8")
     return st
 
 

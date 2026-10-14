@@ -461,15 +461,21 @@
   $("#rows").addEventListener("click", function (e) { var row = e.target.closest(".row"); if (row) openRecord(row.dataset.id); });
 
   /* tabs */
+  var TABS = ["register", "about", "contribute"];
   function showTab(which) {
-    var reg = which === "register";
-    $("#tab-register").setAttribute("aria-selected", String(reg));
-    $("#tab-about").setAttribute("aria-selected", String(!reg));
-    $("#view-register").hidden = !reg; $("#view-about").hidden = reg;
-    if (reg) renderChart();
+    TABS.forEach(function (t) {
+      $("#tab-" + t).setAttribute("aria-selected", String(t === which));
+      $("#view-" + t).hidden = t !== which;
+    });
+    if (which === "register") renderChart();
   }
-  $("#tab-register").addEventListener("click", function () { showTab("register"); });
-  $("#tab-about").addEventListener("click", function () { showTab("about"); });
+  TABS.forEach(function (t) { $("#tab-" + t).addEventListener("click", function () { showTab(t); }); });
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest("[data-tab]"); if (!a) return;
+    e.preventDefault();
+    if (openId) closeRecord();
+    showTab(a.dataset.tab); window.scrollTo(0, 0);
+  });
   $("#weakList").addEventListener("click", function (e) { var a = e.target.closest("[data-open]"); if (a) { e.preventDefault(); openRecord(a.dataset.open); } });
 
   /* ---------- drawer ---------- */
@@ -551,6 +557,7 @@
       (v.second_check ? '<span class="v2"><strong>Second check' + (/^Independent check/.test(v.second_check) ? "" : ", " + esc(META.snapshot_date)) + ":</strong> " + esc(v.second_check) + "</span>" : "") + "</div></div>" +
       historySection(r) +
       (rel ? '<div class="sec"><h3>Related records</h3><div class="related">' + rel + "</div></div>" : "") +
+      improveSection(r) +
       '<div class="sec cite"><h3>Citation</h3><textarea id="citeText" readonly aria-label="Citation text">' + esc(citation(r)) + '</textarea><div class="row-actions"><button class="btn" id="copyCite">Copy citation</button><button class="btn" id="copyUrl"' + (r.official_url ? "" : " disabled") + ">Copy official URL</button></div></div>";
     $("#drawer").hidden = false; $("#scrim").hidden = false;
     $("#dBody").scrollTop = 0;
@@ -558,6 +565,21 @@
     $("#dPrev").disabled = idx <= 0; $("#dNext").disabled = idx < 0 || idx >= current.length - 1;
     try { history.replaceState(null, "", "#" + id); } catch (e) {}
     $("#dClose").focus();
+  }
+  /* links to the GitHub issue forms, filled in with the record */
+  var REPO = (SITE.repoUrl || "https://github.com/kelkalot/every-ai-policy-ever").replace(/\/+$/, "");
+  function issueUrl(template, fields) {
+    return REPO + "/issues/new?template=" + template + Object.keys(fields).filter(function (k) { return fields[k]; })
+      .map(function (k) { return "&" + k + "=" + encodeURIComponent(fields[k]); }).join("");
+  }
+  function improveSection(r) {
+    var name = r.id + " " + (r.short_title || r.title), lc = r.local_copy;
+    var news = issueUrl("suggest-instrument.yml", { title: "News or correction: " + name, record: r.id, url: r.official_url, jurisdiction: r.id.replace(/-\d+$/, "") });
+    var doc = issueUrl("provide-document.yml", { title: "Document: " + name, record: r.id, url: r.official_url });
+    var needDoc = lc.status !== "archived" || !!lc.integrity_flag;
+    return '<div class="sec"><h3>Improve this record</h3><p>Know of an amendment, a status change or an error? <a href="' + esc(news) + '" target="_blank" rel="noopener">Report news or an error</a>; the GitHub form opens with this record filled in.</p>' +
+      (needDoc ? '<p>The official source is not stored as it should be (see Local copy). If you can download it from the official site, <a href="' + esc(doc) + '" target="_blank" rel="noopener">provide the document</a>.</p>' : "") +
+      '<p class="muted">What happens next: <a href="#contribute" data-tab="contribute">Contribute</a>.</p></div>';
   }
   function closeRecord() {
     $("#drawer").hidden = true; $("#scrim").hidden = true; openId = null;
@@ -639,4 +661,5 @@
   if (window.innerWidth > 900) $("#filters").classList.remove("closed");
   var h = (location.hash || "").slice(1);
   if (h && byId[h]) openRecord(h);
+  else if (h === "contribute" || h === "about") showTab(h);
 })();

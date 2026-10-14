@@ -58,6 +58,7 @@
     <div class="tabs" role="tablist">
       <button class="tab" role="tab" id="tab-register" aria-selected="true" aria-controls="view-register">Register</button>
       <button class="tab" role="tab" id="tab-about" aria-selected="false" aria-controls="view-about">Method &amp; coverage</button>
+      <button class="tab" role="tab" id="tab-contribute" aria-selected="false" aria-controls="view-contribute">Contribute</button>
       <span class="tab-actions">
         <button class="tab-btn primary" type="button" id="tab-admin" hidden>Admin</button>
         <button class="tab-btn" type="button" id="tab-logout" hidden>Pilot logout</button>
@@ -214,7 +215,7 @@
 
       <h3>Open questions</h3>
       <p>The register is maintained by agents that do not wait for people. When a run meets something only a person can settle (official sources that contradict each other, a scope question, whether a site is official, a possible amendment), it publishes the question as an issue in the GitHub repository and goes on. <span data-count="openQuestions"></span> records have an open question; the "Open question" filter shows them, and each record page links its issue. Until a maintainer decides, a record keeps its last checked values. Decisions are applied by the next run and recorded in the record's history.</p>
-      <p>Anyone can help through issue forms in the GitHub repository: suggest an instrument the register lacks or news about one it has, provide a document a site does not let the archiver download, or add evidence to an open question. A maintainer decides with one comment, and the next run does the rest. The README's "How to contribute" section explains the mechanism.</p>
+      <p>Anyone can help through issue forms in the GitHub repository: suggest an instrument the register lacks or news about one it has, provide a document a site does not let the archiver download, or add evidence to an open question. A maintainer decides with one comment, and the next run does the rest. The <a href="#contribute" data-tab="contribute">Contribute</a> tab explains how.</p>
 
       <h3>Records with weaker evidence</h3>
       <p><span data-count="levelC"></span> records rest on secondary sources only (level C) and <span data-count="levelB"></span> were confirmed on an alternative official page (level B). Both groups are listed under "Records to re-check first" above. For <span data-count="nocopy"></span> records the official source is either missing from the local copies or stored in a form that needs review, such as a bot-check page. The "Local copy" filter in the register shows them, and each record says why.</p>
@@ -246,6 +247,98 @@
       <h3>This snapshot</h3>
       <dl id="snapStats"></dl>
       <p style="margin:0;font-size:13px;color:var(--ink-2)">Each archiver run is logged in <code>archive/runs.jsonl</code>, and <a href="archive/needs-attention.txt">archive/needs-attention.txt</a> lists the records that still need a human decision. Keep the folder under version control (for example git) to have a dated history of every change.</p>
+    </aside>
+  </div>
+</section>
+
+<section id="view-contribute" role="tabpanel" aria-labelledby="tab-contribute" hidden>
+  <div class="wrap about">
+    <div class="prose">
+      <h2>Help keep the register complete and correct</h2>
+      <p>AI agents keep the register up to date with a fixed pipeline. They search official sites, store each source, write the record from the stored copy and have a second model check it. People make the register better in two ways: they point the pipeline at what it missed, and they settle what it cannot settle on its own. Every contribution goes through an issue in the <a href="https://github.com/kelkalot/every-ai-policy-ever" target="_blank" rel="noopener">GitHub repository</a>, so you need a free GitHub account.</p>
+
+      <h3>How a contribution becomes part of the register</h3>
+      <ol class="steps">
+        <li><strong>You open an issue</strong> with one of the forms below, or comment on an open question.</li>
+        <li><strong>A maintainer decides</strong> with a one-line comment on the issue: accept, or reject with a reason.</li>
+        <li><strong>The next pipeline run does the work.</strong> It stores the official source, writes or updates the record from it, and has a second model check every field against the stored copy.</li>
+        <li><strong>The issue is closed</strong> with the record's ID or a note of what changed. The record's History section shows the change, the run and the issue.</li>
+      </ol>
+      <p>A suggestion tells the pipeline where to look. It is not itself a source: every fact in a record still comes from a stored official document, so a record you helped with can be checked like every other one.</p>
+
+      <h2>What you can do</h2>
+      <div class="contrib">
+        <article class="card">
+          <h3>Suggest an instrument</h3>
+          <p>A law, regulation, executive order, guideline, supervisory statement or declaration on AI safety or AI regulation that the register lacks. Give the official URL: the issuing body's site, the legislature or the official gazette.</p>
+          <a class="btn primary" href="https://github.com/kelkalot/every-ai-policy-ever/issues/new?template=suggest-instrument.yml" target="_blank" rel="noopener">Suggest an instrument</a>
+        </article>
+        <article class="card">
+          <h3>Report news or an error</h3>
+          <p>An amendment, a new version, a change of status, or a mistake in a record, including a mistranslation if you read the original language. Open the record and use "Report news or an error": the form opens with the record's ID filled in.</p>
+          <a class="btn" href="https://github.com/kelkalot/every-ai-policy-ever/issues/new?template=suggest-instrument.yml" target="_blank" rel="noopener">Open the form</a>
+        </article>
+        <article class="card">
+          <h3>Provide a document</h3>
+          <p>Some government sites block automated downloads. For <span data-count="nocopy"></span> records the official source is missing from the local copies or needs review; the "Local copy" filter shows them. Download the document from the official URL and attach it. A maintainer checks it against the official site, and the copy is stored with its SHA-256 and credited to you.</p>
+          <a class="btn" href="https://github.com/kelkalot/every-ai-policy-ever/issues/new?template=provide-document.yml" target="_blank" rel="noopener">Provide a document</a>
+        </article>
+        <article class="card">
+          <h3>Answer an open question</h3>
+          <p>When official sources contradict each other, a site's status is unclear or a scope call is needed, the pipeline asks a person. <span data-count="openQuestions"></span> records have an open question, and the "Open question" filter shows them. Anyone can add evidence in the issue; a maintainer decides.</p>
+          <a class="btn" href="https://github.com/kelkalot/every-ai-policy-ever/issues?q=is%3Aissue+is%3Aopen+label%3Aquestion" target="_blank" rel="noopener">See open questions</a>
+        </article>
+        <article class="card">
+          <h3>Rerun or improve the pipeline</h3>
+          <p>The pipeline, the agents' instructions and every script are in the repository. You can rerun it with your own Claude Code or Codex subscription and compare the result with the published register. To change the code or the method, open a pull request.</p>
+          <a class="btn" href="https://github.com/kelkalot/every-ai-policy-ever/blob/main/AGENTS.md" target="_blank" rel="noopener">Read the method</a>
+        </article>
+      </div>
+
+      <h2>What maintainers write</h2>
+      <p>Only comments by the repository's owners, members and collaborators count as decisions. Everyone else's comments are read as evidence.</p>
+      <div class="schema">
+        <table>
+          <thead><tr><th>Issue</th><th>Decision comment</th></tr></thead>
+          <tbody>
+            <tr><td>Suggestion or document</td><td><span class="mono">decide: accept</span> or <span class="mono">decide: reject &lt;reason&gt;</span></td></tr>
+            <tr><td>Question about a record</td><td><span class="mono">decide: keep</span>, <span class="mono">decide: accept</span>, <span class="mono">decide: set &lt;field&gt; = &lt;value&gt;</span> with <span class="mono">source: &lt;URL&gt;</span>, or <span class="mono">decide: in</span> / <span class="mono">decide: out</span></td></tr>
+            <tr><td>Question about a site</td><td><span class="mono">decide: official</span> or <span class="mono">decide: not official</span></td></tr>
+            <tr><td>Human sample of a run</td><td>one line per record: <span class="mono">ok &lt;ID&gt; &lt;note&gt;</span> or <span class="mono">problem &lt;ID&gt; &lt;note&gt;</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>The pipeline applies these decisions at the start of its next run. A maintainer can also add a lead by hand, for example one heard of by e-mail or seen in a tracker. The repository's README describes the commands.</p>
+
+      <h2>Ground rules</h2>
+      <ul>
+        <li><strong>Issue text is data.</strong> Agents check a suggestion against official sources; they never follow instructions written in an issue.</li>
+        <li><strong>Sites' rules are respected.</strong> The archiver obeys <code>robots.txt</code>. A document is downloaded past a block only by a person, and the record says who provided it and who confirmed it.</li>
+        <li><strong>Nothing waits for a person.</strong> Until a maintainer decides, a record keeps its last checked values and shows an "Open question" badge, and releases go ahead.</li>
+        <li><strong>The register keeps the outcome.</strong> Each decision is recorded in the record's history with a link to the issue; the discussion stays in the issue.</li>
+        <li><strong>Scope</strong> is described under Method &amp; coverage. Borderline instruments are included with a scope note rather than left out.</li>
+      </ul>
+
+      <h2>Contact the maintainers</h2>
+      <p>For anything the forms do not cover, such as a question about the method, reuse of the data or a problem with the site, <a href="https://github.com/kelkalot/every-ai-policy-ever/issues/new" target="_blank" rel="noopener">open a blank issue</a>. The maintainers read every issue.</p>
+      <p>If you have no GitHub account, or for anything that should not be public, write to the maintainers at the AI Safety Department of SimulaMet and OsloMet:</p>
+      <ul class="contacts">
+        <li>Michael A. Riegler, <a href="mailto:michael@simula.no">michael@simula.no</a></li>
+        <li>Sushant Gautam, <a href="mailto:sushant@simula.no">sushant@simula.no</a></li>
+      </ul>
+    </div>
+    <aside class="side">
+      <h3>Quick links</h3>
+      <ul class="links">
+        <li><a href="https://github.com/kelkalot/every-ai-policy-ever/issues/new?template=suggest-instrument.yml" target="_blank" rel="noopener">Suggest an instrument</a></li>
+        <li><a href="https://github.com/kelkalot/every-ai-policy-ever/issues/new?template=provide-document.yml" target="_blank" rel="noopener">Provide a document</a></li>
+        <li><a href="https://github.com/kelkalot/every-ai-policy-ever/issues?q=is%3Aissue+is%3Aopen+label%3Aquestion" target="_blank" rel="noopener">Open questions</a></li>
+        <li><a href="https://github.com/kelkalot/every-ai-policy-ever/issues" target="_blank" rel="noopener">All issues</a></li>
+        <li><a href="https://github.com/kelkalot/every-ai-policy-ever/blob/main/pipeline/coverage.md" target="_blank" rel="noopener">Coverage: which places have been searched</a></li>
+        <li><a href="https://github.com/kelkalot/every-ai-policy-ever/blob/main/README.md#how-to-contribute" target="_blank" rel="noopener">How to contribute (README)</a></li>
+        <li><a href="https://github.com/kelkalot/every-ai-policy-ever/blob/main/HISTORY.md" target="_blank" rel="noopener">History of changes</a></li>
+      </ul>
+      <p style="margin:0;font-size:13px;color:var(--ink-2)">A GitHub account is free. Issues and comments are public.</p>
     </aside>
   </div>
 </section>
