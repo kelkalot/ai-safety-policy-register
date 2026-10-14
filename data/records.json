@@ -416,6 +416,29 @@
       "VN-03"
      ],
      "history_events": 60
+    },
+    {
+     "date": "2026-10-14",
+     "agent": "Claude Code",
+     "model": "claude-opus-5-5",
+     "scope": "two-way links between new records of run 2026-10-14-discover-leads-2026-10-14 that its checkers named",
+     "run_id": "2026-10-14-discover-leads-2026-10-14",
+     "records_added": 0,
+     "ids": [],
+     "ids_updated": [
+      "CN-20",
+      "CN-21",
+      "CN-22",
+      "CN-23",
+      "CN-25",
+      "CN-26",
+      "CN-27",
+      "SK-03",
+      "SK-04",
+      "US-CA-10",
+      "US-CA-11"
+     ],
+     "history_events": 11
     }
    ]
   }
@@ -47888,6 +47911,22 @@
     {
      "id": "CN-13",
      "slug": "cn-ai-safety-governance-framework-2-0"
+    },
+    {
+     "id": "CN-21",
+     "slug": "tc260-pg-20269a-ai-application-security-education"
+    },
+    {
+     "id": "CN-22",
+     "slug": "tc260-pg-202610a-ai-application-security-health"
+    },
+    {
+     "id": "CN-23",
+     "slug": "tc260-pg-202611a-ai-application-security-radio-tv-and-networ"
+    },
+    {
+     "id": "CN-25",
+     "slug": "tc260-pg-202515a-generative-ai-security-emergency-response"
     }
    ],
    "notes": "Version v1.0-202609, released on 15 Sept 2026 with notice 网安秘字〔2026〕118号 together with sector guides for education, health, and radio, TV and network audiovisual services, to address new risks from the fast spread of AI applications. An organisation applying AI in a sector follows this guide and the sector document. The five security grades run from low to especially major security risk, and each party involved must reach a capability maturity level no lower than the application's grade; for grading and maturity assessment the guide refers to national standards on AI application security classification and grading and on AI security capability maturity. Normative references include GB/T 45654-2025 (CN-10), GB 45438-2025 (CN-08), GB/T 45674-2025, GB/T 45652-2025 and TC260-005, AI Application Ethics Security Guidelines 1.0. Because responsibility for AI failures is hard to assign, it encourages arrangements in applications involving personal safety for immediate, unconditional humanitarian relief after major personal-injury accidents.",
@@ -47981,6 +48020,18 @@
     {
      "id": "CN-08",
      "slug": "cn-gb-45438-2025"
+    },
+    {
+     "id": "CN-20",
+     "slug": "tc260-pg-20268a-ai-application-security-general-provisions"
+    },
+    {
+     "id": "CN-22",
+     "slug": "tc260-pg-202610a-ai-application-security-health"
+    },
+    {
+     "id": "CN-23",
+     "slug": "tc260-pg-202611a-ai-application-security-radio-tv-and-networ"
     }
    ],
    "notes": "Version v1.0-202609, released on 15 Sept 2026 with notice 网安秘字〔2026〕118号 together with the general provisions and the health and audiovisual guides. It applies to educational institutions, defined as education administrative departments and their affiliated units and schools of all levels and types. Primary school pupils are not to use open-ended content generation alone, and important decisions on students, staff, resources and degrees are not to execute AI conclusions directly. Drafting units include the Ministry of Education's Department of Science, Technology and Informatization and its Education Management Information Center. Annex A describes typical scenarios and their main risks.",
@@ -48077,6 +48128,18 @@
     {
      "id": "CN-13",
      "slug": "cn-ai-safety-governance-framework-2-0"
+    },
+    {
+     "id": "CN-20",
+     "slug": "tc260-pg-20268a-ai-application-security-general-provisions"
+    },
+    {
+     "id": "CN-21",
+     "slug": "tc260-pg-20269a-ai-application-security-education"
+    },
+    {
+     "id": "CN-23",
+     "slug": "tc260-pg-202611a-ai-application-security-radio-tv-and-networ"
     }
    ],
    "notes": "Version v1.0-202609, released on 15 Sept 2026 with notice 网安秘字〔2026〕118号 together with the general provisions and the education and audiovisual guides. The guide sets rules for dividing liability between doctors and AI when a system gives a wrong suggestion, and asks that systems be checked for performance across population subgroups, with restricted use where performance drops for groups such as children or the elderly. The informative annex grades AI applications in health as especially major, major, significant, general or low risk; the top grade has catastrophic and systemic features, and the annex refers to AI Safety Governance Framework 2.0 (CN-13) for grading. Drafting units include the National Health Commission's Statistical Information Center.",
@@ -48178,6 +48241,18 @@
     {
      "id": "CN-02",
      "slug": "cn-deep-synthesis-provisions"
+    },
+    {
+     "id": "CN-20",
+     "slug": "tc260-pg-20268a-ai-application-security-general-provisions"
+    },
+    {
+     "id": "CN-21",
+     "slug": "tc260-pg-20269a-ai-application-security-education"
+    },
+    {
+     "id": "CN-22",
+     "slug": "tc260-pg-202610a-ai-application-security-health"
     }
    ],
    "notes": "Version v1.0-202609, released on 15 Sept 2026 with notice 网安秘字〔2026〕118号 together with the general provisions and the education and health guides. Programmes made with AI must not contain the listed prohibited content, and AI-generated micro-short dramas must carry a notice in each episode under the Micro-short Drama Development Management Measures. Generative AI services offered to the public must meet GB/T 45654 (CN-10) and GB 45438 (CN-08), and training data work must meet GB/T 45652 and GB/T 45674. For distribution it asks for explanation of recommendation algorithms, a one-click switch to non-preferred content and a minors' mode. Annex A lists 31 AI application scenarios in the sector and their main risks.",
@@ -48361,6 +48436,10 @@
     {
      "id": "CN-10",
      "slug": "cn-gb-t-45654-2025"
+    },
+    {
+     "id": "CN-20",
+     "slug": "tc260-pg-20268a-ai-application-security-general-provisions"
     }
    ],
    "notes": "Version V1.0-202509, released with notice 网安秘字〔2025〕125号 dated 15 Sept 2025 and posted on 22 Sept 2025. A generative AI service security incident is defined as an event caused by human factors, malicious attacks or inherent model flaws that damages the service or its data and has negative effects on the state, society or economy. Classification and grading follow GB/T 20986-2023, and illegal and unhealthy information mainly means the 29 risks in Annex A (A.1 to A.4) of GB/T 45654-2025 (CN-10). Self-assessed incidents of level 3 or higher with possible wide public impact are to be reported to the competent department immediately when they occur five times within 24 hours, affect more than 10,000 users and may cause adverse social impact; general incidents are handled internally and reported periodically. Annex A gives cases of a discrimination incident and a false-information incident.",
@@ -48444,7 +48523,12 @@
     "human oversight",
     "general-purpose / frontier AI"
    ],
-   "related": [],
+   "related": [
+    {
+     "id": "CN-27",
+     "slug": "tc260-pg-20267a-security-guide-for-individual-ai-users"
+    }
+   ],
    "notes": "Version v1.0-202607, released with notice 网安秘字〔2026〕80号 of 1 July 2026. It can also guide the choice of commercial agent services. High-risk operations include stopping system services, formatting disks, bulk deletion, changing permissions, keys or firewall rules and accessing password managers, and may include transfers and payments. Annex A is a security checklist; Annex B gives organisations management guidance: an internal agent-use policy with prohibited behaviour and approval steps, an agent asset register, logging and risk analysis of agent activity, and discovery of unapproved agents on internal networks.",
    "scope_note": null,
    "english_version": {
@@ -48530,6 +48614,10 @@
     {
      "id": "CN-08",
      "slug": "cn-gb-45438-2025"
+    },
+    {
+     "id": "CN-26",
+     "slug": "tc260-pg-20266a-agent-deployment-and-use-security"
     }
    ],
    "notes": "Version v1.0-202608, released with notice 网安秘字〔2026〕105号 of 24 Aug 2026. It also serves as a reference for technology providers, developers and operators of AI services. Guardians of minors and elderly users are asked to help them use AI services safely. For deploying agents it refers users to TC260-PG-20266A, and for the style of content labels to chapter 5 of GB 45438-2025 (CN-08).",
@@ -50228,7 +50316,12 @@
     "deepfakes & synthetic media",
     "accountability & liability"
    ],
-   "related": [],
+   "related": [
+    {
+     "id": "SK-04",
+     "slug": "slovak-ai-synthetic-content-misuse-bill-miklosko-janckulik"
+    }
+   ],
    "notes": "Received by the National Council on 27 March 2026 from MPs Andrej Danko, Karol Farkašovský, Dagmar Kramplová and Adam Lučanský. The Speaker proposed the Constitutional Law Committee as lead committee (decision no. 1336). By resolution no. 1497 of 5 May 2026 the National Council decided at first reading to consider the bill in second reading and assigned it to the Constitutional Law Committee as lead committee; the resolution sets the committee's deadline as the start of the plenary debate on the bill, while the print page gives 25 May 2026. By letter of 7 September 2026 the sponsors asked for the bill to be included in the session of the National Council beginning on 17 November 2026. The amendments: a new § 12(4) of the Civil Code; a new misdemeanour in § 49(1)(h) of the Misdemeanours Act, with the sanctions of § 49(2); a new § 360b(1)(c) of the Criminal Code (dangerous electronic harassment); and § 3 of the Act on criminal liability of legal persons. The bill would take effect on 1 January 2027.",
    "scope_note": "A private members' bill that amends the Civil Code, the Misdemeanours Act, the Criminal Code and the Act on criminal liability of legal persons rather than creating an AI-specific act; included because it is the operative instrument proposed against deceptive recordings made or altered with AI and other technical means (deepfakes).",
    "english_version": {
@@ -50319,6 +50412,10 @@
     {
      "id": "DK-02",
      "slug": "dk-deepfake-copyright-bill-2026"
+    },
+    {
+     "id": "SK-03",
+     "slug": "slovak-deceptive-recordings-bill-print-1266"
     }
    ],
    "notes": "Received by the National Council on 25 September 2025 from MPs František Mikloško and Igor Janckulík; the Speaker proposed the Constitutional Law Committee (lead) and the Committee for Human Rights and National Minorities. At its 49th session the National Council decided at first reading, by resolution no. 1407 of 14 April 2026 under § 73(4) of its Rules of Procedure, not to continue deliberating the bill, which ended its passage. The bill would have added § 11a to the Civil Code, § 49(1)(h) to the Misdemeanours Act, § 6 to the Electronic Commerce Act, § 374a to the Criminal Code (one to five years' imprisonment for substantial damage, a sexual motive or pornographic form, or intent to influence elections, a referendum or the integrity of public debate; three to eight years for synthetic content depicting a child or a person appearing to be a child), § 325a to the Civil Contentious Procedure Code and § 118a to the Copyright Act, under which realistic digitally generated imitations of a performance or of any person's appearance or voice could not be made public without consent, except clearly and permanently labelled fiction used for parody, satire, art or science. It proposed entry into force on 1 January 2026. The explanatory memorandum cites Denmark's proposed copyright amendment as its model and presents the bill as supplementing the transparency obligations for deepfakes in Article 50 of the AI Act and the Digital Services Act.",
@@ -50726,6 +50823,10 @@
     {
      "id": "US-CA-02",
      "slug": "ca-sb-942"
+    },
+    {
+     "id": "US-CA-11",
+     "slug": "california-eo-n-12-23-generative-ai"
     }
    ],
    "notes": "Signed and effective 30 Mar 2026. All its deadlines run 120 days from issuance. Besides the certifications, it orders reforms so that the state does not contract with entities judicially found to have unlawfully undermined privacy or civil liberties; employee access to vetted GenAI tools with privacy and cybersecurity safeguards; an updated State Digital Strategy; a GenAI pilot giving access to government services by life event; expanded training; and a data minimization toolkit. The watermarking guidance is to follow Business and Professions Code secs. 22757.2 and 22757.3. If the State CISO finds a federal supply-chain-risk designation of a company improper, DGS and CDT issue guidance so that agencies can keep buying from it. It builds on Executive Order N-12-23 of 6 Sep 2023, binds state agencies only and creates no enforceable rights.",
@@ -50814,6 +50915,10 @@
     {
      "id": "US-CA-09",
      "slug": "ca-eo-n-9-26"
+    },
+    {
+     "id": "US-CA-10",
+     "slug": "california-eo-n-5-26"
     }
    ],
    "notes": "Signed and effective 6 Sep 2023. Deadlines: report on GenAI use cases and risks, and agency inventories of high-risk uses, within 60 days; critical-infrastructure risk analysis (with a classified briefing and public recommendations) and pilot sandboxes by March 2024; procurement, use and training guidelines building on the Blueprint for an AI Bill of Rights and the NIST AI Risk Management Framework by January 2024; guidelines on impacts on vulnerable communities, worker trainings and consideration of pilots by July 2024; updated project approval, procurement and contract terms, and criteria on workforce impacts, by January 2025. It also directs a partnership with UC Berkeley and Stanford HAI and a joint summit in 2024. Binding on state agencies only; it creates no enforceable rights.",

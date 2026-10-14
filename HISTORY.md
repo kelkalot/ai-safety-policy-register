@@ -290,7 +290,7 @@ changed 26, scope-decision 1
 
 ## 2026-10-14 · [2026-10-14-discover-leads-2026-10-14](runs/2026-10-14-discover-leads-2026-10-14/report.md)
 
-added 36, changed 24
+added 36, changed 35
 
 - **CN-18** added (Draft national standard on AI security capability maturity assessment…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C001 (CN/ministries)
 - **CN-19** added (TC260 draft guide on agentic AI system development security; Draft / …) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C002 (CN/ministries)
@@ -352,3 +352,14 @@ added 36, changed 24
 - **US-CA-08** related: + US-CA-12, + US-CA-14 — two-way link to US-CA-12, US-CA-14 added in run 2026-10-14-discover-leads-2026-10-14
 - **VN-02** related: + VN-08, + VN-09 — two-way link to VN-08, VN-09 added in run 2026-10-14-discover-leads-2026-10-14
 - **VN-03** related: + VN-08, + VN-09 — two-way link to VN-08, VN-09 added in run 2026-10-14-discover-leads-2026-10-14
+- **CN-20** related: + CN-21, + CN-22, + CN-23, + CN-25 — TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)
+- **CN-21** related: + CN-20, + CN-22, + CN-23 — TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)
+- **CN-22** related: + CN-20, + CN-21, + CN-23 — TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)
+- **CN-23** related: + CN-20, + CN-21, + CN-22 — TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)
+- **CN-25** related: + CN-20 — TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)
+- **CN-26** related: + CN-27 — TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)
+- **CN-27** related: + CN-26 — TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)
+- **SK-03** related: + SK-04 — the two Slovak deepfake bills, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C024.json)
+- **SK-04** related: + SK-03 — the two Slovak deepfake bills, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C024.json)
+- **US-CA-10** related: + US-CA-11 — the two California executive orders on AI, as the checkers of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C032.json, checks/C033.json)
+- **US-CA-11** related: + US-CA-10 — the two California executive orders on AI, as the checkers of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C032.json, checks/C033.json)

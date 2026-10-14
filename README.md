@@ -1,12 +1,10 @@
-# AI Safety Policy Register
+# Every AI Policy Ever
 
-A database of 340 official governmental and intergovernmental instruments on AI safety and AI regulation: laws, executive orders, safety frameworks, AI safety institute mandates, treaties and declarations. Research snapshot: 11 and 12 October 2026.
+**The AI Safety Policy Register**: a database of official governmental and intergovernmental instruments on AI safety and AI regulation, from laws, executive orders and implementing rules to safety frameworks, supervisory guidance, technical standards, AI safety institute mandates, treaties and declarations. Data version 1.9 holds 376 records; `data/records.json` and the [releases on Hugging Face](https://huggingface.co/datasets/kelkalot/every-ai-policy-ever) say which version you have.
 
-Every record links to its official source, says how and when it was verified, and can keep a **local copy** of its sources with a SHA-256 hash and a UTC timestamp. Anything that cannot be stored locally is **flagged on the record** with the reason.
+Every record links to its official source, says how and when it was verified, keeps a **local copy** of its sources with a SHA-256 hash, and carries its **history**: what changed, when, why and on what evidence. Anything that cannot be stored is **flagged on the record** with the reason.
 
-Everything runs from this folder. The app makes no requests to other websites, and there is nothing to install to view it.
-
-**The records are an AI-based extraction**, made by AI agents in Claude Code with the model Claude Fable 5.1, following the method in `AGENTS.md`. That is what made a register of this size possible in two days, and it makes the work repeatable: anyone can extend it, re-verify it or rerun the method with another model. No human has reviewed every record; a hand check of 50 randomly chosen records found no problems. `AGENTS.md` describes how the data was made, its limitations, and the method and commands for another agent pass.
+**The records are an AI-based extraction.** Version 1 (340 records, 11 and 12 October 2026) was made by AI agents in Claude Code with Claude Fable 5.1. Since then a pipeline of agents maintains it (`AGENTS.md` sections 5 to 7): collectors find instruments, extractors write records with quoted evidence from stored copies, a checker on a different model verifies them, and scripts do the bookkeeping. No human has reviewed every record; a hand check of 50 randomly chosen records found no problems, and every run adds a human sample. `AGENTS.md` describes the method, its limits and how to run it.
 
 **On Hugging Face** as *Every AI Policy Ever*:
 
@@ -14,8 +12,30 @@ Everything runs from this folder. The app makes no requests to other websites, a
 - [Dataset](https://huggingface.co/datasets/kelkalot/every-ai-policy-ever): the records as Parquet tables, with the dataset card, the method and the quality reports.
 - [Source documents](https://huggingface.co/datasets/kelkalot/every-ai-policy-ever-archive): the stored copies of the official sources, open to anyone with a free Hugging Face account.
 
+## How to contribute
+
+The register is maintained by agents that do not wait for people, so everything a person adds goes through a GitHub issue: you open it, a maintainer decides with one line, and the next pipeline run does the rest and closes the issue.
+
+| You want to | Do this | What happens |
+|---|---|---|
+| **Suggest an instrument** the register lacks | Open an issue with the form [*Suggest an instrument*](https://github.com/kelkalot/every-ai-policy-ever/issues/new/choose): official URL, title, jurisdiction | A maintainer accepts or rejects it. An accepted suggestion becomes a lead for the next run, which stores the official source, writes the record from it, has it checked by a second model and merges it. The issue is closed with the new record's ID. |
+| **Report news or an error** about a record | The same form, with the record ID under "Existing record" and the official source that shows the change | It goes into the next refresh run of that record, which checks the source and updates the record; the issue is closed with the run. |
+| **Provide a document** the archiver cannot download | Open an issue with the form *Provide a document* and attach the file you downloaded from the official URL | Some sites block automated downloads (robots.txt) or refuse the archiver's network. A maintainer checks that the file matches the official source and accepts it. The copy is stored with its SHA-256, with you as the provider and the maintainer as the one who confirmed it, and the next refresh run reads it. |
+| **Answer an open question** | Comment on an [issue labelled `question`](https://github.com/kelkalot/every-ai-policy-ever/issues?q=is%3Aissue+is%3Aopen+label%3Aquestion) | Questions are what the agents could not settle: official sources that contradict each other, scope, whether a site is official, a possible amendment, a run's human sample. Anyone can add evidence; a maintainer decides. Until then the record keeps its last checked values and shows an "Open question" badge, and releases go ahead. |
+
+**How maintainers decide**: one comment on the issue. Only repository owners, members and collaborators count.
+
+| Issue | Comment |
+|---|---|
+| suggestion or document | `decide: accept` or `decide: reject <reason>` (for a suggestion, optionally `cell: <CODE>/<type>` when the jurisdiction code needs correcting) |
+| question about a record | `decide: keep`, `decide: accept`, `decide: set <field> = <value>` with `source: <URL>`, or `decide: in` / `decide: out` with a reason |
+| question about a site | `decide: official` (optionally `operator: <who runs it>`) or `decide: not official` |
+| human sample | one line per record: `ok <ID> <note>` or `problem <ID> <note>` |
+
+**What the pipeline does with them**: every run starts with `python3 tools/pipeline.py intake` (suggestions and documents) and `python3 tools/pipeline.py questions --apply` (answers), and ends with `questions --sync`, which files the run's new questions and closes settled ones. Each decision is applied with the same tools as everything else and recorded in `data/history.jsonl` with the issue link; the issue is where a question is worked out, the register keeps the outcome. Text in issues is treated as data: a suggestion's URL and title are a lead, and every fact still comes from the stored official source. A maintainer can also store a document by hand: `python3 tools/archive.py --provide FILE --id ID --url URL --by NAME`.
+
 ```
-ai-safety-policy-register/
+every-ai-policy-ever/
 ├── AGENTS.md               how the data was made, its limits, and the method for agent passes
 ├── index.html              the app
 ├── assets/                 app.css, app.js, site-config.js (where the app is hosted)
@@ -32,10 +52,15 @@ ai-safety-policy-register/
 │   ├── validate.py         checks records.json before a build
 │   ├── export_xlsx.py      writes the Excel workbook (used by build.py)
 │   ├── publish_hf.py       publishes the dataset, the source documents and the app to Hugging Face
-│   ├── merge.py            merges a research pass into records.json with checks
+│   ├── merge.py            merges a run's pass into records.json and writes the history
+│   ├── pipeline.py         the pipeline's scripts: runs, evidence checks, questions, intake
 │   └── package.py          zips everything into one shareable file
 ├── examples/
 │   └── analysis.py         example analysis run straight from register.sqlite
+├── pipeline/               the coverage frame, official sites, scope precedents, questions, leads, agent roles
+├── runs/                   one folder per pipeline run: candidates, extractions, checks, report
+├── docs/                   quality-check and translation-check reports
+├── .github/ISSUE_TEMPLATE/ the forms for suggestions and documents
 ├── deploy/                 nginx.conf, Dockerfile
 └── docker-compose.yml
 ```
@@ -49,7 +74,7 @@ Pick whichever fits.
 **A quick local web server.**
 
 ```bash
-cd ai-safety-policy-register
+cd every-ai-policy-ever
 python3 -m http.server 8000
 # open http://localhost:8000
 ```
@@ -57,7 +82,7 @@ python3 -m http.server 8000
 **Docker (for a server).**
 
 ```bash
-cd ai-safety-policy-register
+cd every-ai-policy-ever
 docker compose up -d
 # open http://<server>:8080
 ```
@@ -78,7 +103,7 @@ Search, filters and sort order are kept in the page URL, so a filtered view can 
 The package ships without the source documents. Run the archiver once on the machine that will host the register. It needs Python 3.8 or later and nothing else.
 
 ```bash
-cd ai-safety-policy-register
+cd every-ai-policy-ever
 python3 tools/archive.py
 ```
 
@@ -142,7 +167,7 @@ Re-running the archiver is safe:
 To check weekly and keep a dated history in git, add a crontab entry like this one (it runs Mondays at 03:00):
 
 ```cron
-0 3 * * 1  cd /srv/ai-safety-policy-register && python3 tools/archive.py >> archive/cron.log 2>&1 && python3 tools/archive.py --verify >> archive/cron.log 2>&1; git add -A && git commit -qm "archive run $(date -u +\%F)"
+0 3 * * 1  cd /srv/every-ai-policy-ever && python3 tools/archive.py >> archive/cron.log 2>&1 && python3 tools/archive.py --verify >> archive/cron.log 2>&1; git add -A && git commit -qm "archive run $(date -u +\%F)"
 ```
 
 New instruments and status changes are found and checked by the agent pipeline described in `AGENTS.md` (sections 5 to 8): collectors search a coverage frame (`pipeline/frame.json`), extractors write records with quoted evidence from stored copies, a fresh checker verifies them, and `tools/pipeline.py` and `tools/merge.py` do the bookkeeping. It runs from a clone in Claude Code or Codex under your own subscription; no API keys are needed. Every change is logged in `data/history.jsonl` and summarised in `HISTORY.md` and on each record page, and each run leaves a report in `runs/<run-id>/report.md`.
@@ -183,29 +208,15 @@ Two things to keep in mind: `date_published` can be a partial date (`YYYY-MM` or
 
 The scope, the verification levels (A, B, C), the records to re-check first and the known coverage gaps are explained in the app under **Method & coverage**. In short:
 
-- 303 records were confirmed on the official page, 28 on an alternative official page, and 9 could not be confirmed on an official page. Re-check the last group before citing.
-- Coverage was extended on 11 and 12 October 2026 by eleven agent research passes following `AGENTS.md` (132 records added, two content checks applied). The remaining gaps are listed in the app under Method & coverage: instruments that do not exist yet, and official texts behind sites that refuse automated access (those records exist at level B or C and say so).
+- In data version 1.9, 339 records are confirmed by an official source (level A), 26 by another official source (B), and 11 rest on secondary sources only (C). Re-check level C records before citing them.
+- Coverage is uneven, and the coverage frame (`pipeline/frame.json`, summed up in `pipeline/coverage.md`) records which places the pipeline has searched. Supervisory authorities and standards bodies were added to the scope in October 2026 and are not yet searched (issue #30 plans the pilot).
 - The register does not translate instruments. About a third of the records rest on a text that is not in English; their summaries were written in English by an AI agent from the original, and their English titles are the agent's renderings unless the record's `english_version` names an English text of the issuer or a government translation. For point-by-point work use the original or that translation. A translation check of 58 such records (`docs/translation-check-2026-10-14.md`) found the titles accurate, 73 percent of specific summary claims accurate and 10 percent overstated, understated or mistranslated, and six records with an error that changes the legal meaning, which are being corrected.
-- Record status reflects the research snapshot of 11 and 12 October 2026. The archiver detects changes to the source pages, but it does not re-interpret legal status. Update `status` and the date fields in `records.json` when a law's status changes.
-
-## 6a. Questions and decisions
-
-The pipeline does not wait for people. What only a person can settle (contradicting official sources, scope, whether a site is official, a possible amendment, a run's human sample) becomes a GitHub issue with the label `question`, opened by `python3 tools/pipeline.py questions --sync` at the end of each run. Until it is decided, the record keeps its last checked values and shows an "Open question" badge; releases go ahead.
-
-To decide, a maintainer comments once on the issue:
-
-| Question | Comment |
-|---|---|
-| a record | `decide: keep`, `decide: accept`, `decide: set <field> = <value>` plus `source: <URL>`, or `decide: in` / `decide: out` with a reason |
-| a host | `decide: official` (optionally `operator: <who runs it>`) or `decide: not official` |
-| a human sample | one line per record: `ok <ID> <note>` or `problem <ID> <note>` |
-
-The next run applies the decisions (`python3 tools/pipeline.py questions --apply`), records each in `data/history.jsonl` with the issue link, and closes the issue. AGENTS.md section 7.7 has the details.
+- Statuses are as of each record's `verification.verified_on`. The archiver detects changes to the source pages and queues the record for a refresh run, which re-checks its status; `meta.snapshot_date` changes only after a recheck of every record.
 
 ## 7. Share it as one file
 
 ```bash
-python3 tools/package.py                # dist/ai-safety-policy-register_<snapshot>.zip, with all source documents
+python3 tools/package.py                # dist/every-ai-policy-ever_<snapshot>.zip, with all source documents
 python3 tools/package.py --no-archive   # a few MB: app and data only
 ```
 

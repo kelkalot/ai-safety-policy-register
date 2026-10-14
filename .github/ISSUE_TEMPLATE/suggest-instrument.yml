@@ -1,0 +1,57 @@
+name: Suggest an instrument
+description: An official AI safety or AI regulation instrument the register lacks, or news about one it has.
+title: "Suggestion: "
+labels: ["source-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. A maintainer checks each suggestion. Accepted ones go into the next pipeline run, which stores the official source, writes the record from it and checks it; this issue is then closed with the record's ID. The scope is in AGENTS.md section 10: official instruments of governments, legislatures, regulators, supervisors and intergovernmental bodies, not documents by companies, think tanks or the press.
+  - type: input
+    id: url
+    attributes:
+      label: Official URL
+      description: The page or document on the issuing body's own site, the legislature, or the official gazette.
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: As the source gives it, in the original language if not English.
+    validations:
+      required: true
+  - type: input
+    id: jurisdiction
+    attributes:
+      label: Jurisdiction code
+      description: The ISO code of the country (NO, JP), a sub-national code (US-CA, CA-ON), or a body code (EU, UN, OECD, COE).
+      placeholder: NO
+    validations:
+      required: true
+  - type: dropdown
+    id: body
+    attributes:
+      label: Issued by
+      options:
+        - legislature or parliament
+        - government, head of state or cabinet
+        - ministry or government agency
+        - AI regulator, AI office or AI safety institute
+        - supervisory authority (financial, data protection, equality, health, consumer)
+        - election authority
+        - intergovernmental body or standards body
+    validations:
+      required: true
+  - type: input
+    id: record
+    attributes:
+      label: Existing record
+      description: If this is news about an instrument already in the register (an amendment, a new version, a status change), its record ID.
+      placeholder: KR-02
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it belongs in the register
+      description: One or two sentences on its AI safety or AI regulation content.
