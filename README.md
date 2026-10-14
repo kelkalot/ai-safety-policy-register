@@ -215,7 +215,18 @@ The tool builds three repositories from `data/records.json`:
 - **`kelkalot/every-ai-policy-ever-archive`** (dataset, gated with automatic approval): the stored copies of the official sources with their `SHA256SUMS`. A Hugging Face account is needed to download them, which keeps crawlers out. Copies of third-party pages (law-firm alerts, newspapers, NGO and think-tank pages, listed in `THIRD_PARTY_HOSTS` in the tool) are left out; their URLs and hashes stay in the manifest.
 - **`kelkalot/every-ai-policy-ever`** (static Space): the web app. Its "Local copy" links point at the archive dataset.
 
-`--private` creates the repositories as private, for a review before they go public. Run the tool again after every update; it replaces the data, the cards and the app.
+`--private` creates the repositories as private, for a review before they go public.
+
+A new version is published as a release, from the main branch on the machine that holds `archive/`:
+
+```bash
+python3 tools/publish_hf.py --release --dry-run    # every check, no upload
+python3 tools/publish_hf.py --release              # upload all three repositories and tag the version
+```
+
+Before uploading, the release checks that main is clean and pushed, that `meta.version` is higher than the published version and not yet tagged, that no record published before is missing (records are never deleted), that the history and the stored files are intact, that the built archive holds no live access tokens, and that the Hugging Face token can write. It adds a "Changes in this version" section to the dataset card from the history events since the last release, and tags the version (`v1.7`, ...) on the dataset, the archive, the Space and GitHub, so a citation can name a fixed version.
+
+The rhythm: run the archiver weekly to notice changed sources; run a refresh from the queue monthly and a discover run by region quarterly (AGENTS.md sections 5 to 7); after a human has reviewed and merged a run's branch, bump `meta.version` (minor for added records, patch for corrections) and release. Use a fine-grained Hugging Face token with write access to these three repositories only, passed as `HF_TOKEN` for the release command. The archive dataset only grows; a history squash (`--squash-archive`) is for incidents such as a leaked credential.
 
 ## 10. License and citation
 

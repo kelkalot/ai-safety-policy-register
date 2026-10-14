@@ -20,6 +20,13 @@ replaced with REDACTED-ACCESS-TOKEN, and the manifest records both hashes (`sha2
 `published_sha256` = published file). --squash-archive rewrites the archive dataset's history into one commit,
 so that earlier revisions holding a token are no longer reachable.
 
+Releases (README section 9): `--release` publishes the current main branch as version meta.version.
+It first checks that main is clean and pushed, that the version is higher than the published one and not
+yet tagged, that every record published before is still there, that the history and the stored files are
+intact, that the built archive holds no live access tokens, and that the token can write. Only then does it
+upload, add a "Changes in this version" section built from the new history events, and tag the version
+on the three repositories and on GitHub. `--release --dry-run` runs every check and uploads nothing.
+
 Needs: huggingface_hub and pyarrow (pip install huggingface_hub pyarrow), and `hf auth login`.
 """
 import argparse
@@ -29,6 +36,7 @@ import hashlib
 import json
 import re
 import shutil
+import subprocess
 import sys
 import urllib.parse
 from collections import Counter, defaultdict
@@ -249,7 +257,7 @@ Despite the name, it is not every AI policy: scope is limited to official instru
 - **Browse it:** [{pretty} on Spaces]({space}), with search, filters, a chart, record pages and citations.
 - **Source documents:** [{ns}/{name}-archive]({archive}), the stored copies of the official sources with SHA-256 hashes. Open to anyone with a free Hugging Face account.
 - **Snapshot:** {snapshot}, data version {version}. Statuses are as of the snapshot.
-
+{changes_md}
 ## How it was made
 
 The records are an **AI-based extraction**. AI agents researched each instrument, fetched its official page or document, confirmed the title, date and status there, and wrote the summary, the status notes, the topic tags and a verification level.
@@ -273,6 +281,8 @@ No human has reviewed every record. The hand check of 50 records rules out frequ
 | C | No official page could be fetched; the record rests on at least two independent secondary sources and says CAUTION | {C} |
 
 Check the level before citing a record, and re-check level C records against the original.
+
+How the level was set depends on when a record was made. For the records of version 1, made before the pipeline, the agent that wrote each record also assigned its level; the two quality checks and the hand check of 50 records reviewed them. Records the pipeline adds or re-verifies get their level from a script that checks each quoted piece of evidence against the stored copy and the host it came from, and their History section names the run.
 
 ## Quick start
 
@@ -447,7 +457,7 @@ The records are an AI-based extraction, made by AI agents in Claude Code with th
 
 # ----------------------------------------------------------------------------- build
 
-def build_all(out, ns, name, github_url):
+def build_all(out, ns, name, github_url, changes_md=""):
     db = build.normalise(build.load())
     errors, _ = validate.run(db, quiet=True)
     if errors:
@@ -456,6 +466,7 @@ def build_all(out, ns, name, github_url):
     records, topics, related, files, plan = tables(db, repo_url + "-archive")
     st = stats(db, files)
     st["n_topics"], st["n_related"] = len(topics), len(related)
+    st["changes_md"] = changes_md
     st["n_history"] = len(history.load())
     if out.exists():
         shutil.rmtree(out)
@@ -540,11 +551,126 @@ def build_all(out, ns, name, github_url):
     return st
 
 
-def push(out, ns, name, private, only=("dataset", "archive", "space"), squash_archive=False):
+def version_tuple(v):
+    return tuple(int(x) for x in re.findall(r"\d+", str(v or "0")))
+
+
+def git(*args):
+    r = subprocess.run(["git"] + list(args), cwd=str(ROOT), capture_output=True, text=True)
+    return r.returncode, r.stdout.strip()
+
+
+def previous_release(ns, name):
+    """What is published now: version, record IDs and number of history events (from the dataset's raw files)."""
+    from huggingface_hub import hf_hub_download
+    repo = "%s/%s" % (ns, name)
+    try:
+        prev = json.load(open(hf_hub_download(repo, "raw/records.json", repo_type="dataset", force_download=True), encoding="utf-8"))
+    except Exception as e:  # nothing published yet
+        print("No published records.json found (%s); treating this as the first release." % type(e).__name__)
+        return {"version": None, "ids": set(), "n_history": 0}
+    try:
+        with open(hf_hub_download(repo, "raw/history.jsonl", repo_type="dataset", force_download=True), encoding="utf-8") as f:
+            n_hist = sum(1 for line in f if line.strip())
+    except Exception:
+        n_hist = 0
+    return {"version": (prev.get("meta") or {}).get("version"), "ids": {r["id"] for r in prev.get("records") or []},
+            "n_history": n_hist}
+
+
+def changes_section(version, prev, events):
+    """'Changes in this version' for the dataset card, from the history events added since the last release."""
+    new = events[prev["n_history"]:]
+    kinds = Counter(e.get("event") for e in new)
+    recs = sorted({e.get("record_id") for e in new if e.get("record_id")})
+    fields = Counter(e.get("field") for e in new if e.get("event") == "changed")
+    if not new:
+        body = "No record changed since version %s; this release updates the tools or the documentation." % prev["version"]
+    else:
+        parts = ["%d %s" % (n, k) for k, n in sorted(kinds.items())]
+        body = ("Since version %s: %s, in %d record(s): %s. Fields changed: %s. Every event, with its reason and evidence, "
+                "is in the `history` table and in `HISTORY.md`.") % (
+            prev["version"] or "-", ", ".join(parts), len(recs), ", ".join(recs[:40]) + (" ..." if len(recs) > 40 else ""),
+            ", ".join("%s (%d)" % kv for kv in fields.most_common()) or "none")
+    return "\n## Changes in version %s\n\n%s\n" % (version, body)
+
+
+def release_checks(db, st, out, ns, name, prev, api):
+    """Problems that block a release; an empty list means go."""
+    problems = []
+    meta = db.get("meta") or {}
+    version = str(meta.get("version") or "")
+    tag = "v" + version
+    # main, clean and pushed
+    rc, branch = git("rev-parse", "--abbrev-ref", "HEAD")
+    if branch != "main":
+        problems.append("the checked-out branch is %r, not main" % branch)
+    rc, dirty = git("status", "--porcelain", "--untracked-files=no")
+    if dirty:
+        problems.append("tracked files have uncommitted changes:\n    " + dirty.replace("\n", "\n    "))
+    git("fetch", "-q", "origin")
+    rc1, head = git("rev-parse", "HEAD")
+    rc2, remote = git("rev-parse", "origin/main")
+    if head != remote:
+        problems.append("main is not identical to origin/main; push or pull first")
+    # version
+    if prev["version"] and version_tuple(version) <= version_tuple(prev["version"]):
+        problems.append("meta.version %s is not higher than the published version %s" % (version, prev["version"]))
+    rc, local_tag = git("tag", "--list", tag)
+    rc, remote_tag = git("ls-remote", "--tags", "origin", tag)
+    if local_tag or remote_tag:
+        problems.append("git tag %s already exists" % tag)
+    for rid, rtype in (("%s/%s" % (ns, name), "dataset"), ("%s/%s-archive" % (ns, name), "dataset"), ("%s/%s" % (ns, name), "space")):
+        try:
+            if tag in [t.name for t in api.list_repo_refs(rid, repo_type=rtype).tags]:
+                problems.append("%s %s already has the tag %s" % (rtype, rid, tag))
+        except Exception:
+            pass  # a repository that does not exist yet has no tags
+    # records are never deleted
+    missing_ids = sorted(prev["ids"] - {r["id"] for r in db["records"]})
+    if missing_ids:
+        problems.append("%d published record(s) are missing: %s" % (len(missing_ids), ", ".join(missing_ids[:20])))
+    # history
+    events = history.load()
+    bad = [i for i, e in enumerate(events, 1) if [k for k in history.KEYS if k not in e] or e.get("event") not in history.EVENTS]
+    if bad:
+        problems.append("data/history.jsonl has %d malformed line(s)" % len(bad))
+    if len(events) < prev["n_history"]:
+        problems.append("data/history.jsonl has fewer events (%d) than the published one (%d); it is append-only"
+                        % (len(events), prev["n_history"]))
+    # stored files
+    if st["missing"]:
+        problems.append("%d stored file(s) are missing on this machine" % st["missing"])
+    changed = []
+    for r in db["records"]:
+        for f in (r.get("local_copy") or {}).get("files") or []:
+            pth = ROOT / (f.get("path") or "")
+            if not f.get("stale") and pth.is_file() and hashlib.sha256(pth.read_bytes()).hexdigest() != f.get("sha256"):
+                changed.append(f["path"])
+    if changed:
+        problems.append("%d stored file(s) no longer match their hash, e.g. %s" % (len(changed), changed[0]))
+    # no live tokens in what is published
+    live = [str(p.relative_to(out)) for p in (out / "archive").rglob("*")
+            if p.is_file() and p.suffix.lower() in (".html", ".htm", ".txt", ".json", ".xml", ".js") and live_tokens(p.read_bytes())]
+    if live:
+        problems.append("live access tokens in the built archive: %s" % ", ".join(live[:5]))
+    # a token that can write
+    try:
+        tok = (api.whoami().get("auth") or {}).get("accessToken") or {}
+        if tok.get("role") == "read":
+            problems.append("the Hugging Face token is read-only")
+    except Exception as e:
+        problems.append("no usable Hugging Face token (%s)" % type(e).__name__)
+    return problems
+
+
+def push(out, ns, name, private, only=("dataset", "archive", "space"), squash_archive=False, label=None):
     from huggingface_hub import HfApi
     api = HfApi()
     ds_id, ar_id, sp_id = "%s/%s" % (ns, name), "%s/%s-archive" % (ns, name), "%s/%s" % (ns, name)
     stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
+    if label:
+        stamp = "%s, %s" % (label, stamp)
     if "dataset" in only:
         api.create_repo(ds_id, repo_type="dataset", private=private, exist_ok=True)
         api.upload_folder(repo_id=ds_id, repo_type="dataset", folder_path=str(out / "dataset"),
@@ -579,8 +705,12 @@ def main(argv=None):
     ap.add_argument("--only", default="dataset,archive,space", help="comma-separated subset to upload: dataset, archive, space")
     ap.add_argument("--squash-archive", action="store_true", help="rewrite the archive dataset's history into one commit")
     ap.add_argument("--private", action="store_true", help="create the repos as private (existing repos keep their visibility)")
+    ap.add_argument("--release", action="store_true", help="publish main as version meta.version, after the release checks, and tag it")
+    ap.add_argument("--dry-run", action="store_true", help="with --release: run the checks and stop before uploading")
     args = ap.parse_args(argv)
     out = Path(args.out)
+    if args.release:
+        return release(args, out)
     st = build_all(out, args.namespace, args.name, args.github)
     print("Built %s: %d records; archive %d of %d stored files (%.0f MB), %d third-party copies left out, "
           "%d with access tokens replaced, %d missing on this machine." % (out, st["n"], st["pub_files"], st["files"],
@@ -594,6 +724,39 @@ def main(argv=None):
         push(out, args.namespace, args.name, args.private, [x.strip() for x in args.only.split(",") if x.strip()],
              squash_archive=args.squash_archive)
     return 0
+
+
+def release(args, out):
+    from huggingface_hub import HfApi
+    api = HfApi()
+    db = build.normalise(build.load())
+    version = str((db.get("meta") or {}).get("version") or "")
+    tag = "v" + version
+    prev = previous_release(args.namespace, args.name)
+    changes = changes_section(version, prev, history.load())
+    st = build_all(out, args.namespace, args.name, args.github, changes_md=changes)
+    print("Release %s (published now: %s). Built %s: %d records, archive %d files, %d third-party copies left out, "
+          "%d with tokens replaced." % (tag, prev["version"] or "nothing", out, st["n"], st["pub_files"], st["excluded"], st["redacted"]))
+    print(changes.strip())
+    problems = release_checks(db, st, out, args.namespace, args.name, prev, api)
+    if problems:
+        print("\nNot releasing:")
+        for p in problems:
+            print("  - " + p)
+        return 1
+    print("\nAll release checks passed.")
+    if args.dry_run:
+        print("Dry run: nothing uploaded, nothing tagged.")
+        return 0
+    ids = push(out, args.namespace, args.name, False, ("dataset", "archive", "space"), label="Release " + tag)
+    msg = "Release %s: %d records. %s" % (tag, st["n"], changes.strip().split("\n")[-1][:400])
+    for rid, rtype in ((ids[0], "dataset"), (ids[1], "dataset"), (ids[2], "space")):
+        api.create_tag(rid, tag=tag, tag_message=msg, repo_type=rtype)
+        print("tagged %s %s as %s" % (rtype, rid, tag))
+    rc, out_ = git("tag", "-a", tag, "-m", msg)
+    rc2, out2 = git("push", "origin", tag)
+    print("git tag %s %s" % (tag, "created and pushed" if rc == 0 and rc2 == 0 else "FAILED: %s %s" % (out_, out2)))
+    return 0 if rc == 0 and rc2 == 0 else 1
 
 
 if __name__ == "__main__":
