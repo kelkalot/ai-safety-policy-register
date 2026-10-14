@@ -22,7 +22,8 @@ this file does the bookkeeping, so that a run can be repeated and checked.
     python3 tools/pipeline.py intake [--dry-run]     # suggestions and provided documents from GitHub issues
     python3 tools/pipeline.py intake --triage        # undecided suggestions with warning signs; changes nothing
     python3 tools/pipeline.py leads [--add --lead T --cell C|--code C [--issued-by B]|--record ID
-                                     --url U --seen-in U --why W --by NAME] [--drop L001 --why W --by NAME]
+                                     --url U --seen-in U --why W --by NAME [--provided FILE]]
+                                    [--attach L001 --provided FILE --by NAME] [--drop L001 --why W --by NAME]
     python3 tools/pipeline.py hosts --add HOST --code C --status official|"not official"|proposed --by NAME
                                     [--operator O --kind K --evidence-url U --quote Q --note N]
     python3 tools/pipeline.py log-human --run RUN --id ID --result ok|problem --note "..." [--by NAME]
@@ -55,6 +56,7 @@ import sys
 import tempfile
 import unicodedata
 import urllib.parse
+import urllib.request
 from collections import Counter, OrderedDict, defaultdict
 from html.parser import HTMLParser
 from pathlib import Path
@@ -108,6 +110,8 @@ PROCESS_PATTERNS = [
     r"\bas (?:reported|summari[sz]ed)\b", r"\breported(?:ly)? to (?:include|cover|contain)\b", r"\bHTTP \d{3}\b",
     r"\brobots\.txt\b", r"\bweb search\b", r"\bsearch budget\b", r"\bthe researcher\b", r"\bthis (?:machine|session)\b",
     r"\b(?:law[- ]firm|counsel)'?s? (?:summary|summaries|analysis|note)\b", r"\bbot[- ]check\b",
+    r"\bAGENTS\.md\b", r"\bscope[- ]decisions?\b", r"\binclusive default\b", r"\binclude[- ]and[- ]flag\b",
+    r"\bthe (?:extractor|checker|collector|coordinator)\b",
 ]
 STAGES = ["collect", "extract", "blind", "check"]
 
@@ -2078,14 +2082,19 @@ def collect_questions(db):
                                                      "why": e.get("note"), "operator": e.get("operator"),
                                                      "evidence": e.get("evidence"), "records": []}
     for run_id in run_order():
+        cells = {c.get("cand_id"): c.get("cell") for c in
+                 (read_json(RUNS / run_id / "candidates.json", {}) or {}).get("candidates") or [] if c.get("cand_id")}
+        assigned = (read_json(RUNS / run_id / "pass.json", {}) or {}).get("assigned") or {}
         for cid, res in ((read_json(RUNS / run_id / "evidence.json", {}) or {}).get("extractions") or {}).items():
             for w in res.get("warnings") or []:
                 m = HOST_WARNING.search(w)
                 h = strip_www(m.group(1)) if m else None
                 if not h or h == "(unknown)" or h in known:
                     continue
+                code = (cells.get(cid) or "").split("/")[0] or re.sub(r"-\d+$", "", cid)
+                cid = assigned.get(cid) or cid  # a discover run's candidate is named by the record it became
                 q = out.setdefault("host:%s" % h, {"key": "host:%s" % h, "kind": "host", "subject": h,
-                                                   "code": re.sub(r"-\d+$", "", cid), "records": [],
+                                                   "code": code, "records": [],
                                                    "why": "Quotes from this host counted as secondary because it is "
                                                           "neither a government domain nor in pipeline/official-sites.json."})
                 if cid not in q["records"]:
@@ -2339,8 +2348,16 @@ def cmd_questions(args):
                 url = gh("issue", "create", "--repo", repo, "--title", title, "--body-file", "-", "--label", "question",
                          "--label", "question:%s" % ("record" if q["kind"] == "candidate" else q["kind"]),
                          input_text=body).strip().splitlines()[-1]
-                q.update(issue=int(url.rstrip("/").rsplit("/", 1)[1]), url=url)
+                q.update(issue=int(url.rstrip("/").rsplit("/", 1)[1]), url=url, title=title)
                 print("opened #%s %s" % (q["issue"], title))
+            elif q["state"] == "open" and q.get("issue"):
+                title = question_title(q, by)
+                if title != q.get("title"):
+                    if args.dry_run:
+                        print("would retitle #%s: %s" % (q["issue"], title))
+                        continue
+                    gh("issue", "edit", str(q["issue"]), "--repo", repo, "--title", title)
+                    q["title"] = title
             elif q["state"] == "settled" and q.get("issue") and not q.get("closed_on_github"):
                 if args.dry_run:
                     print("would close #%s (%s)" % (q["issue"], q["resolution"]))
@@ -2420,6 +2437,26 @@ def cmd_leads(args):
     """List the leads, add one by hand, or drop a queued one (AGENTS.md section 7.8)."""
     reg = load_leads()
     leads = reg["leads"]
+    if args.attach:
+        l = next((x for x in leads if x.get("id") == args.attach), None)
+        if not l or l.get("state") != "queued":
+            raise SystemExit("%s is not a queued lead" % args.attach)
+        if not (args.provided and args.by and (args.url or l.get("url"))):
+            raise SystemExit("--attach needs --provided FILE and --by (and --url when the lead has none)")
+        if args.dry_run:
+            print("would store %s with %s (dry run: nothing written)" % (args.provided, args.attach))
+            return 0
+        import archive  # noqa: E402  (same folder)
+        f = archive.store_provided_lead(args.attach, args.provided, args.url or l["url"], args.by, args.confirmed_by,
+                                        args.issue, known=[(l.get("provided") or {}).get("sha256")])
+        if not f:
+            print("%s already has this file (same SHA-256); nothing stored." % args.attach)
+            return 0
+        l["provided"] = f
+        write_json(LEADS, reg)
+        print("Stored %s with lead %s (SHA-256 %s); the run that follows the lead up uses it." % (f["path"], args.attach,
+                                                                                               f["sha256"]))
+        return 0
     if args.drop:
         l = next((x for x in leads if x.get("id") == args.drop), None)
         if not l or l.get("state") != "queued":
@@ -2444,6 +2481,9 @@ def cmd_leads(args):
         raise SystemExit("--add needs --lead TITLE and --by NAME")
     if not (args.url or args.seen_in):
         raise SystemExit("--add needs --url (the official page) or --seen-in (where the instrument was seen), or both")
+    if args.provided and (args.record or not args.url):
+        raise SystemExit("--provided needs --url, the official page the document comes from; for an existing record "
+                         "use tools/archive.py --provide")
     for u in (args.url, args.seen_in):
         if u and not re.match(r"^https?://", u):
             raise SystemExit("not a web address: %s" % u)
@@ -2480,8 +2520,13 @@ def cmd_leads(args):
                              "in the frame")
         lead = {"id": lid, "lead": args.lead, "cell": cell, "url": args.url, "seen_in": args.seen_in, "why": args.why,
                 "state": "queued", "added_by": args.by, "added": today()}
-        msg = "%s queued in %s; `new --type discover --leads pipeline/leads.json` starts a run on the queued leads" % (
-            lid, cell)
+        if args.provided and not args.dry_run:
+            import archive  # noqa: E402  (same folder)
+            lead["provided"] = archive.store_provided_lead(lid, args.provided, args.url, args.by, args.confirmed_by,
+                                                           args.issue)
+            msg_doc = " with the provided document %s" % lead["provided"]["path"]
+        msg = "%s queued in %s%s; `new --type discover --leads pipeline/leads.json` starts a run on the queued leads" % (
+            lid, cell, msg_doc if args.provided and not args.dry_run else "")
     leads.append({k: v for k, v in lead.items() if v})
     if not args.dry_run:
         write_json(LEADS, reg)
@@ -2580,7 +2625,7 @@ def cmd_intake(args):
                                "--json", "number,title,body,author,url") or "[]")
         for it in issues:
             num = it["number"]
-            if label == "source-suggestion" and num in known:
+            if num in known:
                 continue
             comments = json.loads(gh("api", "repos/%s/issues/%s/comments" % (repo, num), "--paginate") or "[]")
             got = parse_decisions(comments, "record")
@@ -2631,22 +2676,43 @@ def cmd_intake(args):
                 rid = f.get("record id", "").strip().upper()
                 url = f.get("official url", "").strip()
                 links = ATTACHMENT.findall(f.get("the document", "") or it.get("body") or "")
-                if rid not in by or not links:
-                    say(num, "Cannot store it: %s." % ("the record ID %r does not exist" % rid if rid not in by
-                                                         else "no attached file was found in the issue"))
+                # an instrument without a record: the document is stored with a new lead, which the next run follows up
+                override = next((v.strip() for k, v in lines if k.lower() == "cell"), None)
+                cell = None if rid in by else lead_cell(f.get("jurisdiction code"), None, frame, override)
+                problem = ("no attached file was found in the issue" if not links else None if rid in by or cell else
+                           "the record ID %r does not exist" % rid if rid else
+                           "give the record ID, or for an instrument without a record its title and a jurisdiction code "
+                           "of the coverage frame (or `cell: <CODE>/<type>` in the decision)")
+                if problem:
+                    say(num, "Cannot store it: %s." % problem)
                     continue
                 if args.dry_run:
-                    done.append("#%s would store %s for %s" % (num, links[0], rid))
+                    done.append("#%s would store %s for %s" % (num, links[0], rid if rid in by else "a lead in " + cell))
                     continue
+                provider = (it.get("author") or {}).get("login")
                 with _tf.TemporaryDirectory() as tmp:
                     name = urllib.parse.unquote(links[0].rsplit("/", 1)[-1]) or "document.pdf"
                     path = Path(tmp) / re.sub(r"[^A-Za-z0-9._-]", "_", name)
                     req = urllib.request.Request(links[0], headers={"User-Agent": "every-ai-policy-ever intake"})
                     with urllib.request.urlopen(req, timeout=120) as resp:
                         path.write_bytes(resp.read())
-                    stored = archive.store_provided(db, rid, path, url, (it.get("author") or {}).get("login"),
-                                                    confirmed_by=who, issue=num, source_url=links[0],
-                                                    note="provided in issue #%s" % num)
+                    if rid in by:
+                        stored = archive.store_provided(db, rid, path, url, provider, confirmed_by=who, issue=num,
+                                                        source_url=links[0], note="provided in issue #%s" % num)
+                    else:
+                        lid = next_lead_id(leads)
+                        stored = archive.store_provided_lead(lid, path, url, provider, confirmed_by=who, issue=num,
+                                                             source_url=links[0], note="provided in issue #%s" % num)
+                if rid not in by:
+                    leads.append({"id": lid, "lead": f.get("title") or it["title"], "cell": cell, "url": url, "issue": num,
+                                  "seen_in": "issue #%s" % num, "provided": stored, "state": "queued",
+                                  "accepted_by": who, "added": today()})
+                    say(num, "Stored as `%s` (SHA-256 `%s`), provided by @%s and confirmed by @%s, and queued as lead %s "
+                             "for the next pipeline run (cell %s), which uses it as the official text. This issue is closed "
+                             "when the record is in the register." % (stored["path"], stored["sha256"], provider, who,
+                                                                       lid, cell))
+                    done.append("#%s stored with lead %s (%s)" % (num, lid, cell))
+                    continue
                 build.save(db)
                 if stored:
                     with open(REQUESTS, "a", encoding="utf-8") as fh:
@@ -2789,6 +2855,11 @@ def main(argv=None):
     s.add_argument("--why", help="why it belongs in the register; with --drop, why the lead is dropped")
     s.add_argument("--by", help="who adds or drops the lead")
     s.add_argument("--drop", metavar="ID", help="drop a queued lead (kept with state dropped)")
+    s.add_argument("--provided", metavar="FILE", help="a document a person downloaded from --url because the site "
+                                                     "blocks automated downloads; stored with the lead")
+    s.add_argument("--attach", metavar="ID", help="store --provided FILE with this queued lead")
+    s.add_argument("--confirmed-by", help="with --provided: the maintainer who checked the file against the official site")
+    s.add_argument("--issue", type=int, help="with --provided: the GitHub issue it came from")
     s.add_argument("--dry-run", action="store_true")
     s = sub.add_parser("log-human")
     s.add_argument("--run")
