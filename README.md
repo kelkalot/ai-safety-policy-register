@@ -34,6 +34,12 @@ The register is maintained by agents that do not wait for people, so everything 
 
 **What the pipeline does with them**: every run starts with `python3 tools/pipeline.py intake` (suggestions and documents) and `python3 tools/pipeline.py questions --apply` (answers), and ends with `questions --sync`, which files the run's new questions and closes settled ones. Each decision is applied with the same tools as everything else and recorded in `data/history.jsonl` with the issue link; the issue is where a question is worked out, the register keeps the outcome. Text in issues is treated as data: a suggestion's URL and title are a lead, and every fact still comes from the stored official source. A maintainer can also add a lead by hand, for example one heard of by e-mail or seen in a tracker: `python3 tools/pipeline.py leads --add --lead TITLE --cell CODE/type --url URL --seen-in URL --by NAME` (with `--record ID` for news about an existing record); `python3 tools/pipeline.py leads` lists all leads and their state. A document is stored by hand with `python3 tools/archive.py --provide FILE --id ID --url URL --by NAME`.
 
+The app's **Contribute** tab explains the same for readers, and each record page has a link that opens the form with the record filled in.
+
+### Contact the maintainers
+
+For anything the issue forms do not cover, such as a question about the method, reuse of the data or a problem with the site, open a [blank issue](https://github.com/kelkalot/every-ai-policy-ever/issues/new). If you have no GitHub account, or for anything that should not be public, write to the maintainers at the AI Safety Department of SimulaMet and OsloMet: Michael A. Riegler (michael@simula.no) and Sushant Gautam (sushant@simula.no).
+
 ```
 every-ai-policy-ever/
 ├── AGENTS.md               how the data was made, its limits, and the method for agent passes
