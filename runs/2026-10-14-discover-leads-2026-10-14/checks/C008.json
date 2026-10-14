@@ -1,0 +1,56 @@
+{
+ "cand_id": "C008",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "security annotations at least 200 items per risk (宜不少于200条) and 3% of data; batch discarded when over 5% fail the security check",
+   "verdict": "supported",
+   "locator": "8.x c), 8.x"
+  },
+  {
+   "claim": "annotators pass a security exam before qualification; executor and reviewer of one task are different people",
+   "verdict": "supported",
+   "locator": "7.1 b), 9.3"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "AI-specific technical standard or practice guide of TC260 (a standards body under SAC/CAC); in scope per the supervisors and standards bodies rule and the CN-06/CN-10 precedents."
+ },
+ "overall": "accept",
+ "note": "Metadata (number, titles, dates, status, recommended nature) confirmed by SAMR pages; the standard text itself is only a secondary (MLex) copy, which matches the cover and foreword. The level A follows from the SAMR pages. Not a duplicate: CN-10 only cites it. No duplicate in data/records.json; one targeted search found no newer official version. All evidence quotes pass the script and say what the fields say. "
+}

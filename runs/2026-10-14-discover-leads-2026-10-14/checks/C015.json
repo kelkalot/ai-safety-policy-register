@@ -1,0 +1,50 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "C015",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "The cover shows only 'Feb. 2025' (script warning), but the official Information outputs list gives 2025年2月7日 for the entry, so the day is supported by an official quote."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "based on outcomes of the Hiroshima AI Process and AI Seoul Summit; terminology challenges",
+   "verdict": "supported",
+   "locator": "page 4, Summary"
+  },
+  {
+   "claim": "fifteen activities incl. AI safety evaluation and red-teaming, content authentication and provenance, data quality",
+   "verdict": "supported",
+   "locator": "page 2, map (15 activities counted)"
+  },
+  {
+   "claim": "says it does not indicate activities organisations should undertake",
+   "verdict": "supported",
+   "locator": "page 4"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "A discussion paper, not guidance; extractor's scope_note is accurate; keep it. The instrument_type 'Report (government-commissioned)' is not an exact fit for a paper the institute wrote itself but is defensible."
+ },
+ "overall": "accept",
+ "note": "Values match the stored paper and release page. One targeted web search found no newer version."
+}

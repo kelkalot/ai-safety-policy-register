@@ -1,0 +1,53 @@
+{
+ "cand_id": "C004",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "whitelist admission, algorithm filing and security assessment; ban on directly generating project applications, papers or research reports",
+   "verdict": "supported",
+   "locator": "section 5 c), 6.x"
+  },
+  {
+   "claim": "primary school pupils not to use open-ended content generation alone",
+   "verdict": "supported",
+   "locator": "6.2 a)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "AI-specific technical standard or practice guide of TC260 (a standards body under SAC/CAC); in scope per the supervisors and standards bodies rule and the CN-06/CN-10 precedents."
+ },
+ "overall": "accept",
+ "note": "Education guide, drafting units include the Ministry of Education's S&T and Informatization Department and Education Management Information Center (foreword). Summary 'ethics review' renders 伦理安全审查 (ethics and security review); defensible. No duplicate in data/records.json; one targeted search found no newer official version. All evidence quotes pass the script and say what the fields say. "
+}

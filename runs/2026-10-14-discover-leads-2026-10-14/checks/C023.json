@@ -1,0 +1,53 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "C023",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "judgment-differs",
+   "why": "The cover reads 中間とりまとめ under the bodies' names; the full Japanese title with the bodies' names is 'AI戦略会議・AI制度研究会 中間とりまとめ' (overview page heading). The recorded short form is supported but less complete."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "recommends statutory basis for stronger government command function and an AI strategy (basic plan), guidelines in line with the Hiroshima AI Process",
+   "verdict": "supported",
+   "locator": "overview, 政府の司令塔機能の強化、戦略の策定 and 国による指針（広島AIプロセス準拠）"
+  },
+  {
+   "claim": "government fact-finding on serious incidents with guidance and advice to businesses; AI procurement guidelines",
+   "verdict": "supported",
+   "locator": "overview, 国による調査・情報収集、事業者・国民への指導・助言; 適正なAI政府調達・利用"
+  },
+  {
+   "claim": "seven meetings, 15 hearings, public comment",
+   "verdict": "supported",
+   "locator": "overview note, 計７回 ... 計15 ... パブリックコメント"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Government-commissioned report on Japan's AI regime with risk-governance content."
+ },
+ "overall": "accept",
+ "note": "All values are supported by the stored Japanese report and its provisional English translation. The sentence on the AI Promotion Act (Act No. 53 of 2025) rests on record JP-04, which carries that identifier, not on this candidate's files. One targeted web search found no newer version."
+}

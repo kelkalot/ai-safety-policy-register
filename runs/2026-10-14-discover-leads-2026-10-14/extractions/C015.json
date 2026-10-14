@@ -1,0 +1,122 @@
+{
+ "cand_id": "C015",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "jurisdiction": "Japan",
+  "country": "Japan",
+  "jurisdiction_level": "National",
+  "region": "East Asia",
+  "title": "AMAIS: Activity Map on AI Safety",
+  "short_title": "J-AISI Activity Map on AI Safety (AMAIS)",
+  "issuing_body": "Japan AI Safety Institute (J-AISI)",
+  "instrument_type": "Report (government-commissioned)",
+  "legal_force": "Non-binding",
+  "status": "Published (non-binding, current)",
+  "date_published": "2025-02-07",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": null,
+  "official_url": "https://aisi.go.jp/output/output_information/250207_1/",
+  "secondary_url": null,
+  "language": "English",
+  "summary": "Discussion paper of the Japan AI Safety Institute presenting the Activity Map on AI Safety (AMAIS), an overview of the activities needed to achieve AI safety, drawn from the outcomes of the Hiroshima AI Process and the AI Seoul Summit. It maps fifteen activities, among them AI safety evaluation and red-teaming, addressing societal risks, responsible information sharing, content authentication and provenance, security throughout AI lifecycles and data quality, against the goals of safety, inclusivity and innovation, and places the work tracks of the International Network of AI Safety Institutes on the map. It also sets out terminology challenges for further discussion.",
+  "safety_topics": [
+   "safety institute",
+   "international cooperation",
+   "evaluation & testing"
+  ],
+  "related": [
+   "JP-01"
+  ],
+  "notes": "J-AISI describes the paper as a living document to promote international discussion on AI safety and names a technical discussion on the map and on terminology as a common language as the next step. For each activity the paper lists its sources in the Hiroshima Process International Guiding Principles and Code of Conduct and in the Seoul Declaration and Statement of Intent, and examples of related terms. J-AISI's Japanese page calls it AIセーフティに関する活動マップ（AMAIS）.",
+  "scope_note": "A discussion paper rather than guidance, which says it does not indicate activities that institutes or other organisations should undertake; included as the Japan AI Safety Institute's map of the scope of AI safety work.",
+  "english_version": {
+   "kind": "authentic",
+   "url": "https://aisi.go.jp/assets/pdf/Activity_Map_on_AI_Safety.pdf",
+   "by": "Japan AI Safety Institute (J-AISI)"
+  },
+  "verification": {
+   "note": "Stored: J-AISI's release page on aisi.go.jp (Japanese and English), the paper itself (10 pages, English only, cover dated Feb. 2025) and J-AISI's list of Information outputs, which dates the release 7 February 2025 (2025年2月7日). Together they confirm the title, the issuer, the date, the nature as a discussion paper and the content."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C015/2026-10-14/document-1.pdf",
+    "sha256": "9f19797df4cadcea4c4ed01239790069114821cd46525cf50388fee3986c81cc",
+    "locator": "page 1, cover",
+    "quote": "Discussion Paper Japan AI Safety Institute AISI Feb. 2025 AMAIS: Activity Map on AI Safety",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C015/2026-10-14/official.html",
+    "sha256": "0f31dce36981cc4047ab0a7506e9004f8222e23d420f20e0db6c307189f63892",
+    "locator": "release page",
+    "quote": "J-AISI has published \"AMAIS: Activity Map on AI Safety\" as a discussion paper.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C015/2026-10-14/document-1.pdf",
+    "sha256": "9f19797df4cadcea4c4ed01239790069114821cd46525cf50388fee3986c81cc",
+    "locator": "page 1, cover",
+    "quote": "Discussion Paper Japan AI Safety Institute AISI Feb. 2025 AMAIS: Activity Map on AI Safety",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C015/extra-cce5ea29b8/2026-10-14/official.html",
+    "sha256": "b0cac485f8bbed5d774df5306a71f2a955747f3445e3b027839dcc135a313d14",
+    "locator": "Information outputs list, entry",
+    "quote": "AIセーフティに関する活動マップ（AMAIS） AMAIS: Activity Map on AI Safety -2025年2月7日",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C015/2026-10-14/document-1.pdf",
+    "sha256": "9f19797df4cadcea4c4ed01239790069114821cd46525cf50388fee3986c81cc",
+    "locator": "page 1, cover",
+    "quote": "Discussion Paper Japan AI Safety Institute AISI Feb. 2025 AMAIS: Activity Map on AI Safety",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C015/2026-10-14/official.html",
+    "sha256": "0f31dce36981cc4047ab0a7506e9004f8222e23d420f20e0db6c307189f63892",
+    "locator": "release page",
+    "quote": "AIセーフティに関する活動マップ（AMAIS）を作成しましたのでディスカッションペーパーとして公表いたします。",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C015/extra-cce5ea29b8/2026-10-14/official.html",
+    "sha256": "b0cac485f8bbed5d774df5306a71f2a955747f3445e3b027839dcc135a313d14",
+    "locator": "Information outputs list, entry",
+    "quote": "AIセーフティに関する活動マップ（AMAIS） AMAIS: Activity Map on AI Safety -2025年2月7日",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C015/2026-10-14/document-1.pdf",
+    "sha256": "9f19797df4cadcea4c4ed01239790069114821cd46525cf50388fee3986c81cc",
+    "locator": "page 4, Summary",
+    "quote": "This paper does not indicate any activity that should be undertaken by AISIs or other organizations in each country.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Published as a discussion paper and described as a living document; no later version is shown.",
+  "scope_reasoning": "Borderline: a discussion paper, not guidance, and it disclaims any recommended activity. Included with a scope_note as an official AI safety institute output on the scope of AI safety; not one of the clear exclusions.",
+  "type_reasoning": "Report (government-commissioned): a paper issued by a government AI safety institute, neither guidance nor a declaration.",
+  "date_reasoning": "The paper gives only Feb. 2025; J-AISI's official list of outputs gives the release day, 7 February 2025."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

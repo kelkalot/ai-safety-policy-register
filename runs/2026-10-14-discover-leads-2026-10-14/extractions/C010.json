@@ -1,0 +1,156 @@
+{
+ "cand_id": "C010",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "jurisdiction": "China",
+  "country": "China",
+  "jurisdiction_level": "National",
+  "region": "East Asia",
+  "language": "Chinese",
+  "title": "Cybersecurity Standard Practice Guide — Security Guidelines for the Deployment and Use of Agents",
+  "original_title": "网络安全标准实践指南——智能体部署使用安全指引",
+  "short_title": "TC260-PG-20266A (agent deployment and use security)",
+  "issuing_body": "National Cybersecurity Standardization Technical Committee (TC260) Secretariat",
+  "instrument_type": "Guidelines / framework",
+  "legal_force": "Non-binding",
+  "status": "Published (non-binding, current)",
+  "date_published": "2026-07-01",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": "TC260-PG-20266A",
+  "official_url": "https://www.tc260.org.cn/tc260/sjzn/202608/67702dcf57214da792499be8518446dc/files/f3be1cc4d35d428c98a9f5d197c963ac.pdf",
+  "secondary_url": "https://www.tc260.org.cn/tc260/tzgg/202607/98b6f259f8a3428b8fe1cfea3c0fb19e.shtml",
+  "summary": "TC260 practice guide on the security of deploying and using agents: large-model-based AI agents for personal-assistant use that need high user permissions. For the assessment, preparation, deployment, use and decommissioning stages it advises against unmaintained projects and agents that open public interfaces automatically, and calls for installation materials from official channels, a separate device or isolated environment, large models that have completed generative AI service filing, no administrator rights, limited directories and network exposure, full logging, a high-risk operations list with second confirmation or blocking, and emergency stop.",
+  "safety_topics": [
+   "human oversight",
+   "general-purpose / frontier AI"
+  ],
+  "related": [],
+  "notes": "Version v1.0-202607, released with notice 网安秘字〔2026〕80号 of 1 July 2026. It can also guide the choice of commercial agent services. High-risk operations include stopping system services, formatting disks, bulk deletion, changing permissions, keys or firewall rules and accessing password managers, and may include transfers and payments. Annex A is a security checklist; Annex B gives organisations management guidance: an internal agent-use policy with prohibited behaviour and approval steps, an agent asset register, logging and risk analysis of agent activity, and discovery of unapproved agents on internal networks.",
+  "english_version": {
+   "kind": "none found"
+  },
+  "verification": {
+   "note": "Stored from tc260.org.cn: the guide's PDF (version v1.0-202607) and the release notice 网安秘字〔2026〕80号 (HTML, rendered copy and print). Title, number, issuer, date and contents are confirmed from these; the summary follows the Chinese text. No English version was found. The notice copy is flagged for review because the page has little readable text; the notice text itself is complete."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C010/2026-10-14/official.pdf",
+    "sha256": "11124dbe739eebd438a6ed5e9b612fae599aa116d74ceab05a9d1c426f101ec4",
+    "locator": "page 1, cover",
+    "quote": "TC260-PG-20266A 网络安全标准实践指南 ——智能体部署使用安全指引 （v1.0-202607",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C010/extra-4bcd2b0081/2026-10-14/official.html",
+    "sha256": "546455bcabe776d8ad12c143718a41f066014fc4c1b9b5d5ac90dec854f07c37",
+    "locator": "notice title",
+    "quote": "关于发布《网络安全标准实践指南——智能体部署使用安全指引》的通知 发布时间",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C010/2026-10-14/official.pdf",
+    "sha256": "11124dbe739eebd438a6ed5e9b612fae599aa116d74ceab05a9d1c426f101ec4",
+    "locator": "page 1, cover",
+    "quote": "网络安全标准实践指南 ——智能体部署使用安全指引",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C010/extra-4bcd2b0081/2026-10-14/official.html",
+    "sha256": "546455bcabe776d8ad12c143718a41f066014fc4c1b9b5d5ac90dec854f07c37",
+    "locator": "notice body",
+    "quote": "秘书处组织编制了《网络安全标准实践指南——智能体部署使用安全指引",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C010/2026-10-14/official.pdf",
+    "sha256": "11124dbe739eebd438a6ed5e9b612fae599aa116d74ceab05a9d1c426f101ec4",
+    "locator": "page 1, cover",
+    "quote": "全国网络安全标准化技术委员会秘书处 2026 年 7 月",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C010/extra-4bcd2b0081/2026-10-14/official.html",
+    "sha256": "546455bcabe776d8ad12c143718a41f066014fc4c1b9b5d5ac90dec854f07c37",
+    "locator": "notice signature",
+    "quote": "附件：《网络安全标准实践指南——智能体部署使用安全指引》 全国网络安全标准化技术委员会秘书处 2026年7月1日",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C010/2026-10-14/official.pdf",
+    "sha256": "11124dbe739eebd438a6ed5e9b612fae599aa116d74ceab05a9d1c426f101ec4",
+    "locator": "page 1, cover",
+    "quote": "TC260-PG-20266A 网络安全标准实践指南",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C010/extra-4bcd2b0081/2026-10-14/official.html",
+    "sha256": "546455bcabe776d8ad12c143718a41f066014fc4c1b9b5d5ac90dec854f07c37",
+    "locator": "notice header",
+    "quote": "发布时间： 2026-07-01 网安秘字〔2026〕80号",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C010/extra-4bcd2b0081/2026-10-14/official.html",
+    "sha256": "546455bcabe776d8ad12c143718a41f066014fc4c1b9b5d5ac90dec854f07c37",
+    "locator": "notice signature",
+    "quote": "附件：《网络安全标准实践指南——智能体部署使用安全指引》 全国网络安全标准化技术委员会秘书处 2026年7月1日",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C010/extra-4bcd2b0081/2026-10-14/official.html",
+    "sha256": "546455bcabe776d8ad12c143718a41f066014fc4c1b9b5d5ac90dec854f07c37",
+    "locator": "notice title",
+    "quote": "关于发布《网络安全标准实践指南——智能体部署使用安全指引》的通知 发布时间",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C010/2026-10-14/official.pdf",
+    "sha256": "11124dbe739eebd438a6ed5e9b612fae599aa116d74ceab05a9d1c426f101ec4",
+    "locator": "page 1, cover",
+    "quote": "TC260-PG-20266A 网络安全标准实践指南 ——智能体部署使用安全指引 （v1.0-202607",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C010/2026-10-14/official.pdf",
+    "sha256": "11124dbe739eebd438a6ed5e9b612fae599aa116d74ceab05a9d1c426f101ec4",
+    "locator": "page 2, 前言",
+    "quote": "是全国 网络安全标准化技术委员会（以下简称“网安标委”）秘书处组织 制定和发布的标准相关技术文件，旨在围绕网络安全法律法规政 策、标准、网络安全热点和事件等主题，宣传网络安全相关标准及 知识，提供标准化实践指引",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The TC260 Secretariat released the guide with notice 网安秘字〔2026〕80号 (关于发布 ... 的通知, a release notice, not a call for comments); the cover carries the guide's number and a released version (v1.0-202607) with no draft marking (征求意见稿). The preface describes practice guides as technical documents the TC260 Secretariat drafts and publishes to give practical guidance, so it is not binding; no later version is stored. Published (non-binding, current).",
+  "date_reasoning": "The notice's posting date (发布时间) and signature date are both 2026-07-01.",
+  "scope_reasoning": "AI-specific security guidance from TC260, the national cybersecurity standardisation committee: a government safety and risk-management guideline (AGENTS.md section 10, in with no note).",
+  "instrument_type_reasoning": "TC260 practice guides are 'standard-related technical documents' giving practical guidance, not national standards; recorded as Guidelines / framework."
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "TC260 draft practice guides on AI browser security and on AI agent interaction security (comments until 12 Aug 2026)",
+   "url": null,
+   "seen_in": "web search result (USITO notice), not stored",
+   "why": "Further TC260 agent-security guidance in the same series; not in the register; status after the consultation unknown."
+  }
+ ],
+ "open_questions": []
+}

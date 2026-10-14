@@ -1,0 +1,52 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "C012",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "premise that AI incidents are inevitable; stresses detective controls",
+   "verdict": "supported",
+   "locator": "page 4-5 Executive Summary, 'incidents are inevitable'"
+  },
+  {
+   "claim": "links the approach to SBOM for AI and the NIST Cyber AI Profile; analyses RAG and AI agents",
+   "verdict": "supported",
+   "locator": "pages 17-25, sections 2.3 and 2.5"
+  },
+  {
+   "claim": "audience includes CAIO, CISO, CSIRTs, SOCs and policymakers",
+   "verdict": "supported",
+   "locator": "page 10, 1.5 Intended Audience"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "AI-specific incident response framework by a government AI safety institute."
+ },
+ "overall": "accept",
+ "note": "All fields match the stored English edition and the J-AISI release page (cover date 9 January 2026; release page 2026年1月9日公表). The Japanese edition is not stored, so the original title rests on the release page, which gives it exactly as recorded. Notes (UNCITRAL MLAC, budget allocation, CAIO confirmation flow, NIST SP 800-61) are all found in the English text. One targeted web search found no newer version."
+}

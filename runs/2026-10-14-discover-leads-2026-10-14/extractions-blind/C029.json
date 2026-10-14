@@ -1,0 +1,159 @@
+{
+  "cand_id": "C029",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "decision": "record",
+  "target_id": null,
+  "record": {
+    "title": "Operational Policy establishing guidelines for the use of artificial intelligence systems in the Judiciary (Supreme Court of Justice Resolution No. 12.677)",
+    "original_title": "Política Operacional que establece directrices para el uso de sistemas de inteligencia artificial en el Poder Judicial",
+    "short_title": "Paraguay Judiciary AI use policy (Resolution 12.677)",
+    "jurisdiction": "Paraguay",
+    "country": "Paraguay",
+    "jurisdiction_level": "National",
+    "region": "Latin America & Caribbean",
+    "issuing_body": "Supreme Court of Justice of Paraguay (Corte Suprema de Justicia)",
+    "instrument_type": "Guidelines / framework",
+    "legal_force": "Binding",
+    "status": "In force",
+    "date_published": "2026-03-04",
+    "date_in_force": null,
+    "date_last_updated": null,
+    "official_identifier": "Resolución N° 12.677",
+    "official_url": "https://www.pj.gov.py/descargas/ID1-133_resolucion_nro_12677_politica_operacional_que_establece_directrices_para_el_uso_de_sistemas_de_inteligencia_artificial_version_1.pdf",
+    "secondary_url": null,
+    "language": "Spanish",
+    "summary": "Resolution of Paraguay's Supreme Court of Justice approving a policy that guides magistrates and officials on the ethical, responsible and transparent use of AI systems, whether developed in-house, bought or licensed. AI may support legal research, drafting, summarising and translation if its results are reviewed and verified. It prohibits delegating decisions on judicial or administrative resolutions, determining guilt or innocence, setting penalties without human intervention, and using AI without informing the parties or with opaque or undetectably biased systems. Generative AI use in drafting must be disclosed with prompts documented, and personal and confidential data protected.",
+    "safety_topics": [
+      "human oversight",
+      "prohibited practices",
+      "transparency & labelling",
+      "public-sector use"
+    ],
+    "related": [],
+    "notes": "Adopted on 4 March 2026 after review by the technical team of the Judiciary's Internal Control Committee (record of 20 November 2025), as an operational policy under the MECIP:2015 internal control standard and the Institutional Strategic Plan 2026-2030. The annex is Version 1 of the policy. Article 3 of the resolution authorises its application; Article 4 tells the working group on the ethical use of AI set up by the Council of Superintendence (Acta No. 5/2025) to report periodically to the Internal Control Committee on implementation. The policy applies to all courts, judicial districts and administrative units, to existing and future AI systems; the Court is to regulate its operational and verification mechanisms (Art. 19) and to update it periodically (Art. 20).",
+    "verification": {
+      "note": "Stored on 14 Oct 2026 from pj.gov.py: the Judiciary's 12-page PDF, a scanned copy with a text layer, containing the Secretary General's note communicating Resolution No. 12.677 of 4 Mar 2026, the resolution (Arts. 1-5) and the annex with the policy (Arts. 1-20, each page dated 4 Mar 2026). The text layer is noisy: parts of Articles 3, 8, 14 and 20 of the policy and the signature blocks are garbled, and the date of the covering note is illegible; title, number, date, scope and the main rules and prohibitions are legible. No English version was found among the stored files. The summary is written from the Spanish text."
+    },
+    "english_version": {
+      "kind": "none found"
+    }
+  },
+  "evidence": {
+    "title": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C029/2026-10-14/official.pdf",
+        "sha256": "c53eb1851fe9b2cf723a61a19ba05bdfd97f2f098fa33550e7365b39b438adc8",
+        "locator": "page 3 (Anexo)",
+        "quote": "POLÍTICA OPERACIONAL QUE ESTABLECE DIRECTRICES PARA EL USO DE",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C029/2026-10-14/official.pdf",
+        "sha256": "c53eb1851fe9b2cf723a61a19ba05bdfd97f2f098fa33550e7365b39b438adc8",
+        "locator": "page 3 (Anexo)",
+        "quote": "SISTEMAS DE INTELIGENCIA ARTIFICIAL EN EL PODER JUDICIAL",
+        "source_kind": "official"
+      }
+    ],
+    "original_title": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C029/2026-10-14/official.pdf",
+        "sha256": "c53eb1851fe9b2cf723a61a19ba05bdfd97f2f098fa33550e7365b39b438adc8",
+        "locator": "page 3 (Anexo)",
+        "quote": "POLÍTICA OPERACIONAL QUE ESTABLECE DIRECTRICES PARA EL USO DE",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C029/2026-10-14/official.pdf",
+        "sha256": "c53eb1851fe9b2cf723a61a19ba05bdfd97f2f098fa33550e7365b39b438adc8",
+        "locator": "page 3 (Anexo)",
+        "quote": "SISTEMAS DE INTELIGENCIA ARTIFICIAL EN EL PODER JUDICIAL",
+        "source_kind": "official"
+      }
+    ],
+    "issuing_body": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C029/2026-10-14/official.pdf",
+        "sha256": "c53eb1851fe9b2cf723a61a19ba05bdfd97f2f098fa33550e7365b39b438adc8",
+        "locator": "page 1",
+        "quote": "12.677, de fecha 4 de marzo de 2026,|a Corte Suprema de Justicia resolvió",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C029/2026-10-14/official.pdf",
+        "sha256": "c53eb1851fe9b2cf723a61a19ba05bdfd97f2f098fa33550e7365b39b438adc8",
+        "locator": "page 2",
+        "quote": "LA CORTE SUPREMA DE JUSTICIA",
+        "source_kind": "official"
+      }
+    ],
+    "official_identifier": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C029/2026-10-14/official.pdf",
+        "sha256": "c53eb1851fe9b2cf723a61a19ba05bdfd97f2f098fa33550e7365b39b438adc8",
+        "locator": "page 1",
+        "quote": "12.677, de fecha 4 de marzo de 2026",
+        "source_kind": "official"
+      }
+    ],
+    "date_published": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C029/2026-10-14/official.pdf",
+        "sha256": "c53eb1851fe9b2cf723a61a19ba05bdfd97f2f098fa33550e7365b39b438adc8",
+        "locator": "page 1",
+        "quote": "12.677, de fecha 4 de marzo de 2026",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C029/2026-10-14/official.pdf",
+        "sha256": "c53eb1851fe9b2cf723a61a19ba05bdfd97f2f098fa33550e7365b39b438adc8",
+        "locator": "page 3 (Anexo)",
+        "quote": "Asunción, 4 de marzo de 2026.",
+        "source_kind": "official"
+      }
+    ],
+    "status": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C029/2026-10-14/official.pdf",
+        "sha256": "c53eb1851fe9b2cf723a61a19ba05bdfd97f2f098fa33550e7365b39b438adc8",
+        "locator": "page 2 (Art. 3)",
+        "quote": "ART.3q: AUTORIZAR la aplicación de la Politica Operacional para el uso de sistemas",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C029/2026-10-14/official.pdf",
+        "sha256": "c53eb1851fe9b2cf723a61a19ba05bdfd97f2f098fa33550e7365b39b438adc8",
+        "locator": "page 2 (Art. 1)",
+        "quote": "APROBAR la \"Politica Operacional que establece las directrices para cl uso de",
+        "source_kind": "official"
+      }
+    ],
+    "legal_force": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C029/2026-10-14/official.pdf",
+        "sha256": "c53eb1851fe9b2cf723a61a19ba05bdfd97f2f098fa33550e7365b39b438adc8",
+        "locator": "page 8 (Anexo, Art. 8)",
+        "quote": "En el marco del uso de inteligencia artificial se prohibe:",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C029/2026-10-14/official.pdf",
+        "sha256": "c53eb1851fe9b2cf723a61a19ba05bdfd97f2f098fa33550e7365b39b438adc8",
+        "locator": "page 5 (Anexo, Art. 4)",
+        "quote": "La política aplica a los magistrados y funcionarios del Poder Judicial que en el ejercicio de",
+        "source_kind": "official"
+      }
+    ]
+  },
+  "judgment": {
+    "status_reasoning": "Resolution No. 12.677 of 4 Mar 2026 approves the policy (Art. 1) and authorises its application (Art. 3); nothing in the stored text suspends or replaces it, and the policy itself provides only for periodic review (Art. 20). The resolution gives no separate commencement date, so it applies from adoption: In force, with date_in_force left null.",
+    "legal_force_reasoning": "A resolution of the Supreme Court under its power to regulate the administration of justice (Art. 3(b) of Law No. 609/95), with rules and prohibitions that apply to magistrates and officials (Art. 4 of the policy): Binding within the Judiciary. Recorded as Guidelines / framework because it is issued as a policy of guidelines (directrices).",
+    "scope_reasoning": "An AI-specific rule on the use of AI systems by a state body (the Judiciary), with human-oversight requirements, transparency duties and prohibitions: in scope with no note under AGENTS.md section 10."
+  },
+  "extra_urls": [],
+  "leads": [],
+  "open_questions": [
+    "date_in_force is null: the resolution authorises the policy's application (Art. 3) without a separate commencement date; it presumably applies from adoption on 4 Mar 2026."
+  ]
+}

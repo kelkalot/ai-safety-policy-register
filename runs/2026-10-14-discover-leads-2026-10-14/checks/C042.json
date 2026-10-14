@@ -1,0 +1,56 @@
+{
+ "cand_id": "C042",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "Same form as VN-03; the number and title words match the portal heading 'Quyết định số 804/QĐ-TTg của Thủ tướng Chính phủ: Ban hành Danh mục bộ dữ liệu phục vụ phát triển trí tuệ nhân tạo trong các lĩnh vực thiết yếu'."
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "The portal gives 804/QĐ-TTg; the OCR misreads the page 1 number as 304 but the Annex I header reads 804."
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported",
+   "why": "Art. 2: 'có hiệu lực thi hành từ ngày ký' (OCR: 'cé hiéu lyc thi hanh ti ngay ky'); signed 6 May 2026."
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "15 Annex I datasets and 39 priority items in Annex II, including the AI safety and reliability evaluation group (items 36-39: false information, AI-generated media, attack scenarios for AI safety and ethics testing, malware)",
+   "verdict": "supported",
+   "locator": "Annex I I-XV; Annex II rows 1-39, group V"
+  },
+  {
+   "claim": "Ministry of Public Security is focal point and reviews the list",
+   "verdict": "supported",
+   "locator": "Art. 3(1)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Data-supply instrument implementing the AI Law with priority datasets for AI safety evaluation; scope_note present and appropriate."
+ },
+ "overall": "accept",
+ "note": "Portal page and signed decision confirm number, 6 May 2026 date, entry into force on signature, 15 datasets, 39 items and the Ministry of Public Security's role. Level A through OCR text without diacritics; diacritic forms come from the portal page. No amendment found."
+}

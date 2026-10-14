@@ -1,0 +1,57 @@
+{
+ "cand_id": "C029",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Follows the register's form for resolutions that approve an instrument (as PT-01, VN-03); the resolution's own heading reads 'POR LA CUAL SE APRUEBA LA POLÍTICA OPERACIONAL ... Versión 1'. The blind title drops the resolution number; both are accurate."
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "'Resolución N° 12.677, de fecha 4 de marzo de 2026'; annex 'Asunción, 4 de marzo de 2026'"
+  },
+  "date_in_force": {
+   "verdict": "judgment-differs",
+   "why": "No commencement clause: Art. 3 'AUTORIZAR la aplicación de la Política Operacional' and the date 4 March 2026. 2026-03-04 is an inference that matches the register's practice (12 of 13 comparable binding instruments set date_in_force to the adoption date), and the notes and verification note state that no separate date is given. null, as in the blind extraction, is what the text states literally. Kept as extracted."
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "Applies to all magistrates and officials (Annex Art. 4) with prohibitions (Art. 8)."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "forbids delegating decisions, fully automating processes affecting fundamental rights, and using AI to determine guilt or set penalties",
+   "verdict": "supported",
+   "locator": "Annex Art. 8 a, b, d, e; the penalties item reads 'Establecer penas o medidas sin interv[ención humana]', so the summary is slightly broader than the text for penalties"
+  },
+  {
+   "claim": "parties must be told, generative-AI text disclosed with prompts documented, opaque systems banned, AI literacy training",
+   "verdict": "supported",
+   "locator": "Annex Arts. 10, 11, 18"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Binding policy on AI use in the judiciary."
+ },
+ "overall": "accept",
+ "note": "The scanned PDF from pj.gov.py confirms number, date, title and the policy's rules; the OCR layer is noisy in Art. 8. Title and date_in_force differences with the blind extraction are matters of form; the first extraction's values follow register practice. The summary says penalties may not be set by AI, while the text adds 'without human intervention'. A search found only the Judiciary's own news items on the approval, no amendment."
+}

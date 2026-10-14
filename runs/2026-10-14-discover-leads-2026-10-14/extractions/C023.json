@@ -1,0 +1,142 @@
+{
+ "cand_id": "C023",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "jurisdiction": "Japan",
+  "country": "Japan",
+  "jurisdiction_level": "National",
+  "region": "East Asia",
+  "title": "Interim Report of the AI Strategic Council and AI Institutional Study Group",
+  "original_title": "中間とりまとめ",
+  "short_title": "AI Institutional Study Group Interim Report (2025)",
+  "issuing_body": "AI Strategic Council; AI Institutional Study Group",
+  "instrument_type": "Report (government-commissioned)",
+  "legal_force": "Non-binding",
+  "status": "Published (non-binding, current)",
+  "date_published": "2025-02-04",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": null,
+  "official_url": "https://www8.cao.go.jp/cstp/ai/interim_report.pdf",
+  "secondary_url": null,
+  "language": "Japanese",
+  "summary": "Interim report of the AI Strategic Council and its AI Institutional Study Group on Japan's AI regime, aiming to promote innovation while responding to risks. It relies mainly on existing laws plus guidelines and recommends a statutory basis for a stronger government command function and an AI strategy (basic plan); government guidelines in line with the Hiroshima AI Process for transparency and appropriateness across the AI lifecycle; promotion of safety evaluation and certification; government fact-finding on serious incidents with guidance and advice to businesses; and AI-specific procurement guidelines. Risks to life and safety and systemic risks stay with sector ministries for now.",
+  "safety_topics": [
+   "incident reporting",
+   "transparency & labelling",
+   "evaluation & testing",
+   "public-sector use",
+   "national security & military"
+  ],
+  "related": [
+   "JP-04",
+   "JP-06"
+  ],
+  "notes": "The AI Institutional Study Group was set up in July 2024 under the AI Strategic Council, which sits under the Integrated Innovation Strategy Promotion Council chaired by the Chief Cabinet Secretary with all ministers as members. It met seven times, heard 15 researchers, businesses and others, and held a public comment before the report. The report asks that the government's guidelines and fact-finding rest on law so that businesses, including foreign ones, can be asked to cooperate, and leaves national security risks such as CBRN development and cyberattacks to the ministries concerned. The Act on Promotion of Research and Development, and Utilization of AI-related Technology (Act No. 53 of 2025) followed in 2025.",
+  "english_version": {
+   "kind": "government translation",
+   "url": "https://www8.cao.go.jp/cstp/ai/interim_report_en.pdf",
+   "by": "AI Strategic Council / AI Institutional Study Group (provisional translation on the Cabinet Office site)"
+  },
+  "verification": {
+   "note": "Stored: the Japanese report (25 pages) and its English provisional translation ('Please refer to the original text for accuracy'), both from the Cabinet Office site (www8.cao.go.jp), dated 4 February 2025 and signed by the AI Strategic Council / AI Institutional Study Group. They confirm the title, the date, the bodies, their set-up, the process and the content; the summary is written from the Japanese text. The sentence on the AI Promotion Act rests on record JP-04, not on this candidate's stored files."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C023/2026-10-14/official.pdf",
+    "sha256": "4d4e73801254a9eb2e59c1e7922031ef827a937a7e484ace965ebe33dd515e22",
+    "locator": "page 1, cover",
+    "quote": "中間 とりまとめ 2025 年２月４日 AI 戦略会議・AI 制度研究会",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C023/extra-83038f6280/2026-10-14/official.pdf",
+    "sha256": "3bfb1e842e06afa54a34703716f4e95d325fc36ab51050e055d713e4372c5a0b",
+    "locator": "page 1, cover",
+    "quote": "nterim Report February 4, 2025 AI Strategic Council / AI Institutional Study Group",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C023/2026-10-14/official.pdf",
+    "sha256": "4d4e73801254a9eb2e59c1e7922031ef827a937a7e484ace965ebe33dd515e22",
+    "locator": "page 3, overview heading",
+    "quote": "AI戦略会議・AI制度研究会 中間とりまとめ 概要",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C023/2026-10-14/official.pdf",
+    "sha256": "4d4e73801254a9eb2e59c1e7922031ef827a937a7e484ace965ebe33dd515e22",
+    "locator": "page 1, cover",
+    "quote": "中間 とりまとめ 2025 年２月４日 AI 戦略会議・AI 制度研究会",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C023/2026-10-14/official.pdf",
+    "sha256": "4d4e73801254a9eb2e59c1e7922031ef827a937a7e484ace965ebe33dd515e22",
+    "locator": "page 3, overview, note 1",
+    "quote": "官房長官が議長、全閣僚が構成員となっている「統合イノベーション戦略推進会議」の下に「AI戦 略会議」を設置。その下に「AI制度研究会」を設置。",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C023/extra-83038f6280/2026-10-14/official.pdf",
+    "sha256": "3bfb1e842e06afa54a34703716f4e95d325fc36ab51050e055d713e4372c5a0b",
+    "locator": "page 1, cover",
+    "quote": "nterim Report February 4, 2025 AI Strategic Council / AI Institutional Study Group",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C023/2026-10-14/official.pdf",
+    "sha256": "4d4e73801254a9eb2e59c1e7922031ef827a937a7e484ace965ebe33dd515e22",
+    "locator": "page 1, cover",
+    "quote": "中間 とりまとめ 2025 年２月４日 AI 戦略会議・AI 制度研究会",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C023/extra-83038f6280/2026-10-14/official.pdf",
+    "sha256": "3bfb1e842e06afa54a34703716f4e95d325fc36ab51050e055d713e4372c5a0b",
+    "locator": "page 1, cover",
+    "quote": "nterim Report February 4, 2025 AI Strategic Council / AI Institutional Study Group",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C023/2026-10-14/official.pdf",
+    "sha256": "4d4e73801254a9eb2e59c1e7922031ef827a937a7e484ace965ebe33dd515e22",
+    "locator": "page 3, overview, background",
+    "quote": "2024年７月以降、AI制度研究会1)を計７回開催。計15の研究者、事業者等からの ヒアリングを含む議論、パブリックコメントを経て中間とりまとめを作成。",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C023/2026-10-14/official.pdf",
+    "sha256": "4d4e73801254a9eb2e59c1e7922031ef827a937a7e484ace965ebe33dd515e22",
+    "locator": "page 22, IV. おわりに",
+    "quote": "政府に対しては、本とりまとめを踏まえ、世界で最も AI を開発・活用しやすく、かつ、人間中心 の価値に基づく、他国のモデルとなるような AI に係る法制度を含む制度整備を速やかに実施してい くことを期待する。",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "A published advisory report with recommendations to the government ('期待する'); it binds no one. It is an interim report, and no final report is stored; it stays current as a published report.",
+  "scope_reasoning": "A report of a government-convened council and study group on the design of Japan's AI risk governance: in scope as a government-commissioned report with no note.",
+  "title_reasoning": "The Japanese cover says only 中間とりまとめ (Interim Report) with the bodies' names; the English title adds the bodies, as the provisional translation's cover does ('Interim Report ... AI Strategic Council / AI Institutional Study Group')."
+ },
+ "extra_urls": [],
+ "leads": [
+  "AI Strategic Council, 「AIに関する暫定的な論点整理」 (Tentative summary of AI issues), 26 May 2023, and AI Strategy Team, 「「AI制度に関する考え方」について」, May 2024, cited in the report; not in the register."
+ ],
+ "open_questions": []
+}

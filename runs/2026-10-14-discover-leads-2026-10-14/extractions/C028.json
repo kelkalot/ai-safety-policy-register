@@ -1,0 +1,141 @@
+{
+ "cand_id": "C028",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Bill promoting the use of artificial intelligence for the economic and social development of the country (Chamber of Deputies, 2025)",
+  "original_title": "Que promueve el uso de la inteligencia artificial a favor del desarrollo económico y social del país",
+  "short_title": "Paraguay AI promotion bill (Chamber of Deputies, 2025)",
+  "jurisdiction": "Paraguay",
+  "country": "Paraguay",
+  "jurisdiction_level": "National",
+  "region": "Latin America & Caribbean",
+  "issuing_body": "Chamber of Deputies of Paraguay; bill by Deputies Rodrigo Gamarra, Rocío Abed, Miguel del Puerto, Del Pilar Vázquez, Hugo Meza, Carlos Núñez Salinas and Johanna Ortega",
+  "instrument_type": "Bill / draft law",
+  "legal_force": "Proposed",
+  "status": "Draft / proposed",
+  "date_published": "2025",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": null,
+  "official_url": null,
+  "secondary_url": "https://www.lanacion.com.py/politica/2025/06/01/debatiran-proyecto-legislativo-sobre-ia-en-audiencia-publica/",
+  "language": "Spanish",
+  "summary": "Chamber of Deputies bill to promote the use of artificial intelligence for the country's economic and social development. Its explanatory statement calls for a comprehensive framework that lays the foundations of a state policy on AI, combining support for innovation with ethical responsibility and full respect for human rights: fostering research, development and ethical adoption of AI in all productive and social sectors, guaranteeing equitable and inclusive access to its benefits, regulating its implementation so that fundamental rights are protected and abuse or misuse prevented, and promoting national technological sovereignty.",
+  "safety_topics": [
+   "research priorities",
+   "accountability & liability"
+  ],
+  "related": [
+   "PY-01"
+  ],
+  "notes": "Presented in the Chamber of Deputies before 1 May 2025 and sent to its advisory committees for opinions before plenary consideration. The Committee on Social Equity and Equal Rights of Men and Women, chaired by Deputy Rocío Abed, called a public hearing on the bill with experts and the public for 4 June 2025 in the Bicameral Hall of the National Congress. The bill gives priority to human rights, sustainability and inclusion in promoting AI. A separate Senate bill regulating AI systems, presented in May 2025, is PY-01.",
+  "scope_note": "A bill whose stated aim is promoting AI for development, with ethics, human-rights and anti-misuse aims stated in general terms; included as a pending AI-specific bill in Paraguay's Congress.",
+  "english_version": {
+   "kind": "none found"
+  },
+  "verification": {
+   "note": "CAUTION: the title, date and status rest on secondary sources. Stored: two reports in the national newspaper La Nación (1 May 2025, on the bill's presentation in the Chamber of Deputies, its sponsors and the aims set out in its explanatory statement; 1 June 2025, announcing the committee's public hearing on the bill set for 4 June 2025, with the bill's title in quotation marks). The bill's file on the Congress's legislative information system (SILpy, expediente D-2584139, file 142181, as listed by the Morrison & Foerster AI tracker) could not be stored because the site's robots.txt disallows automated downloads, so official_identifier and official_url are null and the bill text was not read. The summary rests on the newspapers' account of the explanatory statement. The exact presentation date is not in the stored reports ('se presentó recientemente' on 1 May 2025), so date_published gives the year. The 1 May report renders the title with 'en favor del'; the 1 June report, which quotes it, has 'a favor del'. No stored source shows whether the announced hearing took place or any later stage."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C028/extra-b71550498a/2026-10-14/official.html",
+    "sha256": "0cc45e678ba32b804206b9e02664caf0cb389963f2f9fc38c949cd47ad1f3917",
+    "locator": "article body, first paragraph",
+    "quote": "el proyecto de ley “que promueve el uso de la inteligencia artificial a favor del desarrollo económico y social del país”",
+    "source_kind": "secondary"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C028/extra-b71550498a/2026-10-14/official.html",
+    "sha256": "0cc45e678ba32b804206b9e02664caf0cb389963f2f9fc38c949cd47ad1f3917",
+    "locator": "article body, first paragraph",
+    "quote": "el proyecto de ley “que promueve el uso de la inteligencia artificial a favor del desarrollo económico y social del país”",
+    "source_kind": "secondary"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C028/extra-8f1de32928/2026-10-14/official.html",
+    "sha256": "a55723d9a277a6b1e0d7ed3b8070c9cfbfa84189396a7e2d0452943969aca8b4",
+    "locator": "article body, last paragraph",
+    "quote": "El proyecto de ley es impulsado por los diputados Rodrigo Gamarra, Rocío Abed, Miguel del Puerto, Del Pilar Vázquez, Hugo Meza, Carlos Núñez Salinas y Johanna Ortega.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C028/extra-8f1de32928/2026-10-14/official.html",
+    "sha256": "a55723d9a277a6b1e0d7ed3b8070c9cfbfa84189396a7e2d0452943969aca8b4",
+    "locator": "article body, first paragraph",
+    "quote": "En la Cámara de Diputados, se presentó recientemente el proyecto de ley que promueve el uso de la Inteligencia Artificial en favor del desarrollo económico y social del país.",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C028/extra-8f1de32928/2026-10-14/official.html",
+    "sha256": "a55723d9a277a6b1e0d7ed3b8070c9cfbfa84189396a7e2d0452943969aca8b4",
+    "locator": "article date line",
+    "quote": "1 de mayo de 2025 a las 18:45 Diputados presentan iniciativa para regular uso de la Inteligencia Artificial",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C028/extra-8f1de32928/2026-10-14/official.html",
+    "sha256": "a55723d9a277a6b1e0d7ed3b8070c9cfbfa84189396a7e2d0452943969aca8b4",
+    "locator": "article body, first paragraph",
+    "quote": "En la Cámara de Diputados, se presentó recientemente el proyecto de ley que promueve el uso de la Inteligencia Artificial en favor del desarrollo económico y social del país.",
+    "source_kind": "secondary"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C028/extra-8f1de32928/2026-10-14/official.html",
+    "sha256": "a55723d9a277a6b1e0d7ed3b8070c9cfbfa84189396a7e2d0452943969aca8b4",
+    "locator": "article body, first paragraph",
+    "quote": "El documento será remitido a las diferentes comisiones asesoras para sus dictámenes correspondientes y posterior tratamiento en plenaria.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C028/extra-b71550498a/2026-10-14/official.html",
+    "sha256": "0cc45e678ba32b804206b9e02664caf0cb389963f2f9fc38c949cd47ad1f3917",
+    "locator": "article body, first paragraph",
+    "quote": "invita a participar de la audiencia pública en que será analizado el proyecto de ley",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C028/extra-b71550498a/2026-10-14/official.html",
+    "sha256": "0cc45e678ba32b804206b9e02664caf0cb389963f2f9fc38c949cd47ad1f3917",
+    "locator": "article body, first paragraph",
+    "quote": "El evento se realizará el miércoles 4 de junio, a partir de las 10:00, en la Sala Bicameral del Congreso Nacional.",
+    "source_kind": "secondary"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C028/extra-b71550498a/2026-10-14/official.html",
+    "sha256": "0cc45e678ba32b804206b9e02664caf0cb389963f2f9fc38c949cd47ad1f3917",
+    "locator": "article body, second paragraph",
+    "quote": "La propuesta, presentada por varios diputados, tiene por objeto promover el uso responsable y ético de la inteligencia artificial (IA)",
+    "source_kind": "secondary"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The latest event in the stored reports is the committee public hearing scheduled for 4 June 2025, after the bill's presentation and referral to advisory committees. Nothing stored shows a committee opinion, a vote, rejection or archiving. On 14 October 2026 the bill is taken as pending: Draft / proposed, legal force Proposed. Sixteen months have passed, so a later stage (including archiving) cannot be ruled out; the SILpy file, which cannot be stored, is where it would show.",
+  "date_reasoning": "The 1 May 2025 report says the bill was presented recently in the Chamber of Deputies; no day or month of presentation is stored, so date_published is 2025.",
+  "scope_reasoning": "An AI-specific bill pending in a national legislature, in scope under section 10 (pending bills). Its stated aims are mainly promotion of AI use, with ethics, human rights, inclusion and prevention of misuse described in general terms; flagged with a scope_note for the promotion focus. Its title matches Peru's Law No. 31814 (PE-01); no stored source says it was modelled on it, so PE-01 is not linked.",
+  "topics_reasoning": "research priorities: fostering research and development of AI. accountability & liability: regulating implementation to protect fundamental rights and prevent abuse or misuse; both rest on the newspapers' account of the explanatory statement, as no bill text is stored.",
+  "duplicate_check": "Not PY-01, the Senate bill of May 2025 'Que regula y promueve la creación, desarrollo, innovación e implementación de sistemas de inteligencia artificial'; no other Paraguayan record exists."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "official_identifier (expediente D-2584139) and official_url (SILpy file 142181) cannot be supported by a stored copy while SILpy disallows automated downloads; the bill text has not been read.",
+  "Exact presentation date unknown (before 1 May 2025).",
+  "Current stage after the June 2025 hearing is unknown."
+ ]
+}

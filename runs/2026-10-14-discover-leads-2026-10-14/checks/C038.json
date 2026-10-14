@@ -1,0 +1,71 @@
+{
+ "cand_id": "C038",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "jurisdiction": {
+   "verdict": "supported"
+  },
+  "country": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Six principles: fairness and equity, innovation, privacy, safety and security, validity and reliability, transparency/accountability/explain-ability",
+   "verdict": "supported",
+   "locator": "page 2, Principles"
+  },
+  {
+   "claim": "Action plan aligned with the NIST AI Risk Management Framework; mandatory safety training; human review of critical decisions",
+   "verdict": "supported",
+   "locator": "page 4 Implementation Plan; page 4 Human Oversight"
+  },
+  {
+   "claim": "Effective 26 Nov 2024; all agencies must comply as a minimum; more stringent policy prevails on conflict",
+   "verdict": "supported",
+   "locator": "page 5; page 3"
+  }
+ ],
+ "newer_versions": [
+  "Draft update of the policy under review in 2026, not signed (https://www.it.nv.gov/events/state-ai-roundtable2/)"
+ ],
+ "extra_urls": [
+  "https://www.it.nv.gov/events/state-ai-roundtable2/"
+ ],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Every field is supported by the stored signed policy; no issue date, so date_published null is right. A search found that the Governor's Technology Office has a proposed 2026 update (State AI Roundtable II, 7 Jul 2026) that the page says is 'not final and has not been signed'. It is not in force, so no field changes; the page is listed so the next refresh run can store it and check whether it has been adopted."
+}

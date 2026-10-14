@@ -1,0 +1,37 @@
+{
+ "group": "europe",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "candidates": [
+  {
+   "cand_ref": "europe-01",
+   "cell": "SK/legislature",
+   "title_as_found": "Návrh poslancov NR SR na vydanie zákona, ktorým sa menia a dopĺňajú niektoré zákony v súvislosti s ochranou pred neoprávneným vytváraním a šírením klamlivých záznamov vytvorených alebo podstatne zmenených technickými prostriedkami (parlamentná tlač 1266)",
+   "language": "Slovak",
+   "url": "https://www.nrsr.sk/web/Default.aspx?sid=zakony/zakon&ZakZborID=13&CisObdobia=9&CPT=1266",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.startitup.sk/sns-chce-regulovat-umelu-inteligenciu-novy-zakon-ma-zastavit-zneuzivanie-tvari/"
+   ],
+   "found_via": "press lead on the SNS deepfake bill, then a search restricted to nrsr.sk and the print 1266 page; submitted 27 March 2026 by MPs Farkašovský, Kramplová, Danko, Lučanský; second reading decided 5 May 2026, Constitutional Law Committee",
+   "scope_guess": "borderline",
+   "why": "Private members' bill amending the Civil Code, Misdemeanours Act and Criminal Code against deepfakes; not AI-specific in form but the operative instrument for AI-generated content abuse.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "europe-02",
+   "cell": "SK/legislature",
+   "title_as_found": "Návrh poslancov (Mikloško, Janckulík) na vydanie zákona, ktorým sa menia a dopĺňajú niektoré zákony v súvislosti s ochranou pred zneužitím syntetického obsahu generovaného umelou inteligenciou",
+   "language": "Slovak",
+   "url": "https://www.nrsr.sk/web/Dynamic/DocumentPreview.aspx?DocID=573380",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.nrsr.sk/web/Dynamic/DocumentPreview.aspx?DocID=573380"
+   ],
+   "found_via": "nrsr.sk-restricted search; the document preview opens and names the two MPs and the title; its print number and date are not shown in it (search reported print 1029), proposed effect 1 January 2026",
+   "scope_guess": "borderline",
+   "why": "A second deepfake bill in the same Parliament, specific to AI-generated synthetic content; not on the lead list but found next to it, so it is worth a look; borderline as civil, misdemeanour and criminal amendments.",
+   "possible_duplicate_of": null
+  }
+ ]
+}

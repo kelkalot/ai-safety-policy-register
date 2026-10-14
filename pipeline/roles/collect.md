@@ -19,6 +19,10 @@ The run ID and your group name. Your cells are listed under `groups` in `runs/<r
 5. **Judge scope roughly.** Use AGENTS.md section 10 and the precedents. Include `borderline` candidates with a reason; leave out what is clearly out (company documents, general privacy laws, industrial strategies without safety content, frameworks of private standard-setters such as IEEE or OWASP, supervisory letters to a single firm) and log them in the cell's `excluded` list with one line each.
 6. **Log the cell**, also when you found nothing.
 
+## Leads runs
+
+When `run.json` has `"mode": "leads"`, the run follows up known leads instead of searching cells as a whole. Your leads are the entries of `leads` in `run.json` whose `cell` belongs to your group. For each lead, find the instrument on an official site (the issuing body, the legislature, the gazette) and write a candidate with that URL, or keep it with `url: null`, the best secondary URL in `lead_urls` and what you tried. Judge scope as usual. Do not search the cells beyond the leads. Log one line per cell you worked in, as usual; the script does not mark these cells as searched.
+
 ## Output
 
 `runs/<run-id>/candidates/<group>.json`:

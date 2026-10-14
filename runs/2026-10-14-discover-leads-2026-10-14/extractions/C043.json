@@ -1,0 +1,180 @@
+{
+ "cand_id": "C043",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Decision No. 1528/QĐ-TTg approving the National Programme for the Development of Artificial Intelligence Human Resources to 2030, with Orientation to 2035",
+  "original_title": "Quyết định số 1528/QĐ-TTg phê duyệt Chương trình quốc gia phát triển nhân lực trí tuệ nhân tạo đến năm 2030, định hướng đến năm 2035",
+  "short_title": "Viet Nam AI human resources programme to 2030 (Decision 1528/QĐ-TTg)",
+  "jurisdiction": "Vietnam",
+  "country": "Vietnam",
+  "jurisdiction_level": "National",
+  "region": "South & Southeast Asia",
+  "issuing_body": "Prime Minister of Viet Nam (signed by Lê Tiến Châu; proposed by the Minister of Education and Training)",
+  "instrument_type": "Strategy / action plan",
+  "legal_force": "Non-binding",
+  "status": "Published (non-binding, current)",
+  "date_published": "2026-08",
+  "date_in_force": "2026-08",
+  "date_last_updated": null,
+  "official_identifier": "Decision No. 1528/QĐ-TTg",
+  "official_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/8/1528_qd-ttg_11082026-signed.signed.pdf",
+  "secondary_url": "https://vanban.chinhphu.vn/?docid=219163&pageid=27160",
+  "language": "Vietnamese",
+  "summary": "Prime Minister's decision approving the national programme to develop AI human resources to 2030, with orientation to 2035. It trains three tiers: universal literacy in safe and effective AI use, applied AI skills by sector, and advanced specialists able to develop and govern AI systems. Targets for 2030 include basic AI education for at least 80% of school pupils and all university students, 50,000 applied and 10,000 advanced AI personnel, and rules on AI use in training, research and assessment at every university. One guiding view ties workforce development to safe, reliable, transparent and accountable AI with risk governance, data sovereignty and cybersecurity.",
+  "safety_topics": [
+   "research priorities",
+   "public-sector use"
+  ],
+  "related": [
+   "VN-02",
+   "VN-03"
+  ],
+  "notes": "Dated Hà Nội, August 2026; the Government's legal-documents portal (vanban.chinhphu.vn) gives 11 August 2026 as the issue date, and the Government portal's digital signature on the published copy is dated 12 August 2026. In force on signature (Art. 2), so from 11 August 2026 on the portal's date. Issued on the basis of, among others, the Law on Artificial Intelligence of 10 December 2025 (VN-02), on the proposal of the Minister of Education and Training (Submissions 1610/TTr-BGDĐT of 5 August 2026 and 1493/TTr-BGDĐT of 26 July 2026). Other 2030 targets: at least 80% of vocational learners and 90% of public-service staff trained in AI, 100,000 teachers and education managers given in-depth training, at least 10 million workers trained in basic AI skills, 1,500 experts able to master core AI technology, and at least 10 advanced AI training and research centres and 25 key universities. Tasks include a national AI competency framework, AI content in general education, controlled sandboxes for AI training and practice, and a study of financial support for retraining workers affected by AI and automation, including the unemployment insurance fund. The Ministry of Education and Training leads implementation; the Ministry of Public Security ensures cybersecurity, information-system and data safety and the protection of state secrets; ministries and provinces report each year by 30 November. Annexes set yearly targets for 2026-2030 and list the programme's projects. Decision 367/QĐ-TTg (VN-03) assigned the Ministry of Education and Training a national AI workforce programme among the AI Law's implementing tasks.",
+  "scope_note": "Mainly an education and workforce programme; included because it ties AI workforce development to safe, reliable and accountable AI with risk governance and calls for universal training in safe AI use and university rules on AI use, though its safety content is limited.",
+  "english_version": {
+   "kind": "none found"
+  },
+  "verification": {
+   "note": "Stored: the signed decision with its annexes from the Government portal file server (datafiles.chinhphu.vn; 18 scanned pages read through Tesseract OCR with the English model, which drops Vietnamese diacritics) and the Government legal-documents portal entry (vanban.chinhphu.vn), which gives the number 1528/QĐ-TTg, issue date 11-08-2026, issuer (Prime Minister) and signer (Lê Tiến Châu). The OCR shows the title, the legal bases, Article 1 (viewpoints, objectives, tasks, funding, implementation), Article 2 (in force on signature), Article 3 and the annex tables, but it garbles the number ('4528/QD-TTg') and the day of the date line ('ngay {4 thang 8 ndm 2026'); so the official copy confirms only August 2026 and date_published and date_in_force give the month; the number and the day 11 rest on the portal entry and on the PDF's file name. vanban.chinhphu.vn is not yet listed as an official host, so the scripts count it as secondary. The signer's office is not shown in the stored text. No English text was found; English news reports of 13-14 August 2026 were not stored. The link to Decision 367/QĐ-TTg rests on VN-03's record."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C043/2026-10-14/document-1.pdf",
+    "sha256": "7f6e4800b8bc60d8b4a7a4e6882b25361c6cf78e13341463c8dc104084e3784f",
+    "locator": "page 1, title under QUYẾT ĐỊNH",
+    "quote": "Phé duyét Chuong trinh quéc gia phat trién nhan lue tri tué nhan tao dén nim 2030, dinh huong dén nim 2035",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C043/2026-10-14/official.html",
+    "sha256": "b1ff21a2f1713879cc96d7b969b7cbfce8e91572f2a851827b10a74eff3423c9",
+    "locator": "page title",
+    "quote": "Quyết định số 1528/QĐ-TTg của Thủ tướng Chính phủ: Phê duyệt Chương trình quốc gia phát triển nhân lực trí tuệ nhân tạo đến năm 2030, định hướng đến năm 2035",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C043/2026-10-14/official.html",
+    "sha256": "b1ff21a2f1713879cc96d7b969b7cbfce8e91572f2a851827b10a74eff3423c9",
+    "locator": "page title",
+    "quote": "Quyết định số 1528/QĐ-TTg của Thủ tướng Chính phủ: Phê duyệt Chương trình quốc gia phát triển nhân lực trí tuệ nhân tạo đến năm 2030, định hướng đến năm 2035",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C043/2026-10-14/official.html",
+    "sha256": "b1ff21a2f1713879cc96d7b969b7cbfce8e91572f2a851827b10a74eff3423c9",
+    "locator": "document details (Cơ quan ban hành, Người ký)",
+    "quote": "Cơ quan ban hành Thủ tướng Chính phủ Người ký Lê Tiến Châu",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C043/2026-10-14/document-1.pdf",
+    "sha256": "7f6e4800b8bc60d8b4a7a4e6882b25361c6cf78e13341463c8dc104084e3784f",
+    "locator": "page 1, legal bases",
+    "quote": "Theo dé nghi cua B6é truong B6 Gido duc va Dao tao",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C043/2026-10-14/official.html",
+    "sha256": "b1ff21a2f1713879cc96d7b969b7cbfce8e91572f2a851827b10a74eff3423c9",
+    "locator": "document details (Số ký hiệu)",
+    "quote": "Số ký hiệu 1528/QĐ-TTg",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C043/2026-10-14/document-1.pdf",
+    "sha256": "7f6e4800b8bc60d8b4a7a4e6882b25361c6cf78e13341463c8dc104084e3784f",
+    "locator": "page 1, number line (OCR)",
+    "quote": "86:4528/QD-TTg Ha Noi, ngay {4 thang 8 ndm 2026",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C043/2026-10-14/official.html",
+    "sha256": "b1ff21a2f1713879cc96d7b969b7cbfce8e91572f2a851827b10a74eff3423c9",
+    "locator": "document details (Ngày ban hành)",
+    "quote": "Ngày ban hành 11-08-2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C043/2026-10-14/document-1.pdf",
+    "sha256": "7f6e4800b8bc60d8b4a7a4e6882b25361c6cf78e13341463c8dc104084e3784f",
+    "locator": "page 1, date line (OCR; day garbled)",
+    "quote": "86:4528/QD-TTg Ha Noi, ngay {4 thang 8 ndm 2026",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C043/2026-10-14/document-1.pdf",
+    "sha256": "7f6e4800b8bc60d8b4a7a4e6882b25361c6cf78e13341463c8dc104084e3784f",
+    "locator": "page 10, Art. 2",
+    "quote": "Dieu 2. Quyét dinh nay cé hiéu luc thi hanh ké tir ngay ky ban hanh.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C043/2026-10-14/document-1.pdf",
+    "sha256": "7f6e4800b8bc60d8b4a7a4e6882b25361c6cf78e13341463c8dc104084e3784f",
+    "locator": "page 1, date line (OCR; day garbled)",
+    "quote": "86:4528/QD-TTg Ha Noi, ngay {4 thang 8 ndm 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C043/2026-10-14/official.html",
+    "sha256": "b1ff21a2f1713879cc96d7b969b7cbfce8e91572f2a851827b10a74eff3423c9",
+    "locator": "document details (Ngày ban hành)",
+    "quote": "Ngày ban hành 11-08-2026",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C043/2026-10-14/document-1.pdf",
+    "sha256": "7f6e4800b8bc60d8b4a7a4e6882b25361c6cf78e13341463c8dc104084e3784f",
+    "locator": "page 10, Art. 2",
+    "quote": "Dieu 2. Quyét dinh nay cé hiéu luc thi hanh ké tir ngay ky ban hanh.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C043/2026-10-14/document-1.pdf",
+    "sha256": "7f6e4800b8bc60d8b4a7a4e6882b25361c6cf78e13341463c8dc104084e3784f",
+    "locator": "page 1, Art. 1",
+    "quote": "Diéu 1. Phé duyét Chuong trinh quéc gia phat trién nhan lye tri tué nhan tao dén nam 2030, dinh hudng dén nam 2035 (sau day goi tat la Chuong trinh)",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C043/2026-10-14/document-1.pdf",
+    "sha256": "7f6e4800b8bc60d8b4a7a4e6882b25361c6cf78e13341463c8dc104084e3784f",
+    "locator": "page 1, Art. 1",
+    "quote": "Diéu 1. Phé duyét Chuong trinh quéc gia phat trién nhan lye tri tué nhan tao dén nam 2030, dinh hudng dén nam 2035 (sau day goi tat la Chuong trinh)",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The decision approves a programme (Art. 1) and takes effect on signature (Art. 2), dated August 2026 (11 August per the portal entry). A programme of targets and tasks for ministries and provinces, not rules for the public: typed as a strategy, Non-binding, Published (non-binding, current), following the register's convention for strategies; date_in_force records the effect-on-signature clause.",
+  "date_reasoning": "The OCR of the official PDF's date line reads 'ngay {4 thang 8 ndm 2026', so the official copy shows August 2026 but not the day. The day (11 August 2026) comes from the vanban.chinhphu.vn entry, which the scripts count as secondary, and from the official PDF's file name (11082026), which is not quotable text. Following the rule for dates whose official source gives only the month, date_published and date_in_force are 2026-08 and the day is in the notes.",
+  "scope_reasoning": "Mainly an education and workforce programme. Its safety content: viewpoint 4 ties AI workforce development to safe, reliable, transparent and accountable AI with risk governance, data sovereignty, system safety and cybersecurity; the objectives call for universal skills in safe and responsible AI use and for every university to adopt rules on AI use in training, research and assessment; the Ministry of Public Security ensures cybersecurity and data safety. That is some safety content, so it is not a strategy with no safety content; included with a scope_note.",
+  "topics_reasoning": "research priorities: advanced research centres, labs, research groups and scholarships; public-sector use: AI training for at least 90% of public-service staff and AI-use competence in public administration. The safety statements are general and do not fit a narrower topic.",
+  "related_reasoning": "VN-02: the Law on Artificial Intelligence is among the decision's legal bases. VN-03: its implementation plan tasks the Ministry of Education and Training with a national AI workforce programme (per VN-03's notes)."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The day of the decision (11 August 2026) and the number 1528 rest on the vanban.chinhphu.vn entry, which the scripts count as secondary, because the OCR of the signed PDF garbles both; a Vietnamese-model OCR of page 1, or listing vanban.chinhphu.vn as an official host, would let the record give the full date.",
+  "The signer's office (Lê Tiến Châu signing for the Prime Minister) is not shown in the stored text; issuing_body names the signer only."
+ ]
+}

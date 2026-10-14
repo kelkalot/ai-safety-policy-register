@@ -1,0 +1,154 @@
+{
+ "cand_id": "C005",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "jurisdiction": "China",
+  "country": "China",
+  "jurisdiction_level": "National",
+  "region": "East Asia",
+  "language": "Chinese",
+  "title": "Cybersecurity Standard Practice Guide — Artificial Intelligence Application Security Guidelines: Health",
+  "original_title": "网络安全标准实践指南——人工智能应用安全指引 卫生健康",
+  "short_title": "TC260-PG-202610A (AI application security, health)",
+  "issuing_body": "National Cybersecurity Standardization Technical Committee (TC260) Secretariat",
+  "instrument_type": "Guidelines / framework",
+  "legal_force": "Non-binding",
+  "status": "Published (non-binding, current)",
+  "date_published": "2026-09-15",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": "TC260-PG-202610A",
+  "official_url": "https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d/files/%E3%80%8A%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%A0%87%E5%87%86%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97%E2%80%94%E2%80%94%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8%E6%8C%87%E5%BC%95%20%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E3%80%8B.pdf.pdf",
+  "secondary_url": "https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d.shtml",
+  "summary": "Health guide in TC260's AI application security guidelines, for medical and health institutions and technology providers, used with the general part (TC260-PG-20268A). Doctors stay the decision-makers: AI diagnostic and treatment suggestions need a doctor's confirmation, patients must know of AI involvement and may refuse it, and applications need ethics committee review and filing with health authorities. It covers the life cycle and scenarios such as clinical decision support, triage (stopping the chat on emergency signs), public health warning and drug trials, and annexes a five-level risk grading.",
+  "safety_topics": [
+   "risk-based classification",
+   "human oversight",
+   "accountability & liability"
+  ],
+  "related": [
+   "CN-10",
+   "CN-08",
+   "CN-13"
+  ],
+  "notes": "Version v1.0-202609, released on 15 Sept 2026 with notice 网安秘字〔2026〕118号 together with the general provisions and the education and audiovisual guides. The guide sets rules for dividing liability between doctors and AI when a system gives a wrong suggestion, and asks that systems be checked for performance across population subgroups, with restricted use where performance drops for groups such as children or the elderly. The informative annex grades AI applications in health as especially major, major, significant, general or low risk; the top grade has catastrophic and systemic features, and the annex refers to AI Safety Governance Framework 2.0 (CN-13) for grading. Drafting units include the National Health Commission's Statistical Information Center.",
+  "english_version": {
+   "kind": "none found"
+  },
+  "verification": {
+   "note": "Stored from tc260.org.cn: the guide's PDF (version v1.0-202609) and the release notice 网安秘字〔2026〕118号 of 15 Sept 2026 with the four guides attached to it. Title, number, issuer, date and contents are confirmed from these; the summary follows the Chinese text. No English version was found."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C005/2026-10-14/official.pdf",
+    "sha256": "d397731291af8d543a9bfb43d3b816402b0267853141592de27127736ba4e241",
+    "locator": "page 1, cover",
+    "quote": "TC260-PG-202610A 网络安全标准实践指南 ——人工智能应用安全指引 卫生健康 （v1.0-202609",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C005/extra-57e6f19fe9/2026-10-14/official.html",
+    "sha256": "4a4ebaf020f64af32513a71722d21882ded18e56f5fa643ecc4f82506ccf39b0",
+    "locator": "notice attachments",
+    "quote": "网络安全标准实践指南——人工智能应用安全指引 卫生健康》.pdf",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C005/2026-10-14/official.pdf",
+    "sha256": "d397731291af8d543a9bfb43d3b816402b0267853141592de27127736ba4e241",
+    "locator": "page 1, cover",
+    "quote": "网络安全标准实践指南 ——人工智能应用安全指引 卫生健康",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C005/extra-57e6f19fe9/2026-10-14/official.html",
+    "sha256": "4a4ebaf020f64af32513a71722d21882ded18e56f5fa643ecc4f82506ccf39b0",
+    "locator": "notice attachments",
+    "quote": "网络安全标准实践指南——人工智能应用安全指引 卫生健康》.pdf",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C005/2026-10-14/official.pdf",
+    "sha256": "d397731291af8d543a9bfb43d3b816402b0267853141592de27127736ba4e241",
+    "locator": "page 1, cover",
+    "quote": "v1.0-202609） 全国网络安全标准化技术委员会秘书处",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C005/extra-57e6f19fe9/2026-10-14/official.html",
+    "sha256": "4a4ebaf020f64af32513a71722d21882ded18e56f5fa643ecc4f82506ccf39b0",
+    "locator": "notice signature",
+    "quote": "附件：1、4项网络安全标准实践指南清单 2、4项网络安全标准实践指南文本 全国网络安全标准化技术委员会秘书处 2026年9月15日",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C005/2026-10-14/official.pdf",
+    "sha256": "d397731291af8d543a9bfb43d3b816402b0267853141592de27127736ba4e241",
+    "locator": "page 1, cover",
+    "quote": "TC260-PG-202610A 网络安全标准实践指南",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C005/extra-57e6f19fe9/2026-10-14/official.html",
+    "sha256": "4a4ebaf020f64af32513a71722d21882ded18e56f5fa643ecc4f82506ccf39b0",
+    "locator": "notice header",
+    "quote": "发布时间： 2026-09-15 网安秘字〔2026〕118号",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C005/extra-57e6f19fe9/2026-10-14/official.html",
+    "sha256": "4a4ebaf020f64af32513a71722d21882ded18e56f5fa643ecc4f82506ccf39b0",
+    "locator": "notice signature",
+    "quote": "全国网络安全标准化技术委员会秘书处 2026年9月15日",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C005/extra-57e6f19fe9/2026-10-14/official.html",
+    "sha256": "4a4ebaf020f64af32513a71722d21882ded18e56f5fa643ecc4f82506ccf39b0",
+    "locator": "notice title",
+    "quote": "关于发布《人工智能应用安全指引 总则》等4项网络安全标准实践指南的通知 发布时间： 2026-09-15",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C005/2026-10-14/official.pdf",
+    "sha256": "d397731291af8d543a9bfb43d3b816402b0267853141592de27127736ba4e241",
+    "locator": "page 1, cover",
+    "quote": "TC260-PG-202610A 网络安全标准实践指南 ——人工智能应用安全指引 卫生健康 （v1.0-202609",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C005/2026-10-14/official.pdf",
+    "sha256": "d397731291af8d543a9bfb43d3b816402b0267853141592de27127736ba4e241",
+    "locator": "page 2, 前言",
+    "quote": "是全国网络安全标准化技术委员会 （以下简称 “网安标委” ） 秘书处组织制定和发布的标准相关技术文件，旨在围绕网络 安全法律法规政策、标准、网络安全热点和事件等主题，宣 传网络安全相关标准及知识，提供标准化实践指引",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The TC260 Secretariat released the guide with notice 网安秘字〔2026〕118号 of 15 Sept 2026 (关于发布 ... 的通知, a release notice, not a call for comments); the cover carries a released version number (v1.0-202609) and no draft marking (征求意见稿). The preface describes practice guides as technical documents the TC260 Secretariat drafts and publishes to give practical guidance, so it is not binding; no later version is stored. Published (non-binding, current).",
+  "date_reasoning": "The notice's posting date (发布时间) and signature date are both 15 Sept 2026.",
+  "scope_reasoning": "AI-specific security guidance from TC260, the national cybersecurity standardisation committee, covering the full AI application life cycle: a government safety and risk-management guideline (AGENTS.md section 10, in with no note).",
+  "instrument_type_reasoning": "TC260 practice guides are 'standard-related technical documents' giving practical guidance, not national standards; recorded as Guidelines / framework."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

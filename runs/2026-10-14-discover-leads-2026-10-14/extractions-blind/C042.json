@@ -1,0 +1,189 @@
+{
+  "cand_id": "C042",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "decision": "record",
+  "target_id": null,
+  "record": {
+    "title": "Decision No. 804/QĐ-TTg promulgating the List of datasets for artificial intelligence development in essential sectors",
+    "original_title": "Quyết định số 804/QĐ-TTg ban hành Danh mục bộ dữ liệu phục vụ phát triển trí tuệ nhân tạo trong các lĩnh vực thiết yếu",
+    "short_title": "Viet Nam AI datasets list (Decision 804/QĐ-TTg)",
+    "jurisdiction": "Vietnam",
+    "country": "Vietnam",
+    "jurisdiction_level": "National",
+    "region": "South & Southeast Asia",
+    "issuing_body": "Prime Minister of Viet Nam (signed by Hồ Quốc Dũng; proposed by the Minister of Science and Technology)",
+    "instrument_type": "Executive order / decree",
+    "legal_force": "Binding",
+    "status": "In force",
+    "date_published": "2026-05-06",
+    "date_in_force": "2026-05-06",
+    "date_last_updated": null,
+    "official_identifier": "Decision No. 804/QĐ-TTg",
+    "official_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/804-ttg.signed.pdf",
+    "secondary_url": null,
+    "language": "Vietnamese",
+    "summary": "Prime Minister's decision under the Law on Artificial Intelligence listing 15 dataset groups for developing AI in essential sectors (Annex I), such as Vietnamese and ethnic-minority language data, legal texts, public services, health, education, transport and finance, each with lead ministries, and a list of priority data (Annex II). Priority data include sets for testing and evaluating AI systems and for AI safety and trustworthiness evaluation: detecting false information and AI-generated fake content, attack scenarios for testing AI safety and ethics, and malware detection. Data handling must comply with laws on data, personal data protection, state secrets and intellectual property.",
+    "safety_topics": [
+      "evaluation & testing",
+      "deepfakes & synthetic media",
+      "research priorities"
+    ],
+    "related": [
+      "VN-02"
+    ],
+    "notes": "Dated 6 May 2026 and in force from signing (Art. 2); the Government portal's digital signature on the PDF is dated 8 May 2026. Issued on the basis of the Law on Government Organization of 18 February 2025 and the Law on Artificial Intelligence of 10 December 2025 (VN-02), at the proposal of the Minister of Science and Technology. The datasets in Annex I are to be built in 2026-2030, with priority for the data listed in Annex II. The Ministry of Public Security leads, monitors and reports on the work, and periodically reviews the list and proposes amendments to the Prime Minister; the lead ministries and provinces collect, label and standardise the data, connect the datasets with the national AI database in coordination with the Ministry of Public Security, and involve the Ministries of Public Security and National Defence for data groups IX, XIII and XIV, which have defence or security elements.",
+    "scope_note": "Mainly a list of datasets to build for AI development; included because it implements the Law on Artificial Intelligence and covers datasets for testing AI systems and for safety and trust evaluation, including detection of AI-generated fake content.",
+    "verification": {
+      "note": "Stored on 14 Oct 2026: the Government portal's document page (chinhphu.vn), which gives number 804/QĐ-TTg, date 06-05-2026, issuer Thủ tướng Chính phủ, signer Hồ Quốc Dũng and the abstract; and the signed PDF (10 scanned pages) from datafiles.chinhphu.vn, read by OCR with an English-language model, so Vietnamese diacritics are lost and some words and table cells are garbled (the number reads '304' in the header and '804' in the annex headings). Articles 1-3 and both annexes are legible enough to confirm the content; the signer's title and signature block are not legible in the OCR text, so the signer rests on the portal page. The original title is the portal's number and abstract. No English version was found among the stored files. The summary is written from the Vietnamese text."
+    },
+    "english_version": {
+      "kind": "none found"
+    }
+  },
+  "evidence": {
+    "title": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/official.html",
+        "sha256": "d2336b8c23e07605c69d82b82542a90e39f361342fa6ba5d75f2de756673bdfe",
+        "locator": "page heading",
+        "quote": "Quyết định số 804/QĐ-TTg của Thủ tướng Chính phủ: Ban hành Danh mục bộ dữ liệu phục vụ phát triển trí tuệ nhân tạo trong các lĩnh vực thiết yếu",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/document-1.pdf",
+        "sha256": "38fe67ec952fe733a330939b9340a9d4ceb91877f00b6f8eea811d5c6399852c",
+        "locator": "page 1",
+        "quote": "Ban hanh Danh muc bé dit ligu phuc vu",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/document-1.pdf",
+        "sha256": "38fe67ec952fe733a330939b9340a9d4ceb91877f00b6f8eea811d5c6399852c",
+        "locator": "page 1",
+        "quote": "phat trién tri tué nhAn tao trong cac linh vurc thiét yéu",
+        "source_kind": "official"
+      }
+    ],
+    "original_title": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/official.html",
+        "sha256": "d2336b8c23e07605c69d82b82542a90e39f361342fa6ba5d75f2de756673bdfe",
+        "locator": "Trích yếu",
+        "quote": "Ban hành Danh mục bộ dữ liệu phục vụ phát triển trí tuệ nhân tạo trong các lĩnh vực thiết yếu",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/official.html",
+        "sha256": "d2336b8c23e07605c69d82b82542a90e39f361342fa6ba5d75f2de756673bdfe",
+        "locator": "page heading",
+        "quote": "Quyết định số 804/QĐ-TTg của Thủ tướng Chính phủ: Ban hành Danh mục bộ dữ liệu phục vụ phát triển trí tuệ nhân tạo trong các lĩnh vực thiết yếu",
+        "source_kind": "official"
+      }
+    ],
+    "issuing_body": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/document-1.pdf",
+        "sha256": "38fe67ec952fe733a330939b9340a9d4ceb91877f00b6f8eea811d5c6399852c",
+        "locator": "page 1",
+        "quote": "THU TUONG CHINH PHU CONG HOA XA HOI CHU NGHIA VIET NAM",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/document-1.pdf",
+        "sha256": "38fe67ec952fe733a330939b9340a9d4ceb91877f00b6f8eea811d5c6399852c",
+        "locator": "page 1",
+        "quote": "Theo dé nghi cia B6 truéng B6 Khoa hoc va Céng nghé.",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/official.html",
+        "sha256": "d2336b8c23e07605c69d82b82542a90e39f361342fa6ba5d75f2de756673bdfe",
+        "locator": "Người ký",
+        "quote": "Hồ Quốc Dũng",
+        "source_kind": "official"
+      }
+    ],
+    "official_identifier": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/official.html",
+        "sha256": "d2336b8c23e07605c69d82b82542a90e39f361342fa6ba5d75f2de756673bdfe",
+        "locator": "page heading",
+        "quote": "Quyết định số 804/QĐ-TTg của Thủ tướng Chính phủ",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/document-1.pdf",
+        "sha256": "38fe67ec952fe733a330939b9340a9d4ceb91877f00b6f8eea811d5c6399852c",
+        "locator": "page 6 (Phụ lục II heading)",
+        "quote": "Quyét dinh sé 804 /OD-TTg ngay 06 thang 5 nam 2026",
+        "source_kind": "official"
+      }
+    ],
+    "date_published": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/document-1.pdf",
+        "sha256": "38fe67ec952fe733a330939b9340a9d4ceb91877f00b6f8eea811d5c6399852c",
+        "locator": "page 1",
+        "quote": "ngay 06 thang 5 ndm 2026",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/official.html",
+        "sha256": "d2336b8c23e07605c69d82b82542a90e39f361342fa6ba5d75f2de756673bdfe",
+        "locator": "Ngày ban hành",
+        "quote": "06-05-2026",
+        "source_kind": "official"
+      }
+    ],
+    "date_in_force": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/document-1.pdf",
+        "sha256": "38fe67ec952fe733a330939b9340a9d4ceb91877f00b6f8eea811d5c6399852c",
+        "locator": "page 1 (Điều 2)",
+        "quote": "Quyét dinh nay cé hiéu lyc thi hanh ti ngay ky.",
+        "source_kind": "official"
+      }
+    ],
+    "status": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/document-1.pdf",
+        "sha256": "38fe67ec952fe733a330939b9340a9d4ceb91877f00b6f8eea811d5c6399852c",
+        "locator": "page 1 (Điều 2)",
+        "quote": "Quyét dinh nay cé hiéu lyc thi hanh ti ngay ky.",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/document-1.pdf",
+        "sha256": "38fe67ec952fe733a330939b9340a9d4ceb91877f00b6f8eea811d5c6399852c",
+        "locator": "page 1",
+        "quote": "ngay 06 thang 5 ndm 2026",
+        "source_kind": "official"
+      }
+    ],
+    "legal_force": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/document-1.pdf",
+        "sha256": "38fe67ec952fe733a330939b9340a9d4ceb91877f00b6f8eea811d5c6399852c",
+        "locator": "page 2 (Điều 3)",
+        "quote": "trach nhiém thi hanh Quyét dinh nay./.",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/document-1.pdf",
+        "sha256": "38fe67ec952fe733a330939b9340a9d4ceb91877f00b6f8eea811d5c6399852c",
+        "locator": "page 1 (Điều 1)",
+        "quote": "dinh cia phap luat vé dit liéu, bao vé dit liéu caé nhan, bao vé bi mat nha nude, so",
+        "source_kind": "official"
+      }
+    ]
+  },
+  "judgment": {
+    "status_reasoning": "Article 2: the decision takes effect from the date of signing; it is dated 6 May 2026, before today (14 Oct 2026), and nothing stored amends or replaces it: In force from 6 May 2026.",
+    "instrument_type_reasoning": "A Prime Minister's decision (Quyết định of the Thủ tướng) that promulgates a list and assigns tasks to ministries and provinces, issued under the AI Law in general rather than under a specific delegation; recorded as Executive order / decree, Binding on the bodies it names.",
+    "scope_reasoning": "Mainly about data supply for AI development, but it is an AI-specific implementing instrument under the Law on Artificial Intelligence and Annex II includes datasets for testing and evaluating AI systems and for AI safety and trust evaluation (misinformation, AI-generated fake content, attack scenarios for AI safety and ethics testing). Borderline under AGENTS.md section 10; included with a scope_note."
+  },
+  "extra_urls": [],
+  "leads": [],
+  "open_questions": []
+}

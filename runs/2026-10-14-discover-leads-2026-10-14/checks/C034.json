@@ -1,0 +1,69 @@
+{
+ "cand_id": "C034",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "jurisdiction": {
+   "verdict": "supported"
+  },
+  "country": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "judgment-differs",
+   "why": "The signing is shown by the stored Governor's release; 'not yet in force' rests on California's general rule that a non-urgency statute takes effect on 1 January after enactment, which no stored source states, and the bill text (urgency clause, operative date) could not be stored. The inference is defensible and matches the treatment of US-CA-08, so the value is kept and date_in_force stays null."
+  },
+  "date_in_force": {
+   "verdict": "supported",
+   "why": "null is correct: no stored source gives an operative date."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Four-year moratorium on the sale and manufacturing of toys with AI chatbot capabilities",
+   "verdict": "supported",
+   "locator": "Padilla release 1 Sep 2026, paragraph 1"
+  },
+  {
+   "claim": "Findings: sexually explicit topics, where to find matches or knives, addictive features, data privacy risks",
+   "verdict": "supported",
+   "locator": "Padilla release, paragraph 3"
+  },
+  {
+   "claim": "Listed among the bills signed on 10 Sep 2026",
+   "verdict": "supported",
+   "locator": "Governor's release, bill list"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Signing, the moratorium and floor votes (Senate unanimous, Assembly 74-1) are in the two stored releases; the age limit conflict (16 twice, 18 once) is described correctly and the summary avoids stating an age. The bill text is not stored, so the chapter number, end date and operative date are unconfirmed, as the record says. A search suggests the moratorium runs to 1 Jan 2031 (legislative counsel's digest, not stored); not added. The status inference is flagged as judgment-differs only. Level A comes from the Governor's official release, not the text."
+}

@@ -1,0 +1,69 @@
+{
+ "cand_id": "C033",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "jurisdiction": {
+   "verdict": "supported"
+  },
+  "country": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Joint risk analysis of GenAI threats to critical energy infrastructure incl. mass casualty events, with testing, monitoring and effective human control recommendations",
+   "verdict": "supported",
+   "locator": "page 3, item 2"
+  },
+  {
+   "claim": "Report on use cases and risks focused on high-risk uses such as consequential decisions on access to essential goods and services",
+   "verdict": "supported",
+   "locator": "pages 2-3, item 1"
+  },
+  {
+   "claim": "Inventory of high-risk uses within 60 days; sandboxes by March 2024",
+   "verdict": "supported",
+   "locator": "pages 4-5, items 3.d and 3.f"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "C032 (EO N-5-26, new record in this run)"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "All provisions, deadlines and the 6 Sep 2023 signature appear in the stored order. Status In force is right: EO N-5-26 (2026) builds on it and nothing rescinds it; its deadlines have passed but the order stays on the books. Related should also include the new record for EO N-5-26 (C032)."
+}

@@ -287,3 +287,68 @@ changed 26, scope-decision 1
 - **US-26** notes: Signed 29 Sep 2026; published 2 Oct 2026. It does not requi… → Signed 29 Sep 2026; published 2 Oct 2026. It does not requi… — scope caveat moved to scope_note
 - **US-26** scope_note: - → Sets terminology for superintelligence and asks for a statu… — borderline under the include-and-flag rules of issue #2
 - **SA-04** scope decision: in: Stays in with a scope_note under the include-and-flag rules: the …
+
+## 2026-10-14 · [2026-10-14-discover-leads-2026-10-14](runs/2026-10-14-discover-leads-2026-10-14/report.md)
+
+added 36, changed 24
+
+- **CN-18** added (Draft national standard on AI security capability maturity assessment…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C001 (CN/ministries)
+- **CN-19** added (TC260 draft guide on agentic AI system development security; Draft / …) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C002 (CN/ministries)
+- **CN-20** added (TC260-PG-20268A (AI application security, general provisions); Publis…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C003 (CN/ministries)
+- **CN-21** added (TC260-PG-20269A (AI application security, education); Published (non-…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C004 (CN/ministries)
+- **CN-22** added (TC260-PG-202610A (AI application security, health); Published (non-bi…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C005 (CN/ministries)
+- **CN-23** added (TC260-PG-202611A (AI application security, radio, TV and network audi…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C006 (CN/ministries)
+- **CN-24** added (GB/T 45674-2025; Published (non-binding, current); level A) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C008 (CN/ministries)
+- **CN-25** added (TC260-PG-202515A (generative AI security emergency response); Publish…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C009 (CN/ministries)
+- **CN-26** added (TC260-PG-20266A (agent deployment and use security); Published (non-b…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C010 (CN/ministries)
+- **CN-27** added (TC260-PG-20267A (security guide for individual AI users); Published (…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C011 (CN/ministries)
+- **JP-07** added (J-AISI AI Incident Response Approach Book (AI-IRS); Published (non-bi…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C012 (JP/ai-bodies)
+- **JP-08** added (J-AISI Chief AI Officer (CAIO) Guides; Published (non-binding, curren…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C013 (JP/ai-bodies)
+- **JP-09** added (J-AISI Data Quality Management Guidebook; Published (non-binding, cur…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C014 (JP/ai-bodies)
+- **JP-10** added (J-AISI Activity Map on AI Safety (AMAIS); Published (non-binding, cur…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C015 (JP/ai-bodies)
+- **JP-11** added (J-AISI Healthcare AI Safety Evaluation Guide; Published (non-binding,…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C016 (JP/ai-bodies)
+- **JP-12** added (MIC Guidelines on Technical Measures for AI Security; Published (non-…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C017 (JP/ministries)
+- **JP-13** added (Digital Agency Guideline on Generative AI Procurement and Use in Gove…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C018 (JP/ministries)
+- **JP-14** added (PPC Alert on Generative AI Services (2023); Published (non-binding, c…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C019 (JP/ministries)
+- **JP-15** added (Plant Safety AI Reliability Assessment Guidelines; Published (non-bin…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C020 (JP/ministries)
+- **JP-16** added (MEXT Guideline on Generative AI in Schools (Ver.2.0); Published (non-…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C021 (JP/ministries)
+- **JP-17** added (AI Institutional Study Group Interim Report (2025); Published (non-bi…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C023 (JP/executive)
+- **SK-03** added (Slovak deceptive recordings bill (print 1266); Draft / proposed; leve…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C024 (SK/legislature)
+- **SK-04** added (Slovak AI synthetic content misuse bill (Mikloško, Janckulík); Lapsed…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C025 (SK/legislature)
+- **MX-02** added (Mexico General AI Development Law bill (PAN, Senate, 2026); Draft / p…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C026 (MX/legislature)
+- **PY-02** added (Paraguay AI promotion bill (Chamber of Deputies, 2025); Draft / propo…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C028 (PY/legislature)
+- **PY-03** added (Paraguay judiciary AI use policy (CSJ Resolution 12.677); In force; l…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C029 (PY/executive)
+- **CA-ON-02** added (Ontario Responsible Use of AI Directive; In force; level A) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C030 (CA-ON/executive)
+- **US-CA-10** added (California EO N-5-26; In force; level A) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C032 (US-CA/executive)
+- **US-CA-11** added (California EO N-12-23 (generative AI); In force; level A) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C033 (US-CA/executive)
+- **US-CA-12** added (California SB 867 (AI chatbot toy moratorium); Adopted, not yet in fo…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C034 (US-CA/legislature)
+- **US-CA-13** added (California SB 1276 (AI-generated child sexual abuse material); Adopte…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C035 (US-CA/legislature)
+- **US-CA-14** added (California AB 1064 (LEAD for Kids Act, vetoed); Lapsed; level A) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C036 (US-CA/legislature)
+- **US-CA-15** added (California AB 1159 (student data and AI training); Adopted, not yet i…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C037 (US-CA/legislature)
+- **US-NV-02** added (Nevada executive-branch AI policy; In force; level A) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C038 (US-NV/executive)
+- **VN-08** added (Viet Nam AI datasets list for essential sectors (Decision 804/QĐ-TTg)…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C042 (VN/executive)
+- **VN-09** added (Viet Nam AI human resources programme to 2030 (Decision 1528/QĐ-TTg);…) — found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C043 (VN/executive)
+- **CN-10** related: + CN-18, + CN-19, + CN-20, + CN-21, + CN-22, + CN-23, + CN-24, + CN-25 — two-way link to CN-18, CN-19, CN-20, CN-21, CN-22, CN-23, CN-24, CN-25 added in run 2026-10-14-discover-leads-2026-10-14
+- **CN-08** related: + CN-18, + CN-20, + CN-21, + CN-22, + CN-23, + CN-27 — two-way link to CN-18, CN-20, CN-21, CN-22, CN-23, CN-27 added in run 2026-10-14-discover-leads-2026-10-14
+- **CN-13** related: + CN-19, + CN-20, + CN-22 — two-way link to CN-19, CN-20, CN-22 added in run 2026-10-14-discover-leads-2026-10-14
+- **CN-03** related: + CN-20, + CN-24, + CN-25 — two-way link to CN-20, CN-24, CN-25 added in run 2026-10-14-discover-leads-2026-10-14
+- **CN-09** related: + CN-20, + CN-23 — two-way link to CN-20, CN-23 added in run 2026-10-14-discover-leads-2026-10-14
+- **CN-01** related: + CN-20 — two-way link to CN-20 added in run 2026-10-14-discover-leads-2026-10-14
+- **CN-02** related: + CN-20, + CN-23 — two-way link to CN-20, CN-23 added in run 2026-10-14-discover-leads-2026-10-14
+- **JP-01** related: + JP-07, + JP-08, + JP-09, + JP-10, + JP-11 — two-way link to JP-07, JP-08, JP-09, JP-10, JP-11 added in run 2026-10-14-discover-leads-2026-10-14
+- **JP-05** related: + JP-08, + JP-13 — two-way link to JP-08, JP-13 added in run 2026-10-14-discover-leads-2026-10-14
+- **JP-03** related: + JP-09, + JP-11, + JP-12 — two-way link to JP-09, JP-11, JP-12 added in run 2026-10-14-discover-leads-2026-10-14
+- **JP-02** related: + JP-12, + JP-13 — two-way link to JP-12, JP-13 added in run 2026-10-14-discover-leads-2026-10-14
+- **JP-04** related: + JP-17 — two-way link to JP-17 added in run 2026-10-14-discover-leads-2026-10-14
+- **JP-06** related: + JP-17 — two-way link to JP-17 added in run 2026-10-14-discover-leads-2026-10-14
+- **EU-03** related: + SK-04 — two-way link to SK-04 added in run 2026-10-14-discover-leads-2026-10-14
+- **DK-02** related: + SK-04 — two-way link to SK-04 added in run 2026-10-14-discover-leads-2026-10-14
+- **MX-01** related: + MX-02 — two-way link to MX-02 added in run 2026-10-14-discover-leads-2026-10-14
+- **PY-01** related: + PY-02 — two-way link to PY-02 added in run 2026-10-14-discover-leads-2026-10-14
+- **CA-ON-01** related: + CA-ON-02 — two-way link to CA-ON-02 added in run 2026-10-14-discover-leads-2026-10-14
+- **US-CA-09** related: + US-CA-10, + US-CA-11 — two-way link to US-CA-10, US-CA-11 added in run 2026-10-14-discover-leads-2026-10-14
+- **US-CA-02** related: + US-CA-10 — two-way link to US-CA-10 added in run 2026-10-14-discover-leads-2026-10-14
+- **US-CA-06** related: + US-CA-12, + US-CA-14 — two-way link to US-CA-12, US-CA-14 added in run 2026-10-14-discover-leads-2026-10-14
+- **US-CA-08** related: + US-CA-12, + US-CA-14 — two-way link to US-CA-12, US-CA-14 added in run 2026-10-14-discover-leads-2026-10-14
+- **VN-02** related: + VN-08, + VN-09 — two-way link to VN-08, VN-09 added in run 2026-10-14-discover-leads-2026-10-14
+- **VN-03** related: + VN-08, + VN-09 — two-way link to VN-08, VN-09 added in run 2026-10-14-discover-leads-2026-10-14

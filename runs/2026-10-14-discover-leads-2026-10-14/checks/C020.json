@@ -1,0 +1,64 @@
+{
+ "cand_id": "C020",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "The page quote carries 'プラント保安分野AI信頼性評価ガイドライン' character for character."
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "'令和2年11月の公表以来' (revision summary) and '（2020年11月）' on the council page show first publication in November 2020."
+  },
+  "date_last_updated": {
+   "verdict": "supported",
+   "why": "Second edition, March 2021."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "No third edition or withdrawal found; the second edition is the current one."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "'positioned as a reference'; non-binding."
+  },
+  "english_version": {
+   "verdict": "judgment-differs",
+   "why": "The English edition is on the council's own page labelled 'English Edition' with no translation notice, so 'authentic' is defensible; since the Japanese text is the original, 'government translation' would also fit. Neither changes the record's content."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "follows AIST's Machine Learning Quality Management Guideline; quality in use, external quality, internal quality",
+   "verdict": "supported",
+   "locator": "English edition 1.2.2 and Executive Summary; Japanese revision summary page 2 (産業技術総合研究所「機械学習品質マネジメントガイドライン第１版」の構造を用いる; 利用時品質, 外部品質, 内部品質)"
+  },
+  {
+   "claim": "five plant use cases; external safety mechanisms, independent safety systems, human involvement",
+   "verdict": "supported",
+   "locator": "Japanese revision summary page 2 (1. 配管の肉厚予測 ... 5. 運転最適化; 外部安全機構; 独立のシステム; AIの判断・対応への人間の関与)"
+  },
+  {
+   "claim": "working group April 2020 to March 2021",
+   "verdict": "supported",
+   "locator": "English edition 1.1.3"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Safety assurance guideline for machine learning in plant safety."
+ },
+ "overall": "accept",
+ "note": "Official FDMA page and the council's English edition confirm title, issuers, November 2020 first publication and March 2021 second edition. The Japanese text of the second edition is not stored; summary claims were checked against the English edition and the Japanese revision summary (use-case list, three qualities and external safety mechanism lines match). english_version kind is a judgment call. No newer edition found in one search."
+}

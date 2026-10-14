@@ -1,0 +1,188 @@
+{
+ "cand_id": "C024",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Draft act amending and supplementing certain acts in connection with protection against the unauthorised production and making available of deceptive recordings created or substantially altered by a technical process (private members' bill, parliamentary print 1266)",
+  "original_title": "Zákon z ... 2026, ktorým sa menia a dopĺňajú niektoré zákony v súvislosti s ochranou pred neoprávneným vyhotovením a sprístupnením klamlivých záznamov vytvorených alebo podstatne pozmenených technickým postupom",
+  "short_title": "Slovak deceptive recordings bill (print 1266)",
+  "jurisdiction": "Slovakia",
+  "country": "Slovakia",
+  "jurisdiction_level": "National",
+  "region": "Europe",
+  "issuing_body": "National Council of the Slovak Republic; private members' bill by MPs Andrej Danko, Karol Farkašovský, Dagmar Kramplová and Adam Lučanský",
+  "instrument_type": "Bill / draft law",
+  "legal_force": "Proposed",
+  "status": "Draft / proposed",
+  "date_published": "2026-03-27",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": "Parlamentná tlač 1266 (IX. volebné obdobie)",
+  "official_url": "https://www.nrsr.sk/web/Default.aspx?sid=zakony/zakon&ZakZborID=13&CisObdobia=9&CPT=1266",
+  "secondary_url": null,
+  "language": "Slovak",
+  "summary": "Private members' bill on deceptive recordings, which its explanatory memorandum links to AI and digital tools that can create or alter images, sound and video so that they appear authentic. It would extend the Civil Code's consent-based protection of a person's likeness and personal expressions to recordings created or substantially altered by a technical process; make it a misdemeanour to make or share such a recording of another without consent where it can harm their honour, dignity or privacy; add such recordings that seriously threaten a person's standing or rights to the crime of dangerous electronic harassment; and extend criminal liability of legal persons to that crime.",
+  "safety_topics": [
+   "deepfakes & synthetic media",
+   "accountability & liability"
+  ],
+  "related": [],
+  "notes": "Received by the National Council on 27 March 2026 from MPs Andrej Danko, Karol Farkašovský, Dagmar Kramplová and Adam Lučanský. The Speaker proposed the Constitutional Law Committee as lead committee (decision no. 1336). By resolution no. 1497 of 5 May 2026 the National Council decided at first reading to consider the bill in second reading and assigned it to the Constitutional Law Committee as lead committee; the resolution sets the committee's deadline as the start of the plenary debate on the bill, while the print page gives 25 May 2026. By letter of 7 September 2026 the sponsors asked for the bill to be included in the session of the National Council beginning on 17 November 2026. The amendments: a new § 12(4) of the Civil Code; a new misdemeanour in § 49(1)(h) of the Misdemeanours Act, with the sanctions of § 49(2); a new § 360b(1)(c) of the Criminal Code (dangerous electronic harassment); and § 3 of the Act on criminal liability of legal persons. The bill would take effect on 1 January 2027.",
+  "scope_note": "A private members' bill that amends the Civil Code, the Misdemeanours Act, the Criminal Code and the Act on criminal liability of legal persons rather than creating an AI-specific act; included because it is the operative instrument proposed against deceptive recordings made or altered with AI and other technical means (deepfakes).",
+  "english_version": {
+   "kind": "none found"
+  },
+  "verification": {
+   "note": "Stored: the National Council's page for parliamentary print 1266 (nrsr.sk), which gives the title, the four sponsors, receipt on 27 March 2026, the Speaker's decision no. 1336, first reading at the 49th session, the current stage (committee consideration) and the sponsors' letter of 7 September 2026; and, from the same site, the bill text (5 articles, effective 1 January 2027), its explanatory memorandum and resolution no. 1497 of 5 May 2026 (second reading, Constitutional Law Committee). The summary and notes are written from the bill text and memorandum. The sponsors' party (Slovak National Party, SNS) comes from a press lead (startitup.sk) that is not stored. The electoral term in official_identifier is shown on the bill text and the resolution ('IX. volebné obdobie')."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C024/2026-10-14/official.html",
+    "sha256": "933a063461ca8fa03f93cd824cef04232e18c9454100e1562dda44c9ed7d8716",
+    "locator": "Detaily návrhu zákona, heading",
+    "quote": "na vydanie zákona, ktorým sa menia a dopĺňajú niektoré zákony v súvislosti s ochranou pred neoprávneným vyhotovením a sprístupnením klamlivých záznamov vytvorených alebo podstatne pozmenených technickým postupom",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C024/extra-d0d6c92782/2026-10-14/official.html",
+    "sha256": "e6da46be2f8a7d8034a21a1cf33cdb56508215f6a60f7bd3039b5762168e38d7",
+    "locator": "bill text, heading",
+    "quote": "ktorým sa menia a dopĺňajú niektoré zákony v súvislosti s ochranou pred neoprávneným vyhotovením a sprístupnením klamlivých záznamov vytvorených alebo podstatne pozmenených technickým postupom",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C024/extra-d0d6c92782/2026-10-14/official.html",
+    "sha256": "e6da46be2f8a7d8034a21a1cf33cdb56508215f6a60f7bd3039b5762168e38d7",
+    "locator": "bill text, heading",
+    "quote": "ZÁKON z ... 2026, ktorým sa menia a dopĺňajú niektoré zákony v súvislosti s ochranou pred neoprávneným vyhotovením a sprístupnením klamlivých záznamov vytvorených alebo podstatne pozmenených technickým postupom",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C024/2026-10-14/official.html",
+    "sha256": "933a063461ca8fa03f93cd824cef04232e18c9454100e1562dda44c9ed7d8716",
+    "locator": "Detaily návrhu zákona, Navrhovateľ",
+    "quote": "Navrhovateľ: poslanci NR SR (A. Danko, K. Farkašovský, D. Kramplová, A. Lučanský)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C024/extra-4769646970/2026-10-14/official.html",
+    "sha256": "121a8924ae946cdfb20169c640a1977c7e29dc3f1621324ff3804cb2161a725d",
+    "locator": "Dôvodová správa, A. Všeobecná časť, first paragraph",
+    "quote": "návrh poslancov Národnej rady Slovenskej republiky Karola Farkašovského, Dagmar Kramplovej, Andreja Danka a Adama Lučanského na vydanie zákona",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C024/2026-10-14/official.html",
+    "sha256": "933a063461ca8fa03f93cd824cef04232e18c9454100e1562dda44c9ed7d8716",
+    "locator": "Detaily návrhu zákona, print number",
+    "quote": "Novela zákona, parlamentná tlač 1266",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C024/extra-b2b55c6814/2026-10-14/official.html",
+    "sha256": "86eafaa04f41eaf1c1ddd0dc9878527ddce87276d7e8550c6598228e7d5b55eb",
+    "locator": "resolution no. 1497, heading",
+    "quote": "IX. volebné obdobie Číslo: KNR-ORGA-4325/2026 1497 UZNESENIE",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C024/extra-b2b55c6814/2026-10-14/official.html",
+    "sha256": "86eafaa04f41eaf1c1ddd0dc9878527ddce87276d7e8550c6598228e7d5b55eb",
+    "locator": "resolution no. 1497, heading",
+    "quote": "(tlač 1266) – prvé čítanie",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C024/2026-10-14/official.html",
+    "sha256": "933a063461ca8fa03f93cd824cef04232e18c9454100e1562dda44c9ed7d8716",
+    "locator": "Detaily návrhu zákona, Dátum doručenia",
+    "quote": "Dátum doručenia: 27. 3. 2026",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C024/2026-10-14/official.html",
+    "sha256": "933a063461ca8fa03f93cd824cef04232e18c9454100e1562dda44c9ed7d8716",
+    "locator": "Detaily návrhu zákona, Stav legislatívneho procesu",
+    "quote": "Stav legislatívneho procesu: Rokovanie výboru (Zápis uznesenia / návrhu uznesenia výborov)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C024/extra-b2b55c6814/2026-10-14/official.html",
+    "sha256": "86eafaa04f41eaf1c1ddd0dc9878527ddce87276d7e8550c6598228e7d5b55eb",
+    "locator": "resolution no. 1497, part A",
+    "quote": "A.r o z h o d l a, ž e prerokuje uvedený návrh zákona v druhom čítaní;",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C024/2026-10-14/official.html",
+    "sha256": "933a063461ca8fa03f93cd824cef04232e18c9454100e1562dda44c9ed7d8716",
+    "locator": "I. čítanie",
+    "quote": "NZ bol prerokovaný na 49. schôdzi NR SR, uznesenie číslo 1497 zo dňa 5. 5. 2026.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C024/2026-10-14/official.html",
+    "sha256": "933a063461ca8fa03f93cd824cef04232e18c9454100e1562dda44c9ed7d8716",
+    "locator": "Detaily návrhu zákona, heading",
+    "quote": "Navrhovatelia požiadali listom zo 7. septembra 2026 o zaradenie ich návrhu na schôdzu Národnej rady Slovenskej republiky začínajúcu dňa 17. novembra 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C024/extra-b2b55c6814/2026-10-14/official.html",
+    "sha256": "86eafaa04f41eaf1c1ddd0dc9878527ddce87276d7e8550c6598228e7d5b55eb",
+    "locator": "resolution no. 1497, date",
+    "quote": "NÁRODNEJ RADY SLOVENSKEJ REPUBLIKY z 5. mája 2026",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C024/extra-d0d6c92782/2026-10-14/official.html",
+    "sha256": "e6da46be2f8a7d8034a21a1cf33cdb56508215f6a60f7bd3039b5762168e38d7",
+    "locator": "bill text, heading",
+    "quote": "Návrh ZÁKON z ... 2026,",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C024/extra-d0d6c92782/2026-10-14/official.html",
+    "sha256": "e6da46be2f8a7d8034a21a1cf33cdb56508215f6a60f7bd3039b5762168e38d7",
+    "locator": "bill text, Čl. V",
+    "quote": "Tento zákon nadobúda účinnosť 1. januára 2027.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C024/2026-10-14/official.html",
+    "sha256": "933a063461ca8fa03f93cd824cef04232e18c9454100e1562dda44c9ed7d8716",
+    "locator": "I. čítanie",
+    "quote": "NR SR uznesením rozhodla o gestorskom výbore Ústavnoprávny výbor NR SR s lehotou na prerokovanie 25. 5. 2026.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The National Council's page shows the bill received on 27 March 2026 and at the stage 'Rokovanie výboru' (committee consideration). Resolution no. 1497 of 5 May 2026 decided at first reading to consider it in second reading and assigned it to the Constitutional Law Committee. The latest event is the sponsors' letter of 7 September 2026 asking for the bill to be scheduled for the session beginning 17 November 2026, which is still to come on 14 October 2026. No second or third reading, adoption or rejection is shown, so the bill is pending: Draft / proposed, legal force Proposed. Its proposed effective date, 1 January 2027, has not arrived.",
+  "date_reasoning": "date_published is the date the National Council received the bill (Dátum doručenia 27. 3. 2026), as for the Government bill SK-02.",
+  "scope_reasoning": "The bill amends general laws to protect against deceptive recordings created or substantially altered by a technical process; its explanatory memorandum names the development of AI technologies and digital tools as the reason. Section 10 includes non-AI-specific laws that are the operative instrument for a deepfake question, with a scope_note; a private members' bill is also included with a note.",
+  "topics_reasoning": "deepfakes & synthetic media: the whole bill concerns technically created or altered recordings that appear authentic. accountability & liability: civil-law protection, a misdemeanour, a criminal offence and criminal liability of legal persons.",
+  "summary_terms": "'klamlivé záznamy' is rendered literally as 'deceptive recordings'; the bill itself does not use the word deepfake or mention AI, the memorandum does mention AI technologies."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The committee deadline differs between the print page (25 May 2026) and resolution no. 1497 (until the plenary debate on the bill); the notes give both."
+ ]
+}

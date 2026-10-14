@@ -1,0 +1,58 @@
+{
+ "cand_id": "C040",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "needs-human",
+ "target_id": null,
+ "record": {
+  "title": "Super Intelligence Force (SIF), interagency task force announced by the President",
+  "jurisdiction": "United States",
+  "country": "United States",
+  "jurisdiction_level": "National",
+  "region": "North America",
+  "language": "English",
+  "related": [
+   "US-27",
+   "US-26"
+  ]
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C040/2026-10-14/secondary.html",
+    "sha256": "fc42b2f1f9e2f7523ee484acfa97c2852d41fb71bfc96e022c0716ed3870dd58",
+    "locator": "article body, second paragraph",
+    "quote": "I am announcing the formation of the Super Intelligence Force (SIF),\" the president wrote in a post on Truth Social.",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C040/2026-10-14/secondary.html",
+    "sha256": "fc42b2f1f9e2f7523ee484acfa97c2852d41fb71bfc96e022c0716ed3870dd58",
+    "locator": "byline and first paragraph",
+    "quote": "October 4, 2026 / 9:25 AM EDT",
+    "source_kind": "secondary"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C040/2026-10-14/secondary.html",
+    "sha256": "fc42b2f1f9e2f7523ee484acfa97c2852d41fb71bfc96e022c0716ed3870dd58",
+    "locator": "article body, fourth paragraph",
+    "quote": "will also lead the force, and will report to him and White House Chief of Staff Susie Wiles.",
+    "source_kind": "secondary"
+   }
+  ]
+ },
+ "judgment": {
+  "scope_reasoning": "Evidence and scope cannot be settled from what exists. The only stored source is a CBS News article (4 Oct 2026) reporting a Truth Social post in which the President announced the 'Super Intelligence Force' after the White House Accord on Super Intelligence (US-27), led by DNI Jay Clayton with the FTC chairman, the Pentagon CTO and the OPM director, reporting to the President and the Chief of Staff. Web searches on 14 Oct 2026 found no whitehouse.gov page, executive order, memorandum or published charter creating the task force; press reports mention a 120-day report and a charter that has not been published. A record would rest wholly on press reports of a social-media post (level C), with no official text to quote for its mandate, legal form or status, and section 10 does not say whether a task force announced only in a post, without a published founding instrument, is an instrument. A human should decide whether to wait for an official document (and keep the lead open) or record it now at level C with a scope_note."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "No official founding instrument (executive order, presidential memorandum or published charter) was found; the announcement was a Truth Social post reported by the press.",
+  "Mandate, membership and the reported 120-day report deadline rest only on news reports; the stored CBS article gives the membership and reporting line but not the 120-day deadline.",
+  "If a whitehouse.gov or Federal Register document appears, it should be stored and the candidate extracted again; US-27 and US-26 are the related records."
+ ]
+}

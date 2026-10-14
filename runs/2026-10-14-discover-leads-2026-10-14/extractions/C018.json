@@ -1,0 +1,225 @@
+{
+ "cand_id": "C018",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "jurisdiction": "Japan",
+  "country": "Japan",
+  "jurisdiction_level": "National",
+  "region": "East Asia",
+  "title": "The Guideline for Japanese Government's Procurements and Utilizations of Generative AI for the sake of Evolution and Innovation of Public Administration",
+  "original_title": "行政の進化と革新のための生成AIの調達・利活用に係るガイドライン",
+  "short_title": "Digital Agency Guideline on Generative AI Procurement and Use in Government (DS-920)",
+  "issuing_body": "Executive Board of the Council for the Promotion of a Digital Society (prepared by the Digital Agency)",
+  "instrument_type": "Guidelines / framework",
+  "legal_force": "Binding",
+  "status": "In force",
+  "date_published": "2025-05-27",
+  "date_in_force": null,
+  "date_last_updated": "2026-06-12",
+  "official_identifier": "DS-920",
+  "official_url": "https://www.digital.go.jp/news/3579c42d-b11c-4756-b66e-3d3e35175623",
+  "secondary_url": null,
+  "language": "Japanese",
+  "summary": "Government-wide rules, decided by the executive board of the Council for the Promotion of a Digital Society, for procuring and using generative AI in government information systems, to promote its use and manage its risks together. They cover, in principle, generative AI taking text and audio input and producing text, images or audio; systems such as AI agents fall only under the governance framework. Each ministry appoints a Chief AI Officer (CAIO), who with planners classifies the risk of each use case, using a high-risk AI project finder, and reports likely high-risk uses to the Advanced AI Utilization Advisory Board. Rules cover planning, procurement, development, operation and use.",
+  "safety_topics": [
+   "public-sector use",
+   "risk-based classification",
+   "accountability & liability"
+  ],
+  "related": [
+   "JP-02",
+   "JP-05"
+  ],
+  "notes": "A normative document of the Digital Society Promotion Standard Guidelines that ministries must follow; the Digital Agency prepared it with METI, MIC and others. The first edition of 27 May 2025 covered text-generating AI, applied in full to systems procured or used from fiscal year 2026 (令和8年度) and replaced the government's agreement on the business use of generative AI such as ChatGPT (version 2.1). The revision decided on 12 June 2026 came into effect on 1 September 2026; it widened the generative AI covered, revised the high-risk criteria, referred to the AI Basic Plan and the guideline under Article 13 of the AI Act, and added measures for AI agents that users create, major model updates and intellectual property. Systems handling specially designated secrets or security-sensitive information are excluded; independent administrative agencies and designated corporations are expected to follow it.",
+  "english_version": {
+   "kind": "government translation",
+   "url": "https://www.digital.go.jp/assets/contents/node/information/field_ref_resources/decb64eb-f26e-41cb-8d37-f3dd173108b8/47764804/20260612_resources_standard_guidelines_guideline_04.pdf",
+   "by": "Digital Agency (provisional translation)"
+  },
+  "verification": {
+   "note": "Stored: the Digital Agency's news page on the first decision (27 May 2025), the Japanese first edition (DS-920, 27 May 2025) and its English provisional translation; the Digital Society Promotion Standard Guidelines page with the DS-920 entry (策定日または最終改定日：2026年6月12日, Normative); and the Digital Agency's English provisional translation of the revised guideline approved on 12 June 2026, with its revision history and supplementary provisions. The Japanese text of the 2026 revision (20260612_resources_standard_guidelines_guideline_01.pdf) was not stored, so the summary rests on the Japanese first edition and on the government's translation of the revision for what changed; title and terms follow that translation. A Digital Agency technical report on CI/CD pipelines (DS-202), stored from the same page, is unrelated."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/extra-939308874e/2026-10-14/document-1.pdf",
+    "sha256": "5ec5ca32c913202bf4052674c73930b7b3486e5bfe77f55c9d28e342cf7205ad",
+    "locator": "page 1, cover",
+    "quote": "Digital Society Promotion Standard Guidelines DS-920 The Guideline for Japanese Government's Procurements and Utilizations of Generative AI for the sake of Evolution and Innovation of Public Administration June 12, 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/2026-10-14/document-1.pdf",
+    "sha256": "25adb6d93da73a66bdf7b0c14f6a5c1a0e0ad5d13fb57efd33a0e02f95b63c1e",
+    "locator": "page 1, cover",
+    "quote": "Digital Society Promotion Standard Guidelines DS-920 The Guideline for Japanese Governments' Procurements and Utilizations of Generative AI for the sake of Evolution and Innovation of Public Administration",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/2026-10-14/document-2.pdf",
+    "sha256": "aac20ff8a500b51c3b557b2df5527ac0d3ab3bce3cc66cd8aa9f9674a2ddb026",
+    "locator": "page 1, cover",
+    "quote": "デジタル社会推進標準ガイドライン DS-920 行政の進化と革新のための生成 AI の調達・利活 用に係るガイドライン",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/2026-10-14/official.html",
+    "sha256": "c31b4ad0ddf967a92b8de2c6021a39bfb4b4bb3ba10041edd884863931eebf0d",
+    "locator": "news page, heading",
+    "quote": "「行政の進化と革新のための生成AIの調達・利活用に係るガイドライン」を策定しました",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/extra-939308874e/2026-10-14/official.html",
+    "sha256": "6ce5a2853b063744d032f82850aab969a94967316e144598682b85ad97c4a41d",
+    "locator": "standard guidelines page, DS-920 entry",
+    "quote": "DS-920 行政の進化と革新のための生成AIの調達・利活用に係るガイドライン",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/2026-10-14/document-2.pdf",
+    "sha256": "aac20ff8a500b51c3b557b2df5527ac0d3ab3bce3cc66cd8aa9f9674a2ddb026",
+    "locator": "page 1, cover",
+    "quote": "2025 年（令和７年）5 月 27 日 デジタル社会推進会議幹事会決定",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/2026-10-14/official.html",
+    "sha256": "c31b4ad0ddf967a92b8de2c6021a39bfb4b4bb3ba10041edd884863931eebf0d",
+    "locator": "news page, 1. 概要",
+    "quote": "本ガイドラインは、AI関連技術の発展とAIの活用の官民における急速な進展を受け、政府の様々な業務への生成AIの利活用促進とリスク管理を表裏一体で進めるため、デジタル庁が経済産業省、総務省等と協力して検討を行ったものです。",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/extra-939308874e/2026-10-14/document-1.pdf",
+    "sha256": "5ec5ca32c913202bf4052674c73930b7b3486e5bfe77f55c9d28e342cf7205ad",
+    "locator": "page 1, cover",
+    "quote": "June 12, 2026 Approved by the Council for the Promotion of a Digital Society Executive Board Meeting",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/2026-10-14/document-2.pdf",
+    "sha256": "aac20ff8a500b51c3b557b2df5527ac0d3ab3bce3cc66cd8aa9f9674a2ddb026",
+    "locator": "page 1, cover",
+    "quote": "デジタル社会推進標準ガイドライン DS-920",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/2026-10-14/document-1.pdf",
+    "sha256": "25adb6d93da73a66bdf7b0c14f6a5c1a0e0ad5d13fb57efd33a0e02f95b63c1e",
+    "locator": "page 1, cover",
+    "quote": "Digital Society Promotion Standard Guidelines DS-920",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/extra-939308874e/2026-10-14/official.html",
+    "sha256": "6ce5a2853b063744d032f82850aab969a94967316e144598682b85ad97c4a41d",
+    "locator": "standard guidelines page, DS-920 entry",
+    "quote": "DS-920 行政の進化と革新のための生成AIの調達・利活用に係るガイドライン",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/2026-10-14/document-1.pdf",
+    "sha256": "25adb6d93da73a66bdf7b0c14f6a5c1a0e0ad5d13fb57efd33a0e02f95b63c1e",
+    "locator": "page 1, cover",
+    "quote": "May 27, 2025 Approved by the Council for the Promotion of a Digital Society Executive Board Meeting",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/2026-10-14/official.html",
+    "sha256": "c31b4ad0ddf967a92b8de2c6021a39bfb4b4bb3ba10041edd884863931eebf0d",
+    "locator": "news page, 1. 概要",
+    "quote": "令和7年（2025年）5月27日（火）に開催した第19回デジタル社会推進会議幹事会・書面開催において、「行政の進化と革新のための生成AIの調達・利活用に係るガイドライン」を決定しました。",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/extra-939308874e/2026-10-14/document-1.pdf",
+    "sha256": "5ec5ca32c913202bf4052674c73930b7b3486e5bfe77f55c9d28e342cf7205ad",
+    "locator": "page 50, Supplementary Provisions",
+    "quote": "This decision will come into effect on September 1, 2026.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/2026-10-14/document-2.pdf",
+    "sha256": "aac20ff8a500b51c3b557b2df5527ac0d3ab3bce3cc66cd8aa9f9674a2ddb026",
+    "locator": "page 11, 2.2.4 本ガイドラインの適用開始時期等について",
+    "quote": "本ガイドラインの政府情報システムへの全面適用は、令和８年度以降に調 達・利活用を行う生成 AI システムからである",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/2026-10-14/document-2.pdf",
+    "sha256": "aac20ff8a500b51c3b557b2df5527ac0d3ab3bce3cc66cd8aa9f9674a2ddb026",
+    "locator": "page 11, 2.2.4",
+    "quote": "今後は、同申合せに代わり、本ガイドラインを 適用し、取組を進める。",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/2026-10-14/document-2.pdf",
+    "sha256": "aac20ff8a500b51c3b557b2df5527ac0d3ab3bce3cc66cd8aa9f9674a2ddb026",
+    "locator": "page 6, 1.2 本ガイドラインの位置付け",
+    "quote": "本ガイドラインは、デジタル社会推進標準ガイドライン群 8のうち規範とし て順守するドキュメントの一つとして位置付けられる。",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/2026-10-14/document-1.pdf",
+    "sha256": "25adb6d93da73a66bdf7b0c14f6a5c1a0e0ad5d13fb57efd33a0e02f95b63c1e",
+    "locator": "page 1, cover",
+    "quote": "Normative A document specifying the rules to be adhered to regarding the development and management of government information systems.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/extra-939308874e/2026-10-14/official.html",
+    "sha256": "6ce5a2853b063744d032f82850aab969a94967316e144598682b85ad97c4a41d",
+    "locator": "standard guidelines page, DS-920 entry",
+    "quote": "策定日または最終改定日：2026年6月12日 ドキュメントの位置づけ：Normative 概要：生成AIの利活用促進とリスク管理を表裏一体で進めるため",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/extra-939308874e/2026-10-14/official.html",
+    "sha256": "6ce5a2853b063744d032f82850aab969a94967316e144598682b85ad97c4a41d",
+    "locator": "standard guidelines page, DS-920 entry",
+    "quote": "DS-920 行政の進化と革新のための生成AIの調達・利活用に係るガイドライン 本文（PDF／3,074KB） 統合版（Word/Excelファイル）（ZIP／1,723KB） 策定日または最終改定日：2026年6月12日",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C018/extra-939308874e/2026-10-14/document-1.pdf",
+    "sha256": "5ec5ca32c913202bf4052674c73930b7b3486e5bfe77f55c9d28e342cf7205ad",
+    "locator": "page 2, Revision History",
+    "quote": "May 27, 2025 - ・ First Edition June 12, 2026 1.1",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "First edition decided on 27 May 2025, applying in full from fiscal 2026; the revision decided on 12 June 2026 came into effect on 1 September 2026 under its supplementary provisions. Both dates have passed by 14 October 2026: In force. date_in_force stays null because the first edition names no entry-into-force date (see open_questions).",
+  "legal_force_reasoning": "The guideline is a normative document that government bodies must follow ('規範として順守する'; 'Normative ... rules to be adhered to') for government information systems, comparable to the US OMB memoranda recorded as binding (US-12, US-13). It does not bind private parties directly; contractors are bound through procurement and contracts.",
+  "scope_reasoning": "Government-wide AI governance and risk rules for public-sector use of generative AI, including CAIO appointment and high-risk review: in scope with no note. It is not an internal administrative circular of a single office."
+ },
+ "extra_urls": [],
+ "leads": [
+  "ChatGPT 等の生成AIの業務利用に関する申合せ (agreement on the business use of generative AI such as ChatGPT, version 2 of 15 Sep 2023 and version 2.1), Digital Society Promotion Council executive board; replaced by DS-920; not in the register."
+ ],
+ "open_questions": [
+  "date_in_force: the first edition (27 May 2025) names no entry-into-force date and applied in full from fiscal 2026 (令和8年度); the revision of 12 June 2026 came into effect on 1 September 2026. A human may prefer 2025-05-27 or 2026-09-01.",
+  "legal_force Binding is a judgment: the guideline binds government bodies as a normative standard guideline, not the public. A checker may prefer Non-binding with a note.",
+  "The Japanese text of the 2026 revision was not stored; the summary's account of the revised scope and high-risk process rests on the Digital Agency's provisional English translation."
+ ]
+}

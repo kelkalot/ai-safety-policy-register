@@ -1,0 +1,134 @@
+{
+ "cand_id": "C035",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Crimes: Sexual Exploitation of a Child (SB 1276, End Child Exploitation Act)",
+  "original_title": null,
+  "short_title": "California SB 1276 (AI-generated child sexual abuse material)",
+  "jurisdiction": "California (US)",
+  "country": "United States",
+  "jurisdiction_level": "Sub-national",
+  "region": "North America",
+  "issuing_body": "California State Legislature; signed by Governor Gavin Newsom",
+  "instrument_type": "Law",
+  "legal_force": "Binding",
+  "status": "Adopted, not yet in force",
+  "date_published": "2026-09-10",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": "California Senate Bill 1276",
+  "official_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1276",
+  "secondary_url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+  "language": "English",
+  "summary": "Known as the End Child Exploitation Act, it updates California law on the sexual exploitation of children for livestreaming and AI. It extends the crime of sexual exploitation of a child to anyone who downloads, streams or accesses through electronic or digital media a depiction of a person under 18 engaged in sexual conduct, exempting a child who only viewed a video stream. It adds digitally altered or AI-generated matter depicting a person under 18 engaged in sexual conduct to the definition of sexual exploitation in the Child Abuse and Neglect Reporting Act, so that mandated reporters must report knowledge or reasonable suspicion of such material.",
+  "safety_topics": [
+   "child safety",
+   "deepfakes & synthetic media"
+  ],
+  "related": [],
+  "notes": "Signed on 10 Sep 2026 in a 13-bill child online-safety package that also included SB 1119 (US-CA-08), SB 867 and AB 1159. Passed the Senate 33-0 and was heard by the Assembly Committee on Privacy and Consumer Protection on 1 Jul 2026. Sponsored by the Los Angeles City Attorney. California's Penal Code already covered digitally altered or AI-generated child sexual abuse material after SB 1381 (2024); this law aligns the reporting definition in the Child Abuse and Neglect Reporting Act with the criminal statute.",
+  "scope_note": "Not an AI-specific law: it amends California's crime of sexual exploitation of a child and the Child Abuse and Neglect Reporting Act. Included because it brings digitally altered and AI-generated child sexual abuse material within mandated reporting, like the deepfake laws in the register.",
+  "verification": {
+   "note": "Stored the Governor's release of 10 Sep 2026 (gov.ca.gov), which lists 'SB 1276 by Senator Susan Rubio (D-Baldwin Park) – Crimes: sexual exploitation of a child' among the bills signed that day and says the package 'Expands the scope of child sexual exploitation to include any digitally altered or AI-generated matter', and the Assembly Committee on Privacy and Consumer Protection analysis (hearing 1 Jul 2026), which describes the bill as introduced on 20 Feb 2026. The summary rests on that analysis; amendments made after it cannot be seen. The leginfo.legislature.ca.gov bill page and bill text could not be stored (HTTP 403, browser retry timed out, twice), so the chaptered text, the chapter number (a collector's lead gave chapter 192) and the operative date are unconfirmed. The status follows California's general rule that a non-urgency statute takes effect on 1 January after enactment, which is not in a stored source."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C035/extra-7762cb8691/2026-10-14/official.html",
+    "sha256": "2aeef63570fc3ca0472b7254189ca43e774ecc959ef728231528821bf7316de7",
+    "locator": "list 'New legislation to keep kids safe online'",
+    "quote": "SB 1276 by Senator Susan Rubio (D-Baldwin Park) – Crimes: sexual exploitation of a child.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C035/extra-60c4472e86/2026-10-14/official.pdf",
+    "sha256": "bececa9165d32b322f1a9efe41483e3bd5000e55803f1192a986d8fdc0bdd946",
+    "locator": "page 3, comment 1 (author's statement)",
+    "quote": "SB 1276, the End Child Exploitation Act, closes those loopholes once and for all.",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C035/extra-60c4472e86/2026-10-14/official.pdf",
+    "sha256": "bececa9165d32b322f1a9efe41483e3bd5000e55803f1192a986d8fdc0bdd946",
+    "locator": "page 1, heading",
+    "quote": "SB 1276 (Rubio) – As Introduced February 20, 2026",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C035/extra-7762cb8691/2026-10-14/official.html",
+    "sha256": "2aeef63570fc3ca0472b7254189ca43e774ecc959ef728231528821bf7316de7",
+    "locator": "release body",
+    "quote": "With the Governor’s signature on these bills, California is taking the lead, with the strongest bills regulating chatbots and social media nationwide.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C035/extra-60c4472e86/2026-10-14/official.pdf",
+    "sha256": "bececa9165d32b322f1a9efe41483e3bd5000e55803f1192a986d8fdc0bdd946",
+    "locator": "page 1, heading",
+    "quote": "SENATE VOTE: 33-0",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C035/extra-7762cb8691/2026-10-14/official.html",
+    "sha256": "2aeef63570fc3ca0472b7254189ca43e774ecc959ef728231528821bf7316de7",
+    "locator": "release date and headline",
+    "quote": "Sep 10, 2026 Governor Newsom signs the strongest child safety chatbot and social media laws in the nation",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C035/extra-7762cb8691/2026-10-14/official.html",
+    "sha256": "2aeef63570fc3ca0472b7254189ca43e774ecc959ef728231528821bf7316de7",
+    "locator": "release body, first paragraph",
+    "quote": "Today, Governor Gavin Newsom, joined by First Partner Jennifer Siebel Newsom, and legislators signed landmark bipartisan legislation strengthening California’s nation-leading protections for children online",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C035/extra-7762cb8691/2026-10-14/official.html",
+    "sha256": "2aeef63570fc3ca0472b7254189ca43e774ecc959ef728231528821bf7316de7",
+    "locator": "list 'New legislation to keep kids safe online'",
+    "quote": "SB 1276 by Senator Susan Rubio (D-Baldwin Park) – Crimes: sexual exploitation of a child.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C035/extra-7762cb8691/2026-10-14/official.html",
+    "sha256": "2aeef63570fc3ca0472b7254189ca43e774ecc959ef728231528821bf7316de7",
+    "locator": "list 'Today’s bills will help protect children by'",
+    "quote": "Protecting kids from exploitation and abuse — Expands the scope of child sexual exploitation to include any digitally altered or AI-generated matter that depicts a person under 18 engaged in an act of sexual conduct.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C035/extra-60c4472e86/2026-10-14/official.pdf",
+    "sha256": "bececa9165d32b322f1a9efe41483e3bd5000e55803f1192a986d8fdc0bdd946",
+    "locator": "page 3, THIS BILL, item 2",
+    "quote": "Expands the definition of “sexual exploitation” under CANRA to include a person who depicts a child in, or who knowingly develops, duplicates, prints, downloads, streams, accesses through any electronic or digital media, or exchanges digitally altered or AI- generated matter",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Latest event: signed by the Governor on 10 Sep 2026 (Governor's release dated 'Sep 10, 2026', listing SB 1276 among the bills signed 'Today'). This settles the conflict the collector saw between an April 2026 tracker entry and later reports of signing. The stored sources state no urgency clause or operative date. Under California's general rule for non-urgency statutes (not stored), a statute enacted in 2026 takes effect on 1 Jan 2027, after today (14 Oct 2026), so the status is 'Adopted, not yet in force' with date_in_force null, as for US-CA-08 in the same package.",
+  "scope_reasoning": "Borderline, included with the scope_note: a criminal and child-abuse-reporting law that is not AI-specific, but its new content brings digitally altered and AI-generated child sexual abuse material within mandated reporting (AGENTS.md section 10: laws that are the operative instrument for an AI-safety question such as deepfakes). The Assembly analysis shows the AI provision is one of its two main changes, not incidental.",
+  "title_reasoning": "The title renders the subject in the Governor's release and the author's name for the act ('the End Child Exploitation Act', from the author's statement in the analysis).",
+  "topics_reasoning": "child safety; deepfakes & synthetic media for digitally altered and AI-generated depictions."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The summary follows the bill as introduced (20 Feb 2026); later Assembly amendments, if any, need the chaptered text on leginfo, which could not be stored.",
+  "Chapter number and operative date are unconfirmed; date_in_force stays null."
+ ]
+}

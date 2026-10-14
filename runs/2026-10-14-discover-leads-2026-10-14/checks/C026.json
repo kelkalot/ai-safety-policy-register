@@ -1,0 +1,100 @@
+{
+ "cand_id": "C026",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "short_title": {
+   "verdict": "supported"
+  },
+  "jurisdiction": {
+   "verdict": "supported"
+  },
+  "country": {
+   "verdict": "supported"
+  },
+  "jurisdiction_level": {
+   "verdict": "supported"
+  },
+  "region": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Draft / proposed fits an initiative with no stored evidence of any later stage"
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "2026-09-09 is the Gaceta Parlamentaria publication date on the SIL page. The text itself says 'Dado en la sede del Senado de la República a los 08 días del mes de septiembre de 2026' (signing date, in notes). Either is defensible; the Gaceta date is the presentation date in the Senate."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "null is right: neither stored copy gives a Gaceta or bill number; the SIL matter number is not a citable bill number"
+  },
+  "language": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "supported"
+  },
+  "related": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported",
+   "why": "null: transitory article 1 sets entry into force the day after DOF publication, which has not occurred"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Creates a Secretariat of AI and Digital Future; amends Organic Law of Federal Public Administration (Art. 26, 38 Ter)",
+   "verdict": "supported",
+   "locator": "pages 79-80, Article Two"
+  },
+  {
+   "claim": "Bans manipulative, exploitative, harmful systems and mass biometric identification not allowed by law (Art. 58 I, II, III, IV, VI)",
+   "verdict": "supported",
+   "locator": "page 74, Art. 58"
+  },
+  {
+   "claim": "Secretariat may order audits and temporarily suspend systems posing grave risk (Art. 61 III, V)",
+   "verdict": "supported",
+   "locator": "page 75, Art. 61"
+  },
+  {
+   "claim": "Initiative signed by 21 PAN senators; 22 chapters; unemployment insurance; 90/180 day deadlines",
+   "verdict": "supported",
+   "locator": "page 1; Capitulo XXII, p. 81; transitory articles pp. 81-82"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "AI-specific general law initiative with risk management, prohibitions and supervision; no scope_note needed. Distinct from MX-01 (Sen. Ruiz Ruiz, February 2026)."
+ },
+ "overall": "accept",
+ "note": "Fields supported by the stored 90-page PDF (text layer) and the SIL page; I verified title, 21 signatories, Articles 57-61, transitory articles and the signing line. Not a duplicate of MX-01. A web search found no later stage or referral. The committee referral is unknown, so Draft / proposed rests on absence of evidence of anything later, which is the normal reading for a bill filed a month ago."
+}

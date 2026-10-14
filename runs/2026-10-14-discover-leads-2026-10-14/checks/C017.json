@@ -1,0 +1,52 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "C017",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "focus on prompt injection and DoS; also data poisoning, tampered models, model extraction; AI agents excluded for now",
+   "verdict": "supported",
+   "locator": "main text, page 6 (agents 対象外としている), 3.x threat sections"
+  },
+  {
+   "claim": "draft comment period 26 Dec 2025 to 29 Jan 2026, 52 comments",
+   "verdict": "supported",
+   "locator": "MIC press release 1 概要"
+  },
+  {
+   "claim": "guidelines do not decide who is responsible for a threat",
+   "verdict": "supported",
+   "locator": "page 14, 3.1"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "AI-specific security guidelines by a ministry."
+ },
+ "overall": "accept",
+ "note": "Japanese and English press releases and the main text confirm the title, issuer, date of 27 March 2026 and content. english_version 'none found' is consistent with MIC's note that materials are Japanese only. One targeted web search found no newer version."
+}

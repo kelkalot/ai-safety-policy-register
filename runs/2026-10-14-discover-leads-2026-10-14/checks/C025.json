@@ -1,0 +1,93 @@
+{
+ "cand_id": "C025",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "short_title": {
+   "verdict": "supported"
+  },
+  "jurisdiction": {
+   "verdict": "supported"
+  },
+  "country": {
+   "verdict": "supported"
+  },
+  "jurisdiction_level": {
+   "verdict": "supported"
+  },
+  "region": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Resolution 1407 of 14 April 2026: the National Council will not continue deliberating; the print page shows the task as closed. Lapsed is in the vocabulary and fits a bill ended at first reading."
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "language": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "supported"
+  },
+  "related": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported",
+   "why": "null: proposed effect 1 Jan 2026 never took place"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Civil Code right to digital identity lasting 50 years after death",
+   "verdict": "supported",
+   "locator": "bill text, 11a(1),(3)"
+  },
+  {
+   "claim": "Misdemeanour fine up to EUR 250; hosting providers remove manifestly illegal content within 24 hours; fines up to EUR 500,000",
+   "verdict": "supported",
+   "locator": "bill text, Misdemeanours Act amendment; Electronic Commerce Act 6(2),(3)"
+  },
+  {
+   "claim": "Crime with up to two years' prison (374a(1)); 1-5 years for damage, sexual motive, election influence; 3-8 years for child depictions",
+   "verdict": "supported",
+   "locator": "bill text, 374a(1)-(3)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Existing scope_note accurate (amends general laws; operative deepfake instrument). Included per precedents; a lapsed bill is kept per AGENTS.md section 10. Sibling bill C024 is a separate instrument, not a duplicate."
+ },
+ "overall": "accept",
+ "note": "All fields supported by the stored nrsr.sk print page, resolution no. 1407, the bill text and memorandum; summary claims checked against the Slovak text. Related EU-03 and DK-02 exist and fit (memorandum cites Article 50 AI Act and the Danish copyright bill). Status Lapsed is a defensible reading of a bill rejected at first reading (the extractor's open question about Revoked / withdrawn is a wording choice, not an error). No search for newer versions run beyond the closure: the bill is terminated."
+}

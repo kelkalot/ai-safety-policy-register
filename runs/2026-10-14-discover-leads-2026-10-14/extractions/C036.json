@@ -1,0 +1,128 @@
+{
+ "cand_id": "C036",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Leading Ethical AI Development (LEAD) for Kids Act (AB 1064)",
+  "original_title": null,
+  "short_title": "California AB 1064 (LEAD for Kids Act, vetoed)",
+  "jurisdiction": "California (US)",
+  "country": "United States",
+  "jurisdiction_level": "Sub-national",
+  "region": "North America",
+  "issuing_body": "California State Legislature (vetoed by Governor Gavin Newsom)",
+  "instrument_type": "Bill / draft law",
+  "legal_force": "Proposed",
+  "status": "Lapsed",
+  "date_published": "2025-10-13",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": "California Assembly Bill 1064 (2025-2026 Regular Session)",
+  "official_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1064",
+  "secondary_url": "https://www.gov.ca.gov/wp-content/uploads/2025/10/AB-1064-Veto.pdf",
+  "language": "English",
+  "summary": "Bill passed by the Legislature, the Leading Ethical AI Development (LEAD) for Kids Act. As passed, it would have prohibited making a companion chatbot available to users under 18 unless the chatbot is not foreseeably capable of certain harmful actions. The version heard by the Senate Judiciary Committee in July 2025 defined such covered products as companion chatbots that can foreseeably attempt mental health therapy with a child, cause a harmful ongoing emotional attachment or manipulate the child into harmful behaviour, and AI systems that generate social scores for children, assess their emotional state or process their biometric information.",
+  "safety_topics": [
+   "child safety",
+   "prohibited practices"
+  ],
+  "related": [
+   "US-CA-06",
+   "US-CA-08"
+  ],
+  "notes": "Vetoed on 13 Oct 2025; date_published is the veto date. In the veto message the Governor wrote that the bill's broad restrictions on conversational AI tools might unintentionally lead to a total ban on their use by minors, pointed to SB 243 (US-CA-06), which he had recently signed, and said he would work with the Legislature on a bill the next year building on SB 243. The version of 23 May 2025 also barred developers from producing, and deployers from using, covered products intended for children, and limited training them on children's personal information. Kept for context.",
+  "verification": {
+   "note": "Stored the Governor's veto message dated 13 Oct 2025 (gov.ca.gov scanned PDF, read by OCR with some character errors), which returns AB 1064 without signature and describes the bill as passed; the Governor's legislative update of 13 Oct 2025 (gov.ca.gov), which lists AB 1064 among the vetoed bills with its title; and the Senate Judiciary Committee analysis of the version of 23 May 2025 (hearing 15 Jul 2025, senate.ca.gov), which gives the session, the subject and the provisions of that version. The leginfo.legislature.ca.gov bill page and enrolled text could not be stored (HTTP 403, browser retry timed out, twice), so the enrolled text and its definitions are unconfirmed; the description of the passed bill rests on the veto message."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C036/extra-bd34083118/2026-10-14/official.html",
+    "sha256": "715ae88c0bf5f3f89890c72283dbfb5db86825772ea8377a745f0b5051279efe",
+    "locator": "list of vetoed bills",
+    "quote": "AB 1064 by Assemblymember Rebecca Bauer-Kahan (D-Orinda) – Leading Ethical AI Development (LEAD) for Kids Act.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C036/extra-ea823a4315/2026-10-14/official.pdf",
+    "sha256": "1a85a625ad4b6d795ab9fc5dde3984a0df24e1e2db0a49d121a897fb6a336472",
+    "locator": "page 2, This bill, item 1",
+    "quote": "Establishes the Leading Ethical AI Development (LEAD) for Kids Act, which regulates “covered products.”",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C036/extra-ea823a4315/2026-10-14/official.pdf",
+    "sha256": "1a85a625ad4b6d795ab9fc5dde3984a0df24e1e2db0a49d121a897fb6a336472",
+    "locator": "page 1, heading",
+    "quote": "2025-2026 Regular Session AB 1064 (Bauer-Kahan)",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C036/extra-1d74f2ab38/2026-10-14/official.pdf",
+    "sha256": "227094b97dea106fae38061d63242f2ca6061aab32bd117bc6c947c9057b3d0e",
+    "locator": "page 1",
+    "quote": "To the Members of the California State Assembly: lam returning Assembly Bill 1064 without my signature.",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C036/extra-1d74f2ab38/2026-10-14/official.pdf",
+    "sha256": "227094b97dea106fae38061d63242f2ca6061aab32bd117bc6c947c9057b3d0e",
+    "locator": "page 1, date stamp",
+    "quote": "OFFICE OF THE GOVERNOR OCT 13 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C036/extra-bd34083118/2026-10-14/official.html",
+    "sha256": "715ae88c0bf5f3f89890c72283dbfb5db86825772ea8377a745f0b5051279efe",
+    "locator": "release date and headline",
+    "quote": "Oct 13, 2025 Governor Newsom issues legislative update 10.13.25",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C036/extra-1d74f2ab38/2026-10-14/official.pdf",
+    "sha256": "227094b97dea106fae38061d63242f2ca6061aab32bd117bc6c947c9057b3d0e",
+    "locator": "page 1",
+    "quote": "returning Assembly Bill 1064 without my signature.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C036/extra-bd34083118/2026-10-14/official.html",
+    "sha256": "715ae88c0bf5f3f89890c72283dbfb5db86825772ea8377a745f0b5051279efe",
+    "locator": "list of vetoed bills",
+    "quote": "The Governor also announced that he has vetoed the following bills:",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C036/extra-1d74f2ab38/2026-10-14/official.pdf",
+    "sha256": "227094b97dea106fae38061d63242f2ca6061aab32bd117bc6c947c9057b3d0e",
+    "locator": "page 1",
+    "quote": "This bill would prohibit making a companion chatbot available to users under 18 years of age, unless the chatbot is not foreseeably capable of certain actions.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Latest event: veto on 13 Oct 2025 (veto message stamped 'OCT 13 2025': 'returning Assembly Bill 1064 without my signature'; legislative update of 'Oct 13, 2025' lists it under 'vetoed the following bills'). No override is recorded in the stored sources, and a year later (14 Oct 2026) the bill has no effect. Following AGENTS.md section 5.6 and the US-CA-03 precedent, a vetoed bill stays 'Proposed' with status 'Lapsed' and date_published set to the veto date.",
+  "scope_reasoning": "In scope with no scope_note: an AI-specific child-safety bill on companion chatbots, vetoed and kept for context (AGENTS.md section 10).",
+  "summary_reasoning": "The veto message describes the bill as passed; the Senate Judiciary analysis describes the earlier version of 23 May 2025. The summary keeps the two apart and uses the defined terms of the analysis ('covered product', 'companion chatbot', 'social score').",
+  "related_reasoning": "US-CA-06: the veto message points to SB 243 as the framework to build on. US-CA-08: SB 1119 is the 2026 follow-up bill on children's chatbot safety (its record's notes say it draws on AB 1064)."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The enrolled text of AB 1064 (its final definitions and the 'certain actions' a chatbot must not be foreseeably capable of) could not be stored from leginfo; the summary of the passed bill rests on the veto message."
+ ]
+}
