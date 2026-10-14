@@ -20,6 +20,8 @@ this file does the bookkeeping, so that a run can be repeated and checked.
     python3 tools/pipeline.py hosts [--code C] [--pending]        # the curated list of official sites
     python3 tools/pipeline.py questions [--sync] [--apply] [--dry-run]   # open questions as GitHub issues
     python3 tools/pipeline.py intake [--dry-run]     # suggestions and provided documents from GitHub issues
+    python3 tools/pipeline.py leads [--add --lead T --cell C|--code C [--issued-by B]|--record ID
+                                     --url U --seen-in U --why W --by NAME] [--drop L001 --why W --by NAME]
     python3 tools/pipeline.py hosts --add HOST --code C --status official|"not official"|proposed --by NAME
                                     [--operator O --kind K --evidence-url U --quote Q --note N]
     python3 tools/pipeline.py log-human --run RUN --id ID --result ok|problem --note "..." [--by NAME]
@@ -503,6 +505,14 @@ def cmd_new(args):
         run["cells"] = cells
         run["groups"] = group_cells(f, cells, args.group_size)
         run["status"] = "collecting"
+        # the queued leads of the selected cells go with the run, so that its collectors follow them up as well
+        lead_reg = read_json(LEADS, {}) or {}
+        taken = [l for l in lead_reg.get("leads") or [] if l.get("state") == "queued" and l.get("cell") in set(cells)]
+        if taken:
+            for l in taken:
+                l.update(state="in-run", run_id=run_id)
+            run["leads"] = taken
+            write_json(LEADS, lead_reg)
     else:
         if args.type == "refresh" and not args.scope:
             due = queue(db, args.days or STALE_DAYS)
@@ -2370,16 +2380,104 @@ def lead_cell(code, issued_by, frame, override=None):
     return None
 
 
+def load_leads():
+    reg = read_json(LEADS, {}) or {}
+    reg.setdefault("about", "Leads for the pipeline: instruments suggested in GitHub issues and accepted by a maintainer, "
+                            "and leads a maintainer added with `pipeline.py leads --add`. `pipeline.py new --type discover "
+                            "--leads pipeline/leads.json` takes the queued ones. Written by tools/pipeline.py intake and leads.")
+    reg.setdefault("leads", [])
+    return reg
+
+
+def next_lead_id(leads):
+    n = max([int(l["id"][1:]) for l in leads if re.match(r"^L\d+$", l.get("id") or "")] + [0])
+    return "L%03d" % (n + 1)
+
+
+def lead_name(l):
+    return " ".join(x for x in (l.get("id"), "#%s" % l["issue"] if l.get("issue") else None) if x) or (l.get("lead") or "")[:40]
+
+
+def cmd_leads(args):
+    """List the leads, add one by hand, or drop a queued one (AGENTS.md section 7.8)."""
+    reg = load_leads()
+    leads = reg["leads"]
+    if args.drop:
+        l = next((x for x in leads if x.get("id") == args.drop), None)
+        if not l or l.get("state") != "queued":
+            raise SystemExit("%s is not a queued lead" % args.drop)
+        if not (args.by and args.why):
+            raise SystemExit("--drop needs --by and --why")
+        l.update(state="dropped", dropped_by=args.by, dropped_on=today(), drop_reason=args.why)
+        if not args.dry_run:
+            write_json(LEADS, reg)
+        print("%s dropped%s" % (args.drop, " (dry run: nothing written)" if args.dry_run else ""))
+        return 0
+    if not args.add:
+        for l in leads:
+            where = l.get("record_id") if l.get("state") in ("refresh-queued", "checked", "included") else l.get("cell")
+            src = "#%s" % l["issue"] if l.get("issue") else l.get("added_by") or ""
+            print("%-5s %-15s %-22s %-16s %s" % (l.get("id") or "-", l.get("state"), where or "", src[:16],
+                                                 (l.get("lead") or l.get("url") or "")[:70]))
+        st = Counter(l.get("state") for l in leads)
+        print("Leads: %s" % (", ".join("%s %d" % kv for kv in st.most_common()) or "none"))
+        return 0
+    if not (args.lead and args.by):
+        raise SystemExit("--add needs --lead TITLE and --by NAME")
+    if not (args.url or args.seen_in):
+        raise SystemExit("--add needs --url (the official page) or --seen-in (where the instrument was seen), or both")
+    for u in (args.url, args.seen_in):
+        if u and not re.match(r"^https?://", u):
+            raise SystemExit("not a web address: %s" % u)
+    db = load_db()
+    by = {r["id"]: r for r in db["records"]}
+    nu, nt = norm_url(args.url), norm_title(args.lead)
+    for l in leads:
+        if l.get("state") in ("dropped", "rejected"):
+            continue
+        if (nu and norm_url(l.get("url")) == nu) or (nt and norm_title(l.get("lead")) == nt):
+            raise SystemExit("Already a lead: %s (%s%s)" % (l.get("id") or "#%s" % l.get("issue"), l.get("state"),
+                                                            ", " + l["record_id"] if l.get("record_id") else ""))
+    lid = next_lead_id(leads)
+    if args.record:
+        rid = args.record.strip().upper()
+        if rid not in by:
+            raise SystemExit("No record %s" % rid)
+        line = {"date": today(), "run_id": "lead %s" % lid, "record_id": rid,
+                "why": "%s, added by %s: %s" % (args.why or args.lead, args.by, args.url or args.seen_in)}
+        lead = {"id": lid, "lead": args.lead, "url": args.url, "seen_in": args.seen_in, "record_id": rid,
+                "why": args.why, "state": "refresh-queued", "added_by": args.by, "added": today()}
+        if not args.dry_run:
+            with open(REQUESTS, "a", encoding="utf-8") as fh:
+                fh.write(json.dumps(line, ensure_ascii=False) + "\n")
+        msg = "%s: news about %s, queued for its next refresh run" % (lid, rid)
+    else:
+        hit = next((r["id"] for r in db["records"] for u in (r.get("official_url"), r.get("secondary_url"))
+                    if nu and u and norm_url(u) == nu), None)
+        if hit:
+            raise SystemExit("%s is a source of %s; for news about it use --record %s" % (args.url, hit, hit))
+        cell = lead_cell(args.code, args.issued_by, load_frame(), args.cell)
+        if not cell:
+            raise SystemExit("Give --cell CODE/type (a cell of pipeline/frame.json) or --code with a jurisdiction "
+                             "in the frame")
+        lead = {"id": lid, "lead": args.lead, "cell": cell, "url": args.url, "seen_in": args.seen_in, "why": args.why,
+                "state": "queued", "added_by": args.by, "added": today()}
+        msg = "%s queued in %s; `new --type discover --leads pipeline/leads.json` starts a run on the queued leads" % (
+            lid, cell)
+    leads.append({k: v for k, v in lead.items() if v})
+    if not args.dry_run:
+        write_json(LEADS, reg)
+    print(msg + (" (dry run: nothing written)" if args.dry_run else ""))
+    return 0
+
+
 def cmd_intake(args):
     """Suggestions and provided documents from GitHub issues (AGENTS.md section 7.8)."""
     import archive  # noqa: E402  (same folder)
     import tempfile as _tf
     repo = github_repo()
-    reg = read_json(LEADS, {}) or {}
-    reg.setdefault("about", "Leads for the pipeline: instruments suggested in GitHub issues and accepted by a maintainer, "
-                            "and leads noted by agents. `pipeline.py new --type discover --leads pipeline/leads.json` takes "
-                            "the queued ones. Written by tools/pipeline.py intake.")
-    leads = reg.setdefault("leads", [])
+    reg = load_leads()
+    leads = reg["leads"]
     known = {l.get("issue") for l in leads if l.get("issue")}
     frame, db = load_frame(), load_db()
     by = {r["id"]: r for r in db["records"]}
@@ -2424,7 +2522,8 @@ def cmd_intake(args):
                     if not args.dry_run:
                         with open(REQUESTS, "a", encoding="utf-8") as fh:
                             fh.write(json.dumps(line, ensure_ascii=False) + "\n")
-                    leads.append({"issue": num, "url": url, "record_id": rid, "state": "refresh-queued",
+                    leads.append({"id": next_lead_id(leads), "issue": num, "url": url, "record_id": rid,
+                                  "state": "refresh-queued",
                                   "accepted_by": who, "added": today()})
                     say(num, "Accepted by @%s: %s goes into the next refresh run, which checks this source." % (who, rid))
                     done.append("#%s queued for a refresh of %s" % (num, rid))
@@ -2436,7 +2535,8 @@ def cmd_intake(args):
                              "`cell: <CODE>/<type>` to the decision (types: legislature, gazette, executive, ministries, "
                              "ai-bodies, elections, supervisors, repository)." % f.get("jurisdiction code"))
                     continue
-                leads.append({"lead": f.get("title") or it["title"], "cell": cell, "url": url, "issue": num,
+                leads.append({"id": next_lead_id(leads), "lead": f.get("title") or it["title"], "cell": cell,
+                              "url": url, "issue": num,
                               "seen_in": "issue #%s" % num, "why": f.get("why it belongs in the register"),
                               "state": "queued", "accepted_by": who, "added": today()})
                 say(num, "Accepted by @%s and queued for the next pipeline run (cell %s). This issue is closed when the "
@@ -2487,7 +2587,7 @@ def cmd_intake(args):
             if l.get("issue"):
                 say(l["issue"], "Checked in run %s: %s. The record's history shows what changed." % (hit["run_id"], l["record_id"]),
                     close=True)
-            done.append("suggestion #%s checked in %s" % (l.get("issue"), hit["run_id"]))
+            done.append("lead %s checked in %s" % (lead_name(l), hit["run_id"]))
     # leads a run took: close their issues once the run is merged
     for l in leads:
         if l.get("state") != "in-run" or not l.get("run_id"):
@@ -2497,20 +2597,21 @@ def cmd_intake(args):
         if (read_json(d / "run.json", {}) or {}).get("status") != "merged":
             continue
         cand = next((c for c in (read_json(d / "candidates.json", {}) or {}).get("candidates") or []
-                     if (l.get("issue") and c.get("issue") == l["issue"]) or (l.get("url") and c.get("url") == l["url"])), None)
+                     if (l.get("id") and c.get("lead") == l["id"]) or (l.get("issue") and c.get("issue") == l["issue"])
+                     or (l.get("url") and norm_url(c.get("url")) == norm_url(l["url"]))), None)
         rid = (p.get("assigned") or {}).get(cand["cand_id"]) if cand else None
         if rid:
             l.update(state="included", record_id=rid)
             if l.get("issue"):
                 say(l["issue"], "Included as %s in run %s." % (rid, l["run_id"]), close=True)
-            done.append("lead %s included as %s" % (l.get("issue") or l.get("lead", "")[:40], rid))
+            done.append("lead %s included as %s" % (lead_name(l), rid))
         else:
             l.update(state="not-added")
             if l.get("issue"):
                 why = next((x.get("why") for x in (p.get("not_added") or []) + (p.get("needs_human") or [])
                             if cand and x.get("cand_id") == cand["cand_id"]), "the run found no official source for it")
                 say(l["issue"], "Run %s did not add it: %s" % (l["run_id"], (why or "")[:500]), close=False)
-            done.append("lead %s not added" % (l.get("issue") or l.get("lead", "")[:40]))
+            done.append("lead %s not added" % lead_name(l))
     if not args.dry_run:
         write_json(LEADS, reg)
         build.write_js(build.normalise(load_db()))
@@ -2589,6 +2690,20 @@ def main(argv=None):
     s.add_argument("--dry-run", action="store_true")
     s = sub.add_parser("intake", help="suggestions and provided documents from GitHub issues")
     s.add_argument("--dry-run", action="store_true")
+    s = sub.add_parser("leads", help="list the leads, add one by hand, or drop a queued one")
+    s.add_argument("--add", action="store_true", help="add a lead (a new instrument, or news with --record)")
+    s.add_argument("--lead", help="the instrument's title, as found")
+    s.add_argument("--cell", help="frame cell CODE/type, e.g. US-FL/legislature")
+    s.add_argument("--code", help="jurisdiction code; the cell follows from --issued-by")
+    s.add_argument("--issued-by", help="legislature, government, ministry, AI regulator, supervisory, election, "
+                                       "intergovernmental")
+    s.add_argument("--record", help="an existing record the lead is news about; queues a refresh instead")
+    s.add_argument("--url", help="the official page, if known")
+    s.add_argument("--seen-in", help="where the instrument was seen (tracker, news, law-firm note)")
+    s.add_argument("--why", help="why it belongs in the register; with --drop, why the lead is dropped")
+    s.add_argument("--by", help="who adds or drops the lead")
+    s.add_argument("--drop", metavar="ID", help="drop a queued lead (kept with state dropped)")
+    s.add_argument("--dry-run", action="store_true")
     s = sub.add_parser("log-human")
     s.add_argument("--run")
     s.add_argument("--id", required=True)
@@ -2605,7 +2720,8 @@ def main(argv=None):
     cmds = {"new": cmd_new, "status": cmd_status, "stage": cmd_stage, "dedupe": cmd_dedupe, "textify": cmd_textify,
             "evidence": cmd_evidence, "sample": cmd_sample, "compare": cmd_compare, "queue": cmd_queue,
             "assemble": cmd_assemble, "report": cmd_report, "frame": cmd_frame, "log-human": cmd_log_human,
-            "log-scope": cmd_log_scope, "hosts": cmd_hosts, "questions": cmd_questions, "intake": cmd_intake}
+            "log-scope": cmd_log_scope, "hosts": cmd_hosts, "questions": cmd_questions, "intake": cmd_intake,
+            "leads": cmd_leads}
     if not args.cmd:
         ap.print_help()
         return 2
