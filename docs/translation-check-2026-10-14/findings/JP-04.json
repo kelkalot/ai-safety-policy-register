@@ -1,0 +1,67 @@
+{
+  "id": "JP-04",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": ["archive/JP-04/2026-10-11/official.html", "archive/JP-04/2026-10-11/document-2.pdf", "archive/JP-04/2026-10-11/document-1.pdf", "archive/JP-04/2026-10-11/secondary.html"],
+    "usable": true,
+    "note": "Only the Cabinet Office page (official.html) and the Cabinet Office's one-page overview of the Act in Japanese (document-2.pdf) and in provisional English translation (document-1.pdf) are usable. The Act's own text is not stored: secondary.html is the e-Gov law page, an empty JavaScript shell whose only text is 'e-Gov 法令検索'. Claims were checked against the Japanese overview."
+  },
+  "language_field": {"current": "Japanese (provisional English overview available)", "proposed": "Japanese"},
+  "english_version": {
+    "kind": "official translation",
+    "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5066",
+    "publisher": "Ministry of Justice, Japanese Law Translation database (full text); Cabinet Office (overview, stored)",
+    "stored": false,
+    "evidence": {"file": "archive/JP-04/2026-10-11/official.html", "quote": "【概要（英語仮訳）】 the AI Act（Overview）(Provisional Translation)"},
+    "note": "Stored: the Cabinet Office's provisional English translation of the one-page overview (document-1.pdf). Not stored: a full English translation of the Act on the government's Japanese Law Translation site, found with one web search (URL above; the search lists it as Act No. 53 of June 4, 2025). Japanese Law Translation texts are official translations without legal force."
+  },
+  "title": {
+    "verdict": "official English title",
+    "original_title_matches_source": true,
+    "source_quote": "Outline of the Act on Promotion of Research and Development, and Utilization of AI-related Technology",
+    "file": "archive/JP-04/2026-10-11/document-1.pdf",
+    "proposed": null,
+    "why": "The register title is the Cabinet Office's provisional English title, quoted from the stored English overview. original_title matches official.html ('人工知能関連技術の研究開発及び活用の推進に関する法律（ＡＩ法）') exactly. The government's own English renderings vary: the guideline stored for JP-05 says 'Act on Promotion of Research & Development(R&D), and Utilization of Artiﬁcial Intelligence-Related Technology' and the second AI Basic Plan stored for JP-06 says '... and deployment of Artificial Intelligence-related Technology'."
+  },
+  "summary_claims": [
+    {
+      "claim": "It creates the AI Strategic Headquarters, chaired by the Prime Minister.",
+      "file": "archive/JP-04/2026-10-11/document-2.pdf",
+      "locator": "page 1, row 'AI戦略本部'",
+      "original_quote": "本部長：内閣総理大臣 構成員：全ての国務大臣",
+      "literal_translation": "Head of the Headquarters: the Prime Minister; members: all Ministers of State",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "The government ... may give guidance and advice to businesses and make information public.",
+      "file": "archive/JP-04/2026-10-11/document-2.pdf",
+      "locator": "page 1, row '基本的施策'",
+      "original_quote": "事業者等への指導・助言・情報提供",
+      "literal_translation": "guidance, advice and provision of information to business operators, etc.",
+      "verdict": "overstated"
+    },
+    {
+      "claim": "Businesses have a duty to endeavour to cooperate; the Act contains no penalties.",
+      "file": "archive/JP-04/2026-10-11/document-2.pdf",
+      "locator": "page 1, row '責務'",
+      "original_quote": "事業者は国等の施策に協力しなければならない",
+      "literal_translation": "Business operators must cooperate with the measures of the State, etc.",
+      "verdict": "understated"
+    }
+  ],
+  "key_terms": [
+    {"original": "AI戦略本部", "register_rendering": "AI Strategic Headquarters", "official_rendering": "AI Strategic Headquarters", "verdict": "consistent", "note": "document-1.pdf, page 1."},
+    {"original": "活用", "register_rendering": "Utilization", "official_rendering": "Utilization", "verdict": "consistent", "note": "As in the overview's title; the second AI Basic Plan's translation uses 'deployment' for the same word."},
+    {"original": "情報提供", "register_rendering": "make information public", "official_rendering": "announcement", "verdict": "differs", "note": "情報提供 means 'provision of information'. The Cabinet Office overview renders the line as 'Guidance, advice and announcement to business operators and citizens'; the register's 'make information public' goes a step further than either."}
+  ],
+  "overall": "minor issues",
+  "issues": [
+    "Duty to cooperate: the stored Japanese overview says '事業者は国等の施策に協力しなければならない' ('must cooperate'), with no 努める ('endeavour'); the register follows the Cabinet Office's provisional English overview ('Business operators shall endeavor to cooperate'). The two official overviews differ and the Act's text is not stored; check the Article on business operators' responsibilities in the official text or the MoJ translation before relying on either wording.",
+    "'Make information public' renders 情報提供 ('provision of information'); the Japanese does not say the information is published.",
+    "'The Act contains no penalties' is not in any stored text (it may well be true, but no stored file supports it).",
+    "language field carries a remark; proposed 'Japanese'."
+  ],
+  "note": "Also checked: '情報収集、権利利益を侵害する事案の分析・対策検討、調査' (information gathering; analysis and consideration of countermeasures for cases infringing rights and interests; investigation) supports the summary's 'collect information on and investigate cases where AI infringes rights or interests'; '適正性のための国際規範に即した指針の整備' supports 'government guidelines consistent with international norms'. Dates in notes (enacted 28 May 2025, promulgated and partly in force 4 Jun 2025, fully in force 1 Sept 2025) match official.html and both overviews."
+}

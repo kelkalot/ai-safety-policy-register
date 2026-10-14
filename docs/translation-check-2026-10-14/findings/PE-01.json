@@ -1,0 +1,85 @@
+{
+ "id": "PE-01",
+ "checked_on": "2026-10-14",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "stored_text": {
+  "files": [
+   "archive/PE-01/2026-10-11/official.pdf"
+  ],
+  "usable": true,
+  "note": "official.pdf is Congress's consolidated text of Ley 31814 (4 pages, text layer present), with the full title, preliminary title, Articles 1-5, the final provision and the signatures."
+ },
+ "language_field": {
+  "current": "Spanish",
+  "proposed": "Spanish"
+ },
+ "english_version": {
+  "kind": "none found",
+  "url": null,
+  "publisher": null,
+  "stored": false,
+  "evidence": null,
+  "note": "No English text in the stored file. One web search (Law 31814 English translation) found only law-firm and tracker summaries (Morrison Foerster, regulations.ai, Digital Policy Alert), no translation by a Peruvian public body."
+ },
+ "title": {
+  "verdict": "accurate rendering",
+  "original_title_matches_source": true,
+  "source_quote": "LEY QUE PROMUEVE EL USO DE LA INTELIGENCIA ARTIFICIAL EN FAVOR DEL DESARROLLO ECONÓMICO Y SOCIAL DEL PAÍS",
+  "file": "archive/PE-01/2026-10-11/official.pdf",
+  "proposed": null,
+  "why": "original_title matches the stored title apart from capitalisation; the stored text writes the number as 'LEY 31814', the record uses the usual citation form 'Ley N° 31814'. 'Law promoting the use of artificial intelligence for the economic and social development of the country' renders 'Ley que promueve el uso de la inteligencia artificial en favor del desarrollo económico y social del país' accurately ('en favor del' = 'for' / 'in favour of')."
+ },
+ "summary_claims": [
+  {
+   "claim": "Principles include risk-based safety standards.",
+   "file": "archive/PE-01/2026-10-11/official.pdf",
+   "locator": "page 1, Título Preliminar, Artículo único (a)",
+   "original_quote": "a) Estándares de seguridad basados en riesgos: Se promueve un enfoque basado en riesgos para el uso y desarrollo de la inteligencia artificial.",
+   "literal_translation": "a) Risk-based safety [or security] standards: A risk-based approach to the use and development of artificial intelligence is promoted.",
+   "verdict": "accurate"
+  },
+  {
+   "claim": "Designates the Presidency of the Council of Ministers' Secretariat of Government and Digital Transformation (SGTD) as national technical-normative authority.",
+   "file": "archive/PE-01/2026-10-11/official.pdf",
+   "locator": "page 3, Artículo 4",
+   "original_quote": "La Presidencia del Consejo de Ministros, a través de la Secretaría de Gobierno y Transformación Digital, en su calidad de ente rector del Sistema Nacional de Transformación Digital, es la autoridad técnico -normativa a nivel nacional",
+   "literal_translation": "The Presidency of the Council of Ministers, through the Secretariat of Government and Digital Transformation, in its capacity as governing body of the National Digital Transformation System, is the technical-normative authority at national level",
+   "verdict": "accurate"
+  },
+  {
+   "claim": "The authority must report annually to Congress and immediately report serious threats or cybersecurity breaches.",
+   "file": "archive/PE-01/2026-10-11/official.pdf",
+   "locator": "page 4, Artículo 5",
+   "original_quote": "En el caso de que se identifique amenazas graves o vulneración de ciberseguridad nacional, la Autoridad Nacional informa inmediatamente a la Comisión de Inteligencia del Congreso de la República.",
+   "literal_translation": "Where serious threats or a breach of national cybersecurity are identified, the National Authority immediately informs the Intelligence Committee of the Congress of the Republic.",
+   "verdict": "accurate"
+  }
+ ],
+ "key_terms": [
+  {
+   "original": "autoridad técnico-normativa a nivel nacional",
+   "register_rendering": "national technical-normative authority",
+   "official_rendering": null,
+   "verdict": "consistent",
+   "note": "Literal and standard rendering of the Peruvian term."
+  },
+  {
+   "original": "Estándares de seguridad basados en riesgos",
+   "register_rendering": "risk-based safety standards",
+   "official_rendering": null,
+   "verdict": "consistent",
+   "note": "'seguridad' can mean safety or security; 'safety' fits the principle, which concerns a risk-based approach to use and development."
+  },
+  {
+   "original": "Secretaría de Gobierno y Transformación Digital",
+   "register_rendering": "Secretariat of Government and Digital Transformation (SGTD)",
+   "official_rendering": null,
+   "verdict": "consistent",
+   "note": "Literal; SGTD is the body's own abbreviation."
+  }
+ ],
+ "overall": "ok",
+ "issues": [],
+ "note": "The dates in notes (approved 13 June 2023, promulgated 4 July 2023, published 5 July 2023) match the stored text. Not an error, but the summary could be more exact: under Article 5 the immediate report goes to Congress's Intelligence Committee and concerns serious threats to, or breaches of, national cybersecurity; the summary leaves out the committee and the word 'national'. The annual report covers progress on the National Digital Transformation Policy and the National AI Strategy."
+}

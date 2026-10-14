@@ -1,0 +1,81 @@
+{
+  "id": "VN-07",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": [
+      "archive/VN-07/2026-10-11/secondary.html"
+    ],
+    "usable": false,
+    "note": "The only file in local_copy is the Can Tho provincial legal-education portal's article 'MỘT SỐ ĐIỂM MỚI CỦA LUẬT TRÍ TUỆ NHÂN TẠO', which is about the Law on AI (134/2025/QH15) and mentions Law 71/2025/QH15 only in the repeal clause. The text of Law 71/2025/QH15 and its Chapter IV is not stored, so the description of Chapter IV cannot be checked. A newer snapshot of the same Can Tho page exists under archive/VN-07/2026-10-14/ (from today's refresh run 2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca); its article text is unchanged."
+  },
+  "language_field": {
+    "current": "Vietnamese",
+    "proposed": "Vietnamese"
+  },
+  "english_version": {
+    "kind": "unclear",
+    "url": "https://english.luatvietnam.vn/law-on-digital-technology-industry-no-71-2025-qh15-dated-june-14-2025-of-the-national-assembly-405695-doc1.html",
+    "publisher": "LuatVietnam (commercial legal database)",
+    "stored": false,
+    "evidence": null,
+    "note": "Lead only. One web search found English texts on LuatVietnam, ThuVienPhapLuat and a PDF on qtsc.com.vn, none from the National Assembly or a ministry. The search summary says LuatVietnam presents itself as the distributor of English translations of Official Gazette texts; if this text comes from the Official Gazette it would be an official translation, otherwise unofficial. Not confirmed."
+  },
+  "title": {
+    "verdict": "accurate rendering",
+    "original_title_matches_source": false,
+    "source_quote": "Luật Công nghiệp công nghệ số số 71/2025/QH15",
+    "file": "archive/VN-07/2026-10-11/secondary.html",
+    "proposed": null,
+    "why": "'Luật Công nghiệp công nghệ số' (as quoted on the Can Tho page) is accurately rendered 'Law on Digital Technology Industry'. original_title adds '(Chương IV về trí tuệ nhân tạo)', which is the register's own descriptor written in Vietnamese and is not part of the Law's title; that is why it does not match the source. original_title should be 'Luật Công nghiệp công nghệ số', with the chapter reference kept only in the English title or notes."
+  },
+  "summary_claims": [
+    {
+      "claim": "The chapter was repealed when the standalone Law on Artificial Intelligence (No. 134/2025/QH15) took effect on 1 March 2026.",
+      "file": "archive/VN-07/2026-10-11/secondary.html",
+      "locator": "article, paragraph before the transitional provisions",
+      "original_quote": "Luật này có hiệu lực thi hành từ ngày 01 tháng 3 năm 2026 và bãi bỏ một số chương, điều, khoản, điểm của Luật Công nghiệp công nghệ số số 71/2025/QH15; bãi bỏ khoản 9 Điều 3, khoản 7 Điều 4, khoản 6 Điều 12, điểm đ khoản 2 Điều 34 và Chương IV của Luật Công nghiệp công nghệ số.",
+      "literal_translation": "This Law takes effect from 1 March 2026 and repeals a number of chapters, articles, clauses and points of the Law on Digital Technology Industry No. 71/2025/QH15; it repeals Article 3(9), Article 4(7), Article 12(6), point đ of Article 34(2) and Chapter IV of the Law on Digital Technology Industry.",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "Chapter IV defined AI systems, set core principles for developers, providers and deployers, provided for risk-based management of AI systems and labelling of AI products, listed prohibited uses and promised the highest incentives for AI research and deployment.",
+      "file": null,
+      "locator": null,
+      "original_quote": null,
+      "literal_translation": null,
+      "verdict": "not in stored text"
+    },
+    {
+      "claim": "The rest of the law, on digital technology, semiconductors and digital assets, remains in force.",
+      "file": null,
+      "locator": null,
+      "original_quote": null,
+      "literal_translation": null,
+      "verdict": "not in stored text"
+    }
+  ],
+  "key_terms": [
+    {
+      "original": "Luật Công nghiệp công nghệ số",
+      "register_rendering": "Law on Digital Technology Industry",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "Same English as the commercial translations found by search."
+    },
+    {
+      "original": "bãi bỏ",
+      "register_rendering": "repealed / superseded",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "'Bãi bỏ' is 'repeal'; the record's status 'Superseded' describes the chapter only, since the rest of the Law stays in force."
+    }
+  ],
+  "overall": "could not check",
+  "issues": [
+    "The text of Law 71/2025/QH15 is not stored; the summary's account of Chapter IV (definitions, principles, risk-based management, labelling, prohibited uses, incentives) rests on press and law-firm reports and cannot be checked against the original.",
+    "original_title includes the register's descriptor '(Chương IV về trí tuệ nhân tạo)' in Vietnamese, which reads as if it were part of the official title."
+  ],
+  "note": "The repeal list in the Can Tho page matches Art. 33 of the Law on AI as read by OCR from VN-02's stored PDF. VN-03's stored Plan (page 3, OCR) tells ministries to 'Rà soát, công bố hoặc trình cấp có thẩm quyền công bố việc tiếp tục hiệu lực (một phân) đôi với các văn bản quy định chi tiệt, hướng dân thi hành Luật Công nghiệp Công nghệ sô sô 71/2025/QH15', which supports the notes' sentence about reviewing implementing documents."
+}

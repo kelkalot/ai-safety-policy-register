@@ -1,0 +1,64 @@
+{
+  "id": "VN-01",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": ["archive/VN-01/2026-10-11/official.html", "archive/VN-01/2026-10-11/secondary.html"],
+    "usable": false,
+    "note": "Both stored files are English news pages: official.html is the Government portal's English article 'Gov't approves National AI Strategy' (en.baochinhphu.vn, 29 Aug 2026) and secondary.html the Ministry of Science and Technology's English item on the GDP and export targets. The Prime Minister's Decision itself is not stored in Vietnamese or any other language, so nothing could be checked against the original."
+  },
+  "language_field": {"current": "Vietnamese", "proposed": "Vietnamese"},
+  "english_version": {
+    "kind": "none found",
+    "url": null,
+    "publisher": null,
+    "stored": false,
+    "evidence": null,
+    "note": "The stored English pages are government news summaries, not translations of the Decision. One web search found English news reports (VietnamPlus, Viet Nam News, MST) but no English text of the 2026 Decision and not its number; the reports summarised by the search date the approval to 28 Aug 2026 and disagree on the signatory."
+  },
+  "title": {
+    "verdict": "could not check",
+    "original_title_matches_source": false,
+    "source_quote": "VGP - The Government has approved a National Strategy on Artificial Intelligence (AI) through 2030, with a vision to 2045.",
+    "file": "archive/VN-01/2026-10-11/official.html",
+    "proposed": null,
+    "why": "original_title is null and no Vietnamese text is stored. The register title follows the Government portal's English news wording (quoted); whether it matches the Decision's title cannot be checked. 'original_title_matches_source' is false only because there is no original_title."
+  },
+  "summary_claims": [
+    {
+      "claim": "One pillar is 'safe and trustworthy AI governance': AI must be developed, provided, deployed and used in line with the law.",
+      "file": "archive/VN-01/2026-10-11/official.html",
+      "locator": "section 'Nine strategic pillars', last pillar",
+      "original_quote": "Safe and trustworthy AI governance: Ensure safe, trustworthy and responsible AI governance, and ensure that AI is developed, provided, deployed and used in accordance with the law.",
+      "literal_translation": "n/a: English news text; the Vietnamese Decision is not stored.",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "Other pillars cover testing and evaluation in the data and AI model pillar and building a culture of responsible AI use.",
+      "file": "archive/VN-01/2026-10-11/official.html",
+      "locator": "section 'Six breakthrough solutions', fifth solution",
+      "original_quote": "Fifth, raise public awareness and promote a culture of responsible AI use.",
+      "literal_translation": "n/a: English news text; the Vietnamese Decision is not stored.",
+      "verdict": "overstated"
+    },
+    {
+      "claim": "Economic targets include an AI economy of about 6% of GDP by 2030.",
+      "file": "archive/VN-01/2026-10-11/secondary.html",
+      "locator": "article body",
+      "original_quote": "Viet Nam's National Strategy on Artificial Intelligence sets a target for the AI economy to account for around 6% of GDP by 2030, with exports of AI products, services and solutions reaching approximately 5 billion USD.",
+      "literal_translation": "n/a: English news text; the Vietnamese Decision is not stored.",
+      "verdict": "accurate"
+    }
+  ],
+  "key_terms": [
+    {"original": "(not stored) English: 'Safe and trustworthy AI governance'", "register_rendering": "safe and trustworthy AI governance", "official_rendering": "Safe and trustworthy AI governance", "verdict": "consistent", "note": "Matches the Government portal's English; the Vietnamese term could not be checked."}
+  ],
+  "overall": "could not check",
+  "issues": [
+    "No Vietnamese text of the Decision is stored; the record rests on two English news pages and has no original_title or Decision number.",
+    "Summary lists 'building a culture of responsible AI use' among the pillars; in the stored article it is the fifth of six 'breakthrough solutions', not one of the nine pillars.",
+    "Title is the Government portal's English news wording, not a checked rendering of the Decision's title."
+  ],
+  "note": "The 'testing and evaluation' point is a fair reading of the 'Data and AI models' pillar ('Develop data, data infrastructure and AI models as foundations for AI research, development, training, testing, evaluation and deployment'). To check this record, store the signed Decision from the Government portal (vanban.chinhphu.vn or datafiles.chinhphu.vn) and add its number and Vietnamese title."
+}

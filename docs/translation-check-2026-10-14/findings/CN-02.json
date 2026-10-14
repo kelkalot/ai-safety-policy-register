@@ -1,0 +1,86 @@
+{
+  "id": "CN-02",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": ["archive/CN-02/2026-10-11/official.html", "archive/CN-02/2026-10-11/secondary.html"],
+    "usable": true,
+    "note": "official.html is the CAC page with the full Chinese text: Order No. 12 (three signatories, dated 2022年11月25日) and all 25 articles. secondary.html is China Law Translate's unofficial English translation of the same text."
+  },
+  "language_field": {"current": "Chinese", "proposed": "Chinese"},
+  "english_version": {
+    "kind": "unofficial translation",
+    "url": "https://www.chinalawtranslate.com/en/deep-synthesis/",
+    "publisher": "China Law Translate",
+    "stored": true,
+    "evidence": {"file": "archive/CN-02/2026-10-11/secondary.html", "quote": "By China Law Translate on 2022/12/11"},
+    "note": "One web search found no English version from the CAC or another public body; only unofficial ones (China Law Translate, Digital Policy Alert, China Justice Observer)."
+  },
+  "title": {
+    "verdict": "accurate rendering",
+    "original_title_matches_source": true,
+    "source_quote": "互联网信息服务深度合成管理规定",
+    "file": "archive/CN-02/2026-10-11/official.html",
+    "proposed": null,
+    "why": "Literally 'Internet information service deep synthesis management provisions'. The register's title is word for word China Law Translate's unofficial English title, and it is accurate."
+  },
+  "summary_claims": [
+    {
+      "claim": "Providers and technical supporters must verify users' real identities, review content ...",
+      "file": "archive/CN-02/2026-10-11/official.html",
+      "locator": "Art. 9 (identity); Art. 10 (content review)",
+      "original_quote": "深度合成服务提供者应当基于移动电话号码、身份证件号码、统一社会信用代码或者国家网络身份认证公共服务等方式，依法对深度合成服务使用者进行真实身份信息认证",
+      "literal_translation": "Deep synthesis service providers shall, on the basis of mobile phone numbers, identity document numbers, unified social credit codes, the national online identity authentication public service or similar means, verify the real identity information of deep synthesis service users in accordance with law",
+      "verdict": "overstated",
+      "note": "Identity verification (Art. 9) and review of inputs and outputs (Art. 10, 深度合成服务提供者应当加强深度合成内容管理) are duties of providers only. Technical supporters (技术支持者) are not addressed in either article. The same is true of labelling (Arts. 16 and 17). Only the security assessment (Art. 15) and filing (Art. 19) also bind technical supporters."
+    },
+    {
+      "claim": "... run security assessments for tools that generate or edit biometric features such as faces and voices ...",
+      "file": "archive/CN-02/2026-10-11/official.html",
+      "locator": "Art. 15, para. 2, item (1)",
+      "original_quote": "深度合成服务提供者和技术支持者提供具有以下功能的模型、模板等工具的，应当依法自行或者委托专业机构开展安全评估：",
+      "literal_translation": "Where deep synthesis service providers and technical supporters provide models, templates or other tools with the following functions, they shall carry out a security assessment in accordance with law, themselves or by commissioning a professional body: [item (1)] generating or editing biometric information such as faces and voices.",
+      "verdict": "accurate",
+      "note": "Item (1) reads （一）生成或者编辑人脸、人声等生物识别信息的；. Item (2), on non-biometric special objects and scenes that may touch national security or the public interest, is left out of the summary, which is acceptable."
+    },
+    {
+      "claim": "... file their algorithms ...",
+      "file": "archive/CN-02/2026-10-11/official.html",
+      "locator": "Art. 19, para. 1",
+      "original_quote": "具有舆论属性或者社会动员能力的深度合成服务提供者，应当按照《互联网信息服务算法推荐管理规定》履行备案和变更、注销备案手续。",
+      "literal_translation": "Deep synthesis service providers with public-opinion attributes or social-mobilisation capacity shall complete filing, change-of-filing and cancellation-of-filing procedures in accordance with the Provisions on the Administration of Algorithmic Recommendation for Internet Information Services.",
+      "verdict": "overstated",
+      "note": "The summary drops the condition: providers must file only if they have public-opinion attributes or social-mobilisation capacity. Para. 2 says technical supporters file 'with reference to' (参照) para. 1."
+    }
+  ],
+  "key_terms": [
+    {
+      "original": "深度合成",
+      "register_rendering": "deep synthesis",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "The usual rendering, also used by China Law Translate. The summary's gloss 'meaning deepfakes and other synthetic text, image, audio, video and virtual scenes' paraphrases the Art. 23 definition (深度合成技术，是指利用深度学习、虚拟现实等生成合成类算法制作文本、图像、音频、视频、虚拟场景等网络信息的技术: technology that uses deep learning, virtual reality and other generative or synthetic algorithms to produce text, images, audio, video, virtual scenes and other online information). 'Deepfakes' is the register's own word, not the text's."
+    },
+    {
+      "original": "深度合成服务技术支持者",
+      "register_rendering": "technical supporters",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "Same as China Law Translate. The problem is in which duties the summary gives them, not in the term itself."
+    },
+    {
+      "original": "显著标识",
+      "register_rendering": "conspicuously label",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "Art. 17 requires conspicuous labels on services that 可能导致公众混淆或者误认 (may cause public confusion or misidentification). The summary's 'could confuse or mislead the public' matches."
+    }
+  ],
+  "overall": "errors",
+  "issues": [
+    "Summary gives identity verification and content review (and, by the sentence's structure, labelling) to 'providers and technical supporters'; Arts. 9, 10, 16 and 17 give these duties to providers only. Suggested wording: 'Providers must verify users' real identities, review inputs and outputs and conspicuously label synthetic content that could confuse or mislead the public; providers and technical supporters must run security assessments for tools that generate or edit biometric features such as faces and voices, and file their algorithms where Art. 19 requires it.'",
+    "Summary says providers 'file their algorithms' without the condition in Art. 19: filing applies to providers with public-opinion attributes or social-mobilisation capacity."
+  ],
+  "note": "The labelling claim ('conspicuously label synthetic content that could confuse or mislead the public') is accurate (Art. 17). '25 articles' is correct (第二十五条 is the last). Side remark outside the translation check: the record's notes end with 'The secondary URL is an unofficial translation by China Law Translate', a remark about sources that AGENTS.md rule 5 would put in verification.note."
+}

@@ -1,0 +1,1033 @@
+{
+ "provenance": {
+  "date": "2026-10-14",
+  "agent": "Claude Code",
+  "model": "claude-opus-5-5",
+  "scope": "translation check 2026-10-14: country names, language fields, english_version from stored copies (docs/translation-check-2026-10-14.md)",
+  "run_id": null
+ },
+ "records": [],
+ "updates": [
+  {
+   "id": "VN-01",
+   "country": "Vietnam",
+   "jurisdiction": "Vietnam",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "VN-02",
+   "country": "Vietnam",
+   "jurisdiction": "Vietnam"
+  },
+  {
+   "id": "VN-03",
+   "country": "Vietnam",
+   "jurisdiction": "Vietnam",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "VN-04",
+   "country": "Vietnam",
+   "jurisdiction": "Vietnam",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "VN-05",
+   "country": "Vietnam",
+   "jurisdiction": "Vietnam"
+  },
+  {
+   "id": "VN-06",
+   "country": "Vietnam",
+   "jurisdiction": "Vietnam",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "VN-07",
+   "country": "Vietnam",
+   "jurisdiction": "Vietnam"
+  },
+  {
+   "id": "BN-01",
+   "country": "Brunei",
+   "jurisdiction": "Brunei"
+  },
+  {
+   "id": "JP-02",
+   "language": "Japanese"
+  },
+  {
+   "id": "JP-03",
+   "language": "Japanese",
+   "english_version": {
+    "kind": "government translation",
+    "url": "https://aisi.go.jp/output/output_information/250331_1/",
+    "by": "Japan AI Safety Institute (J-AISI)"
+   }
+  },
+  {
+   "id": "JP-04",
+   "language": "Japanese"
+  },
+  {
+   "id": "JP-05",
+   "language": "Japanese",
+   "english_version": {
+    "kind": "government translation",
+    "url": "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_gl_eng_20260116.pdf",
+    "by": "Cabinet Office, Government of Japan"
+   }
+  },
+  {
+   "id": "JP-06",
+   "language": "Japanese",
+   "english_version": {
+    "kind": "government translation",
+    "url": "https://www8.cao.go.jp/cstp/ai/ai_plan/aiplan_eng_20260714.pdf",
+    "by": "Cabinet Office, Government of Japan"
+   }
+  },
+  {
+   "id": "KR-02",
+   "language": "Korean",
+   "english_version": {
+    "kind": "government translation",
+    "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=71019&lang=ENG",
+    "by": "Korea Legislation Research Institute (KLRI)"
+   }
+  },
+  {
+   "id": "OM-01",
+   "language": "Arabic"
+  },
+  {
+   "id": "TH-03",
+   "language": "Thai",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "INT-03",
+   "language": "English"
+  },
+  {
+   "id": "INT-09",
+   "language": "English"
+  },
+  {
+   "id": "AU-01",
+   "language": "English"
+  },
+  {
+   "id": "UN-08",
+   "language": "English, French, Spanish"
+  },
+  {
+   "id": "EU-06",
+   "language": "English"
+  },
+  {
+   "id": "EU-07",
+   "language": "English"
+  },
+  {
+   "id": "EU-12",
+   "language": "English"
+  },
+  {
+   "id": "BR-02",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "CN-02",
+   "english_version": {
+    "kind": "third-party translation",
+    "url": "https://www.chinalawtranslate.com/en/deep-synthesis/",
+    "by": "China Law Translate"
+   }
+  },
+  {
+   "id": "CN-03",
+   "english_version": {
+    "kind": "third-party translation",
+    "url": "https://www.chinalawtranslate.com/en/generative-ai-interim/",
+    "by": "China Law Translate"
+   }
+  },
+  {
+   "id": "CN-05",
+   "english_version": {
+    "kind": "authentic",
+    "url": "https://www.mfa.gov.cn/eng/zy/gb/202405/t20240531_11367503.html",
+    "by": "Ministry of Foreign Affairs of the People's Republic of China"
+   }
+  },
+  {
+   "id": "CN-06",
+   "english_version": {
+    "kind": "third-party translation",
+    "url": "https://cset.georgetown.edu/publication/china-safety-requirements-for-generative-ai-final/",
+    "by": "Center for Security and Emerging Technology (CSET), Georgetown University"
+   }
+  },
+  {
+   "id": "CN-11",
+   "english_version": {
+    "kind": "authentic",
+    "url": "https://www.fmprc.gov.cn/mfa_eng/xw/zyxw/202507/t20250729_11679232.html",
+    "by": "Ministry of Foreign Affairs of the People's Republic of China"
+   }
+  },
+  {
+   "id": "CN-15",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "CN-17",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "FI-01",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "HU-01",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "HU-02",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "ID-01",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "IT-01",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "KR-04",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "KR-05",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "KR-06",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "KR-07",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "KR-08",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "MX-01",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "PE-01",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "PE-02",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "RS-02",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "SI-01",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "SK-02",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "TR-02",
+   "english_version": {
+    "kind": "none found"
+   }
+  },
+  {
+   "id": "UY-01",
+   "english_version": {
+    "kind": "none found"
+   }
+  }
+ ],
+ "history_context": {
+  "VN-01": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "country": {
+     "reason": "Country names follow pipeline/frame.json, which uses common English short names; titles and issuing bodies keep the issuer's own spelling.",
+     "evidence": []
+    },
+    "jurisdiction": {
+     "reason": "Country names follow pipeline/frame.json, which uses common English short names; titles and issuing bodies keep the issuer's own spelling.",
+     "evidence": []
+    },
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/VN-01.json"
+      }
+     ]
+    }
+   }
+  },
+  "VN-02": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "country": {
+     "reason": "Country names follow pipeline/frame.json, which uses common English short names; titles and issuing bodies keep the issuer's own spelling.",
+     "evidence": []
+    },
+    "jurisdiction": {
+     "reason": "Country names follow pipeline/frame.json, which uses common English short names; titles and issuing bodies keep the issuer's own spelling.",
+     "evidence": []
+    }
+   }
+  },
+  "VN-03": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "country": {
+     "reason": "Country names follow pipeline/frame.json, which uses common English short names; titles and issuing bodies keep the issuer's own spelling.",
+     "evidence": []
+    },
+    "jurisdiction": {
+     "reason": "Country names follow pipeline/frame.json, which uses common English short names; titles and issuing bodies keep the issuer's own spelling.",
+     "evidence": []
+    },
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/VN-03.json"
+      }
+     ]
+    }
+   }
+  },
+  "VN-04": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "country": {
+     "reason": "Country names follow pipeline/frame.json, which uses common English short names; titles and issuing bodies keep the issuer's own spelling.",
+     "evidence": []
+    },
+    "jurisdiction": {
+     "reason": "Country names follow pipeline/frame.json, which uses common English short names; titles and issuing bodies keep the issuer's own spelling.",
+     "evidence": []
+    },
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/VN-04.json"
+      }
+     ]
+    }
+   }
+  },
+  "VN-05": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "country": {
+     "reason": "Country names follow pipeline/frame.json, which uses common English short names; titles and issuing bodies keep the issuer's own spelling.",
+     "evidence": []
+    },
+    "jurisdiction": {
+     "reason": "Country names follow pipeline/frame.json, which uses common English short names; titles and issuing bodies keep the issuer's own spelling.",
+     "evidence": []
+    }
+   }
+  },
+  "VN-06": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "country": {
+     "reason": "Country names follow pipeline/frame.json, which uses common English short names; titles and issuing bodies keep the issuer's own spelling.",
+     "evidence": []
+    },
+    "jurisdiction": {
+     "reason": "Country names follow pipeline/frame.json, which uses common English short names; titles and issuing bodies keep the issuer's own spelling.",
+     "evidence": []
+    },
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/VN-06.json"
+      }
+     ]
+    }
+   }
+  },
+  "VN-07": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "country": {
+     "reason": "Country names follow pipeline/frame.json, which uses common English short names; titles and issuing bodies keep the issuer's own spelling.",
+     "evidence": []
+    },
+    "jurisdiction": {
+     "reason": "Country names follow pipeline/frame.json, which uses common English short names; titles and issuing bodies keep the issuer's own spelling.",
+     "evidence": []
+    }
+   }
+  },
+  "BN-01": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "country": {
+     "reason": "Country names follow pipeline/frame.json, which uses common English short names; titles and issuing bodies keep the issuer's own spelling.",
+     "evidence": []
+    },
+    "jurisdiction": {
+     "reason": "Country names follow pipeline/frame.json, which uses common English short names; titles and issuing bodies keep the issuer's own spelling.",
+     "evidence": []
+    }
+   }
+  },
+  "JP-02": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "language": {
+     "reason": "The translation check found the official text in this language only; the English texts are translations (recorded in english_version where stored).",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/JP-02.json"
+      }
+     ]
+    }
+   }
+  },
+  "JP-03": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "language": {
+     "reason": "The translation check found the official text in this language only; the English texts are translations (recorded in english_version where stored).",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/JP-03.json"
+      }
+     ]
+    },
+    "english_version": {
+     "reason": "English version found by the translation check in a stored copy (archive/JP-03/2026-10-11/secondary.html).",
+     "evidence": [
+      {
+       "file": "archive/JP-03/2026-10-11/secondary.html",
+       "quote": "Guide to Red Teaming Methodology on AI Safety(Version 1.10)"
+      },
+      {
+       "file": "docs/translation-check-2026-10-14/findings/JP-03.json"
+      }
+     ]
+    }
+   }
+  },
+  "JP-04": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "language": {
+     "reason": "The translation check found the official text in this language only; the English texts are translations (recorded in english_version where stored).",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/JP-04.json"
+      }
+     ]
+    }
+   }
+  },
+  "JP-05": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "language": {
+     "reason": "The translation check found the official text in this language only; the English texts are translations (recorded in english_version where stored).",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/JP-05.json"
+      }
+     ]
+    },
+    "english_version": {
+     "reason": "English version found by the translation check in a stored copy (archive/JP-05/2026-10-11/secondary.pdf).",
+     "evidence": [
+      {
+       "file": "archive/JP-05/2026-10-11/secondary.pdf",
+       "quote": "【Provisional translation】 ※Please refer to the original text for accuracy"
+      },
+      {
+       "file": "docs/translation-check-2026-10-14/findings/JP-05.json"
+      }
+     ]
+    }
+   }
+  },
+  "JP-06": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "language": {
+     "reason": "The translation check found the official text in this language only; the English texts are translations (recorded in english_version where stored).",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/JP-06.json"
+      }
+     ]
+    },
+    "english_version": {
+     "reason": "English version found by the translation check in a stored copy (archive/JP-06/2026-10-11/secondary.pdf).",
+     "evidence": [
+      {
+       "file": "archive/JP-06/2026-10-11/secondary.pdf",
+       "quote": "【Provisional translation】  As of July 14, 2026"
+      },
+      {
+       "file": "docs/translation-check-2026-10-14/findings/JP-06.json"
+      }
+     ]
+    }
+   }
+  },
+  "KR-02": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "language": {
+     "reason": "The translation check found the official text in this language only; the English texts are translations (recorded in english_version where stored).",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/KR-02.json"
+      }
+     ]
+    },
+    "english_version": {
+     "reason": "English version found by the translation check in a stored copy (archive/KR-02/2026-10-11/secondary.html).",
+     "evidence": [
+      {
+       "file": "archive/KR-02/2026-10-11/secondary.html",
+       "quote": "* Translations provided here are for reference only, and are neither official nor legally effective."
+      },
+      {
+       "file": "docs/translation-check-2026-10-14/findings/KR-02.json"
+      }
+     ]
+    }
+   }
+  },
+  "OM-01": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "language": {
+     "reason": "The translation check found the official text in this language only; the English texts are translations (recorded in english_version where stored).",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/OM-01.json"
+      }
+     ]
+    }
+   }
+  },
+  "TH-03": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "language": {
+     "reason": "The translation check found the official text in this language only; the English texts are translations (recorded in english_version where stored).",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/TH-03.json"
+      }
+     ]
+    },
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/TH-03.json"
+      }
+     ]
+    }
+   }
+  },
+  "INT-03": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "language": {
+     "reason": "The field held a remark after the language name; it now gives the language names only (AGENTS.md 5.6).",
+     "evidence": []
+    }
+   }
+  },
+  "INT-09": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "language": {
+     "reason": "The field held a remark after the language name; it now gives the language names only (AGENTS.md 5.6).",
+     "evidence": []
+    }
+   }
+  },
+  "AU-01": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "language": {
+     "reason": "The field held a remark after the language name; it now gives the language names only (AGENTS.md 5.6).",
+     "evidence": []
+    }
+   }
+  },
+  "UN-08": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "language": {
+     "reason": "The field held a remark after the language name; it now gives the language names only (AGENTS.md 5.6).",
+     "evidence": []
+    }
+   }
+  },
+  "EU-06": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "language": {
+     "reason": "The field held a remark after the language name; it now gives the language names only (AGENTS.md 5.6).",
+     "evidence": []
+    }
+   }
+  },
+  "EU-07": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "language": {
+     "reason": "The field held a remark after the language name; it now gives the language names only (AGENTS.md 5.6).",
+     "evidence": []
+    }
+   }
+  },
+  "EU-12": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "language": {
+     "reason": "The field held a remark after the language name; it now gives the language names only (AGENTS.md 5.6).",
+     "evidence": []
+    }
+   }
+  },
+  "BR-02": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/BR-02.json"
+      }
+     ]
+    }
+   }
+  },
+  "CN-02": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "English version found by the translation check in a stored copy (archive/CN-02/2026-10-11/secondary.html).",
+     "evidence": [
+      {
+       "file": "archive/CN-02/2026-10-11/secondary.html",
+       "quote": "By China Law Translate on 2022/12/11"
+      },
+      {
+       "file": "docs/translation-check-2026-10-14/findings/CN-02.json"
+      }
+     ]
+    }
+   }
+  },
+  "CN-03": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "English version found by the translation check in a stored copy (archive/CN-03/2026-10-11/secondary.html).",
+     "evidence": [
+      {
+       "file": "archive/CN-03/2026-10-11/secondary.html",
+       "quote": "By China Law Translate on 2023/07/13"
+      },
+      {
+       "file": "docs/translation-check-2026-10-14/findings/CN-03.json"
+      }
+     ]
+    }
+   }
+  },
+  "CN-05": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "English version found by the translation check in a stored copy (archive/CN-05/2026-10-11/official.html).",
+     "evidence": [
+      {
+       "file": "archive/CN-05/2026-10-11/official.html",
+       "quote": "Global AI Governance Initiative_Ministry of Foreign Affairs of the People's Republic of China"
+      },
+      {
+       "file": "docs/translation-check-2026-10-14/findings/CN-05.json"
+      }
+     ]
+    }
+   }
+  },
+  "CN-06": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "English version found by the translation check in a stored copy (archive/CN-06/2026-10-14/secondary.html).",
+     "evidence": [
+      {
+       "file": "archive/CN-06/2026-10-11/secondary.html",
+       "quote": "Read our translation of Chinese technical documentation for generative AI"
+      },
+      {
+       "file": "docs/translation-check-2026-10-14/findings/CN-06.json"
+      }
+     ]
+    }
+   }
+  },
+  "CN-11": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "English version found by the translation check in a stored copy (archive/CN-11/2026-10-11/official.html).",
+     "evidence": [
+      {
+       "file": "archive/CN-11/2026-10-11/official.html",
+       "quote": "The 2025 World artificial intelligence (AI) Conference and High-Level Meeting on Global AI Governance published Global AI Governance Action Plan on July 26. \nFull text of the action plan:"
+      },
+      {
+       "file": "docs/translation-check-2026-10-14/findings/CN-11.json"
+      }
+     ]
+    }
+   }
+  },
+  "CN-15": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/CN-15.json"
+      }
+     ]
+    }
+   }
+  },
+  "CN-17": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/CN-17.json"
+      }
+     ]
+    }
+   }
+  },
+  "FI-01": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/FI-01.json"
+      }
+     ]
+    }
+   }
+  },
+  "HU-01": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/HU-01.json"
+      }
+     ]
+    }
+   }
+  },
+  "HU-02": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/HU-02.json"
+      }
+     ]
+    }
+   }
+  },
+  "ID-01": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/ID-01.json"
+      }
+     ]
+    }
+   }
+  },
+  "IT-01": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/IT-01.json"
+      }
+     ]
+    }
+   }
+  },
+  "KR-04": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/KR-04.json"
+      }
+     ]
+    }
+   }
+  },
+  "KR-05": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/KR-05.json"
+      }
+     ]
+    }
+   }
+  },
+  "KR-06": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/KR-06.json"
+      }
+     ]
+    }
+   }
+  },
+  "KR-07": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/KR-07.json"
+      }
+     ]
+    }
+   }
+  },
+  "KR-08": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/KR-08.json"
+      }
+     ]
+    }
+   }
+  },
+  "MX-01": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/MX-01.json"
+      }
+     ]
+    }
+   }
+  },
+  "PE-01": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/PE-01.json"
+      }
+     ]
+    }
+   }
+  },
+  "PE-02": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/PE-02.json"
+      }
+     ]
+    }
+   }
+  },
+  "RS-02": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/RS-02.json"
+      }
+     ]
+    }
+   }
+  },
+  "SI-01": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/SI-01.json"
+      }
+     ]
+    }
+   }
+  },
+  "SK-02": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/SK-02.json"
+      }
+     ]
+    }
+   }
+  },
+  "TR-02": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/TR-02.json"
+      }
+     ]
+    }
+   }
+  },
+  "UY-01": {
+   "reason": "translation check 2026-10-14 (docs/translation-check-2026-10-14.md)",
+   "fields": {
+    "english_version": {
+     "reason": "No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.",
+     "evidence": [
+      {
+       "file": "docs/translation-check-2026-10-14/findings/UY-01.json"
+      }
+     ]
+    }
+   }
+  }
+ },
+ "summary": "Mechanical changes from the translation check of 14 Oct 2026; content fixes go to a refresh run."
+}

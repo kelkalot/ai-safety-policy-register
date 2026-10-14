@@ -1,0 +1,85 @@
+{
+  "id": "CN-07",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": ["archive/CN-07/2026-10-11/official.html", "archive/CN-07/2026-10-11/secondary.html"],
+    "usable": true,
+    "note": "official.html is the CAC release notice (Chinese, 2024年09月09日). It summarises the Framework's principles, risk classes and measures, and links to the Chinese PDF and an English version. The Framework text itself is not stored: the PDF link went to a viewer page and was skipped. secondary.html is the TC260 homepage (same SHA-256 as archive/CN-06/2026-10-11/official.html), not the Framework. Only the release notice could be checked."
+  },
+  "language_field": {"current": "Chinese, English", "proposed": "Chinese, English"},
+  "english_version": {
+    "kind": "authentic",
+    "url": "https://www.cac.gov.cn/cms/pub/interact/downloadfile.jsp?filepath=NUtqEIwGiCjGm2Bhl20cvAw5d0ApEKMeW1mFeug~F1Ouj6I6QUwmkhNVfIGhtfr~sVvTUXeSQr5Wl4dkpJ9pwFAfqphfFn00jUfFRLdBE5I=&fText=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%AE%89%E5%85%A8%E6%B2%BB%E7%90%86%E6%A1%86%E6%9E%B6-%E8%8B%B1%E6%96%87%E7%89%88",
+    "publisher": "TC260, via the CAC website",
+    "stored": false,
+    "evidence": {"file": "archive/CN-07/2026-10-11/official.html", "quote": "点击下载：人工智能安全治理框架-英文版"},
+    "note": "The issuer's release page offers an English version (英文版) next to the Chinese at launch. The English file was not stored or opened. Web lead: SESEC reproduces the English text as provided by SAC/TC260 (https://sesec.eu/wp-content/uploads/2025/11/SESEC-V-Newsletter-Annex-AI-Safety-Governance-Framework-Version-1.0.pdf). Classed 'authentic' because the issuer published it together with the Chinese; for a non-binding framework 'official translation' would also be defensible."
+  },
+  "title": {
+    "verdict": "accurate rendering",
+    "original_title_matches_source": true,
+    "source_quote": "《人工智能安全治理框架》1.0版发布",
+    "file": "archive/CN-07/2026-10-11/official.html",
+    "proposed": null,
+    "why": "人工智能安全治理框架 is literally 'AI safety governance framework'; 1.0版 is 'version 1.0'. The stored page writes the version after the book-title marks (《…》1.0版), where original_title has （1.0版）; the characters match. The issuer's English title cannot be quoted because the English file is not stored. Web leads (SESEC, AGORA) give it as 'AI Safety Governance Framework', which agrees with the register's rendering of 安全 as 'Safety'."
+  },
+  "summary_claims": [
+    {
+      "claim": "Its principles are inclusive and prudent development, risk-oriented agile governance, combined technical and management measures, and open cooperation.",
+      "file": "archive/CN-07/2026-10-11/official.html",
+      "locator": "release notice, 2nd paragraph",
+      "original_quote": "提出了包容审慎、确保安全，风险导向、敏捷治理，技管结合、协同应对，开放合作、共治共享等人工智能安全治理的原则",
+      "literal_translation": "put forward AI safety governance principles such as: inclusive and prudent, ensuring safety; risk-oriented, agile governance; combining technology and management, coordinated response; open cooperation, joint governance and sharing",
+      "verdict": "understated",
+      "note": "Each principle is a pair of four-character phrases, and the summary keeps only the first half of each. For the first principle it replaces 确保安全 ('ensuring safety') with 'development', a word the principle does not contain. 'Development' comes from the preceding sentence, which makes encouraging innovation and development the first priority (以鼓励人工智能创新发展为第一要务)."
+    },
+    {
+      "claim": "It classifies inherent risks (model/algorithm, data, system) and application risks (cyber, real-world, cognitive, ethical) ...",
+      "file": "archive/CN-07/2026-10-11/official.html",
+      "locator": "release notice, 2nd paragraph",
+      "original_quote": "针对模型算法安全、数据安全和系统安全等内生安全风险和网络域、现实域、认知域、伦理域等应用安全风险",
+      "literal_translation": "addressing inherent safety risks such as model-and-algorithm safety, data safety and system safety, and application safety risks in the cyber domain, real-world domain, cognitive domain, ethical domain, etc.",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "... and sets out technical countermeasures, comprehensive governance measures and safety guidelines for developers, providers and users.",
+      "file": "archive/CN-07/2026-10-11/official.html",
+      "locator": "release notice, 2nd paragraph",
+      "original_quote": "提出相应技术应对和综合防治措施，以及人工智能安全开发应用指引",
+      "literal_translation": "puts forward corresponding technical responses and comprehensive prevention-and-control measures, as well as guidelines for the safe development and application of AI",
+      "verdict": "accurate",
+      "note": "防治 is closer to 'prevention and control' than 'governance', but the meaning is close. 'For developers, providers and users' is not in the stored notice; it would have to be checked in the Framework text, which is not stored."
+    }
+  ],
+  "key_terms": [
+    {
+      "original": "包容审慎、确保安全",
+      "register_rendering": "inclusive and prudent development",
+      "official_rendering": null,
+      "verdict": "differs",
+      "note": "Drops 'ensuring safety' and adds 'development'. Closer: 'inclusive and prudent, ensuring safety'. The issuer's English wording could not be checked because the English file is not stored."
+    },
+    {
+      "original": "内生安全风险",
+      "register_rendering": "inherent risks",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "内生 is 'inherent' or 'endogenous'. The register drops 安全 ('safety'), which is harmless here."
+    },
+    {
+      "original": "应用安全风险（网络域、现实域、认知域、伦理域）",
+      "register_rendering": "application risks (cyber, real-world, cognitive, ethical)",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "域 is 'domain'; the four domains are rendered correctly."
+    }
+  ],
+  "overall": "minor issues",
+  "issues": [
+    "Summary renders the first principle 包容审慎、确保安全 as 'inclusive and prudent development', which drops 'ensuring safety'. It also shortens the other three principles to their first halves. Suggested: 'inclusive and prudent, ensuring safety; risk-oriented, agile governance; combining technology and management with coordinated response; open cooperation with joint governance and shared benefits'.",
+    "The Framework text (Chinese PDF and English version) is not stored, so 'for developers, providers and users' and the 'first national framework' characterisation cannot be checked; the secondary file is the TC260 homepage."
+  ],
+  "note": "The notes' claims that it was released at the main forum of the 2024 National Cybersecurity Week (在2024年国家网络安全宣传周主论坛上) and implements the Global AI Governance Initiative (贯彻落实《全球人工智能治理倡议》) match the stored notice, as does the statement that an official English version is linked from the CAC page."
+}

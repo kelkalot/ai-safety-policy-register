@@ -1,0 +1,92 @@
+{
+  "id": "CN-06",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": [
+      "archive/CN-06/2026-10-11/official.html",
+      "archive/CN-06/2026-10-11/official-rendered.html",
+      "archive/CN-06/2026-10-11/official-print.pdf",
+      "archive/CN-06/2026-10-11/secondary.html"
+    ],
+    "usable": false,
+    "note": "official.html, official-rendered.html and official-print.pdf all hold the redesigned TC260 homepage (committee leadership, a news list dated September 2026), not the document. The newer snapshot archive/CN-06/2026-10-14/ has the same homepage. secondary.html is CSET's page for its unofficial English translation. It has the Chinese heading, the preface and section 1 (Scope) only; the rest is in a PDF that was not stored. No stored file contains the Chinese text of TC260-003."
+  },
+  "language_field": {"current": "Chinese", "proposed": "Chinese"},
+  "english_version": {
+    "kind": "unofficial translation",
+    "url": "https://cset.georgetown.edu/publication/china-safety-requirements-for-generative-ai-final/",
+    "publisher": "Center for Security and Emerging Technology (CSET), Georgetown University",
+    "stored": true,
+    "evidence": {"file": "archive/CN-06/2026-10-11/secondary.html", "quote": "Read our translation of Chinese technical documentation for generative AI"},
+    "note": "Only part of the translation is stored (preface and Scope); the full CSET PDF (https://cset.georgetown.edu/wp-content/uploads/t0588_generative_AI_safety_EN.pdf, web lead) is not. According to CSET, the authors supplied an English title only. One web search found no English text published by TC260."
+  },
+  "title": {
+    "verdict": "official English title",
+    "original_title_matches_source": true,
+    "source_quote": "全国网络安全标准化技术委员会技术文件：生成式人工智能服务安全基本要求",
+    "file": "archive/CN-06/2026-10-11/secondary.html",
+    "proposed": null,
+    "why": "CSET's stored page reports the authors' own English title: 'The Chinese authors of this documentation provided the following English translation of its title: “Basic security requirements for generative artificial intelligence service.”' The register's title follows it, with 'Services' in the plural and the descriptor '(TC260 technical document)' added. original_title matches the Chinese heading on CSET's page, after the prefix 全国网络安全标准化技术委员会技术文件 ('TC260 technical document'). That heading comes from a secondary page; no official Chinese text is stored."
+  },
+  "summary_claims": [
+    {
+      "claim": "It covers training-data (corpus) safety, model safety, safety measures, and the security self-assessment ...",
+      "file": "archive/CN-06/2026-10-11/secondary.html",
+      "locator": "CSET translation, section 1 Scope (English only)",
+      "original_quote": null,
+      "literal_translation": null,
+      "verdict": "not in stored text",
+      "note": "No Chinese text stored. CSET's unofficial translation supports the claim: 'This document specifies the basic requirements for the safety aspects of generative artificial intelligence (AI) services, including corpus safety (预料安全), model safety, and safety measures, and provides safety assessment requirements.' (预料 is evidently CSET's typo for 语料, 'corpus'.)"
+    },
+    {
+      "claim": "... the security self-assessment providers use when filing under the Generative AI Measures ...",
+      "file": "archive/CN-06/2026-10-11/secondary.html",
+      "locator": "CSET translation, section 1 Scope (English only)",
+      "original_quote": null,
+      "literal_translation": null,
+      "verdict": "not in stored text",
+      "note": "CSET's Scope says only: 'This document applies to service providers carrying out safety assessments and improving their safety levels, and also provides the relevant main oversight department (主管部门) a reference for judging the safety levels of generative AI services.' No stored file mentions filing or the Generative AI Measures."
+    },
+    {
+      "claim": "... including an annex taxonomy of 31 main safety risks.",
+      "file": "archive/CN-06/2026-10-11/secondary.html",
+      "locator": "CSET introduction",
+      "original_quote": null,
+      "literal_translation": null,
+      "verdict": "not in stored text",
+      "note": "CSET's introduction says 'The technical documentation names more than 30 specific safety risks'. The figure 31 and the annex are not in any stored file."
+    }
+  ],
+  "key_terms": [
+    {
+      "original": "安全",
+      "register_rendering": "security (title, 'baseline security requirements', 'security self-assessment'); safety ('corpus safety', 'model safety', '31 main safety risks')",
+      "official_rendering": "security (authors' English title, as reported by CSET)",
+      "verdict": "differs",
+      "note": "The title follows the authors' 'security'. The summary switches between 'security' and 'safety' for the same word. CSET uses 'safety' throughout and explains why. Both renderings are defensible, but one record should use one."
+    },
+    {
+      "original": "语料安全",
+      "register_rendering": "training-data (corpus) safety",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "Matches CSET's 'corpus safety'. The Chinese term is not in any stored file in its correct form; CSET prints it as 预料安全."
+    },
+    {
+      "original": "技术文件",
+      "register_rendering": "technical document",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "CSET: 'Technical Documentation'. The register is right not to call it a standard."
+    }
+  ],
+  "overall": "could not check",
+  "issues": [
+    "No stored copy of the Chinese text: the three 'official' files (and the 2026-10-14 snapshot) are the TC260 homepage, and CSET's stored page has only the preface and Scope.",
+    "The summary's '31 main safety risks' and its link to filing under the Generative AI Measures are not in any stored file; CSET's stored page says 'more than 30'.",
+    "The summary mixes 'security' and 'safety' for 安全."
+  ],
+  "note": "As far as the stored English goes, the title and the summary's first claim agree with CSET's unofficial translation. Side remark outside the translation check: the record's notes say 'Status 'Superseded' is our assessment' and 'The secondary URL is an unofficial translation by CSET'; both are research-process remarks that AGENTS.md rule 5 puts in verification.note."
+}

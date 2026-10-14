@@ -1,0 +1,43 @@
+{"id": "OM-01", "checked_on": "2026-10-14", "tool": "Claude Code", "model": "claude-opus-5-5",
+ "stored_text": {"files": ["archive/OM-01/2026-10-12/secondary.html", "archive/OM-01/2026-10-12/official.html"], "usable": true,
+  "note": "The Arabic text of Circular 11/2025 and the attached policy is in secondary.html (qanoon.om transcription, which says it is not an official source). official.html is the MTCIT English library page: it gives the English title and date and links an Arabic and an English PDF, but neither PDF is stored, so no official-copy text of the policy is in the archive. The MTCIT page's English blurb ('The National AI Policy 2025 ... investment stimulation') does not describe this policy's content."},
+ "language_field": {"current": "Arabic; English title and summary on the MTCIT site", "proposed": "Arabic"},
+ "english_version": {"kind": "official translation",
+  "url": "https://www.mtcit.gov.om/web/content/43446?unique=e7cce2bd929945913acb8a932e3067e70aeadbe4",
+  "publisher": "Ministry of Transport, Communications and Information Technology (MTCIT)", "stored": false, "evidence": null,
+  "note": "The stored MTCIT page has two download blocks, one shown for the Arabic site (content/43405) and one shown for the English site (data-visibility-value-lang 'EN', content/43446), both labelled 'General Policy for the Safe and Ethical Use of Artificial Intelligence Systems'. The English-site PDF is probably MTCIT's English version; it was not stored or opened, and the record's verification note says both PDFs are image-only scans. The legally operative text is the Arabic circular. qanoon.om also links an unofficial paywalled English translation on decree.om titled 'Circular 45962 The Public Policy for the Safe and Ethical Use of Artificial Intelligence Systems' (https://decree.om/2025/mtcit20259901/), not stored. No web search was run."},
+ "title": {"verdict": "official English title", "original_title_matches_source": true,
+  "source_quote": "General Policy for the Safe and Ethical Use of Artificial Intelligence Systems",
+  "file": "archive/OM-01/2026-10-12/official.html", "proposed": null,
+  "why": "The title is the English title MTCIT itself uses on its policy page. original_title matches the policy heading in the qanoon.om text character for character ('السياسة العامة للاستخدام الآمن والأخلاقي لأنظمة الذكاء الاصطناعي'). 'General Policy' is a correct rendering of 'السياسة العامة'; decree.om's 'Public Policy' is also possible but is not the issuer's English."},
+ "summary_claims": [
+  {"claim": "Policy ... for government units and regulated private entities that develop or use AI systems, including generative AI, across the lifecycle.",
+   "file": "archive/OM-01/2026-10-12/secondary.html", "locator": "نطاق التطبيق (Scope of application)",
+   "original_quote": "تطبق هذه الوثيقة على جميع الوحدات الحكومية ومؤسسات القطاع الخاص الخاضعة للتنظيم من قبل الجهات التنظيمية التي تعمل على تطوير أو استخدام أنظمة الذكاء الاصطناعي وتشمل مراحل التطبيق جمع البيانات تصميم الأنظمة، التدريب، التشغيل والتقييم المستمر.",
+   "literal_translation": "This document applies to all government units and private-sector institutions subject to regulation by the regulatory authorities that work on developing or using artificial intelligence systems, and the stages of application include data collection, system design, training, operation and continuous evaluation.",
+   "verdict": "accurate"},
+  {"claim": "Developers must carry out an ethical, social and environmental impact assessment before deployment.",
+   "file": "archive/OM-01/2026-10-12/secondary.html", "locator": "ثالثا: ضوابط واشتراطات تطوير أنظمة الذكاء الاصطناعي, item 3",
+   "original_quote": "٣. إجراء تقييم للأثر الأخلاقي، والاجتماعي والبيئي لأنظمة الذكاء الاصطناعي قبل نشرها واستخدامها والاحتفاظ بنتائج هذا التقييم ضمن وثائق النظام.",
+   "literal_translation": "3. Conducting an assessment of the ethical, social and environmental impact of artificial intelligence systems before their deployment and use, and keeping the results of this assessment within the system's documentation.",
+   "verdict": "accurate"},
+  {"claim": "Systems must label generated content.",
+   "file": "archive/OM-01/2026-10-12/secondary.html", "locator": "ثالثا: ضوابط واشتراطات تطوير أنظمة الذكاء الاصطناعي, item 4",
+   "original_quote": "٤. ضمان الشفافية في المحتوى المتولد واتخاذ تدابير لمنع استخدام الأنظمة في توليد محتوى ضار أو مضل مع توفير آليات للكشف عن المحتوى التوليدي من خلال وضع علامات مميزة أو إشعارات توضيحية لضمان عدم إساءة استخدامه.",
+   "literal_translation": "4. Ensuring transparency in generated content and taking measures to prevent the use of the systems to generate harmful or misleading content, while providing mechanisms for disclosing generative content by placing distinctive marks or explanatory notices to ensure it is not misused.",
+   "verdict": "accurate"}
+ ],
+ "key_terms": [
+  {"original": "الجهة المستخدمة لأنظمة الذكاء الاصطناعي", "register_rendering": "deployers", "official_rendering": null, "verdict": "differs",
+   "note": "Defined as any governmental or private institution that uses or operates AI systems; literally 'the entity using AI systems'. 'Deployer' is the EU AI Act term and fits the definition, but the policy itself does not use it. MTCIT's English PDF, if it has one, was not stored."},
+  {"original": "الجهة المطورة لأنظمة الذكاء الاصطناعي", "register_rendering": "developers", "official_rendering": null, "verdict": "consistent",
+   "note": "Literally 'the entity developing AI systems'; defined as any governmental or private institution that develops AI systems."},
+  {"original": "الإشراف والتحكم البشري", "register_rendering": "human supervision", "official_rendering": null, "verdict": "consistent",
+   "note": "Literally 'human supervision and control' over sensitive and impactful decisions taken by AI systems (deployer duty 1)."}
+ ],
+ "overall": "minor issues",
+ "issues": [
+  "The language field carries a remark ('English title and summary on the MTCIT site'); it should read 'Arabic'.",
+  "The register calls the using entities 'deployers', an EU AI Act term; the policy says 'entities using AI systems'. Defensible, not the policy's own wording."
+ ],
+ "note": "Title, circular number and date (10 Shawwal 1446 AH = 9 April 2025) and every checked obligation match the Arabic text. All content checks rest on the qanoon.om transcription, because the MTCIT PDFs were not stored. Storing the MTCIT Arabic and English PDFs (content/43405 and content/43446) would give an official copy and probably an English version from the issuer."}

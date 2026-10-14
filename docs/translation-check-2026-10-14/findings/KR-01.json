@@ -1,0 +1,95 @@
+{
+  "id": "KR-01",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": [
+      "archive/KR-01/2026-10-11/secondary.html",
+      "archive/KR-06/2026-10-12/official.pdf"
+    ],
+    "usable": false,
+    "note": "The record's only stored file (secondary.html) is KLRI's English page for the AI Basic Act, not the institute's page, and it is a JavaScript shell: it holds only the English title of the Act and KLRI's disclaimer, no article text and no Korean. The institute's own page (aisi.re.kr/eng/contents/22) was never stored, so the summary (mission, divisions) cannot be checked. The Korean text of Article 12 of the Act (the institute's statutory basis, cited in the notes) is stored in another record's file: the MSIT/NIA high-impact AI guideline reproduces Act No. 20676 in its annex (archive/KR-06/2026-10-12/official.pdf, PDF page 176); that is the only original-language text used here."
+  },
+  "language_field": {
+    "current": "Korean, English",
+    "proposed": "Korean, English"
+  },
+  "english_version": {
+    "kind": "authentic",
+    "url": "https://www.aisi.re.kr/eng/contents/22",
+    "publisher": "AI Safety Institute (AISI), Korea",
+    "stored": false,
+    "evidence": null,
+    "note": "Lead only. The institute runs its own English pages (the record's archiver attempts list this URL as the official source; a web search returned it with the page title 'Creating a Better Future with Safe and Trustworthy AI'). It was not stored, so nothing in it is evidence. The statutory basis (Act Art. 12) has a KLRI English reference translation, but the stored KLRI page is an empty shell (see KR-02). The proposed language value keeps 'Korean, English' on the strength of the institute's bilingual site, but neither language version of the institute's own text is in the archive."
+  },
+  "title": {
+    "verdict": "accurate rendering",
+    "original_title_matches_source": true,
+    "source_quote": "인공지능안전연구소(이하 “안전연구소”라 한다)를 운영할 수 있다.",
+    "file": "archive/KR-06/2026-10-12/official.pdf",
+    "proposed": null,
+    "why": "original_title is only the institute's statutory name (Act Art. 12: 인공지능안전연구소, literally 'Artificial Intelligence Safety Institute'), found in the Act text stored with KR-06. The register title 'Establishment of the Korea AI Safety Institute' is a descriptive record title, not a translation of it: 'Establishment of' and 'Korea' are register additions. Nothing in it is wrong, but a reader comparing title and original_title will assume one translates the other."
+  },
+  "summary_claims": [
+    {
+      "claim": "It evaluates risks of AI models and systems, researches prevention and mitigation",
+      "file": "archive/KR-01/2026-10-11/secondary.html",
+      "locator": "whole file (shell page)",
+      "original_quote": null,
+      "literal_translation": null,
+      "verdict": "not in stored text",
+      "note": "Rests on the institute's English About page, which was not stored. Act Art. 12(2) (stored with KR-06) lists risk definition and analysis and research on evaluation criteria and methods, but says nothing about prevention and mitigation research."
+    },
+    {
+      "claim": "supports international AI safety standards, and represents Korea in cooperation with other AI safety institutes",
+      "file": "archive/KR-06/2026-10-12/official.pdf",
+      "locator": "PDF page 176, annex 1 (Act No. 20676), Art. 12(2) items 4-5",
+      "original_quote": "4. 인공지능안전 기술 및 표준화 연구 5. 인공지능안전 관련 국제교류ㆍ국제협력",
+      "literal_translation": "4. Research on AI safety technology and standardisation 5. International exchange and international cooperation related to AI safety",
+      "verdict": "not in stored text",
+      "note": "The statute gives only standardisation research and international exchange/cooperation; 'represents Korea' and 'other AI safety institutes' come from the unstored institute page."
+    },
+    {
+      "claim": "Its divisions cover AI safety policy and international cooperation, AI safety evaluation, and AI safety research.",
+      "file": "archive/KR-01/2026-10-11/secondary.html",
+      "locator": "whole file (shell page)",
+      "original_quote": null,
+      "literal_translation": null,
+      "verdict": "not in stored text",
+      "note": "Organisational detail from the unstored institute page."
+    },
+    {
+      "claim": "(notes) Article 12 of the AI Basic Act ... lets the MSIT Minister operate an AI safety institute to define AI safety risks, research evaluation, develop standards, cooperate internationally and support Art. 32 safety obligations",
+      "file": "archive/KR-06/2026-10-12/official.pdf",
+      "locator": "PDF page 176, annex 1 (Act No. 20676), Art. 12(1)-(2)",
+      "original_quote": "1. 인공지능안전 관련 위험 정의 및 분석 2. 인공지능안전 정책 연구 3. 인공지능안전 평가 기준ㆍ방법 연구 4. 인공지능안전 기술 및 표준화 연구 5. 인공지능안전 관련 국제교류ㆍ국제협력 6. 제32조에 따른 인공지능시스템의 안전성 확보에 관한 지원",
+      "literal_translation": "1. Definition and analysis of risks related to AI safety 2. AI safety policy research 3. Research on AI safety evaluation criteria and methods 4. Research on AI safety technology and standardisation 5. International exchange and cooperation related to AI safety 6. Support for ensuring the safety of AI systems under Article 32",
+      "verdict": "accurate",
+      "note": "Art. 12(1) says the Minister 'may operate' (운영할 수 있다) the institute, matching 'lets'. 'Develop standards' slightly overstates 'standardisation research', and the notes leave out policy research (item 2); neither changes the meaning."
+    }
+  ],
+  "key_terms": [
+    {
+      "original": "인공지능안전연구소",
+      "register_rendering": "Korea AI Safety Institute (title); AI safety institute (notes)",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "Literal rendering of the statutory name. The institute's own English name is not in any stored file (its English site is a lead only)."
+    },
+    {
+      "original": "인공지능안전",
+      "register_rendering": "AI safety",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "Art. 12(1) defines it as a state of protecting people's life, body and property from AI-related risks and maintaining the trust basis of an AI society ('위험으로부터 국민의 생명ㆍ신체ㆍ재산 등을 보호하고 인공지능사회의 신뢰 기반을 유지하기 위한 상태'). The register's plain 'AI safety' is fine, though the statutory meaning is narrower and defined."
+    }
+  ],
+  "overall": "could not check",
+  "issues": [
+    "The record's own stored file is the wrong document (KLRI's English page for the AI Basic Act) and an empty JavaScript shell; the institute page behind the summary was never stored, so none of the three summary claims can be checked.",
+    "Title and original_title do not correspond: original_title is the institute's name (인공지능안전연구소), while title is a descriptive 'Establishment of the Korea AI Safety Institute'.",
+    "Notes: 'develop standards' slightly overstates Art. 12(2)4 'standardisation research' (표준화 연구)."
+  ],
+  "note": "The only original-language text available is Act Art. 12, stored in the KR-06 guideline annex (Act No. 20676 as enacted). That text supports the notes' account of the statutory basis. To make the record checkable, the institute's Korean and English About pages need to be stored."
+}

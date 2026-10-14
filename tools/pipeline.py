@@ -17,6 +17,9 @@ this file does the bookkeeping, so that a run can be repeated and checked.
     python3 tools/pipeline.py report   --run RUN     # runs/RUN/report.md
     python3 tools/pipeline.py queue [--days 180] [--limit 25]
     python3 tools/pipeline.py frame --due [--days 180] | --report | --add CODE --name N --level L --region R
+    python3 tools/pipeline.py hosts [--code C] [--pending]        # the curated list of official sites
+    python3 tools/pipeline.py hosts --add HOST --code C --status official|"not official"|proposed --by NAME
+                                    [--operator O --kind K --evidence-url U --quote Q --note N]
     python3 tools/pipeline.py log-human --run RUN --id ID --result ok|problem --note "..." [--by NAME]
     python3 tools/pipeline.py log-scope --id ID --decision in|out --note "..." [--by NAME] [--run RUN]
 
@@ -61,6 +64,8 @@ ROOT = build.ROOT
 RUNS = ROOT / "runs"
 FRAME = ROOT / "pipeline" / "frame.json"
 REQUESTS = ROOT / "pipeline" / "refresh-requests.jsonl"
+SITES = ROOT / "pipeline" / "official-sites.json"
+SITE_STATUSES = ["official", "not official", "proposed"]
 SCOPE_DECISIONS = ROOT / "pipeline" / "scope-decisions.md"
 
 RUN_TYPES = ["discover", "refresh", "recheck"]
@@ -75,7 +80,7 @@ METHOD_TOKENS = {"A": "official-url-fetched", "B": "alternative-official-url-fet
 RECORD_FIELDS = ["id", "slug", "title", "original_title", "short_title", "jurisdiction", "country", "jurisdiction_level",
                  "region", "issuing_body", "instrument_type", "legal_force", "status", "date_published", "date_in_force",
                  "date_last_updated", "official_identifier", "official_url", "secondary_url", "language", "summary",
-                 "safety_topics", "related", "notes", "scope_note", "verification"]
+                 "safety_topics", "related", "notes", "scope_note", "english_version", "verification"]
 SET_BY_SCRIPT = {"id", "slug"}
 IN_FORCE = {"In force", "Partially in force"}
 ENDED = {"Superseded", "Revoked / withdrawn", "Lapsed"}
@@ -85,7 +90,8 @@ QUOTE_MIN_ALNUM = 8   # a quote needs at least this many letters or digits to id
 # Which stored files can count as official evidence. The archiver sets a file's role; an agent only labels its quotes,
 # so a label is capped by the role and by the host the file came from.
 SECONDARY_ROLES = {"secondary"}
-GOV_HOST = re.compile(r"\.(gov|mil|int)$|(^|\.)(gov|gob|gouv|govt|gv|go|gub|mil|admin|gc)\.[a-z]{2,3}$"
+GOV_HOST = re.compile(r"\.(gov|mil|int)$|(^|\.)(gov|gob|gouv|govt|gv|go|gub|mil|admin|gc|leg)\.[a-z]{2,3}$"
+                      r"|\.state\.[a-z]{2}\.us$"
                       r"|(^|\.)(europa\.eu|un\.org|unesco\.org|oecd\.org|oecd\.ai|wto\.org|asean\.org)$")
 NOT_OFFICIAL_HOSTS = set(publish_hf.THIRD_PARTY_HOSTS)
 SUMMARY_MIN, SUMMARY_MAX = 250, 700
@@ -223,6 +229,43 @@ def save_frame(f):
     write_json(FRAME, f)
 
 
+def strip_www(host):
+    host = (host or "").lower()
+    return host[4:] if host.startswith("www.") else host
+
+
+def load_sites(path=SITES):
+    """pipeline/official-sites.json, the curated list of sites (AGENTS.md section 7.6). Every entry says who runs the
+    host, how that was established and who decided; entries are never deleted, so a decision is not undone later."""
+    data = read_json(path, None) or {"about": "", "sites": []}
+    problems, seen = [], set()
+    for i, e in enumerate(data.get("sites") or []):
+        key = (e.get("code"), strip_www(e.get("host")))
+        if not all(key):
+            problems.append("entry %d needs code and host" % (i + 1))
+        if e.get("status") not in SITE_STATUSES:
+            problems.append("%s %s: status must be one of %s" % (key + (", ".join(SITE_STATUSES),)))
+        if e.get("status") in ("official", "not official") and not (e.get("decided_by") and e.get("decided_on")):
+            problems.append("%s %s: a decision needs decided_by and decided_on" % key)
+        if key in seen:
+            problems.append("%s %s is listed twice" % key)
+        seen.add(key)
+    if problems:
+        raise SystemExit("pipeline/official-sites.json: " + "; ".join(problems[:10]))
+    return data
+
+
+def site_hosts(data):
+    """(code -> hosts that count as official, hosts that never count as official)."""
+    official, rejected = defaultdict(list), set()
+    for e in data.get("sites") or []:
+        if e["status"] == "official":
+            official[e["code"]].append(strip_www(e["host"]))
+        elif e["status"] == "not official":
+            rejected.add(strip_www(e["host"]))
+    return official, rejected
+
+
 def frame_cells(f):
     for j in f["jurisdictions"]:
         for t, cell in j["cells"].items():
@@ -320,12 +363,12 @@ def cmd_frame(args):
             raise SystemExit("--add needs --name, --level and --region")
         if args.region not in validate.VOCAB["region"] or args.level not in validate.VOCAB["jurisdiction_level"]:
             raise SystemExit("--region and --level must use the register's vocabulary")
-        types = {"National": ["legislature", "gazette", "executive", "ministries", "ai-bodies", "elections"],
-                 "Supranational": ["legislature", "gazette", "executive", "ai-bodies"],
-                 "Sub-national": ["legislature", "gazette", "executive", "ministries"],
+        types = {"National": ["legislature", "gazette", "executive", "ministries", "ai-bodies", "elections", "supervisors"],
+                 "Supranational": ["legislature", "gazette", "executive", "ai-bodies", "supervisors"],
+                 "Sub-national": ["legislature", "gazette", "executive", "ministries", "supervisors"],
                  "International": ["repository"]}[args.level]
         f["jurisdictions"].append({"code": args.add, "name": args.name, "level": args.level, "region": args.region,
-                                   "parent": args.parent, "records": 0, "known_hosts": [],
+                                   "parent": args.parent, "records": 0,
                                    "cells": {t: {"last_searched": None, "outcome": None, "run_id": None,
                                                  "where_to_look": []} for t in types}})
         save_frame(f)
@@ -801,7 +844,7 @@ class TextIndex:
         self.records = {r["id"]: r for r in db["records"]}
         self._cache = {}
         self.cells = {c["cand_id"]: c.get("cell") for c in candidates(d)}
-        self.frame_hosts = {j["code"]: j.get("known_hosts") or [] for j in (load_frame().get("jurisdictions") or [])}
+        self.frame_hosts, self.rejected_hosts = site_hosts(load_sites())
 
     def file_info(self, cid, record_id=None):
         """path -> (archive role, URL it came from) for every file a candidate may quote."""
@@ -853,10 +896,11 @@ def url_host(url):
     return (urllib.parse.urlsplit(url or "").hostname or "").lower()
 
 
-def official_host(host, code, frame_hosts):
-    """A host counts as official when it is a government domain, or one of the jurisdiction's known_hosts in
-    pipeline/frame.json, and not a known third-party site. Humans add hosts to known_hosts after checking them."""
-    if not host or host in NOT_OFFICIAL_HOSTS or ("www." + host) in NOT_OFFICIAL_HOSTS:
+def official_host(host, code, frame_hosts, rejected=()):
+    """A host counts as official when it is a government domain, or listed as official for the jurisdiction in
+    pipeline/official-sites.json, and is neither a known third-party site nor listed there as not official.
+    A human records each decision with `pipeline.py hosts --add`."""
+    if not host or host in NOT_OFFICIAL_HOSTS or ("www." + host) in NOT_OFFICIAL_HOSTS or strip_www(host) in rejected:
         return False
     if GOV_HOST.search(host):
         return True
@@ -924,9 +968,9 @@ def check_item(index, cid, item, record_id=None):
         if role in SECONDARY_ROLES:
             warnings.append("%s was stored as a secondary source, so it counts as secondary, not %s" % (path, kind))
             kind = "secondary"
-        elif not official_host(host, index.code_for(cid, record_id), index.frame_hosts):
+        elif not official_host(host, index.code_for(cid, record_id), index.frame_hosts, index.rejected_hosts):
             warnings.append("host %s is not recognised as official, so this quote counts as secondary; if the host is "
-                            "official, a human adds it to known_hosts in pipeline/frame.json" % (host or "(unknown)"))
+                            "official, a human records it with tools/pipeline.py hosts --add" % (host or "(unknown)"))
             kind = "secondary"
     return not problems, kind, problems, warnings
 
@@ -1035,6 +1079,18 @@ def record_problems(rec, db, update=False):
             warnings.append("country %r is spelled differently from the register and the frame" % rec["country"])
     if present("official_identifier") and re.search(r"(?i)\bversion\b|^v\d|not confirmed|unknown", rec["official_identifier"]):
         warnings.append("official_identifier looks like a version label or a remark")
+    if present("language") and validate.LANGUAGE_REMARK.search(validate.LANGUAGE_VARIANT.sub("", rec["language"])):
+        errors.append("language %r holds a remark; give language names only and put an English translation in "
+                      "english_version" % rec["language"])
+    ev = rec.get("english_version")
+    if ev is not None:
+        if not isinstance(ev, dict) or ev.get("kind") not in validate.ENGLISH_VERSION_KINDS:
+            errors.append("english_version must be {kind, url, by} with kind one of %s"
+                          % ", ".join(validate.ENGLISH_VERSION_KINDS))
+        elif ev["kind"] in validate.TRANSLATION_KINDS and not (ev.get("url") and ev.get("by")):
+            errors.append("english_version is a translation: give its url and who made it ('by')")
+    elif not update and present("language") and not validate.has_english_text(rec):
+        errors.append("the official text is not in English: record english_version (none found, if none was found)")
     return errors, warnings
 
 
@@ -1064,6 +1120,14 @@ def evaluate(index, cid, ex, db):
     res["warnings"] += warns
     base = dict(index.records[target]) if update else {}
     merged = dict(base, **{k: v for k, v in rec.items() if k in RECORD_FIELDS})
+    ev = rec.get("english_version")
+    if isinstance(ev, dict) and ev.get("kind") in validate.TRANSLATION_KINDS and ev.get("url"):
+        stored = {u for _, u in index.file_info(cid, target if update else None).values() if u}
+        if ev["url"] not in stored:
+            res["errors"].append("english_version.url is not a stored source of %s; add it to extra_urls so the "
+                                 "archiver stores it" % cid)
+    if update and merged.get("english_version") is None and merged.get("language") and not validate.has_english_text(merged):
+        res["warnings"].append("the official text is not in English and english_version is not recorded yet")
     confirmed = ((ex.get("judgment") or {}).get("confirmed") or []) if update else []
     fields = [k for k in FACT_FIELDS if (k in rec and rec.get(k) is not None) or k in confirmed]
     if update:
@@ -1613,6 +1677,19 @@ def cmd_report(args):
         missing = (read_json(d / "candidates.json", {}) or {}).get("cells_without_log") or []
         if missing:
             L.append("- not searched: %s" % ", ".join(missing))
+    review = defaultdict(set)
+    for cid, res in ((read_json(d / "evidence.json", {}) or {}).get("extractions") or {}).items():
+        for w in res.get("warnings") or []:
+            m = re.search(r"host (\S+) is not recognised as official", w)
+            if m and m.group(1) != "(unknown)":
+                review[strip_www(m.group(1))].add(cid)
+    if review:
+        L += ["", "## Hosts to review", "",
+              "Quotes from these hosts counted as secondary because the host is neither a government domain nor listed in "
+              "`pipeline/official-sites.json`. If the issuing body runs the host, or uses it as its own channel, record it "
+              "with `python3 tools/pipeline.py hosts --add HOST --code CODE --status official --by NAME --operator ... "
+              "--evidence-url ...`, and run `evidence` again.", ""]
+        L += ["- %s: %s" % (h, ", ".join(sorted(c))) for h, c in sorted(review.items())]
     leads = [(cid, x) for cid, e in ex.items() for x in (e or {}).get("leads") or []]
     oq = [(cid, x) for cid, e in ex.items() for x in (e or {}).get("open_questions") or []]
     if leads or oq:
@@ -1629,6 +1706,7 @@ def cmd_report(args):
     if merged:
         run["status"] = "merged"
         save_run(d, run)
+        build.write_history_md()  # HISTORY.md links each run to its report, which exists only from now on
     print("Written runs/%s/report.md (%s)" % (args.run, "merged" if merged else "before merge"))
     return 0
 
@@ -1667,6 +1745,53 @@ def cmd_log_scope(args):
     print("Logged the scope decision and added it to pipeline/scope-decisions.md.")
     if args.decision == "out":
         print("Records are never deleted: give the record a status and a note in a refresh run, or keep it with a scope note.")
+    return 0
+
+
+# ----------------------------------------------------------------------------- official sites
+
+def cmd_hosts(args):
+    data = load_sites()
+    sites = data.setdefault("sites", [])
+    if args.add:
+        host = strip_www(args.add)
+        if not (args.code and args.status and args.by):
+            raise SystemExit("--add needs --code, --status and --by")
+        if args.status not in SITE_STATUSES:
+            raise SystemExit("--status must be one of %s" % ", ".join(SITE_STATUSES))
+        codes = {j["code"] for j in load_frame().get("jurisdictions") or []}
+        if args.code not in codes:
+            raise SystemExit("%s is not a jurisdiction in pipeline/frame.json" % args.code)
+        if args.status != "proposed" and not (args.evidence_url or args.note):
+            raise SystemExit("a decision needs --evidence-url (the page that shows who runs the host) or --note")
+        entry = OrderedDict([("code", args.code), ("host", host), ("status", args.status), ("operator", args.operator),
+                             ("kind", args.kind),
+                             ("evidence", {"url": args.evidence_url, "quote": args.quote, "checked_on": today()}
+                              if args.evidence_url else None),
+                             ("decided_by", args.by), ("decided_on", today()), ("note", args.note)])
+        old = next((e for e in sites if e.get("code") == args.code and strip_www(e.get("host")) == host), None)
+        if old:
+            entry["previous"] = {k: old.get(k) for k in ("status", "decided_by", "decided_on", "note")}
+            sites[sites.index(old)] = entry
+        else:
+            sites.append(entry)
+        sites.sort(key=lambda e: (e["code"], e["host"]))
+        write_json(SITES, data)
+        print("%s %s: %s (%s)%s" % (args.code, host, args.status, args.by, ", replacing %s" % old["status"] if old else ""))
+        return 0
+    if args.code or args.pending:
+        rows = [e for e in sites if (not args.code or e["code"] == args.code)
+                and (not args.pending or e["status"] == "proposed" or e.get("decided_by") == "seed")]
+        for e in rows:
+            print("%-7s %-40s %-13s %-10s %s" % (e["code"], e["host"], e["status"], e.get("decided_by") or "-",
+                                                (e.get("operator") or e.get("note") or "")[:70]))
+        print("%d entr%s" % (len(rows), "y" if len(rows) == 1 else "ies"))
+        return 0
+    st = Counter(e["status"] for e in sites)
+    seeds = sum(1 for e in sites if e.get("decided_by") == "seed")
+    print("pipeline/official-sites.json: %d sites; %s." % (len(sites), ", ".join("%s %d" % kv for kv in st.most_common())))
+    print("%d official entries are seeds from records' official_url, not yet reviewed by a person; %d proposed entries "
+          "wait for a decision. List them with --pending." % (seeds, st.get("proposed", 0)))
     return 0
 
 
@@ -1719,6 +1844,17 @@ def main(argv=None):
     s.add_argument("--level")
     s.add_argument("--region")
     s.add_argument("--parent")
+    s = sub.add_parser("hosts", help="the curated list of official sites")
+    s.add_argument("--code")
+    s.add_argument("--pending", action="store_true", help="proposed entries and unreviewed seeds")
+    s.add_argument("--add", metavar="HOST")
+    s.add_argument("--status")
+    s.add_argument("--by")
+    s.add_argument("--operator")
+    s.add_argument("--kind")
+    s.add_argument("--evidence-url")
+    s.add_argument("--quote")
+    s.add_argument("--note")
     s = sub.add_parser("log-human")
     s.add_argument("--run")
     s.add_argument("--id", required=True)
@@ -1735,7 +1871,7 @@ def main(argv=None):
     cmds = {"new": cmd_new, "status": cmd_status, "stage": cmd_stage, "dedupe": cmd_dedupe, "textify": cmd_textify,
             "evidence": cmd_evidence, "sample": cmd_sample, "compare": cmd_compare, "queue": cmd_queue,
             "assemble": cmd_assemble, "report": cmd_report, "frame": cmd_frame, "log-human": cmd_log_human,
-            "log-scope": cmd_log_scope}
+            "log-scope": cmd_log_scope, "hosts": cmd_hosts}
     if not args.cmd:
         ap.print_help()
         return 2

@@ -146,6 +146,67 @@
       "US-RI-01"
      ],
      "history_events": 10
+    },
+    {
+     "date": "2026-10-14",
+     "agent": "Claude Code",
+     "model": "claude-opus-5-5",
+     "scope": "translation check 2026-10-14: country names, language fields, english_version from stored copies (docs/translation-check-2026-10-14.md)",
+     "run_id": null,
+     "records_added": 0,
+     "ids": [],
+     "ids_updated": [
+      "VN-01",
+      "VN-02",
+      "VN-03",
+      "VN-04",
+      "VN-05",
+      "VN-06",
+      "VN-07",
+      "BN-01",
+      "JP-02",
+      "JP-03",
+      "JP-04",
+      "JP-05",
+      "JP-06",
+      "KR-02",
+      "OM-01",
+      "TH-03",
+      "INT-03",
+      "INT-09",
+      "AU-01",
+      "UN-08",
+      "EU-06",
+      "EU-07",
+      "EU-12",
+      "BR-02",
+      "CN-02",
+      "CN-03",
+      "CN-05",
+      "CN-06",
+      "CN-11",
+      "CN-15",
+      "CN-17",
+      "FI-01",
+      "HU-01",
+      "HU-02",
+      "ID-01",
+      "IT-01",
+      "KR-04",
+      "KR-05",
+      "KR-06",
+      "KR-07",
+      "KR-08",
+      "MX-01",
+      "PE-01",
+      "PE-02",
+      "RS-02",
+      "SI-01",
+      "SK-02",
+      "TR-02",
+      "UY-01"
+     ],
+     "history_events": 66
     }
    ]
   }
@@ -393,7 +454,7 @@
    "official_identifier": null,
    "official_url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023",
    "secondary_url": null,
-   "language": "English (translations published)",
+   "language": "English",
    "summary": "First intergovernmental declaration focused on 'frontier AI' (highly capable general-purpose models). It warns of serious, even catastrophic, harm from misuse and loss of control, singles out cybersecurity, biotechnology and disinformation risks, and calls for shared scientific understanding, risk-based policies, safety testing and evaluation, and transparency from frontier developers.",
    "safety_topics": [
     "general-purpose / frontier AI",
@@ -1293,7 +1354,7 @@
    "official_identifier": null,
    "official_url": "https://au.int/en/documents/20240809/continental-artificial-intelligence-strategy",
    "secondary_url": "https://au.int/sites/default/files/documents/44004-doc-EN-_Continental_AI_Strategy_July_2024.pdf",
-   "language": "English (AU working languages)",
+   "language": "English",
    "summary": "A development-focused continental AI strategy with a focus area on minimising risks. It names bias, privacy, disinformation and election manipulation, surveillance, deepfakes, cyber threats and military uses, and calls for technical standards on AI safety and security. It recommends agile, risk-based regulation, impact assessments, transparency registers, red-teaming, national and regional AI councils, and an annual AI safety and security conference.",
    "safety_topics": [
     "risk-based classification",
@@ -2398,7 +2459,7 @@
    "official_identifier": "DSIT 2025/001",
    "official_url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2025",
    "secondary_url": "https://www.gov.uk/government/news/first-international-ai-safety-report-to-inform-discussions-at-ai-action-summit",
-   "language": "English (translations published)",
+   "language": "English",
    "summary": "The first full international scientific assessment of general-purpose AI capabilities and risks, written by about 100 experts. It covers malicious use, malfunctions and systemic risks, the rise of autonomous AI agents, and the state of risk-management techniques. It identifies key open research questions for policymakers, without making policy recommendations.",
    "safety_topics": [
     "general-purpose / frontier AI",
@@ -4791,7 +4852,7 @@
    "official_identifier": null,
    "official_url": "https://www.un.org/independent-international-scientific-panel-ai/en/preliminary-report",
    "secondary_url": "https://www.un.org/independent-international-scientific-panel-ai/sites/default/files/2026-07/en_executive_summary.pdf",
-   "language": "English, French, Spanish (other UN languages)",
+   "language": "English, French, Spanish",
    "summary": "The UN Scientific Panel's first assessment of AI opportunities, risks and impacts. Its central warning is that current safeguards are not keeping pace with AI capabilities, and that policymakers face an 'evidence timing problem'. Domains covered include security, human rights and information integrity, child safety, and governance and reliability.",
    "safety_topics": [
     "general-purpose / frontier AI",
@@ -6304,7 +6365,7 @@
    "official_identifier": null,
    "official_url": "https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-prohibited-artificial-intelligence-ai-practices-defined-ai-act",
    "secondary_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52026DC0234",
-   "language": "English (later translated into other EU languages)",
+   "language": "English",
    "summary": "Non-binding Commission interpretation of the AI Act Art. 5 prohibitions, with legal explanations and practical examples. The prohibitions cover harmful manipulation and exploitation of vulnerabilities, social scoring, individual predictive policing, untargeted facial-image scraping, emotion recognition at work and in education, biometric categorisation of sensitive traits, and real-time remote biometric identification for law enforcement.",
    "safety_topics": [
     "prohibited practices",
@@ -6464,7 +6525,7 @@
    "official_identifier": null,
    "official_url": "https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application",
    "secondary_url": null,
-   "language": "English (later translated into other EU languages)",
+   "language": "English",
    "summary": "Non-binding guidance that explains the elements of the Art. 3(1) definition of an 'AI system', so that providers and other parties can tell whether software falls within the scope of the AI Act and hence its risk-based obligations.",
    "safety_topics": [
     "risk-based classification"
@@ -7257,7 +7318,7 @@
    "official_identifier": null,
    "official_url": "https://digital-strategy.ec.europa.eu/en/library/explanatory-notice-and-template-public-summary-training-content-general-purpose-ai-models",
    "secondary_url": null,
-   "language": "English (notice also in other EU languages)",
+   "language": "English",
    "summary": "Template required under AI Act Art. 53(1)(d) that sets a 'common minimal baseline' for the public summary of content used to train a GPAI model. It supports transparency and the exercise of copyright and other rights.",
    "safety_topics": [
     "general-purpose / frontier AI",
@@ -9437,6 +9498,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -10898,6 +10962,11 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "third-party translation",
+    "url": "https://www.chinalawtranslate.com/en/deep-synthesis/",
+    "by": "China Law Translate"
    }
   },
   {
@@ -11028,6 +11097,11 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "third-party translation",
+    "url": "https://www.chinalawtranslate.com/en/generative-ai-interim/",
+    "by": "China Law Translate"
    }
   },
   {
@@ -11242,6 +11316,11 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "authentic",
+    "url": "https://www.mfa.gov.cn/eng/zy/gb/202405/t20240531_11367503.html",
+    "by": "Ministry of Foreign Affairs of the People's Republic of China"
    }
   },
   {
@@ -11491,6 +11570,11 @@
       "method": "browser"
      }
     ]
+   },
+   "english_version": {
+    "kind": "third-party translation",
+    "url": "https://cset.georgetown.edu/publication/china-safety-requirements-for-generative-ai-final/",
+    "by": "Center for Security and Emerging Technology (CSET), Georgetown University"
    }
   },
   {
@@ -12065,6 +12149,11 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "authentic",
+    "url": "https://www.fmprc.gov.cn/mfa_eng/xw/zyxw/202507/t20250729_11679232.html",
+    "by": "Ministry of Foreign Affairs of the People's Republic of China"
    }
   },
   {
@@ -12549,6 +12638,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -12842,6 +12934,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -13458,6 +13553,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -14171,6 +14269,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -14358,7 +14459,7 @@
    "official_identifier": null,
    "official_url": "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20240419_report.html",
    "secondary_url": "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20240419_14.pdf",
-   "language": "Japanese, English (tentative translation)",
+   "language": "Japanese",
    "summary": "Single set of voluntary AI governance guidelines for AI developers, providers and business users. It sets common principles (human-centricity, safety, fairness, privacy, security, transparency, accountability and others), recommends risk-based, agile AI governance across the life cycle, and includes specific guidance for advanced AI systems based on the Hiroshima AI Process.",
    "safety_topics": [
     "accountability & liability",
@@ -14458,7 +14559,7 @@
    "official_identifier": null,
    "official_url": "https://aisi.go.jp/output/output_information/260707/",
    "secondary_url": "https://aisi.go.jp/output/output_information/250331_1/",
-   "language": "Japanese, English",
+   "language": "Japanese",
    "summary": "Two companion technical guides from J-AISI for AI developers and providers. One sets the perspectives for evaluating AI safety, and version 1.20 adds 'observation and control' for AI agent systems. The other sets a methodology for red-teaming AI systems, including LLM-based systems.",
    "safety_topics": [
     "evaluation & testing",
@@ -14620,6 +14721,11 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "government translation",
+    "url": "https://aisi.go.jp/output/output_information/250331_1/",
+    "by": "Japan AI Safety Institute (J-AISI)"
    }
   },
   {
@@ -14642,7 +14748,7 @@
    "official_identifier": "Act No. 53 of 2025",
    "official_url": "https://www8.cao.go.jp/cstp/ai/ai_act/ai_act.html",
    "secondary_url": "https://laws.e-gov.go.jp/law/507AC0000000053",
-   "language": "Japanese (provisional English overview available)",
+   "language": "Japanese",
    "summary": "Japan's first AI-specific law, a framework law to promote AI innovation while responding to risks. It sets basic principles including transparency. The government must collect information on and investigate cases where AI infringes rights or interests, and may give guidance and advice to businesses and make information public. It creates the AI Strategic Headquarters, chaired by the Prime Minister, and requires an AI Basic Plan and government guidelines consistent with international norms. Businesses have a duty to endeavour to cooperate; the Act contains no penalties.",
    "safety_topics": [
     "accountability & liability",
@@ -14831,7 +14937,7 @@
    "official_identifier": null,
    "official_url": "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_guideline.html",
    "secondary_url": "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_gl_eng_20260116.pdf",
-   "language": "Japanese, English",
+   "language": "Japanese",
    "summary": "Government guideline under Article 13 of the AI Promotion Act, aligned with international norms. It applies to all AI stakeholders (government, R&D institutions, businesses, citizens) and promotes risk-based, life-cycle and agile AI governance. Developers and businesses are asked to set up AI governance, ensure adequate safety and be transparent. Governments are asked to examine suitable governance approaches and be accountable for public-sector AI use. Users are asked to use AI responsibly and build AI literacy.",
    "safety_topics": [
     "risk-based classification",
@@ -14994,6 +15100,11 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "government translation",
+    "url": "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_gl_eng_20260116.pdf",
+    "by": "Cabinet Office, Government of Japan"
    }
   },
   {
@@ -15016,7 +15127,7 @@
    "official_identifier": null,
    "official_url": "https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html",
    "secondary_url": "https://www8.cao.go.jp/cstp/ai/ai_plan/aiplan_eng_20260714.pdf",
-   "language": "Japanese, English",
+   "language": "Japanese",
    "summary": "Statutory national AI plan under the AI Promotion Act. The current second plan, 'Japan AI Transformation: A Stronger Nation. Greater Prosperity.', rests on the principle of promoting innovation while mitigating risks and has a dedicated pillar on enhancing AI trustworthiness. That pillar calls for strengthening the AI Safety Institute's technical evaluation (model assessment, traceability, guardrails, crisis-time information sharing) and feeding evaluation results into policy. It also covers continuous review of the AI Act, guidance on rights, transparency and fairness, AI cyber-defence for critical infrastructure, allocating responsibility in the agentic AI era, and international leadership through the AISI network.",
    "safety_topics": [
     "safety institute",
@@ -15185,6 +15296,11 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "government translation",
+    "url": "https://www8.cao.go.jp/cstp/ai/ai_plan/aiplan_eng_20260714.pdf",
+    "by": "Cabinet Office, Government of Japan"
    }
   },
   {
@@ -17101,6 +17217,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -17200,6 +17319,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -18818,7 +18940,7 @@
    "official_identifier": "Act No. 20676",
    "official_url": "https://www.law.go.kr/법령/인공지능발전과신뢰기반조성등에관한기본법",
    "secondary_url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=71019&lang=ENG",
-   "language": "Korean (English reference translation by KLRI)",
+   "language": "Korean",
    "summary": "Comprehensive AI framework law with binding obligations. Operators of high-impact or generative AI must notify users in advance that AI is used, label generative AI outputs, and clearly mark realistic synthetic media (Art. 31). Operators of AI trained with compute above a decree-set threshold must identify, assess and mitigate risks across the life cycle and run incident monitoring and response (Art. 32). High-impact AI operators must confirm high-impact status, adopt risk management, explainability, user protection and human oversight measures, and should conduct fundamental-rights impact assessments (Arts. 33–35). Foreign operators above thresholds must appoint a domestic agent (Art. 36), and the Act provides the legal basis for the AI Safety Institute (Art. 12).",
    "safety_topics": [
     "risk-based classification",
@@ -19014,6 +19136,11 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "government translation",
+    "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=71019&lang=ENG",
+    "by": "Korea Legislation Research Institute (KLRI)"
    }
   },
   {
@@ -25207,6 +25334,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -25215,8 +25345,8 @@
    "title": "National Strategy on Artificial Intelligence through 2030, with a vision to 2045",
    "original_title": null,
    "short_title": "Viet Nam National AI Strategy (2026)",
-   "jurisdiction": "Viet Nam",
-   "country": "Viet Nam",
+   "jurisdiction": "Vietnam",
+   "country": "Vietnam",
    "jurisdiction_level": "National",
    "region": "South & Southeast Asia",
    "issuing_body": "Government of Viet Nam (Prime Minister's Decision)",
@@ -25326,6 +25456,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -28450,8 +28583,8 @@
    "title": "Law on Artificial Intelligence",
    "original_title": "Luật Trí tuệ nhân tạo",
    "short_title": "Viet Nam Law on Artificial Intelligence (2025)",
-   "jurisdiction": "Viet Nam",
-   "country": "Viet Nam",
+   "jurisdiction": "Vietnam",
+   "country": "Vietnam",
    "jurisdiction_level": "National",
    "region": "South & Southeast Asia",
    "issuing_body": "National Assembly of the Socialist Republic of Viet Nam (15th National Assembly, 10th session)",
@@ -29644,6 +29777,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -29775,6 +29911,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -31994,6 +32133,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -33839,8 +33981,8 @@
    "title": "Decision No. 367/QĐ-TTg promulgating the Plan for implementing the Law on Artificial Intelligence",
    "original_title": "Quyết định số 367/QĐ-TTg ban hành Kế hoạch triển khai thi hành Luật Trí tuệ nhân tạo",
    "short_title": "Viet Nam AI Law implementation plan (Decision 367/QĐ-TTg)",
-   "jurisdiction": "Viet Nam",
-   "country": "Viet Nam",
+   "jurisdiction": "Vietnam",
+   "country": "Vietnam",
    "jurisdiction_level": "National",
    "region": "South & Southeast Asia",
    "issuing_body": "Prime Minister of Viet Nam (signed by Deputy Prime Minister Nguyễn Chí Dũng; drafted by the Ministry of Science and Technology)",
@@ -33966,6 +34108,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -33974,8 +34119,8 @@
    "title": "Decree No. 142/2026/NĐ-CP detailing a number of articles of, and measures for implementing, the Law on Artificial Intelligence",
    "original_title": "Nghị định số 142/2026/NĐ-CP quy định chi tiết một số điều và biện pháp thi hành Luật Trí tuệ nhân tạo",
    "short_title": "Viet Nam AI Law implementing decree (142/2026/NĐ-CP)",
-   "jurisdiction": "Viet Nam",
-   "country": "Viet Nam",
+   "jurisdiction": "Vietnam",
+   "country": "Vietnam",
    "jurisdiction_level": "National",
    "region": "South & Southeast Asia",
    "issuing_body": "Government of Viet Nam (drafted by the Ministry of Science and Technology)",
@@ -34070,6 +34215,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -34078,8 +34226,8 @@
    "title": "Decision No. 33/2026/QĐ-TTg promulgating the List of high-risk artificial intelligence systems",
    "original_title": "Quyết định số 33/2026/QĐ-TTg ban hành Danh mục hệ thống trí tuệ nhân tạo có rủi ro cao",
    "short_title": "Viet Nam high-risk AI systems list (Decision 33/2026/QĐ-TTg)",
-   "jurisdiction": "Viet Nam",
-   "country": "Viet Nam",
+   "jurisdiction": "Vietnam",
+   "country": "Vietnam",
    "jurisdiction_level": "National",
    "region": "South & Southeast Asia",
    "issuing_body": "Prime Minister of Viet Nam (signed by Deputy Prime Minister Hồ Quốc Dũng; proposed by the Ministry of Science and Technology)",
@@ -34205,8 +34353,8 @@
    "title": "Circular No. 05/2026/TT-BKHCN promulgating the National Artificial Intelligence Ethics Framework",
    "original_title": "Thông tư số 05/2026/TT-BKHCN ban hành Khung đạo đức trí tuệ nhân tạo quốc gia",
    "short_title": "Viet Nam National AI Ethics Framework (Circular 05/2026/TT-BKHCN)",
-   "jurisdiction": "Viet Nam",
-   "country": "Viet Nam",
+   "jurisdiction": "Vietnam",
+   "country": "Vietnam",
    "jurisdiction_level": "National",
    "region": "South & Southeast Asia",
    "issuing_body": "Ministry of Science and Technology of Viet Nam",
@@ -34321,6 +34469,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -34329,8 +34480,8 @@
    "title": "Law on Digital Technology Industry (Chapter IV on artificial intelligence)",
    "original_title": "Luật Công nghiệp công nghệ số (Chương IV về trí tuệ nhân tạo)",
    "short_title": "Viet Nam Digital Technology Industry Law (AI chapter, superseded)",
-   "jurisdiction": "Viet Nam",
-   "country": "Viet Nam",
+   "jurisdiction": "Vietnam",
+   "country": "Vietnam",
    "jurisdiction_level": "National",
    "region": "South & Southeast Asia",
    "issuing_body": "National Assembly of the Socialist Republic of Viet Nam (15th National Assembly, 9th session)",
@@ -34956,6 +35107,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -36736,6 +36890,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -37647,7 +37804,7 @@
    "official_identifier": "MTCIT Circular No. 11/2025",
    "official_url": "https://www.mtcit.gov.om/library-3/legislations-policies-8/policies-73/general-policy-for-the-safe-and-ethical-use-of-artificial-intelligence-systems-291",
    "secondary_url": "https://qanoon.om/p/2025/mtcit20259901/",
-   "language": "Arabic; English title and summary on the MTCIT site",
+   "language": "Arabic",
    "summary": "Policy, issued by circular, for government units and regulated private entities that develop or use AI systems, including generative AI, across the lifecycle. It sets ethical principles and separate duties for developers (documentation of data sources, ethical, social and environmental impact assessment before deployment, bias testing, independent technical review, access control and encryption) and deployers (pre-adoption assessment, continuous monitoring, error correction, data classification). Systems must be secure, must not cause physical or psychological harm, must label generated content and explain sensitive decisions, and must keep human supervision and complaint channels.",
    "safety_topics": [
     "human oversight",
@@ -39289,6 +39446,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -40451,6 +40611,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -41197,6 +41360,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -41327,6 +41493,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -41434,6 +41603,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -41565,6 +41737,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -41697,6 +41872,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -41832,6 +42010,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -42196,8 +42377,8 @@
    "title": "Guide on Artificial Intelligence (AI) Governance and Ethics for Brunei Darussalam",
    "original_title": "Garis Panduan Tadbir Urus dan Etika Kecerdasan Buatan untuk Brunei Darussalam",
    "short_title": "Brunei AI Governance and Ethics Guide (AITI)",
-   "jurisdiction": "Brunei Darussalam",
-   "country": "Brunei Darussalam",
+   "jurisdiction": "Brunei",
+   "country": "Brunei",
    "jurisdiction_level": "National",
    "region": "South & Southeast Asia",
    "issuing_body": "Authority for Info-communications Technology Industry of Brunei Darussalam (AITI), with the AI Governance and Ethics Working Group",
@@ -42333,7 +42514,7 @@
    "official_identifier": null,
    "official_url": "https://www.etda.or.th/getattachment/9d370f25-f37a-4b7c-b661-48d2d730651d/Digital-Thailand-AI-Ethics-Principle-and-Guideline.pdf.aspx?lang=th-TH",
    "secondary_url": null,
-   "language": "Thai (English headings)",
+   "language": "Thai",
    "summary": "Thailand's national AI ethics principles and practice guideline, prepared under the Ministry of Digital Economy and Society. It is addressed to researchers, designers, developers and providers of AI as a guide for their work, to users so that they know their rights and the risks of AI services, and to state agencies and regulators as a basis for promoting, supporting and supervising AI, so that AI is trustworthy, secure, beneficial to people, society and the environment, transparent, inclusive and fair, and consistent with law, ethics and human rights. It reviews foreign frameworks (OECD, EU, Singapore, Dubai), sets out six AI ethics principles and gives practice guidelines for each.",
    "safety_topics": [
     "transparency & labelling",
@@ -42400,6 +42581,9 @@
      }
     ],
     "integrity_flag": null
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {

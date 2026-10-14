@@ -28,13 +28,13 @@ REQUIRED = ["id", "slug", "title", "short_title", "jurisdiction", "country", "ju
             "issuing_body", "instrument_type", "legal_force", "status", "language", "summary",
             "safety_topics", "verification"]
 OPTIONAL = ["original_title", "date_published", "date_in_force", "date_last_updated", "official_identifier",
-            "official_url", "secondary_url", "related", "notes", "scope_note", "local_copy"]
+            "official_url", "secondary_url", "related", "notes", "scope_note", "english_version", "local_copy"]
 
 VOCAB = {
     "instrument_type": ["Law", "Regulation / implementing rule", "Executive order / decree", "Guidelines / framework",
                         "Voluntary code / commitments", "Technical standard", "Institutional mandate",
                         "Declaration / statement", "Treaty / convention", "Resolution", "Bill / draft law",
-                        "Strategy / action plan", "Report (government-commissioned)"],
+                        "Strategy / action plan", "Report (government-commissioned)", "Supervisory statement / letter"],
     "legal_force": ["Binding", "Non-binding", "Proposed"],
     "status": ["In force", "Partially in force", "Adopted, not yet in force", "Published (non-binding, current)",
                "Draft / proposed", "Superseded", "Revoked / withdrawn", "Lapsed"],
@@ -51,11 +51,38 @@ TOPICS = ["accountability & liability", "evaluation & testing", "transparency & 
           "incident reporting", "research priorities", "national security & military", "child safety",
           "prohibited practices", "critical infrastructure"]
 
+# english_version.kind: is there an English text, and whose? "authentic": the issuer adopted or published the
+# instrument in English as one of its own texts; "government translation": an English translation published by the
+# issuer or another public body (ministry, government law-translation service, public research institute), usually
+# provisional or for reference, without legal force; "third-party translation": by anyone else (university, law firm,
+# translation project, commercial database); "none found". The kinds say who translated, not that a text is binding.
+ENGLISH_VERSION_KINDS = ["authentic", "government translation", "third-party translation", "none found"]
+TRANSLATION_KINDS = {"government translation", "third-party translation"}
+LANGUAGE_REMARK = re.compile(r"[();]|translat|availab|not confirmed|review|overview|heading|working languages"
+                             r"|\btitle\b|\bsummary\b|\bsite\b", re.I)
+LANGUAGE_VARIANT = re.compile(r"\s*\((Traditional|Simplified)\)")
+
 FULL_DATE = re.compile(r"^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$")
 PARTIAL_DATE = re.compile(r"^\d{4}(-(0[1-9]|1[0-2]))?$")
 ID_FORMAT = re.compile(r"^[A-Z0-9]{2,6}(-[A-Z]{2})?-\d{2}$")
 SLUG_FORMAT = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 IN_FORCE_STATUSES = {"In force", "Partially in force"}
+
+
+def has_english_text(r):
+    """True when English is among the languages of the official text (the EU's 24 languages include it)."""
+    lang = r.get("language") or ""
+    return lang.startswith("All 24 official EU languages") or any(x.strip().lower().startswith("english")
+                                                                   for x in lang.split(","))
+
+
+def frame_names():
+    """code -> (level, name) from pipeline/frame.json, the reference spelling of jurisdiction and country names."""
+    try:
+        f = json.loads((ROOT / "pipeline" / "frame.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    return {j["code"]: (j.get("level"), j.get("name")) for j in f.get("jurisdictions") or []}
 
 
 def check(db):
@@ -88,6 +115,7 @@ def check(db):
             who = ", ".join(r["id"] for r in records if r.get("official_url") == url)
             warn(who, "share the same official_url; check that each points at its own document")
 
+    names = frame_names()
     for r in records:
         rid = r.get("id") or "<no id>"
         if rid != "<no id>" and not ID_FORMAT.match(rid):
@@ -112,6 +140,43 @@ def check(db):
             err(rid, "scope_note must be text saying why the record is borderline, or absent for a clearly in-scope record")
         if r.get("safety_topics") and not isinstance(r["safety_topics"], list):
             err(rid, "safety_topics must be a list")
+
+        # languages and translation
+        lang = r.get("language") or ""
+        if lang and LANGUAGE_REMARK.search(LANGUAGE_VARIANT.sub("", lang)):
+            warn(rid, "language %r holds a remark; give the language names only, and record an English translation "
+                      "in english_version" % lang)
+        ev = r.get("english_version")
+        if ev is not None:
+            if not isinstance(ev, dict) or ev.get("kind") not in ENGLISH_VERSION_KINDS:
+                err(rid, "english_version must be {\"kind\", \"url\", \"by\"} with kind one of %s"
+                    % ", ".join(ENGLISH_VERSION_KINDS))
+            else:
+                for k in ev:
+                    if k not in ("kind", "url", "by"):
+                        warn(rid, "english_version has an unknown key %r" % k)
+                if ev.get("url") and not re.match(r"^https?://\S+$", ev["url"]):
+                    err(rid, "english_version.url %r is not an http(s) URL" % ev["url"])
+                if ev["kind"] in TRANSLATION_KINDS and not (ev.get("url") and ev.get("by")):
+                    warn(rid, "english_version is a translation but lacks its url or who made it ('by')")
+                if ev["kind"] == "none found" and ev.get("url"):
+                    warn(rid, "english_version is 'none found' but has a url")
+                if ev["kind"] == "authentic" and lang and not has_english_text(r):
+                    warn(rid, "english_version is 'authentic' but English is not among the languages in 'language'")
+        if lang and not has_english_text(r):
+            if not r.get("original_title"):
+                warn(rid, "the official text is not in English but original_title is empty")
+            if ev is None:
+                warn(rid, "the official text is not in English and english_version is not recorded yet")
+
+        # names: jurisdiction (and country, for national records) are spelled as in pipeline/frame.json
+        code = re.sub(r"-\d+$", "", rid)
+        if code in names:
+            level, name = names[code]
+            if level in ("National", "Sub-national") and name and r.get("jurisdiction") != name:
+                warn(rid, "jurisdiction %r is spelled %r in pipeline/frame.json" % (r.get("jurisdiction"), name))
+            if level == "National" and name and r.get("country") != name:
+                warn(rid, "country %r is spelled %r in pipeline/frame.json" % (r.get("country"), name))
 
         for k in ("date_published", "date_in_force", "date_last_updated"):
             v = r.get(k)

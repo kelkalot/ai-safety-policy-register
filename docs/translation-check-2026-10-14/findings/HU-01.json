@@ -1,0 +1,89 @@
+{
+ "id": "HU-01",
+ "checked_on": "2026-10-14",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "stored_text": {
+  "files": [
+   "archive/HU-01/2026-10-11/official.html",
+   "archive/HU-01/2026-10-11/document-1.pdf"
+  ],
+  "usable": true,
+  "note": "official.html is the National Legislation Database (njt.jog.gov.hu) page with the full Hungarian text, preamble, §§ 1-15 and footnotes (adoption 21 Oct 2025, promulgation 31 Oct 2025). document-1.pdf is the wrong document: it is the njt site's accessibility statement (Akadálymentesítési nyilatkozat, MKIFK), not related to the Act; the same PDF is stored for HU-02."
+ },
+ "language_field": {
+  "current": "Hungarian",
+  "proposed": "Hungarian"
+ },
+ "english_version": {
+  "kind": "none found",
+  "url": null,
+  "publisher": null,
+  "stored": false,
+  "evidence": null,
+  "note": "No English text in the stored files. The njt site has a 'Translated legislation' section (/translations), but one web search found no English translation of this Act there or elsewhere from a public body; only law-firm and tracker summaries."
+ },
+ "title": {
+  "verdict": "accurate rendering",
+  "original_title_matches_source": true,
+  "source_quote": "2025. évi LXXV. törvény\naz Európai Unió mesterséges intelligenciáról szóló rendeletének magyarországi végrehajtásáról",
+  "file": "archive/HU-01/2026-10-11/official.html",
+  "proposed": null,
+  "why": "original_title matches the page heading exactly (the source appends footnote marker 1). The English title is a literal rendering."
+ },
+ "summary_claims": [
+  {
+   "claim": "a government-designated AI notifying authority, which assesses, designates, notifies and monitors conformity assessment bodies for high-risk systems",
+   "file": "archive/HU-01/2026-10-11/official.html",
+   "locator": "4. § (1)",
+   "original_quote": "megfelelőségértékelő szervezeteket az MI bejelentő hatóság – akkreditált státusz alapján – értékeli, jelöli ki, jelenti be és követi nyomon.",
+   "literal_translation": "§ 4 (1) The conformity assessment bodies that check compliance with the requirements laid down in Chapter III Section 2 of Regulation (EU) 2024/1689 in relation to high-risk AI systems shall be assessed, designated, notified and monitored by the AI notifying authority, on the basis of accredited status.",
+   "verdict": "accurate"
+  },
+  {
+   "claim": "an AI market surveillance authority with general competence that also runs the national AI regulatory sandbox and acts as the single point of contact",
+   "file": "archive/HU-01/2026-10-11/official.html",
+   "locator": "3. § (2)-(3); 5. § (1)",
+   "original_quote": "(2) Az MI piacfelügyeleti hatóság a 10. § szerinti MI szabályozói tesztkörnyezetet működtet. (3) Az MI piacfelügyeleti hatóság országos illetékességgel ellátja az (EU) 2024/1689 európai parlamenti és tanácsi rendelet 70. cikke szerinti egyedüli kapcsolattartó pont működtetésével [...]",
+   "literal_translation": "(2) The AI market surveillance authority operates the AI regulatory sandbox under § 10. (3) The AI market surveillance authority, with nationwide competence, performs the tasks of operating the single point of contact under Article 70 of Regulation (EU) 2024/1689. [5. § (1): it acts ex officio as a market surveillance authority of general competence.]",
+   "verdict": "accurate"
+  },
+  {
+   "claim": "creates the Hungarian Artificial Intelligence Council, an advisory body without decision-making powers chaired by a Prime Minister's appointee",
+   "file": "archive/HU-01/2026-10-11/official.html",
+   "locator": "8. § (1); 9. § (2)",
+   "original_quote": "8. § (1) A Magyar Mesterséges Intelligencia Tanács (a továbbiakban: Tanács) testületként működő, ügydöntő jogkörrel nem rendelkező szerv, amely [...] (2) A Tanács elnökét a miniszter és az informatikáért felelős miniszter javaslatára a miniszterelnök nevezi ki, 5 éves időtartamra.",
+   "literal_translation": "§ 8 (1) The Hungarian Artificial Intelligence Council (hereinafter: Council) is a body operating as a collegial body without decision-making competence, which [...] § 9 (2) The chair of the Council is appointed by the Prime Minister, on the proposal of the minister and the minister responsible for informatics, for a term of 5 years.",
+   "verdict": "accurate"
+  }
+ ],
+ "key_terms": [
+  {
+   "original": "MI bejelentő hatóság",
+   "register_rendering": "AI notifying authority",
+   "official_rendering": null,
+   "verdict": "consistent",
+   "note": "Matches the AI Act's English 'notifying authority' (Art. 28), which § 3 cites."
+  },
+  {
+   "original": "MI piacfelügyeleti hatóság",
+   "register_rendering": "AI market surveillance authority",
+   "official_rendering": null,
+   "verdict": "consistent",
+   "note": ""
+  },
+  {
+   "original": "Magyar Mesterséges Intelligencia Tanács",
+   "register_rendering": "Hungarian Artificial Intelligence Council",
+   "official_rendering": null,
+   "verdict": "consistent",
+   "note": "'advisory body' in the summary renders 'ügydöntő jogkörrel nem rendelkező szerv' (body without decision-making competence); defensible, though the Council also issues recommendations and guidelines and coordinates AI Act implementation."
+  }
+ ],
+ "overall": "ok",
+ "issues": [
+  "document-1.pdf (also stored for HU-02) is the njt site's accessibility statement, not a source for the Act.",
+  "Nuance not in the summary: 5. § (1) excludes from the market surveillance authority's remit the financial entities supervised by the Magyar Nemzeti Bank (AI Act Art. 74(6))."
+ ],
+ "note": "'calls for a national AI strategy' is loose: 8. § (1) o) tasks the Council with drafting and continuously reviewing the national AI strategy and a sub-strategy for government bodies."
+}

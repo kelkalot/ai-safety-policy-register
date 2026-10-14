@@ -1,0 +1,91 @@
+{
+  "id": "VN-04",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": [
+      "archive/VN-04/2026-10-11/official.pdf"
+    ],
+    "usable": true,
+    "note": "official.pdf is the signed Decree (96 scanned pages: the articles run to the signature on page 43, followed by the annexed forms; no text layer). I read all pages by OCR (tesseract 5, Vietnamese model); the article text is clean apart from occasional diacritic errors, which quotes reproduce as read. The secondary source (Ministry of Construction) was not stored."
+  },
+  "language_field": {
+    "current": "Vietnamese",
+    "proposed": "Vietnamese"
+  },
+  "english_version": {
+    "kind": "none found",
+    "url": null,
+    "publisher": null,
+    "stored": false,
+    "evidence": null,
+    "note": "One web search found English law-firm analyses (Tilleke & Gibbins, APLaw, MoFo) and policy-tracker entries, but no English text of the Decree from a public body or any full translation."
+  },
+  "title": {
+    "verdict": "accurate rendering",
+    "original_title_matches_source": true,
+    "source_quote": "Quy định chỉ tiết một số điều và biện pháp thi hành",
+    "file": "archive/VN-04/2026-10-11/official.pdf",
+    "proposed": null,
+    "why": "Page 1 (OCR) shows 'Sô: 142/2026/NĐ-CP', 'NGHỊ ĐỊNH' and the title 'Quy định chỉ tiết một số điều và biện pháp thi hành ... Luật Trí tuệ nhân tạo' (the OCR breaks the line with stamp noise). original_title adds 'Nghị định số 142/2026/NĐ-CP' in front, which is the usual citation form. 'Detailing a number of articles of, and measures for implementing, the Law on Artificial Intelligence' is accurate."
+  },
+  "summary_claims": [
+    {
+      "claim": "Article 1 lists what it details: the one-stop AI portal and national database of AI systems (Law Art. 8), risk classification (Art. 9), notification content and technical guidance on classification (Art. 10), forms of notification and labelling of AI-generated content (Art. 11) and incident reporting proportional to severity (Art. 12).",
+      "file": "archive/VN-04/2026-10-11/official.pdf",
+      "locator": "page 2, Art. 1(1)(m) (OCR); the list runs from (a) on page 1 to (p) on page 2",
+      "original_quote": "m) Điều 21 về cơ chế thử nghiệm có kiểm soát đối với hệ thống trí tuệ nhân tạo;",
+      "literal_translation": "m) Article 21 on the controlled-testing mechanism for artificial intelligence systems;",
+      "verdict": "understated"
+    },
+    {
+      "claim": "Providers must classify systems before use and deployers must reclassify after risk-raising changes.",
+      "file": "archive/VN-04/2026-10-11/official.pdf",
+      "locator": "page 4, Art. 5(3) (OCR)",
+      "original_quote": "3. Bên triển khai phải phối hợp với nhà cung cấp để rà soát, phân loại lại hệ thông trí tuệ nhân tạo khi việc triêền khai, sửa đôi, tích hợp hoặc thay đôi chức năng hoặc mục đích sử dụng làm phát sinh rủi ro mới hoặc rủi ro cao hơn của hệ thông đã được phân loại.",
+      "literal_translation": "3. The deployer must coordinate with the provider to review and reclassify the AI system when deployment, modification, integration or a change of function or intended use gives rise to new or higher risk for a system that has already been classified.",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "High-risk systems need conformity assessment, reusing valid prior test results.",
+      "file": "archive/VN-04/2026-10-11/official.pdf",
+      "locator": "pages 4-5, Art. 5(6) (OCR)",
+      "original_quote": "được sử dụng đê chứng minh việc đáp ứng yêu cầu tương ứng theo pháp luật về trí tuệ nhân tạo trong phạm vi nội dung đã được đánh giá hợp pháp, đây đủ và còn hiệu lực thì tô chức, cá nhân không phải thực hiện lại nội dung đó.",
+      "literal_translation": "[test, inspection and certification results obtained under sectoral, standards or product-quality law] are used to demonstrate that the corresponding requirements of the law on AI are met, to the extent of content that was assessed lawfully and fully and is still valid, and organisations and individuals do not have to repeat that content.",
+      "verdict": "accurate"
+    }
+  ],
+  "key_terms": [
+    {
+      "original": "Cổng thông tin điện tử một cửa về trí tuệ nhân tạo",
+      "register_rendering": "one-stop AI portal",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "Literal: 'one-stop electronic information portal on AI'."
+    },
+    {
+      "original": "Công cụ hỗ trợ phân loại rủi ro tự động",
+      "register_rendering": "self-assessment tool",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "Art. 10(1): MST sets up an automated risk-classification support tool on the portal to help providers and deployers 'tự đánh giá, phân loại' (self-assess and classify); Art. 10(2) makes its use optional."
+    },
+    {
+      "original": "thử nghiệm có kiểm soát",
+      "register_rendering": "controlled-testing (sandbox) regime",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "Art. 1(1)(m) and Chapter IV (Art. 21 ff., from page 17)."
+    }
+  ],
+  "overall": "minor issues",
+  "issues": [
+    "Summary presents Art. 1 as listing five items; Art. 1(1) has 16 points, (a) to (p), and also details conformity assessment (Law Art. 13), high-risk management (Art. 14), infrastructure, data, AI clusters, business support, controlled testing (Art. 21) and impact assessment for public-sector AI (Art. 27(5)).",
+    "Notes and verification.note say the effective date rests on secondary sources because it could not be read from the scan; the stored PDF does state it (page 42, OCR): 'Điều 45. Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 01 tháng 5 năm 2026.'",
+    "Notes call Arts. 12 and 18 and the sandbox 'reported further content'; all three are in the stored Decree (Art. 12 risk-classification dossiers for high- and medium-risk systems; Art. 18 notice and visible labels for AI-generated content; Art. 1(1)(m) and Chapter IV, Art. 21 ff., controlled testing).",
+    "Art. 1(1)(d) itself says only 'hình thức thông báo, gắn nhãn' (forms of notification, labelling); 'of AI-generated content' comes from Art. 18, which is fine as a gloss.",
+    "'Deployers must reclassify' leaves out that they do so in coordination with the provider (Art. 5(3), Art. 6(4))."
+  ],
+  "note": "Further checks against the OCR text: MST runs the portal (Art. 4(1)) and owns the national database (Art. 4(2)); Art. 4(3)(d) exempts AI systems and databases serving internal activities of Party bodies and political organisations, and systems on the state-secret, defence and security lists, from notification, registration and public data sharing on the portal, which notes summarise as 'exclusions'. Art. 6(3)(a) defines high-risk systems as those on the Prime Minister's list under Law Art. 13(4), consistent with VN-05."
+}

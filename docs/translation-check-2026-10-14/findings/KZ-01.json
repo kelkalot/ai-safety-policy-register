@@ -1,0 +1,89 @@
+{
+ "id": "KZ-01",
+ "checked_on": "2026-10-14",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "stored_text": {
+  "files": [
+   "archive/KZ-01/2026-10-11/official.html",
+   "archive/KZ-01/2026-10-11/secondary.html"
+  ],
+  "usable": true,
+  "note": "official.html is the Russian-language Akorda (Presidential Office) notice of 17 Nov 2025 on the signing of the law; it summarises the law's content but is not the law text. secondary.html is the Akorda notice for the companion amendments law of the same date. Neither file shows the Kazakh text or the law's number."
+ },
+ "language_field": {
+  "current": "Kazakh, Russian",
+  "proposed": "Kazakh, Russian"
+ },
+ "english_version": {
+  "kind": "official translation",
+  "url": "https://adilet.zan.kz/eng/docs/Z2500000230",
+  "publisher": "Adilet legal information system (Institute of Legislation and Legal Information, Ministry of Justice of the Republic of Kazakhstan)",
+  "stored": false,
+  "evidence": null,
+  "note": "Lead only, found by web search and not opened or stored. Search results describe it as an English text of Law No. 230-VIII of 17 November 2025 labelled 'unofficial translation' on the government's own legal database, with Kazakh and Russian comparison views. Under this check's definitions that is a translation by a public body, not binding. The law number 230-VIII is a lead for the record's empty official_identifier, to be confirmed from a stored copy."
+ },
+ "title": {
+  "verdict": "accurate rendering",
+  "original_title_matches_source": true,
+  "source_quote": "Главой государства подписан Закон Республики Казахстан «Об искусственном интеллекте»",
+  "file": "archive/KZ-01/2026-10-11/official.html",
+  "proposed": null,
+  "why": "original_title matches the law's name in the notice exactly. 'Law of the Republic of Kazakhstan \"On Artificial Intelligence\"' is a literal rendering; the English short title on adilet (per search results) is also 'On Artificial Intelligence'."
+ },
+ "summary_claims": [
+  {
+   "claim": "It defines AI systems as objects of informatisation and sets principles including transparency and explainability, priority of human well-being, freedom of human decision-making, safety and security, and responsibility and controllability.",
+   "file": "archive/KZ-01/2026-10-11/official.html",
+   "locator": "Akorda notice, paragraphs 2-4",
+   "original_quote": "Наряду с этим закреплены принципы законности, справедливости, равенства, прозрачности и объяснимости, приоритета благополучия человека, свободы воли в принятии им решений, защиты данных и конфиденциальности, безопасности и защищенности.",
+   "literal_translation": "Alongside this, the principles of legality, fairness, equality, transparency and explainability, priority of human well-being, freedom of will in a person's decision-making, data protection and confidentiality, safety and security are enshrined. [Earlier paragraphs: AI systems are defined as an object of informatisation; the principle of responsibility and controllability is enshrined.]",
+   "verdict": "accurate"
+  },
+  {
+   "claim": "It bans creating or operating AI systems with certain capabilities, e.g. subliminal or manipulative techniques and unlawful personal-data processing.",
+   "file": "archive/KZ-01/2026-10-11/official.html",
+   "locator": "Akorda notice, paragraph 5",
+   "original_quote": "установлен запрет на создание и эксплуатацию на территории Республики Казахстан систем искусственного интеллекта, обладающих рядом возможностей (использование подсознательных, манипулятивных или иных методов; сбор и обработка персональных данных с нарушением законодательства о персональных данных",
+   "literal_translation": "a ban is established on the creation and operation in the territory of the Republic of Kazakhstan of AI systems possessing a number of capabilities (use of subliminal, manipulative or other methods; collection and processing of personal data in violation of the legislation on personal data and its protection; other capabilities).",
+   "verdict": "accurate"
+  },
+  {
+   "claim": "It also requires goods, works and services created with AI to be labelled, places risk-management and safety duties on owners and holders",
+   "file": "archive/KZ-01/2026-10-11/official.html",
+   "locator": "Akorda notice, paragraphs 3 and 6",
+   "original_quote": "На собственников и владельцев возложены обязанности по управлению рисками, обеспечению безопасности и надежности, поддержке пользователей по вопросам функционирования систем искусственного интеллекта. [...] введено требование о маркировке таких товаров, работ, услуг.",
+   "literal_translation": "Owners and holders are charged with duties of risk management, ensuring safety and reliability, and supporting users on questions of the functioning of AI systems. [...] a requirement to label [mark] such goods, works and services is introduced.",
+   "verdict": "accurate"
+  }
+ ],
+ "key_terms": [
+  {
+   "original": "объект информатизации",
+   "register_rendering": "object of informatisation",
+   "official_rendering": null,
+   "verdict": "consistent",
+   "note": ""
+  },
+  {
+   "original": "собственники, владельцы",
+   "register_rendering": "owners and holders",
+   "official_rendering": null,
+   "verdict": "consistent",
+   "note": "Search results quote EY using 'owner or proprietor'; the adilet translation's term was not checked."
+  },
+  {
+   "original": "принцип ответственности и подконтрольности",
+   "register_rendering": "responsibility and controllability",
+   "official_rendering": null,
+   "verdict": "consistent",
+   "note": ""
+  }
+ ],
+ "overall": "ok",
+ "issues": [
+  "The stored text is the presidential notice, not the law; an English text exists on adilet.zan.kz (labelled unofficial translation) and the Kazakh/Russian law text is there too, so the record could store the law itself.",
+  "'Central Asia's first comprehensive AI law' is not in the stored text."
+ ],
+ "note": "The notice says the law's text 'is being published in the press' and gives no number or entry-into-force date; search results (not evidence) give Law No. 230-VIII of 17 Nov 2025 and entry into force on 18 Jan 2026."
+}

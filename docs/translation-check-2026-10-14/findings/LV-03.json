@@ -1,0 +1,92 @@
+{
+ "id": "LV-03",
+ "checked_on": "2026-10-14",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "stored_text": {
+  "files": [
+   "archive/LV-03/2026-10-12/official.html",
+   "archive/LV-03/2026-10-12/secondary.html"
+  ],
+  "usable": true,
+  "note": "official.html is the likumi.lv page with the full Latvian text (Articles 1-15 and the adoption line 'Likums Saeimā pieņemts 2025. gada 11. septembrī'). It also carries a language switch linking to an English version of the law on likumi.lv. secondary.html is the LV portāls explainer of 2 Oct 2025 in Latvian."
+ },
+ "language_field": {
+  "current": "Latvian",
+  "proposed": "Latvian"
+ },
+ "english_version": {
+  "kind": "official translation",
+  "url": "https://likumi.lv/ta/en/en/id/363378-law-on-digital-operational-resilience-and-use-of-artificial-intelligence-in-financial-markets",
+  "publisher": "likumi.lv (Latvijas Vēstnesis); web search points to a translation by the State Language Centre (Valsts valodas centrs, vvc.gov.lv/lv/media/21533/download)",
+  "stored": false,
+  "evidence": {
+   "file": "archive/LV-03/2026-10-12/official.html",
+   "quote": "<a id='tooltip' rel-text='English'href='/ta/en/en/id/363378-law-on-digital-operational-resilience-and-use-of-artificial-intelligence-in-financial-markets'>"
+  },
+  "note": "The stored Latvian page links to an English version under 'Dokumenta valoda'; the English text itself is not stored. The State Language Centre is the government's translation body for Latvian legislation, so this is an official, non-binding translation. The exact English title is known here only from the link slug."
+ },
+ "title": {
+  "verdict": "accurate rendering",
+  "original_title_matches_source": true,
+  "source_quote": "Finanšu tirgus digitālās darbības noturības un mākslīgā intelekta izmantošanas likums",
+  "file": "archive/LV-03/2026-10-12/official.html",
+  "proposed": null,
+  "why": "original_title matches the source exactly, and the register's title is a literal rendering. But an official English translation exists, and its title (per the stored link slug) is 'Law on Digital Operational Resilience and Use of Artificial Intelligence in Financial Markets'. AGENTS.md 5.6 asks for the official English title where one exists, so the title should be replaced with the official one once the English version is stored and the exact wording confirmed."
+ },
+ "summary_claims": [
+  {
+   "claim": "Latvijas Banka supervises AI Act compliance under Article 74(6), may set additional requirements and shares information with the European Central Bank.",
+   "file": "archive/LV-03/2026-10-12/official.html",
+   "locator": "Article 8, paragraphs 5-7",
+   "original_quote": "(5) Latvijas Banka veic mākslīgā intelekta izmantošanas prasību uzraudzību saskaņā ar Regulas Nr. 2024/1689 74. panta 6. punktu. (6) Latvijas Banka sniedz Eiropas Centrālajai bankai informāciju, kas iegūta, uzraugot mākslīgā intelekta izmantošanas prasību ievērošanu",
+   "literal_translation": "(5) Latvijas Banka supervises the requirements for the use of artificial intelligence in accordance with Article 74(6) of Regulation No 2024/1689. (6) Latvijas Banka provides the European Central Bank with information obtained in supervising compliance with the AI-use requirements that could be useful for the prudential supervision of a credit institution. [(7) gives it the right to set additional requirements in areas not governed by directly applicable EU acts.]",
+   "verdict": "accurate"
+  },
+  {
+   "claim": "it may warn, fine up to EUR 35 million or 7 percent, 15 million or 3 percent, or 7.5 million or 1 percent of turnover",
+   "file": "archive/LV-03/2026-10-12/official.html",
+   "locator": "Article 10(3)",
+   "original_quote": "5) soda naudu juridiskajai personai līdz 35 miljoniem euro vai līdz septiņiem procentiem no kopējā gada apgrozījuma atkarībā no tā, kurš lielāks, par šā likuma 11. panta otrās daļas 1. punktā minēto pārkāpumu;",
+   "literal_translation": "5) a fine for a legal person of up to EUR 35 million or up to seven percent of total annual turnover, whichever is greater, for the infringement referred to in Article 11(2)(1) of this Law [prohibited AI practices]; [points 6 and 7: EUR 15 million or 3 percent; EUR 7.5 million or 1 percent; point 1: a warning; points 2-4: fines on natural persons of up to EUR 35, 15 and 7.5 million].",
+   "verdict": "accurate"
+  },
+  {
+   "claim": "stop conduct and ban individuals for up to two years",
+   "file": "archive/LV-03/2026-10-12/official.html",
+   "locator": "Article 10(4)",
+   "original_quote": "1) pieprasīt, lai par pārkāpumu atbildīgā fiziskā vai juridiskā persona nekavējoties izbeidz attiecīgo darbību; 2) noteikt par pārkāpumu atbildīgajai fiziskajai personai pagaidu aizliegumu veikt tai noteiktos pienākumus [...] bet ne ilgāk kā uz diviem gadiem.",
+   "literal_translation": "1) require the natural or legal person responsible for the infringement to stop the activity immediately; 2) impose on the natural person responsible for the infringement a temporary ban on performing the duties assigned to them until the infringement is remedied or the final decision takes effect, but for no longer than two years.",
+   "verdict": "accurate"
+  }
+ ],
+ "key_terms": [
+  {
+   "original": "digitālās darbības noturība",
+   "register_rendering": "digital operational resilience",
+   "official_rendering": null,
+   "verdict": "consistent",
+   "note": "The DORA English term; the official translation's slug uses the same words."
+  },
+  {
+   "original": "finanšu tirgus dalībnieki",
+   "register_rendering": "financial market participants",
+   "official_rendering": null,
+   "verdict": "consistent",
+   "note": ""
+  },
+  {
+   "original": "pagaidu aizliegums veikt tai noteiktos pienākumus",
+   "register_rendering": "ban individuals for up to two years",
+   "official_rendering": null,
+   "verdict": "differs",
+   "note": "The text is a temporary ban on performing one's assigned duties, lasting until the breach is remedied or the decision is final, capped at two years; the register's wording is shorter but not wrong."
+  }
+ ],
+ "overall": "minor issues",
+ "issues": [
+  "An official English translation exists (linked from the stored likumi.lv page; State Language Centre); the register's title is a literal rendering rather than the official English title 'Law on Digital Operational Resilience and Use of Artificial Intelligence in Financial Markets' (wording from the link slug, to confirm).",
+  "Fine amounts: for natural persons the caps are EUR 35, 15 and 7.5 million without a turnover alternative; the summary's percentages apply to legal persons only (and the lower amount applies to SMEs and start-ups)."
+ ],
+ "note": "The notes' details (publication in Latvijas Vēstnesis 188 of 30.09.2025, in force 01.10.2025, five-year publication and limitation periods, appeal to the Administrative District Court without suspensive effect except for warnings and fines) match Articles 12-14 and the page metadata."
+}

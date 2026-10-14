@@ -16,7 +16,8 @@ From the first pipeline run on, the register is maintained by the pipeline in se
 
 ## 2. Limitations
 
-- **Extraction errors are possible.** Dates can be misread, a status can lag behind an amendment, an English title can differ from the official translation, and a summary can over- or under-state what an instrument does. Non-English documents are read as machine-extracted text and rendered into English by the agent.
+- **Extraction errors are possible.** Dates can be misread, a status can lag behind an amendment, an English title can differ from the official translation, and a summary can over- or under-state what an instrument does.
+- **The register does not translate instruments.** About a third of the records rest on a text that is not in English. For those, the English title is the official one only where `english_version` says there is an English text of the issuer or a government translation; otherwise it is the agent's rendering. Every summary is written in English by an AI agent that read the original as machine-extracted text, and no native speaker has reviewed them systematically. The original-language text is the authority: quote and cite it, or a government translation, never the summary. `docs/translation-check-2026-10-14.md` measures how well titles, summaries and key terms render the originals.
 - **The verification level is the key field.** A: the official source was stored and confirms the title, date and status. B: another official source confirms them. C: no official source could be stored; the record rests on secondary sources and says `CAUTION` in its verification note. Re-check C records before citing them. For records made by the pipeline the level is computed from the evidence by a script (section 5.5), not chosen by the agent. For the records of version 1, made before the pipeline, the agent that wrote each record also assigned its level; the quality checks and the hand check of 50 records reviewed them, and a recheck run will recompute them.
 - **It is a snapshot.** `meta.snapshot_date` says when every record was last re-verified together. Single records are refreshed more often; `verification.verified_on` and `data/history.jsonl` say when.
 - **Coverage is uneven.** `pipeline/frame.json` records which places have been searched and when, and `pipeline/coverage.md` sums it up (section 7.1). Absence from the register means nothing about a jurisdiction that the frame shows as not yet searched.
@@ -39,6 +40,7 @@ If a tool fails or seems to be missing, an agent stops and says so; it does not 
 | `pipeline/frame.json` | the coverage frame: every jurisdiction and source type, with when it was last searched |
 | `pipeline/coverage.md` | the coverage table, written by `tools/pipeline.py frame --report` |
 | `pipeline/scope-decisions.md` | precedents for borderline scope cases; read before deciding scope |
+| `pipeline/official-sites.json` | the curated list of sites, besides government domains, whose pages count as official evidence, with who runs each and who decided (section 7.6) |
 | `pipeline/refresh-requests.jsonl` | existing records a collector found news about; `queue` puts them first |
 | `pipeline/roles/*.md` | step-by-step instructions for each agent role |
 | `.claude/`, `.agents/`, `.codex/` | settings, skills and subagents for Claude Code and Codex; the skills only point at `pipeline/roles/` |
@@ -69,6 +71,7 @@ python3 tools/pipeline.py log-human --run <run-id> --id <ID> --result ok --note 
 python3 tools/pipeline.py log-scope --id <ID> --decision in --note "..." --by <name>
 python3 tools/pipeline.py queue                      # records due for a refresh run (section 6)
 python3 tools/pipeline.py frame --due | --report     # cells due for a search; the coverage table
+python3 tools/pipeline.py hosts [--pending]          # the curated list of official sites (section 7.6)
 python3 tools/build.py                               # validate and regenerate data files and HISTORY.md
 python3 tools/archive.py --verify                    # re-hash every stored file; flags missing or changed copies
 ```
@@ -168,14 +171,15 @@ Then a checker agent in a fresh context, ideally another model or tool than the 
 | Field | Rule |
 |---|---|
 | `id`, `slug` | set by script: `<CODE>-<NN>` with the ISO 3166-1 alpha-2 code or a body code in use (`UN`, `EU`, `G7`, `OECD`, `COE`, `INT`, ...); sub-national `US-CA-03` |
-| `title`, `original_title` | official English title where one exists, otherwise an accurate English rendering; original-language title when not English |
+| `title`, `original_title` | official English title where one exists (in an English text of the issuer or a government translation), otherwise an accurate English rendering; original-language title, verbatim, when the official text is not in English |
 | `short_title` | common short name, about 60 characters at most |
-| `jurisdiction`, `country`, `jurisdiction_level`, `region` | copy the spelling used for the same country or body in existing records |
+| `jurisdiction`, `country`, `jurisdiction_level`, `region` | `jurisdiction` (and `country` for national records) exactly as the jurisdiction's `name` in `pipeline/frame.json`, which uses common English short names (Vietnam, South Korea, Türkiye); `validate.py` warns on a difference. Titles and issuing bodies keep the issuer's own English spelling |
 | `issuing_body` | the institution that adopted or issued it |
 | `instrument_type`, `legal_force`, `status` | vocabularies in `tools/validate.py`; a bill is `Proposed` and `Draft / proposed`; a vetoed or expired bill stays `Proposed` with status `Lapsed` or `Revoked / withdrawn` |
 | `date_published`, `date_in_force`, `date_last_updated` | ISO, or `YYYY-MM` / `YYYY` when the source gives no day; adoption or issue date, entry into force, last amendment or new version (not consultation dates or partial commencements; those go in `notes`) |
 | `official_identifier` | the citable number: law or decree number, gazette reference, bill number, UN symbol, CELEX; never a version label or a description |
-| `language` | language(s) of the official text, comma-separated |
+| `language` | language(s) of the official text, comma-separated, names only (`Chinese (Traditional)` is a name); translations go in `english_version` |
+| `english_version` | required when the official text is not in English: `{"kind", "url", "by"}`. `kind` is `authentic` (English is one of the issuer's own texts), `government translation` (published by the issuer or another public body, such as a ministry, a government law-translation service or a public research institute; usually provisional or for reference, without legal force), `third-party translation` (anyone else: a university, law firm, translation project or commercial database) or `none found`. The kind says who translated, not that a text is binding. A translation's `url` must be a stored source (list it in `extra_urls`), and `by` names who made it |
 | `summary` | 250 to 700 characters; what the instrument does and its safety or risk-governance content; no evaluation, no hedges |
 | `safety_topics` | 2 to 6 values from the topic list in `tools/validate.py` |
 | `related` | IDs of existing records; an AI Act implementing law relates to `EU-03` |
@@ -200,7 +204,7 @@ Records named in an issue go into a refresh run by ID (`--scope "ids:..."`). A r
 
 ### 7.1 Coverage frame
 
-`pipeline/frame.json` has one cell per jurisdiction and source type: the 193 UN member states, Taiwan, the EU, the US states, the register's other sub-national jurisdictions and the intergovernmental bodies it covers, 1,391 cells in all. Source types: legislature, official gazette or law database, head of government or cabinet, ministries for digital affairs, science and technology, and justice, AI-specific regulators and AI safety institutes, election authorities, and, for intergovernmental bodies, their document repositories. A jurisdiction is added with `pipeline.py frame --add`. Each cell holds the official portals found so far (`where_to_look`), the date last searched, the outcome and the run ID. `pipeline.py frame --due` lists cells never searched or not searched for 180 days, and `pipeline.py frame --report` writes the coverage table for the app and README.
+`pipeline/frame.json` has one cell per jurisdiction and source type: the 193 UN member states, Taiwan, the EU, the US states, the register's other sub-national jurisdictions, the intergovernmental bodies it covers, the international bodies of supervisors (IAIS, IOSCO, BCBS, FSB) and the standards bodies (ISO/IEC, CEN-CENELEC, ETSI), 1,646 cells in all. Source types: legislature, official gazette or law database, head of government or cabinet, ministries for digital affairs, science and technology, and justice, AI-specific regulators and AI safety institutes, election authorities, supervisory authorities (sectoral and horizontal, section 10), and, for intergovernmental and standards bodies, their document repositories. A jurisdiction is added with `pipeline.py frame --add`. Which sites count as official evidence is kept separately, in `pipeline/official-sites.json` (section 7.6). Each cell holds the official portals found so far (`where_to_look`), the date last searched, the outcome and the run ID. `pipeline.py frame --due` lists cells never searched or not searched for 180 days, and `pipeline.py frame --report` writes the coverage table for the app and README.
 
 ### 7.2 Scope precedents
 
@@ -218,6 +222,16 @@ The checker starts in a fresh context with only the run ID and candidate IDs: a 
 
 `pipeline.py report` draws 5 of the run's accepted records at random for a human, who also decides every `needs-human` item. The human logs each check with `pipeline.py log-human`, which writes a `human-checked` event to the history, and each scope decision with `pipeline.py log-scope`, which also adds the case to `pipeline/scope-decisions.md`.
 
+
+### 7.6 Official sites
+
+The evidence script counts a quote as official or alt-official only when its file came from a government domain (`.gov`, `gov.xx`, `gouv.xx`, `.leg.xx`, `state.xx.us`, `europa.eu`, `un.org` and similar) or from a host that `pipeline/official-sites.json` lists as official for the jurisdiction. Everything else counts as secondary, whatever the extractor wrote. The file is curated by people and changed only with `python3 tools/pipeline.py hosts --add`; no script removes or rewrites entries. Each entry has the host, who runs it (`operator`), the kind of site, the page and quote that show who runs it, who decided and when, and a status:
+
+- `official`: the issuing body or another public body runs the host, or uses it as its own channel (an official newsroom on a press-release platform counts when the body's own site links to it as its newsroom). Counts as official evidence.
+- `not official`: a third party (law firm, news outlet, university, NGO, tracker, commercial database), including state news agencies, whose articles are not the instruments themselves. Never counts, even if a later run suggests it; the entry stays so that the decision is not undone.
+- `proposed`: the operator check was unclear; waits for a human decision and does not count.
+
+Entries with `decided_by: "seed"` were taken from the hosts of records' `official_url` when the frame was built; they count as official until a person reviews them (`hosts --pending` lists them). A run's report lists, under "Hosts to review", every host whose quotes were counted as secondary for that reason alone; a human checks who runs it and records the decision.
 ## 8. Running it with Claude Code or Codex
 
 No API keys are needed. Both tools run under the subscription you sign in with (a Claude plan for Claude Code, a ChatGPT plan for Codex), and everything the agents need is in this repository. Run it on your own machine: the archiver has to reach government sites directly, and cloud sandboxes often restrict outbound network access.
@@ -256,11 +270,11 @@ Git keeps every version of `data/records.json`, but a diff of one large JSON fil
 
 The register is inclusive: it includes borderline instruments and flags them with a `scope_note`, instead of leaving them out.
 
-In, with no note: AI-specific laws and implementing regulations, including sub-national ones; executive orders, decrees and cabinet decisions on AI; government safety and risk-management frameworks, guidelines, voluntary codes and technical standards; mandates of AI safety, security and supervisory bodies; national AI strategies whose main content is safety or risk governance; intergovernmental declarations, treaties, resolutions and government-commissioned scientific reports; pending bills; revoked, vetoed or superseded instruments kept for context.
+In, with no note: AI-specific laws and implementing regulations, including sub-national ones; executive orders, decrees and cabinet decisions on AI; government safety and risk-management frameworks, guidelines, voluntary codes and technical standards; mandates of AI safety, security and supervisory bodies; guidelines, opinions, supervisory statements and published Q&As on AI by supervisory authorities, sectoral (banking and financial services, insurance and pensions, securities, health and medicines) or horizontal (data protection, equality and anti-discrimination, consumer protection, competition), at national, EU or sub-national level; European harmonised standards made for AI legislation (CEN-CENELEC, ETSI); national AI strategies whose main content is safety or risk governance; intergovernmental declarations, treaties, resolutions and government-commissioned scientific reports, including those of international bodies of supervisors (IAIS, IOSCO, the Basel Committee, the FSB); pending bills; revoked, vetoed or superseded instruments kept for context.
 
-In, with a `scope_note`: strategies and action plans with some safety or risk-governance content but a different main focus; laws that are not AI-specific but are the operative instrument for an AI-safety question (liability, deepfakes, ethics review); company commitments that governments brokered and published; instruments with "AI" in the title whose content is mainly about something else; private members' bills with little chance of passing.
+In, with a `scope_note`: strategies and action plans with some safety or risk-governance content but a different main focus; laws that are not AI-specific but are the operative instrument for an AI-safety question (liability, deepfakes, ethics review); company commitments that governments brokered and published; instruments with "AI" in the title whose content is mainly about something else; private members' bills with little chance of passing; letters, statements and thematic reviews in which a supervisory authority states its expectations on AI to a whole sector or the public (a "Dear CEO" letter, a review of AI use in a sector that ends with expectations); reports an authority publishes that an expert group it convened wrote; international ISO/IEC standards on AI that laws or official guidelines cite.
 
-Out: documents by companies, think tanks or the press; general privacy, data or cybersecurity laws; strategies with no safety content; minor sectoral circulars. `pipeline/scope-decisions.md` holds the precedents. A record already in the register is never deleted; how to mark one later judged out is an open question in that file.
+Out: documents by companies, think tanks, the press, professional associations or private standard-setters (for example IEEE, OWASP); general privacy, data or cybersecurity laws, and guidance under them that does not deal with AI; strategies with no safety content; supervisory letters to a single firm, speeches, and annual or general supervisory reports that mention AI only in passing; internal administrative circulars. `pipeline/scope-decisions.md` holds the precedents. A record already in the register is never deleted; how to mark one later judged out is an open question in that file.
 
 ## 11. Citing the register
 

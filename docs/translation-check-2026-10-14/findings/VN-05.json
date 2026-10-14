@@ -1,0 +1,90 @@
+{
+  "id": "VN-05",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": [
+      "archive/VN-05/2026-10-11/official.pdf",
+      "archive/VN-05/2026-10-11/secondary.html"
+    ],
+    "usable": true,
+    "note": "official.pdf is the signed Decision (16 scanned pages, no text layer): Articles 1-4 on pages 1-3, the annex table from page 4. I read it by OCR (tesseract 5, Vietnamese model); Articles 1-4 read cleanly, the annex table less so (column layout breaks lines and some sector headings are garbled). secondary.html is the VietnamPlus (Vietnam News Agency) report of 2 Jul 2026, in Vietnamese, used for the sector list."
+  },
+  "language_field": {
+    "current": "Vietnamese",
+    "proposed": "Vietnamese"
+  },
+  "english_version": {
+    "kind": "unclear",
+    "url": "https://english.luatvietnam.vn/decision-no-33-2026-qd-ttg-of-the-prime-minister-promulgating-the-list-of-high-risk-artificial-intelligence-systems-439294-doc1.html",
+    "publisher": "LuatVietnam (commercial legal database)",
+    "stored": false,
+    "evidence": null,
+    "note": "Lead only. One web search found no English text from a public body; LuatVietnam lists an English version behind a subscriber login, and law firms (Tilleke & Gibbins, Allen & Gledhill) publish English summaries only. LuatVietnam is said to distribute the Official Gazette's English translations; whether this text is one of them (official) or LuatVietnam's own (unofficial) is not confirmed."
+  },
+  "title": {
+    "verdict": "accurate rendering",
+    "original_title_matches_source": true,
+    "source_quote": "Ban hành Danh mục hệ thống trí tuệ nhân tạo có rủi ro cao",
+    "file": "archive/VN-05/2026-10-11/official.pdf",
+    "proposed": null,
+    "why": "Page 1 (OCR) shows 'Số: 33/2026/QĐ-TTg', 'QUYẾT ĐỊNH' and the title line above; original_title prefixes the usual citation form. 'Promulgating the List of high-risk artificial intelligence systems' is literal and accurate."
+  },
+  "summary_claims": [
+    {
+      "claim": "A system is high-risk if it may cause significant harm to life, health, lawful rights and interests, national, public or security interests (Law Art. 9; Decree Art. 8(1)) and is not excluded under Decree Art. 8(2).",
+      "file": "archive/VN-05/2026-10-11/official.pdf",
+      "locator": "page 2, Art. 2(1) (OCR)",
+      "original_quote": "1. Hệ thống có thể gây thiệt hại đáng kể đến tính mạng, sức khỏe, quyền và lợi ích hợp pháp của tổ chức, cá nhân, lợi ích quốc gia, lợi ích công cộng, an ninh quốc gia theo quy định tại Điều 9 Luật Trí tuệ nhân tạo; khoản 1 Điều 8 của Nghị định số 142/2026/NĐ-CP",
+      "literal_translation": "1. The system may cause significant damage to life, health, the lawful rights and interests of organisations and individuals, national interests, public interests or national security, as provided in Article 9 of the Law on Artificial Intelligence and Article 8(1) of Decree No. 142/2026/NĐ-CP",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "Listed systems must keep human oversight, control and the ability to intervene, must not displace the authority of competent bodies and must not engage in prohibited acts.",
+      "file": "archive/VN-05/2026-10-11/official.pdf",
+      "locator": "page 1, Art. 1(2) (OCR)",
+      "original_quote": "việc sử dụng hệ thống trí tuệ nhân tạo không làm thay đổi, chuyển giao hoặc loại trừ thâm quyền, trách nhiệm của cơ quan, tổ chức, cá nhân có thẩm quyển-theo quy định của pháp luật; bảo đảm sự giám sát, kiểm soát và khả năng can thiệp của con người trong quá trình vận hành hệ thống",
+      "literal_translation": "the use of AI systems does not change, transfer or exclude the powers and responsibilities of competent agencies, organisations and individuals under the law; human supervision, control and ability to intervene must be ensured during the operation of the system",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "The annex covers education, ethnic and religious affairs, health, banking, judicial proceedings and transport, with use-case conditions for each entry.",
+      "file": "archive/VN-05/2026-10-11/secondary.html",
+      "locator": "section 'Danh mục hệ thống trí tuệ nhân tạo có rủi ro cao'",
+      "original_quote": "Quyết định nêu rõ, danh mục các hệ thống trí tuệ nhân tạo được xác định là có rủi ro cao ở các lĩnh vực: Giáo dục, dân tộc và tôn giáo, y tế, ngân hàng, tố tụng, giao thông vận tải.",
+      "literal_translation": "The Decision states that the list of AI systems identified as high-risk covers the fields of education, ethnic affairs and religion, health, banking, legal proceedings, and transport.",
+      "verdict": "accurate"
+    }
+  ],
+  "key_terms": [
+    {
+      "original": "Danh mục hệ thống trí tuệ nhân tạo có rủi ro cao",
+      "register_rendering": "List of high-risk artificial intelligence systems",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "Literal."
+    },
+    {
+      "original": "lợi ích quốc gia, lợi ích công cộng, an ninh quốc gia",
+      "register_rendering": "national, public or security interests",
+      "official_rendering": null,
+      "verdict": "differs",
+      "note": "The text names national interests, public interests and national security; 'security interests' blurs 'national security'. The meaning survives."
+    },
+    {
+      "original": "Chỉ áp dụng khi hệ thống trí tuệ nhân tạo: ...",
+      "register_rendering": "use-case conditions for each entry",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "Each annex entry has an 'applies only when the AI system ...' column (OCR pages 4 ff.)."
+    }
+  ],
+  "overall": "minor issues",
+  "issues": [
+    "'National, public or security interests' compresses 'lợi ích quốc gia, lợi ích công cộng, an ninh quốc gia' (national interests, public interests, national security).",
+    "Art. 1(2)'s requirements are stated for AI systems generally ('Hệ thống trí tuệ nhân tạo phải đáp ứng ...'), not only for listed systems; reading them as applying to listed systems is defensible in context.",
+    "Not mentioned in the record: Art. 4(3) gives systems put into operation within 6 months after the effective date until 1 March 2027 to comply, and the annex marks for each entry whether it falls under Law Art. 13(2)(a) (certification required before use) or 13(2)(b)."
+  ],
+  "note": "Also accurate against the OCR text: effective date 15 August 2026 (Art. 3(1)); transition to 1 Sep 2027 for health, education and finance and 1 Mar 2027 for other fields, with suspension under Law Art. 35(2) (Art. 4(1)-(2)); 31 transport entries (the last annex row is numbered 31). 'Under Article 13(4) of the Law' is not in the Decision's preamble (which cites the Law generally) but matches Law Art. 13(4) in VN-02's stored text: 'Thủ tướng Chính phủ quy định Danh mục hệ thống trí tuệ nhân tạo có rủi ro cao'. 'tố tụng' is 'legal/judicial proceedings'; the entry listed under it (VietnamPlus; one row in the annex OCR) concerns large-scale biometric identification for resolving public-interest civil cases."
+}

@@ -1,0 +1,89 @@
+{
+  "id": "JP-06",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": [
+      "archive/JP-06/2026-10-11/official.html",
+      "archive/JP-06/2026-10-11/secondary.pdf",
+      "archive/JP-06/2026-10-11/document-1.pdf",
+      "archive/JP-06/2026-10-11/document-2.pdf"
+    ],
+    "usable": false,
+    "note": "No Japanese text of either plan is stored. official.html (Cabinet Office page) gives only the Japanese title and the Cabinet decision dates (令和８年７月14日 and 令和7年12月23日). secondary.pdf is the provisional English translation of the second plan (as of 14 Jul 2026); document-1.pdf is the English summary of the first plan ('Japan Rebooted'); document-2.pdf is a different document, the English Interim Report of the AI Strategic Council and AI Institutional Study Group (4 Feb 2025). Summary claims were therefore checked only against the official provisional English translation."
+  },
+  "language_field": {
+    "current": "Japanese, English",
+    "proposed": "Japanese"
+  },
+  "english_version": {
+    "kind": "official translation",
+    "url": "https://www8.cao.go.jp/cstp/ai/ai_plan/aiplan_eng_20260714.pdf",
+    "publisher": "Cabinet Office, Government of Japan",
+    "stored": true,
+    "evidence": {
+      "file": "archive/JP-06/2026-10-11/secondary.pdf",
+      "quote": "【Provisional translation】  As of July 14, 2026"
+    },
+    "note": "The translation's first page also says '※Please refer to the original text for accuracy'. official.html links an English translation ('→英訳はこちら') for both plans and both overviews."
+  },
+  "title": {
+    "verdict": "official English title",
+    "original_title_matches_source": true,
+    "source_quote": "Summary of “Japan’s AI Basic Plan”",
+    "file": "archive/JP-06/2026-10-11/document-1.pdf",
+    "proposed": null,
+    "why": "original_title '人工知能基本計画' matches official.html. The government's English uses 'AI Basic Plan' (first plan's summary) and 'Japan’s Second ARTIFICIAL INTELLIGENCE BASIC PLAN' (second plan's translation); the register's 'AI Basic Plan' is the short official form."
+  },
+  "summary_claims": [
+    {
+      "claim": "That pillar calls for strengthening the AI Safety Institute's technical evaluation (model assessment, traceability, guardrails, crisis-time information sharing).",
+      "file": "archive/JP-06/2026-10-11/secondary.pdf",
+      "locator": "page 19, Chapter 3 Section 3, (1) Realizing responsible agile governance, item (vii)",
+      "original_quote": "(vii) Centered on AISI, establish and strengthen technical evaluation capabilities that enable evaluation of AI models, traceability, technical controls such as guardrails, and information sharing in times of crisis.",
+      "literal_translation": "Quote is from the official provisional English translation; the Japanese text is not stored.",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "It also covers continuous review of the AI Act.",
+      "file": "archive/JP-06/2026-10-11/secondary.pdf",
+      "locator": "page 18, Chapter 3 Section 3, (1) Realizing responsible agile governance, item (i)",
+      "original_quote": "proactively and continuously review systems and related measures, including the AI Act.",
+      "literal_translation": "Quote is from the official provisional English translation; the Japanese text is not stored.",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "... and international leadership through the AISI network.",
+      "file": "archive/JP-06/2026-10-11/secondary.pdf",
+      "locator": "page 20, Chapter 3 Section 3, international cooperation items, item (iii)",
+      "original_quote": "Lead the building of AI governance by utilizing international frameworks, including the AISI international  network through which Japan promotes exchanges of views with the U.S. CAISI, the UK AISI, and others",
+      "literal_translation": "Quote is from the official provisional English translation; the Japanese text is not stored.",
+      "verdict": "accurate"
+    }
+  ],
+  "key_terms": [
+    {
+      "original": "人工知能基本計画",
+      "register_rendering": "AI Basic Plan",
+      "official_rendering": "AI Basic Plan / ARTIFICIAL INTELLIGENCE BASIC PLAN",
+      "verdict": "consistent",
+      "note": "Both forms appear in the government's English."
+    },
+    {
+      "original": "AIセーフティ・インスティテュート (AISI)",
+      "register_rendering": "AI Safety Institute",
+      "official_rendering": "AI Safety Institute (AISI)",
+      "verdict": "consistent",
+      "note": "secondary.pdf, Chapter 1."
+    }
+  ],
+  "overall": "could not check",
+  "issues": [
+    "No Japanese text of the plan is stored, so the English summary could not be compared with the original; it agrees with the Cabinet Office's provisional English translation.",
+    "document-2.pdf is the 2025 Interim Report, not the plan or its summary.",
+    "language field lists English, but the English texts are provisional translations; proposed 'Japanese'.",
+    "Notes say the plan 'commits to annual updates with KPIs'; the second plan's translation says it will be reviewed 'as needed, in principle annually', and 'KPI' does not occur in it (the first plan's summary mentions 'setting and monitoring appropriate benchmarks/ annual revisions for the time being')."
+  ],
+  "note": "The second plan's English title in the stored translation is 'Japan’s Second ARTIFICIAL INTELLIGENCE BASIC PLAN — Japan AI Transformation;  A Stronger Nation. Greater Prosperity. —'; the register's subtitle uses a colon where the translation has a semicolon. The 'promoting innovation while mitigating risks' principle and the 'Enhance AI Trustworthiness' pillar both appear verbatim in the translation. To check the translation itself, store the Japanese plan (人工知能基本計画, PDF 568 KB on the Cabinet Office page)."
+}

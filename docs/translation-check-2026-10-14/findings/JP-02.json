@@ -1,0 +1,65 @@
+{
+  "id": "JP-02",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": [],
+    "usable": false,
+    "note": "No stored copy: local_copy.status is 'failed'; the METI page and PDF returned HTTP 403, also in the browser retry, and archive/JP-02/ does not exist. The Japanese title and the guideline's later versions are mentioned in stored files of other records (archive/JP-03/2026-10-11/document-1.pdf, archive/JP-05/2026-10-11/official.html), which were used only for the title and the version note."
+  },
+  "language_field": {"current": "Japanese, English (tentative translation)", "proposed": "Japanese"},
+  "english_version": {
+    "kind": "official translation",
+    "url": "https://www.soumu.go.jp/main_sosiki/kenkyu/ai_network/02ryutsu20_04000019.html",
+    "publisher": "Ministry of Internal Affairs and Communications and Ministry of Economy, Trade and Industry",
+    "stored": false,
+    "evidence": null,
+    "note": "Lead only. One web search returned the MIC page above, which the search summary describes as listing English files for 'AI Guidelines for Business Ver1.2' (provisional translation). The page itself was not opened or stored. The record's language field already says the English is a tentative translation; that remark belongs in verification.note or here, not in the language field."
+  },
+  "title": {
+    "verdict": "accurate rendering",
+    "original_title_matches_source": true,
+    "source_quote": "AI事業者ガイドライン",
+    "file": "archive/JP-05/2026-10-11/official.html",
+    "proposed": null,
+    "why": "The Japanese title appears in the Cabinet Office list of ministry guidelines stored for JP-05 (row 1, under 総務省、経済産業省). Literally 'AI business-operator guidelines'; 'AI Guidelines for Business' is a fair rendering and, per the web lead, the ministries' own English title, but no English version is stored, so it is not graded as the official English title."
+  },
+  "summary_claims": [
+    {
+      "claim": "Single set of voluntary AI governance guidelines for AI developers, providers and business users.",
+      "file": "archive/JP-05/2026-10-11/official.html",
+      "locator": "各府省庁等のガイドライン等の一覧, row 1 (AI事業者ガイドライン), 概要 column",
+      "original_quote": "様々な事業活動においてＡＩの開発・提供・利用を担う全ての者に対し、ＡＩ開発・提供・利用にあたって必要な取組についての基本的な考え方を示すもの。",
+      "literal_translation": "It sets out, for all those who carry out the development, provision or use of AI in various business activities, the basic approach to the efforts needed in AI development, provision and use.",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "It sets common principles (human-centricity, safety, fairness, privacy, security, transparency, accountability and others) and recommends risk-based, agile AI governance across the life cycle.",
+      "file": null,
+      "locator": null,
+      "original_quote": null,
+      "literal_translation": null,
+      "verdict": "not in stored text"
+    },
+    {
+      "claim": "It includes specific guidance for advanced AI systems based on the Hiroshima AI Process.",
+      "file": null,
+      "locator": null,
+      "original_quote": null,
+      "literal_translation": null,
+      "verdict": "not in stored text"
+    }
+  ],
+  "key_terms": [
+    {"original": "AI事業者ガイドライン", "register_rendering": "AI Guidelines for Business", "official_rendering": null, "verdict": "consistent", "note": "No stored English version; the web lead indicates the ministries use the same English title."},
+    {"original": "AI開発者 / AI提供者 / AI利用者", "register_rendering": "AI developers, providers and business users", "official_rendering": null, "verdict": "consistent", "note": "The three actor categories are named in the J-AISI guide stored for JP-03 (document-1.pdf, section 1.3: 「AI 開発者」及び「AI 提供者」, and 「AI 利用者」)."}
+  ],
+  "overall": "could not check",
+  "issues": [
+    "No stored copy of the guideline in any language (METI returned HTTP 403); the summary cannot be checked against the original.",
+    "Probably out of date: notes say version 1.1 (28 Mar 2025) is the latest, but the J-AISI guide v1.20 stored for JP-03 cites '総務省・経済産業省「AI 事業者ガイドライン（第 1.2 版）」' and the Cabinet Office list stored for JP-05 gives the guideline's latest revision as R8.3 (March 2026). The record needs a refresh run.",
+    "language field carries a remark ('English (tentative translation)'); proposed value 'Japanese'."
+  ],
+  "note": "Quote for the version 1.2 citation: archive/JP-03/2026-10-11/document-1.pdf, page 9: '（※出典：総務省・経済産業省「AI 事業者ガイドライン（第 1.2 版） 」 ）'. The MIC page in english_version.url is the place to store a copy from, since METI blocks the archiver."
+}

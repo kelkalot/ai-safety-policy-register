@@ -1,0 +1,65 @@
+{
+  "id": "JP-03",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": ["archive/JP-03/2026-10-11/official.html", "archive/JP-03/2026-10-11/document-1.pdf", "archive/JP-03/2026-10-11/document-2.pdf", "archive/JP-03/2026-10-11/secondary.html"],
+    "usable": true,
+    "note": "document-1.pdf is the full Japanese text of the Evaluation Perspectives Guide v1.20 (7 Jul 2026, text layer); document-2.pdf its Japanese summary slides. official.html is the J-AISI release page for v1.20 (Japanese only). secondary.html is the release page for the Red Teaming Methodology Guide v1.10 and lists the Japanese and English file titles; the red-teaming guide itself is not stored in either language."
+  },
+  "language_field": {"current": "Japanese, English", "proposed": "Japanese"},
+  "english_version": {
+    "kind": "official translation",
+    "url": "https://aisi.go.jp/assets/pdf/ai_safety_eval_v1.10_en.pdf",
+    "publisher": "Japan AI Safety Institute (J-AISI)",
+    "stored": true,
+    "evidence": {"file": "archive/JP-03/2026-10-11/secondary.html", "quote": "Guide to Red Teaming Methodology on AI Safety(Version 1.10)"},
+    "note": "J-AISI publishes English versions of both guides. The stored red-teaming release page lists them under ［英語］, but the English files themselves are not stored. For the evaluation guide, one web search found J-AISI's English PDFs of v1.00 and v1.10 (URL above, not stored); the search snippet shows they carry 'Please refer to the original text for accuracy', i.e. they are translations of the Japanese. No English v1.20 was found in the stored v1.20 release page, which links Japanese files only."
+  },
+  "title": {
+    "verdict": "official English title",
+    "original_title_matches_source": true,
+    "source_quote": "AIセーフティに関するレッドチーミング手法ガイド",
+    "file": "archive/JP-03/2026-10-11/secondary.html",
+    "proposed": null,
+    "why": "Both halves of original_title match the stored pages (official.html: 'AIセーフティに関する評価観点ガイド(第1.20版)'; secondary.html: 'AIセーフティに関するレッドチーミング手法ガイド(第1.10版)'). 'Guide to Red Teaming Methodology on AI Safety' is quoted from the stored secondary.html; 'Guide to Evaluation Perspectives on AI Safety' matches J-AISI's English v1.00/v1.10 PDFs found by web search (not stored)."
+  },
+  "summary_claims": [
+    {
+      "claim": "Two companion technical guides from J-AISI for AI developers and providers.",
+      "file": "archive/JP-03/2026-10-11/document-1.pdf",
+      "locator": "page 9, section 1.3 想定読者",
+      "original_quote": "本書は、AI システムの開発及び提供の過程に関与する事業者（AI 事業者ガイドラインに記載されている「AI 開発者」及び「AI 提供者」 ）を読者とする。",
+      "literal_translation": "This document is addressed to business operators involved in the process of developing and providing AI systems (the 'AI developers' and 'AI providers' described in the AI Guidelines for Business).",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "Version 1.20 adds 'observation and control' for AI agent systems.",
+      "file": "archive/JP-03/2026-10-11/official.html",
+      "locator": "release text, third paragraph",
+      "original_quote": "さらに、AIエージェントシステム特有の観点として「観測と制御」を設け、「自律的な挙動」及び「外部環境との相互作用」に関する評価項目を追加しました。",
+      "literal_translation": "In addition, 'observation and control' was set up as a perspective specific to AI agent systems, and evaluation items on 'autonomous behaviour' and 'interaction with the external environment' were added.",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "The other sets a methodology for red-teaming AI systems, including LLM-based systems.",
+      "file": "archive/JP-03/2026-10-11/secondary.html",
+      "locator": "release text, first paragraph",
+      "original_quote": "RAG（Retrieval-Augmented Generation）の仕組みを実装したAIシステムに対して実際にレッドチーミングを行い、その手順を詳細に解説するとともに、レッドチーミング実施の成果物を文書としてとりまとめました。",
+      "literal_translation": "We actually carried out red teaming on an AI system implementing a RAG (Retrieval-Augmented Generation) mechanism, explained the procedure in detail, and compiled the outputs of the red-teaming exercise as documents.",
+      "verdict": "accurate"
+    }
+  ],
+  "key_terms": [
+    {"original": "評価観点", "register_rendering": "evaluation perspectives", "official_rendering": "Evaluation Perspectives (in 'Guide to Evaluation Perspectives on AI Safety', web lead)", "verdict": "consistent", "note": "Official English seen only in the web search, not in a stored file."},
+    {"original": "観測と制御", "register_rendering": "observation and control", "official_rendering": null, "verdict": "consistent", "note": "Literal and accurate; no English v1.20 is stored or was found."},
+    {"original": "レッドチーミング手法", "register_rendering": "Red Teaming Methodology", "official_rendering": "Red Teaming Methodology", "verdict": "consistent", "note": "From the stored English file titles on secondary.html."}
+  ],
+  "overall": "minor issues",
+  "issues": [
+    "language field lists English, but the English versions are J-AISI translations of the Japanese guides (marked 'Please refer to the original text for accuracy' per the web lead); proposed 'Japanese'.",
+    "'Including LLM-based systems' is not stated literally in stored text: the release page mentions a RAG system, and the red-teaming guide itself is not stored."
+  ],
+  "note": "The v1.20 evaluation guide cites the AI Guidelines for Business as version 1.2 (page 9), which bears on JP-02. The guide's section 5.1.2 (page 43) confirms the companion relationship: it refers readers to the red-teaming guide for 'レッドチーミングの意義、実施する場合の想定フロー、実施者の役割、実施する場合の留意事項等'."
+}

@@ -1,0 +1,94 @@
+{
+  "id": "KR-07",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": [
+      "archive/KR-07/2026-10-12/official.pdf",
+      "archive/KR-07/2026-10-12/secondary.html"
+    ],
+    "usable": true,
+    "note": "official.pdf is the full Korean guideline (111 PDF pages). pdftotext gives clean text; pypdf scrambles punctuation in places. The cover (PDF page 1), read from a rendering, shows '고영향 인공지능 사업자 책무 가이드라인' with the logos of MSIT (과학기술정보통신부, Ministry of Science and ICT) and TTA (한국정보통신기술협회, Telecommunications Technology Association). The term table on PDF pages 11-12 gives the issuer's own English glosses for the key terms. secondary.html is the NIA download post listing the five guideline files and their revision notices."
+  },
+  "language_field": {
+    "current": "Korean",
+    "proposed": "Korean"
+  },
+  "english_version": {
+    "kind": "none found",
+    "url": null,
+    "publisher": null,
+    "stored": false,
+    "evidence": null,
+    "note": "Korean only, but the guideline's term table glosses the defined terms in English (e.g. '인공지능사업자 (AI business operator)', '고영향 인공지능 (high-impact AI)', '국내대리인 (domestic agent)', '영향받는 자 (impacted person)'). A web search for MSIT English versions of the guidelines found none."
+  },
+  "title": {
+    "verdict": "accurate rendering",
+    "original_title_matches_source": true,
+    "source_quote": "고영향 인공지능 사업자 책무 가이드라인",
+    "file": "archive/KR-07/2026-10-12/official.pdf",
+    "proposed": null,
+    "why": "책무 = responsibilities/duties, and 'High-Impact AI Business Operators' matches the issuer's own glosses 'high-impact AI' and 'AI business operator' (PDF page 11). original_title matches the cover and the PDF page 2 heading. '(Article 34 of the AI Basic Act)' is a register addition."
+  },
+  "summary_claims": [
+    {
+      "claim": "the duties that Article 34 ... places on operators providing high-impact AI or products using it: a risk-management plan; measures to explain, as far as technically feasible, the AI's final results, the main criteria behind them and an overview of the training data; user-protection measures; human management and supervision of the AI; and documents evidencing the safety and reliability measures taken",
+      "file": "archive/KR-07/2026-10-12/official.pdf",
+      "locator": "PDF page 15, section 2.1, Act Art. 34(1)",
+      "original_quote": "1. 위험관리방안의 수립·운영 2. 기술적으로 가능한 범위 내에서의 인공지능이 도출한 최종결과, 인공지능의 최종결과 도출에 활용된 주요 기준, 인공지능의 개발·활용에 사용된 학습용데이터의 개요 등에 대한 설명 방안의 수립·시행 3. 이용자 보호 방안의 수립·운영 4. 고영향 인공지능에 대한 사람의 관리·감독",
+      "literal_translation": "1. establishing and operating a risk-management plan; 2. establishing and implementing a plan to explain, to the extent technically feasible, the final result derived by the AI, the main criteria used to derive it, and an overview of the training data used to develop and use the AI; 3. establishing and operating a user-protection plan; 4. human management and supervision of high-impact AI",
+      "verdict": "accurate",
+      "note": "Item 5 (문서의 작성과 보관, drafting and keeping documents that let the safety and reliability measures be verified) is rendered correctly. 방안 is 'plan', and the summary's 'measures to explain' and 'user-protection measures' are slightly looser."
+    },
+    {
+      "claim": "plus further matters decided by the National AI Strategy Committee",
+      "file": "archive/KR-07/2026-10-12/official.pdf",
+      "locator": "PDF page 15, section 2.1, Act Art. 34(1)6",
+      "original_quote": "6. 그 밖에 고영향 인공지능의 안전성·신뢰성 확보를 위하여 위원회에서 심의·의결된 사항",
+      "literal_translation": "6. other matters deliberated and resolved by the Committee to ensure the safety and reliability of high-impact AI",
+      "verdict": "accurate",
+      "note": "The guideline says only '위원회' (the Committee). In Act No. 20676 as enacted (stored with KR-06), the Committee is the 국가인공지능위원회 (National AI Committee, Art. 7); the Enforcement Decree calls it 국가인공지능전략위원회 (National AI Strategy Committee). The register's name follows the decree."
+    },
+    {
+      "claim": "It reproduces the relevant decree and notification provisions and appends a safety-and-trust document template, a self-check list and a hiring example.",
+      "file": "archive/KR-07/2026-10-12/official.pdf",
+      "locator": "PDF page 2, table of contents",
+      "original_quote": "부록 1. 안전신뢰문서 양식 [작성용] 61 2. 자가점검 항목 78 작성 예시 채용분야 작성 예시 85",
+      "literal_translation": "Annexes: 1. Safety-and-trust document form [for completion] 61; 2. Self-check items 78. Worked example: hiring-sector example 85",
+      "verdict": "accurate",
+      "note": "Section 2.2 reproduces decree Art. 27, and each part of chapter 3 opens with '관련 기술고시 조문' (related technical-notification article)."
+    }
+  ],
+  "key_terms": [
+    {
+      "original": "인공지능사업자 / 고영향 인공지능사업자",
+      "register_rendering": "operators; High-Impact AI Business Operators (title)",
+      "official_rendering": "AI business operator (PDF page 11); also AI developer, AI-using business operator",
+      "verdict": "consistent",
+      "note": "Issuer's own gloss."
+    },
+    {
+      "original": "사람의 관리·감독",
+      "register_rendering": "human management and supervision",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "Literal. KR-02 renders the same duty as 'human oversight', also acceptable."
+    },
+    {
+      "original": "위원회 (Act Art. 34(1)6)",
+      "register_rendering": "National AI Strategy Committee",
+      "official_rendering": null,
+      "verdict": "differs",
+      "note": "The guideline does not name the committee. The enacted Act's name is 국가인공지능위원회; the register uses the decree's 국가인공지능전략위원회. Defensible, but the register should say which instrument the name comes from."
+    }
+  ],
+  "overall": "minor issues",
+  "issues": [
+    "Notes understate the reproduced notification text: the guideline reproduces technical-notification Articles 4 to 8 (risk-management plan, explanation plan, user protection, human management and supervision, documents; PDF pages 17, 30, 41, 53, 59), not only Articles 4 to 6.",
+    "'National AI Strategy Committee' is the decree's name; the guideline says only '위원회', and the enacted Act names it 국가인공지능위원회.",
+    "Title carries a register-added parenthetical '(Article 34 of the AI Basic Act)'.",
+    "Not a translation issue: the cover carries the MSIT and TTA logos; TTA is not named in issuing_body."
+  ],
+  "note": "The ISO/IEC TS 42119-2:2025 reference is on PDF page 46. The hiring example's sample reference list names the notification '고영향 인공지능과 관련한 사업자의 책무 고시' under a sample ID (A-2026-003), which is not an official number. That fits the notes' statement that the number was not located. The guideline also says the confirmation request is optional ('이는 의무가 아닌 사업자의 선택 사항이다', PDF page 13), which supports the point made in KR-02."
+}

@@ -42,7 +42,8 @@ LOCAL_STATUSES = [
 CSV_COLS = [
     "id", "title", "original_title", "short_title", "jurisdiction", "country", "jurisdiction_level", "region",
     "issuing_body", "instrument_type", "legal_force", "status", "date_published", "date_in_force",
-    "date_last_updated", "official_identifier", "official_url", "secondary_url", "language", "summary",
+    "date_last_updated", "official_identifier", "official_url", "secondary_url", "language", "english_version",
+    "english_version_url", "english_version_by", "summary",
     "safety_topics", "related_ids", "notes", "scope_note", "verification_level", "verified_on", "verification_method",
     "verification_note", "second_check", "local_status", "local_flag", "local_last_attempt", "local_files",
     "local_sha256",
@@ -74,6 +75,7 @@ def normalise(db):
 
 def flat(r):
     v = r.get("verification") or {}
+    ev = r.get("english_version") or {}
     lc = r.get("local_copy") or {}
     files = lc.get("files") or []
     return {
@@ -84,7 +86,9 @@ def flat(r):
         "legal_force": r.get("legal_force"), "status": r.get("status"), "date_published": r.get("date_published"),
         "date_in_force": r.get("date_in_force"), "date_last_updated": r.get("date_last_updated"),
         "official_identifier": r.get("official_identifier"), "official_url": r.get("official_url"),
-        "secondary_url": r.get("secondary_url"), "language": r.get("language"), "summary": r.get("summary"),
+        "secondary_url": r.get("secondary_url"), "language": r.get("language"),
+        "english_version": ev.get("kind"), "english_version_url": ev.get("url"), "english_version_by": ev.get("by"),
+        "summary": r.get("summary"),
         "safety_topics": "; ".join(r.get("safety_topics") or []),
         "related_ids": "; ".join(x.get("id") for x in (r.get("related") or []) if x.get("id")),
         "notes": r.get("notes"), "scope_note": r.get("scope_note"), "verification_level": v.get("level"), "verified_on": v.get("verified_on"),
@@ -143,6 +147,7 @@ def write_sqlite(db, root=ROOT):
       instrument_type TEXT, legal_force TEXT, status TEXT,
       date_published TEXT, date_in_force TEXT, date_last_updated TEXT,
       official_identifier TEXT, official_url TEXT, secondary_url TEXT, language TEXT,
+      english_version TEXT, english_version_url TEXT, english_version_by TEXT,
       summary TEXT, notes TEXT, scope_note TEXT,
       verification_level TEXT, verified_on TEXT, verification_method TEXT, verification_note TEXT, second_check TEXT,
       local_status TEXT, local_flag TEXT, local_last_attempt TEXT
@@ -168,12 +173,14 @@ def write_sqlite(db, root=ROOT):
     for r in db["records"]:
         v = r.get("verification") or {}
         lc = r.get("local_copy") or {}
-        cur.execute("INSERT INTO records VALUES (" + ",".join(["?"] * 31) + ")", (
+        ev = r.get("english_version") or {}
+        cur.execute("INSERT INTO records VALUES (" + ",".join(["?"] * 34) + ")", (
             r["id"], r.get("slug"), r.get("title"), r.get("original_title"), r.get("short_title"),
             r.get("jurisdiction"), r.get("country"), r.get("jurisdiction_level"), r.get("region"),
             r.get("issuing_body"), r.get("instrument_type"), r.get("legal_force"), r.get("status"),
             r.get("date_published"), r.get("date_in_force"), r.get("date_last_updated"),
             r.get("official_identifier"), r.get("official_url"), r.get("secondary_url"), r.get("language"),
+            ev.get("kind"), ev.get("url"), ev.get("by"),
             r.get("summary"), r.get("notes"), r.get("scope_note"),
             v.get("level"), v.get("verified_on"), v.get("method"), v.get("note"), v.get("second_check"),
             lc.get("status"), " ".join(x for x in (lc.get("flag"), lc.get("integrity_flag")) if x) or None,
