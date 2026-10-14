@@ -1,0 +1,150 @@
+{
+ "cand_id": "PE-02",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "PE-02",
+ "record": {
+  "title": "Supreme Decree No. 115-2025-PCM approving the Regulation of Law No. 31814, Law promoting the use of artificial intelligence for the economic and social development of the country",
+  "original_title": "Decreto Supremo que aprueba el Reglamento de la Ley Nº 31814, Ley que promueve el uso de la inteligencia artificial en favor del desarrollo económico y social del país",
+  "summary": "Regulation of Law 31814 with a risk-based regime. Prohibited ('improper') uses include manipulative influence on decisions, autonomous lethal capability without human supervision in the civilian sphere, mass surveillance without legal basis, inferring sensitive traits from biometrics, real-time biometric identification to categorise people in public spaces (except identity authentication and investigation of listed serious crimes) and crime prediction by profiling. High-risk uses (critical national assets, evaluating minors, employment, social programmes, credit, health) require transparency, human supervision and impact assessment (mandatory for public entities, voluntary for private).",
+  "safety_topics": [
+   "risk-based classification",
+   "prohibited practices",
+   "human oversight",
+   "transparency & labelling",
+   "public-sector use",
+   "evaluation & testing"
+  ],
+  "notes": "Issued on 8 September 2025 and published in El Peruano on 9 September 2025. The decree enters into force 90 business days after publication, which falls in January 2026, except the First, Second, Fourth and Fifth Final Complementary Provisions of the Regulation, which applied from the day after publication. The transparency duties (Article 25) and the Title VI obligations are phased in: public sector within 1 year (executive, legislature, judiciary, autonomous constitutional bodies), 2 years (EsSalud, regional governments, public universities, public enterprises) and 3 years (local governments of types A to C; optional for types D to G); private sector within 1 year (health, education, justice, security, economy and finance), 2 years (transport, commerce, labour), 3 years (production, agriculture, energy, mining) and 4 years (all other uses); small enterprises 2 years and micro-enterprises 3 years. Public administration entities must also run security audits before and during operation, manage AI incidents and use NTP-ISO/IEC 42001:2025 when developing AI systems. AI used for national defence and security is outside the Regulation's scope provided it respects the principles of Article 7 (Article 4(b)); personal use is also excluded. Systems that are neither improper nor high-risk are of 'acceptable risk' (Article 22.2).",
+  "verification": {
+   "note": "Stored: the El Peruano HTML edition of Supreme Decree 115-2025-PCM with the full Regulation (Articles 1-36 and six final complementary provisions). It confirms the title, the number, issue on 8 September 2025, publication on 9 September 2025, the 90-business-day entry into force, the risk categories, the public-sector obligations and the phased implementation. Items c) and d) of Article 24.1 (high-risk uses) are missing from the stored copy itself, so the list of high-risk uses in the summary covers items a), b) and e) to j) only. The stored copy states the entry-into-force rule but not the resulting date; 90 business days after 9 September 2025 falls in January 2026 under any count of public holidays, so date_in_force is left empty. The Congress-hosted PDF (secondary_url) returned HTTP 404 and is not stored."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/PE-02/2026-10-11/official.html",
+    "sha256": "5bc24af92420ea1c58831302e87ffa374220a634208e998c7e8208ba80ad390f",
+    "locator": "heading of the decree",
+    "quote": "Decreto Supremo que aprueba el Reglamento de la Ley Nº 31814, Ley que promueve el uso de la inteligencia artificial en favor del desarrollo económico y social del país",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/PE-02/2026-10-11/official.html",
+    "sha256": "5bc24af92420ea1c58831302e87ffa374220a634208e998c7e8208ba80ad390f",
+    "locator": "heading of the decree",
+    "quote": "DECRETO SUPREMO nº 115-2025-pcm",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/PE-02/2026-10-11/official.html",
+    "sha256": "5bc24af92420ea1c58831302e87ffa374220a634208e998c7e8208ba80ad390f",
+    "locator": "heading of the decree",
+    "quote": "Decreto Supremo que aprueba el Reglamento de la Ley Nº 31814, Ley que promueve el uso de la inteligencia artificial en favor del desarrollo económico y social del país",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/PE-02/2026-10-11/official.html",
+    "sha256": "5bc24af92420ea1c58831302e87ffa374220a634208e998c7e8208ba80ad390f",
+    "locator": "heading of the decree",
+    "quote": "DECRETO SUPREMO nº 115-2025-pcm",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/PE-02/2026-10-11/official.html",
+    "sha256": "5bc24af92420ea1c58831302e87ffa374220a634208e998c7e8208ba80ad390f",
+    "locator": "heading of the decree",
+    "quote": "DECRETO SUPREMO nº 115-2025-pcm",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/PE-02/2026-10-11/official.html",
+    "sha256": "5bc24af92420ea1c58831302e87ffa374220a634208e998c7e8208ba80ad390f",
+    "locator": "Artículo 4.- Refrendo",
+    "quote": "El presente Decreto Supremo es refrendado por el Presidente del Consejo de Ministros, el Ministro de Educación, el Ministro de la Producción y el Ministro de Justicia y Derechos Humanos.",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/PE-02/2026-10-11/official.html",
+    "sha256": "5bc24af92420ea1c58831302e87ffa374220a634208e998c7e8208ba80ad390f",
+    "locator": "publication line above the heading",
+    "quote": "Fecha de publicación: 09/09/2025",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/PE-02/2026-10-11/official.html",
+    "sha256": "5bc24af92420ea1c58831302e87ffa374220a634208e998c7e8208ba80ad390f",
+    "locator": "Disposición Complementaria Final Única. Vigencia",
+    "quote": "El presente Decreto Supremo entra en vigencia a partir de los noventa (90) días hábiles siguientes de su publicación en el diario oficial El Peruano",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/PE-02/2026-10-11/official.html",
+    "sha256": "5bc24af92420ea1c58831302e87ffa374220a634208e998c7e8208ba80ad390f",
+    "locator": "Reglamento, Primera Disposición Complementaria Final (Cronograma de implementación)",
+    "quote": "d) Para todos los usos no incluidos en los sectores anteriores, implementación a nivel nacional: Cuatro (4) años contado a partir del día siguiente de la publicación del Decreto Supremo que aprueba el presente Reglamento.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/PE-02/2026-10-11/official.html",
+    "sha256": "5bc24af92420ea1c58831302e87ffa374220a634208e998c7e8208ba80ad390f",
+    "locator": "publication line above the heading",
+    "quote": "Fecha de publicación: 09/09/2025",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/PE-02/2026-10-11/official.html",
+    "sha256": "5bc24af92420ea1c58831302e87ffa374220a634208e998c7e8208ba80ad390f",
+    "locator": "Artículo 1",
+    "quote": "Aprobar el Reglamento de la Ley Nº 31814, Ley que promueve el uso de la inteligencia artificial en favor del desarrollo económico y social del país, que consta de seis (06) títulos, treinta y seis (36) artículos y seis (06) disposiciones complementarias finales",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/PE-02/2026-10-11/official.html",
+    "sha256": "5bc24af92420ea1c58831302e87ffa374220a634208e998c7e8208ba80ad390f",
+    "locator": "Disposición Complementaria Final Única. Vigencia",
+    "quote": "El presente Decreto Supremo entra en vigencia a partir de los noventa (90) días hábiles siguientes de su publicación en el diario oficial El Peruano",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Rule: the decree enters into force 90 business days after its publication in El Peruano (9 September 2025), except four final provisions that applied from the next day. Even counting weekends only, the 90th business day after 9 September 2025 is in mid-January 2026, and Peru's public holidays in that period add about a week, so the decree has been in force since January 2026, well before today (14 October 2026). The Regulation's transparency duties and Title VI obligations are implemented in phases of 1 to 4 years from the day after publication; the 1-year deadlines passed in September 2026, the 2-, 3- and 4-year deadlines (September 2027 to September 2029) have not. 'Partially in force' is kept for that reason; the exact date is not stated in the stored copy, so date_in_force stays null.",
+  "scope_reasoning": "Binding implementing regulation of Peru's AI law with a risk-based regime; clearly in scope.",
+  "changes": {
+   "title": "the English title rendered only part of the heading; it now renders the whole title, including 'for the economic and social development of the country'",
+   "original_title": "made verbatim: the stored heading has no number after 'Decreto Supremo' (the number is printed separately as 'nº 115-2025-pcm') and uses 'Nº'",
+   "summary": "the lethal-autonomy ban is limited to the civilian sphere (Art. 23.1(b)); the biometric-identification ban concerns categorisation in public spaces with exceptions for identity authentication and investigation of listed serious crimes, which is not 'narrow' (Art. 23.1(e)); security audits and incident management are duties of public entities, not of high-risk uses in general (Art. 29), so they moved to notes; impact assessment is mandatory only for public entities (Arts. 30.1, 32.1); 'improper use' named as the Regulation's category",
+   "safety_topics": "nine values exceeded the limit of six; dropped 'national security & military' (defence and national-security uses are outside the Regulation's scope, Art. 4(b)), 'child safety' and 'critical infrastructure', which are single items of the high-risk list",
+   "notes": "named the four final provisions in force from the day after publication; spelled out the phased deadlines from the First Final Complementary Provision; added the defence and personal-use exclusions (Art. 4), the acceptable-risk tier (Art. 22.2) and the public-entity duties moved from the summary; removed the remark about the date not being computed officially",
+   "verification.note": "rewritten to describe the stored copy"
+  },
+  "confirmed": [
+   "issuing_body",
+   "official_identifier",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "Items c) and d) of Article 24.1 (high-risk uses) are missing from the stored El Peruano HTML; a copy of the gazette PDF ('Cuadernillo') would show them.",
+  "The exact entry-into-force date (90 business days after 9 September 2025) is not stated in any stored copy; date_in_force stays null.",
+  "issuing_body names the Presidency of the Council of Ministers; the decree is issued by the President of the Republic and countersigned by the President of the Council of Ministers and three ministers, the number carrying the PCM sector code. Left unchanged."
+ ]
+}

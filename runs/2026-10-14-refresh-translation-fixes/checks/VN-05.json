@@ -1,0 +1,73 @@
+{
+ "cand_id": "VN-05",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Preamble names the PM and MoST; the signer Ho Quoc Dung (Deputy PM, 'KT. THU TUONG PHO THU TUONG') is not in the OCR but is legible on page 3 of the stored PDF image; the parenthetical in the record rests on that and on secondary pages."
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "High-risk criteria: Art. 2(1)-(2) of the Decision cite Law Art. 9 and Decree Art. 8(1), exclusion Decree Art. 8(2)",
+   "verdict": "supported",
+   "locator": "page 2, Art. 2"
+  },
+  {
+   "claim": "Art. 1(2): use of AI does not change, transfer or exclude the powers and responsibilities of competent bodies; human supervision, control and ability to intervene ('bao dam su giam sat, kiem soat va kha nang can thiep cua con nguoi')",
+   "verdict": "supported",
+   "locator": "page 1"
+  },
+  {
+   "claim": "Annex headings: education, ethnic and religious affairs, health, banking, 'to tung' (legal proceedings), transport; numbering restarts per section and transport ends at 31",
+   "verdict": "supported",
+   "locator": "pages 4-16 (checked on page images)"
+  },
+  {
+   "claim": "Art. 4 transition: 1 Sep 2027 (health, education, finance), 1 Mar 2027 (others); systems started within 6 months by 1 Mar 2027",
+   "verdict": "supported",
+   "locator": "page 2-3, Art. 4"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Summary and notes match the Vietnamese text. english_version is correctly recorded as a third-party translation (LuatVietnam page lists 'LuatVietnam's translation'); its URL is a stored source (extra-6b5c060e05). In force from 15 Aug 2026, which has passed. Search found no amendment."
+}

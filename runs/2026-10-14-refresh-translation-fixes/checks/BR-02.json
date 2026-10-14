@@ -1,0 +1,82 @@
+{
+ "cand_id": "BR-02",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Art. 9-B: duty to inform 'de modo explicito, destacado e acessivel que o conteudo foi fabricado ou manipulado e a tecnologia utilizada' (literal: explicitly, prominently and accessibly that the content was fabricated or manipulated and the technology used)",
+   "verdict": "supported",
+   "locator": "Art. 9-B caput"
+  },
+  {
+   "claim": "Art. 9-C para 1: ban on synthetic audio/video creating or altering image or voice of living, dead or fictitious person, 'ainda que mediante autorizacao' (even with authorisation); para 2: cassacao do registro ou do mandato",
+   "verdict": "supported",
+   "locator": "Art. 9-C"
+  },
+  {
+   "claim": "Art. 9-E: providers jointly and severally liable if they do not make content unavailable immediately in listed cases; the summary names only the AI-labelling case (item V), a narrowing but accurate",
+   "verdict": "supported",
+   "locator": "Art. 9-E"
+  },
+  {
+   "claim": "DJE-TSE no. 29 of 4.3.2024, pp. 132-145; Art. 6 in force on publication",
+   "verdict": "supported",
+   "locator": "end of text"
+  }
+ ],
+ "newer_versions": [
+  {
+   "what": "Resolucao TSE 23.755 of 2 March 2026 amending Res. 23.610/2019 (AI rules for the 2026 elections)",
+   "url": "https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-755-de-2-de-marco-de-2026",
+   "affects": [
+    "status",
+    "date_last_updated",
+    "summary",
+    "notes"
+   ]
+  }
+ ],
+ "extra_urls": [
+  "https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-755-de-2-de-marco-de-2026"
+ ],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "needs-human",
+ "note": "The stored 2024 text supports every field and claim. Search shows that TSE Resolution 23.755 of 2 March 2026 amended Resolution 23.610/2019, apparently including the AI rules (new ban window of 72 hours before to 24 hours after voting, per press reports). That page is not stored, so I cannot judge from it; the human should decide whether BR-02's status, date_last_updated and notes need an update or whether Res. 23.755 is a new record. Summary and notes may now be incomplete."
+}

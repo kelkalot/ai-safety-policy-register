@@ -1,0 +1,120 @@
+{
+ "cand_id": "KR-05",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "KR-05",
+ "record": {
+  "original_title": "인공지능 안전성 확보 가이드라인",
+  "summary": "Draft guidance for operators subject to the safety duty of Article 32 of Korea's AI Basic Act, which under Article 24 of the Enforcement Decree covers AI systems meeting all three criteria: training compute of 10^26 floating-point operations or more; the most advanced (state-of-the-art) AI technology in current use; and a risk that may broadly and seriously affect life, physical safety and fundamental rights. It explains how to determine the systems in scope and who bears the duty, risk identification, assessment and mitigation across the life cycle, a risk-management system for safety incidents, and reporting, including submission of the safety measures to the Minister within three months.",
+  "notes": "The NIA version (file dated 22 January 2026, 71 pages) opens with a notice that this draft guideline is still being written and may differ from the final version to be published. It explains, and reproduces in full, a draft MSIT notification on the methods of implementing the AI safety obligation (인공지능 안전성 확보 의무의 이행방법 등에 관한 고시(안)), whose number is left blank. The draft notification requires a first report to the Minister within 24 hours of recognising a safety incident, an initial-action report within 7 days and a result report within 15 days of the first report, and new submissions within one month of a substantial change that increases risk or of recognising a new risk. Cumulative compute is to be calculated from training records and system logs, including pre-processing and fine-tuning, by theoretical, empirical-statistical or hardware-based methods. The guideline is a reference document that neither replaces the law nor imposes new duties, though supervisors may use it when checking compliance.",
+  "verification": {
+   "note": "Stored: NIA's copy of the guideline (PDF, 71 pages; read through pdftotext, as the PDF's own text layer is garbled; the cover image shows '2026. 1' and the logos of MSIT and ETRI) and NIA's post of 22 January 2026 distributing the AI Basic Act guidelines. The PDF confirms the draft marking, the Article 32 and Decree Article 24 basis, the three criteria, the draft notification with its blank number, the compute-calculation methods, the chapter structure, the three-month submission rule and the 24-hour, 7-day and 15-day incident reports. NIA's post confirms the title (file name) and the publication date. The running header on every page misprints the title as '인공지능 안정성 확보 가이드라인'. The KOSA help desk's later version (draft notification No. 2026-126 of February 2026, title '최첨단 인공지능 안전성 확보 가이드라인'), on which date_last_updated '2026-02' rests, could not be stored: the site blocks automated downloads. The grace period for fines mentioned in an earlier version of this record is in no file stored for this record (it is stored for KR-04)."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-05/extra-31a14a6512/2026-10-14/official.html",
+    "sha256": "df0b69c8bd0013005327ad4c06fe41019b6992c4a8602f7a0d9d52f69e71f5c6",
+    "locator": "attachment list",
+    "quote": "2._260122_인공지능_안전성_확보_가이드라인.pdf",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/KR-05/2026-10-12/official.pdf",
+    "sha256": "c49c4fa002e60d21a4964fbea992e1ae2f3554063db6e5da262b1d74aeb32dd5",
+    "locator": "page 2 (notice)",
+    "quote": "이 가이드라인(안)은 전문가, 실무자, 그리고 다양한 이해관계자의 의견을 모아, 해외 동향과 인공지능 기술의 발전, 서비스 형태 등을 종합적으로 반영해 작성 중인 자료입니다.",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-05/extra-31a14a6512/2026-10-14/official.html",
+    "sha256": "df0b69c8bd0013005327ad4c06fe41019b6992c4a8602f7a0d9d52f69e71f5c6",
+    "locator": "attachment list",
+    "quote": "2._260122_인공지능_안전성_확보_가이드라인.pdf",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-05/extra-31a14a6512/2026-10-14/official.html",
+    "sha256": "df0b69c8bd0013005327ad4c06fe41019b6992c4a8602f7a0d9d52f69e71f5c6",
+    "locator": "notice heading and date",
+    "quote": "AI기본법 시행 및 하위법령 공개(1.22.~) 2026.01.22",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-05/extra-31a14a6512/2026-10-14/official.html",
+    "sha256": "df0b69c8bd0013005327ad4c06fe41019b6992c4a8602f7a0d9d52f69e71f5c6",
+    "locator": "attachment list",
+    "quote": "2._260122_인공지능_안전성_확보_가이드라인.pdf",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/KR-05/2026-10-12/official.pdf",
+    "sha256": "c49c4fa002e60d21a4964fbea992e1ae2f3554063db6e5da262b1d74aeb32dd5",
+    "locator": "page 2 (notice)",
+    "quote": "이 가이드라인(안)은 전문가, 실무자, 그리고 다양한 이해관계자의 의견을 모아, 해외 동향과 인공지능 기술의 발전, 서비스 형태 등을 종합적으로 반영해 작성 중인 자료입니다.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/KR-05/2026-10-12/official.pdf",
+    "sha256": "c49c4fa002e60d21a4964fbea992e1ae2f3554063db6e5da262b1d74aeb32dd5",
+    "locator": "page 2 (notice)",
+    "quote": "따라서 여기에 담긴 내용은 앞으로 공개될 최종본과는 달라질 수 있습니다.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/KR-05/2026-10-12/official.pdf",
+    "sha256": "c49c4fa002e60d21a4964fbea992e1ae2f3554063db6e5da262b1d74aeb32dd5",
+    "locator": "page 5, section 1-1",
+    "quote": "관한 고시」(과학기술정보통신부 고시 제2026-○○호, 이하 “고시”라 한다)의 내용을",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/KR-05/2026-10-12/official.pdf",
+    "sha256": "c49c4fa002e60d21a4964fbea992e1ae2f3554063db6e5da262b1d74aeb32dd5",
+    "locator": "page 2 (notice)",
+    "quote": "이 가이드라인(안)은 전문가, 실무자, 그리고 다양한 이해관계자의 의견을 모아, 해외 동향과 인공지능 기술의 발전, 서비스 형태 등을 종합적으로 반영해 작성 중인 자료입니다.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/KR-05/2026-10-12/official.pdf",
+    "sha256": "c49c4fa002e60d21a4964fbea992e1ae2f3554063db6e5da262b1d74aeb32dd5",
+    "locator": "page 5, section 1-1",
+    "quote": "체계적으로 정리한 참고 문서로서, 법령이나 고시를 대체하거나 새로운 의무를 부과하는 것을 목적으로",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The stored NIA version calls itself '이 가이드라인(안)' (this draft guideline), still being written, and says its content may differ from the final version to be published (page 2). The notification it implements is itself a draft ('고시(안)', page 8) with its number left blank ('제2026-○○호', page 5). No stored file shows a final version. 'Draft / proposed' with legal force 'Proposed' stands.",
+  "scope_reasoning": "In scope without a scope note: ministry guidance on the safety duty for the most compute-intensive AI under an AI-specific statute.",
+  "changes": {
+   "original_title": "'인공지능 안전성 확보 가이드라인(안)' was not verbatim: the title on the cover and in NIA's file name has no '(안)'; the draft marking comes from the page-2 notice and stays in the English title.",
+   "summary": "'Frontier-level technology' became 'the most advanced (state-of-the-art) AI technology in current use', following Decree Article 24(1)2 (page 8) and the guideline's own gloss '최첨단(State-of-the-Art, SOTA)' (page 19). Added that all three criteria must be met and the duty-bearer question (pages 14 and 22).",
+   "notes": "The incident-reporting timelines are in the stored NIA version (draft notification Article 8(3), page 12), not only in the KOSA version. Removed the statements resting only on the unstored KOSA version and the grace-period sentence (now in verification.note). Added the compute-calculation rule, the one-month submissions and the guideline's reference character (pages 5, 9 and 12).",
+   "verification": "New note saying what the stored files confirm and what rests on the unstored KOSA version."
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "date_last_updated '2026-02' rests on the KOSA help-desk version, which cannot be stored (sw.or.kr blocks the archiver and is listed as not official). Kept as it is.",
+  "issuing_body names MSIT, NIA and the KOSA help desk. MSIT (the notification) and NIA (the post) are supported; KOSA's distribution of this guideline is not in any stored file, and the cover names ETRI (Electronics and Telecommunications Research Institute), which issuing_body omits. Kept as it is for a human to decide.",
+  "The ministry's grace period for fines is now supported for KR-04 by MSIT's press release; whether it should also be stated here (or in KR-02) is open."
+ ]
+}

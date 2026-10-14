@@ -1,0 +1,75 @@
+{
+ "cand_id": "CN-09",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported",
+   "why": "kind third-party translation; China Law Translate page stored"
+  },
+  "summary": {
+   "verdict": "supported",
+   "why": "each claim matches Arts. 3-7 and 10; 648 characters"
+  },
+  "notes": {
+   "verdict": "supported",
+   "why": "Arts. 1, 2, 9, 11, 14 confirmed"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Explicit labels for services under Art. 17(1) of the Deep Synthesis Provisions; implicit labels in file metadata with digital watermarks encouraged. Art. 4 '属于《深度合成管理规定》第十七条第一款情形的，应当...添加显式标识'; Art. 5 '鼓励服务提供者在生成合成内容中添加数字水印等形式的隐式标识'",
+   "verdict": "supported",
+   "locator": "Arts. 4, 5"
+  },
+  {
+   "claim": "Dissemination platforms check metadata and add prominent notices to content labelled, declared or suspected as generated. Art. 6(1)-(3)",
+   "verdict": "supported",
+   "locator": "Art. 6"
+  },
+  {
+   "claim": "App distribution platforms verify providers' labelling materials. Art. 7 '核验其生成合成内容标识相关材料'",
+   "verdict": "supported",
+   "locator": "Art. 7"
+  },
+  {
+   "claim": "Unlabelled content only after a user agreement fixes the user's labelling duty and responsibility; logs kept at least six months. Art. 9",
+   "verdict": "supported",
+   "locator": "Art. 9"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Summary and notes follow the Chinese articles closely, including the distinction between providers covered by Art. 17(1) of the Deep Synthesis Provisions (explicit labels) and all covered providers (implicit labels). The earlier summary's 'content platforms' and 'app stores' are now rendered literally. Identifier, dates and effective date confirmed. No amendment found."
+}

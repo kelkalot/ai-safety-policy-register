@@ -1,0 +1,67 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "KR-06",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "The guideline's own FAQ cites 「고영향 인공지능 판단 가이드라인」; the English title renders it accurately (the cover's own English title is not in a text layer)."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "Character match with the FAQ citation and the NIA file name."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Art. 33(3) gives the Minister the duty to publish; the NIA post distributes it and the cover shows MSIT and NIA logos."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "NIA post 2026.01.22."
+  },
+  "date_last_updated": {
+   "verdict": "supported",
+   "why": "NIA notice 2026-04-29 revision upload and file 260429."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "NIA: current files published; the FAQ states it is not legally binding."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "FAQ on legal force: 법적 구속력이 있는 것은 아니며."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Two-step test: area listed in Art. 2(4) and whether use may significantly affect or endanger life, physical safety or fundamental rights",
+   "verdict": "supported",
+   "locator": "page 7 ff; Art. 33 text"
+  },
+  {
+   "claim": "Areas: energy, drinking water, health care, medical devices, nuclear safety, biometric analysis for criminal investigation or arrest, hiring and loan screening, transport, public-service decisions, student assessment (Art. 2(4)(가)-(차))",
+   "verdict": "supported",
+   "locator": "KR-02 Art. 2(4); page 8 of the guideline quoting it"
+  },
+  {
+   "claim": "Expert committee advice is non-binding and optional; the Minister's confirmation is an administrative view, with courts having the final say",
+   "verdict": "supported",
+   "locator": "page 7, FAQ (전문위원회의 판단은 법적 구속력이 없는 자문 ... 법원의 사법적 판단)"
+  },
+  {
+   "claim": "Annexes reproduce the Act and the draft Enforcement Decree (시행령안, page 185) and request forms",
+   "verdict": "supported",
+   "locator": "pages 185-216"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": "Government guideline under an AI law."
+ },
+ "overall": "accept",
+ "note": "Own literal translation: 'The Minister's confirmation is an administrative procedure and, like other administrative interpretations, remains an administrative judgment; the final civil and criminal determination is made by judicial judgment of the courts.' The Art. 2(4) list in the summary is a faithful short form; 'biometric identification' of the earlier text was correctly narrowed to analysis of biometric information for criminal investigation or arrest. english_version stays 'none found' although the cover has an English title; not recordable as a version of the text. No newer revision than 29 April 2026 found.",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": []
+}

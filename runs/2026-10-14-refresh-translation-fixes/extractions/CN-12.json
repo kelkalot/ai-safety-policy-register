@@ -1,0 +1,122 @@
+{
+ "cand_id": "CN-12",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "CN-12",
+ "record": {
+  "summary": "State Council opinions on the 'AI+' action, mainly about integrating AI into six fields: science and technology, industry, consumption, people's livelihood, governance and global cooperation, with targets for 2027, 2030 and 2035. Its item on raising security capability calls for security capacity for models and algorithms, data, infrastructure and applications; guarding against risks from model black boxes, hallucination and algorithmic discrimination; forward-looking assessment; and systems for AI technology monitoring, risk early warning and emergency response. It also calls for improving AI laws and ethical norms and optimising security assessment and filing.",
+  "notes": "Signed 21 Aug 2025 and released on 26 Aug 2025. The NDRC coordinates implementation. Item (14) also calls for an inclusive and prudent, categorised and graded approach to AI governance. Outside items (13) and (14), item (6)2 calls for jointly assessing and responding to AI application risks to keep AI development safe, reliable and controllable, and item (4)1 for assessing the employment risks of AI applications.",
+  "scope_note": "A State Council policy on integrating AI across the economy and society in which safety takes up a small part of the text, mainly item (14) on security capability and two sentences of item (13) on law, ethics and security assessment; included as the State Council's national AI policy.",
+  "verification": {
+   "note": "Full text stored twice, both re-posted from gov.cn: on the CAC site (27 Aug 2025) and on the MIIT site (release time 2025-08-26 17:57, source gov.cn). Document number 国发〔2025〕11号, signing by the State Council on 21 Aug 2025, and items (13) and (14) confirmed; the release date of 26 Aug 2025 is the earliest date in the stored Chinese copies and matches CSET's note. CSET's unofficial English translation is stored; the summary follows the Chinese text."
+  },
+  "english_version": {
+   "kind": "third-party translation",
+   "url": "https://cset.georgetown.edu/wp-content/uploads/t0652_AI_plus_opinions_EN.pdf",
+   "by": "Center for Security and Emerging Technology (CSET), Georgetown University"
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/CN-12/2026-10-11/official.html",
+    "sha256": "d75f6d97724e45316f7d9a9ed2fca753ed949a208a12bdacaf9aef0d82f1b244",
+    "locator": "heading",
+    "quote": "国务院关于深入实施“人工智能+”行动的意见 国发〔2025〕11号",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/CN-12/2026-10-11/official.html",
+    "sha256": "d75f6d97724e45316f7d9a9ed2fca753ed949a208a12bdacaf9aef0d82f1b244",
+    "locator": "heading",
+    "quote": "国务院关于深入实施“人工智能+”行动的意见 国发〔2025〕11号",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/CN-12/2026-10-11/official.html",
+    "sha256": "d75f6d97724e45316f7d9a9ed2fca753ed949a208a12bdacaf9aef0d82f1b244",
+    "locator": "closing signature",
+    "quote": "国务院 2025年8月21日",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/CN-12/2026-10-11/official.html",
+    "sha256": "d75f6d97724e45316f7d9a9ed2fca753ed949a208a12bdacaf9aef0d82f1b244",
+    "locator": "heading",
+    "quote": "国发〔2025〕11号 各省、自治区、直辖市人民政府",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/CN-12/2026-10-11/official.html",
+    "sha256": "d75f6d97724e45316f7d9a9ed2fca753ed949a208a12bdacaf9aef0d82f1b244",
+    "locator": "closing signature",
+    "quote": "国务院 2025年8月21日",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-12/extra-adfa72db98/2026-10-14/official.pdf",
+    "sha256": "5f4a812b0e3054dfb3f47bebd675173a494d1956b78978236bfdede70233535e",
+    "locator": "page 1, source note",
+    "quote": "The Opinions were formulated on August 21, 2025 and released to the public on August 26, 2025.",
+    "source_kind": "secondary"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/CN-12/2026-10-11/official.html",
+    "sha256": "d75f6d97724e45316f7d9a9ed2fca753ed949a208a12bdacaf9aef0d82f1b244",
+    "locator": "四、组织实施",
+    "quote": "国家发展改革委要加强统筹协调，推动形成工作合力",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CN-12/2026-10-11/secondary.html",
+    "sha256": "472bded7e7d2c44d4c598ec5f69d57c92225c4f23e312b37bf567991574054bb",
+    "locator": "release line",
+    "quote": "发布时间：2025-08-26 17:57 来源：中国政府网",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/CN-12/2026-10-11/official.html",
+    "sha256": "d75f6d97724e45316f7d9a9ed2fca753ed949a208a12bdacaf9aef0d82f1b244",
+    "locator": "preamble",
+    "quote": "加快形成人机协同、跨界融合、共创分享的智能经济和智能社会新形态，现提出如下意见",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Signed by the State Council on 21 Aug 2025 and released by 26 Aug 2025 (MIIT re-post of the gov.cn text). Opinions (意见) are a policy document addressed to provincial governments and State Council bodies, with implementation coordinated by the NDRC; the stored files show no replacement. Status stays Published (non-binding, current).",
+  "scope_reasoning": "Borderline: mainly an AI adoption and development policy. Items (13) and (14) are about 330 of about 5,200 characters of body text; included with a scope_note as the State Council's national AI policy.",
+  "changes": {
+   "summary": "Focus areas corrected to the six the text names (科技、产业、消费、民生、治理、全球合作); 民生 is 'people's livelihood', not 'public services'. Dropped the evaluation 'China's current flagship AI policy' and the 'dedicated section' framing; 'improving security assessment and filing' became 'optimising' (优化). Added the targets for 2027, 2030 and 2035.",
+   "notes": "Release date corrected from 27 Aug (the CAC re-post) to 26 Aug 2025 (the MIIT re-post of the gov.cn text, 17:57). Added the categorised and graded approach (分类分级) of item (14) and the safety-related sentences of items (6)2 and (4)1.",
+   "scope_note": "'About one-fifth' corrected: items (13) and (14) are about 330 of about 5,200 characters of body text (roughly 6 percent), and item (13) is mostly about state-capital oversight and financial support.",
+   "verification": "Return round (14 Oct 2026): the English translation is now stored.",
+   "english_version": "Return round (14 Oct 2026): set to CSET's translation, now stored (translator Etcetera Language Group, Inc., edited by CSET's translation manager). The findings show no government English text."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "official_identifier",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

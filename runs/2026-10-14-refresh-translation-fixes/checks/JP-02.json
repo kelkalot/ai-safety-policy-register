@@ -1,0 +1,85 @@
+{
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Cover of v1.2 reads AI 事業者ガイドライン / 'AI Guidelines for Business' (the English cover is the ministries' provisional translation, so the English title is a government translation)."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "The record has AI事業者ガイドライン; the MIC page and cover show the same characters (cover text layer has spaces: AI 事業者ガイドライン)."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Cover names 総務省 経済産業省 (MIC, METI)."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Cover of the first version: 第 1.0 版 令和 6 年 4 月 19 日 (19 April 2024), and MIC page heading 令和6年4月19日 公表. The first version's date is the right one for date_published; later versions go to date_last_updated."
+  },
+  "date_last_updated": {
+   "verdict": "supported",
+   "why": "Version 1.2, 令和8年3月31日 (31 March 2026), is the latest listed. A web search found no version 1.3."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Published, non-binding, living document (Living Document として ... 適宜更新)."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "非拘束的なソフトロー = non-binding soft law."
+  },
+  "official_url": {
+   "verdict": "supported",
+   "why": "MIC page is stored (extra-3b054e8a62) and lists all versions."
+  },
+  "english_version": {
+   "verdict": "supported",
+   "why": "kind 'government translation'; the page marks the English as 仮訳 and the cover says 'Provisional Translation'. The URL https://www.soumu.go.jp/main_content/001080990.pdf is a stored source (sha256 c8eba9b2...). Kind is fitting, with the provisional caveat in the notes."
+  },
+  "notes": {
+   "verdict": "judgment-differs",
+   "why": "'integrating and replacing' the three earlier guidelines: the text says the three guidelines were 統合・見直し ('integrated and reviewed'); 'replacing' is a reasonable reading but not stated in those words. Other claims found: versions and dates, AI Promotion Act (令和7年法律第53号, promulgated June, fully in force September 2025), Article 13 guideline of 19 Dec 2025, AI agent and physical AI definitions, Hiroshima Code of Conduct reference, appendix, provisional translations."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Ten common guiding principles: human-centricity, safety, fairness, privacy, security, transparency, accountability, education and literacy, fair competition, innovation",
+   "verdict": "supported",
+   "locator": "C. 共通の指針, items 1) to 10) (pages ~14-26)",
+   "translation": "1) 人間中心 human-centric; 2) 安全性 safety; 3) 公平性 fairness; 4) プライバシー保護 privacy protection; 5) セキュリティ確保 ensuring security; 6) 透明性 transparency; 7) アカウンタビリティ accountability; 8) 教育・リテラシー education and literacy; 9) 公正競争確保 ensuring fair competition; 10) イノベーション innovation."
+  },
+  {
+   "claim": "Applies the Hiroshima Process guiding principles to all AI actors",
+   "verdict": "supported",
+   "locator": "D. 広島 AI プロセス, page ~26",
+   "translation": "'Businesses involved in any AI system should act in line with the Hiroshima Process International Guiding Principles for All AI Actors'; the 11 principles 'should be applied, in a timely and appropriate manner and to an appropriate extent, to all AI actors'."
+  },
+  {
+   "claim": "For all who develop, provide or use AI in business, including public bodies",
+   "verdict": "supported",
+   "locator": "はじめに, page 3",
+   "translation": "'business operators (including public institutions such as governments and municipalities)'."
+  },
+  {
+   "claim": "Risk-based approach and agile governance across the life cycle",
+   "verdict": "supported",
+   "locator": "はじめに; E. AI ガバナンスの構築",
+   "translation": "'a risk-based approach that matches the degree of measures to the size of the risk is important' and 'practice of agile governance'."
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "JP-04"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": "Government guideline on AI governance and risk management."
+ },
+ "overall": "accept",
+ "note": "Title, ministries, dates (1.0 on 19 April 2024; latest 1.2 on 31 March 2026), non-binding status and the summary's ten principles, Hiroshima principles and public-body coverage all match the Japanese originals. The English version is a stored government provisional translation. The 'replacing' wording in notes goes slightly beyond the text's 'integrated and reviewed' and is a wording choice only. One search found no version 1.3. JP-04 (the AI Promotion Act, cited in the notes) is missing from related. The evidence script's month-only warning on one date quote does not matter, since two other quotes give the full day.",
+ "cand_id": "JP-02",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14"
+}

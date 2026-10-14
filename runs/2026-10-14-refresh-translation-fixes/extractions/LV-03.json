@@ -1,0 +1,173 @@
+{
+ "cand_id": "LV-03",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "LV-03",
+ "record": {
+  "summary": "Sectoral law applying the EU Digital Operational Resilience Act and the AI Act to Latvian financial market participants, to ensure digital operational resilience and safe AI use. Latvijas Banka supervises AI Act compliance under Article 74(6), may set further requirements where EU law does not apply directly, and informs the European Central Bank. For AI Act breaches it may warn, fine legal persons up to EUR 35 million or 7 percent, 15 million or 3 percent, or 7.5 million or 1 percent of turnover and natural persons up to EUR 35, 15 or 7.5 million, order conduct to stop, and bar responsible individuals from their duties for up to two years.",
+  "notes": "Adopted by the Saeima on 11 September 2025, promulgated on 30 September 2025 and in force from 1 October 2025 together with nine related amending laws. The AI Act requirements apply to the financial entities listed in Sections 4 and 5, from credit institutions and insurers to crypto-asset service providers, and to credit unions (Section 7). Sanctionable AI Act breaches are those of the rules on prohibited practices, the duties of providers, authorised representatives, importers, distributors and deployers of high-risk systems, notified bodies, transparency duties and the duty to supply correct information (Section 11(2)). Fines on legal persons are the higher of the fixed amount and the turnover share, but the lower for small and medium-sized enterprises and start-ups (Section 10(6)); a ban on performing duties lasts until the breach is remedied or the decision is final, at most two years. The Ministry of Finance called the financial sector the first area in Latvia to receive rules on the use of AI; outside it, supervision rests on the authorities named in the Cabinet's 2025 report (LV-02). Sanctions are published on Latvijas Banka's website for up to five years; proceedings must start within five years of a breach; appeals go to the Administrative District Court and do not suspend decisions other than warnings and fines.",
+  "verification": {
+   "note": "Stored: the law on likumi.lv (official publisher Latvijas Vēstnesis), which confirms the title, adoption on 11 Sep 2025, promulgation in Riga on 30 Sep 2025, publication in Latvijas Vēstnesis no. 188 of 30 Sep 2025 (2025/188.1), entry into force on 1 Oct 2025 and Sections 1-15; the English translation of the law on likumi.lv by the State Language Centre (Valsts valodas centrs), from which the English title and the section numbering are taken; and the LV portāls explainer of 2 Oct 2025, which confirms the nine accompanying amendments and the Ministry of Finance's remark that the financial sector is the first area with rules on AI use. The summary was written from the Latvian text. That the Ministry of Finance prepared the law with Latvijas Banka and submitted it to the Cabinet in March 2025 rests on a Ministry release that is not stored in this run."
+  },
+  "title": "Law on Digital Operational Resilience and Use of Artificial Intelligence in Financial Markets",
+  "english_version": {
+   "kind": "government translation",
+   "url": "https://likumi.lv/ta/en/en/id/363378-law-on-digital-operational-resilience-and-use-of-artificial-intelligence-in-financial-markets",
+   "by": "Valsts valodas centrs (State Language Centre)"
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/LV-03/2026-10-12/official.html",
+    "sha256": "6f44228848b8bc6a8a8c519a1b03e7752e0c6f2909dfc7aeefdde56b191025e6",
+    "locator": "Tiesību akta pase (document passport)",
+    "quote": "Tiesību akta pase Nosaukums: Finanšu tirgus digitālās darbības noturības un mākslīgā intelekta izmantošanas likums",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/LV-03/extra-cc67e67ff3/2026-10-14/official.html",
+    "sha256": "16c5ff1d0f8998dee706b69a6192c2b2db8b8e846de408e407192d28bbe59157",
+    "locator": "English translation, enacting formula and title",
+    "quote": "has adopted and the President has proclaimed the following law: Law on Digital Operational Resilience and Use of Artificial Intelligence in Financial Markets",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/LV-03/extra-cc67e67ff3/2026-10-14/official.html",
+    "sha256": "16c5ff1d0f8998dee706b69a6192c2b2db8b8e846de408e407192d28bbe59157",
+    "locator": "English translation, translator credit at the end",
+    "quote": "Translation © 2025 Valsts valodas centrs (State Language Centre)",
+    "source_kind": "alt-official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/LV-03/2026-10-12/official.html",
+    "sha256": "6f44228848b8bc6a8a8c519a1b03e7752e0c6f2909dfc7aeefdde56b191025e6",
+    "locator": "enacting formula and title",
+    "quote": "Saeima ir pieņēmusi un Valsts prezidents izsludina šādu likumu: Finanšu tirgus digitālās darbības noturības un mākslīgā intelekta izmantošanas likums",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/LV-03/2026-10-12/official.html",
+    "sha256": "6f44228848b8bc6a8a8c519a1b03e7752e0c6f2909dfc7aeefdde56b191025e6",
+    "locator": "enacting formula",
+    "quote": "Saeima ir pieņēmusi un Valsts prezidents izsludina šādu likumu:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/LV-03/2026-10-12/official.html",
+    "sha256": "6f44228848b8bc6a8a8c519a1b03e7752e0c6f2909dfc7aeefdde56b191025e6",
+    "locator": "closing lines",
+    "quote": "Likums Saeimā pieņemts 2025. gada 11. septembrī.",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/LV-03/2026-10-12/official.html",
+    "sha256": "6f44228848b8bc6a8a8c519a1b03e7752e0c6f2909dfc7aeefdde56b191025e6",
+    "locator": "document passport",
+    "quote": "Publicēts: Latvijas Vēstnesis, 188, 30.09.2025. OP numurs: 2025/188.1",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/LV-03/2026-10-12/official.html",
+    "sha256": "6f44228848b8bc6a8a8c519a1b03e7752e0c6f2909dfc7aeefdde56b191025e6",
+    "locator": "closing lines",
+    "quote": "Likums Saeimā pieņemts 2025. gada 11. septembrī.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/LV-03/2026-10-12/official.html",
+    "sha256": "6f44228848b8bc6a8a8c519a1b03e7752e0c6f2909dfc7aeefdde56b191025e6",
+    "locator": "document passport",
+    "quote": "Pieņemts: 11.09.2025.Stājas spēkā: 01.10.2025.",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/LV-03/2026-10-12/official.html",
+    "sha256": "6f44228848b8bc6a8a8c519a1b03e7752e0c6f2909dfc7aeefdde56b191025e6",
+    "locator": "document passport",
+    "quote": "Pieņemts: 11.09.2025.Stājas spēkā: 01.10.2025.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/LV-03/2026-10-12/official.html",
+    "sha256": "6f44228848b8bc6a8a8c519a1b03e7752e0c6f2909dfc7aeefdde56b191025e6",
+    "locator": "final provision",
+    "quote": "Likums stājas spēkā nākamajā dienā pēc tā izsludināšanas.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/LV-03/2026-10-12/official.html",
+    "sha256": "6f44228848b8bc6a8a8c519a1b03e7752e0c6f2909dfc7aeefdde56b191025e6",
+    "locator": "document passport: current status",
+    "quote": "Tiesību akta pase Nosaukums: Finanšu tirgus digitālās darbības noturības un mākslīgā intelekta izmantošanas likums Statuss: Spēkā esošs",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/LV-03/2026-10-12/official.html",
+    "sha256": "6f44228848b8bc6a8a8c519a1b03e7752e0c6f2909dfc7aeefdde56b191025e6",
+    "locator": "final provision: the rule",
+    "quote": "Likums stājas spēkā nākamajā dienā pēc tā izsludināšanas.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/LV-03/2026-10-12/official.html",
+    "sha256": "6f44228848b8bc6a8a8c519a1b03e7752e0c6f2909dfc7aeefdde56b191025e6",
+    "locator": "promulgation line: the event",
+    "quote": "Rīgā 2025. gada 30. septembrī",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/LV-03/extra-cc67e67ff3/2026-10-14/official.html",
+    "sha256": "16c5ff1d0f8998dee706b69a6192c2b2db8b8e846de408e407192d28bbe59157",
+    "locator": "English translation, document information",
+    "quote": "Title: Finanšu tirgus digitālās darbības noturības un mākslīgā intelekta izmantošanas likums Status: In force",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/LV-03/2026-10-12/official.html",
+    "sha256": "6f44228848b8bc6a8a8c519a1b03e7752e0c6f2909dfc7aeefdde56b191025e6",
+    "locator": "Article 10(3)(5)",
+    "quote": "5) soda naudu juridiskajai personai līdz 35 miljoniem euro vai līdz septiņiem procentiem no kopējā gada apgrozījuma atkarībā no tā, kurš lielāks, par šā likuma 11. panta otrās daļas 1. punktā minēto pārkāpumu;",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Rule: the law enters into force on the day after its promulgation. Event: promulgated in Riga on 30 September 2025; the document passport gives entry into force on 01.10.2025 and status 'Spēkā esošs' (in force) in the copy stored on 12 October 2026. Today is 14 October 2026; status 'In force' (confirmed).",
+  "scope_reasoning": "Sectoral law that sets the supervisory and penalty regime for the AI Act in the financial sector; in scope, no scope_note.",
+  "changes": {
+   "summary": "Fine caps separated by person as Article 10(3) sets them: the turnover percentages apply to legal persons, natural persons face fixed caps of EUR 35, 15 and 7.5 million; 'pagaidu aizliegums veikt tai noteiktos pienākumus' rendered as a bar from performing their duties (not a general ban on individuals); 'tiesības papildus noteikt citas ... prasības ... jomās, kuras netiek regulētas ar tieši piemērojamiem Eiropas Savienības tiesību aktiem' rendered as further requirements where EU law does not apply directly; adds the purpose in Article 2 ('mākslīgā intelekta izmantošanas drošību', safe AI use); the list of participants and of breach types moved out to keep within length.",
+   "notes": "Adds the scope of Art. 7, the breach types of Art. 11(2) (moved from the summary), the SME and start-up rule of Art. 10(6) and the length of the duty ban; replaces 'the first Latvian law with an AI Act penalty regime' with the Ministry of Finance's own statement as reported in the stored explainer; removes 'Prepared by the Ministry of Finance with Latvijas Banka and submitted to the Cabinet in March 2025', which no file stored in this run supports (moved to verification.note). Article references now use 'Section', as the official translation does.",
+   "verification": "Rewritten for this refresh; names the stored English translation and its translator.",
+   "title": "Now the official English title of the State Language Centre's translation on likumi.lv ('Law on Digital Operational Resilience and Use of Artificial Intelligence in Financial Markets') instead of the register's literal rendering.",
+   "english_version": "Was not recorded: the stored likumi.lv English version is a translation by the State Language Centre (Valsts valodas centrs), a government body, so 'government translation'."
+  },
+  "confirmed": [
+   "original_title",
+   "issuing_body",
+   "official_identifier",
+   "date_published",
+   "date_in_force",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

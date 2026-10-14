@@ -1,0 +1,73 @@
+{
+ "cand_id": "HU-02",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "The record's original_title is, character for character, the number line '344/2025. (X. 31.) Korm. rendelet' followed by the title line 'az Európai Unió ... törvény végrehajtásáról' on the stored njt page (official.html, sha 9f8bdee6...), and it also matches the title quote in the extraction's evidence. The change from the earlier bracketed form is correct."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Only accredited bodies can be designated to assess conformity of high-risk AI systems",
+   "verdict": "supported",
+   "locator": "2. § (1): 'olyan akkreditált státusszal rendelkező szervezet jelölhető ki' (literal: an organisation with accredited status can be designated)"
+  },
+  {
+   "claim": "designated bodies report by 31 January each year",
+   "verdict": "supported",
+   "locator": "2. § (5): 'minden évben január 31-ig megküldi az MI bejelentő hatóságnak' (sends to the notifying authority every year by 31 January the report on last year's conformity assessment activity)"
+  },
+  {
+   "claim": "Maximum fines set in forints, HUF 13.3bn/5.7bn/2.85bn (Art 99) and 570m/285m (Art 100), payable within 30 days",
+   "verdict": "supported",
+   "locator": "4. § (1) a), ba)-be); (2)"
+  },
+  {
+   "claim": "authorities report at least annually to the Government and the Hungarian AI Council",
+   "verdict": "supported",
+   "locator": "1. § (4): 'kérésre, de legalább évente beszámol a Kormány és a Magyar Mesterséges Intelligencia Tanács felé'"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Implementing decree of the AI Act; precedent: HU-01."
+ },
+ "overall": "accept",
+ "note": "original_title matches the stored njt heading character by character (title line plus number line; the change from the old bracketed form is correct). Consolidated text of 2 Oct 2026 stored; entry into force on the 31st day after 31 Oct 2025 is 1 Dec 2025. Summary claims checked against the Hungarian text and agree; the 'accredited' rule is a permission ('can be designated'), which the summary renders as 'only accredited bodies can be designated', a fair reading of the condition. english_version 'none found' is consistent with stored sources (the njt page lists 'Translated legislation' only as a menu item). One search found no later amendment beyond Decree 224/2026."
+}

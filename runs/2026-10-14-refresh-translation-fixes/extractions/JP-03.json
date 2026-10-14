@@ -1,0 +1,151 @@
+{
+ "cand_id": "JP-03",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "JP-03",
+ "record": {
+  "summary": "Two companion guides from the Japan AI Safety Institute for AI developers and AI providers. The Guide to Evaluation Perspectives on AI Safety sets out concepts for evaluating the AI safety of LLM systems and AI agent systems: perspectives such as control of toxic output, fairness and inclusion, privacy protection, ensuring security, robustness and verifiability, with example risks and evaluation items, evaluators, timing and methods; version 1.20 adds 'observation and control' for AI agent systems. The Guide to Red Teaming Methodology on AI Safety covers evaluating the risk countermeasures of LLM systems from an attacker's perspective, from attack methods and roles to a 15-step process.",
+  "english_version": {
+   "kind": "government translation",
+   "url": "https://aisi.go.jp/assets/pdf/ai_safety_eval_v1.10_en.pdf",
+   "by": "Japan AI Safety Institute (J-AISI)"
+  },
+  "verification": {
+   "note": "Stored on 11 Oct 2026: J-AISI's release page for the Evaluation Perspectives Guide v1.20 (7 Jul 2026), the full Japanese text of v1.20 and its Japanese summary slides, and the release page for the Red Teaming Methodology Guide v1.10. Stored on 14 Oct 2026: J-AISI's outputs list (Information), the Japanese text of the Red Teaming Methodology Guide v1.10 (31 Mar 2025), and J-AISI's English versions of the Evaluation Perspectives Guide v1.10 and the Red Teaming Methodology Guide v1.10, each marked 'Please refer to the original text for accuracy'. The outputs list confirms every version date in notes, including first publication on 18 Sept 2024 (evaluation guide) and 25 Sept 2024 (red-teaming guide), and the healthcare and AI robotics guides. No English version of v1.20 is linked from its release page; english_version points at the English v1.10 of the evaluation guide. The summary is written from the Japanese texts, with the evaluation perspectives named as J-AISI's English renders them."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-03/extra-9a27d8d4bf/2026-10-14/official.pdf",
+    "sha256": "1f6ab8edcb019404b3d9870c55b84de35e2359c8233003e0ce4a2ab9c02deec8",
+    "locator": "page 1, cover",
+    "quote": "Guide to Evaluation Perspectives on AI Safety (Version 1.10)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-03/extra-6d83e3c606/2026-10-14/official.pdf",
+    "sha256": "d6ad6f5e05c13ac264f0779b631a734067d4b7ddedfb8e6746fdf981d21c4cf1",
+    "locator": "page 1, cover",
+    "quote": "Guide to Red Teaming Methodology on AI Safety (Version 1.10)",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/JP-03/2026-10-11/document-1.pdf",
+    "sha256": "46ed6ddffa92a3343c498ddec49ee57cdad351df4665ee6e3556ba7a7b1197b6",
+    "locator": "page 1, cover",
+    "quote": "AI セーフティに関する評価観点ガイド",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-03/extra-d2e425aca7/2026-10-14/official.pdf",
+    "sha256": "78aeca7667c701bba74d9c1d510a02be029380b786786ddbfcfcffbc5c7076a9",
+    "locator": "page 1, cover",
+    "quote": "AI セーフティに関する レッドチーミング手法ガイド （第 1.10 版）",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/JP-03/2026-10-11/document-1.pdf",
+    "sha256": "46ed6ddffa92a3343c498ddec49ee57cdad351df4665ee6e3556ba7a7b1197b6",
+    "locator": "page 1, cover",
+    "quote": "令和 8 年７月 7 日 AI セーフティ・インスティテュート",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-03/extra-6d83e3c606/2026-10-14/official.pdf",
+    "sha256": "d6ad6f5e05c13ac264f0779b631a734067d4b7ddedfb8e6746fdf981d21c4cf1",
+    "locator": "page 1, cover",
+    "quote": "March 31, 2025 Japan AI Safety Institute",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-03/extra-cce5ea29b8/2026-10-14/official.html",
+    "sha256": "b0cac485f8bbed5d774df5306a71f2a955747f3445e3b027839dcc135a313d14",
+    "locator": "Information list, entry of 18 Sept 2024",
+    "quote": "AIセーフティに関する評価観点ガイドの公開 -2024年9月18日",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-03/extra-cce5ea29b8/2026-10-14/official.html",
+    "sha256": "b0cac485f8bbed5d774df5306a71f2a955747f3445e3b027839dcc135a313d14",
+    "locator": "Information list, entry of 25 Sept 2024",
+    "quote": "AIセーフティに関するレッドチーミング手法ガイドの公開 -2024年9月25日",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/JP-03/2026-10-11/official.html",
+    "sha256": "f3e119316cce80e67cc83caec15ca8069a2aa07f94d5a439995e2ba6683b3e18",
+    "locator": "release list entry",
+    "quote": "AIセーフティに関する評価観点ガイド (第1.20版) 2026年7月7日公表",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-03/extra-cce5ea29b8/2026-10-14/official.html",
+    "sha256": "b0cac485f8bbed5d774df5306a71f2a955747f3445e3b027839dcc135a313d14",
+    "locator": "Information list, entry of 7 Jul 2026",
+    "quote": "AIセーフティに関する評価観点ガイド(第1.20版)の公開 -2026年7月7日",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/JP-03/2026-10-11/official.html",
+    "sha256": "f3e119316cce80e67cc83caec15ca8069a2aa07f94d5a439995e2ba6683b3e18",
+    "locator": "release text, first paragraph",
+    "quote": "評価の観点及び評価項目例を更新・拡充した「AIセーフティに関する評価観点ガイド（第1.20版）」を公表しました。",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/JP-03/2026-10-11/document-1.pdf",
+    "sha256": "46ed6ddffa92a3343c498ddec49ee57cdad351df4665ee6e3556ba7a7b1197b6",
+    "locator": "page 4, section 1.1",
+    "quote": "AI システムの開発や提供に携わる者が AI セーフティ評価を実施する際に参照できる基本 的な考え方を提示する。",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-03/extra-d2e425aca7/2026-10-14/official.pdf",
+    "sha256": "78aeca7667c701bba74d9c1d510a02be029380b786786ddbfcfcffbc5c7076a9",
+    "locator": "page 4, section 1.1",
+    "quote": "評価するためのレッドチーミング手法に関する基本的な考慮事項や実施ポイントを示して いる。",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The latest event is J-AISI's publication of the Evaluation Perspectives Guide v1.20 on 7 Jul 2026 (release page, guide text, outputs list); the red-teaming guide's latest version is v1.10 of 31 Mar 2025. Both present basic concepts and considerations for reference, and the outputs list shows nothing withdrawing either, so 'Published (non-binding, current)' stands on 14 Oct 2026.",
+  "scope_reasoning": null,
+  "changes": {
+   "summary": "Written from the Japanese texts of both guides: readers AI developers and AI providers (eval 1.3), scope LLM systems and AI agent systems (eval 2.4) and LLM systems (red-teaming 1.4); perspectives named as J-AISI's English v1.10 renders them (Control of Toxic Output, Fairness and Inclusion, ...); the red-teaming guide described from its section 1.1 (evaluating risk countermeasures from an attacker's perspective) and its contents (attack methods, roles, STEP 1 to STEP 15). 'Including LLM-based systems' from the earlier summary is gone.",
+   "english_version": "Now points at J-AISI's English v1.10 of the evaluation guide, a stored source; it pointed at the red-teaming release page.",
+   "verification.note": "Rewritten to include the newly stored outputs list, red-teaming guide and English versions."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "date_published",
+   "date_last_updated",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [
+  "J-AISI's Guide to Evaluation Perspectives on AI Safety in the Healthcare Sector (2 Apr 2026) and the AI robotics safety evaluation perspectives guide (23 Jul 2026), both on the stored outputs list, are not recorded separately.",
+  "The v1.20 evaluation guide (pages 4 and 6) cites the AI Guidelines for Business as version 1.2 (AI 事業者ガイドライン（第 1.2 版）); this bears on JP-02."
+ ],
+ "open_questions": [
+  "No English version of the evaluation guide v1.20 is linked from J-AISI's release page; english_version points at the English v1.10."
+ ]
+}

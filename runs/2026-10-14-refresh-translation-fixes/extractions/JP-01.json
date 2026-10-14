@@ -1,0 +1,111 @@
+{
+ "cand_id": "JP-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "JP-01",
+ "record": {
+  "summary": "Japan's AI Safety Institute (J-AISI), launched on 14 February 2024 with its secretariat in the Information-technology Promotion Agency (IPA) and designated by the Integrated Innovation Strategy 2024 as Japan's central institution for AI safety. It examines and promotes evaluation methods and standards for AI safety: it studies safety-related standards, check tools, countermeasures against disinformation, and AI and cybersecurity, examines AI test environments, supports the government with research and standard-setting, links industry, academia and national research institutes, and cooperates with counterpart bodies such as the UK and US AI Safety Institutes.",
+  "notes": "Announced by Prime Minister Kishida at the AI Strategy Council on 21 December 2023 and launched on 14 February 2024. Its overview of 1 July 2026 describes it as a government-related organisation in which 12 ministries and agencies and 5 related organisations take part, with the secretariat in IPA, which falls under METI and the Digital Agency. Government policy on AI safety is discussed in a liaison council of the ministries whose secretariat is the Cabinet Office, and an AISI Steering Committee chaired by the Executive Director (Akiko Murakami, part-time) deliberates on its work. The second AI Basic Plan (14 Jul 2026) calls for strengthening AISI's technical evaluation and feeding its results into policy. AISI has no specific statutory basis in the AI Promotion Act.",
+  "english_version": {
+   "kind": "authentic",
+   "url": "https://aisi.go.jp/assets/pdf/20260708_AISI_en.pdf",
+   "by": "Japan AI Safety Institute (J-AISI)"
+  },
+  "verification": {
+   "note": "Stored: J-AISI's Japanese 'About AISI' page and its Japanese and English overview decks dated 1 July 2026, all from aisi.go.jp. They confirm the announcement of 21 December 2023, the launch on 14 February 2024, the secretariat in IPA, the designation as central institution in the Integrated Innovation Strategy 2024 (Cabinet decision of 4 June 2024), the tasks, the government-related structure and the part-time Executive Director. The English deck is J-AISI's own English edition of its overview; it calls the body 'Japan AI Safety Institute (J-AISI)'. The IPA press release of 14 February 2024 could not be stored (HTTP 404). The statements on the second AI Basic Plan and on the AI Promotion Act rest on the records JP-06 and JP-04, not on this record's stored files. The English deck names IPA 'Innovation Platform Agency' on pages 7 and 10 and 'IT Promotion Agency, Japan' on page 8; the site footer uses 'Information-technology Promotion Agency, Japan'."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/JP-01/2026-10-11/document-1.pdf",
+    "sha256": "00543fdef6409b80c184d0244443b94ebedbb296eb2f9acd2f79cb39c341dbbc",
+    "locator": "page 3",
+    "quote": "Following the Hiroshima AI Process, the Japan AI Safety Institute (J-AISI) was established in Feb. 2024.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/JP-01/2026-10-11/document-1.pdf",
+    "sha256": "00543fdef6409b80c184d0244443b94ebedbb296eb2f9acd2f79cb39c341dbbc",
+    "locator": "page 1 (cover)",
+    "quote": "Japan AI Safety Institute (J-AISI) Jul 01 2026",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/JP-01/2026-10-11/document-2.pdf",
+    "sha256": "6324d6817e09a34ff23f7e589eaaacb65defb8dd34bd995feb074175f0e653e3",
+    "locator": "page 1 (cover)",
+    "quote": "AIセーフティ・インスティテュート（AISI）について",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/JP-01/2026-10-11/official.html",
+    "sha256": "99232e114a408546737b857cbeac218de235522d2520b4776ab468f1a816f4fb",
+    "locator": "AISI設立の経緯 (history), last paragraph",
+    "quote": "「統合イノベーション戦略2024」（2024年6月4日閣議決定）に基づき、AISIはAI安全性の中心的機関としてIPAに設置され",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/JP-01/2026-10-11/official.html",
+    "sha256": "99232e114a408546737b857cbeac218de235522d2520b4776ab468f1a816f4fb",
+    "locator": "組織概要 (organisation)",
+    "quote": "2024年2月14日にIPAに事務局を設置しました。",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/JP-01/2026-10-11/official.html",
+    "sha256": "99232e114a408546737b857cbeac218de235522d2520b4776ab468f1a816f4fb",
+    "locator": "AISI設立の経緯 (history)",
+    "quote": "2023年12月21日のAI戦略会議では岸田総理大臣からAIセーフティ・インスティテュートの設立が表明され、2024年2月14日にAIセーフティ・インスティテュートを発足させました。",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/JP-01/2026-10-11/document-2.pdf",
+    "sha256": "6324d6817e09a34ff23f7e589eaaacb65defb8dd34bd995feb074175f0e653e3",
+    "locator": "page 1 (cover)",
+    "quote": "AIセーフティ・インスティテュート（AISI）について 2026-07-01 AISI事務局",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/JP-01/2026-10-11/document-1.pdf",
+    "sha256": "00543fdef6409b80c184d0244443b94ebedbb296eb2f9acd2f79cb39c341dbbc",
+    "locator": "page 9 (Executive Team)",
+    "quote": "2024: Executive Director of J-AISI [Current]",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The record describes a body, not a legal text. J-AISI's overview decks of 1 July 2026 (Japanese and English) show it operating, with a serving Executive Director ('[Current]'), a secretariat in IPA and current work programmes. No stored file shows a dissolution or reorganisation. 'Published (non-binding, current)' stands.",
+  "scope_reasoning": "In scope without a scope note: the mandate of a national AI safety institute.",
+  "changes": {
+   "summary": "'Central government body' overstated the source: the About page says 中心的機関 ('central institution'), as J-AISI's English deck renders it, and the deck calls AISI a government-related organisation (政府関係機関) housed in IPA. 'Develops' became 'examines and promotes' (検討・推進). Added the launch date, the designation in the Integrated Innovation Strategy 2024 and the task list of the About page.",
+   "notes": "Removed 'no reorganisation was found' (research language). Added the structure from the overview decks (pages 7 and 8). Kept the statements on the second AI Basic Plan and the AI Promotion Act, which rest on JP-06 and JP-04 (see verification.note).",
+   "english_version": "The issuer publishes its own English overview deck (stored, document-1.pdf) next to the Japanese one, without a 'provisional translation' label.",
+   "verification": "New note saying what the stored files confirm."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "date_published",
+   "status"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The English deck of July 2026 calls IPA 'Innovation Platform Agency' on two pages; this may reflect a renaming of IPA that no stored file confirms. issuing_body keeps 'Information-technology Promotion Agency, Japan (IPA)'.",
+  "The international network on page 17 of the English deck is now called 'The International Network for Advanced AI Measurement, Evaluation and Science'; the record does not name it.",
+  "english_version 'authentic' here means J-AISI's own English edition of its self-description, since the record has no legal text; a human may prefer 'none found' for institutional records."
+ ]
+}

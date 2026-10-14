@@ -1,0 +1,135 @@
+{
+ "cand_id": "KR-08",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "KR-08",
+ "record": {
+  "summary": "Guidance on the AI impact assessment of Article 35 of Korea's AI Basic Act, a procedure in which operators providing products or services that use high-impact AI assess in advance their impact on people's fundamental rights. The Act asks operators to endeavour to carry it out and requires the State, local governments and public institutions to give priority consideration to assessed products. The guideline explains the concept and legal basis and the main considerations at each stage (preparation, main assessment, follow-up), encourages voluntary assessments for all AI, and appends a report form, examples of how system functions can infringe rights, support information and FAQs.",
+  "notes": "Dated 2026 on its cover and published with the Act's entry into force on 22 January 2026 (39 pages). The assessment is an obligation of effort, which the guideline recommends rather than requires; details may be set by Presidential Decree (Article 35(3)), and Article 28 of the draft Enforcement Decree lists seven elements an assessment must contain, from identifying affected people and rights to an improvement plan. For products and services already offered before 22 January 2026, the guideline finds it desirable that operators judge the need themselves and assess the current version. Results of other assessments, including the EU AI Act's fundamental rights impact assessment (Article 27) and assessments under ISO/IEC 42001 and 42005, may be drawn on. The Korea Information Society Development Institute (KISDI) is named as the dedicated agency supporting assessments. The guideline draws on the EU AI Act, the General-Purpose AI Code of Practice and UNESCO's Ethical Impact Assessment, and is to be updated once international standards are finalised.",
+  "verification": {
+   "note": "Stored: NIA's copy of the guideline (PDF, 39 pages; the cover shows the year 2026 and, as an image, the logos of MSIT and KISDI) and NIA's post of 22 January 2026 listing the guideline files, stored as the record's secondary source and again as a separate copy. The guideline confirms the title, the text of Article 35, the three-stage structure, the annexes, the draft decree article and KISDI's support role; the post confirms the publication date (file name 260122), NIA's distribution and that the posted files are the current versions. The KOSA help desk's listing of the document under another title, mentioned in an earlier version of this record, was not stored and is no longer stated."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/KR-08/2026-10-12/official.pdf",
+    "sha256": "a67ce99e960511d53f537a759aaeba6049faed220e430cc5ee1ff8817c39ea47",
+    "locator": "page 1 (cover)",
+    "quote": "2026인공지능영향평가가이드라인",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-08/extra-31a14a6512/2026-10-14/official.html",
+    "sha256": "40e8fb45649512a6bfedc086de2fc2d517a674a96e217f8048a150ae3f0f7086",
+    "locator": "attachment list",
+    "quote": "5._260122_인공지능_영향평가_가이드라인.pdf",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-08/extra-31a14a6512/2026-10-14/official.html",
+    "sha256": "40e8fb45649512a6bfedc086de2fc2d517a674a96e217f8048a150ae3f0f7086",
+    "locator": "attachment list",
+    "quote": "5._260122_인공지능_영향평가_가이드라인.pdf",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/KR-08/2026-10-12/official.pdf",
+    "sha256": "a67ce99e960511d53f537a759aaeba6049faed220e430cc5ee1ff8817c39ea47",
+    "locator": "page 1 (cover)",
+    "quote": "2026인공지능영향평가가이드라인",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/KR-08/2026-10-12/official.pdf",
+    "sha256": "a67ce99e960511d53f537a759aaeba6049faed220e430cc5ee1ff8817c39ea47",
+    "locator": "page 8, section 6 (평가 수행 및 지원체계)",
+    "quote": "과학기술정보통신부는 영향평가에 관한 법과 시행령 등 제도적 기반을 마련한 이후, 전담기관인 정보통신정책연구원을 통해 가이드라인과 절차 운영에 관한 전문적 지원을 제공하고",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-08/extra-31a14a6512/2026-10-14/official.html",
+    "sha256": "40e8fb45649512a6bfedc086de2fc2d517a674a96e217f8048a150ae3f0f7086",
+    "locator": "attachment list",
+    "quote": "5._260122_인공지능_영향평가_가이드라인.pdf",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-08/extra-31a14a6512/2026-10-14/official.html",
+    "sha256": "40e8fb45649512a6bfedc086de2fc2d517a674a96e217f8048a150ae3f0f7086",
+    "locator": "notice heading and date",
+    "quote": "AI기본법 시행 및 하위법령 공개(1.22.~) 2026.01.22",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-08/extra-31a14a6512/2026-10-14/official.html",
+    "sha256": "40e8fb45649512a6bfedc086de2fc2d517a674a96e217f8048a150ae3f0f7086",
+    "locator": "attachment list",
+    "quote": "5._260122_인공지능_영향평가_가이드라인.pdf",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/KR-08/2026-10-14/secondary.html",
+    "sha256": "cb96bc58748372a43285e8fe8630dc533ebf5bb1685e2f3c18512bd6ea1a7d14",
+    "locator": "NIA notice heading, date and attachment list",
+    "quote": "AI기본법 시행 및 하위법령 공개(1.22.~) 2026.01.22",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-08/extra-31a14a6512/2026-10-14/official.html",
+    "sha256": "40e8fb45649512a6bfedc086de2fc2d517a674a96e217f8048a150ae3f0f7086",
+    "locator": "notice text",
+    "quote": "AI기본법 하위법령(가이드라인)의 현재본이 공개되었습니다.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/KR-08/2026-10-14/secondary.html",
+    "sha256": "cb96bc58748372a43285e8fe8630dc533ebf5bb1685e2f3c18512bd6ea1a7d14",
+    "locator": "notice text",
+    "quote": "AI기본법 하위법령(가이드라인)의 현재본이 공개되었습니다.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/KR-08/2026-10-12/official.pdf",
+    "sha256": "a67ce99e960511d53f537a759aaeba6049faed220e430cc5ee1ff8817c39ea47",
+    "locator": "page 5, section 3 (평가 대상)",
+    "quote": "고영향 인공지능 제품 또는 서비스를 제공하는 인공지능사업자는 해당 제품ㆍ서비스에 대한 영향평가 수행에 노력할 것을 권장",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "NIA's post of 22 January 2026 lists this guideline (file '5._260122_...') among the AI Basic Act guidelines and says the current versions have been published (현재본이 공개되었습니다); none of its revision notices concerns this guideline. The guideline carries no draft marking, and no stored file shows a withdrawal or replacement. 'Published (non-binding, current)' stands. NIA's post is now also stored as an extra, so the date and status rest on an official copy.",
+  "scope_reasoning": "In scope without a scope note: ministry guidance on the impact assessment of an AI-specific statute.",
+  "changes": {
+   "summary": "The instrument's term is 인공지능 영향평가, 'AI impact assessment' (pages 4 and 9); the guideline reserves 'Fundamental Rights Impact Assessment' for the EU AI Act's Article 27 instrument, so the summary no longer calls the Korean one a fundamental-rights impact assessment. 'State bodies must prefer' became 'the State, local governments and public institutions ... give priority consideration', following Article 35(2) (우선적으로 고려하여야) and the definition of 국가기관등 in Article 2(4)(i) (page 13). Added the support annex and the encouragement of voluntary assessments (pages 4 and 5).",
+   "notes": "Removed the KOSA help-desk title, which no stored file supports. Replaced 'the EU GPAI Code of Practice safety chapter' with what page 12 says (the General-Purpose AI Code of Practice, with the EU AI Act and UNESCO's Ethical Impact Assessment). Added the draft decree's required elements, the use of other assessments and KISDI's role (pages 8 and 10).",
+   "verification": "New note saying what the stored files confirm."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "issuing_body names MSIT and NIA (distribution); the cover also names KISDI, which the guideline makes the dedicated support agency (page 8). KISDI is now in the notes; a human may prefer to add it to issuing_body.",
+  "Removed from notes for lack of a stored source: 'The KOSA help desk lists the document as 고영향 인공지능 영향평가 가이드라인.'"
+ ]
+}

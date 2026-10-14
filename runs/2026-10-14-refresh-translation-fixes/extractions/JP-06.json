@@ -1,0 +1,127 @@
+{
+ "cand_id": "JP-06",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "JP-06",
+ "record": {
+  "summary": "Statutory AI plan under Article 18 of the AI Act. The current second plan rests on promoting innovation while mitigating risks and has a pillar on leading AI governance ('Enhance AI Trustworthiness'). It calls for strengthening AISI's capacity for technical evaluation of AI models, traceability, technical controls such as guardrails and crisis-time information sharing, and for feeding evaluation results into rules and guidelines. It also covers continuous review of the AI Act, rules for AI agents in public administration that protect citizens' rights, AI cyber-defence, allocating responsibility for harm from agentic AI and the AISI international network.",
+  "notes": "The first AI Basic Plan was decided by the Cabinet on 23 Dec 2025. The second plan (第Ⅱ期計画), decided by the Cabinet on 14 Jul 2026, replaced it. The AI Strategic Headquarters, headed by the Prime Minister with all Cabinet ministers as members, follows up the plan, sets benchmarks and monitors progress. The plan is to be reviewed and changed as needed and, for the time being, every year (当面は毎年変更を行う); the government's provisional English translation renders this as 'in principle annually'. The plan's subtitle, ～日本ＡＸ、より強く、より豊かに～, is rendered in that translation as 'Japan AI Transformation; A Stronger Nation. Greater Prosperity.'",
+  "verification": {
+   "note": "Stored on 11 Oct 2026: the Cabinet Office AI Basic Plan page (Japanese), the Cabinet Office's provisional English translation of the second plan (as of 14 Jul 2026), the English summary of the first plan, and the English Interim Report of the AI Strategic Council and AI Institutional Study Group (4 Feb 2025), a different document. Stored on 14 Oct 2026: the second plan in Japanese (22 pages, 令和８年７月14日 閣議決定). The page and the plan confirm the title, the Cabinet decisions of 23 Dec 2025 and 14 Jul 2026, and the 2025 plan's listing under past plans; the summary is checked against the Japanese text, with the subtitle and the pillar name as the government's translation renders them. The public comment period from 19 Jun 2026, given in the earlier notes, is not shown in a stored file; 'KPIs' in the earlier notes is not in the plan, which speaks of benchmarks (ベンチマーク) and monitoring."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/JP-06/2026-10-11/document-1.pdf",
+    "sha256": "8e982b7e6f9320ecd39a0828ff6764de0a943ee35759c39eb930a26e7c27712a",
+    "locator": "page 1, title line",
+    "quote": "Summary of “Japan’s AI Basic Plan”",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-06/extra-6275977d22/2026-10-14/official.pdf",
+    "sha256": "4e63dfe86c6a3516e708a031b0d4ad1c85e42f5362f8ccc71975a243ebf747d6",
+    "locator": "page 1, cover",
+    "quote": "人工知能基本計画 ～日本ＡＸ、より強く、より豊かに～",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-06/extra-6275977d22/2026-10-14/official.pdf",
+    "sha256": "4e63dfe86c6a3516e708a031b0d4ad1c85e42f5362f8ccc71975a243ebf747d6",
+    "locator": "page 1, cover",
+    "quote": "人工知能基本計画 ～日本ＡＸ、より強く、より豊かに～",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/JP-06/2026-10-11/official.html",
+    "sha256": "129b63a8cf205cbc13329b73fb92e8116e503f3d90c27e3dde8dd4aed488850f",
+    "locator": "heading and decision line",
+    "quote": "人工知能基本計画 令和８年７月14日 閣議決定",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-06/extra-6275977d22/2026-10-14/official.pdf",
+    "sha256": "4e63dfe86c6a3516e708a031b0d4ad1c85e42f5362f8ccc71975a243ebf747d6",
+    "locator": "page 1, cover",
+    "quote": "令和８年７月 14 日 閣議決定",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-06/extra-6275977d22/2026-10-14/official.pdf",
+    "sha256": "4e63dfe86c6a3516e708a031b0d4ad1c85e42f5362f8ccc71975a243ebf747d6",
+    "locator": "page 3, Chapter 1",
+    "quote": "第 18 条第１項に規定する我が国初の「人 工知能基本計画」を閣議決定した。",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-06/extra-6275977d22/2026-10-14/official.pdf",
+    "sha256": "4e63dfe86c6a3516e708a031b0d4ad1c85e42f5362f8ccc71975a243ebf747d6",
+    "locator": "page 1, cover",
+    "quote": "令和８年７月 14 日 閣議決定",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/JP-06/2026-10-11/official.html",
+    "sha256": "129b63a8cf205cbc13329b73fb92e8116e503f3d90c27e3dde8dd4aed488850f",
+    "locator": "decision line",
+    "quote": "令和８年７月14日 閣議決定",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/JP-06/2026-10-11/secondary.pdf",
+    "sha256": "c65419ac8c02ca52559b19dd7d7ab11274763a60144cbd81f2f6300d81abd3c5",
+    "locator": "page 1, header",
+    "quote": "【Provisional translation】  As of July 14, 2026",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/JP-06/2026-10-11/official.html",
+    "sha256": "129b63a8cf205cbc13329b73fb92e8116e503f3d90c27e3dde8dd4aed488850f",
+    "locator": "decision line",
+    "quote": "令和８年７月14日 閣議決定",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/JP-06/2026-10-11/official.html",
+    "sha256": "129b63a8cf205cbc13329b73fb92e8116e503f3d90c27e3dde8dd4aed488850f",
+    "locator": "past plans",
+    "quote": "（過去の人工知能基本計画） 令和7年12月23日 閣議決定",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The Cabinet Office page shows the second plan decided by the Cabinet on 14 Jul 2026 (令和８年７月14日 閣議決定) as the current plan and lists the 23 Dec 2025 plan under past plans; the stored Japanese plan carries the same decision line. The plan is a policy plan with no legal obligations, and it is to be changed yearly for now, but no newer plan is stored, so 'Published (non-binding, current)' stands on 14 Oct 2026.",
+  "scope_reasoning": null,
+  "changes": {
+   "summary": "Checked against the Japanese plan now stored: Art. 18(1) basis (Chapter 1); 4原則 with イノベーション促進とリスク対応の両立 first; pillar ３ ＡＩガバナンスの主導（ＡＩの信頼性を高める）; Chapter 3 Section 3 (1) items ① (review of the AI Act), ② (rules for AI agents in administration, citizens' rights), ④-⑥ (cyber), ⑦ (AISI evaluation: ＡＩモデルの評価、トレーサビリティ、ガードレール等の技術的制御、危機時の情報共有; results connected to 制度、指針); Chapter 3 Section 4 (2) ② (責任分界 for harm, with agentic AI); (2) ③ (AISI international network). Pillar name kept as the government translation renders it; the subtitle moved to notes for length.",
+   "notes": "Revision clause now follows the Japanese (当面は毎年変更: for the time being every year), with the translation's 'in principle annually' noted as a discrepancy; 'KPIs' and the unstored public-comment date removed; Japanese subtitle and 第Ⅱ期計画 added.",
+   "verification.note": "Rewritten to include the newly stored Japanese plan."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "date_published",
+   "status"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [
+  "Interim Report of the AI Strategic Council and AI Institutional Study Group (中間とりまとめ, 4 Feb 2025), stored here as document-2.pdf; it is a separate instrument from the plan."
+ ],
+ "open_questions": [
+  "The second plan is a statutory national AI plan whose main content is promotion, with one of four pillars on AI governance; the record has no scope_note. Under the general rule in pipeline/scope-decisions.md it may warrant one; left for the checker.",
+  "The first plan (23 Dec 2025) in Japanese is not stored; its English summary is."
+ ]
+}

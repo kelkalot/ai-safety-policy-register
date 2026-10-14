@@ -1,0 +1,172 @@
+{
+ "cand_id": "OM-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "OM-01",
+ "record": {
+  "title": "Public Policy for Safe and Ethical Use of Artificial Intelligence Systems",
+  "summary": "Policy, issued by circular, for government units and regulated private institutions that develop or use AI systems, including generative AI, across their lifecycle. It sets ethical principles and duties for developer entities (documentation, ethical, social and environmental impact assessment before deployment, bias testing, independent technical audits, access control and encryption) and user entities (assessment before adoption, continuous monitoring and error correction, data classification). Systems must be secure, cause no physical or psychological harm, label generated content, explain decisions affecting individuals, and keep human supervision and control and complaint channels.",
+  "notes": "Transmitted by MTCIT Circular 11/2025 dated 10 Shawwal 1446 AH (9 April 2025) and issued by MTCIT's General Directorate of Policies and Governance; the MTCIT policy page lists it under 1 April 2025 and under the title 'General Policy for the Safe and Ethical Use of Artificial Intelligence Systems', while MTCIT's English version is titled 'Public Policy for Safe and Ethical Use of Artificial Intelligence Systems'. The policy applies from its approval and circulation by MTCIT and derives its ethical framework from the National Programme for AI and Advanced Digital Technologies (2024). It sets no penalties: MTCIT monitors compliance by state administrative units and reports the results to the Council of Ministers, and sectoral regulators monitor the institutions they supervise, align their own regulatory documents with the policy and may add provisions with the Ministry's approval.",
+  "english_version": {
+   "kind": "government translation",
+   "url": "https://www.mtcit.gov.om/web/content/43446?unique=e7cce2bd929945913acb8a932e3067e70aeadbe4",
+   "by": "Ministry of Transport, Communications and Information Technology (MTCIT)"
+  },
+  "verification": {
+   "note": "Stored: the MTCIT library page for the policy (title, ministry, listing date of 1 April 2025, links to an Arabic and an English PDF); both MTCIT PDFs (the Arabic policy document, reached through two links that give the same file, and MTCIT's English version, 29 pages each, image scans read by OCR); the qanoon.om transcription of Circular 11/2025 with the attached Arabic policy, which states that it is not an official source; and the decree.om entry for the circular, whose English translation is behind a paywall. The OCR layer of the Arabic MTCIT PDF is unreadable, so the Arabic wording, original_title, the circular number and the exact date of 9 April 2025 rest on the qanoon.om transcription (the decree.om entry gives the same number and date); MTCIT's English version confirms the title, issuing directorate, April 2025, the effect clause and every provision summarised here, and the summary follows its terms ('AI System User Entity', 'AI System Developer Entity'). The English description on the MTCIT page ('The National AI Policy 2025 ... investment stimulation') does not describe this policy's content. Not confirmed by any stored copy: a public consultation on a draft 'National Artificial Intelligence Policy' in August 2024, and that the policy was not published in the Official Gazette."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/OM-01/extra-a00be7de7d/2026-10-14/official.pdf",
+    "sha256": "b61ae04b88f9da30c3b62a9037e9544cea08cd533faad4f09f631c4ed944c3a6",
+    "locator": "page 1, cover of MTCIT's English version",
+    "quote": "Public Policy for Safe and Ethical Use of Artificial Intelligence Systems April 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/OM-01/2026-10-14/official.html",
+    "sha256": "cb6cf9c3df0f225c8a68f6bf610add01fbb4dd76274cfa3eeff9893d652d51bd",
+    "locator": "MTCIT library page, Policies, item heading",
+    "quote": "General Policy for the Safe and Ethical Use of Artificial Intelligence Systems Date Published: 01 April 2025",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/OM-01/2026-10-12/secondary.html",
+    "sha256": "6d885c67870fd94d70ea52d79df0d28fc9045e24345bc196cd70e3663cfa268f",
+    "locator": "heading of the attached policy",
+    "quote": "السياسة العامة للاستخدام الآمن والأخلاقي لأنظمة الذكاء الاصطناعي",
+    "source_kind": "secondary"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/OM-01/extra-a00be7de7d/2026-10-14/official.pdf",
+    "sha256": "b61ae04b88f9da30c3b62a9037e9544cea08cd533faad4f09f631c4ed944c3a6",
+    "locator": "page 2, Issuance and Distribution",
+    "quote": "Issuing Authority: General Directorate of Policies and Governance Ministry of Transport, Communications and Information Technology",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/OM-01/extra-a00be7de7d/2026-10-14/official.pdf",
+    "sha256": "b61ae04b88f9da30c3b62a9037e9544cea08cd533faad4f09f631c4ed944c3a6",
+    "locator": "page 26, Policy Document Management, item 1",
+    "quote": "This policy is owned by the Ministry of Transport, Communications and Information Technology and will be subject to revision whenever necessary.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/OM-01/2026-10-12/secondary.html",
+    "sha256": "6d885c67870fd94d70ea52d79df0d28fc9045e24345bc196cd70e3663cfa268f",
+    "locator": "page title",
+    "quote": "وزارة النقل والاتصالات وتقنية المعلومات: تعميم رقم ١١ / ٢٠٢٥ السياسة العامة للاستخدام الآمن والأخلاقي لأنظمة الذكاء الاصطناعي",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/OM-01/2026-10-12/secondary.html",
+    "sha256": "6d885c67870fd94d70ea52d79df0d28fc9045e24345bc196cd70e3663cfa268f",
+    "locator": "signature of the circular",
+    "quote": "وزير النقل والاتصالات وتقنية المعلومات",
+    "source_kind": "secondary"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/OM-01/2026-10-12/secondary.html",
+    "sha256": "6d885c67870fd94d70ea52d79df0d28fc9045e24345bc196cd70e3663cfa268f",
+    "locator": "page title",
+    "quote": "وزارة النقل والاتصالات وتقنية المعلومات: تعميم رقم ١١ / ٢٠٢٥ السياسة العامة للاستخدام الآمن والأخلاقي لأنظمة الذكاء الاصطناعي",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/OM-01/2026-10-12/secondary.html",
+    "sha256": "6d885c67870fd94d70ea52d79df0d28fc9045e24345bc196cd70e3663cfa268f",
+    "locator": "circular number line under the page title",
+    "quote": "١١ / ٢٠٢٥ ١١/٢٠٢٥ 11 / 2025 11/2025",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/OM-01/extra-b8335c7d05/2026-10-14/official.html",
+    "sha256": "5c622e542136945d143d976cd8ac5d1a7bc4f88b29f3291558fcbb273e45d011",
+    "locator": "page title and post date",
+    "quote": "Ministry of Transport, Communications, and Information Technology: Circular 11/2025 The Public Policy for the Safe and Ethical Use of Artificial Intelligence Systems April 2025",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/OM-01/2026-10-12/secondary.html",
+    "sha256": "6d885c67870fd94d70ea52d79df0d28fc9045e24345bc196cd70e3663cfa268f",
+    "locator": "end of the circular, issue date",
+    "quote": "صدر في: ١٠ شوال ١٤٤٦هـ الموافق ٩ أبريل ٢٠٢٥م",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/OM-01/extra-b8335c7d05/2026-10-14/official.html",
+    "sha256": "5c622e542136945d143d976cd8ac5d1a7bc4f88b29f3291558fcbb273e45d011",
+    "locator": "post date",
+    "quote": "Post date April 9, 2025",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/OM-01/extra-a00be7de7d/2026-10-14/official.pdf",
+    "sha256": "b61ae04b88f9da30c3b62a9037e9544cea08cd533faad4f09f631c4ed944c3a6",
+    "locator": "page 1, cover of MTCIT's English version",
+    "quote": "Public Policy for Safe and Ethical Use of Artificial Intelligence Systems April 2025",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/OM-01/extra-a00be7de7d/2026-10-14/official.pdf",
+    "sha256": "b61ae04b88f9da30c3b62a9037e9544cea08cd533faad4f09f631c4ed944c3a6",
+    "locator": "page 26, Policy Document Management, item 2",
+    "quote": "This policy shall be implemented by the date of its approval and circulation by",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/OM-01/2026-10-14/official.html",
+    "sha256": "cb6cf9c3df0f225c8a68f6bf610add01fbb4dd76274cfa3eeff9893d652d51bd",
+    "locator": "MTCIT library page, Policies, item heading",
+    "quote": "General Policy for the Safe and Ethical Use of Artificial Intelligence Systems Date Published: 01 April 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/OM-01/2026-10-12/secondary.html",
+    "sha256": "6d885c67870fd94d70ea52d79df0d28fc9045e24345bc196cd70e3663cfa268f",
+    "locator": "إدارة السياسة, item 2",
+    "quote": "٢. تدخل السياسة حيز التطبيق اعتبارا من تاريخ اعتمادها وتعميمها من وزارة النقل والاتصالات وتقنية المعلومات",
+    "source_kind": "secondary"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The policy applies from its approval and circulation by MTCIT (English version page 26; Arabic إدارة السياسة item 2); the circular transmitting it is dated 9 April 2025, and MTCIT still lists it under Policies on its site (page stored 14 October 2026). No stored source shows a replacement or withdrawal. It sets obligations for state administrative units and regulated institutions but no penalties, so the record keeps 'Published (non-binding, current)'.",
+  "date_reasoning": "9 April 2025 is the date of Circular 11/2025 (qanoon.om transcription: 10 Shawwal 1446 AH, 9 April 2025; decree.om post date April 9, 2025). MTCIT's own English version is dated April 2025 on its cover, which agrees on the month; the day rests on the transcription because the OCR layer of the Arabic MTCIT PDF is unreadable.",
+  "scope_reasoning": "A government policy setting AI safety and ethics controls; clearly in scope.",
+  "changes": {
+   "title": "now the title of MTCIT's own English version of the policy ('Public Policy for Safe and Ethical Use of Artificial Intelligence Systems', cover page); the 'General Policy' wording of the MTCIT library page is kept in notes",
+   "summary": "'deployers' and 'developers' replaced by the terms of the policy as MTCIT's English version renders them ('AI System User Entity', 'AI System Developer Entity'; Arabic الجهة المستخدمة / الجهة المطورة); 'independent technical audits' and 'label' as in MTCIT's English; 'human supervision' completed as 'human supervision and control'; scope rendered as government units and regulated private institutions",
+   "notes": "added the issuing directorate and both English titles; the attribution of the title 'Public Policy' to qanoon.om was wrong and is gone; added the effect clause, the monitoring and reporting duties and the regulators' role; claims resting on pages that are not stored moved to verification.note",
+   "english_version": "MTCIT's English version of the policy (content/43446) is now stored: a government translation by the issuer",
+   "verification.note": "rewritten to describe the stored copies, including the MTCIT PDFs and the decree.om entry stored in this run"
+  },
+  "confirmed": [
+   "original_title",
+   "issuing_body",
+   "official_identifier",
+   "date_published",
+   "status"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The Arabic MTCIT PDF is stored but its OCR layer (tesseract without Arabic) is unreadable; original_title, the circular number and the exact day of 9 April 2025 therefore rest on the qanoon.om transcription and the decree.om entry (secondary). MTCIT's English version supports the month (April 2025) only.",
+  "legal_force 'Non-binding' is a judgment: the policy uses mandatory language ('shall fully comply'; 'الالتزام بالتالي') for state administrative units and regulated institutions but sets no penalties; left unchanged.",
+  "The issuer uses two English titles: 'General Policy for the Safe and Ethical Use of Artificial Intelligence Systems' on its library page and 'Public Policy for Safe and Ethical Use of Artificial Intelligence Systems' on its English document; the record now follows the document."
+ ]
+}

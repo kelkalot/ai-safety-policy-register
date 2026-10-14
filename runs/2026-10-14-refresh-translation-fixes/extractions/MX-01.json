@@ -1,0 +1,121 @@
+{
+ "cand_id": "MX-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "MX-01",
+ "record": {
+  "notes": "Presented in the Senate on 11 February 2026 by Sen. Karina Isabel Ruiz Ruiz (Morena) and referred to the joint committees on Legislative Studies and on the Analysis, Monitoring and Evaluation of AI in Mexico; published in the Gaceta del Senado of 11 February 2026 (LXVI Legislature, second year).",
+  "verification": {
+   "note": "CAUTION: the title, date and status rest on a secondary source. Stored: a legislative alert by the law firm Basham (26 February 2026, in English), which describes the initiative presented on 11 February 2026 by Sen. Karina Isabel Ruíz Ruíz, its referral to the joint committees and its content (regulatory agency, risk classification, provider obligations, prohibitions, deepfakes, sanctions); the summary rests on that alert. The alert links the Senate gazette PDF of the initiative (file 'Ini_Morena_Sen_Karina_Ruiz_Expide_Ley_Nacional_de_Inteligencia_Artificial.pdf'), which is not yet stored, so original_title and the Spanish wording of the bill are not confirmed by a stored copy. The alert calls the bill the National Law to Regulate the Use of Artificial Intelligence, while the gazette file name has 'Expide Ley Nacional de Inteligencia Artificial'; the gazette wording is used. The Secretaría de Gobernación's SIL tracking report (official_url) was read on 12 October 2026 and gave the status 'pendiente en comisión(es) de origen', but could not be stored because its TLS certificate could not be verified. Not confirmed by any stored copy: that the bill is one of several dozen AI bills pending in Congress and that no general federal AI law had been adopted by October 2026; and press reports of a separate draft 'Ley General para Regular y Fomentar la Inteligencia Artificial' prepared by the Senate AI commission (223 articles, not voted by the close of the April 2026 session, said to depend on a reform of constitutional articles 3 and 73), which is not recorded separately. No committee action on this initiative appears in the stored copy."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/MX-01/2026-10-12/secondary.html",
+    "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+    "locator": "first paragraph",
+    "quote": "A bill has been introduced in the Senate by Senator Karina Isabel Ruíz Ruíz (MORENA parliamentary group) to enact the National Law to Regulate the Use of Artificial Intelligence.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/MX-01/2026-10-12/secondary.html",
+    "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+    "locator": "closing link to the initiative",
+    "quote": "Read the full initiative here: Ini_Morena_Sen_Karina_Ruiz_Expide_Ley_Nacional_de_Inteligencia_Artificial.pdf",
+    "source_kind": "secondary"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/MX-01/2026-10-12/secondary.html",
+    "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+    "locator": "first paragraph",
+    "quote": "A bill has been introduced in the Senate by Senator Karina Isabel Ruíz Ruíz (MORENA parliamentary group) to enact the National Law to Regulate the Use of Artificial Intelligence.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/MX-01/2026-10-12/secondary.html",
+    "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+    "locator": "second paragraph",
+    "quote": "The initiative was presented on Wednesday, February 11, 2026, and has been referred to the Joint Committees on Legislative Studies and on the Analysis, Monitoring, and Evaluation of AI in Mexico.",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/MX-01/2026-10-12/secondary.html",
+    "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+    "locator": "second paragraph",
+    "quote": "The initiative was presented on Wednesday, February 11, 2026, and has been referred to the Joint Committees on Legislative Studies and on the Analysis, Monitoring, and Evaluation of AI in Mexico.",
+    "source_kind": "secondary"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/MX-01/2026-10-12/secondary.html",
+    "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+    "locator": "second paragraph",
+    "quote": "The initiative was presented on Wednesday, February 11, 2026, and has been referred to the Joint Committees on Legislative Studies and on the Analysis, Monitoring, and Evaluation of AI in Mexico.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/MX-01/2026-10-12/secondary.html",
+    "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+    "locator": "first paragraph",
+    "quote": "If approved, it would establish Mexico’s first comprehensive legal framework for the development, implementation, and use of AI systems in both the public and private sectors.",
+    "source_kind": "secondary"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/MX-01/2026-10-12/secondary.html",
+    "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+    "locator": "first paragraph",
+    "quote": "A bill has been introduced in the Senate by Senator Karina Isabel Ruíz Ruíz (MORENA parliamentary group) to enact the National Law to Regulate the Use of Artificial Intelligence.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/MX-01/2026-10-12/secondary.html",
+    "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+    "locator": "first paragraph",
+    "quote": "If approved, it would establish Mexico’s first comprehensive legal framework for the development, implementation, and use of AI systems in both the public and private sectors.",
+    "source_kind": "secondary"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Latest stored event: presentation in the Senate on 11 February 2026 and referral to the joint committees (alert of 26 February 2026). No stored source shows committee action, a vote or a lapse; the SIL report read on 12 October 2026 (not stored) showed it pending in committee. Draft / proposed is kept.",
+  "scope_reasoning": "A pending bill for a comprehensive national AI law with risk classification and prohibitions; in scope as a pending bill.",
+  "changes": {
+   "notes": "removed research-process language and hedges ('counsel refers to', 'the gazette title is used here', 'Press reports also describe', 'reported', 'is said to', 'No committee action ... was found'); those statements and the claims that rest on pages that are not stored moved to verification.note",
+   "verification.note": "rewritten to say what is stored and what rests on pages that are not stored"
+  },
+  "confirmed": [
+   "title",
+   "issuing_body",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [
+  {
+   "url": "https://infosen.senado.gob.mx/sgsp/gaceta/66/2/2026-02-11-1/assets/documentos/Ini_Morena_Sen_Karina_Ruiz_Expide_Ley_Nacional_de_Inteligencia_Artificial.pdf",
+   "reason": "the initiative's own text in the Senate gazette of 11 February 2026, linked from the stored Basham alert: needed for original_title, the Spanish wording of the summary (agency name, prohibitions, sanctions) and official evidence for title, date and status"
+  }
+ ],
+ "leads": [
+  {
+   "title": "Draft 'Ley General para Regular y Fomentar la Inteligencia Artificial' prepared by the Senate AI commission (2026)",
+   "url": null,
+   "note": "Reported in press as a 223-article draft not voted by the close of the April 2026 session; not recorded in the register."
+  }
+ ],
+ "open_questions": [
+  "No Spanish text of the initiative is stored. original_title ('Iniciativa con proyecto de decreto por el que se expide la Ley Nacional de Inteligencia Artificial') and every summary claim rest on the English Basham alert; the summary is left unchanged until the gazette PDF is stored.",
+  "With only the Basham alert stored, title, date and status have secondary evidence only, so the computed level is C (the record was B on the SIL report, which could not be stored).",
+  "The SIL tracking report (official_url) failed to store because of its TLS certificate; a browser retry might store it and give the current stage."
+ ]
+}

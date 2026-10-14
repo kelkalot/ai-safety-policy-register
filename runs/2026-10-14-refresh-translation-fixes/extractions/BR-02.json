@@ -1,0 +1,68 @@
+{
+ "cand_id": "BR-02",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "BR-02",
+ "record": {
+  "title": "Superior Electoral Court Resolution No. 23,732 of 27 February 2024 amending TSE Resolution No. 23,610 of 18 December 2019 on electoral propaganda",
+  "original_title": "Resolução nº 23.732, de 27 de fevereiro de 2024 – Altera a Res.-TSE nº 23.610, de 18 de dezembro de 2019, dispondo sobre a propaganda eleitoral",
+  "date_in_force": "2024-03-04",
+  "summary": "Amends TSE Resolution 23,610/2019 on electoral propaganda. Propaganda using AI-generated synthetic content must say so explicitly, prominently and accessibly, naming the technology. Campaign chatbots and avatars are subject to the same duty and may not simulate dialogue with the candidate or another real person. Deepfakes of a living, deceased or fictitious person's image or voice used to harm or favour a candidacy are banned even with consent, on pain of loss of registration or mandate. Application providers are jointly and severally liable, civilly and administratively, if during the electoral period they do not immediately remove AI-manipulated content breaching the labelling rules.",
+  "notes": "Adopted on 27 February 2024 (rapporteur Minister Cármen Lúcia) and published in DJE-TSE no. 29 of 4 March 2024, pp. 132-145; in force on publication (Art. 6). Besides the AI rules in new Articles 9-B, 9-C and 9-E, it adds definitions of artificial intelligence and synthetic content to Article 37 of Resolution 23,610/2019 and new duties for application providers (Art. 9-D), including measures against notoriously untrue or seriously decontextualised content and an election-year assessment of their services' impact on the integrity of the electoral process. The labelling duty does not cover image or sound quality adjustments, graphic identity elements and customary campaign photo montages (Art. 9-B § 2).",
+  "verification": {
+   "note": "The TSE compiled-legislation page for the resolution was stored; it holds the full Portuguese text, the adoption line of 27 Feb 2024 and the reference to DJE-TSE no. 29 of 4 Mar 2024, pp. 132-145, and Art. 6 (in force on official publication), from which date_in_force is taken. The earlier note that the rules applied to the 2024 municipal elections is not in the stored text and was removed from the notes. Whether the TSE has amended these rules since, for example for the October 2026 general elections, is not shown by the stored page. No English text by the TSE or another public body was found."
+  }
+ },
+ "evidence": {
+  "title": [
+   {"file": "archive/BR-02/2026-10-11/official.html", "sha256": "041dfe7aaad65881c795bd574e85b425333cba1ec684db0f59382433f35cc7f5", "locator": "heading of the compiled text", "quote": "RESOLUÇÃO Nº 23.732, DE 27 DE FEVEREIRO DE 2024", "source_kind": "official"},
+   {"file": "archive/BR-02/2026-10-11/official.html", "sha256": "041dfe7aaad65881c795bd574e85b425333cba1ec684db0f59382433f35cc7f5", "locator": "ementa under the heading", "quote": "Altera a Res.-TSE nº 23.610, de 18 de dezembro de 2019, dispondo sobre a propaganda eleitoral.", "source_kind": "official"},
+   {"file": "archive/BR-02/2026-10-11/official.html", "sha256": "041dfe7aaad65881c795bd574e85b425333cba1ec684db0f59382433f35cc7f5", "locator": "enacting formula", "quote": "O TRIBUNAL SUPERIOR ELEITORAL, no uso das atribuições que lhe conferem o inciso IX do art. 23 do Código Eleitoral", "source_kind": "official"}
+  ],
+  "original_title": [
+   {"file": "archive/BR-02/2026-10-11/official.html", "sha256": "041dfe7aaad65881c795bd574e85b425333cba1ec684db0f59382433f35cc7f5", "locator": "heading of the compiled text", "quote": "RESOLUÇÃO Nº 23.732, DE 27 DE FEVEREIRO DE 2024", "source_kind": "official"},
+   {"file": "archive/BR-02/2026-10-11/official.html", "sha256": "041dfe7aaad65881c795bd574e85b425333cba1ec684db0f59382433f35cc7f5", "locator": "ementa under the heading", "quote": "Altera a Res.-TSE nº 23.610, de 18 de dezembro de 2019, dispondo sobre a propaganda eleitoral.", "source_kind": "official"}
+  ],
+  "issuing_body": [
+   {"file": "archive/BR-02/2026-10-11/official.html", "sha256": "041dfe7aaad65881c795bd574e85b425333cba1ec684db0f59382433f35cc7f5", "locator": "enacting formula", "quote": "O TRIBUNAL SUPERIOR ELEITORAL, no uso das atribuições que lhe conferem o inciso IX do art. 23 do Código Eleitoral", "source_kind": "official"}
+  ],
+  "official_identifier": [
+   {"file": "archive/BR-02/2026-10-11/official.html", "sha256": "041dfe7aaad65881c795bd574e85b425333cba1ec684db0f59382433f35cc7f5", "locator": "heading of the compiled text", "quote": "RESOLUÇÃO Nº 23.732, DE 27 DE FEVEREIRO DE 2024", "source_kind": "official"}
+  ],
+  "date_published": [
+   {"file": "archive/BR-02/2026-10-11/official.html", "sha256": "041dfe7aaad65881c795bd574e85b425333cba1ec684db0f59382433f35cc7f5", "locator": "heading of the compiled text", "quote": "RESOLUÇÃO Nº 23.732, DE 27 DE FEVEREIRO DE 2024", "source_kind": "official"},
+   {"file": "archive/BR-02/2026-10-11/official.html", "sha256": "041dfe7aaad65881c795bd574e85b425333cba1ec684db0f59382433f35cc7f5", "locator": "place and date line after Art. 6", "quote": "Brasília, 27 de fevereiro de 2024.", "source_kind": "official"}
+  ],
+  "date_in_force": [
+   {"file": "archive/BR-02/2026-10-11/official.html", "sha256": "041dfe7aaad65881c795bd574e85b425333cba1ec684db0f59382433f35cc7f5", "locator": "Art. 6: the commencement rule", "quote": "Art. 6º Esta Resolução entra em vigor na data de sua publicação oficial.", "source_kind": "official"},
+   {"file": "archive/BR-02/2026-10-11/official.html", "sha256": "041dfe7aaad65881c795bd574e85b425333cba1ec684db0f59382433f35cc7f5", "locator": "publication note at the end of the text: the official publication", "quote": "Este texto não substitui o publicado no DJE-TSE, nº 29, de 4.3.2024, p. 132-145.", "source_kind": "official"}
+  ],
+  "status": [
+   {"file": "archive/BR-02/2026-10-11/official.html", "sha256": "041dfe7aaad65881c795bd574e85b425333cba1ec684db0f59382433f35cc7f5", "locator": "Art. 6: the commencement rule", "quote": "Art. 6º Esta Resolução entra em vigor na data de sua publicação oficial.", "source_kind": "official"},
+   {"file": "archive/BR-02/2026-10-11/official.html", "sha256": "041dfe7aaad65881c795bd574e85b425333cba1ec684db0f59382433f35cc7f5", "locator": "publication note at the end of the text: the event", "quote": "Este texto não substitui o publicado no DJE-TSE, nº 29, de 4.3.2024, p. 132-145.", "source_kind": "official"}
+  ],
+  "legal_force": [
+   {"file": "archive/BR-02/2026-10-11/official.html", "sha256": "041dfe7aaad65881c795bd574e85b425333cba1ec684db0f59382433f35cc7f5", "locator": "Art. 9-C § 2 (new)", "quote": "O descumprimento do previsto no caput e no § 1º deste artigo configura abuso do poder político e uso indevido dos meios de comunicação social, acarretando a cassação do registro ou do mandato", "source_kind": "official"}
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Rule: Art. 6 says the resolution enters into force on the date of its official publication. Event: the stored page says the authoritative text is the one published in DJE-TSE no. 29 of 4 March 2024. Arithmetic: 4 March 2024 is over two and a half years before today (14 October 2026). The stored compiled-legislation page shows no revocation. Status 'In force' (confirmed), date_in_force 2024-03-04 (new).",
+  "scope_reasoning": "Binding electoral rules specifically on AI-generated content, deepfakes and platform liability; clearly in scope, no scope_note.",
+  "changes": {
+   "title": "The English title now renders the title and ementa ('Altera a Res.-TSE nº 23.610, de 18 de dezembro de 2019, dispondo sobre a propaganda eleitoral'); the closing gloss 'AI and synthetic content rules' was the register's own description, not part of the title.",
+   "original_title": "Now verbatim: the resolution's number and date followed by its ementa, in the form used for BR-01; the old parenthetical '(altera a Res.-TSE nº 23.610/2019)' condensed the ementa.",
+   "date_in_force": "Was null. Art. 6 puts the resolution in force on its official publication, and the stored page dates that publication: DJE-TSE no. 29 of 4 March 2024.",
+   "summary": "'pessoa viva, falecida ou fictícia' rendered literally (living, not 'real'); the chatbot rule now says they fall under the disclosure duty and may not simulate dialogue with the candidate 'or another real person' (Art. 9-B § 3); 'solidariamente responsáveis, civil e administrativamente' rendered as jointly and severally liable, civilly and administratively, limited to the electoral period (Art. 9-E); loss of registration or mandate tied to the deepfake ban (Art. 9-C § 2) instead of to all violations; 'propaganda eleitoral' rendered as electoral propaganda throughout.",
+   "notes": "Adds the rapporteur, the DJE pages and Art. 6, the AI and synthetic-content definitions, Art. 9-D platform duties and the Art. 9-B § 2 exceptions; removes 'applied to the 2024 municipal elections', which the stored text does not say.",
+   "verification": "Updated for this refresh."
+  },
+  "confirmed": ["issuing_body", "official_identifier", "date_published", "status", "legal_force"]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "english_version stays 'none found' (unchanged): no English text by the TSE or another public body is in the stored file or the translation check.",
+  "The stored page does not show whether a later TSE resolution amended Articles 9-B to 9-E of Resolution 23,610/2019 for the 2026 elections; a recheck of the TSE compiled text of Resolution 23,610/2019 would show it."
+ ]
+}

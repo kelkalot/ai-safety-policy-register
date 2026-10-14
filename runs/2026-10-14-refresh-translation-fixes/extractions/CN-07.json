@@ -1,0 +1,149 @@
+{
+ "cand_id": "CN-07",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "CN-07",
+ "record": {
+  "summary": "Version 1.0 of the AI Safety Governance Framework, issued by TC260 under the Global AI Governance Initiative. Its principles: be inclusive and prudent to ensure safety; identify risks with agile governance; integrate technology and management for coordinated response; promote openness and cooperation. It classifies inherent safety risks (models and algorithms, data, systems) and application safety risks in the cyber, real-world, cognitive and ethical domains, including misuse for nuclear, biological and chemical weapons and uncontrollable AI. It sets technical and governance measures, such as tiered management and incident response, and safety guidelines for developers, providers and users.",
+  "notes": "Released at the main forum of the 2024 National Cybersecurity Week to implement the Global AI Governance Initiative, and published by TC260 in Chinese and English. Version 2.0 (15 Sept 2025) was built on it and replaced it; version 3.0 followed on 14 Sept 2026.",
+  "verification": {
+   "note": "CAC release notice, the framework's Chinese PDF and TC260's English version stored (all from cac.gov.cn): title (人工智能安全治理框架（V1.0）; AI Safety Governance Framework (V1.0)), release on 9 Sept 2024 at the 2024 National Cybersecurity Week, TC260 as issuer, and the content confirmed. The summary follows the Chinese text, with the principles in TC260's English wording. 'Superseded' rests on the stored version 2.0 notice of 15 Sept 2025, which says version 2.0 was built on the 2024 framework. The secondary URL (TC260 post) now returns the redesigned TC260 homepage."
+  },
+  "original_title": "人工智能安全治理框架（V1.0）",
+  "safety_topics": [
+   "risk-based classification",
+   "evaluation & testing",
+   "catastrophic risk",
+   "incident reporting",
+   "international cooperation"
+  ],
+  "english_version": {
+   "kind": "authentic",
+   "url": "https://www.cac.gov.cn/cms/pub/interact/downloadfile.jsp?filepath=NUtqEIwGiCjGm2Bhl20cvAw5d0ApEKMeW1mFeug~F1Ouj6I6QUwmkhNVfIGhtfr~sVvTUXeSQr5Wl4dkpJ9pwFAfqphfFn00jUfFRLdBE5I=&fText=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%AE%89%E5%85%A8%E6%B2%BB%E7%90%86%E6%A1%86%E6%9E%B6-%E8%8B%B1%E6%96%87%E7%89%88",
+   "by": "National Technical Committee 260 on Cybersecurity of SAC (TC260)"
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/CN-07/2026-10-11/official.html",
+    "sha256": "6198bb66c8ba74227e639c0921decb8c4659d210538d7a011d8c2e90b91f575b",
+    "locator": "page heading",
+    "quote": "《人工智能安全治理框架》1.0版发布",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-07/extra-0ab0ee3bff/2026-10-14/official.pdf",
+    "sha256": "52332728e4495e3880d3d5595d3bb13f7870f78525f51e4c5e13617a196697fb",
+    "locator": "page 3, title block",
+    "quote": "AI Safety Governance Framework (V1.0)",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/CN-07/2026-10-11/official.html",
+    "sha256": "6198bb66c8ba74227e639c0921decb8c4659d210538d7a011d8c2e90b91f575b",
+    "locator": "release notice, 1st paragraph",
+    "quote": "全国网络安全标准化技术委员会（以下简称“网安标委”）发布《人工智能安全治理框架》1.0版",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-07/extra-0ab0ee3bff/2026-10-14/official.pdf",
+    "sha256": "52332728e4495e3880d3d5595d3bb13f7870f78525f51e4c5e13617a196697fb",
+    "locator": "page 1, cover",
+    "quote": "National Technical Committee 260 on Cybersecurity of SAC 2024.9 AI SAFETY GOVERNANCE FRAMEWORK",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/CN-07/2026-10-11/official.html",
+    "sha256": "6198bb66c8ba74227e639c0921decb8c4659d210538d7a011d8c2e90b91f575b",
+    "locator": "release notice, 1st paragraph",
+    "quote": "9月9日，在2024年国家网络安全宣传周主论坛上",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CN-07/2026-10-11/official.html",
+    "sha256": "6198bb66c8ba74227e639c0921decb8c4659d210538d7a011d8c2e90b91f575b",
+    "locator": "date line",
+    "quote": "2024年09月09日 17:32",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-07/extra-8c22534e78/2026-10-14/official.html",
+    "sha256": "d839994128d59578bd116fe312c29b7ac0c01c2c87c55c046fe97ee675fbe277",
+    "locator": "version 2.0 release notice, 2nd paragraph",
+    "quote": "《人工智能安全治理框架》1.0版（以下简称《框架》）于2024年9月发布",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-07/extra-8c22534e78/2026-10-14/official.html",
+    "sha256": "d839994128d59578bd116fe312c29b7ac0c01c2c87c55c046fe97ee675fbe277",
+    "locator": "version 2.0 release notice, 2nd paragraph",
+    "quote": "作为全国网安标委技术文件，《框架》2.0版在2024年《框架》基础上",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-07/extra-8c22534e78/2026-10-14/official.html",
+    "sha256": "d839994128d59578bd116fe312c29b7ac0c01c2c87c55c046fe97ee675fbe277",
+    "locator": "version 2.0 release notice, 1st paragraph",
+    "quote": "9月15日，在2025年国家网络安全宣传周主论坛上，《人工智能安全治理框架》2.0版（以下简称《框架》2.0版）正式发布。",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/CN-07/2026-10-11/official.html",
+    "sha256": "6198bb66c8ba74227e639c0921decb8c4659d210538d7a011d8c2e90b91f575b",
+    "locator": "release notice, 3rd paragraph",
+    "quote": "提供了基础性、框架性技术指南",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-07/extra-534fd48475/2026-10-14/official.pdf",
+    "sha256": "0cbf340164593f5fd98d82406979e43e82ce7505ea7bd2a0fd19a00dfd09412d",
+    "locator": "page 4, 2. 人工智能安全治理框架构成",
+    "quote": "防范应对措施也将相应动态调整更新，需要各方共同对治理框架持续优化完善",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-07/extra-534fd48475/2026-10-14/official.pdf",
+    "sha256": "0cbf340164593f5fd98d82406979e43e82ce7505ea7bd2a0fd19a00dfd09412d",
+    "locator": "page 3, title block",
+    "quote": "人工智能安全治理框架 （V1.0）",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The stored version 2.0 notice (CAC, 15 Sept 2025) says version 1.0 was released in September 2024 and that version 2.0, a TC260 technical document, was made on the basis of the 2024 framework (在2024年《框架》基础上). A framework replaced by a newer version from the same issuer is Superseded; version 3.0 (CN-17, 14 Sept 2026) followed.",
+  "scope_reasoning": "In scope with no note: a national AI safety governance framework.",
+  "changes": {
+   "summary": "Return round (14 Oct 2026): rewritten from the framework's Chinese text, now stored, with the four principles in TC260's own English wording (1.1 'Be inclusive and prudent to ensure safety' for 包容审慎、确保安全, and so on). 'Guidelines for developers, providers and users' is now supported (section 6: model and algorithm developers, service providers, users in key areas, the public). Added the dual-use weapons risk (3.2.2(c)) and loss of control (3.2.4(c)); 5.1 分类分级管理 rendered 'tiered management' after TC260's 'tiered and category-based management'.",
+   "notes": "Return round (14 Oct 2026): says TC260 published both language versions and that version 2.0 was built on this one (stored notice).",
+   "verification": "Return round (14 Oct 2026): rewritten: framework texts and the version 2.0 notice are stored.",
+   "original_title": "Return round (14 Oct 2026): '人工智能安全治理框架（1.0版）' was not verbatim; the framework's own title block reads 人工智能安全治理框架 （V1.0）.",
+   "safety_topics": "Return round (14 Oct 2026): added 'catastrophic risk' (3.2.2(c) nuclear, biological and chemical weapons; 3.2.4(c) AI becoming uncontrollable) and 'incident reporting' (5.7 risk and threat information sharing and emergency response; 6.2(h) providers report safety incidents and vulnerabilities to the competent authorities).",
+   "english_version": "Return round (14 Oct 2026): set to TC260's English text, linked from the CAC notice and now stored. Kind 'authentic': the issuer published it under its own name with the same title block (V1.0); 'government translation' would also be defensible, since the Chinese is evidently the drafting text."
+  },
+  "confirmed": [
+   "title",
+   "issuing_body",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "secondary_url (tc260.org.cn/front/postDetail.html?id=20240909102807) now returns the TC260 homepage (same SHA-256 as CN-06's copy); a human may drop it or replace it with the Chinese PDF on cac.gov.cn."
+ ]
+}

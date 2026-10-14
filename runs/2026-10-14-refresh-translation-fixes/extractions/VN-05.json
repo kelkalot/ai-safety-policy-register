@@ -1,0 +1,168 @@
+{
+ "cand_id": "VN-05",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "VN-05",
+ "record": {
+  "summary": "Prime Minister's decision listing high-risk AI systems under the Law on Artificial Intelligence and Decree 142/2026/NĐ-CP. A system is high-risk if it may cause significant damage to life, health, lawful rights and interests, national interests, public interests or national security (Law Art. 9; Decree Art. 8(1)) and is not excluded by Decree Art. 8(2). Using AI systems does not change, transfer or exclude the powers and responsibilities of competent bodies, and human supervision, control and ability to intervene must be ensured. The annex lists systems in education, ethnic and religious affairs, health, banking, legal proceedings and transport, with conditions for each entry.",
+  "notes": "Dated 30 June 2026, digitally signed for the Government portal on 2 July 2026 and in force from 15 August 2026 (Art. 3(1)); signed by Deputy Prime Minister Hồ Quốc Dũng. Transitional rules (Art. 4): providers and deployers of listed systems already operating before the effective date must meet their compliance obligations before 1 September 2027 (health, education and finance) or 1 March 2027 (other listed fields), and may keep operating meanwhile unless a competent state body finds a risk of serious damage and orders suspension or termination under Law Art. 35(2); systems put into operation within six months after the effective date must comply before 1 March 2027 (Art. 4(3)). The annex table marks each entry against point a or point b of Article 13(2) of the Law; the transport section has 31 numbered entries. Article 13(4) of the Law on Artificial Intelligence (VN-02) assigns the list to the Prime Minister.",
+  "verification": {
+   "note": "Signed PDF of the decision (16 scanned pages) stored from the Government portal file server (datafiles.chinhphu.vn) and read by OCR (Tesseract, Vietnamese); Articles 1-4 read cleanly, the annex table less so (column layout breaks lines, some diacritics are lost). The PDF confirms number 33/2026/QĐ-TTg, the date 30 Jun 2026, the portal signature of 2 Jul 2026, Articles 1-4 (scope, criteria, effective date 15 Aug 2026, transition deadlines), the six field headings of the annex and the last transport entry numbered 31. The signer (Deputy Prime Minister Hồ Quốc Dũng, for the Prime Minister) is not legible in the OCR text; it comes from the stored VietnamPlus (Vietnam News Agency) report of 2 Jul 2026 and the stored LuatVietnam English text. The Decision's preamble cites the Law on Artificial Intelligence only generally; the Law's Article 13(4) giving the list to the Prime Minister is in VN-02's stored copy, not in this record's files. English version: the LuatVietnam page (commercial legal database) shows an English text of the Decision with Articles 1-4, the signature block and part of the annex; the rest of the annex needs a subscriber login. The page does not say who translated it; LuatVietnam says it distributes the Official Gazette's English translations, but nothing on the page marks this text as one, so it is recorded as a third-party translation. The summary was written from the Vietnamese text."
+  },
+  "english_version": {
+   "kind": "third-party translation",
+   "url": "https://english.luatvietnam.vn/decision-no-33-2026-qd-ttg-of-the-prime-minister-promulgating-the-list-of-high-risk-artificial-intelligence-systems-439294-doc1.html",
+   "by": "LuatVietnam (commercial legal database)"
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/VN-05/2026-10-11/official.pdf",
+    "sha256": "f51e30980912a04ac347e34577779b42545285ad2df3c9f0cec5929b69a0e99b",
+    "locator": "page 1, title line under QUYẾT ĐỊNH (OCR)",
+    "quote": "Ban hành Danh mục hệ thống trí tuệ nhân tạo có rủi ro cao",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-05/2026-10-11/official.pdf",
+    "sha256": "f51e30980912a04ac347e34577779b42545285ad2df3c9f0cec5929b69a0e99b",
+    "locator": "page 1, number and date line (OCR)",
+    "quote": "Số: 33/2026/QĐ-TTg. Hà Nội, ngày 30 tháng 6 năm 2026",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/VN-05/2026-10-11/official.pdf",
+    "sha256": "f51e30980912a04ac347e34577779b42545285ad2df3c9f0cec5929b69a0e99b",
+    "locator": "page 1, title line (OCR)",
+    "quote": "Ban hành Danh mục hệ thống trí tuệ nhân tạo có rủi ro cao",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-05/2026-10-14/secondary.html",
+    "sha256": "ea7c1dde6a354d1a524502a01d5a7370b3d50cc1610e91f3af7f61f338abc348",
+    "locator": "first paragraph of the article",
+    "quote": "Phó Thủ tướng Hồ Quốc Dũng ký Quyết định số 33/2026/QĐ-TTg ban hành Danh mục hệ thống trí tuệ nhân tạo có rủi ro cao.",
+    "source_kind": "secondary"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/VN-05/2026-10-11/official.pdf",
+    "sha256": "f51e30980912a04ac347e34577779b42545285ad2df3c9f0cec5929b69a0e99b",
+    "locator": "page 1, preamble (OCR)",
+    "quote": "Theo đề nghị của Bộ trưởng Bộ Khoa học và Công nghệ,",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-05/2026-10-11/official.pdf",
+    "sha256": "f51e30980912a04ac347e34577779b42545285ad2df3c9f0cec5929b69a0e99b",
+    "locator": "page 1, enacting formula (OCR)",
+    "quote": "Thủ tướng Chính phủ ban hành Quyết định Danh mục hệ thống trí tuệ",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-05/2026-10-14/secondary.html",
+    "sha256": "ea7c1dde6a354d1a524502a01d5a7370b3d50cc1610e91f3af7f61f338abc348",
+    "locator": "first paragraph of the article",
+    "quote": "Phó Thủ tướng Hồ Quốc Dũng ký Quyết định số 33/2026/QĐ-TTg",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-05/extra-6b5c060e05/2026-10-14/official.html",
+    "sha256": "3e71ce35d353b50a849d88d4aefd981ed027761702828f6313a371eb8356cca2",
+    "locator": "English text, signature block",
+    "quote": "FOR THE PRIME MINISTER DEPUTY PRIME MINISTER Ho Quoc Dung",
+    "source_kind": "secondary"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/VN-05/2026-10-11/official.pdf",
+    "sha256": "f51e30980912a04ac347e34577779b42545285ad2df3c9f0cec5929b69a0e99b",
+    "locator": "page 1, number and date line (OCR)",
+    "quote": "Số: 33/2026/QĐ-TTg. Hà Nội, ngày 30 tháng 6 năm 2026",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/VN-05/2026-10-11/official.pdf",
+    "sha256": "f51e30980912a04ac347e34577779b42545285ad2df3c9f0cec5929b69a0e99b",
+    "locator": "page 1, number and date line (OCR)",
+    "quote": "Số: 33/2026/QĐ-TTg. Hà Nội, ngày 30 tháng 6 năm 2026",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/VN-05/2026-10-11/official.pdf",
+    "sha256": "f51e30980912a04ac347e34577779b42545285ad2df3c9f0cec5929b69a0e99b",
+    "locator": "page 2, Art. 3(1) (OCR)",
+    "quote": "1. Quyết định này có hiệu lực thi hành từ ngày 15 tháng 8 năm 2026.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/VN-05/2026-10-11/official.pdf",
+    "sha256": "f51e30980912a04ac347e34577779b42545285ad2df3c9f0cec5929b69a0e99b",
+    "locator": "page 2, Art. 3(1) (OCR): the commencement rule",
+    "quote": "1. Quyết định này có hiệu lực thi hành từ ngày 15 tháng 8 năm 2026.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-05/2026-10-11/official.pdf",
+    "sha256": "f51e30980912a04ac347e34577779b42545285ad2df3c9f0cec5929b69a0e99b",
+    "locator": "page 1, portal signature block (OCR): publication",
+    "quote": "Thời gian ký: 02.07.2026 16:39:02 +07:00",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/VN-05/2026-10-11/official.pdf",
+    "sha256": "f51e30980912a04ac347e34577779b42545285ad2df3c9f0cec5929b69a0e99b",
+    "locator": "page 2, Art. 3(2) (OCR)",
+    "quote": "chức, cá nhân có liên quan chịu trách nhiệm thi hành Quyết định này.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-05/2026-10-11/official.pdf",
+    "sha256": "f51e30980912a04ac347e34577779b42545285ad2df3c9f0cec5929b69a0e99b",
+    "locator": "page 2, Art. 4(1) (OCR)",
+    "quote": "nhà cung cấp và bên triển khai có trách nhiệm hoàn thành các nghĩa vụ tuân thủ theo quy định của pháp luật về trí tuệ nhân tạo theo lộ trình sau:",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Rule and event in the stored decision: Art. 3(1) says the Decision takes effect from 15 August 2026; the Government portal signed the PDF for publication on 2 July 2026. Arithmetic: 15 August 2026 is before today (14 October 2026), so the Decision has been in force for about two months. Status 'In force', date_in_force 2026-08-15. The Art. 4 transition periods (to 1 March 2027 and 1 September 2027) delay compliance duties for already operating systems but not the Decision's entry into force; they are in the notes.",
+  "scope_reasoning": "AI-specific implementing instrument under the Law on Artificial Intelligence that sets the high-risk list; clearly in scope, no scope_note.",
+  "changes": {
+   "summary": "Renders 'lợi ích quốc gia, lợi ích công cộng, an ninh quốc gia' literally as national interests, public interests or national security instead of 'national, public or security interests'; states Art. 1(2) as it is written, for AI systems generally, not only for listed systems; drops 'under Article 13(4)', which the Decision's preamble does not cite; 'tố tụng' rendered as legal proceedings; removes 'must not engage in prohibited acts' to stay within length (it restates the general ban in the law).",
+   "notes": "Removes the remark that the sector groupings come from state-media reports (the annex in the stored PDF shows the six field headings); adds Art. 4(3) on systems put into operation within six months, the annex's marking against Law Art. 13(2)(a)/(b) and the signer; keeps the Art. 13(4) link to VN-02 here instead of in the summary.",
+   "verification": "Rewritten to say what each stored file confirms, that the signer rests on the VietnamPlus report and the LuatVietnam text, and what the English version covers.",
+   "english_version": "Was not recorded. The stored LuatVietnam page holds an English text of the Decision (Articles 1-4 and part of the annex) with no translator named; recorded as a third-party translation by LuatVietnam."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "official_identifier",
+   "date_published",
+   "date_in_force",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "english_version is recorded as a third-party translation by LuatVietnam; if the text is the Official Gazette (Công báo) English edition published by the Vietnam News Agency, the kind would be 'government translation'. The stored page does not say which.",
+  "The signer's name rests on the VietnamPlus report and the LuatVietnam English text; the OCR of the signed PDF does not show the signature block."
+ ]
+}

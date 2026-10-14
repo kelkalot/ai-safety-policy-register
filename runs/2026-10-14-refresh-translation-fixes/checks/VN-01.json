@@ -1,0 +1,71 @@
+{
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Lead paragraph of the Government portal's English article gives exactly 'National Strategy on Artificial Intelligence (AI) through 2030, with a vision to 2045'. It is a news rendering, not the Decision's own title; the verification note says so."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "null is right: no Vietnamese text of the Decision is stored."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Article: 'The Government has approved a National Strategy ...'. The record's 'Government of Viet Nam' follows that and does not claim a signatory."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Byline August 29, 2026 is the date of the announcement, so the month 2026-08 is supported; the signing day is not in a stored file. The press reports found by my search say the Decision is No. 1671/QĐ-TTg of 28 August 2026, which is consistent with the month but is only press, so it is a lead and not used."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Approved and announced 29 Aug 2026; nothing later is stored or found."
+  },
+  "legal_force": {
+   "verdict": "judgment-differs",
+   "why": "Strategies are labelled Non-binding in this register; VN-03, a Prime Minister's decision issuing a plan, is recorded Binding. The extractor noted this. A human may align the two once the Decision is stored; I do not call it wrong."
+  },
+  "english_version": {
+   "verdict": "supported",
+   "why": "kind 'none found' fits: the stored English texts are news articles about the strategy, not a translation of the Decision."
+  },
+  "scope_note": {
+   "verdict": "supported",
+   "why": "The note says the strategy is mainly about development and adoption, with safe and trustworthy AI governance as one of nine pillars; accurate against the article."
+  },
+  "safety_topics": {
+   "verdict": "judgment-differs",
+   "why": "'evaluation & testing' rests only on the data and AI models pillar ('training, testing, evaluation and deployment'), a weak basis; 'accountability & liability' fits the safe and trustworthy governance pillar and the accountability of heads of ministries. Defensible."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Nine strategic pillars, including data and AI models as foundations for AI training, testing, evaluation and deployment, and safe and trustworthy AI governance under which AI is developed, provided, deployed and used in accordance with the law",
+   "verdict": "supported",
+   "locator": "section 'Nine strategic pillars', items 2 and 9 of the Government portal article",
+   "translation": "The article is in English, so there is no Vietnamese passage to translate. Item 2: 'Develop data, data infrastructure and AI models as foundations for AI research, development, training, testing, evaluation and deployment.' Item 9: 'Ensure safe, trustworthy and responsible AI governance, and ensure that AI is developed, provided, deployed and used in accordance with the law.'"
+  },
+  {
+   "claim": "Six breakthrough solutions include improving AI law and policy, international cooperation with standards and technical regulations, and a culture of responsible AI use",
+   "verdict": "supported",
+   "locator": "section 'Six breakthrough solutions', first, fourth and fifth"
+  },
+  {
+   "claim": "Targets: AI economy about 6% of GDP by 2030, AI support for all online public services, at least eight Vietnamese-language AI models",
+   "verdict": "supported",
+   "locator": "6% of GDP: MST article (secondary.html, alt-official), 'target for the AI economy to account for around 6% of GDP by 2030'; 100 percent of online public services and 'at least eight Vietnamese-language AI models': Government portal article"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "National AI development strategy with one governance pillar; the existing scope_note is accurate and is kept."
+ },
+ "overall": "accept",
+ "note": "The English portal article supports the title, nine pillars, six solutions and the targets, with the 6% of GDP figure resting on the ministry's article. Because the source is English and the Decision is not stored, there is no Vietnamese original to check, and the record says so. A search found press reports (not official) naming Decision No. 1671/QĐ-TTg of 28 August 2026; it is only a lead, so it was not used and the month-only date stays. The level A, computed from a news article on an official host, deserves a human's attention once the Decision is stored. Legal force and the evaluation topic are judgment calls only.",
+ "cand_id": "VN-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14"
+}

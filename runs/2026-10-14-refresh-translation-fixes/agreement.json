@@ -1,0 +1,133 @@
+{
+ "run_id": "2026-10-14-refresh-translation-fixes",
+ "generated": "2026-10-14",
+ "compared": 5,
+ "pending": [],
+ "overall_field_agreement": 0.286,
+ "fields": {
+  "decision": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "title": {
+   "compared": 2,
+   "agree": 1,
+   "rate": 0.5
+  },
+  "original_title": {
+   "compared": 2,
+   "agree": 1,
+   "rate": 0.5
+  },
+  "issuing_body": {
+   "compared": 1,
+   "agree": 0,
+   "rate": 0.0
+  },
+  "official_identifier": {
+   "compared": 1,
+   "agree": 0,
+   "rate": 0.0
+  },
+  "date_published": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_in_force": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_last_updated": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "status": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "legal_force": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "instrument_type": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "jurisdiction_level": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "region": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "country": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "safety_topics": {
+   "compared": 1,
+   "agree": 0,
+   "rate": 0.0
+  }
+ },
+ "disagreements": {
+  "CN-13": [
+   {
+    "field": "issuing_body",
+    "first": null,
+    "blind": "National Cybersecurity Standardization Technical Committee (TC260) and National Computer Network Emergency Response Technical Team/Coordination Center of China (CNCERT/CC), under the guidance of the Cyberspace Administration of China"
+   },
+   {
+    "field": "safety_topics",
+    "first": [
+     "risk-based classification",
+     "evaluation & testing",
+     "catastrophic risk",
+     "human oversight",
+     "international cooperation"
+    ],
+    "blind": [
+     "risk-based classification",
+     "evaluation & testing",
+     "catastrophic risk",
+     "transparency & labelling",
+     "critical infrastructure"
+    ]
+   }
+  ],
+  "JP-01": [],
+  "KR-03": [
+   {
+    "field": "official_identifier",
+    "first": "Presidential Decree No. 36053",
+    "blind": null
+   }
+  ],
+  "MX-01": [],
+  "TR-02": [
+   {
+    "field": "title",
+    "first": "Bill on Amendments to Certain Laws (artificial intelligence provisions in the Turkish Penal Code and other laws, 2/3358)",
+    "blind": null
+   },
+   {
+    "field": "original_title",
+    "first": "Bazı Kanunlarda Değişiklik Yapılmasına İlişkin Kanun Teklifi",
+    "blind": null
+   }
+  ]
+ },
+ "resulting_record_agreement": 0.915,
+ "resulting_record_fields": 59
+}

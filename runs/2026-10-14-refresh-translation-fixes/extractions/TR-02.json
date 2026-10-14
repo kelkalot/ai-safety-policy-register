@@ -1,0 +1,148 @@
+{
+ "cand_id": "TR-02",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "TR-02",
+ "record": {
+  "title": "Bill on Amendments to Certain Laws (artificial intelligence provisions in the Turkish Penal Code and other laws, 2/3358)",
+  "original_title": "Bazı Kanunlarda Değişiklik Yapılmasına İlişkin Kanun Teklifi",
+  "summary": "Private member's bill amending the Penal Code and Laws No. 5651 (internet), 6698 (data protection), 5809 (e-communications) and 7545 (cybersecurity). It makes a user who directs an AI system to a criminal act its perpetrator; requires removal or blocking within six hours of AI content that violates personality rights, threatens public security or is a deepfake; mandates a non-removable 'Produced by Artificial Intelligence' label on deepfakes (fines TRY 500,000-5 million); and obliges providers to ensure transparency and auditability of training data, content verification, hallucination controls and human-approved oversight in high-risk uses. ICT regulator BTK gets urgent blocking powers.",
+  "notes": "Signed by the sponsor on 23 July 2025, received by the TBMM on 7 November 2025 and registered on 10 November 2025 as Esas No. 2/3358, with the Industry, Trade, Energy, Natural Resources, Information and Technology Committee as lead committee and the Justice and Digital Media committees as secondary committees. The cover letter describes it as a bill amending Turkish Penal Code No. 5237 and certain laws. It has 11 articles and would enter into force on publication. Article 1 adds a definition of AI systems to Law No. 5651. It also requires datasets used in AI applications to respect anonymity, non-discrimination and legitimacy, treating discriminatory datasets as a data-security breach, raises the penalty for a developer whose system's design or training enabled the offence by half, and adds insult, threat and crimes against humanity to the offences for which internet content is removed or blocked.",
+  "verification": {
+   "note": "Stored: the official bill PDF from cdn.tbmm.gov.tr (7 pages, a scan read through an OCR text layer that drops or garbles Turkish characters; quotes reproduce the OCR errors), which confirms the sponsor, the signature date of 23 July 2025, the TBMM receipt stamp of 7 November 2025, registration as Esas No. 2/3358 on 10 November 2025, the committee referrals, the heading and all 11 articles; and an English summary of the bill by the law firm Moroğlu Arseven (18 December 2025). The TBMM bill web page is not stored, so no stage after the referral is confirmed by a stored copy. Not confirmed by any stored copy: a policy tracker's listing of the bill as under deliberation, the sponsor's publicity for it in September 2025, and the absence of any committee report or vote by October 2026."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 5, heading of the bill text (OCR layer)",
+    "quote": "BAZI KANUNLARDA DEGiSIKLIK YAPILMASINA ÏLÏSKÏN KANUN TEKLiFi",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 1, cover letter to the Speaker (OCR layer)",
+    "quote": "5237 sayth ve 26/9/2004 tarihli Tiirk Ceza Kanunu ve Bazi Kanunlarda degisiklik yapilmasina dair kanun teklifim gerekcesi ile birlikte ekte sunulmustur.",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 5, heading of the bill text (OCR layer)",
+    "quote": "BAZI KANUNLARDA DEGiSIKLIK YAPILMASINA ÏLÏSKÏN KANUN TEKLiFi",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 1, signature of the cover letter (OCR layer)",
+    "quote": "Av. Halil OZTURK Kinikkale Milletvekili",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 1, letterhead (OCR layer)",
+    "quote": "MÌLLIYETGÌ HAREKET PARTIS! T.B.M.M. GRUP BASKANLIG!",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 1, addressee (OCR layer)",
+    "quote": "TURKIYE BUYUK MILLET MECLisSi BASKANLIGINA",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 1, TBMM registry stamp (OCR layer)",
+    "quote": "Tarih: 10-11-2025 |Esas No:2/3358",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 2, TBMM receipt stamp (OCR layer)",
+    "quote": "07 Kasim 2025",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 5, heading of the bill text (OCR layer)",
+    "quote": "BAZI KANUNLARDA DEGiSIKLIK YAPILMASINA ÏLÏSKÏN KANUN TEKLiFi",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 1, TBMM registry stamp (OCR layer)",
+    "quote": "Tarih: 10-11-2025 |Esas No:2/3358",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 7, Article 10 (OCR layer)",
+    "quote": "MADDE 10- Bu Kanun yayim: tarihinde yiiriirltige girer.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 1, cover letter to the Speaker (OCR layer)",
+    "quote": "5237 sayth ve 26/9/2004 tarihli Tiirk Ceza Kanunu ve Bazi Kanunlarda degisiklik yapilmasina dair kanun teklifim gerekcesi ile birlikte ekte sunulmustur.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 5, heading of the bill text (OCR layer)",
+    "quote": "BAZI KANUNLARDA DEGiSIKLIK YAPILMASINA ÏLÏSKÏN KANUN TEKLiFi",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Latest stored event: the TBMM registered the bill on 10 November 2025 (Esas No. 2/3358) and referred it to the lead and secondary committees. The law-firm summary of 18 December 2025 describes it as submitted and placed on the legislative agenda. Article 10 would bring it into force on publication, which needs adoption first; no stored source shows a committee report, a vote or a lapse. Draft / proposed is kept.",
+  "scope_reasoning": "A bill that would amend the Penal Code and other laws to regulate AI-generated content, deepfakes and AI providers; in scope as a pending bill (no scope_note was set and none is added in this refresh).",
+  "changes": {
+   "original_title": "made verbatim: the bill text is headed 'BAZI KANUNLARDA DEĞİŞİKLİK YAPILMASINA İLİŞKİN KANUN TEKLİFİ' (page 5); the previous value was the cover letter's description ('... kanun teklifim', my bill) recast in title case. The cover-letter wording is now in notes. The OCR layer reads the heading as 'DEGiSIKLIK ... ÏLÏSKÏN ... TEKLiFi'; the value restores the Turkish characters",
+   "title": "renders the bill's own heading ('Bill on Amendments to Certain Laws'), with the AI content and the bill number in the parenthesis",
+   "summary": "'traceable training data' replaced by the bill's terms, 'transparency and auditability of training data sets' ('Egitim veri setlerinin seffafligi ve denetlenebilirliðini', Article 6, OCR layer); 'personal rights' rendered as 'personality rights' (kişilik hakları); human oversight rendered as 'human-approved oversight in high-risk uses' ('insan onayli denetim'); label rendered literally ('Yapay Zekâ Tarafından Üretilmiştir', produced by AI); BTK named; the AI-system definition moved to notes for length",
+   "notes": "the tracker listing, the September 2025 publicity and the remark that no committee report was found moved to verification.note; the article count and the entry-into-force clause now come from the bill text; the remark about the missing text layer moved to verification.note (the stored copy now has an OCR text layer); added the dataset, developer-penalty and catalogue-offence provisions",
+   "verification.note": "rewritten to describe the stored copies"
+  },
+  "confirmed": [
+   "issuing_body",
+   "official_identifier",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The bill is a scan; its text layer is OCR without Turkish characters. Every passage needed for this extraction is in the OCR layer, but quotes reproduce its errors (e.g. 'DEGiSIKLIK', 'Kinikkale' for Kırıkkale).",
+  "No stored copy shows the bill's stage after the committee referral of 10 November 2025; the TBMM bill page has not been stored.",
+  "original_title now follows the bill's own heading; if the TBMM lists the bill under the cover-letter wording ('5237 Sayılı ... Türk Ceza Kanunu ve Bazı Kanunlarda Değişiklik Yapılmasına Dair Kanun Teklifi'), a checker may prefer that form."
+ ]
+}

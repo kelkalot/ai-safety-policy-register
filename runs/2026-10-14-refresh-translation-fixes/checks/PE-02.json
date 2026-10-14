@@ -1,0 +1,77 @@
+{
+ "cand_id": "PE-02",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Rendering of the Spanish heading; the decree has no official English text."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "Matches the El Peruano heading character by character ('Decreto Supremo que aprueba el Reglamento de la Ley Nº 31814, Ley que promueve el uso de la inteligencia artificial en favor del desarrollo económico y social del país'); the number sits on the next heading line, 'DECRETO SUPREMO nº 115-2025-pcm'."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Decree is issued by the President of the Republic and countersigned by the PCM and three ministers (Art. 4); the PCM sector code is in the number. Defensible and unchanged."
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "'Fecha de publicación: 09/09/2025' in the stored El Peruano page."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "The general entry into force (90 business days after 9 Sep 2025) has passed (a search result gives 22 January 2026, not stored), but obligations phase in until 2029, so 'Partially in force' matches EU-03's treatment; the PRIMERA complementary provision gives the schedule."
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported",
+   "why": "Phasing in the notes matches Primera Disposición Complementaria Final (public sector items a-g, private sector a-d, MYPES a-b). 'January 2026' is computed, not stated in the text; correct under any holiday count."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Prohibited: real-time biometric identification to categorise people in public spaces except identity authentication and investigation of listed serious crimes",
+   "verdict": "supported",
+   "locator": "Art. 23.1(e)"
+  },
+  {
+   "claim": "Autonomous lethal capability without human supervision in the civilian sphere is prohibited",
+   "verdict": "supported",
+   "locator": "Art. 23.1(b): 'capacidad letal autónoma, que comprenda la toma de decisiones sin supervisión humana ... en el ámbito civil'"
+  },
+  {
+   "claim": "Impact assessment mandatory for public entities, voluntary for private",
+   "verdict": "supported",
+   "locator": "Art. 30.1 ('se debe realizar') vs Art. 32.1 ('de manera voluntaria, se puede realizar')"
+  },
+  {
+   "claim": "High-risk uses: critical national assets, evaluating minors, employment, social programmes, credit, health",
+   "verdict": "supported",
+   "locator": "Art. 24.1 a), b), e), f), g), h), i); items c) and d) are absent from the stored copy, so the list may be incomplete"
+  },
+  {
+   "claim": "Public entities must use NTP-ISO/IEC 42001:2025 when developing AI; security audits before and during operation; incident management",
+   "verdict": "supported",
+   "locator": "Art. 28.2; Art. 29 c), d)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Original title now verbatim. Summary and notes match the Spanish text (own translations in summary_claims). The summary lists high-risk uses as if exhaustive although items c) and d) of Art. 24.1 are missing from the stored HTML; the verification note says so, and a human may prefer 'including' in the summary or a stored gazette PDF. The 8 September 2025 issue date in the notes is confirmed by 'Dado en la Casa de Gobierno, en Lima, a los ocho días del mes de setiembre del año dos mil veinticinco'. One search found no amending decree, only draft bills in Congress to change the Regulation."
+}

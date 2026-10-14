@@ -1,0 +1,59 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "KR-05",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "NIA attachment name 안전성_확보_가이드라인; English title accurate with draft marker."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "The quoted evidence is a file name, but the PDF cover (image, checked by me) reads 인공지능 안전성 확보 가이드라인; the text layer's running header misprints it as 안정성. The draft marker (안) appears in the notice page ('이 가이드라인(안)'), not on the cover, so dropping it from the title is acceptable."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "NIA post dated 2026.01.22 distributing the file 260122; cover shows 2026. 1."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Page 2 notice: draft still being written, may differ from the final text; the notification number is left blank (2026-○○). No final version found."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "Section 1-1: a reference document that neither replaces law or notification nor imposes new duties."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Decree Art. 24(1) criteria all three: 10^26 FLOPs or more cumulative compute; most advanced AI technology (최첨단); risk of broad and serious effects on life, physical safety and fundamental rights",
+   "verdict": "supported",
+   "locator": "page 8, section 2-2"
+  },
+  {
+   "claim": "Safety measures submitted to the Minister within three months of recognising applicability (draft notice Art. 8(1))",
+   "verdict": "supported",
+   "locator": "page 9-10"
+  },
+  {
+   "claim": "Draft notification: first report within 24 hours of recognising an incident, 7-day initial action, 15-day result report; new submissions within one month of substantial change or new risk",
+   "verdict": "supported",
+   "locator": "draft notice Art. 8(2)-(3)"
+  },
+  {
+   "claim": "Compute calculated from training records and system logs including pre-processing and fine-tuning, by theoretical, empirical-statistical or hardware-based methods",
+   "verdict": "supported",
+   "locator": "draft notice Art. 3(2) area"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": "Draft guideline implementing the frontier-AI safety duty."
+ },
+ "overall": "accept",
+ "note": "Summary and notes are supported by the stored 71-page PDF read through pdftotext; 'reproduces in full' the draft notification is consistent with section 2-3. Not touched by the extraction and not supported by any stored text: date_last_updated '2026-02' (rests on the KOSA help-desk version, which could not be stored) and issuing_body, which names KOSA and omits ETRI, whose logo is on the cover with MSIT's. A human may want to settle both; the record's notes no longer mention the KOSA version, so the retained 2026-02 is now unexplained. A search found no final notification or final guideline yet.",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": []
+}

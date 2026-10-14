@@ -1,0 +1,79 @@
+{
+ "cand_id": "CN-06",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Authors' own English title per CSET's note ('security', singular 'service'); the record's plural 'Services' is a minor rendering."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "The CSET page heading carries the Chinese title after the issuer prefix; the record's 生成式人工智能服务安全基本要求 is the title in the translation PDF's title line too. No Chinese official text is stored."
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "judgment-differs",
+   "why": "The quotes show only that the document was designed to inform a national standard; they do not show it was withdrawn or replaced. 'Superseded' is an inference from GB/T 45654-2025 taking up its content, which the verification note admits. Defensible but not evidenced by an official notice."
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported",
+   "why": "kind third-party translation; the CSET page is stored (secondary.html) and the full PDF is stored"
+  },
+  "summary": {
+   "verdict": "supported",
+   "why": "claims below found in the stored English translation; the Chinese text is not stored, so item 8 cannot be done against the original"
+  },
+  "safety_topics": {
+   "verdict": "supported",
+   "why": "catastrophic risk is supported by the clause on AI that may self-replicate, self-modify, deceive humans, or help write malware or make biological or chemical weapons"
+  },
+  "notes": {
+   "verdict": "supported",
+   "why": "preliminary draft October 2023 and national standard link confirmed in CSET page and CN-10 translator note"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Corpora with over 5% illegal and unhealthy information are not collected",
+   "verdict": "supported",
+   "locator": "translation PDF, 5.1 (stored text: 'wherethecorporacontainover5%illegalandunhealthyinformation, corporafromthatsourceshallnotbecollected')"
+  },
+  {
+   "claim": "Providers must watch long-term risks such as AI able to deceive humans, self-replicate or self-modify, and its use for malware or biological or chemical weapons",
+   "verdict": "supported",
+   "locator": "translation PDF, 4 General Provisions"
+  },
+  {
+   "claim": "Appendix A lists 31 main security risks (translation: 'all 31 safety risks in Appendix A')",
+   "verdict": "supported",
+   "locator": "translation PDF, 8.2 b)"
+  },
+  {
+   "claim": "Providers report on a safety assessment under Chapter 9 when completing filing procedures",
+   "verdict": "supported",
+   "locator": "translation PDF, 4 General Provisions"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Every summary claim is found in CSET's stored English translation of the document. No Chinese original is stored (official URL serves the redesigned homepage), so the translation check could only be done against the translation; the record is level C with CAUTION and says so. The translator renders 安全 as 'safety' but the authors' own title uses 'security'; the record follows the authors, which is reasonable. Status 'Superseded' is a judgment, not shown by any stored official text. Search found no formal withdrawal notice and nothing newer."
+}

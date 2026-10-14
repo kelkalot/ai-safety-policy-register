@@ -1,0 +1,79 @@
+{
+ "cand_id": "RS-02",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Own rendering of the Serbian title; no English official text found. Matches the PDF preamble ('СТРАТЕГИЈУ РАЗВОЈА ВЕШТАЧКЕ ИНТЕЛИГЕНЦИЈЕ У РЕПУБЛИЦИ СРБИЈИ ЗА ПЕРИОД 2025-2030. ГОДИНЕ')."
+  },
+  "original_title": {
+   "verdict": "judgment-differs",
+   "why": "Words match the srbija.gov.rs heading (nominative) letter for letter; the record writes '2025–2030' with an en dash while the stored srbija.gov.rs text has a hyphen ('2025-2030') and the PDF text layer drops the dash ('20252030'). The dash glyph cannot be settled from stored text; harmless."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Preamble: 'Влада усваја' (the Government adopts) under Art. 38(1) of the Law on the Planning System; initiative of the Ministry, p. 1."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "p. 61: '05 Број: 011-13287/2024-2', the Government's act number (the Službeni glasnik reference is not stored)."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "p. 61: 'У Београду, 10. јануара 2025. године' (In Belgrade, 10 January 2025) under the act number, signed for the Government by PM Miloš Vučević; it is the adoption date."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Strategy is a policy document under Art. 12 of the Law on the Planning System, period 2025-2030, replacing the 2020-2025 strategy (p. 61). No newer act found."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "p. 3: 'представља документ јавне политике' (is a public policy document)."
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported",
+   "why": "Publication order, 7 working days, 90-day action plan (section 10) and repeal of the 2020-2025 strategy (Službeni glasnik 96/19) (section 11, p. 61) match the PDF text."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "First of six special objectives is the institutional and legal framework for safe, secure, trustworthy and responsible AI",
+   "verdict": "supported",
+   "locator": "p. 25, special objective 1: 'Стварање и усклађивање институционалног и правног оквира за развој и сигурну, безбедну, поуздану и одговорну примену вештачке интелигенције' (creating and aligning the institutional and legal framework for the development and safe, secure, trustworthy and responsible application of AI)"
+  },
+  {
+   "claim": "General objective: trustworthy and responsible AI for growth, jobs and quality of life",
+   "verdict": "supported",
+   "locator": "p. 25: 'Употреба поуздане и одговорне вештачке интелигенције у функцији економског раста, запошљавања и квалитетнијег живота'"
+  },
+  {
+   "claim": "The law is to be adopted and fully applied by the end of 2027",
+   "verdict": "supported",
+   "locator": "pp. 26-27: indicator 'Циљна вредност за крај 2027. године: Пуна примена Закона о вештачкој интелигенцији' (full application of the Law on AI); Measure 1.1 'Усвојен закон ... за крај 2027: Да'"
+  },
+  {
+   "claim": "Risks reviewed: privacy, algorithmic bias, misuse, inequality, lack of clear regulation, energy",
+   "verdict": "supported",
+   "locator": "p. 5-6 (Introduction): 'пристрасности у алгоритмима', 'повећати неједнакости', 'Недостатак јасних регулација', 'енергетске'"
+  },
+  {
+   "claim": "Positions Serbia against the EU AI Act",
+   "verdict": "supported",
+   "locator": "Intro describes the EU act as the first comprehensive law; p. 26 'Правни оквир мора бити усклађен са европским' (the legal framework must be aligned with the European one). 'Positions against' is loose; 'in relation to' would be tighter."
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "National AI strategy whose main content is development, education, infrastructure and adoption; its first special objective is a legal and institutional framework for the safe, secure and responsible application of AI, and it reviews AI risks. Included under the inclusive rule for strategies with some safety content."
+ },
+ "overall": "accept-with-fixes",
+ "note": "All checked summary and notes claims match the Serbian text, with my own translations in summary_claims. Scope: the strategy is mainly about development, education, infrastructure and adoption, with a legal framework objective, so it is borderline by the letter of under section 10 and should carry a scope_note; few of the register's 49 strategies carry one, so a human may prefer to keep it as core. The only wording issue is the dash in original_title and 'positions Serbia against' in the summary. One search found no AI law adopted yet and no newer strategy; the Službeni glasnik reference stays unconfirmed."
+}

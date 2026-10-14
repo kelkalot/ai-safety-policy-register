@@ -1,0 +1,129 @@
+{
+ "cand_id": "KR-07",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "KR-07",
+ "record": {
+  "summary": "Guidance on the duties that Article 34 of Korea's AI Basic Act places on operators providing high-impact AI or products and services using it: a risk-management plan; a plan to explain, as far as technically feasible, the AI's final results, the main criteria used to derive them and an overview of the training data; a user-protection plan; human management and supervision of high-impact AI; and drafting and keeping documents that show the safety and reliability measures, plus other matters resolved by the committee named in the Act. It reproduces the decree and notification provisions and appends a document form, a self-check list and a hiring example.",
+  "notes": "Published with the Act's entry into force on 22 January 2026 (111 pages). For each duty the guideline reproduces the corresponding article of the technical notification that sets out the detailed measures under Article 34(2): Articles 4 to 8 on the risk-management plan, the explanation plan, user protection, human management and supervision, and documents; its worked example cites the notification as '고영향 인공지능과 관련한 사업자의 책무 고시' without an official number. It explains decree Article 27: operators post the main elements of their risk-management, explanation and user-protection plans and the name and contact of the person supervising the AI on their premises or website, trade secrets excepted, and a using operator that takes over a system from a developer who has taken the measures under items 1 to 3, without significantly changing its functions, is deemed to have taken them. It refers to ISO/IEC TS 42119-2:2025 on AI system testing. The committee in Article 34(1)6 is named only as 'the Committee' in the guideline.",
+  "verification": {
+   "note": "Stored: NIA's copy of the guideline (PDF, 111 pages; the text layer displaces some numbers and punctuation; the cover image shows the logos of MSIT and the Telecommunications Technology Association, TTA) and NIA's post of 22 January 2026 listing the five guideline files and their revisions, stored as the record's secondary source and again as a separate copy. The guideline confirms the title, MSIT as its author, the Article 34 duties, the reproduced decree and notification articles, the annexes and the hiring example; the post confirms the publication date (file name 260122) and that the posted files are the current versions. No stored file gives the number or status of the technical notification. A grace period for fact-finding and fines, stated in an earlier version of this record, rests on unstored policy news and is no longer stated."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/KR-07/2026-10-12/official.pdf",
+    "sha256": "cbbd8a304563f879b2a584860481255cfb7b7e2d990fb13916404e306eea104e",
+    "locator": "page 1 (cover title)",
+    "quote": "고영향 인공지능 사업자 책무 가이드라인",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-07/extra-31a14a6512/2026-10-14/official.html",
+    "sha256": "3b517e2d3c91ecebc78417cd76a82b0dc1691e5ef4e96632899beb34dd9acfbf",
+    "locator": "attachment list",
+    "quote": "4._260122_고영향_인공지능_사업자_책무_가이드라인-1.pdf",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/KR-07/2026-10-12/official.pdf",
+    "sha256": "cbbd8a304563f879b2a584860481255cfb7b7e2d990fb13916404e306eea104e",
+    "locator": "page 1 (cover title)",
+    "quote": "고영향 인공지능 사업자 책무 가이드라인",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/KR-07/2026-10-12/official.pdf",
+    "sha256": "cbbd8a304563f879b2a584860481255cfb7b7e2d990fb13916404e306eea104e",
+    "locator": "page 3, 추진배경 (background)",
+    "quote": "과학기술정보통신부는 인공지능 기본법의 시행을 위한 하위법령 정비단을 출범시켰으며 고영향 인공지능 사업자의 , 책무를 구체화하고 안내하기 위해 본 가이드라인을 마련하였고",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-07/extra-31a14a6512/2026-10-14/official.html",
+    "sha256": "3b517e2d3c91ecebc78417cd76a82b0dc1691e5ef4e96632899beb34dd9acfbf",
+    "locator": "attachment list",
+    "quote": "4._260122_고영향_인공지능_사업자_책무_가이드라인-1.pdf",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-07/extra-31a14a6512/2026-10-14/official.html",
+    "sha256": "3b517e2d3c91ecebc78417cd76a82b0dc1691e5ef4e96632899beb34dd9acfbf",
+    "locator": "notice heading and date",
+    "quote": "AI기본법 시행 및 하위법령 공개(1.22.~) 2026.01.22",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-07/extra-31a14a6512/2026-10-14/official.html",
+    "sha256": "3b517e2d3c91ecebc78417cd76a82b0dc1691e5ef4e96632899beb34dd9acfbf",
+    "locator": "attachment list",
+    "quote": "4._260122_고영향_인공지능_사업자_책무_가이드라인-1.pdf",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/KR-07/2026-10-14/secondary.html",
+    "sha256": "3d1d880bbea2928b5ae88e8e44891a00a4571ba091b0aaf5d522c50f096f636d",
+    "locator": "NIA notice heading, date and attachment list",
+    "quote": "AI기본법 시행 및 하위법령 공개(1.22.~) 2026.01.22",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-07/extra-31a14a6512/2026-10-14/official.html",
+    "sha256": "3b517e2d3c91ecebc78417cd76a82b0dc1691e5ef4e96632899beb34dd9acfbf",
+    "locator": "notice text",
+    "quote": "AI기본법 하위법령(가이드라인)의 현재본이 공개되었습니다.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/KR-07/2026-10-14/secondary.html",
+    "sha256": "3d1d880bbea2928b5ae88e8e44891a00a4571ba091b0aaf5d522c50f096f636d",
+    "locator": "notice text",
+    "quote": "AI기본법 하위법령(가이드라인)의 현재본이 공개되었습니다.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/KR-07/2026-10-12/official.pdf",
+    "sha256": "cbbd8a304563f879b2a584860481255cfb7b7e2d990fb13916404e306eea104e",
+    "locator": "page 3, 추진배경 (background)",
+    "quote": "본 가이드라인은 사업자들이 법적 의무를 명확히 이해하고 이행할 수 있도록 지원하며",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "NIA's post of 22 January 2026 lists this guideline (file '4._260122_...') among the AI Basic Act guidelines and says the current versions have been published (현재본이 공개되었습니다); its later revision notices concern other guidelines only. The guideline carries no draft marking, and no stored file shows a withdrawal or replacement. 'Published (non-binding, current)' stands. NIA's post is now also stored as an extra, so the date and status rest on an official copy.",
+  "scope_reasoning": "In scope without a scope note: ministry guidance on the duties of high-impact AI operators under an AI-specific statute.",
+  "changes": {
+   "summary": "Rendered the duties as in the Act text reproduced on page 15 (방안 = plan; 'user-protection plan'). Replaced 'National AI Strategy Committee' with the committee named in the Act: the guideline says only '위원회' (the Committee), and the name differs between the enacted Act and the decree. Shortened the annex list to fit.",
+   "notes": "The guideline reproduces notification Articles 4 to 8 (pages 17, 30, 41, 53, 59), not only 4 to 6. Removed 'the notification's number and status were not located' (process language; now in verification.note) and the grace-period sentence, which no stored file supports. Added decree Article 27 as explained on page 16.",
+   "verification": "New note saying what the stored files confirm."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The cover image names TTA (Telecommunications Technology Association) beside MSIT; issuing_body does not mention it. The cover has a text layer with the title only, so TTA cannot be quoted.",
+  "Removed from notes for lack of a stored source: 'The ministry announced that fact-finding and fines would be suspended for at least a year after entry into force, except in serious cases.' It concerns the Act's enforcement and may belong in KR-02 if a stored source supports it.",
+  "The number and adoption status of the technical notification under Article 34(2) are not in any stored file; the worked example's ID A-2026-003 is a sample document ID, not an official number."
+ ]
+}

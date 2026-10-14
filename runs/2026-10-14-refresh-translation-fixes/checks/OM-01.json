@@ -1,0 +1,86 @@
+{
+ "cand_id": "OM-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "English title on the cover of MTCIT's English PDF (official); the MTCIT library page uses 'General Policy', and the notes record both."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "Matches the qanoon.om heading character by character; MTCIT's Arabic PDF has no usable OCR layer, so only secondary evidence exists. Literal translation: 'The General Policy for the Safe and Ethical Use of Artificial Intelligence Systems'; the MTCIT English PDF renders 'General' as 'Public'."
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "'تعميم رقم ١١ / ٢٠٢٥' (circular no. 11/2025) in qanoon.om and decree.om (secondary)."
+  },
+  "date_published": {
+   "verdict": "unsupported",
+   "why": "The day 9 April 2025 appears only in the qanoon.om transcription ('صدر في: ١٠ شوال ١٤٤٦هـ الموافق ٩ أبريل ٢٠٢٥م', issued on 10 Shawwal 1446 AH corresponding to 9 April 2025) and a decree.om post date; both secondary. The official MTCIT English PDF gives only 'April 2025' (cover; document control 'Issue Date 2025'), and the MTCIT library page lists 'Date Published: 01 April 2025', a listing date that precedes the circular date. Official evidence supports only the month, so the value must be YYYY-MM with the day in the notes (AGENTS.md 5.6).",
+   "fix": {
+    "value": "2025-04",
+    "evidence": [
+     {
+      "file": "archive/_runs/2026-10-14-refresh-translation-fixes/OM-01/extra-a00be7de7d/2026-10-14/official.pdf",
+      "sha256": "b61ae04b88f9da30c3b62a9037e9544cea08cd533faad4f09f631c4ed944c3a6",
+      "locator": "page 1, cover of MTCIT's English version",
+      "quote": "Public Policy for Safe and Ethical Use of Artificial Intelligence Systems April 2025",
+      "source_kind": "official"
+     }
+    ]
+   }
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Page 26 'implemented by the date of its approval and circulation'; MTCIT page lists it as a current policy. Caution: the English PDF's document control shows 'Version 0.1', which does not by itself make it a draft."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "Non-binding is consistent with the 63 other 'Guidelines / framework' records; the text uses 'shall' but sets no penalties."
+  },
+  "notes": {
+   "verdict": "supported",
+   "why": "Claims checked: General Directorate of Policies and Governance (page 2); National Programme as source (page 5); compliance monitoring and report to the Council of Ministers (page 27); regulatory authorities align and may add provisions with MTCIT approval (page 15). The notes keep the 9 April date and the 1 April listing date, which is where the day belongs once date_published becomes 2025-04."
+  },
+  "english_version": {
+   "verdict": "supported",
+   "why": "kind 'government translation' by MTCIT is right (official PDF, title page carries the Ministry's name); URL .../content/43446 is the stored extra source (sha b61ae04b)."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Developer duties include independent technical audits and access control and encryption",
+   "verdict": "supported",
+   "locator": "English PDF page 22 ('independent technical audits'), page 23 ('access control and data encryption')"
+  },
+  {
+   "claim": "Systems must be secure, cause no physical or psychological harm; label generated content; explain decisions affecting individuals; complaint channels",
+   "verdict": "supported",
+   "locator": "pages 26 (Responsibility and Accountability 1-2), 21 (labeling), 17 (explanations in employment, healthcare, financial services)"
+  },
+  {
+   "claim": "User entities: assessment before adoption, continuous monitoring and error correction, data classification",
+   "verdict": "supported",
+   "locator": "pages 17-18"
+  },
+  {
+   "claim": "Applies to government units and regulated private institutions across the lifecycle",
+   "verdict": "supported",
+   "locator": "page 12 Scope of implementation"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Government safety and ethics policy for AI developers and users."
+ },
+ "overall": "accept-with-fixes",
+ "note": "Decision on the day: date_published should be 2025-04. The only official evidence (MTCIT English PDF cover) shows the month; the day 9 April rests on qanoon.om (which says it is not an official source) and decree.om, and the MTCIT library page lists a different day (1 April), so a full date would be asserted from secondary sources against an official page that disagrees. Keep both days in the notes (already there). Summary claims all match the English PDF; the Arabic original could not be read from the stored MTCIT PDF (no Arabic OCR), so the Arabic title, circular number and Arabic wording rest on qanoon.om. The English document's control table says 'Version 0.1'; a human may want to confirm that this is the final text. One search found no newer instrument; press coverage dates the public announcement to May 2025."
+}

@@ -1,0 +1,74 @@
+{
+ "cand_id": "IT-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Law applied in conformity with the EU AI Act, adding no obligations beyond it",
+   "verdict": "supported",
+   "locator": "Art. 1(2) 'si interpretano e si applicano conformemente al regolamento (UE) 2024/1689'; Art. 3(5) 'La presente legge non produce nuovi obblighi rispetto a quelli previsti dal regolamento' (this law produces no new obligations beyond those in the Regulation)"
+  },
+  {
+   "claim": "Cybersecurity across the life cycle",
+   "verdict": "supported",
+   "locator": "Art. 3(6) 'la cybersicurezza lungo tutto il ciclo di vita dei sistemi e dei modelli' (cybersecurity along the whole life cycle of the systems and models), as an 'essential precondition'"
+  },
+  {
+   "claim": "In the judiciary every decision stays with the magistrate",
+   "verdict": "supported",
+   "locator": "Art. 15(1) 'è sempre riservata al magistrato ogni decisione sull'interpretazione e sull'applicazione della legge, sulla valutazione dei fatti e delle prove e sull'adozione dei provvedimenti' (always reserved to the magistrate: every decision on interpreting and applying the law, assessing facts and evidence, and adopting measures)"
+  },
+  {
+   "claim": "New offence for harmfully spreading AI-falsified images, video or voices without consent",
+   "verdict": "supported",
+   "locator": "Art. 26(1)(c), Art. 612-quater: 'cagiona un danno ingiusto ... senza il suo consenso, immagini, video o voci falsificati o alterati mediante l'impiego di sistemi di intelligenza artificiale' (causes unjust harm to a person by publishing or spreading, without consent, images, videos or voices falsified or altered by AI)"
+  },
+  {
+   "claim": "AgID and ACN are the national AI authorities",
+   "verdict": "supported",
+   "locator": "Art. 20(1)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "The record's text-bearing evidence is the GU Serie Generale no. 223 PDF (sha 4c988d45...), which holds the full law; the ELI page gives only the heading. original_title matches the heading. Notes claims about Arts. 20, 24 and 26 verified in the PDF (AgID notification/monitoring, ACN supervision, Banca d'Italia/CONSOB/IVASS under Art. 74(6); twelve-month delegation; Art. 61 n. 11-decies aggravating circumstance; Art. 2637 c.c. penalty). IT-02/IT-03 dates rest on those records. One search found no amendment of Law 132/2025."
+}

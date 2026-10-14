@@ -1,0 +1,55 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "KR-01",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Descriptive record title ('Establishment of ...'), not the institute's official name; the English page names the Korea Artificial Intelligence Safety Institute. Kept as in other institutional-mandate records."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "The Korean page reads 인공지능안전연구소(Artificial Intelligence Safety Institute, AISI); the field matches the name."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "English page 'Established in November 2024'; Korean page 2024년 11월 설립; partial date 2024-11 is correct."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Both pages describe the institute in the present tense; its operating mandate is also set by Art. 12 of KR-02."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Evaluates risks that may arise from AI models or systems and researches technologies to prevent and resolve them (AI 모델 또는 시스템으로부터 발생할 수 있는 위험을 평가하고 위험 방지 및 해소 기술을 연구)",
+   "verdict": "supported",
+   "locator": "연구원소개, paragraph 1"
+  },
+  {
+   "claim": "Represents Korea in cooperation with AI safety institutes and related bodies abroad (대한민국을 대표하여 ... 협력을 전담)",
+   "verdict": "supported",
+   "locator": "연구원소개"
+  },
+  {
+   "claim": "Offices: AI safety policy and external cooperation (incl. 국가안보 관련 AI위험 대응), evaluation (AI 위험 정의, 안전 프레임워크 개발, 평가 수행, 평가 인프라 구축), research",
+   "verdict": "supported",
+   "locator": "조직안내"
+  },
+  {
+   "claim": "Notes: Art. 12 AI Basic Act lets the Minister operate the institute; tasks: risk definition and analysis, policy research, evaluation criteria and methods, technology and standardisation, international exchange, support for Art. 32",
+   "verdict": "supported",
+   "locator": "KR-02 law.go.kr text, Art. 12(1)-(2)"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": "Mandate of an AI safety institute, section 10."
+ },
+ "overall": "accept",
+ "note": "Own literal translation of the key Korean sentence: 'The AI Safety Institute is an organisation that assesses risks that can arise from AI models or systems and researches technology to prevent and resolve risks, and it is dedicated to cooperation with AI safety institutes or related bodies of other countries, representing the Republic of Korea'; the establishment sentence ends 'will carry out strengthening of international solidarity and establishment of norms' (예정), which the summary renders as 'is to'. english_version kind 'authentic' with the institute's English page is stored and correct. Not re-confirmed by any stored text and untouched by this run: issuing_body ('Ministry of Science and ICT; institute housed within ETRI'); no stored page names MSIT or ETRI in text, though the pages only show a Seongnam address. A human may wish to confirm it. No newer instrument found.",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": []
+}

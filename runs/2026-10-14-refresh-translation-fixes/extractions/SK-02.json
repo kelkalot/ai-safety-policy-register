@@ -1,0 +1,165 @@
+{
+ "cand_id": "SK-02",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "SK-02",
+ "record": {
+  "summary": "Government bill designating Slovakia's authorities under the AI Act, the Data Governance Act and the Data Act. The Ministry of Investments (MIRRI) becomes general market surveillance authority and single point of contact and runs the AI regulatory sandbox, with priority for SMEs; the Office of Standards, Metrology and Testing is the notifying authority. Sectoral authorities are the Ministry of Justice (AI used by courts), the Office of the Inspection Service (biometrics, critical infrastructure, migration), the data protection office and the National Security Authority. AI Act fines follow Article 99; a first breach remedied within a notice period of at most 15 working days goes unfined.",
+  "notes": "Received by the National Council on 28 August 2026 as parliamentary print 1447 (Government number UV-23232/2026), submitted by the Government (Ministry of Investments, Regional Development and Informatization); the explanatory memorandum is signed on 26 August 2026. On 17 September 2026 the National Council (resolution no. 1631) decided to consider it in second reading and assigned it to the Constitutional Law Committee, the Committee for Finance and Budget and the Committee for Public Administration and Regional Development, the last as lead committee, with deadlines of 13 and 16 November 2026. It would take effect on 1 January 2027. It also lets the Public Defender of Rights examine how public authorities use AI systems, and excludes AI used only for military, defence or national-security purposes and AI developed only for scientific research. A separate Office of Digital Integrity, first planned, was dropped after comments from the Ministry of Finance and the Government's Legislative Council. The bill does not take up the AI Act's option to authorise real-time remote biometric identification for law enforcement (Article 5(5)), which it leaves to the Ministry of the Interior.",
+  "verification": {
+   "note": "Stored: the National Council's page for print 1447 (title, submitter, receipt on 28 August 2026, committees, deadlines and first-reading stage); the National Council's resolution no. 1631 of 17 September 2026; and, from the same site, the bill text, its cover page and the explanatory memorandum, from which the summary and notes are written. The bill text, cover page and memorandum were stored as rendered previews flagged for review; their text layers hold the full documents. The memorandum is signed by the Prime Minister and the minister on 26 August 2026; the date of the Government resolution approving the bill is not stated in a stored copy. Not confirmed by any stored copy: the legislative-process number LP/2026/17; the predecessor draft 'Act on the organisation of public administration in the field of artificial intelligence' (LP/2025/401), put into interministerial comment in July-August 2025 with a proposed effect of 1 January 2026; the close of the comment procedure on the reworked draft in February 2026 with 574 comments; the absence of a Slovak entry in the Commission's list of single points of contact of 7 September 2026; and a separate SNS private members' bill on AI misuse (deepfakes), reported in second reading in May 2026, which is not recorded in the register."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/SK-02/2026-10-12/official.html",
+    "sha256": "1d73c51d3e488393da97329b748b7a12b534c55bff183a70c40966081f774658",
+    "locator": "Detaily návrhu zákona",
+    "quote": "Vládny návrh zákona o štátnej správe v oblasti umelej inteligencie a európskej dátovej regulácie a o zmene a doplnení niektorých zákonov",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/SK-02/2026-10-12/official.html",
+    "sha256": "1d73c51d3e488393da97329b748b7a12b534c55bff183a70c40966081f774658",
+    "locator": "Detaily návrhu zákona",
+    "quote": "Návrh nového zákona, parlamentná tlač 1447",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/SK-02/extra-dc3e2a4b99/2026-10-14/official.html",
+    "sha256": "ad7a64461e3b45f50fa7707b27de8b4ae21e0e30d7fb25e29b4dba26cc0531e8",
+    "locator": "bill text, heading",
+    "quote": "IX. volebné obdobie 1447 VLÁDNY NÁVRH Z Á K O N z ... 2026 o štátnej správe v oblasti umelej inteligencie a európskej dátovej regulácie a o zmene a doplnení niektorých zákonov",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/SK-02/2026-10-12/official.html",
+    "sha256": "1d73c51d3e488393da97329b748b7a12b534c55bff183a70c40966081f774658",
+    "locator": "Detaily návrhu zákona",
+    "quote": "Vládny návrh zákona o štátnej správe v oblasti umelej inteligencie a európskej dátovej regulácie a o zmene a doplnení niektorých zákonov",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/SK-02/extra-dc3e2a4b99/2026-10-14/official.html",
+    "sha256": "ad7a64461e3b45f50fa7707b27de8b4ae21e0e30d7fb25e29b4dba26cc0531e8",
+    "locator": "bill text, heading",
+    "quote": "IX. volebné obdobie 1447 VLÁDNY NÁVRH Z Á K O N z ... 2026 o štátnej správe v oblasti umelej inteligencie a európskej dátovej regulácie a o zmene a doplnení niektorých zákonov",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/SK-02/2026-10-12/official.html",
+    "sha256": "1d73c51d3e488393da97329b748b7a12b534c55bff183a70c40966081f774658",
+    "locator": "Detaily návrhu zákona",
+    "quote": "Navrhovateľ: vláda (Ministerstvo investícií, regionálneho rozvoja a informatizácie SR)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/SK-02/extra-e84cc009d2/2026-10-14/official.html",
+    "sha256": "2ef39ad5e60aaee0b1bd59dab32c292e3c2111a320647e170933e2211ea3c3df",
+    "locator": "cover page",
+    "quote": "VLÁDA SLOVENSKEJ REPUBLIKY Na rokovanie Číslo: UV-23232/2026 Národnej rady Slovenskej republiky 1447 VLÁDNY NÁVRH",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/SK-02/2026-10-12/official.html",
+    "sha256": "1d73c51d3e488393da97329b748b7a12b534c55bff183a70c40966081f774658",
+    "locator": "Detaily návrhu zákona",
+    "quote": "Dátum doručenia: 28. 8. 2026",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/SK-02/2026-10-12/secondary.html",
+    "sha256": "b13214ffb6fe5a091d6bc189c39a0fb508c61d8bb79550897bdee46660f51e8e",
+    "locator": "resolution no. 1631, heading",
+    "quote": "UZNESENIE NÁRODNEJ RADY SLOVENSKEJ REPUBLIKY zo 17. septembra 2026",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/SK-02/2026-10-12/official.html",
+    "sha256": "1d73c51d3e488393da97329b748b7a12b534c55bff183a70c40966081f774658",
+    "locator": "Detaily návrhu zákona",
+    "quote": "Stav legislatívneho procesu: I. čítanie (Zápis uznesenia NR SR)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/SK-02/2026-10-12/secondary.html",
+    "sha256": "b13214ffb6fe5a091d6bc189c39a0fb508c61d8bb79550897bdee46660f51e8e",
+    "locator": "resolution no. 1631, operative part",
+    "quote": "prerokuje uvedený vládny návrh zákona v druhom čítaní",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/SK-02/2026-10-12/official.html",
+    "sha256": "1d73c51d3e488393da97329b748b7a12b534c55bff183a70c40966081f774658",
+    "locator": "I. čítanie",
+    "quote": "NR SR uznesením rozhodla o gestorskom výbore Výbor NR SR pre verejnú správu a regionálny rozvoj s lehotou na prerokovanie 16. 11. 2026.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/SK-02/extra-dc3e2a4b99/2026-10-14/official.html",
+    "sha256": "ad7a64461e3b45f50fa7707b27de8b4ae21e0e30d7fb25e29b4dba26cc0531e8",
+    "locator": "Čl. VIII",
+    "quote": "Tento zákon nadobúda účinnosť 1. januára 2027.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/SK-02/extra-dc3e2a4b99/2026-10-14/official.html",
+    "sha256": "ad7a64461e3b45f50fa7707b27de8b4ae21e0e30d7fb25e29b4dba26cc0531e8",
+    "locator": "bill text, heading",
+    "quote": "IX. volebné obdobie 1447 VLÁDNY NÁVRH Z Á K O N z ... 2026 o štátnej správe v oblasti umelej inteligencie a európskej dátovej regulácie a o zmene a doplnení niektorých zákonov",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/SK-02/2026-10-12/official.html",
+    "sha256": "1d73c51d3e488393da97329b748b7a12b534c55bff183a70c40966081f774658",
+    "locator": "Detaily návrhu zákona",
+    "quote": "Stav legislatívneho procesu: I. čítanie (Zápis uznesenia NR SR)",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Latest stored event: resolution no. 1631 of 17 September 2026, by which the National Council decided to consider the bill in second reading and assigned it to three committees, the lead committee with a deadline of 16 November 2026. The National Council page stored on 12 October 2026 shows the stage 'I. čítanie'. The bill would take effect on 1 January 2027 (Čl. VIII) but has not been adopted: Draft / proposed is kept.",
+  "scope_reasoning": "Government bill implementing the EU AI Act's governance provisions in Slovakia; in scope as a pending bill.",
+  "changes": {
+   "summary": "rewritten from the stored bill text: authorities from §§ 2, 3, 6 and 7 (the Office of the Inspection Service covers Annex III points 1, 2 and 7, as the memorandum explains); sandbox criteria favour SMEs (§ 5(7)); fines under § 33 follow Article 99, and § 33(3) waives the fine once if a breach is remedied within the § 16 notice period of at most 15 working days; the hedge 'As described in the bill:' removed",
+   "notes": "added the Government number from the cover page, the memorandum date, the effective date (Čl. VIII), the Public Defender of Rights' new powers (Čl. III), the exclusions (§ 1(6)), the dropped Office of Digital Integrity and the Article 5 point from the memorandum; claims resting on pages that are not stored stay in verification.note",
+   "verification.note": "rewritten to describe the stored copies, including the bill text, cover page and memorandum stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "date_published",
+   "date_last_updated",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "SNS private members' bill on AI misuse (deepfakes), National Council of the Slovak Republic, 2026",
+   "url": null,
+   "note": "Reported in second reading in May 2026; not in the register."
+  }
+ ],
+ "open_questions": [
+  "official_identifier holds 'LP/2026/17', which no stored copy shows; 'parlamentná tlač 1447', the IX. volebné obdobie and UV-23232/2026 are now confirmed (bill text and cover page). Left unchanged.",
+  "english_version stays 'none found': no English text is stored or named in the findings."
+ ]
+}

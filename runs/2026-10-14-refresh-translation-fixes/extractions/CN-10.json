@@ -1,0 +1,174 @@
+{
+ "cand_id": "CN-10",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "CN-10",
+ "record": {
+  "notes": "Published 25 Apr 2025 and effective 1 Nov 2025; TC260 posted the full text on 30 Jun 2025. It is a recommended 'GB/T' national standard, not a mandatory 'GB' one, and its annexes on risks and assessment methods are informative. It was formulated on the basis of TC260's February 2024 technical document TC260-003 (CN-06). Its introduction names two companion standards: GB/T 45674 on generative AI data annotation security and GB/T 45652 on the security of pre-training and fine-tuning data.",
+  "verification": {
+   "note": "SAMR openstd page (official) and the full text of the standard posted by TC260 (PDF, stored) confirm the number, Chinese and English titles, status 现行 (current), publication 2025-04-25, implementation 2025-11-01, SAMR and SAC as publishers and TC260 as proposer; the summary follows the Chinese text. The link to TC260-003 rests on a translator's note in CSET's unofficial English translation (stored), which says the authors formulated the standard on the basis of TC260's February 2024 technical document. The SAMR online-preview URL returned the catalogue page."
+  },
+  "issuing_body": "State Administration for Market Regulation / Standardization Administration of China (proposed and administered by TC260)",
+  "summary": "Recommended national standard setting basic security requirements for generative AI services, aimed mainly at services with public-opinion attributes or social-mobilisation capacity and supporting filing management and testing and assessment. It covers training-data security (no sources with over 5% illegal and unhealthy information, intellectual property, personal information, annotation), model security (at least 90% of sampled outputs free of the listed risks, refusal of clearly extreme or inducing questions, monitoring, backdoor checks) and measures such as transparency, protection of minors and complaints. Annexes list 31 main security risks and assessment methods.",
+  "safety_topics": [
+   "general-purpose / frontier AI",
+   "evaluation & testing",
+   "transparency & labelling",
+   "child safety"
+  ],
+  "english_version": {
+   "kind": "third-party translation",
+   "url": "https://cset.georgetown.edu/publication/china-gen-ai-safety-standard-final/",
+   "by": "Center for Security and Emerging Technology (CSET), Georgetown University"
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/CN-10/2026-10-11/official.html",
+    "sha256": "be053ff096fd143f2a743e957f6c9dffe66228fbf2ca91890595f70a2fb820f0",
+    "locator": "英文标准名称",
+    "quote": "英文标准名称：Cybersecurity technology—Basic security requirements for generative artificial intelligence service",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-10/extra-1193ac6cf3/2026-10-14/official.pdf",
+    "sha256": "dcaed877c417f57f339a0a50de62a623d810cb2328adea08482b36d157ca361a",
+    "locator": "page 1, cover",
+    "quote": "Cybersecuritytechnology—Basicsecurityrequirementsforgenerative",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/CN-10/2026-10-11/official.html",
+    "sha256": "be053ff096fd143f2a743e957f6c9dffe66228fbf2ca91890595f70a2fb820f0",
+    "locator": "中文标准名称",
+    "quote": "中文标准名称：网络安全技术 生成式人工智能服务安全基本要求",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-10/extra-1193ac6cf3/2026-10-14/official.pdf",
+    "sha256": "dcaed877c417f57f339a0a50de62a623d810cb2328adea08482b36d157ca361a",
+    "locator": "page 1, cover",
+    "quote": "GB/T 45654—2025 网络安全技术 生成式人工智能服务 安全基本要求",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/CN-10/2026-10-11/official.html",
+    "sha256": "be053ff096fd143f2a743e957f6c9dffe66228fbf2ca91890595f70a2fb820f0",
+    "locator": "发布单位",
+    "quote": "发布单位 国家市场监督管理总局、国家标准化管理委员会",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-10/extra-1193ac6cf3/2026-10-14/official.pdf",
+    "sha256": "dcaed877c417f57f339a0a50de62a623d810cb2328adea08482b36d157ca361a",
+    "locator": "page 5, 前言",
+    "quote": "本文件由全国网络安全标准化技术委员会(SAC/TC260)提出并归口。",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/CN-10/2026-10-11/official.html",
+    "sha256": "be053ff096fd143f2a743e957f6c9dffe66228fbf2ca91890595f70a2fb820f0",
+    "locator": "标准号",
+    "quote": "标准号：GB/T 45654-2025",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/CN-10/2026-10-11/official.html",
+    "sha256": "be053ff096fd143f2a743e957f6c9dffe66228fbf2ca91890595f70a2fb820f0",
+    "locator": "发布日期",
+    "quote": "发布日期 2025-04-25",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-10/extra-1193ac6cf3/2026-10-14/official.pdf",
+    "sha256": "dcaed877c417f57f339a0a50de62a623d810cb2328adea08482b36d157ca361a",
+    "locator": "page 1, cover",
+    "quote": "2025-04-25发布 2025-11-01实施",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/CN-10/2026-10-11/official.html",
+    "sha256": "be053ff096fd143f2a743e957f6c9dffe66228fbf2ca91890595f70a2fb820f0",
+    "locator": "实施日期",
+    "quote": "实施日期 2025-11-01",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-10/extra-1193ac6cf3/2026-10-14/official.pdf",
+    "sha256": "dcaed877c417f57f339a0a50de62a623d810cb2328adea08482b36d157ca361a",
+    "locator": "page 1, cover",
+    "quote": "2025-04-25发布 2025-11-01实施",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/CN-10/2026-10-11/official.html",
+    "sha256": "be053ff096fd143f2a743e957f6c9dffe66228fbf2ca91890595f70a2fb820f0",
+    "locator": "标准状态",
+    "quote": "generative artificial intelligence service 标准状态： 现行",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CN-10/2026-10-11/secondary.html",
+    "sha256": "e157b69ad9c1e236792ecd1a94ee34cf01ce0acafb752d2cd3687677b3154385",
+    "locator": "TC260 news item",
+    "quote": "标准全文|GB/T45654—2025《网络安全技术生成式人工智能服务安全基本要求》",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/CN-10/2026-10-11/official.html",
+    "sha256": "be053ff096fd143f2a743e957f6c9dffe66228fbf2ca91890595f70a2fb820f0",
+    "locator": "标准号",
+    "quote": "标准号：GB/T 45654-2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-10/extra-1193ac6cf3/2026-10-14/official.pdf",
+    "sha256": "dcaed877c417f57f339a0a50de62a623d810cb2328adea08482b36d157ca361a",
+    "locator": "page 1, cover",
+    "quote": "中 华 人 民 共 和 国 国 家 标 准 GB/T 45654—2025",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The SAMR catalogue gives 实施日期 (implementation date) 2025-11-01 and 标准状态 现行 (current); the date is before today (14 Oct 2026). As a recommended GB/T standard it is not binding, so the status is Published (non-binding, current).",
+  "scope_reasoning": "In scope with no note: a national technical standard on the security of generative AI services.",
+  "changes": {
+   "notes": "Return round (14 Oct 2026): rewritten: added that the annexes are informative (资料性), the basis in TC260-003 (CSET translator's note) and the companion standards as the introduction names them. Removed 'used in regulatory filing practice', the companion standards' dates and 'both in force' (in no stored file), and the 'listed on SAMR platforms' source remark.",
+   "verification": "Return round (14 Oct 2026): rewritten: the standard's full text and CSET's translation are stored.",
+   "summary": "Return round (14 Oct 2026): rewritten from the standard's Chinese text, now stored. Dropped 'turns TC260-003 into a national standard' (moved to notes, on CSET's translator's note) and 'main technical reference for compliance with the Generative AI Measures' (the introduction says it supports filing management and testing and assessment, 支撑备案管理、检测评估). Added the target services (引言), the 5% source threshold (4.1.1), the 90% pass rate (5.2 a), refusal (5.2 d), minors (6.1 c) and transparency (6.2). 安全 stays 'security', as in the official English title.",
+   "issuing_body": "Return round (14 Oct 2026): 'drafted by TC260' replaced by 'proposed and administered by TC260' (前言: 由全国网络安全标准化技术委员会(SAC/TC260)提出并归口); the drafting units are CESI and others.",
+   "safety_topics": "Return round (14 Oct 2026): added 'transparency & labelling' (6.2 service transparency; 5.2 e labelling of generated images and video) and 'child safety' (6.1 c and d: anti-addiction settings for minors, keeping minors off unsuitable services).",
+   "english_version": "Return round (14 Oct 2026): set to CSET's unofficial translation, now stored (page and PDF; translator Etcetera Language Group, Inc.). The SAMR catalogue gives only the official English title."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "official_identifier",
+   "date_published",
+   "date_in_force",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

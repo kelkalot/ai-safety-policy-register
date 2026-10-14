@@ -1,0 +1,222 @@
+{
+ "cand_id": "VN-07",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "VN-07",
+ "record": {
+  "original_title": "Luật Công nghiệp công nghệ số",
+  "notes": "Passed on 14 June 2025 by the 15th National Assembly at its 9th session and signed by its Chairman Trần Thanh Mẫn; six chapters and 51 articles. In force from 1 January 2026, except Articles 11, 28 and 29 on finance and incentives, in force from 1 July 2025 (Art. 50). The Law on Artificial Intelligence, in force from 1 March 2026, repealed Article 3(9) (definition of an AI system), Article 4(7) (state policy on AI), Article 12(6) (prohibited AI uses), point đ of Article 34(2) (database entries on AI systems) and Chapter IV (Articles 41-45) of this law; its other provisions, on the digital technology and semiconductor industries and digital assets, remain in force. Decision 367/QĐ-TTg (VN-03) directs ministries to review which of the law's implementing documents remain in force.",
+  "verification": {
+   "note": "Stored in this run: the Government legal-documents portal (vanban.chinhphu.vn) catalogue entry for Law 71/2025/QH15, giving the number, issue date 14-06-2025, effective date 01-01-2026, type (law), issuer (National Assembly) and signer (Trần Thanh Mẫn); it links the signed text (71qh15.signed.pdf), which is not stored, and the archiver flagged the page for review because it barely repeats the title, but its number and title match this law. vanban.chinhphu.vn is not yet listed as an official host. Also stored: the Government News report of 14 Jun 2025; the Can Tho legal-education portal article on the law, which quotes Article 12 (prohibited acts) and Article 41 (AI principles) in Vietnamese; the Can Tho article on the Law on Artificial Intelligence with its repeal clause; and the LuatVietnam English text of the whole law (commercial database; it footnotes Công Báo Nos 965-966 of 24 Jul 2025 but does not name the translator). The Vietnamese text of Articles 3(9), 4(7), 34(2)(đ) and 42-45 is not stored: the summary's account of them follows the LuatVietnam translation, and 'large-impact' renders its term. Not confirmed by any stored copy: a vote of 441 of 445 deputies and a consolidated text 20/VBHN-VPQH of 12 Feb 2026, which rest on press reports and the thuvienphapluat.vn database. The link to Decision 367/QĐ-TTg rests on VN-03's stored copy."
+  },
+  "summary": "Law on the digital technology industry, semiconductors, AI and digital assets; this record covers its AI provisions, repealed on 1 March 2026. It defined AI systems, made promoting AI a state policy and banned using, providing or deploying AI to infringe national interests, security, public order or human rights. Chapter IV set principles (human-centred, transparent, accountable, explainable AI within human control, safety and cybersecurity, risk control over the life cycle), defined high-risk and large-impact AI systems with management requirements, required disclosure of AI interaction and marks on listed AI-generated products, and set duties for developers, providers and users.",
+  "english_version": {
+   "kind": "third-party translation",
+   "url": "https://english.luatvietnam.vn/law-on-digital-technology-industry-no-71-2025-qh15-dated-june-14-2025-of-the-national-assembly-405695-doc1.html",
+   "by": "LuatVietnam (commercial legal database)"
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-07/extra-fc548cbf6b/2026-10-14/official.html",
+    "sha256": "d2dde1e21f7bd7b7fc839493fc8bab693034106d8684375d4200f6b517f3eb65",
+    "locator": "first paragraph",
+    "quote": "Ngày 14 tháng 6 năm 2025 Quốc hội đã ban hành Luật số 71/2025/QH15 Luật Công nghiệp công nghệ số 2025.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-07/extra-6a26fb2057/2026-10-14/official-rendered.html",
+    "sha256": "3f14b5d1b6cc64788a880522bbaaefd3b5e839018b9bd236c0176edb5ff3b30b",
+    "locator": "page heading",
+    "quote": "Luật số 71/2025/QH15 của Quốc hội: Luật Công nghiệp công nghệ số",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-07/extra-9d6f34cea1/2026-10-14/official.html",
+    "sha256": "3bd94fb650296ecf42f7224a053f14c9607827a7f17b0eeab6ee6c66672c0d78",
+    "locator": "article lead",
+    "quote": "VGP - The National Assembly passed the Law on Digital Technology Industry at its ongoing 9th sitting held in Ha Noi on Saturday.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/VN-07/2026-10-14/secondary-3.html",
+    "sha256": "5283980c4bff7061f62e9c0822052fd4001dea3d2b8ad17f2764fd9e26bb3c05",
+    "locator": "paragraph on entry into force and repeals: Chapter IV",
+    "quote": "bãi bỏ khoản 9 Điều 3, khoản 7 Điều 4, khoản 6 Điều 12, điểm đ khoản 2 Điều 34 và Chương IV của Luật Công nghiệp công nghệ số.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-07/extra-6a26fb2057/2026-10-14/official-rendered.html",
+    "sha256": "3f14b5d1b6cc64788a880522bbaaefd3b5e839018b9bd236c0176edb5ff3b30b",
+    "locator": "document details, abstract (Trích yếu)",
+    "quote": "Trích yếu Luật Công nghiệp công nghệ số",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-07/2026-10-14/secondary-3.html",
+    "sha256": "5283980c4bff7061f62e9c0822052fd4001dea3d2b8ad17f2764fd9e26bb3c05",
+    "locator": "paragraph on entry into force and repeals",
+    "quote": "Luật này có hiệu lực thi hành từ ngày 01 tháng 3 năm 2026 và bãi bỏ một số chương, điều, khoản, điểm của Luật Công nghiệp công nghệ số số 71/2025/QH15",
+    "source_kind": "alt-official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-07/extra-6a26fb2057/2026-10-14/official-rendered.html",
+    "sha256": "3f14b5d1b6cc64788a880522bbaaefd3b5e839018b9bd236c0176edb5ff3b30b",
+    "locator": "document details",
+    "quote": "Số ký hiệu 71/2025/QH15 Ngày ban hành 14-06-2025 Ngày có hiệu lực 01-01-2026 Loại văn bản Luật Cơ quan ban hành Quốc hội",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-07/extra-fc548cbf6b/2026-10-14/official.html",
+    "sha256": "d2dde1e21f7bd7b7fc839493fc8bab693034106d8684375d4200f6b517f3eb65",
+    "locator": "first paragraph",
+    "quote": "Ngày 14 tháng 6 năm 2025 Quốc hội đã ban hành Luật số 71/2025/QH15 Luật Công nghiệp công nghệ số 2025.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-07/extra-6a26fb2057/2026-10-14/official-rendered.html",
+    "sha256": "3f14b5d1b6cc64788a880522bbaaefd3b5e839018b9bd236c0176edb5ff3b30b",
+    "locator": "document details",
+    "quote": "Số ký hiệu 71/2025/QH15 Ngày ban hành 14-06-2025 Ngày có hiệu lực 01-01-2026 Loại văn bản Luật Cơ quan ban hành Quốc hội",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-07/extra-9ba3b7c954/2026-10-14/official.html",
+    "sha256": "b47416dbbe8b671b040b925540723eb614bc3c85095dcf4e0e27c7418603d482",
+    "locator": "English text, closing line",
+    "quote": "This Law was passed on June 14, 2025, by the 15th National Assembly of the Socialist Republic of Vietnam at its 9th session.",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-07/extra-6a26fb2057/2026-10-14/official-rendered.html",
+    "sha256": "3f14b5d1b6cc64788a880522bbaaefd3b5e839018b9bd236c0176edb5ff3b30b",
+    "locator": "document details",
+    "quote": "Số ký hiệu 71/2025/QH15 Ngày ban hành 14-06-2025 Ngày có hiệu lực 01-01-2026 Loại văn bản Luật Cơ quan ban hành Quốc hội",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-07/extra-fc548cbf6b/2026-10-14/official.html",
+    "sha256": "d2dde1e21f7bd7b7fc839493fc8bab693034106d8684375d4200f6b517f3eb65",
+    "locator": "first paragraph",
+    "quote": "Ngày 14 tháng 6 năm 2025 Quốc hội đã ban hành Luật số 71/2025/QH15 Luật Công nghiệp công nghệ số 2025.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-07/extra-9d6f34cea1/2026-10-14/official.html",
+    "sha256": "3bd94fb650296ecf42f7224a053f14c9607827a7f17b0eeab6ee6c66672c0d78",
+    "locator": "article date line",
+    "quote": "June 14, 2025 7:18 PM GMT+7",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-07/extra-9ba3b7c954/2026-10-14/official.html",
+    "sha256": "b47416dbbe8b671b040b925540723eb614bc3c85095dcf4e0e27c7418603d482",
+    "locator": "English text, closing line",
+    "quote": "This Law was passed on June 14, 2025, by the 15th National Assembly of the Socialist Republic of Vietnam at its 9th session.",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-07/extra-6a26fb2057/2026-10-14/official-rendered.html",
+    "sha256": "3f14b5d1b6cc64788a880522bbaaefd3b5e839018b9bd236c0176edb5ff3b30b",
+    "locator": "document details",
+    "quote": "Số ký hiệu 71/2025/QH15 Ngày ban hành 14-06-2025 Ngày có hiệu lực 01-01-2026 Loại văn bản Luật Cơ quan ban hành Quốc hội",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-07/extra-9d6f34cea1/2026-10-14/official.html",
+    "sha256": "3bd94fb650296ecf42f7224a053f14c9607827a7f17b0eeab6ee6c66672c0d78",
+    "locator": "third paragraph",
+    "quote": "The law, scheduled to take effect on January 1, 2026",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-07/extra-9ba3b7c954/2026-10-14/official.html",
+    "sha256": "b47416dbbe8b671b040b925540723eb614bc3c85095dcf4e0e27c7418603d482",
+    "locator": "English text, Article 50(1)",
+    "quote": "1. This Law takes effect on January 1, 2026, except Clause 2 of this Article.",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/VN-07/2026-10-14/secondary-3.html",
+    "sha256": "5283980c4bff7061f62e9c0822052fd4001dea3d2b8ad17f2764fd9e26bb3c05",
+    "locator": "paragraph on entry into force and repeals",
+    "quote": "Luật này có hiệu lực thi hành từ ngày 01 tháng 3 năm 2026 và bãi bỏ một số chương, điều, khoản, điểm của Luật Công nghiệp công nghệ số số 71/2025/QH15",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/VN-07/2026-10-14/secondary-3.html",
+    "sha256": "5283980c4bff7061f62e9c0822052fd4001dea3d2b8ad17f2764fd9e26bb3c05",
+    "locator": "paragraph on entry into force and repeals: the repeal and its date",
+    "quote": "Luật này có hiệu lực thi hành từ ngày 01 tháng 3 năm 2026 và bãi bỏ một số chương, điều, khoản, điểm của Luật Công nghiệp công nghệ số số 71/2025/QH15",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/VN-07/2026-10-14/secondary-3.html",
+    "sha256": "5283980c4bff7061f62e9c0822052fd4001dea3d2b8ad17f2764fd9e26bb3c05",
+    "locator": "paragraph on entry into force and repeals: what is repealed",
+    "quote": "bãi bỏ khoản 9 Điều 3, khoản 7 Điều 4, khoản 6 Điều 12, điểm đ khoản 2 Điều 34 và Chương IV của Luật Công nghiệp công nghệ số.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-07/extra-6a26fb2057/2026-10-14/official-rendered.html",
+    "sha256": "3f14b5d1b6cc64788a880522bbaaefd3b5e839018b9bd236c0176edb5ff3b30b",
+    "locator": "document details",
+    "quote": "Số ký hiệu 71/2025/QH15 Ngày ban hành 14-06-2025 Ngày có hiệu lực 01-01-2026 Loại văn bản Luật Cơ quan ban hành Quốc hội",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-07/extra-fc548cbf6b/2026-10-14/official.html",
+    "sha256": "d2dde1e21f7bd7b7fc839493fc8bab693034106d8684375d4200f6b517f3eb65",
+    "locator": "paragraph on Article 12",
+    "quote": "Sử dụng, cung cấp, triển khai hệ thống trí tuệ nhân tạo để xâm phạm lợi ích quốc gia, dân tộc, quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, lợi ích công cộng",
+    "source_kind": "alt-official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Event: the Law on Artificial Intelligence took effect on 1 March 2026 and repealed Chapter IV and Article 3(9), Article 4(7), Article 12(6) and point đ of Article 34(2) of the Law on Digital Technology Industry, that is, all of its AI provisions. 1 March 2026 is before today (14 October 2026), so the AI provisions this record covers were repealed and replaced by the standalone AI law over seven months ago: status 'Superseded' (the AI provisions, not the whole law). The stored Can Tho article quoting the repeal clause is the source.",
+  "scope_reasoning": "The record covers the law's AI provisions, Viet Nam's earlier binding AI rules, kept for context as superseded instruments; in scope under the rule for superseded instruments, no scope_note.",
+  "changes": {
+   "original_title": "The law's title is 'Luật Công nghiệp công nghệ số' (the Government portal's catalogue entry and the Can Tho articles); the old value added the register's own descriptor '(Chương IV về trí tuệ nhân tạo)' in Vietnamese. The chapter reference stays in the English title.",
+   "summary": "Rewritten from the stored texts: removes the unsupported opening claim ('Viet Nam's first statute with binding AI provisions'); the prohibited use (Art. 12(6)) and the principles (Art. 41) as the Vietnamese text quoted by the Can Tho portal states them; 'labelling of AI products' made precise (disclosure of AI interaction, identification marks on listed AI-generated products, Art. 44); adds high-risk and large-impact systems (Art. 43) and the duties of developers, providers and users (Art. 45); says the record covers all the repealed AI provisions, not only Chapter IV.",
+   "notes": "Now supported by stored copies: passage by the 15th National Assembly at its 9th session, the signer, six chapters and 51 articles, and the 1 July 2025 commencement of Articles 11, 28 and 29 (Art. 50); adds what each repealed provision concerned. Removes the hedged vote count, the consolidated-text reference and the 'press and law-firm reports' remark (to verification.note).",
+   "english_version": "Was not recorded: the stored LuatVietnam page holds the English text of the whole law with no translator named; recorded as a third-party translation by LuatVietnam.",
+   "verification": "Rewritten: lists the sources stored in this run and what each supports."
+  },
+  "confirmed": [
+   "title",
+   "issuing_body",
+   "official_identifier",
+   "date_published",
+   "date_in_force",
+   "date_last_updated",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The signed Vietnamese text of the law (71qh15.signed.pdf, linked from the vanban.chinhphu.vn entry) is not stored; Articles 43-45 are summarised from the LuatVietnam translation, and 'large-impact' (that translation's term) should be checked against the Vietnamese wording.",
+  "english_version is recorded as a third-party translation by LuatVietnam; the page footnotes Công Báo Nos 965-966 (24/7/2025), and if the text is the Official Gazette English edition published by the Vietnam News Agency the kind would be 'government translation'.",
+  "vanban.chinhphu.vn (the Government legal-documents portal) is not in pipeline/official-sites.json, so its quotes count as secondary until a human adds it."
+ ]
+}

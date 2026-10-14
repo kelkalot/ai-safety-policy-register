@@ -1,0 +1,86 @@
+{
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Rendering of 인공지능 영향평가 가이드라인 ('AI impact assessment guideline'); Article 35 parenthesis is the guideline's own basis."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "The cover text layer reads 2026인공지능영향평가가이드라인 (year 2026 then the title, spaces lost in the layer); the NIA file name 5._260122_인공지능_영향평가_가이드라인.pdf gives 인공지능 영향평가 가이드라인. The record's original_title omits the '2026' cover prefix, which is the edition year; acceptable."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Page 8: 과학기술정보통신부는 ... 전담기관인 정보통신정책연구원을 통해 ... 지원을 제공하고 shows MSIT as the responsible ministry; the cover logos (MSIT, KISDI) are images. KISDI is the support agency and is named in notes; I would not require it in issuing_body."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "NIA post dated 2026.01.22 and file name 260122."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "NIA notice: the posted guidelines are the current versions."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "The guideline recommends (권장) that operators endeavour to assess; non-binding guidance on a duty of effort."
+  },
+  "english_version": {
+   "verdict": "supported",
+   "why": "kind 'none found'; nothing stored contradicts it."
+  },
+  "notes": {
+   "verdict": "unsupported",
+   "why": "The clause 'assess the current version' for pre-22-January-2026 products is not in the guideline. The FAQ says only that for products already provided before the Act's entry into force, it is recommended that the operator decide autonomously and carry it out. Fix removes the unsupported part. All other notes claims were found (decree draft Art. 28 seven elements, ISO/IEC 42001/42005 and EU FRIA as reference, KISDI, EU AI Act/GPAI Code/UNESCO sources, planned update).",
+   "fix": {
+    "value": "Dated 2026 on its cover and published with the Act's entry into force on 22 January 2026 (39 pages). The assessment is an obligation of effort, which the guideline recommends rather than requires; details may be set by Presidential Decree (Article 35(3)), and Article 28 of the draft Enforcement Decree lists seven elements an assessment must contain, from identifying affected people and rights to an improvement plan. For products and services already offered before the Act took effect, the guideline recommends that operators decide for themselves whether to carry out an assessment. Results of other assessments, including the EU AI Act's fundamental rights impact assessment (Article 27) and assessments under ISO/IEC 42001 and 42005, may be drawn on. The Korea Information Society Development Institute (KISDI) is named as the dedicated agency supporting assessments. The guideline draws on the EU AI Act, the General-Purpose AI Code of Practice and UNESCO's Ethical Impact Assessment, and is to be updated once international standards are finalised.",
+    "evidence": [
+     {
+      "file": "archive/KR-08/2026-10-12/official.pdf",
+      "sha256": "a67ce99e960511d53f537a759aaeba6049faed220e430cc5ee1ff8817c39ea47",
+      "locator": "Appendix 4 FAQ (부록4), question on when to assess",
+      "quote": "또한, 법 시행 이전부터 이미 제공 중인 제품 또는 서비스의 경우, 사업자가 자율적으로 판단하여 수행하는 것이 권장됩니다.",
+      "source_kind": "official"
+     }
+    ]
+   }
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Operators are to endeavour to assess impact on fundamental rights in advance; the State, local governments and public institutions must give priority consideration to assessed products",
+   "verdict": "supported",
+   "locator": "Article 35 text, page 4 and 가이드라인 line 14; 국가기관등 defined as 국가, 지방자치단체, 공공기관 (decree draft context)",
+   "translation": "'(1) Where an AI business operator provides a product or service using high-impact AI, it shall endeavour to assess in advance its impact on people's fundamental rights ... (2) Where state bodies etc. intend to use a product or service using high-impact AI, they shall give priority consideration to products or services for which an impact assessment was carried out.' 국가기관등 is defined in the same text as the State, local governments and public institutions under Art. 4 of the Public Institutions Act."
+  },
+  {
+   "claim": "The guideline encourages voluntary assessments for all AI",
+   "verdict": "supported",
+   "locator": "section 3 (평가 대상) and FAQ",
+   "translation": "'Although the Act provides for impact assessment only of high-impact AI products and services, all AI business operators are encouraged to carry out impact assessments voluntarily.'"
+  },
+  {
+   "claim": "Notes: draft Enforcement Decree Art. 28 lists seven elements an assessment must contain, from identifying affected people to an improvement plan",
+   "verdict": "supported",
+   "locator": "page 5, 시행령안 제28조 ① items 1 to 7"
+  },
+  {
+   "claim": "Guideline is to be updated once international standards are finalised",
+   "verdict": "supported",
+   "locator": "section on relation to other assessments",
+   "translation": "'When international standards are later finalised and published, we plan to update the stage-by-stage considerations of this guideline consistently with them and to supplement procedures and detailed items as needed.'"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Government guideline under the AI Basic Act on fundamental-rights impact assessment of high-impact AI."
+ },
+ "overall": "accept-with-fixes",
+ "note": "Summary, title and dates check out against the Korean text. One notes clause is unsupported: the claim that operators should assess 'the current version' of products offered before 22 January 2026; the guideline only recommends they decide for themselves. A fix with the FAQ quote replaces it. The 'priority consideration' duty of state bodies, voluntary assessment for all AI, the seven decree-draft elements, ISO/IEC 42001/42005 and the update promise were all found. original_title omits the cover's '2026' edition prefix, which is fine.",
+ "cand_id": "KR-08",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14"
+}

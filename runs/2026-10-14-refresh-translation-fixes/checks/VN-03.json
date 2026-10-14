@@ -1,0 +1,76 @@
+{
+ "cand_id": "VN-03",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "367/QD-TTg is on the stored Can Tho article; the OCR of the PDF reads the number as '36 F'. I rendered page 1 of the stored PDF and read 'So: 367/QD-TTg' and 'Ha Noi, ngay 28 thang 02 nam 2026' on the page image."
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "unsupported",
+   "why": "The sentence about Decision 2835/QĐ-TTg of 31 Dec 2025 appears in no stored text; the rest of the notes is supported (effect on signature, dates, tasks delivered per VN-04 to VN-06).",
+   "fix": {
+    "value": "The decision is dated Hà Nội, 28 February 2026 and takes effect on signature; the Government portal's digital signature on the published copy is dated 3 March 2026, and the Can Tho city legal-education portal gives 3 March 2026 as the signing date. The Plan also tasks the Ministry of Education and Training with a national AI workforce programme and the Ministry of Science and Technology with establishing the National AI Development Fund (2026-2027). Tasks since delivered include Decree 142/2026/NĐ-CP (30 Apr 2026), Circular 05/2026/TT-BKHCN issuing the national AI ethics framework (10 Mar 2026) and Decision 33/2026/QĐ-TTg listing high-risk AI systems (30 Jun 2026).",
+    "evidence": [
+     {
+      "file": "archive/VN-03/2026-10-11/official.pdf",
+      "sha256": "5cc8e35e58807295dae65fd46abc624334391b8bcf2fd35be9357256439c37af",
+      "locator": "page 1, Article 2",
+      "quote": "Điều 2. Quyết định này có hiệu lực thi hành kể từ ngày ký ban hành.",
+      "source_kind": "official"
+     }
+    ]
+   }
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Plan sets a review of the national AI strategy at least every three years (II.4(a): 'it nhat 03 nam mot lan')",
+   "verdict": "supported",
+   "locator": "page 5, II.4(a)"
+  },
+  {
+   "claim": "Decree on Law, decree on National AI Development Fund, PM decisions on dataset list and high-risk list, MoST circular on ethics framework, each 'Thoi han trinh: Thang 2/2026' (deadline to submit). Summary's 'all due in Feb 2026' is looser than 'to be submitted in Feb 2026'",
+   "verdict": "judgment-differs",
+   "locator": "page 4-5, II.3(a)-(dd)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept-with-fixes",
+ "note": "Summary matches the Vietnamese plan (tasks, lead bodies, three-year strategy review, portal, databases, shared infrastructure, inspection; the workforce programme is in notes). Date and number are supported (checked on the page image). One notes sentence about Decision 2835/QD-TTg has no stored support; the fix removes it. Suggest the summary say 'to be submitted in Feb 2026' rather than 'due'. A targeted search found no newer instrument."
+}

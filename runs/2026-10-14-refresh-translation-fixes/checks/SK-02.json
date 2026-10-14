@@ -1,0 +1,104 @@
+{
+ "cand_id": "SK-02",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Print number and title in the National Council record and the bill heading; English rendering."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "Matches the National Council page and the bill heading letter for letter."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "'Navrhovateľ: vláda (Ministerstvo investícií, regionálneho rozvoja a informatizácie SR)'."
+  },
+  "official_identifier": {
+   "verdict": "unsupported",
+   "why": "'LP/2026/17' appears in no stored copy (searched every SK-02 text, including the cover page and the memorandum); the extraction's own verification note says so. 'Parlamentná tlač 1447', the IX. volebné obdobie and 'UV-23232/2026' are shown on the stored pages. A citable identifier must not carry an unverified element, so it should be cut back.",
+   "fix": {
+    "value": "Parlamentná tlač 1447 (IX. volebné obdobie); UV-23232/2026",
+    "evidence": [
+     {
+      "file": "archive/SK-02/2026-10-12/official.html",
+      "sha256": "1d73c51d3e488393da97329b748b7a12b534c55bff183a70c40966081f774658",
+      "locator": "Detaily návrhu zákona",
+      "quote": "Návrh nového zákona, parlamentná tlač 1447",
+      "source_kind": "official"
+     },
+     {
+      "file": "archive/_runs/2026-10-14-refresh-translation-fixes/SK-02/extra-e84cc009d2/2026-10-14/official.html",
+      "sha256": "2ef39ad5e60aaee0b1bd59dab32c292e3c2111a320647e170933e2211ea3c3df",
+      "locator": "cover page",
+      "quote": "VLÁDA SLOVENSKEJ REPUBLIKY Na rokovanie Číslo: UV-23232/2026 Národnej rady Slovenskej republiky 1447 VLÁDNY NÁVRH",
+      "source_kind": "official"
+     },
+     {
+      "file": "archive/_runs/2026-10-14-refresh-translation-fixes/SK-02/extra-dc3e2a4b99/2026-10-14/official.html",
+      "sha256": "ad7a64461e3b45f50fa7707b27de8b4ae21e0e30d7fb25e29b4dba26cc0531e8",
+      "locator": "bill text, heading",
+      "quote": "IX. volebné obdobie 1447 VLÁDNY NÁVRH Z Á K O N z ... 2026 o štátnej správe v oblasti umelej inteligencie a európskej dátovej regulácie a o zmene a doplnení niektorých zákonov",
+      "source_kind": "official"
+     }
+    ]
+   }
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "'Dátum doručenia: 28. 8. 2026' (date of delivery to the National Council); for a bill this is the nearest official date. The memorandum is signed 26 August 2026 (in notes)."
+  },
+  "date_last_updated": {
+   "verdict": "supported",
+   "why": "Resolution no. 1631 of 17 September 2026 (first reading)."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Stage 'I. čítanie' on the print page; resolution 1631: 'prerokuje uvedený vládny návrh zákona v druhom čítaní' (will consider the bill in second reading); committee deadlines 13 and 16 November 2026 have not passed. A search found no newer information."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "Bill, not in force; Čl. VIII 'Tento zákon nadobúda účinnosť 1. januára 2027' is proposed text."
+  },
+  "notes": {
+   "verdict": "supported",
+   "why": "Committees and deadlines match the print page (lines for 13.11.2026 and 16.11.2026) and resolution 1631; Public Defender of Rights (new § 3(7)), exclusions in § 1 (military, defence, national security; scientific research), Office of Digital Integrity dropped after Ministry of Finance and Legislative Council comments, and Art. 5(5) left to the Ministry of the Interior all appear in the memorandum; signed 'V Bratislave 26. augusta 2026' by PM Fico."
+  },
+  "summary": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "First breach remedied within a notice period of at most 15 working days goes unfined",
+   "verdict": "supported",
+   "locator": "§ 33(3): 'Orgán dohľadu nad trhom pokutu neuloží, ak kontrolovaná osoba v lehote podľa § 16 ods. 2 odstránila zistené nedostatky; to neplatí, ak najmenej raz došlo podľa tohto odseku k neuloženiu pokuty' (the authority imposes no fine if the person remedied the deficiencies within the period under § 16(2); this does not apply if a fine was already waived once); § 16(2) 'nemôže byť dlhšia ako 15 pracovných dní' (cannot be longer than 15 working days)"
+  },
+  {
+   "claim": "MIRRI is general market surveillance authority, single point of contact, and runs the AI regulatory sandbox with priority for SMEs",
+   "verdict": "supported",
+   "locator": "§ 6(1)-(2); § 3(1)(b) 'zriaďuje a prevádzkuje regulačné experimentálne prostredie pre AI'; § 5(7) criteria include 'uprednostnenie mikropodnikov, malých podnikov, stredných podnikov' (priority for micro, small, medium enterprises)"
+  },
+  {
+   "claim": "Sectoral authorities: Ministry of Justice (courts), Office of the Inspection Service, data protection office, National Security Authority; ÚNMS is the notifying authority",
+   "verdict": "supported",
+   "locator": "§ 7(1)(a)-(d); notifying authority at the stored text line 'notifikujúci orgán ... Úrad pre normalizáciu, metrológiu a skúšobníctvo'"
+  },
+  {
+   "claim": "Inspection Service covers biometrics, critical infrastructure, migration",
+   "verdict": "supported",
+   "locator": "§ 7(1)(b) with footnote 44: 'Body 1, 2 a 7 prílohy III' (points 1, 2 and 7 of Annex III)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Pending bill implementing the AI Act, in scope under section 10."
+ },
+ "overall": "accept-with-fixes",
+ "note": "Summary and notes match the Slovak bill text and memorandum. The one fix is official_identifier: 'LP/2026/17' is not in any stored copy and the extraction itself lists it as unconfirmed, so it is cut back to the print number and the Government number that the pages show. The stored bill is a rendered preview but its text layer is complete. One search found no later stage than the 17 September 2026 first-reading resolution; the LinkedIn-based claim of Government approval on 26 August 2026 is no longer in the record."
+}

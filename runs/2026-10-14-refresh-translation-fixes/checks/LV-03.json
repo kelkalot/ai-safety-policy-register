@@ -1,0 +1,75 @@
+{
+ "cand_id": "LV-03",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Matches the State Language Centre translation on likumi.lv (stored, alt-official)."
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported",
+   "why": "kind 'government translation' correct: footer 'Translation (c) 2025 Valsts valodas centrs'; URL is the stored extra source."
+  },
+  "notes": {
+   "verdict": "judgment-differs",
+   "why": "Notes say 'Administrative District Court'; Latvian 'Administratīvā apgabaltiesa' is rendered 'Regional Administrative Court' in the stored government translation (Section 14). Minor wording; all other note claims (Sections 4, 5, 7, 10(6), 10(4)(2), 11(2), 12(5), 13(1), 14(2)) match the Latvian text."
+  },
+  "summary": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Latvijas Banka supervises AI Act compliance under Article 74(6)",
+   "verdict": "supported",
+   "locator": "Section 8(5): 'Latvijas Banka veic mākslīgā intelekta izmantošanas prasību uzraudzību saskaņā ar Regulas Nr. 2024/1689 74. panta 6. punktu'"
+  },
+  {
+   "claim": "may set further requirements where EU law does not apply directly; informs the ECB",
+   "verdict": "supported",
+   "locator": "Section 8(7): 'jomās, kuras netiek regulētas ar tieši piemērojamiem Eiropas Savienības tiesību aktiem' (in areas not regulated by directly applicable EU acts); 8(6): provides the ECB information obtained in AI supervision that may be useful for prudential supervision of credit institutions"
+  },
+  {
+   "claim": "fines on legal persons EUR 35m/7%, 15m/3%, 7.5m/1%; natural persons up to 35, 15, 7.5 million",
+   "verdict": "supported",
+   "locator": "Section 10(3)(2)-(7)"
+  },
+  {
+   "claim": "ban on responsible individuals for up to two years; order conduct to stop",
+   "verdict": "supported",
+   "locator": "Section 10(4)(1)-(2): temporary ban on the natural person performing specified duties until the breach is remedied or the decision is final, but not longer than two years"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Sectoral law implementing AI Act penalties; same kind as other AI Act implementing laws."
+ },
+ "overall": "accept",
+ "note": "Original title verbatim from the likumi.lv passport. Summary and notes verified against the Latvian text with own translations of the Section 8, 10 and 11 passages; the one wording difference is the court name in the notes ('Regional Administrative Court' in the government translation). 'Ministry of Finance prepared with Latvijas Banka and submitted to the Cabinet in March 2025' was in the earlier notes and is no longer in the record. One search found no amendment."
+}

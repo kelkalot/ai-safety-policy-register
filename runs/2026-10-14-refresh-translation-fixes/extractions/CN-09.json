@@ -1,0 +1,137 @@
+{
+ "cand_id": "CN-09",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "CN-09",
+ "record": {
+  "summary": "Sets rules for labelling AI-generated and synthesised content (text, images, audio, video, virtual scenes) in 14 articles. Providers of services covered by Art. 17(1) of the Deep Synthesis Provisions must add explicit labels that users can clearly perceive, and providers must add implicit labels in file metadata, with digital watermarks encouraged. Platforms that spread content must check metadata and add prominent notices to content that is labelled, declared or suspected as generated; app distribution platforms must verify providers' labelling materials; and maliciously deleting, tampering with, forging or concealing labels is prohibited.",
+  "notes": "Signed 7 Mar 2025 and published 14 Mar 2025; effective 1 Sept 2025 (Art. 14). The Measures implement the labelling duties in the algorithmic recommendation, deep synthesis and generative AI rules (Arts. 1 and 2). Art. 11 also requires labelling to meet mandatory national standards; the mandatory national standard GB 45438-2025 on labelling methods (CN-08) took effect on the same day. Users may obtain content without explicit labels only after a user agreement sets out their labelling duties and responsibility for use, and providers keep logs of such provision for at least six months (Art. 9); implicit labels still apply.",
+  "verification": {
+   "note": "CAC notice stored with the full text: document number 国信办通字〔2025〕2号, four issuing bodies, signing 7 Mar 2025, publication 14 Mar 2025, effective 1 Sept 2025 (Art. 14) and 14 articles confirmed; the gov.cn policy-library copy (stored) has the same text and metadata. The Measures do not name GB 45438-2025 (Art. 11 refers to mandatory national standards in general); the link rests on the standard's catalogue entry (CN-08) and the shared effective date. China Law Translate's unofficial English translation is stored; the summary follows the Chinese text."
+  },
+  "english_version": {
+   "kind": "third-party translation",
+   "url": "https://www.chinalawtranslate.com/en/ai-labeling/",
+   "by": "China Law Translate"
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/CN-09/2026-10-11/official.html",
+    "sha256": "3686321b6f2fca2e245e210209dff4af75b5adc3be36d912695d28b5a681f642",
+    "locator": "page heading",
+    "quote": "关于印发《人工智能生成合成内容标识办法》的通知",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/CN-09/2026-10-11/official.html",
+    "sha256": "3686321b6f2fca2e245e210209dff4af75b5adc3be36d912695d28b5a681f642",
+    "locator": "heading of the Measures, after the signatures",
+    "quote": "2025年3月7日 人工智能生成合成内容标识办法 第一条",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/CN-09/2026-10-11/official.html",
+    "sha256": "3686321b6f2fca2e245e210209dff4af75b5adc3be36d912695d28b5a681f642",
+    "locator": "notice, signatures",
+    "quote": "国家互联网信息办公室 工业和信息化部 公安部 国家广播电视总局 2025年3月7日",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/CN-09/2026-10-11/official.html",
+    "sha256": "3686321b6f2fca2e245e210209dff4af75b5adc3be36d912695d28b5a681f642",
+    "locator": "notice heading",
+    "quote": "关于印发《人工智能生成合成内容标识办法》的通知 国信办通字〔2025〕2号",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CN-09/2026-10-14/secondary.html",
+    "sha256": "0c0d1d32be9f69843088b0ad2664734b401485166bd04bdfdf35d42d9b77b84a",
+    "locator": "document metadata",
+    "quote": "发文字号：国信办通字〔2025〕2号",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/CN-09/2026-10-11/official.html",
+    "sha256": "3686321b6f2fca2e245e210209dff4af75b5adc3be36d912695d28b5a681f642",
+    "locator": "notice, signatures",
+    "quote": "国家互联网信息办公室 工业和信息化部 公安部 国家广播电视总局 2025年3月7日",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CN-09/2026-10-14/secondary.html",
+    "sha256": "0c0d1d32be9f69843088b0ad2664734b401485166bd04bdfdf35d42d9b77b84a",
+    "locator": "document metadata",
+    "quote": "成文日期：2025年03月07日",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/CN-09/2026-10-11/official.html",
+    "sha256": "3686321b6f2fca2e245e210209dff4af75b5adc3be36d912695d28b5a681f642",
+    "locator": "Art. 14",
+    "quote": "第十四条 本办法自2025年9月1日起施行。",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/CN-09/2026-10-11/official.html",
+    "sha256": "3686321b6f2fca2e245e210209dff4af75b5adc3be36d912695d28b5a681f642",
+    "locator": "Art. 14",
+    "quote": "第十四条 本办法自2025年9月1日起施行。",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CN-09/2026-10-11/official.html",
+    "sha256": "3686321b6f2fca2e245e210209dff4af75b5adc3be36d912695d28b5a681f642",
+    "locator": "notice",
+    "quote": "现印发给你们，请认真遵照执行",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/CN-09/2026-10-11/official.html",
+    "sha256": "3686321b6f2fca2e245e210209dff4af75b5adc3be36d912695d28b5a681f642",
+    "locator": "Art. 13",
+    "quote": "违反本办法规定的，由网信、电信、公安和广播电视等有关主管部门依据职责，按照有关法律、行政法规、部门规章的规定予以处理。",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Art. 14: the Measures take effect on 1 Sept 2025. That date is before today (14 Oct 2026), and the stored files show no amendment or repeal. Status stays In force.",
+  "scope_reasoning": "In scope with no note: binding AI-specific rules on labelling generated content.",
+  "changes": {
+   "summary": "The explicit-label duty is now tied, as in Art. 4, to services under Art. 17(1) of the Deep Synthesis Provisions; 'user-visible' became 'that users can clearly perceive' (Art. 3, 明显感知). Platform duties now cover content that is labelled, declared or suspected as generated (Art. 6, items 1 to 3). 'App stores' became 'app distribution platforms' (互联网应用程序分发平台), which verify labelling materials (Art. 7). 'Removing, altering' became 'deleting, tampering with' (删除、篡改, Art. 10).",
+   "notes": "'Requests for unlabelled output' corrected: Art. 9 allows content without explicit labels (不含显式标识), and implicit labels (Art. 5) still apply. 'Published together with GB 45438-2025' replaced by the Art. 11 reference and the shared effective date, because the stored text does not name the standard. Dropped the years of the three earlier rules, which the stored text does not give.",
+   "verification": "Return round (14 Oct 2026): the English translation is now stored.",
+   "english_version": "Return round (14 Oct 2026): set to China Law Translate's translation, now stored ('By China Law Translate on 2025/03/14', title 'Measures for Labeling of AI-Generated Synthetic Content'). The findings and stored files show no English version by a public body."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "official_identifier",
+   "date_published",
+   "date_in_force",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

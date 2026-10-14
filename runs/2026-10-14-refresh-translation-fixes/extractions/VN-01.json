@@ -1,0 +1,87 @@
+{
+ "cand_id": "VN-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "VN-01",
+ "record": {
+  "issuing_body": "Government of Viet Nam",
+  "summary": "Viet Nam's national AI strategy through 2030, with a vision to 2045. It sets nine strategic pillars, among them data and AI models as foundations for AI training, testing, evaluation and deployment, and safe and trustworthy AI governance, under which AI is to be developed, provided, deployed and used in accordance with the law. Its six breakthrough solutions include improving AI law and policy, international cooperation with standards and technical regulations, and a culture of responsible AI use. Targets include an AI economy of about 6% of GDP by 2030, AI support for all online public services and at least eight Vietnamese-language AI models.",
+  "notes": "The Government's approval of the Strategy was announced on 29 Aug 2026. Its six breakthrough solutions cover law and policy; national coordination, with heads of ministries, sectors and localities answerable for their AI transformation targets; funding; international cooperation with standards and technical regulations; public awareness and a culture of responsible AI use; and indicators to measure and monitor AI transformation. Viet Nam's Law on Artificial Intelligence (Law No. 134/2025/QH15) is recorded as VN-02; the AI chapter of the Law on Digital Technology Industry (Law No. 71/2025/QH15), since superseded by the AI Law, is VN-07; the implementing instruments are VN-03 to VN-06.",
+  "scope_note": "Mainly an AI development and adoption strategy; included because one of its nine pillars is safe and trustworthy AI governance.",
+  "verification": {
+   "note": "Stored: the Government portal's English news article of 29 Aug 2026 (en.baochinhphu.vn; first stored 11 Oct 2026, re-stored 14 Oct 2026) and the Ministry of Science and Technology's English news item of 30 Aug 2026 (english.mst.gov.vn). They confirm the approval, the horizon (2030, vision to 2045), the nine pillars, the six breakthrough solutions and the targets. The Decision itself is not stored in Vietnamese or English, so its number, signing date, signatory and Vietnamese title are not known; the English title follows the Government portal's wording, the date is the month of the announcement, and the issuing body is given as the Government, as the article says. Whether the Strategy replaces Decision 127/QĐ-TTg of Jan 2021 on the national AI strategy to 2030 is not shown in the stored pages. The safety content is one pillar of nine."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/VN-01/2026-10-14/official.html",
+    "sha256": "3c07a99b26f78541ea128e0b35d60bb04488f4740912e69d5761fc7a9afb2def",
+    "locator": "lead paragraph",
+    "quote": "The Government has approved a National Strategy on Artificial Intelligence (AI) through 2030, with a vision to 2045.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/VN-01/2026-10-14/official.html",
+    "sha256": "3c07a99b26f78541ea128e0b35d60bb04488f4740912e69d5761fc7a9afb2def",
+    "locator": "lead paragraph",
+    "quote": "VGP - The Government has approved a National Strategy on Artificial Intelligence",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-01/2026-10-14/official.html",
+    "sha256": "3c07a99b26f78541ea128e0b35d60bb04488f4740912e69d5761fc7a9afb2def",
+    "locator": "section 'Nine strategic pillars'",
+    "quote": "The Decision identifies nine strategic pillars as follows:",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/VN-01/2026-10-14/official.html",
+    "sha256": "3c07a99b26f78541ea128e0b35d60bb04488f4740912e69d5761fc7a9afb2def",
+    "locator": "byline",
+    "quote": "August 29, 2026 7:40 AM GMT+7",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/VN-01/2026-10-14/official.html",
+    "sha256": "3c07a99b26f78541ea128e0b35d60bb04488f4740912e69d5761fc7a9afb2def",
+    "locator": "lead paragraph",
+    "quote": "VGP - The Government has approved a National Strategy on Artificial Intelligence (AI) through 2030",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The Government portal article of 29 Aug 2026 says the Government has approved the Strategy. A strategy approved by decision sets goals and tasks rather than rules for the public; no stored file shows it replaced or withdrawn, so 'Published (non-binding, current)' stands on 14 Oct 2026. The Decision itself, which would settle its date and any provision on replacing the 2021 strategy, is not stored.",
+  "scope_reasoning": "Borderline under the general rule in pipeline/scope-decisions.md: a strategy whose main focus is AI development and adoption, with some safety content (the 'safe and trustworthy AI governance' pillar, testing and evaluation under the data and models pillar, a culture of responsible AI use). Included with a scope_note; the earlier notes' remark that safety content is modest is an evaluation and is replaced by the scope_note.",
+  "changes": {
+   "summary": "'A culture of responsible AI use' is the fifth of six breakthrough solutions, not a pillar; 'testing and evaluation' placed in the data and AI models pillar as the article words it; 'updated' strategy dropped, since no stored page says it updates an earlier one.",
+   "notes": "Fetch remarks, the hedge on replacing Decision 127/QĐ-TTg and the evaluation 'safety content is modest' moved to verification.note and scope_note; the unrelated Law on High Technology dropped; the six breakthrough solutions added.",
+   "issuing_body": "'(Prime Minister's Decision)' is not in the stored pages, which say 'The Government has approved'; the signatory is unknown until the Decision is stored.",
+   "scope_note": "Added under the general rule for strategies with some safety content.",
+   "verification.note": "Rewritten to say what the stored files confirm."
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [
+  "The signed Prime Minister's Decision approving the National Strategy on AI through 2030, with a vision to 2045 (late Aug 2026), on vanban.chinhphu.vn or datafiles.chinhphu.vn; no URL is named in the stored files or the translation-check finding.",
+  "Gov't approves national program for AI human resources development through 2030, towards 2035 (Government portal, linked from the stored article; approval reported Aug 2026)."
+ ],
+ "open_questions": [
+  "The Decision itself is not stored and its URL is not in any stored file or in the translation-check finding, so no extra_url could be given: a collector should find the signed Decision on the Government portal (vanban.chinhphu.vn or datafiles.chinhphu.vn). Until then original_title stays null, official_identifier stays null, the date is the month of the announcement and the title is the Government portal's English wording.",
+  "Whether the Strategy replaces Decision 127/QĐ-TTg (Jan 2021) on the national AI strategy to 2030 is unknown; if it does, that earlier strategy may need a record or a note.",
+  "legal_force 'Non-binding' was left unchanged; VN-03, a Prime Minister's decision issuing a plan, is recorded as Binding. A checker may want to align the two once the Decision is stored."
+ ]
+}

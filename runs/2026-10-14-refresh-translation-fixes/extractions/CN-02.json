@@ -1,0 +1,125 @@
+{
+ "cand_id": "CN-02",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "CN-02",
+ "record": {
+  "summary": "Regulates internet information services that use 'deep synthesis' technology, defined as the use of deep learning, virtual reality and other generative or synthetic algorithms to produce text, images, audio, video, virtual scenes and other online information (25 articles). Providers must verify users' real identities, review users' inputs and synthesised outputs, and conspicuously label content that may cause public confusion or misidentification. Providers and technical supporters must run security assessments of tools that generate or edit biometric information such as faces and voices. Providers with public-opinion attributes or social-mobilisation capacity must file their algorithms.",
+  "notes": "Adopted at the CAC office meeting of 3 Nov 2022, signed 25 Nov 2022 and published 11 Dec 2022. Technical supporters must also complete algorithm filing by reference to the provider rules (Art. 19). Its labelling articles (Arts. 16 and 17) are built on by the 2025 Measures for Labeling AI-Generated and Synthetic Content (CN-09), which, with the mandatory standard GB 45438-2025 (CN-08), set more detailed labelling duties from 1 Sept 2025.",
+  "verification": {
+   "note": "CAC page stored with the full Chinese text: title, Order No. 12, three issuing bodies, adoption at the CAC office meeting of 3 Nov 2022, signing 25 Nov 2022, effective 10 Jan 2023 and all 25 articles confirmed. The secondary URL is China Law Translate's unofficial English translation (stored); the summary follows the Chinese text."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/CN-02/2026-10-11/official.html",
+    "sha256": "92e2f7b5478f9b32247276c456df0adaafa149f8f9dd8bbc6068f89e9952c0e0",
+    "locator": "page heading",
+    "quote": "互联网信息服务深度合成管理规定_中央网络安全和信息化委员会办公室",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CN-02/2026-10-11/secondary.html",
+    "sha256": "b4063dca9f9d0e55db2b58e59991782e91ac45ab71cbd338f98218602e456363",
+    "locator": "title line of the translation",
+    "quote": "Title: Provisions on the Administration of Deep Synthesis Internet Information Services",
+    "source_kind": "secondary"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/CN-02/2026-10-11/official.html",
+    "sha256": "92e2f7b5478f9b32247276c456df0adaafa149f8f9dd8bbc6068f89e9952c0e0",
+    "locator": "order No. 12, first paragraph",
+    "quote": "《互联网信息服务深度合成管理规定》已经2022年11月3日国家互联网信息办公室2022年第21次室务会议审议通过",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/CN-02/2026-10-11/official.html",
+    "sha256": "92e2f7b5478f9b32247276c456df0adaafa149f8f9dd8bbc6068f89e9952c0e0",
+    "locator": "order heading",
+    "quote": "国家互联网信息办公室 中华人民共和国工业和信息化部 中华人民共和国公安部 令",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/CN-02/2026-10-11/official.html",
+    "sha256": "92e2f7b5478f9b32247276c456df0adaafa149f8f9dd8bbc6068f89e9952c0e0",
+    "locator": "order heading",
+    "quote": "中华人民共和国公安部 令 第12号",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/CN-02/2026-10-11/official.html",
+    "sha256": "92e2f7b5478f9b32247276c456df0adaafa149f8f9dd8bbc6068f89e9952c0e0",
+    "locator": "order No. 12, signatures",
+    "quote": "公安部部长 王小洪 2022年11月25日",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/CN-02/2026-10-11/official.html",
+    "sha256": "92e2f7b5478f9b32247276c456df0adaafa149f8f9dd8bbc6068f89e9952c0e0",
+    "locator": "Art. 25",
+    "quote": "第二十五条 本规定自2023年1月10日起施行。",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/CN-02/2026-10-11/official.html",
+    "sha256": "92e2f7b5478f9b32247276c456df0adaafa149f8f9dd8bbc6068f89e9952c0e0",
+    "locator": "order No. 12, first paragraph",
+    "quote": "并经工业和信息化部、公安部同意，现予公布，自2023年1月10日起施行。",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CN-02/2026-10-11/official.html",
+    "sha256": "92e2f7b5478f9b32247276c456df0adaafa149f8f9dd8bbc6068f89e9952c0e0",
+    "locator": "Art. 25",
+    "quote": "第二十五条 本规定自2023年1月10日起施行。",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/CN-02/2026-10-11/official.html",
+    "sha256": "92e2f7b5478f9b32247276c456df0adaafa149f8f9dd8bbc6068f89e9952c0e0",
+    "locator": "Art. 22",
+    "quote": "深度合成服务提供者和技术支持者违反本规定的，依照有关法律、行政法规的规定处罚；造成严重后果的，依法从重处罚。",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Order No. 12 promulgates the Provisions with effect from 10 Jan 2023, and Art. 25 repeats the date. That date is before today (14 Oct 2026). The stored files show no amendment or repeal, and the 2025 Labeling Measures (CN-09) cite these Provisions as a legal basis (Arts. 1, 4 and 5) rather than replacing them. Status stays In force.",
+  "scope_reasoning": "In scope with no note: binding AI-specific rules on deep synthesis (generative) services.",
+  "changes": {
+   "summary": "Duties now follow the Chinese text. Identity verification (Art. 9), review of inputs and outputs (Art. 10) and labelling (Arts. 16 and 17) bind providers only; the old wording gave them to providers and technical supporters. Security assessments of biometric-editing tools (Art. 15, para. 2, item 1) bind both. Algorithm filing (Art. 19) applies only to providers with public-opinion attributes or social-mobilisation capacity. 'Deepfakes' (not in the text) replaced by the Art. 23 definition of deep synthesis technology; 'could confuse or mislead' rendered as 'may cause public confusion or misidentification' (可能导致公众混淆或者误认, Art. 17).",
+   "notes": "Removed the remark on the secondary URL (now in verification.note) and 'Still in force as of Oct 2026' (the status field carries it). Added that technical supporters file by reference (参照, Art. 19, para. 2). Named the related records CN-09 and CN-08.",
+   "verification": "Note rewritten; it now carries the remark on the secondary URL that was in notes."
+  },
+  "english_version": "Unchanged: third-party translation by China Law Translate, stored as archive/CN-02/2026-10-11/secondary.html ('By China Law Translate on 2022/12/11'). The findings and stored files show no English version by a public body.",
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "official_identifier",
+   "date_published",
+   "date_in_force",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}
