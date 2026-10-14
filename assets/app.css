@@ -298,3 +298,12 @@ code { font-family: var(--font-mono); font-size: .92em; }
   .d-head { padding-inline: 16px; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+/* record history (tools/build.py writes it into data/records.js from data/history.jsonl) */
+.hist { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.hist li { display: grid; grid-template-columns: auto 1fr; column-gap: 10px; row-gap: 2px; font-size: 13.5px; }
+.hist .hd { color: var(--ink-3); font-size: 12px; padding-top: 1px; }
+.hist .ht { color: var(--ink); overflow-wrap: anywhere; }
+.hist .hr, .hist .hq, .hist .hm { grid-column: 2; color: var(--ink-2); overflow-wrap: anywhere; }
+.hist .hq { font-style: italic; }
+.hist .hm { color: var(--ink-3); font-size: 12px; }

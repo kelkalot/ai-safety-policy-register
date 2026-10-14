@@ -1,0 +1,12 @@
+# Project settings for Codex in this repository.
+# Codex loads this file only after you mark the project as trusted.
+
+# Search the live web. The default, "cached", searches an index, and the
+# pipeline needs current pages.
+web_search = "live"
+
+sandbox_mode = "workspace-write"
+
+[sandbox_workspace_write]
+# The archiver and the pipeline scripts download from government sites.
+network_access = true

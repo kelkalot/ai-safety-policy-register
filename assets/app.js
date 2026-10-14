@@ -453,6 +453,32 @@
   function citation(r) {
     return [r.issuing_body + ".", (r.title || "") + (r.official_identifier ? " [" + r.official_identifier + "]" : "") + ".", (r.date_published || "n.d.") + ".", r.official_url ? r.official_url + "." : "", "Status: " + r.status + "; verified " + r.verification.verified_on + " (level " + r.verification.level + ").", localCite(r), "AI Safety Policy Register, snapshot " + META.snapshot_date + ", record " + r.id + "."].filter(Boolean).join(" ");
   }
+  function histText(e) {
+    var s = function (v) { if (v == null || v === "") return "–"; v = typeof v === "string" ? v : JSON.stringify(v); return v.length > 80 ? v.slice(0, 79) + "…" : v; };
+    switch (e.event) {
+      case "changed": return e.field + ": " + s(e.old) + " → " + s(e.new);
+      case "added": return "Added to the register";
+      case "re-verified": return "Re-verified against its sources, no change";
+      case "human-checked": return "Checked by a human: " + s(e.new);
+      case "scope-decision": return "Scope decision: " + s(e.new);
+      case "source-changed": return "A stored source changed";
+      default: return e.event;
+    }
+  }
+
+  function historySection(r) {
+    var H = (DB.history || {})[r.id];
+    if (!H || !H.length) return "";
+    var rows = H.slice().reverse().map(function (e) {
+      var who = e.tool ? esc(e.tool) + (e.model ? " (" + esc(e.model) + ")" : "") : "";
+      return '<li><span class="hd mono">' + esc(e.date) + '</span><span class="ht">' + esc(histText(e)) + "</span>" +
+        (e.reason ? '<span class="hr">' + esc(e.reason) + "</span>" : "") +
+        (e.quote ? '<span class="hq">“' + esc(e.quote) + "”</span>" : "") +
+        '<span class="hm">' + esc(e.run_id || "") + (who ? " · " + who : "") + (e.evidence ? " · " + e.evidence + " evidence item" + (e.evidence > 1 ? "s" : "") : "") + "</span></li>";
+    }).join("");
+    return '<div class="sec"><h3>History</h3><ol class="hist">' + rows + "</ol></div>";
+  }
+
   function openRecord(id) {
     var r = byId[id]; if (!r) return;
     if (!openId) lastFocus = document.activeElement;
@@ -487,7 +513,8 @@
       '<div class="sec"><h3>Sources</h3><div class="sources">' + srcs + "</div></div>" +
       localSection(r) +
       '<div class="sec"><h3>Verification</h3><div class="verify v-' + v.level + '"><span class="big">' + v.level + '</span><span class="vt">' + esc(VLABEL[v.level].replace(/^[ABC] · /, "")) + '</span><span class="vm">checked ' + esc(v.verified_on) + " · " + esc(v.method || "") + '</span><span class="vn">' + esc(v.note || "") + "</span>" +
-      (v.second_check ? '<span class="v2"><strong>Second check, ' + esc(META.snapshot_date) + ":</strong> " + esc(v.second_check) + "</span>" : "") + "</div></div>" +
+      (v.second_check ? '<span class="v2"><strong>Second check' + (/^Independent check/.test(v.second_check) ? "" : ", " + esc(META.snapshot_date)) + ":</strong> " + esc(v.second_check) + "</span>" : "") + "</div></div>" +
+      historySection(r) +
       (rel ? '<div class="sec"><h3>Related records</h3><div class="related">' + rel + "</div></div>" : "") +
       '<div class="sec cite"><h3>Citation</h3><textarea id="citeText" readonly aria-label="Citation text">' + esc(citation(r)) + '</textarea><div class="row-actions"><button class="btn" id="copyCite">Copy citation</button><button class="btn" id="copyUrl"' + (r.official_url ? "" : " disabled") + ">Copy official URL</button></div></div>";
     $("#drawer").hidden = false; $("#scrim").hidden = false;

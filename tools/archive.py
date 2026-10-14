@@ -25,6 +25,10 @@ that was archived before now fails, the earlier copy is kept and the record is
 flagged for review.
 
 Other modes:
+  --run RUN_ID      store the sources of a pipeline run (AGENTS.md section 5.3): every active
+                    candidate's URL and every extra_urls entry its extraction or check asked for,
+                    under archive/_runs/<RUN_ID>/<cand-id>/; refresh candidates are archived as
+                    their records. The stored files are listed in runs/<RUN_ID>/sources.json.
   --verify          re-hash every local file and flag missing or modified ones
   --dry-run         list what would be fetched, download nothing
   --browser         retry failed or suspicious pages in headless Chromium
@@ -34,6 +38,7 @@ Standard library only (Python 3.8+), except the optional --browser mode.
 """
 import argparse
 import concurrent.futures
+import copy
 import datetime as dt
 import gzip
 import hashlib
@@ -841,6 +846,94 @@ def select(db, args):
     return recs
 
 
+# ----------------------------------------------------------------------------- pipeline runs
+
+def run_dir(run_id):
+    d = ROOT / "runs" / run_id
+    if not (d / "run.json").is_file():
+        raise SystemExit("No pipeline run %r (runs/%s/run.json is missing)" % (run_id, run_id))
+    return d
+
+
+def read_json(path, default=None):
+    if not path.is_file():
+        return default
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def extra_urls(rd, cid):
+    """Further sources the extractor, the blind extractor or the checker asked for."""
+    urls = []
+    for sub in ("extractions", "extractions-blind", "checks"):
+        doc = read_json(rd / sub / ("%s.json" % cid), {}) or {}
+        for u in doc.get("extra_urls") or []:
+            u = u.get("url") if isinstance(u, dict) else u
+            if isinstance(u, str) and u.startswith(("http://", "https://")) and u not in urls:
+                urls.append(u)
+    return urls
+
+
+def select_run(db, args):
+    """Records and pseudo-records to archive for a run, and where each result belongs in sources.json."""
+    rd = run_dir(args.run)
+    cands = (read_json(rd / "candidates.json", {}) or {}).get("candidates") or []
+    if not cands:
+        raise SystemExit("runs/%s/candidates.json has no candidates; run tools/pipeline.py dedupe first" % args.run)
+    sources = read_json(rd / "sources.json", {}) or {}
+    by = {r["id"]: r for r in db["records"]}
+    only = {x.strip() for x in (args.only or "").split(",") if x.strip()}
+    recs, where = [], {}
+    for c in cands:
+        cid = c["cand_id"]
+        if c.get("status", "active") != "active" or (only and cid not in only):
+            continue
+        prev = sources.get(cid) or {}
+        title = c.get("title_as_found") or ""
+        if c.get("record_id"):
+            rec = by.get(c["record_id"])
+            if not rec:
+                print("  %s: record %s does not exist; skipped" % (cid, c["record_id"]))
+                continue
+            recs.append(rec)
+            where[id(rec)] = (cid, "main", None)
+            title = rec.get("title") or title
+        else:
+            leads = [u for u in c.get("lead_urls") or [] if isinstance(u, str)]
+            pseudo = {"id": "_runs/%s/%s" % (args.run, cid), "title": title, "short_title": title,
+                      "original_title": c.get("original_title"), "official_identifier": c.get("official_identifier"),
+                      "official_url": c.get("url"), "secondary_url": None if c.get("url") else (leads[:1] or [None])[0],
+                      "local_copy": prev.get("main")}
+            recs.append(pseudo)
+            where[id(pseudo)] = (cid, "main", None)
+        for u in extra_urls(rd, cid):
+            key = hashlib.sha256(u.encode("utf-8")).hexdigest()[:10]
+            pseudo = {"id": "_runs/%s/%s/extra-%s" % (args.run, cid, key), "title": title, "short_title": title,
+                      "official_url": u, "secondary_url": None, "local_copy": (prev.get("extras") or {}).get(u)}
+            recs.append(pseudo)
+            where[id(pseudo)] = (cid, "extra", u)
+    return rd, recs, where
+
+
+def save_run_sources(rd, recs, where):
+    path = rd / "sources.json"
+    sources = read_json(path, {}) or {}
+    for rec in recs:
+        cid, kind, url = where[id(rec)]
+        entry = sources.setdefault(cid, {"main": None, "extras": {}})
+        lc = copy.deepcopy(rec.get("local_copy"))
+        if kind == "main":
+            entry["main"] = lc
+            if not str(rec["id"]).startswith("_runs/"):
+                entry["record_id"] = rec["id"]
+        else:
+            entry.setdefault("extras", {})[url] = lc
+    tmp = path.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(sources, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    tmp.replace(path)
+    return sources
+
+
 def write_manifest(db, started, args, counts, ua):
     ARCHIVE.mkdir(exist_ok=True)
     manifest = {
@@ -939,7 +1032,8 @@ def write_attention_log(db):
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description="Download local copies of the register's sources and flag failures.")
-    ap.add_argument("--only", help="comma-separated record IDs or slugs, e.g. EU-01,US-07")
+    ap.add_argument("--only", help="comma-separated record IDs or slugs, e.g. EU-01,US-07 (with --run: candidate IDs)")
+    ap.add_argument("--run", help="store the sources of a pipeline run's candidates (runs/<RUN>/candidates.json)")
     ap.add_argument("--status", help="only records whose local status is one of these, e.g. failed,partial,not-attempted")
     ap.add_argument("--pdfs", type=int, default=2, help="max linked PDFs to save per official page (default 2, 0 = none)")
     ap.add_argument("--no-secondary", action="store_true", help="do not download secondary URLs")
@@ -966,11 +1060,16 @@ def main(argv=None):
         print("Records that need a decision: %d, listed in %s" % (todo, ATTENTION_FILE.relative_to(ROOT)))
         return 1 if n else 0
 
-    recs = select(db, args)
+    rd, where = None, {}
+    if args.run:
+        rd, recs, where = select_run(db, args)
+    else:
+        recs = select(db, args)
     if args.dry_run:
         for r in recs:
             print("%-10s %-15s official=%s secondary=%s" % (
-                r["id"], r["local_copy"]["status"], r.get("official_url"), r.get("secondary_url")))
+                r["id"], (r.get("local_copy") or {}).get("status", "not-attempted"), r.get("official_url"),
+                r.get("secondary_url")))
         print("%d records selected." % len(recs))
         return 0
 
@@ -1033,6 +1132,10 @@ def main(argv=None):
                     bf.close()
 
     build.save(db)
+    if rd is not None:
+        save_run_sources(rd, recs, where)
+        print("Stored sources listed in %s; next: python3 tools/pipeline.py textify --run %s"
+              % ((rd / "sources.json").relative_to(ROOT), args.run))
     counts = {k: v for k, v in counts.items() if v}
     write_manifest(db, started, args, counts, ua)
     todo = write_attention_log(db)

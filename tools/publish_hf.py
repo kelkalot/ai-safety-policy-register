@@ -36,6 +36,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import build  # noqa: E402
+import history  # noqa: E402
 import validate  # noqa: E402
 
 ROOT = build.ROOT
@@ -155,6 +156,8 @@ def schemas():
         "records": pa.schema(rec_fields),
         "topics": pa.schema([("record_id", s), ("topic", s)]),
         "related": pa.schema([("record_id", s), ("related_id", s)]),
+        "history": pa.schema([("date", s), ("run_id", s), ("record_id", s), ("event", s), ("field", s), ("old", s),
+                              ("new", s), ("reason", s), ("evidence", s), ("tool", s), ("model", s)]),
         "source_files": pa.schema([("record_id", s), ("role", s), ("path", s), ("url", s), ("final_url", s), ("host", s),
                                    ("http_status", i), ("content_type", s), ("bytes", i), ("sha256", s),
                                    ("retrieved_at", s), ("last_checked", s), ("method", s), ("stale", b),
@@ -230,6 +233,8 @@ configs:
   data_files: data/related.parquet
 - config_name: source_files
   data_files: data/source_files.parquet
+- config_name: history
+  data_files: data/history.parquet
 ---
 """ % PRETTY_NAME
     body = """
@@ -291,6 +296,7 @@ df.groupby(["region", "legal_force"]).size().unstack(fill_value=0)
 | `topics` | {n_topics} | instrument and safety topic |
 | `related` | {n_related} | link between two records |
 | `source_files` | {files} | stored copy of a source, with URL, hash, retrieval time and a link into the archive dataset; `redacted` marks the few published copies in which a live access token embedded by the source site was replaced |
+| `history` | {n_history} | event in a record's history: added, a field changed, re-verified without change, checked by a human, a scope decision; `old`, `new` and `evidence` are JSON text. `HISTORY.md` is the readable version |
 
 `raw/records.json` is the full nested source of truth, with the complete verification and local-copy history of each record. `raw/records.csv` and `raw/register.xlsx` hold the same records for spreadsheets.
 
@@ -445,6 +451,7 @@ def build_all(out, ns, name, github_url):
     records, topics, related, files, plan = tables(db, repo_url + "-archive")
     st = stats(db, files)
     st["n_topics"], st["n_related"] = len(topics), len(related)
+    st["n_history"] = len(history.load())
     if out.exists():
         shutil.rmtree(out)
     ds, ar, sp = out / "dataset", out / "archive", out / "space"
@@ -456,10 +463,19 @@ def build_all(out, ns, name, github_url):
     write_parquet(topics, ds / "data" / "topics.parquet", sch["topics"])
     write_parquet(related, ds / "data" / "related.parquet", sch["related"])
     write_parquet(files, ds / "data" / "source_files.parquet", sch["source_files"])
+    hist = []
+    for e in history.load():
+        row = {k: e.get(k) for k in history.KEYS}
+        for k in ("old", "new", "evidence"):
+            row[k] = None if row[k] is None else (row[k] if isinstance(row[k], str) else json.dumps(row[k], ensure_ascii=False))
+        hist.append(row)
+    write_parquet(hist, ds / "data" / "history.parquet", sch["history"])
     (ds / "raw").mkdir()
-    for f in ("records.json", "records.csv", "register.xlsx"):
+    for f in ("records.json", "records.csv", "register.xlsx", "history.jsonl"):
         if (ROOT / "data" / f).is_file():
             shutil.copy2(ROOT / "data" / f, ds / "raw" / f)
+    if (ROOT / "HISTORY.md").is_file():
+        shutil.copy2(ROOT / "HISTORY.md", ds / "HISTORY.md")
     shutil.copy2(ROOT / "AGENTS.md", ds / "AGENTS.md")
     if (ROOT / "docs").is_dir():
         shutil.copytree(ROOT / "docs", ds / "docs")

@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "Bash(python3 tools/*)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(git checkout -b run/*)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ],
+    "deny": [
+      "Bash(git push)",
+      "Bash(git push *)"
+    ]
+  }
+}
