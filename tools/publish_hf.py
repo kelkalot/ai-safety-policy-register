@@ -663,14 +663,41 @@ def release_checks(db, st, out, ns, name, prev, api):
             if p.is_file() and p.suffix.lower() in (".html", ".htm", ".txt", ".json", ".xml", ".js") and live_tokens(p.read_bytes())]
     if live:
         problems.append("live access tokens in the built archive: %s" % ", ".join(live[:5]))
-    # a token that can write
+    # a token that can write to all three repositories
     try:
         tok = (api.whoami().get("auth") or {}).get("accessToken") or {}
-        if tok.get("role") == "read":
-            problems.append("the Hugging Face token is read-only")
+        repos = ["%s/%s" % (ns, name), "%s/%s-archive" % (ns, name), "%s/%s" % (ns, name)]
+        cannot = token_cannot_write(tok, ns, repos)
+        if cannot:
+            problems.append("the Hugging Face token %r cannot write to %s; use a token with write access to the "
+                            "dataset, the archive and the Space" % (tok.get("displayName") or "", ", ".join(sorted(set(cannot)))))
     except Exception as e:
         problems.append("no usable Hugging Face token (%s)" % type(e).__name__)
     return problems
+
+
+def token_cannot_write(tok, ns, repos):
+    """The repositories a token cannot write to. Classic tokens: role 'write' or 'admin' writes everywhere. Fine-grained
+    tokens: a write permission scoped to the namespace (user or organisation) or to the repository itself."""
+    role = tok.get("role")
+    if role in ("write", "admin"):
+        return []
+    if role != "fineGrained":
+        return list(repos)
+    fg = tok.get("fineGrained") or {}
+    writes = lambda perms: any(x.endswith(".write") and x.startswith("repo") for x in perms or [])  # noqa: E731
+    if writes(fg.get("global")):
+        return []
+    out = []
+    for repo in repos:
+        ok = False
+        for sc in fg.get("scoped") or []:
+            ent = sc.get("entity") or {}
+            if writes(sc.get("permissions")) and ent.get("name") in (ns, repo):
+                ok = True
+        if not ok:
+            out.append(repo)
+    return out
 
 
 def push(out, ns, name, private, only=("dataset", "archive", "space"), squash_archive=False, label=None):
