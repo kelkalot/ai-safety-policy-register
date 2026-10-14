@@ -272,6 +272,7 @@ The records are an **AI-based extraction**. AI agents researched each instrument
 | Other tools | a Python archiver that stores each source with its SHA-256 hash, headless Chromium for pages that need JavaScript, pypdf and Tesseract OCR for PDF text |
 | Research dates | 11 and 12 October 2026, in twelve research passes and two quality checks; `meta.provenance` in `raw/records.json` logs them |
 | Human review | Michael Riegler checked 50 randomly chosen records by hand and found no problems |
+| Updates | The maintainers rerun the pipeline over the full register at least once a month; each run is recorded in the history |
 
 Agents are what made this register possible: {n} instruments from {countries} countries, each checked against its official source and stored with a hash, in two days. They also make it repeatable. The method is written down in `AGENTS.md`, complete enough for another agent to follow, so anyone can extend the register, re-verify it after laws change, or rerun the method with a different model and compare the results. Every record carries its evidence, so checking a record does not depend on trusting whoever wrote it. A rerun gives comparable records, not identical ones, because language models are not deterministic.
 
