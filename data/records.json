@@ -1,7 +1,7 @@
 {
  "meta": {
   "name": "AI Safety Policy Register",
-  "version": "1.7",
+  "version": "1.8",
   "snapshot_date": "2026-10-12",
   "record_count": 340,
   "scope": "Official governmental and intergovernmental AI safety and AI regulation instruments (core safety + regulation), global coverage.",
@@ -281,6 +281,46 @@
       "SK-02"
      ],
      "history_events": 136
+    },
+    {
+     "date": "2026-10-14",
+     "agent": "Claude Code",
+     "model": "claude-opus-5-5",
+     "scope": "pipeline run 2026-10-14-refresh-translation-fixes (refresh: ids:CN-02,CN-07,CN-09,CN-11,CN-12,CN-13,CN-16,JP-01,JP-03,JP-04,JP-05,KR-02,KR-03,KR-04,KR-05,KR-06,KR-07,KR-08,VN-02,VN-03,VN-04,VN-05,VN-06,BR-02,DK-02,HU-02,LV-03,OM-01,PE-02,RS-02,SI-01,TH-03,TR-02,CN-06,CN-08,CN-10,CN-15,CN-17,JP-02,JP-06,KR-01,VN-01,VN-07,IT-01,MX-01,SK-02)",
+     "run_id": "2026-10-14-refresh-translation-fixes",
+     "stages": {
+      "collect": {
+       "tool": null,
+       "model": null,
+       "date": null
+      },
+      "extract": {
+       "tool": "Claude Code",
+       "model": "claude-opus-5-5",
+       "date": "2026-10-14"
+      },
+      "blind": {
+       "tool": "Claude Code",
+       "model": "claude-opus-5-5",
+       "date": "2026-10-14"
+      },
+      "check": {
+       "tool": "Claude Code",
+       "model": "claude-sonnet-5-5",
+       "date": "2026-10-14"
+      }
+     },
+     "records_added": 0,
+     "ids": [],
+     "ids_updated": [
+      "KR-02",
+      "BR-02",
+      "DK-02",
+      "TH-03",
+      "CN-08",
+      "MX-01"
+     ],
+     "history_events": 27
     }
    ]
   }
@@ -9493,8 +9533,8 @@
   {
    "id": "BR-02",
    "slug": "br-tse-res-23732-2024",
-   "title": "Superior Electoral Court Resolution No. 23,732 of 27 February 2024 (amending Resolution 23,610/2019 on electoral propaganda: AI and synthetic content rules)",
-   "original_title": "Resolução nº 23.732, de 27 de fevereiro de 2024 (altera a Res.-TSE nº 23.610/2019)",
+   "title": "Superior Electoral Court Resolution No. 23,732 of 27 February 2024 amending TSE Resolution No. 23,610 of 18 December 2019 on electoral propaganda",
+   "original_title": "Resolução nº 23.732, de 27 de fevereiro de 2024 – Altera a Res.-TSE nº 23.610, de 18 de dezembro de 2019, dispondo sobre a propaganda eleitoral",
    "short_title": "TSE AI / deepfake election rules",
    "jurisdiction": "Brazil",
    "country": "Brazil",
@@ -9505,13 +9545,13 @@
    "legal_force": "Binding",
    "status": "In force",
    "date_published": "2024-02-27",
-   "date_in_force": null,
+   "date_in_force": "2024-03-04",
    "date_last_updated": null,
    "official_identifier": "Res.-TSE nº 23.732/2024",
    "official_url": "https://www.tse.jus.br/legislacao/compilada/res/2024/resolucao-no-23-732-de-27-de-fevereiro-de-2024",
    "secondary_url": null,
    "language": "Portuguese",
-   "summary": "Requires explicit labelling of AI-generated synthetic content in election advertising, bans deepfakes of real, deceased or fictitious persons used to harm or favour candidates (even with consent), bars chatbots or avatars that simulate conversation with candidates, and makes platforms jointly liable if they fail to remove non-compliant AI content; violations can lead to loss of registration or mandate.",
+   "summary": "Amends TSE Resolution 23,610/2019 on electoral propaganda. Propaganda using AI-generated synthetic content must say so explicitly, prominently and accessibly, naming the technology. Campaign chatbots and avatars are subject to the same duty and may not simulate dialogue with the candidate or another real person. Deepfakes of a living, deceased or fictitious person's image or voice used to harm or favour a candidacy are banned even with consent, on pain of loss of registration or mandate. Application providers are jointly and severally liable, civilly and administratively, if during the electoral period they do not immediately remove AI-manipulated content breaching the labelling rules.",
    "safety_topics": [
     "deepfakes & synthetic media",
     "transparency & labelling",
@@ -9523,13 +9563,13 @@
      "id": "BR-01"
     }
    ],
-   "notes": "Signed 27 Feb 2024; published in DJE-TSE no. 29 of 4 Mar 2024; applied to the 2024 municipal elections.",
+   "notes": "Adopted on 27 February 2024 (rapporteur Minister Cármen Lúcia) and published in DJE-TSE no. 29 of 4 March 2024, pp. 132-145; in force on publication (Art. 6). Besides the AI rules in new Articles 9-B, 9-C and 9-E, it adds definitions of artificial intelligence and synthetic content to Article 37 of Resolution 23,610/2019 and new duties for application providers (Art. 9-D), including measures against notoriously untrue or seriously decontextualised content and an election-year assessment of their services' impact on the integrity of the electoral process. The labelling duty does not cover image or sound quality adjustments, graphic identity elements and customary campaign photo montages (Art. 9-B § 2).",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-14",
     "method": "official-url-fetched",
-    "note": "TSE consolidated-legislation page confirms title, date, DJE publication 4 Mar 2024 and arts. 9-B, 9-C, 9-E on AI/synthetic content and deepfakes. Whether the TSE revised these rules for the Oct 2026 general elections was not checked this session.",
-    "second_check": null
+    "note": "The TSE compiled-legislation page for the resolution was stored; it holds the full Portuguese text, the adoption line of 27 Feb 2024 and the reference to DJE-TSE no. 29 of 4 Mar 2024, pp. 132-145, and Art. 6 (in force on official publication), from which date_in_force is taken. The earlier note that the rules applied to the 2024 municipal elections is not in the stored text and was removed from the notes. Whether the TSE has amended these rules since, for example for the October 2026 general elections, is not shown by the stored page. No English text by the TSE or another public body was found.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 10 field(s) supported."
    },
    "local_copy": {
     "status": "archived",
@@ -11946,7 +11986,7 @@
    "country": "China",
    "jurisdiction_level": "National",
    "region": "East Asia",
-   "issuing_body": "State Administration for Market Regulation / Standardization Administration of China (competent department: Office of the Central Cyberspace Affairs Commission; drafted by TC260)",
+   "issuing_body": "State Administration for Market Regulation / Standardization Administration of China (competent department: Office of the Central Cyberspace Affairs Commission; work carried out by TC260)",
    "instrument_type": "Technical standard",
    "legal_force": "Binding",
    "status": "In force",
@@ -11972,13 +12012,13 @@
      "id": "CN-02"
     }
    ],
-   "notes": "Published 28 Feb 2025, publicly released with the Labeling Measures on 14 Mar 2025, and effective 1 Sept 2025. It is a mandatory 'GB' standard, not a recommended 'GB/T' one. The official English title on the SAMR platform is 'Cybersecurity technology—Labeling method for content generated by artificial intelligence'.",
+   "notes": "Published 28 Feb 2025 and effective 1 Sept 2025, the same day as the Measures for Labeling AI-Generated and Synthetic Content (CN-09), whose Art. 11 requires labelling to also meet mandatory national standards. It is a mandatory 'GB' standard, not a recommended 'GB/T' one. The Chinese title covers content generated and synthesised by AI (人工智能生成合成内容); the official English title shortens this to 'content generated by artificial intelligence'. An English-language edition, translated under TC260, was published on 30 Jan 2026.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-14",
     "method": "official-url-fetched",
-    "note": "SAMR openstd and std.samr pages fetched: number, titles, status 现行 (in force), published 2025-02-28, implemented 2025-09-01, mandatory, CAC as competent department and TC260 as technical committee all confirmed.",
-    "second_check": null
+    "note": "SAMR openstd page (official) and std.samr page stored: number, Chinese and English titles, status 现行 (current), mandatory (强制性), published 2025-02-28, implemented 2025-09-01, the Office of the Central Cyberspace Affairs Commission as competent department and TC260 as executing committee confirmed. The std.samr listing of the English-language edition (published 2026-01-30) is stored, but not its text. The standard's own text is not stored: the online-preview URL returned the same catalogue page, so the summary's description of explicit and implicit labelling methods and its link to the Labeling Measures rest on the 11 Oct 2026 pass. A joint public release with the Labeling Measures on 14 Mar 2025 is in no stored file.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 10 field(s) supported."
    },
    "local_copy": {
     "status": "archived",
@@ -12088,6 +12128,11 @@
       "method": "http"
      }
     ]
+   },
+   "english_version": {
+    "kind": "government translation",
+    "url": "https://std.samr.gov.cn/gfs/search/gfsDetailed?id=49FD67338933DAE4E06397BE0A0A7167",
+    "by": "Standardization Administration of China national standards platform (English edition prepared under TC260; translated by the China Electronics Standardization Institute and others)"
    }
   },
   {
@@ -14077,7 +14122,7 @@
   {
    "id": "DK-02",
    "slug": "dk-deepfake-copyright-bill-2026",
-   "title": "Bill amending the Copyright Act to protect against sharing of realistic digital imitations (deepfakes) of personal characteristics and performances",
+   "title": "Bill amending the Copyright Act (introduction of performance protection and protection against digitally generated imitations, etc.)",
    "original_title": "Forslag til lov om ændring af ophavsretsloven (værn mod digitale efterligninger)",
    "short_title": "Danish deepfake (digital imitation) bill",
    "jurisdiction": "Denmark",
@@ -14091,14 +14136,13 @@
    "date_published": "2026-10-08",
    "date_in_force": null,
    "date_last_updated": null,
-   "official_identifier": "TRIS notification 2025/0654/DK (draft)",
+   "official_identifier": "TRIS notification 2025/0654/DK",
    "official_url": "https://kum.dk/aktuelt/nyheder/kulturminister-vil-daemme-op-for-delinger-af-digitale-efterligninger-fra-aarsskiftet",
    "secondary_url": "https://intellectual-property-helpdesk.ec.europa.eu/news-events/news/denmarks-proposed-copyright-rules-deepfakes-2026-06-01_en",
    "language": "Danish",
-   "summary": "Would make it unlawful to share realistic digital imitations (deepfakes) of a person's appearance or voice, or of performers' performances, without consent. Exceptions cover caricature, satire, parody and social criticism, but not misinformation that could seriously harm others' rights or interests. The aim is to give people a copyright-based right over their own body and voice and to get platforms to remove such content quickly.",
+   "summary": "Would amend the Copyright Act to make it unlawful to share realistic digitally generated imitations of a person's personal characteristics, such as appearance and voice, or of performing artists' performances, without consent. An exception covers caricature, parody, satire and criticism of power and society, but not imitations that are misinformation able to seriously endanger others' rights or essential interests or to create a concrete danger to life or property. The bill also protects performances that are not artistic works, such as improvisations, and aims to secure the right to one's own body and voice and to get the tech giants to take manipulated content down quickly.",
    "safety_topics": [
     "deepfakes & synthetic media",
-    "transparency & labelling",
     "accountability & liability"
    ],
    "related": [
@@ -14107,13 +14151,13 @@
      "id": "DK-01"
     }
    ],
-   "notes": "Implements a political agreement of 26 Jun 2025. An earlier draft was notified to the EU TRIS procedure (2025/0654/DK; the Commission commented on 3 Feb 2026) with planned entry into force on 1 Jul 2026, but it was not enacted in time. Culture Minister Zenia Stampe introduced the bill in the new parliamentary session on 8 Oct 2026, aiming for entry into force around the turn of the year 2026/27. The Folketing bill number was not verified.",
+   "notes": "Implements the political agreement of 26 June 2025 between the then SVM government (Social Democrats, Venstre and Moderates) and six other parties to create protection against the sharing of digital imitations by amending the Copyright Act. A draft was notified under the EU TRIS procedure as 2025/0654/DK (received 31 October 2025, replacing the withdrawn notification 2025/642/DK; standstill to 3 February 2026, with comments from the Commission). The notified draft would add a Section 73a (personal characteristics) and a Section 65a (performances and artistic presentations) to the Copyright Act, protect both until 50 years after the year of death of the person imitated or the performer, let courts order infringing copies removed from the medium where they are made available, and enter into force on 1 July 2026; its exception did not yet mention danger to life or property. Culture Minister Zenia Stampe introduced the bill on 8 October 2026 and hopes it can enter into force at the turn of the year 2026/27. The bill also changes the rules of the Copyright Licence Tribunal (Ophavsretslicensnævnet) so that the same dispute cannot run before the tribunal and the courts in parallel. The English title is that of the notified draft.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-14",
     "method": "official-url-fetched",
-    "note": "kum.dk press release of 8 Oct 2026 fetched (bill content, target date, 26 Jun 2025 agreement); EC IP Helpdesk page (1 Jun 2026) fetched for TRIS number and earlier planned date.",
-    "second_check": null
+    "note": "Stored: the Ministry of Culture press release of 8 Oct 2026 (kum.dk, Danish), which describes the bill as introduced and is not the bill text; the TRIS notification page for 2025/0654/DK and the English text of the notified draft on TRIS (European Commission); and the EU IP Helpdesk news item of 1 Jun 2026 (English, stored as a secondary source). The summary rests on the press release; the notes on the notified draft rest on the TRIS English text, which may differ from the bill as introduced (the press release's exception adds danger to life or property). No stored file contains the Danish title, so original_title ('Forslag til lov om ændring af ophavsretsloven (værn mod digitale efterligninger)') is unverified and probably not the official wording, and the Folketing bill number is not known; a Folketing (ft.dk) page for the bill has not been located.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 8 field(s) supported, fixes applied to scope_note."
    },
    "local_copy": {
     "status": "archived",
@@ -14224,7 +14268,13 @@
       "method": "http"
      }
     ]
-   }
+   },
+   "english_version": {
+    "kind": "government translation",
+    "url": "https://technical-regulation-information-system.ec.europa.eu/en/notification/27420/text/D/EN",
+    "by": "European Commission (TRIS), English text of the draft notified as 2025/0654/DK"
+   },
+   "scope_note": "Copyright-law bill whose operative effect is a right against deepfakes; fits section 10 as a non-AI-specific law that is the operative instrument for a deepfake question. A scope_note is advisable."
   },
   {
    "id": "FI-01",
@@ -20271,21 +20321,19 @@
    "status": "In force",
    "date_published": "2025-01-21",
    "date_in_force": "2026-01-22",
-   "date_last_updated": null,
+   "date_last_updated": "2026-01-20",
    "official_identifier": "Act No. 20676",
    "official_url": "https://www.law.go.kr/법령/인공지능발전과신뢰기반조성등에관한기본법",
    "secondary_url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=71019&lang=ENG",
    "language": "Korean",
-   "summary": "Comprehensive AI framework law with binding obligations. Operators of high-impact or generative AI must notify users in advance that AI is used, label generative AI outputs, and clearly mark realistic synthetic media (Art. 31). Operators of AI trained with compute above a decree-set threshold must identify, assess and mitigate risks across the life cycle and run incident monitoring and response (Art. 32). High-impact AI operators must confirm high-impact status, adopt risk management, explainability, user protection and human oversight measures, and should conduct fundamental-rights impact assessments (Arts. 33–35). Foreign operators above thresholds must appoint a domestic agent (Art. 36), and the Act provides the legal basis for the AI Safety Institute (Art. 12).",
+   "summary": "AI business operators must tell users in advance that a product or service runs on high-impact or generative AI, mark generative AI outputs, and give notice of or mark outputs hard to tell from reality (Art. 31). Operators of AI systems trained with cumulative compute at or above a decree threshold must identify, assess and mitigate risks over the life cycle, monitor and respond to safety incidents and report to the Minister (Art. 32). For high-impact AI, operators must review in advance whether their AI qualifies (Art. 33), take risk management, explanation, user protection and human oversight measures (Art. 34) and endeavour to assess impacts on fundamental rights (Art. 35).",
    "safety_topics": [
     "risk-based classification",
     "general-purpose / frontier AI",
     "transparency & labelling",
     "deepfakes & synthetic media",
     "human oversight",
-    "safety institute",
-    "accountability & liability",
-    "incident reporting"
+    "safety institute"
    ],
    "related": [
     {
@@ -20317,13 +20365,13 @@
      "id": "KR-08"
     }
    ],
-   "notes": "Passed by the National Assembly on 26 Dec 2024, consolidating 19 bills (per OECD.AI). Promulgated 21 Jan 2025 and in force one year later, on 22 Jan 2026 (Addenda Art. 1); the digital medical device part of Art. 2(4)(d) applies from 24 Jan 2026. Enforcement powers include fact-finding investigations and stop or correction orders (Art. 40). Administrative fines of up to KRW 30 million apply for failing to give AI notice, failing to appoint a domestic agent, or ignoring orders (Art. 43). Details such as the compute threshold and high-impact criteria are set by Presidential Enforcement Decree.",
+   "notes": "Promulgated on 21 Jan 2025 as Act No. 20676 and in force one year later, on 22 Jan 2026 (Addenda Art. 1); the digital medical device part of Art. 2(4)(d) applies from 24 Jan 2026. Act No. 21311 of 20 Jan 2026 amended it from 22 Jan 2026, renaming the National AI Committee the National AI Strategy Committee (Art. 7); its provisions on AI-vulnerable groups (Art. 3(5)), support for AI use costs (Art. 17-2), a state AI research body (Art. 22-3) and reflecting AI-vulnerable groups in impact assessments (Art. 35(1)) took effect six months after promulgation, on 21 Jul 2026. Art. 12 provides for the AI Safety Institute (KR-01). The Act applies to acts abroad that affect the Korean market or users and excludes decree-designated AI used only for defence or national security (Art. 4). Foreign operators above decree thresholds must designate a domestic agent (Art. 36). Enforcement powers include fact-finding investigations and stop or correction orders (Art. 40); administrative fines of up to KRW 30 million apply for failing to give the prior notice of Art. 31(1), failing to designate a domestic agent, or ignoring such orders (Art. 43).",
    "verification": {
-    "level": "B",
-    "verified_on": "2026-10-11",
-    "method": "alternative-official-url-fetched",
-    "note": "law.go.kr blocks automated fetching (robots.txt). The KLRI English statute page (Korea Legislation Research Institute) was fetched instead: Act No. 20676 of 21 Jan 2025, MSIT as ministry, article contents and the Addenda (in force 1 year after promulgation) confirmed. OECD.AI entry fetched: passage 26 Dec 2024 and entry into force January 2026. Not confirmed on a fetched page: Details such as the compute threshold and high-impact criteria are set by Presidential Enforcement Decree. (Details such as the compute threshold and high-impact criteria are set by Presidential Enforcement Decree; we could not verify the decree's number, date or contents, or any reported grace period for fines, because law.go.kr and msit.go.kr block automated fetching.)",
-    "second_check": null
+    "level": "A",
+    "verified_on": "2026-10-14",
+    "method": "official-url-fetched",
+    "note": "Stored on 14 Oct 2026: the full current Korean text on law.go.kr (browser-rendered lsInfoP page, Act No. 21311, in force 21 Jul 2026, with the addenda of Acts No. 20676, 21065 and 21311), and KLRI's parallel Korean-English text and English text of Act No. 20676 as enacted. The earlier law.go.kr copies hold only the Act's name and the first articles. Summary and notes were rewritten from the Korean text in October 2026. KLRI's translation is a reference translation of the Act as enacted and does not reflect the 2026 amendment. Passage by the National Assembly on 26 Dec 2024, consolidating 19 bills, comes from the OECD.AI entry, which is not stored.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 7 field(s) supported."
    },
    "local_copy": {
     "status": "archived-review",
@@ -20528,7 +20576,7 @@
    },
    "english_version": {
     "kind": "government translation",
-    "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=71019&lang=ENG",
+    "url": "https://elaw.klri.re.kr/eng_service/lawViewContent.do?hseq=71019",
     "by": "Korea Legislation Research Institute (KLRI)"
    }
   },
@@ -33594,13 +33642,13 @@
     "deepfakes & synthetic media"
    ],
    "related": [],
-   "notes": "One of several dozen AI bills pending in the Mexican Congress; as of October 2026 no general federal AI law has been adopted. The Senate gazette file is titled 'Ley Nacional de Inteligencia Artificial', whereas counsel refers to a 'Ley Nacional para Regular el Uso de la Inteligencia Artificial'; the gazette title is used here. Press reports also describe a draft 'Ley General para Regular y Fomentar la Inteligencia Artificial' prepared by the Senate AI commission (reported 223 articles) that had not been voted by the close of the April 2026 session and is said to depend on a prior constitutional reform of articles 3 and 73; it is not recorded separately. No committee action on this initiative was found. Published in the Gaceta del Senado of 11 February 2026 (LXVI Legislature, second year).",
+   "notes": "Presented in the Senate on 11 February 2026 by Sen. Karina Isabel Ruiz Ruiz (Morena) and referred to the joint committees on Legislative Studies and on the Analysis, Monitoring and Evaluation of AI in Mexico.",
    "verification": {
-    "level": "B",
-    "verified_on": "2026-10-12",
-    "method": "alternative-official-url-fetched",
-    "note": "Fetched the Secretaría de Gobernación's Sistema de Información Legislativa (SIL) tracking report for the initiative, found through the SIL's own site search; senado.gob.mx, infosen.senado.gob.mx and comunicacionsocial.senado.gob.mx still returned HTTP 403 to both fetch methods. The SIL record confirms the initiative 'Que expide la Ley Nacional de Inteligencia Artificial', presented in the Senate on 11 Feb 2026 (LXVI Legislature, second year, second ordinary period) by Sen. Karina Isabel Ruiz Ruiz (Morena), referred to joint committees including Estudios Legislativos, Primera, with the referral published in the Senate Gazette of 11 Feb 2026, and the status 'pendiente en comisión(es) de origen'. The SIL states that its contents are informational and lack official validity, so the level is B; the bill's content still rests on the Basham alert.",
-    "second_check": null
+    "level": "C",
+    "verified_on": "2026-10-14",
+    "method": "search-confirmed",
+    "note": "CAUTION: the title, date and status rest on a secondary source. Stored: a legislative alert by the law firm Basham (26 February 2026, in English), which describes the initiative presented on 11 February 2026 by Sen. Karina Isabel Ruíz Ruíz, its referral to the joint committees and its content (regulatory agency, risk classification, provider obligations, prohibitions, deepfakes, sanctions); the summary rests on that alert. The alert links the Senate gazette PDF of the initiative (file 'Ini_Morena_Sen_Karina_Ruiz_Expide_Ley_Nacional_de_Inteligencia_Artificial.pdf'), which is not yet stored, so original_title and the Spanish wording of the bill are not confirmed by a stored copy. The alert calls the bill the National Law to Regulate the Use of Artificial Intelligence, while the gazette file name has 'Expide Ley Nacional de Inteligencia Artificial'; the gazette wording is used. The Secretaría de Gobernación's SIL tracking report (official_url) was read on 12 October 2026 and gave the status 'pendiente en comisión(es) de origen', but could not be stored because its TLS certificate could not be verified. Not confirmed by any stored copy: that the bill is one of several dozen AI bills pending in Congress and that no general federal AI law had been adopted by October 2026; and press reports of a separate draft 'Ley General para Regular y Fomentar la Inteligencia Artificial' prepared by the Senate AI commission (223 articles, not voted by the close of the April 2026 session, said to depend on a reform of constitutional articles 3 and 73), which is not recorded separately. No committee action on this initiative appears in the stored copy.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 6 field(s) supported, fixes applied to notes."
    },
    "local_copy": {
     "status": "partial",
@@ -44693,8 +44741,8 @@
   {
    "id": "TH-03",
    "slug": "thailand-digital-thailand-ai-ethics-guideline",
-   "title": "Digital Thailand – AI Ethics Guideline (Thailand AI Ethics Principles and Guideline)",
-   "original_title": "แนวปฏิบัติจริยธรรมปัญญาประดิษฐ์ (Digital Thailand - AI Ethics Guideline)",
+   "title": "Digital Thailand - AI Ethics Guideline",
+   "original_title": "Digital Thailand - AI Ethics Guideline",
    "short_title": "Thailand AI Ethics Guideline (MDES)",
    "jurisdiction": "Thailand",
    "country": "Thailand",
@@ -44711,7 +44759,7 @@
    "official_url": "https://www.etda.or.th/getattachment/9d370f25-f37a-4b7c-b661-48d2d730651d/Digital-Thailand-AI-Ethics-Principle-and-Guideline.pdf.aspx?lang=th-TH",
    "secondary_url": null,
    "language": "Thai",
-   "summary": "Thailand's national AI ethics principles and practice guideline, prepared under the Ministry of Digital Economy and Society. It is addressed to researchers, designers, developers and providers of AI as a guide for their work, to users so that they know their rights and the risks of AI services, and to state agencies and regulators as a basis for promoting, supporting and supervising AI, so that AI is trustworthy, secure, beneficial to people, society and the environment, transparent, inclusive and fair, and consistent with law, ethics and human rights. It reviews foreign frameworks (OECD, EU, Singapore, Dubai), sets out six AI ethics principles and gives practice guidelines for each.",
+   "summary": "Thailand's AI ethics principles and guidelines, prepared under the Ministry of Digital Economy and Society. They guide AI researchers, designers, developers and service providers in their work, let service recipients know their rights and the risks of AI services, and give state agencies and AI regulators a basis for promoting, supporting and supervising AI, so AI is reliable and secure and benefits people, society and the environment with transparency, inclusiveness and fairness, in line with law, ethics and human rights. After reviewing foreign and corporate frameworks, it sets six principles with guidance under each for state agencies and regulators, developers and providers, and users.",
    "safety_topics": [
     "transparency & labelling",
     "accountability & liability",
@@ -44727,13 +44775,13 @@
      "slug": "thailand-draft-act-on-artificial-intelligence-2026"
     }
    ],
-   "notes": "The 46-page document hosted by ETDA is undated. It cites the Ministry's strategy for B.E. 2563-2567 (2020-2024), so it is not earlier than 2020; a university mirror file is dated December 2020 and catalogue records and the OECD.AI Policy Navigator give 2021. The six principles it sets out (competitiveness and sustainability; law and ethics; transparency and accountability; security and privacy; fairness; reliability) were later carried into ETDA's 2023 AI Governance Guideline for Executives. A first draft of the ethics framework was reported in 2019. The guideline has no enforcement mechanism; Thailand's binding AI framework is still at the stage of the 2026 draft Act on Artificial Intelligence.",
+   "notes": "The 46-page document hosted by ETDA is undated. Its cover title is in English only; in its Thai text the document calls itself 'เอกสารหลักการและแนวทางจริยธรรมปัญญาประดิษฐ์' (AI ethics principles and guidelines document). The most recent sources it cites date from 2019, and it refers to the Ministry's strategy for B.E. 2563-2567 (2020-2024). Its six principles are Competitiveness and Sustainability Development; Laws, Ethics and International Standards; Transparency and Accountability; Security and Privacy; Fairness; and Reliability. They were later carried into ETDA's 2023 AI Governance Guideline for Executives. Its review covers OECD, Council of Europe, European Commission, Smart Dubai, Singapore PDPC, Microsoft and Beijing AI principles. The guideline has no enforcement mechanism; Thailand's binding AI framework is still at the stage of the 2026 draft Act on Artificial Intelligence.",
    "verification": {
     "level": "B",
-    "verified_on": "2026-10-12",
+    "verified_on": "2026-10-14",
     "method": "alternative-official-url-fetched",
-    "note": "The PDF hosted on the ETDA (government agency) website fetched and read with pdftotext: introduction, table of contents and parts of the study section. The document confirms the title, purpose, audiences and structure (study and analysis, AI ethics principles, AI ethics guidelines, glossary, references). Its cover and attribution are not text-extractable and it carries no date, so the issuing office and year rest on the register's existing TH-02 record, library catalogue records and secondary descriptions; level B rather than A for that reason.",
-    "second_check": null
+    "note": "Stored: the 46-page PDF hosted on the website of ETDA, a government agency under the Ministry of Digital Economy and Society, read through its text layer (the layer splits the Thai vowel sara am and garbles the headings, and quotes keep these artifacts). It confirms the English title in the running header, the Thai self-designation, the purpose, audiences, structure, the six principles and the guidance by audience. The cover is an image without a text layer: viewed as an image, it reads 'Digital Thailand AI ETHICS GUIDELINE' and 'Ministry of Digital Economy and Society' and carries no date and no Thai title. The attribution to the Office of the National Digital Economy and Society Commission is not in the stored copy. Not confirmed by any stored copy: a December 2020 date on a university mirror file, the 2021 date given by catalogue records and the OECD.AI Policy Navigator, and a first draft of the ethics framework in 2019.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 7 field(s) supported, fixes applied to original_title, notes."
    },
    "local_copy": {
     "status": "archived",

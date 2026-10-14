@@ -1,0 +1,414 @@
+{
+ "about": "Open questions the pipeline cannot settle, each a GitHub issue (AGENTS.md section 7.7). Written by tools/pipeline.py questions; decisions are applied with --apply and recorded in data/history.jsonl.",
+ "questions": [
+  {
+   "key": "record:COE-01@2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+   "kind": "record",
+   "subject": "COE-01",
+   "run_id": "2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+   "held_back": true,
+   "why": "extractor: needs-human: the stored EU documents (Council 9718/25 ADD 1, Decisions (EU) 2024/2218 and 2026/1080) support the Convention's title, the date of 5 Sep 2024, its adoption by the Committee of Ministers on 17 May 2024, the Article 30 entry-into-force rule and the EU's approval of 21 Apr 2026. They cannot show whether five signatories, at least three of them CoE member States, had ratified by 30 Jun 2026, which is what entry into force on or before 14 Oct 2026 would require. Every CoE source (www.coe.int, rm.coe.int, the record's own URLs) returned HTTP 403. A human should check the CoE Treaty Office chart of signatures and ratifications for the treaty and confirm or change status and date_in_force.; official_identifier 'CETS No. 225' is not in any stored file; it rests on the 11 Oct 2026 pass.; date_last_updated is 2026-05-15, the EU ratification date. Under AGENTS.md 5.6 the field is for the last amendment or new version, and one Party's ratification is neither, so it should probably become null, with the ratification kept in the notes. The stored Decision 2026/1080 dates the EU's approval 21 Apr 2026 (published in OJ L 13 May 2026); the 15 May 2026 deposit in the notes is not in any stored file.; If the human confirms the status, the three EU documents can serve as the record's alt-official evidence (level B). Level A needs a stored CoE page.",
+   "records": [
+    "COE-01"
+   ],
+   "state": "open",
+   "issue": 6,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/6",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "record:INT-15@2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+   "kind": "record",
+   "subject": "INT-15",
+   "run_id": "2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+   "held_back": true,
+   "why": "checker: The extracted changes are well supported (signing, 29 founding members, 31 Jul close of signature). Needs a human for three items with no stored evidence: the July 2025 proposal claim in notes, the non-language value in language, and a single safety topic. Status stays provisional until a treaty text or depositary notice is stored.",
+   "records": [
+    "INT-15"
+   ],
+   "state": "open",
+   "issue": 7,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/7",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "record:PY-01@2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+   "kind": "record",
+   "subject": "PY-01",
+   "run_id": "2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+   "held_back": true,
+   "why": "checker: The extraction's new summary and verification note are supported by the stored Última Hora article (level C). Three record fields are not: status as of today (a May 2025 report only), issuing_body (six co-sponsors absent from stored sources), and notes (hearing, MITIC and co-sponsor claims unstored, plus process wording 'SILpy file number was not identified'). A targeted web search found no newer version or enactment (only a June 2025 Senate public hearing, on a Senate page that is not stored). A human should check the SILpy file S-2502197 and rewrite notes.",
+   "records": [
+    "PY-01"
+   ],
+   "state": "open",
+   "issue": 8,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/8",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "record:TH-01@2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+   "kind": "record",
+   "subject": "TH-01",
+   "run_id": "2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+   "held_back": true,
+   "why": "checker: The extraction only changes verification.note, which is accurate. The record as it stands has two problems that predate this run but are not covered by stored sources: the summary's June 2025 predecessor clause is unsupported, and notes misstate the Thai PBS article (hearing described as concluded on 1 August) and rely on unstored sources (Rajah & Tann, ETDA 2025 page, law.go.th, ONDE). Level stays C. A targeted search found no Cabinet approval or newer draft.",
+   "records": [
+    "TH-01"
+   ],
+   "state": "open",
+   "issue": 9,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/9",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "record:US-27@2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+   "kind": "record",
+   "subject": "US-27",
+   "run_id": "2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+   "held_back": true,
+   "why": "checker: Title, date, status and the summary are supported by the American Presidency Project copy of the accord and the Obernolte/Trahan statement (level C, no whitehouse.gov copy; a targeted search again found none). Notes carry claims from press reports that are not stored (roundtable, EO 14434 link, 'morally binding' remark). The blind extraction agrees on every compared field; it also carries the EO 14434 claim unstored. Record needs a scope_note for a government-brokered company commitment.",
+   "records": [
+    "US-27"
+   ],
+   "state": "open",
+   "issue": 10,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/10",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "record:US-ID-01@2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+   "kind": "record",
+   "subject": "US-ID-01",
+   "run_id": "2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+   "held_back": true,
+   "why": "checker: Title, enactment date, effective date, status and legal force are supported by the Transparency Coalition tracker (level C). The summary and notes go well beyond that one stored source: AG enforcement, penalties, the three-hour disclaimer, the votes and the Governor's signature are unstored, and both texts contain hedges ('reported', 'Trackers give', 'should be checked'). A targeted search found no newer version; it did show LegiScan listing Session Law Chapter 249 and mostly July 1, 2027, but those pages are not stored. A human should decide whether to trim the summary to the stored text or store a bill copy.",
+   "records": [
+    "US-ID-01"
+   ],
+   "state": "open",
+   "issue": 11,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/11",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "record:US-IL-01@2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+   "kind": "record",
+   "subject": "US-IL-01",
+   "run_id": "2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+   "held_back": true,
+   "why": "checker: Status, effective date and summary are supported. Two issues. (1) official_identifier 'Public Act 103-0804' is not in any stored text; a human or an ilga.gov copy should confirm it. (2) The only official source for date and status is gov-pritzker-newsroom.prezly.com, listed in known_hosts. It is the State of Illinois Newsroom page and carries the Governor's press contact, but it sits on Prezly, a commercial platform, and it is the reason the level moves from C to A. A human should decide whether that host counts as official. A search suggests the IDHR notice rules proposed on 15 May 2026 may have been withdrawn (one secondary source only); the notes' 'as of April 2026' phrasing is still true.",
+   "records": [
+    "US-IL-01"
+   ],
+   "state": "open",
+   "issue": 12,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/12",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "record:US-NV-01@2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+   "kind": "record",
+   "subject": "US-NV-01",
+   "run_id": "2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+   "held_back": true,
+   "why": "checker: Enactment, approval date, chapter, votes, sponsors and the summary are supported by the stored NASW-NV and FastDemocracy pages (level C). The 1 July 2025 effective date, the Governor's name and the amended NRS chapters are not in any stored text, so date_in_force and the status 'In force' need a human or a stored official copy (the enrolled bill and NELIS page failed to store). Targeted search found no repeal or amendment. The blind extraction agrees with the main extraction on the compared fields.",
+   "records": [
+    "US-NV-01"
+   ],
+   "state": "open",
+   "issue": 13,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/13",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "record:KR-02@2026-10-14-refresh-translation-fixes",
+   "kind": "record",
+   "subject": "KR-02",
+   "run_id": "2026-10-14-refresh-translation-fixes",
+   "held_back": false,
+   "why": "checker: The evidence script's error on date_in_force is resolved: 2026-01-22 is correct (Addenda: in force on the day after one year from promulgation on 21 Jan 2025; the MSIT guideline stored for KR-06 states 'in force from 22 Jan 2026', the stored decree text in KR-03 also takes effect on 22 Jan 2026 with a 24 Jan 2026 proviso for digital medical devices, and Act 21311 takes effect 22 Jan 2026). No fix is offered because no KR-02 stored file states it; a human should confirm 2026-01-22 (supported by the KR-06 guideline foreword and the KR-03 decree). Defined terms follow KLRI and the Korean text (AI business operator = 인공지능사업자; high-impact AI = 고영향 인공지능). english_version (KLRI, a stored URL) is a government translation of the Act as enacted, which the verification note says does not ref",
+   "records": [
+    "KR-02"
+   ],
+   "state": "open",
+   "issue": 14,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/14",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "record:BR-02@2026-10-14-refresh-translation-fixes",
+   "kind": "record",
+   "subject": "BR-02",
+   "run_id": "2026-10-14-refresh-translation-fixes",
+   "held_back": false,
+   "why": "checker: The stored 2024 text supports every field and claim. Search shows that TSE Resolution 23.755 of 2 March 2026 amended Resolution 23.610/2019, apparently including the AI rules (new ban window of 72 hours before to 24 hours after voting, per press reports). That page is not stored, so I cannot judge from it; the human should decide whether BR-02's status, date_last_updated and notes need an update or whether Res. 23.755 is a new record. Summary and notes may now be incomplete.; the checker found something possibly newer: {'what': 'Resolucao TSE 23.755 of 2 March 2026 amending Res. 23.610/2019 (AI rules for the 2026 elections)', 'url': 'https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-755-de-2-de-marco-de-2026', 'affects': ['status', 'date_last_updated', 'summary'",
+   "records": [
+    "BR-02"
+   ],
+   "state": "open",
+   "issue": 15,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/15",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "record:DK-02@2026-10-14-refresh-translation-fixes",
+   "kind": "record",
+   "subject": "DK-02",
+   "run_id": "2026-10-14-refresh-translation-fixes",
+   "held_back": false,
+   "why": "checker: Summary and notes are supported by the Danish press release and the TRIS pages. original_title is in no stored file and cannot be fixed from the stored text, so it needs a human with the Folketing or Danish TRIS text. The identifier and English title describe the 2025 notified draft, not necessarily the bill introduced on 8 Oct 2026. Search found no Folketing page for the introduced bill.; original_title is unsupported and the checker gave no evidence-backed fix",
+   "records": [
+    "DK-02"
+   ],
+   "state": "open",
+   "issue": 16,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/16",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "record:TH-03@2026-10-14-refresh-translation-fixes",
+   "kind": "record",
+   "subject": "TH-03",
+   "run_id": "2026-10-14-refresh-translation-fixes",
+   "held_back": false,
+   "why": "checker: Summary matches the Thai text (own translations in summary_claims). Three field problems. (1) original_title was a constructed Thai phrase, not a printed title; fixed to the English title as printed. (2) The notes' dating inference 'not earlier than 2020' is unsupported; a corrected notes text with quotes is attached. (3) issuing_body: the cover image names the Ministry of Digital Economy and Society, but no stored text layer says so and the parenthetical about the Office of the National Digital Economy and Society Commission is not in any stored copy, so a human has to confirm the value (suggest 'Ministry of Digital Economy and Society'). The document is undated and catalogues disagree (2021 vs 22 March 2022), so date_published stays null; no newer edition found.; issuing_body is",
+   "records": [
+    "TH-03"
+   ],
+   "state": "open",
+   "issue": 17,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/17",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "record:CN-08@2026-10-14-refresh-translation-fixes",
+   "kind": "record",
+   "subject": "CN-08",
+   "run_id": "2026-10-14-refresh-translation-fixes",
+   "held_back": false,
+   "why": "checker: All bibliographic fields are supported by the SAMR catalogue pages. The summary was not changed and cannot be checked: the standard's text is not stored (the preview URL returns the catalogue), no stored file describes its content, and the summary is shorter than the 250-character minimum. A human should store the standard's text (or the English edition) and rewrite the summary; the notes and english_version changes are fine.; summary is unsupported and the checker gave no evidence-backed fix; summary claim unsupported: 'Standard sets technical methods for explicit labels and implicit (metadata) labe'; summary claim unsupported: 'It is the technical companion to the AI Content Labeling Measures'",
+   "records": [
+    "CN-08"
+   ],
+   "state": "open",
+   "issue": 18,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/18",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "record:MX-01@2026-10-14-refresh-translation-fixes",
+   "kind": "record",
+   "subject": "MX-01",
+   "run_id": "2026-10-14-refresh-translation-fixes",
+   "held_back": false,
+   "why": "checker: Only notes and the verification note were updated; the summary and other fields are unchanged and consistent with the stored Basham alert, but nothing official is stored: the gazette PDF was requested as extra_urls and is not in the archive, and the SIL page failed on TLS. Two problems. original_title is a constructed Spanish heading with no stored source, and the new notes assert gazette publication that the stored text does not show; the notes have a fix that removes that clause. A human should decide original_title (store the gazette PDF with the browser retry, or null the field). No newer status found by one web search. Blind sample: no disagreement on this record.; original_title is unsupported and the checker gave no evidence-backed fix; the checker found something possibly ",
+   "records": [
+    "MX-01"
+   ],
+   "state": "open",
+   "issue": 19,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/19",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "host:strapi.naio.okie.my",
+   "kind": "host",
+   "subject": "strapi.naio.okie.my",
+   "code": "MY",
+   "why": "Operator check unclear: Root returned HTTP 403 and naio.gov.my did not resolve, so no link from a Malaysian government site could be found; the host name suggests a CMS backend for a National AI Office site built by a third-party developer. Needs a decision.",
+   "operator": "unknown (CMS backend; subdomain of okie.my)",
+   "evidence": {
+    "url": "https://strapi.naio.okie.my/",
+    "quote": "",
+    "checked_on": "2026-10-14"
+   },
+   "records": [],
+   "state": "open",
+   "issue": 20,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/20",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "host:prod16-assets.sprinklr.com",
+   "kind": "host",
+   "subject": "prod16-assets.sprinklr.com",
+   "code": "QA",
+   "why": "Operator check unclear: Both the host (HTTP 400) and mcit.gov.qa (HTTP 403) blocked fetching, so I could not find an MCIT page linking to this host; the file name MCIT_National_AI_Strategy suggests MCIT content. Needs a decision.",
+   "operator": "Sprinklr (vendor DAM/CDN platform); content owner appears to be the Qatar MCIT",
+   "evidence": {
+    "url": "https://prod16-assets.sprinklr.com/",
+    "quote": "",
+    "checked_on": "2026-10-14"
+   },
+   "records": [],
+   "state": "open",
+   "issue": 21,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/21",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "host:kmp.respaweb.eu",
+   "kind": "host",
+   "subject": "kmp.respaweb.eu",
+   "code": "RS",
+   "why": "Operator check unclear: ReSPA is a regional intergovernmental organisation of Western Balkan governments (classification of ReSPA's status is from background knowledge; page describes it as a knowledge hub for public administrations, EU-funded). Needs a decision.",
+   "operator": "Regional School of Public Administration (ReSPA)",
+   "evidence": {
+    "url": "https://kmp.respaweb.eu/",
+    "quote": "© 2024 ReSPA Regional School of Public Administration (ReSPA). All rights reserved.",
+    "checked_on": "2026-10-14"
+   },
+   "records": [],
+   "state": "open",
+   "issue": 22,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/22",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "host:sgaisi.sg",
+   "kind": "host",
+   "subject": "sgaisi.sg",
+   "code": "SG",
+   "why": "Operator check unclear: The page ties the institute to DTC and IMDA but the fetch did not show whether it is a government body or a university-hosted centre; IMDA (imda.gov.sg) was not checked for a link. Needs a decision.",
+   "operator": "Singapore AI Safety Institute (Digital Trust Centre Singapore, in partnership with IMDA)",
+   "evidence": {
+    "url": "https://sgaisi.sg/",
+    "quote": "the Digital Trust Centre Singapore (DTC), in partnership with the Infocomm Media Development Authority of Singapore (IMDA)",
+    "checked_on": "2026-10-14"
+   },
+   "records": [],
+   "state": "open",
+   "issue": 23,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/23",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "host:senatepress.net",
+   "kind": "host",
+   "subject": "senatepress.net",
+   "code": "US-GA",
+   "why": "Operator check unclear: The page calls itself the Senate press office's official releases, but it is on a .net domain and links to no senate.ga.gov page; confirmation from senate.ga.gov is missing. Needs a decision.",
+   "operator": "Georgia State Senate Press Office (self-described)",
+   "evidence": {
+    "url": "https://senatepress.net/",
+    "quote": "Georgia Senate Press Office – Official Press Releases",
+    "checked_on": "2026-10-14"
+   },
+   "records": [],
+   "state": "open",
+   "issue": 24,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/24",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "host:daibieunhandan.vn",
+   "kind": "host",
+   "subject": "daibieunhandan.vn",
+   "code": "VN",
+   "records": [
+    "VN-02"
+   ],
+   "why": "Quotes from this host counted as secondary because it is neither a government domain nor in pipeline/official-sites.json.",
+   "state": "open",
+   "issue": 25,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/25",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "host:vanban.chinhphu.vn",
+   "kind": "host",
+   "subject": "vanban.chinhphu.vn",
+   "code": "VN",
+   "records": [
+    "VN-07"
+   ],
+   "why": "Quotes from this host counted as secondary because it is neither a government domain nor in pipeline/official-sites.json.",
+   "state": "open",
+   "issue": 26,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/26",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "sample:2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+   "kind": "sample",
+   "subject": "2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+   "run_id": "2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+   "records": [
+    "CA-ON-01",
+    "US-CA-07",
+    "US-CA-08",
+    "US-RI-01"
+   ],
+   "why": "Human sample of run 2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca: check each record against its stored sources.",
+   "state": "open",
+   "issue": 27,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/27",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "sample:2026-10-14-refresh-translation-fixes",
+   "kind": "sample",
+   "subject": "2026-10-14-refresh-translation-fixes",
+   "run_id": "2026-10-14-refresh-translation-fixes",
+   "records": [
+    "KR-04",
+    "KR-05",
+    "KR-06",
+    "KR-08",
+    "LV-03"
+   ],
+   "why": "Human sample of run 2026-10-14-refresh-translation-fixes: check each record against its stored sources.",
+   "state": "open",
+   "issue": 28,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/28",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  }
+ ]
+}

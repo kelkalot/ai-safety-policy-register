@@ -40,6 +40,7 @@ If a tool fails or seems to be missing, an agent stops and says so; it does not 
 | `pipeline/frame.json` | the coverage frame: every jurisdiction and source type, with when it was last searched |
 | `pipeline/coverage.md` | the coverage table, written by `tools/pipeline.py frame --report` |
 | `pipeline/scope-decisions.md` | precedents for borderline scope cases; read before deciding scope |
+| `pipeline/questions.json` | open questions for humans and their GitHub issues, written by `pipeline.py questions` (section 7.7) |
 | `pipeline/official-sites.json` | the curated list of sites, besides government domains, whose pages count as official evidence, with who runs each and who decided (section 7.6) |
 | `pipeline/refresh-requests.jsonl` | existing records a collector found news about; `queue` puts them first |
 | `pipeline/roles/*.md` | step-by-step instructions for each agent role |
@@ -72,6 +73,7 @@ python3 tools/pipeline.py log-scope --id <ID> --decision in --note "..." --by <n
 python3 tools/pipeline.py queue                      # records due for a refresh run (section 6)
 python3 tools/pipeline.py frame --due | --report     # cells due for a search; the coverage table
 python3 tools/pipeline.py hosts [--pending]          # the curated list of official sites (section 7.6)
+python3 tools/pipeline.py questions [--sync] [--apply] # open questions as GitHub issues, and maintainers' decisions (section 7.7)
 python3 tools/build.py                               # validate and regenerate data files and HISTORY.md
 python3 tools/archive.py --verify                    # re-hash every stored file; flags missing or changed copies
 ```
@@ -220,7 +222,7 @@ The checker starts in a fresh context with only the run ID and candidate IDs: a 
 
 ### 7.5 Human sample
 
-`pipeline.py report` draws 5 of the run's accepted records at random for a human, who also decides every `needs-human` item. The human logs each check with `pipeline.py log-human`, which writes a `human-checked` event to the history, and each scope decision with `pipeline.py log-scope`, which also adds the case to `pipeline/scope-decisions.md`.
+`pipeline.py report` draws 5 of the run's accepted records at random for a human check. The sample becomes a GitHub issue (section 7.7); each check reported there, or logged directly with `pipeline.py log-human`, writes a `human-checked` event to the history. Scope decisions logged with `pipeline.py log-scope` also add the case to `pipeline/scope-decisions.md`.
 
 
 ### 7.6 Official sites
@@ -232,6 +234,17 @@ The evidence script counts a quote as official or alt-official only when its fil
 - `proposed`: the operator check was unclear; waits for a human decision and does not count.
 
 Entries with `decided_by: "seed"` were taken from the hosts of records' `official_url` when the frame was built; they count as official until a person reviews them (`hosts --pending` lists them). A run's report lists, under "Hosts to review", every host whose quotes were counted as secondary for that reason alone; a human checks who runs it and records the decision.
+
+### 7.7 Questions for humans
+
+The pipeline runs without waiting for people. When it meets something only a human can settle, it publishes the question and goes on; nothing a human has not decided ever holds back a run or a release.
+
+- **What is a question.** A record the run could not settle, a host whose operator is unclear (section 7.6), and a run's human sample. `assemble` holds a record back only when a value the run changes is not settled; then the published record stays as it was. A problem with a value the run leaves as published (an old claim, a source that cannot be stored, a possible newer version) does not hold back the run's checked corrections: they are merged, and the problem becomes a question.
+- **Fewer questions.** Rules settle common cases without a human: a date that the official source gives only to the month is written `YYYY-MM`; a source a site refuses is retried by later runs; a record that rests only on secondary sources keeps level C. What is left are judgment calls: contradicting official sources, scope, new official hosts, possible amendments.
+- **Where questions live.** `python3 tools/pipeline.py questions --sync`, run at the end of every run, opens one GitHub issue per new question (label `question`), with the question, the published value, the evidence and what happens if nobody decides, and closes issues that a later run settled. `pipeline/questions.json` lists every question with its issue and state; the app shows an "Open question" badge and filter, and the CSV, SQLite, Excel and Hugging Face tables have an `open_questions` column.
+- **How a maintainer decides.** One comment on the issue, from a repository owner, member or collaborator: `decide: keep`, `decide: accept`, `decide: set <field> = <value>` with `source: <URL>`, `decide: in` or `decide: out` for a record; `decide: official` or `decide: not official` for a host; `ok <ID> <note>` or `problem <ID> <note>` lines for a sample. Anyone can add evidence in the thread; only maintainers' decisions are applied.
+- **How a decision is applied.** `python3 tools/pipeline.py questions --apply`, run at the start of every run, applies decisions with the same tools as everything else (`merge.py`, `hosts --add`, `log-human`, `log-scope`), writes a `human-decision` event with the issue link to `data/history.jsonl`, and closes the issue with a link to what changed. The issue is where the question is worked out; the register keeps only the decision.
+- **Releases** never wait for questions. The dataset card and release notes give the number of open questions and link the issue list.
 ## 8. Running it with Claude Code or Codex
 
 No API keys are needed. Both tools run under the subscription you sign in with (a Claude plan for Claude Code, a ChatGPT plan for Codex), and everything the agents need is in this repository. Run it on your own machine: the archiver has to reach government sites directly, and cloud sandboxes often restrict outbound network access.
@@ -261,7 +274,7 @@ For a cross-tool check, run everything up to extraction in one tool, then open t
 
 Git keeps every version of `data/records.json`, but a diff of one large JSON file does not tell a reader what changed in a record, why, or on what evidence, and it does not show checks that changed nothing. So the register keeps its own history, and git remains the tamper-evident layer under it.
 
-- `data/history.jsonl`: append-only, written only by `tools/merge.py` and by `tools/pipeline.py log-human` and `log-scope`. One line per event: `{"date", "run_id", "record_id", "event", "field", "old", "new", "reason", "evidence", "tool", "model"}`, where `event` is `added`, `changed`, `re-verified`, `source-changed`, `human-checked` or `scope-decision`. Lines are never edited or deleted; a correction is a new event.
+- `data/history.jsonl`: append-only, written only by `tools/merge.py` and by `tools/pipeline.py log-human`, `log-scope` and `questions --apply`. One line per event: `{"date", "run_id", "record_id", "event", "field", "old", "new", "reason", "evidence", "tool", "model"}`, where `event` is `added`, `changed`, `re-verified`, `source-changed`, `human-checked`, `scope-decision` or `human-decision`. Lines are never edited or deleted; a correction is a new event.
 - `runs/<run-id>/report.md`: the account of each run for humans: what was added, changed and confirmed, what was not found, the agreement table, the human sample and the open questions.
 - `HISTORY.md` and the History section on each record page in the app are generated from it by `tools/build.py`, and `tools/publish_hf.py` publishes it as the `history` configuration on Hugging Face. `python3 tools/history.py <ID>` prints one record's history.
 - Each run is one commit, with the message `run <run-id>: N added, M changed, K re-verified`.

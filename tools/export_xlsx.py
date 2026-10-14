@@ -39,6 +39,7 @@ GLOSSARY = [
     ("english_version_url", "Link to the English translation, where there is one."),
     ("english_version_by", "Who made the English translation."),
     ("summary / notes", "What the instrument does; status notes, phased dates and caveats."),
+    ("open_questions", "Links to GitHub issues with open questions about this record. The record shows its last checked values until a maintainer decides."),
     ("scope_note", "Empty for an instrument clearly in scope. Text for a borderline one: why it is included although it is not a core AI safety or regulation instrument."),
     ("safety_topics", "Topics, separated by '; ' (one row per topic on the Topics sheet)."),
     ("related_ids", "IDs of related records, separated by '; ' (one row per link on the Related sheet)."),

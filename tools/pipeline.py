@@ -18,6 +18,7 @@ this file does the bookkeeping, so that a run can be repeated and checked.
     python3 tools/pipeline.py queue [--days 180] [--limit 25]
     python3 tools/pipeline.py frame --due [--days 180] | --report | --add CODE --name N --level L --region R
     python3 tools/pipeline.py hosts [--code C] [--pending]        # the curated list of official sites
+    python3 tools/pipeline.py questions [--sync] [--apply] [--dry-run]   # open questions as GitHub issues
     python3 tools/pipeline.py hosts --add HOST --code C --status official|"not official"|proposed --by NAME
                                     [--operator O --kind K --evidence-url U --quote Q --note N]
     python3 tools/pipeline.py log-human --run RUN --id ID --result ok|problem --note "..." [--by NAME]
@@ -1471,6 +1472,14 @@ def short_evidence(fields_ev):
     return out
 
 
+def error_field(msg):
+    """The record field an evidence-script error is about, or None."""
+    for f in sorted(RECORD_FIELDS, key=len, reverse=True):
+        if re.search(r"(?<![a-z_])%s(?![a-z_])" % re.escape(f), msg):
+            return f
+    return None
+
+
 def cmd_assemble(args):
     d, run = load_run(args.run)
     db = load_db()
@@ -1481,7 +1490,7 @@ def cmd_assemble(args):
     ex_all, ch_all = agent_files(d, "extractions"), agent_files(d, "checks")
     stages = run.get("stages") or {}
     new_records, updates, ctx = [], [], {}
-    not_added, needs_human, unchecked = [], [], []
+    not_added, needs_human, unchecked, questions = [], [], [], []
     assigned = {}
     pending_related = []
     for c in candidates(d):
@@ -1511,13 +1520,22 @@ def cmd_assemble(args):
             not_added.append({"cand_id": cid, "decision": "rejected by the checker", "title": (ex.get("record") or {}).get("title"),
                               "why": ch.get("note")})
             continue
-        if overall not in ("accept", "accept-with-fixes"):
-            needs_human.append({"cand_id": cid, "why": "checker: %s" % (ch.get("note") or overall)})
-            continue
         rec = {k: v for k, v in (ex.get("record") or {}).items() if k in RECORD_FIELDS and k not in SET_BY_SCRIPT}
         evidence = {k: (v if isinstance(v, list) else [v]) for k, v in (ex.get("evidence") or {}).items()}
         target = ex.get("target_id") or c.get("record_id")
-        blockers, applied = [], []
+        is_update = dec == "update" or bool(c.get("record_id"))
+        cur = by.get(target) if is_update else None
+        # the values this run proposes to change; for a new record, every value is new
+        proposed = {k for k, v in rec.items() if k != "verification" and (cur is None or cur.get(k) != v)}
+        blockers, standing, applied = [], [], []
+
+        def problem(field, msg):
+            # A problem with a value the run changes, or with a new record, holds the record back. A problem with a
+            # value the run leaves as published (an old claim, a source that cannot be stored, a possible newer
+            # version) becomes an open question and does not hold back the run's checked corrections.
+            (blockers if cur is None or (field is not None and field in proposed) else standing).append(msg)
+        if overall not in ("accept", "accept-with-fixes"):
+            problem(None, "checker: %s" % (ch.get("note") or overall))
         for field, fv in (ch.get("fields") or {}).items():
             verdict = (fv or {}).get("verdict")
             fix = (fv or {}).get("fix")
@@ -1529,37 +1547,45 @@ def cmd_assemble(args):
                         evidence[field] = fix["evidence"]
                         applied.append(field)
                         continue
-                    blockers.append("the checker's fix for %s did not pass the evidence check" % field)
+                    problem(field, "the checker's fix for %s did not pass the evidence check" % field)
                 else:
-                    blockers.append("%s is %s and the checker gave no evidence-backed fix" % (field, verdict))
+                    problem(field, "%s is %s and the checker gave no evidence-backed fix" % (field, verdict))
         for claim in ch.get("summary_claims") or []:
             # a claim of the old summary no longer blocks once the checker's evidence-backed summary fix replaced it
             if claim.get("verdict") in ("unsupported", "contradicted") and "summary" not in applied:
-                blockers.append("summary claim %s: %r" % (claim["verdict"], (claim.get("claim") or "")[:80]))
+                problem("summary", "summary claim %s: %r" % (claim["verdict"], (claim.get("claim") or "")[:80]))
+        # something newer counts unless it already has its own record ("already recorded as CN-17")
+        newer = [x for x in (ch.get("newer_versions") or []) + (ch.get("extra_urls") or [])
+                 if not any(t in by and t != target for t in re.findall(r"\b[A-Z0-9]{2,6}(?:-[A-Z]{2})?-\d{2}\b", str(x)))]
+        if newer:
+            problem(None, "the checker found something possibly newer: %s" % "; ".join(str(x) for x in newer)[:300])
         # a check counts only when it covers every factual field the record sets or confirms
-        is_update = dec == "update" or bool(c.get("record_id"))
         need = [k for k in FACT_FIELDS if (ex.get("record") or {}).get(k) is not None]
         if is_update:
             need += [k for k in ((ex.get("judgment") or {}).get("confirmed") or []) if k in FACT_FIELDS]
             need += [k for k in LEVEL_FIELDS if (by.get(target) or {}).get(k) is not None]
         verdicts = ch.get("fields") or {}
         missing = [k for k in dict.fromkeys(need) if (verdicts.get(k) or {}).get("verdict") not in VERDICTS]
-        if missing:
-            blockers.append("the checker gave no verdict for %s" % ", ".join(missing))
+        for k in missing:
+            problem(k, "the checker gave no verdict for %s" % k)
         scope = ch.get("scope") or {}
         if scope.get("assessment") == "out":
-            blockers.append("the checker judges it out of scope: %s" % (scope.get("note") or "no reason given"))
+            problem(None, "the checker judges it out of scope: %s" % (scope.get("note") or "no reason given"))
         elif scope.get("assessment") == "borderline" and scope.get("note") and not rec.get("scope_note"):
             rec["scope_note"] = scope["note"]  # the checker flags a borderline case the extractor did not
             applied.append("scope_note")
         new_summary = (ex.get("record") or {}).get("summary") is not None
         if new_summary and not [x for x in ch.get("summary_claims") or [] if x.get("verdict") in VERDICTS]:
-            blockers.append("the checker checked no claim of the summary")
+            problem("summary", "the checker checked no claim of the summary")
         ev = evaluate(index, cid, dict(ex, record=rec, evidence=evidence), db)
-        blockers += ev["errors"]
+        for e in ev["errors"]:
+            problem(error_field(e), e)
         if blockers:
-            needs_human.append({"cand_id": cid, "why": "; ".join(blockers)[:600]})
+            needs_human.append({"cand_id": cid, "record_id": target if is_update else None,
+                                "why": "; ".join(blockers + standing)[:800]})
             continue
+        if standing:
+            questions.append({"cand_id": cid, "record_id": target, "why": "; ".join(standing)[:800]})
         level = ev["level"]
         v_in = (ex.get("record") or {}).get("verification") or {}
         note = (v_in.get("note") or "").strip()
@@ -1660,15 +1686,18 @@ def cmd_assemble(args):
             "scope": "pipeline run %s (%s: %s)" % (args.run, run["type"], run.get("scope") or "queue"),
             "run_id": args.run, "stages": stages}
     out = {"provenance": prov, "records": new_records, "updates": updates, "history_context": ctx,
-           "assigned": assigned, "not_added": not_added, "needs_human": needs_human, "unchecked": unchecked,
-           "summary": "%d new, %d update(s), %d not added, %d need a human, %d not ready" % (
-               len(new_records), len(updates), len(not_added), len(needs_human), len(unchecked))}
+           "assigned": assigned, "not_added": not_added, "needs_human": needs_human, "questions": questions,
+           "unchecked": unchecked,
+           "summary": "%d new, %d update(s), %d not added, %d need a human, %d merged with an open question, %d not ready" % (
+               len(new_records), len(updates), len(not_added), len(needs_human), len(questions), len(unchecked))}
     write_json(d / "pass.json", out)
     run["status"] = "assembled"
     save_run(d, run)
     print(out["summary"])
     for x in needs_human:
         print("  needs-human %-6s %s" % (x["cand_id"], x["why"][:140]))
+    for x in questions:
+        print("  question    %-6s %s" % (x["cand_id"], x["why"][:140]))
     for x in unchecked:
         print("  not ready   %-6s %s" % (x["cand_id"], x["why"]))
     print("Next: python3 tools/merge.py runs/%s/pass.json --dry-run" % args.run)
@@ -1731,8 +1760,13 @@ def cmd_report(args):
           for e in changed] or ["None."]
     L += ["", "## Re-verified without change", ""]
     L += [", ".join(e["record_id"] for e in rever) or "None."]
-    L += ["", "## Needs a human", ""]
+    L += ["", "## Needs a human", "", "Held back: a value this run changes is not settled. The published record stays as it was."
+          if p.get("needs_human") else "", ""]
     L += ["- %s: %s" % (x["cand_id"], x["why"]) for x in p.get("needs_human") or []] or ["None."]
+    L += ["", "## Merged with an open question", "", "The run's checked corrections are merged; these points about values "
+          "it left as published are open questions (GitHub issues, `pipeline.py questions --sync`)." if p.get("questions")
+          else "", ""]
+    L += ["- %s: %s" % (x["cand_id"], x["why"]) for x in p.get("questions") or []] or ["None."]
     L += ["", "## Not added", ""]
     L += ["- %s %s: %s%s" % (x["cand_id"], x.get("title") or "", x.get("decision"),
                              (" (%s)" % x["why"]) if x.get("why") else "") for x in p.get("not_added") or []] or ["None."]
@@ -1887,6 +1921,358 @@ def cmd_hosts(args):
     return 0
 
 
+# ----------------------------------------------------------------------------- questions for humans
+
+QUESTIONS = ROOT / "pipeline" / "questions.json"
+DECIDERS = {"OWNER", "MEMBER", "COLLABORATOR"}
+ID_TOKEN = re.compile(r"\b[A-Z0-9]{2,6}(?:-[A-Z]{2})?-\d{2}\b")
+HOST_WARNING = re.compile(r"host (\S+) is not recognised as official")
+
+
+def github_repo():
+    """owner/name of the GitHub repository, from questions.json or the origin remote."""
+    q = read_json(QUESTIONS, {}) or {}
+    if q.get("repo"):
+        return q["repo"]
+    url = subprocess.run(["git", "-C", str(ROOT), "config", "--get", "remote.origin.url"], capture_output=True,
+                         text=True).stdout.strip()
+    m = re.search(r"github\.com[:/]([^/]+/[^/.]+)", url)
+    if not m:
+        raise SystemExit("Cannot tell the GitHub repository; set \"repo\" in pipeline/questions.json")
+    return m.group(1)
+
+
+def gh(*args, input_text=None):
+    if not shutil.which("gh"):
+        raise SystemExit("The GitHub CLI (gh) is needed for questions --sync and --apply")
+    res = subprocess.run(["gh"] + list(args), capture_output=True, text=True, input=input_text)
+    if res.returncode:
+        raise SystemExit("gh %s failed: %s" % (" ".join(args[:2]), res.stderr.strip()[:300]))
+    return res.stdout
+
+
+def run_order():
+    """Run IDs in the order their events entered the history; runs without events after them, by start date."""
+    order = []
+    for e in history.load():
+        if e.get("run_id") and e["run_id"] not in order:
+            order.append(e["run_id"])
+    rest = sorted((read_json(p / "run.json", {}) or {}).get("started", "") + " " + p.name
+                  for p in RUNS.iterdir() if (p / "run.json").is_file() and p.name not in order) if RUNS.is_dir() else []
+    return [r for r in order if (RUNS / r / "run.json").is_file()] + [x.split(" ", 1)[1] for x in rest]
+
+
+def collect_questions(db):
+    """Every open question the pipeline's files imply, keyed: record questions from the runs' pass.json (the latest
+    run that touched a record decides), hosts waiting for a decision, and human samples not yet logged."""
+    by = {r["id"]: r for r in db["records"]}
+    events = history.load()
+    out = OrderedDict()
+    state = {}  # record ID -> open question from the latest run that raised one, or None once a later run settled it
+    for run_id in run_order():
+        p = read_json(RUNS / run_id / "pass.json", {}) or {}
+        touched = {u.get("id") for u in p.get("updates") or []} | {r.get("id") for r in p.get("records") or []}
+        raised = {}
+        for x, held in [(x, True) for x in p.get("needs_human") or []] + [(x, False) for x in p.get("questions") or []]:
+            rid = x.get("record_id") or (x.get("cand_id") if x.get("cand_id") in by else None)
+            key = "record:%s@%s" % (rid, run_id) if rid else "candidate:%s@%s" % (x.get("cand_id"), run_id)
+            raised[rid or key] = {"key": key, "kind": "record" if rid else "candidate", "subject": rid or x.get("cand_id"),
+                                  "run_id": run_id, "held_back": held, "why": x.get("why"), "records": [rid] if rid else []}
+        for rid in touched:
+            if rid not in raised:
+                state[rid] = None  # a later run checked the record without raising anything
+        state.update(raised)
+    decided = {(e["record_id"], e.get("run_id")) for e in events if e.get("event") == "human-decision"}
+    for subj, q in state.items():
+        if q and (q["subject"], q["key"]) not in decided:
+            out[q["key"]] = q
+    sites = load_sites()
+    known = {strip_www(e["host"]) for e in sites.get("sites") or []}
+    for e in sites.get("sites") or []:
+        if e["status"] == "proposed":
+            out["host:%s" % strip_www(e["host"])] = {"key": "host:%s" % strip_www(e["host"]), "kind": "host",
+                                                     "subject": strip_www(e["host"]), "code": e["code"],
+                                                     "why": e.get("note"), "operator": e.get("operator"),
+                                                     "evidence": e.get("evidence"), "records": []}
+    for run_id in run_order():
+        for cid, res in ((read_json(RUNS / run_id / "evidence.json", {}) or {}).get("extractions") or {}).items():
+            for w in res.get("warnings") or []:
+                m = HOST_WARNING.search(w)
+                h = strip_www(m.group(1)) if m else None
+                if not h or h == "(unknown)" or h in known:
+                    continue
+                q = out.setdefault("host:%s" % h, {"key": "host:%s" % h, "kind": "host", "subject": h,
+                                                   "code": re.sub(r"-\d+$", "", cid), "records": [],
+                                                   "why": "Quotes from this host counted as secondary because it is "
+                                                          "neither a government domain nor in pipeline/official-sites.json."})
+                if cid not in q["records"]:
+                    q["records"].append(cid)
+    logged = {(e.get("run_id"), e["record_id"]) for e in events if e.get("event") == "human-checked"}
+    for run_id in run_order():
+        todo = [rid for rid in (read_json(RUNS / run_id / "sample.json", {}) or {}).get("human") or []
+                if (run_id, rid) not in logged and rid in by]
+        if todo:
+            out["sample:%s" % run_id] = {"key": "sample:%s" % run_id, "kind": "sample", "subject": run_id,
+                                         "run_id": run_id, "records": todo,
+                                         "why": "Human sample of run %s: check each record against its stored sources." % run_id}
+    return out
+
+
+def question_title(q, by):
+    if q["kind"] in ("record", "candidate"):
+        r = by.get(q["subject"]) or {}
+        return "%s %s: open question from run %s" % (q["subject"], r.get("short_title") or r.get("title") or "", q["run_id"])
+    if q["kind"] == "host":
+        return "Is %s an official site for %s?" % (q["subject"], q.get("code"))
+    return "Human sample of run %s (%d records)" % (q["subject"], len(q["records"]))
+
+
+def question_body(q, by, repo):
+    blob = "https://github.com/%s/blob/main/" % repo
+    L = []
+    if q["kind"] in ("record", "candidate"):
+        r = by.get(q["subject"]) or {}
+        run = q["run_id"]
+        L += ["**Record:** %s, %s" % (q["subject"], r.get("title") or ""),
+              "**Run:** [%s](%sruns/%s/report.md)" % (run, blob, run),
+              "**Now:** " + ("the run's change is held back; the published record is unchanged." if q.get("held_back")
+                             else "the run's checked corrections are merged; this point about a published value is open."),
+              "", "### Question", "", q.get("why") or "", "",
+              "If nobody decides, the published record stays as it is and the record shows this question.", "",
+              "### Evidence", ""]
+        for k in ("official_url", "secondary_url"):
+            if r.get(k):
+                L.append("- %s: %s" % (k, r[k]))
+        for sub in ("extractions", "checks", "extractions-blind"):
+            if (RUNS / run / sub / ("%s.json" % q["subject"])).is_file():
+                L.append("- %s: %sruns/%s/%s/%s.json" % (sub, blob, run, sub, q["subject"]))
+        L += ["", "### How to decide", "",
+              "A maintainer comments one decision; it is applied at the start of the next pipeline run "
+              "(`python3 tools/pipeline.py questions --apply`), recorded in `data/history.jsonl` and linked here.", "",
+              "- `decide: keep`: the published values stay.",
+              "- `decide: accept`: apply the run's extraction for this record (when its change was held back and the "
+              "record has not changed since).",
+              "- `decide: set <field> = <value>`, one line per field, with `source: <URL>`: set values yourself.",
+              "- `decide: in` or `decide: out`, with a reason: a scope decision.", "",
+              "Anyone can add evidence in the comments."]
+    elif q["kind"] == "host":
+        ev = q.get("evidence") or {}
+        L += ["**Host:** %s (jurisdiction %s)" % (q["subject"], q.get("code")), "", "### Question", "",
+              "Does a public body run this host, or use it as its own channel (AGENTS.md section 7.6)? %s" % (q.get("why") or ""), ""]
+        if q.get("operator"):
+            L.append("Operator check: %s" % q["operator"])
+        if ev.get("url"):
+            L.append("Checked page: %s%s" % (ev["url"], (' ("%s")' % ev["quote"]) if ev.get("quote") else ""))
+        if q.get("records"):
+            L.append("Quoted for: %s" % ", ".join(q["records"]))
+        L += ["", "Until decided, quotes from this host count as secondary.", "", "### How to decide", "",
+              "- `decide: official`, optionally with `operator: <who runs it>`",
+              "- `decide: not official`"]
+    else:
+        L += ["**Run:** [%s](%sruns/%s/report.md)" % (q["subject"], blob, q["subject"]), "",
+              "Check each record against its stored sources (the run report and the record page link them):", ""]
+        L += ["- [ ] %s %s" % (rid, (by.get(rid) or {}).get("short_title") or "") for rid in q["records"]]
+        L += ["", "### How to report", "", "One line per record in a comment: `ok <ID> <note>` or `problem <ID> <note>`. "
+              "Each line becomes a `human-checked` event in the record's history; a problem queues the record for a refresh run."]
+    L += ["", "<!-- question-key: %s -->" % q["key"]]
+    return "\n".join(L)
+
+
+def ensure_labels(repo):
+    for name, color, desc in (("question", "d876e3", "A question for a maintainer from the pipeline"),
+                              ("question:record", "c5def5", "A record's open question"),
+                              ("question:host", "c5def5", "Is this host an official site?"),
+                              ("question:sample", "c5def5", "Human sample of a run")):
+        gh("label", "create", name, "--repo", repo, "--color", color, "--description", desc, "--force")
+
+
+def parse_decisions(comments, kind):
+    """The latest decision by a maintainer, as (comment, [parsed lines]); None when there is none."""
+    for c in reversed(comments):
+        if c.get("author_association") not in DECIDERS:
+            continue
+        body = c.get("body") or ""
+        if kind == "sample":
+            lines = re.findall(r"(?im)^\s*(ok|problem)\s+(\S+)\s*:?\s*(.*)$", body)
+        else:
+            lines = re.findall(r"(?im)^\s*(decide|source|operator)\s*:\s*(.+?)\s*$", body)
+        if lines and (kind == "sample" or any(k.lower() == "decide" for k, _ in lines)):
+            return c, lines
+    return None
+
+
+def apply_record_decision(q, comment, lines, db, dry):
+    rid, run_id = q["subject"], q["run_id"]
+    num = q.get("issue")
+    who = (comment.get("user") or {}).get("login") or "maintainer"
+    decides = [v for k, v in lines if k.lower() == "decide"]
+    source = next((v for k, v in lines if k.lower() == "source"), None)
+    note = "decided in issue #%s by %s: %s" % (num, who, comment.get("html_url"))
+    first = decides[0].strip()
+    if first.lower() in ("keep",) or (first.lower() == "accept" and not q.get("held_back")):
+        if not dry:
+            history.append([history.event(rid, "human-decision", run_id=q["key"], new="keep", reason=note,
+                                          tool="GitHub issue #%s" % num, model=who)])
+        return "kept the published values"
+    if first.lower() in ("in", "out") or re.match(r"(?i)^(in|out)\b", first):
+        dec = first.split()[0].lower()
+        reason = first[len(dec):].strip(" :,-") or "see issue #%s" % num
+        if not dry:
+            cmd_log_scope(argparse.Namespace(run=None, id=rid, decision=dec, note="%s (issue #%s)" % (reason, num), by=who))
+            history.append([history.event(rid, "human-decision", run_id=q["key"], new="scope %s" % dec, reason=note,
+                                          tool="GitHub issue #%s" % num, model=who)])
+        return "scope decision: %s" % dec
+    updates = {}
+    if first.lower() == "accept":
+        later = [e for e in history.load() if e["record_id"] == rid and e.get("run_id") not in (run_id, q["key"])]
+        order = run_order()
+        if any(e.get("run_id") in order and order.index(e["run_id"]) > order.index(run_id) for e in later):
+            return "not applied: the record changed after run %s; decide with `set` instead" % run_id
+        ex = read_json(RUNS / run_id / "extractions" / ("%s.json" % rid), {}) or {}
+        updates = {k: v for k, v in (ex.get("record") or {}).items() if k in RECORD_FIELDS and k not in SET_BY_SCRIPT
+                   and k != "verification"}
+    else:
+        for d in decides:
+            m = re.match(r"(?i)^set\s+([a-z_]+)\s*=\s*(.+)$", d)
+            if not m or m.group(1) not in RECORD_FIELDS or m.group(1) in SET_BY_SCRIPT or m.group(1) == "verification":
+                return "not applied: cannot read %r (use keep, accept, in, out, or set <field> = <value>)" % d
+            val = m.group(2).strip()
+            try:
+                val = json.loads(val)
+            except ValueError:
+                val = None if val.lower() == "null" else val
+            updates[m.group(1)] = val
+    if not updates:
+        return "not applied: nothing to change"
+    if dry:
+        return "would set %s" % ", ".join(sorted(updates))
+    cur = {r["id"]: r for r in db["records"]}[rid]
+    vnote = ((cur.get("verification") or {}).get("note") or "").rstrip()
+    upd = dict(updates, id=rid, verification={"verified_on": today(), "note": (vnote + " Human decision in issue #%s (%s)%s."
+                                                                                % (num, who, ": source " + source if source else "")).strip()})
+    src = {"provenance": {"date": today(), "agent": "GitHub issue #%s" % num, "model": who, "scope": note,
+                          "run_id": q["key"]},
+           "records": [], "updates": [upd],
+           "history_context": {rid: {"reason": note, "evidence": [{"url": source}] if source else [],
+                                     "fields": {k: {"reason": note, "evidence": [{"url": source}] if source else []}
+                                                for k in updates}}}}
+    tmp = Path(tempfile.mkstemp(suffix=".json")[1])
+    tmp.write_text(json.dumps(src, ensure_ascii=False), encoding="utf-8")
+    import merge  # noqa: E402  (same folder)
+    rc = merge.main([str(tmp)])
+    tmp.unlink()
+    if rc:
+        return "not applied: merge.py refused it (see its output)"
+    history.append([history.event(rid, "human-decision", run_id=q["key"], new="set %s" % ", ".join(sorted(updates)),
+                                  reason=note, tool="GitHub issue #%s" % num, model=who)])
+    return "set %s" % ", ".join(sorted(updates))
+
+
+def cmd_questions(args):
+    db = load_db()
+    by = {r["id"]: r for r in db["records"]}
+    reg = read_json(QUESTIONS, {}) or {}
+    reg.setdefault("about", "Open questions the pipeline cannot settle, each a GitHub issue (AGENTS.md section 7.7). "
+                            "Written by tools/pipeline.py questions; decisions are applied with --apply and recorded "
+                            "in data/history.jsonl.")
+    items = OrderedDict((q["key"], q) for q in reg.get("questions") or [])
+    found = collect_questions(db)
+    repo = None
+    if args.apply:
+        repo = github_repo()
+        applied = 0
+        for key, q in items.items():
+            if q.get("state") != "open" or not q.get("issue"):
+                continue
+            comments = json.loads(gh("api", "repos/%s/issues/%s/comments" % (repo, q["issue"]), "--paginate") or "[]")
+            got = parse_decisions(comments, q["kind"])
+            if not got:
+                continue
+            comment, lines = got
+            who = (comment.get("user") or {}).get("login") or "maintainer"
+            if q["kind"] in ("record", "candidate"):
+                result = apply_record_decision(q, comment, lines, db, args.dry_run)
+            elif q["kind"] == "host":
+                dec = next(v for k, v in lines if k.lower() == "decide").strip().lower()
+                op = next((v for k, v in lines if k.lower() == "operator"), None) or q.get("operator")
+                if dec not in ("official", "not official"):
+                    result = "not applied: use `decide: official` or `decide: not official`"
+                else:
+                    result = "host %s" % dec
+                    if not args.dry_run:
+                        cmd_hosts(argparse.Namespace(add=q["subject"], code=q.get("code"), status=dec, by=who, operator=op,
+                                                     kind=None, evidence_url=comment.get("html_url"), quote=None,
+                                                     note="decided in issue #%s" % q["issue"], pending=False))
+            else:
+                done = []
+                for res, rid, note in lines:
+                    if rid in q["records"] and not args.dry_run:
+                        cmd_log_human(argparse.Namespace(run=q["subject"], id=rid, result=res.lower(),
+                                                         note="%s (issue #%s)" % (note, q["issue"]), by=who))
+                    done.append("%s %s" % (rid, res.lower()))
+                result = "logged " + ", ".join(done)
+            print("#%-5s %-40s %s" % (q["issue"], key, result))
+            if result.startswith("not applied"):
+                if not args.dry_run:
+                    gh("issue", "comment", str(q["issue"]), "--repo", repo, "--body", "Not applied: %s" % result[13:])
+                continue
+            applied += 1
+            if not args.dry_run and q["kind"] != "sample":
+                q.update(state="decided", closed=today(), resolution=result)
+                gh("issue", "close", str(q["issue"]), "--repo", repo, "--comment",
+                   "Applied by `pipeline.py questions --apply`: %s. Recorded in data/history.jsonl." % result)
+        if not args.dry_run:
+            db = load_db()
+            found = collect_questions(db)  # decisions may have settled samples and hosts
+        print("%d decision(s) %s." % (applied, "found (dry run)" if args.dry_run else "applied"))
+    for key, q in found.items():  # new questions, and new facts about open ones
+        old = items.get(key)
+        if old and old.get("state") == "open":
+            old.update({k: v for k, v in q.items() if k not in ("issue", "url", "opened", "state")})
+        elif not old:
+            items[key] = dict(q, state="open", issue=None, url=None, opened=today(), closed=None, resolution=None)
+    for key, q in items.items():  # open questions nothing implies any more are settled
+        if q.get("state") == "open" and key not in found:
+            q.update(state="settled", closed=today(), resolution=q.get("resolution") or "settled by a later run or decision")
+    if args.sync:
+        repo = repo or github_repo()
+        if not args.dry_run:
+            ensure_labels(repo)
+        for key, q in items.items():
+            if q["state"] == "open" and not q.get("issue"):
+                title, body = question_title(q, by), question_body(q, by, repo)
+                if args.dry_run:
+                    print("would open: %s" % title)
+                    continue
+                url = gh("issue", "create", "--repo", repo, "--title", title, "--body-file", "-", "--label", "question",
+                         "--label", "question:%s" % ("record" if q["kind"] == "candidate" else q["kind"]),
+                         input_text=body).strip().splitlines()[-1]
+                q.update(issue=int(url.rstrip("/").rsplit("/", 1)[1]), url=url)
+                print("opened #%s %s" % (q["issue"], title))
+            elif q["state"] == "settled" and q.get("issue") and not q.get("closed_on_github"):
+                if args.dry_run:
+                    print("would close #%s (%s)" % (q["issue"], q["resolution"]))
+                    continue
+                gh("issue", "close", str(q["issue"]), "--repo", repo, "--comment",
+                   "Closed by `pipeline.py questions --sync`: %s." % q["resolution"])
+                q["closed_on_github"] = True
+    if (args.sync or args.apply) and not args.dry_run:  # listing only reads
+        reg["questions"] = list(items.values())
+        write_json(QUESTIONS, reg)
+        build.write_js(build.normalise(load_db()))
+    st = Counter(q["state"] for q in items.values())
+    kinds = Counter(q["kind"] for q in items.values() if q["state"] == "open")
+    print("Questions: %s; open by kind: %s%s" % (", ".join("%s %d" % kv for kv in st.most_common()) or "none",
+                                                 ", ".join("%s %d" % kv for kv in kinds.most_common()) or "-",
+                                                 " (dry run: nothing written)" if args.dry_run else ""))
+    if not args.sync and not args.apply:
+        for q in items.values():
+            if q["state"] == "open":
+                print("  %-7s %-34s %s" % ("#%s" % q["issue"] if q.get("issue") else "-", q["key"][:34],
+                                           (q.get("why") or "")[:90]))
+    return 0
+
+
 # ----------------------------------------------------------------------------- main
 
 def main(argv=None):
@@ -1947,6 +2333,10 @@ def main(argv=None):
     s.add_argument("--evidence-url")
     s.add_argument("--quote")
     s.add_argument("--note")
+    s = sub.add_parser("questions", help="open questions for humans, as GitHub issues")
+    s.add_argument("--sync", action="store_true", help="open issues for new questions and close settled ones")
+    s.add_argument("--apply", action="store_true", help="apply maintainers' decisions from the issues")
+    s.add_argument("--dry-run", action="store_true")
     s = sub.add_parser("log-human")
     s.add_argument("--run")
     s.add_argument("--id", required=True)
@@ -1963,7 +2353,7 @@ def main(argv=None):
     cmds = {"new": cmd_new, "status": cmd_status, "stage": cmd_stage, "dedupe": cmd_dedupe, "textify": cmd_textify,
             "evidence": cmd_evidence, "sample": cmd_sample, "compare": cmd_compare, "queue": cmd_queue,
             "assemble": cmd_assemble, "report": cmd_report, "frame": cmd_frame, "log-human": cmd_log_human,
-            "log-scope": cmd_log_scope, "hosts": cmd_hosts}
+            "log-scope": cmd_log_scope, "hosts": cmd_hosts, "questions": cmd_questions}
     if not args.cmd:
         ap.print_help()
         return 2

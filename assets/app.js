@@ -7,6 +7,8 @@
   }
   var R = DB.records;
   var META = DB.meta;
+  var QUESTIONS = DB.questions || {};  // record ID -> open questions (GitHub issues), from pipeline/questions.json
+  function questionsOf(r) { return QUESTIONS[r.id] || []; }
   var byId = {}, bySlug = {};
   R.forEach(function (r, i) {
     byId[r.id] = r; bySlug[r.slug] = r;
@@ -95,6 +97,7 @@
     { key: "status", label: "Status", get: function (r) { return [r.status]; }, order: STATUS_ORDER, open: true },
     { key: "type", label: "Instrument type", get: function (r) { return [r.instrument_type]; } },
     { key: "topic", label: "Safety topic", get: function (r) { return r.safety_topics || []; } },
+    { key: "question", label: "Open question", get: function (r) { return [questionsOf(r).length ? "open" : "none"]; }, order: ["open", "none"], fmt: function (v) { return v === "open" ? "Has an open question" : "No open question"; } },
     { key: "scope", label: "Scope", get: function (r) { return [r.scope_note ? "Borderline" : "Core"]; }, order: ["Core", "Borderline"], fmt: function (v) { return v === "Core" ? "Core: clearly in scope" : "Borderline: included and flagged"; } },
     { key: "english", label: "English text", get: function (r) { return [englishKind(r)]; }, order: ["authentic", "government translation", "third-party translation", "none found", "unchecked"], fmt: function (v) { return EV_LABEL[v] || v; } },
     { key: "vlevel", label: "Verification", get: function (r) { return [r.verification.level]; }, order: ["A", "B", "C"], fmt: function (v) { return VLABEL[v]; } },
@@ -167,6 +170,7 @@
     levelA: cnt(function (r) { return r.verification.level === "A"; }), levelB: cnt(function (r) { return r.verification.level === "B"; }),
     levelC: cnt(function (r) { return r.verification.level === "C"; }), nocopy: cnt(function (r) { return r.local_copy.status !== "archived"; }),
     nonEnglish: cnt(function (r) { return !hasEnglishText(r); }),
+    openQuestions: cnt(function (r) { return questionsOf(r).length > 0; }),
     noEnglish: cnt(function (r) { var k = englishKind(r); return k === "none found" || k === "unchecked"; })
   };
   document.querySelectorAll("[data-count]").forEach(function (el) { var v = COUNT[el.getAttribute("data-count")]; if (v != null) el.textContent = String(v); });
@@ -335,7 +339,7 @@
         '<span class="c-title"><span class="t1">' + esc(r.short_title || r.title) + '</span><span class="t2">' + esc(r.short_title && r.short_title !== r.title ? r.title : r.summary) + "</span></span>" +
         '<span class="c-jur"><span class="lbl">Where</span><span><span class="jur">' + esc(r.jurisdiction) + '</span><br><span class="sub">' + esc(sub) + "</span></span></span>" +
         '<span class="col-type type">' + esc(r.instrument_type) + "</span>" +
-        '<span class="c-status"><span class="lbl">Status</span>' + statusPill(r) + '<span class="force">' + esc(r.legal_force) + "</span>" + (r.scope_note ? '<span class="scope-flag" title="' + esc(r.scope_note) + '">Borderline scope</span>' : "") + "</span>" +
+        '<span class="c-status"><span class="lbl">Status</span>' + statusPill(r) + '<span class="force">' + esc(r.legal_force) + "</span>" + (r.scope_note ? '<span class="scope-flag" title="' + esc(r.scope_note) + '">Borderline scope</span>' : "") + (questionsOf(r).length ? '<span class="scope-flag q-flag" title="A maintainer has an open question about this record">Open question</span>' : "") + "</span>" +
         '<span class="c-date"><span class="lbl">Published</span><span class="date">' + esc(r.date_published || "—") + "</span></span>" +
         '<span class="c-v">' + vBadge(r) + lcBadge(r) + "</span>" +
         "</button>";
@@ -539,6 +543,7 @@
       languageSection(r) +
       ((r.safety_topics || []).length ? '<div class="sec"><h3>Safety topics</h3><div class="tags">' + r.safety_topics.map(function (t) { return '<span class="tag">' + esc(t) + "</span>"; }).join("") + "</div></div>" : "") +
       (r.scope_note ? '<div class="sec"><h3>Scope</h3><p><span class="scope-flag">Borderline scope</span> ' + esc(r.scope_note) + "</p></div>" : "") +
+      (questionsOf(r).length ? '<div class="sec"><h3>Open question</h3>' + questionsOf(r).map(function (q) { return "<p>" + esc(q.why) + " " + (q.url ? '<a href="' + esc(q.url) + '" target="_blank" rel="noopener">Issue #' + esc(q.issue) + "</a>" : "(not filed yet)") + "</p>"; }).join("") + '<p class="muted">The record shows its last checked values until a maintainer decides; the decision is recorded in its history.</p></div>' : "") +
       (r.notes ? '<div class="sec"><h3>Status notes</h3><p>' + esc(r.notes) + "</p></div>" : "") +
       '<div class="sec"><h3>Sources</h3><div class="sources">' + srcs + "</div></div>" +
       localSection(r) +
@@ -590,10 +595,10 @@
     function fallback() { if (selectEl) { selectEl.focus(); selectEl.select(); toast("Text selected. Press Ctrl+C or ⌘C to copy."); } else toast("Copy is blocked here. Select the text and copy it manually."); }
   }
 
-  var COLS = ["id", "title", "original_title", "short_title", "jurisdiction", "country", "jurisdiction_level", "region", "issuing_body", "instrument_type", "legal_force", "status", "date_published", "date_in_force", "date_last_updated", "official_identifier", "official_url", "secondary_url", "language", "english_version", "english_version_url", "english_version_by", "summary", "safety_topics", "related_ids", "notes", "scope_note", "verification_level", "verified_on", "verification_method", "verification_note", "second_check", "local_status", "local_flag", "local_last_attempt", "local_files", "local_sha256"];
+  var COLS = ["id", "title", "original_title", "short_title", "jurisdiction", "country", "jurisdiction_level", "region", "issuing_body", "instrument_type", "legal_force", "status", "date_published", "date_in_force", "date_last_updated", "official_identifier", "official_url", "secondary_url", "language", "english_version", "english_version_url", "english_version_by", "summary", "safety_topics", "related_ids", "notes", "scope_note", "open_questions", "verification_level", "verified_on", "verification_method", "verification_note", "second_check", "local_status", "local_flag", "local_last_attempt", "local_files", "local_sha256"];
   function flat(r) {
     var v = r.verification;
-    return { id: r.id, title: r.title, original_title: r.original_title, short_title: r.short_title, jurisdiction: r.jurisdiction, country: r.country, jurisdiction_level: r.jurisdiction_level, region: r.region, issuing_body: r.issuing_body, instrument_type: r.instrument_type, legal_force: r.legal_force, status: r.status, date_published: r.date_published, date_in_force: r.date_in_force, date_last_updated: r.date_last_updated, official_identifier: r.official_identifier, official_url: r.official_url, secondary_url: r.secondary_url, language: r.language, english_version: (r.english_version || {}).kind, english_version_url: (r.english_version || {}).url, english_version_by: (r.english_version || {}).by, summary: r.summary, safety_topics: (r.safety_topics || []).join("; "), related_ids: (r.related || []).map(function (x) { return x.id; }).filter(Boolean).join("; "), notes: r.notes, scope_note: r.scope_note, verification_level: v.level, verified_on: v.verified_on, verification_method: v.method, verification_note: v.note, second_check: v.second_check, local_status: r.local_copy.status, local_flag: [r.local_copy.flag, r.local_copy.integrity_flag].filter(Boolean).join(" "), local_last_attempt: r.local_copy.last_attempt, local_files: (r.local_copy.files || []).map(function (f) { return f.path; }).join("; "), local_sha256: (r.local_copy.files || []).map(function (f) { return f.sha256; }).join("; ") };
+    return { id: r.id, title: r.title, original_title: r.original_title, short_title: r.short_title, jurisdiction: r.jurisdiction, country: r.country, jurisdiction_level: r.jurisdiction_level, region: r.region, issuing_body: r.issuing_body, instrument_type: r.instrument_type, legal_force: r.legal_force, status: r.status, date_published: r.date_published, date_in_force: r.date_in_force, date_last_updated: r.date_last_updated, official_identifier: r.official_identifier, official_url: r.official_url, secondary_url: r.secondary_url, language: r.language, english_version: (r.english_version || {}).kind, english_version_url: (r.english_version || {}).url, english_version_by: (r.english_version || {}).by, summary: r.summary, safety_topics: (r.safety_topics || []).join("; "), related_ids: (r.related || []).map(function (x) { return x.id; }).filter(Boolean).join("; "), notes: r.notes, scope_note: r.scope_note, open_questions: questionsOf(r).map(function (q) { return q.url || "open question"; }).join("; "), verification_level: v.level, verified_on: v.verified_on, verification_method: v.method, verification_note: v.note, second_check: v.second_check, local_status: r.local_copy.status, local_flag: [r.local_copy.flag, r.local_copy.integrity_flag].filter(Boolean).join(" "), local_last_attempt: r.local_copy.last_attempt, local_files: (r.local_copy.files || []).map(function (f) { return f.path; }).join("; "), local_sha256: (r.local_copy.files || []).map(function (f) { return f.sha256; }).join("; ") };
   }
   function toCSV(rows) {
     var q = function (x) { x = x == null ? "" : String(x); return /[",\n\r]/.test(x) ? '"' + x.replace(/"/g, '""') + '"' : x; };
