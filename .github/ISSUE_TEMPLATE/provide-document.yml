@@ -6,17 +6,26 @@ body:
   - type: markdown
     attributes:
       value: |
-        Some official sites block automated downloads (by robots.txt, or by refusing the archiver's network). If you downloaded the document yourself, attach it here. A maintainer checks that it matches the official source; the copy is then stored with its SHA-256 and with your GitHub name as the provider, and the next refresh run reads it. Please attach only documents you downloaded from the official URL below, unchanged.
+        Some official sites block automated downloads (by robots.txt, or by refusing the archiver's network). If you downloaded the document yourself, attach it here. A maintainer checks that it matches the official source; the copy is then stored with its SHA-256 and with your GitHub name as the provider, and the next pipeline run reads it. For an instrument the register does not have yet, for example one in an open question, leave the record ID empty and give its title and jurisdiction code instead. Please attach only documents you downloaded from the official URL below, unchanged.
 
         AI agents and automated tools are welcome under the rules in [CONTRIBUTING.md](https://github.com/kelkalot/every-ai-policy-ever/blob/main/CONTRIBUTING.md): say so under "Submitted by", suggest only what you found on an official page you opened, and never write a decision line.
   - type: input
     id: record
     attributes:
       label: Record ID
-      description: The register record the document belongs to.
+      description: The register record the document belongs to. Leave empty for an instrument without a record.
       placeholder: US-CA-12
-    validations:
-      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: Only for an instrument without a record, as the document gives it.
+  - type: input
+    id: jurisdiction
+    attributes:
+      label: Jurisdiction code
+      description: Only for an instrument without a record. The ISO code of the country (NO, JP), a sub-national code (US-FL, CA-ON), or a body code (EU, UN).
+      placeholder: US-FL
   - type: input
     id: url
     attributes:

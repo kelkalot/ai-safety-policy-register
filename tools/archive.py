@@ -854,24 +854,18 @@ def provided_flag(f):
                (" (issue #%s)" % f["issue"]) if f.get("issue") else ""))
 
 
-def store_provided(db, rid, src, url, by, confirmed_by=None, issue=None, note=None, source_url=None):
-    """Store a document a person downloaded by hand (the site blocks automated downloads by robots.txt or refuses
-    this network) as a copy of the record's official source, with who provided and who confirmed it."""
+def _write_provided(folder, src, url, by, confirmed_by=None, issue=None, note=None, source_url=None, known=()):
+    """Write a provided file into folder with its SHA-256 in SHA256SUMS; the file entry, or None when a file with the
+    same hash is among known."""
     import mimetypes
-    rec = {r["id"]: r for r in db["records"]}.get(rid)
-    if not rec:
-        raise SystemExit("No record %s" % rid)
     body = Path(src).read_bytes()
     if not body:
         raise SystemExit("%s is empty" % src)
     digest = sha256(body)
+    if digest in set(known):
+        return None  # already stored
     ctype = mimetypes.guess_type(str(src))[0] or "application/octet-stream"
     ext = Path(src).suffix.lower() or ext_for(ctype, body, url)
-    lc = rec.get("local_copy") or {}
-    files = [f for f in lc.get("files") or []]
-    if any(f.get("sha256") == digest for f in files):
-        return None  # already stored
-    folder = ARCHIVE / rid / iso(utcnow())[:10]
     folder.mkdir(parents=True, exist_ok=True)
     name, n = "provided" + ext, 2
     while (folder / name).exists():
@@ -879,12 +873,68 @@ def store_provided(db, rid, src, url, by, confirmed_by=None, issue=None, note=No
     (folder / name).write_bytes(body)
     RecordJob._append_sums(folder, name, digest)
     now = iso(utcnow())
-    f = {"role_key": "provided", "role": "provided", "label": ROLE_LABELS["provided"],
-         "path": (folder / name).relative_to(ROOT).as_posix(), "url": url, "final_url": source_url or url,
-         "http_status": None, "content_type": ctype, "bytes": len(body), "sha256": digest, "text_sha256": None,
-         "retrieved_at": now, "last_checked": now, "method": "provided", "last_modified": None, "etag": None,
-         "changed": False, "previous_sha256": None, "previous_path": None, "stale": False, "warning": None,
-         "integrity": "ok", "provided_by": by, "confirmed_by": confirmed_by or by, "issue": issue, "note": note}
+    return {"role_key": "provided", "role": "provided", "label": ROLE_LABELS["provided"],
+            "path": (folder / name).relative_to(ROOT).as_posix(), "url": url, "final_url": source_url or url,
+            "http_status": None, "content_type": ctype, "bytes": len(body), "sha256": digest, "text_sha256": None,
+            "retrieved_at": now, "last_checked": now, "method": "provided", "last_modified": None, "etag": None,
+            "changed": False, "previous_sha256": None, "previous_path": None, "stale": False, "warning": None,
+            "integrity": "ok", "provided_by": by, "confirmed_by": confirmed_by or by, "issue": issue, "note": note}
+
+
+def store_provided_lead(lead_id, src, url, by, confirmed_by=None, issue=None, note=None, source_url=None, known=()):
+    """Store a document a person downloaded by hand for an instrument that has no record yet. It is kept under
+    archive/_provided/<lead ID>/ and travels with the lead: the run that follows the lead up gets it as a stored
+    source of its candidate (attach_provided)."""
+    return _write_provided(ARCHIVE / "_provided" / lead_id / iso(utcnow())[:10], src, url, by, confirmed_by, issue,
+                           note, source_url, known)
+
+
+def attach_provided(rd):
+    """Give each candidate of a run that follows up a lead with a provided document that document as a stored source
+    (role "provided"), next to whatever the archiver could fetch itself. Returns the candidates that got one."""
+    leads = {l.get("id"): l for l in (read_json(ROOT / "pipeline" / "leads.json", {}) or {}).get("leads") or []
+             if l.get("id") and l.get("provided")}
+    if not leads:
+        return []
+    path = rd / "sources.json"
+    sources = read_json(path, {}) or {}
+    got = []
+    for c in (read_json(rd / "candidates.json", {}) or {}).get("candidates") or []:
+        lead = leads.get(c.get("lead"))
+        if not lead or c.get("status", "active") != "active" or not c.get("cand_id"):
+            continue
+        f = dict(lead["provided"])
+        if not (ROOT / f.get("path", "")).is_file():
+            print("  %s: the provided file of lead %s is missing: %s" % (c["cand_id"], lead["id"], f.get("path")))
+            continue
+        entry = sources.setdefault(c["cand_id"], {"main": None, "extras": {}})
+        lc = entry.get("main") or {"status": "failed", "files": []}
+        if any(x.get("sha256") == f["sha256"] for x in lc.get("files") or []):
+            continue
+        lc.setdefault("files", []).append(f)
+        fresh = any(x.get("role_key") in ("official", "official-rendered") and not x.get("stale") for x in lc["files"])
+        lc.update(status="archived", flag=None if fresh else provided_flag(f))
+        entry["main"] = lc
+        got.append(c["cand_id"])
+    if got:
+        tmp = path.with_suffix(".json.tmp")
+        tmp.write_text(json.dumps(sources, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        tmp.replace(path)
+    return got
+
+
+def store_provided(db, rid, src, url, by, confirmed_by=None, issue=None, note=None, source_url=None):
+    """Store a document a person downloaded by hand (the site blocks automated downloads by robots.txt or refuses
+    this network) as a copy of the record's official source, with who provided and who confirmed it."""
+    rec = {r["id"]: r for r in db["records"]}.get(rid)
+    if not rec:
+        raise SystemExit("No record %s" % rid)
+    lc = rec.get("local_copy") or {}
+    files = [f for f in lc.get("files") or []]
+    f = _write_provided(ARCHIVE / rid / iso(utcnow())[:10], src, url, by, confirmed_by, issue, note, source_url,
+                        known=[x.get("sha256") for x in files])
+    if not f:
+        return None
     files.append(f)
     has_fresh_official = any(x.get("role_key") in ("official", "official-rendered") and not x.get("stale") for x in files)
     rec["local_copy"] = dict(lc, files=files, status="archived",
@@ -1256,6 +1306,8 @@ def main(argv=None):
     build.save(db)
     if rd is not None:
         save_run_sources(rd, recs, where)
+        for cid in attach_provided(rd):
+            print("  %s: added the document provided for its lead" % cid)
         print("Stored sources listed in %s; next: python3 tools/pipeline.py textify --run %s"
               % ((rd / "sources.json").relative_to(ROOT), args.run))
     counts = {k: v for k, v in counts.items() if v}
