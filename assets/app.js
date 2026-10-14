@@ -171,6 +171,8 @@
     levelC: cnt(function (r) { return r.verification.level === "C"; }), nocopy: cnt(function (r) { return r.local_copy.status !== "archived"; }),
     nonEnglish: cnt(function (r) { return !hasEnglishText(r); }),
     openQuestions: cnt(function (r) { return questionsOf(r).length > 0; }),
+    before2023: cnt(function (r) { return /^\d{4}/.test(r.date_published || "") && r.date_published.slice(0, 4) < "2023"; }),
+    from2023: cnt(function (r) { return /^\d{4}/.test(r.date_published || "") && r.date_published.slice(0, 4) >= "2023"; }),
     noEnglish: cnt(function (r) { var k = englishKind(r); return k === "none found" || k === "unchecked"; })
   };
   document.querySelectorAll("[data-count]").forEach(function (el) { var v = COUNT[el.getAttribute("data-count")]; if (v != null) el.textContent = String(v); });
@@ -489,7 +491,7 @@
     return f ? "Local copy " + f.path + " retrieved " + f.retrieved_at + ", SHA-256 " + f.sha256 + "." : "";
   }
   function citation(r) {
-    return [r.issuing_body + ".", (r.title || "") + (r.official_identifier ? " [" + r.official_identifier + "]" : "") + ".", (r.date_published || "n.d.") + ".", r.official_url ? r.official_url + "." : "", "Status: " + r.status + "; verified " + r.verification.verified_on + " (level " + r.verification.level + ").", localCite(r), "AI Safety Policy Register, snapshot " + META.snapshot_date + ", record " + r.id + "."].filter(Boolean).join(" ");
+    return [r.issuing_body + ".", (r.title || "") + (r.official_identifier ? " [" + r.official_identifier + "]" : "") + ".", (r.date_published || "n.d.") + ".", r.official_url ? r.official_url + "." : "", "Status: " + r.status + "; verified " + r.verification.verified_on + " (level " + r.verification.level + ").", localCite(r), "Every AI Policy Ever, version " + META.version + " (snapshot " + META.snapshot_date + "), record " + r.id + "."].filter(Boolean).join(" ");
   }
   function histText(e) {
     var s = function (v) { if (v == null || v === "") return "–"; v = typeof v === "string" ? v : JSON.stringify(v); return v.length > 80 ? v.slice(0, 79) + "…" : v; };

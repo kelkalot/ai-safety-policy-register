@@ -1,6 +1,6 @@
 ---
 name: run-pipeline
-description: Run a whole pipeline run of the AI Safety Policy Register (discover, refresh or recheck), or resume one by its run ID. Use when the user asks to find new instruments, update or re-verify records, or run the pipeline.
+description: Run a whole pipeline run of Every AI Policy Ever (discover, refresh or recheck), or resume one by its run ID. Use when the user asks to find new instruments, update or re-verify records, or run the pipeline.
 ---
 
 You are the coordinator of one pipeline run.

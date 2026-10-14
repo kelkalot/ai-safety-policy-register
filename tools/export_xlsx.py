@@ -107,7 +107,7 @@ def write_xlsx(db, root=build.ROOT):
     for r in R:
         s = (r.get("local_copy") or {}).get("status", "not-attempted"); counts[s] = counts.get(s, 0) + 1
     lines = [
-        (meta.get("name", "AI Safety Policy Register"), None, "title"),
+        (meta.get("name", "Every AI Policy Ever"), None, "title"),
         ("Data export of the register: every record, its topics and links, and the local copies of its sources.", None, "muted"),
         (None, None, None),
         ("Snapshot date", meta.get("snapshot_date"), None),
@@ -127,7 +127,7 @@ def write_xlsx(db, root=build.ROOT):
         ("Column glossary (Records sheet)", None, "bold"),
     ] + [(f, m, None) for f, m in GLOSSARY] + [
         (None, None, None),
-        ("How to cite a record", "Issuing body. Title [identifier]. Date. Official URL. Status; verified <date> (level). Local copy <path> retrieved <time>, SHA-256 <hash>. AI Safety Policy Register, snapshot <date>, record <ID>.", None),
+        ("How to cite a record", "Issuing body. Title [identifier]. Date. Official URL. Status; verified <date> (level). Local copy <path> retrieved <time>, SHA-256 <hash>. Every AI Policy Ever, version <version> (snapshot <date>), record <ID>.", None),
         ("Notes", "Dates are ISO text, shortened to YYYY-MM or YYYY when the source gives no exact day. Multi-valued cells use '; ' as the separator. Nothing in this file is computed by formulas.", None),
     ]
     for i, (a, b, kind) in enumerate(lines, 1):

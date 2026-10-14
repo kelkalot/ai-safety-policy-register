@@ -48,11 +48,11 @@ import history  # noqa: E402
 import validate  # noqa: E402
 
 ROOT = build.ROOT
-AUTHORS = [("Riegler", "Michael"), ("Gautam", "Sushant")]
+AUTHORS = build.AUTHORS
 AFFILIATION = "AI Safety Department, SimulaMet & OsloMet"
 MAINTAINERS = [("Michael A. Riegler", "michael@simula.no"), ("Sushant Gautam", "sushant@simula.no")]
 CONTACT = "%s, %s" % (" and ".join("%s (%s)" % m for m in MAINTAINERS), AFFILIATION)
-PRETTY_NAME = "Every AI Policy Ever"
+PRETTY_NAME = build.NAME
 
 # Hosts of secondary copies that are commentary or press rather than official publications.
 THIRD_PARTY_HOSTS = {
@@ -199,17 +199,12 @@ def stats(db, files):
         "with_copy": sum(1 for r in R if (r.get("local_copy") or {}).get("status") == "archived"),
         "years": "%s to %s" % (min(r["date_published"][:4] for r in R if r.get("date_published")),
                                max(r["date_published"][:4] for r in R if r.get("date_published"))),
+        "from_2023": build.numbers(db)["from_2023"], "before_2023": build.numbers(db)["before_2023"],
     }
 
 
 def bibtex(meta, repo_url):
-    key = "riegler_gautam_%s_every_ai_policy_ever" % meta.get("snapshot_date", "")[:4]
-    authors = " and ".join("%s, %s" % a for a in AUTHORS)
-    return ("@dataset{%s,\n  title     = {%s: a register of official AI safety and AI regulation instruments},\n"
-            "  author    = {%s},\n  year      = {%s},\n  version   = {%s},\n  publisher = {Hugging Face},\n"
-            "  url       = {%s},\n  note      = {AI-assisted extraction, snapshot %s}\n}") % (
-        key, PRETTY_NAME, authors, meta.get("snapshot_date", "")[:4], meta.get("version"), repo_url,
-        meta.get("snapshot_date"))
+    return build.bibtex(meta, repo_url)
 
 
 def dataset_card(db, st, ns, name, github_url):
@@ -345,6 +340,8 @@ df.groupby(["region", "legal_force"]).size().unstack(fill_value=0)
 | `local_status`, `local_flag`, `local_last_attempt` | Whether the official source is stored in the archive dataset, and why not if it is not |
 
 ## Coverage
+
+**Time coverage.** The register aims to hold every instrument within its scope, but so far it is densest from 2023 on: {from_2023} records date from 2023 or later and {before_2023} from earlier years. Older instruments are being added run by run; the absence of one from before 2023 says nothing about whether it exists.
 
 {binding} binding, {nonbinding} non-binding and {proposed} proposed instruments; {intl} records are international or EU instruments. Every G20 member and 25 of the 27 EU member states have at least one record. Belgium and Estonia had adopted no national AI Act implementing measure at the snapshot.
 

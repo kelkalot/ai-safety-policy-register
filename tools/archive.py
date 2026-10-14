@@ -1129,7 +1129,7 @@ def write_attention_log(db):
                              break_long_words=False, break_on_hyphens=False) or ["%-14s-" % label]
 
     lines = [
-        "Records that need a human decision - AI Safety Policy Register",
+        "Records that need a human decision - Every AI Policy Ever",
         "Written %s by tools/archive.py. Register: %d records, %d listed here." % (
             iso(utcnow()), len(db["records"]), len(listed)),
         "",

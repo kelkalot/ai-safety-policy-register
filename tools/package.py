@@ -65,7 +65,7 @@ def package_text(db, files, total, include_archive, folder):
         l = (r.get("verification") or {}).get("level"); lv[l] = lv.get(l, 0) + 1
     n_files = sum(1 for p in files if p.relative_to(ROOT).parts[0] == "archive")
     lines = [
-        "%s - complete package" % meta.get("name", "AI Safety Policy Register"),
+        "%s - complete package" % meta.get("name", "Every AI Policy Ever"),
         "=" * 72,
         "Snapshot %s, version %s, %d records. Packaged %s." % (
             meta.get("snapshot_date"), meta.get("version"), len(R), dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")),
