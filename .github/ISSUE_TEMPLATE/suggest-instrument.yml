@@ -7,6 +7,8 @@ body:
     attributes:
       value: |
         Thank you. A maintainer checks each suggestion. Accepted ones go into the next pipeline run, which stores the official source, writes the record from it and checks it; this issue is then closed with the record's ID. The scope is in AGENTS.md section 10: official instruments of governments, legislatures, regulators, supervisors and intergovernmental bodies, not documents by companies, think tanks or the press.
+
+        AI agents and automated tools are welcome under the rules in [CONTRIBUTING.md](https://github.com/kelkalot/every-ai-policy-ever/blob/main/CONTRIBUTING.md): say so under "Submitted by", suggest only what you found on an official page you opened, and never write a decision line.
   - type: input
     id: url
     attributes:
@@ -55,3 +57,18 @@ body:
     attributes:
       label: Why it belongs in the register
       description: One or two sentences on its AI safety or AI regulation content.
+  - type: dropdown
+    id: submitter
+    attributes:
+      label: Submitted by
+      description: AI agents and automated tools say so here (see CONTRIBUTING.md).
+      options:
+        - a person
+        - an AI agent or automated tool, for a person
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: Agent or tool
+      description: If an agent or tool submitted this, its name and the person or organisation it acts for.

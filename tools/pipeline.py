@@ -20,6 +20,7 @@ this file does the bookkeeping, so that a run can be repeated and checked.
     python3 tools/pipeline.py hosts [--code C] [--pending]        # the curated list of official sites
     python3 tools/pipeline.py questions [--sync] [--apply] [--dry-run]   # open questions as GitHub issues
     python3 tools/pipeline.py intake [--dry-run]     # suggestions and provided documents from GitHub issues
+    python3 tools/pipeline.py intake --triage        # undecided suggestions with warning signs; changes nothing
     python3 tools/pipeline.py leads [--add --lead T --cell C|--code C [--issued-by B]|--record ID
                                      --url U --seen-in U --why W --by NAME] [--drop L001 --why W --by NAME]
     python3 tools/pipeline.py hosts --add HOST --code C --status official|"not official"|proposed --by NAME
@@ -2004,10 +2005,21 @@ def github_repo():
     return m.group(1)
 
 
+AGENT_MARK = "<!-- every-ai-policy-ever:agent -->"
+
+
 def gh(*args, input_text=None):
     if not shutil.which("gh"):
         raise SystemExit("The GitHub CLI (gh) is needed for questions --sync and --apply")
-    res = subprocess.run(["gh"] + list(args), capture_output=True, text=True, input=input_text)
+    args = list(args)
+    if args[:1] == ["issue"] and args[1:2] and args[1] in ("create", "comment", "close"):
+        # everything the pipeline posts carries the agent marker, so that it is never read as a maintainer's decision
+        for flag in ("--body", "--comment"):
+            if flag in args:
+                args[args.index(flag) + 1] += "\n\n" + AGENT_MARK
+        if "--body-file" in args and input_text is not None:
+            input_text += "\n\n" + AGENT_MARK
+    res = subprocess.run(["gh"] + args, capture_output=True, text=True, input=input_text)
     if res.returncode:
         raise SystemExit("gh %s failed: %s" % (" ".join(args[:2]), res.stderr.strip()[:300]))
     return res.stdout
@@ -2160,10 +2172,16 @@ def ensure_labels(repo):
         gh("label", "create", name, "--repo", repo, "--color", color, "--description", desc, "--force")
 
 
+def written_by_agent(c):
+    """A comment an agent or a bot wrote: it carries the agent marker (AGENTS.md section 4, rule 11) or comes from a
+    bot account. Such a comment is never a maintainer's decision, even when it was posted with a maintainer's login."""
+    return "every-ai-policy-ever:agent" in (c.get("body") or "") or (c.get("user") or {}).get("type") == "Bot"
+
+
 def parse_decisions(comments, kind):
     """The latest decision by a maintainer, as (comment, [parsed lines]); None when there is none."""
     for c in reversed(comments):
-        if c.get("author_association") not in DECIDERS:
+        if c.get("author_association") not in DECIDERS or written_by_agent(c):
             continue
         body = c.get("body") or ""
         if kind == "sample":
@@ -2471,6 +2489,71 @@ def cmd_leads(args):
     return 0
 
 
+FIELD_CAP = {"title": 200, "why it belongs in the register": 500, "official url": 500}
+
+
+def intake_triage(repo, reg, db):
+    """Undecided suggestions and documents, with what a maintainer may want to look at before deciding (AGENTS.md
+    section 7.9). It only reads GitHub and prints; it decides nothing and posts nothing."""
+    official, rejected = site_hosts(load_sites())
+    by_url = {}
+    for r in db["records"]:
+        for u in (r.get("official_url"), r.get("secondary_url")):
+            if u:
+                by_url.setdefault(norm_url(u), r["id"])
+    lead_by_url = {norm_url(l["url"]): l.get("id") or "#%s" % l.get("issue") for l in reg["leads"]
+                   if l.get("url") and l.get("state") not in ("dropped", "rejected")}
+    week, month = [(dt.date.today() - dt.timedelta(days=d)).isoformat() for d in (7, 30)]
+    authors, shown = {}, 0
+    for label in ("source-suggestion", "document"):
+        issues = json.loads(gh("issue", "list", "--repo", repo, "--state", "open", "--label", label, "--limit", "200",
+                               "--json", "number,title,body,author,createdAt") or "[]")
+        for it in issues:
+            num = it["number"]
+            if parse_decisions(json.loads(gh("api", "repos/%s/issues/%s/comments" % (repo, num), "--paginate") or "[]"),
+                               "record"):
+                continue
+            info = json.loads(gh("api", "repos/%s/issues/%s" % (repo, num)) or "{}")
+            login = (it.get("author") or {}).get("login") or "?"
+            if login not in authors:
+                user = json.loads(gh("api", "users/%s" % login) or "{}")
+                recent = json.loads(gh("issue", "list", "--repo", repo, "--state", "all", "--author", login, "--search",
+                                       "created:>=%s" % week, "--limit", "100", "--json", "number") or "[]")
+                authors[login] = ((user.get("created_at") or "")[:10], len(recent))
+            created, recent = authors[login]
+            f = form_fields(it.get("body"))
+            signals = []
+            who = f.get("submitted by", "")
+            if who and not who.lower().startswith("a person"):
+                signals.append("declared: %s%s" % (who, " (%s)" % f["agent or tool"][:80] if f.get("agent or tool") else ""))
+            if (info.get("user") or {}).get("type") == "Bot":
+                signals.append("bot account")
+            if (info.get("performed_via_github_app") or {}).get("name"):
+                signals.append("posted via the app %s" % info["performed_via_github_app"]["name"])
+            if created and created >= month:
+                signals.append("account created %s" % created)
+            if recent > 3:
+                signals.append("%d issues by this account in 7 days" % recent)
+            url = f.get("official url", "").strip()
+            code = (f.get("jurisdiction code") or f.get("record id", "").rsplit("-", 1)[0]).strip().upper()
+            host = (urllib.parse.urlsplit(url).hostname or "").lower() if re.match(r"^https?://", url) else ""
+            if not host:
+                signals.append("no usable URL")
+            elif not official_host(host, code, official, rejected):
+                signals.append("not an official host for %s: %s" % (code or "?", host))
+            if host and label == "source-suggestion" and not f.get("existing record") and norm_url(url) in by_url:
+                signals.append("already a source of %s" % by_url[norm_url(url)])
+            if host and norm_url(url) in lead_by_url:
+                signals.append("already lead %s" % lead_by_url[norm_url(url)])
+            shown += 1
+            print("#%-5s %-17s %s  @%s (%s)" % (num, label, it.get("createdAt", "")[:10], login,
+                                               info.get("author_association") or "?"))
+            print("       %s" % (f.get("title") or f.get("record id") or it.get("title") or "")[:100])
+            print("       %s" % ("; ".join(signals) if signals else "no signals"))
+    print("Undecided: %d" % shown)
+    return 0
+
+
 def cmd_intake(args):
     """Suggestions and provided documents from GitHub issues (AGENTS.md section 7.8)."""
     import archive  # noqa: E402  (same folder)
@@ -2478,6 +2561,8 @@ def cmd_intake(args):
     repo = github_repo()
     reg = load_leads()
     leads = reg["leads"]
+    if args.triage:
+        return intake_triage(repo, reg, load_db())
     known = {l.get("issue") for l in leads if l.get("issue")}
     frame, db = load_frame(), load_db()
     by = {r["id"]: r for r in db["records"]}
@@ -2512,7 +2597,7 @@ def cmd_intake(args):
             if not dec.lower().startswith("accept"):
                 say(num, "Could not read the decision %r; use `decide: accept` or `decide: reject <reason>`." % dec)
                 continue
-            f = form_fields(it.get("body"))
+            f = {k: v[:FIELD_CAP.get(k, 500)] for k, v in form_fields(it.get("body")).items()}
             if label == "source-suggestion":
                 url = f.get("official url", "").strip()
                 rid = f.get("existing record", "").strip().upper()
@@ -2690,6 +2775,7 @@ def main(argv=None):
     s.add_argument("--dry-run", action="store_true")
     s = sub.add_parser("intake", help="suggestions and provided documents from GitHub issues")
     s.add_argument("--dry-run", action="store_true")
+    s.add_argument("--triage", action="store_true", help="list undecided issues with warning signs; changes nothing")
     s = sub.add_parser("leads", help="list the leads, add one by hand, or drop a queued one")
     s.add_argument("--add", action="store_true", help="add a lead (a new instrument, or news with --record)")
     s.add_argument("--lead", help="the instrument's title, as found")
