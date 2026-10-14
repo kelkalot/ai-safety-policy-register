@@ -363,3 +363,27 @@ added 36, changed 35
 - **SK-04** related: + SK-03 — the two Slovak deepfake bills, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C024.json)
 - **US-CA-10** related: + US-CA-11 — the two California executive orders on AI, as the checkers of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C032.json, checks/C033.json)
 - **US-CA-11** related: + US-CA-10 — the two California executive orders on AI, as the checkers of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C032.json, checks/C033.json)
+
+## 2026-10-14 · [2026-10-14-discover-codes-us-fl](runs/2026-10-14-discover-codes-us-fl/report.md)
+
+added 15, changed 4
+
+- **US-FL-02** added (Florida AI political advertising disclaimer law (HB 919, 2024); In fo…) — found in pipeline run 2026-10-14-discover-codes-us-fl, candidate C001 (US-FL/legislature)
+- **US-FL-03** added (Florida SB 1680 (2024): AI council and generated CSAM offence; In for…) — found in pipeline run 2026-10-14-discover-codes-us-fl, candidate C002 (US-FL/legislature)
+- **US-FL-04** added (Florida AI Bill of Rights (SB 2-D, 2026 Special Session D); Lapsed; l…) — found in pipeline run 2026-10-14-discover-codes-us-fl, candidate C003 (US-FL/legislature)
+- **US-FL-05** added (Brooke's Law (Florida HB 1161, 2025); In force; level A) — found in pipeline run 2026-10-14-discover-codes-us-fl, candidate C004 (US-FL/legislature)
+- **US-FL-06** added (Florida HB 757 (2025): sexual images and deepfake generation; In forc…) — found in pipeline run 2026-10-14-discover-codes-us-fl, candidate C005 (US-FL/legislature)
+- **US-FL-07** added (Florida SB 1798 (2022): altered sexual depictions offence; In force; …) — found in pipeline run 2026-10-14-discover-codes-us-fl, candidate C006 (US-FL/legislature)
+- **US-FL-08** added (Florida HB 1159 (2026): sexual offences and generated CSAM; In force;…) — found in pipeline run 2026-10-14-discover-codes-us-fl, candidate C007 (US-FL/legislature)
+- **US-FL-09** added (Florida HB 527 (2026): human review of AI claim denials; Lapsed; leve…) — found in pipeline run 2026-10-14-discover-codes-us-fl, candidate C008 (US-FL/legislature)
+- **US-FL-10** added (Florida HB 491 (2025): AI concealed-firearm detection ban; Lapsed; le…) — found in pipeline run 2026-10-14-discover-codes-us-fl, candidate C009 (US-FL/legislature)
+- **US-FL-11** added (Florida HB 369 (2025): provenance of AI-generated content; Lapsed; le…) — found in pipeline run 2026-10-14-discover-codes-us-fl, candidate C010 (US-FL/legislature)
+- **US-FL-12** added (Florida education act 2024 (HB 1361): AI grants for schools; In force…) — found in pipeline run 2026-10-14-discover-codes-us-fl, candidate C011 (US-FL/legislature)
+- **US-FL-13** added (Florida K-12 AI safety policy rule (6A-1.0957, 2026); Adopted, not ye…) — found in pipeline run 2026-10-14-discover-codes-us-fl, candidate C012 (US-FL/ministries)
+- **US-FL-14** added (Florida college AI policies rule (6A-14.0719); Adopted, not yet in fo…) — found in pipeline run 2026-10-14-discover-codes-us-fl, candidate C013 (US-FL/ministries)
+- **US-FL-15** added (Florida Bar conduct rules: generative AI comments (2024); In force; l…) — found in pipeline run 2026-10-14-discover-codes-us-fl, candidate C016 (US-FL/executive)
+- **US-FL-16** added (Florida Bar Ethics Opinion 24-1 on generative AI; Published (non-bind…) — found in pipeline run 2026-10-14-discover-codes-us-fl, candidate C017 (US-FL/supervisors)
+- **US-KY-01** related: + US-FL-02 — two-way link to US-FL-02 added in run 2026-10-14-discover-codes-us-fl
+- **US-FL-01** related: + US-FL-04 — two-way link to US-FL-04 added in run 2026-10-14-discover-codes-us-fl
+- **US-14** related: + US-FL-05 — two-way link to US-FL-05 added in run 2026-10-14-discover-codes-us-fl
+- **US-CA-13** related: + US-FL-08 — two-way link to US-FL-08 added in run 2026-10-14-discover-codes-us-fl

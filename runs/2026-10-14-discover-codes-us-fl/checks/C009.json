@@ -1,0 +1,55 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "C009",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "prohibits governmental agencies or their contractors from using AI with a camera, video recording, live-streaming device or similar technology to detect concealed firearms in a public place",
+   "verdict": "supported",
+   "locator": "document-2.pdf (JDC analysis), page 1, Effect of the Bill"
+  },
+  {
+   "claim": "exception for school grounds and s. 790.06(12) locations; injunctive relief for an aggrieved party",
+   "verdict": "supported",
+   "locator": "document-2.pdf, page 1"
+  },
+  {
+   "claim": "House passed 114-1 on 24 Apr 2025; died in Rules 16 Jun 2025",
+   "verdict": "supported",
+   "locator": "official.html, Bill History"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "State bill restricting government use of AI surveillance; AI-specific."
+ },
+ "overall": "accept",
+ "note": "All quotes found in the stored official text; status Lapsed matches 'Died in Rules' on 16 Jun 2025 and no 2026 refiling turned up in one search. Bill text itself not stored, but the staff analysis supports the summary. Level A."
+}

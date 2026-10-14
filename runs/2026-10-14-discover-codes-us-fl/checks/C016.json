@@ -1,0 +1,50 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "C016",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "adds generative AI to the comments on rules 4-1.1, 4-1.6, 4-5.1 and 4-5.3 (competence, confidentiality, firm policies, assistants)",
+   "verdict": "supported",
+   "locator": "extra-93f6ef7788 pages 4-14, comments quoted in the appendix"
+  },
+  {
+   "claim": "amendments also allow testimonials by celebrity clients in lawyer advertising; effective 28 Oct 2024",
+   "verdict": "supported",
+   "locator": "page 4"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Court-adopted conduct rules with AI only in comments; the scope_note is appropriate."
+ },
+ "overall": "accept",
+ "note": "All quotes verified in the ALM copy of the Court's opinion; the official host could not be stored, so the level is C. Date 29 Aug 2024 and effective date 28 Oct 2024 are in the text. A search found no later change to these comments."
+}

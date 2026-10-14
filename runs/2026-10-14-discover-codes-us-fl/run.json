@@ -1,0 +1,87 @@
+{
+ "run_id": "2026-10-14-discover-codes-us-fl",
+ "type": "discover",
+ "scope": "codes:US-FL",
+ "started": "2026-10-14",
+ "coordinator": {
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5"
+ },
+ "stages": {
+  "collect": {
+   "tool": "Claude Code",
+   "model": "claude-opus-5-5",
+   "date": "2026-10-14"
+  },
+  "extract": {
+   "tool": "Claude Code",
+   "model": "claude-opus-5-5",
+   "date": "2026-10-14"
+  },
+  "blind": {
+   "tool": "Claude Code",
+   "model": "claude-opus-5-5",
+   "date": "2026-10-14"
+  },
+  "check": {
+   "tool": "Claude Code",
+   "model": "claude-sonnet-5-5",
+   "date": "2026-10-14"
+  }
+ },
+ "status": "merged",
+ "cells": [
+  "US-FL/legislature",
+  "US-FL/gazette",
+  "US-FL/executive",
+  "US-FL/ministries",
+  "US-FL/supervisors"
+ ],
+ "groups": {
+  "north-america": [
+   "US-FL/legislature",
+   "US-FL/gazette",
+   "US-FL/executive",
+   "US-FL/ministries",
+   "US-FL/supervisors"
+  ]
+ },
+ "leads": [
+  {
+   "id": "L001",
+   "lead": "Florida HB 919 (2024), Artificial Intelligence Use in Political Advertising",
+   "cell": "US-FL/legislature",
+   "url": "https://www.flsenate.gov/Session/Bill/2024/919",
+   "seen_in": "https://ai-law-center.orrick.com/florida/",
+   "why": "Disclosure of AI-generated content in political advertising; listed as in effect in a law-firm tracker.",
+   "state": "in-run",
+   "added_by": "Michael Riegler",
+   "added": "2026-10-14",
+   "run_id": "2026-10-14-discover-codes-us-fl"
+  },
+  {
+   "id": "L002",
+   "lead": "Florida SB 1680 (2024), Advanced Technology",
+   "cell": "US-FL/legislature",
+   "url": "https://www.flsenate.gov/Session/Bill/2024/1680",
+   "seen_in": "https://ai-law-center.orrick.com/florida/",
+   "why": "Creates the Government Technology Modernization Council on AI and other technologies; listed in a law-firm tracker for AI-generated child sexual abuse material.",
+   "state": "in-run",
+   "added_by": "Michael Riegler",
+   "added": "2026-10-14",
+   "run_id": "2026-10-14-discover-codes-us-fl"
+  },
+  {
+   "id": "L003",
+   "lead": "Florida CS/CS/SB 262 (2023), technology transparency (Florida Digital Bill of Rights), Laws of Florida ch. 2023-201",
+   "cell": "US-FL/legislature",
+   "url": "https://laws.flrules.org/2023/201",
+   "seen_in": "https://ai-law-center.orrick.com/florida/",
+   "why": "Listed in a law-firm tracker for automated decision-making; mainly a privacy and technology-transparency law, so the run decides scope against pipeline/scope-decisions.md.",
+   "state": "in-run",
+   "added_by": "Michael Riegler",
+   "added": "2026-10-14",
+   "run_id": "2026-10-14-discover-codes-us-fl"
+  }
+ ]
+}

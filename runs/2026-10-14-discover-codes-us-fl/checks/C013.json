@@ -1,0 +1,51 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "C013",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "judgment-differs",
+   "why": "The quote is the rule file date with the Department of State; the Board's adoption vote was on 16 Sep 2026 (press release). Filing date is a defensible issue date and the notes give both."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Boards of trustees must adopt AI policies covering compliance with laws, parent notice for minors, academic integrity on graded work, approved tools and an AI literacy framework",
+   "verdict": "supported",
+   "locator": "extra-53a26cd21c (FAR 52/165), page 6-7, rule text (2)(a)-(f)"
+  },
+  {
+   "claim": "tools meant to meet social needs or simulate friendship are not AI instructional tools",
+   "verdict": "supported",
+   "locator": "same, page 6, (1)(b)1-3"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Binding state rule on AI use policies at colleges; safety content is moderate but AI-specific."
+ },
+ "overall": "accept",
+ "note": "Effective 20 Oct 2026, so 'Adopted, not yet in force' holds today. Quotes verified; level C only because flrules.org is not yet a listed official host. Filing date 30 Sep used as date_published; the Board's adoption was 16 Sep."
+}

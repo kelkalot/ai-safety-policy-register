@@ -1,0 +1,213 @@
+{
+ "cand_id": "C006",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "CS/CS/SB 1798 (2022): Sexually Related Offenses",
+  "original_title": null,
+  "short_title": "Florida SB 1798 (2022): altered sexual depictions offence",
+  "jurisdiction": "Florida (US)",
+  "country": "United States",
+  "jurisdiction_level": "Sub-national",
+  "region": "North America",
+  "issuing_body": "Florida Legislature (2022 Regular Session; sponsors Appropriations and Criminal Justice Committees and Sen. Book); approved by the Governor",
+  "instrument_type": "Law",
+  "legal_force": "Binding",
+  "status": "In force",
+  "date_published": "2022-06-24",
+  "date_in_force": "2022-10-01",
+  "date_last_updated": "2026",
+  "official_identifier": "Laws of Florida ch. 2022-212 (CS/CS/SB 1798, 2022); creates ss. 836.13 and 836.14, F.S.",
+  "official_url": "https://www.flsenate.gov/Session/Bill/2022/1798",
+  "secondary_url": "https://www.flsenate.gov/Session/Bill/2022/1798/BillText/er/PDF",
+  "language": "English",
+  "summary": "Creates s. 836.13, F.S., an offence for sexual deepfakes: willfully and maliciously promoting an altered sexual depiction of an identifiable person without consent, knowing or having reason to know it is altered, is a third-degree felony, and victims have a civil action. An altered sexual depiction is a realistic depiction of an identifiable person, produced by any digital or other modification, with another person's or computer-generated nude body parts or engaged in sexual conduct the person did not engage in; a disclaimer is no defence. The act also extends child pornography to images created or modified to portray an identifiable minor and criminalises theft of sexually explicit images.",
+  "safety_topics": [
+   "deepfakes & synthetic media",
+   "accountability & liability",
+   "child safety"
+  ],
+  "related": [
+   "C005",
+   "C004"
+  ],
+  "notes": "Passed the Senate 37-0 on 3 Mar 2022 and the House 117-0 on 8 Mar 2022; approved by the Governor on 24 Jun 2022 and effective 1 Oct 2022. Victims of an altered sexual depiction may seek injunctive relief, damages of USD 10,000 or actual damages, whichever is greater, and attorney fees; providers of interactive computer, information or communications services, law enforcement, people reporting unlawful activity and participants in legal proceedings are exempt. Section 836.14 makes theft of a sexually explicit image with intent to promote it, and possessing a stolen image with intent to promote it for financial gain, third-degree felonies, and promoting such an image for financial gain without consent a second-degree felony. The act also amends the definitions of child pornography in ss. 775.0847 and 827.071 to cover images created, altered, adapted or modified by electronic, mechanical or other means to portray an identifiable minor, raises damages for sexual cyberharassment and increases penalties for sexual activities involving animals. Section 836.13 was amended by ch. 2025-99 (CS/CS/HB 757), which added offences for generating, soliciting and possessing altered sexual depictions, by ch. 2025-133 (CS/CS/HB 1161, Brooke's Law), which added platform removal duties, and in 2026 by ch. 2026-14, ch. 2026-18 and ch. 2026-20.",
+  "scope_note": "Not an AI-specific law: a broad sexual offences act. Included because it created Florida's offence for promoting sexual deepfakes (altered sexual depictions, including computer-generated nude body parts), the statute that later Florida deepfake laws extend.",
+  "verification": {
+   "note": "Stored the Florida Senate bill page for SB 1798 (2022), the Senate Criminal Justice Committee analyses of January 2022, the enrolled text of CS/CS/SB 1798 (20221798er, 62 pages) and the 2026 Florida Statutes page for s. 836.13 (all flsenate.gov). The bill page confirms the title, sponsors, history, floor votes (37-0 and 117-0), approval by the Governor on 24 Jun 2022, Chapter No. 2022-212 and the 1 Oct 2022 effective date; the enrolled text confirms every provision in the summary and notes (sections 1, 3, 5 and 6) and the effective-date clause (section 13); the statute page shows s. 836.13 in force in the 2026 edition with a history note citing ch. 2025-99, ch. 2025-133, ch. 2026-14, ch. 2026-18 and ch. 2026-20. The statute page gives no amendment dates, so date_last_updated is the year 2026. The Criminal Justice analyses describe an earlier version (for example renaming child pornography as child sexual abuse material, which the enacted act does not do) and were not used for the summary."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/2026-10-14/official.html",
+    "sha256": "18f9df404709ab2355e8b883578e7c87a7393061614d35df2c61cc3f677fddab",
+    "locator": "bill heading",
+    "quote": "CS/CS/SB 1798: Sexually Related Offenses",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/extra-9aebe5cfd3/2026-10-14/official.pdf",
+    "sha256": "4b3c5d7b63f6639709acdccc30ca5c096b4b395b9ef2048ec2295961a0950c9e",
+    "locator": "page 1, title",
+    "quote": "An act relating to sexually related offenses; amending 2 s. 775.0847, F.S.;",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/2026-10-14/official.html",
+    "sha256": "18f9df404709ab2355e8b883578e7c87a7393061614d35df2c61cc3f677fddab",
+    "locator": "bill heading",
+    "quote": "CS/CS/SB 1798: Sexually Related Offenses GENERAL BILL by Appropriations; Criminal Justice; Book",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/2026-10-14/official.html",
+    "sha256": "18f9df404709ab2355e8b883578e7c87a7393061614d35df2c61cc3f677fddab",
+    "locator": "Bill History",
+    "quote": "6/24/2022 • Approved by Governor",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/2026-10-14/official.html",
+    "sha256": "18f9df404709ab2355e8b883578e7c87a7393061614d35df2c61cc3f677fddab",
+    "locator": "Bill History",
+    "quote": "6/27/2022 • Chapter No. 2022-212",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/2026-10-14/official.html",
+    "sha256": "18f9df404709ab2355e8b883578e7c87a7393061614d35df2c61cc3f677fddab",
+    "locator": "Citations - Statutes",
+    "quote": "Page 10 (pdf) 836.13 Page 12 (pdf) 836.14 Page 15 (pdf)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/extra-9aebe5cfd3/2026-10-14/official.pdf",
+    "sha256": "4b3c5d7b63f6639709acdccc30ca5c096b4b395b9ef2048ec2295961a0950c9e",
+    "locator": "page 12, section 5",
+    "quote": "Section 5. Section 836.13, Florida Statutes, is created to 326",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/extra-9aebe5cfd3/2026-10-14/official.pdf",
+    "sha256": "4b3c5d7b63f6639709acdccc30ca5c096b4b395b9ef2048ec2295961a0950c9e",
+    "locator": "page 15, section 6",
+    "quote": "Section 6. Section 836.14, Florida Statutes, is created to 411",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/extra-f1c5a686d0/2026-10-14/official.html",
+    "sha256": "86d7a51891cb3d0b39a67367eb8977c49c393b080588c90826e6094243839cd6",
+    "locator": "history note",
+    "quote": "History.—s. 5, ch. 2022-212; s. 3, ch. 2025-99; s. 2, ch. 2025-133; s. 52, ch. 2026-14; s. 10, ch. 2026-18; s. 11, ch. 2026-20.",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/2026-10-14/official.html",
+    "sha256": "18f9df404709ab2355e8b883578e7c87a7393061614d35df2c61cc3f677fddab",
+    "locator": "Bill History",
+    "quote": "6/24/2022 • Approved by Governor",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/2026-10-14/official.html",
+    "sha256": "18f9df404709ab2355e8b883578e7c87a7393061614d35df2c61cc3f677fddab",
+    "locator": "bill summary block",
+    "quote": "Effective Date: 10/1/2022",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/extra-9aebe5cfd3/2026-10-14/official.pdf",
+    "sha256": "4b3c5d7b63f6639709acdccc30ca5c096b4b395b9ef2048ec2295961a0950c9e",
+    "locator": "page 62, section 13",
+    "quote": "Section 13. This act shall take effect October 1, 2022.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/2026-10-14/official.html",
+    "sha256": "18f9df404709ab2355e8b883578e7c87a7393061614d35df2c61cc3f677fddab",
+    "locator": "bill summary block",
+    "quote": "Effective Date: 10/1/2022 Last Action: 6/27/2022 - Chapter No. 2022-212",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/2026-10-14/official.html",
+    "sha256": "18f9df404709ab2355e8b883578e7c87a7393061614d35df2c61cc3f677fddab",
+    "locator": "Bill History",
+    "quote": "6/24/2022 • Approved by Governor",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/extra-f1c5a686d0/2026-10-14/official.html",
+    "sha256": "86d7a51891cb3d0b39a67367eb8977c49c393b080588c90826e6094243839cd6",
+    "locator": "history note",
+    "quote": "History.—s. 5, ch. 2022-212; s. 3, ch. 2025-99; s. 2, ch. 2025-133; s. 52, ch. 2026-14; s. 10, ch. 2026-18; s. 11, ch. 2026-20.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/2026-10-14/official.html",
+    "sha256": "18f9df404709ab2355e8b883578e7c87a7393061614d35df2c61cc3f677fddab",
+    "locator": "Bill History",
+    "quote": "3/8/2022 House • Read 3rd time • CS passed; YEAS 117, NAYS 0",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/2026-10-14/official.html",
+    "sha256": "18f9df404709ab2355e8b883578e7c87a7393061614d35df2c61cc3f677fddab",
+    "locator": "Bill History",
+    "quote": "6/24/2022 • Approved by Governor",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/extra-9aebe5cfd3/2026-10-14/official.pdf",
+    "sha256": "4b3c5d7b63f6639709acdccc30ca5c096b4b395b9ef2048ec2295961a0950c9e",
+    "locator": "page 2, enacting clause",
+    "quote": "Be It Enacted by the Legislature of the State of Florida:",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/extra-f1c5a686d0/2026-10-14/official.html",
+    "sha256": "86d7a51891cb3d0b39a67367eb8977c49c393b080588c90826e6094243839cd6",
+    "locator": "history note",
+    "quote": "History.—s. 5, ch. 2022-212; s. 3, ch. 2025-99; s. 2, ch. 2025-133; s. 52, ch. 2026-14; s. 10, ch. 2026-18; s. 11, ch. 2026-20.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Approved by the Governor on 24 Jun 2022 (Chapter No. 2022-212); section 13 of the enrolled act: 'This act shall take effect October 1, 2022.' That date is before today (14 Oct 2026), so in force. Section 836.13 appears in the 2026 Florida Statutes with a history note listing later amendments and no repeal.",
+  "scope_reasoning": "Borderline, included with a scope_note under the rule for laws that are not AI-specific but are the operative instrument for an AI-safety question (deepfakes): a broad sexual offences act whose s. 836.13 is Florida's base offence for sexual deepfakes, which the staff analysis describes as 'Colloquially known as \"deep fakes\"'.",
+  "date_reasoning": "date_published is the Governor's approval (24 Jun 2022); date_in_force the effective-date clause (1 Oct 2022). date_last_updated is '2026': the stored statute page shows amendments of s. 836.13 by three 2026 session laws (ch. 2026-14, ch. 2026-18, ch. 2026-20) but gives no dates, so the year is the precision the stored files support.",
+  "related_reasoning": "C005 (CS/CS/HB 757, 2025, ch. 2025-99) and C004 (CS/CS/HB 1161, Brooke's Law, 2025, ch. 2025-133) both amend s. 836.13, which this act created; the stored statute page cites s. 3, ch. 2025-99 and s. 2, ch. 2025-133.",
+  "summary_reasoning": "Written from the enrolled text: s. 836.13(1)(a), (2), (4) and (5) (section 5), the child pornography definitions in ss. 775.0847(1) and 827.071(1) (sections 1 and 3), and s. 836.14 (section 6).",
+  "topics_reasoning": "deepfakes & synthetic media and accountability & liability for s. 836.13 and its civil action; child safety for the extension of child pornography to images modified to portray an identifiable minor."
+ },
+ "extra_urls": [
+  {
+   "url": "https://www.flsenate.gov/Session/Bill/2022/1798/BillText/er/PDF",
+   "reason": "Enrolled text of CS/CS/SB 1798, linked from the stored bill page. The stored analyses describe SB 1798 and CS/SB 1798 of January 2022, before the Appropriations committee substitute and Senate floor amendment 266094 (which replaced lines 64 to 1227); the final wording of s. 836.13 and the act's other provisions need the enacted text."
+  },
+  {
+   "url": "https://www.flsenate.gov/laws/statutes/2026/836.13",
+   "reason": "Current text and history note of s. 836.13, F.S. (the site's statute-page pattern, linked as /laws/statutes/<year>/<section> from the stored bill page), to document the 2025 amendments by ch. 2025-99 and ch. 2025-133 for notes and date_last_updated."
+  }
+ ],
+ "leads": [],
+ "open_questions": []
+}

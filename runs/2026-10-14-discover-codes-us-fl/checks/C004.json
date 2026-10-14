@@ -1,0 +1,55 @@
+{
+ "cand_id": "C004",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "removal within 48 hours and reasonable efforts to remove known identical copies",
+   "verdict": "supported",
+   "locator": "document-1.pdf Effect of the Bill"
+  },
+  {
+   "claim": "process due by 31 Dec 2025; failure is an FDUTPA violation; good-faith shield",
+   "verdict": "supported",
+   "locator": "document-1.pdf Effect of the Bill"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "C007",
+  "C005",
+  "C006",
+  "US-14"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "One targeted search for a later amendment or repeal found none on an official site. Fields match the stored bill page and final House analysis. Level A."
+}

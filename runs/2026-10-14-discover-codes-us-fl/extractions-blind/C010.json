@@ -1,0 +1,163 @@
+{
+  "cand_id": "C010",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "decision": "record",
+  "target_id": null,
+  "record": {
+    "title": "CS/CS/CS/HB 369 (2025): Provenance of Digital Content (died on the House second reading calendar)",
+    "original_title": null,
+    "short_title": "Florida AI content provenance bill (HB 369, 2025)",
+    "jurisdiction": "Florida (US)",
+    "country": "United States",
+    "jurisdiction_level": "Sub-national",
+    "region": "North America",
+    "issuing_body": "Florida House of Representatives (2025 Regular Session; sponsor Rep. McFarland)",
+    "instrument_type": "Bill / draft law",
+    "legal_force": "Proposed",
+    "status": "Lapsed",
+    "date_published": "2025-02-04",
+    "date_in_force": null,
+    "date_last_updated": "2025-04-16",
+    "official_identifier": "CS/CS/CS/HB 369 (2025 Regular Session)",
+    "official_url": "https://www.flsenate.gov/Session/Bill/2025/369",
+    "secondary_url": null,
+    "language": "English",
+    "english_version": null,
+    "summary": "Bill that would have required developers of publicly available generative AI tools to apply provenance data to content made or modified with their tools, or give users a tool to apply it, and to offer a free provenance reader. Provenance data had to follow widely adopted standards, say whether visual content is synthetic, name the developer and exclude personal identifiers. Social media platforms would have had to retain available provenance data and make it visible to users. Violations were to be unfair or deceptive practices, enforced only by the Attorney General after a 30-day cure period; video game services were exempt.",
+    "safety_topics": [
+      "transparency & labelling",
+      "deepfakes & synthetic media"
+    ],
+    "related": [
+      "C001"
+    ],
+    "notes": "Filed on 4 Feb 2025. Reported favourably as committee substitutes by the Information Technology Budget & Policy Subcommittee (17-0, 19 Mar 2025), the Economic Infrastructure Subcommittee (16-0, 31 Mar 2025) and the Commerce Committee (25-0, 15 Apr 2025); placed on the Special Order Calendar for 23 Apr 2025 and temporarily postponed, then indefinitely postponed and withdrawn from consideration on 3 May 2025, and died on the second reading calendar on 16 Jun 2025. The Senate companion, CS/SB 702, died in Ethics and Elections. Had it passed, it would have created s. 501.9741, F.S., and taken effect on 1 Jul 2026. It took its definition of generative AI from s. 106.145, F.S., Florida's law on AI in political advertising.",
+    "verification": {
+      "note": "Stored on 14 Oct 2026 from flsenate.gov: the Florida Senate's bill page for CS/CS/CS/HB 369 (2025) with its history, the text of the third committee substitute (c3, posted 16 Apr 2025) and three House committee analyses (Information Technology Budget & Policy, 20 Mar 2025; Economic Infrastructure, 1 Apr 2025; Commerce, 17 Apr 2025). The bill page confirms the title, sponsor, filing on 4 Feb 2025 and the last action, 'Died on Second Reading Calendar' on 16 Jun 2025. The summary is written from the c3 text, the last version of the bill; a floor amendment filed on 18 Apr 2025 is listed on the bill page but not stored."
+    }
+  },
+  "evidence": {
+    "title": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/2026-10-14/official.html",
+        "sha256": "b34c021313e1ddc25f6e93097174cbf3f46dbefd03e26fff762d1c7777704ec0",
+        "locator": "bill heading",
+        "quote": "CS/CS/CS/HB 369: Provenance of Digital Content",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/extra-b00b76c772/2026-10-14/official.pdf",
+        "sha256": "5f9407aa50ae5fa88b95b2fa983f688dbf8c56b3a1cd783c37de0aa60ab9b758",
+        "locator": "page 1",
+        "quote": "An act relating to provenance of digital content;",
+        "source_kind": "official"
+      }
+    ],
+    "issuing_body": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/2026-10-14/official.html",
+        "sha256": "b34c021313e1ddc25f6e93097174cbf3f46dbefd03e26fff762d1c7777704ec0",
+        "locator": "bill heading",
+        "quote": "GENERAL BILL by Commerce Committee; Economic Infrastructure Subcommittee; Information Technology Budget & Policy Subcommittee; McFarland;",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/extra-b22e518528/2026-10-14/official.pdf",
+        "sha256": "c1484b835b593af5d65488f01b216e007392fb04b20ef482616c163cb49df197",
+        "locator": "page 1",
+        "quote": "BILL #: CS/CS/CS/HB 369 TITLE: Provenance of Digital Content SPONSOR(S): McFarland",
+        "source_kind": "official"
+      }
+    ],
+    "official_identifier": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/2026-10-14/official.html",
+        "sha256": "b34c021313e1ddc25f6e93097174cbf3f46dbefd03e26fff762d1c7777704ec0",
+        "locator": "breadcrumb and bill heading",
+        "quote": "Home > Session > 2025 > House Bill 369",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/2026-10-14/official.html",
+        "sha256": "b34c021313e1ddc25f6e93097174cbf3f46dbefd03e26fff762d1c7777704ec0",
+        "locator": "bill heading",
+        "quote": "CS/CS/CS/HB 369: Provenance of Digital Content",
+        "source_kind": "official"
+      }
+    ],
+    "date_published": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/2026-10-14/official.html",
+        "sha256": "b34c021313e1ddc25f6e93097174cbf3f46dbefd03e26fff762d1c7777704ec0",
+        "locator": "Bill History",
+        "quote": "2/4/2025 House • Filed",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/2026-10-14/official.html",
+        "sha256": "b34c021313e1ddc25f6e93097174cbf3f46dbefd03e26fff762d1c7777704ec0",
+        "locator": "Bill Text",
+        "quote": "H 369 Filed 2/4/2025 10:05 AM",
+        "source_kind": "official"
+      }
+    ],
+    "date_last_updated": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/2026-10-14/official.html",
+        "sha256": "b34c021313e1ddc25f6e93097174cbf3f46dbefd03e26fff762d1c7777704ec0",
+        "locator": "Bill Text",
+        "quote": "H 369 c3 4/16/2025 1:22 PM",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/2026-10-14/official.html",
+        "sha256": "b34c021313e1ddc25f6e93097174cbf3f46dbefd03e26fff762d1c7777704ec0",
+        "locator": "Bill History",
+        "quote": "4/16/2025 House • Reported out of Commerce Committee • Laid on Table under Rule 7.18(a) • CS Filed • 1st Reading (Committee Substitute 3)",
+        "source_kind": "official"
+      }
+    ],
+    "status": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/2026-10-14/official.html",
+        "sha256": "b34c021313e1ddc25f6e93097174cbf3f46dbefd03e26fff762d1c7777704ec0",
+        "locator": "bill summary block",
+        "quote": "Last Action: 6/16/2025 House - Died on Second Reading Calendar",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/2026-10-14/official.html",
+        "sha256": "b34c021313e1ddc25f6e93097174cbf3f46dbefd03e26fff762d1c7777704ec0",
+        "locator": "Bill History",
+        "quote": "5/3/2025 House • Indefinitely postponed and withdrawn from consideration",
+        "source_kind": "official"
+      }
+    ],
+    "legal_force": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/extra-b00b76c772/2026-10-14/official.pdf",
+        "sha256": "5f9407aa50ae5fa88b95b2fa983f688dbf8c56b3a1cd783c37de0aa60ab9b758",
+        "locator": "page 1",
+        "quote": "A bill to be entitled",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/2026-10-14/official.html",
+        "sha256": "b34c021313e1ddc25f6e93097174cbf3f46dbefd03e26fff762d1c7777704ec0",
+        "locator": "bill summary block",
+        "quote": "Last Action: 6/16/2025 House - Died on Second Reading Calendar",
+        "source_kind": "official"
+      }
+    ]
+  },
+  "judgment": {
+    "status_reasoning": "The bill page's last action is 'Died on Second Reading Calendar' on 16 Jun 2025, after the bill was indefinitely postponed and withdrawn from consideration on 3 May 2025; the Senate companion CS/SB 702 also died. A bill that died at the end of the 2025 session is recorded as Proposed with status Lapsed (AGENTS.md section 5.6).",
+    "date_reasoning": "date_published is the filing date, 4 Feb 2025 (Bill History and Bill Text list). date_last_updated is 16 Apr 2025, when the third committee substitute (c3), the last version, was filed. date_in_force is null: the bill never passed; its own effective date of 1 Jul 2026 is in the notes.",
+    "scope_reasoning": "An AI-specific bill on provenance labelling of generative AI output; pending and lapsed bills are in scope with no note under AGENTS.md section 10.",
+    "related_reasoning": "C001 (CS/HB 919, 2024) created s. 106.145, F.S., whose definition of generative artificial intelligence this bill adopts."
+  },
+  "extra_urls": [],
+  "leads": [],
+  "open_questions": []
+}

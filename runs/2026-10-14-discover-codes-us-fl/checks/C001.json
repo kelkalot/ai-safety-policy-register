@@ -1,0 +1,55 @@
+{
+ "cand_id": "C001",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "failure by payer, sponsor or approver is a first-degree misdemeanor",
+   "verdict": "supported",
+   "locator": "document-1.pdf Summary Analysis / Effect of the Bill"
+  },
+  {
+   "claim": "disclaimer wording 'Created in whole or in part with the use of generative artificial intelligence' and intent to injure a candidate or deceive on a ballot issue",
+   "verdict": "supported",
+   "locator": "document-1.pdf Effect of the Bill"
+  },
+  {
+   "claim": "expedited hearings on complaints to the Florida Elections Commission",
+   "verdict": "supported",
+   "locator": "document-1.pdf Summary Analysis"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "One targeted search for a later amendment or repeal found none on an official site. Quotes, hashes, dates, chapter number and status match the stored bill page and House final analysis; summary claims found in the analysis. Level A."
+}

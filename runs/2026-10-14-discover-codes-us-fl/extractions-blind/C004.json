@@ -1,0 +1,159 @@
+{
+  "cand_id": "C004",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "decision": "record",
+  "target_id": null,
+  "record": {
+    "title": "CS/CS/HB 1161 (2025): Removal of Altered Sexual Depictions Posted without Consent ('Brooke's Law', Laws of Florida ch. 2025-133)",
+    "original_title": null,
+    "short_title": "Florida Brooke's Law: deepfake removal (HB 1161, 2025)",
+    "jurisdiction": "Florida (US)",
+    "country": "United States",
+    "jurisdiction_level": "Sub-national",
+    "region": "North America",
+    "issuing_body": "Florida Legislature (2025 Regular Session; sponsor Rep. Duggan); approved by the Governor",
+    "instrument_type": "Law",
+    "legal_force": "Binding",
+    "status": "In force",
+    "date_published": "2025-06-10",
+    "date_in_force": "2025-06-10",
+    "date_last_updated": null,
+    "official_identifier": "Chapter 2025-133, Laws of Florida (CS/CS/HB 1161, 2025); s. 836.13, F.S.",
+    "official_url": "https://www.flsenate.gov/Session/Bill/2025/1161",
+    "secondary_url": null,
+    "language": "English",
+    "english_version": null,
+    "summary": "Known as Brooke's Law, it amends Florida's law on altered sexual depictions (s. 836.13, F.S.) so that covered platforms, meaning public websites, online services and apps that mainly host user-generated content or trade in such depictions, must set up by 31 December 2025 a clear and conspicuous process through which an identifiable person can request removal of an altered sexual depiction published without consent. Platforms must remove it and known identical copies within 48 hours of a valid request. Good-faith removal is shielded from liability, and failure to comply is an unfair or deceptive practice under FDUTPA.",
+    "safety_topics": [
+      "deepfakes & synthetic media",
+      "accountability & liability"
+    ],
+    "related": [
+      "C006"
+    ],
+    "notes": "Passed the House 116-0 on 16 Apr 2025 and the Senate 38-0 on 23 Apr 2025, in place of the Senate companion CS/SB 1400; approved by the Governor on 10 Jun 2025 and effective on becoming law, with the removal process due by 31 Dec 2025. An altered sexual depiction is a realistic depiction of an identifiable person produced by digital, electronic, mechanical or other modification, including one with computer-generated nude body parts. Section 836.13, created in 2022 by CS/CS/SB 1798, already made the willful and malicious promotion of such a depiction without consent a third-degree felony and gave victims a civil action. Email, information and telecommunications services, and services consisting mainly of content preselected by the provider, are exempt.",
+    "scope_note": "Not AI-specific in its text: it covers altered sexual depictions however they are made. Included as Florida's operative instrument for removing sexual deepfakes from online platforms, a harm generative AI has made easier to produce.",
+    "verification": {
+      "note": "Stored on 14 Oct 2026 from flsenate.gov: the Florida Senate's bill page for CS/CS/HB 1161 (2025) with its history, votes and chapter number, the House final bill analysis (18 Jun 2025) and the House Judiciary Committee analysis (26 Mar 2025). They confirm the title, the sponsor, passage in both chambers, approval by the Governor on 10 Jun 2025, chapter 2025-133 and the effective date on becoming law. The enrolled bill text and the chapter law are not among the stored files, so the summary and notes rest on the House final bill analysis, which is prepared by committee staff and is not a statement of legislative intent; the name 'Brooke's Law' is taken from it. The Governor is not named in the stored sources."
+    }
+  },
+  "evidence": {
+    "title": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C004/2026-10-14/official.html",
+        "sha256": "cad9513f9111148fabd35125be2b94bcbe39813a267ef6f73e916018e601e70a",
+        "locator": "bill heading",
+        "quote": "CS/CS/HB 1161: Removal of Altered Sexual Depictions Posted without Consent",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C004/2026-10-14/document-1.pdf",
+        "sha256": "260c3632c7c10f25320868d6acbe78dbb716d7d72e7204c622571ea8312ca195",
+        "locator": "page 1 (Effect of the Bill)",
+        "quote": "Names the act, “Brooke’s Law.” (Section 1)",
+        "source_kind": "official"
+      }
+    ],
+    "issuing_body": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C004/2026-10-14/official.html",
+        "sha256": "cad9513f9111148fabd35125be2b94bcbe39813a267ef6f73e916018e601e70a",
+        "locator": "bill heading",
+        "quote": "GENERAL BILL by Commerce Committee; Industries & Professional Activities Subcommittee; Duggan;",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C004/2026-10-14/document-1.pdf",
+        "sha256": "260c3632c7c10f25320868d6acbe78dbb716d7d72e7204c622571ea8312ca195",
+        "locator": "page 1",
+        "quote": "FINAL HOUSE FLOOR ACTION: 116 Y’s  0 N’s  GOVERNOR’S ACTION: Approved",
+        "source_kind": "official"
+      }
+    ],
+    "official_identifier": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C004/2026-10-14/official.html",
+        "sha256": "cad9513f9111148fabd35125be2b94bcbe39813a267ef6f73e916018e601e70a",
+        "locator": "Bill History",
+        "quote": "6/11/2025 • Chapter No. 2025-133",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C004/2026-10-14/official.html",
+        "sha256": "cad9513f9111148fabd35125be2b94bcbe39813a267ef6f73e916018e601e70a",
+        "locator": "Citations - Statutes",
+        "quote": "836.13 Promotion of an altered sexual depiction; prohibited acts; penalties; applicability.",
+        "source_kind": "official"
+      }
+    ],
+    "date_published": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C004/2026-10-14/official.html",
+        "sha256": "cad9513f9111148fabd35125be2b94bcbe39813a267ef6f73e916018e601e70a",
+        "locator": "Bill History",
+        "quote": "6/10/2025 • Approved by Governor",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C004/2026-10-14/document-1.pdf",
+        "sha256": "260c3632c7c10f25320868d6acbe78dbb716d7d72e7204c622571ea8312ca195",
+        "locator": "page 2",
+        "quote": "The bill was approved by the Governor on June 10, 2025, ch. 2025-133, L.O.F., and will become effective upon becoming law.",
+        "source_kind": "official"
+      }
+    ],
+    "date_in_force": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C004/2026-10-14/official.html",
+        "sha256": "cad9513f9111148fabd35125be2b94bcbe39813a267ef6f73e916018e601e70a",
+        "locator": "bill summary block",
+        "quote": "Effective Date: 6/10/2025",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C004/2026-10-14/document-1.pdf",
+        "sha256": "260c3632c7c10f25320868d6acbe78dbb716d7d72e7204c622571ea8312ca195",
+        "locator": "page 2",
+        "quote": "The bill was approved by the Governor on June 10, 2025, ch. 2025-133, L.O.F., and will become effective upon becoming law.",
+        "source_kind": "official"
+      }
+    ],
+    "status": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C004/2026-10-14/official.html",
+        "sha256": "cad9513f9111148fabd35125be2b94bcbe39813a267ef6f73e916018e601e70a",
+        "locator": "bill summary block",
+        "quote": "Effective Date: 6/10/2025 Last Action: 6/11/2025 - Chapter No. 2025-133",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C004/2026-10-14/document-1.pdf",
+        "sha256": "260c3632c7c10f25320868d6acbe78dbb716d7d72e7204c622571ea8312ca195",
+        "locator": "page 2",
+        "quote": "The bill was approved by the Governor on June 10, 2025, ch. 2025-133, L.O.F., and will become effective upon becoming law.",
+        "source_kind": "official"
+      }
+    ],
+    "legal_force": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C004/2026-10-14/document-1.pdf",
+        "sha256": "260c3632c7c10f25320868d6acbe78dbb716d7d72e7204c622571ea8312ca195",
+        "locator": "page 2",
+        "quote": "The bill was approved by the Governor on June 10, 2025, ch. 2025-133, L.O.F., and will become effective upon becoming law.",
+        "source_kind": "official"
+      }
+    ]
+  },
+  "judgment": {
+    "status_reasoning": "The bill page gives 'Effective Date: 6/10/2025' and records approval by the Governor on 10 Jun 2025 and chapter 2025-133 on 11 Jun 2025; the final bill analysis says it becomes effective upon becoming law. 10 Jun 2025 is before today (14 Oct 2026), and the platforms' deadline of 31 Dec 2025 for setting up the removal process has also passed. No later repeal is shown in the stored sources. So: In force.",
+    "date_reasoning": "date_published is the Governor's approval (10 Jun 2025), when the bill became law; date_in_force is the same day, as the act took effect upon becoming law. The 31 Dec 2025 deadline for the removal process is a compliance date, kept in notes.",
+    "scope_reasoning": "A deepfake law that is not AI-specific in its wording: AGENTS.md section 10 includes non-AI-specific laws that are the operative instrument for an AI-safety question such as deepfakes, with a scope_note. The House analysis describes it as revising Florida's deepfake law and notes that such depictions may be altered with artificial intelligence.",
+    "related_reasoning": "C006 (CS/CS/SB 1798, 2022) created s. 836.13, F.S., which this law amends (final bill analysis, Recent Legislation table)."
+  },
+  "extra_urls": [],
+  "leads": [],
+  "open_questions": [
+    "The enrolled text of CS/CS/HB 1161 and chapter law 2025-133 are not stored; the summary rests on the House final bill analysis. Storing https://laws.flrules.org/2025/133 or the enrolled bill PDF would let a later run confirm the exact wording."
+  ]
+}

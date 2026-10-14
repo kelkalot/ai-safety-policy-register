@@ -1,0 +1,128 @@
+{
+ "cand_id": "C016",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "In re: Amendments to Rules Regulating The Florida Bar – Chapter 4 (Supreme Court of Florida, No. SC2024-0032)",
+  "original_title": null,
+  "short_title": "Florida Bar conduct rules: generative AI comments (2024)",
+  "jurisdiction": "Florida (US)",
+  "country": "United States",
+  "jurisdiction_level": "Sub-national",
+  "region": "North America",
+  "issuing_body": "Supreme Court of Florida (on the petition of The Florida Bar)",
+  "instrument_type": "Regulation / implementing rule",
+  "legal_force": "Binding",
+  "status": "In force",
+  "date_published": "2024-08-29",
+  "date_in_force": "2024-10-28",
+  "date_last_updated": null,
+  "official_identifier": "Supreme Court of Florida, No. SC2024-0032",
+  "official_url": "https://supremecourt.flcourts.gov/content/download/2439771/opinion/Opinion_SC2024-0032.pdf",
+  "secondary_url": "https://assets.alm.com/b3/ef/635b69ee4a80aa7afc28763aa2ba/opinion-disposition-chapter-4.pdf",
+  "language": "English",
+  "summary": "Supreme Court of Florida opinion amending Chapter 4, the Rules of Professional Conduct, of the Rules Regulating The Florida Bar on the Bar's petition. It adds generative artificial intelligence to the comments on four rules: competence includes understanding the benefits and risks of technology, including generative AI; lawyers should be aware that generative AI may create risks to the duty of confidentiality; firms' internal policies should consider safeguards for their use of generative AI; and lawyers should consider safeguards when assistants or outside services use it. The amendments also allow testimonials by celebrity clients in lawyer advertising.",
+  "safety_topics": [
+   "accountability & liability",
+   "human oversight"
+  ],
+  "related": [
+   "C017"
+  ],
+  "notes": "The Florida Bar's Board of Governors approved the proposed amendments and published them for comment in The Florida Bar News; no comments were received. The Court adopted them except the proposal to delete 'zeal' and 'zealous' from the Preamble and the comment to rule 4-1.3, and the proposed amendments to rule 4-8.6 on suspended individuals and authorized business entities. The generative-AI language is in the Comments to rules 4-1.1, 4-1.6, 4-5.1 and 4-5.3, not in the text of the rules. The amendments took effect on 28 Oct 2024; a motion for rehearing would not alter that date.",
+  "scope_note": "Court-adopted amendments to the professional conduct rules for lawyers, mostly unrelated to AI, whose AI content is a set of generative-AI warnings in the comments on competence, confidentiality and supervision; included because the state's highest court adopted them as binding rules, so they are not a professional association's own document.",
+  "verification": {
+   "note": "The Court's own PDF on supremecourt.flcourts.gov could not be stored: the Florida courts' download hosts disallow automated downloads for all but named search engines in robots.txt. Stored a copy of the opinion PDF hosted by ALM (assets.alm.com, publisher of Law.com), which carries the Court's caption, case number, date, per curiam text, concurrences and the appendix with the amended rules; title, date, status and the summary rest on this third-party copy. Whether the comments have been amended since October 2024 was not checked against the current Rules Regulating The Florida Bar (floridabar.org refuses automated requests)."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C016/extra-93f6ef7788/2026-10-14/official.pdf",
+    "sha256": "0d839029d7c87efedac99d1ea526bdbb8a93a99c67909f9875c91c9e721aef9e",
+    "locator": "page 1, caption",
+    "quote": "IN RE: AMENDMENTS TO RULES REGULATING THE FLORIDA BAR – CHAPTER 4.",
+    "source_kind": "secondary"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C016/extra-93f6ef7788/2026-10-14/official.pdf",
+    "sha256": "0d839029d7c87efedac99d1ea526bdbb8a93a99c67909f9875c91c9e721aef9e",
+    "locator": "page 1, caption",
+    "quote": "Supreme Court of Florida",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C016/extra-93f6ef7788/2026-10-14/official.pdf",
+    "sha256": "0d839029d7c87efedac99d1ea526bdbb8a93a99c67909f9875c91c9e721aef9e",
+    "locator": "page 1",
+    "quote": "The Florida Bar has filed a petition proposing amendments to the following portions of Chapter 4 of the Rules Regulating The Florida Bar",
+    "source_kind": "secondary"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C016/extra-93f6ef7788/2026-10-14/official.pdf",
+    "sha256": "0d839029d7c87efedac99d1ea526bdbb8a93a99c67909f9875c91c9e721aef9e",
+    "locator": "page 1, caption",
+    "quote": "No. SC2024-0032",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C016/extra-93f6ef7788/2026-10-14/official.pdf",
+    "sha256": "0d839029d7c87efedac99d1ea526bdbb8a93a99c67909f9875c91c9e721aef9e",
+    "locator": "page 1, caption",
+    "quote": "August 29, 2024 PER CURIAM.",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C016/extra-93f6ef7788/2026-10-14/official.pdf",
+    "sha256": "0d839029d7c87efedac99d1ea526bdbb8a93a99c67909f9875c91c9e721aef9e",
+    "locator": "page 4",
+    "quote": "The amendments shall become effective October 28, 2024.",
+    "source_kind": "secondary"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C016/extra-93f6ef7788/2026-10-14/official.pdf",
+    "sha256": "0d839029d7c87efedac99d1ea526bdbb8a93a99c67909f9875c91c9e721aef9e",
+    "locator": "page 4",
+    "quote": "Accordingly, we amend the Rules Regulating The Florida Bar as reflected in the appendix to this opinion.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C016/extra-93f6ef7788/2026-10-14/official.pdf",
+    "sha256": "0d839029d7c87efedac99d1ea526bdbb8a93a99c67909f9875c91c9e721aef9e",
+    "locator": "page 4",
+    "quote": "THE FILING OF A MOTION FOR REHEARING SHALL NOT ALTER THE EFFECTIVE DATE OF THESE AMENDMENTS.",
+    "source_kind": "secondary"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C016/extra-93f6ef7788/2026-10-14/official.pdf",
+    "sha256": "0d839029d7c87efedac99d1ea526bdbb8a93a99c67909f9875c91c9e721aef9e",
+    "locator": "page 4",
+    "quote": "we amend the Comments to rules 4-1.1, 4-1.6, 4-5.1, and 4-5.3, adding a warning about the necessity to take care in using generative artificial intelligence.",
+    "source_kind": "secondary"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The opinion of 29 Aug 2024 adopts the amendments and states 'The amendments shall become effective October 28, 2024', adding that a motion for rehearing does not alter the effective date. 28 Oct 2024 is before today (14 Oct 2026), so the amendments are in force. No stored source shows a later amendment of the four comments; date_last_updated stays null.",
+  "scope_reasoning": "Borderline, included with a scope_note under the include-and-flag rules: the instrument is not AI-specific and its AI content sits in the comments, but it is the binding professional-conduct framework for lawyers' use of generative AI in Florida, adopted by the Supreme Court of Florida (a state body acting under art. V, s. 15 of the Florida Constitution). The professional-association exclusion in AGENTS.md section 10 does not apply because the Court, not the Bar, adopted the rules.",
+  "summary_reasoning": "The AI passages follow the appendix: rule 4-1.1 comment ('benefits and risks associated with the use of technology, including generative artificial intelligence'), rule 4-1.6 comment ('generative artificial intelligence may create risks to the lawyer's duty of confidentiality'), rule 4-5.1 comment ('safeguards for the firm's use of technologies such as generative artificial intelligence') and rule 4-5.3 comment (safeguards when assistants use it; outside services 'using generative artificial intelligence').",
+  "related_reasoning": "C017 (Florida Bar Ethics Opinion 24-1) is the Bar's advisory opinion on lawyers' use of generative AI; both are the Florida framework for lawyers' AI use."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

@@ -1,0 +1,158 @@
+{
+ "run_id": "2026-10-14-discover-codes-us-fl",
+ "generated": "2026-10-14",
+ "compared": 5,
+ "pending": [],
+ "overall_field_agreement": 0.8,
+ "fields": {
+  "decision": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "title": {
+   "compared": 5,
+   "agree": 0,
+   "rate": 0.0
+  },
+  "original_title": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "issuing_body": {
+   "compared": 5,
+   "agree": 3,
+   "rate": 0.6
+  },
+  "official_identifier": {
+   "compared": 5,
+   "agree": 1,
+   "rate": 0.2
+  },
+  "date_published": {
+   "compared": 5,
+   "agree": 4,
+   "rate": 0.8
+  },
+  "date_in_force": {
+   "compared": 4,
+   "agree": 4,
+   "rate": 1.0
+  },
+  "date_last_updated": {
+   "compared": 1,
+   "agree": 1,
+   "rate": 1.0
+  },
+  "status": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "legal_force": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "instrument_type": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "jurisdiction_level": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "region": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "country": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "safety_topics": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  }
+ },
+ "disagreements": {
+  "C004": [
+   {
+    "field": "title",
+    "first": "CS/CS/HB 1161 (2025): Removal of Altered Sexual Depictions Posted without Consent (Brooke's Law)",
+    "blind": "CS/CS/HB 1161 (2025): Removal of Altered Sexual Depictions Posted without Consent ('Brooke's Law', Laws of Florida ch. 2025-133)"
+   },
+   {
+    "field": "issuing_body",
+    "first": "Florida Legislature (2025 Regular Session; sponsors Commerce Committee, Industries & Professional Activities Subcommittee and Rep. Duggan); approved by the Governor",
+    "blind": "Florida Legislature (2025 Regular Session; sponsor Rep. Duggan); approved by the Governor"
+   },
+   {
+    "field": "official_identifier",
+    "first": "Laws of Florida ch. 2025-133 (CS/CS/HB 1161, 2025); amends s. 836.13, F.S.",
+    "blind": "Chapter 2025-133, Laws of Florida (CS/CS/HB 1161, 2025); s. 836.13, F.S."
+   }
+  ],
+  "C007": [
+   {
+    "field": "title",
+    "first": "CS/CS/HB 1159 (2026): Sexual Offenses",
+    "blind": "CS/CS/HB 1159 (2026): Sexual Offenses (Laws of Florida ch. 2026-20), including generated child sexual abuse material"
+   },
+   {
+    "field": "official_identifier",
+    "first": "Laws of Florida ch. 2026-20 (CS/CS/HB 1159, 2026)",
+    "blind": "Chapter 2026-20, Laws of Florida (CS/CS/HB 1159, 2026)"
+   }
+  ],
+  "C010": [
+   {
+    "field": "title",
+    "first": "CS/CS/CS/HB 369 (2025): Provenance of Digital Content",
+    "blind": "CS/CS/CS/HB 369 (2025): Provenance of Digital Content (died on the House second reading calendar)"
+   }
+  ],
+  "C011": [
+   {
+    "field": "title",
+    "first": "CS/HB 1361 (2024): Education (Chapter 2024-162, Laws of Florida)",
+    "blind": "CS/HB 1361 (2024): Education (Laws of Florida ch. 2024-162), including grants for artificial intelligence platforms in school districts"
+   },
+   {
+    "field": "issuing_body",
+    "first": "Florida Legislature (2024 Regular Session; approved by the Governor)",
+    "blind": "Florida Legislature (2024 Regular Session; House Education & Employment Committee and Rep. Temple); approved by the Governor"
+   },
+   {
+    "field": "official_identifier",
+    "first": "Chapter 2024-162, Laws of Florida (CS/HB 1361, 2024 Regular Session)",
+    "blind": "Chapter 2024-162, Laws of Florida (CS/HB 1361, 2024); s. 1002.321(3), F.S."
+   }
+  ],
+  "C012": [
+   {
+    "field": "title",
+    "first": "Rule 6A-1.0957, F.A.C., Internet Safety Policy (2026 amendment on artificial intelligence instructional tools)",
+    "blind": "Rule 6A-1.0957, F.A.C., Internet Safety Policy (amended in 2026 to govern artificial intelligence instructional tools in schools)"
+   },
+   {
+    "field": "official_identifier",
+    "first": "Rule 6A-1.0957, Florida Administrative Code",
+    "blind": "Rule 6A-1.0957, F.A.C."
+   },
+   {
+    "field": "date_published",
+    "first": "2026-10-09",
+    "blind": "2026-09-16"
+   }
+  ]
+ },
+ "resulting_record_agreement": null,
+ "resulting_record_fields": 0
+}

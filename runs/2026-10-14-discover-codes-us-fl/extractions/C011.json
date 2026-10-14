@@ -1,0 +1,181 @@
+{
+ "cand_id": "C011",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "CS/HB 1361 (2024): Education (Chapter 2024-162, Laws of Florida)",
+  "original_title": null,
+  "short_title": "Florida education act 2024 (HB 1361): AI grants for schools",
+  "jurisdiction": "Florida (US)",
+  "country": "United States",
+  "jurisdiction_level": "Sub-national",
+  "region": "North America",
+  "issuing_body": "Florida Legislature (2024 Regular Session; approved by the Governor)",
+  "instrument_type": "Law",
+  "legal_force": "Binding",
+  "status": "In force",
+  "date_published": "2024-05-09",
+  "date_in_force": "2024-07-01",
+  "date_last_updated": null,
+  "official_identifier": "Chapter 2024-162, Laws of Florida (CS/HB 1361, 2024 Regular Session)",
+  "official_url": "https://www.flsenate.gov/Session/Bill/2024/1361",
+  "secondary_url": null,
+  "language": "English",
+  "summary": "Education omnibus act. Among other measures it lets school districts receive grants for subscription fees and professional learning to use artificial intelligence to support and accelerate learning for students in grades 6 to 12 during the school day. A funded AI platform must use large language models based on GPT-4, its equivalent or a successor on a closed system, provide one-on-one tutoring aligned to state standards, and give district- and school-level reporting and parental access to the AI interactions. The University of Florida Lastinger Center for Learning awards the grants, with $2 million in recurring funds appropriated.",
+  "safety_topics": [
+   "child safety",
+   "public-sector use"
+  ],
+  "related": [],
+  "notes": "The House passed the committee substitute 113-0 on 1 Feb 2024 and the Senate passed it as amended 40-0 on 7 Feb 2024; on 7 Mar 2024 the House concurred in the Senate amendment as amended (113-0) and the Senate concurred (38-0). Approved by the Governor on 9 May 2024, filed as Chapter 2024-162 and effective 1 Jul 2024. The AI grant conditions are in s. 1002.321(3), F.S. (digital learning), unchanged in the 2026 Florida Statutes; the grants and the $2 million recurring appropriation are in s. 1004.561(6), F.S., which the act created for the Lastinger Center. The act also widens New Worlds Scholarship eligibility, codifies the Lastinger Center as administrator of the New Worlds Reading Initiative and creates the New Worlds Tutoring Program.",
+  "scope_note": "An education omnibus act whose AI provisions mainly promote AI tutoring in schools; included because it sets conditions on the AI platforms it funds, a closed system and parental access to students' AI interactions.",
+  "verification": {
+   "note": "Stored the Florida Senate bill page for HB 1361 (2024), with its history, votes, statute citations and the chapter number; the enrolled text of CS/HB 1361; the text of s. 1002.321 in the 2026 Florida Statutes; the Senate Education Pre-K-12 Committee's House message summary of 7 Mar 2024; and the House staff final bill analysis (all flsenate.gov). The bill page confirms the title, the Governor's approval on 9 May 2024, Chapter No. 2024-162 and the effective date of 1 Jul 2024; the enrolled text gives the AI grant conditions, and the 2026 statute shows subsection (3) with its last amendment by ch. 2024-162."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/2026-10-14/official.html",
+    "sha256": "75150b0a42a97f17daa9d1be5dd40020df0ce59096578485072a4bb119fcf928",
+    "locator": "bill heading",
+    "quote": "CS/HB 1361: Education",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/2026-10-14/official.html",
+    "sha256": "75150b0a42a97f17daa9d1be5dd40020df0ce59096578485072a4bb119fcf928",
+    "locator": "bill heading, description",
+    "quote": "Education; Providing for the award of grants to school districts to implement artificial intelligence in support of students and teachers; providing requirements for the use of such artificial intelligence",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/extra-3be957bf10/2026-10-14/official.pdf",
+    "sha256": "72e82dda52d86b19313675ace7d3ae7a9ab8bd91bc57c49a473226e2406ad31a",
+    "locator": "page 1, title",
+    "quote": "An act relating to education; amending s. 1002.321,",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/2026-10-14/document-2.pdf",
+    "sha256": "656a83712b2a734af0df859a903b5b742b29b30415084ae49b3e1815260fc4d5",
+    "locator": "page 1, Summary Analysis",
+    "quote": "The House concurred in the Senate amendment as amended by the House on March 7, 2024. The Senate concurred with the House amendment and passed the bill as amended on March 7, 2024.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/extra-3be957bf10/2026-10-14/official.pdf",
+    "sha256": "72e82dda52d86b19313675ace7d3ae7a9ab8bd91bc57c49a473226e2406ad31a",
+    "locator": "page 1, heading",
+    "quote": "ENROLLED CS/HB 1361, Engrossed 1 2024 Legislature",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/2026-10-14/official.html",
+    "sha256": "75150b0a42a97f17daa9d1be5dd40020df0ce59096578485072a4bb119fcf928",
+    "locator": "Last Action",
+    "quote": "Last Action: 5/13/2024 - Chapter No. 2024-162",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/2026-10-14/official.html",
+    "sha256": "75150b0a42a97f17daa9d1be5dd40020df0ce59096578485072a4bb119fcf928",
+    "locator": "Bill History",
+    "quote": "5/9/2024 • Approved by Governor",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/2026-10-14/document-2.pdf",
+    "sha256": "656a83712b2a734af0df859a903b5b742b29b30415084ae49b3e1815260fc4d5",
+    "locator": "page 1, Summary Analysis",
+    "quote": "The bill was approved by the Governor on May 9, 2024, ch. 2024-162, L.O.F., and will become effective on July 1, 2024.",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/2026-10-14/official.html",
+    "sha256": "75150b0a42a97f17daa9d1be5dd40020df0ce59096578485072a4bb119fcf928",
+    "locator": "bill heading",
+    "quote": "Effective Date: 7/1/2024",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/2026-10-14/document-2.pdf",
+    "sha256": "656a83712b2a734af0df859a903b5b742b29b30415084ae49b3e1815260fc4d5",
+    "locator": "page 1, Summary Analysis",
+    "quote": "ch. 2024-162, L.O.F., and will become effective on July 1, 2024.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/extra-3be957bf10/2026-10-14/official.pdf",
+    "sha256": "72e82dda52d86b19313675ace7d3ae7a9ab8bd91bc57c49a473226e2406ad31a",
+    "locator": "page 31, Section 10",
+    "quote": "Section 10. This act shall take effect July 1, 2024.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/2026-10-14/official.html",
+    "sha256": "75150b0a42a97f17daa9d1be5dd40020df0ce59096578485072a4bb119fcf928",
+    "locator": "Bill History",
+    "quote": "5/13/2024 • Chapter No. 2024-162",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/2026-10-14/official.html",
+    "sha256": "75150b0a42a97f17daa9d1be5dd40020df0ce59096578485072a4bb119fcf928",
+    "locator": "bill heading",
+    "quote": "Effective Date: 7/1/2024",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/extra-34e0378984/2026-10-14/official.html",
+    "sha256": "196b466e7688accd2b7bae42ea46018b3c567bf404c40562deb4b85e1365b78f",
+    "locator": "2026 Florida Statutes, s. 1002.321, History",
+    "quote": "History.—s. 1, ch. 2011-137; s. 2, ch. 2012-192; s. 1, ch. 2013-225; s. 23, ch. 2014-39; s. 3, ch. 2021-35; s. 23, ch. 2023-16; s. 31, ch. 2024-160; s. 1, ch. 2024-162.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/extra-34e0378984/2026-10-14/official.html",
+    "sha256": "196b466e7688accd2b7bae42ea46018b3c567bf404c40562deb4b85e1365b78f",
+    "locator": "2026 Florida Statutes, s. 1002.321(3)",
+    "quote": "(a) Uses large language models based on GPT-4, its equivalent, or a successor, and is on a closed system.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/2026-10-14/document-2.pdf",
+    "sha256": "656a83712b2a734af0df859a903b5b742b29b30415084ae49b3e1815260fc4d5",
+    "locator": "page 1, heading",
+    "quote": "GOVERNOR’S ACTION: Approved",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/extra-3be957bf10/2026-10-14/official.pdf",
+    "sha256": "72e82dda52d86b19313675ace7d3ae7a9ab8bd91bc57c49a473226e2406ad31a",
+    "locator": "page 3, enacting clause",
+    "quote": "Be It Enacted by the Legislature of the State of Florida:",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Latest events: approved by the Governor on 9 May 2024 and filed as Chapter No. 2024-162 on 13 May 2024; Section 10 of the enrolled act says it takes effect 1 Jul 2024, which is before today (14 Oct 2026). The 2026 Florida Statutes still carry s. 1002.321(3) with the AI grant conditions, and its history line ends with 's. 1, ch. 2024-162', so the AI provisions have not been amended since. Status: 'In force'; date_last_updated stays null.",
+  "scope_reasoning": "Borderline, included with a scope_note under the include-and-flag rules: the act is not AI-specific and its AI part mainly funds AI tutoring in schools, but it sets conditions on the AI platforms it funds (closed system, parental access to AI interactions, district reporting). Not one of the clear exclusions in AGENTS.md section 10.",
+  "summary_reasoning": "The AI provisions follow the enrolled text (s. 1002.321(3) and s. 1004.561(6) as created by the act) and keep its wording of the conditions ('on a closed system', 'district- and school-level reporting and parental access to artificial intelligence interactions')."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

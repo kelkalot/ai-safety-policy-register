@@ -1,0 +1,65 @@
+{
+ "cand_id": "C002",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "council chaired by the Lieutenant Governor",
+   "verdict": "supported",
+   "locator": "official.pdf (enrolled) s. 282.802(3)(a)"
+  },
+  {
+   "claim": "provenance disclosure standards for generative AI images and audio",
+   "verdict": "supported",
+   "locator": "official.pdf page 3-4 / 2026 statute page"
+  },
+  {
+   "claim": "generated child pornography third-degree felony",
+   "verdict": "supported",
+   "locator": "official.pdf s. 827.072 (enrolled)"
+  },
+  {
+   "claim": "2026 amendments by ch. 2026-18, 2026-20 (second-degree felony, transmission)",
+   "verdict": "supported",
+   "locator": "2026 statute page s. 827.072 and C007 analysis"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "C007"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "One targeted search for a later amendment or repeal found none on an official site. date_last_updated is the year 2026, which the chapter-law numbers in the history notes support; the exact day is not in this record's own stored sources, so the year-only value is appropriate. Level A."
+}

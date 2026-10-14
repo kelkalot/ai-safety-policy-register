@@ -1,0 +1,57 @@
+{
+ "cand_id": "C003",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "hourly reminders to minors and hourly notice by bot operators that user is not talking to a human",
+   "verdict": "supported",
+   "locator": "document-1.pdf Effect of Proposed Changes"
+  },
+  {
+   "claim": "USD 50,000 civil penalty per violation, 45-day cure, minors may recover up to USD 10,000",
+   "verdict": "supported",
+   "locator": "document-1.pdf Enforcement and Penalties (chatbot sections, pages 24 onward)"
+  },
+  {
+   "claim": "died in House IT Budget & Policy Subcommittee 29 Apr 2026 after Senate vote 37-1; SB 4-D linked and died",
+   "verdict": "supported",
+   "locator": "official.html Bill History, Related Bills"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "US-FL-01"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "One targeted search for a later amendment or repeal found none on an official site. Status Lapsed and legal force Proposed fit a bill that died in the House. The bill text itself was not stored; the summary rests on the Senate Rules analysis of the filed version, which the Senate passed without amendment. Level A."
+}

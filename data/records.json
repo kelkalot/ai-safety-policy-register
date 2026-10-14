@@ -1,9 +1,9 @@
 {
  "meta": {
   "name": "AI Safety Policy Register",
-  "version": "1.9",
+  "version": "1.10",
   "snapshot_date": "2026-10-12",
-  "record_count": 376,
+  "record_count": 391,
   "scope": "Official governmental and intergovernmental AI safety and AI regulation instruments (core safety + regulation), global coverage.",
   "research_snapshot_date": "2026-10-11/2026-10-12",
   "archive_note": "Local copies of sources are created by tools/archive.py on the machine where the register is deployed.",
@@ -439,6 +439,60 @@
       "US-CA-11"
      ],
      "history_events": 11
+    },
+    {
+     "date": "2026-10-14",
+     "agent": "Claude Code",
+     "model": "claude-opus-5-5",
+     "scope": "pipeline run 2026-10-14-discover-codes-us-fl (discover: codes:US-FL)",
+     "run_id": "2026-10-14-discover-codes-us-fl",
+     "stages": {
+      "collect": {
+       "tool": "Claude Code",
+       "model": "claude-opus-5-5",
+       "date": "2026-10-14"
+      },
+      "extract": {
+       "tool": "Claude Code",
+       "model": "claude-opus-5-5",
+       "date": "2026-10-14"
+      },
+      "blind": {
+       "tool": "Claude Code",
+       "model": "claude-opus-5-5",
+       "date": "2026-10-14"
+      },
+      "check": {
+       "tool": "Claude Code",
+       "model": "claude-sonnet-5-5",
+       "date": "2026-10-14"
+      }
+     },
+     "records_added": 15,
+     "ids": [
+      "US-FL-02",
+      "US-FL-03",
+      "US-FL-04",
+      "US-FL-05",
+      "US-FL-06",
+      "US-FL-07",
+      "US-FL-08",
+      "US-FL-09",
+      "US-FL-10",
+      "US-FL-11",
+      "US-FL-12",
+      "US-FL-13",
+      "US-FL-14",
+      "US-FL-15",
+      "US-FL-16"
+     ],
+     "ids_updated": [
+      "US-KY-01",
+      "US-FL-01",
+      "US-14",
+      "US-CA-13"
+     ],
+     "history_events": 19
     }
    ]
   }
@@ -25007,6 +25061,10 @@
     {
      "slug": "us-national-ai-legislative-framework-2026",
      "id": "US-22"
+    },
+    {
+     "id": "US-FL-05",
+     "slug": "brooke-s-law-florida-hb-1161-2025"
     }
    ],
    "notes": "Approved 19 May 2025. Criminal provisions took effect on enactment. Covered platforms had one year to set up the notice-and-removal process, so platform obligations applied from 19 May 2026 (used as date_last_updated). The 48-hour removal window and FTC enforcement come from the statute as widely summarised; the GovInfo landing page shows only bibliographic data.",
@@ -25020,7 +25078,7 @@
    "local_copy": {
     "status": "archived",
     "flag": "The secondary source could not be downloaded (HTTP 403 Forbidden).",
-    "last_attempt": "2026-10-11T14:03:49Z",
+    "last_attempt": "2026-10-14T16:36:06Z",
     "files": [
      {
       "role_key": "official",
@@ -25034,7 +25092,7 @@
       "bytes": 44420,
       "sha256": "a4b3631f104e3bb120d4eb168a7f495a6672d78efca26866efdce71a6e11d56d",
       "retrieved_at": "2026-10-11T14:03:52Z",
-      "last_checked": "2026-10-11T14:03:52Z",
+      "last_checked": "2026-10-14T16:36:08Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -25043,7 +25101,8 @@
       "previous_path": null,
       "stale": false,
       "warning": null,
-      "integrity": "ok"
+      "integrity": "ok",
+      "text_sha256": "f09c82fdac8a0a939e85c0eb6eb11cb2ab2873e59aa8f46a3a410fcf8df765dc"
      },
      {
       "role_key": "document-1",
@@ -25057,7 +25116,7 @@
       "bytes": 216198,
       "sha256": "53a58ea5b5cfbca4a0ee0c10d642dd30fdd38a56fe64cf17a4a0baf7230f8fda",
       "retrieved_at": "2026-10-11T14:03:57Z",
-      "last_checked": "2026-10-11T14:03:57Z",
+      "last_checked": "2026-10-14T16:36:11Z",
       "method": "http",
       "last_modified": "Tue, 03 Feb 2026 16:48:43 GMT",
       "etag": null,
@@ -25096,9 +25155,35 @@
       "http_status": 403,
       "error": "HTTP 403 Forbidden",
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.govinfo.gov/app/details/PLAW-119publ12",
+      "attempted_at": "2026-10-14T16:36:08Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ12/pdf/PLAW-119publ12.pdf",
+      "attempted_at": "2026-10-14T16:36:11Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/146",
+      "attempted_at": "2026-10-14T16:36:13Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -46284,6 +46369,10 @@
     {
      "id": "US-TX-01",
      "slug": "tx-traiga"
+    },
+    {
+     "id": "US-FL-04",
+     "slug": "florida-ai-bill-of-rights-sb-2-d-2026-special-session-d"
     }
    ],
    "notes": "Filed 22 Dec 2025; favourable in Commerce and Tourism (10-0) and Appropriations (18-0); passed the Senate 35-2 on 4 Mar 2026 with a stated effective date of 1 Jul 2026; died in House messages on 13 Mar 2026 after the House Speaker declined to take up state-level AI regulation. Recorded as a major lapsed bill because of the Governor's public campaign for it.",
@@ -46297,7 +46386,7 @@
    "local_copy": {
     "status": "archived",
     "flag": "The secondary source could not be downloaded (HTTP 403 Forbidden).",
-    "last_attempt": "2026-10-12T04:49:05Z",
+    "last_attempt": "2026-10-14T16:36:06Z",
     "files": [
      {
       "role_key": "official",
@@ -46312,7 +46401,7 @@
       "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
       "text_sha256": "56417e1b7acf7fe029b60f82d7781c9bbc83537f819d174e1cb4c44215e70ede",
       "retrieved_at": "2026-10-12T04:49:09Z",
-      "last_checked": "2026-10-12T04:49:09Z",
+      "last_checked": "2026-10-14T16:36:11Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -46336,7 +46425,7 @@
       "sha256": "6a09b10cdf20199d7056ffd8b00955aa4ca2a9631ae7ce0f5669050399ae958f",
       "text_sha256": null,
       "retrieved_at": "2026-10-12T04:49:15Z",
-      "last_checked": "2026-10-12T04:49:15Z",
+      "last_checked": "2026-10-14T16:36:16Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -46360,7 +46449,7 @@
       "sha256": "b551917adf0a01e3e40624713323b63a4122884bf18d6eeffecdd66282c3b031",
       "text_sha256": null,
       "retrieved_at": "2026-10-12T04:49:20Z",
-      "last_checked": "2026-10-12T04:49:20Z",
+      "last_checked": "2026-10-14T16:36:27Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -46408,9 +46497,44 @@
       "http_status": 403,
       "error": "HTTP 403 Forbidden",
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/482",
+      "attempted_at": "2026-10-14T16:36:11Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/482/Analyses/2026s00482.pre.cm.PDF",
+      "attempted_at": "2026-10-14T16:36:16Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/482/Analyses/2026s00482.cm.PDF",
+      "attempted_at": "2026-10-14T16:36:27Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://floridaphoenix.com/2026/03/04/desantis-ai-bill-of-rights-clears-senate-but-house-wont-touch-it/",
+      "attempted_at": "2026-10-14T16:36:29Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -46646,6 +46770,10 @@
     {
      "id": "US-AR-01",
      "slug": "ar-act-848-public-entity-ai-policy"
+    },
+    {
+     "id": "US-FL-02",
+     "slug": "florida-ai-political-advertising-disclaimer-law-hb-919-2024"
     }
    ],
    "notes": "Declared an emergency measure and therefore effective on signature (24 Mar 2025). The Act's definitions include 'consequential decision' and summaries describe disclosure and appeal routes for AI-informed decisions about citizens; the operative detail is left to COT standards and administrative regulations.",
@@ -46659,7 +46787,7 @@
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-12T04:49:06Z",
+    "last_attempt": "2026-10-14T16:36:06Z",
     "files": [
      {
       "role_key": "official",
@@ -46674,7 +46802,7 @@
       "sha256": "0426429810a4768e03c6c224aa9fa7005600e298e4de068380e858ac3063f05a",
       "text_sha256": "b27c22d3dc751ed376b8dc369b0b958499094491b2d69716fbb57b58b1cb8554",
       "retrieved_at": "2026-10-12T04:49:10Z",
-      "last_checked": "2026-10-12T04:49:10Z",
+      "last_checked": "2026-10-14T16:36:10Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -46698,7 +46826,7 @@
       "sha256": "6bcb9b4292f04080256c108171f3570f99110e54be991c7ac6fe7be5820fd47f",
       "text_sha256": null,
       "retrieved_at": "2026-10-12T04:49:13Z",
-      "last_checked": "2026-10-12T04:49:13Z",
+      "last_checked": "2026-10-14T16:36:13Z",
       "method": "http",
       "last_modified": "Mon, 12 Oct 2026 04:49:13 GMT",
       "etag": null,
@@ -46722,7 +46850,7 @@
       "sha256": "a64de7d412b58033e2927a554bb849588873d66d6ceafbbe816f3ea4b3eb7c97",
       "text_sha256": null,
       "retrieved_at": "2026-10-12T04:49:15Z",
-      "last_checked": "2026-10-12T04:49:15Z",
+      "last_checked": "2026-10-14T16:36:16Z",
       "method": "http",
       "last_modified": "Wed, 16 Jul 2025 19:42:43 GMT",
       "etag": "\"98743cc89f6db1:0\"",
@@ -46746,7 +46874,7 @@
       "sha256": "a64de7d412b58033e2927a554bb849588873d66d6ceafbbe816f3ea4b3eb7c97",
       "text_sha256": null,
       "retrieved_at": "2026-10-12T04:49:18Z",
-      "last_checked": "2026-10-12T04:49:18Z",
+      "last_checked": "2026-10-14T16:36:19Z",
       "method": "http",
       "last_modified": "Wed, 16 Jul 2025 19:42:43 GMT",
       "etag": "\"98743cc89f6db1:0\"",
@@ -46794,9 +46922,44 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://apps.legislature.ky.gov/record/25rs/sb4.html",
+      "attempted_at": "2026-10-14T16:36:10Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://apps.legislature.ky.gov/recorddocuments/bill/25RS/SB4/SFA1.pdf",
+      "attempted_at": "2026-10-14T16:36:13Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://apps.legislature.ky.gov/law/acts/25RS/documents/0066.pdf",
+      "attempted_at": "2026-10-14T16:36:16Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://apps.legislature.ky.gov/law/acts/25RS/documents/0066.pdf",
+      "attempted_at": "2026-10-14T16:36:19Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -51054,7 +51217,12 @@
     "child safety",
     "deepfakes & synthetic media"
    ],
-   "related": [],
+   "related": [
+    {
+     "id": "US-FL-08",
+     "slug": "florida-hb-1159-2026-sexual-offences-and-generated-csam"
+    }
+   ],
    "notes": "Signed on 10 Sep 2026 in a 13-bill child online-safety package that also included SB 1119 (US-CA-08), SB 867 and AB 1159. Passed the Senate 33-0 and was heard by the Assembly Committee on Privacy and Consumer Protection on 1 Jul 2026. Sponsored by the Los Angeles City Attorney. California's Penal Code already covered digitally altered or AI-generated child sexual abuse material after SB 1381 (2024); this law aligns the reporting definition in the Child Abuse and Neglect Reporting Act with the criminal statute.",
    "scope_note": "Not an AI-specific law: it amends California's crime of sexual exploitation of a child and the Child Abuse and Neglect Reporting Act. Included because it brings digitally altered and AI-generated child sexual abuse material within mandated reporting, like the deepfake laws in the register.",
    "english_version": null,
@@ -51066,11 +51234,64 @@
     "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 10 field(s) supported."
    },
    "local_copy": {
-    "status": "not-attempted",
-    "flag": "The archiver has not been run for this record yet.",
-    "last_attempt": null,
-    "files": [],
-    "attempts": []
+    "status": "partial",
+    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
+    "last_attempt": "2026-10-14T16:36:06Z",
+    "files": [
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/US-CA-13/2026-10-14/secondary.html",
+      "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+      "final_url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 310729,
+      "sha256": "164deffbf237a48fc4b77381b0ebecf24498615e0f7083c6a9daf99cc5b7f667",
+      "text_sha256": "2a21b55fd1aedf1d944b15765389bba1f439f676b0d88518a71e61c96d702935",
+      "retrieved_at": "2026-10-14T16:36:11Z",
+      "last_checked": "2026-10-14T16:36:11Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1276",
+      "attempted_at": "2026-10-14T16:36:08Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+      "attempted_at": "2026-10-14T16:36:11Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1276",
+      "attempted_at": "2026-10-14T16:40:19Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
+      "method": "browser"
+     }
+    ]
    }
   },
   {
@@ -51499,6 +51720,2650 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "US-FL-02",
+   "slug": "florida-ai-political-advertising-disclaimer-law-hb-919-2024",
+   "title": "CS/HB 919 (2024): Artificial Intelligence Use in Political Advertising",
+   "original_title": null,
+   "short_title": "Florida AI political advertising disclaimer law (HB 919, 2024)",
+   "jurisdiction": "Florida (US)",
+   "country": "United States",
+   "jurisdiction_level": "Sub-national",
+   "region": "North America",
+   "issuing_body": "Florida Legislature (2024 Regular Session; sponsors State Affairs Committee and Rep. Rizo); approved by the Governor",
+   "instrument_type": "Law",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2024-04-26",
+   "date_in_force": "2024-07-01",
+   "date_last_updated": null,
+   "official_identifier": "Laws of Florida ch. 2024-126 (CS/HB 919, 2024); s. 106.145, F.S.",
+   "official_url": "https://www.flsenate.gov/Session/Bill/2024/919",
+   "secondary_url": "https://www.flsenate.gov/Session/Bill/2024/919/Analyses/h0919z1.EEG.PDF",
+   "language": "English",
+   "summary": "Requires political advertisements, electioneering communications and other advertisements of a political nature that contain images, video, audio, graphics or other digital content made wholly or partly with generative AI, appearing to show a real person doing something that did not happen and created with intent to injure a candidate or deceive about a ballot issue, to carry the disclaimer 'Created in whole or in part with the use of generative artificial intelligence.' It sets format rules for each medium, makes failure by the payer, sponsor or approver a first-degree misdemeanour, adds civil penalties, and allows complaints to the Florida Elections Commission with expedited hearings.",
+   "safety_topics": [
+    "deepfakes & synthetic media",
+    "transparency & labelling",
+    "accountability & liability"
+   ],
+   "related": [
+    {
+     "id": "US-KY-01",
+     "slug": "ky-sb-4-ai-governance-act-2025"
+    }
+   ],
+   "notes": "Passed the House 104-8 on 28 Feb 2024 and the Senate 32-0 on 1 Mar 2024, where it was substituted for the similar CS/CS/SB 850; approved by the Governor on 26 Apr 2024 and effective 1 Jul 2024. The AI disclaimer is in addition to the disclaimers the Florida Election Code already requires. 'Generative artificial intelligence' is defined as a machine-based system that can, for a given set of human-defined objectives, emulate the structure and characteristics of input data to generate derived synthetic content, including images, videos, audio, text and other digital content. In cases referred to the Division of Administrative Hearings, an administrative law judge must hold an expedited hearing.",
+   "scope_note": null,
+   "english_version": null,
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-14",
+    "method": "official-url-fetched",
+    "note": "Stored the Florida Senate bill page for HB 919 (2024) and two House staff analyses linked from it (flsenate.gov), including the House staff final bill analysis of 30 Apr 2024. The bill page confirms the title, sponsors, history, floor votes (104-8 and 32-0), approval by the Governor on 26 Apr 2024, Chapter No. 2024-126, the 1 Jul 2024 effective date and the statute citation s. 106.145; the final analysis confirms approval, chapter and effective date and describes the enacted provisions, on which the summary rests. The enrolled bill text and the chapter law on laws.flrules.org were not stored. The stored files show no later amendment of s. 106.145, F.S.; date_last_updated is left empty for that reason, not because an amendment was ruled out.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 7 field(s) supported."
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:36:11Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C001/2026-10-14/official.html",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/919",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2024/919",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 65860,
+      "sha256": "4c858a90ae0e5e31ea2155756adf268e78e95c1ec37db2c95f9dd5ed78f6429b",
+      "text_sha256": "48c9d68f61ef8e541447037413a3e9ad1c650cf4bdb94052e929dea78112f655",
+      "retrieved_at": "2026-10-14T15:56:04Z",
+      "last_checked": "2026-10-14T16:36:19Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C001/2026-10-14/document-1.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/919/Analyses/h0919z1.EEG.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2024/919/Analyses/h0919z1.EEG.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 374046,
+      "sha256": "05f3ac99c502b905606f783b69b4037603393020732acb6a53ded5cb175b60ce",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:56:25Z",
+      "last_checked": "2026-10-14T16:36:38Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C001/2026-10-14/document-2.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/919/Analyses/h0919c.JUA.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2024/919/Analyses/h0919c.JUA.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 178523,
+      "sha256": "b3a12461c257512ad45d58108fdbbe2ea5224b3860c23272deb44ff511df732e",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:56:43Z",
+      "last_checked": "2026-10-14T16:37:00Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/US-FL-02/2026-10-14/secondary.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/919/Analyses/h0919z1.EEG.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2024/919/Analyses/h0919z1.EEG.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 374046,
+      "sha256": "05f3ac99c502b905606f783b69b4037603393020732acb6a53ded5cb175b60ce",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:37:18Z",
+      "last_checked": "2026-10-14T16:37:18Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/919",
+      "attempted_at": "2026-10-14T15:56:04Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/919/Analyses/h0919z1.EEG.PDF",
+      "attempted_at": "2026-10-14T15:56:25Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/919/Analyses/h0919c.JUA.PDF",
+      "attempted_at": "2026-10-14T15:56:43Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/919",
+      "attempted_at": "2026-10-14T16:36:19Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/919/Analyses/h0919z1.EEG.PDF",
+      "attempted_at": "2026-10-14T16:36:38Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/919/Analyses/h0919c.JUA.PDF",
+      "attempted_at": "2026-10-14T16:37:00Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/919/Analyses/h0919z1.EEG.PDF",
+      "attempted_at": "2026-10-14T16:37:18Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "US-FL-03",
+   "slug": "florida-sb-1680-2024-ai-council-and-generated-csam-offence",
+   "title": "CS/CS/SB 1680 (2024): Advanced Technology",
+   "original_title": null,
+   "short_title": "Florida SB 1680 (2024): AI council and generated CSAM offence",
+   "jurisdiction": "Florida (US)",
+   "country": "United States",
+   "jurisdiction_level": "Sub-national",
+   "region": "North America",
+   "issuing_body": "Florida Legislature (2024 Regular Session; sponsors Rules and Judiciary Committees and Sen. Bradley); approved by the Governor",
+   "instrument_type": "Law",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2024-04-26",
+   "date_in_force": "2024-07-01",
+   "date_last_updated": "2026",
+   "official_identifier": "Laws of Florida ch. 2024-118 (CS/CS/SB 1680, 2024); creates ss. 282.802 and 827.072, F.S.",
+   "official_url": "https://www.flsenate.gov/Session/Bill/2024/1680",
+   "secondary_url": "https://www.flsenate.gov/Session/Bill/2024/1680/BillText/er/PDF",
+   "language": "English",
+   "summary": "Creates the Government Technology Modernization Council in the Department of Management Services, chaired by the Lieutenant Governor, to study and monitor new technologies and recommend how to procure and regulate them. It must assess reforms and a state code of ethics for AI systems in state government and the effect of automated decision systems on residents' rights, evaluate common standards for AI safety and security, including provenance disclosure for generative AI images and audio, and determine how bad actors exploit AI. The law also makes knowingly possessing or intentionally viewing, or intentionally creating, generated child pornography a third-degree felony.",
+   "safety_topics": [
+    "public-sector use",
+    "child safety",
+    "deepfakes & synthetic media"
+   ],
+   "related": [
+    {
+     "id": "US-FL-08",
+     "slug": "florida-hb-1159-2026-sexual-offences-and-generated-csam"
+    }
+   ],
+   "notes": "Passed the Senate 40-0 on 28 Feb 2024 and the House 114-0 on 6 Mar 2024; approved by the Governor on 26 Apr 2024 and effective 1 Jul 2024. The council (s. 282.802, F.S.) comprises the Lieutenant Governor as chair, the state chief information officer, the Secretaries of Commerce, Health Care Administration and Transportation, the executive director of the Department of Law Enforcement, five experts in fields including AI, machine learning and constitutional law, and one member of each legislative chamber; it meets at least quarterly, once jointly with the Florida Cybersecurity Advisory Council, and its duties also include data modernisation, AI use by government and business, and digital media literacy curricula. By 31 Dec each year from 2024 it recommends legislation to modernise government technology, including policies to protect Floridians from bad actors who use AI. Generated child pornography (s. 827.072, F.S.) is an image created, altered, adapted or modified by electronic, mechanical or other computer-generated means to portray a fictitious person whom a reasonable person would regard as a real person under 18 engaged in sexual conduct; the law also requires courts in criminal proceedings to deny defendants' requests to copy such material when the state attorney makes it reasonably available (s. 92.561). In 2026, ch. 2026-18 and ch. 2026-20 amended s. 827.072, renaming the material generated child sexual abuse material, making its creation a second-degree felony and adding a second-degree felony for transmitting it; ch. 2026-20 was approved on 31 Mar 2026 and took effect on 1 Jul 2026. Ch. 2026-66 amended s. 282.802, changing the cross-reference that defines foreign countries of concern.",
+   "scope_note": null,
+   "english_version": null,
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-14",
+    "method": "official-url-fetched",
+    "note": "Stored the Florida Senate bill page for SB 1680 (2024), the Senate Judiciary Committee analyses of January 2024, the enrolled text of CS/CS/SB 1680 (20241680er, 6 pages) and the 2026 Florida Statutes pages for ss. 827.072 and 282.802 (all flsenate.gov). The bill page confirms the title, sponsors, history, floor votes (40-0 and 114-0), approval by the Governor on 26 Apr 2024, Chapter No. 2024-118 and the 1 Jul 2024 effective date; the enrolled text confirms every provision in the summary and the effective-date clause; the statute pages show both sections in force in the 2026 edition with history notes citing ch. 2026-18 and ch. 2026-20 (s. 827.072) and ch. 2026-66 (s. 282.802). The statute pages give no amendment dates, so date_last_updated is the year 2026; the approval and effective dates of ch. 2026-20 come from the bill page and House final analysis stored for candidate C007. The Judiciary analyses describe an earlier version (for example 13 appointed experts on the council rather than five) and were not used for the summary.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 8 field(s) supported."
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:36:13Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/2026-10-14/official.html",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1680",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2024/1680",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 80471,
+      "sha256": "f7388b616dd3f0c852f55cae8de660af0aea0095f45c2f47262d911d0d696c65",
+      "text_sha256": "6179e357dc64d2c0f5d0d4efca94be7ffb210670f9c3ea1c102fabe2e6b8e7f0",
+      "retrieved_at": "2026-10-14T15:56:01Z",
+      "last_checked": "2026-10-14T16:36:22Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/2026-10-14/document-1.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1680/Analyses/2024s01680.pre.ju.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2024/1680/Analyses/2024s01680.pre.ju.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 557116,
+      "sha256": "75c55357fc9930c970144e498ce20d317d161aa448314ee57488f72ed0f96cae",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:56:19Z",
+      "last_checked": "2026-10-14T16:36:48Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/2026-10-14/document-2.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1680/Analyses/2024s01680.ju.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2024/1680/Analyses/2024s01680.ju.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 451740,
+      "sha256": "0250a485d8755580bc8c36919e9de93df0f4316afe7b93bae49c1758b3b47752",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:56:39Z",
+      "last_checked": "2026-10-14T16:37:04Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/US-FL-03/2026-10-14/secondary.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1680/BillText/er/PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2024/1680/BillText/er/PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 146534,
+      "sha256": "14bd2de473d7ea8010a7b57914fbab3eb99279bc868e21a9c5eebadfe1a2701d",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:37:22Z",
+      "last_checked": "2026-10-14T16:37:22Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1680",
+      "attempted_at": "2026-10-14T15:56:01Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1680/Analyses/2024s01680.pre.ju.PDF",
+      "attempted_at": "2026-10-14T15:56:19Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1680/Analyses/2024s01680.ju.PDF",
+      "attempted_at": "2026-10-14T15:56:39Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1680",
+      "attempted_at": "2026-10-14T16:36:22Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1680/Analyses/2024s01680.pre.ju.PDF",
+      "attempted_at": "2026-10-14T16:36:48Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1680/Analyses/2024s01680.ju.PDF",
+      "attempted_at": "2026-10-14T16:37:04Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1680/BillText/er/PDF",
+      "attempted_at": "2026-10-14T16:37:22Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "US-FL-04",
+   "slug": "florida-ai-bill-of-rights-sb-2-d-2026-special-session-d",
+   "title": "SB 2-D (2026 Special Session D): Artificial Intelligence Bill of Rights (passed Senate, died in House)",
+   "original_title": null,
+   "short_title": "Florida AI Bill of Rights (SB 2-D, 2026 Special Session D)",
+   "jurisdiction": "Florida (US)",
+   "country": "United States",
+   "jurisdiction_level": "Sub-national",
+   "region": "North America",
+   "issuing_body": "Florida Senate (2026 Special Session D; sponsor Sen. Brodeur)",
+   "instrument_type": "Bill / draft law",
+   "legal_force": "Proposed",
+   "status": "Lapsed",
+   "date_published": "2026-04-24",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": "SB 2-D (2026 Special Session D)",
+   "official_url": "https://www.flsenate.gov/Session/Bill/2026D/2D",
+   "secondary_url": "https://www.flsenate.gov/Session/Bill/2026D/2D/Analyses/2026s00002D.pre.rc.PDF",
+   "language": "English",
+   "summary": "Would have created an 'Artificial Intelligence Bill of Rights'. Companion chatbot platforms would have had to bar minors from accounts without parental consent, give consenting parents controls and self-harm alerts, remind minors hourly that the chatbot is not human, and take reasonable measures against material harmful to minors. Bot operators would have had to tell users hourly that they are not talking to a human, AI companies could sell or disclose users' personal information only as deidentified data, governments could not contract for AI with entities tied to foreign countries of concern, and commercial use of AI-generated likenesses would have needed consent.",
+   "safety_topics": [
+    "child safety",
+    "transparency & labelling",
+    "public-sector use",
+    "deepfakes & synthetic media"
+   ],
+   "related": [
+    {
+     "id": "US-FL-01",
+     "slug": "fl-sb-482-ai-bill-of-rights-2026"
+    }
+   ],
+   "notes": "Filed on 24 Apr 2026 and referred to Rules; on 28 Apr 2026 it was withdrawn from Rules and passed by the Senate 37-1. In the House it was referred to the Information Technology Budget & Policy Subcommittee and died there on 29 Apr 2026, as did the linked public-records bill SB 4-D. It carries the same title as CS/SB 482 of the 2026 Regular Session (US-FL-01), which died in House messages on 13 Mar 2026. The bill stated an effective date of 1 Jul 2026. The Department of Legal Affairs would have enforced the chatbot, bot and data provisions as deceptive or unfair trade practices, with civil penalties of up to USD 50,000 per violation and a discretionary 45-day cure period, and minors could have recovered up to USD 10,000 from a chatbot platform. It would also have barred schools from giving students AI instructional tools before grade 6, with exceptions, and required parental notice and an opt-out.",
+   "scope_note": null,
+   "english_version": null,
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-14",
+    "method": "official-url-fetched",
+    "note": "Stored the Florida Senate bill page for SB 2-D (session 2026D), the Senate Rules Committee pre-meeting analysis of 24 Apr 2026 and the Senate floor vote record of 28 Apr 2026 (flsenate.gov). The bill page confirms the title, sponsor, the single filed version, the effective date stated in the bill, the 37-1 Senate vote and the House action 'Died in Information Technology Budget & Policy Subcommittee' on 29 Apr 2026; the vote record confirms the 37-1 vote. The bill passed the Senate without amendments, so the analysis of the filed version, on which the summary rests, describes the text that lapsed. The bill text itself was not stored.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 7 field(s) supported."
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:36:19Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C003/2026-10-14/official.html",
+      "url": "https://www.flsenate.gov/Session/Bill/2026D/2D",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2026D/2D",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 60289,
+      "sha256": "1b7441451fa627ef0ed1b86c69413c54b0522a6e180e0feded5a92f4bd15aea9",
+      "text_sha256": "6d6b1c946dc501ac938232cf5c1c35651e6595ba3683cfdbaf1b2317dd01f25d",
+      "retrieved_at": "2026-10-14T15:55:54Z",
+      "last_checked": "2026-10-14T16:36:30Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C003/2026-10-14/document-1.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2026D/2D/Analyses/2026s00002D.pre.rc.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2026D/2D/Analyses/2026s00002D.pre.rc.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 590248,
+      "sha256": "e1d2ddd4d8958472d8f329a3b8727530ab740ce2803ce548bdcd262f2501e3a7",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:56:09Z",
+      "last_checked": "2026-10-14T16:36:56Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C003/2026-10-14/document-2.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2026D/2D/Vote/SenateVote_s00002D__002.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2026D/2D/Vote/SenateVote_s00002D__002.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 92830,
+      "sha256": "41c97fe1ec05dff6c9beb9ced0b8acd8360e9de83a1dbdc71d01776000c92513",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:56:29Z",
+      "last_checked": "2026-10-14T16:37:14Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/US-FL-04/2026-10-14/secondary.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2026D/2D/Analyses/2026s00002D.pre.rc.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2026D/2D/Analyses/2026s00002D.pre.rc.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 590248,
+      "sha256": "e1d2ddd4d8958472d8f329a3b8727530ab740ce2803ce548bdcd262f2501e3a7",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:37:32Z",
+      "last_checked": "2026-10-14T16:37:32Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2026D/2D",
+      "attempted_at": "2026-10-14T15:55:54Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2026D/2D/Analyses/2026s00002D.pre.rc.PDF",
+      "attempted_at": "2026-10-14T15:56:09Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2026D/2D/Vote/SenateVote_s00002D__002.PDF",
+      "attempted_at": "2026-10-14T15:56:29Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2026D/2D",
+      "attempted_at": "2026-10-14T16:36:30Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2026D/2D/Analyses/2026s00002D.pre.rc.PDF",
+      "attempted_at": "2026-10-14T16:36:56Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2026D/2D/Vote/SenateVote_s00002D__002.PDF",
+      "attempted_at": "2026-10-14T16:37:14Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.flsenate.gov/Session/Bill/2026D/2D/Analyses/2026s00002D.pre.rc.PDF",
+      "attempted_at": "2026-10-14T16:37:32Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "US-FL-05",
+   "slug": "brooke-s-law-florida-hb-1161-2025",
+   "title": "CS/CS/HB 1161 (2025): Removal of Altered Sexual Depictions Posted without Consent (Brooke's Law)",
+   "original_title": null,
+   "short_title": "Brooke's Law (Florida HB 1161, 2025)",
+   "jurisdiction": "Florida (US)",
+   "country": "United States",
+   "jurisdiction_level": "Sub-national",
+   "region": "North America",
+   "issuing_body": "Florida Legislature (2025 Regular Session; sponsors Commerce Committee, Industries & Professional Activities Subcommittee and Rep. Duggan); approved by the Governor",
+   "instrument_type": "Law",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2025-06-10",
+   "date_in_force": "2025-06-10",
+   "date_last_updated": null,
+   "official_identifier": "Laws of Florida ch. 2025-133 (CS/CS/HB 1161, 2025); amends s. 836.13, F.S.",
+   "official_url": "https://www.flsenate.gov/Session/Bill/2025/1161",
+   "secondary_url": "https://www.flsenate.gov/Session/Bill/2025/1161/Analyses/h1161z1.IPA.PDF",
+   "language": "English",
+   "summary": "Known as Brooke's Law, it amends Florida's deepfake statute on altered sexual depictions. Covered platforms, meaning public websites and apps that mainly host user-generated content or regularly make nonconsensual altered sexual depictions available, had to set up by 31 Dec 2025 a process for an identifiable person or a representative to request removal of an altered sexual depiction published without consent. Within 48 hours of a valid request the platform must remove it and make reasonable efforts to remove known identical copies. Good-faith removals are shielded from liability, and failure to comply is an unfair or deceptive act under the Florida Deceptive and Unfair Trade Practices Act.",
+   "safety_topics": [
+    "deepfakes & synthetic media",
+    "accountability & liability"
+   ],
+   "related": [
+    {
+     "id": "US-14",
+     "slug": "us-take-it-down-act"
+    },
+    {
+     "id": "US-FL-07",
+     "slug": "florida-sb-1798-2022-altered-sexual-depictions-offence"
+    },
+    {
+     "id": "US-FL-06",
+     "slug": "florida-hb-757-2025-sexual-images-and-deepfake-generation"
+    },
+    {
+     "id": "US-FL-08",
+     "slug": "florida-hb-1159-2026-sexual-offences-and-generated-csam"
+    }
+   ],
+   "notes": "Passed the House 116-0 on 16 Apr 2025 and the Senate 38-0 on 23 Apr 2025, where it was substituted for CS/SB 1400; approved by the Governor on 10 Jun 2025 and effective on becoming law, with the removal process due by 31 Dec 2025. A removal request must carry a signature, information to locate the depiction, a good-faith statement that it is not consensual and contact details, and platforms must give clear and conspicuous notice of the process. Providers of information or telecommunications services for content provided by others, e-mail, and services consisting mainly of preselected content are exempt. The removal duty adds to the civil remedies of s. 836.13, F.S., the altered-sexual-depiction offence that CS/CS/SB 1798 created in 2022.",
+   "scope_note": null,
+   "english_version": null,
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-14",
+    "method": "official-url-fetched",
+    "note": "Stored the Florida Senate bill page for HB 1161 (2025) and two House staff analyses linked from it (flsenate.gov), including the final bill analysis of 18 Jun 2025. The bill page confirms the title, sponsors, history, floor votes (116-0 and 38-0), approval by the Governor on 10 Jun 2025, Chapter No. 2025-133, the effective date of 10 Jun 2025 and the citation of s. 836.13; the final analysis confirms the short title Brooke's Law, approval, chapter and effective date and describes the enacted provisions, on which the summary rests. The enrolled bill text was not stored.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 7 field(s) supported."
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:36:29Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C004/2026-10-14/official.html",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/1161",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2025/1161",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 68579,
+      "sha256": "cad9513f9111148fabd35125be2b94bcbe39813a267ef6f73e916018e601e70a",
+      "text_sha256": "b3c28a5a47db188fa428b15c227bdd164a1f19577adf5d88070dd11a975e0999",
+      "retrieved_at": "2026-10-14T15:55:58Z",
+      "last_checked": "2026-10-14T16:36:51Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C004/2026-10-14/document-1.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/1161/Analyses/h1161z1.IPA.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2025/1161/Analyses/h1161z1.IPA.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 702121,
+      "sha256": "260c3632c7c10f25320868d6acbe78dbb716d7d72e7204c622571ea8312ca195",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:56:14Z",
+      "last_checked": "2026-10-14T16:37:10Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C004/2026-10-14/document-2.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/1161/Analyses/h1161c.JDC.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2025/1161/Analyses/h1161c.JDC.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 737143,
+      "sha256": "033820aa2d4d1da0b252184b80c74d75c5c9d6c7c1ccd4b2ef249bc597583903",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:56:34Z",
+      "last_checked": "2026-10-14T16:37:27Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/US-FL-05/2026-10-14/secondary.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/1161/Analyses/h1161z1.IPA.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2025/1161/Analyses/h1161z1.IPA.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 702121,
+      "sha256": "260c3632c7c10f25320868d6acbe78dbb716d7d72e7204c622571ea8312ca195",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:37:45Z",
+      "last_checked": "2026-10-14T16:37:45Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/1161",
+      "attempted_at": "2026-10-14T15:55:58Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/1161/Analyses/h1161z1.IPA.PDF",
+      "attempted_at": "2026-10-14T15:56:14Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/1161/Analyses/h1161c.JDC.PDF",
+      "attempted_at": "2026-10-14T15:56:34Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/1161",
+      "attempted_at": "2026-10-14T16:36:51Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/1161/Analyses/h1161z1.IPA.PDF",
+      "attempted_at": "2026-10-14T16:37:10Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/1161/Analyses/h1161c.JDC.PDF",
+      "attempted_at": "2026-10-14T16:37:27Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/1161/Analyses/h1161z1.IPA.PDF",
+      "attempted_at": "2026-10-14T16:37:45Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "US-FL-06",
+   "slug": "florida-hb-757-2025-sexual-images-and-deepfake-generation",
+   "title": "CS/CS/HB 757 (2025): Sexual Images",
+   "original_title": null,
+   "short_title": "Florida HB 757 (2025): sexual images and deepfake generation",
+   "jurisdiction": "Florida (US)",
+   "country": "United States",
+   "jurisdiction_level": "Sub-national",
+   "region": "North America",
+   "issuing_body": "Florida Legislature (2025 Regular Session; sponsors Judiciary Committee, Criminal Justice Subcommittee and Reps. Redondo and Kincart Jonsson); approved by the Governor",
+   "instrument_type": "Law",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2025-05-27",
+   "date_in_force": "2025-10-01",
+   "date_last_updated": null,
+   "official_identifier": "Laws of Florida ch. 2025-99 (CS/CS/HB 757, 2025)",
+   "official_url": "https://www.flsenate.gov/Session/Bill/2025/757",
+   "secondary_url": "https://www.flsenate.gov/Session/Bill/2025/757/Analyses/h0757z1.CRM.PDF",
+   "language": "English",
+   "summary": "Creates felonies for possessing with intent to promote, and for soliciting, possessing or intentionally viewing, lewd or lascivious images, including digitally created or modified images of identifiable minors, and for soliciting child pornography. It extends Florida's altered-sexual-depiction statute: willfully generating an altered sexual depiction of an identifiable person without consent, soliciting one, or possessing one with intent to maliciously promote it is a third-degree felony, and 'generate' covers images created or modified by computer-generated means. Victims may sue generators and possessors for injunctive relief, USD 10,000 or actual damages, and attorney fees.",
+   "safety_topics": [
+    "deepfakes & synthetic media",
+    "child safety",
+    "accountability & liability"
+   ],
+   "related": [
+    {
+     "id": "US-FL-07",
+     "slug": "florida-sb-1798-2022-altered-sexual-depictions-offence"
+    },
+    {
+     "id": "US-FL-05",
+     "slug": "brooke-s-law-florida-hb-1161-2025"
+    },
+    {
+     "id": "US-FL-08",
+     "slug": "florida-hb-1159-2026-sexual-offences-and-generated-csam"
+    }
+   ],
+   "notes": "Passed the House 115-0 on 23 Apr 2025 and the Senate 37-0 on 24 Apr 2025, where it was substituted for CS/CS/CS/SB 1180; approved by the Governor on 27 May 2025 and effective 1 Oct 2025. 'Generate' means to create, alter, adapt or modify any image by electronic, mechanical or other computer-generated means to portray an identifiable person, or to offer or agree to do so. The generation and possession offences are ranked as Level 3 and the solicitation offence as Level 2 on the offense severity ranking chart. The law amends s. 836.13, F.S., the altered-sexual-depiction offence created in 2022 by CS/CS/SB 1798, and also sets criteria for when an image shows lewd exhibition of a minor's genitals for the purposes of the child pornography statute.",
+   "scope_note": "Not an AI-specific law: mainly a law on sexual images of minors and child pornography. Included because it makes generating sexual deepfakes of identifiable people by computer-generated means a crime and gives victims a civil action.",
+   "english_version": null,
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-14",
+    "method": "official-url-fetched",
+    "note": "Stored the Florida Senate bill page for HB 757 (2025) and two House staff analyses linked from it (flsenate.gov), including the final bill analysis of 30 May 2025. The bill page confirms the title, sponsors, history, floor votes (115-0 and 37-0), approval by the Governor on 27 May 2025, Chapter No. 2025-99, the 1 Oct 2025 effective date and the statutes cited (ss. 800.045, 827.071, 836.13 and 921.0022); the final analysis confirms approval, chapter and effective date and describes the enacted provisions, on which the summary rests. The enrolled bill text was not stored.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 7 field(s) supported."
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:37:18Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C005/2026-10-14/official.html",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/757",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2025/757",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 66486,
+      "sha256": "1f08bae327637d82985c5d1633aff95935e46a0e04b32027a6dec5fe01c1522c",
+      "text_sha256": "e1a81683ba9cdf08ffbf66bd4ae29498a0891205efb4a9d2f690e8a656dfc0e8",
+      "retrieved_at": "2026-10-14T15:56:46Z",
+      "last_checked": "2026-10-14T16:37:36Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C005/2026-10-14/document-1.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/757/Analyses/h0757z1.CRM.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2025/757/Analyses/h0757z1.CRM.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 489917,
+      "sha256": "a25f0dce0d43e297baf4ea957cfaedb64f4375cf9b59d176d3bb97c52e29e093",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:57:01Z",
+      "last_checked": "2026-10-14T16:37:54Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C005/2026-10-14/document-2.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/757/Analyses/h0757b.JDC.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2025/757/Analyses/h0757b.JDC.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 523748,
+      "sha256": "7194e417dcd82a85cbec32174a21a752331034c873d74299686cc0ef86b84ffb",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:57:23Z",
+      "last_checked": "2026-10-14T16:38:12Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/US-FL-06/2026-10-14/secondary.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/757/Analyses/h0757z1.CRM.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2025/757/Analyses/h0757z1.CRM.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 489917,
+      "sha256": "a25f0dce0d43e297baf4ea957cfaedb64f4375cf9b59d176d3bb97c52e29e093",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:38:31Z",
+      "last_checked": "2026-10-14T16:38:31Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/757",
+      "attempted_at": "2026-10-14T15:56:46Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/757/Analyses/h0757z1.CRM.PDF",
+      "attempted_at": "2026-10-14T15:57:01Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/757/Analyses/h0757b.JDC.PDF",
+      "attempted_at": "2026-10-14T15:57:23Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/757",
+      "attempted_at": "2026-10-14T16:37:36Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/757/Analyses/h0757z1.CRM.PDF",
+      "attempted_at": "2026-10-14T16:37:54Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/757/Analyses/h0757b.JDC.PDF",
+      "attempted_at": "2026-10-14T16:38:12Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/757/Analyses/h0757z1.CRM.PDF",
+      "attempted_at": "2026-10-14T16:38:31Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "US-FL-07",
+   "slug": "florida-sb-1798-2022-altered-sexual-depictions-offence",
+   "title": "CS/CS/SB 1798 (2022): Sexually Related Offenses",
+   "original_title": null,
+   "short_title": "Florida SB 1798 (2022): altered sexual depictions offence",
+   "jurisdiction": "Florida (US)",
+   "country": "United States",
+   "jurisdiction_level": "Sub-national",
+   "region": "North America",
+   "issuing_body": "Florida Legislature (2022 Regular Session; sponsors Appropriations and Criminal Justice Committees and Sen. Book); approved by the Governor",
+   "instrument_type": "Law",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2022-06-24",
+   "date_in_force": "2022-10-01",
+   "date_last_updated": "2026",
+   "official_identifier": "Laws of Florida ch. 2022-212 (CS/CS/SB 1798, 2022); creates ss. 836.13 and 836.14, F.S.",
+   "official_url": "https://www.flsenate.gov/Session/Bill/2022/1798",
+   "secondary_url": "https://www.flsenate.gov/Session/Bill/2022/1798/BillText/er/PDF",
+   "language": "English",
+   "summary": "Creates s. 836.13, F.S., an offence for sexual deepfakes: willfully and maliciously promoting an altered sexual depiction of an identifiable person without consent, knowing or having reason to know it is altered, is a third-degree felony, and victims have a civil action. An altered sexual depiction is a realistic depiction of an identifiable person, produced by any digital or other modification, with another person's or computer-generated nude body parts or engaged in sexual conduct the person did not engage in; a disclaimer is no defence. The act also extends child pornography to images created or modified to portray an identifiable minor and criminalises theft of sexually explicit images.",
+   "safety_topics": [
+    "deepfakes & synthetic media",
+    "accountability & liability",
+    "child safety"
+   ],
+   "related": [
+    {
+     "id": "US-FL-06",
+     "slug": "florida-hb-757-2025-sexual-images-and-deepfake-generation"
+    },
+    {
+     "id": "US-FL-05",
+     "slug": "brooke-s-law-florida-hb-1161-2025"
+    },
+    {
+     "id": "US-FL-08",
+     "slug": "florida-hb-1159-2026-sexual-offences-and-generated-csam"
+    }
+   ],
+   "notes": "Passed the Senate 37-0 on 3 Mar 2022 and the House 117-0 on 8 Mar 2022; approved by the Governor on 24 Jun 2022 and effective 1 Oct 2022. Victims of an altered sexual depiction may seek injunctive relief, damages of USD 10,000 or actual damages, whichever is greater, and attorney fees; providers of interactive computer, information or communications services, law enforcement, people reporting unlawful activity and participants in legal proceedings are exempt. Section 836.14 makes theft of a sexually explicit image with intent to promote it, and possessing a stolen image with intent to promote it for financial gain, third-degree felonies, and promoting such an image for financial gain without consent a second-degree felony. The act also amends the definitions of child pornography in ss. 775.0847 and 827.071 to cover images created, altered, adapted or modified by electronic, mechanical or other means to portray an identifiable minor, raises damages for sexual cyberharassment and increases penalties for sexual activities involving animals. Section 836.13 was amended by ch. 2025-99 (CS/CS/HB 757), which added offences for generating, soliciting and possessing altered sexual depictions, by ch. 2025-133 (CS/CS/HB 1161, Brooke's Law), which added platform removal duties, and in 2026 by ch. 2026-14, ch. 2026-18 and ch. 2026-20.",
+   "scope_note": "Not an AI-specific law: a broad sexual offences act. Included because it created Florida's offence for promoting sexual deepfakes (altered sexual depictions, including computer-generated nude body parts), the statute that later Florida deepfake laws extend.",
+   "english_version": null,
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-14",
+    "method": "official-url-fetched",
+    "note": "Stored the Florida Senate bill page for SB 1798 (2022), the Senate Criminal Justice Committee analyses of January 2022, the enrolled text of CS/CS/SB 1798 (20221798er, 62 pages) and the 2026 Florida Statutes page for s. 836.13 (all flsenate.gov). The bill page confirms the title, sponsors, history, floor votes (37-0 and 117-0), approval by the Governor on 24 Jun 2022, Chapter No. 2022-212 and the 1 Oct 2022 effective date; the enrolled text confirms every provision in the summary and notes (sections 1, 3, 5 and 6) and the effective-date clause (section 13); the statute page shows s. 836.13 in force in the 2026 edition with a history note citing ch. 2025-99, ch. 2025-133, ch. 2026-14, ch. 2026-18 and ch. 2026-20. The statute page gives no amendment dates, so date_last_updated is the year 2026. The Criminal Justice analyses describe an earlier version (for example renaming child pornography as child sexual abuse material, which the enacted act does not do) and were not used for the summary.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 8 field(s) supported."
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:37:22Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/2026-10-14/official.html",
+      "url": "https://www.flsenate.gov/Session/Bill/2022/1798",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2022/1798",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 86121,
+      "sha256": "18f9df404709ab2355e8b883578e7c87a7393061614d35df2c61cc3f677fddab",
+      "text_sha256": "5f83586f69cff529731a2cdcaa7f6fba98af4bb433f95c62e04039fbdd30f734",
+      "retrieved_at": "2026-10-14T15:56:49Z",
+      "last_checked": "2026-10-14T16:37:39Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/2026-10-14/document-1.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2022/1798/Analyses/2022s01798.pre.cj.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2022/1798/Analyses/2022s01798.pre.cj.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 434335,
+      "sha256": "2e5498e2934817f19172a6320eca2fac08b24b6904ec95eeb2fe54cb8d3ce98f",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:57:07Z",
+      "last_checked": "2026-10-14T16:37:59Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/2026-10-14/document-2.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2022/1798/Analyses/2022s01798.cj.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2022/1798/Analyses/2022s01798.cj.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 411065,
+      "sha256": "5d2924fd042e066a52d8cc838a8a5d95540fd574bae4cbbda72dbac77a4aa676",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:57:27Z",
+      "last_checked": "2026-10-14T16:38:16Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/US-FL-07/2026-10-14/secondary.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2022/1798/BillText/er/PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2022/1798/BillText/er/PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 769317,
+      "sha256": "4b3c5d7b63f6639709acdccc30ca5c096b4b395b9ef2048ec2295961a0950c9e",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:38:36Z",
+      "last_checked": "2026-10-14T16:38:36Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2022/1798",
+      "attempted_at": "2026-10-14T15:56:49Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2022/1798/Analyses/2022s01798.pre.cj.PDF",
+      "attempted_at": "2026-10-14T15:57:07Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2022/1798/Analyses/2022s01798.cj.PDF",
+      "attempted_at": "2026-10-14T15:57:27Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2022/1798",
+      "attempted_at": "2026-10-14T16:37:39Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2022/1798/Analyses/2022s01798.pre.cj.PDF",
+      "attempted_at": "2026-10-14T16:37:59Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2022/1798/Analyses/2022s01798.cj.PDF",
+      "attempted_at": "2026-10-14T16:38:16Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.flsenate.gov/Session/Bill/2022/1798/BillText/er/PDF",
+      "attempted_at": "2026-10-14T16:38:36Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "US-FL-08",
+   "slug": "florida-hb-1159-2026-sexual-offences-and-generated-csam",
+   "title": "CS/CS/HB 1159 (2026): Sexual Offenses",
+   "original_title": null,
+   "short_title": "Florida HB 1159 (2026): sexual offences and generated CSAM",
+   "jurisdiction": "Florida (US)",
+   "country": "United States",
+   "jurisdiction_level": "Sub-national",
+   "region": "North America",
+   "issuing_body": "Florida Legislature (2026 Regular Session; sponsors Judiciary Committee, Criminal Justice Subcommittee and Rep. Jacques); approved by the Governor",
+   "instrument_type": "Law",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2026-03-31",
+   "date_in_force": "2026-07-01",
+   "date_last_updated": null,
+   "official_identifier": "Laws of Florida ch. 2026-20 (CS/CS/HB 1159, 2026)",
+   "official_url": "https://www.flsenate.gov/Session/Bill/2026/1159",
+   "secondary_url": "https://www.flsenate.gov/Session/Bill/2026/1159/Analyses/h1159z1.CRM.PDF",
+   "language": "English",
+   "summary": "Replaces 'child pornography' with 'child sexual abuse material' in Florida statutes, raises penalties and sets mandatory minimum sentences for child sexual abuse material and child sexual performance offences, and creates a life felony for using a child under 12 in a sexual performance. For computer-generated imagery, it raises the offence of creating generated child sexual abuse material, an image made or modified by computer-generated means to portray a fictitious person whom a reasonable person would regard as a real minor engaged in sexual conduct, from a third- to a second-degree felony, and makes transmitting such material within, into or out of Florida a second-degree felony.",
+   "safety_topics": [
+    "child safety",
+    "deepfakes & synthetic media"
+   ],
+   "related": [
+    {
+     "id": "US-FL-03",
+     "slug": "florida-sb-1680-2024-ai-council-and-generated-csam-offence"
+    },
+    {
+     "id": "US-CA-13",
+     "slug": "california-sb-1276-ai-generated-child-sexual-abuse-material"
+    },
+    {
+     "id": "US-FL-07",
+     "slug": "florida-sb-1798-2022-altered-sexual-depictions-offence"
+    },
+    {
+     "id": "US-FL-06",
+     "slug": "florida-hb-757-2025-sexual-images-and-deepfake-generation"
+    },
+    {
+     "id": "US-FL-05",
+     "slug": "brooke-s-law-florida-hb-1161-2025"
+    }
+   ],
+   "notes": "Passed the House 105-0 on 3 Mar 2026 and the Senate 37-0 on 9 Mar 2026, where it was substituted for CS/SB 1750; approved by the Governor on 31 Mar 2026 and effective 1 Jul 2026. Section 9 amends s. 827.072, F.S., the generated child pornography offence created in 2024 by CS/CS/SB 1680 (ch. 2024-118). The companion terminology bill CS/HB 245 (ch. 2026-18) also passed. Other provisions raise penalties for possessing a child-like sex doll and for sexual activities involving animals, and bar people convicted of the latter from owning or working with animals for at least five years.",
+   "scope_note": "Not an AI-specific law: an omnibus sexual offences act. Included because it raises the penalty for creating computer-generated child sexual abuse material and makes transmitting it a crime, amending the offence created by Florida's 2024 Advanced Technology law.",
+   "english_version": null,
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-14",
+    "method": "official-url-fetched",
+    "note": "Stored the Florida Senate bill page for HB 1159 (2026) and two House staff analyses linked from it (flsenate.gov), including the final bill analysis of 1 Apr 2026. The bill page confirms the title, sponsors, history, floor votes (105-0 and 37-0), approval by the Governor on 31 Mar 2026, Chapter No. 2026-20 and the 1 Jul 2026 effective date; the final analysis confirms approval, chapter and effective date and describes the enacted provisions, including section 9 on generated child sexual abuse material, on which the summary rests. The statement that s. 827.072 was created by CS/CS/SB 1680 rests on the Senate analysis stored for candidate C002. The enrolled bill text was not stored.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 7 field(s) supported."
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:37:32Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C007/2026-10-14/official.html",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/1159",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2026/1159",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 83115,
+      "sha256": "d45f3465bdb3c5ab1b003672fabe28b7cc4b4eeca1f3b8e153a4d1c5c2a6df9b",
+      "text_sha256": "392e45c0c5b5c30654fbab228ddaa2a26e7ff0716c84dde3fa993c3258c5afe2",
+      "retrieved_at": "2026-10-14T15:56:53Z",
+      "last_checked": "2026-10-14T16:37:49Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C007/2026-10-14/document-1.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/1159/Analyses/h1159z1.CRM.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2026/1159/Analyses/h1159z1.CRM.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 618212,
+      "sha256": "e074b23f2f2a360aad874a79525dd633d1f6dbcaaab597a0d3d96a021166d810",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:57:12Z",
+      "last_checked": "2026-10-14T16:38:07Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C007/2026-10-14/document-2.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/1159/Analyses/h1159c.JUB.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2026/1159/Analyses/h1159c.JUB.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 630541,
+      "sha256": "4f857444906c579e2ec918476b3974b7e486f6136582528080607c2e29c9a12a",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:57:32Z",
+      "last_checked": "2026-10-14T16:38:27Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/US-FL-08/2026-10-14/secondary.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/1159/Analyses/h1159z1.CRM.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2026/1159/Analyses/h1159z1.CRM.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 618212,
+      "sha256": "e074b23f2f2a360aad874a79525dd633d1f6dbcaaab597a0d3d96a021166d810",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:38:51Z",
+      "last_checked": "2026-10-14T16:38:51Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/1159",
+      "attempted_at": "2026-10-14T15:56:53Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/1159/Analyses/h1159z1.CRM.PDF",
+      "attempted_at": "2026-10-14T15:57:12Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/1159/Analyses/h1159c.JUB.PDF",
+      "attempted_at": "2026-10-14T15:57:32Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/1159",
+      "attempted_at": "2026-10-14T16:37:49Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/1159/Analyses/h1159z1.CRM.PDF",
+      "attempted_at": "2026-10-14T16:38:07Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/1159/Analyses/h1159c.JUB.PDF",
+      "attempted_at": "2026-10-14T16:38:27Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/1159/Analyses/h1159z1.CRM.PDF",
+      "attempted_at": "2026-10-14T16:38:51Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "US-FL-09",
+   "slug": "florida-hb-527-2026-human-review-of-ai-claim-denials",
+   "title": "CS/CS/HB 527 (2026): Mandatory Human Reviews of Insurance Claim Denials (passed House, died in Senate)",
+   "original_title": null,
+   "short_title": "Florida HB 527 (2026): human review of AI claim denials",
+   "jurisdiction": "Florida (US)",
+   "country": "United States",
+   "jurisdiction_level": "Sub-national",
+   "region": "North America",
+   "issuing_body": "Florida House of Representatives (2026 Regular Session; sponsors Commerce Committee, Insurance & Banking Subcommittee and Rep. Cassel)",
+   "instrument_type": "Bill / draft law",
+   "legal_force": "Proposed",
+   "status": "Lapsed",
+   "date_published": "2025-11-24",
+   "date_in_force": null,
+   "date_last_updated": "2026-02-27",
+   "official_identifier": "CS/CS/HB 527 (2026 Regular Session)",
+   "official_url": "https://www.flsenate.gov/Session/Bill/2026/527",
+   "secondary_url": "https://www.flsenate.gov/Session/Bill/2026/527/Analyses/h0527c.COM.PDF",
+   "language": "English",
+   "summary": "Would have let workers' compensation carriers, insurers and HMOs use artificial intelligence and machine learning systems to assist in processing claims, but barred them from reducing a claim payment or denying all or part of a claim based solely on such a system's output. A qualified human professional would have had to analyse the claim independently of the system, review the accuracy of its output and make the decision. Carriers would have had to keep records of each such decision, affirm in denial letters that AI was not the sole basis, and describe their AI use and how it complies in their claims-handling manuals.",
+   "safety_topics": [
+    "human oversight",
+    "transparency & labelling",
+    "accountability & liability"
+   ],
+   "related": [],
+   "notes": "Filed on 24 Nov 2025; committee substitutes were adopted by the Insurance & Banking Subcommittee (9 Dec 2025, which extended the bill to workers' compensation and HMOs) and the Commerce Committee (26 Feb 2026, filed 27 Feb 2026, which dropped references to algorithms). Passed the House 108-0 on 5 Mar 2026, was referred to the Senate Rules Committee and died there on 13 Mar 2026; the Senate bill SB 202 died in Banking and Insurance. The bill stated an effective date of 1 Jul 2026. The Office of Insurance Regulation (insurers and HMOs) and the Department of Financial Services (workers' compensation carriers) would have checked compliance through market conduct examinations, with administrative fines for workers' compensation carriers of up to USD 2,500 per nonwillful and USD 20,000 per willful violation.",
+   "scope_note": null,
+   "english_version": null,
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-14",
+    "method": "official-url-fetched",
+    "note": "Stored the Florida Senate bill page for HB 527 (2026) and the House Insurance & Banking Subcommittee (11 Dec 2025) and Commerce Committee (2 Mar 2026) analyses (flsenate.gov). The bill page confirms the title, sponsors, versions (filed, c1, c2 posted 27 Feb 2026), the 108-0 House vote and 'Died in Rules' on 13 Mar 2026; the Commerce analysis covers CS/CS/HB 527, the version the House passed, and the summary rests on it. The bill text itself was not stored.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 8 field(s) supported."
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:37:45Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C008/2026-10-14/official.html",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/527",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2026/527",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 63146,
+      "sha256": "aa043b42ed2d1903aa908eb484326a03886585d0e665b8e5eb8f76b251413a34",
+      "text_sha256": "0fd2416fe5ba6a296dcec0d1ad99ffa54605fe3e7b4fb48bda8a7dab35362638",
+      "retrieved_at": "2026-10-14T15:56:57Z",
+      "last_checked": "2026-10-14T16:38:02Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C008/2026-10-14/document-1.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/527/Analyses/h0527a.IBS.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2026/527/Analyses/h0527a.IBS.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 596773,
+      "sha256": "acf4c8ef9113fd3eedb57f70d2260b54e5d147854889a3c62276dd292208d319",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:57:18Z",
+      "last_checked": "2026-10-14T16:38:22Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C008/2026-10-14/document-2.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/527/Analyses/h0527c.COM.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2026/527/Analyses/h0527c.COM.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 595232,
+      "sha256": "aec0556acefd07784be146c97e87f93c20db7f62fb2ec77beb768abd4af9bde4",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:57:37Z",
+      "last_checked": "2026-10-14T16:38:41Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/US-FL-09/2026-10-14/secondary.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/527/Analyses/h0527c.COM.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2026/527/Analyses/h0527c.COM.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 595232,
+      "sha256": "aec0556acefd07784be146c97e87f93c20db7f62fb2ec77beb768abd4af9bde4",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:39:02Z",
+      "last_checked": "2026-10-14T16:39:02Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/527",
+      "attempted_at": "2026-10-14T15:56:57Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/527/Analyses/h0527a.IBS.PDF",
+      "attempted_at": "2026-10-14T15:57:18Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/527/Analyses/h0527c.COM.PDF",
+      "attempted_at": "2026-10-14T15:57:37Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/527",
+      "attempted_at": "2026-10-14T16:38:02Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/527/Analyses/h0527a.IBS.PDF",
+      "attempted_at": "2026-10-14T16:38:22Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/527/Analyses/h0527c.COM.PDF",
+      "attempted_at": "2026-10-14T16:38:41Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/527/Analyses/h0527c.COM.PDF",
+      "attempted_at": "2026-10-14T16:39:02Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "US-FL-10",
+   "slug": "florida-hb-491-2025-ai-concealed-firearm-detection-ban",
+   "title": "CS/HB 491 (2025): Use of Artificial Intelligence by Governmental Agencies to Detect Concealed Firearms",
+   "original_title": null,
+   "short_title": "Florida HB 491 (2025): AI concealed-firearm detection ban",
+   "jurisdiction": "Florida (US)",
+   "country": "United States",
+   "jurisdiction_level": "Sub-national",
+   "region": "North America",
+   "issuing_body": "Florida House of Representatives (2025 Regular Session; Criminal Justice Subcommittee and Rep. Miller)",
+   "instrument_type": "Bill / draft law",
+   "legal_force": "Proposed",
+   "status": "Lapsed",
+   "date_published": "2025-02-10",
+   "date_in_force": null,
+   "date_last_updated": "2025-03-26",
+   "official_identifier": "CS/HB 491 (2025 Regular Session)",
+   "official_url": "https://www.flsenate.gov/Session/Bill/2025/491",
+   "secondary_url": null,
+   "language": "English",
+   "summary": "Bill that would have prohibited any state, county, local or municipal governmental agency from using artificial intelligence, or contracting with another entity to use it, together with a camera, video recording, live-streaming device or similar technology to detect concealed firearms in a public place. Agencies could still use such AI on school grounds and at the locations where concealed weapons licensees may not carry. An aggrieved party could seek injunctive relief against the agency or its contractor to prevent or remedy a violation.",
+   "safety_topics": [
+    "public-sector use",
+    "prohibited practices"
+   ],
+   "related": [],
+   "notes": "Filed 10 Feb 2025. The Criminal Justice Subcommittee reported it favourably with a committee substitute (13-0) on 26 Mar 2025, narrowing the filed version, which applied to any person and carried a criminal penalty, to governmental agencies and replacing the penalty with injunctive relief. The Judiciary Committee reported it favourably (19-0) on 17 Apr 2025, and the House passed it 114-1 on 24 Apr 2025. In the Senate it was referred to Rules, indefinitely postponed and withdrawn from consideration on 3 May 2025, and died in Rules on 16 Jun 2025. The similar Senate bill SB 562 (Ingoglia) died in the Criminal Justice Committee. The stated effective date was 1 Jul 2025.",
+   "scope_note": null,
+   "english_version": null,
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-14",
+    "method": "official-url-fetched",
+    "note": "Stored the Florida Senate bill page for HB 491 (2025), with its history, versions, related bills and the House floor vote, and the House Criminal Justice Subcommittee (26 Mar 2025) and Judiciary Committee (17 Apr 2025) staff analyses of CS/HB 491 (flsenate.gov). The bill page confirms the title, sponsors, filing date, the 114-1 House vote and the 'Died in Rules' action of 16 Jun 2025. The bill text itself was not stored; the summary rests on the staff analyses, which describe the committee substitute section by section and state that they are not an official statement of legislative intent.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 7 field(s) supported."
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:38:31Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C009/2026-10-14/official.html",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/491",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2025/491",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 58132,
+      "sha256": "b652de24ec5d180ee963b921ef7414629c03c1bd171d5794308fc5ff2bf21f5a",
+      "text_sha256": "dc71c5c924b716f7321241a1d9aa0d8b1a263aabc30c6f09e79ee7fae32f8d49",
+      "retrieved_at": "2026-10-14T15:57:40Z",
+      "last_checked": "2026-10-14T16:38:54Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C009/2026-10-14/document-1.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/491/Analyses/h0491.CRM.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2025/491/Analyses/h0491.CRM.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 505544,
+      "sha256": "fbfc1f5e73d45c6214889ee3259a9cb8ef4400b334d9bbdb87cdbf543094ac83",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:57:51Z",
+      "last_checked": "2026-10-14T16:39:10Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C009/2026-10-14/document-2.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/491/Analyses/h0491b.JDC.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2025/491/Analyses/h0491b.JDC.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 533005,
+      "sha256": "8f64077b7d5ab84747200d1d505097c9b0098b3d2746527dbc6f9f060a178312",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:58:04Z",
+      "last_checked": "2026-10-14T16:39:23Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/491",
+      "attempted_at": "2026-10-14T15:57:40Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/491/Analyses/h0491.CRM.PDF",
+      "attempted_at": "2026-10-14T15:57:51Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/491/Analyses/h0491b.JDC.PDF",
+      "attempted_at": "2026-10-14T15:58:04Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/491",
+      "attempted_at": "2026-10-14T16:38:54Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/491/Analyses/h0491.CRM.PDF",
+      "attempted_at": "2026-10-14T16:39:10Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/491/Analyses/h0491b.JDC.PDF",
+      "attempted_at": "2026-10-14T16:39:23Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "US-FL-11",
+   "slug": "florida-hb-369-2025-provenance-of-ai-generated-content",
+   "title": "CS/CS/CS/HB 369 (2025): Provenance of Digital Content",
+   "original_title": null,
+   "short_title": "Florida HB 369 (2025): provenance of AI-generated content",
+   "jurisdiction": "Florida (US)",
+   "country": "United States",
+   "jurisdiction_level": "Sub-national",
+   "region": "North America",
+   "issuing_body": "Florida House of Representatives (2025 Regular Session; Commerce Committee and Rep. McFarland)",
+   "instrument_type": "Bill / draft law",
+   "legal_force": "Proposed",
+   "status": "Lapsed",
+   "date_published": "2025-02-04",
+   "date_in_force": null,
+   "date_last_updated": "2025-04-16",
+   "official_identifier": "CS/CS/CS/HB 369 (2025 Regular Session)",
+   "official_url": "https://www.flsenate.gov/Session/Bill/2025/369",
+   "secondary_url": null,
+   "language": "English",
+   "summary": "Bill that would have required developers of publicly available generative AI tools to offer a tool letting users apply provenance data to synthetic content made with the developer's tool, or to apply such data themselves where technically feasible, and to make a free provenance reader available. Provenance data, following widely adopted standards, would show whether visual content is synthetic and name the developer, without personally identifying information. Social media platforms would have had to retain available provenance data and make it accessible to users. Violations would have been unfair or deceptive practices, enforced only by the Attorney General after a 30-day cure period.",
+   "safety_topics": [
+    "transparency & labelling",
+    "deepfakes & synthetic media"
+   ],
+   "related": [],
+   "notes": "Filed 4 Feb 2025. Reported favourably with committee substitutes by the Information Technology Budget & Policy Subcommittee (17-0, 19 Mar 2025), the Economic Infrastructure Subcommittee (16-0, 31 Mar 2025) and the Commerce Committee (25-0, 15 Apr 2025). The first substitute dropped provisions of the filed version on disclaimers on election materials, a pilot programme at the Division of Emergency Management and capture devices; the Commerce Committee replaced 'provider' with 'developer', removed audio from 'synthetic content' and excluded services that exclusively provide video game experiences. The bill would have created s. 501.9741, F.S., with an effective date of 1 Jul 2026. Placed on the House Second Reading Calendar, temporarily postponed on 23 Apr 2025, indefinitely postponed and withdrawn from consideration on 3 May 2025, and died on the Second Reading Calendar on 16 Jun 2025. The similar Senate bill SB 702 (Burgess) died in the Ethics and Elections Committee.",
+   "scope_note": null,
+   "english_version": null,
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-14",
+    "method": "official-url-fetched",
+    "note": "Stored the Florida Senate bill page for HB 369 (2025), with its history, versions, amendments and related bills; the text of the third committee substitute (CS/CS/CS/HB 369, filed 16 Apr 2025), the last version of the bill; and the House staff analyses of the Information Technology Budget & Policy Subcommittee (20 Mar 2025), the Economic Infrastructure Subcommittee (1 Apr 2025) and the Commerce Committee (17 Apr 2025) (all flsenate.gov). The bill page confirms the title, sponsors, filing date, committee actions and the 'Died on Second Reading Calendar' action of 16 Jun 2025; the summary follows the text of the third committee substitute.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 7 field(s) supported."
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:38:36Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/2026-10-14/official.html",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/369",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2025/369",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 67245,
+      "sha256": "b34c021313e1ddc25f6e93097174cbf3f46dbefd03e26fff762d1c7777704ec0",
+      "text_sha256": "c00d95c0e9d12c8eef1a3d632edba5a1ac698c9987cfd8deabeb4c061f11f70e",
+      "retrieved_at": "2026-10-14T15:57:43Z",
+      "last_checked": "2026-10-14T16:38:58Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/2026-10-14/document-1.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/369/Analyses/h0369a.ITP.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2025/369/Analyses/h0369a.ITP.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 468041,
+      "sha256": "b97accd2e8cc8baef0c9aa64a068a01bc0a214fb3fe152ac5e8a685241114dc8",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:57:56Z",
+      "last_checked": "2026-10-14T16:39:15Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/2026-10-14/document-2.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/369/Analyses/h0369c.EIS.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2025/369/Analyses/h0369c.EIS.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 513641,
+      "sha256": "eb47d42f603d8eb241d99f906d8ded4cb0bb72c2077bbaed383e12839ac967cd",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:58:10Z",
+      "last_checked": "2026-10-14T16:39:28Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/369",
+      "attempted_at": "2026-10-14T15:57:43Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/369/Analyses/h0369a.ITP.PDF",
+      "attempted_at": "2026-10-14T15:57:56Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/369/Analyses/h0369c.EIS.PDF",
+      "attempted_at": "2026-10-14T15:58:10Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/369",
+      "attempted_at": "2026-10-14T16:38:58Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/369/Analyses/h0369a.ITP.PDF",
+      "attempted_at": "2026-10-14T16:39:15Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/369/Analyses/h0369c.EIS.PDF",
+      "attempted_at": "2026-10-14T16:39:28Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "US-FL-12",
+   "slug": "florida-education-act-2024-hb-1361-ai-grants-for-schools",
+   "title": "CS/HB 1361 (2024): Education (Chapter 2024-162, Laws of Florida)",
+   "original_title": null,
+   "short_title": "Florida education act 2024 (HB 1361): AI grants for schools",
+   "jurisdiction": "Florida (US)",
+   "country": "United States",
+   "jurisdiction_level": "Sub-national",
+   "region": "North America",
+   "issuing_body": "Florida Legislature (2024 Regular Session; approved by the Governor)",
+   "instrument_type": "Law",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2024-05-09",
+   "date_in_force": "2024-07-01",
+   "date_last_updated": null,
+   "official_identifier": "Chapter 2024-162, Laws of Florida (CS/HB 1361, 2024 Regular Session)",
+   "official_url": "https://www.flsenate.gov/Session/Bill/2024/1361",
+   "secondary_url": null,
+   "language": "English",
+   "summary": "Education omnibus act. Among other measures it lets school districts receive grants for subscription fees and professional learning to use artificial intelligence to support and accelerate learning for students in grades 6 to 12 during the school day. A funded AI platform must use large language models based on GPT-4, its equivalent or a successor on a closed system, provide one-on-one tutoring aligned to state standards, and give district- and school-level reporting and parental access to the AI interactions. The University of Florida Lastinger Center for Learning awards the grants, with $2 million in recurring funds appropriated.",
+   "safety_topics": [
+    "child safety",
+    "public-sector use"
+   ],
+   "related": [],
+   "notes": "The House passed the committee substitute 113-0 on 1 Feb 2024 and the Senate passed it as amended 40-0 on 7 Feb 2024; on 7 Mar 2024 the House concurred in the Senate amendment as amended (113-0) and the Senate concurred (38-0). Approved by the Governor on 9 May 2024, filed as Chapter 2024-162 and effective 1 Jul 2024. The AI grant conditions are in s. 1002.321(3), F.S. (digital learning), unchanged in the 2026 Florida Statutes; the grants and the $2 million recurring appropriation are in s. 1004.561(6), F.S., which the act created for the Lastinger Center. The act also widens New Worlds Scholarship eligibility, codifies the Lastinger Center as administrator of the New Worlds Reading Initiative and creates the New Worlds Tutoring Program.",
+   "scope_note": "An education omnibus act whose AI provisions mainly promote AI tutoring in schools; included because it sets conditions on the AI platforms it funds, a closed system and parental access to students' AI interactions.",
+   "english_version": null,
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-14",
+    "method": "official-url-fetched",
+    "note": "Stored the Florida Senate bill page for HB 1361 (2024), with its history, votes, statute citations and the chapter number; the enrolled text of CS/HB 1361; the text of s. 1002.321 in the 2026 Florida Statutes; the Senate Education Pre-K-12 Committee's House message summary of 7 Mar 2024; and the House staff final bill analysis (all flsenate.gov). The bill page confirms the title, the Governor's approval on 9 May 2024, Chapter No. 2024-162 and the effective date of 1 Jul 2024; the enrolled text gives the AI grant conditions, and the 2026 statute shows subsection (3) with its last amendment by ch. 2024-162.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 7 field(s) supported."
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:38:51Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/2026-10-14/official.html",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1361",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2024/1361",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 75291,
+      "sha256": "75150b0a42a97f17daa9d1be5dd40020df0ce59096578485072a4bb119fcf928",
+      "text_sha256": "8835729b63da8d1faababe9bd2a00b81f1339dd1058fc2ff75a22cd340febcf1",
+      "retrieved_at": "2026-10-14T15:57:47Z",
+      "last_checked": "2026-10-14T16:39:06Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/2026-10-14/document-1.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1361/Analyses/2024h01361.hms.ed.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2024/1361/Analyses/2024h01361.hms.ed.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 85519,
+      "sha256": "d46f0dd5179a9f6d52292a1381afcbc745a5812d023655d4a6644506d92a85ee",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:57:59Z",
+      "last_checked": "2026-10-14T16:39:18Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/2026-10-14/document-2.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1361/Analyses/h1361z1.EQS.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2024/1361/Analyses/h1361z1.EQS.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 478663,
+      "sha256": "656a83712b2a734af0df859a903b5b742b29b30415084ae49b3e1815260fc4d5",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T15:58:16Z",
+      "last_checked": "2026-10-14T16:39:33Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1361",
+      "attempted_at": "2026-10-14T15:57:47Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1361/Analyses/2024h01361.hms.ed.PDF",
+      "attempted_at": "2026-10-14T15:57:59Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1361/Analyses/h1361z1.EQS.PDF",
+      "attempted_at": "2026-10-14T15:58:16Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1361",
+      "attempted_at": "2026-10-14T16:39:06Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1361/Analyses/2024h01361.hms.ed.PDF",
+      "attempted_at": "2026-10-14T16:39:18Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1361/Analyses/h1361z1.EQS.PDF",
+      "attempted_at": "2026-10-14T16:39:33Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "US-FL-13",
+   "slug": "florida-k-12-ai-safety-policy-rule-6a-1-0957-2026",
+   "title": "Rule 6A-1.0957, F.A.C., Internet Safety Policy (2026 amendment on artificial intelligence instructional tools)",
+   "original_title": null,
+   "short_title": "Florida K-12 AI safety policy rule (6A-1.0957, 2026)",
+   "jurisdiction": "Florida (US)",
+   "country": "United States",
+   "jurisdiction_level": "Sub-national",
+   "region": "North America",
+   "issuing_body": "Florida State Board of Education (Department of Education)",
+   "instrument_type": "Regulation / implementing rule",
+   "legal_force": "Binding",
+   "status": "Adopted, not yet in force",
+   "date_published": "2026-10-09",
+   "date_in_force": "2026-10-29",
+   "date_last_updated": null,
+   "official_identifier": "Rule 6A-1.0957, Florida Administrative Code",
+   "official_url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-1.0957",
+   "secondary_url": null,
+   "language": "English",
+   "summary": "Amendment to the State Board of Education rule on school internet safety policies. By 1 Jul 2027 each district school board and charter school governing board must amend its policy on AI instructional tools: plain-language notice to parents and opt-in for direct student use, with a non-AI alternative; extra review for VPK to grade 5; no undisclosed behaviour monitoring, social scoring or psychological profiling; human review of AI decisions; adult supervision, logs and a shut-off for agentic AI; training on AI risks; incident reports to the Department; no use of student data to train commercial AI models. AI designed to simulate friendship or meet students' emotional needs is barred.",
+   "safety_topics": [
+    "child safety",
+    "human oversight",
+    "prohibited practices",
+    "incident reporting",
+    "transparency & labelling",
+    "public-sector use"
+   ],
+   "related": [
+    {
+     "id": "US-FL-14",
+     "slug": "florida-college-ai-policies-rule-6a-14-0719"
+    }
+   ],
+   "notes": "Rule 6A-1.0957, first adopted in 2023 (effective 22 Aug 2023), requires local policies for student access to the internet. Notices of development of the AI amendment were published on 8 Jun and 21 Jul 2026 and the proposed amendment on 26 Aug 2026, with a hearing before the State Board of Education on 16 Sep 2026, at which the Board adopted the AI rules. A notice of change published on 18 Sep 2026 added definitions of autonomous or agentic AI, the supervision, logging and shut-off requirements for agentic tools, the ban on AI as a decision maker without human review, and reporting of unexpected autonomous behaviour or security incidents. The policies must also require tools that are accurate, transparent and viewpoint neutral, a public list of approved tools, records of student interactions kept at least 30 days for parental access, and reports to the Department on the tools in use. The rule was filed with the Department of State on 9 Oct 2026 and takes effect on 29 Oct 2026.",
+   "scope_note": null,
+   "english_version": null,
+   "verification": {
+    "level": "C",
+    "verified_on": "2026-10-14",
+    "method": "search-confirmed",
+    "note": "CAUTION: no official source confirms the title, date and status; the record rests on secondary sources. Stored from flrules.org (the Florida Administrative Code and Register site of the Florida Department of State): the rule page for 6A-1.0957, with the effective date of the latest version and its notice history; the final notice, with the rule file date (9 Oct 2026) and effective date (29 Oct 2026); and the Florida Administrative Register issues of 26 Aug 2026 (notice of proposed rule with the full proposed text and the hearing date) and 18 Sep 2026 (notice of change made by the Board). Also stored the Department of Education press release of 16 Sep 2026 (fldoe.org) saying that the State Board adopted the AI rules that day. The summary follows the proposed text as changed by the notice of change. Neither flrules.org nor fldoe.org is yet listed in pipeline/official-sites.json.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 6 field(s) supported."
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:39:02Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/2026-10-14/official.html",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-1.0957",
+      "final_url": "https://flrules.org/gateway/ruleNo.asp?id=6A-1.0957",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 17505,
+      "sha256": "2ba17953a0b18d3107bda5d1c5b4657a39aa4f554b209a314e6066721b122c45",
+      "text_sha256": "754deb3d1f4e95f11aa758d0d6c21116ec929da5bc2de7692fac02388cb29668",
+      "retrieved_at": "2026-10-14T15:57:40Z",
+      "last_checked": "2026-10-14T16:39:07Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-1.0957",
+      "attempted_at": "2026-10-14T15:57:40Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-1.0957",
+      "attempted_at": "2026-10-14T16:39:07Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "US-FL-14",
+   "slug": "florida-college-ai-policies-rule-6a-14-0719",
+   "title": "Rule 6A-14.0719, F.A.C., Artificial Intelligence (A.I.) Policies in Florida College System Institutions",
+   "original_title": null,
+   "short_title": "Florida college AI policies rule (6A-14.0719)",
+   "jurisdiction": "Florida (US)",
+   "country": "United States",
+   "jurisdiction_level": "Sub-national",
+   "region": "North America",
+   "issuing_body": "Florida State Board of Education (Department of Education)",
+   "instrument_type": "Regulation / implementing rule",
+   "legal_force": "Binding",
+   "status": "Adopted, not yet in force",
+   "date_published": "2026-09-30",
+   "date_in_force": "2026-10-20",
+   "date_last_updated": null,
+   "official_identifier": "Rule 6A-14.0719, Florida Administrative Code",
+   "official_url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-14.0719",
+   "secondary_url": null,
+   "language": "English",
+   "summary": "New State Board of Education rule requiring the board of trustees of each Florida College System institution to adopt policies on the use and limits of use of AI, to ensure quality of education, efficient operations and a safe learning environment. The policies must cover compliance with privacy, copyright and other laws; notice to parents of enrolled minors who will directly use an AI instructional tool; academic integrity, barring AI use on graded work unless the instructor permits it; approved AI instructional and business tools; and an AI literacy framework. Tools designed to meet students' social needs or to simulate friendship or companionship are not AI instructional tools.",
+   "safety_topics": [
+    "public-sector use",
+    "child safety",
+    "transparency & labelling"
+   ],
+   "related": [
+    {
+     "id": "US-FL-13",
+     "slug": "florida-k-12-ai-safety-policy-rule-6a-1-0957-2026"
+    }
+   ],
+   "notes": "A notice of rule development was published on 27 May 2026 and the proposed rule on 25 Aug 2026, with a hearing before the State Board of Education on 16 Sep 2026, at which the Board adopted the AI rules; no notice of change was published. The rule was filed with the Department of State on 30 Sep 2026 and takes effect on 20 Oct 2026. It incorporates by reference the U.S. Department of Labor's Training and Employment Notice 07-25, the AI literacy framework that institutions may consult. Each institution must reflect the policies in its manuals, handbooks and forms for students, employees, contractors and guests. The companion amendment to rule 6A-1.0957 sets AI safety requirements for school districts and charter schools.",
+   "scope_note": null,
+   "english_version": null,
+   "verification": {
+    "level": "C",
+    "verified_on": "2026-10-14",
+    "method": "search-confirmed",
+    "note": "CAUTION: no official source confirms the title, date and status; the record rests on secondary sources. Stored from flrules.org (the Florida Administrative Code and Register site of the Florida Department of State): the rule page for 6A-14.0719, with the effective date and notice history (development, proposed and final notices, no notice of change); the final notice, with the rule file date (30 Sep 2026) and effective date (20 Oct 2026); and the Florida Administrative Register issue of 25 Aug 2026 with the notice of proposed rule, the full text and the hearing date. Also stored the Department of Education press release of 16 Sep 2026 (fldoe.org) saying that the State Board adopted the AI rules, including those for Florida College System institutions, that day. The summary follows the proposed text, which the rule page shows was adopted without a notice of change. Neither flrules.org nor fldoe.org is yet listed in pipeline/official-sites.json.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 6 field(s) supported."
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:39:07Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/2026-10-14/official.html",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-14.0719",
+      "final_url": "https://flrules.org/gateway/ruleNo.asp?id=6A-14.0719",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 12109,
+      "sha256": "1b31862a37ff25dd2ab33bed64d55831527dad853627bdbefb96d412426055ba",
+      "text_sha256": "c2b575d5301c1a7062c33e5226530e9e2517f65422eb1fa883d1d35d8ccff665",
+      "retrieved_at": "2026-10-14T15:57:43Z",
+      "last_checked": "2026-10-14T16:39:09Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-14.0719",
+      "attempted_at": "2026-10-14T15:57:43Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-14.0719",
+      "attempted_at": "2026-10-14T16:39:09Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "US-FL-15",
+   "slug": "florida-bar-conduct-rules-generative-ai-comments-2024",
+   "title": "In re: Amendments to Rules Regulating The Florida Bar – Chapter 4 (Supreme Court of Florida, No. SC2024-0032)",
+   "original_title": null,
+   "short_title": "Florida Bar conduct rules: generative AI comments (2024)",
+   "jurisdiction": "Florida (US)",
+   "country": "United States",
+   "jurisdiction_level": "Sub-national",
+   "region": "North America",
+   "issuing_body": "Supreme Court of Florida (on the petition of The Florida Bar)",
+   "instrument_type": "Regulation / implementing rule",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2024-08-29",
+   "date_in_force": "2024-10-28",
+   "date_last_updated": null,
+   "official_identifier": "Supreme Court of Florida, No. SC2024-0032",
+   "official_url": "https://supremecourt.flcourts.gov/content/download/2439771/opinion/Opinion_SC2024-0032.pdf",
+   "secondary_url": "https://assets.alm.com/b3/ef/635b69ee4a80aa7afc28763aa2ba/opinion-disposition-chapter-4.pdf",
+   "language": "English",
+   "summary": "Supreme Court of Florida opinion amending Chapter 4, the Rules of Professional Conduct, of the Rules Regulating The Florida Bar on the Bar's petition. It adds generative artificial intelligence to the comments on four rules: competence includes understanding the benefits and risks of technology, including generative AI; lawyers should be aware that generative AI may create risks to the duty of confidentiality; firms' internal policies should consider safeguards for their use of generative AI; and lawyers should consider safeguards when assistants or outside services use it. The amendments also allow testimonials by celebrity clients in lawyer advertising.",
+   "safety_topics": [
+    "accountability & liability",
+    "human oversight"
+   ],
+   "related": [
+    {
+     "id": "US-FL-16",
+     "slug": "florida-bar-ethics-opinion-24-1-on-generative-ai"
+    }
+   ],
+   "notes": "The Florida Bar's Board of Governors approved the proposed amendments and published them for comment in The Florida Bar News; no comments were received. The Court adopted them except the proposal to delete 'zeal' and 'zealous' from the Preamble and the comment to rule 4-1.3, and the proposed amendments to rule 4-8.6 on suspended individuals and authorized business entities. The generative-AI language is in the Comments to rules 4-1.1, 4-1.6, 4-5.1 and 4-5.3, not in the text of the rules. The amendments took effect on 28 Oct 2024; a motion for rehearing would not alter that date.",
+   "scope_note": "Court-adopted amendments to the professional conduct rules for lawyers, mostly unrelated to AI, whose AI content is a set of generative-AI warnings in the comments on competence, confidentiality and supervision; included because the state's highest court adopted them as binding rules, so they are not a professional association's own document.",
+   "english_version": null,
+   "verification": {
+    "level": "C",
+    "verified_on": "2026-10-14",
+    "method": "search-confirmed",
+    "note": "CAUTION: no official source confirms the title, date and status; the record rests on secondary sources. The Court's own PDF on supremecourt.flcourts.gov could not be stored: the Florida courts' download hosts disallow automated downloads for all but named search engines in robots.txt. Stored a copy of the opinion PDF hosted by ALM (assets.alm.com, publisher of Law.com), which carries the Court's caption, case number, date, per curiam text, concurrences and the appendix with the amended rules; title, date, status and the summary rest on this third-party copy. Whether the comments have been amended since October 2024 was not checked against the current Rules Regulating The Florida Bar (floridabar.org refuses automated requests).",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 7 field(s) supported."
+   },
+   "local_copy": {
+    "status": "partial",
+    "flag": "The official source could not be downloaded (The site's robots.txt does not allow automated downloads of this page); only the secondary source was saved.",
+    "last_attempt": "2026-10-14T16:39:09Z",
+    "files": [
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/US-FL-15/2026-10-14/secondary.pdf",
+      "url": "https://assets.alm.com/b3/ef/635b69ee4a80aa7afc28763aa2ba/opinion-disposition-chapter-4.pdf",
+      "final_url": "https://assets.alm.com/b3/ef/635b69ee4a80aa7afc28763aa2ba/opinion-disposition-chapter-4.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 166546,
+      "sha256": "0d839029d7c87efedac99d1ea526bdbb8a93a99c67909f9875c91c9e721aef9e",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:39:13Z",
+      "last_checked": "2026-10-14T16:39:13Z",
+      "method": "http",
+      "last_modified": "Mon, 13 Apr 2026 16:59:36 GMT",
+      "etag": "\"1a236b2a60f91205351ced887e5de80b\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://supremecourt.flcourts.gov/content/download/2439771/opinion/Opinion_SC2024-0032.pdf",
+      "attempted_at": "2026-10-14T16:39:10Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's robots.txt does not allow automated downloads of this page",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://assets.alm.com/b3/ef/635b69ee4a80aa7afc28763aa2ba/opinion-disposition-chapter-4.pdf",
+      "attempted_at": "2026-10-14T16:39:13Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "US-FL-16",
+   "slug": "florida-bar-ethics-opinion-24-1-on-generative-ai",
+   "title": "Florida Bar Ethics Opinion 24-1 (lawyers' use of generative artificial intelligence)",
+   "original_title": null,
+   "short_title": "Florida Bar Ethics Opinion 24-1 on generative AI",
+   "jurisdiction": "Florida (US)",
+   "country": "United States",
+   "jurisdiction_level": "Sub-national",
+   "region": "North America",
+   "issuing_body": "The Florida Bar (Board Review Committee on Professional Ethics, at the direction of the Board of Governors)",
+   "instrument_type": "Guidelines / framework",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2024-01-19",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": "Florida Bar Ethics Opinion 24-1",
+   "official_url": "https://www.floridabar.org/etopinions/opinion-24-1/",
+   "secondary_url": "https://www.law.buffalo.edu/content/dam/law/content/cle/24mar27-materials/fl-bar-ethics.pdf",
+   "language": "English",
+   "summary": "Advisory ethics opinion of The Florida Bar on lawyers' use of generative AI. Lawyers may use it but must protect client confidentiality, researching a program's policies on data retention, data sharing and self-learning, and should obtain informed consent before disclosing confidential information to a third-party program. They must verify the accuracy and sufficiency of AI research, set oversight policies as for nonlawyer assistants, not delegate the practice of law to it, and not inflate billed time. Chatbots that communicate with clients or third parties must follow advertising rules and disclose that they are an AI program, not a lawyer or employee.",
+   "safety_topics": [
+    "human oversight",
+    "accountability & liability",
+    "transparency & labelling"
+   ],
+   "related": [
+    {
+     "id": "US-FL-15",
+     "slug": "florida-bar-conduct-rules-generative-ai-comments-2024"
+    }
+   ],
+   "notes": "The Florida Bar's Board of Governors directed the Board Review Committee on Professional Ethics to issue the opinion. It applies the Rules Regulating The Florida Bar on confidentiality (4-1.6), competence (4-1.1), supervision of nonlawyer assistants (4-5.3), fees (4-1.5) and advertising (subchapter 4-7) to generative AI, and draws on earlier Florida opinions on cloud computing, electronic storage, remote paralegal services and metadata. It notes that confidentiality concerns may be reduced by an in-house generative AI, and that no informed consent is needed when no confidential information is disclosed to a third party. The opinion states that advisory ethics opinions are not binding.",
+   "scope_note": "An advisory, non-binding opinion of The Florida Bar, which administers the professional conduct rules for Florida lawyers but is also their professional association, a kind of issuer AGENTS.md section 10 excludes; included under the inclusive default until a scope decision settles how state bars are treated.",
+   "english_version": null,
+   "verification": {
+    "level": "C",
+    "verified_on": "2026-10-14",
+    "method": "search-confirmed",
+    "note": "CAUTION: no official source confirms the title, date and status; the record rests on secondary sources. The Florida Bar's own page for Opinion 24-1 could not be stored: floridabar.org refused the archiver (HTTP 403, also in the browser retry). Stored a copy of the full opinion text in continuing legal education materials on law.buffalo.edu (University at Buffalo School of Law), which carries the heading 'FLORIDA BAR ETHICS OPINION OPINION 24-1', the date and the full text; title, date, status and the summary rest on this third-party copy. Whether the Bar has revised the opinion since was not checked against its own site.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 6 field(s) supported."
+   },
+   "local_copy": {
+    "status": "partial",
+    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved. The browser retry also failed (HTTP 403 (in browser)).",
+    "last_attempt": "2026-10-14T16:39:13Z",
+    "files": [
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/US-FL-16/2026-10-14/secondary.pdf",
+      "url": "https://www.law.buffalo.edu/content/dam/law/content/cle/24mar27-materials/fl-bar-ethics.pdf",
+      "final_url": "https://www.law.buffalo.edu/content/dam/law/content/cle/24mar27-materials/fl-bar-ethics.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 187029,
+      "sha256": "75048873b09c0cd02c05520e11021923f8800b73677c1f9924004d87ae52533d",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:39:18Z",
+      "last_checked": "2026-10-14T16:39:18Z",
+      "method": "http",
+      "last_modified": "Wed, 14 Oct 2026 16:06:01 GMT",
+      "etag": "W/\"2da95-65dcf1b87c2a9\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.floridabar.org/etopinions/opinion-24-1/",
+      "attempted_at": "2026-10-14T16:39:15Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.law.buffalo.edu/content/dam/law/content/cle/24mar27-materials/fl-bar-ethics.pdf",
+      "attempted_at": "2026-10-14T16:39:18Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://www.floridabar.org/etopinions/opinion-24-1/",
+      "attempted_at": "2026-10-14T16:40:20Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 (in browser)",
+      "method": "browser"
      }
     ]
    }

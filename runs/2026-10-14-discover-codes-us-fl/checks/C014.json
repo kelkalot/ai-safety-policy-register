@@ -1,0 +1,53 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "C014",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "judgment-differs",
+   "why": "3 Sep 2026 is the agenda date of the Board meeting, not a publication of a regulation text; defensible for a proposal."
+  },
+  "status": {
+   "verdict": "unsupported",
+   "why": "The sources show only that approval of a notice of intent was on the 3 Sep 2026 agenda. Six weeks later the outcome is unknown, and Florida Atlantic University Faculty Steering Committee minutes of 3 Sep 2026 describe the neutrality and AI requirements as recent Board of Governors regulatory changes, which suggests the proposal advanced. A web search found no stored official source for the outcome."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "would require each university board of trustees to adopt policies requiring syllabi to disclose faculty AI use and permitted student use",
+   "verdict": "supported",
+   "locator": "official.pdf page 1, Background Information"
+  },
+  {
+   "claim": "same amendment requires policies maintaining institutional neutrality on contentious political and social issues",
+   "verdict": "supported",
+   "locator": "official.pdf page 1, Background Information"
+  }
+ ],
+ "newer_versions": [
+  "Possible progress of the amendment after the 3 Sep 2026 Board meeting; FAU minutes https://www.fau.edu/ufsgov/documents/steeringcommitteemeetingminutesseptember32026.pdf (not stored)"
+ ],
+ "extra_urls": [
+  "https://www.fau.edu/ufsgov/documents/steeringcommitteemeetingminutesseptember32026.pdf"
+ ],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Single AI transparency duty inside a trustees-powers regulation; the scope_note is appropriate."
+ },
+ "overall": "needs-human",
+ "note": "Quotes verified and the summary matches the agenda item, but the status as of today cannot be supported: the Board met on 3 Sep 2026 and the outcome is not stored. A secondary university document hints that the amendment moved forward. A later run should store the Board minutes or the regulation page; a human can settle status meanwhile. Level C because flbog.edu is not a listed host."
+}

@@ -1,6 +1,6 @@
 # Search coverage
 
-Written 2026-10-14 by tools/pipeline.py frame --report from pipeline/frame.json: 266 jurisdictions, 1646 cells; 0 cells searched by the pipeline, 0 of them within 180 days.
+Written 2026-10-14 by tools/pipeline.py frame --report from pipeline/frame.json: 266 jurisdictions, 1646 cells; 5 cells searched by the pipeline, 5 of them within 180 days.
 
 | Region | Cells | Searched | Within 180 days | Jurisdictions with records |
 |---|---:|---:|---:|---:|
@@ -10,12 +10,12 @@ Written 2026-10-14 by tools/pipeline.py frame --report from pipeline/frame.json:
 | Global | 12 | 0 | 0 | 7 |
 | Latin America & Caribbean | 231 | 0 | 0 | 11 |
 | Middle East & North Africa | 140 | 0 | 0 | 9 |
-| North America | 274 | 0 | 0 | 29 |
+| North America | 274 | 5 | 5 | 29 |
 | Oceania | 98 | 0 | 0 | 2 |
 | South & Southeast Asia | 134 | 0 | 0 | 13 |
 | Sub-Saharan Africa | 337 | 0 | 0 | 11 |
 
-## Never searched by the pipeline (266)
+## Never searched by the pipeline (265)
 
 - UN United Nations (Global), 13 record(s) from earlier research
 - UNESCO UNESCO (Global), 1 record(s) from earlier research
@@ -234,7 +234,6 @@ Written 2026-10-14 by tools/pipeline.py frame --report from pipeline/frame.json:
 - US-CT Connecticut (US) (North America), 1 record(s) from earlier research
 - US-DC District of Columbia (US) (North America)
 - US-DE Delaware (US) (North America)
-- US-FL Florida (US) (North America), 1 record(s) from earlier research
 - US-GA Georgia (US) (North America), 1 record(s) from earlier research
 - US-HI Hawaii (US) (North America), 1 record(s) from earlier research
 - US-IA Iowa (US) (North America), 1 record(s) from earlier research

@@ -1,0 +1,158 @@
+{
+ "cand_id": "C005",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "CS/CS/HB 757 (2025): Sexual Images",
+  "original_title": null,
+  "short_title": "Florida HB 757 (2025): sexual images and deepfake generation",
+  "jurisdiction": "Florida (US)",
+  "country": "United States",
+  "jurisdiction_level": "Sub-national",
+  "region": "North America",
+  "issuing_body": "Florida Legislature (2025 Regular Session; sponsors Judiciary Committee, Criminal Justice Subcommittee and Reps. Redondo and Kincart Jonsson); approved by the Governor",
+  "instrument_type": "Law",
+  "legal_force": "Binding",
+  "status": "In force",
+  "date_published": "2025-05-27",
+  "date_in_force": "2025-10-01",
+  "date_last_updated": null,
+  "official_identifier": "Laws of Florida ch. 2025-99 (CS/CS/HB 757, 2025)",
+  "official_url": "https://www.flsenate.gov/Session/Bill/2025/757",
+  "secondary_url": "https://www.flsenate.gov/Session/Bill/2025/757/Analyses/h0757z1.CRM.PDF",
+  "language": "English",
+  "summary": "Creates felonies for possessing with intent to promote, and for soliciting, possessing or intentionally viewing, lewd or lascivious images, including digitally created or modified images of identifiable minors, and for soliciting child pornography. It extends Florida's altered-sexual-depiction statute: willfully generating an altered sexual depiction of an identifiable person without consent, soliciting one, or possessing one with intent to maliciously promote it is a third-degree felony, and 'generate' covers images created or modified by computer-generated means. Victims may sue generators and possessors for injunctive relief, USD 10,000 or actual damages, and attorney fees.",
+  "safety_topics": [
+   "deepfakes & synthetic media",
+   "child safety",
+   "accountability & liability"
+  ],
+  "related": [
+   "C006",
+   "C004"
+  ],
+  "notes": "Passed the House 115-0 on 23 Apr 2025 and the Senate 37-0 on 24 Apr 2025, where it was substituted for CS/CS/CS/SB 1180; approved by the Governor on 27 May 2025 and effective 1 Oct 2025. 'Generate' means to create, alter, adapt or modify any image by electronic, mechanical or other computer-generated means to portray an identifiable person, or to offer or agree to do so. The generation and possession offences are ranked as Level 3 and the solicitation offence as Level 2 on the offense severity ranking chart. The law amends s. 836.13, F.S., the altered-sexual-depiction offence created in 2022 by CS/CS/SB 1798, and also sets criteria for when an image shows lewd exhibition of a minor's genitals for the purposes of the child pornography statute.",
+  "scope_note": "Not an AI-specific law: mainly a law on sexual images of minors and child pornography. Included because it makes generating sexual deepfakes of identifiable people by computer-generated means a crime and gives victims a civil action.",
+  "verification": {
+   "note": "Stored the Florida Senate bill page for HB 757 (2025) and two House staff analyses linked from it (flsenate.gov), including the final bill analysis of 30 May 2025. The bill page confirms the title, sponsors, history, floor votes (115-0 and 37-0), approval by the Governor on 27 May 2025, Chapter No. 2025-99, the 1 Oct 2025 effective date and the statutes cited (ss. 800.045, 827.071, 836.13 and 921.0022); the final analysis confirms approval, chapter and effective date and describes the enacted provisions, on which the summary rests. The enrolled bill text was not stored."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C005/2026-10-14/official.html",
+    "sha256": "1f08bae327637d82985c5d1633aff95935e46a0e04b32027a6dec5fe01c1522c",
+    "locator": "bill heading",
+    "quote": "CS/CS/HB 757: Sexual Images",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C005/2026-10-14/document-1.pdf",
+    "sha256": "a25f0dce0d43e297baf4ea957cfaedb64f4375cf9b59d176d3bb97c52e29e093",
+    "locator": "page 1, header",
+    "quote": "BILL #: CS/CS/HB 757 TITLE: Sexual Images",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C005/2026-10-14/official.html",
+    "sha256": "1f08bae327637d82985c5d1633aff95935e46a0e04b32027a6dec5fe01c1522c",
+    "locator": "bill heading",
+    "quote": "CS/CS/HB 757: Sexual Images GENERAL BILL by Judiciary Committee; Criminal Justice Subcommittee; Redondo; Kincart Jonsson;",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C005/2026-10-14/official.html",
+    "sha256": "1f08bae327637d82985c5d1633aff95935e46a0e04b32027a6dec5fe01c1522c",
+    "locator": "Bill History",
+    "quote": "5/27/2025 • Approved by Governor",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C005/2026-10-14/official.html",
+    "sha256": "1f08bae327637d82985c5d1633aff95935e46a0e04b32027a6dec5fe01c1522c",
+    "locator": "Bill History",
+    "quote": "5/28/2025 • Chapter No. 2025-99",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C005/2026-10-14/document-1.pdf",
+    "sha256": "a25f0dce0d43e297baf4ea957cfaedb64f4375cf9b59d176d3bb97c52e29e093",
+    "locator": "page 3, Effect of the Bill",
+    "quote": "The bill was approved by the Governor on May 27, 2025, ch. 2025-99, L.O.F., and will become effective on October 1, 2025. (Section 5)",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C005/2026-10-14/official.html",
+    "sha256": "1f08bae327637d82985c5d1633aff95935e46a0e04b32027a6dec5fe01c1522c",
+    "locator": "Bill History",
+    "quote": "5/27/2025 • Approved by Governor",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C005/2026-10-14/document-1.pdf",
+    "sha256": "a25f0dce0d43e297baf4ea957cfaedb64f4375cf9b59d176d3bb97c52e29e093",
+    "locator": "page 3, Effect of the Bill",
+    "quote": "The bill was approved by the Governor on May 27, 2025, ch. 2025-99, L.O.F., and will become effective on October 1, 2025. (Section 5)",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C005/2026-10-14/official.html",
+    "sha256": "1f08bae327637d82985c5d1633aff95935e46a0e04b32027a6dec5fe01c1522c",
+    "locator": "bill summary block",
+    "quote": "Effective Date: 10/1/2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C005/2026-10-14/document-1.pdf",
+    "sha256": "a25f0dce0d43e297baf4ea957cfaedb64f4375cf9b59d176d3bb97c52e29e093",
+    "locator": "page 3, Effect of the Bill",
+    "quote": "The bill was approved by the Governor on May 27, 2025, ch. 2025-99, L.O.F., and will become effective on October 1, 2025. (Section 5)",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C005/2026-10-14/official.html",
+    "sha256": "1f08bae327637d82985c5d1633aff95935e46a0e04b32027a6dec5fe01c1522c",
+    "locator": "bill summary block",
+    "quote": "Effective Date: 10/1/2025 Last Action: 5/28/2025 - Chapter No. 2025-99",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C005/2026-10-14/document-1.pdf",
+    "sha256": "a25f0dce0d43e297baf4ea957cfaedb64f4375cf9b59d176d3bb97c52e29e093",
+    "locator": "page 3, Effect of the Bill",
+    "quote": "The bill was approved by the Governor on May 27, 2025, ch. 2025-99, L.O.F., and will become effective on October 1, 2025. (Section 5)",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C005/2026-10-14/document-1.pdf",
+    "sha256": "a25f0dce0d43e297baf4ea957cfaedb64f4375cf9b59d176d3bb97c52e29e093",
+    "locator": "page 1, header",
+    "quote": "FINAL HOUSE FLOOR ACTION: 115 Y's 0 N's GOVERNOR'S ACTION: Approved",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Approved by the Governor on 27 May 2025 (Chapter No. 2025-99) with an effective date of 1 Oct 2025, which is before today (14 Oct 2026), so in force. The stored files show no later amendment or repeal; s. 836.13 was further amended by Brooke's Law (C004), which adds to it rather than replacing these offences.",
+  "scope_reasoning": "Borderline, included with a scope_note under the rule for laws that are not AI-specific but are the operative instrument for an AI-safety question (deepfakes): most of the law concerns lewd images of minors and child pornography, while sections 3 and 4 criminalise generating, soliciting and possessing for promotion nonconsensual sexual deepfakes, with 'generate' defined by computer-generated means.",
+  "date_reasoning": "date_published is the Governor's approval (27 May 2025); date_in_force the stated effective date (1 Oct 2025).",
+  "related_reasoning": "C006 (CS/CS/SB 1798, 2022) created s. 836.13, which this law amends; C004 (Brooke's Law, 2025) amends the same section with platform removal duties."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

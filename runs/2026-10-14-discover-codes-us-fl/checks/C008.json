@@ -1,0 +1,58 @@
+{
+ "cand_id": "C008",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "bars reducing or denying a claim based solely on AI output; qualified human professional decides",
+   "verdict": "supported",
+   "locator": "document-2.pdf Effect of the Bill"
+  },
+  {
+   "claim": "records, affirmation in denial letters, claims-handling manual updates; fines up to USD 2,500 and 20,000",
+   "verdict": "supported",
+   "locator": "document-1.pdf and document-2.pdf Effect of the Bill"
+  },
+  {
+   "claim": "passed House 108-0, died in Senate Rules 13 Mar 2026",
+   "verdict": "supported",
+   "locator": "official.html Bill History"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "One targeted search for a later amendment or repeal found none on an official site. date_last_updated is the 27 Feb 2026 committee-substitute version, shown in the bill text list. Bill text was not stored; the summary rests on the Commerce analysis of the version the House passed. Level A."
+}

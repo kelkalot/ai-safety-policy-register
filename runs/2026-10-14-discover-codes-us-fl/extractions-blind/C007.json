@@ -1,0 +1,152 @@
+{
+  "cand_id": "C007",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "decision": "record",
+  "target_id": null,
+  "record": {
+    "title": "CS/CS/HB 1159 (2026): Sexual Offenses (Laws of Florida ch. 2026-20), including generated child sexual abuse material",
+    "original_title": null,
+    "short_title": "Florida sexual offenses law (HB 1159, 2026)",
+    "jurisdiction": "Florida (US)",
+    "country": "United States",
+    "jurisdiction_level": "Sub-national",
+    "region": "North America",
+    "issuing_body": "Florida Legislature (2026 Regular Session; sponsor Rep. Jacques); approved by the Governor",
+    "instrument_type": "Law",
+    "legal_force": "Binding",
+    "status": "In force",
+    "date_published": "2026-03-31",
+    "date_in_force": "2026-07-01",
+    "date_last_updated": null,
+    "official_identifier": "Chapter 2026-20, Laws of Florida (CS/CS/HB 1159, 2026)",
+    "official_url": "https://www.flsenate.gov/Session/Bill/2026/1159",
+    "secondary_url": null,
+    "language": "English",
+    "english_version": null,
+    "summary": "Omnibus sexual offences law that replaces 'child pornography' with 'child sexual abuse material' throughout the Florida Statutes and raises penalties. For generated child sexual abuse material, meaning images created or modified by electronic, mechanical or other computer-generated means to show a fictitious person whom a reasonable person would regard as a real minor engaged in sexual conduct, it raises creation from a third- to a second-degree felony and makes transmitting such material to or from Florida a second-degree felony when the sender knew or reasonably should have known what it was. It also widens the transmission offence to sharing cloud-storage links or access credentials.",
+    "safety_topics": [
+      "child safety",
+      "deepfakes & synthetic media"
+    ],
+    "related": [
+      "C002"
+    ],
+    "notes": "Passed the House 105-0 on 3 Mar 2026 and the Senate 37-0 on 9 Mar 2026, in place of the Senate companion CS/SB 1750; approved by the Governor on 31 Mar 2026 and effective 1 Jul 2026. A related bill on the change of terminology, CS/HB 245, became chapter 2026-18. The generated child pornography offence in s. 827.072, F.S., which this law renames and amends, was created in 2024 by CS/CS/SB 1680. Other provisions create a life felony for using a child under 12 in a sexual performance, add or raise mandatory minimum sentences for child sexual abuse offences and repeat sexual offenders, and raise penalties for possessing child-like sex dolls and for sexual activities involving animals.",
+    "scope_note": "A general sexual offences law, not specific to AI. Included because it raises the penalty for creating computer-generated child sexual abuse material and makes its transmission a felony, Florida's operative offence for AI-generated abuse imagery of fictitious minors.",
+    "verification": {
+      "note": "Stored on 14 Oct 2026 from flsenate.gov: the Florida Senate's bill page for CS/CS/HB 1159 (2026) with its history, votes and chapter number, the House final bill analysis (dated 1 Apr 2026) and the Justice Budget Subcommittee analysis (12 Feb 2026). They confirm the title, sponsor, passage in both chambers, approval by the Governor on 31 Mar 2026, chapter 2026-20 and the effective date of 1 Jul 2026. The enrolled bill text and the chapter law are not among the stored files, so the summary rests on the House final bill analysis, which is prepared by committee staff and is not a statement of legislative intent. The stored sources do not use the words 'artificial intelligence'; the relevance to AI rests on the statutory definition of generated material as computer-generated. That s. 827.072 was created by CS/CS/SB 1680 (2024) rests on that bill's text, stored for candidate C002 of the same run. The Governor is not named in the stored sources."
+    }
+  },
+  "evidence": {
+    "title": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C007/2026-10-14/official.html",
+        "sha256": "d45f3465bdb3c5ab1b003672fabe28b7cc4b4eeca1f3b8e153a4d1c5c2a6df9b",
+        "locator": "bill heading",
+        "quote": "CS/CS/HB 1159: Sexual Offenses",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C007/2026-10-14/document-1.pdf",
+        "sha256": "e074b23f2f2a360aad874a79525dd633d1f6dbcaaab597a0d3d96a021166d810",
+        "locator": "page 1",
+        "quote": "BILL #: CS/CS/HB 1159 TITLE: Sexual Offenses",
+        "source_kind": "official"
+      }
+    ],
+    "issuing_body": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C007/2026-10-14/official.html",
+        "sha256": "d45f3465bdb3c5ab1b003672fabe28b7cc4b4eeca1f3b8e153a4d1c5c2a6df9b",
+        "locator": "bill heading",
+        "quote": "GENERAL BILL by Judiciary Committee; Criminal Justice Subcommittee; Jacques;",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C007/2026-10-14/document-1.pdf",
+        "sha256": "e074b23f2f2a360aad874a79525dd633d1f6dbcaaab597a0d3d96a021166d810",
+        "locator": "page 1",
+        "quote": "FINAL HOUSE FLOOR ACTION: 105 Y’s  0 N’s  GOVERNOR’S ACTION: Approved",
+        "source_kind": "official"
+      }
+    ],
+    "official_identifier": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C007/2026-10-14/official.html",
+        "sha256": "d45f3465bdb3c5ab1b003672fabe28b7cc4b4eeca1f3b8e153a4d1c5c2a6df9b",
+        "locator": "Bill History",
+        "quote": "4/1/2026 • Chapter No. 2026-20; Companion bill(s) passed, see CS/HB 245 (Ch. 2026-18)",
+        "source_kind": "official"
+      }
+    ],
+    "date_published": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C007/2026-10-14/official.html",
+        "sha256": "d45f3465bdb3c5ab1b003672fabe28b7cc4b4eeca1f3b8e153a4d1c5c2a6df9b",
+        "locator": "Bill History",
+        "quote": "3/31/2026 • Approved by Governor",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C007/2026-10-14/document-1.pdf",
+        "sha256": "e074b23f2f2a360aad874a79525dd633d1f6dbcaaab597a0d3d96a021166d810",
+        "locator": "page 4",
+        "quote": "The bill was approved by the Governor on March 31, 2026, ch. 2026-20, L.O.F., and will become effective on July 1, 2026.",
+        "source_kind": "official"
+      }
+    ],
+    "date_in_force": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C007/2026-10-14/official.html",
+        "sha256": "d45f3465bdb3c5ab1b003672fabe28b7cc4b4eeca1f3b8e153a4d1c5c2a6df9b",
+        "locator": "bill summary block",
+        "quote": "Effective Date: 7/1/2026",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C007/2026-10-14/document-1.pdf",
+        "sha256": "e074b23f2f2a360aad874a79525dd633d1f6dbcaaab597a0d3d96a021166d810",
+        "locator": "page 4",
+        "quote": "The bill was approved by the Governor on March 31, 2026, ch. 2026-20, L.O.F., and will become effective on July 1, 2026.",
+        "source_kind": "official"
+      }
+    ],
+    "status": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C007/2026-10-14/official.html",
+        "sha256": "d45f3465bdb3c5ab1b003672fabe28b7cc4b4eeca1f3b8e153a4d1c5c2a6df9b",
+        "locator": "bill summary block",
+        "quote": "Effective Date: 7/1/2026 Last Action: 4/1/2026 - Chapter No. 2026-20",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C007/2026-10-14/document-1.pdf",
+        "sha256": "e074b23f2f2a360aad874a79525dd633d1f6dbcaaab597a0d3d96a021166d810",
+        "locator": "page 4",
+        "quote": "The bill was approved by the Governor on March 31, 2026, ch. 2026-20, L.O.F., and will become effective on July 1, 2026.",
+        "source_kind": "official"
+      }
+    ],
+    "legal_force": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C007/2026-10-14/document-1.pdf",
+        "sha256": "e074b23f2f2a360aad874a79525dd633d1f6dbcaaab597a0d3d96a021166d810",
+        "locator": "page 4",
+        "quote": "The bill was approved by the Governor on March 31, 2026, ch. 2026-20, L.O.F., and will become effective on July 1, 2026.",
+        "source_kind": "official"
+      }
+    ]
+  },
+  "judgment": {
+    "status_reasoning": "Approved by the Governor on 31 Mar 2026 (chapter 2026-20) with an effective date of 1 Jul 2026 (bill page and final bill analysis). 1 Jul 2026 is before today (14 Oct 2026), and no later repeal appears in the stored sources. So: In force.",
+    "date_reasoning": "date_published is the Governor's approval on 31 Mar 2026; date_in_force is 1 Jul 2026, the effective date stated on the bill page and in the final bill analysis.",
+    "scope_reasoning": "Not AI-specific: a general sexual offences law. AGENTS.md section 10 includes a law that is not AI-specific but is the operative instrument for an AI-safety question such as deepfakes, with a scope_note; this law's provisions on computer-generated child sexual abuse material (s. 827.072, F.S.) are that instrument in Florida, as US-CA-13 is for California. Recorded with a scope_note.",
+    "related_reasoning": "C002 (CS/CS/SB 1680, 2024) created s. 827.072, F.S., the generated child pornography offence that this law renames and toughens."
+  },
+  "extra_urls": [],
+  "leads": [],
+  "open_questions": [
+    "The enrolled text of CS/CS/HB 1159 and chapter law 2026-20 are not stored; the summary rests on the House final bill analysis. Storing https://laws.flrules.org/2026/20 would let a later run confirm the wording of section 9 (s. 827.072, F.S.)."
+  ]
+}

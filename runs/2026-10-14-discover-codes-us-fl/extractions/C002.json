@@ -1,0 +1,228 @@
+{
+ "cand_id": "C002",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "CS/CS/SB 1680 (2024): Advanced Technology",
+  "original_title": null,
+  "short_title": "Florida SB 1680 (2024): AI council and generated CSAM offence",
+  "jurisdiction": "Florida (US)",
+  "country": "United States",
+  "jurisdiction_level": "Sub-national",
+  "region": "North America",
+  "issuing_body": "Florida Legislature (2024 Regular Session; sponsors Rules and Judiciary Committees and Sen. Bradley); approved by the Governor",
+  "instrument_type": "Law",
+  "legal_force": "Binding",
+  "status": "In force",
+  "date_published": "2024-04-26",
+  "date_in_force": "2024-07-01",
+  "date_last_updated": "2026",
+  "official_identifier": "Laws of Florida ch. 2024-118 (CS/CS/SB 1680, 2024); creates ss. 282.802 and 827.072, F.S.",
+  "official_url": "https://www.flsenate.gov/Session/Bill/2024/1680",
+  "secondary_url": "https://www.flsenate.gov/Session/Bill/2024/1680/BillText/er/PDF",
+  "language": "English",
+  "summary": "Creates the Government Technology Modernization Council in the Department of Management Services, chaired by the Lieutenant Governor, to study and monitor new technologies and recommend how to procure and regulate them. It must assess reforms and a state code of ethics for AI systems in state government and the effect of automated decision systems on residents' rights, evaluate common standards for AI safety and security, including provenance disclosure for generative AI images and audio, and determine how bad actors exploit AI. The law also makes knowingly possessing or intentionally viewing, or intentionally creating, generated child pornography a third-degree felony.",
+  "safety_topics": [
+   "public-sector use",
+   "child safety",
+   "deepfakes & synthetic media"
+  ],
+  "related": [
+   "C007"
+  ],
+  "notes": "Passed the Senate 40-0 on 28 Feb 2024 and the House 114-0 on 6 Mar 2024; approved by the Governor on 26 Apr 2024 and effective 1 Jul 2024. The council (s. 282.802, F.S.) comprises the Lieutenant Governor as chair, the state chief information officer, the Secretaries of Commerce, Health Care Administration and Transportation, the executive director of the Department of Law Enforcement, five experts in fields including AI, machine learning and constitutional law, and one member of each legislative chamber; it meets at least quarterly, once jointly with the Florida Cybersecurity Advisory Council, and its duties also include data modernisation, AI use by government and business, and digital media literacy curricula. By 31 Dec each year from 2024 it recommends legislation to modernise government technology, including policies to protect Floridians from bad actors who use AI. Generated child pornography (s. 827.072, F.S.) is an image created, altered, adapted or modified by electronic, mechanical or other computer-generated means to portray a fictitious person whom a reasonable person would regard as a real person under 18 engaged in sexual conduct; the law also requires courts in criminal proceedings to deny defendants' requests to copy such material when the state attorney makes it reasonably available (s. 92.561). In 2026, ch. 2026-18 and ch. 2026-20 amended s. 827.072, renaming the material generated child sexual abuse material, making its creation a second-degree felony and adding a second-degree felony for transmitting it; ch. 2026-20 was approved on 31 Mar 2026 and took effect on 1 Jul 2026. Ch. 2026-66 amended s. 282.802, changing the cross-reference that defines foreign countries of concern.",
+  "verification": {
+   "note": "Stored the Florida Senate bill page for SB 1680 (2024), the Senate Judiciary Committee analyses of January 2024, the enrolled text of CS/CS/SB 1680 (20241680er, 6 pages) and the 2026 Florida Statutes pages for ss. 827.072 and 282.802 (all flsenate.gov). The bill page confirms the title, sponsors, history, floor votes (40-0 and 114-0), approval by the Governor on 26 Apr 2024, Chapter No. 2024-118 and the 1 Jul 2024 effective date; the enrolled text confirms every provision in the summary and the effective-date clause; the statute pages show both sections in force in the 2026 edition with history notes citing ch. 2026-18 and ch. 2026-20 (s. 827.072) and ch. 2026-66 (s. 282.802). The statute pages give no amendment dates, so date_last_updated is the year 2026; the approval and effective dates of ch. 2026-20 come from the bill page and House final analysis stored for candidate C007. The Judiciary analyses describe an earlier version (for example 13 appointed experts on the council rather than five) and were not used for the summary."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/2026-10-14/official.html",
+    "sha256": "f7388b616dd3f0c852f55cae8de660af0aea0095f45c2f47262d911d0d696c65",
+    "locator": "bill heading",
+    "quote": "CS/CS/SB 1680: Advanced Technology",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/extra-e8fe5aeb62/2026-10-14/official.pdf",
+    "sha256": "14bd2de473d7ea8010a7b57914fbab3eb99279bc868e21a9c5eebadfe1a2701d",
+    "locator": "page 1, title",
+    "quote": "An act relating to advanced technology; creating s. 2 282.802, F.S.; creating the Government Technology 3 Modernization Council within the Department of 4 Management Services",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/2026-10-14/official.html",
+    "sha256": "f7388b616dd3f0c852f55cae8de660af0aea0095f45c2f47262d911d0d696c65",
+    "locator": "bill heading",
+    "quote": "CS/CS/SB 1680: Advanced Technology GENERAL BILL by Rules; Judiciary; Bradley",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/2026-10-14/official.html",
+    "sha256": "f7388b616dd3f0c852f55cae8de660af0aea0095f45c2f47262d911d0d696c65",
+    "locator": "Bill History",
+    "quote": "4/26/2024 • Approved by Governor",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/2026-10-14/official.html",
+    "sha256": "f7388b616dd3f0c852f55cae8de660af0aea0095f45c2f47262d911d0d696c65",
+    "locator": "Bill History",
+    "quote": "4/29/2024 • Chapter No. 2024-118",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/extra-e8fe5aeb62/2026-10-14/official.pdf",
+    "sha256": "14bd2de473d7ea8010a7b57914fbab3eb99279bc868e21a9c5eebadfe1a2701d",
+    "locator": "page 1, title",
+    "quote": "creating s. 827.072, F.S.; defining 10 terms;",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/extra-e8fe5aeb62/2026-10-14/official.pdf",
+    "sha256": "14bd2de473d7ea8010a7b57914fbab3eb99279bc868e21a9c5eebadfe1a2701d",
+    "locator": "page 1, section 1",
+    "quote": "Section 1. Section 282.802, Florida Statutes, is created to 25 read: 26 282.802 Government Technology Modernization Council.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/extra-29f99abefe/2026-10-14/official.html",
+    "sha256": "d015a0bd19a9e2f2bff03862ff133fd896217041254cd0e25849cc948405fcbf",
+    "locator": "history note",
+    "quote": "History.—s. 2, ch. 2024-118; s. 9, ch. 2026-18; s. 9, ch. 2026-20.",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/2026-10-14/official.html",
+    "sha256": "f7388b616dd3f0c852f55cae8de660af0aea0095f45c2f47262d911d0d696c65",
+    "locator": "Bill History",
+    "quote": "4/26/2024 • Approved by Governor",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/2026-10-14/official.html",
+    "sha256": "f7388b616dd3f0c852f55cae8de660af0aea0095f45c2f47262d911d0d696c65",
+    "locator": "bill summary block",
+    "quote": "Effective Date: 7/1/2024",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/2026-10-14/document-2.pdf",
+    "sha256": "0250a485d8755580bc8c36919e9de93df0f4316afe7b93bae49c1758b3b47752",
+    "locator": "page 11, Effective Date",
+    "quote": "Section 3 of the bill provides that it takes effect July 1, 2024.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/extra-e8fe5aeb62/2026-10-14/official.pdf",
+    "sha256": "14bd2de473d7ea8010a7b57914fbab3eb99279bc868e21a9c5eebadfe1a2701d",
+    "locator": "page 6, section 4",
+    "quote": "Section 4. This act shall take effect July 1, 2024.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/2026-10-14/official.html",
+    "sha256": "f7388b616dd3f0c852f55cae8de660af0aea0095f45c2f47262d911d0d696c65",
+    "locator": "bill summary block",
+    "quote": "Effective Date: 7/1/2024 Last Action: 4/29/2024 - Chapter No. 2024-118",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/2026-10-14/official.html",
+    "sha256": "f7388b616dd3f0c852f55cae8de660af0aea0095f45c2f47262d911d0d696c65",
+    "locator": "Bill History",
+    "quote": "4/26/2024 • Approved by Governor",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/extra-7f21100d3d/2026-10-14/official.html",
+    "sha256": "8e3579668a0a0d42bbdd4b6bebc1ea1a48ac634ad35fdbf33434bdacbf86bfd6",
+    "locator": "heading",
+    "quote": "Home > Laws > 2026 Florida Statutes > Title XIX > Chapter 282 > Section 802",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/extra-29f99abefe/2026-10-14/official.html",
+    "sha256": "d015a0bd19a9e2f2bff03862ff133fd896217041254cd0e25849cc948405fcbf",
+    "locator": "history note",
+    "quote": "History.—s. 2, ch. 2024-118; s. 9, ch. 2026-18; s. 9, ch. 2026-20.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/2026-10-14/official.html",
+    "sha256": "f7388b616dd3f0c852f55cae8de660af0aea0095f45c2f47262d911d0d696c65",
+    "locator": "Bill History",
+    "quote": "3/6/2024 House • Read 3rd time • CS passed; YEAS 114, NAYS 0",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/2026-10-14/official.html",
+    "sha256": "f7388b616dd3f0c852f55cae8de660af0aea0095f45c2f47262d911d0d696c65",
+    "locator": "Bill History",
+    "quote": "4/26/2024 • Approved by Governor",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/extra-e8fe5aeb62/2026-10-14/official.pdf",
+    "sha256": "14bd2de473d7ea8010a7b57914fbab3eb99279bc868e21a9c5eebadfe1a2701d",
+    "locator": "page 1, enacting clause",
+    "quote": "Be It Enacted by the Legislature of the State of Florida:",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/extra-29f99abefe/2026-10-14/official.html",
+    "sha256": "d015a0bd19a9e2f2bff03862ff133fd896217041254cd0e25849cc948405fcbf",
+    "locator": "history note",
+    "quote": "History.—s. 2, ch. 2024-118; s. 9, ch. 2026-18; s. 9, ch. 2026-20.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/extra-7f21100d3d/2026-10-14/official.html",
+    "sha256": "8e3579668a0a0d42bbdd4b6bebc1ea1a48ac634ad35fdbf33434bdacbf86bfd6",
+    "locator": "history note",
+    "quote": "History.—s. 1, ch. 2024-118; s. 13, ch. 2026-66.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Approved by the Governor on 26 Apr 2024 (Chapter No. 2024-118); section 4 of the enrolled act: 'This act shall take effect July 1, 2024.' That date is before today (14 Oct 2026), so in force. Both sections it created appear in the 2026 Florida Statutes with history notes listing 2026 amendments and no repeal; the council has no sunset clause.",
+  "scope_reasoning": "In scope with no scope_note: an enacted law whose two parts are both AI-specific, an institutional mandate for a state advisory council on AI (including AI safety and security standards, a state AI ethics code and AI misuse) and a criminal offence for computer-generated child sexual abuse material.",
+  "date_reasoning": "date_published is the Governor's approval (26 Apr 2024); date_in_force the effective-date clause (1 Jul 2024). date_last_updated is '2026': the stored statute pages show amendments of both sections by 2026 session laws (ch. 2026-18, ch. 2026-20, ch. 2026-66) but give no dates, and the order of those three laws within 2026 is not shown, so the year is the precision the stored files support. The 31 Mar 2026 approval of ch. 2026-20 is in the notes.",
+  "related_reasoning": "C007 (CS/CS/HB 1159, 2026, ch. 2026-20) amends s. 827.072, F.S., which this law created; the stored statute page for s. 827.072 cites s. 9, ch. 2026-20.",
+  "summary_reasoning": "Written from the enrolled text: s. 282.802(1), (2), (3)(a) and (7)(a)2 to 4 and 6 for the council, s. 827.072(1)(a) and (2) for the offences."
+ },
+ "extra_urls": [
+  {
+   "url": "https://www.flsenate.gov/Session/Bill/2024/1680/BillText/er/PDF",
+   "reason": "Enrolled text of CS/CS/SB 1680, linked from the stored bill page. The stored analyses describe SB 1680 and CS/SB 1680 of January 2024, before the Rules committee substitute (which replaced lines 32 to 160) and Senate floor amendments 238796 and 906120; the council's final composition and duties and the final wording of s. 827.072 need the enacted text."
+  },
+  {
+   "url": "https://www.flsenate.gov/laws/statutes/2026/827.072",
+   "reason": "Current text and history note of s. 827.072, F.S. (the site's statute-page pattern, linked as /laws/statutes/<year>/<section> from the stored bill page), to document the amendment by ch. 2026-20 for notes and date_last_updated."
+  },
+  {
+   "url": "https://www.flsenate.gov/laws/statutes/2026/282.802",
+   "reason": "Current text and history note of s. 282.802, F.S. (the Government Technology Modernization Council), to check later amendments and that the council still exists."
+  }
+ ],
+ "leads": [],
+ "open_questions": []
+}
