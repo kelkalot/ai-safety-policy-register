@@ -1,0 +1,107 @@
+{
+ "cand_id": "KR-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "KR-01",
+ "record": {
+  "notes": "Established in November 2024. Since the AI Basic Act took effect on 22 Jan 2026, Article 12 of the Act has given the institute a statutory basis: the Minister of Science and ICT may operate an AI safety institute (인공지능안전연구소) to define and analyse AI safety risks, research AI safety policy, evaluation criteria and methods, and AI safety technology and standardisation, carry out international exchange and cooperation, and support the safety duties of Article 32 (KR-02).",
+  "english_version": {
+   "kind": "authentic",
+   "url": "https://www.aisi.re.kr/eng/contents/22",
+   "by": "Korea Artificial Intelligence Safety Institute (Korea AISI)"
+  },
+  "verification": {
+   "note": "Stored on 14 Oct 2026: the institute's English page 'About the Korea AISI' and its Korean introduction (연구원소개) and organisation (조직안내) pages on aisi.re.kr. They confirm the name 인공지능안전연구소 (Korea Artificial Intelligence Safety Institute), establishment in November 2024, the mission and the three offices with their tasks; they do not give the launch day, and they do not name MSIT or ETRI. The stored secondary copy is KLRI's English page for the AI Basic Act, a JavaScript shell with only the Act's English title. The Art. 12 mandate in the notes was checked against the Act text stored for KR-02. Earlier notes said the institute publishes Korean versions of the International AI Safety Report and frontier AI risk updates (2026); no stored file covers this, so it was removed. Summary rewritten from the Korean pages in October 2026."
+  },
+  "summary": "Korea's national AI safety institute (인공지능안전연구소), established in November 2024. It assesses risks that can arise from AI models or systems, researches technologies to prevent and resolve them, and represents Korea in cooperation with AI safety institutes and related bodies abroad. It is to support a safe AI environment and Korean AI firms and to strengthen international solidarity and norms on AI safety. Its offices cover AI safety policy and external cooperation, including national-security AI risks; AI safety evaluation, including risk definition, safety frameworks, evaluations and evaluation infrastructure; and AI safety research."
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/KR-01/2026-10-14/official.html",
+    "sha256": "d1d06cb8deb8048c17ed5238ca90ef89efe291103b69e98d43922753eea0d542",
+    "locator": "About the Korea AISI, paragraph 1",
+    "quote": "The Korea Artificial Intelligence Safety Institute (Korea AISI) is an organization dedicated to evaluating the risks associated with AI models or systems",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-01/extra-267ac27042/2026-10-14/official.html",
+    "sha256": "004213e8381fff4e55f12cabbc999bb79cfc1c75c12db5d6abd54260e805773a",
+    "locator": "Korean introduction page (연구원소개), paragraph 1",
+    "quote": "인공지능안전연구소(Artificial Intelligence Safety Institute, AISI)는",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/KR-01/2026-10-14/official.html",
+    "sha256": "d1d06cb8deb8048c17ed5238ca90ef89efe291103b69e98d43922753eea0d542",
+    "locator": "About the Korea AISI, paragraph 2",
+    "quote": "Established in November 2024, the Korea AISI is committed to fostering an environment conducive to the development and application of safe AI",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-01/extra-267ac27042/2026-10-14/official.html",
+    "sha256": "004213e8381fff4e55f12cabbc999bb79cfc1c75c12db5d6abd54260e805773a",
+    "locator": "Korean introduction page (연구원소개), paragraph 1",
+    "quote": "2024년 11월 설립된 AI안전연구소는",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/KR-01/2026-10-14/official.html",
+    "sha256": "d1d06cb8deb8048c17ed5238ca90ef89efe291103b69e98d43922753eea0d542",
+    "locator": "About the Korea AISI, paragraph 1",
+    "quote": "We represent the Republic of Korea in collaborating with AI safety research institutes and related organizations worldwide.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/KR-01/2026-10-14/official.html",
+    "sha256": "d1d06cb8deb8048c17ed5238ca90ef89efe291103b69e98d43922753eea0d542",
+    "locator": "About the Korea AISI, paragraph 2",
+    "quote": "Established in November 2024, the Korea AISI is committed to fostering an environment conducive to the development and application of safe AI",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-01/extra-d4f141ae89/2026-10-14/official.html",
+    "sha256": "19e2ff18c06792bf2a7e61d456f36f696f30497f4d12c6133b8aa180d7255e4a",
+    "locator": "Korean organisation page (조직안내)",
+    "quote": "AI안전정책 및 대외협력실 AI안전정책 연구 각국 AI안전연구소와 협력",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-01/extra-267ac27042/2026-10-14/official.html",
+    "sha256": "004213e8381fff4e55f12cabbc999bb79cfc1c75c12db5d6abd54260e805773a",
+    "locator": "Korean introduction page (연구원소개), paragraph 1",
+    "quote": "인공지능안전연구소(Artificial Intelligence Safety Institute, AISI)는",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The institute's own About page, stored on 14 Oct 2026, describes it in the present tense as an operating institute established in November 2024. Nothing stored indicates closure, merger or renaming. Status unchanged: Published (non-binding, current).",
+  "scope_reasoning": "Mandate of the national AI safety institute; in scope without a scope note.",
+  "changes": {
+   "notes": "Removed the process remark about the launch day (now in verification.note) and the sentence saying date_last_updated reflects the 2026 statutory basis, which was wrong because date_last_updated is empty. Art. 12 is rendered item by item: 'standardisation research', not 'develop standards', and policy research added. Removed the sentence on Korean versions of international reports, which no stored file supports.",
+   "english_version": "The institute publishes its own English pages; the English About page is a stored source of this record.",
+   "verification": "Rewritten: the Korean pages are now stored.",
+   "summary": "Rewritten from the Korean introduction and organisation pages: 'prevent and resolve' (방지 및 해소), the support and norm-setting aims, and the three offices with their tasks, replacing the earlier unsupported 'divisions' sentence."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "date_published",
+   "status"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "issuing_body ('Ministry of Science and ICT; institute housed within ETRI') has no evidence in the stored files: none of the institute's stored pages names MSIT or ETRI in text. Left unchanged.",
+  "Title and original_title do not correspond: title is a descriptive record title ('Establishment of ...'), original_title the institute's Korean name. Kept, as in JP-01; the AUS-07 form, 'Korea AI Safety Institute (establishment)', would match better."
+ ]
+}

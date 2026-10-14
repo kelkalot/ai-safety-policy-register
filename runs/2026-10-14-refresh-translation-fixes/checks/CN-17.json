@@ -1,0 +1,64 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "CN-17",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Cover of the TC260 PDF gives 'AI Safety Governance Framework 3.0' in English, issuer's own title."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "PDF cover '人工智能 安全治理框架3.0' (line break) and the announcement heading 《人工智能安全治理框架3.0》 agree."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "TC260 prepared it under CAC guidance, per the announcement."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "The TC260 page gives 发布时间 2026-09-14 and the CAC notice 9月14日; the PDF cover shows only 2026年9月."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Published and current; the preface builds on versions 1.0 (2024) and 2.0 (2025). That it replaces 2.0 follows from the sequence; no later version found."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Unintended autonomous behaviour such as refusing shutdown instructions or strategically lowering performance in evaluations (策略性降低任务表现)",
+   "verdict": "supported",
+   "locator": "Box 1, 非预期自主行为风险, PDF page 14 area"
+  },
+  {
+   "claim": "Annex 1 has five risk levels; level 5 特别重大安全风险 'catastrophic and systemic threat features' (灾难性和系统性威胁特征)",
+   "verdict": "supported",
+   "locator": "Annex 1"
+  },
+  {
+   "claim": "Annex 2 is an agent risk management framework with a life-cycle figure (智能体生命周期); Annex 3 basic principles incl. 人类最终控制 (ultimate human control)",
+   "verdict": "supported",
+   "locator": "Annexes 2 and 3"
+  },
+  {
+   "claim": "Active research on consensus guidelines for catastrophic AI risks (积极研究应对人工智能灾难性风险的共识性准则)",
+   "verdict": "supported",
+   "locator": "section 1"
+  },
+  {
+   "claim": "Notes: 3.0 adds the annex on agents and sandbox supervision section with liability exemption exploration (4.3.3 探索规范责任豁免制度); the 2.0 text has no agent annex, sandbox section, digital sovereignty or evaluation mutual recognition",
+   "verdict": "supported",
+   "locator": "3.0 section 4.3; CN-13 2.0 PDF contents and Annex 2"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": "Government safety framework."
+ },
+ "overall": "accept",
+ "note": "english_version 'authentic' is right: the stored PDF (136 pages) is the Chinese text followed by TC260's own English text with a title page 'AI Safety Governance Framework 3.0', and the URL given is a stored source. Language 'Chinese, English' is consistent. Evidence script flags only that the PDF cover shows the month; the day rests on the TC260 page. A search for a newer version found none (one source gives 24 Sept for the CAC release, not matched by the stored 14 Sept pages).",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": []
+}

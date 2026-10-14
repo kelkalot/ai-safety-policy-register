@@ -1,0 +1,90 @@
+{
+ "cand_id": "VN-04",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "contradicted",
+   "why": "Article 1(1) lists points a-p of Vietnamese lettering (a b c d đ e g h i k l m n o p) = 15 provisions of the Law, not 16.",
+   "fix": {
+    "value": "Main implementing decree of Viet Nam's Law on Artificial Intelligence, detailing a number of its articles, from the one-stop AI portal and national database of AI systems to risk classification, conformity assessment and management of high-risk systems, controlled testing and impact assessment of AI used by state bodies. Providers classify systems before use; deployers reclassify with the provider when changes create new or higher risk. Providers must mark AI-generated audio, images and video in machine-readable form, and deployers must label content that imitates real people or events. Serious incidents must be reported within 72 hours or 5 working days, depending on the case.",
+    "evidence": [
+     {
+      "file": "archive/VN-04/2026-10-11/official.pdf",
+      "sha256": "18b99b9bfdd4c9f237f84dfd16480735773f390b64381491404003745cdd5b6e",
+      "locator": "page 1, Art. 1(1)",
+      "quote": "1. Nghị định này quy định chỉ tiết một số điều của Luật Trí tuệ nhân tạo bao gồm:",
+      "source_kind": "official"
+     }
+    ]
+   }
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "'detailing 16 of its provisions': Art. 1(1) lists 15 (a-p, no f/j/w/z)",
+   "verdict": "contradicted",
+   "locator": "page 1-2, Art. 1"
+  },
+  {
+   "claim": "Serious incidents: preliminary report within 72 hours (urgent) or 05 working days (others), full report in 15 days (Art. 19(3)-(4))",
+   "verdict": "supported",
+   "locator": "page 15-16, Art. 19"
+  },
+  {
+   "claim": "Providers mark AI audio/image/video in machine-readable form; deployers label content imitating real person's appearance or voice (Arts 17(1), 18(2))",
+   "verdict": "supported",
+   "locator": "page 13-14"
+  },
+  {
+   "claim": "Art. 4(3)(d) exempts internal Party systems and state-secret/defence/security lists from portal notification",
+   "verdict": "supported",
+   "locator": "page 4"
+  },
+  {
+   "claim": "Art. 5(6) existing test/conformity results need not be repeated",
+   "verdict": "supported",
+   "locator": "page 4-5"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept-with-fixes",
+ "note": "Everything checked matches the Vietnamese text (articles 4, 5, 6, 10, 12, 17-19, 22, 45, signature date 07.05.2026) except the count '16 provisions', which should be 15; the fix drops the number. Dates, number and effect are supported by the stored text. No newer amendment found by search."
+}

@@ -1,0 +1,212 @@
+{
+ "cand_id": "TR-02",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "TR-02",
+ "record": {
+  "summary": "Bill amending the Penal Code, Internet Law No. 5651, Data Protection Law No. 6698, Electronic Communications Law No. 5809 and Cybersecurity Law No. 7545. It defines AI systems; deems a user who directs AI to commit an offence its perpetrator; requires blocking or removal within six hours of AI content violating personality rights, threatening public security or deepfaked; mandates a non-erasable 'Produced by Artificial Intelligence' label on deepfakes (fines TRY 500,000 to 5 million); requires providers to ensure transparency and auditability of training data, reduce hallucination risk and use human-approved oversight in high-risk uses; and gives the ICT Authority urgent blocking powers.",
+  "notes": "Signed by the sponsor on 23 July 2025; the TBMM received it on 7 November 2025 and registered it as Esas No. 2/3358 on 10 November 2025, with the Industry, Trade, Energy, Natural Resources, Information and Technology Committee as lead committee and the Justice and Digital Media committees as secondary committees. The bill text itself is headed 'Bazı Kanunlarda Değişiklik Yapılmasına İlişkin Kanun Teklifi' (Bill on Amendments to Certain Laws). It has 11 articles and would enter into force on publication. It would also raise by half the penalty for a developer whose system design or training enables the offence, make content providers and AI developers jointly liable for six-hour removal, require AI data sets to respect anonymity, non-discrimination and legitimacy, add insult, threat and crimes against humanity to the offences for which content is removed or blocked under Law No. 5651, and set fines of up to TRY 10 million for breaches of BTK's urgent blocking orders and up to TRY 5 million for providers' AI security duties.",
+  "verification": {
+   "note": "Official bill PDF (7 scanned pages) downloaded from cdn.tbmm.gov.tr and read through its OCR text layer, which drops Turkish diacritics and misreads some names (for example 'Kinikkale' for Kırıkkale). It confirms the cover-letter wording of the title, the sponsor (Halil Öztürk, Nationalist Movement Party, Kırıkkale), the signature date, the TBMM receipt stamp (7 Nov 2025), the registration (Esas No. 2/3358, 10 Nov 2025), the committee referrals and the article text summarised here. The Moroğlu Arseven summary (law firm) was also stored; it renders the training-data duty as 'transparent, traceable, and auditable', while the bill says transparency and auditability. The TBMM bill web page was not stored; no committee report, vote or withdrawal appears in the stored files. The '28th term, 4th legislative year' in official_identifier comes from the PDF's TBMM path (D28/Y4)."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 1 (cover letter)",
+    "quote": "5237 sayth ve 26/9/2004 tarihli Tiirk Ceza Kanunu ve Bazi Kanunlarda degisiklik",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 1 (cover letter)",
+    "quote": "5237 sayth ve 26/9/2004 tarihli Tiirk Ceza Kanunu ve Bazi Kanunlarda degisiklik",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 1 (cover letter)",
+    "quote": "yapilmasina dair kanun teklifim gerekcesi ile birlikte ekte sunulmustur.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 1 (letterhead)",
+    "quote": "MÌLLIYETGÌ HAREKET PARTIS!",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 1 (signature)",
+    "quote": "Av. Halil OZTURK",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 1 (signature)",
+    "quote": "Kinikkale Milletvekili",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 1 (TBMM stamp)",
+    "quote": "TURKIYE BUYUK MILLET MECLisSi BASKANLIGINA",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 1 (TBMM registration stamp)",
+    "quote": "Tarih: 10-11-2025 |Esas No:2/3358",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 2 (TBMM receipt stamp)",
+    "quote": "07 Kasim 2025",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 1 (TBMM registration stamp)",
+    "quote": "Tarih: 10-11-2025 |Esas No:2/3358",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 7, Article 10",
+    "quote": "MADDE 10- Bu Kanun yayim: tarihinde yiiriirltige girer.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/TR-02/2026-10-14/secondary-2.html",
+    "sha256": "bc5a810c079020b4e01899a7c0e5e032024fb0e8a9460e8c9d7de47ef85422fe",
+    "locator": "introduction",
+    "quote": "was submitted to the Grand National Assembly of Türkiye and placed on the legislative agenda",
+    "source_kind": "secondary"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 1 (cover letter)",
+    "quote": "yapilmasina dair kanun teklifim gerekcesi ile birlikte ekte sunulmustur.",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 6, Article 6 (new Art. 7(3)(a) of Law No. 7545)",
+    "quote": "a) Egitim veri setlerinin seffafligi ve denetlenebilirliðini saglamak,",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 6, Article 6 (new Art. 7(3)(c)-(d) of Law No. 7545)",
+    "quote": "c) Halliisinasyon riskini azaltacak algoritmik kontroller uygulamak,",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 6, Article 6 (new Art. 7(3)(d) of Law No. 7545)",
+    "quote": "Yiiksek riskli uygulamalarda insan onayli denetim mekanizmalari gelistirmek,",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 5, Article 2 (new Art. 125(6) of the Penal Code)",
+    "quote": "Yapay zekâ sistemlerini bu kanun uyarinca sug sayilan bir file yönlendiren",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 6, Article 7 (new Additional Art. 5 of Law No. 5651)",
+    "quote": "“Yapay Zekâ Tarafindan Uretilmistir” ifadesiyle yer alir.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 5, Article 5 (Law No. 5809)",
+    "quote": "hakkinda acil erisim engelleme karar verebilir.",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 1 (cover letter)",
+    "quote": "Geregini arz ederim. 23/7/2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 5 (bill heading)",
+    "quote": "BAZI KANUNLARDA DEGiSIKLIK YAPILMASINA ÏLÏSKÏN KANUN TEKLiFi",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/TR-02/2026-10-11/official.pdf",
+    "sha256": "1badf3716693d247514e79406a1552e373da0b51e5df412960e89f421cf0714d",
+    "locator": "page 4",
+    "quote": "MADDE 11- Yiiriitme maddesidir.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The latest event in the stored files is the TBMM registration of 10 Nov 2025 (Esas No. 2/3358) with referral to the lead and secondary committees. Article 10 makes the law enter into force on publication, which presupposes adoption; no committee report, vote, adoption or withdrawal appears in the stored files. A bill not adopted stays Draft / proposed.",
+  "scope_reasoning": "A bill with AI-specific provisions on deepfake labelling, takedown and provider safety duties, amending general laws; the AI content is its main content, so it is clearly in scope as a pending bill. No scope_note.",
+  "changes": {
+   "summary": "'Traceable training data' came from the law-firm summary; the bill says transparency and auditability (şeffaflığı ve denetlenebilirliği) of training data sets. 'Person' rendered kullanıcı (user). 'Generated' changed to 'Produced' for Üretilmiştir, and 'non-removable' to 'non-erasable' for silinemez. Written from the OCR text of the bill.",
+   "notes": "Removed the tracker and press hedges and 'no committee report or vote was found' and 'the scanned PDF has no text layer' (process remarks, now in verification.note); added the bill's own heading and its other provisions read from the bill text.",
+   "verification.note": "The bill text is now readable through OCR, so the article content rests on the official PDF, not on the law-firm summary."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "official_identifier",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "original_title keeps the cover-letter wording (with 'Teklifi' for the letter's 'teklifim'); the bill text itself is headed 'Bazı Kanunlarda Değişiklik Yapılmasına İlişkin Kanun Teklifi'. Which form the TBMM registry uses cannot be checked from the stored files.",
+  "The bill's stage after committee referral cannot be checked against a TBMM page; none is stored."
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "cand_id": "IT-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "IT-01",
+ "record": {
+  "notes": "Published in the Gazzetta Ufficiale (Serie Generale no. 223) on 25 September 2025 and in force since 10 October 2025. AgID promotes AI and handles the notification and monitoring of conformity assessment bodies, ACN supervises, including inspections and sanctions, and Banca d'Italia, CONSOB and IVASS remain market surveillance authorities under Article 74(6) of the AI Act (Art. 20). Art. 26 also makes the use of AI as an insidious means an aggravating circumstance and raises penalties for some offences committed with AI, such as market manipulation. Art. 24 delegated the Government to adopt legislative decrees within twelve months; two followed: Legislative Decree No. 160 of 9 September 2026 on police use of AI and AI liability, in force 30 September 2026 (IT-02), and Legislative Decree No. 179 of 7 October 2026 on the powers of the national AI authorities, in force 23 October 2026 (IT-03).",
+  "verification": {
+   "note": "Stored: the Gazzetta Ufficiale ELI page (heading only: Law 23 Sep 2025 n. 132, title, code 25G00143, GU Serie Generale n. 223 of 25 Sep 2025, entry into force 10 Oct 2025); the GU 'Atto Completo' page (heading and the list of 28 articles in six chapters, without article text); and the PDF of GU Serie Generale no. 223 of 25 Sep 2025, which holds the law's full text (pages 1-11 of the issue) and from which the summary and notes are written. The dates of Legislative Decrees 160/2026 and 179/2026 in the notes rest on the records IT-02 and IT-03. The European Commission's list of single points of contact (updated 7 Sep 2026) showed ACN; that page is not stored. No English translation by a public body was found."
+  },
+  "summary": "Italian AI law applied in conformity with the EU AI Act, adding no obligations beyond it. AI must be used in an anthropocentric, transparent and responsible way that respects human decision-making, prevents harm and ensures human oversight, with cybersecurity across the life cycle. Sector rules cover health, work, public administration and the judiciary, where every decision stays with the magistrate. Under-14s need parental consent to access AI. AgID and the National Cybersecurity Agency are the national AI authorities. A new offence punishes harmfully spreading AI-falsified images, video or voices without consent, and the Government is delegated to adapt national law to the AI Act."
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/IT-01/2026-10-11/official.html",
+    "sha256": "69027ef45aa17a95017d5938b4eee49b01b2cc86338ee5c83406df9cd0d9b673",
+    "locator": "act heading",
+    "quote": "Disposizioni e deleghe al Governo in materia di intelligenza artificiale. (25G00143)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/IT-01/extra-ecefbc42f4/2026-10-14/official.html",
+    "sha256": "4bd78889dc37ed1bf1bc25cb47716cb35f3a4c052436eff9f20161d247210a84",
+    "locator": "Atto Completo page, heading",
+    "quote": "LEGGE 23 settembre 2025, n. 132 Disposizioni e deleghe al Governo in materia di intelligenza artificiale. (25G00143)",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/IT-01/2026-10-11/official.html",
+    "sha256": "69027ef45aa17a95017d5938b4eee49b01b2cc86338ee5c83406df9cd0d9b673",
+    "locator": "act heading",
+    "quote": "LEGGE 23 settembre 2025, n. 132 Disposizioni e deleghe al Governo in materia di intelligenza artificiale.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/IT-01/extra-9622c93e9e/2026-10-14/official.pdf",
+    "sha256": "4c988d4597728ce27617f8dabc17839ee82186f33d8b3a0a08246cd38b0d7339",
+    "locator": "page 3 (GU p. 1), enacting formula",
+    "quote": "La Camera dei deputati ed il Senato della Repubblica hanno approvato;",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/IT-01/extra-9622c93e9e/2026-10-14/official.pdf",
+    "sha256": "4c988d4597728ce27617f8dabc17839ee82186f33d8b3a0a08246cd38b0d7339",
+    "locator": "page 3 (GU p. 1), enacting formula",
+    "quote": "IL PRESIDENTE DELLA REPUBBLICA PROMULGA la seguente legge:",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/IT-01/2026-10-11/official.html",
+    "sha256": "69027ef45aa17a95017d5938b4eee49b01b2cc86338ee5c83406df9cd0d9b673",
+    "locator": "act heading",
+    "quote": "LEGGE 23 settembre 2025, n. 132",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/IT-01/2026-10-11/official.html",
+    "sha256": "69027ef45aa17a95017d5938b4eee49b01b2cc86338ee5c83406df9cd0d9b673",
+    "locator": "publication reference under the title",
+    "quote": "in materia di intelligenza artificiale. (25G00143) (GU Serie Generale n.223 del 25-09-2025)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/IT-01/extra-9622c93e9e/2026-10-14/official.pdf",
+    "sha256": "4c988d4597728ce27617f8dabc17839ee82186f33d8b3a0a08246cd38b0d7339",
+    "locator": "page 3 (GU p. 1), running head",
+    "quote": "GAZZETTA UFFICIALE DELLA REPUBBLICA ITALIANA Serie generale - n. 22325-9-2025 LEGGI ED ALTRI ATTI NORMATIVI",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/IT-01/2026-10-11/official.html",
+    "sha256": "69027ef45aa17a95017d5938b4eee49b01b2cc86338ee5c83406df9cd0d9b673",
+    "locator": "act heading",
+    "quote": "LEGGE 23 settembre 2025, n. 132",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/IT-01/extra-9622c93e9e/2026-10-14/official.pdf",
+    "sha256": "4c988d4597728ce27617f8dabc17839ee82186f33d8b3a0a08246cd38b0d7339",
+    "locator": "page 3 (GU p. 1), heading of the law",
+    "quote": "LEGGE 23 settembre 2025 , n. 132 .",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/IT-01/2026-10-11/official.html",
+    "sha256": "69027ef45aa17a95017d5938b4eee49b01b2cc86338ee5c83406df9cd0d9b673",
+    "locator": "note under the heading",
+    "quote": "Entrata in vigore del provvedimento: 10/10/2025",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/IT-01/2026-10-11/official.html",
+    "sha256": "69027ef45aa17a95017d5938b4eee49b01b2cc86338ee5c83406df9cd0d9b673",
+    "locator": "note under the heading",
+    "quote": "Entrata in vigore del provvedimento: 10/10/2025",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/IT-01/extra-9622c93e9e/2026-10-14/official.pdf",
+    "sha256": "4c988d4597728ce27617f8dabc17839ee82186f33d8b3a0a08246cd38b0d7339",
+    "locator": "page 4 (GU p. 2), Art. 4(4)",
+    "quote": "L’accesso alle tecnologie di intelligenza artificiale da parte dei minori di anni quattordici nonché il conseguen- te trattamento dei dati personali richiedono il consenso di chi esercita la responsabilità genitoriale",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/IT-01/extra-9622c93e9e/2026-10-14/official.pdf",
+    "sha256": "4c988d4597728ce27617f8dabc17839ee82186f33d8b3a0a08246cd38b0d7339",
+    "locator": "page 12 (GU p. 10), Art. 26(1)(c), new Art. 612-quater of the Criminal Code",
+    "quote": "idonei a indurre in inganno sulla loro genuinità, è punito con la reclusione da uno a cinque anni.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Event: the Gazzetta Ufficiale page gives the law's entry into force as 10/10/2025. That is a year before today (14 October 2026); the stored page shows no repeal. Status 'In force' (confirmed); the implementing decrees IT-02 and IT-03 build on it rather than replace it.",
+  "scope_reasoning": "Italy's horizontal AI law; clearly in scope, no scope_note.",
+  "changes": {
+   "notes": "Adds the division of tasks under Art. 20, the further criminal changes of Art. 26 and the twelve-month delegation of Art. 24; removes 'both are verified on the Gazzetta Ufficiale' (process language) and the sentence on the Commission's single-point-of-contact list (a page not stored), both now in verification.note.",
+   "verification": "Rewritten: names the stored full text (GU no. 223 PDF) the summary rests on.",
+   "summary": "Rewritten from the Italian text now stored (GU no. 223): removes the evaluation 'the first comprehensive national AI law in an EU member state'; adds that the law is applied in conformity with the AI Act and creates no new obligations beyond it (Art. 1(2), 3(5)); principles as Art. 3 words them ('dimensione antropocentrica', human autonomy and decision-making, prevention of harm, 'sorveglianza e l'intervento umano', cybersecurity over the life cycle); under-14 consent as Art. 4(4) states it (access to AI technologies); the deepfake offence as Art. 612-quater defines it (causing unjust harm by spreading AI-falsified or altered images, video or voices without consent); 'intellectual professions' dropped for length."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "official_identifier",
+   "date_published",
+   "date_in_force",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "english_version stays 'none found' (unchanged): the translation check found only law-firm commentary in English."
+ ]
+}

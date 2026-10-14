@@ -1,0 +1,71 @@
+{
+ "cand_id": "CN-07",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "judgment-differs",
+   "why": "The stored v2.0 notice says v2.0 was built on the 2024 framework and refined its risk classification; it does not say v1.0 is withdrawn. Superseded is a reasonable reading since v2.0 and v3.0 followed, but notes say 'replaced it' without a quote."
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "PDF footer reads 人工智能安全治理框架 （V1.0）; record has the same characters with the full-width brackets"
+  },
+  "english_version": {
+   "verdict": "supported",
+   "why": "kind authentic: the TC260 English PDF downloaded from the CAC page, stored under that exact URL; cover and page 3 show 'AI Safety Governance Framework (V1.0)'"
+  },
+  "summary": {
+   "verdict": "supported",
+   "why": "claims found in Chinese text and TC260 English; 699 characters"
+  },
+  "safety_topics": {
+   "verdict": "supported",
+   "why": "catastrophic risk (nuclear, biological, chemical, missile weapons; loss of control) and incident reporting (5.7) are in the text"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Inherent risks (models and algorithms, data, systems) and application risks in cyber, real-world, cognitive, ethical domains. Release notice: 针对模型算法安全、数据安全和系统安全等内生安全风险和网络域、现实域、认知域、伦理域等应用安全风险",
+   "verdict": "supported",
+   "locator": "CAC release notice, para 2"
+  },
+  {
+   "claim": "Includes misuse for nuclear, biological and chemical weapons and uncontrollable AI. My translation of 3.2.2(c): 'greatly lowers the threshold for non-experts to design, synthesise, acquire and use nuclear, biological, chemical and missile weapons'; 3.2.4(c) '未来脱离控制的风险' = risk of future loss of control.",
+   "verdict": "supported",
+   "locator": "Chinese PDF, 3.2.2(c) and 3.2.4(c)"
+  },
+  {
+   "claim": "Technical and governance measures such as tiered management and incident response. 5.1 '实施人工智能应用分类分级管理' and 5.7 '构建人工智能安全事件应急处置机制'",
+   "verdict": "supported",
+   "locator": "Chinese PDF, 5.1, 5.7"
+  },
+  {
+   "claim": "Four principles: inclusive and prudent; risk-led agile governance; technology and management combined; openness and cooperation",
+   "verdict": "supported",
+   "locator": "CAC notice para 2; English PDF 1.1-1.4"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Summary claims confirmed in the Chinese framework text and in TC260's own English version, which the record now links as english_version (stored). Original title matches the PDF's running title. Status Superseded is defensible but the stored evidence shows v2.0 built on v1.0 rather than withdrawing it. Versions 2.0 and 3.0 are already CN-13 and CN-17; the search confirmed v3.0 published 14 Sept 2026 and found nothing else newer."
+}

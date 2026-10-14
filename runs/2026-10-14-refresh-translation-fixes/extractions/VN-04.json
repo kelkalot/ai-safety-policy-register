@@ -1,0 +1,128 @@
+{
+ "cand_id": "VN-04",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "VN-04",
+ "record": {
+  "summary": "Main implementing decree of Viet Nam's Law on Artificial Intelligence, detailing 16 of its provisions, from the one-stop AI portal and national database of AI systems to risk classification, conformity assessment and management of high-risk systems, controlled testing and impact assessment of AI used by state bodies. Providers classify systems before use; deployers reclassify with the provider when changes create new or higher risk. Providers must mark AI-generated audio, images and video in machine-readable form, and deployers must label content that imitates real people or events. Serious incidents must be reported within 72 hours or 5 working days, depending on the case.",
+  "notes": "Dated Hà Nội, 30 April 2026; the Government portal's digital signature on the published copy is dated 7 May 2026. Article 45 sets entry into force on 1 May 2026. Article 5(6) lets test, inspection and conformity results already obtained under sectoral, standards or product-quality law count toward the AI Law's requirements. The Ministry of Science and Technology manages and operates the portal (Article 4) and provides on it an optional automated risk-classification support tool (Article 10). Article 12 sets risk-classification dossiers for high- and medium-risk systems; Article 18 requires notice and visible labels for AI-generated or AI-edited content that could be mistaken for authentic; Article 19 defines serious incidents and sets preliminary reports within 72 hours for urgent cases and 5 working days for others, with a full report within 15 days; Chapter IV (Articles 21-27) sets a voluntary controlled-testing regime with three levels. Article 4(3)(d) exempts AI systems and databases serving the internal work of Party bodies and political organisations, and systems on the state-secret, defence and security lists, from notification, registration and public data sharing on the portal. The high-risk list is set separately by Decision 33/2026/QĐ-TTg.",
+  "verification": {
+   "note": "Stored on 11 Oct 2026: the signed Decree from the Government portal file server (datafiles.chinhphu.vn; 96 scanned pages, read through Tesseract OCR in Vietnamese for the first 60 pages, which hold all 46 articles, the signature page and the start of the annexed forms). The OCR confirms the number 142/2026/NĐ-CP, the date 30 Apr 2026, the title, the scope in Article 1, the articles summarised above and Article 45 (in force from 1 May 2026); the portal's digital signature is dated 07.05.2026. The effective date and the content of Articles 12 and 18 and of the controlled-testing chapter, which the earlier version took from the Ministry of Construction news page and legal-database summaries, are now quoted from the Decree itself. The Ministry of Construction page (moc.gov.vn) could not be stored (TLS certificate error). The Hai Phong city implementation plan (219/KH-UBND, 16 Jun 2026; cdn.haiphong.gov.vn) was read on 11 Oct 2026 but not stored, so it was moved from notes to leads."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/VN-04/2026-10-11/official.pdf",
+    "sha256": "18b99b9bfdd4c9f237f84dfd16480735773f390b64381491404003745cdd5b6e",
+    "locator": "page 1, preamble",
+    "quote": "Chính phủ ban hành Nghị định quy định chỉ tiết một số diéu và biện pháp thi hành Luật Tri tuệ nhân tạo.",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/VN-04/2026-10-11/official.pdf",
+    "sha256": "18b99b9bfdd4c9f237f84dfd16480735773f390b64381491404003745cdd5b6e",
+    "locator": "page 1, header",
+    "quote": "Số: 142/2026/NĐ-CP Hà Nội, ngày 30 tháng 4 năm 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-04/2026-10-11/official.pdf",
+    "sha256": "18b99b9bfdd4c9f237f84dfd16480735773f390b64381491404003745cdd5b6e",
+    "locator": "page 1, preamble",
+    "quote": "Chính phủ ban hành Nghị định quy định chỉ tiết một số diéu và biện pháp thi hành Luật Tri tuệ nhân tạo.",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/VN-04/2026-10-11/official.pdf",
+    "sha256": "18b99b9bfdd4c9f237f84dfd16480735773f390b64381491404003745cdd5b6e",
+    "locator": "page 1, header",
+    "quote": "Số: 142/2026/NĐ-CP Hà Nội, ngày 30 tháng 4 năm 2026",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/VN-04/2026-10-11/official.pdf",
+    "sha256": "18b99b9bfdd4c9f237f84dfd16480735773f390b64381491404003745cdd5b6e",
+    "locator": "page 1, preamble",
+    "quote": "Theo dé nghi của Bộ trưởng Bộ Khoa học và Công nghệ;",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-04/2026-10-11/official.pdf",
+    "sha256": "18b99b9bfdd4c9f237f84dfd16480735773f390b64381491404003745cdd5b6e",
+    "locator": "page 1, preamble",
+    "quote": "Chính phủ ban hành Nghị định quy định chỉ tiết một số diéu",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/VN-04/2026-10-11/official.pdf",
+    "sha256": "18b99b9bfdd4c9f237f84dfd16480735773f390b64381491404003745cdd5b6e",
+    "locator": "page 1, header",
+    "quote": "Số: 142/2026/NĐ-CP Hà Nội, ngày 30 tháng 4 năm 2026",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/VN-04/2026-10-11/official.pdf",
+    "sha256": "18b99b9bfdd4c9f237f84dfd16480735773f390b64381491404003745cdd5b6e",
+    "locator": "page 42, Article 45",
+    "quote": "Nghị định này có hiệu lực thi hành từ ngày 01 tháng 5 năm 2026.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/VN-04/2026-10-11/official.pdf",
+    "sha256": "18b99b9bfdd4c9f237f84dfd16480735773f390b64381491404003745cdd5b6e",
+    "locator": "page 42, Article 45",
+    "quote": "Điều 45. Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 01 tháng 5 năm 2026.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/VN-04/2026-10-11/official.pdf",
+    "sha256": "18b99b9bfdd4c9f237f84dfd16480735773f390b64381491404003745cdd5b6e",
+    "locator": "page 1, preamble",
+    "quote": "Chính phủ ban hành Nghị định quy định chỉ tiết một số diéu",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Article 45: the Decree takes effect from 1 May 2026. That date has passed on 14 Oct 2026, and no stored file shows an amendment or repeal, so 'In force' stands. Article 46 lets notification and reporting go through other channels the Ministry of Science and Technology announces until the one-stop portal is officially running; that does not change the status.",
+  "scope_reasoning": null,
+  "changes": {
+   "summary": "Article 1(1) details 16 provisions of the Law, points (a) to (p), not five; the summary now names the main ones, including conformity assessment (Law Art. 13), high-risk management (Art. 14), controlled testing (Art. 21) and impact assessment for state use (Art. 27(5)). Reclassification by deployers is 'in coordination with the provider' (phối hợp với nhà cung cấp, Arts 5(3) and 6(4)). Marking and labelling follow Arts 17 and 18; incident deadlines follow Art. 19(3). The 'self-assessment tool' is rendered as the Decree names it, an automated risk-classification support tool (Công cụ hỗ trợ phân loại rủi ro tự động), now in notes.",
+   "notes": "'Reported further content' and 'Legal databases and the Ministry of Construction report the effective date' were hedges: Articles 12, 18, 21-27 and 45 are in the stored Decree and are now stated plainly. The Hai Phong plan, not stored, moved to leads.",
+   "verification.note": "Rewritten: the effective-date clause is readable in the stored scan (page 42)."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "official_identifier",
+   "issuing_body",
+   "date_published",
+   "date_in_force",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [
+  "Hai Phong city plan 219/KH-UBND of 16 Jun 2026 implementing Decree 142/2026/NĐ-CP (cdn.haiphong.gov.vn); a sub-national implementing instrument, not stored."
+ ],
+ "open_questions": [
+  "The OCR covers the first 60 of 96 pages; pages 61-96 are annexed forms, so no article text is missing, but the forms themselves are not in the text."
+ ]
+}

@@ -216,7 +216,7 @@ The checker starts in a fresh context with only the run ID and candidate IDs: a 
 
 ### 7.4 Repeatability measure
 
-`pipeline.py sample` picks 10 percent of the run's extractions, at least 5. A second extractor, in a fresh context and without seeing the first extraction, extracts them again into `extractions-blind/`. `pipeline.py compare` reports agreement per field: exact for dates, identifiers, status, legal force and instrument type; overlap for topics. The agreement table goes into `report.md` and is the run's repeatability number; fields that disagree go to the checker.
+`pipeline.py sample` picks 10 percent of the run's extractions, at least 5. A second extractor, in a fresh context and without seeing the first extraction, extracts them again into `extractions-blind/`. `pipeline.py compare` reports agreement per field: exact for dates, identifiers, status, legal force and instrument type; overlap for topics. The agreement table goes into `report.md` and is the run's repeatability number; fields that disagree go to the checker. In a refresh or recheck run the table counts only the fields an extraction changed, so `compare` also reports agreement on the resulting records (each current record with an extraction's changes applied), which is the better measure of how far two extractions of the same record agree.
 
 ### 7.5 Human sample
 
@@ -225,7 +225,7 @@ The checker starts in a fresh context with only the run ID and candidate IDs: a 
 
 ### 7.6 Official sites
 
-The evidence script counts a quote as official or alt-official only when its file came from a government domain (`.gov`, `gov.xx`, `gouv.xx`, `.leg.xx`, `state.xx.us`, `europa.eu`, `un.org` and similar) or from a host that `pipeline/official-sites.json` lists as official for the jurisdiction. Everything else counts as secondary, whatever the extractor wrote. The file is curated by people and changed only with `python3 tools/pipeline.py hosts --add`; no script removes or rewrites entries. Each entry has the host, who runs it (`operator`), the kind of site, the page and quote that show who runs it, who decided and when, and a status:
+The evidence script counts a quote as official or alt-official only when its file came from a government domain (`.gov`, `gov.xx`, `gouv.xx`, `.leg.xx`, `state.xx.us`, `europa.eu`, `un.org` and similar) or from a host that `pipeline/official-sites.json` lists as official for the jurisdiction. Everything else counts as secondary, whatever the extractor wrote. A file stored as the record's secondary source counts at most as alt-official, even from an official host: it is another official source, not the record's own (level B, not A). The file is curated by people and changed only with `python3 tools/pipeline.py hosts --add`; no script removes or rewrites entries. Each entry has the host, who runs it (`operator`), the kind of site, the page and quote that show who runs it, who decided and when, and a status:
 
 - `official`: the issuing body or another public body runs the host, or uses it as its own channel (an official newsroom on a press-release platform counts when the body's own site links to it as its newsroom). Counts as official evidence.
 - `not official`: a third party (law firm, news outlet, university, NGO, tracker, commercial database), including state news agencies, whose articles are not the instruments themselves. Never counts, even if a later run suggests it; the entry stays so that the decision is not undone.

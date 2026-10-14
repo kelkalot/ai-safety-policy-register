@@ -1,0 +1,70 @@
+{
+ "cand_id": "CN-11",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "page heading 人工智能全球治理行动计划（全文） and lead sentence 《人工智能全球治理行动计划》; record has the title without the 全文 suffix"
+  },
+  "english_version": {
+   "verdict": "supported",
+   "why": "unchanged record value: kind authentic, MFA English page stored as the main source"
+  },
+  "summary": {
+   "verdict": "supported",
+   "why": "each claim matches items 5, 9, 10, 11 of the Chinese text and the MFA English text; 682 characters"
+  },
+  "notes": {
+   "verdict": "supported",
+   "why": "26 Jul 2025 confirmed; location dropped because no stored text has it"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Timely risk assessment with targeted prevention and response measures, towards a widely recognised safety governance framework. Item 10: 及时开展人工智能风险研判，提出针对性防范应对措施，构建具有广泛共识的安全治理框架",
+   "verdict": "supported",
+   "locator": "item 10"
+  },
+  {
+   "claim": "Explore categorised and tiered management and traceability management systems for AI services. Item 10: 探索分类分级管理 ... 探索人工智能服务可追溯管理制度",
+   "verdict": "supported",
+   "locator": "item 10"
+  },
+  {
+   "claim": "Regular safety assessment of AI in public services (item 9: 对上述人工智能系统的安全性进行定期评估); technical safety guidelines for open-source communities (item 5: 明确和落实开源社区技术安全准则)",
+   "verdict": "supported",
+   "locator": "items 5, 9"
+  },
+  {
+   "claim": "Support for the UN Independent International Scientific Panel on AI and Global Dialogue. The Chinese says 国际人工智能科学小组; 'Independent' comes from the MFA English text, which the summary follows",
+   "verdict": "supported",
+   "locator": "item 11, MFA English"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "A 13-item action plan on international AI governance and development; safety is mainly item 10, parts of items 5, 8, 9 and 11. Suggest a scope_note along the lines of: Mainly an international AI cooperation and development plan, with safety governance as one of 13 items; included as China's statement of international AI governance."
+ },
+ "overall": "accept",
+ "note": "Summary now follows the Chinese item wording (explore tiered management, traceability systems, regular assessment of public-sector AI) rather than stating them as firm requirements. original_title now filled from the stored Chinese MFA page. Fields supported by official Chinese and English pages. Search found no newer version; the July 2026 Cooperation and Ethics action plans are separate documents with no official text stored."
+}

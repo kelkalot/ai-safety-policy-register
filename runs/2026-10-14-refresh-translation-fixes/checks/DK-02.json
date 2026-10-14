@@ -1,0 +1,67 @@
+{
+ "cand_id": "DK-02",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Matches the TRIS title of the notified draft (alt-official); the bill as introduced may be titled differently."
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "unsupported",
+   "why": "No stored file contains the Danish title; the value is the earlier guess. A consultation draft was titled 'Indforelse af en praestationsbeskyttelse og beskyttelse mod digitalt genererede efterligninger mv.' per a web search result, which is a lead only."
+  },
+  "official_identifier": {
+   "verdict": "judgment-differs",
+   "why": "TRIS notification number of the 2025 draft supports itself (TRIS page), but is not the citable number of the bill introduced on 8 Oct 2026; the Folketing L-number is not stored."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Exception for 'karikaturer, parodier, satire og magt- og samfundskritik', not if the imitation is misinformation that concretely may cause serious danger to others' rights or essential interests or concrete danger to life or property",
+   "verdict": "supported",
+   "locator": "kum.dk press release"
+  },
+  {
+   "claim": "'fremforelser, eksempelvis improvisationer, der ikke er kunstneriske vaerker, ogsa er beskyttet' (performances such as improvisations that are not artistic works are also protected)",
+   "verdict": "supported",
+   "locator": "kum.dk press release"
+  },
+  {
+   "claim": "Draft enters into force 1 July 2026; Sections 73a and 65a; TRIS received 31/10/2025, standstill to 03/02/2026, replaces withdrawn 2025/642/DK",
+   "verdict": "supported",
+   "locator": "TRIS page and English draft"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Copyright-law bill whose operative effect is a right against deepfakes; fits section 10 as a non-AI-specific law that is the operative instrument for a deepfake question. A scope_note is advisable."
+ },
+ "overall": "needs-human",
+ "note": "Summary and notes are supported by the Danish press release and the TRIS pages. original_title is in no stored file and cannot be fixed from the stored text, so it needs a human with the Folketing or Danish TRIS text. The identifier and English title describe the 2025 notified draft, not necessarily the bill introduced on 8 Oct 2026. Search found no Folketing page for the introduced bill."
+}

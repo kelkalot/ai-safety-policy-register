@@ -1,0 +1,152 @@
+{
+ "cand_id": "HU-02",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "HU-02",
+ "record": {
+  "original_title": "344/2025. (X. 31.) Korm. rendelet az Európai Unió mesterséges intelligenciáról szóló rendeletének magyarországi végrehajtásáról szóló 2025. évi LXXV. törvény végrehajtásáról",
+  "summary": "Implementing decree under Act LXXV of 2025. It designates the National Accreditation Authority as AI notifying authority and the minister responsible for enterprise development as AI market surveillance authority and single point of contact under Article 70 of the AI Act. Only accredited bodies can be designated to assess the conformity of high-risk AI systems, and designated bodies report on their work by 31 January each year. Maximum fines are set in forints (HUF 13.3 billion, 5.7 billion and 2.85 billion under Article 99; HUF 570 million and 285 million under Article 100), payable within 30 days. The authorities report at least annually to the Government and the Hungarian AI Council.",
+  "notes": "Promulgated on 31 October 2025 and in force on the 31st day after promulgation (§ 6), 1 December 2025. Government Decree 224/2026 (X. 1.) repealed point e) of § 5(1), in the rules on the Hungarian Artificial Intelligence Council; the consolidated text dated 2 October 2026 still designates the minister responsible for enterprise development as market surveillance authority. The authorities' competence does not extend to providers and deployers for which another act or government decree so provides (§ 1(3)), and the market surveillance authority may settle a case by an administrative contract instead of a decision (§ 3(2)). §§ 8-10 and the annex have lapsed under § 12(2) of Act CXXX of 2010.",
+  "verification": {
+   "note": "The decree's consolidated text (state of 2 Oct 2026) was stored from the National Legislation Database (njt.jog.gov.hu). It confirms the full Hungarian title, the number and date, the § 1 designations, the § 2 rules on designated bodies, the § 4 fine amounts, the § 6 entry-into-force rule and the footnotes on the repeal of § 5(1)(e) by Decree 224/2026 (X. 1.) and on the lapse of §§ 8-10 and the annex. The PDF stored with it (document-1.pdf) is the site's accessibility statement, not a source for the decree. The amending Decree 224/2026 itself is not stored. The CMS Hungary legal update (secondary_url) could not be stored (HTTP 403); its statement that the Hungarian National Bank is the market surveillance authority for high-risk AI systems used directly in financial services is not in the stored decree, which leaves such carve-outs to other acts or decrees (§ 1(3)). No English translation by a public body was found."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/HU-02/2026-10-11/official.html",
+    "sha256": "9f8bdee6e1feb6b9e7949c602d447e573710327faf41ec6369fde1a44da2cec0",
+    "locator": "document heading and title",
+    "quote": "344/2025. (X. 31.) Korm. rendelet az Európai Unió mesterséges intelligenciáról szóló rendeletének magyarországi végrehajtásáról szóló 2025. évi LXXV. törvény végrehajtásáról",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/HU-02/2026-10-11/official.html",
+    "sha256": "9f8bdee6e1feb6b9e7949c602d447e573710327faf41ec6369fde1a44da2cec0",
+    "locator": "document heading and title",
+    "quote": "344/2025. (X. 31.) Korm. rendelet az Európai Unió mesterséges intelligenciáról szóló rendeletének magyarországi végrehajtásáról szóló 2025. évi LXXV. törvény végrehajtásáról",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/HU-02/2026-10-11/official.html",
+    "sha256": "9f8bdee6e1feb6b9e7949c602d447e573710327faf41ec6369fde1a44da2cec0",
+    "locator": "preamble, enacting formula",
+    "quote": "az Alaptörvény 15. cikk (1) bekezdésében meghatározott feladatkörében eljárva a következőket rendeli el:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/HU-02/2026-10-11/official.html",
+    "sha256": "9f8bdee6e1feb6b9e7949c602d447e573710327faf41ec6369fde1a44da2cec0",
+    "locator": "preamble [4]",
+    "quote": "[4] A Kormány az Európai Unió mesterséges intelligenciáról szóló rendeletének magyarországi végrehajtásáról szóló 2025. évi LXXV. törvény 11. § (1) bekezdésében",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/HU-02/2026-10-11/official.html",
+    "sha256": "9f8bdee6e1feb6b9e7949c602d447e573710327faf41ec6369fde1a44da2cec0",
+    "locator": "document heading",
+    "quote": "344/2025. (X. 31.) Korm. rendelet",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/HU-02/2026-10-11/official.html",
+    "sha256": "9f8bdee6e1feb6b9e7949c602d447e573710327faf41ec6369fde1a44da2cec0",
+    "locator": "document heading (promulgation date in brackets)",
+    "quote": "344/2025. (X. 31.) Korm. rendelet",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/HU-02/2026-10-11/official.html",
+    "sha256": "9f8bdee6e1feb6b9e7949c602d447e573710327faf41ec6369fde1a44da2cec0",
+    "locator": "§ 6",
+    "quote": "6. § Ez a rendelet a kihirdetését követő 31. napon lép hatályba.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/HU-02/2026-10-11/official.html",
+    "sha256": "9f8bdee6e1feb6b9e7949c602d447e573710327faf41ec6369fde1a44da2cec0",
+    "locator": "document heading (promulgation date in brackets)",
+    "quote": "344/2025. (X. 31.) Korm. rendelet",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/HU-02/2026-10-11/official.html",
+    "sha256": "9f8bdee6e1feb6b9e7949c602d447e573710327faf41ec6369fde1a44da2cec0",
+    "locator": "version date under the title",
+    "quote": "2026.10.02.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/HU-02/2026-10-11/official.html",
+    "sha256": "9f8bdee6e1feb6b9e7949c602d447e573710327faf41ec6369fde1a44da2cec0",
+    "locator": "footnote 1",
+    "quote": "Az 5. § (1) bekezdés e) pontját a 224/2026. (X. 1.) Korm. rendelet 7. §-a hatályon kívül helyezte.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/HU-02/2026-10-11/official.html",
+    "sha256": "9f8bdee6e1feb6b9e7949c602d447e573710327faf41ec6369fde1a44da2cec0",
+    "locator": "§ 6: the commencement rule",
+    "quote": "6. § Ez a rendelet a kihirdetését követő 31. napon lép hatályba.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/HU-02/2026-10-11/official.html",
+    "sha256": "9f8bdee6e1feb6b9e7949c602d447e573710327faf41ec6369fde1a44da2cec0",
+    "locator": "version date under the title: current consolidated text",
+    "quote": "2026.10.02.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/HU-02/2026-10-11/official.html",
+    "sha256": "9f8bdee6e1feb6b9e7949c602d447e573710327faf41ec6369fde1a44da2cec0",
+    "locator": "§ 4(2)",
+    "quote": "(2) A közigazgatási bírságot 30 napon belül kell megfizetni az MI Piacfelügyeleti hatóság részére, a határozatban foglaltak szerint.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Rule: § 6 says the decree enters into force on the 31st day after its promulgation; event: promulgated 31 October 2025 (the '(X. 31.)' in its number), so in force from 1 December 2025. The National Legislation Database shows a current consolidated version dated 2 October 2026 with only point e) of § 5(1) repealed (by Decree 224/2026 (X. 1.)) and §§ 8-10 and the annex lapsed under § 12(2) of Act CXXX of 2010. Today is 14 October 2026: status 'In force' (confirmed).",
+  "scope_reasoning": "Implementing decree designating AI Act authorities and setting AI Act fines; clearly in scope, no scope_note.",
+  "changes": {
+   "original_title": "Now verbatim from the stored page: the full title ends 'végrehajtásáról' and is not bracketed; the old value was a descriptive form.",
+   "summary": "'kijelölt szervezet' rendered literally as designated bodies (not 'accredited conformity assessment bodies'), with the § 2(1) rule that only accredited bodies can be designated; 'converts the fines' rephrased as the decree puts it (fines set in forints, with the maximum forint amounts); otherwise unchanged.",
+   "notes": "Removes 'the current identity of the market surveillance minister should be read with that amendment' (the stored current text still designates the minister responsible for enterprise development) and the remark on the CMS report and the fetched page (moved to verification.note); removes the description of Decree 224/2026's wider subject, which is not in a stored file; adds § 1(3), § 3(2) and the lapse of §§ 8-10 and the annex.",
+   "verification": "Rewritten: the stored page does carry the verbatim title; document-1.pdf is the accessibility statement; the CMS page was not stored."
+  },
+  "confirmed": [
+   "title",
+   "issuing_body",
+   "official_identifier",
+   "date_published",
+   "date_in_force",
+   "date_last_updated",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "english_version stays 'none found' (unchanged): the stored files and the translation check show no English text by a public body.",
+  "Whether the Hungarian National Bank supervises AI used in financial services (as the CMS update says) rests on another act or decree under § 1(3); it is not in a stored file."
+ ]
+}

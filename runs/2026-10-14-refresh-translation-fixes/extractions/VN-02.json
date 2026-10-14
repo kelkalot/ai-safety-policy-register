@@ -1,0 +1,174 @@
+{
+ "cand_id": "VN-02",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "VN-02",
+ "record": {
+  "summary": "Law of 35 articles on the research, development, provision, deployment and use of AI systems and their state management. It classifies AI systems as high, medium or low risk: providers self-classify and notify medium- and high-risk systems, and high-risk systems need a conformity assessment before use. It prohibits uses such as deception or manipulation causing serious harm and exploiting vulnerable groups; requires disclosure of AI interaction and machine-readable marking and labelling of AI-generated content; sets duties for serious incidents; and provides for a national AI ethics framework and controlled testing. AI used solely for defence, security or cipher purposes is excluded.",
+  "notes": "Passed by the 15th National Assembly at its 10th session on 10 Dec 2025, with 429 of the 434 deputies present voting in favour, and published in the Official Gazette (Công báo) No. 40. High risk is defined as possible significant harm to life, health, the lawful rights and interests of organisations and individuals, national interests, the public interest or national security; medium risk as the possibility of confusing, influencing or manipulating users who do not recognise that they are interacting with an AI system or with content it generated. Article 4 requires human control and the ability to intervene in all decisions and behaviour of AI systems. Article 5 encourages controlled testing of technology, risk-proportionate management and voluntary compliance mechanisms, and prioritises investment in data and computing infrastructure, safe AI, skilled people and shared AI platforms of national strategic character. Article 27 requires agencies that use AI in state management or public services, and operate a high-risk system or one with significant impact on human rights, social equity or the public interest, to prepare an impact assessment report. Article 29 makes the deployer of a high-risk system that was managed and used lawfully liable for any damage, with recourse against the provider or developer where agreed. Article 33 repeals Article 3(9), 4(7), 12(6), point đ of 34(2) and Chapter IV of Law No. 71/2025/QH15; Article 34 sets entry into force on 1 March 2026; Article 35 gives systems already in operation 18 months (health, education, finance) or 12 months (others) to comply, during which the state management agency may suspend or stop a system at risk of serious harm. Implementing instruments: Decision 367/QĐ-TTg, Decree 142/2026/NĐ-CP, Circular 05/2026/TT-BKHCN and Decision 33/2026/QĐ-TTg (VN-03 to VN-06).",
+  "english_version": {
+   "kind": "government translation",
+   "url": "https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111260715113551787.htm",
+   "by": "Viet Nam Government News (Government portal)"
+  },
+  "verification": {
+   "note": "Stored on 12 Oct 2026: the signed Law from the Government portal file server (datafiles.chinhphu.vn; 20 scanned pages, read through Tesseract OCR in Vietnamese, which drops or swaps some diacritics and reads the number as '134/2025/QHI5') and the Official Gazette page (congbao.chinhphu.vn). Stored on 14 Oct 2026: the English translation published by Viet Nam Government News on 15 Jul 2026 ('Below is full translation ...', ending 'For reference only') and the National Assembly newspaper's report of the vote of 10 Dec 2025 (daibieunhandan.vn). The PDF confirms the number, title, all 35 articles, Article 34 (entry into force 1 March 2026) and the closing formula (adopted by the 15th National Assembly, 10th session, on 10 Dec 2025, signed by Trần Thanh Mẫn); the gazette page confirms the number, issue date, effective date and Gazette No. 40; the newspaper confirms the vote of 429 of 434 deputies present. The summary is written from the Vietnamese text; the earlier 'treats data, computing and safe AI infrastructure as strategic national assets' misread Article 5(4). The government translation renders thử nghiệm có kiểm soát as 'regulatory sandbox' (Article 21) and 'controlled experimentation'; the summary keeps the literal 'controlled testing'. The Government portal document page (vanban.chinhphu.vn, docid 216334) was read on 12 Oct 2026 but not stored, and the gazette date of 22 Jan 2026 given in the earlier notes is not shown on the stored gazette page."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-02/extra-67806931cc/2026-10-14/official.html",
+    "sha256": "97b6b3dd844fb7aa66f3708ea711e787cf259d44572b91e1bc8812f997b0d2e1",
+    "locator": "law header (English translation)",
+    "quote": "The National Assembly hereby promulgates the Law on Artificial Intelligence.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-02/2026-10-12/official.pdf",
+    "sha256": "53be2f9993e5060cc0ce723fc506d6535c9358978dbbeff11324c8d6236cae69",
+    "locator": "page 1, preamble",
+    "quote": "Quốc hội ban hành Luật Trí tuệ nhân tạo.",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/VN-02/2026-10-12/official.pdf",
+    "sha256": "53be2f9993e5060cc0ce723fc506d6535c9358978dbbeff11324c8d6236cae69",
+    "locator": "page 1, title",
+    "quote": "LUẬT TRÍ TUỆ NHÂN TẠO",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-02/2026-10-12/secondary.html",
+    "sha256": "62b3ec18a4fcb5e55196e09c088085345694eff49e76c82a1904c0a033902bac",
+    "locator": "page heading",
+    "quote": "Luật số 134/2025/QH15 luật Trí tuệ nhân tạo",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-02/extra-67806931cc/2026-10-14/official.html",
+    "sha256": "97b6b3dd844fb7aa66f3708ea711e787cf259d44572b91e1bc8812f997b0d2e1",
+    "locator": "law header (English translation)",
+    "quote": "Law No: 134/2025/QH15",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-02/2026-10-12/official.pdf",
+    "sha256": "53be2f9993e5060cc0ce723fc506d6535c9358978dbbeff11324c8d6236cae69",
+    "locator": "page 1, header (OCR reads QH15 as QHI5)",
+    "quote": "Luật số: 134/2025/QHI5",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-02/2026-10-12/secondary.html",
+    "sha256": "62b3ec18a4fcb5e55196e09c088085345694eff49e76c82a1904c0a033902bac",
+    "locator": "page heading",
+    "quote": "Luật số 134/2025/QH15 luật Trí tuệ nhân tạo",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/VN-02/2026-10-12/official.pdf",
+    "sha256": "53be2f9993e5060cc0ce723fc506d6535c9358978dbbeff11324c8d6236cae69",
+    "locator": "page 20, closing formula",
+    "quote": "Luật này được Quốc hội nước Cong hoa xã hội chủ nghĩa Việt Nam khóa XV, Ky họp thứ 10 thông qua ngày 10 tháng 12 năm 2025",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-02/extra-67806931cc/2026-10-14/official.html",
+    "sha256": "97b6b3dd844fb7aa66f3708ea711e787cf259d44572b91e1bc8812f997b0d2e1",
+    "locator": "law header (English translation)",
+    "quote": "Law No: 134/2025/QH15 Ha Noi, December 10, 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/VN-02/extra-2fff916c0f/2026-10-14/official.html",
+    "sha256": "7fcddba90ef814042d7cfc425f02e36a1a42fa181bc8aab773b440c2b43022e7",
+    "locator": "lead paragraph",
+    "quote": "Quốc hội đã biểu quyết thông qua Luật Trí tuệ nhân tạo, với 429/434 tổng số ĐBQH có mặt tán thành, đạt 98,8%.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-02/2026-10-12/official.pdf",
+    "sha256": "53be2f9993e5060cc0ce723fc506d6535c9358978dbbeff11324c8d6236cae69",
+    "locator": "page 20, closing formula",
+    "quote": "Ky họp thứ 10 thông qua ngày 10 tháng 12 năm 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-02/2026-10-12/secondary.html",
+    "sha256": "62b3ec18a4fcb5e55196e09c088085345694eff49e76c82a1904c0a033902bac",
+    "locator": "document header",
+    "quote": "Ban hành: 10/12/2025",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/VN-02/2026-10-12/official.pdf",
+    "sha256": "53be2f9993e5060cc0ce723fc506d6535c9358978dbbeff11324c8d6236cae69",
+    "locator": "page 19, Article 34",
+    "quote": "Luật này có hiệu lực thi hành từ ngày 01 tháng 3 năm 2026, trừ các nội dung",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-02/2026-10-12/secondary.html",
+    "sha256": "62b3ec18a4fcb5e55196e09c088085345694eff49e76c82a1904c0a033902bac",
+    "locator": "document header",
+    "quote": "Hiệu lực: 01/03/2026",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/VN-02/2026-10-12/official.pdf",
+    "sha256": "53be2f9993e5060cc0ce723fc506d6535c9358978dbbeff11324c8d6236cae69",
+    "locator": "page 19, Article 34",
+    "quote": "Điều 34. Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 3 năm 2026",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/VN-02/2026-10-12/official.pdf",
+    "sha256": "53be2f9993e5060cc0ce723fc506d6535c9358978dbbeff11324c8d6236cae69",
+    "locator": "page 1, preamble",
+    "quote": "Quốc hội ban hành Luật Trí tuệ nhân tạo.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Article 34: the Law takes effect from 1 March 2026, except for content covered by Article 35 (transition). Article 35 gives systems already in operation 18 months (health, education, finance), i.e. until 1 Sept 2027, or 12 months (others), i.e. until 1 March 2027, to comply. On 14 Oct 2026 the Law is in force; the transition periods for existing systems are still running and are recorded in notes. No stored file shows an amendment or repeal.",
+  "scope_reasoning": null,
+  "changes": {
+   "summary": "Rewritten from the Vietnamese text. The claim that the Law 'treats data, computing and safe AI infrastructure as strategic national assets' misread Art. 5(4), which only makes it state policy to prioritise investment in data and computing infrastructure, safe AI, skilled people and shared AI platforms 'mang tính chiến lược quốc gia' (of national strategic character); that provision is now in notes. 'First dedicated AI law' and the vote count, which the stored Law text does not show, were taken out of the summary (the vote moves to notes). Added from the text: self-classification and notification (Art. 10), conformity assessment (Art. 13), prohibited acts (Art. 7(2)), transparency and labelling (Art. 11), serious incidents (Art. 12), ethics framework (Art. 26), controlled testing (Arts 5, 21).",
+   "notes": "Risk definitions rendered closer to Art. 9(1) (adds national interests and 'influence'); Art. 4 rendered literally ('all decisions and behaviour'); Arts 5(4), 27 and 29 added; the remark on which source was used before the signed text was found moved to verification.note; the gazette date of 22 Jan 2026 dropped because the stored gazette page does not show it.",
+   "english_version": "Viet Nam Government News' English translation of the full Law is now a stored source.",
+   "verification.note": "Rewritten to say what the stored files confirm, including the translation and the vote report."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "official_identifier",
+   "issuing_body",
+   "date_published",
+   "date_in_force",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The OCR reads the number as '134/2025/QHI5'; the gazette page gives '134/2025/QH15'."
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "cand_id": "VN-06",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "VN-06",
+ "record": {
+  "summary": "Circular of the Minister of Science and Technology issuing the national AI ethics framework. It applies to state management agencies and to organisations and individuals developing, providing, deploying or using AI systems for state management or public services; others are encouraged to apply it. Four principle groups: safety, reliability and no harm (safe design from the outset, pre-deployment testing, human control, protection against data and model poisoning); human and citizens' rights, fairness, transparency and non-discrimination; well-being, prosperity and sustainable development; innovation and social responsibility. Annexes add guidance per actor and a self-assessment form.",
+  "notes": "Issued and in force on 10 March 2026. Article 26 of the Law on Artificial Intelligence (No. 134/2025/QH15, VN-02) provides for the national AI ethics framework, and Decision 367/QĐ-TTg (VN-03) scheduled its adoption; the four principle groups follow Article 26(1) of the Law. The circular is mandatory only for AI used in state management and public services; other Vietnamese and foreign organisations and individuals are encouraged to apply it (Art. 1(3)). The Ministry of Science and Technology is to issue governance and compliance-assessment guidance and build a digital platform and automated tools for self-assessment, and the framework is reviewed every three years or after major technological, legal or management changes (Art. 5).",
+  "verification": {
+   "note": "Circular text (9-page PDF with a text layer, including both annexes) stored from the Tây Ninh provincial portal's file server (storage-vnportal.vnpt.vn). Its number and date fields are blank ('Số: /2026/TT-BKHCN'; in force 'ngày ... tháng 3 năm 2026'), so it may be the text as prepared for signature, although it carries the Minister's name (Nguyễn Mạnh Hùng). It confirms the title, legal basis, scope (Art. 1), definitions, the four principle groups (Art. 3), Art. 5 and both annexes, and dates the circular to March 2026. The number 05/2026/TT-BKHCN and the issue and effective date of 10 Mar 2026 come from the stored Can Tho legal-education portal page, which the archiver stored as a secondary source (it writes the number once as '05/2026/TT-BKCN'). The links to Article 26 of the Law on AI and to Decision 367/QĐ-TTg rest on the stored copies of VN-02 and VN-03. The Ministry of Science and Technology's own publication of the signed circular is not stored. No English text of the circular was found, only English news items about it."
+  }
+ },
+ "evidence": {
+  "title": [
+   {"file": "archive/VN-06/2026-10-11/official.pdf", "sha256": "dc43f0125df6586a6f5569c36c9fc1cd22501b77cfe413e2d1ab5a3ec5e8c941", "locator": "page 1, title under THÔNG TƯ", "quote": "Ban hành Khung đạo đức trí tuệ nhân tạo quốc gia", "source_kind": "official"},
+   {"file": "archive/VN-06/2026-10-14/secondary.html", "sha256": "4858551b574f3873d938b1ee15905041c7a0d79e55ad9476b04f9b242f358f3b", "locator": "first paragraph", "quote": "Thông tư số 05/2026/TT-BKHCN về việc ban hành Khung đạo đức trí tuệ nhân tạo quốc gia", "source_kind": "secondary"}
+  ],
+  "original_title": [
+   {"file": "archive/VN-06/2026-10-11/official.pdf", "sha256": "dc43f0125df6586a6f5569c36c9fc1cd22501b77cfe413e2d1ab5a3ec5e8c941", "locator": "page 1, title under THÔNG TƯ", "quote": "Ban hành Khung đạo đức trí tuệ nhân tạo quốc gia", "source_kind": "official"},
+   {"file": "archive/VN-06/2026-10-14/secondary.html", "sha256": "4858551b574f3873d938b1ee15905041c7a0d79e55ad9476b04f9b242f358f3b", "locator": "first paragraph", "quote": "Thông tư số 05/2026/TT-BKHCN về việc ban hành Khung đạo đức trí tuệ nhân tạo quốc gia", "source_kind": "secondary"}
+  ],
+  "issuing_body": [
+   {"file": "archive/VN-06/2026-10-11/official.pdf", "sha256": "dc43f0125df6586a6f5569c36c9fc1cd22501b77cfe413e2d1ab5a3ec5e8c941", "locator": "page 1, enacting formula", "quote": "Bộ trưởng Bộ Khoa học và Công nghệ ban hành Thông tư ban hành Khung đạo đức trí tuệ nhân tạo quốc gia.", "source_kind": "official"},
+   {"file": "archive/VN-06/2026-10-11/official.pdf", "sha256": "dc43f0125df6586a6f5569c36c9fc1cd22501b77cfe413e2d1ab5a3ec5e8c941", "locator": "page 4, signature block", "quote": "BỘ TRƯỞNG Nguyễn Mạnh Hùng", "source_kind": "official"}
+  ],
+  "official_identifier": [
+   {"file": "archive/VN-06/2026-10-14/secondary.html", "sha256": "4858551b574f3873d938b1ee15905041c7a0d79e55ad9476b04f9b242f358f3b", "locator": "first paragraph", "quote": "Ngày 10/3/2026, Bộ trưởng Bộ Khoa học và Công nghệ ban hành Thông tư số 05/2026/TT-BKHCN", "source_kind": "secondary"},
+   {"file": "archive/VN-06/2026-10-11/official.pdf", "sha256": "dc43f0125df6586a6f5569c36c9fc1cd22501b77cfe413e2d1ab5a3ec5e8c941", "locator": "page 1, number line (number left blank)", "quote": "Số: /2026/TT-BKHCN Hà Nội, ngày tháng năm 2026", "source_kind": "official"}
+  ],
+  "date_published": [
+   {"file": "archive/VN-06/2026-10-14/secondary.html", "sha256": "4858551b574f3873d938b1ee15905041c7a0d79e55ad9476b04f9b242f358f3b", "locator": "first paragraph", "quote": "Ngày 10/3/2026, Bộ trưởng Bộ Khoa học và Công nghệ ban hành Thông tư số 05/2026/TT-BKHCN", "source_kind": "secondary"},
+   {"file": "archive/VN-06/2026-10-11/official.pdf", "sha256": "dc43f0125df6586a6f5569c36c9fc1cd22501b77cfe413e2d1ab5a3ec5e8c941", "locator": "page 5, Annex I heading (month only; day left blank)", "quote": "/2026/TT-BKHCN ngày tháng 03 năm 2026 của Bộ trưởng Bộ Khoa học và Công nghệ", "source_kind": "official"}
+  ],
+  "date_in_force": [
+   {"file": "archive/VN-06/2026-10-14/secondary.html", "sha256": "4858551b574f3873d938b1ee15905041c7a0d79e55ad9476b04f9b242f358f3b", "locator": "paragraph before the related-news list", "quote": "Thông tư số 05/2026/TT-BKCN có hiệu lực từ ngày 10/3/2026.", "source_kind": "secondary"},
+   {"file": "archive/VN-06/2026-10-11/official.pdf", "sha256": "dc43f0125df6586a6f5569c36c9fc1cd22501b77cfe413e2d1ab5a3ec5e8c941", "locator": "page 4, Art. 4 (day left blank)", "quote": "Thông tư này có hiệu lực thi hành kể từ ngày tháng 3 năm 2026.", "source_kind": "official"}
+  ],
+  "status": [
+   {"file": "archive/VN-06/2026-10-11/official.pdf", "sha256": "dc43f0125df6586a6f5569c36c9fc1cd22501b77cfe413e2d1ab5a3ec5e8c941", "locator": "page 4, Art. 4: the commencement rule", "quote": "Thông tư này có hiệu lực thi hành kể từ ngày tháng 3 năm 2026.", "source_kind": "official"},
+   {"file": "archive/VN-06/2026-10-14/secondary.html", "sha256": "4858551b574f3873d938b1ee15905041c7a0d79e55ad9476b04f9b242f358f3b", "locator": "paragraph before the related-news list: the event", "quote": "Thông tư số 05/2026/TT-BKCN có hiệu lực từ ngày 10/3/2026.", "source_kind": "secondary"}
+  ],
+  "legal_force": [
+   {"file": "archive/VN-06/2026-10-11/official.pdf", "sha256": "dc43f0125df6586a6f5569c36c9fc1cd22501b77cfe413e2d1ab5a3ec5e8c941", "locator": "page 1, Art. 1(2)", "quote": "Thông tư này áp dụng đối với cơ quan quản lý nhà nước, tổ chức, cá nhân dưới vai trò nhà phát triển, nhà cung cấp, bên triển khai hoặc người sử dụng hệ thống trí tuệ nhân tạo phục vụ hoạt động quản lý nhà nước hoặc cung cấp dịch vụ công.", "source_kind": "official"}
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Rule: Art. 4 of the stored text says the circular takes effect from a day in March 2026 (day left blank in the stored copy). Event: the Can Tho page says it was issued on 10 March 2026 and is effective from 10 March 2026. Arithmetic: March 2026 is seven months before today (14 October 2026). No later amendment or repeal appears in the stored files. Status 'In force'.",
+  "scope_reasoning": "An AI-specific ethics and risk-governance framework binding on public-sector AI use; clearly in scope, no scope_note.",
+  "changes": {
+   "summary": "Renders the four principle groups as the circular words them (Art. 3; 'Thúc đẩy hạnh phúc, thịnh vượng và sự phát triển bền vững' as well-being, prosperity and sustainable development; 'đổi mới sáng tạo và trách nhiệm xã hội' as innovation and social responsibility) instead of paraphrases; 'Thiết kế an toàn ngay từ đầu' as safe design from the outset; adds individuals to the scope of Art. 1(2); removes 'under Article 26(5)', which the circular does not cite; describes both annexes (guidance by group of actors; self-assessment form).",
+   "notes": "Removes the hedge 'according to the Can Tho provincial legal-education portal and legal databases' and the remark on the blank number fields of the stored copy (both belong in verification.note); adds the Article 26 link to the Law and Art. 1(3) and Art. 5.",
+   "verification": "Rewritten without the duplicated sentence; says which file supports which fact and that the Can Tho page counts as a secondary source."
+  },
+  "confirmed": ["title", "original_title", "issuing_body", "official_identifier", "date_published", "date_in_force", "status", "legal_force"]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The stored circular has blank number and date fields; the number and the day (10 March 2026) rest on the Can Tho Department of Justice page, which the archiver stores as a secondary source. A signed copy from the Ministry of Science and Technology, the Government legal-documents portal or the Official Gazette (Công báo) would settle them; no URL for one is known from the stored files or the translation check.",
+  "english_version stays 'none found' (unchanged): the stored files and the translation check show no English text of the circular."
+ ]
+}

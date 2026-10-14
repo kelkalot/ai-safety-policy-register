@@ -1,0 +1,156 @@
+{
+ "cand_id": "DK-02",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "DK-02",
+ "record": {
+  "summary": "Would amend the Copyright Act to make it unlawful to share realistic digitally generated imitations of a person's personal characteristics, such as appearance and voice, or of performing artists' performances, without consent. An exception covers caricature, parody, satire and criticism of power and society, but not imitations that are misinformation able to seriously endanger others' rights or essential interests or to create a concrete danger to life or property. The bill also protects performances that are not artistic works, such as improvisations, and aims to secure the right to one's own body and voice and to get the tech giants to take manipulated content down quickly.",
+  "safety_topics": [
+   "deepfakes & synthetic media",
+   "accountability & liability"
+  ],
+  "notes": "Implements the political agreement of 26 June 2025 between the then SVM government (Social Democrats, Venstre and Moderates) and six other parties to create protection against the sharing of digital imitations by amending the Copyright Act. A draft was notified under the EU TRIS procedure as 2025/0654/DK (received 31 October 2025, replacing the withdrawn notification 2025/642/DK; standstill to 3 February 2026, with comments from the Commission). The notified draft would add a Section 73a (personal characteristics) and a Section 65a (performances and artistic presentations) to the Copyright Act, protect both until 50 years after the year of death of the person imitated or the performer, let courts order infringing copies removed from the medium where they are made available, and enter into force on 1 July 2026; its exception did not yet mention danger to life or property. Culture Minister Zenia Stampe introduced the bill on 8 October 2026 and hopes it can enter into force at the turn of the year 2026/27. The bill also changes the rules of the Copyright Licence Tribunal (Ophavsretslicensnævnet) so that the same dispute cannot run before the tribunal and the courts in parallel. The English title is that of the notified draft.",
+  "verification": {
+   "note": "Stored: the Ministry of Culture press release of 8 Oct 2026 (kum.dk, Danish), which describes the bill as introduced and is not the bill text; the TRIS notification page for 2025/0654/DK and the English text of the notified draft on TRIS (European Commission); and the EU IP Helpdesk news item of 1 Jun 2026 (English, stored as a secondary source). The summary rests on the press release; the notes on the notified draft rest on the TRIS English text, which may differ from the bill as introduced (the press release's exception adds danger to life or property). No stored file contains the Danish title, so original_title ('Forslag til lov om ændring af ophavsretsloven (værn mod digitale efterligninger)') is unverified and probably not the official wording, and the Folketing bill number is not known; a Folketing (ft.dk) page for the bill has not been located."
+  },
+  "title": "Bill amending the Copyright Act (introduction of performance protection and protection against digitally generated imitations, etc.)",
+  "official_identifier": "TRIS notification 2025/0654/DK",
+  "english_version": {
+   "kind": "government translation",
+   "url": "https://technical-regulation-information-system.ec.europa.eu/en/notification/27420/text/D/EN",
+   "by": "European Commission (TRIS), English text of the draft notified as 2025/0654/DK"
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/DK-02/extra-5c540a2acf/2026-10-14/official.html",
+    "sha256": "58c5f7e9d7deb9eb36cdd8ae5fda35d222e2ffefd1aceae35d1e12d9a7de1d11",
+    "locator": "TRIS notification detail, title",
+    "quote": "Act amending the Copyright Act (Introduction of performance protection and protection against digitally generated imitations, etc.)",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/DK-02/extra-f5e84c4cca/2026-10-14/official.pdf",
+    "sha256": "fa95c038a2c43400b7f6616d178887bbc451c5fe887a61ede4d77534d8b82305",
+    "locator": "page 1, title of the draft act (English text)",
+    "quote": "Draft act amending the Copyright Act",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/DK-02/2026-10-11/official.html",
+    "sha256": "96aefee4bc0d989d142b03d014e5e2e700e9d432572cf700c1c94ce73eafea48",
+    "locator": "Fakta om lovforslaget, first paragraph",
+    "quote": "om at skabe et værn mod deling af digitale efterligninger ved at ændre ophavsretsloven.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/DK-02/2026-10-11/official.html",
+    "sha256": "96aefee4bc0d989d142b03d014e5e2e700e9d432572cf700c1c94ce73eafea48",
+    "locator": "Fakta om lovforslaget, second paragraph",
+    "quote": "en generel beskyttelse mod virkelighedsnære digitalt genererede efterligninger af personlige kendetegn",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/DK-02/2026-10-11/secondary.html",
+    "sha256": "354d0a0841788a18da23bcdc653bac19748c67070d9ab598c51b673e25e7fa3c",
+    "locator": "first paragraph",
+    "quote": "Denmark has notified a draft act amending its Copyright Act to address realistic digitally generated imitations, commonly known as 'deepfakes'.",
+    "source_kind": "secondary"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/DK-02/2026-10-11/official.html",
+    "sha256": "96aefee4bc0d989d142b03d014e5e2e700e9d432572cf700c1c94ce73eafea48",
+    "locator": "press release, second paragraph",
+    "quote": "Kulturminister Zenia Stampe fremsætter i dag et lovforslag, der skal sikre retten til egen krop og stemme.",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/DK-02/extra-5c540a2acf/2026-10-14/official.html",
+    "sha256": "58c5f7e9d7deb9eb36cdd8ae5fda35d222e2ffefd1aceae35d1e12d9a7de1d11",
+    "locator": "TRIS notification detail",
+    "quote": "Notification Number: 2025/0654/DK (Denmark)",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/DK-02/2026-10-11/secondary.html",
+    "sha256": "354d0a0841788a18da23bcdc653bac19748c67070d9ab598c51b673e25e7fa3c",
+    "locator": "first paragraph",
+    "quote": "The Danish notification is registered as 2025/0654/DK.",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/DK-02/2026-10-11/official.html",
+    "sha256": "96aefee4bc0d989d142b03d014e5e2e700e9d432572cf700c1c94ce73eafea48",
+    "locator": "date line of the press release",
+    "quote": "08.10.2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/DK-02/2026-10-11/official.html",
+    "sha256": "96aefee4bc0d989d142b03d014e5e2e700e9d432572cf700c1c94ce73eafea48",
+    "locator": "press release, second paragraph",
+    "quote": "Kulturminister Zenia Stampe fremsætter i dag et lovforslag, der skal sikre retten til egen krop og stemme.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/DK-02/2026-10-11/official.html",
+    "sha256": "96aefee4bc0d989d142b03d014e5e2e700e9d432572cf700c1c94ce73eafea48",
+    "locator": "press release, second paragraph: the event (introduction)",
+    "quote": "Kulturminister Zenia Stampe fremsætter i dag et lovforslag, der skal sikre retten til egen krop og stemme.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/DK-02/2026-10-11/official.html",
+    "sha256": "96aefee4bc0d989d142b03d014e5e2e700e9d432572cf700c1c94ce73eafea48",
+    "locator": "minister's quotation: the target date",
+    "quote": "Teknologien udvikler sig lynhurtigt, så jeg håber, loven kan træde i kraft allerede ved årsskiftet.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/DK-02/2026-10-11/official.html",
+    "sha256": "96aefee4bc0d989d142b03d014e5e2e700e9d432572cf700c1c94ce73eafea48",
+    "locator": "press release, second paragraph",
+    "quote": "Med lovforslaget bliver det ulovligt at dele eksempelvis virkelighedstro gengivelser af en person, herunder vedkommendes udseende og stemme.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Event: the Ministry of Culture's press release dated 8 October 2026 says the minister introduces the bill 'today' and hopes the law can enter into force at the turn of the year. Today is 14 October 2026, six days later; nothing stored shows adoption. A bill before parliament: legal_force 'Proposed', status 'Draft / proposed' (confirmed).",
+  "scope_reasoning": "The bill amends the Copyright Act, but the amendment's subject is protection against realistic digitally generated imitations (deepfakes), so its content is AI-specific and it is Denmark's operative instrument on deepfakes. In scope; no scope_note, as before.",
+  "changes": {
+   "summary": "Renders the exception as the press release states it: caricature, parody, satire and 'magt- og samfundskritik' (criticism of power and society, not only 'social criticism'), with both carve-backs (misinformation that can seriously endanger others' rights or essential interests, or create a concrete danger to life or property). Uses the bill's term 'virkelighedsnære digitalt genererede efterligninger af personlige kendetegn' (realistic digitally generated imitations of personal characteristics) instead of 'deepfakes'; 'udøvende kunstnere' as performing artists. Adds the protection of non-artistic performances; says 'tech giants' as the release does instead of 'platforms'; drops 'copyright-based right', which the release does not say.",
+   "safety_topics": "Removes 'transparency & labelling': nothing in the stored description of the bill concerns labelling or disclosure.",
+   "notes": "Adds the parties to the 26 Jun 2025 agreement and the Copyright Licence Tribunal change; removes 'it was not enacted in time' (an inference) and 'in the new parliamentary session' (not in the stored release); moves 'The Folketing bill number was not verified' to verification.note. Adds the TRIS dates, the earlier notification number and the content of the notified draft (Sections 73a and 65a, 50-year protection, removal orders, planned entry into force 1 July 2026).",
+   "verification": "Rewritten: names the stored TRIS files and says that original_title and the bill number remain unverified.",
+   "title": "Was a descriptive expansion ('... realistic digital imitations (deepfakes) of personal characteristics and performances'); now the title of the notified draft as the European Commission's TRIS notification renders it, the nearest official English title stored.",
+   "official_identifier": "Drops the descriptor '(draft)'; the TRIS number is the only identifier in the stored files.",
+   "english_version": "Was not recorded: the stored TRIS English text of the notified draft is a translation published by the European Commission, so 'government translation'; it covers the 2025 draft, not necessarily the bill as introduced."
+  },
+  "confirmed": [
+   "issuing_body",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "original_title ('Forslag til lov om ændring af ophavsretsloven (værn mod digitale efterligninger)') is in no stored file and is left unchanged; the TRIS title of the notified draft suggests the official Danish parenthetical differs. The Folketing page or the Danish TRIS text would settle it.",
+  "official_identifier is the TRIS number of the notified 2025 draft; the Folketing bill number (L-number) of the bill introduced on 8 Oct 2026 is not in any stored file.",
+  "english_version and the English title come from the notified draft of October 2025; the bill introduced on 8 Oct 2026 may differ in wording (its exception, as the press release describes it, is wider)."
+ ]
+}

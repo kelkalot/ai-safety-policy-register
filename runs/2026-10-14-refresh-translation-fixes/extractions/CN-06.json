@@ -1,0 +1,124 @@
+{
+ "cand_id": "CN-06",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "CN-06",
+ "record": {
+  "summary": "TC260 technical document setting the basic security requirements that generative AI service providers must follow, in support of the Interim Measures for generative AI services. It covers corpus security (sources with over 5% illegal and unhealthy information are excluded), model security, security measures, keyword libraries and test question banks, and the security assessment that providers report on when they complete filing procedures. Appendix A lists 31 main security risks of corpora and generated content. Providers must also watch long-term risks such as AI able to deceive humans, self-replicate or self-modify, and its use for malware or biological or chemical weapons.",
+  "notes": "Released 29 Feb 2024; a preliminary draft had been published in October 2023. It was designed to inform a national standard, and its content was taken up in the recommended national standard GB/T 45654-2025 (CN-10), published 25 Apr 2025 and effective 1 Nov 2025.",
+  "verification": {
+   "note": "CAUTION: not confirmed on an official page. The official URL now serves the redesigned TC260 homepage, with no trace of the document, in all stored forms. Title, original title, identifier TC260-003, issuer, release date (29 Feb 2024), scope and the summary's content rest on CSET's unofficial English translation (secondary): its page and the full translation PDF are stored. No Chinese text is stored; the translation names the Chinese source as tc260.org.cn/upload/2024-03-01/1709282398070082466.pdf, and copies at perma.cc (HTTP 403, browser timeout) and c-csa.cn (robots.txt) could not be stored in the earlier run. The authors' own English title, as CSET reports it, renders 安全 as 'security', and the summary follows it; CSET's translation uses 'safety'. 'Superseded' is a judgment: no TC260 withdrawal notice was found, and GB/T 45654-2025 (CN-10) took up the content."
+  },
+  "safety_topics": [
+   "general-purpose / frontier AI",
+   "evaluation & testing",
+   "catastrophic risk"
+  ]
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/CN-06/2026-10-14/secondary.html",
+    "sha256": "3eec0c742e05510ff62977a9bcf02344f5fc06a9ae62b1e6648495414688e455",
+    "locator": "translator's note on the title",
+    "quote": "The Chinese authors of this documentation provided the following English translation of its title: “Basic security requirements for generative artificial intelligence service.”",
+    "source_kind": "secondary"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/CN-06/2026-10-14/secondary.html",
+    "sha256": "3eec0c742e05510ff62977a9bcf02344f5fc06a9ae62b1e6648495414688e455",
+    "locator": "page heading (Chinese title)",
+    "quote": "全国网络安全标准化技术委员会技术文件：生成式人工智能服务安全基本要求",
+    "source_kind": "secondary"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/CN-06/2026-10-14/secondary.html",
+    "sha256": "3eec0c742e05510ff62977a9bcf02344f5fc06a9ae62b1e6648495414688e455",
+    "locator": "Preface",
+    "quote": "This document is released by National Technical Committee 260 on Cybersecurity of Standardization Administration of China (SAC/TC260).",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/CN-06/2026-10-14/secondary.html",
+    "sha256": "3eec0c742e05510ff62977a9bcf02344f5fc06a9ae62b1e6648495414688e455",
+    "locator": "metadata: Source / Originally Published",
+    "quote": "SAC/TC260 website Originally Published February 29, 2024",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-06/extra-d7a623778f/2026-10-14/official.pdf",
+    "sha256": "3951d99be18f45f2b6eb10b47696cd8e7732a03a2659de6b6153f7d982b1da71",
+    "locator": "page 2",
+    "quote": "Released on February 29, 2024 Released by National Technical Committee 260 on Cybersecurity of Standardization Administration of China",
+    "source_kind": "secondary"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/CN-06/2026-10-14/secondary.html",
+    "sha256": "3eec0c742e05510ff62977a9bcf02344f5fc06a9ae62b1e6648495414688e455",
+    "locator": "introduction",
+    "quote": "The following Chinese technical documentation on generative AI—designed to inform a future Chinese national standard on the topic—establishes very specific oversight processes",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/CN-06/2026-10-14/secondary.html",
+    "sha256": "3eec0c742e05510ff62977a9bcf02344f5fc06a9ae62b1e6648495414688e455",
+    "locator": "Related Content",
+    "quote": "National Standard of the People’s Republic of China: Cybersecurity Technology – Basic Safety Requirements for Generative Artificial Intelligence Services (Draft for Feedback)",
+    "source_kind": "secondary"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/CN-06/2026-10-14/secondary.html",
+    "sha256": "3eec0c742e05510ff62977a9bcf02344f5fc06a9ae62b1e6648495414688e455",
+    "locator": "1 Scope",
+    "quote": "This document applies to service providers carrying out safety assessments and improving their safety levels, and also provides the relevant main oversight department (主管部门) a reference for judging the safety levels of generative AI services.",
+    "source_kind": "secondary"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-06/extra-d7a623778f/2026-10-14/official.pdf",
+    "sha256": "3951d99be18f45f2b6eb10b47696cd8e7732a03a2659de6b6153f7d982b1da71",
+    "locator": "page 1, title block",
+    "quote": "Technical Documentation of National Technical Committee 260 on Cybersecurity of Standardization Administration of China TC260-003",
+    "source_kind": "secondary"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Events: TC260 released the technical document on 29 Feb 2024 (CSET metadata). CSET describes it as 'designed to inform a future Chinese national standard on the topic' and lists a later draft national standard with the same title (Draft for Feedback). The register's CN-10 record (level A) shows that standard published as GB/T 45654-2025 on 25 Apr 2025 and in effect from 1 Nov 2025. No stored file shows a withdrawal notice. A technical document whose content a national standard in force has taken up is replaced in practice, so 'Superseded' stays as a judgment resting on secondary evidence.",
+  "scope_reasoning": "In scope with no note: a government standards committee's technical document on the security of generative AI services.",
+  "changes": {
+   "summary": "Return round (14 Oct 2026): rewritten from the full CSET translation, now stored. Restored, with evidence, the link to filing under the Interim Measures (section 4 and 9.1: assessment reports are submitted for filing) and the 31 risks of Appendix A (A.1 to A.5: 8 + 9 + 5 + 7 + 2). Added the 5% corpus threshold (5.1) and the long-term risks in section 4. 安全 stays 'security', as in the authors' English title. First pass: removed '31' and the filing link because no stored file then had them.",
+   "notes": "Removed 'Status Superseded is our assessment: we found no formal TC260 withdrawal notice' and the remark on the secondary URL (both now in verification.note), 'CSET notes that ...' (source wording), and the 1 Mar 2024 posting date (in no stored file). Added the October 2023 preliminary draft.",
+   "verification": "Return round (14 Oct 2026): rewritten: the full translation is stored and gives the identifier; the Chinese text is still missing.",
+   "safety_topics": "Return round (14 Oct 2026): added 'catastrophic risk': section 4 asks providers to watch AI able to deceive humans, self-replicate or self-modify, and its use to create biological or chemical weapons."
+  },
+  "english_version": "Unchanged: third-party translation; the CSET page (archive/CN-06/2026-10-14/secondary.html) and the full PDF are stored. The PDF names Etcetera Language Group, Inc. as translator and CSET's translation manager as editor.",
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "official_identifier",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "No Chinese text is stored, so the summary follows CSET's unofficial translation, not the original. The full translation names the Chinese source as https://www.tc260.org.cn/upload/2024-03-01/1709282398070082466.pdf; it was not requested in this run (the TC260 site has been redesigned) and could be tried in a later refresh.",
+  "The official URL (tc260.org.cn/portal/article/2/20240301164054) no longer leads to the document; a human may keep it as a dead link or replace it. Level stays C."
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "cand_id": "CN-16",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "CN-16",
+ "record": {
+  "summary": "Regulates AI services that simulate a natural person's personality, thinking and communication style to provide continuing emotional interaction. It bans virtual intimate-relationship services, such as virtual relatives or partners, for minors, and requires guardian consent for under-14s and a minor mode. Providers must disclose that users are dealing with AI, remind them after every 2 hours of continuous use, guard against emotional dependence, intervene in self-harm crises, offer an easy exit and not train on sensitive interaction data without separate consent. Security assessments are due at launch, after major changes and at 1 million registered or 100,000 monthly active users.",
+  "notes": "Adopted at the third CAC office meeting of 2026 on 2 Feb 2026 with the agreement of NDRC, MIIT, MPS and SAMR, promulgated on 10 Apr 2026 as Order No. 21, in force from 15 Jul 2026, and published in the State Council Gazette, 2026 No. 17. It has 32 articles in four chapters. Emotional interaction covers emotional care, companionship, support and similar services in text, images, audio or video; services such as intelligent customer service, knowledge Q&A, work assistants, education and scientific research that involve no continuing emotional interaction are excluded (Art. 2). Providers must file their algorithms under the algorithmic recommendation provisions (Art. 26). Violations are punished under existing laws and administrative regulations; where these have no provision, the authorities may warn, circulate criticism and order correction, and for refusal or serious cases order the service stopped and may impose a fine of RMB 10,000 to 100,000, or of RMB 100,000 to 200,000 where citizens' life or health is endangered with harmful consequences (Art. 30). It also provides for an AI sandbox security service platform for innovation and safety testing (Art. 28).",
+  "verification": {
+   "note": "CAC page stored (11 Oct 2026): Order No. 21 with the promulgation clause and the five signatories, and the full text of the Measures, Arts. 1-32 in four chapters. The State Council Gazette page (2026 No. 17, stored on 14 Oct 2026 as a secondary copy) carries the same text with the adoption, promulgation and in-force dates. Summary and notes were checked against the Chinese text in October 2026. Earlier notes said the draft for comment was released on 27 Dec 2025; no stored file shows that date, so it was removed. The stored China Law Translate page (chinalawtranslate.com/human-like-ai/) holds the Chinese text of the final Measures, not a translation; it links an English version at /en/human-like-ai/, which is not stored. No English version from a public body was found."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/CN-16/2026-10-11/official.html",
+    "sha256": "24cd9922b4490808c2500b3105a3f7817d7572d111aa790ab174b8f45d4e47db",
+    "locator": "Order No. 21, promulgation clause",
+    "quote": "《人工智能拟人化互动服务管理暂行办法》已经2026年2月2日国家互联网信息办公室2026年第3次室务会会议审议通过",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/CN-16/2026-10-11/official.html",
+    "sha256": "24cd9922b4490808c2500b3105a3f7817d7572d111aa790ab174b8f45d4e47db",
+    "locator": "Order No. 21, promulgation clause",
+    "quote": "《人工智能拟人化互动服务管理暂行办法》已经2026年2月2日国家互联网信息办公室2026年第3次室务会会议审议通过",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/CN-16/2026-10-11/official.html",
+    "sha256": "24cd9922b4490808c2500b3105a3f7817d7572d111aa790ab174b8f45d4e47db",
+    "locator": "Order No. 21, heading",
+    "quote": "国家互联网信息办公室 中华人民共和国国家发展和改革委员会 中华人民共和国工业和信息化部 中华人民共和国公安部 国家市场监督管理总局",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/CN-16/2026-10-11/official.html",
+    "sha256": "24cd9922b4490808c2500b3105a3f7817d7572d111aa790ab174b8f45d4e47db",
+    "locator": "Order No. 21, heading",
+    "quote": "国家市场监督管理总局 令 第21号",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CN-16/2026-10-14/secondary.html",
+    "sha256": "1205ca842f6d4af9d3984ac64ff98a0ce2fcc1a13f32f1a2ba8693881fdfc186",
+    "locator": "State Council Gazette 2026 No. 17, headnote",
+    "quote": "2026年4月10日国家网信办、国家发展改革委、工业和信息化部、公安部、市场监管总局令第21号公布",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/CN-16/2026-10-11/official.html",
+    "sha256": "24cd9922b4490808c2500b3105a3f7817d7572d111aa790ab174b8f45d4e47db",
+    "locator": "Order No. 21, signatures and date",
+    "quote": "国家市场监督管理总局局长 罗 文 2026年4月10日",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CN-16/2026-10-14/secondary.html",
+    "sha256": "1205ca842f6d4af9d3984ac64ff98a0ce2fcc1a13f32f1a2ba8693881fdfc186",
+    "locator": "State Council Gazette 2026 No. 17, headnote",
+    "quote": "2026年4月10日国家网信办、国家发展改革委、工业和信息化部、公安部、市场监管总局令第21号公布",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/CN-16/2026-10-11/official.html",
+    "sha256": "24cd9922b4490808c2500b3105a3f7817d7572d111aa790ab174b8f45d4e47db",
+    "locator": "Art. 32",
+    "quote": "第三十二条 本办法自2026年7月15日起施行。",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/CN-16/2026-10-11/official.html",
+    "sha256": "24cd9922b4490808c2500b3105a3f7817d7572d111aa790ab174b8f45d4e47db",
+    "locator": "Order No. 21, promulgation clause",
+    "quote": "现予公布，自2026年7月15日起施行。",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CN-16/2026-10-11/official.html",
+    "sha256": "24cd9922b4490808c2500b3105a3f7817d7572d111aa790ab174b8f45d4e47db",
+    "locator": "Art. 32",
+    "quote": "第三十二条 本办法自2026年7月15日起施行。",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/CN-16/2026-10-11/official.html",
+    "sha256": "24cd9922b4490808c2500b3105a3f7817d7572d111aa790ab174b8f45d4e47db",
+    "locator": "Art. 30",
+    "quote": "拒不改正或者情节严重的，责令停止提供相关服务，可以并处一万元以上十万元以下罚款",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Rule: Order No. 21 and Art. 32 say the Measures take effect on 15 Jul 2026. 15 Jul 2026 is before today (14 Oct 2026), so they are in force. Nothing stored indicates an amendment or repeal.",
+  "scope_reasoning": "AI-specific binding regulation of anthropomorphic AI services; in scope without a scope note.",
+  "changes": {
+   "summary": "The scope now follows Art. 2: continuing emotional interaction (持续性的情感互动服务), not 'emotional companionship', which is only one of the services Art. 2 lists (care, companionship, support). The ban reads as in Art. 14, on virtual intimate-relationship services such as virtual relatives or partners. Algorithm filing and the article count moved to notes to keep the summary within 700 characters.",
+   "notes": "Art. 30 penalties now carry their condition (only where no law or administrative regulation provides a penalty) and the 'may' of the fines. Art. 2's coverage and exclusions are given as in the text; algorithm filing (Art. 26) and the article count added. The draft date of 27 Dec 2025, which no stored file shows, was removed.",
+   "verification": "Rewritten for this refresh; records what the stored China Law Translate page holds."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "official_identifier",
+   "date_published",
+   "date_in_force",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "english_version is not set: the stored China Law Translate page is the Chinese text, and the English version it links (https://www.chinalawtranslate.com/en/human-like-ai/) is not stored. Once stored, it would be a third-party translation by China Law Translate."
+ ]
+}

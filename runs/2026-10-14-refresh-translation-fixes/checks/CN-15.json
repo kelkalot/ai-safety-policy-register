@@ -1,0 +1,71 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "CN-15",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Notice title and original title match; the English rendering of 人工智能科技伦理审查与服务办法（试行） is accurate."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "Matches the stored notice and the PDF character by character: 人工智能科技伦理审查与服务办法（试行）."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Ten signatories named in the notice."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "工信部联科〔2026〕75号 in the gov.cn metadata block."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Signature date 2026年3月20日 under the notice; the MIIT page's 成文日期 30 Mar 2026 and 发布日期 2 Apr 2026 are correctly kept in notes."
+  },
+  "date_in_force": {
+   "verdict": "supported",
+   "why": "Art. 37 本办法自印发之日起施行 (effective from the date of issuance); the issuance date is the notice date 20 Mar 2026, a defensible reading."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "In force from issuance; nothing later found."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "Art. 32 provides for investigation and penalties under the named laws."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Review risks to human dignity, public order, life and health or the environment (Art. 2: 人的尊严、公共秩序、生命健康、生态环境、可持续发展)",
+   "verdict": "supported",
+   "locator": "page 1, Art. 2"
+  },
+  {
+   "claim": "Review focuses on well-being, fairness, controllability and trustworthiness, transparency and explainability, traceability of responsibility (责任可追溯), privacy (Art. 15 items 1-6)",
+   "verdict": "supported",
+   "locator": "pages 5-6, Art. 15"
+  },
+  {
+   "claim": "Annex lists three kinds of R&D for expert re-review: human-machine fusion systems; algorithm models/apps/systems able to mobilise public opinion and guide social consciousness (舆论社会动员能力); highly autonomous automated decision systems for scenarios with safety or personal-health risk",
+   "verdict": "supported",
+   "locator": "page 12, annex"
+  },
+  {
+   "claim": "Art. 27: emergency review generally completed within 72 hours (应急审查一般在72小时内完成); Art. 26 exemption from expert re-review; Art. 32 penalties under Cybersecurity, Data Security, PIPL and S&T Progress laws",
+   "verdict": "supported",
+   "locator": "pages 9-10"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": "AI-specific ethics-review measures; ethics review of AI R&D is in scope under section 10."
+ },
+ "overall": "accept",
+ "note": "All fields supported by the stored gov.cn page and the 12-page PDF. Own literal translation checked for the summary's specific claims: Art. 15(5) 责任可追溯 = 'traceability of responsibility' (log management to record data, algorithm, model and system information so the whole chain can be tracked); Art. 27 'Emergency review is generally completed within 72 hours'; annex item 2 'research and development of algorithm models, applications and systems with the capacity for public-opinion and social mobilisation and for guiding social consciousness'. The earlier word 'high-risk' for the three annexed categories was correctly dropped (the annex title is just 'list of AI activities requiring expert ethics re-review'). One targeted search for amendments or a replacement found nothing. english_version stays 'none found'.",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": []
+}

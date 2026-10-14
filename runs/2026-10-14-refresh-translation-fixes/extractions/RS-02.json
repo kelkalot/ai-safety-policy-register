@@ -1,0 +1,139 @@
+{
+ "cand_id": "RS-02",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "RS-02",
+ "record": {
+  "official_identifier": "05 Број: 011-13287/2024-2",
+  "summary": "Successor to the 2020-2025 AI strategy, adopted under Article 38(1) of the Law on the Planning System; its general objective is trustworthy and responsible AI for growth, jobs and quality of life. The first of six special objectives is an institutional and legal framework for the safe, secure, trustworthy and responsible application of AI, through a special law regulating its application in line with international standards while encouraging innovation; the law is to be adopted and fully applied by the end of 2027. It reviews the risks to be addressed (privacy, algorithmic bias, misuse, inequality, lack of clear regulation, energy use) and positions Serbia against the EU AI Act.",
+  "notes": "Adopted by the Government in Belgrade on 10 January 2025 (05 Broj 011-13287/2024-2), on the initiative of the Ministry of Science, Technological Development and Innovation. The strategy orders its publication in the Službeni glasnik and on the Government and ministry websites, and the 2020-2025 strategy (Službeni glasnik RS 96/19) ceased to be valid on its entry into force. An action plan was to be adopted within 90 days. When the strategy was adopted, a working group was preparing the Law on Artificial Intelligence; Measure 1.1 targets its adoption, and 80% of its implementing acts, by the end of 2027.",
+  "verification": {
+   "note": "Stored: the strategy PDF from the site of the Ministry of Science, Technological Development and Innovation (nitra.gov.rs), which confirms the title, the legal basis, adoption by the Government in Belgrade on 10 January 2025 under number 05 Broj 011-13287/2024-2, the repeal of the 2020-2025 strategy, and the objectives, risks and end-2027 targets summarised here; and the Government of Serbia's strategy page (srbija.gov.rs), which gives the title in the nominative. The Službeni glasnik issue in which the strategy was published is not in a stored copy. Not confirmed by any stored copy: a June 2024 consultation draft covering 2024-2030; press reports that by October 2026 the planned AI law existed only as a working version of a ministry working group, modelled on the EU AI Act, with an AI agency and an AI systems register a year after entry into force, and that officials cited end-2026 as a target."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/RS-02/2026-10-12/official.pdf",
+    "sha256": "8791787a72e2a7ca2559ae5c60c5b4fcadd4a7b7c735bfcd3af0161834dfd6fe",
+    "locator": "page 1, preamble",
+    "quote": "Влада усваја СТРАТЕГИЈУ РАЗВОЈА ВЕШТАЧКЕ ИНТЕЛИГЕНЦИЈЕ У РЕПУБЛИЦИ СРБИЈИ ЗА ПЕРИОД",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/RS-02/2026-10-12/secondary.html",
+    "sha256": "25061a5db0a4c5945016a70bb47391ad25bf68d1b621c5c0cac1564a9ab12d7c",
+    "locator": "page heading and download link",
+    "quote": "Стратегија развоја вештачке интелигенције у Републици Србији за период 2025-2030. године",
+    "source_kind": "alt-official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/RS-02/2026-10-12/secondary.html",
+    "sha256": "25061a5db0a4c5945016a70bb47391ad25bf68d1b621c5c0cac1564a9ab12d7c",
+    "locator": "page heading and download link",
+    "quote": "Стратегија развоја вештачке интелигенције у Републици Србији за период 2025-2030. године",
+    "source_kind": "alt-official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/RS-02/2026-10-12/official.pdf",
+    "sha256": "8791787a72e2a7ca2559ae5c60c5b4fcadd4a7b7c735bfcd3af0161834dfd6fe",
+    "locator": "page 61, signature block",
+    "quote": "05 Број: 011-13287/2024-2",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/RS-02/2026-10-12/official.pdf",
+    "sha256": "8791787a72e2a7ca2559ae5c60c5b4fcadd4a7b7c735bfcd3af0161834dfd6fe",
+    "locator": "page 1, preamble",
+    "quote": "На основу члана 38. став 1. Закона о планском систему Републике Србије („Службени гласник РС”, број 30/18), Влада усваја",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/RS-02/2026-10-12/official.pdf",
+    "sha256": "8791787a72e2a7ca2559ae5c60c5b4fcadd4a7b7c735bfcd3af0161834dfd6fe",
+    "locator": "page 1, 1. Увод",
+    "quote": "на иницијативу Министарства науке, технолошког развоја и иновација, започет је процес израде нове стратегије",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/RS-02/2026-10-12/official.pdf",
+    "sha256": "8791787a72e2a7ca2559ae5c60c5b4fcadd4a7b7c735bfcd3af0161834dfd6fe",
+    "locator": "page 61, signature block",
+    "quote": "У Београду, 10. јануара 2025. године",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/RS-02/2026-10-12/official.pdf",
+    "sha256": "8791787a72e2a7ca2559ae5c60c5b4fcadd4a7b7c735bfcd3af0161834dfd6fe",
+    "locator": "page 61, signature block",
+    "quote": "05 Број: 011-13287/2024-2",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/RS-02/2026-10-12/official.pdf",
+    "sha256": "8791787a72e2a7ca2559ae5c60c5b4fcadd4a7b7c735bfcd3af0161834dfd6fe",
+    "locator": "page 1, preamble",
+    "quote": "Влада усваја СТРАТЕГИЈУ РАЗВОЈА ВЕШТАЧКЕ ИНТЕЛИГЕНЦИЈЕ У РЕПУБЛИЦИ СРБИЈИ ЗА ПЕРИОД",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/RS-02/2026-10-12/official.pdf",
+    "sha256": "8791787a72e2a7ca2559ae5c60c5b4fcadd4a7b7c735bfcd3af0161834dfd6fe",
+    "locator": "page 25, 4.2 Општи и посебни циљеви стратегије",
+    "quote": "Период реализације општег циља: 2025-2030.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/RS-02/2026-10-12/official.pdf",
+    "sha256": "8791787a72e2a7ca2559ae5c60c5b4fcadd4a7b7c735bfcd3af0161834dfd6fe",
+    "locator": "page 61, 11. Завршне одредбе",
+    "quote": "Ступањем на снагу ове стратегије престаје да важи Стратегија развоја вештачке интелигенције у Републици Србије за период од 2020-2025. године",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/RS-02/2026-10-12/official.pdf",
+    "sha256": "8791787a72e2a7ca2559ae5c60c5b4fcadd4a7b7c735bfcd3af0161834dfd6fe",
+    "locator": "page 3, 2. Правни оквир и релевантни плански документи",
+    "quote": "Стратегија развоја вештачке интелигенције према одредбама члана 12. Закона о планском систему Републике Србије („Службени гласник РС”, број 30/18) представља документ јавне политике",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The Government adopted the strategy on 10 January 2025 (signature block, page 61) for the period 2025-2030; on its entry into force the 2020-2025 strategy ceased to be valid. No stored source shows a later replacement, and the period runs to 2030, so it remains a current non-binding public-policy document.",
+  "scope_reasoning": "National AI strategy whose first special objective is a legal and institutional framework for safe, secure and trustworthy AI; in scope as before (no scope_note was set and none is added in this refresh).",
+  "changes": {
+   "official_identifier": "the stored PDF gives the Government's act number 05 Број: 011-13287/2024-2 in its signature block",
+   "summary": "removed the hedge 'secondary sources report': the strategy itself sets adoption of the AI law (Measure 1.1) and its full application (Objective 1 indicator) as end-2027 targets; rendered 'сигурна, безбедна и поуздана' as 'safe, secure and trustworthy', the English the strategy itself gives for the same triad (page 11, UN resolution A/78/L.49), instead of 'secure, safe and reliable'; added the general objective ('поуздане и одговорне' = trustworthy and responsible)",
+   "notes": "the adoption date and number now come from the stored PDF instead of press reports; hedges and claims resting on press reports moved to verification.note; added the repeal of the 2020-2025 strategy, the 90-day action plan and the end-2027 targets",
+   "verification.note": "rewritten to describe the stored copies"
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The Službeni glasnik issue number of the strategy is not in a stored copy; official_identifier now holds the Government's act number from the PDF.",
+  "The record of the 2023 ethical guidelines (RS-01) renders 'поуздане и одговорне вештачке интелигенције' as 'Reliable and Responsible'; this strategy's own English gloss suggests 'trustworthy'. Not changed here (RS-01 is outside this extraction)."
+ ]
+}

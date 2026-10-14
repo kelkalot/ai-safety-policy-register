@@ -1,0 +1,97 @@
+{
+ "cand_id": "TH-03",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "TH-03",
+ "record": {
+  "title": "Digital Thailand - AI Ethics Guideline",
+  "original_title": "หลักการและแนวทางจริยธรรมปัญญาประดิษฐ์",
+  "summary": "Thailand's AI ethics principles and guidelines, prepared under the Ministry of Digital Economy and Society. They guide AI researchers, designers, developers and service providers in their work, let service recipients know their rights and the risks of AI services, and give state agencies and AI regulators a basis for promoting, supporting and supervising AI, so AI is reliable and secure and benefits people, society and the environment with transparency, inclusiveness and fairness, in line with law, ethics and human rights. After reviewing foreign and corporate frameworks, it sets six principles with guidance under each for state agencies and regulators, developers and providers, and users.",
+  "notes": "The 46-page document hosted by ETDA is undated. Its cover title is in English only; in its Thai text the document calls itself 'เอกสารหลักการและแนวทางจริยธรรมปัญญาประดิษฐ์' (AI ethics principles and guidelines document). It cites the Ministry's strategy for B.E. 2563-2567 (2020-2024), so it is not earlier than 2020. Its six principles are Competitiveness and Sustainability Development; Laws, Ethics and International Standards; Transparency and Accountability; Security and Privacy; Fairness; and Reliability. They were later carried into ETDA's 2023 AI Governance Guideline for Executives. Its review covers OECD, Council of Europe, European Commission, Smart Dubai, Singapore PDPC, Microsoft and Beijing AI principles. The guideline has no enforcement mechanism; Thailand's binding AI framework is still at the stage of the 2026 draft Act on Artificial Intelligence.",
+  "verification": {
+   "note": "Stored: the 46-page PDF hosted on the website of ETDA, a government agency under the Ministry of Digital Economy and Society, read through its text layer (the layer splits the Thai vowel sara am and garbles the headings, and quotes keep these artifacts). It confirms the English title in the running header, the Thai self-designation, the purpose, audiences, structure, the six principles and the guidance by audience. The cover is an image without a text layer: viewed as an image, it reads 'Digital Thailand AI ETHICS GUIDELINE' and 'Ministry of Digital Economy and Society' and carries no date and no Thai title. The attribution to the Office of the National Digital Economy and Society Commission is not in the stored copy. Not confirmed by any stored copy: a December 2020 date on a university mirror file, the 2021 date given by catalogue records and the OECD.AI Policy Navigator, and a first draft of the ethics framework in 2019."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/TH-03/2026-10-12/official.pdf",
+    "sha256": "4cd1165385996de0a870270795745f5925c8eab47fcecd05b1a3215b4b9250ea",
+    "locator": "page 1, running header (also on every page)",
+    "quote": "Digital Thailand - AI Ethics Guideline",
+    "source_kind": "alt-official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/TH-03/2026-10-12/official.pdf",
+    "sha256": "4cd1165385996de0a870270795745f5925c8eab47fcecd05b1a3215b4b9250ea",
+    "locator": "page 3, คำนำ (Introduction)",
+    "quote": "เอกสารหลักการและแนวทางจริยธรรมปัญญาประดิษฐ์ฉบับนี้จึงได้ รับการสร้างขึ้นเพื่อ ให้ ผู้วิจัย ผู้ออกแบบ ผู้พัฒนา และผู้ให้บริการปัญญาประดิษฐ์ ใช้เป็นแนวทางส าหรับการด าเนินงาน",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/TH-03/2026-10-12/official.pdf",
+    "sha256": "4cd1165385996de0a870270795745f5925c8eab47fcecd05b1a3215b4b9250ea",
+    "locator": "page 6, การศึกษาและวิเคราะห์ (Study and analysis)",
+    "quote": "เอกสารหลักการและแนวทางจริยธรรมปัญญาประดิษฐ์ ของประเทศไทย ฉบับนี้ ได้ศึกษา",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/TH-03/2026-10-12/official.pdf",
+    "sha256": "4cd1165385996de0a870270795745f5925c8eab47fcecd05b1a3215b4b9250ea",
+    "locator": "page 3, คำนำ (Introduction)",
+    "quote": "เอกสารหลักการและแนวทางจริยธรรมปัญญาประดิษฐ์ฉบับนี้จึงได้ รับการสร้างขึ้นเพื่อ ให้ ผู้วิจัย ผู้ออกแบบ ผู้พัฒนา และผู้ให้บริการปัญญาประดิษฐ์ ใช้เป็นแนวทางส าหรับการด าเนินงาน",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/TH-03/2026-10-12/official.pdf",
+    "sha256": "4cd1165385996de0a870270795745f5925c8eab47fcecd05b1a3215b4b9250ea",
+    "locator": "page 4, คำนำ (Introduction), continued",
+    "quote": "ระดับองค์กร เพื่อ ใช้เป็นแนวทางในการส่งเสริม สนับสนุน รวมถึงก ากับดูแลเทคโนโลยี",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/TH-03/2026-10-12/official.pdf",
+    "sha256": "4cd1165385996de0a870270795745f5925c8eab47fcecd05b1a3215b4b9250ea",
+    "locator": "page 3, คำนำ (Introduction)",
+    "quote": "เอกสารหลักการและแนวทางจริยธรรมปัญญาประดิษฐ์ฉบับนี้จึงได้ รับการสร้างขึ้นเพื่อ ให้ ผู้วิจัย ผู้ออกแบบ ผู้พัฒนา และผู้ให้บริการปัญญาประดิษฐ์ ใช้เป็นแนวทางส าหรับการด าเนินงาน",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/TH-03/2026-10-12/official.pdf",
+    "sha256": "4cd1165385996de0a870270795745f5925c8eab47fcecd05b1a3215b4b9250ea",
+    "locator": "page 4, คำนำ (Introduction), continued",
+    "quote": "ระดับองค์กร เพื่อ ใช้เป็นแนวทางในการส่งเสริม สนับสนุน รวมถึงก ากับดูแลเทคโนโลยี",
+    "source_kind": "alt-official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "A non-binding guide: the document says it was created for AI researchers, designers, developers and providers to use as a guide for their work and for state agencies and regulators to use as a guide for promotion, support and supervision. It is undated and no stored source shows a replacement; the ETDA copy was stored on 12 October 2026. Published (non-binding, current) is kept.",
+  "scope_reasoning": "A government AI ethics and governance guideline; clearly in scope.",
+  "changes": {
+   "title": "the parenthetical '(Thailand AI Ethics Principles and Guideline)' is not in the document (it follows the file name); the title is now the document's own English title from its cover and running header",
+   "original_title": "'แนวปฏิบัติจริยธรรมปัญญาประดิษฐ์' does not occur in the document; the cover title is English only, and the Thai text calls the document 'เอกสารหลักการและแนวทางจริยธรรมปัญญาประดิษฐ์' (AI ethics principles and guidelines document), so the self-designation without 'เอกสาร' (document) is used",
+   "summary": "'trustworthy' replaced by 'reliable' for 'ความน่าเชื่อถือ', the document's own English for the word (principle 6, 'Reliability'); the review is not limited to OECD, EU, Singapore and Dubai; added that the guidance is organised by audience",
+   "notes": "principle 2 is 'Laws, Ethics and International Standards' (the notes had 'law and ethics'); principles given with the document's own English labels; the self-designation and the list of reviewed frameworks added; dates from a mirror file and catalogue records and the 2019 draft moved to verification.note",
+   "verification.note": "rewritten to describe the stored copy"
+  },
+  "confirmed": [
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "issuing_body: the cover image names only the Ministry of Digital Economy and Society; the parenthetical '(Office of the National Digital Economy and Society Commission)' is not in the stored copy. Left unchanged.",
+  "original_title: the document has no Thai title; the Thai self-designation from its introduction is used. A checker may prefer to leave original_title empty or to use the English cover title.",
+  "date_published stays null: the document carries no date."
+ ]
+}

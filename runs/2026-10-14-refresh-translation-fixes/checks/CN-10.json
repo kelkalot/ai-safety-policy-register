@@ -1,0 +1,80 @@
+{
+ "cand_id": "CN-10",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "提出并归口 by TC260 in the foreword; 'proposed and administered by TC260' is literal"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported",
+   "why": "kind third-party translation; CSET page and PDF stored"
+  },
+  "summary": {
+   "verdict": "supported",
+   "why": "claims found in Chinese PDF; 678 characters"
+  },
+  "notes": {
+   "verdict": "supported",
+   "why": "companion standards in the introduction; TC260-003 link from CSET translator's note (stored); annexes 资料性"
+  },
+  "safety_topics": {
+   "verdict": "supported",
+   "why": "child safety (6.1 c) and transparency (6.2) are in the text"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Focus on services with public-opinion attributes or social-mobilisation capacity, supporting filing management and testing and assessment. Introduction: 本文件重点面向具有舆论属性或者社会动员能力的生成式人工智能服务，支撑备案管理、检测评估等方面工作开展",
+   "verdict": "supported",
+   "locator": "page 6, 引言"
+  },
+  {
+   "claim": "Model security: at least 90% of sampled generated content free of the 31 risks; refuse clearly extreme or inducing questions. 5.2: '应保证模型生成内容合格率不低于90%'; '对明显偏激以及明显诱导生成违法不良信息的问题，应拒绝回答' (my translation: questions that are clearly extreme, or clearly induce generating illegal or undesirable information, must be refused)",
+   "verdict": "supported",
+   "locator": "5.2 a), d)"
+  },
+  {
+   "claim": "Sources with over 5% illegal and unhealthy information are not collected or used",
+   "verdict": "supported",
+   "locator": "5.1"
+  },
+  {
+   "claim": "Minors protection, transparency, complaints. 6.1 c), 6.2, 6.4",
+   "verdict": "supported",
+   "locator": "chapter 6"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Summary now follows the Chinese standard text and its numbers (5%, 90%, 31 risks) are exact. Notes' companion-standard sentence matches the introduction. The link to TC260-003 rests on a CSET translator's note (stored) and is described as such. Original title and identifier are verbatim. Nothing newer found."
+}

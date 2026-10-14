@@ -1,0 +1,75 @@
+{
+ "cand_id": "VN-06",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "Only the stored Can Tho page (secondary role, government host) gives 05/2026/TT-BKHCN; the stored PDF has a blank number ('So: /2026/TT-BKHCN')."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "10 March 2026 only from the Can Tho page; the PDF has blank day, month 03 only."
+  },
+  "date_in_force": {
+   "verdict": "supported",
+   "why": "10/3/2026 only from the Can Tho page; PDF says 'ke tu ngay [blank] thang 3 nam 2026'."
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Art. 1(2) scope to state agencies and organisations/individuals using AI for state management or public services; Art. 1(3) others encouraged",
+   "verdict": "supported",
+   "locator": "page 1"
+  },
+  {
+   "claim": "Four principle groups follow Art. 3(1)-(4); safe design from the outset ('Thiet ke an toan ngay tu dau'), internal testing before deployment, human control, 'dau doc du lieu' / 'dau doc mo hinh' (data/model poisoning, defined in Art. 2)",
+   "verdict": "supported",
+   "locator": "pages 1-3"
+  },
+  {
+   "claim": "Art. 5(1) review every 3 years or on major change",
+   "verdict": "supported",
+   "locator": "page 4"
+  },
+  {
+   "claim": "Annex I guidance per group of actors; Annex II self-assessment form ('phieu tu danh gia')",
+   "verdict": "supported",
+   "locator": "pages 5-9"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Summary and notes match the Vietnamese text. Caution for the human: the stored PDF is an unsigned text with a blank number and day, so the number, issue date and effective date rest on the Can Tho government portal page alone; the script's level A looks too high and B would fit. Search found no newer version (the draft ethics circular consultation result predates the circular)."
+}

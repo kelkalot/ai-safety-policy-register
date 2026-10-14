@@ -1,0 +1,127 @@
+{
+ "cand_id": "CN-11",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "CN-11",
+ "record": {
+  "summary": "China's action plan for international AI governance, in 13 items. On safety it calls for timely AI risk assessment with targeted prevention and response measures, towards a widely recognised safety governance framework; a risk testing and evaluation system; and mechanisms for threat information sharing and emergency response. It proposes exploring categorised and tiered management and traceability management systems for AI services. It also calls for regular safety assessment of AI used in public services, technical safety guidelines for open-source communities, and support for the UN Independent International Scientific Panel on AI and the Global Dialogue on AI Governance.",
+  "notes": "Released 26 Jul 2025 at the 2025 World Artificial Intelligence Conference (WAIC) and High-Level Meeting on Global AI Governance. The text does not mention the World AI Cooperation Organization, which China proposed at the same conference and which was set up by treaty in July 2026 (see INT-15).",
+  "verification": {
+   "note": "MFA Chinese and English pages stored with the full text (items 1 to 13), and the same English text on the page of China's Permanent Mission to the UN: Chinese and English titles, publication on 26 Jul 2025 by the 2025 World AI Conference and High-Level Meeting on Global AI Governance, and the safety items (5 and 8 to 12) confirmed. The summary was checked against the Chinese text and uses the government's English terms. The conference location is in no stored file and was dropped from the notes."
+  },
+  "original_title": "人工智能全球治理行动计划"
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/CN-11/2026-10-11/official.html",
+    "sha256": "7eac40806ede1f5587f179f29d7227252114eb4bca12406cf96375b31789cbf7",
+    "locator": "preamble",
+    "quote": "we hereby put forward the Global AI Governance Action Plan",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-11/extra-f389ef95a8/2026-10-14/official.html",
+    "sha256": "31c9f89a51d36ce22a55f7d117fad5b2d688dfc6f1f2e31b7dca7770dd33c913",
+    "locator": "heading",
+    "quote": "人工智能全球治理行动计划（全文）",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/CN-11/2026-10-11/official.html",
+    "sha256": "7eac40806ede1f5587f179f29d7227252114eb4bca12406cf96375b31789cbf7",
+    "locator": "lead paragraph",
+    "quote": "The 2025 World artificial intelligence (AI) Conference and High-Level Meeting on Global AI Governance published Global AI Governance Action Plan on July 26.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-11/extra-f389ef95a8/2026-10-14/official.html",
+    "sha256": "31c9f89a51d36ce22a55f7d117fad5b2d688dfc6f1f2e31b7dca7770dd33c913",
+    "locator": "lead paragraph",
+    "quote": "2025世界人工智能大会暨人工智能全球治理高级别会议发表《人工智能全球治理行动计划》",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/CN-11/2026-10-11/official.html",
+    "sha256": "7eac40806ede1f5587f179f29d7227252114eb4bca12406cf96375b31789cbf7",
+    "locator": "date line",
+    "quote": "Updated: July 26, 2025 23:55",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CN-11/2026-10-14/secondary.html",
+    "sha256": "4813a55826b531dd4814a7abf8acd00fb9366fa24166c966e34c0399b0646619",
+    "locator": "date line",
+    "quote": "2025-07-26 23:00",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-11/extra-f389ef95a8/2026-10-14/official.html",
+    "sha256": "31c9f89a51d36ce22a55f7d117fad5b2d688dfc6f1f2e31b7dca7770dd33c913",
+    "locator": "lead paragraph",
+    "quote": "2025年7月26日，2025世界人工智能大会暨人工智能全球治理高级别会议发表",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/CN-11/2026-10-11/official.html",
+    "sha256": "7eac40806ede1f5587f179f29d7227252114eb4bca12406cf96375b31789cbf7",
+    "locator": "preamble",
+    "quote": "calling on all parties to take concrete and effective actions in advancing global AI development and governance",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-11/extra-f389ef95a8/2026-10-14/official.html",
+    "sha256": "31c9f89a51d36ce22a55f7d117fad5b2d688dfc6f1f2e31b7dca7770dd33c913",
+    "locator": "preamble",
+    "quote": "呼吁各方在遵循向善为民、尊重主权、发展导向、安全可控、公平普惠、开放合作的目标和原则基础上",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/CN-11/2026-10-11/official.html",
+    "sha256": "7eac40806ede1f5587f179f29d7227252114eb4bca12406cf96375b31789cbf7",
+    "locator": "item 1",
+    "quote": "We call for the active participation and collaboration of all stakeholders",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/CN-11/extra-f389ef95a8/2026-10-14/official.html",
+    "sha256": "31c9f89a51d36ce22a55f7d117fad5b2d688dfc6f1f2e31b7dca7770dd33c913",
+    "locator": "lead paragraph",
+    "quote": "2025世界人工智能大会暨人工智能全球治理高级别会议发表《人工智能全球治理行动计划》。全文如下",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Published on 26 Jul 2025 as a call to action ('calling on all parties'); the stored files show no later version or withdrawal. Status stays Published (non-binding, current).",
+  "scope_reasoning": "In scope with no note: an intergovernmental-facing action plan whose item 10 is on AI safety governance, with further safety items (5, 8, 9, 11, 12).",
+  "changes": {
+   "summary": "The plan says 'We need to explore' categorised and tiered management and traceability management systems (item 10); the summary now says it proposes exploring them instead of calling for them outright. Kept the plan's own terms ('technical safety guidelines for open-source communities', 'assessment of the safety ... conducted regularly'). Added the item count (13). Return round (14 Oct 2026): checked against the Chinese text: 探索 ('explore') governs 分类分级管理 and 人工智能服务可追溯管理制度 (item 10), as the summary says; 推进威胁信息共享和应急处置机制建设 is now 'mechanisms for threat information sharing and emergency response'.",
+   "notes": "Removed the remark that the Chinese title was not checked (now in verification.note) and 'in Shanghai' (in no stored file).",
+   "verification": "Return round (14 Oct 2026): rewritten: the Chinese text is stored.",
+   "original_title": "Return round (14 Oct 2026): filled from the stored Chinese MFA page (《人工智能全球治理行动计划》)."
+  },
+  "english_version": "Unchanged: 'authentic', the MFA English page, stored as archive/CN-11/2026-10-11/official.html. Whether the English is a translation of a Chinese original cannot be told from the stored files.",
+  "confirmed": [
+   "title",
+   "issuing_body",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

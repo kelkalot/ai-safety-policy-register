@@ -1,0 +1,68 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "KR-04",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "The guideline's contents page heading 인공지능 투명성 확보 가이드라인; English title is an accurate rendering with the Art. 31 basis added."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "Matches the PDF contents heading character by character; the press release calls it 인공지능 투명성 확보 안내 지침(가이드라인), explained in notes."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "MSIT's division is named in the press release contacts; MSIT and TTA websites publish it; NIA posts the file. Wording 'also published by TTA and NIA' is acceptable."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "The release text says it was disclosed on 22 January (press release dated 21 Jan with embargo to the 22 Jan morning papers) and the NIA post is dated 2026.01.22. The earlier value 2026-01-21 was the press page's date. 2026-01-22 is defensible; the unchanged date_last_updated 2026-01-27 is also supported."
+  },
+  "date_last_updated": {
+   "verdict": "supported",
+   "why": "NIA notice of 27 Jan 2026: revised upload, page 15 wording of text-output service examples."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "NIA: the current files were published; no later revision notice."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Deepfake = virtual sound, image or video outputs hard to distinguish from reality; text does not count (텍스트는 해당되지 않음)",
+   "verdict": "supported",
+   "locator": "page 9, Art. 31(3) explanation"
+  },
+  {
+   "claim": "Duty holder is the operator that finally provides the product or service to users, including overseas operators affecting Korean nationals",
+   "verdict": "supported",
+   "locator": "page 6 (guideline p. 2)"
+  },
+  {
+   "claim": "Machine-readable marks need notice at least once (최소 1회 이상 안내 문구·음성)",
+   "verdict": "supported",
+   "locator": "page 9 and decree Art. 23(2) quoted"
+  },
+  {
+   "claim": "'general outputs' (일반 생성물) newly defined in this guideline; artistic works may use lighter marking",
+   "verdict": "supported",
+   "locator": "page 12-13"
+  },
+  {
+   "claim": "Fact-finding and fines suspended during a guidance period of at least one year",
+   "verdict": "supported",
+   "locator": "MSIT press release, page 2"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": "Government guideline under an AI law."
+ },
+ "overall": "accept",
+ "note": "Translation check passed: 'general outputs' for 일반 생성물 is the guideline's own coinage and is rendered literally; 딥페이크 생성물 = deepfake outputs. Notes statement that an API-only foundation-model developer is not bound is right for the guideline's example (company B that offers the service bears the duty), but the same page says a developer offering AI directly to users does bear it, which the summary and notes imply correctly. The date change from 21 to 22 Jan is a judgment I would accept. A search found no newer revision than the 27 Jan 2026 one.",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": []
+}

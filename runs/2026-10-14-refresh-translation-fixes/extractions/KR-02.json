@@ -1,0 +1,170 @@
+{
+ "cand_id": "KR-02",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "KR-02",
+ "record": {
+  "date_last_updated": "2026-01-20",
+  "summary": "AI business operators must tell users in advance that a product or service runs on high-impact or generative AI, mark generative AI outputs, and give notice of or mark outputs hard to tell from reality (Art. 31). Operators of AI systems trained with cumulative compute at or above a decree threshold must identify, assess and mitigate risks over the life cycle, monitor and respond to safety incidents and report to the Minister (Art. 32). For high-impact AI, operators must review in advance whether their AI qualifies (Art. 33), take risk management, explanation, user protection and human oversight measures (Art. 34) and endeavour to assess impacts on fundamental rights (Art. 35).",
+  "safety_topics": [
+   "risk-based classification",
+   "general-purpose / frontier AI",
+   "transparency & labelling",
+   "deepfakes & synthetic media",
+   "human oversight",
+   "safety institute"
+  ],
+  "notes": "Promulgated on 21 Jan 2025 as Act No. 20676 and in force one year later, on 22 Jan 2026 (Addenda Art. 1); the digital medical device part of Art. 2(4)(d) applies from 24 Jan 2026. Act No. 21311 of 20 Jan 2026 amended it from 22 Jan 2026, renaming the National AI Committee the National AI Strategy Committee (Art. 7); its provisions on AI-vulnerable groups (Art. 3(5)), support for AI use costs (Art. 17-2), a state AI research body (Art. 22-3) and reflecting AI-vulnerable groups in impact assessments (Art. 35(1)) took effect six months after promulgation, on 21 Jul 2026. Art. 12 provides for the AI Safety Institute (KR-01). The Act applies to acts abroad that affect the Korean market or users and excludes decree-designated AI used only for defence or national security (Art. 4). Foreign operators above decree thresholds must designate a domestic agent (Art. 36). Enforcement powers include fact-finding investigations and stop or correction orders (Art. 40); administrative fines of up to KRW 30 million apply for failing to give the prior notice of Art. 31(1), failing to designate a domestic agent, or ignoring such orders (Art. 43).",
+  "english_version": {
+   "kind": "government translation",
+   "url": "https://elaw.klri.re.kr/eng_service/lawViewContent.do?hseq=71019",
+   "by": "Korea Legislation Research Institute (KLRI)"
+  },
+  "verification": {
+   "note": "Stored on 14 Oct 2026: the full current Korean text on law.go.kr (browser-rendered lsInfoP page, Act No. 21311, in force 21 Jul 2026, with the addenda of Acts No. 20676, 21065 and 21311), and KLRI's parallel Korean-English text and English text of Act No. 20676 as enacted. The earlier law.go.kr copies hold only the Act's name and the first articles. Summary and notes were rewritten from the Korean text in October 2026. KLRI's translation is a reference translation of the Act as enacted and does not reflect the 2026 amendment. Passage by the National Assembly on 26 Dec 2024, consolidating 19 bills, comes from the OECD.AI entry, which is not stored."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-02/extra-7319e549d3/2026-10-14/official-rendered.html",
+    "sha256": "aa936c8f025b89668215ec96d5b386ccf433acd23344d7de2950d563c31b0306",
+    "locator": "law.go.kr current text, header",
+    "quote": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 [시행 2026. 7. 21.] [법률 제21311호, 2026. 1. 20., 일부개정]",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-02/extra-f01a29e5a5/2026-10-14/official.html",
+    "sha256": "bd41df2a88f0a35187e8ec36edc259531343c49297097cd208216482d31d0efa",
+    "locator": "KLRI English text, title",
+    "quote": "FRAMEWORK ACT ON THE DEVELOPMENT OF ARTIFICIAL INTELLIGENCE AND THE CREATION OF A FOUNDATION FOR TRUST",
+    "source_kind": "alt-official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-02/extra-7319e549d3/2026-10-14/official-rendered.html",
+    "sha256": "aa936c8f025b89668215ec96d5b386ccf433acd23344d7de2950d563c31b0306",
+    "locator": "law.go.kr current text, header",
+    "quote": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 [시행 2026. 7. 21.] [법률 제21311호, 2026. 1. 20., 일부개정]",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-02/extra-7319e549d3/2026-10-14/official-rendered.html",
+    "sha256": "aa936c8f025b89668215ec96d5b386ccf433acd23344d7de2950d563c31b0306",
+    "locator": "law.go.kr current text, addenda of the enactment",
+    "quote": "부 칙 <법률 제20676호, 2025. 1. 21.>",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-02/extra-f01a29e5a5/2026-10-14/official.html",
+    "sha256": "bd41df2a88f0a35187e8ec36edc259531343c49297097cd208216482d31d0efa",
+    "locator": "KLRI English text, header",
+    "quote": "Act No. 20676, Jan. 21, 2025",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-02/extra-7319e549d3/2026-10-14/official-rendered.html",
+    "sha256": "aa936c8f025b89668215ec96d5b386ccf433acd23344d7de2950d563c31b0306",
+    "locator": "law.go.kr current text, addenda of the enactment",
+    "quote": "부 칙 <법률 제20676호, 2025. 1. 21.>",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-02/extra-f01a29e5a5/2026-10-14/official.html",
+    "sha256": "bd41df2a88f0a35187e8ec36edc259531343c49297097cd208216482d31d0efa",
+    "locator": "KLRI English text, header",
+    "quote": "Act No. 20676, Jan. 21, 2025",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-02/extra-7319e549d3/2026-10-14/official-rendered.html",
+    "sha256": "aa936c8f025b89668215ec96d5b386ccf433acd23344d7de2950d563c31b0306",
+    "locator": "law.go.kr current text, Addenda <Act No. 20676> Art. 1",
+    "quote": "부 칙 <법률 제20676호, 2025. 1. 21.> 제1조(시행일) 이 법은 공포 후 1년이 경과한 날부터 시행한다.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-02/extra-7319e549d3/2026-10-14/official-rendered.html",
+    "sha256": "aa936c8f025b89668215ec96d5b386ccf433acd23344d7de2950d563c31b0306",
+    "locator": "law.go.kr current text, Addenda <Act No. 20676> Art. 1, proviso",
+    "quote": "다만, 제2조제4호라목 중 디지털의료기기에 관한 부분은 2026년 1월 24일부터 시행한다.",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-02/extra-7319e549d3/2026-10-14/official-rendered.html",
+    "sha256": "aa936c8f025b89668215ec96d5b386ccf433acd23344d7de2950d563c31b0306",
+    "locator": "law.go.kr current text, header",
+    "quote": "[시행 2026. 7. 21.] [법률 제21311호, 2026. 1. 20., 일부개정]",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-02/extra-7319e549d3/2026-10-14/official-rendered.html",
+    "sha256": "aa936c8f025b89668215ec96d5b386ccf433acd23344d7de2950d563c31b0306",
+    "locator": "law.go.kr current text, addenda of Act No. 21311",
+    "quote": "부 칙 <법률 제21311호, 2026. 1. 20.> 이 법은 2026년 1월 22일부터 시행한다.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-02/extra-7319e549d3/2026-10-14/official-rendered.html",
+    "sha256": "aa936c8f025b89668215ec96d5b386ccf433acd23344d7de2950d563c31b0306",
+    "locator": "law.go.kr current text, header",
+    "quote": "[시행 2026. 7. 21.] [법률 제21311호, 2026. 1. 20., 일부개정]",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-02/extra-7319e549d3/2026-10-14/official-rendered.html",
+    "sha256": "aa936c8f025b89668215ec96d5b386ccf433acd23344d7de2950d563c31b0306",
+    "locator": "law.go.kr current text, Addenda <Act No. 20676> Art. 1",
+    "quote": "부 칙 <법률 제20676호, 2025. 1. 21.> 제1조(시행일) 이 법은 공포 후 1년이 경과한 날부터 시행한다.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-02/extra-7319e549d3/2026-10-14/official-rendered.html",
+    "sha256": "aa936c8f025b89668215ec96d5b386ccf433acd23344d7de2950d563c31b0306",
+    "locator": "law.go.kr current text, Art. 43(1)",
+    "quote": "제43조(과태료) ① 다음 각 호의 어느 하나에 해당하는 자에게는 3천만원 이하의 과태료를 부과한다.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Rule: Addenda Art. 1 of Act No. 20676 (promulgated 21 Jan 2025): in force when one year has passed after promulgation, i.e. 22 Jan 2026. Act No. 21311 (20 Jan 2026) took effect on 22 Jan 2026, with some provisions six months after promulgation; the law.go.kr header shows the current version in force from 21 Jul 2026. Both dates are before today (14 Oct 2026): In force.",
+  "scope_reasoning": "AI-specific framework law; in scope without a scope note.",
+  "changes": {
+   "date_last_updated": "Last amended by Act No. 21311 of 20 Jan 2026 (partial amendment); the current version is in force from 21 Jul 2026.",
+   "summary": "Rewritten from the Korean text. Art. 33 is a prior self-review, with confirmation by the Minister only on request (not 'must confirm'); Art. 35 is an effort duty called 영향평가 (impact assessment), not a 'fundamental-rights impact assessment'; Art. 31(3) applies to any AI business operator and allows notice or marking; the Art. 32 threshold is 'at or above'; 'operators' is now 'AI business operators' (인공지능사업자). The domestic agent and the AI Safety Institute moved to notes.",
+   "safety_topics": "Cut from 8 to the 6 the vocabulary allows, keeping the topics the Act's main duties support; dropped accountability & liability and incident reporting.",
+   "notes": "Added Act No. 21311 with its staggered commencement, Art. 4 (scope), Art. 12 and Art. 36. Removed the passage date and the 19 consolidated bills attributed to OECD.AI (no stored file supports them; now in verification.note). The Art. 43 fine now names the Art. 31(1) prior notice.",
+   "english_version": "Points to KLRI's English text frame, now stored, instead of the empty viewer page.",
+   "verification": "Rewritten: the full current text and KLRI's texts are now stored."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "official_identifier",
+   "date_published",
+   "date_in_force",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "issuing_body: the stored texts name MSIT's AI Safety and Trust Policy Division (인공지능안전신뢰정책과) as the competent division but do not name the National Assembly in words; the field is left unchanged and unconfirmed."
+ ]
+}

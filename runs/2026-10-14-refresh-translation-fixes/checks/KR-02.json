@@ -1,0 +1,75 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "KR-02",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "law.go.kr header and KLRI English title match."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "Character-by-character match with the law.go.kr header 인공지능 발전과 신뢰 기반 조성 등에 관한 기본법."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "Addenda 법률 제20676호 and KLRI 'Act No. 20676, Jan. 21, 2025'."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Promulgated 2025. 1. 21."
+  },
+  "date_in_force": {
+   "verdict": "unsupported",
+   "why": "KR-02's own stored files do not state 2026-01-22 as the commencement of the Act: Addenda Art. 1 (Act 20676) says only 공포 후 1년이 경과한 날 (promulgated 2025-01-21) with a 2026-01-24 proviso. The only 2026-01-22 in its files is the addenda of the amending Act No. 21311 ('이 법은 2026년 1월 22일부터 시행한다'), which dates that amendment, not the base Act. The value follows from the one-year rule and is stated in other records' stored files (KR-06 guideline, KR-03 decree), but no fix quoting KR-02's own files is possible, so the field is left unsupported."
+  },
+  "date_last_updated": {
+   "verdict": "supported",
+   "why": "Act No. 21311, 2026. 1. 20., 일부개정 in the header; amendment date, in force 22 Jan 2026 with parts from 21 Jul 2026."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "In force; the current text (in force 21 Jul 2026) is the stored one."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "Art. 43 fines up to KRW 30 million."
+  },
+  "safety_topics": {
+   "verdict": "judgment-differs",
+   "why": "Dropped 'accountability & liability' and 'incident reporting', which Arts. 32, 36, 40 and 43 would support; the remaining six are supported."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Art. 31(1) prior notice that a product or service runs on high-impact or generative AI; (2) marking generative AI output; (3) notice or marking of outputs hard to distinguish from reality",
+   "verdict": "supported",
+   "locator": "Art. 31"
+  },
+  {
+   "claim": "Art. 32: systems trained with cumulative compute at or above the decree threshold (이상); risk identification, assessment and mitigation over the life cycle; risk-management system to monitor and respond to safety incidents; results submitted to the Minister (32(2))",
+   "verdict": "supported",
+   "locator": "Art. 32"
+  },
+  {
+   "claim": "Arts. 33-35: advance review of whether the AI is high-impact; risk management, explanation, user protection and human oversight (34(1)1-4); endeavour (노력하여야) to assess fundamental-rights impact",
+   "verdict": "supported",
+   "locator": "Arts. 33-35"
+  },
+  {
+   "claim": "Notes: Act No. 21311 renames the committee (Art. 7, 국가인공지능전략위원회 now; 국가인공지능위원회 in the enacted KLRI Korean text); six-month provisions (Arts. 3(5), 17-2, 22-3, 35(1) second sentence) effective 21 Jul 2026; Art. 4 extraterritorial and defence/national-security exclusion; Art. 43 fines",
+   "verdict": "supported",
+   "locator": "Arts. 4, 7, 43; Addenda of Act 21311"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": "AI-specific binding law."
+ },
+ "overall": "needs-human",
+ "note": "The evidence script's error on date_in_force is resolved: 2026-01-22 is correct (Addenda: in force on the day after one year from promulgation on 21 Jan 2025; the MSIT guideline stored for KR-06 states 'in force from 22 Jan 2026', the stored decree text in KR-03 also takes effect on 22 Jan 2026 with a 24 Jan 2026 proviso for digital medical devices, and Act 21311 takes effect 22 Jan 2026). No fix is offered because no KR-02 stored file states it; a human should confirm 2026-01-22 (supported by the KR-06 guideline foreword and the KR-03 decree). Defined terms follow KLRI and the Korean text (AI business operator = 인공지능사업자; high-impact AI = 고영향 인공지능). english_version (KLRI, a stored URL) is a government translation of the Act as enacted, which the verification note says does not reflect the 2026 amendment. The extractor dropped the topics 'accountability & liability' and 'incident reporting'; the Art. 32 and Art. 40/43 content would support them, so this is a judgment call, not an error. Untouched and unsupported by any stored text: issuing_body 'National Assembly of the Republic of Korea (competent ministry: MSIT)' (the stored texts name MSIT but not the Assembly); human may want to confirm. One targeted search found no later amendment.",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": []
+}

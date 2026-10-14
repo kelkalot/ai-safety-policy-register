@@ -1,0 +1,80 @@
+{
+ "cand_id": "CN-02",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported",
+   "why": "kind third-party translation; url is the stored China Law Translate page (secondary.html)"
+  },
+  "summary": {
+   "verdict": "supported",
+   "why": "every claim matches Arts. 2, 9, 10, 15, 17, 19, 23 of the Chinese text; 696 characters"
+  },
+  "notes": {
+   "verdict": "supported",
+   "why": "Art. 19 para 2 and Arts. 16-17 confirmed; the 2025 Measures and GB 45438-2025 links confirmed through CN-09 Art. 11 and CN-08 catalogue"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Defined as use of deep learning, virtual reality and other generative or synthetic algorithms to produce text, images, audio, video, virtual scenes and other online information. My translation of Art. 23: 'Deep synthesis technology means technology that uses generative and synthetic algorithms such as deep learning and virtual reality to produce network information such as text, images, audio, video and virtual scenes'.",
+   "verdict": "supported",
+   "locator": "Art. 23"
+  },
+  {
+   "claim": "Providers must verify users' real identities, and review users' input data and synthesis results. My translation of Art. 10: 'adopt technical or manual means to review the input data and the synthesis results of deep synthesis service users'.",
+   "verdict": "supported",
+   "locator": "Arts. 9, 10"
+  },
+  {
+   "claim": "Providers with public-opinion attributes or social-mobilisation capacity must file algorithms; technical supporters file by reference. Art. 19: '具有舆论属性或者社会动员能力的...应当...履行备案...技术支持者应当参照前款规定'.",
+   "verdict": "supported",
+   "locator": "Art. 19"
+  },
+  {
+   "claim": "Security assessments of tools generating or editing biometric information (faces, voices): Art. 15 (1) '生成或者编辑人脸、人声等生物识别信息的'.",
+   "verdict": "supported",
+   "locator": "Art. 15"
+  },
+  {
+   "claim": "Conspicuous labelling where content may cause public confusion or misidentification: Art. 17 '可能导致公众混淆或者误认的，应当...进行显著标识'.",
+   "verdict": "supported",
+   "locator": "Art. 17"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "All fields supported by the stored CAC Chinese text. The rewritten summary now follows Art. 23 (definition), Art. 15 (assessment duty on providers and technical supporters for biometric tools), Art. 17 (labelling) and Art. 19 (filing limited to providers with public-opinion or mobilisation capacity). original_title is the verbatim Chinese title. English title rests on China Law Translate's unofficial translation, disclosed in english_version. Search found no repeal or amendment; an April 2026 law-firm note mentions a newer deep synthesis authenticity rule but I found no official text, so no URL is added."
+}

@@ -1,0 +1,244 @@
+{
+ "cand_id": "KR-03",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "KR-03",
+ "record": {
+  "summary": "Presidential decree implementing Korea's AI Basic Act, in force since 22 January 2026. It defines the defence and security AI excluded from the Act (Art. 2) and governs the Presidential Council on National AI Strategy and the AI Safety Institute. Art. 23 sets how AI business operators offering high-impact or generative AI give users prior notice and indicate generated outputs. Art. 24 sets the threshold for the Act's safety duties: training compute of at least 10^26 floating-point operations, the most advanced AI technology now in use, and a risk of widespread, significant impact on human life, bodily safety and fundamental rights. Art. 25 sets the high-impact AI confirmation procedure.",
+  "english_version": {
+   "kind": "government translation",
+   "url": "https://elaw.klri.re.kr/eng_service/lawViewContent.do?hseq=73696",
+   "by": "Korea Legislation Research Institute (KLRI)"
+  },
+  "notes": "Enacted as Presidential Decree No. 36053 on 21 Jan 2026 after Cabinet approval on 20 Jan 2026 and a notice-and-comment draft of September to November 2025. It entered into force on 22 Jan 2026, except the part of Annex 1 on digital medical devices, in force from 24 Jan 2026. Its addenda repeal the earlier Regulations on the Presidential Council on National AI Strategy and carry the council over. The ministry said enforcement (fact-finding and fines) would be suspended for at least a year. Presidential Decree No. 36506 of 20 Jul 2026 (in force 21 Jul 2026) added the scope of AI-vulnerable groups (Art. 1-2), support for the cost of using AI products and services (Art. 15-2), start-up support (Art. 15-3) and rules on AI research institutes (Arts. 16-2 to 16-4). Presidential Decree No. 36580 of 18 Aug 2026 made a consequential amendment to Art. 2, in force 20 Aug 2026. MSIT also prepared two notifications and five guidelines (transparency, safety, high-impact AI determination, high-impact AI operator duties, AI impact assessment).",
+  "verification": {
+   "note": "Stored and read: the law.go.kr page for the current version (Presidential Decree No. 36580), whose browser-rendered copy holds the full article text and all addenda; the law.go.kr header of the enactment version (No. 36053); and the Korea Legislation Research Institute's English translation and bilingual view of the enactment version. The title, numbers, dates, status, Articles 2, 4, 10 and 23 to 25, the addenda and the amendments of 20 Jul and 18 Aug 2026 were confirmed from the stored law.go.kr text. The KLRI translation covers the 21 Jan 2026 text only and misspells 'Decree' in its heading. KLRI renders 국가인공지능전략위원회 as 'Presidential Council on National Artificial Intelligence Strategy'. The Cabinet date of 20 Jan 2026, the notice-and-comment period, the enforcement grace period and MSIT's notifications and guidelines rest on press reports and are not in the stored files."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-89755482f2/2026-10-14/official.html",
+    "sha256": "f66190079ffc71038b2009c64082425d86d532532c8a155648e87f101122e512",
+    "locator": "heading",
+    "quote": "ENFORCEMENT DECRFEE OF THE FRAMEWORK ACT ON THE DEVELOPMENT OF ARTIFICIAL INTELLIGENCE AND THE CREATION OF A FOUNDATION FOR TRUST",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "page heading",
+    "quote": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 시행령 [시행 2026. 8. 20.] [대통령령 제36580호, 2026. 8. 18., 타법개정]",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "decree heading",
+    "quote": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 시행령 ( 약칭: 인공지능기본법 시행령 )",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "decree heading",
+    "quote": "[시행 2026. 8. 20.] [대통령령 제36580호, 2026. 8. 18., 타법개정]",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "decree heading",
+    "quote": "과학기술정보통신부 (인공지능안전신뢰정책과), 044-202-6293",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "addenda",
+    "quote": "부 칙 <대통령령 제36053호, 2026. 1. 21.>",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "addenda",
+    "quote": "부 칙 <대통령령 제36580호, 2026. 8. 18.> (국가연구개발혁신법 시행령)",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "addenda",
+    "quote": "부 칙 <대통령령 제36053호, 2026. 1. 21.>",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/KR-03/2026-10-11/secondary.html",
+    "sha256": "7cb0dd330cb94479252ed62e8e83e7f4cfd54d9cdda5ec228b161edd9f32a794",
+    "locator": "heading of the enactment version",
+    "quote": "[시행 2026. 1. 22.] [대통령령 제36053호, 2026. 1. 21., 제정]",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-89755482f2/2026-10-14/official.html",
+    "sha256": "f66190079ffc71038b2009c64082425d86d532532c8a155648e87f101122e512",
+    "locator": "heading",
+    "quote": "Presidential Decree No. 36053, Jan. 21, 2026",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "addenda <No. 36053>, Art. 1",
+    "quote": "제1조(시행일) 이 영은 2026년 1월 22일부터 시행한다. 다만, 별표 1 중 디지털의료기기에 관한 부분은 2026년 1월 24일부터 시행한다.",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "decree heading",
+    "quote": "[시행 2026. 8. 20.] [대통령령 제36580호, 2026. 8. 18., 타법개정]",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "addenda <No. 36580>, Art. 1",
+    "quote": "제1조(시행일) 이 영은 2026년 8월 20일부터 시행한다.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "decree heading",
+    "quote": "[시행 2026. 8. 20.] [대통령령 제36580호, 2026. 8. 18., 타법개정]",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "addenda <No. 36053>, Art. 1",
+    "quote": "이 영은 2026년 1월 22일부터 시행한다.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "Art. 1",
+    "quote": "제1조(목적) 이 영은 「인공지능 발전과 신뢰 기반 조성 등에 관한 기본법」에서 위임된 사항과 그 시행에 필요한 사항을 규정함을 목적으로 한다.",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "Art. 23(1)",
+    "quote": "법 제31조제1항에 따라 인공지능사업자는 고영향 인공지능이나 생성형 인공지능을 이용한 제품 또는 서비스(이하 “제품등”이라 한다)를 제공하는 경우",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "Art. 24(1)",
+    "quote": "1. 학습에 사용된 누적 연산량이 10의 26승 부동소수점연산 이상일 것",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "Art. 24(1)",
+    "quote": "2. 인공지능기술의 발전 수준을 고려할 때 현재 인공지능시스템에 활용되는 인공지능기술 중 최첨단의 인공지능기술을 적용하여 구성ㆍ운영되고 있을 것",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "Art. 24(1)",
+    "quote": "3. 인공지능시스템의 위험도가 사람의 생명, 신체의 안전 및 기본권에 광범위하고 중대한 영향을 미칠 우려가 있을 것",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-89755482f2/2026-10-14/official.html",
+    "sha256": "f66190079ffc71038b2009c64082425d86d532532c8a155648e87f101122e512",
+    "locator": "Article 24(1)2",
+    "quote": "the system shall be configured and operated using the most advanced artificial intelligence technology among those currently utilized in artificial intelligence systems",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "Art. 25 heading",
+    "quote": "제25조(고영향 인공지능의 확인 절차 등)",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "addenda <No. 36506>",
+    "quote": "부 칙 <대통령령 제36506호, 2026. 7. 20.>",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "addenda <No. 36506>",
+    "quote": "이 영은 2026년 7월 21일부터 시행한다.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "addenda <No. 36053>, Art. 2",
+    "quote": "제2조(다른 법령의 폐지) 「국가인공지능전략위원회의 설치 및 운영에 관한 규정」은 폐지한다.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Addenda Art. 1 of Decree No. 36053: in force from 22 Jan 2026 (the digital medical device part of Annex 1 from 24 Jan 2026). The current version heading shows the latest amendment, Decree No. 36580 of 18 Aug 2026, in force 20 Aug 2026. Today is 14 Oct 2026, after all these dates, and no repeal appears. In force stands; date_last_updated stays 2026-08-18, the latest amending decree.",
+  "scope_reasoning": "Binding implementing regulation of an AI-specific framework act; clearly in scope, no scope_note.",
+  "changes": {
+   "summary": "'Providers' rendered 인공지능사업자 (AI business operators, as KLRI renders it); 'frontier-level technology' rendered 최첨단의 인공지능기술 (KLRI: the most advanced AI technology currently utilized); 'life, safety or fundamental rights' was 생명, 신체의 안전 및 기본권 (life, bodily safety and fundamental rights).",
+   "english_version": "KLRI's English translation of Decree No. 36053 is now stored.",
+   "notes": "The July 2026 amendment is now confirmed from the decree text as Decree No. 36506 of 20 Jul 2026 (in force 21 Jul 2026), not only a Cabinet decision reported by press; added the partial commencement of 24 Jan 2026; removed '(press)'.",
+   "verification.note": "The full decree text is now stored (rendered law.go.kr page) together with the KLRI translation; the old note said the article text was read live and not archived."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "official_identifier",
+   "date_published",
+   "date_in_force",
+   "date_last_updated",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "official_identifier names the enactment (No. 36053) and the current version (No. 36580) but not the substantive amendment of 20 Jul 2026 (No. 36506); whether to add it is left to the checker."
+ ]
+}

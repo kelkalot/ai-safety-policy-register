@@ -1,0 +1,175 @@
+{
+ "cand_id": "JP-02",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "JP-02",
+ "record": {
+  "official_url": "https://www.soumu.go.jp/main_sosiki/kenkyu/ai_network/02ryutsu20_04000019.html",
+  "date_last_updated": "2026-03-31",
+  "summary": "Voluntary AI governance guidelines of the Ministry of Internal Affairs and Communications and the Ministry of Economy, Trade and Industry for all who develop, provide or use AI in business, including public bodies, issued as non-binding soft law. They set basic philosophies, principles and ten common guiding principles (human-centricity, safety, fairness, privacy, security, transparency, accountability, education and literacy, fair competition, innovation), apply the Hiroshima Process guiding principles to all AI actors, call for a risk-based approach and agile AI governance across the life cycle, and give separate guidance for AI developers, providers and business users.",
+  "notes": "Version 1.0 was published on 19 April 2024, integrating and replacing MIC's draft AI R&D Guidelines and AI Utilization Guidelines and METI's Governance Guidelines for Implementation of AI Principles. Version 1.01 followed on 22 November 2024, version 1.1 on 28 March 2025 and version 1.2 on 31 March 2026; the ministries update it as a living document. Version 1.2 refers to the AI Promotion Act (Act No. 53 of 2025), fully in force since September 2025, and to the guideline adopted under its Article 13 on 19 December 2025, and defines AI agents and physical AI. Developers of advanced AI systems are asked to refer to the Hiroshima Process International Code of Conduct. The main text sets out the philosophy and guiding principles; a separate appendix gives practical measures, checklists and examples. MIC and METI publish English versions as provisional translations.",
+  "english_version": {
+   "kind": "government translation",
+   "url": "https://www.soumu.go.jp/main_content/001080990.pdf",
+   "by": "Ministry of Internal Affairs and Communications and Ministry of Economy, Trade and Industry (provisional translation)"
+  },
+  "verification": {
+   "note": "Stored: MIC's page for the AI Guidelines for Business (list of all versions with their publication dates), the Japanese main text of version 1.0 (19 April 2024) and of version 1.2 (31 March 2026), and the ministries' English provisional translation of version 1.2 and of its appendix. They confirm the title, both issuing ministries, the dates of the four versions, the non-binding character and the content summarised. METI's page and PDF, the record's earlier official and secondary URLs, cannot be stored (HTTP 403, also in a browser); the official URL now points to MIC's page. The English texts are provisional translations that refer readers to the Japanese original."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-02/extra-b8bd89b7a5/2026-10-14/official.pdf",
+    "sha256": "c8cd10e1249ad7eb214a5f1dbd78052a05dfb9610c50ca6f0e029add887a30fc",
+    "locator": "page 1 (cover)",
+    "quote": "AI 事業者ガイドライン （第 1.2 版） 令和 8 年 3 月 31 日 総務省 経済産業省",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-02/extra-f09cc15e53/2026-10-14/official.pdf",
+    "sha256": "c8eba9b2fc4ff3e4872da734a316d98b1247bae36437d5b2cc35325b3a086f8b",
+    "locator": "page 1 (cover)",
+    "quote": "AI Guidelines for Business Ver1.2 March 31, 2026 Ministry of Internal Affairs and Communications Ministry of Economy, Trade and Industry",
+    "source_kind": "alt-official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-02/extra-3b054e8a62/2026-10-14/official.html",
+    "sha256": "b6140d310144f7f59eb9f900fab0ae22ea7b5341a2af0ab9f636986245ed49a3",
+    "locator": "list of version 1.2 documents",
+    "quote": "「AI事業者ガイドライン（第1.2版）」本編",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-02/extra-b8bd89b7a5/2026-10-14/official.pdf",
+    "sha256": "c8cd10e1249ad7eb214a5f1dbd78052a05dfb9610c50ca6f0e029add887a30fc",
+    "locator": "page 1 (cover)",
+    "quote": "AI 事業者ガイドライン （第 1.2 版） 令和 8 年 3 月 31 日 総務省 経済産業省",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-02/extra-f09cc15e53/2026-10-14/official.pdf",
+    "sha256": "c8eba9b2fc4ff3e4872da734a316d98b1247bae36437d5b2cc35325b3a086f8b",
+    "locator": "page 1 (cover)",
+    "quote": "AI Guidelines for Business Ver1.2 March 31, 2026 Ministry of Internal Affairs and Communications Ministry of Economy, Trade and Industry",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-02/extra-93fd38d0f5/2026-10-14/official.pdf",
+    "sha256": "d09121c7631325a20b0db56908e9ef57cdb408bbe12c6f9c33b731ee19f0818e",
+    "locator": "page 1 (cover)",
+    "quote": "AI 事業者ガイドライン （第 1.0 版） 令和 6 年 4 月 19 日 総務省 経済産業省",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-02/extra-3b054e8a62/2026-10-14/official.html",
+    "sha256": "b6140d310144f7f59eb9f900fab0ae22ea7b5341a2af0ab9f636986245ed49a3",
+    "locator": "version 1.0 heading",
+    "quote": "【AI事業者ガイドライン第1.0版（令和6年4月19日 公表）】",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-02/extra-b8bd89b7a5/2026-10-14/official.pdf",
+    "sha256": "c8cd10e1249ad7eb214a5f1dbd78052a05dfb9610c50ca6f0e029add887a30fc",
+    "locator": "page 4, はじめに",
+    "quote": "ガイドライン（非拘束的なソフトロー）として本ガイドラインを 2024 年 4 月に策定した",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-02/extra-f09cc15e53/2026-10-14/official.pdf",
+    "sha256": "c8eba9b2fc4ff3e4872da734a316d98b1247bae36437d5b2cc35325b3a086f8b",
+    "locator": "page 1 (cover)",
+    "quote": "AI Guidelines for Business Ver1.2 March 31, 2026 Ministry of Internal Affairs and Communications Ministry of Economy, Trade and Industry",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-02/extra-b8bd89b7a5/2026-10-14/official.pdf",
+    "sha256": "c8cd10e1249ad7eb214a5f1dbd78052a05dfb9610c50ca6f0e029add887a30fc",
+    "locator": "page 1 (cover)",
+    "quote": "AI 事業者ガイドライン （第 1.2 版） 令和 8 年 3 月 31 日 総務省 経済産業省",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-02/extra-3b054e8a62/2026-10-14/official.html",
+    "sha256": "b6140d310144f7f59eb9f900fab0ae22ea7b5341a2af0ab9f636986245ed49a3",
+    "locator": "version 1.2 heading",
+    "quote": "【AI事業者ガイドライン第1.2版（令和8年3月31日 公表）】",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-02/extra-3b054e8a62/2026-10-14/official.html",
+    "sha256": "b6140d310144f7f59eb9f900fab0ae22ea7b5341a2af0ab9f636986245ed49a3",
+    "locator": "version 1.2 heading",
+    "quote": "【AI事業者ガイドライン第1.2版（令和8年3月31日 公表）】",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-02/extra-b8bd89b7a5/2026-10-14/official.pdf",
+    "sha256": "c8cd10e1249ad7eb214a5f1dbd78052a05dfb9610c50ca6f0e029add887a30fc",
+    "locator": "page 5, はじめに",
+    "quote": "Living Document として本書における定義等も含めた内容について適宜更新を行っている",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-02/extra-b8bd89b7a5/2026-10-14/official.pdf",
+    "sha256": "c8cd10e1249ad7eb214a5f1dbd78052a05dfb9610c50ca6f0e029add887a30fc",
+    "locator": "page 3, はじめに",
+    "quote": "関係者による自主的な取組を促し、非拘束的なソフトローによって目的達成に導く",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-02/extra-b8bd89b7a5/2026-10-14/official.pdf",
+    "sha256": "c8cd10e1249ad7eb214a5f1dbd78052a05dfb9610c50ca6f0e029add887a30fc",
+    "locator": "page 4, はじめに",
+    "quote": "ガイドライン（非拘束的なソフトロー）として本ガイドラインを 2024 年 4 月に策定した",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-02/extra-b8bd89b7a5/2026-10-14/official.pdf",
+    "sha256": "c8cd10e1249ad7eb214a5f1dbd78052a05dfb9610c50ca6f0e029add887a30fc",
+    "locator": "page 3, はじめに",
+    "quote": "関係者による自主的な取組を促し、非拘束的なソフトローによって目的達成に導く",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "MIC's page lists version 1.2, published on 31 March 2026, as the latest version, after 1.0 (19 April 2024), 1.01 (22 November 2024) and 1.1 (28 March 2025). The version 1.2 text calls itself non-binding soft law and a living document that the ministries keep updating. No stored file shows a withdrawal. 'Published (non-binding, current)' stands; date_last_updated moves to 2026-03-31.",
+  "scope_reasoning": "In scope without a scope note: national AI governance guidelines for business issued by two ministries.",
+  "changes": {
+   "official_url": "METI's page returns HTTP 403 to the archiver in every attempt; MIC, the co-issuer, lists every version with its date and links the Japanese and English texts, and its page is stored.",
+   "date_last_updated": "2025-03-28 to 2026-03-31: version 1.2 (cover of the Japanese text, MIC's version list, English cover).",
+   "summary": "Rewritten from the Japanese text of version 1.2: scope (page 5), soft-law character (pages 3 and 4), the ten common guiding principles (pages 15 to 24), the Hiroshima Process guiding principles for all AI actors (page 27), the risk-based approach and agile governance (pages 4, 5 and 28) and the three actor parts (pages 30 to 42).",
+   "notes": "Version 1.2 of 31 March 2026 added; 'version 1.1 is the latest' and the unsupported English date of version 1.01 removed. The relation to the AI Promotion Act is now stated as the text puts it (page 3 and footnote 2) instead of 'serves as a ministry-level guideline'.",
+   "english_version": "The ministries' English text of version 1.2 is stored; it is labelled a provisional translation (仮訳) that refers readers to the original.",
+   "verification": "New note: the record had no stored copy before this run."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "secondary_url still names METI's PDF (20240419_14.pdf), which returns HTTP 403 to the archiver; a human may replace it, for example with METI's study-group page or the English translation.",
+  "The MIC page also lists a draft 'guide to using the AI Guidelines for Business' (活用の手引き（案）, 31 March 2026) and a chatbot; they are not in the register."
+ ]
+}

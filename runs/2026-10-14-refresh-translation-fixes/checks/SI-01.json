@@ -1,0 +1,108 @@
+{
+ "cand_id": "SI-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Rendering of the Slovenian title; no official English text found."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "Matches the Ukaz and the contents line letter for letter: 'Zakon o izvajanju uredbe (EU) o določitvi harmoniziranih pravil o umetni inteligenci (ZIUDHPUI)' with lowercase 'uredbe'; only the page heading is in capitals. The current record's capital 'Uredbe' is the one that differs, so the extraction's change is right."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Adopted by the Državni zbor (Ukaz). The Ministry of Digital Transformation as responsible ministry rests on the gov.si release (alt-official)."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "'Uradni list RS, št. 85/2025 z dne 6. 11. 2025', item 3035."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Ukaz: adopted by the National Assembly at its session on 23 October 2025; signed 'Ljubljana, dne 23. oktobra 2025'. The register uses the adoption date; promulgation (31 October 2025) and publication (6 November 2025) are in the notes."
+  },
+  "date_in_force": {
+   "verdict": "supported",
+   "why": "Art. 45: 'začne veljati petnajsti dan po objavi' (enters into force on the fifteenth day after publication); 6 Nov 2025 + 15 days = 21 Nov 2025."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "In force; no amending act found. The 'Prikazana vsebina ... arhivska' line on the stored page concerns the display of issues after 28 Feb 2026, not the act."
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "unsupported",
+   "why": "The fine sentence 'Articles 25-35 set misdemeanour fines by tier (EUR 35 million or 7% for prohibited practices, EUR 15 million or 3% ...)' presents the top ceilings as the fines. In Art. 26(1) the ordinary range is EUR 25,000-250,000 (100,000-450,000 for large companies); the 35 million / 7% ceiling in Art. 26(5) applies only where the breach is 'posebno hud' (particularly serious because of damage, unlawful gain or intent), as does the 15 million / 3% tier in Arts. 27-33 and the 7.5 million / 1% tier in Art. 34. For micro, small and medium-sized companies the lower amount applies (26(6)). Because this run set out to correct overstated obligations, the notes need the two-band wording.",
+   "fix": {
+    "value": "Adopted by the National Assembly on 23 October 2025, promulgated on 31 October 2025 and published in Uradni list RS 85/2025 on 6 November 2025; in force on the fifteenth day after publication (Article 45), i.e. 21 November 2025. Misdemeanour fines (Articles 25-35) normally run from EUR 25,000 to 250,000 for legal persons and EUR 100,000 to 450,000 for large companies. Where a breach is particularly serious because of the damage caused, the unlawful gain or intent, the ceiling rises to EUR 35 million or 7% of worldwide turnover for prohibited practices (Article 26(5)), EUR 15 million or 3% for operator obligations and EUR 7.5 million or 1% for incorrect or misleading information, whichever is higher, or whichever is lower for micro, small and medium-sized enterprises. Public bodies that fail to publish AI system information face EUR 500-5,000 (Article 35). The publication duty (Article 21) does not apply to AI used in law enforcement, defence, national security, migration, asylum and border control. AKOS had to set up the first regulatory sandbox by 2 August 2026 (Article 40). Conformity assessment bodies are assessed by the national accreditation service (Article 5). The national AI strategy of March 2026 (NsUI 2030) treats the act as the legal basis of its 'ethics and regulation' measures.",
+    "evidence": [
+     {
+      "file": "archive/SI-01/2026-10-12/official.html",
+      "sha256": "c49f9c922b230fe2517545b1ee7cdde8cc13e8ee68c9831637e0390455ce9af5",
+      "locator": "Art. 26(1), ordinary fine range",
+      "quote": "Z globo od 25.000 do 250.000 eurov se za prekršek kaznuje pravna oseba, z globo od 100.000 do 450.000 eurov pa pravna oseba, ki se po zakonu, ki ureja gospodarske družbe, šteje za veliko gospodarsko družbo, ki:",
+      "source_kind": "official"
+     },
+     {
+      "file": "archive/SI-01/2026-10-12/official.html",
+      "sha256": "c49f9c922b230fe2517545b1ee7cdde8cc13e8ee68c9831637e0390455ce9af5",
+      "locator": "Art. 26(5), particularly serious breach",
+      "quote": "Kadar je prekršek iz prvega odstavka tega člena posebno hud zaradi višine povzročene škode oziroma višine pridobljene protipravne premoženjske koristi ali zaradi storilčevega naklepa oziroma njegovega namena koristoljubnosti",
+      "source_kind": "official"
+     },
+     {
+      "file": "archive/SI-01/2026-10-12/official.html",
+      "sha256": "c49f9c922b230fe2517545b1ee7cdde8cc13e8ee68c9831637e0390455ce9af5",
+      "locator": "Art. 26(5), ceiling",
+      "quote": "se ponudnik ali uvajalec, ki je pravna oseba, samostojni podjetnik posameznik ali posameznik, ki samostojno opravlja dejavnost, kaznuje z globo v višini do 35.000.000 eurov ali do sedem odstotkov skupnega svetovnega letnega prometa",
+      "source_kind": "official"
+     }
+    ]
+   }
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "AKOS supervises Annex I Section A products, Annex III points 2, 4, 5(a), 5(d) and Article 50",
+   "verdict": "supported",
+   "locator": "Art. 10(5): 'Agencija je pristojna za nadzor nad skladnostjo visokotveganih sistemov UI, urejenih z zakonodajo Unije iz oddelka A Priloge I ..., iz 2. in 4. točke ter pod (a) in (d) 5. točke Priloge III ... in nad 50. členom' (the agency is competent for supervising ...)"
+  },
+  {
+   "claim": "Information Commissioner supervises Article 5 and Annex III points 1, 3 and 6 to 8",
+   "verdict": "supported",
+   "locator": "Art. 10(1)"
+  },
+  {
+   "claim": "Notifying authorities are the ministries for the market, infrastructure, health and the information society, and the medicines agency",
+   "verdict": "supported",
+   "locator": "Arts. 3-4: 'ministrstvo, pristojno za trg' (the ministry responsible for the market), infrastructure, health; Javna agencija za zdravila in medicinske pripomočke; information society for Annex III point 1"
+  },
+  {
+   "claim": "Public bodies must publish data on the AI they use",
+   "verdict": "supported",
+   "locator": "Art. 21(1)-(3): public bodies publish data on a unified information point 'najkasneje ob uvedbi sistema UI' (at the latest when the system is introduced)"
+  },
+  {
+   "claim": "National Council for Ethics in AI is created; fines reach EUR 35 million or 7%",
+   "verdict": "supported",
+   "locator": "Art. 23(1); Art. 26(5) (see notes finding on the conditions)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept-with-fixes",
+ "note": "Summary and original_title are right. The notes overstate the fines by giving only the maximum tiers, which apply to particularly serious breaches; a fix with the corrected notes text and quotes from Art. 26(1) and 26(5) is attached. Everything else in the notes (Art. 21(4) exclusions, Art. 40 sandbox deadline of 2 August 2026, Art. 5 accreditation service, dates) matches the Slovenian text. The Commission list and NsUI 2030 statements are not in stored copies (the verification note says so). A search for an amending act returned nothing relevant, so the search was inconclusive rather than negative."
+}

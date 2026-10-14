@@ -917,6 +917,10 @@ def select_run(db, args):
     by = {r["id"]: r for r in db["records"]}
     only = {x.strip() for x in (args.only or "").split(",") if x.strip()}
     recs, where = [], {}
+    # A source this run has already stored is not fetched again (pages that change on every request would otherwise
+    # get a new snapshot each pass, and the files an extractor quoted would drop out of the record); failed and
+    # partial ones are retried. --refetch fetches everything again.
+    stored = lambda lc: not getattr(args, "refetch", False) and (lc or {}).get("status") in ("archived", "archived-review")  # noqa: E731
     for c in cands:
         cid = c["cand_id"]
         if c.get("status", "active") != "active" or (only and cid not in only):
@@ -928,18 +932,22 @@ def select_run(db, args):
             if not rec:
                 print("  %s: record %s does not exist; skipped" % (cid, c["record_id"]))
                 continue
-            recs.append(rec)
-            where[id(rec)] = (cid, "main", None)
             title = rec.get("title") or title
+            if not stored(prev.get("main")):
+                recs.append(rec)
+                where[id(rec)] = (cid, "main", None)
         else:
             leads = [u for u in c.get("lead_urls") or [] if isinstance(u, str)]
             pseudo = {"id": "_runs/%s/%s" % (args.run, cid), "title": title, "short_title": title,
                       "original_title": c.get("original_title"), "official_identifier": c.get("official_identifier"),
                       "official_url": c.get("url"), "secondary_url": None if c.get("url") else (leads[:1] or [None])[0],
                       "local_copy": prev.get("main")}
-            recs.append(pseudo)
-            where[id(pseudo)] = (cid, "main", None)
+            if not stored(prev.get("main")):
+                recs.append(pseudo)
+                where[id(pseudo)] = (cid, "main", None)
         for u in extra_urls(rd, cid):
+            if stored((prev.get("extras") or {}).get(u)):
+                continue
             key = hashlib.sha256(u.encode("utf-8")).hexdigest()[:10]
             pseudo = {"id": "_runs/%s/%s/extra-%s" % (args.run, cid, key), "title": title, "short_title": title,
                       "official_url": u, "secondary_url": None, "local_copy": (prev.get("extras") or {}).get(u)}
@@ -1067,6 +1075,8 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description="Download local copies of the register's sources and flag failures.")
     ap.add_argument("--only", help="comma-separated record IDs or slugs, e.g. EU-01,US-07 (with --run: candidate IDs)")
     ap.add_argument("--run", help="store the sources of a pipeline run's candidates (runs/<RUN>/candidates.json)")
+    ap.add_argument("--refetch", action="store_true",
+                    help="with --run: fetch again the sources this run has already stored (default: only new and failed ones)")
     ap.add_argument("--allow-private-hosts", action="store_true",
                     help="with --run: also fetch local and private addresses (only for tests against a local test site)")
     ap.add_argument("--status", help="only records whose local status is one of these, e.g. failed,partial,not-attempted")

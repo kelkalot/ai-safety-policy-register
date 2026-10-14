@@ -1,0 +1,69 @@
+{
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "The Cabinet Office's provisional English translation carries exactly this title on its cover and first page; a government translation title."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "Cover of the Japanese text reads 人工知能関連技術の研究開発及び活用の 適正性確保に関する指針 (a layout space only); the CAO page's second heading matches without it. The first page heading misspells 適性性; the record correctly uses 適正性."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Cover: 令和７年12月19日 人工知能戦略本部決定 (decision of the AI Strategic Headquarters)."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Cover: 令和７年12月19日 = 19 December 2025."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Published decision of the Headquarters; the quote is only the decision line, but nothing in the stored texts shows revision or withdrawal. A search found nothing newer."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "Guideline 1(1): intended to encourage voluntary and proactive (自主的かつ能動的) efforts; no binding force stated."
+  },
+  "english_version": {
+   "verdict": "supported",
+   "why": "kind 'government translation', CAO provisional translation; URL https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_gl_eng_20260116.pdf is a stored source (sha256 e16ebd6c...). Its heading is 'Provisional translation'; fits."
+  },
+  "notes": {
+   "verdict": "supported",
+   "why": "Draft consultation 5 to 11 Dec 2025 and the page's lists of ministry guidelines (AI Guidelines for Business R8.3) and international norms (Hiroshima Process, ISO/IEC 42001) all appear on the CAO page."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Policies: a risk-based approach, active stakeholder involvement, life-cycle AI governance and agile response",
+   "verdict": "supported",
+   "locator": "section 1(2) basic policies ①-④ (page 4)",
+   "translation": "① risk-based approach: identify and assess risks and take measures according to the degree of impact; ② active involvement of stakeholders; ③ 一気通貫での AI ガバナンスの構築 'building AI governance that treats each stage from R&D to social implementation as a whole' (rendered life-cycle, as the government translation does); ④ agile response with a PDCA cycle."
+  },
+  {
+   "claim": "R&D institutions and business operators counter risks of misuse for crime, curb hallucinations and disinformation including deepfakes, and work to develop technology to identify AI-generated content",
+   "verdict": "supported",
+   "locator": "section 2(3) 十分な安全性の確保, page 6-7",
+   "translation": "'Identify and assess the risk that cyber-attacks, fraud and other crimes or illegal acts are carried out by abusing AI and take appropriate measures. ... suppress inappropriate AI output that leads to hallucinations, promotion of bias and discrimination and spread of false or misleading information (fake video, sexually manipulated images etc. using deepfake technology) ... strive to develop technology allowing one to tell that something is AI-generated (digital watermarks, provenance management, APIs) and implement it as needed.'"
+  },
+  {
+   "claim": "The State fulfils accountability when using AI and appoints AI governance officers in ministries; citizens use AI responsibly",
+   "verdict": "supported",
+   "locator": "section 3(4), page 8; section 4(1)",
+   "translation": "'When administration uses AI, ... fulfil accountability to the people ... In each ministry and agency, appoint a person responsible for AI governance (各府省庁において、ＡＩガバナンスの責任者を任命する)'; citizens 'strive to act with awareness as responsible users'."
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Government guideline under Article 13 of the AI Promotion Act on trustworthy AI and risk governance."
+ },
+ "overall": "accept",
+ "note": "The new summary is faithful to the full Japanese guideline: the four basic policies, the safety measures on crime misuse, hallucination, disinformation and identification technology, and the State's accountability and ministry governance officers were each found and translated literally. The government terms (一気通貫 as life-cycle, 活用事業者 as utilization business operators) follow the CAO translation. Title, original title (the page heading's 適性性 misspelling is correctly avoided), date, issuing body and the stored English translation are supported. The evidence script's warning about the secondary PDF being from an official host is only a level matter (alt-official).",
+ "cand_id": "JP-05",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14"
+}

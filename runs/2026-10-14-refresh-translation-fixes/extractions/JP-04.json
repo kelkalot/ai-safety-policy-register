@@ -1,0 +1,175 @@
+{
+ "cand_id": "JP-04",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "JP-04",
+ "record": {
+  "title": "Act on Promotion of Research and Development, and Utilization of Artificial Intelligence-related Technology",
+  "summary": "Framework law for promoting the research, development and utilization of AI-related technology. Its basic principles require transparency in research, development and utilization, since wrongful or inappropriate use can abet crime, leaks of personal information and copyright infringement, and seek a leading role in international cooperation. The State is to analyse cases in which such use infringed citizens' rights and interests and accordingly give guidance, advice and information to R&D institutions, utilization business operators and others; set guidelines in line with international norms; and adopt an AI Basic Plan. It creates the AI Strategic Headquarters, headed by the Prime Minister.",
+  "notes": "Enacted 28 May 2025 and promulgated as Act No. 53 of 4 Jun 2025. Under Supplementary Provisions Article 1 it took effect on promulgation, except Chapters III and IV (AI Basic Plan and AI Strategic Headquarters), which took effect on 1 Sept 2025; Supplementary Provisions Article 2 requires the government to review the Act's enforcement. Article 7 obliges utilization business operators to cooperate with the measures of the State and local governments (協力しなければならない), while R&D institutions and citizens are to endeavour to cooperate (Articles 6 and 8); the Cabinet Office's provisional English overview renders the business duty as 'shall endeavor to cooperate'. The Act contains no penalty provisions. Both Houses attached supplementary resolutions. The AI Basic Plan (Dec 2025; second plan Jul 2026) and the Article 13 appropriateness guideline (Dec 2025) were adopted under it, and the second AI Basic Plan commits to continuously reviewing the Act.",
+  "english_version": {
+   "kind": "government translation",
+   "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5066",
+   "by": "Ministry of Justice of Japan (Japanese Law Translation)"
+  },
+  "verification": {
+   "note": "Stored on 11 Oct 2026: the Cabinet Office's AI Act page, its one-page Japanese overview and its provisional English translation of the overview. Stored on 14 Oct 2026: the Act's official Japanese text from e-Gov (browser-rendered page and print PDF, revision in force from 1 Sept 2025; the plain HTTP copy is an empty JavaScript shell) and the Ministry of Justice's Japanese Law Translation page with the English text and its bilingual PDF. The e-Gov text confirms the title, the number (令和七年法律第五十三号), Articles 1 to 28 and the supplementary provisions; the summary is written from it. The title now follows the Japanese Law Translation, which renders 人工知能 in full; the Cabinet Office's provisional overview uses 'AI-related Technology'. The dates 28 May 2025 (enactment) and 1 Sept 2025 (full commencement) come from the Cabinet Office page and overviews and e-Gov's revision history."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-04/extra-d5f234a0a9/2026-10-14/official.html",
+    "sha256": "7eedd824dc3d348e494747d1c43ffe5afe687cdcc42b58d26143f87ade444981",
+    "locator": "page heading, English",
+    "quote": "Act on Promotion of Research and Development, and Utilization of Artificial Intelligence-related Technology（Act No. 53 of 2025）",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-04/extra-eb0fc0b12b/2026-10-14/official-rendered.html",
+    "sha256": "5044be9f8858e69789be0783000b98cc6e811f6f286972d8b2e1ce4377b02c6b",
+    "locator": "page heading",
+    "quote": "人工知能関連技術の研究開発及び活用の推進に関する法律（令和七年法律第五十三号）",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-04/extra-eb0fc0b12b/2026-10-14/official-rendered.html",
+    "sha256": "5044be9f8858e69789be0783000b98cc6e811f6f286972d8b2e1ce4377b02c6b",
+    "locator": "page heading",
+    "quote": "人工知能関連技術の研究開発及び活用の推進に関する法律（令和七年法律第五十三号）",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/JP-04/2026-10-11/official.html",
+    "sha256": "05380a580a25a9655145873475af7710d70161ccf3f85ed8304911b896310c36",
+    "locator": "page heading",
+    "quote": "人工知能関連技術の研究開発及び活用の推進に関する法律（ＡＩ法）",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-04/extra-eb0fc0b12b/2026-10-14/official-rendered.html",
+    "sha256": "5044be9f8858e69789be0783000b98cc6e811f6f286972d8b2e1ce4377b02c6b",
+    "locator": "page heading",
+    "quote": "人工知能関連技術の研究開発及び活用の推進に関する法律（令和七年法律第五十三号）",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-04/extra-d5f234a0a9/2026-10-14/official.html",
+    "sha256": "7eedd824dc3d348e494747d1c43ffe5afe687cdcc42b58d26143f87ade444981",
+    "locator": "law header",
+    "quote": "令和七年六月四日法律第五十三号 Act No. 53 of June 4, 2025",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/JP-04/2026-10-11/official.html",
+    "sha256": "05380a580a25a9655145873475af7710d70161ccf3f85ed8304911b896310c36",
+    "locator": "関連資料",
+    "quote": "人工知能関連技術の研究開発及び活用の推進に関する法律案に対する附帯決議（衆議院ホームページ）",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-04/extra-eb0fc0b12b/2026-10-14/official-rendered.html",
+    "sha256": "5044be9f8858e69789be0783000b98cc6e811f6f286972d8b2e1ce4377b02c6b",
+    "locator": "Article 26",
+    "quote": "本部に関する事務は、内閣府において処理する。",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-04/extra-d5f234a0a9/2026-10-14/official.html",
+    "sha256": "7eedd824dc3d348e494747d1c43ffe5afe687cdcc42b58d26143f87ade444981",
+    "locator": "law header",
+    "quote": "令和七年六月四日法律第五十三号 Act No. 53 of June 4, 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/JP-04/2026-10-11/official.html",
+    "sha256": "05380a580a25a9655145873475af7710d70161ccf3f85ed8304911b896310c36",
+    "locator": "概要, second paragraph",
+    "quote": "令和7年6月4日にＡＩ法が公布・一部施行され",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-04/extra-eb0fc0b12b/2026-10-14/official-rendered.html",
+    "sha256": "5044be9f8858e69789be0783000b98cc6e811f6f286972d8b2e1ce4377b02c6b",
+    "locator": "Supplementary Provisions, Article 1",
+    "quote": "この法律は、公布の日から施行する。",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-04/extra-eb0fc0b12b/2026-10-14/official-rendered.html",
+    "sha256": "5044be9f8858e69789be0783000b98cc6e811f6f286972d8b2e1ce4377b02c6b",
+    "locator": "revision history",
+    "quote": "令和7年6月4日 施行",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/JP-04/2026-10-11/document-1.pdf",
+    "sha256": "31544306a9041edca18a84a2173c007c112ecbdf20e40ebd533e90b47ce7b9be",
+    "locator": "page 1, footnote",
+    "quote": "Partial enforcement: 4th June, 2025. Full enforcement: 1st September 2025.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-04/extra-eb0fc0b12b/2026-10-14/official-rendered.html",
+    "sha256": "5044be9f8858e69789be0783000b98cc6e811f6f286972d8b2e1ce4377b02c6b",
+    "locator": "revision history",
+    "quote": "令和7年9月1日 施行 現在施行",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/JP-04/2026-10-11/official.html",
+    "sha256": "05380a580a25a9655145873475af7710d70161ccf3f85ed8304911b896310c36",
+    "locator": "概要, second paragraph",
+    "quote": "９月１日にはＡＩ戦略本部の設置に係る規定等も含め、全面施行されました。",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/JP-04/extra-eb0fc0b12b/2026-10-14/official-rendered.html",
+    "sha256": "5044be9f8858e69789be0783000b98cc6e811f6f286972d8b2e1ce4377b02c6b",
+    "locator": "Article 7",
+    "quote": "第四条の規定に基づき国が実施する施策及び第五条の規定に基づき地方公共団体が実施する施策に協力しなければならない。",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Supplementary Provisions Article 1: the Act took effect on promulgation (4 Jun 2025), with Chapters III and IV from a date set by Cabinet Order within three months; e-Gov lists the revision in force from 令和7年9月1日 as 現在施行 (currently in force), and the Cabinet Office page says full enforcement on 1 Sept 2025. Both dates are before 14 Oct 2026 and e-Gov shows no later amendment, so 'In force' stands. date_in_force stays at the first commencement.",
+  "scope_reasoning": null,
+  "changes": {
+   "title": "Now the Ministry of Justice's Japanese Law Translation title, which renders 人工知能 as 'Artificial Intelligence'; the earlier title was the Cabinet Office's provisional overview translation.",
+   "summary": "Rewritten from the Act's text: Art. 3(4) (transparency, with the harms named), Art. 3(5), Art. 13, Art. 16 (analysis of cases infringing citizens' rights and interests; guidance, advice and information to R&D institutions, utilization business operators and others), Art. 18, Arts 19 and 22. The duty to cooperate moved to notes with the articles.",
+   "notes": "Commencement under Supplementary Provisions Arts 1 and 2; Art. 7 (must cooperate) against Arts 6 and 8 (endeavour) and the English overview's wording; no penalty provisions in the Act's text.",
+   "english_version": "Ministry of Justice translation now stored (Japanese Law Translation page).",
+   "verification.note": "Rewritten to include the newly stored e-Gov text and translation."
+  },
+  "confirmed": [
+   "original_title",
+   "official_identifier",
+   "issuing_body",
+   "date_published",
+   "date_in_force",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "issuing_body 'National Diet of Japan (lead: Cabinet Office)': the stored files show the bill before both Houses (supplementary resolutions) and the Cabinet Office handling the Headquarters' affairs (Art. 26), but no stored file names the Diet as enacting body in so many words."
+ ]
+}

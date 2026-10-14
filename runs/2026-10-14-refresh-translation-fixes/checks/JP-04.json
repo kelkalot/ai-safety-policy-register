@@ -1,0 +1,79 @@
+{
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "The Ministry of Justice's Japanese Law Translation page heading is exactly 'Act on Promotion of Research and Development, and Utilization of Artificial Intelligence-related Technology (Act No. 53 of 2025)'; a government translation title, stored."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "e-Gov heading 人工知能関連技術の研究開発及び活用の推進に関する法律（令和七年法律第五十三号） matches character by character."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "令和七年法律第五十三号 = Act No. 53 of 2025."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Law header 令和七年六月四日法律第五十三号 'Act No. 53 of June 4, 2025' is the promulgation date."
+  },
+  "date_in_force": {
+   "verdict": "supported",
+   "why": "Supplementary Provisions Art. 1: この法律は、公布の日から施行する (takes effect on promulgation), with Chapters III and IV by Cabinet Order within three months; e-Gov revision history gives 令和7年9月1日 for the full commencement. The notes record both."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "e-Gov revision history: 令和7年9月1日 施行 現在施行 (in force at present)."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "Article 7 uses 協力しなければならない (must cooperate)."
+  },
+  "issuing_body": {
+   "verdict": "judgment-differs",
+   "why": "No stored quote names the Diet as enacting body (the extractor says so). The Act is a statute, so National Diet is correct in substance and the Cabinet Office handles the Headquarters' affairs (Art. 26). I would keep it."
+  },
+  "english_version": {
+   "verdict": "supported",
+   "why": "kind 'government translation' by the Ministry of Justice (Japanese Law Translation); URL https://www.japaneselawtranslation.go.jp/en/laws/view/5066 is a stored source (sha256 7eedd824...)."
+  },
+  "notes": {
+   "verdict": "supported",
+   "why": "Enactment 28 May 2025 comes from the CAO overview ('Establishment: 28th May, 2025'); 'Article 7 ... shall endeavor to cooperate' is the CAO English overview; I confirmed this wording in the stored overview and its difference from Article 7 (must cooperate)."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Basic principles require transparency, because wrongful or inappropriate use can abet crime, leaks of personal information and copyright infringement",
+   "verdict": "supported",
+   "locator": "Article 3, paragraph 4",
+   "translation": "'Where research, development and utilization of AI-related technology is carried out for an improper purpose or by an inappropriate method, in view of the risk that it may encourage situations harming the peace of citizens' lives and their rights and interests, such as use for crime, leaks of personal information and copyright infringement, necessary measures, including ensuring transparency in the process of research, development and utilization, must be taken for its proper implementation.' The summary renders the risk accurately; 助長 'encourage, abet' fits."
+  },
+  {
+   "claim": "State analyses cases in which such use infringed citizens' rights and interests and accordingly gives guidance, advice and information to R&D institutions, utilization business operators and others",
+   "verdict": "supported",
+   "locator": "Article 16",
+   "translation": "'The State shall collect information ..., analyse cases in which infringement of citizens' rights and interests arose from research, development or utilization for an improper purpose or by an inappropriate method, consider countermeasures based on that, ... and, based on the results, take necessary measures such as guidance, advice and provision of information to R&D institutions, utilization business operators and others.' The old summary's 'investigate' and 'make information public' are replaced by wording closer to the text."
+  },
+  {
+   "claim": "Seeks a leading role in international cooperation; sets guidelines in line with international norms; AI Strategic Headquarters headed by the Prime Minister",
+   "verdict": "supported",
+   "locator": "Article 3(5); Article 13; Article 21 / headquarters head provision",
+   "translation": "3(5): 'Japan shall endeavour to play a leading role in international cooperation on R&D and utilization of AI-related technology'; 13: 'the State shall ... develop guidelines in line with the purport of international norms'; the Headquarters' head is the Prime Minister (内閣総理大臣をもって充てる)."
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "JP-02"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": "AI-specific framework law."
+ },
+ "overall": "accept",
+ "note": "The rewritten title, summary and notes check out against the e-Gov Japanese text and the Ministry of Justice's English translation. Article 3(4) transparency and risk wording, Article 16 case analysis and guidance, Article 3(5) leading role, Article 13 guidelines, the commencement rules and the 'must cooperate' wording of Article 7 were each found and translated. The evidence script found no errors. The issuing body rests on the nature of a statute rather than a quote, which I consider fine. JP-02 is not in related although the Act's guidelines framework is its basis in the notes there; JP-02 cites JP-04's Act.",
+ "cand_id": "JP-04",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14"
+}

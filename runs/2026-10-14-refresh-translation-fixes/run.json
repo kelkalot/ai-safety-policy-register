@@ -1,0 +1,81 @@
+{
+ "run_id": "2026-10-14-refresh-translation-fixes",
+ "type": "refresh",
+ "scope": "ids:CN-02,CN-07,CN-09,CN-11,CN-12,CN-13,CN-16,JP-01,JP-03,JP-04,JP-05,KR-02,KR-03,KR-04,KR-05,KR-06,KR-07,KR-08,VN-02,VN-03,VN-04,VN-05,VN-06,BR-02,DK-02,HU-02,LV-03,OM-01,PE-02,RS-02,SI-01,TH-03,TR-02,CN-06,CN-08,CN-10,CN-15,CN-17,JP-02,JP-06,KR-01,VN-01,VN-07,IT-01,MX-01,SK-02",
+ "started": "2026-10-14",
+ "coordinator": {
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5"
+ },
+ "stages": {
+  "collect": {
+   "tool": null,
+   "model": null,
+   "date": null
+  },
+  "extract": {
+   "tool": "Claude Code",
+   "model": "claude-opus-5-5",
+   "date": "2026-10-14"
+  },
+  "blind": {
+   "tool": "Claude Code",
+   "model": "claude-opus-5-5",
+   "date": "2026-10-14"
+  },
+  "check": {
+   "tool": "Claude Code",
+   "model": "claude-sonnet-5-5",
+   "date": "2026-10-14"
+  }
+ },
+ "status": "merged",
+ "record_ids": [
+  "CN-02",
+  "CN-07",
+  "CN-09",
+  "CN-11",
+  "CN-12",
+  "CN-13",
+  "CN-16",
+  "JP-01",
+  "JP-03",
+  "JP-04",
+  "JP-05",
+  "KR-02",
+  "KR-03",
+  "KR-04",
+  "KR-05",
+  "KR-06",
+  "KR-07",
+  "KR-08",
+  "VN-02",
+  "VN-03",
+  "VN-04",
+  "VN-05",
+  "VN-06",
+  "BR-02",
+  "DK-02",
+  "HU-02",
+  "LV-03",
+  "OM-01",
+  "PE-02",
+  "RS-02",
+  "SI-01",
+  "TH-03",
+  "TR-02",
+  "CN-06",
+  "CN-08",
+  "CN-10",
+  "CN-15",
+  "CN-17",
+  "JP-02",
+  "JP-06",
+  "KR-01",
+  "VN-01",
+  "VN-07",
+  "IT-01",
+  "MX-01",
+  "SK-02"
+ ]
+}

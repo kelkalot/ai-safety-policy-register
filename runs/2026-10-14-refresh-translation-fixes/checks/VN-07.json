@@ -1,0 +1,70 @@
+{
+ "cand_id": "VN-07",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Art. 12(6): using, providing, deploying AI to infringe national interests, defence, security, order, public interest, human rights (Vietnamese in Can Tho article; English Art. 12(6))",
+   "verdict": "supported",
+   "locator": "extra-fc548cbf6b; extra-9ba3b7c954"
+  },
+  {
+   "claim": "Art. 43-45: high-risk and large-impact systems, notice of AI interaction, marks on listed AI products, duties of developers/providers/users (English text only; Vietnamese Arts 41-45 not stored, so 'large-impact' could not be checked against the Vietnamese term)",
+   "verdict": "supported",
+   "locator": "extra-9ba3b7c954"
+  },
+  {
+   "claim": "Art. 50(2): Articles 11, 28, 29 in force 1 July 2025; Law 134 Art. 33 repeals Art. 3(9), 4(7), 12(6), 34(2)(dd), Chapter IV",
+   "verdict": "supported",
+   "locator": "extra-9ba3b7c954; VN-02 PDF page 19"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Not AI-specific; the record covers only the AI provisions (Chapter IV and related clauses) now repealed. Inclusion with a scope_note fits section 10, which the record already carries in its title."
+ },
+ "overall": "accept",
+ "note": "Fields and notes match the stored texts. Limit: the summary's account of Chapter IV rests on the LuatVietnam English text because no Vietnamese text of Articles 41-45 is stored, so the translation check for 'large-impact' (term of a commercial translation) is incomplete. original_title now matches the portal's 'Trich yeu Luat Cong nghiep cong nghe so'. vanban.chinhphu.vn is not a listed host (script already warned). Level B as computed. No further amendment found."
+}

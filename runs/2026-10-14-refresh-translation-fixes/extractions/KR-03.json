@@ -1,0 +1,162 @@
+{
+ "cand_id": "KR-03",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "KR-03",
+ "record": {
+  "official_identifier": "Presidential Decree No. 36053",
+  "summary": "Presidential decree implementing Korea's AI Basic Act, in force from 22 January 2026. It defines the defence, intelligence and police AI excluded from the Act (Art. 2), organises the National AI Strategy Committee and the AI Safety Institute, and fills in the Act's trust duties. AI business operators must give prior notice of high-impact or generative AI and may mark generative outputs in human-perceivable or machine-readable form (Art. 23). The Art. 32 safety duties apply to AI systems trained with at least 10^26 floating-point operations that use the most advanced AI technology currently in use and whose risk may broadly and seriously affect life, safety or fundamental rights (Art. 24).",
+  "notes": "Enacted as Presidential Decree No. 36053 on 21 Jan 2026 and in force from 22 Jan 2026 (the digital medical device part of Annex 1 from 24 Jan 2026); its addenda repeal the Regulation on the Establishment and Operation of the National AI Strategy Committee and carry the committee over. Presidential Decree No. 36506 of 20 Jul 2026, in force 21 Jul 2026, added Art. 1-2, which lists the AI-vulnerable groups of Art. 3(5) of the Act (among them people with disabilities, people aged 65 or over, recipients of basic livelihood benefits, multicultural families and North Korean defectors), and requires impact assessments to reflect them (Art. 28). Presidential Decree No. 36580 of 18 Aug 2026, in force 20 Aug 2026, made a consequential change to Art. 2. Art. 25 sets the high-impact AI confirmation procedure, with a reply within 30 days. A domestic agent is required of operators with prior-year revenue of KRW 1 trillion or more, AI-service revenue of KRW 10 billion or more, or an average of 1 million or more daily domestic users (Art. 29). MSIT guidelines under the Act cover transparency (KR-04), safety (KR-05), high-impact AI determination (KR-06), high-impact AI operator duties (KR-07) and AI impact assessment (KR-08).",
+  "english_version": {
+   "kind": "government translation",
+   "url": "https://elaw.klri.re.kr/eng_service/lawViewContent.do?hseq=73696",
+   "by": "Korea Legislation Research Institute (KLRI)"
+  },
+  "verification": {
+   "note": "Stored on 14 Oct 2026: the full current Korean text on law.go.kr (browser-rendered lsInfoP page, Decree No. 36580, in force 20 Aug 2026, with the addenda of Decrees No. 36053, 36506 and 36580), and KLRI's parallel Korean-English text and English text of Decree No. 36053 as enacted. The earlier law.go.kr copies hold only the decree's name and header. Summary and notes were rewritten from the Korean text in October 2026. KLRI's translation is a reference translation of the decree as enacted. From press reports (Byline Network, Newsis), not stored: Cabinet approval on 20 Jan 2026; a notice-and-comment draft from September to November 2025; MSIT's statement that fact-finding and fines would be suspended for at least a year; Cabinet approval on 14 Jul 2026 of the amendment on AI-vulnerable groups."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "law.go.kr current text, header",
+    "quote": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 시행령 [시행 2026. 8. 20.] [대통령령 제36580호, 2026. 8. 18., 타법개정]",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "law.go.kr current text, header",
+    "quote": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 시행령 [시행 2026. 8. 20.] [대통령령 제36580호, 2026. 8. 18., 타법개정]",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "law.go.kr current text, header",
+    "quote": "[시행 2026. 8. 20.] [대통령령 제36580호, 2026. 8. 18., 타법개정]",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "law.go.kr current text, competent division",
+    "quote": "과학기술정보통신부 (인공지능안전신뢰정책과), 044-202-6293",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "law.go.kr current text, addenda of the enactment",
+    "quote": "부 칙 <대통령령 제36053호, 2026. 1. 21.>",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-89755482f2/2026-10-14/official.html",
+    "sha256": "f66190079ffc71038b2009c64082425d86d532532c8a155648e87f101122e512",
+    "locator": "KLRI English text, header",
+    "quote": "Presidential Decree No. 36053, Jan. 21, 2026",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "law.go.kr current text, addenda of the enactment",
+    "quote": "부 칙 <대통령령 제36053호, 2026. 1. 21.>",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-89755482f2/2026-10-14/official.html",
+    "sha256": "f66190079ffc71038b2009c64082425d86d532532c8a155648e87f101122e512",
+    "locator": "KLRI English text, header",
+    "quote": "Presidential Decree No. 36053, Jan. 21, 2026",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "law.go.kr current text, Addenda <Decree No. 36053> Art. 1",
+    "quote": "부 칙 <대통령령 제36053호, 2026. 1. 21.> 제1조(시행일) 이 영은 2026년 1월 22일부터 시행한다.",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "law.go.kr current text, header",
+    "quote": "[시행 2026. 8. 20.] [대통령령 제36580호, 2026. 8. 18., 타법개정]",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "law.go.kr current text, addenda of Decree No. 36580",
+    "quote": "부 칙 <대통령령 제36580호, 2026. 8. 18.> (국가연구개발혁신법 시행령) 제1조(시행일) 이 영은 2026년 8월 20일부터 시행한다.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "law.go.kr current text, header",
+    "quote": "[시행 2026. 8. 20.] [대통령령 제36580호, 2026. 8. 18., 타법개정]",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "law.go.kr current text, Addenda <Decree No. 36053> Art. 1",
+    "quote": "부 칙 <대통령령 제36053호, 2026. 1. 21.> 제1조(시행일) 이 영은 2026년 1월 22일부터 시행한다.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-translation-fixes/KR-03/extra-364b85bd31/2026-10-14/official-rendered.html",
+    "sha256": "5d9e6612921a5fc2c26f9f0fc8bc40f824dd66b1f0b3e313b4cb3c43910ae0eb",
+    "locator": "law.go.kr current text, header",
+    "quote": "[시행 2026. 8. 20.] [대통령령 제36580호, 2026. 8. 18., 타법개정]",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Decree No. 36053 took effect on 22 Jan 2026 (Addenda Art. 1); Decree No. 36506 on 21 Jul 2026; the current version, Decree No. 36580 of 18 Aug 2026, on 20 Aug 2026. All before today (14 Oct 2026): In force.",
+  "scope_reasoning": "Implementing decree of an AI-specific law; in scope without a scope note.",
+  "changes": {
+   "official_identifier": "The identifier held a description of two versions; it now gives the enactment number only, and the later decrees are in notes.",
+   "summary": "Rewritten from the Korean text: 'providers' is now 'AI business operators' (인공지능사업자); 최첨단의 인공지능기술 is rendered as 'the most advanced AI technology currently in use' instead of 'frontier-level technology'; Art. 23 now says marking may be human-perceivable or machine-readable. The confirmation procedure moved to notes.",
+   "notes": "Removed claims that rest only on press reports (now in verification.note). Added Decree No. 36506 (Art. 1-2, Art. 28), Decree No. 36580, Arts. 25 and 29 from the stored text, and named the guideline records.",
+   "english_version": "KLRI's English translation of Decree No. 36053, now stored.",
+   "verification": "Rewritten: the full current text and KLRI's texts are now stored."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "date_published",
+   "date_in_force",
+   "date_last_updated",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

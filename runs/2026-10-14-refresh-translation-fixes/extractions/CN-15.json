@@ -1,0 +1,145 @@
+{
+ "cand_id": "CN-15",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "CN-15",
+ "record": {
+  "summary": "Trial measures for ethics review of AI research and development that may pose ethics risks to human dignity, public order, life and health or the environment. Universities, research institutes, medical institutions and companies set up AI ethics committees or use AI ethics review and service centres. Reviews focus on human well-being, fairness, controllability and trustworthiness, transparency and explainability, traceability of responsibility, and privacy. An annexed list names three kinds of AI R&D that need expert re-review: human-machine fusion systems, systems able to mobilise public opinion, and highly autonomous decision systems where safety or health is at risk.",
+  "notes": "Issued by MIIT and nine other bodies with a notice signed on 20 Mar 2026, and published on the MIIT website on 2 Apr 2026; the MIIT page gives a drafting date (成文日期) of 30 Mar 2026, the gov.cn page 20 Mar 2026. The Measures have 6 chapters and 37 articles and take effect on the date of issuance (Art. 37). They build on the 2023 Measures for Science and Technology Ethics Review (Trial) (CN-04). Arts. 4-8 promote ethics standards, ethics risk monitoring and early warning, testing and assessment, certification and consulting services, and support for small and micro enterprises. Expert re-review follows the initial review and is organised by provincial authorities or the competent departments (Arts. 21-25); emergency reviews are generally completed within 72 hours (Art. 27). Under Art. 26, activities already subject to registration, filing or approval under the deep synthesis, algorithm recommendation or generative AI service rules, where meeting ethics requirements is an approval condition or a supervision item, need no expert re-review. Violations are handled under the Cybersecurity, Data Security, Personal Information Protection and Science and Technology Progress laws (Art. 32).",
+  "verification": {
+   "note": "Stored on 14 Oct 2026: the gov.cn State Council policy-library page for the notice and the attached 12-page PDF of the Measures. They confirm the title, document number 工信部联科〔2026〕75号, the ten issuing bodies, the signature date 20 Mar 2026, the six chapters and 37 articles, Art. 37 (effective upon issuance) and the annexed expert re-review list. The MIIT notice page, stored as a secondary copy, gives 成文日期 30 Mar 2026 and 发布日期 2 Apr 2026. Summary and notes were rewritten from the Chinese text in October 2026; the earlier summary called the three annexed categories 'high-risk', a word the text does not use. Earlier notes mentioned a 2025 consultation draft (reportedly titled 人工智能科技伦理管理服务办法); no stored file covers it. No English version of the final text was found; an unofficial CSET translation covers the August 2025 consultation draft, a different text."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/CN-15/2026-10-14/official.html",
+    "sha256": "191eb94e86e7d37329ce9f0558effda133718c54261764afc28b0b662b444be2",
+    "locator": "gov.cn policy library, 标题",
+    "quote": "工业和信息化部等十部门关于印发《人工智能科技伦理审查与服务办法（试行）》的通知",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/CN-15/2026-10-14/official.html",
+    "sha256": "191eb94e86e7d37329ce9f0558effda133718c54261764afc28b0b662b444be2",
+    "locator": "notice body",
+    "quote": "现将《人工智能科技伦理审查与服务办法（试行）》印发给你们，请结合实际认真抓好落实。",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/CN-15/2026-10-14/official.html",
+    "sha256": "191eb94e86e7d37329ce9f0558effda133718c54261764afc28b0b662b444be2",
+    "locator": "signatures of the notice",
+    "quote": "工业和信息化部 国家发展改革委 教育部 科技部 农业农村部 国家卫生健康委 中国人民银行 国家网信办 中国科学院 中国科协",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CN-15/2026-10-11/secondary.html",
+    "sha256": "f769b79859b8b2a10be4900a2364cf51fb0c0d6b430d74f436ccb959600ab5b6",
+    "locator": "MIIT page, metadata block",
+    "quote": "发文机关：工业和信息化部 国家发展改革委 教育部 科技部 农业农村部 国家卫生健康委 中国人民银行 国家网信办 中国科学院 中国科协",
+    "source_kind": "secondary"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/CN-15/2026-10-14/official.html",
+    "sha256": "191eb94e86e7d37329ce9f0558effda133718c54261764afc28b0b662b444be2",
+    "locator": "gov.cn policy library, metadata block",
+    "quote": "发文字号：工信部联科〔2026〕75号",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/CN-15/2026-10-14/official.html",
+    "sha256": "191eb94e86e7d37329ce9f0558effda133718c54261764afc28b0b662b444be2",
+    "locator": "gov.cn policy library, metadata block",
+    "quote": "成文日期：2026年03月20日",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CN-15/2026-10-14/official.html",
+    "sha256": "191eb94e86e7d37329ce9f0558effda133718c54261764afc28b0b662b444be2",
+    "locator": "date under the signatures of the notice",
+    "quote": "国家网信办 中国科学院 中国科协 2026年3月20日",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/CN-15/2026-10-14/document-1.pdf",
+    "sha256": "8513b9cbb7cf57395de4a70911ac67521306afccfcc5f552c0382f1e288767f0",
+    "locator": "page 11, Art. 37",
+    "quote": "第三十七条 本办法自印发之日起施行。",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CN-15/2026-10-14/official.html",
+    "sha256": "191eb94e86e7d37329ce9f0558effda133718c54261764afc28b0b662b444be2",
+    "locator": "date under the signatures of the notice",
+    "quote": "国家网信办 中国科学院 中国科协 2026年3月20日",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/CN-15/2026-10-14/document-1.pdf",
+    "sha256": "8513b9cbb7cf57395de4a70911ac67521306afccfcc5f552c0382f1e288767f0",
+    "locator": "page 11, Art. 37",
+    "quote": "第三十七条 本办法自印发之日起施行。",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CN-15/2026-10-14/official.html",
+    "sha256": "191eb94e86e7d37329ce9f0558effda133718c54261764afc28b0b662b444be2",
+    "locator": "date under the signatures of the notice",
+    "quote": "国家网信办 中国科学院 中国科协 2026年3月20日",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/CN-15/2026-10-14/document-1.pdf",
+    "sha256": "8513b9cbb7cf57395de4a70911ac67521306afccfcc5f552c0382f1e288767f0",
+    "locator": "page 10, Art. 32",
+    "quote": "违反本办法规定的，依照《中华人 民共和国网络安全法》《中华人民共和国数据安全法》《中华 人民共和国个人信息保护法》《中华人民共和国科学技术进 步法》等法律法规和相关规定，进行调查处理，给予相应处 罚。",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CN-15/2026-10-11/secondary.html",
+    "sha256": "f769b79859b8b2a10be4900a2364cf51fb0c0d6b430d74f436ccb959600ab5b6",
+    "locator": "MIIT page, metadata block (分类)",
+    "quote": "高新技术发展及产业化,行政规范性文件",
+    "source_kind": "secondary"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Rule: Art. 37, 本办法自印发之日起施行 (effective from the date of issuance). Event: the issuing notice is dated and signed 20 Mar 2026. 20 Mar 2026 is before today (14 Oct 2026), so the Measures are in force. Nothing stored indicates an amendment or repeal.",
+  "scope_reasoning": "AI-specific ethics review regime for AI research and development; in scope without a scope note.",
+  "changes": {
+   "summary": "Rewritten from the stored Chinese text. The annex calls the three categories activities that need expert re-review; 'high-risk' is not in the text. 'Accountability' is now 'traceability of responsibility' (责任可追溯). Scope, the committee duty (Art. 9) and service centres (Art. 11) are taken from the articles.",
+   "notes": "Rewritten from the stored text: chapters and articles, Arts. 4-8 services, the expert re-review procedure, Art. 26 with its condition, the 72-hour emergency review and Art. 32. The online publication date now rests on the MIIT page (2 Apr 2026). The unverified 2025 draft moved to verification.note.",
+   "verification": "Rewritten: the gov.cn page and the PDF of the Measures are now stored."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "official_identifier",
+   "date_published",
+   "date_in_force",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

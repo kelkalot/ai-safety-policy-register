@@ -713,8 +713,18 @@ def html_text(path):
     return "\n".join(out).strip(), None, "html"
 
 
+def garbled_share(pages):
+    """Share of non-space characters that are control, unassigned or private-use code points: near 0 for real text,
+    high when a PDF's font encoding defeats the extractor (pypdf then returns shifted or random characters)."""
+    import unicodedata
+    chars = [ch for ch in "".join(pages) if not ch.isspace()]
+    bad = sum(1 for ch in chars if unicodedata.category(ch) in ("Cc", "Cn", "Co") or ch == "\ufffd")
+    return bad / len(chars) if chars else 0.0
+
+
 def pdf_text(path, ocr_lang, ocr_pages=60):
-    """Text of a PDF with [page N] markers: pypdf, else pdftotext; OCR with tesseract when it is a scan."""
+    """Text of a PDF with [page N] markers: pypdf, else pdftotext (also when pypdf's text is garbled);
+    OCR with tesseract when it is a scan."""
     pages, method, warning, n_pages = [], None, None, 0
     try:
         import pypdf
@@ -725,15 +735,18 @@ def pdf_text(path, ocr_lang, ocr_pages=60):
         n_pages, method = len(pages), "pypdf"
     except Exception:
         pages = []
-    if not pages and shutil.which("pdftotext"):
+    garbled = pages and garbled_share(pages) > 0.05
+    if (not pages or garbled) and shutil.which("pdftotext"):
         try:
             out = subprocess.run(["pdftotext", "-layout", str(path), "-"], capture_output=True, timeout=300)
-            pages = out.stdout.decode("utf-8", "replace").split("\f")
-            if pages and not pages[-1].strip():
-                pages = pages[:-1]
-            n_pages, method = len(pages), "pdftotext"
+            alt = out.stdout.decode("utf-8", "replace").split("\f")
+            if alt and not alt[-1].strip():
+                alt = alt[:-1]
+            if alt and (not pages or garbled_share(alt) < garbled_share(pages)):
+                pages, n_pages = alt, len(alt)
+                method = "pdftotext (pypdf's text was garbled)" if garbled else "pdftotext"
         except Exception:
-            pages = []
+            pass
     if not pages:
         return "", 0, None, "no PDF text extractor worked (install pypdf, or poppler's pdftotext)"
     chars = sum(len(p.strip()) for p in pages)
@@ -768,8 +781,12 @@ def stored_files(sources, cid):
     lcs = [("main", e.get("main"))] + [("extra", lc) for lc in (e.get("extras") or {}).values()]
     for kind, lc in lcs:
         for f in (lc or {}).get("files") or []:
+            role = f.get("role") if kind == "main" else "extra"
             if f.get("path"):
-                out.append((f["path"], f.get("sha256"), f.get("role") if kind == "main" else "extra", f.get("url")))
+                out.append((f["path"], f.get("sha256"), role, f.get("url")))
+            # the snapshot this one replaced is still a stored copy with its hash, and may be what an agent quoted
+            if f.get("previous_path") and (ROOT / f["previous_path"]).is_file():
+                out.append((f["previous_path"], f.get("previous_sha256"), role, f.get("url")))
     return out
 
 
@@ -852,8 +869,9 @@ class TextIndex:
         rid = record_id or (self.sources.get(cid) or {}).get("record_id")
         if rid and rid in self.records:
             for f in (self.records[rid].get("local_copy") or {}).get("files") or []:
-                if f.get("path"):
-                    out.setdefault(f["path"], (f.get("role"), f.get("final_url") or f.get("url")))
+                for path in (f.get("path"), f.get("previous_path")):
+                    if path:
+                        out.setdefault(path, (f.get("role"), f.get("final_url") or f.get("url")))
         return out
 
     def code_for(self, cid, record_id=None):
@@ -866,10 +884,12 @@ class TextIndex:
     def files_for(self, cid, record_id=None):
         out = {p: digest for p, digest, _, _ in stored_files(self.sources, cid)}
         rid = record_id or (self.sources.get(cid) or {}).get("record_id")
-        if rid and rid in self.records:  # a refresh may quote the record's own stored copies
+        if rid and rid in self.records:  # a refresh may quote the record's own stored copies, and the ones they replaced
             for f in (self.records[rid].get("local_copy") or {}).get("files") or []:
                 if f.get("path"):
                     out.setdefault(f["path"], f.get("sha256"))
+                if f.get("previous_path") and (ROOT / f["previous_path"]).is_file():
+                    out.setdefault(f["previous_path"], f.get("previous_sha256"))
         return out
 
     def pages(self, path):
@@ -965,10 +985,15 @@ def check_item(index, cid, item, record_id=None):
     if kind in ("official", "alt-official"):
         role, url = index.file_info(cid, record_id).get(path, (None, None))
         host = url_host(url)
-        if role in SECONDARY_ROLES:
+        is_official = official_host(host, index.code_for(cid, record_id), index.frame_hosts, index.rejected_hosts)
+        if role in SECONDARY_ROLES and is_official and kind == "official":
+            warnings.append("%s was stored as the record's secondary source; from an official host it counts as "
+                            "another official source (alt-official), not as the official one" % path)
+            kind = "alt-official"
+        elif role in SECONDARY_ROLES and not is_official:
             warnings.append("%s was stored as a secondary source, so it counts as secondary, not %s" % (path, kind))
             kind = "secondary"
-        elif not official_host(host, index.code_for(cid, record_id), index.frame_hosts, index.rejected_hosts):
+        elif not is_official:
             warnings.append("host %s is not recognised as official, so this quote counts as secondary; if the host is "
                             "official, a human records it with tools/pipeline.py hosts --add" % (host or "(unknown)"))
             kind = "secondary"
@@ -1003,7 +1028,47 @@ def dates_in(text):
     for a, b, y in re.findall(r"\b(\d{1,2})/(\d{1,2})/(\d{4})\b", t):  # day/month or month/day: accept both
         add(y, b, a)
         add(y, a, b)
+    for y, m, d in re.findall(r"(\d{4})\s*[年년]\s*(\d{1,2})\s*[月월]\s*(\d{1,2})\s*[日일]", t):  # Chinese, Japanese, Korean
+        add(y, m, d)
+    for y, m, d in re.findall(r"\b(\d{4})\.\s*(\d{1,2})\.\s*(\d{1,2})\.?(?!\d)", t):  # Korean 2026. 1. 20.
+        add(y, m, d)
+    for d, m, y in re.findall(r"ngày\s*(\d{1,2})\s*tháng\s*(\d{1,2})\s*năm\s*(\d{4})", t):  # Vietnamese
+        add(y, m, d)
     return out
+
+
+def months_in(text):
+    """Year-months written in a quote without a day (April 2025, 2025年4月, 2025년 4월, tháng 4 năm 2025, 2025-04)."""
+    t = norm_text(text)
+    out = set()
+
+    def add(y, m):
+        if 1 <= int(m) <= 12:
+            out.add("%04d-%02d" % (int(y), int(m)))
+    mon = "|".join(sorted(MONTHS, key=len, reverse=True))
+    for m, y in re.findall(r"(?<![\d.] )(?<!\d)\b(%s)\.?,? (\d{4})\b" % mon, t):
+        add(y, MONTHS[m])
+    for y, m in re.findall(r"(\d{4})\s*[年년]\s*(\d{1,2})\s*[月월](?!\s*\d{1,2}\s*[日일])", t):
+        add(y, m)
+    for mt in re.finditer(r"tháng\s*(\d{1,2})\s*năm\s*(\d{4})", t):  # not when a day number precedes it
+        if not re.search(r"ngày\s*\d{1,2}\s*$", t[:mt.start()]):
+            add(mt.group(2), mt.group(1))
+    for y, m in re.findall(r"\b(\d{4})-(\d{2})\b(?!-\d)", t):
+        add(y, m)
+    return out
+
+
+def date_support(value, quote):
+    """How one quote supports a date value: 'full', 'partial' (it shows only the year-month of a full date) or
+    'unknown' (no date form the script can read)."""
+    v = str(value or "")
+    if not validate.FULL_DATE.match(v):
+        return "full" if v and v[:4] in norm_text(quote) else "unknown"
+    if v in dates_in(quote):
+        return "full"
+    if v[:7] in months_in(quote):
+        return "partial"
+    return "unknown"
 
 
 def value_hint(field, value, quotes):
@@ -1137,14 +1202,20 @@ def evaluate(index, cid, ex, db):
         if isinstance(items, dict):
             items = [items]
         fr = {"items": [], "supported": False, "best_kind": None}
-        kinds = []
+        kinds, level_kinds = [], []
         for it in items:
             ok, kind, probs, warns = check_item(index, cid, it, target)
+            if ok and k.startswith("date_") and isinstance(it, dict) and \
+                    date_support(merged.get(k), it.get("quote") or "") == "partial":
+                # the quote shows only the month of a full date: it supports the field, not the level
+                warns = warns + ["the quote shows only the month of %s, so it does not count for the level" % merged.get(k)]
+            elif ok:
+                level_kinds.append(kind)
             fr["items"].append({"ok": ok, "problems": probs, "warnings": warns})
             if ok:
                 kinds.append(kind)
         fr["supported"] = bool(kinds)
-        fr["best_kind"] = next((k2 for k2 in SOURCE_KINDS if k2 in kinds), None)
+        fr["best_kind"] = next((k2 for k2 in SOURCE_KINDS if k2 in level_kinds), None)
         if not items:
             msg = "%s has no evidence" % k
             (res["errors"] if (k in rec or k in LEVEL_FIELDS) else res["warnings"]).append(msg)
@@ -1242,12 +1313,23 @@ def cmd_compare(args):
     ex, bl = agent_files(d, "extractions"), agent_files(d, "extractions-blind")
     fields = ["decision", "title", "original_title", "issuing_body", "official_identifier"] + EXACT_FIELDS + ["safety_topics"]
     stats = OrderedDict((f, [0, 0]) for f in fields)
+    result = [0, 0]  # refresh runs: agreement on the resulting record (current record plus each extraction's changes)
+    records = {r["id"]: r for r in load_db()["records"]}
     per, pending = {}, []
     for cid in sample.get("blind") or []:
         a, b = ex.get(cid), bl.get(cid)
         if not a or not b:
             pending.append(cid)
             continue
+        base = records.get(a.get("target_id") or cid) if a.get("decision") == "update" else None
+        if base and b.get("decision") == "update":
+            for f in fields[1:]:
+                ra = (a.get("record") or {}).get(f, base.get(f)) if f in (a.get("record") or {}) else base.get(f)
+                rb = (b.get("record") or {}).get(f, base.get(f)) if f in (b.get("record") or {}) else base.get(f)
+                if ra in (None, "", []) and rb in (None, "", []):
+                    continue
+                result[0] += 1
+                result[1] += 1 if same(f, ra, rb) else 0
         diffs = []
         for f in fields:
             va = a.get("decision") if f == "decision" else (a.get("record") or {}).get(f)
@@ -1265,7 +1347,9 @@ def cmd_compare(args):
     table = OrderedDict((f, {"compared": s[0], "agree": s[1], "rate": round(s[1] / s[0], 3) if s[0] else None})
                         for f, s in stats.items())
     out = {"run_id": args.run, "generated": today(), "compared": len(per), "pending": pending,
-           "overall_field_agreement": round(a_all / n_all, 3) if n_all else None, "fields": table, "disagreements": per}
+           "overall_field_agreement": round(a_all / n_all, 3) if n_all else None, "fields": table, "disagreements": per,
+           "resulting_record_agreement": round(result[1] / result[0], 3) if result[0] else None,
+           "resulting_record_fields": result[0]}
     write_json(d / "agreement.json", out)
     print("Compared %d pair(s); pending: %s" % (len(per), ", ".join(pending) or "-"))
     for f, t in table.items():
@@ -1273,6 +1357,9 @@ def cmd_compare(args):
             print("  %-20s %d/%d" % (f, t["agree"], t["compared"]))
     if out["overall_field_agreement"] is not None:
         print("Overall field agreement: %.0f%%" % (100 * out["overall_field_agreement"]))
+    if out["resulting_record_agreement"] is not None:
+        print("Agreement on the resulting records (refresh runs; %d field values): %.0f%%"
+              % (result[0], 100 * out["resulting_record_agreement"]))
     return 0
 
 
@@ -1446,7 +1533,8 @@ def cmd_assemble(args):
                 else:
                     blockers.append("%s is %s and the checker gave no evidence-backed fix" % (field, verdict))
         for claim in ch.get("summary_claims") or []:
-            if claim.get("verdict") in ("unsupported", "contradicted"):
+            # a claim of the old summary no longer blocks once the checker's evidence-backed summary fix replaced it
+            if claim.get("verdict") in ("unsupported", "contradicted") and "summary" not in applied:
                 blockers.append("summary claim %s: %r" % (claim["verdict"], (claim.get("claim") or "")[:80]))
         # a check counts only when it covers every factual field the record sets or confirms
         is_update = dec == "update" or bool(c.get("record_id"))
@@ -1629,7 +1717,11 @@ def cmd_report(args):
               len(p.get("not_added") or []), len(p.get("needs_human") or []), len(p.get("unchecked") or []))]
     if agr.get("overall_field_agreement") is not None:
         L.append("- Repeatability: %.0f%% field agreement between blind double extractions (%d pair(s))" % (
-            100 * agr["overall_field_agreement"], agr.get("compared") or 0))
+            100 * agr["overall_field_agreement"], agr.get("compared") or 0)
+            + ("; %.0f%% agreement on the resulting records (%d field values; in a refresh run the first figure counts "
+               "only fields that an extraction changed)" % (100 * agr["resulting_record_agreement"],
+                                                            agr.get("resulting_record_fields") or 0)
+               if agr.get("resulting_record_agreement") is not None else ""))
     L += ["", "## Added", ""]
     rows = added if merged else [{"record_id": r["id"], "new": "%s; %s; level %s" % (
         r.get("short_title"), r.get("status"), r["verification"]["level"])} for r in p.get("records") or []]

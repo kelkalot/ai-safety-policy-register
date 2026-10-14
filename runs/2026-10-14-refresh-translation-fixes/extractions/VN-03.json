@@ -1,0 +1,164 @@
+{
+ "cand_id": "VN-03",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "VN-03",
+ "record": {
+  "summary": "Prime Minister's plan for implementing Law No. 134/2025/QH15 on Artificial Intelligence (in force 1 Mar 2026), with tasks, lead bodies and deadlines: a decree detailing the Law and a decree on the National AI Development Fund; Prime Minister's decisions on a list of datasets for AI development in essential sectors and a list of high-risk AI systems; a Ministry of Science and Technology circular issuing the national AI ethics framework (all due in Feb 2026); review of the national AI strategy at least every three years; sectoral safety and risk-management requirements by ministries; a one-stop AI portal, national AI databases and shared AI infrastructure; and inspection of implementation.",
+  "notes": "The decision is dated Hà Nội, 28 February 2026 and takes effect on signature; the Government portal's digital signature on the published copy is dated 3 March 2026, and the Can Tho city legal-education portal gives 3 March 2026 as the signing date. The Plan also tasks the Ministry of Education and Training with a national AI workforce programme and the Ministry of Science and Technology with establishing the National AI Development Fund (2026-2027). Tasks since delivered include Decree 142/2026/NĐ-CP (30 Apr 2026), Circular 05/2026/TT-BKHCN issuing the national AI ethics framework (10 Mar 2026) and Decision 33/2026/QĐ-TTg listing high-risk AI systems (30 Jun 2026). Earlier, Decision 2835/QĐ-TTg of 31 Dec 2025 had scheduled the same implementing documents.",
+  "verification": {
+   "note": "Stored: the signed Decision with its annexed Plan from the Government portal file server (datafiles.chinhphu.vn; 10 scanned pages, stored 11 Oct 2026, read through Tesseract OCR in Vietnamese) and the Can Tho city legal-education portal's article (pbgdpl.cantho.gov.vn, re-stored 14 Oct 2026). The OCR shows the title, Article 2 (effective on signing), the 'KT. THỦ TƯỚNG' signature block and the Plan's task list; the handwritten number and day come out garbled ('Số: 36 F/QD-TTg', 'ngày 28 tháng o2ndm 2026'; Plan header 'ngày #8 tháng 02 năm 2026'), so the day 28 rests on the decision's date line as read and on the 11 Oct 2026 reading. The number 367/QĐ-TTg and the signatory, Deputy Prime Minister Nguyễn Chí Dũng, are confirmed by the Can Tho article, which dates the signature 3 Mar 2026; the portal's digital signature on the PDF is dated 03.03.2026. Decision 804/QĐ-TTg on AI datasets (6 May 2026), given in the earlier notes from a news report, is not shown in a stored file and was moved to leads. The Vietnam Lawyers' newspaper (lsvn.vn) report of 4 Mar 2026 was read on 11 Oct 2026 but not stored; Decision 2835/QĐ-TTg and the delivery dates of VN-04 to VN-06 rest on those records."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/VN-03/2026-10-11/official.pdf",
+    "sha256": "5cc8e35e58807295dae65fd46abc624334391b8bcf2fd35be9357256439c37af",
+    "locator": "page 1, Article 1",
+    "quote": "Điều 1. Ban hành kèm theo Quyết định này Kế hoạch triển khai thi hành Luật Trí tuệ nhân tạo.",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/VN-03/2026-10-11/official.pdf",
+    "sha256": "5cc8e35e58807295dae65fd46abc624334391b8bcf2fd35be9357256439c37af",
+    "locator": "page 1, title line (OCR reads 'Ban' as 'Ran')",
+    "quote": "Ran hành Kế hoạch triển khai thi hành Luật Trí tuệ nhân tạo",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-03/2026-10-14/secondary.html",
+    "sha256": "c0e14f9228c5d2051a988c226c8fc113361850945fc4d5574541cb6b791755de",
+    "locator": "article, first paragraph",
+    "quote": "Quyết định số 367/QĐ-TTg, ban hành Kế hoạch triển khai thi hành Luật Trí tuệ nhân tạo số 134/2025/QH15",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/VN-03/2026-10-14/secondary.html",
+    "sha256": "c0e14f9228c5d2051a988c226c8fc113361850945fc4d5574541cb6b791755de",
+    "locator": "article, first paragraph",
+    "quote": "Phó Thủ tướng Chính phủ Nguyễn Chí Dũng đã ký Quyết định số 367/QĐ-TTg",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-03/2026-10-11/official.pdf",
+    "sha256": "5cc8e35e58807295dae65fd46abc624334391b8bcf2fd35be9357256439c37af",
+    "locator": "page 1, header (handwritten number garbled by OCR)",
+    "quote": "Số: 36 F/QD-TTg Hà Nội",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/VN-03/2026-10-11/official.pdf",
+    "sha256": "5cc8e35e58807295dae65fd46abc624334391b8bcf2fd35be9357256439c37af",
+    "locator": "page 1, header",
+    "quote": "THU TƯỚNG CHÍNH PHỦ CỘNG HOA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-03/2026-10-11/official.pdf",
+    "sha256": "5cc8e35e58807295dae65fd46abc624334391b8bcf2fd35be9357256439c37af",
+    "locator": "page 1, signature block",
+    "quote": "Noi nhận: KT. THỦ TƯỚNG",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-03/2026-10-11/official.pdf",
+    "sha256": "5cc8e35e58807295dae65fd46abc624334391b8bcf2fd35be9357256439c37af",
+    "locator": "page 1, preamble",
+    "quote": "Theo đề nghị của Bộ tưởng Bộ Khoa học và Công nghệ.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-03/2026-10-14/secondary.html",
+    "sha256": "c0e14f9228c5d2051a988c226c8fc113361850945fc4d5574541cb6b791755de",
+    "locator": "article, first paragraph",
+    "quote": "Phó Thủ tướng Chính phủ Nguyễn Chí Dũng đã ký Quyết định số 367/QĐ-TTg",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/VN-03/2026-10-11/official.pdf",
+    "sha256": "5cc8e35e58807295dae65fd46abc624334391b8bcf2fd35be9357256439c37af",
+    "locator": "page 1, date line (month garbled by OCR)",
+    "quote": "Hà Nội, ngày 28 tháng o2ndm 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-03/2026-10-11/official.pdf",
+    "sha256": "5cc8e35e58807295dae65fd46abc624334391b8bcf2fd35be9357256439c37af",
+    "locator": "page 2, Plan header (day garbled by OCR)",
+    "quote": "ngày #8 tháng 02 năm 2026 của Thủ tướng Chính phú",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/VN-03/2026-10-11/official.pdf",
+    "sha256": "5cc8e35e58807295dae65fd46abc624334391b8bcf2fd35be9357256439c37af",
+    "locator": "page 1, Article 2",
+    "quote": "Điều 2. Quyết định này có hiệu lực thi hành kể từ ngày ký ban hành.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/VN-03/2026-10-11/official.pdf",
+    "sha256": "5cc8e35e58807295dae65fd46abc624334391b8bcf2fd35be9357256439c37af",
+    "locator": "page 1, date line (month garbled by OCR)",
+    "quote": "Hà Nội, ngày 28 tháng o2ndm 2026",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/VN-03/2026-10-11/official.pdf",
+    "sha256": "5cc8e35e58807295dae65fd46abc624334391b8bcf2fd35be9357256439c37af",
+    "locator": "page 1, Article 2",
+    "quote": "Điều 2. Quyết định này có hiệu lực thi hành kể từ ngày ký ban hành.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/VN-03/2026-10-11/official.pdf",
+    "sha256": "5cc8e35e58807295dae65fd46abc624334391b8bcf2fd35be9357256439c37af",
+    "locator": "page 1, Article 3",
+    "quote": "Điều 3. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và các cơ quan, tô chức có liên quan chịu trách nhiệm thi hành Quyết định này.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Article 2: the Decision takes effect on signature. It is dated 28 Feb 2026 (the portal signature and the Can Tho article give 3 Mar 2026); either way it is in force on 14 Oct 2026. The Plan's tasks run through 2026 and later years, and no stored file shows it replaced or revoked, so 'In force' stands.",
+  "scope_reasoning": null,
+  "changes": {
+   "summary": "'Priority datasets' replaced by the Plan's wording, 'a list of datasets for AI development in essential sectors' (Danh mục bộ dữ liệu phục vụ phát triển trí tuệ nhân tạo trong các lĩnh vực thiết yếu, II.3(c)); 'periodic updates' made specific ('at least every three years', II.4(a)); 'compliance inspections' replaced by 'inspection of implementation' (II.6, kiểm tra việc thi hành Luật); deadlines attached to all five instruments due in Feb 2026; workforce programme moved to notes to keep within length.",
+   "notes": "'(6 May 2026, reported)' on Decision 804/QĐ-TTg was a hedge resting on a news report and no stored file; moved to leads and verification.note. Added the workforce programme and the AI Development Fund timing from the Plan.",
+   "verification.note": "Rewritten to say what the stored files confirm and what the OCR cannot read."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "official_identifier",
+   "issuing_body",
+   "date_published",
+   "date_in_force",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [
+  "Decision 804/QĐ-TTg (6 May 2026) issuing the list of datasets for AI development in essential sectors, the task in Plan II.3(c); not in the register and not stored.",
+  "National Programme on AI human resources development (Plan II.4(c), led by the Ministry of Education and Training)."
+ ],
+ "open_questions": [
+  "The OCR does not read the handwritten number or day on the Decision; 367 rests on the Can Tho article (stored as a secondary source) and the PDF's file name, and 28 Feb on the partly garbled date line. A human glance at page 1 of the stored PDF would settle both."
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "cand_id": "MX-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "MX-01",
+ "record": {
+  "summary": "Senate initiative for a national AI law of public order and general observance covering public- and private-sector use of AI in Mexico. It would create a regulatory agency for the development, use and application of AI empowered to classify systems by risk level, issue technical guidelines and handle complaints; require providers to assess data-processing risks, manage personal data and keep information-security plans; prohibit deceptive data collection, profiling for political persecution and subliminal manipulation; address deepfakes and algorithmic discrimination; and provide for fines, suspension and market withdrawal.",
+  "notes": "Presented in the Senate on 11 February 2026 by Sen. Karina Isabel Ruiz Ruiz (Morena) and referred to the joint committees on Legislative Studies and on the Analysis, Monitoring and Evaluation of AI in Mexico; the referral was published in the Gaceta del Senado of 11 February 2026 (LXVI Legislature, second year). The bill would also recognise neurorights, give users a right to object to automated processing that significantly affects their rights, and refer possible crimes to the Attorney General's Office (FGR). It is one of several dozen AI bills pending in the Mexican Congress; no general federal AI law had been adopted as of October 2026.",
+  "verification": {
+   "note": "The only stored source is a law-firm alert (Basham, Ringe y Correa, 26 Feb 2026); the date, sponsor, committee referral, status and the bill's content in the summary and notes rest on it, not on the Spanish text. The Senate gazette PDF of the initiative, linked from the alert, and the Secretaría de Gobernación's SIL tracking report are not stored: the SIL host fails TLS verification and robots.txt could not be checked, and senado.gob.mx returned HTTP 403 in earlier passes. An earlier pass read the SIL report live; it gave the title 'Que expide la Ley Nacional de Inteligencia Artificial', presentation on 11 Feb 2026 (LXVI Legislature, second year, second ordinary period), the referral published in the Senate Gazette of 11 Feb 2026 and the status 'pendiente en comisión(es) de origen', and says its contents lack official validity. The original_title is not in any stored file: the alert calls the bill the 'National Law to Regulate the Use of Artificial Intelligence', while the gazette file name reads 'Expide_Ley_Nacional_de_Inteligencia_Artificial'. The statement on other pending AI bills rests on earlier research and press reports, which also describe a separate draft 'Ley General para Regular y Fomentar la Inteligencia Artificial' by the Senate AI commission. No committee action on this initiative appears in the stored file."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/MX-01/2026-10-12/secondary.html",
+    "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+    "locator": "intro",
+    "quote": "A bill has been introduced in the Senate by Senator Karina Isabel Ruíz Ruíz (MORENA parliamentary group) to enact the National Law to Regulate the Use of Artificial Intelligence.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/MX-01/2026-10-12/secondary.html",
+    "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+    "locator": "link at the end of the alert",
+    "quote": "Ini_Morena_Sen_Karina_Ruiz_Expide_Ley_Nacional_de_Inteligencia_Artificial.pdf",
+    "source_kind": "secondary"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/MX-01/2026-10-12/secondary.html",
+    "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+    "locator": "intro",
+    "quote": "The initiative was presented on Wednesday, February 11, 2026, and has been referred to the Joint Committees on Legislative Studies and on the Analysis, Monitoring, and Evaluation of AI in Mexico.",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/MX-01/2026-10-12/secondary.html",
+    "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+    "locator": "intro",
+    "quote": "The initiative was presented on Wednesday, February 11, 2026",
+    "source_kind": "secondary"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/MX-01/2026-10-12/secondary.html",
+    "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+    "locator": "intro",
+    "quote": "has been referred to the Joint Committees on Legislative Studies and on the Analysis, Monitoring, and Evaluation of AI in Mexico.",
+    "source_kind": "secondary"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/MX-01/2026-10-12/secondary.html",
+    "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+    "locator": "intro",
+    "quote": "If approved, it would establish Mexico’s first comprehensive legal framework for the development, implementation, and use of AI systems in both the public and private sectors.",
+    "source_kind": "secondary"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/MX-01/2026-10-12/secondary.html",
+    "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+    "locator": "3. Key Obligations for Providers and Developers",
+    "quote": "Conducting risk assessments associated with data processing, considering threats, vulnerabilities, and resources.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/MX-01/2026-10-12/secondary.html",
+    "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+    "locator": "6. Regulatory Authority and Sanctions",
+    "quote": "The initiative proposes creating a Regulatory Agency for the Development, Use, and Application of AI, with broad powers to:",
+    "source_kind": "secondary"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/MX-01/2026-10-12/secondary.html",
+    "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+    "locator": "5. Non-discrimination, Digital Violence, and Neurorights",
+    "quote": "It also addresses deepfakes and digital violence, while recognizing «neurorights»",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/MX-01/2026-10-12/secondary.html",
+    "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+    "locator": "4. Prohibitions and User Rights",
+    "quote": "Users would hold the right to object to automated processing when it significantly impacts their rights, interests, or freedoms.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/MX-01/2026-10-12/secondary.html",
+    "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+    "locator": "6. Regulatory Authority and Sanctions",
+    "quote": "Matters involving potential crimes will be referred to the Attorney General’s Office (FGR).",
+    "source_kind": "secondary"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The latest event in the stored file is the referral to the joint committees after presentation on 11 Feb 2026 (alert of 26 Feb 2026). No committee report, vote or withdrawal appears in it, and a bill not yet adopted stays Draft / proposed. The status since February 2026 cannot be checked against an official source from the stored files.",
+  "scope_reasoning": "A pending bill for a comprehensive national AI law with risk classification and prohibitions; clearly in scope, no scope_note.",
+  "changes": {
+   "summary": "'Impose risk assessments' overstated the alert's 'risk assessments associated with data processing'; reworded the provider duties accordingly. The rest matches the alert; no Spanish text is stored.",
+   "notes": "Moved process language and hedges ('counsel refers to', 'the gazette title is used here', 'press reports also describe', 'is said to depend', 'it is not recorded separately', 'no committee action was found') to verification.note and leads; added neurorights, the right to object and the FGR referral from the alert.",
+   "verification.note": "States that the record now rests on the stored law-firm alert only, and what the earlier live reading of the SIL report gave."
+  },
+  "confirmed": [
+   "title",
+   "issuing_body",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [
+  "Draft 'Ley General para Regular y Fomentar la Inteligencia Artificial' prepared by the Mexican Senate's AI commission (press reports, about 223 articles; not voted by the close of the April 2026 session). Mentioned in the earlier record notes; not in the stored file."
+ ],
+ "open_questions": [
+  "original_title 'Iniciativa con proyecto de decreto por el que se expide la Ley Nacional de Inteligencia Artificial' is not in any stored file and cannot be confirmed; it was kept unchanged.",
+  "No Spanish text and no official page of the initiative is stored. The Senate gazette PDF linked from the Basham alert (file Ini_Morena_Sen_Karina_Ruiz_Expide_Ley_Nacional_de_Inteligencia_Artificial.pdf on infosen.senado.gob.mx; full path not in the stored text) and the SIL tracking report would settle the title, date and status.",
+  "Status since February 2026 cannot be confirmed from the stored files; the SIL report read in an earlier pass said 'pendiente en comisión(es) de origen'.",
+  "The LXVI Legislature and Gaceta del Senado details in notes rest on the SIL report read live in an earlier pass, not on a stored file."
+ ]
+}
