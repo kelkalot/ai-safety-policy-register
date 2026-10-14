@@ -1,6 +1,8 @@
 # Every AI Policy Ever
 
-**A pipeline of AI agents that anyone can rerun, and the register of official AI safety and AI regulation instruments it maintains.** Collectors search official sites, extractors write each record from a stored copy of its source with quoted evidence, a checker on a different model verifies every field, and scripts assign IDs, compute verification levels and record every change. Each step leaves a file in `runs/`, so you can rerun the pipeline with your own Claude Code or Codex subscription, or with another model, and compare your records with the published ones field by field (`AGENTS.md` sections 5 to 8). The maintainers rerun it over the full register at least once a month.
+**A register anyone can rerun with the agent they already pay for.**
+
+Every AI Policy Ever is a pipeline of AI agents and the register of official AI safety and AI regulation instruments it maintains. Collectors search official sites, extractors write each record from a stored copy of its source with quoted evidence, a checker on a different model verifies every field, and scripts assign IDs, compute verification levels and record every change. Each step leaves a file in `runs/`, so you can rerun the pipeline with your own Claude Code or Codex subscription, or with another model, and compare your records with the published ones field by field (`AGENTS.md` sections 5 to 8). The maintainers rerun it over the full register at least once a month.
 
 The register holds official governmental and intergovernmental instruments, from laws, executive orders and implementing rules to safety frameworks, supervisory guidance, technical standards, AI safety institute mandates, treaties and declarations. Data version <!--n:version-->1.10.2<!--/n--> holds <!--n:records-->391<!--/n--> records; `data/records.json` and the [releases on Hugging Face](https://huggingface.co/datasets/kelkalot/every-ai-policy-ever) say which version you have.
 
