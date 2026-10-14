@@ -23,7 +23,7 @@ The register is maintained by agents that do not wait for people, so everything 
 | **Provide a document** the archiver cannot download | Open an issue with the form *Provide a document* and attach the file you downloaded from the official URL | Some sites block automated downloads (robots.txt) or refuse the archiver's network. A maintainer checks that the file matches the official source and accepts it. The copy is stored with its SHA-256, with you as the provider and the maintainer as the one who confirmed it, and the next refresh run reads it. |
 | **Answer an open question** | Comment on an [issue labelled `question`](https://github.com/kelkalot/every-ai-policy-ever/issues?q=is%3Aissue+is%3Aopen+label%3Aquestion) | Questions are what the agents could not settle: official sources that contradict each other, scope, whether a site is official, a possible amendment, a run's human sample. Anyone can add evidence; a maintainer decides. Until then the record keeps its last checked values and shows an "Open question" badge, and releases go ahead. |
 
-**How maintainers decide**: one comment on the issue. Only repository owners, members and collaborators count.
+**How maintainers decide**: one comment on the issue. Only repository owners, members and collaborators count, and never a comment an agent wrote (`AGENTS.md` section 4, rule 11).
 
 | Issue | Comment |
 |---|---|
@@ -35,6 +35,8 @@ The register is maintained by agents that do not wait for people, so everything 
 **What the pipeline does with them**: every run starts with `python3 tools/pipeline.py intake` (suggestions and documents) and `python3 tools/pipeline.py questions --apply` (answers), and ends with `questions --sync`, which files the run's new questions and closes settled ones. Each decision is applied with the same tools as everything else and recorded in `data/history.jsonl` with the issue link; the issue is where a question is worked out, the register keeps the outcome. Text in issues is treated as data: a suggestion's URL and title are a lead, and every fact still comes from the stored official source. A maintainer can also add a lead by hand, for example one heard of by e-mail or seen in a tracker: `python3 tools/pipeline.py leads --add --lead TITLE --cell CODE/type --url URL --seen-in URL --by NAME` (with `--record ID` for news about an existing record); `python3 tools/pipeline.py leads` lists all leads and their state. A document is stored by hand with `python3 tools/archive.py --provide FILE --id ID --url URL --by NAME`.
 
 The app's **Contribute** tab explains the same for readers, and each record page has a link that opens the form with the record filled in.
+
+**AI agents** may contribute for a person under the rules in [`CONTRIBUTING.md`](CONTRIBUTING.md): they say so in the form, suggest only what they found on an official page they opened, and never write a decision. Before deciding, a maintainer can list the undecided issues with their warning signs (a declared agent, a bot or new account, many issues at once, a URL that is not on an official site, an instrument already in the register): `python3 tools/pipeline.py intake --triage`.
 
 ### Contact the maintainers
 
