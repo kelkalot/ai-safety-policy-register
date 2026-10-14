@@ -1,0 +1,201 @@
+{
+ "cand_id": "US-FL-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "US-FL-01",
+ "record": {
+  "issuing_body": "Florida Senate (2026 Regular Session; sponsors Appropriations Committee and Sen. Leek)",
+  "date_last_updated": "2026-03-04",
+  "summary": "Would have created an 'Artificial Intelligence Bill of Rights'. Companion chatbot platforms would have needed parental consent for minors' accounts, given parents controls and self-harm alerts, reminded minors hourly that the chatbot is not human and guarded against material harmful to minors. Bot operators would have had to tell users hourly that they are not talking to a human, AI companies could sell or disclose users' personal information only as deidentified data, and commercial use of AI-generated likenesses would have needed consent. It would also have barred government AI contracts with entities tied to foreign countries of concern and regulated AI instructional tools in schools.",
+  "safety_topics": [
+   "child safety",
+   "transparency & labelling",
+   "public-sector use",
+   "deepfakes & synthetic media",
+   "accountability & liability"
+  ],
+  "notes": "Filed on 22 Dec 2025 and referred to Commerce and Tourism and to Appropriations. Commerce and Tourism reported it favourably (10-0) on 21 Jan 2026; Appropriations adopted a committee substitute (18-0) on 18 Feb 2026, which changed the definition of artificial intelligence, added further rights, a discretionary 45-day cure period and the rules on AI instructional tools. The Senate adopted two floor amendments and passed the bill 35-2 on 4 Mar 2026; it died in House messages on 13 Mar 2026. The bill stated an effective date of 1 Jul 2026. The Department of Legal Affairs would have enforced the chatbot, bot and data provisions as deceptive or unfair trade practices, with civil penalties of up to USD 50,000 per violation; a platform, operator or company facing an alleged violation could have shown the department controls aligned with the NIST AI Risk Management Framework and ISO 42001. Minors could have recovered up to USD 10,000 from a chatbot platform for knowing or reckless violations. The text the Senate passed barred schools from giving students AI instructional tools before grade 6, with exceptions, and required parental notice, an opt-out and parental account access. A bill with the same title and description, SB 2-D, was filed in Special Session D (US-FL-04); it passed the Senate 37-1 on 28 Apr 2026 and died in the House Information Technology Budget & Policy Subcommittee on 29 Apr 2026.",
+  "verification": {
+   "note": "Stored from flsenate.gov: the Senate bill page for CS/SB 482 (2026), the Commerce and Tourism analyses of 20 Jan 2026 (pre- and post-meeting), the Appropriations analysis of 20 Feb 2026, the first engrossed text (e1, posted 4 Mar 2026), and the bill page and Senate vote record of SB 2-D (2026D). The bill page confirms the title, the sponsors, the history from filing on 22 Dec 2025 to the 35-2 Senate vote on 4 Mar 2026 and 'Died in Messages' in the House on 13 Mar 2026, the posting of the engrossed text on 4 Mar 2026 and the 1 Jul 2026 effective date; the summary and notes rest on the engrossed text, which carries the floor amendments the Senate adopted when it passed the bill. The Florida Phoenix report of 4 Mar 2026 (secondary_url) could not be stored (HTTP 403 on 12 and 14 Oct 2026), so the Governor's backing of the bill and the House leadership's refusal to take it up, which the earlier version of the record stated, are not confirmed by any stored copy and are no longer stated; the sponsor's first name is also not in the stored copies."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "bill heading",
+    "quote": "CS/SB 482: Artificial Intelligence Bill of Rights",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-42f42d4dfb/2026-10-14/official.pdf",
+    "sha256": "334914cd9addea558e0a03fa26cddf43f119e0a2b081b8ed9b84027a687b3396",
+    "locator": "page 1",
+    "quote": "An act relating to the Artificial Intelligence Bill of",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "Bill History",
+    "quote": "CS passed as amended; YEAS 35 NAYS 2 -SJ 555",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "page title",
+    "quote": "Senate Bill 482 (2026) - The Florida Senate",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "bill heading",
+    "quote": "GENERAL BILL by Appropriations; Leek",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-19d5c250ec/2026-10-14/official.pdf",
+    "sha256": "71f4c58a0afbf27a1220b24df79d103b799d36dc0ebcc6d338c123d3d95365cf",
+    "locator": "page 1",
+    "quote": "INTRODUCER: Appropriations Committee and Senator Leek",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "bill heading",
+    "quote": "CS/SB 482: Artificial Intelligence Bill of Rights",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "breadcrumb",
+    "quote": "Home > Session > 2026 > Senate Bill 482",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-42f42d4dfb/2026-10-14/official.pdf",
+    "sha256": "334914cd9addea558e0a03fa26cddf43f119e0a2b081b8ed9b84027a687b3396",
+    "locator": "page 1",
+    "quote": "CS for SB 482 First Engrossed",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "Bill History",
+    "quote": "12/22/2025 Senate • Filed",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "Bill Text",
+    "quote": "S 482 Filed 12/22/2025 9:36 AM",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "bill summary",
+    "quote": "Effective Date: 7/1/2026 Last Action: 3/13/2026 House - Died in Messages",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "Citations - Chapter Law",
+    "quote": "Citations - Chapter Law (0) No Chapter Law citations.",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "Bill Text",
+    "quote": "S 482 e1 3/4/2026 8:28 PM",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "Bill History",
+    "quote": "3/4/2026 Senate • Read 2nd time -SJ 554 • Amendment(s) adopted (274134, 623028) -SJ 554",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "bill summary",
+    "quote": "Last Action: 3/13/2026 House - Died in Messages",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "Bill History",
+    "quote": "3/5/2026 House • In Messages 3/13/2026 House • Died in Messages",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "Bill History",
+    "quote": "CS passed as amended; YEAS 35 NAYS 2 -SJ 555",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "Citations - Chapter Law",
+    "quote": "Citations - Chapter Law (0) No Chapter Law citations.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Latest event on the stored bill page: 'Died in Messages' in the House on 13 Mar 2026, after the Senate passed the committee substitute as amended 35-2 on 4 Mar 2026. The bill has no chapter-law citation, so it was never enacted and its stated effective date (1 Jul 2026) never applied; date_in_force stays null. A bill that died stays Proposed with status Lapsed. The same title was filed again as SB 2-D in Special Session D and died in a House subcommittee on 29 Apr 2026 (US-FL-04), so the stored sources show no enacted successor. As of 14 Oct 2026: Lapsed, unchanged.",
+  "scope_reasoning": "An AI-specific state bill (companion chatbots and minors, bot disclosure, AI companies' handling of personal data, AI-generated likenesses, government AI procurement, AI tools in schools); lapsed bills are kept for context. Clearly in scope, no scope_note.",
+  "changes": {
+   "issuing_body": "The stored copies name the sponsors as the Appropriations Committee and Senator Leek; the Governor's backing and the first name 'Tom' are in no stored copy.",
+   "date_last_updated": "The last new version is the first engrossed text posted on 4 Mar 2026 after the floor amendments; 13 Mar 2026 is the death of the bill, not a new version.",
+   "summary": "Rewritten from the engrossed text: adds the AI instructional tools in schools (added by the Appropriations substitute), states the procurement limits as tied to foreign countries of concern only, and drops the unsupported 'Governor-backed' and the legislative history, which is in notes.",
+   "safety_topics": "Added accountability & liability: the bill gives minors a damages claim of up to USD 10,000 against chatbot platforms and allows punitive damages for a consistent pattern of violations.",
+   "notes": "Adds the committee substitute's changes, enforcement, the schools provisions and the special-session refiling (US-FL-04); drops the House Speaker's position and the Governor's campaign, which no stored copy supports, and the sentence about why the record is kept.",
+   "verification.note": "Describes the copies stored in this run and what they confirm."
+  },
+  "confirmed": [
+   "title",
+   "official_identifier",
+   "date_published",
+   "date_in_force",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The earlier record said the bill was backed by Governor Ron DeSantis and that the House Speaker declined to take up state-level AI regulation. Both rested on the Florida Phoenix report (secondary_url), which returns HTTP 403 and was never stored; no stored official copy mentions the Governor or the Speaker. A human may store an official source (for example a Governor's press release) if these facts should return to the record.",
+  "secondary_url still points at the Florida Phoenix report, which cannot be stored; a human may replace it with a stored official document such as the Appropriations analysis (https://www.flsenate.gov/Session/Bill/2026/482/Analyses/2026s00482.ap.PDF).",
+  "official_identifier keeps the qualifier '(2026 Regular Session)'; the stored page shows the session only as '2026' (as distinct from 2026D and the other special sessions), not the words 'Regular Session'."
+ ]
+}

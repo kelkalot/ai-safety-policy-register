@@ -1,0 +1,102 @@
+{
+ "run_id": "2026-10-14-refresh-ids-us-fl-01",
+ "generated": "2026-10-14",
+ "files": [
+  {
+   "cand_id": "US-FL-01",
+   "file": "archive/US-FL-01/2026-10-12/official.html",
+   "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+   "role": "official",
+   "url": "https://www.flsenate.gov/Session/Bill/2026/482",
+   "txt": "archive/US-FL-01/2026-10-12/official.html.txt",
+   "pages": null,
+   "chars": 9553,
+   "method": "html",
+   "warning": null
+  },
+  {
+   "cand_id": "US-FL-01",
+   "file": "archive/US-FL-01/2026-10-12/document-1.pdf",
+   "sha256": "6a09b10cdf20199d7056ffd8b00955aa4ca2a9631ae7ce0f5669050399ae958f",
+   "role": "document",
+   "url": "https://www.flsenate.gov/Session/Bill/2026/482/Analyses/2026s00482.pre.cm.PDF",
+   "txt": "archive/US-FL-01/2026-10-12/document-1.pdf.txt",
+   "pages": 27,
+   "chars": 83891,
+   "method": "pypdf",
+   "warning": null
+  },
+  {
+   "cand_id": "US-FL-01",
+   "file": "archive/US-FL-01/2026-10-12/document-2.pdf",
+   "sha256": "b551917adf0a01e3e40624713323b63a4122884bf18d6eeffecdd66282c3b031",
+   "role": "document",
+   "url": "https://www.flsenate.gov/Session/Bill/2026/482/Analyses/2026s00482.cm.PDF",
+   "txt": "archive/US-FL-01/2026-10-12/document-2.pdf.txt",
+   "pages": 27,
+   "chars": 83889,
+   "method": "pypdf",
+   "warning": null
+  },
+  {
+   "cand_id": "US-FL-01",
+   "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-2b648944a9/2026-10-14/official.html",
+   "sha256": "7fc575736ab503e836a1bc0054171939ccb2b4111d4e9ed01903acc3254253df",
+   "role": "extra",
+   "url": "https://www.flsenate.gov/Session/Bill/2026D/2D",
+   "txt": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-2b648944a9/2026-10-14/official.html.txt",
+   "pages": null,
+   "chars": 7378,
+   "method": "html",
+   "warning": null
+  },
+  {
+   "cand_id": "US-FL-01",
+   "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-2b648944a9/2026-10-14/document-1.pdf",
+   "sha256": "e1d2ddd4d8958472d8f329a3b8727530ab740ce2803ce548bdcd262f2501e3a7",
+   "role": "extra",
+   "url": "https://www.flsenate.gov/Session/Bill/2026D/2D/Analyses/2026s00002D.pre.rc.PDF",
+   "txt": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-2b648944a9/2026-10-14/document-1.pdf.txt",
+   "pages": 35,
+   "chars": 108423,
+   "method": "pypdf",
+   "warning": null
+  },
+  {
+   "cand_id": "US-FL-01",
+   "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-2b648944a9/2026-10-14/document-2.pdf",
+   "sha256": "41c97fe1ec05dff6c9beb9ced0b8acd8360e9de83a1dbdc71d01776000c92513",
+   "role": "extra",
+   "url": "https://www.flsenate.gov/Session/Bill/2026D/2D/Vote/SenateVote_s00002D__002.PDF",
+   "txt": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-2b648944a9/2026-10-14/document-2.pdf.txt",
+   "pages": 1,
+   "chars": 806,
+   "method": "pypdf",
+   "warning": null
+  },
+  {
+   "cand_id": "US-FL-01",
+   "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-42f42d4dfb/2026-10-14/official.pdf",
+   "sha256": "334914cd9addea558e0a03fa26cddf43f119e0a2b081b8ed9b84027a687b3396",
+   "role": "extra",
+   "url": "https://www.flsenate.gov/Session/Bill/2026/482/BillText/e1/PDF",
+   "txt": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-42f42d4dfb/2026-10-14/official.pdf.txt",
+   "pages": 33,
+   "chars": 59879,
+   "method": "pypdf",
+   "warning": null
+  },
+  {
+   "cand_id": "US-FL-01",
+   "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-19d5c250ec/2026-10-14/official.pdf",
+   "sha256": "71f4c58a0afbf27a1220b24df79d103b799d36dc0ebcc6d338c123d3d95365cf",
+   "role": "extra",
+   "url": "https://www.flsenate.gov/Session/Bill/2026/482/Analyses/2026s00482.ap.PDF",
+   "txt": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-19d5c250ec/2026-10-14/official.pdf.txt",
+   "pages": 33,
+   "chars": 103371,
+   "method": "pypdf",
+   "warning": null
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{"cand_id": "US-FL-01", "tool": "Claude Code", "model": "claude-sonnet-5-5", "checked_on": "2026-10-14",
+ "fields": {
+  "title": {"verdict": "supported", "why": "Bill page heading and engrossed text give CS/SB 482 and the Artificial Intelligence Bill of Rights."},
+  "official_identifier": {"verdict": "supported", "why": "Bill page and engrossed text 'CS for SB 482 First Engrossed'."},
+  "issuing_body": {"verdict": "supported", "why": "'GENERAL BILL by Appropriations; Leek' and the analysis introducer line; the Governor's backing was removed because no stored source shows it."},
+  "date_published": {"verdict": "supported", "why": "Bill history shows Filed 12/22/2025."},
+  "date_last_updated": {"verdict": "supported", "why": "Engrossed text e1 dated 3/4/2026 and the 3/4/2026 history line (floor amendments, passed 35-2) show the last new version; later actions are only messages and death."},
+  "status": {"verdict": "supported", "why": "'Last Action: 3/13/2026 House - Died in Messages'; Lapsed fits the vocabulary rule for an expired bill."},
+  "legal_force": {"verdict": "supported", "why": "Bill with no chapter law citation, so Proposed."},
+  "summary": {"verdict": "supported", "why": "Claims match the engrossed text and the Appropriations analysis."},
+  "notes": {"verdict": "supported", "why": "Committee votes, 3/4 passage, 3/13 death, HB 1395 as similar bill, 1 Jul 2026 effective date, USD 50,000 penalty, 45-day cure, NIST/ISO 42001 defence, USD 10,000 damages and the SB 2-D facts all appear in the stored sources."}
+ },
+ "summary_claims": [
+  {"claim": "Operators must tell users at least once every hour that they are not engaging with a human", "verdict": "supported", "locator": "engrossed text s. 501.9985(1), page 17; analysis Statement of Substantial Changes"},
+  {"claim": "Schools could not give pupils AI instructional tools before grade 6, with exceptions", "verdict": "supported", "locator": "engrossed text s. 1006.1495(2), page 30 (supervised use, English language learners, disability support)"},
+  {"claim": "Companion chatbot platforms must bar minors unless a parent or guardian consents", "verdict": "supported", "locator": "engrossed text s. 501.9984, pages 12-13; SB 2-D bill description"},
+  {"claim": "Appropriations committee substitute added a 45-day cure period, news-media exception and school AI rules", "verdict": "supported", "locator": "Appropriations analysis, Statement of Substantial Changes, page 33"},
+  {"claim": "SB 2-D has the same title and bill description, passed the Senate 37-1 on 28 Apr and died in House subcommittee on 29 Apr 2026", "verdict": "supported", "locator": "SB 2-D bill page and vote record"}
+ ],
+ "newer_versions": [], "extra_urls": [], "related_missing": [],
+ "scope": {"assessment": "core", "note": "A pending bill on companion chatbots, child safety and AI transparency; section 10 includes lapsed bills kept for context."},
+ "overall": "accept",
+ "note": "All fields set or confirmed by the refresh (title, identifier, issuing body, dates, status, legal force, summary, notes) are supported by official stored copies, and the evidence script reports no errors (level A). The refreshed summary and notes are more specific than the old text and every claim checked was found in the engrossed text or the Appropriations analysis. The removed claims about the Governor's backing and the Speaker's position are not in any stored source, so dropping them is correct. SB 2-D is already covered by US-FL-04 and is linked in related. I did not run a web search for later amendments; the stored Senate page shows no action after 13 Mar 2026 and the regular session has ended."
+}

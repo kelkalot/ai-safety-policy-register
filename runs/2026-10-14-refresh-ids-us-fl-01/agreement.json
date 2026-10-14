@@ -1,0 +1,101 @@
+{
+ "run_id": "2026-10-14-refresh-ids-us-fl-01",
+ "generated": "2026-10-14",
+ "compared": 1,
+ "pending": [],
+ "overall_field_agreement": 0.667,
+ "fields": {
+  "decision": {
+   "compared": 1,
+   "agree": 1,
+   "rate": 1.0
+  },
+  "title": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "original_title": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "issuing_body": {
+   "compared": 1,
+   "agree": 1,
+   "rate": 1.0
+  },
+  "official_identifier": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_published": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_in_force": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_last_updated": {
+   "compared": 1,
+   "agree": 1,
+   "rate": 1.0
+  },
+  "status": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "legal_force": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "instrument_type": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "jurisdiction_level": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "region": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "country": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "safety_topics": {
+   "compared": 1,
+   "agree": 0,
+   "rate": 0.0
+  }
+ },
+ "disagreements": {
+  "US-FL-01": [
+   {
+    "field": "safety_topics",
+    "first": null,
+    "blind": [
+     "child safety",
+     "transparency & labelling",
+     "public-sector use",
+     "deepfakes & synthetic media",
+     "accountability & liability"
+    ]
+   }
+  ]
+ },
+ "resulting_record_agreement": 1.0,
+ "resulting_record_fields": 12
+}

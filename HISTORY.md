@@ -241,6 +241,15 @@ changed 163
 - **MX-01** notes: One of several dozen AI bills pending in the Mexican Congre… → Presented in the Senate on 11 February 2026 by Sen. Karina … — removed research-process language and hedges ('counsel refers to', 'the gazette title is used here', 'Press reports also describe', 'reported', 'is said to', 'No committee action ... was found'); those statements and the claims that rest on pages that are not stored moved to verification.note
 - **MX-01** verification.level: B → C — level computed from the evidence by tools/pipeline.py
 
+## 2026-10-14 · [2026-10-14-refresh-ids-us-fl-01](runs/2026-10-14-refresh-ids-us-fl-01/report.md)
+
+changed 4
+
+- **US-FL-01** issuing_body: Florida Senate (2026 Regular Session; sponsor Sen. Tom Leek… → Florida Senate (2026 Regular Session; sponsor Sen. Leek) — No stored source shows the Governor's backing or the sponsor's first name; the bill page names the sponsor as Leek and the analyses as Senator Leek (with the Appropriations Committee for the committee substitute).
+- **US-FL-01** date_last_updated: 2026-03-13 → 2026-03-04 — The last new version is the engrossed text S 482 e1, posted 4 Mar 2026 when the Senate adopted two floor amendments and passed the bill; 13 Mar 2026 is the date the bill died, not a new version.
+- **US-FL-01** summary: Governor-backed omnibus 'Artificial Intelligence Bill of Ri… → Would have created an 'Artificial Intelligence Bill of Righ… — Rewritten from the engrossed text the Senate passed: adds the hourly bot notice, the deidentified-data rule and the school AI-tool rule (s. 1006.1495), which the committee substitute added. Removed 'Governor-backed', which no stored source supports, and moved the legislative history to the notes.
+- **US-FL-01** notes: Filed 22 Dec 2025; favourable in Commerce and Tourism (10-0… → Filed on 22 Dec 2025 and referred to Commerce and Tourism a… — Added SB 2-D of 2026 Special Session D (same title and bill description; passed the Senate 37-1 on 28 Apr 2026, died in a House subcommittee on 29 Apr 2026), as the refresh request asked. Added the committee history, the changes made by the committee substitute, HB 1395, and the enforcement provisions as passed (USD 50,000 civil penalties, 45-day cure period, NIST AI RMF / ISO 42001 controls, USD 10,000 damages for minors). Removed the House Speaker's position and the Governor's campaign, which no stored source supports.
+
 ## 2026-10-14 · [2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca](runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/report.md)
 
 changed 10

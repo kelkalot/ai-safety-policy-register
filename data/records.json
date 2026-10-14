@@ -1,7 +1,7 @@
 {
  "meta": {
   "name": "AI Safety Policy Register",
-  "version": "1.10",
+  "version": "1.10.1",
   "snapshot_date": "2026-10-12",
   "record_count": 391,
   "scope": "Official governmental and intergovernmental AI safety and AI regulation instruments (core safety + regulation), global coverage.",
@@ -493,6 +493,41 @@
       "US-CA-13"
      ],
      "history_events": 19
+    },
+    {
+     "date": "2026-10-14",
+     "agent": "Claude Code",
+     "model": "claude-opus-5-5",
+     "scope": "pipeline run 2026-10-14-refresh-ids-us-fl-01 (refresh: ids:US-FL-01)",
+     "run_id": "2026-10-14-refresh-ids-us-fl-01",
+     "stages": {
+      "collect": {
+       "tool": null,
+       "model": null,
+       "date": null
+      },
+      "extract": {
+       "tool": "Claude Code",
+       "model": "claude-opus-5-5",
+       "date": "2026-10-14"
+      },
+      "blind": {
+       "tool": "Claude Code",
+       "model": "claude-opus-5-5",
+       "date": "2026-10-14"
+      },
+      "check": {
+       "tool": "Claude Code",
+       "model": "claude-sonnet-5-5",
+       "date": "2026-10-14"
+      }
+     },
+     "records_added": 0,
+     "ids": [],
+     "ids_updated": [
+      "US-FL-01"
+     ],
+     "history_events": 4
     }
    ]
   }
@@ -46343,18 +46378,18 @@
    "country": "United States",
    "jurisdiction_level": "Sub-national",
    "region": "North America",
-   "issuing_body": "Florida Senate (2026 Regular Session; sponsor Sen. Tom Leek, backed by Governor Ron DeSantis)",
+   "issuing_body": "Florida Senate (2026 Regular Session; sponsor Sen. Leek)",
    "instrument_type": "Bill / draft law",
    "legal_force": "Proposed",
    "status": "Lapsed",
    "date_published": "2025-12-22",
    "date_in_force": null,
-   "date_last_updated": "2026-03-13",
+   "date_last_updated": "2026-03-04",
    "official_identifier": "CS/SB 482 (2026 Regular Session)",
    "official_url": "https://www.flsenate.gov/Session/Bill/2026/482",
    "secondary_url": "https://floridaphoenix.com/2026/03/04/desantis-ai-bill-of-rights-clears-senate-but-house-wont-touch-it/",
    "language": "English",
-   "summary": "Governor-backed omnibus 'Artificial Intelligence Bill of Rights'. As passed by the Senate it would have required companion-chatbot platforms to keep minors from holding accounts without parental consent, required bot operators to notify users periodically that they are interacting with a bot, addressed unauthorised AI use of a person's name or likeness and sales of personal data, and restricted state and local government contracting for AI technology, including AI linked to foreign countries of concern. The Senate passed the committee substitute 35-2 on 4 Mar 2026; the House did not take it up and the bill died in messages on 13 Mar 2026.",
+   "summary": "Would have created an 'Artificial Intelligence Bill of Rights'. Companion chatbot platforms would have had to bar minors without parental consent, give parents controls and self-harm alerts, and take reasonable measures against material harmful to minors. Bot operators would have had to tell users hourly they are not talking to a human, and AI companies could have sold or disclosed personal information only as deidentified data. Commercial use of AI-generated likenesses would have needed consent, governments could not have contracted for AI with entities tied to foreign countries of concern, and schools could not have given AI instructional tools to pupils below grade 6, with exceptions.",
    "safety_topics": [
     "child safety",
     "transparency & labelling",
@@ -46375,18 +46410,18 @@
      "slug": "florida-ai-bill-of-rights-sb-2-d-2026-special-session-d"
     }
    ],
-   "notes": "Filed 22 Dec 2025; favourable in Commerce and Tourism (10-0) and Appropriations (18-0); passed the Senate 35-2 on 4 Mar 2026 with a stated effective date of 1 Jul 2026; died in House messages on 13 Mar 2026 after the House Speaker declined to take up state-level AI regulation. Recorded as a major lapsed bill because of the Governor's public campaign for it.",
+   "notes": "Filed on 22 Dec 2025 and referred to Commerce and Tourism and to Appropriations. Commerce and Tourism reported it favourably (10-0) on 21 Jan 2026. Appropriations adopted a committee substitute (18-0) on 18 Feb 2026 that added, among other changes, a 45-day cure period, a news-media exception for AI-generated likenesses and the rules on AI instructional tools in schools. On 4 Mar 2026 the Senate adopted two floor amendments and passed the bill 35-2. It died in House messages on 13 Mar 2026 without becoming law; the similar House bill HB 1395 died in the Information Technology Budget & Policy Subcommittee the same day. The bill stated an effective date of 1 Jul 2026. As passed by the Senate, the Department of Legal Affairs would have enforced the chatbot, bot and data provisions as deceptive or unfair trade practices, with civil penalties of up to USD 50,000 per violation and a discretionary 45-day cure period; in answer to an alleged violation, a company could show controls aligned with the NIST AI Risk Management Framework and ISO 42001. A minor could have recovered up to USD 10,000 in damages from a chatbot platform. A bill with the same title and the same bill description, SB 2-D (US-FL-04), was filed by Sen. Brodeur in 2026 Special Session D on 24 Apr 2026, passed the Senate 37-1 on 28 Apr 2026 and died in the House Information Technology Budget & Policy Subcommittee on 29 Apr 2026.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-14",
     "method": "official-url-fetched",
-    "note": "Fetched the Florida Senate bill page for SB 482 (2026) with its history and summary, and the Florida Phoenix report of 4 Mar 2026. The Senate page confirms the title, sponsor, history, the 35-2 Senate vote and the 'Died in Messages' action of 13 Mar 2026; the press report explains the House position.",
-    "second_check": null
+    "note": "Stored the Florida Senate bill page for SB 482 (2026), the Commerce and Tourism Committee's pre- and post-meeting analyses of the filed bill, the Appropriations Committee's analysis of the committee substitute (20 Feb 2026), the engrossed text S 482 e1 as passed by the Senate, and the Senate bill page for SB 2-D (session 2026D) with its Rules Committee analysis and Senate vote record (all flsenate.gov). The SB 482 page confirms the title CS/SB 482, the sponsor, the three versions, the 35-2 Senate vote of 4 Mar 2026, 'Died in Messages' in the House on 13 Mar 2026 and that no chapter law cites the bill; the summary and the enforcement details rest on the engrossed text. The SB 2-D page confirms its filing on 24 Apr 2026, the 37-1 Senate vote of 28 Apr 2026 and its death in a House subcommittee on 29 Apr 2026. Neither page nor the SB 2-D analysis says that SB 2-D refiled SB 482; the notes state only that both bear the same title and bill description. The Florida Phoenix report of 4 Mar 2026, the record's secondary source, returned HTTP 403 and could not be stored; the Governor's backing and the House Speaker's position, which no stored source shows, are no longer stated in the record.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 9 field(s) supported."
    },
    "local_copy": {
     "status": "archived",
     "flag": "The secondary source could not be downloaded (HTTP 403 Forbidden).",
-    "last_attempt": "2026-10-14T16:36:06Z",
+    "last_attempt": "2026-10-14T17:30:43Z",
     "files": [
      {
       "role_key": "official",
@@ -46401,7 +46436,7 @@
       "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
       "text_sha256": "56417e1b7acf7fe029b60f82d7781c9bbc83537f819d174e1cb4c44215e70ede",
       "retrieved_at": "2026-10-12T04:49:09Z",
-      "last_checked": "2026-10-14T16:36:11Z",
+      "last_checked": "2026-10-14T17:30:48Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -46425,7 +46460,7 @@
       "sha256": "6a09b10cdf20199d7056ffd8b00955aa4ca2a9631ae7ce0f5669050399ae958f",
       "text_sha256": null,
       "retrieved_at": "2026-10-12T04:49:15Z",
-      "last_checked": "2026-10-14T16:36:16Z",
+      "last_checked": "2026-10-14T17:30:54Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -46449,7 +46484,7 @@
       "sha256": "b551917adf0a01e3e40624713323b63a4122884bf18d6eeffecdd66282c3b031",
       "text_sha256": null,
       "retrieved_at": "2026-10-12T04:49:20Z",
-      "last_checked": "2026-10-14T16:36:27Z",
+      "last_checked": "2026-10-14T17:30:59Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -46529,6 +46564,42 @@
       "role": "secondary",
       "url": "https://floridaphoenix.com/2026/03/04/desantis-ai-bill-of-rights-clears-senate-but-house-wont-touch-it/",
       "attempted_at": "2026-10-14T16:36:29Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/482",
+      "attempted_at": "2026-10-14T17:30:48Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/482/Analyses/2026s00482.pre.cm.PDF",
+      "attempted_at": "2026-10-14T17:30:54Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/Session/Bill/2026/482/Analyses/2026s00482.cm.PDF",
+      "attempted_at": "2026-10-14T17:30:59Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://floridaphoenix.com/2026/03/04/desantis-ai-bill-of-rights-clears-senate-but-house-wont-touch-it/",
+      "attempted_at": "2026-10-14T17:31:01Z",
       "ok": false,
       "http_status": 403,
       "error": "HTTP 403 Forbidden",

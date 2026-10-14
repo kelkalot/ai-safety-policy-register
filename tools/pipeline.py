@@ -2339,6 +2339,7 @@ def cmd_questions(args):
         repo = repo or github_repo()
         if not args.dry_run:
             ensure_labels(repo)
+        live = None  # the titles the open issues have on GitHub now, read once
         for key, q in items.items():
             if q["state"] == "open" and not q.get("issue"):
                 title, body = question_title(q, by), question_body(q, by, repo)
@@ -2352,7 +2353,11 @@ def cmd_questions(args):
                 print("opened #%s %s" % (q["issue"], title))
             elif q["state"] == "open" and q.get("issue"):
                 title = question_title(q, by)
-                if title != q.get("title"):
+                if live is None:
+                    live = {i["number"]: i["title"] for i in json.loads(
+                        gh("issue", "list", "--repo", repo, "--state", "all", "--label", "question", "--limit", "1000",
+                           "--json", "number,title") or "[]")}
+                if live.get(q["issue"], title) != title:
                     if args.dry_run:
                         print("would retitle #%s: %s" % (q["issue"], title))
                         continue
