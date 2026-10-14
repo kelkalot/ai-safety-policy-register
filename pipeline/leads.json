@@ -8,9 +8,11 @@
    "url": "https://www.flsenate.gov/Session/Bill/2024/919",
    "seen_in": "https://ai-law-center.orrick.com/florida/",
    "why": "Disclosure of AI-generated content in political advertising; listed as in effect in a law-firm tracker.",
-   "state": "queued",
+   "state": "included",
    "added_by": "Michael Riegler",
-   "added": "2026-10-14"
+   "added": "2026-10-14",
+   "run_id": "2026-10-14-discover-codes-us-fl",
+   "record_id": "US-FL-02"
   },
   {
    "id": "L002",
@@ -19,9 +21,11 @@
    "url": "https://www.flsenate.gov/Session/Bill/2024/1680",
    "seen_in": "https://ai-law-center.orrick.com/florida/",
    "why": "Creates the Government Technology Modernization Council on AI and other technologies; listed in a law-firm tracker for AI-generated child sexual abuse material.",
-   "state": "queued",
+   "state": "included",
    "added_by": "Michael Riegler",
-   "added": "2026-10-14"
+   "added": "2026-10-14",
+   "run_id": "2026-10-14-discover-codes-us-fl",
+   "record_id": "US-FL-03"
   },
   {
    "id": "L003",
@@ -30,9 +34,10 @@
    "url": "https://laws.flrules.org/2023/201",
    "seen_in": "https://ai-law-center.orrick.com/florida/",
    "why": "Listed in a law-firm tracker for automated decision-making; mainly a privacy and technology-transparency law, so the run decides scope against pipeline/scope-decisions.md.",
-   "state": "queued",
+   "state": "not-added",
    "added_by": "Michael Riegler",
-   "added": "2026-10-14"
+   "added": "2026-10-14",
+   "run_id": "2026-10-14-discover-codes-us-fl"
   }
  ]
 }

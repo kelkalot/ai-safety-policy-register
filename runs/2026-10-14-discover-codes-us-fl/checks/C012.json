@@ -1,0 +1,56 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "C012",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "judgment-differs",
+   "why": "The quote is the rule file date with the Department of State; the Board's adoption vote was on 16 Sep 2026 (press release). Filing date is a defensible issue date and the notes give both."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "by 1 Jul 2027 boards must amend policy; parent notice and opt-in with non-AI alternative; extra review for VPK-5",
+   "verdict": "supported",
+   "locator": "extra-e480be885f (FAR 52/166), page 4-5, (3)(e)1-2"
+  },
+  {
+   "claim": "adult supervision, complete log and shut-off for agentic AI; human review of AI decisions; disclosure of unexpected autonomous behaviour or security incidents to the Department",
+   "verdict": "supported",
+   "locator": "extra-92e0647d30 (FAR 52/182), page 5-6, (3)(e)3, 10, 18"
+  },
+  {
+   "claim": "no student data used to train commercial AI models; ban on AI simulating friendship or meeting emotional needs",
+   "verdict": "supported",
+   "locator": "extra-e480be885f, page 6, (3)(e)15 and (f)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Binding state rule on AI safety in schools."
+ },
+ "overall": "accept",
+ "note": "Status 'Adopted, not yet in force' is right as of 14 Oct 2026 (effective 29 Oct 2026). Flrules.org is not yet on the official-sites list, so the level stays C until a human decides the host; the content is confirmed. Date_published uses the filing date, which differs from the Board vote of 16 Sep; flagged as judgment only."
+}

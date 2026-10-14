@@ -1,0 +1,2561 @@
+{
+ "C001": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-14T15:55:42Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C001/2026-10-14/official.html",
+     "url": "https://www.flsenate.gov/Session/Bill/2024/919",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2024/919",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 65860,
+     "sha256": "4c858a90ae0e5e31ea2155756adf268e78e95c1ec37db2c95f9dd5ed78f6429b",
+     "text_sha256": "48c9d68f61ef8e541447037413a3e9ad1c650cf4bdb94052e929dea78112f655",
+     "retrieved_at": "2026-10-14T15:56:04Z",
+     "last_checked": "2026-10-14T15:56:04Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-1",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C001/2026-10-14/document-1.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2024/919/Analyses/h0919z1.EEG.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2024/919/Analyses/h0919z1.EEG.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 374046,
+     "sha256": "05f3ac99c502b905606f783b69b4037603393020732acb6a53ded5cb175b60ce",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:56:25Z",
+     "last_checked": "2026-10-14T15:56:25Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-2",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C001/2026-10-14/document-2.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2024/919/Analyses/h0919c.JUA.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2024/919/Analyses/h0919c.JUA.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 178523,
+     "sha256": "b3a12461c257512ad45d58108fdbbe2ea5224b3860c23272deb44ff511df732e",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:56:43Z",
+     "last_checked": "2026-10-14T15:56:43Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.flsenate.gov/Session/Bill/2024/919",
+     "attempted_at": "2026-10-14T15:56:04Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2024/919/Analyses/h0919z1.EEG.PDF",
+     "attempted_at": "2026-10-14T15:56:25Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2024/919/Analyses/h0919c.JUA.PDF",
+     "attempted_at": "2026-10-14T15:56:43Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {}
+ },
+ "C002": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-14T15:55:42Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/2026-10-14/official.html",
+     "url": "https://www.flsenate.gov/Session/Bill/2024/1680",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2024/1680",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 80471,
+     "sha256": "f7388b616dd3f0c852f55cae8de660af0aea0095f45c2f47262d911d0d696c65",
+     "text_sha256": "6179e357dc64d2c0f5d0d4efca94be7ffb210670f9c3ea1c102fabe2e6b8e7f0",
+     "retrieved_at": "2026-10-14T15:56:01Z",
+     "last_checked": "2026-10-14T15:56:01Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-1",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/2026-10-14/document-1.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2024/1680/Analyses/2024s01680.pre.ju.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2024/1680/Analyses/2024s01680.pre.ju.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 557116,
+     "sha256": "75c55357fc9930c970144e498ce20d317d161aa448314ee57488f72ed0f96cae",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:56:19Z",
+     "last_checked": "2026-10-14T15:56:19Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-2",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/2026-10-14/document-2.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2024/1680/Analyses/2024s01680.ju.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2024/1680/Analyses/2024s01680.ju.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 451740,
+     "sha256": "0250a485d8755580bc8c36919e9de93df0f4316afe7b93bae49c1758b3b47752",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:56:39Z",
+     "last_checked": "2026-10-14T15:56:39Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.flsenate.gov/Session/Bill/2024/1680",
+     "attempted_at": "2026-10-14T15:56:01Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2024/1680/Analyses/2024s01680.pre.ju.PDF",
+     "attempted_at": "2026-10-14T15:56:19Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2024/1680/Analyses/2024s01680.ju.PDF",
+     "attempted_at": "2026-10-14T15:56:39Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.flsenate.gov/Session/Bill/2024/1680/BillText/er/PDF": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:13:44Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/extra-e8fe5aeb62/2026-10-14/official.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1680/BillText/er/PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2024/1680/BillText/er/PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 146534,
+      "sha256": "14bd2de473d7ea8010a7b57914fbab3eb99279bc868e21a9c5eebadfe1a2701d",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:14:03Z",
+      "last_checked": "2026-10-14T16:14:03Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1680/BillText/er/PDF",
+      "attempted_at": "2026-10-14T16:14:03Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.flsenate.gov/laws/statutes/2026/827.072": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:13:44Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/extra-29f99abefe/2026-10-14/official.html",
+      "url": "https://www.flsenate.gov/laws/statutes/2026/827.072",
+      "final_url": "https://www.flsenate.gov/laws/statutes/2026/827.072",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 47039,
+      "sha256": "d015a0bd19a9e2f2bff03862ff133fd896217041254cd0e25849cc948405fcbf",
+      "text_sha256": "d24cf773b3ba93d046c6c05592c4698eac9578f63543fe0174be429ab785c99b",
+      "retrieved_at": "2026-10-14T16:13:59Z",
+      "last_checked": "2026-10-14T16:13:59Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/extra-29f99abefe/2026-10-14/document-1.pdf",
+      "url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Florida_Statutes_Definitions_Index__2026_.pdf",
+      "final_url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Florida_Statutes_Definitions_Index__2026_.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 805406,
+      "sha256": "00e70ae74849724d9dbdb3e43b7599103745466ef94d8e292ae410cde82412df",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:14:18Z",
+      "last_checked": "2026-10-14T16:14:18Z",
+      "method": "http",
+      "last_modified": "Wed, 19 Aug 2026 19:45:30 GMT",
+      "etag": "\"d284794a1330dd1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/extra-29f99abefe/2026-10-14/document-2.pdf",
+      "url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Preface_to_the_Florida_Statutes__2026_.pdf",
+      "final_url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Preface_to_the_Florida_Statutes__2026_.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 46095,
+      "sha256": "fb008a7c06d57963475e869d3f67ee705ec00f1d5a822d22ff0ea0f81dd9329e",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:14:31Z",
+      "last_checked": "2026-10-14T16:14:31Z",
+      "method": "http",
+      "last_modified": "Wed, 19 Aug 2026 19:46:29 GMT",
+      "etag": "\"24cdb46d1330dd1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/laws/statutes/2026/827.072",
+      "attempted_at": "2026-10-14T16:13:59Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Florida_Statutes_Definitions_Index__2026_.pdf",
+      "attempted_at": "2026-10-14T16:14:18Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Preface_to_the_Florida_Statutes__2026_.pdf",
+      "attempted_at": "2026-10-14T16:14:31Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.flsenate.gov/laws/statutes/2026/282.802": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:13:44Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/extra-7f21100d3d/2026-10-14/official.html",
+      "url": "https://www.flsenate.gov/laws/statutes/2026/282.802",
+      "final_url": "https://www.flsenate.gov/laws/statutes/2026/282.802",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 51220,
+      "sha256": "8e3579668a0a0d42bbdd4b6bebc1ea1a48ac634ad35fdbf33434bdacbf86bfd6",
+      "text_sha256": "1683fa57ee6e350d41cfa4bc44fb6a3ae62066d6a2ac03ee5aa092c0de5a262e",
+      "retrieved_at": "2026-10-14T16:13:56Z",
+      "last_checked": "2026-10-14T16:13:56Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/extra-7f21100d3d/2026-10-14/document-1.pdf",
+      "url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Florida_Statutes_Definitions_Index__2026_.pdf",
+      "final_url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Florida_Statutes_Definitions_Index__2026_.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 805406,
+      "sha256": "00e70ae74849724d9dbdb3e43b7599103745466ef94d8e292ae410cde82412df",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:14:14Z",
+      "last_checked": "2026-10-14T16:14:14Z",
+      "method": "http",
+      "last_modified": "Wed, 19 Aug 2026 19:45:30 GMT",
+      "etag": "\"d284794a1330dd1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C002/extra-7f21100d3d/2026-10-14/document-2.pdf",
+      "url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Preface_to_the_Florida_Statutes__2026_.pdf",
+      "final_url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Preface_to_the_Florida_Statutes__2026_.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 46095,
+      "sha256": "fb008a7c06d57963475e869d3f67ee705ec00f1d5a822d22ff0ea0f81dd9329e",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:14:28Z",
+      "last_checked": "2026-10-14T16:14:28Z",
+      "method": "http",
+      "last_modified": "Wed, 19 Aug 2026 19:46:29 GMT",
+      "etag": "\"24cdb46d1330dd1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/laws/statutes/2026/282.802",
+      "attempted_at": "2026-10-14T16:13:56Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Florida_Statutes_Definitions_Index__2026_.pdf",
+      "attempted_at": "2026-10-14T16:14:14Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Preface_to_the_Florida_Statutes__2026_.pdf",
+      "attempted_at": "2026-10-14T16:14:28Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  }
+ },
+ "C003": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-14T15:55:42Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C003/2026-10-14/official.html",
+     "url": "https://www.flsenate.gov/Session/Bill/2026D/2D",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2026D/2D",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 60289,
+     "sha256": "1b7441451fa627ef0ed1b86c69413c54b0522a6e180e0feded5a92f4bd15aea9",
+     "text_sha256": "6d6b1c946dc501ac938232cf5c1c35651e6595ba3683cfdbaf1b2317dd01f25d",
+     "retrieved_at": "2026-10-14T15:55:54Z",
+     "last_checked": "2026-10-14T15:55:54Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-1",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C003/2026-10-14/document-1.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2026D/2D/Analyses/2026s00002D.pre.rc.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2026D/2D/Analyses/2026s00002D.pre.rc.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 590248,
+     "sha256": "e1d2ddd4d8958472d8f329a3b8727530ab740ce2803ce548bdcd262f2501e3a7",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:56:09Z",
+     "last_checked": "2026-10-14T15:56:09Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-2",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C003/2026-10-14/document-2.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2026D/2D/Vote/SenateVote_s00002D__002.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2026D/2D/Vote/SenateVote_s00002D__002.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 92830,
+     "sha256": "41c97fe1ec05dff6c9beb9ced0b8acd8360e9de83a1dbdc71d01776000c92513",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:56:29Z",
+     "last_checked": "2026-10-14T15:56:29Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.flsenate.gov/Session/Bill/2026D/2D",
+     "attempted_at": "2026-10-14T15:55:54Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2026D/2D/Analyses/2026s00002D.pre.rc.PDF",
+     "attempted_at": "2026-10-14T15:56:09Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2026D/2D/Vote/SenateVote_s00002D__002.PDF",
+     "attempted_at": "2026-10-14T15:56:29Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {}
+ },
+ "C004": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-14T15:55:42Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C004/2026-10-14/official.html",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/1161",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2025/1161",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 68579,
+     "sha256": "cad9513f9111148fabd35125be2b94bcbe39813a267ef6f73e916018e601e70a",
+     "text_sha256": "b3c28a5a47db188fa428b15c227bdd164a1f19577adf5d88070dd11a975e0999",
+     "retrieved_at": "2026-10-14T15:55:58Z",
+     "last_checked": "2026-10-14T15:55:58Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-1",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C004/2026-10-14/document-1.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/1161/Analyses/h1161z1.IPA.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2025/1161/Analyses/h1161z1.IPA.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 702121,
+     "sha256": "260c3632c7c10f25320868d6acbe78dbb716d7d72e7204c622571ea8312ca195",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:56:14Z",
+     "last_checked": "2026-10-14T15:56:14Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-2",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C004/2026-10-14/document-2.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/1161/Analyses/h1161c.JDC.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2025/1161/Analyses/h1161c.JDC.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 737143,
+     "sha256": "033820aa2d4d1da0b252184b80c74d75c5c9d6c7c1ccd4b2ef249bc597583903",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:56:34Z",
+     "last_checked": "2026-10-14T15:56:34Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/1161",
+     "attempted_at": "2026-10-14T15:55:58Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/1161/Analyses/h1161z1.IPA.PDF",
+     "attempted_at": "2026-10-14T15:56:14Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/1161/Analyses/h1161c.JDC.PDF",
+     "attempted_at": "2026-10-14T15:56:34Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {}
+ },
+ "C005": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-14T15:56:29Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C005/2026-10-14/official.html",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/757",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2025/757",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 66486,
+     "sha256": "1f08bae327637d82985c5d1633aff95935e46a0e04b32027a6dec5fe01c1522c",
+     "text_sha256": "e1a81683ba9cdf08ffbf66bd4ae29498a0891205efb4a9d2f690e8a656dfc0e8",
+     "retrieved_at": "2026-10-14T15:56:46Z",
+     "last_checked": "2026-10-14T15:56:46Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-1",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C005/2026-10-14/document-1.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/757/Analyses/h0757z1.CRM.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2025/757/Analyses/h0757z1.CRM.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 489917,
+     "sha256": "a25f0dce0d43e297baf4ea957cfaedb64f4375cf9b59d176d3bb97c52e29e093",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:57:01Z",
+     "last_checked": "2026-10-14T15:57:01Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-2",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C005/2026-10-14/document-2.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/757/Analyses/h0757b.JDC.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2025/757/Analyses/h0757b.JDC.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 523748,
+     "sha256": "7194e417dcd82a85cbec32174a21a752331034c873d74299686cc0ef86b84ffb",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:57:23Z",
+     "last_checked": "2026-10-14T15:57:23Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/757",
+     "attempted_at": "2026-10-14T15:56:46Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/757/Analyses/h0757z1.CRM.PDF",
+     "attempted_at": "2026-10-14T15:57:01Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/757/Analyses/h0757b.JDC.PDF",
+     "attempted_at": "2026-10-14T15:57:23Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {}
+ },
+ "C006": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-14T15:56:34Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/2026-10-14/official.html",
+     "url": "https://www.flsenate.gov/Session/Bill/2022/1798",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2022/1798",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 86121,
+     "sha256": "18f9df404709ab2355e8b883578e7c87a7393061614d35df2c61cc3f677fddab",
+     "text_sha256": "5f83586f69cff529731a2cdcaa7f6fba98af4bb433f95c62e04039fbdd30f734",
+     "retrieved_at": "2026-10-14T15:56:49Z",
+     "last_checked": "2026-10-14T15:56:49Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-1",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/2026-10-14/document-1.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2022/1798/Analyses/2022s01798.pre.cj.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2022/1798/Analyses/2022s01798.pre.cj.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 434335,
+     "sha256": "2e5498e2934817f19172a6320eca2fac08b24b6904ec95eeb2fe54cb8d3ce98f",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:57:07Z",
+     "last_checked": "2026-10-14T15:57:07Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-2",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/2026-10-14/document-2.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2022/1798/Analyses/2022s01798.cj.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2022/1798/Analyses/2022s01798.cj.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 411065,
+     "sha256": "5d2924fd042e066a52d8cc838a8a5d95540fd574bae4cbbda72dbac77a4aa676",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:57:27Z",
+     "last_checked": "2026-10-14T15:57:27Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.flsenate.gov/Session/Bill/2022/1798",
+     "attempted_at": "2026-10-14T15:56:49Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2022/1798/Analyses/2022s01798.pre.cj.PDF",
+     "attempted_at": "2026-10-14T15:57:07Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2022/1798/Analyses/2022s01798.cj.PDF",
+     "attempted_at": "2026-10-14T15:57:27Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.flsenate.gov/Session/Bill/2022/1798/BillText/er/PDF": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:13:44Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/extra-9aebe5cfd3/2026-10-14/official.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2022/1798/BillText/er/PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2022/1798/BillText/er/PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 769317,
+      "sha256": "4b3c5d7b63f6639709acdccc30ca5c096b4b395b9ef2048ec2295961a0950c9e",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:14:09Z",
+      "last_checked": "2026-10-14T16:14:09Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2022/1798/BillText/er/PDF",
+      "attempted_at": "2026-10-14T16:14:09Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.flsenate.gov/laws/statutes/2026/836.13": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:14:03Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/extra-f1c5a686d0/2026-10-14/official.html",
+      "url": "https://www.flsenate.gov/laws/statutes/2026/836.13",
+      "final_url": "https://www.flsenate.gov/laws/statutes/2026/836.13",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 59161,
+      "sha256": "86d7a51891cb3d0b39a67367eb8977c49c393b080588c90826e6094243839cd6",
+      "text_sha256": "45bdfc1dd4c1187a640f7bc1a7c30cfe69f263fc130cfc5e70990c5f5ef49926",
+      "retrieved_at": "2026-10-14T16:14:21Z",
+      "last_checked": "2026-10-14T16:14:21Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/extra-f1c5a686d0/2026-10-14/document-1.pdf",
+      "url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Florida_Statutes_Definitions_Index__2026_.pdf",
+      "final_url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Florida_Statutes_Definitions_Index__2026_.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 805406,
+      "sha256": "00e70ae74849724d9dbdb3e43b7599103745466ef94d8e292ae410cde82412df",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:14:35Z",
+      "last_checked": "2026-10-14T16:14:35Z",
+      "method": "http",
+      "last_modified": "Wed, 19 Aug 2026 19:45:30 GMT",
+      "etag": "\"d284794a1330dd1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C006/extra-f1c5a686d0/2026-10-14/document-2.pdf",
+      "url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Preface_to_the_Florida_Statutes__2026_.pdf",
+      "final_url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Preface_to_the_Florida_Statutes__2026_.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 46095,
+      "sha256": "fb008a7c06d57963475e869d3f67ee705ec00f1d5a822d22ff0ea0f81dd9329e",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:14:50Z",
+      "last_checked": "2026-10-14T16:14:50Z",
+      "method": "http",
+      "last_modified": "Wed, 19 Aug 2026 19:46:29 GMT",
+      "etag": "\"24cdb46d1330dd1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/laws/statutes/2026/836.13",
+      "attempted_at": "2026-10-14T16:14:21Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Florida_Statutes_Definitions_Index__2026_.pdf",
+      "attempted_at": "2026-10-14T16:14:35Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Preface_to_the_Florida_Statutes__2026_.pdf",
+      "attempted_at": "2026-10-14T16:14:50Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  }
+ },
+ "C007": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-14T15:56:39Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C007/2026-10-14/official.html",
+     "url": "https://www.flsenate.gov/Session/Bill/2026/1159",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2026/1159",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 83115,
+     "sha256": "d45f3465bdb3c5ab1b003672fabe28b7cc4b4eeca1f3b8e153a4d1c5c2a6df9b",
+     "text_sha256": "392e45c0c5b5c30654fbab228ddaa2a26e7ff0716c84dde3fa993c3258c5afe2",
+     "retrieved_at": "2026-10-14T15:56:53Z",
+     "last_checked": "2026-10-14T15:56:53Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-1",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C007/2026-10-14/document-1.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2026/1159/Analyses/h1159z1.CRM.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2026/1159/Analyses/h1159z1.CRM.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 618212,
+     "sha256": "e074b23f2f2a360aad874a79525dd633d1f6dbcaaab597a0d3d96a021166d810",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:57:12Z",
+     "last_checked": "2026-10-14T15:57:12Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-2",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C007/2026-10-14/document-2.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2026/1159/Analyses/h1159c.JUB.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2026/1159/Analyses/h1159c.JUB.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 630541,
+     "sha256": "4f857444906c579e2ec918476b3974b7e486f6136582528080607c2e29c9a12a",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:57:32Z",
+     "last_checked": "2026-10-14T15:57:32Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.flsenate.gov/Session/Bill/2026/1159",
+     "attempted_at": "2026-10-14T15:56:53Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2026/1159/Analyses/h1159z1.CRM.PDF",
+     "attempted_at": "2026-10-14T15:57:12Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2026/1159/Analyses/h1159c.JUB.PDF",
+     "attempted_at": "2026-10-14T15:57:32Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {}
+ },
+ "C008": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-14T15:56:43Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C008/2026-10-14/official.html",
+     "url": "https://www.flsenate.gov/Session/Bill/2026/527",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2026/527",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 63146,
+     "sha256": "aa043b42ed2d1903aa908eb484326a03886585d0e665b8e5eb8f76b251413a34",
+     "text_sha256": "0fd2416fe5ba6a296dcec0d1ad99ffa54605fe3e7b4fb48bda8a7dab35362638",
+     "retrieved_at": "2026-10-14T15:56:57Z",
+     "last_checked": "2026-10-14T15:56:57Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-1",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C008/2026-10-14/document-1.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2026/527/Analyses/h0527a.IBS.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2026/527/Analyses/h0527a.IBS.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 596773,
+     "sha256": "acf4c8ef9113fd3eedb57f70d2260b54e5d147854889a3c62276dd292208d319",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:57:18Z",
+     "last_checked": "2026-10-14T15:57:18Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-2",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C008/2026-10-14/document-2.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2026/527/Analyses/h0527c.COM.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2026/527/Analyses/h0527c.COM.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 595232,
+     "sha256": "aec0556acefd07784be146c97e87f93c20db7f62fb2ec77beb768abd4af9bde4",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:57:37Z",
+     "last_checked": "2026-10-14T15:57:37Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.flsenate.gov/Session/Bill/2026/527",
+     "attempted_at": "2026-10-14T15:56:57Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2026/527/Analyses/h0527a.IBS.PDF",
+     "attempted_at": "2026-10-14T15:57:18Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2026/527/Analyses/h0527c.COM.PDF",
+     "attempted_at": "2026-10-14T15:57:37Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {}
+ },
+ "C009": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-14T15:57:23Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C009/2026-10-14/official.html",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/491",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2025/491",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 58132,
+     "sha256": "b652de24ec5d180ee963b921ef7414629c03c1bd171d5794308fc5ff2bf21f5a",
+     "text_sha256": "dc71c5c924b716f7321241a1d9aa0d8b1a263aabc30c6f09e79ee7fae32f8d49",
+     "retrieved_at": "2026-10-14T15:57:40Z",
+     "last_checked": "2026-10-14T15:57:40Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-1",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C009/2026-10-14/document-1.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/491/Analyses/h0491.CRM.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2025/491/Analyses/h0491.CRM.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 505544,
+     "sha256": "fbfc1f5e73d45c6214889ee3259a9cb8ef4400b334d9bbdb87cdbf543094ac83",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:57:51Z",
+     "last_checked": "2026-10-14T15:57:51Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-2",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C009/2026-10-14/document-2.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/491/Analyses/h0491b.JDC.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2025/491/Analyses/h0491b.JDC.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 533005,
+     "sha256": "8f64077b7d5ab84747200d1d505097c9b0098b3d2746527dbc6f9f060a178312",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:58:04Z",
+     "last_checked": "2026-10-14T15:58:04Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/491",
+     "attempted_at": "2026-10-14T15:57:40Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/491/Analyses/h0491.CRM.PDF",
+     "attempted_at": "2026-10-14T15:57:51Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/491/Analyses/h0491b.JDC.PDF",
+     "attempted_at": "2026-10-14T15:58:04Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {}
+ },
+ "C010": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-14T15:57:27Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/2026-10-14/official.html",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/369",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2025/369",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 67245,
+     "sha256": "b34c021313e1ddc25f6e93097174cbf3f46dbefd03e26fff762d1c7777704ec0",
+     "text_sha256": "c00d95c0e9d12c8eef1a3d632edba5a1ac698c9987cfd8deabeb4c061f11f70e",
+     "retrieved_at": "2026-10-14T15:57:43Z",
+     "last_checked": "2026-10-14T15:57:43Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-1",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/2026-10-14/document-1.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/369/Analyses/h0369a.ITP.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2025/369/Analyses/h0369a.ITP.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 468041,
+     "sha256": "b97accd2e8cc8baef0c9aa64a068a01bc0a214fb3fe152ac5e8a685241114dc8",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:57:56Z",
+     "last_checked": "2026-10-14T15:57:56Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-2",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/2026-10-14/document-2.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/369/Analyses/h0369c.EIS.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2025/369/Analyses/h0369c.EIS.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 513641,
+     "sha256": "eb47d42f603d8eb241d99f906d8ded4cb0bb72c2077bbaed383e12839ac967cd",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:58:10Z",
+     "last_checked": "2026-10-14T15:58:10Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/369",
+     "attempted_at": "2026-10-14T15:57:43Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/369/Analyses/h0369a.ITP.PDF",
+     "attempted_at": "2026-10-14T15:57:56Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/369/Analyses/h0369c.EIS.PDF",
+     "attempted_at": "2026-10-14T15:58:10Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.flsenate.gov/Session/Bill/2025/369/BillText/c3/PDF": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:14:09Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/extra-b00b76c772/2026-10-14/official.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/369/BillText/c3/PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2025/369/BillText/c3/PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 159570,
+      "sha256": "5f9407aa50ae5fa88b95b2fa983f688dbf8c56b3a1cd783c37de0aa60ab9b758",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:14:25Z",
+      "last_checked": "2026-10-14T16:14:25Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/369/BillText/c3/PDF",
+      "attempted_at": "2026-10-14T16:14:25Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.flsenate.gov/Session/Bill/2025/369/Analyses/h0369e.COM.PDF": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:14:25Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C010/extra-b22e518528/2026-10-14/official.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/369/Analyses/h0369e.COM.PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2025/369/Analyses/h0369e.COM.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 519691,
+      "sha256": "c1484b835b593af5d65488f01b216e007392fb04b20ef482616c163cb49df197",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:14:40Z",
+      "last_checked": "2026-10-14T16:14:40Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2025/369/Analyses/h0369e.COM.PDF",
+      "attempted_at": "2026-10-14T16:14:40Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  }
+ },
+ "C011": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-14T15:57:32Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/2026-10-14/official.html",
+     "url": "https://www.flsenate.gov/Session/Bill/2024/1361",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2024/1361",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 75291,
+     "sha256": "75150b0a42a97f17daa9d1be5dd40020df0ce59096578485072a4bb119fcf928",
+     "text_sha256": "8835729b63da8d1faababe9bd2a00b81f1339dd1058fc2ff75a22cd340febcf1",
+     "retrieved_at": "2026-10-14T15:57:47Z",
+     "last_checked": "2026-10-14T15:57:47Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-1",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/2026-10-14/document-1.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2024/1361/Analyses/2024h01361.hms.ed.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2024/1361/Analyses/2024h01361.hms.ed.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 85519,
+     "sha256": "d46f0dd5179a9f6d52292a1381afcbc745a5812d023655d4a6644506d92a85ee",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:57:59Z",
+     "last_checked": "2026-10-14T15:57:59Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-2",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/2026-10-14/document-2.pdf",
+     "url": "https://www.flsenate.gov/Session/Bill/2024/1361/Analyses/h1361z1.EQS.PDF",
+     "final_url": "https://www.flsenate.gov/Session/Bill/2024/1361/Analyses/h1361z1.EQS.PDF",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 478663,
+     "sha256": "656a83712b2a734af0df859a903b5b742b29b30415084ae49b3e1815260fc4d5",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:58:16Z",
+     "last_checked": "2026-10-14T15:58:16Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.flsenate.gov/Session/Bill/2024/1361",
+     "attempted_at": "2026-10-14T15:57:47Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2024/1361/Analyses/2024h01361.hms.ed.PDF",
+     "attempted_at": "2026-10-14T15:57:59Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.flsenate.gov/Session/Bill/2024/1361/Analyses/h1361z1.EQS.PDF",
+     "attempted_at": "2026-10-14T15:58:16Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.flsenate.gov/Session/Bill/2024/1361/BillText/er/PDF": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:14:28Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/extra-3be957bf10/2026-10-14/official.pdf",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1361/BillText/er/PDF",
+      "final_url": "https://www.flsenate.gov/Session/Bill/2024/1361/BillText/er/PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 219922,
+      "sha256": "72e82dda52d86b19313675ace7d3ae7a9ab8bd91bc57c49a473226e2406ad31a",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:14:44Z",
+      "last_checked": "2026-10-14T16:14:44Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1361/BillText/er/PDF",
+      "attempted_at": "2026-10-14T16:14:44Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.flsenate.gov/Laws/Statutes/2026/1002.321": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:14:31Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/extra-34e0378984/2026-10-14/official.html",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2026/1002.321",
+      "final_url": "https://www.flsenate.gov/Laws/Statutes/2026/1002.321",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 50312,
+      "sha256": "196b466e7688accd2b7bae42ea46018b3c567bf404c40562deb4b85e1365b78f",
+      "text_sha256": "03aee37c963dd797d5461ff01ade855165409393566213459d40ca6d927abf21",
+      "retrieved_at": "2026-10-14T16:14:47Z",
+      "last_checked": "2026-10-14T16:14:47Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/extra-34e0378984/2026-10-14/document-1.pdf",
+      "url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Florida_Statutes_Definitions_Index__2026_.pdf",
+      "final_url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Florida_Statutes_Definitions_Index__2026_.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 805406,
+      "sha256": "00e70ae74849724d9dbdb3e43b7599103745466ef94d8e292ae410cde82412df",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:14:55Z",
+      "last_checked": "2026-10-14T16:14:55Z",
+      "method": "http",
+      "last_modified": "Wed, 19 Aug 2026 19:45:30 GMT",
+      "etag": "\"d284794a1330dd1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C011/extra-34e0378984/2026-10-14/document-2.pdf",
+      "url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Preface_to_the_Florida_Statutes__2026_.pdf",
+      "final_url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Preface_to_the_Florida_Statutes__2026_.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 46095,
+      "sha256": "fb008a7c06d57963475e869d3f67ee705ec00f1d5a822d22ff0ea0f81dd9329e",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:14:58Z",
+      "last_checked": "2026-10-14T16:14:58Z",
+      "method": "http",
+      "last_modified": "Wed, 19 Aug 2026 19:46:29 GMT",
+      "etag": "\"24cdb46d1330dd1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2026/1002.321",
+      "attempted_at": "2026-10-14T16:14:47Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Florida_Statutes_Definitions_Index__2026_.pdf",
+      "attempted_at": "2026-10-14T16:14:55Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.flsenate.gov/PublishedContent/Laws/Statutes/Links/Preface_to_the_Florida_Statutes__2026_.pdf",
+      "attempted_at": "2026-10-14T16:14:58Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  }
+ },
+ "C012": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-14T15:57:37Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/2026-10-14/official.html",
+     "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-1.0957",
+     "final_url": "https://flrules.org/gateway/ruleNo.asp?id=6A-1.0957",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 17505,
+     "sha256": "2ba17953a0b18d3107bda5d1c5b4657a39aa4f554b209a314e6066721b122c45",
+     "text_sha256": "754deb3d1f4e95f11aa758d0d6c21116ec929da5bc2de7692fac02388cb29668",
+     "retrieved_at": "2026-10-14T15:57:40Z",
+     "last_checked": "2026-10-14T15:57:40Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-1.0957",
+     "attempted_at": "2026-10-14T15:57:40Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52166/52166doc.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:14:40Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/extra-e480be885f/2026-10-14/official.pdf",
+      "url": "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52166/52166doc.pdf",
+      "final_url": "https://flrules.org/Faw/FAWDocuments/FAWVOLUMEFOLDERS2026/52166/52166doc.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 432134,
+      "sha256": "799181403f6b27c92b3fdbe2cc1f59346e467eb239e442b305aac07523d71a77",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:14:43Z",
+      "last_checked": "2026-10-14T16:14:43Z",
+      "method": "http",
+      "last_modified": "Tue, 25 Aug 2026 19:50:50 GMT",
+      "etag": "\"d92fe67cb34dd1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52166/52166doc.pdf",
+      "attempted_at": "2026-10-14T16:14:43Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52182/52182doc.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:14:43Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/extra-92e0647d30/2026-10-14/official.pdf",
+      "url": "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52182/52182doc.pdf",
+      "final_url": "https://flrules.org/Faw/FAWDocuments/FAWVOLUMEFOLDERS2026/52182/52182doc.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 427642,
+      "sha256": "61d1f459ae71cb262c1164c274a1737a83b3a30f90350aca9efcb7c1cdc692f4",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:14:46Z",
+      "last_checked": "2026-10-14T16:14:46Z",
+      "method": "http",
+      "last_modified": "Thu, 17 Sep 2026 19:52:06 GMT",
+      "etag": "\"5fb9e4de46dd1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52182/52182doc.pdf",
+      "attempted_at": "2026-10-14T16:14:46Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.flrules.org/Gateway/View_notice.asp?id=31488060": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:14:44Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/extra-827310769e/2026-10-14/official.html",
+      "url": "https://www.flrules.org/Gateway/View_notice.asp?id=31488060",
+      "final_url": "https://flrules.org/Gateway/View_notice.asp?id=31488060",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 11931,
+      "sha256": "72fadff8b32ff5f9e266342e03d4cec722c671f8c1974c3c95e709d4ed60c963",
+      "text_sha256": "0a935c322a2b12ff9047d86250beba3cd39c3d1e205e0af73d3af43f5ceedd4d",
+      "retrieved_at": "2026-10-14T16:14:48Z",
+      "last_checked": "2026-10-14T16:14:48Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flrules.org/Gateway/View_notice.asp?id=31488060",
+      "attempted_at": "2026-10-14T16:14:48Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:14:46Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/extra-e412ee8e5d/2026-10-14/official.html",
+      "url": "https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml",
+      "final_url": "https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 49903,
+      "sha256": "450c3eb6648c8bb864b593c6847b7894d2aa40da8da354b096caea46e3bf2844",
+      "text_sha256": "2fd72462969b346eac42ed6db5aaf90a5fcc209715481eead3e990825480334e",
+      "retrieved_at": "2026-10-14T16:14:49Z",
+      "last_checked": "2026-10-14T16:14:49Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml",
+      "attempted_at": "2026-10-14T16:14:49Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  }
+ },
+ "C013": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-14T15:57:40Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/2026-10-14/official.html",
+     "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-14.0719",
+     "final_url": "https://flrules.org/gateway/ruleNo.asp?id=6A-14.0719",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 12109,
+     "sha256": "1b31862a37ff25dd2ab33bed64d55831527dad853627bdbefb96d412426055ba",
+     "text_sha256": "c2b575d5301c1a7062c33e5226530e9e2517f65422eb1fa883d1d35d8ccff665",
+     "retrieved_at": "2026-10-14T15:57:43Z",
+     "last_checked": "2026-10-14T15:57:43Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-14.0719",
+     "attempted_at": "2026-10-14T15:57:43Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52165/52165doc.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:14:48Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/extra-53a26cd21c/2026-10-14/official.pdf",
+      "url": "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52165/52165doc.pdf",
+      "final_url": "https://flrules.org/Faw/FAWDocuments/FAWVOLUMEFOLDERS2026/52165/52165doc.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 533048,
+      "sha256": "7a466192940733d1da7191c1cea139ef4533d67c0d359820825f97b8262c4c70",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:14:51Z",
+      "last_checked": "2026-10-14T16:14:51Z",
+      "method": "http",
+      "last_modified": "Mon, 24 Aug 2026 19:50:10 GMT",
+      "etag": "\"ff6847c5134dd1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52165/52165doc.pdf",
+      "attempted_at": "2026-10-14T16:14:51Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.flrules.org/Gateway/View_notice.asp?id=31445186": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:14:49Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/extra-61c023c79c/2026-10-14/official.html",
+      "url": "https://www.flrules.org/Gateway/View_notice.asp?id=31445186",
+      "final_url": "https://flrules.org/Gateway/View_notice.asp?id=31445186",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 11916,
+      "sha256": "2dfd38e61d74080ba32f95c235df77a7dfc2b3ac898211f4490ea7b236be0d57",
+      "text_sha256": "495163caff7e556e3a2924b677d360f17938a2ab13ef94dc0b521ecc68fd821d",
+      "retrieved_at": "2026-10-14T16:14:53Z",
+      "last_checked": "2026-10-14T16:14:53Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flrules.org/Gateway/View_notice.asp?id=31445186",
+      "attempted_at": "2026-10-14T16:14:53Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:14:50Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/extra-e412ee8e5d/2026-10-14/official.html",
+      "url": "https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml",
+      "final_url": "https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 49903,
+      "sha256": "127598ac851da7dad420b915fbeb63f02eb61ddad21858efc997314a69b2e0a3",
+      "text_sha256": "2fd72462969b346eac42ed6db5aaf90a5fcc209715481eead3e990825480334e",
+      "retrieved_at": "2026-10-14T16:14:51Z",
+      "last_checked": "2026-10-14T16:14:51Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml",
+      "attempted_at": "2026-10-14T16:14:51Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  }
+ },
+ "C014": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-14T15:57:43Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C014/2026-10-14/official.pdf",
+     "url": "https://www.flbog.edu/wp-content/uploads/2026/08/Agenda-Item-for-Board-Action-90.pdf",
+     "final_url": "https://www.flbog.edu/wp-content/uploads/2026/08/Agenda-Item-for-Board-Action-90.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 74492,
+     "sha256": "587a00ddffe6ee8ba3623d5c87054c926e3c4c72726bc7bd4c47fc2b8acff63f",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T15:57:46Z",
+     "last_checked": "2026-10-14T15:57:46Z",
+     "method": "http",
+     "last_modified": "Wed, 26 Aug 2026 14:18:39 GMT",
+     "etag": "\"6a8ef5bf-122fc\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.flbog.edu/wp-content/uploads/2026/08/Agenda-Item-for-Board-Action-90.pdf",
+     "attempted_at": "2026-10-14T15:57:46Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.flbog.edu/wp-content/uploads/2026/08/Agenda-Item-for-Committee-Information-41.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:14:51Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C014/extra-23a7266893/2026-10-14/official.pdf",
+      "url": "https://www.flbog.edu/wp-content/uploads/2026/08/Agenda-Item-for-Committee-Information-41.pdf",
+      "final_url": "https://www.flbog.edu/wp-content/uploads/2026/08/Agenda-Item-for-Committee-Information-41.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 74479,
+      "sha256": "67637521e733ccbb2bf1748248dd0a4ae6ff7f8af0c38e1dd368e0a58eaaaedb",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:14:53Z",
+      "last_checked": "2026-10-14T16:14:53Z",
+      "method": "http",
+      "last_modified": "Tue, 25 Aug 2026 19:40:05 GMT",
+      "etag": "\"6a8def95-122ef\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flbog.edu/wp-content/uploads/2026/08/Agenda-Item-for-Committee-Information-41.pdf",
+      "attempted_at": "2026-10-14T16:14:53Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  }
+ },
+ "C015": {
+  "main": {
+   "status": "failed",
+   "flag": "The official source could not be downloaded: The site's robots.txt does not allow automated downloads of this page.",
+   "last_attempt": "2026-10-14T16:14:51Z",
+   "files": [],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://flcourts-media.flcourts.gov/content/download/2489374/opinion/Opinion_SC2026-0673.pdf",
+     "attempted_at": "2026-10-14T15:57:48Z",
+     "ok": false,
+     "http_status": null,
+     "error": "The site's robots.txt does not allow automated downloads of this page",
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://flcourts-media.flcourts.gov/content/download/2489374/opinion/Opinion_SC2026-0673.pdf",
+     "attempted_at": "2026-10-14T16:14:52Z",
+     "ok": false,
+     "http_status": null,
+     "error": "The site's robots.txt does not allow automated downloads of this page",
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://caselaw.findlaw.com/court/fl-supreme-court/61348.html": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
+    "last_attempt": "2026-10-14T16:14:52Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://caselaw.findlaw.com/court/fl-supreme-court/61348.html",
+      "attempted_at": "2026-10-14T16:14:55Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://caselaw.findlaw.com/court/fl-supreme-court/61348.html",
+      "attempted_at": "2026-10-14T16:15:44Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
+      "method": "browser"
+     }
+    ]
+   }
+  }
+ },
+ "C016": {
+  "main": {
+   "status": "failed",
+   "flag": "The official source could not be downloaded: The site's robots.txt does not allow automated downloads of this page.",
+   "last_attempt": "2026-10-14T16:14:53Z",
+   "files": [],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://supremecourt.flcourts.gov/content/download/2439771/opinion/Opinion_SC2024-0032.pdf",
+     "attempted_at": "2026-10-14T15:57:49Z",
+     "ok": false,
+     "http_status": null,
+     "error": "The site's robots.txt does not allow automated downloads of this page",
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://supremecourt.flcourts.gov/content/download/2439771/opinion/Opinion_SC2024-0032.pdf",
+     "attempted_at": "2026-10-14T16:14:54Z",
+     "ok": false,
+     "http_status": null,
+     "error": "The site's robots.txt does not allow automated downloads of this page",
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://assets.alm.com/b3/ef/635b69ee4a80aa7afc28763aa2ba/opinion-disposition-chapter-4.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:14:53Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C016/extra-93f6ef7788/2026-10-14/official.pdf",
+      "url": "https://assets.alm.com/b3/ef/635b69ee4a80aa7afc28763aa2ba/opinion-disposition-chapter-4.pdf",
+      "final_url": "https://assets.alm.com/b3/ef/635b69ee4a80aa7afc28763aa2ba/opinion-disposition-chapter-4.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 166546,
+      "sha256": "0d839029d7c87efedac99d1ea526bdbb8a93a99c67909f9875c91c9e721aef9e",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:14:56Z",
+      "last_checked": "2026-10-14T16:14:56Z",
+      "method": "http",
+      "last_modified": "Mon, 13 Apr 2026 16:59:36 GMT",
+      "etag": "\"1a236b2a60f91205351ced887e5de80b\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://assets.alm.com/b3/ef/635b69ee4a80aa7afc28763aa2ba/opinion-disposition-chapter-4.pdf",
+      "attempted_at": "2026-10-14T16:14:56Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  }
+ },
+ "C017": {
+  "main": {
+   "status": "failed",
+   "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (HTTP 403 (in browser)).",
+   "last_attempt": "2026-10-14T16:14:54Z",
+   "files": [],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.floridabar.org/etopinions/opinion-24-1/",
+     "attempted_at": "2026-10-14T15:57:51Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    },
+    {
+     "role": "official-rendered",
+     "url": "https://www.floridabar.org/etopinions/opinion-24-1/",
+     "attempted_at": "2026-10-14T15:58:18Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 (in browser)",
+     "method": "browser"
+    },
+    {
+     "role": "official",
+     "url": "https://www.floridabar.org/etopinions/opinion-24-1/",
+     "attempted_at": "2026-10-14T16:14:56Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    },
+    {
+     "role": "official-rendered",
+     "url": "https://www.floridabar.org/etopinions/opinion-24-1/",
+     "attempted_at": "2026-10-14T16:15:45Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 (in browser)",
+     "method": "browser"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.law.buffalo.edu/content/dam/law/content/cle/24mar27-materials/fl-bar-ethics.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T16:14:55Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C017/extra-31d3af59e8/2026-10-14/official.pdf",
+      "url": "https://www.law.buffalo.edu/content/dam/law/content/cle/24mar27-materials/fl-bar-ethics.pdf",
+      "final_url": "https://www.law.buffalo.edu/content/dam/law/content/cle/24mar27-materials/fl-bar-ethics.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 187029,
+      "sha256": "75048873b09c0cd02c05520e11021923f8800b73677c1f9924004d87ae52533d",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T16:14:58Z",
+      "last_checked": "2026-10-14T16:14:58Z",
+      "method": "http",
+      "last_modified": "Wed, 14 Oct 2026 16:06:01 GMT",
+      "etag": "W/\"2da95-65dcf1b87c2a9\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.law.buffalo.edu/content/dam/law/content/cle/24mar27-materials/fl-bar-ethics.pdf",
+      "attempted_at": "2026-10-14T16:14:58Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  }
+ }
+}

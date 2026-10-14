@@ -1,0 +1,116 @@
+{
+ "cand_id": "C017",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Florida Bar Ethics Opinion 24-1 (lawyers' use of generative artificial intelligence)",
+  "original_title": null,
+  "short_title": "Florida Bar Ethics Opinion 24-1 on generative AI",
+  "jurisdiction": "Florida (US)",
+  "country": "United States",
+  "jurisdiction_level": "Sub-national",
+  "region": "North America",
+  "issuing_body": "The Florida Bar (Board Review Committee on Professional Ethics, at the direction of the Board of Governors)",
+  "instrument_type": "Guidelines / framework",
+  "legal_force": "Non-binding",
+  "status": "Published (non-binding, current)",
+  "date_published": "2024-01-19",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": "Florida Bar Ethics Opinion 24-1",
+  "official_url": "https://www.floridabar.org/etopinions/opinion-24-1/",
+  "secondary_url": "https://www.law.buffalo.edu/content/dam/law/content/cle/24mar27-materials/fl-bar-ethics.pdf",
+  "language": "English",
+  "summary": "Advisory ethics opinion of The Florida Bar on lawyers' use of generative AI. Lawyers may use it but must protect client confidentiality, researching a program's policies on data retention, data sharing and self-learning, and should obtain informed consent before disclosing confidential information to a third-party program. They must verify the accuracy and sufficiency of AI research, set oversight policies as for nonlawyer assistants, not delegate the practice of law to it, and not inflate billed time. Chatbots that communicate with clients or third parties must follow advertising rules and disclose that they are an AI program, not a lawyer or employee.",
+  "safety_topics": [
+   "human oversight",
+   "accountability & liability",
+   "transparency & labelling"
+  ],
+  "related": [
+   "C016"
+  ],
+  "notes": "The Florida Bar's Board of Governors directed the Board Review Committee on Professional Ethics to issue the opinion. It applies the Rules Regulating The Florida Bar on confidentiality (4-1.6), competence (4-1.1), supervision of nonlawyer assistants (4-5.3), fees (4-1.5) and advertising (subchapter 4-7) to generative AI, and draws on earlier Florida opinions on cloud computing, electronic storage, remote paralegal services and metadata. It notes that confidentiality concerns may be reduced by an in-house generative AI, and that no informed consent is needed when no confidential information is disclosed to a third party. The opinion states that advisory ethics opinions are not binding.",
+  "scope_note": "An advisory, non-binding opinion of The Florida Bar, which administers the professional conduct rules for Florida lawyers but is also their professional association, a kind of issuer AGENTS.md section 10 excludes; included under the inclusive default until a scope decision settles how state bars are treated.",
+  "verification": {
+   "note": "The Florida Bar's own page for Opinion 24-1 could not be stored: floridabar.org refused the archiver (HTTP 403, also in the browser retry). Stored a copy of the full opinion text in continuing legal education materials on law.buffalo.edu (University at Buffalo School of Law), which carries the heading 'FLORIDA BAR ETHICS OPINION OPINION 24-1', the date and the full text; title, date, status and the summary rest on this third-party copy. Whether the Bar has revised the opinion since was not checked against its own site."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C017/extra-31d3af59e8/2026-10-14/official.pdf",
+    "sha256": "75048873b09c0cd02c05520e11021923f8800b73677c1f9924004d87ae52533d",
+    "locator": "page 1, heading",
+    "quote": "FLORIDA BAR ETHICS OPINION OPINION 24-1 January 19, 2024",
+    "source_kind": "secondary"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C017/extra-31d3af59e8/2026-10-14/official.pdf",
+    "sha256": "75048873b09c0cd02c05520e11021923f8800b73677c1f9924004d87ae52533d",
+    "locator": "page 1",
+    "quote": "The Florida Bar Board of Governors has directed the Board Review Committee on Professional Ethics to issue an opinion regarding lawyers’ use of generative artificial intelligence",
+    "source_kind": "secondary"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C017/extra-31d3af59e8/2026-10-14/official.pdf",
+    "sha256": "75048873b09c0cd02c05520e11021923f8800b73677c1f9924004d87ae52533d",
+    "locator": "page 1, heading",
+    "quote": "FLORIDA BAR ETHICS OPINION OPINION 24-1",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C017/extra-31d3af59e8/2026-10-14/official.pdf",
+    "sha256": "75048873b09c0cd02c05520e11021923f8800b73677c1f9924004d87ae52533d",
+    "locator": "page 1, heading",
+    "quote": "OPINION 24-1 January 19, 2024",
+    "source_kind": "secondary"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C017/extra-31d3af59e8/2026-10-14/official.pdf",
+    "sha256": "75048873b09c0cd02c05520e11021923f8800b73677c1f9924004d87ae52533d",
+    "locator": "page 1, heading",
+    "quote": "January 19, 2024 Advisory ethics opinions are not binding.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C017/extra-31d3af59e8/2026-10-14/official.pdf",
+    "sha256": "75048873b09c0cd02c05520e11021923f8800b73677c1f9924004d87ae52533d",
+    "locator": "page 1",
+    "quote": "this opinion is intended to provide guidance to Florida Bar members regarding some of the ethical implications of these new programs.",
+    "source_kind": "secondary"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C017/extra-31d3af59e8/2026-10-14/official.pdf",
+    "sha256": "75048873b09c0cd02c05520e11021923f8800b73677c1f9924004d87ae52533d",
+    "locator": "page 1, heading",
+    "quote": "Advisory ethics opinions are not binding.",
+    "source_kind": "secondary"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "An advisory opinion dated 19 Jan 2024 that states 'Advisory ethics opinions are not binding.' The stored copy shows no withdrawal or revision, so it is recorded as 'Published (non-binding, current)' with legal_force 'Non-binding'. Whether the Bar has revised or withdrawn it since cannot be checked from the stored sources (the Bar's site refuses the archiver).",
+  "scope_reasoning": "Borderline; included with a scope_note under the inclusive default (AGENTS.md rule 9) and raised as an open question. For inclusion: AI-specific guidance on the use of generative AI by a regulated profession, from the body that administers the professional conduct rules; it resembles a supervisor's guidance, which section 10 admits. Against: The Florida Bar is also the lawyers' professional association, and section 10 excludes documents of professional associations. No rule or precedent in pipeline/scope-decisions.md settles which applies to an integrated state bar.",
+  "summary_reasoning": "The summary follows the opinion's headnote and its sections on confidentiality, oversight of generative AI, fees and advertising. 'Should obtain informed consent' renders the opinion's recommendation ('it is recommended that a lawyer obtain the affected client's informed consent'), not a duty; the chatbot disclaimer renders 'must include a disclaimer indicating that the chatbot is an AI program and not a lawyer or employee of the law firm'.",
+  "related_reasoning": "C016 (the Supreme Court of Florida's 2024 amendments adding generative-AI warnings to the comments on the Rules Regulating The Florida Bar) is the binding counterpart on the same subject."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "Scope: is an advisory ethics opinion of The Florida Bar in scope? The Florida Bar administers the professional conduct rules for lawyers (like a supervisory authority, whose AI guidance AGENTS.md section 10 admits) but is also the lawyers' professional association (whose documents section 10 excludes). The record is included with a scope_note under the inclusive default; a scope decision for integrated state bars would settle this and similar opinions of other state bars.",
+  "The Florida Bar's own page for Opinion 24-1 refuses automated requests (403, also in the browser); the record rests on a university's copy of the text and stays at level C until a person provides the official page (archive.py --provide)."
+ ]
+}

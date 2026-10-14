@@ -1,0 +1,138 @@
+{
+ "cand_id": "C009",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "CS/HB 491 (2025): Use of Artificial Intelligence by Governmental Agencies to Detect Concealed Firearms",
+  "original_title": null,
+  "short_title": "Florida HB 491 (2025): AI concealed-firearm detection ban",
+  "jurisdiction": "Florida (US)",
+  "country": "United States",
+  "jurisdiction_level": "Sub-national",
+  "region": "North America",
+  "issuing_body": "Florida House of Representatives (2025 Regular Session; Criminal Justice Subcommittee and Rep. Miller)",
+  "instrument_type": "Bill / draft law",
+  "legal_force": "Proposed",
+  "status": "Lapsed",
+  "date_published": "2025-02-10",
+  "date_in_force": null,
+  "date_last_updated": "2025-03-26",
+  "official_identifier": "CS/HB 491 (2025 Regular Session)",
+  "official_url": "https://www.flsenate.gov/Session/Bill/2025/491",
+  "secondary_url": null,
+  "language": "English",
+  "summary": "Bill that would have prohibited any state, county, local or municipal governmental agency from using artificial intelligence, or contracting with another entity to use it, together with a camera, video recording, live-streaming device or similar technology to detect concealed firearms in a public place. Agencies could still use such AI on school grounds and at the locations where concealed weapons licensees may not carry. An aggrieved party could seek injunctive relief against the agency or its contractor to prevent or remedy a violation.",
+  "safety_topics": [
+   "public-sector use",
+   "prohibited practices"
+  ],
+  "related": [],
+  "notes": "Filed 10 Feb 2025. The Criminal Justice Subcommittee reported it favourably with a committee substitute (13-0) on 26 Mar 2025, narrowing the filed version, which applied to any person and carried a criminal penalty, to governmental agencies and replacing the penalty with injunctive relief. The Judiciary Committee reported it favourably (19-0) on 17 Apr 2025, and the House passed it 114-1 on 24 Apr 2025. In the Senate it was referred to Rules, indefinitely postponed and withdrawn from consideration on 3 May 2025, and died in Rules on 16 Jun 2025. The similar Senate bill SB 562 (Ingoglia) died in the Criminal Justice Committee. The stated effective date was 1 Jul 2025.",
+  "verification": {
+   "note": "Stored the Florida Senate bill page for HB 491 (2025), with its history, versions, related bills and the House floor vote, and the House Criminal Justice Subcommittee (26 Mar 2025) and Judiciary Committee (17 Apr 2025) staff analyses of CS/HB 491 (flsenate.gov). The bill page confirms the title, sponsors, filing date, the 114-1 House vote and the 'Died in Rules' action of 16 Jun 2025. The bill text itself was not stored; the summary rests on the staff analyses, which describe the committee substitute section by section and state that they are not an official statement of legislative intent."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C009/2026-10-14/official.html",
+    "sha256": "b652de24ec5d180ee963b921ef7414629c03c1bd171d5794308fc5ff2bf21f5a",
+    "locator": "bill heading",
+    "quote": "CS/HB 491: Use of Artificial Intelligence by Governmental Agencies to Detect Concealed Firearms",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C009/2026-10-14/document-2.pdf",
+    "sha256": "8f64077b7d5ab84747200d1d505097c9b0098b3d2746527dbc6f9f060a178312",
+    "locator": "page 1, heading",
+    "quote": "BILL #: CS/HB 491 TITLE: Use of Artificial Intelligence by Governmental Agencies to Detect Concealed Firearms",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C009/2026-10-14/official.html",
+    "sha256": "b652de24ec5d180ee963b921ef7414629c03c1bd171d5794308fc5ff2bf21f5a",
+    "locator": "bill heading",
+    "quote": "GENERAL BILL by Criminal Justice Subcommittee; Miller; (CO-INTRODUCERS) Borrero; López, J.; Sapp",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C009/2026-10-14/document-2.pdf",
+    "sha256": "8f64077b7d5ab84747200d1d505097c9b0098b3d2746527dbc6f9f060a178312",
+    "locator": "page 1, heading",
+    "quote": "FLORIDA HOUSE OF REPRESENTATIVES BILL ANALYSIS",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C009/2026-10-14/official.html",
+    "sha256": "b652de24ec5d180ee963b921ef7414629c03c1bd171d5794308fc5ff2bf21f5a",
+    "locator": "breadcrumb and bill heading",
+    "quote": "Home > Session > 2025 > House Bill 491",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C009/2026-10-14/official.html",
+    "sha256": "b652de24ec5d180ee963b921ef7414629c03c1bd171d5794308fc5ff2bf21f5a",
+    "locator": "Bill History",
+    "quote": "2/10/2025 House • Filed",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C009/2026-10-14/official.html",
+    "sha256": "b652de24ec5d180ee963b921ef7414629c03c1bd171d5794308fc5ff2bf21f5a",
+    "locator": "Bill Text",
+    "quote": "H 491 Filed 2/10/2025 11:43 AM",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C009/2026-10-14/official.html",
+    "sha256": "b652de24ec5d180ee963b921ef7414629c03c1bd171d5794308fc5ff2bf21f5a",
+    "locator": "Bill Text",
+    "quote": "H 491 c1 3/26/2025 4:40 PM",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C009/2026-10-14/official.html",
+    "sha256": "b652de24ec5d180ee963b921ef7414629c03c1bd171d5794308fc5ff2bf21f5a",
+    "locator": "Last Action",
+    "quote": "Last Action: 6/16/2025 Senate - Died in Rules",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C009/2026-10-14/official.html",
+    "sha256": "b652de24ec5d180ee963b921ef7414629c03c1bd171d5794308fc5ff2bf21f5a",
+    "locator": "Bill History, 5/3/2025",
+    "quote": "Indefinitely postponed and withdrawn from consideration",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C009/2026-10-14/official.html",
+    "sha256": "b652de24ec5d180ee963b921ef7414629c03c1bd171d5794308fc5ff2bf21f5a",
+    "locator": "Citations - Chapter Law",
+    "quote": "Citations - Chapter Law (0) No Chapter Law citations.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Latest event: 'Died in Rules' in the Senate on 16 Jun 2025, after the bill was indefinitely postponed and withdrawn from consideration on 3 May 2025. The bill never passed the Senate, has no chapter law, and the 2025 session in which it was filed is over, so as of 14 Oct 2026 it has no effect. A bill that died stays 'Proposed' with status 'Lapsed' (AGENTS.md section 5.6; precedent US-FL-01). date_published is the filing date (as for US-FL-01); date_last_updated is the date the committee substitute, the last version of the text, was filed.",
+  "scope_reasoning": "In scope with no scope_note: an AI-specific bill that would have banned a use of AI by government (AI-based detection of concealed firearms in public places). Lapsed bills are kept for context (AGENTS.md section 10).",
+  "summary_reasoning": "The summary follows the Judiciary Committee analysis of CS/HB 491 (17 Apr 2025), which describes the committee substitute that passed the House; the defined terms 'governmental agency' and 'public place' are rendered as the analysis gives them."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

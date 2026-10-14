@@ -1,0 +1,19 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "C015",
+ "fields": {},
+ "summary_claims": [],
+ "newer_versions": [],
+ "extra_urls": [
+  "https://www.circuit5.org/wp-content/uploads/2026/06/aosc26-12.pdf"
+ ],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Court rule on accurate citation of legal authorities adopted in response to AI errors in filings; AI-neutral text but AI-driven. Would need a scope_note."
+ },
+ "overall": "needs-human",
+ "note": "The extractor stored nothing and set no field, so there is nothing to verify. A web search shows the opinion in SC2026-0673 amended Rule 2.515 on 28 May 2026, effective 15 Jun 2026, with a comment period to 11 Aug 2026; the companion order AOSC26-12 is on circuit5.org and could be stored by the archiver as a lead. A person still has to provide the official opinion PDF, as the extractor says."
+}

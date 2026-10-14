@@ -1,0 +1,444 @@
+{
+ "run_id": "2026-10-14-discover-codes-us-fl",
+ "generated": "2026-10-14",
+ "candidates": [
+  {
+   "cand_ref": "north-america-01",
+   "cell": "US-FL/legislature",
+   "lead": "L001",
+   "title_as_found": "CS/HB 919 (2024): Artificial Intelligence Use in Political Advertising (Laws of Florida ch. 2024-126)",
+   "language": "English",
+   "url": "https://www.flsenate.gov/Session/Bill/2024/919",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.flsenate.gov/Session/Bill/2024/919/BillText/er/PDF",
+    "https://laws.flrules.org/2024/126",
+    "https://ai-law-center.orrick.com/florida/"
+   ],
+   "found_via": "lead L001; Florida Senate bill page (last action Chapter No. 2024-126, effective 7/1/2024) and the Laws of Florida chapter text (creates s. 106.145, F.S.; approved by the Governor April 26, 2024); the enrolled text on flsenate.gov and the chapter law on laws.flrules.org (Department of State, not yet in official-sites.json) are worth adding as extra_urls",
+   "scope_guess": "in",
+   "why": "Enacted AI-specific election law requiring a disclaimer on political advertisements that use generative AI to depict real people doing things that did not happen, with criminal and civil penalties.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5"
+   },
+   "status": "active",
+   "cand_id": "C001"
+  },
+  {
+   "cand_ref": "north-america-02",
+   "cell": "US-FL/legislature",
+   "lead": "L002",
+   "title_as_found": "CS/CS/SB 1680 (2024): Advanced Technology (Laws of Florida ch. 2024-118)",
+   "language": "English",
+   "url": "https://www.flsenate.gov/Session/Bill/2024/1680",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.flsenate.gov/Session/Bill/2024/1680/BillText/er/PDF",
+    "https://laws.flrules.org/2024/118",
+    "https://ai-law-center.orrick.com/florida/"
+   ],
+   "found_via": "lead L002; Florida Senate bill page (Chapter No. 2024-118, effective 7/1/2024) and the chapter law text (creates s. 282.802, F.S., the Government Technology Modernization Council, and s. 827.072, F.S., generated child pornography; approved April 26, 2024). Companions SB 972, SB 1682 and HB 1459 died. Ch. 2026-66 later amended a cross-reference in s. 282.802, and Ch. 2026-20 (candidate north-america-09) amended s. 827.072",
+   "scope_guess": "in",
+   "why": "Enacted law creating an advisory council that must assess AI safety and security standards, a state code of AI ethics and AI misuse, and criminalising the creation and possession of computer-generated child sexual abuse material.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5"
+   },
+   "status": "active",
+   "cand_id": "C002"
+  },
+  {
+   "cand_ref": "north-america-03",
+   "cell": "US-FL/legislature",
+   "lead": "L003",
+   "title_as_found": "CS/CS/SB 262 (2023): Technology Transparency, creating the Florida Digital Bill of Rights (Laws of Florida ch. 2023-201)",
+   "language": "English",
+   "url": "https://www.flsenate.gov/Session/Bill/2023/262",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://laws.flrules.org/2023/201",
+    "https://ai-law-center.orrick.com/florida/"
+   ],
+   "found_via": "lead L003; Florida Senate bill page (Chapter No. 2023-201, effective 7/1/2024 except as otherwise provided) and the chapter law text, searched for AI terms: it never uses 'artificial intelligence'; it defines profiling as solely automated processing, gives an opt-out of profiling for legally significant decisions, requires data protection assessments for profiling, restricts profiling of children by online platforms, and requires search engines to disclose how their ranking algorithms prioritise political ideology",
+   "scope_guess": "out",
+   "why": "A general consumer privacy and technology-transparency law; its automated-decision provisions are the profiling opt-out and assessments found in general privacy laws, which AGENTS.md section 10 and pipeline/scope-decisions.md exclude.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5"
+   },
+   "status": "out-of-scope",
+   "cand_id": null
+  },
+  {
+   "cand_ref": "north-america-04",
+   "cell": "US-FL/legislature",
+   "title_as_found": "SB 2-D (2026 Special Session D): Artificial Intelligence Bill of Rights",
+   "language": "English",
+   "url": "https://www.flsenate.gov/Session/Bill/2026D/2D",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://floridianpress.com/2026/04/florida-senate-again-passes-ai-bill-of-rights-house-approval-dead/",
+    "https://floridaphoenix.com/2026/04/28/florida-speaker-kills-desantis-ai-regulation-vaccine-repeal-bills-on-first-day-of-special-session/"
+   ],
+   "found_via": "flsenate.gov bill list for session 2026D, then the bill page: filed 4/24/2026 by Brodeur, passed the Senate 4/28/2026 (YEAS 37 NAYS 1), referred in the House to the Information Technology Budget & Policy Subcommittee and died there 4/29/2026; companion public-records bill SB 4-D died the same day",
+   "scope_guess": "in",
+   "why": "Refiled version of the AI Bill of Rights (SB 482, record US-FL-01) in the April 2026 special session, covering government contracts for AI technology, parental consent for minors on companion chatbot platforms and periodic bot disclosure; passed the Senate and lapsed in the House, so the extractor should decide between a new lapsed-bill record related to US-FL-01 and an update of US-FL-01.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5"
+   },
+   "status": "active",
+   "cand_id": "C003"
+  },
+  {
+   "cand_ref": "north-america-05",
+   "cell": "US-FL/legislature",
+   "title_as_found": "CS/SB 482 (2026): Artificial Intelligence Bill of Rights, refiled as SB 2-D in Special Session D",
+   "language": "English",
+   "url": "https://www.flsenate.gov/Session/Bill/2026/482",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.flsenate.gov/Session/Bill/2026D/2D"
+   ],
+   "found_via": "flsenate.gov bill lists for 2026 and 2026D; US-FL-01 ends with the bill's death in House messages on 13 Mar 2026",
+   "scope_guess": "in",
+   "why": "New fact for US-FL-01: the bill was refiled as SB 2-D in the special session called for 28 Apr to 1 May 2026, passed the Senate on 28 Apr 2026 and died in a House subcommittee on 29 Apr 2026; the record's notes should mention the refiling.",
+   "possible_duplicate_of": "US-FL-01",
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5"
+   },
+   "status": "refresh-request",
+   "record_id": "US-FL-01",
+   "cand_id": null
+  },
+  {
+   "cand_ref": "north-america-06",
+   "cell": "US-FL/legislature",
+   "title_as_found": "CS/CS/HB 1161 (2025): Removal of Altered Sexual Depictions Posted without Consent ('Brooke's Law', Laws of Florida ch. 2025-133)",
+   "language": "English",
+   "url": "https://www.flsenate.gov/Session/Bill/2025/1161",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://laws.flrules.org/2025/133"
+   ],
+   "found_via": "flsenate.gov full-text bill search for \"altered sexual depiction\" (2025), then the bill page (Chapter No. 2025-133) and the chapter law (amends s. 836.13, F.S.; takes effect upon becoming law; approved by the Governor June 10, 2025); Senate companion SB 1400 laid on table",
+   "scope_guess": "in",
+   "why": "Deepfake-specific law requiring online platforms to run a notice-and-removal process for altered sexual depictions of identifiable people posted without consent, with remedies for unreasonable failure to comply.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5"
+   },
+   "status": "active",
+   "cand_id": "C004"
+  },
+  {
+   "cand_ref": "north-america-07",
+   "cell": "US-FL/legislature",
+   "title_as_found": "CS/CS/HB 757 (2025): Sexual Images (Laws of Florida ch. 2025-99)",
+   "language": "English",
+   "url": "https://www.flsenate.gov/Session/Bill/2025/757",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://laws.flrules.org/2025/99"
+   ],
+   "found_via": "flsenate.gov full-text bill search for \"altered sexual depiction\" (2025), then the bill page (Chapter No. 2025-99, effective 10/1/2025) and the chapter law (approved May 27, 2025): it defines 'generate' by computer-generated means and makes it a felony to generate, solicit or possess with intent to promote an altered sexual depiction of an identifiable person without consent; Senate companion SB 1180 laid on table",
+   "scope_guess": "borderline",
+   "why": "A general sexual-images law whose AI-relevant part criminalises generating sexual deepfakes ('nudification') of identifiable people; operative for deepfakes but not AI-specific.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5"
+   },
+   "status": "active",
+   "cand_id": "C005"
+  },
+  {
+   "cand_ref": "north-america-08",
+   "cell": "US-FL/legislature",
+   "title_as_found": "CS/CS/SB 1798 (2022): Sexually Related Offenses (Laws of Florida ch. 2022-212)",
+   "language": "English",
+   "url": "https://www.flsenate.gov/Session/Bill/2022/1798",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://laws.flrules.org/2022/212"
+   ],
+   "found_via": "flsenate.gov full-text bill search for \"altered sexual depiction\" (2022), then the bill page (Chapter No. 2022-212, effective 10/1/2022) and the chapter law (approved June 24, 2022): creates s. 836.13, F.S., defining an altered sexual depiction as a realistic depiction of an identifiable person with another person's or computer-generated nude body parts and prohibiting its malicious promotion without consent",
+   "scope_guess": "borderline",
+   "why": "Florida's first sexual-deepfake offence, enacted inside a broader sexual offences law; operative instrument for deepfakes though not AI-specific.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5"
+   },
+   "status": "active",
+   "cand_id": "C006"
+  },
+  {
+   "cand_ref": "north-america-09",
+   "cell": "US-FL/legislature",
+   "title_as_found": "CS/CS/HB 1159 (2026): Sexual Offenses (Laws of Florida ch. 2026-20)",
+   "language": "English",
+   "url": "https://www.flsenate.gov/Session/Bill/2026/1159",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://laws.flrules.org/2026/20"
+   ],
+   "found_via": "flsenate.gov full-text bill search for \"generated child pornography\" (2026), then the bill page (Chapter No. 2026-20, effective 7/1/2026) and the chapter law (approved March 31, 2026): section 9 amends s. 827.072, F.S., renaming generated child pornography as generated child sexual abuse material, making its transmission a second-degree felony and raising the penalty for creating it; Senate companion SB 1750 laid on table",
+   "scope_guess": "borderline",
+   "why": "A general sexual offences law that tightens Florida's offence for computer-generated child sexual abuse material created by SB 1680 (2024); relevant to AI-generated content but mainly about other offences.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5"
+   },
+   "status": "active",
+   "cand_id": "C007"
+  },
+  {
+   "cand_ref": "north-america-10",
+   "cell": "US-FL/legislature",
+   "title_as_found": "CS/CS/HB 527 (2026): Mandatory Human Reviews of Insurance Claim Denials",
+   "language": "English",
+   "url": "https://www.flsenate.gov/Session/Bill/2026/527",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.flsenate.gov/Session/Bill/2026/202",
+    "https://www.flsenate.gov/Session/Bill/2025/794",
+    "https://www.repairerdrivennews.com/2026/04/16/florida-ai-insurance-claims-handling-bills-die-in-committee/"
+   ],
+   "found_via": "flsenate.gov full-text bill search for \"artificial intelligence\" (2026), then the bill page: passed the House 108-0 on 3/5/2026 and died in Senate Rules on 3/13/2026; Senate companion SB 202 (2026) and the 2025 forerunner SB 794 died in committee",
+   "scope_guess": "in",
+   "why": "AI-specific bill that would have let insurers, HMOs and workers' compensation carriers use AI or machine learning in claims processing but barred it as the sole basis for denying or reducing a claim, requiring a decision by a qualified human; passed one chamber and lapsed.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5"
+   },
+   "status": "active",
+   "cand_id": "C008"
+  },
+  {
+   "cand_ref": "north-america-11",
+   "cell": "US-FL/legislature",
+   "title_as_found": "CS/HB 491 (2025): Use of Artificial Intelligence by Governmental Agencies to Detect Concealed Firearms",
+   "language": "English",
+   "url": "https://www.flsenate.gov/Session/Bill/2025/491",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.flsenate.gov/Session/Bill/2025/562"
+   ],
+   "found_via": "flsenate.gov full-text bill search for \"artificial intelligence\" (2025), then the bill page: passed the House 114-1 on 4/24/2025, referred to Senate Rules, died 6/16/2025; Senate companion SB 562 died in Criminal Justice",
+   "scope_guess": "in",
+   "why": "AI-specific bill that would have prohibited governmental agencies and their contractors from using AI to detect concealed firearms in public places, with exceptions and a remedy; passed one chamber and lapsed.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5"
+   },
+   "status": "active",
+   "cand_id": "C009"
+  },
+  {
+   "cand_ref": "north-america-12",
+   "cell": "US-FL/legislature",
+   "title_as_found": "CS/CS/CS/HB 369 (2025): Provenance of Digital Content",
+   "language": "English",
+   "url": "https://www.flsenate.gov/Session/Bill/2025/369",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.flsenate.gov/Session/Bill/2025/702"
+   ],
+   "found_via": "flsenate.gov full-text bill search for \"artificial intelligence\" (2025), then the bill page: reported favourably by three House committees (last on 4/16/2025), placed on the calendar and died on the second reading calendar 6/16/2025; Senate companion SB 702 died in Ethics and Elections",
+   "scope_guess": "in",
+   "why": "AI-specific bill that would have required certain AI developers to make provenance data and provenance readers available and social media platforms to retain provenance data, enforced as unfair or deceptive practices; cleared all committees and lapsed.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5"
+   },
+   "status": "active",
+   "cand_id": "C010"
+  },
+  {
+   "cand_ref": "north-america-13",
+   "cell": "US-FL/legislature",
+   "title_as_found": "CS/HB 1361 (2024): Education (Laws of Florida ch. 2024-162), AI grants under s. 1002.321(3), F.S.",
+   "language": "English",
+   "url": "https://www.flsenate.gov/Session/Bill/2024/1361",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://laws.flrules.org/2024/162"
+   ],
+   "found_via": "flsenate.gov full-text bill search for \"artificial intelligence\" (2024), then the bill page (Chapter No. 2024-162, effective 7/1/2024) and the chapter law (approved May 9, 2024): section 1 lets school districts receive grants for an AI platform that must use large language models on a closed system and give district reporting and parental access to students' AI interactions",
+   "scope_guess": "borderline",
+   "why": "An education omnibus law with an AI-in-schools grant programme whose conditions (closed system, parental access to AI interactions) are its only safeguards; mainly about adoption.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5"
+   },
+   "status": "active",
+   "cand_id": "C011"
+  },
+  {
+   "cand_ref": "north-america-14",
+   "cell": "US-FL/ministries",
+   "title_as_found": "Rule 6A-1.0957, F.A.C., Internet Safety Policy, amended by the State Board of Education to cover artificial intelligence (effective 10/29/2026)",
+   "language": "English",
+   "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-1.0957",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.flrules.org/gateway/readFile.asp?sid=0&tid=31488060&type=1&file=6A-1.0957.doc",
+    "https://www.flrules.org/Gateway/View_notice.asp?id=31384852",
+    "https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml"
+   ],
+   "found_via": "news of the State Board of Education vote of 16 Sep 2026, then the Florida Administrative Code rule page on flrules.org (Department of State; not yet in official-sites.json): latest version effective 10/29/2026, history 'New 8-22-23, Amended 10-29-26', development notices of 6/8 and 7/21/2026 say the amendment requires district and charter boards to amend their internet safety policies to include the use of AI; the FDOE press release on fldoe.org answers 403 to plain requests",
+   "scope_guess": "in",
+   "why": "Binding state rule requiring district and charter boards to adopt AI safety policies by July 1, 2027: parental notice and opt-in for AI instructional tools, human review of AI decisions, adult supervision and a shut-off for agentic AI, no profiling or commercial use of student data, and a ban on AI designed to simulate friendship or meet students' emotional needs.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5"
+   },
+   "status": "active",
+   "cand_id": "C012"
+  },
+  {
+   "cand_ref": "north-america-15",
+   "cell": "US-FL/ministries",
+   "title_as_found": "Rule 6A-14.0719, F.A.C., Artificial Intelligence (A.I.) Policies in Florida College System Institutions (new rule, effective 10/20/2026)",
+   "language": "English",
+   "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-14.0719",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.flrules.org/gateway/readFile.asp?sid=0&tid=31445186&type=1&file=6A-14.0719.doc",
+    "https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml"
+   ],
+   "found_via": "news of the State Board of Education vote of 16 Sep 2026, then the Florida Administrative Code rule page on flrules.org (final notice 31445186, effective 10/20/2026, 'History-New 10-20-26') and the rule text (.doc), which defines AI and AI instructional tools and requires each college board of trustees to adopt AI use policies",
+   "scope_guess": "in",
+   "why": "New binding state rule requiring all 28 Florida College System institutions to adopt AI policies covering legal compliance, parental notice for minors using AI instructional tools, academic integrity and approved tools, and excluding companion-style AI from instructional tools.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5"
+   },
+   "status": "active",
+   "cand_id": "C013"
+  },
+  {
+   "cand_ref": "north-america-16",
+   "cell": "US-FL/ministries",
+   "title_as_found": "Public Notice of Intent to Amend Board of Governors' Regulation 1.001, University Board of Trustees Powers and Duties (AI disclosure in course syllabi), Board of Governors agenda of 3 Sep 2026",
+   "language": "English",
+   "url": "https://www.flbog.edu/wp-content/uploads/2026/08/Agenda-Item-for-Board-Action-90.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.flbog.edu/wp-content/uploads/2026/08/Agenda-Item-for-Committee-Information-41.pdf",
+    "https://www.wlrn.org/education/2026-08-28/desantis-administration-moving-to-regulate-ai-from-pre-k-to-ph-d"
+   ],
+   "found_via": "web search for Board of Governors AI regulation, then the agenda item PDFs on flbog.edu (host not yet in official-sites.json): the notice of intent proposes requiring university trustee boards to adopt policies that every course syllabus disclose faculty use and permitted student use of AI, with a 14-day comment period and final approval at the next Board meeting; the amended regulation text and its final adoption were not found, and flbog.edu regulation pages answer 403 to plain requests",
+   "scope_guess": "borderline",
+   "why": "Proposed State University System regulation whose AI part is a transparency duty on AI use in courses, inside an amendment mainly about trustee powers and institutional neutrality; status pending.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5"
+   },
+   "status": "active",
+   "cand_id": "C014"
+  },
+  {
+   "cand_ref": "north-america-17",
+   "cell": "US-FL/executive",
+   "title_as_found": "In re: Amendments to Florida Rule of General Practice and Judicial Administration 2.515, No. SC2026-0673 (Supreme Court of Florida, May 28, 2026), with Administrative Order AOSC26-12, In re: Representations by Signers of Filings",
+   "language": "English",
+   "url": "https://flcourts-media.flcourts.gov/content/download/2489374/opinion/Opinion_SC2026-0673.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://flcourts-media.flcourts.gov/content/download/2489379/29182858",
+    "https://news.bloomberglaw.com/litigation/florida-justices-adopt-statewide-policy-for-lawyers-ai-usage"
+   ],
+   "found_via": "web search for Florida Supreme Court AI rules, then the opinion PDF and AOSC26-12 PDF on flcourts.gov: the Court amended rule 2.515(d)(2) so signers represent that cited authorities exist and are accurately cited, citing hallucinated citations from generative AI, and authorised sanctions; AOSC26-12 replaces circuit-court AI disclosure and certification orders with this statewide rule. Logged under the executive cell because the frame has no judiciary source type (precedent: PY-03 logged under PY/executive)",
+   "scope_guess": "borderline",
+   "why": "A statewide court rule adopted in response to generative AI hallucinations in filings, together with an administrative order that bars local AI disclosure requirements; the rule text itself is AI-neutral.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5"
+   },
+   "status": "active",
+   "cand_id": "C015"
+  },
+  {
+   "cand_ref": "north-america-18",
+   "cell": "US-FL/executive",
+   "title_as_found": "In re: Amendments to Rules Regulating The Florida Bar – Chapter 4, No. SC2024-0032 (Supreme Court of Florida, August 29, 2024)",
+   "language": "English",
+   "url": "https://supremecourt.flcourts.gov/content/download/2439771/opinion/Opinion_SC2024-0032.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://flcourts-media.flcourts.gov/content/download/2439771/opinion/Opinion_SC2024-0032.pdf",
+    "https://ediscoverytoday.com/2024/09/03/florida-supreme-court-adopted-amendments-to-rules-for-generative-ai-artificial-intelligence-trends/"
+   ],
+   "found_via": "web search for Florida Supreme Court AI rules, then the opinion PDF on flcourts.gov (the text mentions artificial intelligence five times); secondary sources say the Court amended the comments to rules 4-1.1, 4-1.6, 4-5.1 and 4-5.3 with warnings on generative AI, effective October 28, 2024. Logged under the executive cell for lack of a judiciary source type",
+   "scope_guess": "borderline",
+   "why": "Court-adopted amendments to Florida's professional conduct rules for lawyers that add generative-AI warnings on competence, confidentiality and supervision, within a broader set of unrelated rule changes.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5"
+   },
+   "status": "active",
+   "cand_id": "C016"
+  },
+  {
+   "cand_ref": "north-america-19",
+   "cell": "US-FL/supervisors",
+   "title_as_found": "The Florida Bar Ethics Opinion 24-1 (generative artificial intelligence in the practice of law), approved by the Board of Governors January 19, 2024",
+   "language": "English",
+   "url": "https://www.floridabar.org/etopinions/opinion-24-1/",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.lawnext.com/2024/01/florida-bar-ethics-opinion-oks-lawyers-use-of-generative-ai-but-with-cautions.html"
+   ],
+   "found_via": "web search; the Florida Bar's own opinion page answers 403 to plain requests, so the archiver's --browser retry is needed (floridabar.org is not in official-sites.json)",
+   "scope_guess": "borderline",
+   "why": "Advisory ethics opinion of the Florida Bar, the regulator of lawyers that acts as an official arm of the Supreme Court of Florida, on confidentiality, verification, supervision and billing when lawyers use generative AI; borderline because the Bar is also a professional association, which section 10 excludes.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5"
+   },
+   "status": "active",
+   "cand_id": "C017"
+  }
+ ],
+ "cells_without_log": [],
+ "unknown_cells": []
+}

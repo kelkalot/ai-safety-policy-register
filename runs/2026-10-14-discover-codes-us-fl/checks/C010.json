@@ -1,0 +1,55 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "C010",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "developers must offer a tool to apply provenance data and a free provenance reader; social media platforms must retain provenance data",
+   "verdict": "supported",
+   "locator": "BillText c3 page 4-5, s. 501.9741 (2)-(4)"
+  },
+  {
+   "claim": "enforced exclusively by the Attorney General after a 30-day cure period",
+   "verdict": "supported",
+   "locator": "BillText c3 page 4-5, subsection (5)"
+  },
+  {
+   "claim": "died on Second Reading Calendar 16 Jun 2025; effective date 1 Jul 2026",
+   "verdict": "supported",
+   "locator": "official.html Last Action; BillText c3 Section 2"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "AI content provenance bill."
+ },
+ "overall": "accept",
+ "note": "Every quote verified; summary matches the third committee substitute; status Lapsed fits the 16 Jun 2025 final action. No newer version found. Level A."
+}

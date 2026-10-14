@@ -1,0 +1,47 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "C017",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "lawyers must research a program's policies on data retention, data sharing and self-learning; informed consent before disclosing confidential information to a third-party program",
+   "verdict": "supported",
+   "locator": "extra-31d3af59e8 page 1 and page 2-3"
+  },
+  {
+   "claim": "chatbots must disclose they are an AI program and not a lawyer or employee; no inflated billed time; may not delegate practice of law",
+   "verdict": "supported",
+   "locator": "page 1; pages 5-6"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Advisory opinion of The Florida Bar, an integrated bar under the Supreme Court of Florida but also a professional body; included under the inclusive default. The scope_note refers to process ('until a scope decision settles'), which a human may want to reword."
+ },
+ "overall": "accept",
+ "note": "Quotes verified in the Buffalo CLE copy; the Bar's own page was not stored, so level C. No revision or withdrawal found in one search. Scope of state bar opinions is not settled by the precedents; the extractor's open question should go to a human, but the record stays in under the inclusive rule."
+}

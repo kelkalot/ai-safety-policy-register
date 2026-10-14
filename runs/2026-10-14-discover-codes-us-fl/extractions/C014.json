@@ -1,0 +1,139 @@
+{
+ "cand_id": "C014",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Proposed amendment to Board of Governors Regulation 1.001, University Board of Trustees Powers and Duties (disclosure of AI use in course syllabi)",
+  "original_title": null,
+  "short_title": "Florida BOG Regulation 1.001 amendment: AI syllabus disclosure",
+  "jurisdiction": "Florida (US)",
+  "country": "United States",
+  "jurisdiction_level": "Sub-national",
+  "region": "North America",
+  "issuing_body": "Board of Governors of the State University System of Florida",
+  "instrument_type": "Regulation / implementing rule",
+  "legal_force": "Proposed",
+  "status": "Draft / proposed",
+  "date_published": "2026-09-03",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": "Board of Governors Regulation 1.001",
+  "official_url": "https://www.flbog.edu/wp-content/uploads/2026/08/Agenda-Item-for-Board-Action-90.pdf",
+  "secondary_url": null,
+  "language": "English",
+  "summary": "Proposed amendment to the Board of Governors regulation that sets the composition, organisation and powers of the boards of trustees of Florida's public universities. It would require each university board of trustees to establish policies requiring every course syllabus to disclose the faculty's use of artificial intelligence and the use of AI permitted to students. The same amendment would require boards of trustees to adopt policies maintaining institutional neutrality on contentious political and social issues.",
+  "safety_topics": [
+   "transparency & labelling",
+   "public-sector use"
+  ],
+  "related": [],
+  "notes": "Board staff proposed the amendment for the Board meeting of 3 Sep 2026, where the Board was asked to approve a public notice of intent to amend the regulation. The day before, the Board's Artificial Intelligence and Cybersecurity Task Force was briefed on the proposed AI transparency language. If the Academic Affairs Committee and the Board approved the notice, the amended regulation would be open for public comment for 14 days and, if no concerns were raised, would return to the Board for final approval at its next meeting. The Board acts under Article IX, Section 7 of the Florida Constitution.",
+  "scope_note": "Mainly an amendment on university trustees' powers and institutional neutrality whose AI part is a single transparency duty (disclosing AI use in course syllabi); included as the State University System's AI rule-making alongside the State Board of Education's AI rules.",
+  "verification": {
+   "note": "Stored the Board of Governors agenda item for the meeting of 3 Sep 2026, which describes the proposed amendment and the notice-and-comment procedure, and the agenda item of the Board's Artificial Intelligence and Cybersecurity Task Force of 2 Sep 2026 on the proposed AI transparency language (both flbog.edu). The amended regulation text, the outcome of the 3 Sep 2026 vote and any final approval are not in the stored sources; flbog.edu regulation pages refuse automated requests. flbog.edu is not yet listed in pipeline/official-sites.json, so the evidence counts as secondary until a human reviews the host."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C014/2026-10-14/official.pdf",
+    "sha256": "587a00ddffe6ee8ba3623d5c87054c926e3c4c72726bc7bd4c47fc2b8acff63f",
+    "locator": "page 1, Subject",
+    "quote": "SUBJECT: Public Notice of Intent to Amend Board of Governors’ Regulation 1.001, University Board of Trustees Power and Duties",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C014/2026-10-14/official.pdf",
+    "sha256": "587a00ddffe6ee8ba3623d5c87054c926e3c4c72726bc7bd4c47fc2b8acff63f",
+    "locator": "page 1, Background Information",
+    "quote": "The proposed amendment also requires university boards of trustees to establish policies requiring all course syllabi to include a disclosure of faculty use and permitted student use of artificial intelligence.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C014/extra-23a7266893/2026-10-14/official.pdf",
+    "sha256": "67637521e733ccbb2bf1748248dd0a4ae6ff7f8af0c38e1dd368e0a58eaaaedb",
+    "locator": "page 1, Subject",
+    "quote": "SUBJECT: Proposed AI Transparency Language",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C014/2026-10-14/official.pdf",
+    "sha256": "587a00ddffe6ee8ba3623d5c87054c926e3c4c72726bc7bd4c47fc2b8acff63f",
+    "locator": "page 1, heading",
+    "quote": "STATE UNIVERSITY SYSTEM OF FLORIDA BOARD OF GOVERNORS September 3, 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C014/extra-23a7266893/2026-10-14/official.pdf",
+    "sha256": "67637521e733ccbb2bf1748248dd0a4ae6ff7f8af0c38e1dd368e0a58eaaaedb",
+    "locator": "page 1, heading",
+    "quote": "STATE UNIVERSITY SYSTEM OF FLORIDA BOARD OF GOVERNORS Artificial Intelligence and Cybersecurity Task Force September 2, 2026",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C014/2026-10-14/official.pdf",
+    "sha256": "587a00ddffe6ee8ba3623d5c87054c926e3c4c72726bc7bd4c47fc2b8acff63f",
+    "locator": "page 1, Background Information",
+    "quote": "Board of Governors' Regulation 1.001, University Board of Trustees Powers and Duties, establishes the composition, organization, and authority of a university board of trustees",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C014/2026-10-14/official.pdf",
+    "sha256": "587a00ddffe6ee8ba3623d5c87054c926e3c4c72726bc7bd4c47fc2b8acff63f",
+    "locator": "page 1, heading",
+    "quote": "BOARD OF GOVERNORS September 3, 2026",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C014/2026-10-14/official.pdf",
+    "sha256": "587a00ddffe6ee8ba3623d5c87054c926e3c4c72726bc7bd4c47fc2b8acff63f",
+    "locator": "page 1, Proposed Board Action",
+    "quote": "Consider approval of Public Notice of Intent to Amend Board of Governors’ Regulation 1.001, University Board of Trustees Power and Duties.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C014/2026-10-14/official.pdf",
+    "sha256": "587a00ddffe6ee8ba3623d5c87054c926e3c4c72726bc7bd4c47fc2b8acff63f",
+    "locator": "page 1, Background Information",
+    "quote": "If no concerns are raised during this time, the regulation will come before the Board of Governors for final approval at the next meeting.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C014/extra-23a7266893/2026-10-14/official.pdf",
+    "sha256": "67637521e733ccbb2bf1748248dd0a4ae6ff7f8af0c38e1dd368e0a58eaaaedb",
+    "locator": "page 1, Background Information",
+    "quote": "Ms. Emily Sikes, Vice Chancellor for Academic and Student Affairs, will provide an overview of the proposed language.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C014/2026-10-14/official.pdf",
+    "sha256": "587a00ddffe6ee8ba3623d5c87054c926e3c4c72726bc7bd4c47fc2b8acff63f",
+    "locator": "page 1, Background Information",
+    "quote": "If approved by the Academic Affairs Committee and the Board of Governors, the amended regulation will be available for public comment for 14 days.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Latest event in the stored sources: the agenda item for the Board of Governors meeting of 3 Sep 2026 asks the Board to approve a public notice of intent to amend Regulation 1.001; after a 14-day comment period the regulation would return for final approval at the Board's next meeting. No stored source shows the outcome of the 3 Sep vote or a final approval, so the amendment is recorded as 'Draft / proposed' with legal_force 'Proposed' (as of 14 Oct 2026). date_published is the date of the Board meeting at which the notice of intent was proposed, as the agenda item gives it.",
+  "scope_reasoning": "Borderline, included with a scope_note under the include-and-flag rules: an official regulation of a constitutional state body, not AI-specific, whose AI part is a transparency duty on AI use in university courses. It is not one of the clear exclusions in AGENTS.md section 10.",
+  "summary_reasoning": "The summary rests on the agenda item's description of the amendment; the amended text itself is not stored. The agenda item spells the regulation's title 'Power and Duties' in the subject line and 'Powers and Duties' in the background; the record uses 'Powers and Duties'."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The amended text of Regulation 1.001 and the outcome of the Board of Governors' vote of 3 Sep 2026 on the notice of intent are not stored; flbog.edu regulation pages refuse automated requests. Did the Board approve the notice and, after the 14-day comment period, adopt the amendment at a later meeting? If adopted, status, date_published and date_in_force change."
+ ]
+}

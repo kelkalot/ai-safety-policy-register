@@ -1,0 +1,180 @@
+{
+ "cand_id": "C012",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Rule 6A-1.0957, F.A.C., Internet Safety Policy (2026 amendment on artificial intelligence instructional tools)",
+  "original_title": null,
+  "short_title": "Florida K-12 AI safety policy rule (6A-1.0957, 2026)",
+  "jurisdiction": "Florida (US)",
+  "country": "United States",
+  "jurisdiction_level": "Sub-national",
+  "region": "North America",
+  "issuing_body": "Florida State Board of Education (Department of Education)",
+  "instrument_type": "Regulation / implementing rule",
+  "legal_force": "Binding",
+  "status": "Adopted, not yet in force",
+  "date_published": "2026-10-09",
+  "date_in_force": "2026-10-29",
+  "date_last_updated": null,
+  "official_identifier": "Rule 6A-1.0957, Florida Administrative Code",
+  "official_url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-1.0957",
+  "secondary_url": null,
+  "language": "English",
+  "summary": "Amendment to the State Board of Education rule on school internet safety policies. By 1 Jul 2027 each district school board and charter school governing board must amend its policy on AI instructional tools: plain-language notice to parents and opt-in for direct student use, with a non-AI alternative; extra review for VPK to grade 5; no undisclosed behaviour monitoring, social scoring or psychological profiling; human review of AI decisions; adult supervision, logs and a shut-off for agentic AI; training on AI risks; incident reports to the Department; no use of student data to train commercial AI models. AI designed to simulate friendship or meet students' emotional needs is barred.",
+  "safety_topics": [
+   "child safety",
+   "human oversight",
+   "prohibited practices",
+   "incident reporting",
+   "transparency & labelling",
+   "public-sector use"
+  ],
+  "related": [
+   "C013"
+  ],
+  "notes": "Rule 6A-1.0957, first adopted in 2023 (effective 22 Aug 2023), requires local policies for student access to the internet. Notices of development of the AI amendment were published on 8 Jun and 21 Jul 2026 and the proposed amendment on 26 Aug 2026, with a hearing before the State Board of Education on 16 Sep 2026, at which the Board adopted the AI rules. A notice of change published on 18 Sep 2026 added definitions of autonomous or agentic AI, the supervision, logging and shut-off requirements for agentic tools, the ban on AI as a decision maker without human review, and reporting of unexpected autonomous behaviour or security incidents. The policies must also require tools that are accurate, transparent and viewpoint neutral, a public list of approved tools, records of student interactions kept at least 30 days for parental access, and reports to the Department on the tools in use. The rule was filed with the Department of State on 9 Oct 2026 and takes effect on 29 Oct 2026.",
+  "verification": {
+   "note": "Stored from flrules.org (the Florida Administrative Code and Register site of the Florida Department of State): the rule page for 6A-1.0957, with the effective date of the latest version and its notice history; the final notice, with the rule file date (9 Oct 2026) and effective date (29 Oct 2026); and the Florida Administrative Register issues of 26 Aug 2026 (notice of proposed rule with the full proposed text and the hearing date) and 18 Sep 2026 (notice of change made by the Board). Also stored the Department of Education press release of 16 Sep 2026 (fldoe.org) saying that the State Board adopted the AI rules that day. The summary follows the proposed text as changed by the notice of change. Neither flrules.org nor fldoe.org is yet listed in pipeline/official-sites.json."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/2026-10-14/official.html",
+    "sha256": "2ba17953a0b18d3107bda5d1c5b4657a39aa4f554b209a314e6066721b122c45",
+    "locator": "Rule: 6A-1.0957",
+    "quote": "Rule: 6A-1.0957 Prev Up Next Rule Title: Internet Safety Policy",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/2026-10-14/official.html",
+    "sha256": "2ba17953a0b18d3107bda5d1c5b4657a39aa4f554b209a314e6066721b122c45",
+    "locator": "History of this Rule, Development notice 31139151",
+    "quote": "This amendment will require each district school board and charter school governing board to adopt and implement an amendment to their internet safety policy to include the use of Artificial Intelligence.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/extra-e480be885f/2026-10-14/official.pdf",
+    "sha256": "799181403f6b27c92b3fdbe2cc1f59346e467eb239e442b305aac07523d71a77",
+    "locator": "page 4, text of the proposed rule",
+    "quote": "THE TEXT OF THE PROPOSED RULE IS: 6A-1.0957 Internet Safety Policy.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/2026-10-14/official.html",
+    "sha256": "2ba17953a0b18d3107bda5d1c5b4657a39aa4f554b209a314e6066721b122c45",
+    "locator": "Department and Division",
+    "quote": "Department: DEPARTMENT OF EDUCATION Add to MyFLRules Favorites Division: State Board of Education",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/extra-92e0647d30/2026-10-14/official.pdf",
+    "sha256": "61d1f459ae71cb262c1164c274a1737a83b3a30f90350aca9efcb7c1cdc692f4",
+    "locator": "page 5, Section III, notice of change",
+    "quote": "The board amended the rule as follows:",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/2026-10-14/official.html",
+    "sha256": "2ba17953a0b18d3107bda5d1c5b4657a39aa4f554b209a314e6066721b122c45",
+    "locator": "page title",
+    "quote": "6A-1.0957 : Internet Safety Policy - Florida Administrative Rules, Law, Code, Register - FAC, FAR, eRulemaking",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/extra-827310769e/2026-10-14/official.html",
+    "sha256": "72fadff8b32ff5f9e266342e03d4cec722c671f8c1974c3c95e709d4ed60c963",
+    "locator": "Notice 31488060, Overview",
+    "quote": "RULE: 6A-1.0957 Internet Safety Policy",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/2026-10-14/official.html",
+    "sha256": "2ba17953a0b18d3107bda5d1c5b4657a39aa4f554b209a314e6066721b122c45",
+    "locator": "Latest version of the final adopted rule",
+    "quote": "Latest version of the final adopted rule presented in Florida Administrative Code (FAC): Effective Date: 10/29/2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/extra-827310769e/2026-10-14/official.html",
+    "sha256": "72fadff8b32ff5f9e266342e03d4cec722c671f8c1974c3c95e709d4ed60c963",
+    "locator": "Notice 31488060, Overview",
+    "quote": "RULE EFFECTIVE DATE: 10/29/2026",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/2026-10-14/official.html",
+    "sha256": "2ba17953a0b18d3107bda5d1c5b4657a39aa4f554b209a314e6066721b122c45",
+    "locator": "History Notes",
+    "quote": "History-New 8-22-23, Amended 10-29-26.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/2026-10-14/official.html",
+    "sha256": "2ba17953a0b18d3107bda5d1c5b4657a39aa4f554b209a314e6066721b122c45",
+    "locator": "History of this Rule, Final notice 31488060",
+    "quote": "Final 6A-1.0957 Internet Safety Policy 31488060 Effective: 10/29/2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/extra-827310769e/2026-10-14/official.html",
+    "sha256": "72fadff8b32ff5f9e266342e03d4cec722c671f8c1974c3c95e709d4ed60c963",
+    "locator": "Notice 31488060",
+    "quote": "Notice: 31488060 Final Adopted Version in F.A.C.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/extra-e412ee8e5d/2026-10-14/official.html",
+    "sha256": "450c3eb6648c8bb864b593c6847b7894d2aa40da8da354b096caea46e3bf2844",
+    "locator": "press release, first paragraph",
+    "quote": "Today, the Florida State Board of Education adopted new rules governing the use of artificial intelligence (AI) and educational technology in Florida’s school districts, charter school boards, and Florida College System institutions",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/2026-10-14/official.html",
+    "sha256": "2ba17953a0b18d3107bda5d1c5b4657a39aa4f554b209a314e6066721b122c45",
+    "locator": "History Notes",
+    "quote": "Rulemaking Authority 1001.02(1), (2)(n), 1002.22(3), 1003.02(1)(g), 1006.1494 FS. Law Implemented 1002.22, 1003.02(1)(g), 1006.1494 FS.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/extra-92e0647d30/2026-10-14/official.pdf",
+    "sha256": "61d1f459ae71cb262c1164c274a1737a83b3a30f90350aca9efcb7c1cdc692f4",
+    "locator": "page 5, notice of change, (3)(e)",
+    "quote": "Each district school board and charter school governing board must, by July 1, 2027, adopt and implement an amendment to their internet safety policy that specifically addresses safety policy regarding the use of artificial intelligence",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/extra-827310769e/2026-10-14/official.html",
+    "sha256": "72fadff8b32ff5f9e266342e03d4cec722c671f8c1974c3c95e709d4ed60c963",
+    "locator": "Notice 31488060, Overview",
+    "quote": "RULE FILE DATE: 10/9/2026",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The final notice gives 'RULE FILE DATE: 10/9/2026' and 'RULE EFFECTIVE DATE: 10/29/2026', and the rule page the history note 'Amended 10-29-26'. 29 Oct 2026 is after today (14 Oct 2026), so the amendment is adopted but not yet in force; the 2023 text of the rule applies until then, and districts and charter boards have until 1 Jul 2027 to amend their policies. Status: 'Adopted, not yet in force', date_in_force 2026-10-29. date_published is the rule file date with the Department of State, the date the adopted rule was filed for the Florida Administrative Code; the Board's vote of 16 Sep 2026 is in the notes.",
+  "scope_reasoning": "In scope with no scope_note: a binding state rule whose amendment is AI-specific and sets safety requirements for AI instructional tools used with students (parental notice and opt-in, human review, oversight of agentic AI, incident reporting, bans on profiling and companion-style AI).",
+  "summary_reasoning": "The summary follows the proposed text in FAR Vol. 52 No. 166 as changed by the notice of change in FAR Vol. 52 No. 182 (the rule page lists no further notice before the final version). Defined terms are rendered as the rule gives them: 'artificial intelligence instructional tool', 'autonomous artificial intelligence' or 'agentic artificial intelligence'. Data duty rendered narrowly: tools may not 'sell, monetize, profile, or commercially exploit student data to train commercial AI models'.",
+  "related_reasoning": "C013 (rule 6A-14.0719) is the companion State Board of Education rule on AI policies in Florida College System institutions, heard at the same Board meeting."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

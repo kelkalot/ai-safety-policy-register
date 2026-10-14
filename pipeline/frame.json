@@ -10792,34 +10792,51 @@
    "records": 1,
    "cells": {
     "legislature": {
-     "last_searched": null,
-     "outcome": null,
-     "run_id": null,
-     "where_to_look": []
+     "last_searched": "2026-10-14",
+     "outcome": "found",
+     "run_id": "2026-10-14-discover-codes-us-fl",
+     "where_to_look": [
+      "https://www.flsenate.gov/Session/Bills/2026?chamber=both&searchQuery=%22artificial%20intelligence%22&searchOnlyCurrentVersion=False&isIncludeAmendments=False&isFirstReference=True&citationType=FL%20Statutes&pageNumber=1",
+      "https://www.flsenate.gov/Session/Bills/2026D"
+     ]
     },
     "gazette": {
-     "last_searched": null,
-     "outcome": null,
-     "run_id": null,
-     "where_to_look": []
+     "last_searched": "2026-10-14",
+     "outcome": "nothing",
+     "run_id": "2026-10-14-discover-codes-us-fl",
+     "where_to_look": [
+      "https://laws.flrules.org/",
+      "https://www.flrules.org/gateway/search.asp",
+      "https://www.leg.state.fl.us/statutes/index.cfm?AppMode=Display_Results&Mode=Search%20Statutes&Submenu=2&Tab=statutes&Search_String=%22artificial+intelligence%22"
+     ]
     },
     "executive": {
-     "last_searched": null,
-     "outcome": null,
-     "run_id": null,
-     "where_to_look": []
+     "last_searched": "2026-10-14",
+     "outcome": "found",
+     "run_id": "2026-10-14-discover-codes-us-fl",
+     "where_to_look": [
+      "https://www.flgov.com/eog/news/executive-orders"
+     ]
     },
     "ministries": {
-     "last_searched": null,
-     "outcome": null,
-     "run_id": null,
-     "where_to_look": []
+     "last_searched": "2026-10-14",
+     "outcome": "found",
+     "run_id": "2026-10-14-discover-codes-us-fl",
+     "where_to_look": [
+      "https://www.digital.fl.gov/technology_councils/government_technology_modernization_council",
+      "https://www.digital.fl.gov/technology_councils/previous_cybersecurity_advisory_council_and_government_technology_modernization_meetings",
+      "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=6A-1"
+     ]
     },
     "supervisors": {
-     "last_searched": null,
-     "outcome": null,
-     "run_id": null,
-     "where_to_look": []
+     "last_searched": "2026-10-14",
+     "outcome": "found",
+     "run_id": "2026-10-14-discover-codes-us-fl",
+     "where_to_look": [
+      "https://floir.gov/newsroom",
+      "https://www.myfloridalegal.com/newsrelease",
+      "https://www.floridabar.org/etopinions/"
+     ]
     }
    }
   },

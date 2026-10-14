@@ -1,0 +1,62 @@
+{
+ "cand_id": "C006",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "s. 836.13 offence for promoting altered sexual depictions, third-degree felony; disclaimer no defence",
+   "verdict": "supported",
+   "locator": "document-2.pdf (analysis) and enrolled text section 5"
+  },
+  {
+   "claim": "s. 836.14 theft or unauthorized promotion of a sexually explicit image created",
+   "verdict": "supported",
+   "locator": "official.pdf page 15, section 6"
+  },
+  {
+   "claim": "later amendments ch. 2025-99, 2025-133, 2026-14, 2026-18, 2026-20",
+   "verdict": "supported",
+   "locator": "2026 statute page s. 836.13 history note"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "C007",
+  "C005",
+  "C004"
+ ],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Agree with the extractor's scope_note: broad sexual-offences act, included as the origin of Florida's deepfake offence."
+ },
+ "overall": "accept",
+ "note": "One targeted search for a later amendment or repeal found none on an official site. date_last_updated 2026 is year-only and supported by the chapter-law numbers. Level A."
+}
