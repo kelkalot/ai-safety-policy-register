@@ -116,7 +116,7 @@ Written 2026-10-14 by tools/pipeline.py frame --report from pipeline/frame.json:
 - AF Afghanistan (South & Southeast Asia)
 - BD Bangladesh (South & Southeast Asia), 1 record(s) from earlier research
 - BT Bhutan (South & Southeast Asia)
-- BN Brunei Darussalam (South & Southeast Asia), 1 record(s) from earlier research
+- BN Brunei (South & Southeast Asia), 1 record(s) from earlier research
 - KH Cambodia (South & Southeast Asia), 1 record(s) from earlier research
 - IN India (South & Southeast Asia), 3 record(s) from earlier research
 - ID Indonesia (South & Southeast Asia), 2 record(s) from earlier research
@@ -131,7 +131,7 @@ Written 2026-10-14 by tools/pipeline.py frame --report from pipeline/frame.json:
 - LK Sri Lanka (South & Southeast Asia)
 - TH Thailand (South & Southeast Asia), 3 record(s) from earlier research
 - TL Timor-Leste (South & Southeast Asia)
-- VN Viet Nam (South & Southeast Asia), 7 record(s) from earlier research
+- VN Vietnam (South & Southeast Asia), 7 record(s) from earlier research
 - AM Armenia (Central Asia)
 - AZ Azerbaijan (Central Asia), 1 record(s) from earlier research
 - GE Georgia (Central Asia)

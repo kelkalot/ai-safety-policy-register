@@ -1,0 +1,3424 @@
+{
+ "about": "The curated list of sites whose pages count as official evidence, besides government domains (AGENTS.md section 7.6). Each entry says who runs the host, the page that shows it, and who decided. status: official (counts), not official (never counts, even if it looks official), proposed (waits for a decision; does not count). decided_by 'seed' marks entries taken from records' official_url when the frame was built, not yet reviewed by a person. Entries are never deleted: a changed decision is recorded with `python3 tools/pipeline.py hosts --add`, which keeps the previous one.",
+ "sites": [
+  {
+   "code": "AE",
+   "host": "ai.gov.ae",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "AE",
+   "host": "u.ae",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "AR",
+   "host": "argentina.gob.ar",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "AR",
+   "host": "boletinoficial.gob.ar",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "AR",
+   "host": "hcdn.gob.ar",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "AR",
+   "host": "rest.hcdn.gob.ar",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "ASEAN",
+   "host": "asean.org",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "AT",
+   "host": "bmf.gv.at",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "AT",
+   "host": "parlament.gv.at",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "AU",
+   "host": "au.int",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "AUS",
+   "host": "consult.industry.gov.au",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "AUS",
+   "host": "digital.gov.au",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "AUS",
+   "host": "industry.gov.au",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "AUS",
+   "host": "legislation.gov.au",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "AZ",
+   "host": "president.az",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "AZ",
+   "host": "static.president.az",
+   "status": "official",
+   "operator": "Press Service of the President of the Republic of Azerbaijan (president.az)",
+   "kind": "government portal",
+   "evidence": {
+    "url": "https://president.az/en",
+    "quote": "This website is managed by the Press Service of the President of the Republic of Azerbaijan.",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Re-added after the host cleanup of October 2026, with the operator checked."
+  },
+  {
+   "code": "BD",
+   "host": "aipolicy.gov.bd",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "BG",
+   "host": "bta.bg",
+   "status": "not official",
+   "operator": "Bulgarian News Agency (BTA)",
+   "kind": "state news agency",
+   "evidence": {
+    "url": "https://www.bta.bg/en",
+    "quote": "© 2022 - 2026, All rights reserved.",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "BG",
+   "host": "parliament.bg",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "BG",
+   "host": "pris.government.bg",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "BH",
+   "host": "iga.gov.bh",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "BJ",
+   "host": "asin.bj",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "BJ",
+   "host": "sgg.gouv.bj",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "BN",
+   "host": "aiti.gov.bn",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "BO",
+   "host": "diputados.gob.bo",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "BR",
+   "host": "camara.leg.br",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "BR",
+   "host": "tse.jus.br",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "BRICS",
+   "host": "brics.br",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "BRICS",
+   "host": "dirco.gov.za",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "BRICS",
+   "host": "en.kremlin.ru",
+   "status": "official",
+   "operator": "President of Russia (Presidential Executive Office)",
+   "kind": "government portal",
+   "evidence": {
+    "url": "http://en.kremlin.ru/events/president/news/77373",
+    "quote": "Plenary session of the 17th BRICS Summit • President of Russia",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Re-added after the host cleanup of October 2026, with the operator checked."
+  },
+  {
+   "code": "BRICS",
+   "host": "sanews.gov.za",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CA",
+   "host": "canada.ca",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CA",
+   "host": "ised-isde.canada.ca",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CA",
+   "host": "parl.ca",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CA",
+   "host": "tbs-sct.canada.ca",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CA-ON",
+   "host": "ola.org",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CA-ON",
+   "host": "ontario.ca",
+   "status": "official",
+   "operator": "Government of Ontario",
+   "kind": "government portal",
+   "evidence": {
+    "url": "https://www.ontario.ca/orders-in-council/oc-3612025",
+    "quote": "Government of Ontario home page",
+    "stored": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/CA-ON-01/extra-04be1c45e1/2026-10-14/official.html",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Approved with the host cleanup of October 2026."
+  },
+  {
+   "code": "CH",
+   "host": "admin.ch",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CL",
+   "host": "camara.cl",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CL",
+   "host": "diariooficial.interior.gob.cl",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CL",
+   "host": "minciencia.gob.cl",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CL",
+   "host": "senado.cl",
+   "status": "official",
+   "operator": "Senado de la República de Chile",
+   "kind": "legislature",
+   "evidence": {
+    "url": "https://www.senado.cl/",
+    "quote": "Home | Senado República de Chile",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Re-added after the host cleanup of October 2026, with the operator checked."
+  },
+  {
+   "code": "CN",
+   "host": "cac.gov.cn",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CN",
+   "host": "chinalawtranslate.com",
+   "status": "not official",
+   "operator": "China Law Translate",
+   "kind": "NGO or tracker",
+   "evidence": {
+    "url": "https://www.chinalawtranslate.com/en/deep-synthesis/",
+    "quote": "By China Law Translate on 2022/12/11",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "CN",
+   "host": "gov.cn",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CN",
+   "host": "mfa.gov.cn",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CN",
+   "host": "miit.gov.cn",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CN",
+   "host": "most.gov.cn",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CN",
+   "host": "openstd.samr.gov.cn",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CN",
+   "host": "tc260.org.cn",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CO",
+   "host": "camara.gov.co",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CO",
+   "host": "dnp.gov.co",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CO",
+   "host": "normativa.colpensiones.gov.co",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "COE",
+   "host": "coe.int",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "COE",
+   "host": "rm.coe.int",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CY",
+   "host": "digital-strategy.ec.europa.eu",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CY",
+   "host": "e-consultation.gov.cy",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CZ",
+   "host": "agenturacas.gov.cz",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CZ",
+   "host": "asociace.ai",
+   "status": "not official",
+   "operator": "Česká asociace umělé inteligence z.ú.",
+   "kind": "NGO or tracker",
+   "evidence": {
+    "url": "https://asociace.ai/",
+    "quote": "Jsme nejvýznamnější celonárodní organizace podporující rozvoj AI v ČR.",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "CZ",
+   "host": "digital-strategy.ec.europa.eu",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "CZ",
+   "host": "mpo.gov.cz",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "DE",
+   "host": "gesetze-im-internet.de",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "DK",
+   "host": "intellectual-property-helpdesk.ec.europa.eu",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "DK",
+   "host": "kum.dk",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "DK",
+   "host": "retsinformation.dk",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "EC",
+   "host": "asambleanacional.gob.ec",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "EG",
+   "host": "ai.gov.eg",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "EG",
+   "host": "mcit.gov.eg",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "ES",
+   "host": "aesia.digital.gob.es",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "ES",
+   "host": "boe.es",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "ES",
+   "host": "lamoncloa.gob.es",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "ET",
+   "host": "api.oecd.ai",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "ET",
+   "host": "mint.gov.et",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "EU",
+   "host": "ai-act-service-desk.ec.europa.eu",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "EU",
+   "host": "commission.europa.eu",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "EU",
+   "host": "consilium.europa.eu",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "EU",
+   "host": "digital-strategy.ec.europa.eu",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "EU",
+   "host": "ec.europa.eu",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "EU",
+   "host": "eur-lex.europa.eu",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "EU",
+   "host": "single-market-economy.ec.europa.eu",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "FI",
+   "host": "finlex.fi",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "FI",
+   "host": "parliament.fi",
+   "status": "official",
+   "operator": "Parliament of Finland (Eduskunta)",
+   "kind": "legislature",
+   "evidence": {
+    "url": "https://www.parliament.fi/",
+    "quote": "Eduskunta",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Re-added after the host cleanup of October 2026, with the operator checked."
+  },
+  {
+   "code": "FR",
+   "host": "sgdsn.gouv.fr",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "G20",
+   "host": "assets.publishing.service.gov.uk",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "G20",
+   "host": "commerce.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "G20",
+   "host": "dirco.gov.za",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "G20",
+   "host": "g20.utoronto.ca",
+   "status": "not official",
+   "operator": "G20 Research Group and University of Toronto Library",
+   "kind": "university",
+   "evidence": {
+    "url": "https://www.g20.utoronto.ca/",
+    "quote": "This Information System is provided by the University of Toronto Library and the G20 Research Group",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "G7",
+   "host": "elysee.fr",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "G7",
+   "host": "g7.utoronto.ca",
+   "status": "not official",
+   "operator": "G7 Research Group and University of Toronto Libraries",
+   "kind": "university",
+   "evidence": {
+    "url": "https://g7.utoronto.ca/",
+    "quote": "provided by the University of Toronto Libraries and the G7 Research Group",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "G7",
+   "host": "mofa.go.jp",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "G7",
+   "host": "oecd.org",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "G7",
+   "host": "pm.gc.ca",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "G7",
+   "host": "soumu.go.jp",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "GB",
+   "host": "aisi.gov.uk",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "GB",
+   "host": "bills.parliament.uk",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "GB",
+   "host": "gov.uk",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "GB",
+   "host": "legislation.gov.uk",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "GH",
+   "host": "gna.org.gh",
+   "status": "not official",
+   "operator": "Ghana News Agency",
+   "kind": "state news agency",
+   "evidence": {
+    "url": "https://gna.org.gh/",
+    "quote": "Copyright © 2026 Ghana News Agency",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "GH",
+   "host": "moc.gov.gh",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "GR",
+   "host": "dpa.gr",
+   "status": "official",
+   "operator": "Hellenic Data Protection Authority",
+   "kind": "regulator or supervisor",
+   "evidence": {
+    "url": "https://www.dpa.gr/en",
+    "quote": "The Hellenic Data Protection Authority is a constitutionally established independent public authority",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Re-added after the host cleanup of October 2026, with the operator checked."
+  },
+  {
+   "code": "GR",
+   "host": "foresight.gov.gr",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "GR",
+   "host": "ia37rg02wpsa01.blob.core.windows.net",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "HK",
+   "host": "digitalpolicy.gov.hk",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "HR",
+   "host": "narodne-novine.nn.hr",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "HU",
+   "host": "cms.law",
+   "status": "not official",
+   "operator": "CMS (international law firm)",
+   "kind": "law firm",
+   "evidence": {
+    "url": "https://cms.law/",
+    "quote": "We provide future-facing legal advice to help your organisation thrive.",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "HU",
+   "host": "njt.jog.gov.hu",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "ID",
+   "host": "jdih.komdigi.go.id",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "IE",
+   "host": "aioffice.gov.ie",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "IE",
+   "host": "enterprise.gov.ie",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "IL",
+   "host": "gov.il",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "IN",
+   "host": "indiaai.gov.in",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "IN",
+   "host": "meity.gov.in",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "IN",
+   "host": "pib.gov.in",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "IN",
+   "host": "psa.gov.in",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "INT",
+   "host": "elysee.fr",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "INT",
+   "host": "exteriores.gob.es",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "INT",
+   "host": "gov.uk",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "INT",
+   "host": "government.nl",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "INT",
+   "host": "gub.uy",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "INT",
+   "host": "internationalaisafetyreport.org",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "INT",
+   "host": "mfa.gov.cn",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "INT",
+   "host": "soumu.go.jp",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "IS",
+   "host": "stjornarradid.is",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "IT",
+   "host": "gazzettaufficiale.it",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "IT",
+   "host": "normattiva.it",
+   "status": "official",
+   "operator": "Istituto Poligrafico e Zecca dello Stato (with Presidenza del Consiglio dei Ministri)",
+   "kind": "gazette or law database",
+   "evidence": {
+    "url": "https://www.normattiva.it/",
+    "quote": "Realizzazione e gestione Istituto Poligrafico e Zecca dello Stato",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Re-added after the host cleanup of October 2026, with the operator checked."
+  },
+  {
+   "code": "JM",
+   "host": "opm.gov.jm",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "JO",
+   "host": "modee.gov.jo",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "JP",
+   "host": "aisi.go.jp",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "JP",
+   "host": "ipa.go.jp",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "JP",
+   "host": "laws.e-gov.go.jp",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "JP",
+   "host": "meti.go.jp",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "JP",
+   "host": "www8.cao.go.jp",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "KE",
+   "host": "api.oecd.ai",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "KE",
+   "host": "ict.go.ke",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "KG",
+   "host": "cbd.minjust.gov.kg",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "KH",
+   "host": "mptc.gov.kh",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "KH",
+   "host": "oecd.ai",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "KR",
+   "host": "aisi.re.kr",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "KR",
+   "host": "elaw.klri.re.kr",
+   "status": "official",
+   "operator": "Korea Legislation Research Institute",
+   "kind": "public research or translation institute",
+   "evidence": {
+    "url": "https://elaw.klri.re.kr/eng_service/main.do",
+    "quote": "Copyright © Korea Legislation Research Institute all rights reserved.",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Re-added after the host cleanup of October 2026, with the operator checked."
+  },
+  {
+   "code": "KR",
+   "host": "korea.kr",
+   "status": "official",
+   "operator": "Korea Policy Briefing (Ministry of Culture, Sports and Tourism)",
+   "kind": "government portal",
+   "evidence": {
+    "url": "https://www.korea.kr/",
+    "quote": "이 누리집은 대한민국 공식 전자정부 누리집입니다.",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Re-added after the host cleanup of October 2026, with the operator checked."
+  },
+  {
+   "code": "KR",
+   "host": "law.go.kr",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "KR",
+   "host": "msit.go.kr",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "KR",
+   "host": "nia.or.kr",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "KR",
+   "host": "sw.or.kr",
+   "status": "not official",
+   "operator": "Korea AI Software Industry Association (KOSA)",
+   "kind": "NGO or tracker",
+   "evidence": {
+    "url": "https://www.sw.or.kr/AI_act_helpdesk/main.jsp",
+    "quote": "한국인공지능소프트웨어산업협회(KOSA)는 과학기술정보통신부와 함께 인공지능기본법의 안정적인 정착과 국내 인공지능 산업의 성장을 지원합니다.",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "KZ",
+   "host": "akorda.kz",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "LT",
+   "host": "e-seimas.lrs.lt",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "LU",
+   "host": "chd.lu",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "LU",
+   "host": "wdocs-pub.chd.lu",
+   "status": "official",
+   "operator": "Chambre des députés (Luxembourg)",
+   "kind": "legislature",
+   "evidence": {
+    "url": "https://wdocs-pub.chd.lu/",
+    "quote": "Chambre des députés",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Re-added after the host cleanup of October 2026, with the operator checked."
+  },
+  {
+   "code": "LV",
+   "host": "digital-strategy.ec.europa.eu",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "LV",
+   "host": "likumi.lv",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "LV",
+   "host": "lvportals.lv",
+   "status": "official",
+   "operator": "VSIA \"Latvijas Vēstnesis\"",
+   "kind": "gazette or law database",
+   "evidence": {
+    "url": "https://www.lvportals.lv/",
+    "quote": "© VSIA \"Latvijas Vēstnesis\", Latvijas Republikas oficiālais izdevējs.",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Re-added after the host cleanup of October 2026, with the operator checked."
+  },
+  {
+   "code": "LV",
+   "host": "saeima.lv",
+   "status": "official",
+   "operator": "Latvijas Republikas Saeima",
+   "kind": "legislature",
+   "evidence": {
+    "url": "https://www.saeima.lv/en",
+    "quote": "© Latvijas Republikas Saeima, 2026",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Re-added after the host cleanup of October 2026, with the operator checked."
+  },
+  {
+   "code": "LV",
+   "host": "varam.gov.lv",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "MT",
+   "host": "legislation.mt",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "MU",
+   "host": "aim.govmu.org",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "MU",
+   "host": "mitci.govmu.org",
+   "status": "official",
+   "operator": "Ministry of Information Technology, Communication and Innovation, Republic of Mauritius",
+   "kind": "ministry or agency",
+   "evidence": {
+    "url": "https://mitci.govmu.org/",
+    "quote": "Ministry of Information Technology, Republic of Mauritius | Powered by Government of Mauritius",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Re-added after the host cleanup of October 2026, with the operator checked."
+  },
+  {
+   "code": "MX",
+   "host": "basham.com.mx",
+   "status": "not official",
+   "operator": "Basham, Ringe y Correa",
+   "kind": "law firm",
+   "evidence": {
+    "url": "https://basham.com.mx/en/",
+    "quote": "Basham, Ringe y Correa is the exclusive member firm in Mexico for Lex Mundi.",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "MX",
+   "host": "sil.gobernacion.gob.mx",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "MY",
+   "host": "ai.gov.my",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "MY",
+   "host": "mastic.mosti.gov.my",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "MY",
+   "host": "strapi.naio.okie.my",
+   "status": "proposed",
+   "operator": "unknown (CMS backend; subdomain of okie.my)",
+   "kind": "official channel on a vendor platform",
+   "evidence": {
+    "url": "https://strapi.naio.okie.my/",
+    "quote": "",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": null,
+   "decided_on": null,
+   "note": "Operator check unclear: Root returned HTTP 403 and naio.gov.my did not resolve, so no link from a Malaysian government site could be found; the host name suggests a CMS backend for a National AI Office site built by a third-party developer. Needs a decision."
+  },
+  {
+   "code": "NATO",
+   "host": "nato.int",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "NG",
+   "host": "ncair.nitda.gov.ng",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "NG",
+   "host": "oecd.ai",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "NL",
+   "host": "internetconsultatie.nl",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "NL",
+   "host": "rijksoverheid.nl",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "NO",
+   "host": "regjeringen.no",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "NP",
+   "host": "giwmscdnone.gov.np",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "NP",
+   "host": "lawcommission.gov.np",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "NZ",
+   "host": "digital.govt.nz",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "NZ",
+   "host": "mbie.govt.nz",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "OECD",
+   "host": "legalinstruments.oecd.org",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "OECD",
+   "host": "oecd.ai",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "OECD",
+   "host": "oecd.org",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "OECD",
+   "host": "soumu.go.jp",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "OM",
+   "host": "mtcit.gov.om",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "OM",
+   "host": "qanoon.om",
+   "status": "not official",
+   "operator": "unnamed (Qanoon.om)",
+   "kind": "commercial database",
+   "evidence": {
+    "url": "https://qanoon.om/",
+    "quote": "موقع Qanoon.om لا يعد مصدرا رسميا للقوانين",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "PE",
+   "host": "busquedas.elperuano.pe",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "PE",
+   "host": "congreso.gob.pe",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "PE",
+   "host": "leyes.congreso.gob.pe",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "PH",
+   "host": "docs.congress.hrep.online",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "PH",
+   "host": "privacy.gov.ph",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "PK",
+   "host": "moitt.gov.pk",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "PL",
+   "host": "eli.gov.pl",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "PT",
+   "host": "diariodarepublica.pt",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "PT",
+   "host": "files.diariodarepublica.pt",
+   "status": "official",
+   "operator": "Imprensa Nacional-Casa da Moeda (INCM), publisher of the Diário da República",
+   "kind": "gazette or law database",
+   "evidence": {
+    "url": "https://diariodarepublica.pt/dr/home",
+    "quote": "Imprensa Nacional-Casa da Moeda (INCM), em representação de Portugal",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Re-added after the host cleanup of October 2026, with the operator checked."
+  },
+  {
+   "code": "PY",
+   "host": "ultimahora.com",
+   "status": "not official",
+   "operator": "Última Hora (ÚH), Asunción newspaper; parent apparently Grupo Vierci",
+   "kind": "news outlet",
+   "evidence": {
+    "url": "https://www.ultimahora.com/",
+    "quote": "2026 - BENJAMÍN CONSTANT 658 - ASUNCIÓN",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "QA",
+   "host": "prod16-assets.sprinklr.com",
+   "status": "proposed",
+   "operator": "Sprinklr (vendor DAM/CDN platform); content owner appears to be the Qatar MCIT",
+   "kind": "official channel on a vendor platform",
+   "evidence": {
+    "url": "https://prod16-assets.sprinklr.com/",
+    "quote": "",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": null,
+   "decided_on": null,
+   "note": "Operator check unclear: Both the host (HTTP 400) and mcit.gov.qa (HTTP 403) blocked fetching, so I could not find an MCIT page linking to this host; the file name MCIT_National_AI_Strategy suggests MCIT content. Needs a decision."
+  },
+  {
+   "code": "QA",
+   "host": "sharek.gov.qa",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "RO",
+   "host": "cdep.ro",
+   "status": "official",
+   "operator": "Camera Deputaților (Chamber of Deputies of Romania)",
+   "kind": "legislature",
+   "evidence": {
+    "url": "https://www.cdep.ro/",
+    "quote": "Copyright © Camera Deputaţilor",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Re-added after the host cleanup of October 2026, with the operator checked."
+  },
+  {
+   "code": "RO",
+   "host": "senat.ro",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "RS",
+   "host": "kmp.respaweb.eu",
+   "status": "proposed",
+   "operator": "Regional School of Public Administration (ReSPA)",
+   "kind": "intergovernmental body",
+   "evidence": {
+    "url": "https://kmp.respaweb.eu/",
+    "quote": "© 2024 ReSPA Regional School of Public Administration (ReSPA). All rights reserved.",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": null,
+   "decided_on": null,
+   "note": "Operator check unclear: ReSPA is a regional intergovernmental organisation of Western Balkan governments (classification of ReSPA's status is from background knowledge; page describes it as a knowledge hub for public administrations, EU-funded). Needs a decision."
+  },
+  {
+   "code": "RS",
+   "host": "nitra.gov.rs",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "RS",
+   "host": "srbija.gov.rs",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "RU",
+   "host": "kremlin.ru",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "RW",
+   "host": "minict.gov.rw",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "SA",
+   "host": "cst.gov.sa",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "SA",
+   "host": "istitlaa.ncc.gov.sa",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "SA",
+   "host": "sdaia.gov.sa",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "SE",
+   "host": "pts.se",
+   "status": "official",
+   "operator": "Post- och telestyrelsen (PTS, Swedish Post and Telecom Authority)",
+   "kind": "regulator or supervisor",
+   "evidence": {
+    "url": "https://pts.se/",
+    "quote": "Säker och tillgänglig kommunikation för Sverige.",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Re-added after the host cleanup of October 2026, with the operator checked."
+  },
+  {
+   "code": "SE",
+   "host": "regeringen.se",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "SG",
+   "host": "aiverifyfoundation.sg",
+   "status": "not official",
+   "operator": "AI Verify Foundation",
+   "kind": "NGO or tracker",
+   "evidence": {
+    "url": "https://aiverifyfoundation.sg/",
+    "quote": "A global open-source community that convenes AI owners, solution providers, users, and policymakers, to build trustworthy AI.",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "SG",
+   "host": "csa.gov.sg",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "SG",
+   "host": "imda.gov.sg",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "SG",
+   "host": "mddi.gov.sg",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "SG",
+   "host": "parliament.gov.sg",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "SG",
+   "host": "pdpc.gov.sg",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "SG",
+   "host": "sgaisi.sg",
+   "status": "proposed",
+   "operator": "Singapore AI Safety Institute (Digital Trust Centre Singapore, in partnership with IMDA)",
+   "kind": "regulator or supervisor",
+   "evidence": {
+    "url": "https://sgaisi.sg/",
+    "quote": "the Digital Trust Centre Singapore (DTC), in partnership with the Infocomm Media Development Authority of Singapore (IMDA)",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": null,
+   "decided_on": null,
+   "note": "Operator check unclear: The page ties the institute to DTC and IMDA but the fetch did not show whether it is a government body or a university-hosted centre; IMDA (imda.gov.sg) was not checked for a link. Needs a decision."
+  },
+  {
+   "code": "SI",
+   "host": "gov.si",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "SI",
+   "host": "uradni-list.si",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "SK",
+   "host": "nrsr.sk",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "SK",
+   "host": "slov-lex.sk",
+   "status": "official",
+   "operator": "Ministry of Justice of the Slovak Republic",
+   "kind": "gazette or law database",
+   "evidence": {
+    "url": "https://www.slov-lex.sk/",
+    "quote": "Prevádzkovateľom služby je Ministerstvo spravodlivosti Slovenskej republiky",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Re-added after the host cleanup of October 2026, with the operator checked."
+  },
+  {
+   "code": "SK",
+   "host": "static.slov-lex.sk",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "SN",
+   "host": "api.oecd.ai",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "SN",
+   "host": "oecd.ai",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "TH",
+   "host": "etda.or.th",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "TH",
+   "host": "tilleke.com",
+   "status": "not official",
+   "operator": "Tilleke & Gibbins International Ltd.",
+   "kind": "law firm",
+   "evidence": {
+    "url": "https://www.tilleke.com/",
+    "quote": "© 2024 Tilleke & Gibbins International Ltd. All rights reserved.",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "TR",
+   "host": "cdn.tbmm.gov.tr",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "TR",
+   "host": "morogluarseven.com",
+   "status": "not official",
+   "operator": "Moroğlu Arseven",
+   "kind": "law firm",
+   "evidence": {
+    "url": "https://www.morogluarseven.com/",
+    "quote": "Moroğlu Arseven is an independent Turkish full-service law firm.",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "TR",
+   "host": "tbmm.gov.tr",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "TW",
+   "host": "law.nstc.gov.tw",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "TW",
+   "host": "moda.gov.tw",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "TW",
+   "host": "www-api.moda.gov.tw",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "UA",
+   "host": "kmu.gov.ua",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "UA",
+   "host": "storage.thedigital.gov.ua",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "UA",
+   "host": "thedigital.gov.ua",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "UN",
+   "host": "digitallibrary.un.org",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "UN",
+   "host": "disarmament.unoda.org",
+   "status": "official",
+   "operator": "United Nations Office for Disarmament Affairs (UNODA)",
+   "kind": "intergovernmental body",
+   "evidence": {
+    "url": "http://disarmament.unoda.org/en",
+    "quote": "was established in January 1998 as the Department for Disarmament Affairs",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Re-added after the host cleanup of October 2026, with the operator checked."
+  },
+  {
+   "code": "UN",
+   "host": "docs.un.org",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "UN",
+   "host": "documents.un.org",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "UN",
+   "host": "press.un.org",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "UN",
+   "host": "un.org",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "UNESCO",
+   "host": "unesco.org",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US",
+   "host": "bidenwhitehouse.archives.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US",
+   "host": "commerce.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US",
+   "host": "federalregister.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US",
+   "host": "govinfo.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US",
+   "host": "nist.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US",
+   "host": "nvlpubs.nist.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US",
+   "host": "obernolte.house.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US",
+   "host": "whitehouse.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-AR",
+   "host": "arkleg.state.ar.us",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-CA",
+   "host": "gov.ca.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-CA",
+   "host": "leginfo.legislature.ca.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-CO",
+   "host": "leg.colorado.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-CT",
+   "host": "cga.ct.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-CT",
+   "host": "portal.ct.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-FL",
+   "host": "floridaphoenix.com",
+   "status": "not official",
+   "operator": "Florida Phoenix (news outlet, apparently part of States Newsroom)",
+   "kind": "news outlet",
+   "evidence": {
+    "url": "https://floridaphoenix.com/",
+    "quote": "",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "US-FL",
+   "host": "flsenate.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-GA",
+   "host": "gov.georgia.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-GA",
+   "host": "senatepress.net",
+   "status": "proposed",
+   "operator": "Georgia State Senate Press Office (self-described)",
+   "kind": "official channel on a vendor platform",
+   "evidence": {
+    "url": "https://senatepress.net/",
+    "quote": "Georgia Senate Press Office – Official Press Releases",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": null,
+   "decided_on": null,
+   "note": "Operator check unclear: The page calls itself the Senate press office's official releases, but it is on a .net domain and links to no senate.ga.gov page; confirmation from senate.ga.gov is missing. Needs a decision."
+  },
+  {
+   "code": "US-HI",
+   "host": "governor.hawaii.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-HI",
+   "host": "transparencycoalition.ai",
+   "status": "not official",
+   "operator": "Transparency Coalition (501(c)(3) and 501(c)(4) advocacy organisation)",
+   "kind": "NGO or tracker",
+   "evidence": {
+    "url": "https://www.transparencycoalition.ai/",
+    "quote": "a 501(c)(4) social welfare organization",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "US-IA",
+   "host": "legis.iowa.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-IL",
+   "host": "dhr.illinois.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-IL",
+   "host": "gov-pritzker-newsroom.prezly.com",
+   "status": "official",
+   "operator": "Office of the Governor of Illinois (JB Pritzker), on the Prezly vendor platform",
+   "kind": "official channel on a vendor platform",
+   "evidence": {
+    "url": "https://gov.illinois.gov/newsroom.html",
+    "quote": "The State of Illinois Newsroom (prezly.com)",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Official channel on a vendor platform: the Governor's site links to it as the State of Illinois Newsroom. Rule: a host a public body uses as its own channel counts as official."
+  },
+  {
+   "code": "US-IL",
+   "host": "idfpr.illinois.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-IL",
+   "host": "ilga.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-KY",
+   "host": "apps.legislature.ky.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-ME",
+   "host": "legislature.maine.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-MN",
+   "host": "revisor.mn.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-MT",
+   "host": "mca.legmt.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-NE",
+   "host": "nebraskalegislature.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-NE",
+   "host": "update.legislature.ne.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-NJ",
+   "host": "repo.njstatelib.org",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-NV",
+   "host": "naswnv.socialworkers.org",
+   "status": "not official",
+   "operator": "NASW Nevada Chapter",
+   "kind": "NGO or tracker",
+   "evidence": {
+    "url": "https://naswnv.socialworkers.org/",
+    "quote": "© 2018 by NASW Nevada Chapter. All Rights Reserved.",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "US-NY",
+   "host": "nysenate.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-OR",
+   "host": "apps.oregon.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-RI",
+   "host": "nixonpeabody.com",
+   "status": "not official",
+   "operator": "Nixon Peabody LLP",
+   "kind": "law firm",
+   "evidence": {
+    "url": "https://www.nixonpeabody.com/",
+    "quote": "Sophisticated legal solutions that spark positive impact.",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "US-TX",
+   "host": "capitol.texas.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-TX",
+   "host": "statutes.capitol.texas.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-UT",
+   "host": "le.utah.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-VA",
+   "host": "lis.virginia.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-VA",
+   "host": "skadden.com",
+   "status": "not official",
+   "operator": "Skadden, Arps, Slate, Meagher & Flom LLP and Affiliates",
+   "kind": "law firm",
+   "evidence": {
+    "url": "https://www.skadden.com/",
+    "quote": "Skadden, Arps, Slate, Meagher & Flom LLP and Affiliates",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "US-VT",
+   "host": "legislature.vermont.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-WA",
+   "host": "app.leg.wa.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-WA",
+   "host": "lawfilesext.leg.wa.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "US-WY",
+   "host": "wyoleg.gov",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "UY",
+   "host": "gub.uy",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "UY",
+   "host": "impo.com.uy",
+   "status": "official",
+   "operator": "IMPO – Centro de Información Oficial",
+   "kind": "gazette or law database",
+   "evidence": {
+    "url": "https://www.impo.com.uy/",
+    "quote": "IMPO – Centro de Información Oficial",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Re-added after the host cleanup of October 2026, with the operator checked."
+  },
+  {
+   "code": "UZ",
+   "host": "gov.uz",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "UZ",
+   "host": "lex.uz",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "VN",
+   "host": "congbao.chinhphu.vn",
+   "status": "official",
+   "operator": "Government Office of Vietnam (Official Gazette)",
+   "kind": "gazette or law database",
+   "evidence": {
+    "url": "https://congbao.chinhphu.vn/",
+    "quote": "Văn phòng chính phủ xuất bản",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Re-added after the host cleanup of October 2026, with the operator checked."
+  },
+  {
+   "code": "VN",
+   "host": "datafiles.chinhphu.vn",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "VN",
+   "host": "en.baochinhphu.vn",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "VN",
+   "host": "english.mst.gov.vn",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "VN",
+   "host": "moc.gov.vn",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "VN",
+   "host": "pbgdpl.cantho.gov.vn",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "VN",
+   "host": "storage-vnportal.vnpt.vn",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "VN",
+   "host": "vietnamplus.vn",
+   "status": "not official",
+   "operator": "Vietnam News Agency (TTXVN)",
+   "kind": "state news agency",
+   "evidence": {
+    "url": "https://www.vietnamplus.vn/",
+    "quote": "Cơ quan chủ quản: THÔNG TẤN XÃ VIỆT NAM",
+    "checked_on": "2026-10-14"
+   },
+   "decided_by": "Michael Riegler",
+   "decided_on": "2026-10-14",
+   "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "ZA",
+   "host": "api.oecd.ai",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "ZA",
+   "host": "gov.za",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "ZA",
+   "host": "oecd.ai",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  },
+  {
+   "code": "ZM",
+   "host": "mots.gov.zm",
+   "status": "official",
+   "operator": null,
+   "kind": null,
+   "evidence": null,
+   "decided_by": "seed",
+   "decided_on": "2026-10-14",
+   "note": "Seeded from the hosts of records' official_url when the frame was built; not yet reviewed by a person."
+  }
+ ]
+}

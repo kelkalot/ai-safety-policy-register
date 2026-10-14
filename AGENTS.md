@@ -40,6 +40,7 @@ If a tool fails or seems to be missing, an agent stops and says so; it does not 
 | `pipeline/frame.json` | the coverage frame: every jurisdiction and source type, with when it was last searched |
 | `pipeline/coverage.md` | the coverage table, written by `tools/pipeline.py frame --report` |
 | `pipeline/scope-decisions.md` | precedents for borderline scope cases; read before deciding scope |
+| `pipeline/official-sites.json` | the curated list of sites, besides government domains, whose pages count as official evidence, with who runs each and who decided (section 7.6) |
 | `pipeline/refresh-requests.jsonl` | existing records a collector found news about; `queue` puts them first |
 | `pipeline/roles/*.md` | step-by-step instructions for each agent role |
 | `.claude/`, `.agents/`, `.codex/` | settings, skills and subagents for Claude Code and Codex; the skills only point at `pipeline/roles/` |
@@ -70,6 +71,7 @@ python3 tools/pipeline.py log-human --run <run-id> --id <ID> --result ok --note 
 python3 tools/pipeline.py log-scope --id <ID> --decision in --note "..." --by <name>
 python3 tools/pipeline.py queue                      # records due for a refresh run (section 6)
 python3 tools/pipeline.py frame --due | --report     # cells due for a search; the coverage table
+python3 tools/pipeline.py hosts [--pending]          # the curated list of official sites (section 7.6)
 python3 tools/build.py                               # validate and regenerate data files and HISTORY.md
 python3 tools/archive.py --verify                    # re-hash every stored file; flags missing or changed copies
 ```
@@ -202,7 +204,7 @@ Records named in an issue go into a refresh run by ID (`--scope "ids:..."`). A r
 
 ### 7.1 Coverage frame
 
-`pipeline/frame.json` has one cell per jurisdiction and source type: the 193 UN member states, Taiwan, the EU, the US states, the register's other sub-national jurisdictions, the intergovernmental bodies it covers, the international bodies of supervisors (IAIS, IOSCO, BCBS, FSB) and the standards bodies (ISO/IEC, CEN-CENELEC, ETSI), 1,646 cells in all. Source types: legislature, official gazette or law database, head of government or cabinet, ministries for digital affairs, science and technology, and justice, AI-specific regulators and AI safety institutes, election authorities, supervisory authorities (sectoral and horizontal, section 10), and, for intergovernmental and standards bodies, their document repositories. A jurisdiction is added with `pipeline.py frame --add`. `known_hosts` lists the sites, other than government domains, whose pages count as official evidence for that jurisdiction; a human adds a host after checking that the issuing body runs it, never from a secondary source. Each cell holds the official portals found so far (`where_to_look`), the date last searched, the outcome and the run ID. `pipeline.py frame --due` lists cells never searched or not searched for 180 days, and `pipeline.py frame --report` writes the coverage table for the app and README.
+`pipeline/frame.json` has one cell per jurisdiction and source type: the 193 UN member states, Taiwan, the EU, the US states, the register's other sub-national jurisdictions, the intergovernmental bodies it covers, the international bodies of supervisors (IAIS, IOSCO, BCBS, FSB) and the standards bodies (ISO/IEC, CEN-CENELEC, ETSI), 1,646 cells in all. Source types: legislature, official gazette or law database, head of government or cabinet, ministries for digital affairs, science and technology, and justice, AI-specific regulators and AI safety institutes, election authorities, supervisory authorities (sectoral and horizontal, section 10), and, for intergovernmental and standards bodies, their document repositories. A jurisdiction is added with `pipeline.py frame --add`. Which sites count as official evidence is kept separately, in `pipeline/official-sites.json` (section 7.6). Each cell holds the official portals found so far (`where_to_look`), the date last searched, the outcome and the run ID. `pipeline.py frame --due` lists cells never searched or not searched for 180 days, and `pipeline.py frame --report` writes the coverage table for the app and README.
 
 ### 7.2 Scope precedents
 
@@ -220,6 +222,16 @@ The checker starts in a fresh context with only the run ID and candidate IDs: a 
 
 `pipeline.py report` draws 5 of the run's accepted records at random for a human, who also decides every `needs-human` item. The human logs each check with `pipeline.py log-human`, which writes a `human-checked` event to the history, and each scope decision with `pipeline.py log-scope`, which also adds the case to `pipeline/scope-decisions.md`.
 
+
+### 7.6 Official sites
+
+The evidence script counts a quote as official or alt-official only when its file came from a government domain (`.gov`, `gov.xx`, `gouv.xx`, `.leg.xx`, `state.xx.us`, `europa.eu`, `un.org` and similar) or from a host that `pipeline/official-sites.json` lists as official for the jurisdiction. Everything else counts as secondary, whatever the extractor wrote. The file is curated by people and changed only with `python3 tools/pipeline.py hosts --add`; no script removes or rewrites entries. Each entry has the host, who runs it (`operator`), the kind of site, the page and quote that show who runs it, who decided and when, and a status:
+
+- `official`: the issuing body or another public body runs the host, or uses it as its own channel (an official newsroom on a press-release platform counts when the body's own site links to it as its newsroom). Counts as official evidence.
+- `not official`: a third party (law firm, news outlet, university, NGO, tracker, commercial database), including state news agencies, whose articles are not the instruments themselves. Never counts, even if a later run suggests it; the entry stays so that the decision is not undone.
+- `proposed`: the operator check was unclear; waits for a human decision and does not count.
+
+Entries with `decided_by: "seed"` were taken from the hosts of records' `official_url` when the frame was built; they count as official until a person reviews them (`hosts --pending` lists them). A run's report lists, under "Hosts to review", every host whose quotes were counted as secondary for that reason alone; a human checks who runs it and records the decision.
 ## 8. Running it with Claude Code or Codex
 
 No API keys are needed. Both tools run under the subscription you sign in with (a Claude plan for Claude Code, a ChatGPT plan for Codex), and everything the agents need is in this repository. Run it on your own machine: the archiver has to reach government sites directly, and cloud sandboxes often restrict outbound network access.
