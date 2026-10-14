@@ -1,0 +1,82 @@
+{
+  "id": "CN-03",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": ["archive/CN-03/2026-10-11/official.html", "archive/CN-03/2026-10-11/secondary.html"],
+    "usable": true,
+    "note": "official.html is the CAC page with the full Chinese text: Order No. 15 (seven signatories, dated 2023年7月10日) and all 24 articles. secondary.html is China Law Translate's unofficial English translation."
+  },
+  "language_field": {"current": "Chinese", "proposed": "Chinese"},
+  "english_version": {
+    "kind": "unofficial translation",
+    "url": "https://www.chinalawtranslate.com/en/generative-ai-interim/",
+    "publisher": "China Law Translate",
+    "stored": true,
+    "evidence": {"file": "archive/CN-03/2026-10-11/secondary.html", "quote": "By China Law Translate on 2023/07/13"},
+    "note": "One web search found no English version from the CAC or another public body. Other unofficial copies: an ANU repository PDF of the China Law Translate text, and LexisNexis China."
+  },
+  "title": {
+    "verdict": "accurate rendering",
+    "original_title_matches_source": true,
+    "source_quote": "生成式人工智能服务管理暂行办法",
+    "file": "archive/CN-03/2026-10-11/official.html",
+    "proposed": null,
+    "why": "Literally 'Generative artificial intelligence service management interim measures'. Identical to China Law Translate's unofficial English title and accurate."
+  },
+  "summary_claims": [
+    {
+      "claim": "Providers must use lawfully sourced training data and improve its quality ...",
+      "file": "archive/CN-03/2026-10-11/official.html",
+      "locator": "Art. 7, items (1) and (4)",
+      "original_quote": "（一）使用具有合法来源的数据和基础模型；",
+      "literal_translation": "(1) use data and foundation models that have lawful sources;",
+      "verdict": "accurate",
+      "note": "Item (4) reads （四）采取有效措施提高训练数据质量，增强训练数据的真实性、准确性、客观性、多样性；: take effective measures to improve training-data quality and increase its truthfulness, accuracy, objectivity and diversity. Item (1) covers foundation models as well as data; the summary leaves that out."
+    },
+    {
+      "claim": "Services with public-opinion attributes or social-mobilisation capacity need a security assessment and algorithm filing.",
+      "file": "archive/CN-03/2026-10-11/official.html",
+      "locator": "Art. 17",
+      "original_quote": "提供具有舆论属性或者社会动员能力的生成式人工智能服务的，应当按照国家有关规定开展安全评估，并按照《互联网信息服务算法推荐管理规定》履行算法备案和变更、注销备案手续。",
+      "literal_translation": "Those providing generative AI services with public-opinion attributes or social-mobilisation capacity shall carry out a security assessment in accordance with relevant state provisions, and complete algorithm filing, change-of-filing and cancellation-of-filing procedures in accordance with the Provisions on the Administration of Algorithmic Recommendation for Internet Information Services.",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "R&D that is not offered to the public is excluded.",
+      "file": "archive/CN-03/2026-10-11/official.html",
+      "locator": "Art. 2, para. 3",
+      "original_quote": "行业组织、企业、教育和科研机构、公共文化机构、有关专业机构等研发、应用生成式人工智能技术，未向境内公众提供生成式人工智能服务的，不适用本办法的规定。",
+      "literal_translation": "Where industry organisations, enterprises, educational and research institutions, public cultural institutions, relevant professional bodies, etc. research, develop and apply generative AI technology but do not provide generative AI services to the public within the territory, the provisions of these Measures do not apply.",
+      "verdict": "accurate",
+      "note": "The exclusion also covers in-house application (应用), not only R&D; 'R&D' is a fair shorthand."
+    }
+  ],
+  "key_terms": [
+    {
+      "original": "生成式人工智能服务",
+      "register_rendering": "generative AI services",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "Art. 2 defines it as services offered to the public in the PRC (向中华人民共和国境内公众提供); the summary's 'offered to the public in China' matches."
+    },
+    {
+      "original": "舆论属性或者社会动员能力",
+      "register_rendering": "public-opinion attributes or social-mobilisation capacity",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "China Law Translate: 'public opinion properties or the capacity for social mobilization'. Same meaning."
+    },
+    {
+      "original": "防范未成年人用户过度依赖或者沉迷",
+      "register_rendering": "protect users (including against minors' over-reliance)",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "Art. 10. The text says 'over-reliance on or addiction to'; the summary keeps only over-reliance, which is acceptable."
+    }
+  ],
+  "overall": "ok",
+  "issues": [],
+  "note": "Also checked and accurate: labelling of generated content (Art. 12, by reference to the Deep Synthesis Provisions), prevention of discrimination (Art. 4(2)), complaint handling (Art. 15), and '24 articles' (第二十四条 is the last). Side remark outside the translation check: the record's notes end with 'The secondary URL is an unofficial translation by China Law Translate', which belongs in verification.note under AGENTS.md rule 5."
+}

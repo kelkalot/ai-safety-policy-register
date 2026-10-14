@@ -1,0 +1,19 @@
+{"id": "IT-01", "checked_on": "2026-10-14", "tool": "Claude Code", "model": "claude-opus-5-5",
+ "stored_text": {"files": ["archive/IT-01/2026-10-11/official.html"], "usable": false, "note": "The stored Gazzetta Ufficiale ELI page holds only the act's heading: type, date and number, title, code 25G00143, GU Serie Generale n. 223 of 25-09-2025 and entry into force 10/10/2025. None of the 28 articles is in the stored copy (the verification note says the same), so the title can be checked but no summary claim can."},
+ "language_field": {"current": "Italian", "proposed": "Italian"},
+ "english_version": {"kind": "none found", "url": null, "publisher": null, "stored": false, "evidence": null, "note": "No English text in the stored file. One web search found only law-firm commentary (Norton Rose Fulbright, A&O Shearman, Squire Patton Boggs, Andersen), no translation by the Italian government or another public body."},
+ "title": {"verdict": "accurate rendering", "original_title_matches_source": true, "source_quote": "LEGGE \n 23 settembre 2025, n. 132 \n Disposizioni e deleghe al Governo in materia di intelligenza\nartificiale. (25G00143)", "file": "archive/IT-01/2026-10-11/official.html", "proposed": null, "why": "original_title matches the GU heading apart from layout: 'LEGGE' in capitals in the source, the en dash added by the register, and the source's closing full stop and code (25G00143). 'Provisions and delegations to the Government on artificial intelligence' is a literal rendering."},
+ "summary_claims": [
+  {"claim": "It names AgID and the National Cybersecurity Agency (ACN) as national AI authorities", "file": "archive/IT-01/2026-10-11/official.html", "locator": null, "original_quote": null, "literal_translation": null, "verdict": "not in stored text"},
+  {"claim": "requires parental consent for children under 14 to use AI", "file": "archive/IT-01/2026-10-11/official.html", "locator": null, "original_quote": null, "literal_translation": null, "verdict": "not in stored text"},
+  {"claim": "It creates a criminal offence for unlawfully spreading AI-generated or altered content (deepfakes) and delegates the Government to adopt decrees aligning Italian law with the AI Act.", "file": "archive/IT-01/2026-10-11/official.html", "locator": "title only", "original_quote": "Disposizioni e deleghe al Governo in materia di intelligenza\nartificiale.", "literal_translation": "Provisions and delegations to the Government on artificial intelligence.", "verdict": "not in stored text"}
+ ],
+ "key_terms": [
+  {"original": "deleghe al Governo", "register_rendering": "delegations to the Government (title); delegates the Government to adopt decrees (summary)", "official_rendering": null, "verdict": "consistent", "note": "Legislative delegation under art. 76 of the Constitution; 'delegated powers' is a common alternative rendering. Only the title is in the stored text; the authorities' names (AgID, ACN) could not be checked against it."}
+ ],
+ "overall": "could not check",
+ "issues": [
+  "The stored copy has no article text, so none of the summary's claims (authorities, under-14 consent, deepfake offence, delegations) can be checked against a stored original; the verification note says the content rests on secondary legal summaries.",
+  "The record is level A on the strength of title, date and status only; storing the full text (the GU 'Atto Completo' or the Normattiva version) would allow the summary to be checked."
+ ],
+ "note": "Title, number, GU reference and entry into force (10/10/2025) in the stored heading agree with the record."}

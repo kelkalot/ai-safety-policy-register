@@ -1,0 +1,66 @@
+{
+  "id": "JP-05",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": ["archive/JP-05/2026-10-11/official.html", "archive/JP-05/2026-10-11/document-1.pdf", "archive/JP-05/2026-10-11/document-2.pdf", "archive/JP-05/2026-10-11/secondary.pdf"],
+    "usable": true,
+    "note": "Japanese: the Cabinet Office page (official.html) and the one-page Japanese overview of the guideline (document-1.pdf, ai_gl_2025g.pdf). English: the overview (document-2.pdf) and the full provisional translation (secondary.pdf). The full Japanese guideline (the 526 KB PDF linked on the page) is not stored, so claims were checked against the Japanese overview and, for detail, against the provisional translation."
+  },
+  "language_field": {"current": "Japanese, English", "proposed": "Japanese"},
+  "english_version": {
+    "kind": "official translation",
+    "url": "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_gl_eng_20260116.pdf",
+    "publisher": "Cabinet Office, Government of Japan",
+    "stored": true,
+    "evidence": {"file": "archive/JP-05/2026-10-11/secondary.pdf", "quote": "【Provisional translation】 ※Please refer to the original text for accuracy"},
+    "note": "Every page of the stored English text is headed 【Provisional translation】; the Japanese decision is the authoritative text, so English is not a language of the instrument."
+  },
+  "title": {
+    "verdict": "official English title",
+    "original_title_matches_source": true,
+    "source_quote": "Guideline for Ensuring the Appropriateness of Research & Development and Utilization of Artiﬁcial Intelligence-Related Technology",
+    "file": "archive/JP-05/2026-10-11/secondary.pdf",
+    "proposed": null,
+    "why": "The register title equals the provisional translation's title (the PDF uses the ligature 'ﬁ'). original_title matches the page's second heading and the Japanese overview ('人工知能関連技術の研究開発及び活用の適正性確保に関する指針'). The page's <title> and first heading misspell it as '適性性確保'; the register correctly uses '適正性確保'."
+  },
+  "summary_claims": [
+    {
+      "claim": "Government guideline under Article 13 of the AI Promotion Act, aligned with international norms.",
+      "file": "archive/JP-05/2026-10-11/document-1.pdf",
+      "locator": "page 1, 本指針の位置付け",
+      "original_quote": "ＡＩ法第13条に基づき、信頼できるＡＩの実現に向けて、国際的な規範の趣旨に即して策定。",
+      "literal_translation": "Formulated on the basis of Article 13 of the AI Act, toward the realisation of trustworthy AI, in keeping with the intent of international norms.",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "Developers and businesses are asked to set up AI governance, ensure adequate safety and be transparent.",
+      "file": "archive/JP-05/2026-10-11/document-1.pdf",
+      "locator": "page 1, 各主体が特に取り組むべき事項, column 活用事業者、研究開発機関",
+      "original_quote": "○技術を用いて十分な安全性を確保。",
+      "literal_translation": "Ensure sufficient safety by using technology.",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "Governments are asked to examine suitable governance approaches and be accountable for public-sector AI use.",
+      "file": "archive/JP-05/2026-10-11/document-1.pdf",
+      "locator": "page 1, 各主体が特に取り組むべき事項, column 国、地方公共団体",
+      "original_quote": "○行政の信頼性を確保するため、アカウンタビリティを果たす。",
+      "literal_translation": "Fulfil accountability in order to ensure the trustworthiness of public administration.",
+      "verdict": "accurate"
+    }
+  ],
+  "key_terms": [
+    {"original": "適正性確保", "register_rendering": "Ensuring the Appropriateness", "official_rendering": "Ensuring the Appropriateness", "verdict": "consistent", "note": "Title and section headings of the provisional translation."},
+    {"original": "活用事業者、研究開発機関", "register_rendering": "Developers and businesses", "official_rendering": "R&D Institutions and Utilization business operators", "verdict": "differs", "note": "活用事業者 is the AI Act's term for businesses that develop, provide or use AI; the register's 'developers and businesses' is defensible but not the official term."},
+    {"original": "本部決定", "register_rendering": "headquarters decision ... understood from context to be the AI Strategic Headquarters", "official_rendering": "Decision of the Artiﬁcial Intelligence Strategic Headquarters", "verdict": "consistent", "note": "The stored provisional translation names the body on its cover page, so the hedge in notes is unnecessary."}
+  ],
+  "overall": "minor issues",
+  "issues": [
+    "language field lists English, but the English text is a provisional translation; proposed 'Japanese'.",
+    "Notes say the deciding body is 'understood from context'; the stored English translation (secondary.pdf, page 1) states 'Decision of the Artiﬁcial Intelligence Strategic Headquarters'.",
+    "'Developers and businesses' renders 活用事業者、研究開発機関, officially 'Utilization business operators' and 'R&D institutions'."
+  ],
+  "note": "The summary's 'risk-based, life-cycle and agile AI governance' matches the overview's four basic policies ('① リスクベースでのアプローチ ② ステークホルダーの積極的な関与 ③ 一気通貫でのＡＩガバナンスの構築 ④ アジャイル（柔軟かつ迅速）な対応'); 一気通貫 is rendered 'life-cycle' in the official translation. For 'public-sector AI use', the translation's section 3(4) reads 'When utilizing AI in government administration, ... fulﬁll our accountability to the public'. The Cabinet Office page's list of ministry guidelines gives the AI Guidelines for Business a revision date of R8.3 (March 2026), relevant to JP-02."
+}

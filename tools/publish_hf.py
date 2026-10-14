@@ -265,7 +265,7 @@ The records are an **AI-based extraction**. AI agents researched each instrument
 | | |
 |---|---|
 | Agent | Claude Code, Anthropic's agentic coding tool, with its web search and web fetch tools; research passes and quality checks ran as agents following `AGENTS.md` |
-| Model | Claude Fable 5.1 (`claude-fable-5-1`), for every research pass and both quality checks |
+| Model | Claude Fable 5.1 (`claude-fable-5-1`), for the research passes and the two quality checks of version 1. Later pipeline runs and checks name their models in `meta.provenance` and in each run's report; the first refresh run extracted with Claude Opus 5.5 and checked with Claude Sonnet 5.5, and the translation check used Claude Opus 5.5 |
 | Other tools | a Python archiver that stores each source with its SHA-256 hash, headless Chromium for pages that need JavaScript, pypdf and Tesseract OCR for PDF text |
 | Research dates | 11 and 12 October 2026, in twelve research passes and two quality checks; `meta.provenance` in `raw/records.json` logs them |
 | Human review | Michael Riegler checked 50 randomly chosen records by hand and found no problems |
@@ -283,6 +283,12 @@ No human has reviewed every record. The hand check of 50 records rules out frequ
 Check the level before citing a record, and re-check level C records against the original.
 
 How the level was set depends on when a record was made. For the records of version 1, made before the pipeline, the agent that wrote each record also assigned its level; the two quality checks and the hand check of 50 records reviewed them. Records the pipeline adds or re-verifies get their level from a script that checks each quoted piece of evidence against the stored copy and the host it came from, and their History section names the run.
+
+## Languages and translation
+
+The register does not translate the instruments it lists. About a third of the records rest on a text that is not in English. For those, the summary was written in English by an AI agent that read the original as machine-extracted text, and the English title is the agent's rendering unless `english_version` names an English text of the issuer or a government translation (usually provisional, without legal force). For point-by-point work, quote and cite the original or that translation, not the summary.
+
+A translation check on 14 October 2026, by a second model (Claude Opus 5.5), compared 58 such records with their stored originals: every Chinese, Japanese, Korean and Vietnamese record and a random sample of 20 others. The English titles were accurate. Of 175 specific summary claims, 73 percent rendered the original accurately and 10 percent overstated, understated or mistranslated it; about one defined legal term in five was a near-synonym of the original's term. Six records had an error that changes the legal meaning, and 13 could not be checked because the stored copy lacks the instrument's own text. The report is `docs/translation-check-2026-10-14.md` in the [GitHub repository]({github}).
 
 ## Quick start
 
@@ -326,6 +332,7 @@ df.groupby(["region", "legal_force"]).size().unstack(fill_value=0)
 | `official_identifier` | The citable number: law or decree number, gazette reference, bill number, UN symbol, CELEX |
 | `official_url`, `secondary_url` | The official source and, where useful, a second authoritative source |
 | `language` | Language(s) of the official text |
+| `english_version`, `english_version_url`, `english_version_by` | Whether an English text exists: `authentic` (English is one of the official texts), `government translation` (by the issuer or another public body; usually provisional, without legal force), `third-party translation` (by anyone else) or `none found`, with the link and who translated it. Empty: not checked yet. See "Languages and translation" |
 | `summary`, `notes` | What the instrument does, with its safety content; status details, phased dates and discrepancies between sources |
 | `scope_note` | Empty for an instrument clearly in scope; for a borderline one, why it is included. The register is inclusive and flags such cases instead of leaving them out |
 | `safety_topics` | List of topics from a fixed vocabulary of 17, e.g. `general-purpose / frontier AI`, `incident reporting`, `child safety` |

@@ -1,0 +1,42 @@
+{"id": "SI-01", "checked_on": "2026-10-14", "tool": "Claude Code", "model": "claude-opus-5-5",
+ "stored_text": {"files": ["archive/SI-01/2026-10-12/official.html", "archive/SI-01/2026-10-12/document-1.pdf", "archive/SI-01/2026-10-12/secondary.html"], "usable": true,
+  "note": "official.html is the Uradni list RS HTML text of the act (promulgation decree and Articles 1-45). document-1.pdf is the whole gazette issue 85/2025 (text layer present). secondary.html is the Government news release of 24 October 2025. All three are in Slovenian."},
+ "language_field": {"current": "Slovenian", "proposed": "Slovenian"},
+ "english_version": {"kind": "none found", "url": "https://www.akos-rs.si/en/umetna-inteligenca/explore/frequently-asked-questions-and-answers/supervision-of-ai-systems", "publisher": "Agency for Communication Networks and Services (AKOS)", "stored": false, "evidence": null,
+  "note": "No English text in the stored files. One web search found no English translation of the act; AKOS has English web pages that describe the allocation of supervision under the act (lead only, not a translation, not stored), and law-firm and tracker summaries (CMS, Morrison Foerster, regulations.ai)."},
+ "title": {"verdict": "accurate rendering", "original_title_matches_source": false,
+  "source_quote": "Zakon o izvajanju uredbe (EU) o določitvi harmoniziranih pravil o umetni inteligenci (ZIUDHPUI)",
+  "file": "archive/SI-01/2026-10-12/official.html", "proposed": null,
+  "why": "The gazette writes 'uredbe' in lower case in the title (contents line, promulgation decree and every reference in issue 85/2025); original_title has 'Uredbe'. Only the government news release capitalises it. Otherwise identical. The English 'Act Implementing the Regulation (EU) laying down harmonised rules on artificial intelligence' is accurate; it uses the EU's own English wording for the regulation."},
+ "summary_claims": [
+  {"claim": "AKOS is the coordinating market surveillance authority for most Annex I and III areas and Article 50.",
+   "file": "archive/SI-01/2026-10-12/official.html", "locator": "Article 10(5)",
+   "original_quote": "Agencija je pristojna za nadzor nad skladnostjo visokotveganih sistemov UI, urejenih z zakonodajo Unije iz oddelka A Priloge I Uredbe 2024/1689/EU, z zahtevami Uredbe 2024/1689/EU, nad skladnostjo visokotveganih sistemov UI iz 2. in 4. točke ter pod (a) in (d) 5. točke Priloge III",
+   "literal_translation": "The Agency is competent to supervise the compliance of high-risk AI systems governed by the Union legislation in Section A of Annex I of Regulation 2024/1689/EU with the requirements of Regulation 2024/1689/EU, the compliance of high-risk AI systems in points 2 and 4 and under (a) and (d) of point 5 of Annex III",
+   "verdict": "overstated"},
+  {"claim": "The Information Commissioner supervises the Article 5 prohibitions.",
+   "file": "archive/SI-01/2026-10-12/official.html", "locator": "Article 10(1)",
+   "original_quote": "(1) Informacijski pooblaščenec je pristojen za nadzor nad določbami 5. člena Uredbe 2024/1689/EU in nad skladnostjo visokotveganih sistemov UI iz 1. in 3. ter 6. do 8. točke Priloge III Uredbe 2024/1689/EU z zahtevami Uredbe 2024/1689/EU.",
+   "literal_translation": "(1) The Information Commissioner is competent to supervise the provisions of Article 5 of Regulation 2024/1689/EU and the compliance of high-risk AI systems in points 1 and 3 and 6 to 8 of Annex III of Regulation 2024/1689/EU with the requirements of Regulation 2024/1689/EU.",
+   "verdict": "understated"},
+  {"claim": "Fines reach EUR 35 million or 7%.",
+   "file": "archive/SI-01/2026-10-12/official.html", "locator": "Article 26(5)",
+   "original_quote": "se ponudnik ali uvajalec, ki je pravna oseba, samostojni podjetnik posameznik ali posameznik, ki samostojno opravlja dejavnost, kaznuje z globo v višini do 35.000.000 eurov ali do sedem odstotkov skupnega svetovnega letnega prometa za preteklo poslovno leto, odvisno od tega, kateri znesek je višji.",
+   "literal_translation": "the provider or deployer that is a legal person, sole trader or self-employed individual is punished with a fine of up to EUR 35,000,000 or up to seven percent of total worldwide annual turnover for the preceding financial year, whichever is higher.",
+   "verdict": "accurate"}
+ ],
+ "key_terms": [
+  {"original": "ministrstvo, pristojno za trg", "register_rendering": "the ministry for trade", "official_rendering": null, "verdict": "differs",
+   "note": "Literally 'the ministry responsible for the market' (Article 3(1), notifying authority for most Annex I Section A products). The Government's release (secondary.html) calls it the ministry responsible for the economy ('ministrstva, pristojna za gospodarstvo'). 'ministry responsible for the economy (market)' would be closer than 'trade'."},
+  {"original": "organ za nadzor trga; priglasitveni organ", "register_rendering": "market surveillance authority; notifying authority", "official_rendering": "market surveillance authority; notifying authority", "verdict": "consistent",
+   "note": "These are the Slovenian-language terms of Regulation 2024/1689 itself; the register uses the Regulation's English terms."},
+  {"original": "Nacionalni svet za etiko v umetni inteligenci", "register_rendering": "National Council for Ethics in AI", "official_rendering": null, "verdict": "consistent",
+   "note": "Literal (Article 23). Five members, five-year mandate, appointed by the Government."}
+ ],
+ "overall": "errors",
+ "issues": [
+  "The summary gives AKOS 'most Annex I and III areas' and the Information Commissioner only the Article 5 prohibitions. Article 10 gives AKOS all of Annex I Section A but only Annex III points 2, 4, 5(a) and 5(d) (plus Article 50); the Information Commissioner supervises Article 5 and Annex III points 1, 3, 6, 7 and 8 (biometrics, education, law enforcement, migration, administration of justice). The summary misstates which body supervises most Annex III high-risk areas.",
+  "'ministries for trade' renders 'ministrstvo, pristojno za trg' (ministry responsible for the market); the Government release names the economy ministry.",
+  "original_title capitalises 'Uredbe'; the gazette title has 'uredbe'."
+ ],
+ "note": "Also checked against the stored text: AKOS as single point of contact (Art. 7), coordinator of the market-surveillance coordination council (Art. 15), sandbox authority (Art. 17), keeper of the record of Annex III point 2 high-risk systems (Art. 18) and entry point for SMEs (Art. 19); the Bank of Slovenia, the Insurance Supervision Agency and the Market Inspectorate for credit and insurance (Art. 10(2)-(4)); the accreditation body assessing conformity assessment bodies (Art. 5, which names the function, not 'Slovenian Accreditation'); adoption 23 October 2025, promulgation 31 October 2025, entry into force on the fifteenth day after publication (Art. 45). All match."}

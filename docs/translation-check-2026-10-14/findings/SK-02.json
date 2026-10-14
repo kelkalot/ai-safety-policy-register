@@ -1,0 +1,35 @@
+{"id": "SK-02", "checked_on": "2026-10-14", "tool": "Claude Code", "model": "claude-opus-5-5",
+ "stored_text": {"files": ["archive/SK-02/2026-10-12/official.html", "archive/SK-02/2026-10-12/secondary.html"], "usable": false,
+  "note": "official.html is the National Council's page for print 1447: title, date of receipt, submitter, committees, deadlines and links to the bill text ('Návrh zákona'), the explanatory memorandum ('Dôvodová správa') and consolidated texts, none of which is stored. secondary.html is the first-reading resolution no. 1631 of 17 September 2026. Both are in Slovak and usable for the title and the procedure, but no stored file contains the bill's provisions, so none of the summary's content claims can be checked."},
+ "language_field": {"current": "Slovak", "proposed": "Slovak"},
+ "english_version": {"kind": "none found", "url": null, "publisher": null, "stored": false, "evidence": null,
+  "note": "No English text in the stored files. One web search found only tracker entries (regulations.ai) with their own English titles, no translation by a Slovak public body."},
+ "title": {"verdict": "accurate rendering", "original_title_matches_source": true,
+  "source_quote": "Vládny návrh zákona o štátnej správe v oblasti umelej inteligencie a európskej dátovej regulácie a o zmene a doplnení niektorých zákonov",
+  "file": "archive/SK-02/2026-10-12/official.html", "proposed": null,
+  "why": "original_title matches the stored title exactly. The English is accurate; 'o zmene a doplnení niektorých zákonov' is literally 'on amending and supplementing certain acts', and 'on amendments to certain acts' drops 'supplementing', a usual simplification of this fixed Slovak formula. 'parliamentary print 1447' renders 'parlamentná tlač 1447'."},
+ "summary_claims": [
+  {"claim": "MIRRI SR becomes general market surveillance authority and single point of contact; the Office of Standards, Metrology and Testing is the notifying authority.",
+   "file": null, "locator": null, "original_quote": null, "literal_translation": null,
+   "verdict": "not in stored text"},
+  {"claim": "Fines for AI Act breaches follow Article 99 and are preceded by a remediation order of at most 15 working days.",
+   "file": null, "locator": null, "original_quote": null, "literal_translation": null,
+   "verdict": "not in stored text"},
+  {"claim": "Proposed effect: 1 January 2027.",
+   "file": null, "locator": null, "original_quote": null, "literal_translation": null,
+   "verdict": "not in stored text"}
+ ],
+ "key_terms": [
+  {"original": "štátna správa v oblasti umelej inteligencie a európskej dátovej regulácie", "register_rendering": "state administration in the field of artificial intelligence and European data regulation", "official_rendering": null, "verdict": "consistent",
+   "note": "Literal."},
+  {"original": "gestorský výbor", "register_rendering": "lead committee", "official_rendering": null, "verdict": "consistent",
+   "note": "Stored page: 'Predseda NR SR navrhol ako gestorský výbor Výbor NR SR pre verejnú správu a regionálny rozvoj'. 'Lead committee' (or 'committee responsible') is the usual English."},
+  {"original": "parlamentná tlač", "register_rendering": "parliamentary print", "official_rendering": null, "verdict": "consistent",
+   "note": "Literal; the usual English for the National Council's document series."}
+ ],
+ "overall": "could not check",
+ "issues": [
+  "None of the summary's content (MIRRI as general market surveillance authority and single point of contact, ÚNMS as notifying authority, the sectoral authorities, the sandbox, the 15-working-day remediation order, effect on 1 January 2027) is in a stored file; per the verification note it rests on the aiprioritymap summary. The bill text and explanatory memorandum linked from the stored page should be stored and read.",
+  "'As described in the bill:' in the summary is a sourcing hedge; under AGENTS.md rule 5 it belongs in verification.note, and here it is also inaccurate, because the content was taken from a secondary summary, not from the bill."
+ ],
+ "note": "Checked and matching the stored text: the title, submitter (Government, MIRRI SR), receipt on 28 August 2026, the resolution of 17 September 2026 sending the bill to second reading, the three committees with the public administration and regional development committee as lead committee, and the deadlines of 13 and 16 November 2026."}

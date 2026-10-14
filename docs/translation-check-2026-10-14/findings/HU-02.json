@@ -1,0 +1,90 @@
+{
+ "id": "HU-02",
+ "checked_on": "2026-10-14",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "stored_text": {
+  "files": [
+   "archive/HU-02/2026-10-11/official.html",
+   "archive/HU-02/2026-10-11/document-1.pdf"
+  ],
+  "usable": true,
+  "note": "official.html is the njt.jog.gov.hu page with the consolidated Hungarian text in its state of 2 Oct 2026 (§§ 1-10, footnotes on the 224/2026 amendment and on spent §§ 8-10 and the annex). document-1.pdf is the wrong document: the njt site's accessibility statement, identical to the PDF stored for HU-01."
+ },
+ "language_field": {
+  "current": "Hungarian",
+  "proposed": "Hungarian"
+ },
+ "english_version": {
+  "kind": "none found",
+  "url": null,
+  "publisher": null,
+  "stored": false,
+  "evidence": null,
+  "note": "No English text in the stored files. One web search for the decree found only law-firm and database summaries (CMS, regulations.ai), no translation by a public body."
+ },
+ "title": {
+  "verdict": "accurate rendering",
+  "original_title_matches_source": false,
+  "source_quote": "344/2025. (X. 31.) Korm. rendelet\naz Európai Unió mesterséges intelligenciáról szóló rendeletének magyarországi végrehajtásáról szóló 2025. évi LXXV. törvény végrehajtásáról",
+  "file": "archive/HU-02/2026-10-11/official.html",
+  "proposed": null,
+  "why": "The English title is an accurate rendering. original_title is not verbatim: it puts the descriptive part in parentheses and ends with 'végrehajtása' instead of the source's 'végrehajtásáról'. The verification note says the title was given in descriptive form because the page did not reproduce it verbatim, but the stored page does carry the full title; original_title can be replaced by the source_quote (joined with a space)."
+ },
+ "summary_claims": [
+  {
+   "claim": "It designates the National Accreditation Authority as Hungary's AI notifying authority and the minister responsible for enterprise development as AI market surveillance authority and single point of contact under Article 70 of the AI Act.",
+   "file": "archive/HU-02/2026-10-11/official.html",
+   "locator": "1. § (1)",
+   "original_quote": "a) 28. cikke szerinti bejelentő hatóság (a továbbiakban: MI bejelentő hatóság) feladatainak ellátására a Nemzeti Akkreditáló Hatóságot, b) 70. cikke szerinti piacfelügyeleti hatóság (a továbbiakban: MI piacfelügyeleti hatóság) feladatainak ellátására a vállalkozásfejlesztésért felelős minisztert",
+   "literal_translation": "[The Government designates] a) to perform the tasks of the notifying authority under Article 28 (hereinafter: AI notifying authority), the National Accreditation Authority, b) to perform the tasks of the market surveillance authority under Article 70 (hereinafter: AI market surveillance authority), the minister responsible for enterprise development [and c) for the single point of contact under Article 70(2), the minister].",
+   "verdict": "accurate"
+  },
+  {
+   "claim": "It converts the AI Act's maximum fines into forint amounts (HUF 13.3 billion, 5.7 billion and 2.85 billion under Article 99; HUF 570 million and 285 million under Article 100), payable within 30 days",
+   "file": "archive/HU-02/2026-10-11/official.html",
+   "locator": "4. § (1) b) ba)-be) and 4. § (2)",
+   "original_quote": "ba) 99. cikk (3) bekezdése alkalmazásában 13 300 000 000 forint, bb) 99. cikk (4) bekezdése alkalmazásában 5 700 000 000 forint, bc) 99. cikk (5) bekezdése alkalmazásában 2 850 000 000 forint, bd) 100. cikk (2) bekezdése alkalmazásában 570 000 000 forint,",
+   "literal_translation": "ba) for the purposes of Article 99(3), HUF 13,300,000,000; bb) for Article 99(4), HUF 5,700,000,000; bc) for Article 99(5), HUF 2,850,000,000; bd) for Article 100(2), HUF 570,000,000; be) for Article 100(3), HUF 285,000,000. [4. § (2): the fine must be paid within 30 days to the AI market surveillance authority.]",
+   "verdict": "accurate"
+  },
+  {
+   "claim": "the authorities report at least annually to the Government and the Hungarian AI Council, and accredited conformity assessment bodies report by 31 January each year",
+   "file": "archive/HU-02/2026-10-11/official.html",
+   "locator": "1. § (4) and 2. § (5)",
+   "original_quote": "(4) Az MI bejelentő hatóság és az MI piacfelügyeleti hatóság kérésre, de legalább évente beszámol a Kormány és a Magyar Mesterséges Intelligencia Tanács felé [...] (5) A kijelölt szervezet [...] jelentést minden évben január 31-ig megküldi az MI bejelentő hatóságnak",
+   "literal_translation": "(4) The AI notifying authority and the AI market surveillance authority report on request, but at least annually, to the Government and the Hungarian Artificial Intelligence Council [...] (5) The designated body sends the report on its conformity assessment activity in the previous year to the AI notifying authority by 31 January each year.",
+   "verdict": "accurate"
+  }
+ ],
+ "key_terms": [
+  {
+   "original": "Nemzeti Akkreditáló Hatóság",
+   "register_rendering": "National Accreditation Authority",
+   "official_rendering": null,
+   "verdict": "consistent",
+   "note": ""
+  },
+  {
+   "original": "kijelölt szervezet",
+   "register_rendering": "accredited conformity assessment bodies",
+   "official_rendering": null,
+   "verdict": "differs",
+   "note": "Literally 'designated body' (the body designated and notified by the AI notifying authority); accreditation is the precondition for designation (2. § (1)), so the meaning is close but the term differs."
+  },
+  {
+   "original": "vállalkozásfejlesztésért felelős miniszter",
+   "register_rendering": "minister responsible for enterprise development",
+   "official_rendering": null,
+   "verdict": "consistent",
+   "note": ""
+  }
+ ],
+ "overall": "minor issues",
+ "issues": [
+  "original_title is not verbatim; the stored page has the full title '344/2025. (X. 31.) Korm. rendelet az Európai Unió mesterséges intelligenciáról szóló rendeletének magyarországi végrehajtásáról szóló 2025. évi LXXV. törvény végrehajtásáról', contrary to the verification note.",
+  "'accredited conformity assessment bodies' renders 'kijelölt szervezet' (designated body).",
+  "document-1.pdf is the njt site's accessibility statement, not a source for the decree."
+ ],
+ "note": "The current text (state 2 Oct 2026) still designates the minister responsible for enterprise development in 1. § (1) b); footnote 1 records only the repeal of 5. § (1) e) by 224/2026 (X. 1.)."
+}

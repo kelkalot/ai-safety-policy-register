@@ -1,0 +1,66 @@
+{
+  "id": "JP-01",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": ["archive/JP-01/2026-10-11/official.html", "archive/JP-01/2026-10-11/document-2.pdf", "archive/JP-01/2026-10-11/document-1.pdf"],
+    "usable": true,
+    "note": "official.html is the Japanese 'About AISI' page (mandate, history, tasks, director). document-2.pdf is AISI's Japanese overview deck dated 2026-07-01 and document-1.pdf its English counterpart of the same date. The record describes a body, so there is no founding legal instrument; these pages are the issuer's own descriptions. The IPA press release (secondary) was not stored (HTTP 404)."
+  },
+  "language_field": {"current": "Japanese, English", "proposed": "Japanese, English"},
+  "english_version": {
+    "kind": "authentic",
+    "url": "https://aisi.go.jp/assets/pdf/20260708_AISI_en.pdf",
+    "publisher": "Japan AI Safety Institute (J-AISI)",
+    "stored": true,
+    "evidence": {"file": "archive/JP-01/2026-10-11/document-1.pdf", "quote": "Japan AI Safety Institute (J-AISI)"},
+    "note": "J-AISI publishes its own English overview deck alongside the Japanese one (same date, 2026-07-01), with no 'provisional translation' label, and the About page links an English version. As there is no legal text, 'authentic' here means the issuer's own English edition of its self-description."
+  },
+  "title": {
+    "verdict": "accurate rendering",
+    "original_title_matches_source": true,
+    "source_quote": "AIセーフティ・インスティテュート（AISI）について",
+    "file": "archive/JP-01/2026-10-11/document-2.pdf",
+    "proposed": null,
+    "why": "original_title is the institute's name as written in the Japanese deck (the About page writes it with half-width brackets: 'AIセーフティ・インスティテュート (AISI)'). The body's official English name in the stored English deck is 'Japan AI Safety Institute (J-AISI)'; the register adds 'Establishment of', a descriptive prefix for a body record rather than part of any official title. Acceptable, but not an official title."
+  },
+  "summary_claims": [
+    {
+      "claim": "Japan's AI Safety Institute, the central government body for AI safety.",
+      "file": "archive/JP-01/2026-10-11/official.html",
+      "locator": "AISI設立の経緯 (history), last paragraph",
+      "original_quote": "「統合イノベーション戦略2024」（2024年6月4日閣議決定）に基づき、AISIはAI安全性の中心的機関としてIPAに設置され",
+      "literal_translation": "Based on the 'Integrated Innovation Strategy 2024' (Cabinet decision of 4 June 2024), AISI is established within IPA as the central institution for AI safety",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "It develops and promotes methods and standards for evaluating AI safety.",
+      "file": "archive/JP-01/2026-10-11/official.html",
+      "locator": "AISIについて, opening paragraph",
+      "original_quote": "AIセーフティ・インスティテュート (AISI)は、安全・安心で信頼できるAIの実現に向けて、AIの安全性に関する評価手法や基準の検討・推進を行うための機関です。",
+      "literal_translation": "The AI Safety Institute (AISI) is a body for examining and promoting evaluation methods and standards concerning AI safety, toward the realisation of safe, secure and trustworthy AI.",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "It cooperates with counterpart institutes such as those of the UK and US.",
+      "file": "archive/JP-01/2026-10-11/official.html",
+      "locator": "AISIの業務 (tasks), item 3",
+      "original_quote": "３．他国の関係機関（英米のAI Safety Institute等）との国際連携に関する業務",
+      "literal_translation": "3. Work on international cooperation with related bodies of other countries (the UK and US AI Safety Institutes, etc.)",
+      "verdict": "accurate"
+    }
+  ],
+  "key_terms": [
+    {"original": "AIセーフティ・インスティテュート（AISI）", "register_rendering": "Japan AI Safety Institute (J-AISI) / AI Safety Institute", "official_rendering": "Japan AI Safety Institute (J-AISI)", "verdict": "consistent", "note": "Official English name from the stored English deck (document-1.pdf, page 1)."},
+    {"original": "中心的機関 (About page) / 中心機関 (deck, page 4)", "register_rendering": "the central government body for AI safety", "official_rendering": "the central institution for AI Safety in Japan", "verdict": "differs", "note": "The English deck (page 4) says 'J-AISI is designated as the central institution for AI Safety in Japan.' The Japanese deck (page 7) calls AISI a 政府関係機関 ('government-related organization') whose secretariat sits in IPA. 'Central government body' can be read as 'a body of the central government', which slightly overstates its status."},
+    {"original": "非常勤", "register_rendering": "part-time", "official_rendering": null, "verdict": "consistent", "note": "Used in notes for the Executive Director (所長 村上 明子（非常勤）)."}
+  ],
+  "overall": "minor issues",
+  "issues": [
+    "Summary calls AISI 'the central government body for AI safety'; the source says 中心的機関 ('central institution', as in J-AISI's own English deck) and describes AISI as a government-related organisation housed in IPA.",
+    "Title prefix 'Establishment of' is the register's own; the official English name is 'Japan AI Safety Institute (J-AISI)'.",
+    "'Develops' renders 検討 ('examine, study'); the Japanese describes AISI as examining and promoting evaluation methods and standards, which is slightly weaker."
+  ],
+  "note": "Notes (announcement by PM Kishida at the AI Strategy Council on 21 Dec 2023, launch on 14 Feb 2024, Executive Director Akiko Murakami part-time) match official.html. The English deck names IPA inconsistently ('Innovation Platform Agency（IPA）' on pages 7 and 10, 'IT Promotion Agency, Japan (IPA)' on page 8); the register uses the name in the site footer, 'Information-technology Promotion Agency, Japan（IPA）'. No web search was needed."
+}

@@ -1,0 +1,82 @@
+{
+  "id": "CN-05",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": ["archive/CN-05/2026-10-11/official.html"],
+    "usable": true,
+    "note": "official.html is the Ministry of Foreign Affairs English page with the full English text, marked 'Updated: October 20, 2023 15:14'. No Chinese text is stored: the gov.cn copy was not downloaded (robots.txt unreachable). The claims were checked against the issuer's English text. The Chinese original_title cannot be checked against any stored file."
+  },
+  "language_field": {"current": "Chinese, English", "proposed": "Chinese, English"},
+  "english_version": {
+    "kind": "authentic",
+    "url": "https://www.mfa.gov.cn/eng/zy/gb/202405/t20240531_11367503.html",
+    "publisher": "Ministry of Foreign Affairs of the People's Republic of China",
+    "stored": true,
+    "evidence": {"file": "archive/CN-05/2026-10-11/official.html", "quote": "Global AI Governance Initiative_Ministry of Foreign Affairs of the People's Republic of China"},
+    "note": "The issuer's own English text, published by the MFA under Resources > Communiqués; the MFA site also offers French, Spanish, Russian and Arabic. The initiative was announced in Chinese on 18 Oct 2023, and the English page is dated two days later. A non-binding political statement has no rule on which language prevails, so 'official translation' would also be defensible. No web search was needed."
+  },
+  "title": {
+    "verdict": "official English title",
+    "original_title_matches_source": null,
+    "source_quote": "Global AI Governance Initiative",
+    "file": "archive/CN-05/2026-10-11/official.html",
+    "proposed": null,
+    "why": "The register title is identical to the MFA's English title. original_title 全球人工智能治理倡议 corresponds word for word (全球 global, 人工智能 AI, 治理 governance, 倡议 initiative), but no stored file contains the Chinese title, so the match with the source is unverified (null)."
+  },
+  "summary_claims": [
+    {
+      "claim": "It calls for a testing and assessment system based on AI risk levels, tiered and category-based management ...",
+      "file": "archive/CN-05/2026-10-11/official.html",
+      "locator": "9th paragraph of the text, 5th proposal after 'To make this happen, we would like to suggest the following:'",
+      "original_quote": "We should promote the establishment of a testing and assessment system based on AI risk levels, implement agile governance, and carry out tiered and category-based management for rapid and effective response.",
+      "literal_translation": null,
+      "verdict": "accurate",
+      "note": "Quote is from the issuer's English text, so no translation is needed. The summary repeats the MFA's wording."
+    },
+    {
+      "claim": "... keeping AI under human control, explainability and traceability ...",
+      "file": "archive/CN-05/2026-10-11/official.html",
+      "locator": "same paragraph, second sentence",
+      "original_quote": "R&D entities should improve the explainability and predictability of AI, increase data authenticity and accuracy, ensure that AI always remains under human control, and build trustworthy AI technologies that can be reviewed, monitored, and traced.",
+      "literal_translation": null,
+      "verdict": "accurate",
+      "note": "The text addresses these points to R&D entities; the summary presents them as general calls, which is a fair reading of a position statement."
+    },
+    {
+      "claim": "... and discussions under the UN on an international institution to govern AI.",
+      "file": "archive/CN-05/2026-10-11/official.html",
+      "locator": "last paragraph",
+      "original_quote": "We support discussions within the United Nations framework to establish an international institution to govern AI, and to coordinate efforts to address major issues concerning international AI development, security, and governance.",
+      "literal_translation": null,
+      "verdict": "accurate"
+    }
+  ],
+  "key_terms": [
+    {
+      "original": "(Chinese text not stored)",
+      "register_rendering": "testing and assessment system based on AI risk levels",
+      "official_rendering": "a testing and assessment system based on AI risk levels",
+      "verdict": "consistent",
+      "note": "Same words as the MFA English text."
+    },
+    {
+      "original": "(Chinese text not stored)",
+      "register_rendering": "tiered and category-based management",
+      "official_rendering": "tiered and category-based management",
+      "verdict": "consistent",
+      "note": "Same words as the MFA English text."
+    },
+    {
+      "original": "(Chinese text not stored)",
+      "register_rendering": "a prudent and responsible approach to military AI",
+      "official_rendering": "a prudent and responsible attitude to the research, development, and application of AI technologies in the military field",
+      "verdict": "consistent",
+      "note": "Faithful paraphrase. The text addresses it to 'All countries, especially major countries'."
+    }
+  ],
+  "overall": "ok",
+  "issues": [],
+  "note": "Checked against the issuer's English text only. The Chinese text, which was announced first, is not stored, so original_title and any differences between the Chinese and English versions were not checked. Storing the Chinese MFA or gov.cn text would close that gap."
+}

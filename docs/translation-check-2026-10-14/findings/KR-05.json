@@ -1,0 +1,93 @@
+{
+  "id": "KR-05",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": [
+      "archive/KR-05/2026-10-12/official.pdf"
+    ],
+    "usable": true,
+    "note": "official.pdf is the full NIA copy (71 PDF pages). pypdf returns garbled glyphs for this file, so the text was read with pdftotext, which gives clean Korean. The cover (PDF page 1) is image-only; read from a rendering, it shows '인공지능 안전성 확보 가이드라인', '2026. 1' and the logos of MSIT (과학기술정보통신부) and ETRI (한국전자통신연구원). The running header on every page misprints the title as '인공지능 안정성 확보 가이드라인' (안정성, 'stability'). The KOSA version mentioned in the notes was not stored."
+  },
+  "language_field": {
+    "current": "Korean",
+    "proposed": "Korean"
+  },
+  "english_version": {
+    "kind": "none found",
+    "url": null,
+    "publisher": null,
+    "stored": false,
+    "evidence": null,
+    "note": "No English text in the stored file apart from glosses such as 'Floating Point Operations, FLOPs'. A web search for MSIT English versions of the AI Basic Act guidelines found none."
+  },
+  "title": {
+    "verdict": "accurate rendering",
+    "original_title_matches_source": false,
+    "source_quote": "이 가이드라인(안)은 전문가, 실무자, 그리고 다양한 이해관계자의 의견을 모아, 해외 동향과 인공지능 기술의 발전, 서비스 형태 등을 종합적으로 반영해 작성 중인 자료입니다.",
+    "file": "archive/KR-05/2026-10-12/official.pdf",
+    "proposed": null,
+    "why": "'Guideline on Securing AI Safety' renders 인공지능 안전성 확보 가이드라인 correctly. original_title '인공지능 안전성 확보 가이드라인(안)' is not verbatim anywhere: the cover reads '인공지능 안전성 확보 가이드라인' without '(안)', and the NIA file name has no '(안)' either. The draft marker comes from the page-2 notice, which calls the document '이 가이드라인(안)' ('this guideline (draft)'). Rendering 'draft' in the English title is fair; the '(안)' in original_title is the register's composition. The parenthetical 'Article 32 of the AI Basic Act' is a register addition."
+  },
+  "summary_claims": [
+    {
+      "claim": "covers AI trained with at least 10^26 floating-point operations of cumulative compute, using frontier-level technology and posing a risk of broad, serious impact on life, safety or fundamental rights",
+      "file": "archive/KR-05/2026-10-12/official.pdf",
+      "locator": "PDF page 8, section 2-2 (decree Art. 24(1))",
+      "original_quote": "1. 학습에 사용된 누적 연산량이 10의 26승 부동소수점연산 이상일 것 2. 인공지능기술의 발전 수준을 고려할 때 현재 인공지능시스템에 활용되는 인공지능기술 중 최첨단의 인공지능기술을 적용하여 구성ㆍ운영되고 있을 것 3. 인공지능시스템의 위험도가 사람의 생명, 신체의 안전 및 기본권에 광범위하고 중대한 영향을 미칠 우려가 있을 것",
+      "literal_translation": "1. the cumulative compute used for training is 10^26 floating-point operations or more; 2. considering the state of AI technology, it is built and operated applying the most advanced AI technology among those currently used in AI systems; 3. the AI system's risk level is such that it may have a broad and serious impact on human life, physical safety and fundamental rights",
+      "verdict": "accurate",
+      "note": "All three criteria must be met (모두 충족). 'Frontier-level technology' is a free rendering of 최첨단의 인공지능기술."
+    },
+    {
+      "claim": "It explains how to determine whether a system and operator are in scope; risk identification, assessment and mitigation across the life cycle; a risk-management system with safety-incident prevention and response; and reporting",
+      "file": "archive/KR-05/2026-10-12/official.pdf",
+      "locator": "PDF page 3, table of contents",
+      "original_quote": "02 ❘적용 대상 및 의무 주체 판단 14 1. 적용 대상 판단 14 2. 의무 주체 판단 22 03 ❘수명주기 전반에 걸친 위험관리 26",
+      "literal_translation": "02 | Determining scope and the duty-bearer 14; 1. Determining the systems in scope 14; 2. Determining the duty-bearer 22; 03 | Risk management across the life cycle 26",
+      "verdict": "accurate",
+      "note": "Chapters 04 '안전사고 모니터링 및 대응' (safety-incident monitoring and response) and 05 '보고 및 제출' (reporting and submission) follow on the same page."
+    },
+    {
+      "claim": "including submission of safety-measure results to the Minister within three months of recognising applicability",
+      "file": "archive/KR-05/2026-10-12/official.pdf",
+      "locator": "PDF page 12, section 2-3, draft notification Art. 8(1)",
+      "original_quote": "① 인공지능사업자는 인공지능이 영 제24조제1항에 해당된다고 인지한 날로부터 3개월 이내에 제4조부터 제7조까지에 따른 조치(이하 “안전성 확보 조치”라 한다) 사항을 문서로 작성하여 과학기술정보통신부장관에게 제출하여야 한다.",
+      "literal_translation": "(1) An AI business operator shall, within three months of the day it recognises that its AI falls under Article 24(1) of the Decree, document the measures under Articles 4 to 7 (the 'safety measures') and submit them to the Minister of Science and ICT.",
+      "verdict": "accurate",
+      "note": "The rule comes from the draft notification reproduced in the guideline, not from the guideline's own text, as the verification note says."
+    }
+  ],
+  "key_terms": [
+    {
+      "original": "인공지능 안전성 확보 의무",
+      "register_rendering": "safety duty (Article 32)",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "Literally 'duty to secure AI safety'."
+    },
+    {
+      "original": "최첨단의 인공지능기술",
+      "register_rendering": "frontier-level technology (summary); 'frontier AI' (short_title)",
+      "official_rendering": null,
+      "verdict": "differs",
+      "note": "Literally 'the most advanced (cutting-edge) AI technology currently in use'. 'Frontier' does not appear in the text, but the meaning is kept."
+    },
+    {
+      "original": "인공지능 관련 안전사고",
+      "register_rendering": "safety incident",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "Literally 'AI-related safety accident'. The draft notification defines it as a case in which a risk actually materialises, or serious harm to public safety occurs, because of an AI failure or similar cause (Art. 2(4))."
+    }
+  ],
+  "overall": "minor issues",
+  "issues": [
+    "Notes attribute the incident-reporting timelines (24 hours, 7 days, 15 days) to the KOSA version only, but the stored NIA version already contains them (draft notification Art. 8(3), PDF page 12: '사고발생 보고 : 사고발생 인지 시점으로부터 24시간 이내'; 7 and 15 days counted from the incident-report date).",
+    "original_title '인공지능 안전성 확보 가이드라인(안)' is not verbatim on the cover or in the file name; '(안)' comes from the page-2 draft notice.",
+    "'Frontier-level technology' freely renders 최첨단의 인공지능기술.",
+    "Not a translation issue: the cover carries the MSIT and ETRI logos; ETRI is not named in issuing_body."
+  ],
+  "note": "The draft status is well supported: the page-2 notice says the material is still being written and 'may differ from the final version to be published' ('앞으로 공개될 최종본과는 달라질 수 있습니다'), and the notification number is left blank ('과학기술정보통신부 고시 제2026-○○호', PDF page 5)."
+}

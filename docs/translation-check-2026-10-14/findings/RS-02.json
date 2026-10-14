@@ -1,0 +1,41 @@
+{"id": "RS-02", "checked_on": "2026-10-14", "tool": "Claude Code", "model": "claude-opus-5-5",
+ "stored_text": {"files": ["archive/RS-02/2026-10-12/official.pdf", "archive/RS-02/2026-10-12/secondary.html"], "usable": true,
+  "note": "official.pdf is the full Serbian (Cyrillic) strategy text from the Ministry of Science site, with a text layer; the layer splits some words with stray spaces ('безбедн а') and drops the en dash in '2025–2030'. secondary.html is the Government's strategy page and gives the title in the nominative."},
+ "language_field": {"current": "Serbian", "proposed": "Serbian"},
+ "english_version": {"kind": "none found", "url": null, "publisher": null, "stored": false, "evidence": null,
+  "note": "No English text in the stored files. One web search found an English condensed version of the earlier 2020-2025 strategy (OECD-hosted) and English news (Tanjug) and tracker summaries for 2025-2030, but no English text of the 2025-2030 strategy."},
+ "title": {"verdict": "accurate rendering", "original_title_matches_source": true,
+  "source_quote": "Стратегија развоја вештачке интелигенције у Републици Србији за период 2025-2030. године",
+  "file": "archive/RS-02/2026-10-12/secondary.html", "proposed": null,
+  "why": "original_title matches the Government page title except that the record has an en dash where the page has a hyphen; the PDF heading has the same words in the accusative after 'Влада усваја' (СТРАТЕГИЈУ ...). The English follows the form the Government used for the 2020-2025 strategy and is accurate."},
+ "summary_claims": [
+  {"claim": "Its first special objective is a clear institutional and legal framework through a dedicated law regulating the application of AI so that its use is secure, safe and reliable and aligned with international standards while enabling innovation.",
+   "file": "archive/RS-02/2026-10-12/official.pdf", "locator": "page 2, introduction, list of aims",
+   "original_quote": "Обезбеди јасан и ефикасан институционални и правни оквир доношењем посебног закона који ће регулисати примену вештачке интелигенције , којим се омогућава њена сигурна, безбедн а и поуздан а примена усклађена са међународним стандардима и креирају услови за подстицање иновација",
+   "literal_translation": "Ensure a clear and effective institutional and legal framework by adopting a special law that will regulate the application of artificial intelligence, enabling its safe, secure and trustworthy application in line with international standards, and creating conditions for encouraging innovation",
+   "verdict": "accurate"},
+  {"claim": "It reviews the risks to be addressed (privacy, algorithmic bias, misuse, inequality, absence of clear rules, energy use).",
+   "file": "archive/RS-02/2026-10-12/official.pdf", "locator": "page 10, section on the international context",
+   "original_quote": "Етичка питања попут заштите приватности, пристрасности у алгоритмима и потенцијалних злоупотреба постају све важнија. Осим тога, постоји ризик да ће аутоматизација коју покреће ВИ повећати неједнакости",
+   "literal_translation": "Ethical issues such as the protection of privacy, bias in algorithms and potential misuse are becoming ever more important. In addition, there is a risk that automation driven by AI will increase inequalities",
+   "verdict": "accurate"},
+  {"claim": "Secondary sources report that it schedules the AI law for the end of 2027.",
+   "file": "archive/RS-02/2026-10-12/official.pdf", "locator": "page 26, Objective 1, indicator 1",
+   "original_quote": "Циљна вредност за крај 2027. године: Пуна примена Закона о вештачкој интелигенцији",
+   "literal_translation": "Target value for the end of 2027: Full application of the Law on Artificial Intelligence",
+   "verdict": "accurate"}
+ ],
+ "key_terms": [
+  {"original": "сигурна, безбедна и поуздана (примена вештачке интелигенције)", "register_rendering": "secure, safe and reliable", "official_rendering": "safe, secure and trustworthy", "verdict": "differs",
+   "note": "The strategy itself glosses the same triad, in its reference to the UN General Assembly resolution, with the English 'safe, secure and trustworthy' (page 11: '(енг. Seizing the opportunities of safe, secure and trustworthy artificial intelligence systems for sustainable development)'). 'Reliable' for 'поуздана' is a possible dictionary sense but not the sense the document uses."},
+  {"original": "поуздана и одговорна вештачка интелигенција", "register_rendering": null, "official_rendering": "trustworthy and responsible AI", "verdict": "consistent",
+   "note": "The general objective ('Употреба поуздане и одговорне вештачке интелигенције ...') and the 2023 Ethical Guidelines use this phrase; the summary does not render it, so there is nothing inconsistent, but 'trustworthy' is the rendering to use if it is added."},
+  {"original": "Закон о вештачкој интелигенцији", "register_rendering": "a dedicated law regulating the application of AI; the AI law", "official_rendering": null, "verdict": "consistent",
+   "note": "The strategy also uses 'Закон о вештачкој интелигенцији' for the EU AI Act, which it glosses as '(енг. The Artificial Intelligence Act)'."}
+ ],
+ "overall": "minor issues",
+ "issues": [
+  "The summary attributes the end-2027 timetable to 'secondary sources', but the stored strategy states it itself: the end-2027 target for Objective 1 is 'full application of the Law on Artificial Intelligence'. The hedge is process language that belongs in verification.note, and the claim should say 'full application by end-2027' rather than 'schedules the AI law'.",
+  "'secure, safe and reliable' renders 'сигурна, безбедна и поуздана'; the strategy's own English gloss of that triad is 'safe, secure and trustworthy'."
+ ],
+ "note": "The legal basis (Article 38(1) of the Law on the Planning System), the predecessor 2020-2025 strategy and the risks listed (privacy, bias, misuse, inequality, lack of clear regulation, energy use) match the stored text."}

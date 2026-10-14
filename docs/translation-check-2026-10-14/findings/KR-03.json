@@ -1,0 +1,97 @@
+{
+  "id": "KR-03",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": [
+      "archive/KR-03/2026-10-11/official-print.pdf",
+      "archive/KR-03/2026-10-11/official.html",
+      "archive/KR-03/2026-10-11/official-rendered.html",
+      "archive/KR-03/2026-10-11/secondary.html",
+      "archive/KR-06/2026-10-12/official.pdf",
+      "archive/KR-05/2026-10-12/official.pdf"
+    ],
+    "usable": true,
+    "note": "The record's own copies hold no article that the summary describes. official.html and official-rendered.html hold only the decree's name. official-print.pdf holds the header of the current version ('[시행 2026. 8. 20.] [대통령령 제36580호, 2026. 8. 18., 타법개정]'), Art. 1 and the start of Art. 1-2. secondary.html holds the enactment header ('[시행 2026. 1. 22.] [대통령령 제36053호, 2026. 1. 21., 제정]') and page chrome only. The record's own verification note admits this. Arts. 2, 4, 10, 23-25 and the addenda were checked against the decree text reproduced as annex 2 of the MSIT/NIA high-impact AI guideline (archive/KR-06/2026-10-12/official.pdf, PDF pages 185-197). That annex is headed '시행령안' (draft decree), so the wording checked is the draft, not the promulgated text. Art. 24 is also quoted in the KR-05 guideline (PDF page 8)."
+  },
+  "language_field": {
+    "current": "Korean",
+    "proposed": "Korean"
+  },
+  "english_version": {
+    "kind": "official translation",
+    "url": "https://elaw.klri.re.kr/eng_service/lawViewTitle.do?hseq=73696",
+    "publisher": "Korea Legislation Research Institute (KLRI)",
+    "stored": false,
+    "evidence": null,
+    "note": "Lead only: a web search returned a KLRI English-translation page that appears to cover Presidential Decree No. 36053 (promulgated 21 Jan 2026, MSIT). It was not opened or stored, so its title and term renderings are unverified, and KLRI translations are reference translations that KLRI says are neither official nor legally effective. Nothing in the record's archive is in English."
+  },
+  "title": {
+    "verdict": "accurate rendering",
+    "original_title_matches_source": true,
+    "source_quote": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 시행령",
+    "file": "archive/KR-03/2026-10-11/official-print.pdf",
+    "proposed": null,
+    "why": "original_title matches the stored law.go.kr print character for character. The English title combines KLRI's English title of the parent Act (stored in archive/KR-02/2026-10-11/secondary.html) with KLRI's usual 'Enforcement Decree of ...' pattern. It is accurate, but KLRI's own title for the decree was not stored."
+  },
+  "summary_claims": [
+    {
+      "claim": "Article 24 sets the threshold for the Article 32 safety obligations: cumulative training compute of at least 10^26 floating-point operations, frontier-level technology and a risk of broad, serious impact on life, safety or fundamental rights.",
+      "file": "archive/KR-06/2026-10-12/official.pdf",
+      "locator": "PDF page 193, annex 2 (draft decree, 시행령안), Art. 24(1); same wording in archive/KR-05/2026-10-12/official.pdf PDF page 8",
+      "original_quote": "다음 각 호의 기준을 모두 충족하는 인공지능시스템을 말한다. 1. 학습에 사용된 누적 연산량이 10의 26승 부동소수점연산 이상일 것 2. 인공지능기술의 발전 수준을 고려할 때 현재 인공지능시스템에 활용되는 인공지능기술 중 최첨단의 인공지능기술을 적용하여 구성ㆍ운영되고 있을 것",
+      "literal_translation": "means an AI system meeting all of the following criteria: 1. the cumulative compute used for training is 10 to the 26th power floating-point operations or more; 2. considering the state of AI technology, it is built and operated applying the most advanced (cutting-edge) AI technology among the AI technologies currently used in AI systems; [3. its risk level is such that it may have a broad and serious impact on human life, physical safety and fundamental rights]",
+      "verdict": "accurate",
+      "note": "The criteria are cumulative (모두 충족), which the summary's 'and' conveys. 'Frontier-level technology' is a free rendering of 최첨단의 인공지능기술 (the most advanced AI technology currently in use)."
+    },
+    {
+      "claim": "Article 23 sets how providers of high-impact or generative AI must notify users and mark generative outputs.",
+      "file": "archive/KR-06/2026-10-12/official.pdf",
+      "locator": "PDF page 193, annex 2 (draft decree), Art. 23(1)-(2)",
+      "original_quote": "인공지능사업자가 법 제31조제2항에 따른 표시를 할 때에는 다음 각 호의 어느 하나에 해당하는 방법으로 할 수 있다. 1. 사람이 인식할 수 있는 방법 2. 기계가 판독할 수 있는 방법.",
+      "literal_translation": "When an AI business operator makes the marking under Article 31(2) of the Act, it may do so by one of the following methods: 1. a method humans can perceive; 2. a method machines can read.",
+      "verdict": "accurate",
+      "note": "Art. 23(1) lists the prior-notice channels (product, contract or terms; screen or device; posting at the place of provision; other methods the Minister recognises). Art. 23(3)-(4) on deepfake notice and the exemptions are not mentioned. 'Providers' stands in for 인공지능사업자 (AI business operators)."
+    },
+    {
+      "claim": "It defines the defence and security AI excluded from the Act (Art. 2), organises the National AI Strategy Committee and the AI safety institute",
+      "file": "archive/KR-06/2026-10-12/official.pdf",
+      "locator": "PDF page 185, annex 2 (draft decree), Art. 2; Art. 4 on PDF page 186, Art. 10 on PDF page 188",
+      "original_quote": "제4조제2항에서 “대통령령으로 정하는 인공지능”이란 다음 각 호에 해당하는 업무만을 수행하기 위하여 개발ㆍ이용되는 인공지능을 말한다. 1. 다음 각 목의 어느 하나에 해당하는 업무로서 국방부장관이 지정하는 업무",
+      "literal_translation": "'AI prescribed by Presidential Decree' in Article 4(2) means AI developed and used solely to perform the following tasks: 1. tasks designated by the Minister of National Defense among the following ...",
+      "verdict": "accurate",
+      "note": "Art. 2 lists tasks designated by the Minister of National Defense, the Director of the National Intelligence Service and the Commissioner of the National Police Agency (defence networks and weapons systems, intelligence, counter-terrorism, counter-espionage, technology-leak investigations), so 'defence and security AI' is a fair summary. Art. 4 is headed '국가인공지능전략위원회의 구성 등' and Art. 10 '인공지능안전연구소의 운영 등'."
+    }
+  ],
+  "key_terms": [
+    {
+      "original": "최첨단의 인공지능기술",
+      "register_rendering": "frontier-level technology",
+      "official_rendering": null,
+      "verdict": "differs",
+      "note": "Literally 'the most advanced (cutting-edge) AI technology among those currently used in AI systems'. 'Frontier' is the usual English policy word and does not change the meaning, but it is not the decree's wording. No stored English version."
+    },
+    {
+      "original": "부동소수점연산",
+      "register_rendering": "floating-point operations",
+      "official_rendering": "Floating Point Operations, FLOPs (gloss in the draft MSIT notification, archive/KR-05/2026-10-12/official.pdf PDF pages 9 and 13)",
+      "verdict": "consistent",
+      "note": "'10의 26승' = 10^26."
+    },
+    {
+      "original": "국가인공지능전략위원회",
+      "register_rendering": "National AI Strategy Committee",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "Literal. The decree uses this name (Art. 4 heading; Addenda Art. 2 repeals 「국가인공지능전략위원회의 설치 및 운영에 관한 규정」). Act No. 20676 as enacted calls the body 국가인공지능위원회 (Art. 7), so English texts may render the two differently."
+    }
+  ],
+  "overall": "minor issues",
+  "issues": [
+    "None of the summarised articles (2, 23, 24, 25) is in the record's own stored copies; they could be checked only against the draft decree (시행령안) reproduced in another record's file (KR-06 guideline annex), so differences between the draft and the promulgated text cannot be ruled out.",
+    "'Frontier-level technology' freely renders 최첨단의 인공지능기술 ('the most advanced AI technology currently in use'); meaning kept.",
+    "Summary calls the duty-bearers 'providers'; the decree's term is 인공지능사업자 (AI business operators)."
+  ],
+  "note": "Against the draft text, Art. 25 is the high-impact AI confirmation procedure, as the summary says (the KR-06 guideline body cites it once as 'Art. 24', an internal inconsistency in that guideline, not in this record). The addenda in the annex repeal the earlier National AI Strategy Committee regulation and carry the committee over, matching the notes. The stored current-version print begins with Art. 1-2 (인공지능취약계층의 범위, scope of AI-vulnerable groups), which the record does not mention. The enforcement grace period, the Cabinet date and the July 2026 amendment are not in stored text."
+}

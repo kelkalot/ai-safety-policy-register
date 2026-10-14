@@ -1,0 +1,90 @@
+{
+  "id": "VN-06",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": [
+      "archive/VN-06/2026-10-11/official.pdf",
+      "archive/VN-06/2026-10-11/secondary.html"
+    ],
+    "usable": true,
+    "note": "official.pdf (9 pages, text layer) is the full Vietnamese text of the Circular with both annexes, hosted on the Tây Ninh provincial portal; its number and date fields are blank ('Số:       /2026/TT-BKHCN'), so it may be the pre-signature text, as the record says. secondary.html is the Can Tho provincial legal-education portal's article, which gives the number 05/2026/TT-BKHCN and the date 10/3/2026."
+  },
+  "language_field": {
+    "current": "Vietnamese",
+    "proposed": "Vietnamese"
+  },
+  "english_version": {
+    "kind": "none found",
+    "url": null,
+    "publisher": null,
+    "stored": false,
+    "evidence": null,
+    "note": "One web search found only English news items (Ministry of Science and Technology English portal, 'Ethical framework for Artificial Intelligence established', 17 Mar 2026; Dong Thap newspaper) and commentary; no English text of the Circular."
+  },
+  "title": {
+    "verdict": "accurate rendering",
+    "original_title_matches_source": true,
+    "source_quote": "Ban hành Khung đạo đức trí tuệ nhân tạo quốc gia",
+    "file": "archive/VN-06/2026-10-11/official.pdf",
+    "proposed": null,
+    "why": "The title line under 'THÔNG TƯ' matches original_title; the number in original_title comes from the Can Tho page ('Thông tư số 05/2026/TT-BKHCN về việc ban hành Khung đạo đức trí tuệ nhân tạo quốc gia'). 'Khung đạo đức trí tuệ nhân tạo quốc gia' is literally 'national artificial-intelligence ethics framework'."
+  },
+  "summary_claims": [
+    {
+      "claim": "It binds state bodies and organisations that develop, provide, deploy or use AI for state management or public services, and encourages all other AI actors to apply it.",
+      "file": "archive/VN-06/2026-10-11/official.pdf",
+      "locator": "page 1, Art. 1(2)",
+      "original_quote": "Thông tư này áp dụng đối với cơ quan quản lý nhà nước, tổ chức, cá nhân dưới vai trò nhà phát triển, nhà cung cấp, bên triển khai hoặc người sử dụng hệ thống trí tuệ nhân tạo phục vụ hoạt động quản lý nhà nước hoặc cung cấp dịch vụ công.",
+      "literal_translation": "This Circular applies to state management agencies and to organisations and individuals in the role of developer, provider, deployer or user of AI systems serving state management activities or the provision of public services.",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "The first principle group covers safety-by-design, pre-deployment testing, human control and defence against data and model poisoning.",
+      "file": "archive/VN-06/2026-10-11/official.pdf",
+      "locator": "page 2, Art. 3(1)(b)",
+      "original_quote": "b) Độ tin cậy và chất lượng: Tổ chức, cá nhân có trách nhiệm thiết lập tiêu chí chất lượng dữ liệu, mô hình, k ết quả đầu ra; thực hiện xây dựng các cơ ch ế kiểm thử, xác nhận, kiểm định nội bộ trước khi triển khai.",
+      "literal_translation": "b) Reliability and quality: organisations and individuals are responsible for setting quality criteria for data, models and outputs, and for building mechanisms for internal testing, validation and verification before deployment.",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "Ministerial circular under Article 26(5) of the Law on Artificial Intelligence.",
+      "file": "archive/VN-06/2026-10-11/official.pdf",
+      "locator": "page 1, preamble",
+      "original_quote": "Căn cứ Luật Trí tuệ nhân tạo số 134/2025/QH15 ngày 10 tháng 12 năm 2025;",
+      "literal_translation": "Pursuant to the Law on Artificial Intelligence No. 134/2025/QH15 of 10 December 2025;",
+      "verdict": "not in stored text"
+    }
+  ],
+  "key_terms": [
+    {
+      "original": "Khung đạo đức trí tuệ nhân tạo quốc gia",
+      "register_rendering": "National Artificial Intelligence Ethics Framework",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "MST's English news item calls it an 'Ethical framework for Artificial Intelligence' (web lead only)."
+    },
+    {
+      "original": "Thiết kế an toàn ngay từ đầu",
+      "register_rendering": "safety-by-design",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "Literally 'safe design from the outset'."
+    },
+    {
+      "original": "đầu độc dữ liệu / đầu độc mô hình",
+      "register_rendering": "data and model poisoning",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "Both defined in Art. 2(2)-(3)."
+    }
+  ],
+  "overall": "minor issues",
+  "issues": [
+    "Principle groups 3 and 4 are paraphrased loosely: group 3 is 'Thúc đẩy hạnh phúc, thịnh vượng và sự phát triển bền vững' (promoting well-being, prosperity and sustainable development), rendered 'social benefit and sustainable development'; group 4 is 'đổi mới sáng tạo và trách nhiệm xã hội' (innovation and social responsibility), rendered 'responsible innovation with clear accountability'. Defensible, but not the Circular's own wording.",
+    "'Under Article 26(5) of the Law' is not in the Circular, whose preamble cites the Law only generally; it is supported by the Law's own text stored for VN-02 (archive/VN-02/2026-10-12/official.pdf, page 16, Art. 26(5), OCR: 'Bộ trưởng Bộ Khoa học và Công nghệ ban hành Khung đạo đức trí tuệ nhân tạo quốc gia'), so the claim is correct but rests on another record's file.",
+    "'Binds ... and organisations' leaves out individuals (tổ chức, cá nhân) in Art. 1(2)."
+  ],
+  "note": "Also accurate: Art. 1(3) encourages Vietnamese and foreign organisations and individuals to apply it ('được khuyến khích áp dụng Thông tư này'); Annex II is a self-assessment form ('HƯỚNG DẪN MẪU PHIẾU TỰ ĐÁNH GIÁ TUÂN THỦ KHUNG ĐẠO ĐỨC TRÍ TUỆ NHÂN TẠO QUỐC GIA'), matching 'an annexed checklist supports self-assessment'. Not mentioned in the record: Annex I gives guidance by group of actors (users; developers, providers and deployers; state bodies), and Art. 5(1) requires review every 3 years. The four groups mirror Law Art. 26(1)(a)-(d) word for word."
+}

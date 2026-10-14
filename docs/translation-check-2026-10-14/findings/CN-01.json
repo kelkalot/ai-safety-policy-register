@@ -1,0 +1,81 @@
+{
+  "id": "CN-01",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": ["archive/CN-01/2026-10-11/official.html"],
+    "usable": true,
+    "note": "official.html is the CAC page with the full Chinese text: the promulgation order (Order No. 9, four signatories, dated 2021年12月31日) and all 35 articles. The State Council Gazette copy on gov.cn was not stored (robots.txt unreachable)."
+  },
+  "language_field": {"current": "Chinese", "proposed": "Chinese"},
+  "english_version": {
+    "kind": "unofficial translation",
+    "url": "https://digichina.stanford.edu/work/translation-internet-information-service-algorithmic-recommendation-management-provisions-effective-march-1-2022",
+    "publisher": "DigiChina, Stanford University",
+    "stored": false,
+    "evidence": null,
+    "note": "One web search found no English version published by the CAC or another public body. Unofficial translations exist from DigiChina (above) and China Law Translate (https://www.chinalawtranslate.com/en/algorithms/); neither is stored for this record. China Law Translate's title for this instrument, 'Provisions on the Management of Algorithmic Recommendations in Internet Information Services', appears in its stored translation of the Generative AI Measures (archive/CN-03/2026-10-11/secondary.html, Art. 17)."
+  },
+  "title": {
+    "verdict": "accurate rendering",
+    "original_title_matches_source": true,
+    "source_quote": "互联网信息服务算法推荐管理规定",
+    "file": "archive/CN-01/2026-10-11/official.html",
+    "proposed": null,
+    "why": "Literally 'Internet information service algorithm recommendation management provisions'. 管理 as 'Administration' and 规定 as 'Provisions' are standard renderings. Unofficial translators use 'Management' instead of 'Administration'; both are accurate."
+  },
+  "summary_claims": [
+    {
+      "claim": "It covers algorithmic recommendation services, including generation/synthesis, personalised push, ranking, search filtering and scheduling/decision-making.",
+      "file": "archive/CN-01/2026-10-11/official.html",
+      "locator": "Art. 2, para. 2",
+      "original_quote": "前款所称应用算法推荐技术，是指利用生成合成类、个性化推送类、排序精选类、检索过滤类、调度决策类等算法技术向用户提供信息。",
+      "literal_translation": "'Applying algorithmic recommendation technology', as referred to in the preceding paragraph, means using algorithmic technologies of the generation-and-synthesis type, personalised-push type, sorting-and-selection type, retrieval-and-filtering type, scheduling-and-decision-making type, etc. to provide information to users.",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "It requires ... a user option to switch off personalised recommendation.",
+      "file": "archive/CN-01/2026-10-11/official.html",
+      "locator": "Art. 17, para. 1",
+      "original_quote": "算法推荐服务提供者应当向用户提供不针对其个人特征的选项，或者向用户提供便捷的关闭算法推荐服务的选项。用户选择关闭算法推荐服务的，算法推荐服务提供者应当立即停止提供相关服务。",
+      "literal_translation": "Algorithmic recommendation service providers shall provide users with an option that does not target their personal characteristics, or provide users with a convenient option to switch off the algorithmic recommendation service. Where a user chooses to switch off the algorithmic recommendation service, the provider shall immediately stop providing the related service.",
+      "verdict": "accurate",
+      "note": "Slightly compressed: the duty is either a non-personalised option or a switch to turn off the algorithmic recommendation service as a whole. The meaning is kept."
+    },
+    {
+      "claim": "It also created the CAC algorithm filing (registry) system for providers with public-opinion attributes or social-mobilisation capacity.",
+      "file": "archive/CN-01/2026-10-11/official.html",
+      "locator": "Art. 24, para. 1",
+      "original_quote": "具有舆论属性或者社会动员能力的算法推荐服务提供者应当在提供服务之日起十个工作日内通过互联网信息服务算法备案系统填报服务提供者的名称、服务形式、应用领域、算法类型、算法自评估报告、拟公示内容等信息，履行备案手续。",
+      "literal_translation": "Algorithmic recommendation service providers with public-opinion attributes or social-mobilisation capacity shall, within ten working days from the date they begin providing the service, enter through the Internet information service algorithm filing system the provider's name, service form, field of application, algorithm type, algorithm self-assessment report, content to be made public and other information, and complete the filing procedures.",
+      "verdict": "accurate"
+    }
+  ],
+  "key_terms": [
+    {
+      "original": "算法推荐服务",
+      "register_rendering": "algorithmic recommendation services",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "No official English. Matches the unofficial translations."
+    },
+    {
+      "original": "具有舆论属性或者社会动员能力",
+      "register_rendering": "with public-opinion attributes or social-mobilisation capacity",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "China Law Translate renders the same phrase 'public opinion properties or the capacity for social mobilization' (stored in archive/CN-02 and CN-03 secondary.html); same meaning."
+    },
+    {
+      "original": "互联网信息服务算法备案系统 / 备案",
+      "register_rendering": "algorithm filing (registry) system",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "备案 is 'filing' (record-filing); the '(registry)' gloss is acceptable. The text names the filing system and gives filing to national and provincial cyberspace departments (Art. 25); 'CAC' is a fair shorthand."
+    }
+  ],
+  "overall": "ok",
+  "issues": [],
+  "note": "The labelling claim was also checked: Art. 9 says providers that find algorithmically generated or synthetic information without a conspicuous label must label it before transmitting it further (发现未作显著标识的算法生成合成信息的，应当作出显著标识后，方可继续传输). The summary's 'conspicuous labelling' matches. 'China's first binding AI-specific rule' is a characterisation that the text itself does not make; it is not a translation question."
+}

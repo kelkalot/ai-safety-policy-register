@@ -64,6 +64,30 @@
   var LC_FLAGCLASS = { ok: "flag-ok", warn: "flag-warn", bad: "flag-bad", info: "flag-info" };
   var REGION_ORDER = ["Global", "Europe", "North America", "Latin America & Caribbean", "East Asia", "South & Southeast Asia", "Central Asia", "Oceania", "Middle East & North Africa", "Sub-Saharan Africa"];
 
+  // Is there an English text, and whose? english_version is recorded per record; an official text in English
+  // (the language field names English, or the EU's 24 languages) counts as an English original.
+  function hasEnglishText(r) {
+    var l = r.language || "";
+    return /^All 24 official EU languages/.test(l) || l.split(",").some(function (x) { return /^\s*english/i.test(x); });
+  }
+  var EV_LABEL = { "authentic": "English is an official language", "government translation": "Translation by a public body",
+    "third-party translation": "Translation by a third party", "none found": "No English version found", "unchecked": "Not recorded yet" };
+  function englishKind(r) {
+    if (r.english_version && r.english_version.kind) return r.english_version.kind;
+    return hasEnglishText(r) ? "authentic" : "unchecked";
+  }
+  function languageSection(r) {
+    var k = englishKind(r), ev = r.english_version || {}, lang = esc(r.language || "original-language");
+    if (k === "authentic") return "";
+    var link = ev.url ? ' <a href="' + esc(ev.url) + '" target="_blank" rel="noopener">Open it</a>.' : "";
+    var t;
+    if (k === "government translation") t = "English translation by " + esc(ev.by || "a public body") + "." + link + " Translations by public bodies are usually provisional or for reference and have no legal force; the " + lang + " text is authoritative.";
+    else if (k === "third-party translation") t = "English translation by " + esc(ev.by || "a third party") + ", not by a public body." + link + " The " + lang + " text is authoritative.";
+    else if (k === "none found") t = "No English version of this instrument was found. The English title and the summary are the register's own, written by an AI agent from the sources below; for the exact wording use the " + lang + " text.";
+    else t = "No English version is recorded for this record yet. The English title may be the register's own rendering, and the summary was written by an AI agent from the sources below; for the exact wording use the " + lang + " text.";
+    return '<div class="sec"><h3>Language</h3><p>' + t + "</p></div>";
+  }
+
   var FACETS = [
     { key: "region", label: "Region", get: function (r) { return [r.region]; }, order: REGION_ORDER, open: true },
     { key: "level", label: "Level", get: function (r) { return [r.jurisdiction_level]; }, order: ["International", "Supranational", "National", "Sub-national"] },
@@ -72,6 +96,7 @@
     { key: "type", label: "Instrument type", get: function (r) { return [r.instrument_type]; } },
     { key: "topic", label: "Safety topic", get: function (r) { return r.safety_topics || []; } },
     { key: "scope", label: "Scope", get: function (r) { return [r.scope_note ? "Borderline" : "Core"]; }, order: ["Core", "Borderline"], fmt: function (v) { return v === "Core" ? "Core: clearly in scope" : "Borderline: included and flagged"; } },
+    { key: "english", label: "English text", get: function (r) { return [englishKind(r)]; }, order: ["authentic", "government translation", "third-party translation", "none found", "unchecked"], fmt: function (v) { return EV_LABEL[v] || v; } },
     { key: "vlevel", label: "Verification", get: function (r) { return [r.verification.level]; }, order: ["A", "B", "C"], fmt: function (v) { return VLABEL[v]; } },
     { key: "local", label: "Local copy", get: function (r) { return [r.local_copy.status]; }, order: LC_ORDER, fmt: function (v) { return LC_LABEL[v] || v; }, open: true }
   ];
@@ -140,7 +165,9 @@
   var COUNT = {
     records: R.length, countries: countries.size, states: usStates.size, snapshot: META.snapshot_date,
     levelA: cnt(function (r) { return r.verification.level === "A"; }), levelB: cnt(function (r) { return r.verification.level === "B"; }),
-    levelC: cnt(function (r) { return r.verification.level === "C"; }), nocopy: cnt(function (r) { return r.local_copy.status !== "archived"; })
+    levelC: cnt(function (r) { return r.verification.level === "C"; }), nocopy: cnt(function (r) { return r.local_copy.status !== "archived"; }),
+    nonEnglish: cnt(function (r) { return !hasEnglishText(r); }),
+    noEnglish: cnt(function (r) { var k = englishKind(r); return k === "none found" || k === "unchecked"; })
   };
   document.querySelectorAll("[data-count]").forEach(function (el) { var v = COUNT[el.getAttribute("data-count")]; if (v != null) el.textContent = String(v); });
 
@@ -509,6 +536,7 @@
       fact("Official identifier", r.official_identifier, true, true) +
       "</dl>" +
       '<div class="sec"><h3>Summary</h3><p>' + esc(r.summary) + "</p></div>" +
+      languageSection(r) +
       ((r.safety_topics || []).length ? '<div class="sec"><h3>Safety topics</h3><div class="tags">' + r.safety_topics.map(function (t) { return '<span class="tag">' + esc(t) + "</span>"; }).join("") + "</div></div>" : "") +
       (r.scope_note ? '<div class="sec"><h3>Scope</h3><p><span class="scope-flag">Borderline scope</span> ' + esc(r.scope_note) + "</p></div>" : "") +
       (r.notes ? '<div class="sec"><h3>Status notes</h3><p>' + esc(r.notes) + "</p></div>" : "") +
@@ -562,10 +590,10 @@
     function fallback() { if (selectEl) { selectEl.focus(); selectEl.select(); toast("Text selected. Press Ctrl+C or ⌘C to copy."); } else toast("Copy is blocked here. Select the text and copy it manually."); }
   }
 
-  var COLS = ["id", "title", "original_title", "short_title", "jurisdiction", "country", "jurisdiction_level", "region", "issuing_body", "instrument_type", "legal_force", "status", "date_published", "date_in_force", "date_last_updated", "official_identifier", "official_url", "secondary_url", "language", "summary", "safety_topics", "related_ids", "notes", "scope_note", "verification_level", "verified_on", "verification_method", "verification_note", "second_check", "local_status", "local_flag", "local_last_attempt", "local_files", "local_sha256"];
+  var COLS = ["id", "title", "original_title", "short_title", "jurisdiction", "country", "jurisdiction_level", "region", "issuing_body", "instrument_type", "legal_force", "status", "date_published", "date_in_force", "date_last_updated", "official_identifier", "official_url", "secondary_url", "language", "english_version", "english_version_url", "english_version_by", "summary", "safety_topics", "related_ids", "notes", "scope_note", "verification_level", "verified_on", "verification_method", "verification_note", "second_check", "local_status", "local_flag", "local_last_attempt", "local_files", "local_sha256"];
   function flat(r) {
     var v = r.verification;
-    return { id: r.id, title: r.title, original_title: r.original_title, short_title: r.short_title, jurisdiction: r.jurisdiction, country: r.country, jurisdiction_level: r.jurisdiction_level, region: r.region, issuing_body: r.issuing_body, instrument_type: r.instrument_type, legal_force: r.legal_force, status: r.status, date_published: r.date_published, date_in_force: r.date_in_force, date_last_updated: r.date_last_updated, official_identifier: r.official_identifier, official_url: r.official_url, secondary_url: r.secondary_url, language: r.language, summary: r.summary, safety_topics: (r.safety_topics || []).join("; "), related_ids: (r.related || []).map(function (x) { return x.id; }).filter(Boolean).join("; "), notes: r.notes, scope_note: r.scope_note, verification_level: v.level, verified_on: v.verified_on, verification_method: v.method, verification_note: v.note, second_check: v.second_check, local_status: r.local_copy.status, local_flag: [r.local_copy.flag, r.local_copy.integrity_flag].filter(Boolean).join(" "), local_last_attempt: r.local_copy.last_attempt, local_files: (r.local_copy.files || []).map(function (f) { return f.path; }).join("; "), local_sha256: (r.local_copy.files || []).map(function (f) { return f.sha256; }).join("; ") };
+    return { id: r.id, title: r.title, original_title: r.original_title, short_title: r.short_title, jurisdiction: r.jurisdiction, country: r.country, jurisdiction_level: r.jurisdiction_level, region: r.region, issuing_body: r.issuing_body, instrument_type: r.instrument_type, legal_force: r.legal_force, status: r.status, date_published: r.date_published, date_in_force: r.date_in_force, date_last_updated: r.date_last_updated, official_identifier: r.official_identifier, official_url: r.official_url, secondary_url: r.secondary_url, language: r.language, english_version: (r.english_version || {}).kind, english_version_url: (r.english_version || {}).url, english_version_by: (r.english_version || {}).by, summary: r.summary, safety_topics: (r.safety_topics || []).join("; "), related_ids: (r.related || []).map(function (x) { return x.id; }).filter(Boolean).join("; "), notes: r.notes, scope_note: r.scope_note, verification_level: v.level, verified_on: v.verified_on, verification_method: v.method, verification_note: v.note, second_check: v.second_check, local_status: r.local_copy.status, local_flag: [r.local_copy.flag, r.local_copy.integrity_flag].filter(Boolean).join(" "), local_last_attempt: r.local_copy.last_attempt, local_files: (r.local_copy.files || []).map(function (f) { return f.path; }).join("; "), local_sha256: (r.local_copy.files || []).map(function (f) { return f.sha256; }).join("; ") };
   }
   function toCSV(rows) {
     var q = function (x) { x = x == null ? "" : String(x); return /[",\n\r]/.test(x) ? '"' + x.replace(/"/g, '""') + '"' : x; };

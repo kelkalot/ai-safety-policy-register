@@ -75,7 +75,7 @@ METHOD_TOKENS = {"A": "official-url-fetched", "B": "alternative-official-url-fet
 RECORD_FIELDS = ["id", "slug", "title", "original_title", "short_title", "jurisdiction", "country", "jurisdiction_level",
                  "region", "issuing_body", "instrument_type", "legal_force", "status", "date_published", "date_in_force",
                  "date_last_updated", "official_identifier", "official_url", "secondary_url", "language", "summary",
-                 "safety_topics", "related", "notes", "scope_note", "verification"]
+                 "safety_topics", "related", "notes", "scope_note", "english_version", "verification"]
 SET_BY_SCRIPT = {"id", "slug"}
 IN_FORCE = {"In force", "Partially in force"}
 ENDED = {"Superseded", "Revoked / withdrawn", "Lapsed"}
@@ -1036,6 +1036,18 @@ def record_problems(rec, db, update=False):
             warnings.append("country %r is spelled differently from the register and the frame" % rec["country"])
     if present("official_identifier") and re.search(r"(?i)\bversion\b|^v\d|not confirmed|unknown", rec["official_identifier"]):
         warnings.append("official_identifier looks like a version label or a remark")
+    if present("language") and validate.LANGUAGE_REMARK.search(validate.LANGUAGE_VARIANT.sub("", rec["language"])):
+        errors.append("language %r holds a remark; give language names only and put an English translation in "
+                      "english_version" % rec["language"])
+    ev = rec.get("english_version")
+    if ev is not None:
+        if not isinstance(ev, dict) or ev.get("kind") not in validate.ENGLISH_VERSION_KINDS:
+            errors.append("english_version must be {kind, url, by} with kind one of %s"
+                          % ", ".join(validate.ENGLISH_VERSION_KINDS))
+        elif ev["kind"] in validate.TRANSLATION_KINDS and not (ev.get("url") and ev.get("by")):
+            errors.append("english_version is a translation: give its url and who made it ('by')")
+    elif not update and present("language") and not validate.has_english_text(rec):
+        errors.append("the official text is not in English: record english_version (none found, if none was found)")
     return errors, warnings
 
 
@@ -1065,6 +1077,14 @@ def evaluate(index, cid, ex, db):
     res["warnings"] += warns
     base = dict(index.records[target]) if update else {}
     merged = dict(base, **{k: v for k, v in rec.items() if k in RECORD_FIELDS})
+    ev = rec.get("english_version")
+    if isinstance(ev, dict) and ev.get("kind") in validate.TRANSLATION_KINDS and ev.get("url"):
+        stored = {u for _, u in index.file_info(cid, target if update else None).values() if u}
+        if ev["url"] not in stored:
+            res["errors"].append("english_version.url is not a stored source of %s; add it to extra_urls so the "
+                                 "archiver stores it" % cid)
+    if update and merged.get("english_version") is None and merged.get("language") and not validate.has_english_text(merged):
+        res["warnings"].append("the official text is not in English and english_version is not recorded yet")
     confirmed = ((ex.get("judgment") or {}).get("confirmed") or []) if update else []
     fields = [k for k in FACT_FIELDS if (k in rec and rec.get(k) is not None) or k in confirmed]
     if update:
@@ -1630,6 +1650,7 @@ def cmd_report(args):
     if merged:
         run["status"] = "merged"
         save_run(d, run)
+        build.write_history_md()  # HISTORY.md links each run to its report, which exists only from now on
     print("Written runs/%s/report.md (%s)" % (args.run, "merged" if merged else "before merge"))
     return 0
 

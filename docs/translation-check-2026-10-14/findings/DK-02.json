@@ -1,0 +1,90 @@
+{
+ "id": "DK-02",
+ "checked_on": "2026-10-14",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "stored_text": {
+  "files": [
+   "archive/DK-02/2026-10-11/official.html",
+   "archive/DK-02/2026-10-11/secondary.html"
+  ],
+  "usable": true,
+  "note": "official.html is the Ministry of Culture press release of 8 Oct 2026 in Danish (not the bill text); it supports the summary's claims. secondary.html is an English news item of the EU IP Helpdesk (1 Jun 2026) describing the earlier TRIS draft; it is a description, not a translation. Neither file contains the Danish bill title."
+ },
+ "language_field": {
+  "current": "Danish",
+  "proposed": "Danish"
+ },
+ "english_version": {
+  "kind": "unclear",
+  "url": "https://technical-regulation-information-system.ec.europa.eu/en/notification/27420",
+  "publisher": "European Commission (TRIS)",
+  "stored": false,
+  "evidence": null,
+  "note": "Lead only. A web search found the TRIS notification 2025/0654/DK, where the Commission publishes notified drafts and translations; it covers the 2025 draft, not necessarily the bill introduced on 8 Oct 2026, and was not opened or stored. The stored English IP Helpdesk page paraphrases the draft and is not a translation."
+ },
+ "title": {
+  "verdict": "accurate rendering",
+  "original_title_matches_source": false,
+  "source_quote": "Lovforslaget udmønter den politiske aftale af 26. juni 2025 [...] om at skabe et værn mod deling af digitale efterligninger ved at ændre ophavsretsloven.",
+  "file": "archive/DK-02/2026-10-11/official.html",
+  "proposed": null,
+  "why": "original_title 'Forslag til lov om ændring af ophavsretsloven (værn mod digitale efterligninger)' does not appear in any stored file, so it could not be checked character by character; the press release speaks only of 'et lovforslag' and of 'et værn mod deling af digitale efterligninger'. The English title is a descriptive expansion (adds 'sharing', 'realistic', 'deepfakes', 'personal characteristics and performances') that matches the press release's description; it is not a literal rendering of original_title. Search results (not evidence) give the TRIS draft's English title as 'Bill amending the Copyright Act (introduction of performance protection and protection against digitally generated imitations, etc.)', which suggests the official Danish parenthetical may differ from the one in original_title."
+ },
+ "summary_claims": [
+  {
+   "claim": "Would make it unlawful to share realistic digital imitations (deepfakes) of a person's appearance or voice, or of performers' performances, without consent.",
+   "file": "archive/DK-02/2026-10-11/official.html",
+   "locator": "press release, 3rd paragraph",
+   "original_quote": "Med lovforslaget bliver det ulovligt at dele eksempelvis virkelighedstro gengivelser af en person, herunder vedkommendes udseende og stemme. Lovforslaget beskytter både almindelige mennesker og kunstnere, hvis fremførelser og præstationer heller ikke må blive efterlignet og herefter delt.",
+   "literal_translation": "With the bill it becomes unlawful to share, for example, true-to-life reproductions of a person, including that person's appearance and voice. The bill protects both ordinary people and artists, whose renditions and performances may likewise not be imitated and then shared.",
+   "verdict": "accurate"
+  },
+  {
+   "claim": "Exceptions cover caricature, satire, parody and social criticism, but not misinformation that could seriously harm others' rights or interests.",
+   "file": "archive/DK-02/2026-10-11/official.html",
+   "locator": "press release, paragraph on the exception",
+   "original_quote": "undtagelse for karikaturer, parodier, satire og magt- og samfundskritik. [...] Undtagelsen gælder dog ikke, hvis efterligningen udgør misinformation, som konkret kan medføre alvorlig fare for andres rettigheder eller væsentlige interesser eller kan frembringe konkret fare for liv eller ejendom.",
+   "literal_translation": "The bill contains an exception for caricatures, parodies, satire and criticism of power and society. [...] The exception does not apply, however, if the imitation constitutes misinformation that can concretely cause serious danger to the rights or essential interests of others or can create a concrete danger to life or property.",
+   "verdict": "understated"
+  },
+  {
+   "claim": "The aim is to give people a copyright-based right over their own body and voice and to get platforms to remove such content quickly.",
+   "file": "archive/DK-02/2026-10-11/official.html",
+   "locator": "press release, 2nd paragraph and minister's quotation",
+   "original_quote": "Kulturminister Zenia Stampe fremsætter i dag et lovforslag, der skal sikre retten til egen krop og stemme. [...] Et af de vigtigste mål med lovforslaget er at få techgiganterne til at pille det manipulerede indhold ned hurtigt, så det gør mindst mulig skade.",
+   "literal_translation": "Culture Minister Zenia Stampe today introduces a bill that is to secure the right to one's own body and voice. [...] One of the most important aims of the bill is to get the tech giants to take the manipulated content down quickly so that it does as little harm as possible.",
+   "verdict": "accurate"
+  }
+ ],
+ "key_terms": [
+  {
+   "original": "digitale efterligninger (virkelighedsnære digitalt genererede efterligninger)",
+   "register_rendering": "realistic digital imitations (deepfakes)",
+   "official_rendering": null,
+   "verdict": "consistent",
+   "note": "The stored IP Helpdesk page uses 'realistic digital imitations' / 'realistic digitally generated imitations'."
+  },
+  {
+   "original": "personlige kendetegn",
+   "register_rendering": "personal characteristics",
+   "official_rendering": null,
+   "verdict": "consistent",
+   "note": "The IP Helpdesk page says 'personal physical characteristics'."
+  },
+  {
+   "original": "magt- og samfundskritik",
+   "register_rendering": "social criticism",
+   "official_rendering": null,
+   "verdict": "differs",
+   "note": "The register drops 'criticism of power' (magtkritik); the IP Helpdesk page has 'criticism of power or social criticism'."
+  }
+ ],
+ "overall": "minor issues",
+ "issues": [
+  "original_title is not in any stored file and could not be checked; search results suggest the official Danish title may have a different parenthetical (performance protection and protection against digitally generated imitations).",
+  "The exception is compressed: 'criticism of power' is dropped, and so is the carve-back for imitations that create concrete danger to life or property.",
+  "The stored official copy is a press release, not the bill text, so the summary rests on the ministry's description of the bill."
+ ],
+ "note": "The press release also mentions two other parts of the bill not in the summary: protection of performances that are not artistic works (e.g. improvisations) and a change to the Copyright Licence Tribunal (Ophavsretslicensnævnet) rules to stop parallel proceedings."
+}

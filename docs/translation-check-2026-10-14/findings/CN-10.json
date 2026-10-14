@@ -1,0 +1,92 @@
+{
+ "id": "CN-10",
+ "checked_on": "2026-10-14",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "stored_text": {
+  "files": [
+   "archive/CN-10/2026-10-11/official.html",
+   "archive/CN-10/2026-10-11/secondary.html"
+  ],
+  "usable": false,
+  "note": "Neither stored file holds the text of the standard. official.html is the SAMR national-standards catalogue entry (number, Chinese and English titles, status, publication and implementation dates, issuing bodies). secondary.html is the TC260 news item of 2025-06-30 that links to the full-text PDF (/zgwabwuploadfile/1751257342816036759/1751257342816036759.pdf), but the PDF itself was not stored. Title, number, dates and status can be checked; the content of the summary cannot."
+ },
+ "language_field": {
+  "current": "Chinese",
+  "proposed": "Chinese"
+ },
+ "english_version": {
+  "kind": "unofficial translation",
+  "url": "https://cset.georgetown.edu/publication/china-gen-ai-safety-standard-final/",
+  "publisher": "Center for Security and Emerging Technology (CSET), Georgetown University",
+  "stored": false,
+  "evidence": {
+   "file": "archive/CN-10/2026-10-11/official.html",
+   "quote": "英文标准名称：Cybersecurity technology—Basic security requirements for generative artificial intelligence service"
+  },
+  "note": "The SAMR catalogue gives an official English title only (evidence quote); no English text of the standard is stored. One web search found no SAMR foreign-language edition (国家标准外文版) of GB/T 45654-2025, only an unofficial translation by CSET. The CSET page is a lead and was not stored."
+ },
+ "title": {
+  "verdict": "official English title",
+  "original_title_matches_source": true,
+  "source_quote": "中文标准名称：网络安全技术 生成式人工智能服务安全基本要求\n英文标准名称：Cybersecurity technology—Basic security requirements for generative artificial intelligence service",
+  "file": "archive/CN-10/2026-10-11/official.html",
+  "proposed": null,
+  "why": "The register's title is the SAMR English title word for word; only the spacing around the dash differs. original_title matches the Chinese standard name character for character."
+ },
+ "summary_claims": [
+  {
+   "claim": "sets baseline security requirements for generative AI services: training-data security, model security, security measures and security assessment",
+   "file": "archive/CN-10/2026-10-11/official.html",
+   "locator": "SAMR catalogue entry (title field only)",
+   "original_quote": "中文标准名称：网络安全技术 生成式人工智能服务安全基本要求",
+   "literal_translation": "Chinese standard name: Cybersecurity technology - Basic security requirements for generative artificial intelligence services",
+   "verdict": "not in stored text"
+  },
+  {
+   "claim": "It turns TC260-003 into a national standard",
+   "file": "archive/CN-10/2026-10-11/secondary.html",
+   "locator": "TC260 news item, 2025-06-30",
+   "original_quote": "标准全文|GB/T45654—2025《网络安全技术生成式人工智能服务安全基本要求》",
+   "literal_translation": "Full text of the standard | GB/T 45654-2025 'Cybersecurity technology - Basic security requirements for generative artificial intelligence services'",
+   "verdict": "not in stored text"
+  },
+  {
+   "claim": "Recommended national standard ... published 25 Apr 2025, effective 1 Nov 2025",
+   "file": "archive/CN-10/2026-10-11/official.html",
+   "locator": "SAMR catalogue entry, fields 标准号, 发布日期, 实施日期",
+   "original_quote": "标准号：GB/T 45654-2025",
+   "literal_translation": "Standard number: GB/T 45654-2025 [the 'T' marks a recommended (推荐性) standard; the same entry gives 发布日期 2025-04-25 and 实施日期 2025-11-01]",
+   "verdict": "accurate"
+  }
+ ],
+ "key_terms": [
+  {
+   "original": "安全",
+   "register_rendering": "security",
+   "official_rendering": "security",
+   "verdict": "consistent",
+   "note": "The SAMR English title uses 'security'; the register follows it throughout."
+  },
+  {
+   "original": "生成式人工智能服务",
+   "register_rendering": "generative artificial intelligence service (title); generative AI services (summary)",
+   "official_rendering": "generative artificial intelligence service",
+   "verdict": "consistent",
+   "note": ""
+  },
+  {
+   "original": "网络安全技术",
+   "register_rendering": "Cybersecurity technology",
+   "official_rendering": "Cybersecurity technology",
+   "verdict": "consistent",
+   "note": "Series prefix used by TC260 standards."
+  }
+ ],
+ "overall": "could not check",
+ "issues": [
+  "The text of the standard is not stored (the TC260 page links to the PDF but the PDF was not archived), so the four content areas, the link to TC260-003 and the 'main technical reference' claim cannot be checked.",
+  "Title and original_title are correct: they match the SAMR catalogue's official English and Chinese names."
+ ],
+ "note": "Storing the TC260 full-text PDF linked from secondary.html would make the summary checkable."
+}

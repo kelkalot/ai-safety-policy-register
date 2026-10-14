@@ -1,0 +1,95 @@
+{
+  "id": "KR-06",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": [
+      "archive/KR-06/2026-10-12/official.pdf",
+      "archive/KR-06/2026-10-12/secondary.html"
+    ],
+    "usable": true,
+    "note": "official.pdf is the full NIA copy (216 PDF pages, version of 29 April 2026) with a usable text layer from PDF page 7 on. Pages 1-6 are image-only. The cover (PDF page 1), read from a rendering, shows '고영향 인공지능 판단 가이드라인' with the English subtitle 'Guidelines for Determining High-Impact AI Systems' and the logos of MSIT (과학기술정보통신부) and NIA (한국지능정보사회진흥원). Annexes reproduce Act No. 20676 (PDF pages 173-184) and the draft Enforcement Decree '시행령안' (PDF pages 185 on). secondary.html is MSIT's online form for high-impact AI confirmation requests."
+  },
+  "language_field": {
+    "current": "Korean",
+    "proposed": "Korean"
+  },
+  "english_version": {
+    "kind": "none found",
+    "url": null,
+    "publisher": null,
+    "stored": false,
+    "evidence": {
+      "file": "archive/KR-06/2026-10-12/official.pdf",
+      "quote": "Guidelines for Determining High-Impact AI Systems"
+    },
+    "note": "Only the title has an English version: the issuer's own English subtitle on the cover (PDF page 1, image only, no text layer). The body is Korean only, and a web search found no English edition."
+  },
+  "title": {
+    "verdict": "accurate rendering",
+    "original_title_matches_source": true,
+    "source_quote": "고영향 인공지능 판단 가이드라인",
+    "file": "archive/KR-06/2026-10-12/official.pdf",
+    "proposed": null,
+    "why": "The register's 'Guideline for Determining High-Impact AI' renders the Korean accurately, but the issuer prints its own English title on the cover: 'Guidelines for Determining High-Impact AI Systems'. The register should use the issuer's wording (plural 'Guidelines', 'AI Systems') rather than its own; the parenthetical is a register addition. original_title matches the cover and the NIA file name character for character."
+  },
+  "summary_claims": [
+    {
+      "claim": "Guidance under Article 33(3) of Korea's AI Basic Act, which lets the Minister of Science and ICT publish criteria and examples for 'high-impact AI'.",
+      "file": "archive/KR-06/2026-10-12/official.pdf",
+      "locator": "PDF page 7, section 1.1.1",
+      "original_quote": "► 인공지능기본법 제33조제3항(고영향 인공지능의 확인) 과학기술정보통신부장관은 고영향 인공지능의 기준과 예시 등에 관한 가이드라인을 수립하여 보급할 수 있다.",
+      "literal_translation": "AI Basic Act Art. 33(3) (confirmation of high-impact AI): The Minister of Science and ICT may establish and disseminate guidelines on the criteria, examples, etc. of high-impact AI.",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "It sets a two-step test: whether the AI is used in a domain listed in Article 2(4), such as energy, drinking water, health care, nuclear safety, biometric identification, criminal investigation, hiring, loan screening or public services; and whether it may significantly affect or endanger life, physical safety or fundamental rights",
+      "file": "archive/KR-06/2026-10-12/official.pdf",
+      "locator": "PDF page 20, section 1.3.1, domain table (item 바) and step-2 condition",
+      "original_quote": "범죄 수사·체포바. 범죄 수사나 체포 업무를 위한 생체인식정보(얼굴ㆍ지문ㆍ홍채 및 손바닥 정맥 등 개인을 식별할 수 있는 신체적ㆍ생리적ㆍ행동적 특징에 관한 개인정보를 말한다)의 분석·활용",
+      "literal_translation": "Criminal investigation / arrest — (f) analysis and use of biometric information (personal information on physical, physiological or behavioural characteristics that can identify an individual, such as face, fingerprint, iris and palm veins) for criminal investigation or arrest work",
+      "verdict": "mistranslated",
+      "note": "The two-step structure and the step-2 test are rendered correctly. But the summary splits domain (f) into two items, 'biometric identification' and 'criminal investigation'. The Act lists one domain: analysis and use of biometric data for criminal investigation or arrest. Neither biometric identification in general nor criminal investigation in general is a high-impact domain. The guideline's own short label for the row is '범죄 수사·체포' (criminal investigation/arrest)."
+    },
+    {
+      "claim": "Operators self-assess and may ask the ministry to confirm.",
+      "file": "archive/KR-06/2026-10-12/official.pdf",
+      "locator": "PDF page 7, section 1.1.1",
+      "original_quote": "본 가이드라인을 통하여 인공지능사업자로서의 지위를 확정적으로 판단할 수 없는 경우에는 과학기술정보통신부장관에게 고영향 인공지능 해당 여부에 대하여 확인을 요청할 수 있다.",
+      "literal_translation": "Where [an operator] cannot conclusively determine its status as an AI business operator through this guideline, it may request the Minister of Science and ICT to confirm whether [its AI] is high-impact AI.",
+      "verdict": "accurate",
+      "note": "The same page says the guideline gives criteria 'so that operators can judge autonomously' (사업자가 자율적으로 판단할 수 있도록) whether their AI is high-impact."
+    }
+  ],
+  "key_terms": [
+    {
+      "original": "고영향 인공지능",
+      "register_rendering": "high-impact AI",
+      "official_rendering": "High-Impact AI Systems (cover subtitle, PDF page 1); the Act defines 고영향 인공지능 as an 인공지능시스템 (AI system)",
+      "verdict": "consistent",
+      "note": "The guideline itself notes that 'high-impact' was chosen as a more neutral term than 'high-risk' (고위험)."
+    },
+    {
+      "original": "범죄 수사나 체포 업무를 위한 생체인식정보의 분석·활용 (Act Art. 2(4)(f))",
+      "register_rendering": "biometric identification, criminal investigation",
+      "official_rendering": null,
+      "verdict": "wrong",
+      "note": "One domain rendered as two, which widens the defined class of high-impact AI. Suggested: 'analysis and use of biometric data for criminal investigation or arrest'."
+    },
+    {
+      "original": "고영향 인공지능 판단 가이드라인",
+      "register_rendering": "Guideline for Determining High-Impact AI",
+      "official_rendering": "Guidelines for Determining High-Impact AI Systems",
+      "verdict": "differs",
+      "note": "Issuer's English subtitle on the cover."
+    }
+  ],
+  "overall": "errors",
+  "issues": [
+    "Summary lists 'biometric identification' and 'criminal investigation' as separate high-impact domains; Act Art. 2(4)(f), as reproduced in the guideline, is a single domain: analysis and use of biometric information for criminal investigation or arrest. This wrongly widens the defined class.",
+    "Title differs from the issuer's own English title on the cover, 'Guidelines for Determining High-Impact AI Systems'.",
+    "'Weighing impact, severity, frequency and the domain's specifics' comes from the factors the Minister weighs on a confirmation request (Decree Art. 25(2), quoted on PDF page 9 as '위험의 영향, 중대성, 빈도, 활용 영역별 특수성'). The guideline uses them for step 2, so this is accurate but not the guideline's own test."
+  ],
+  "note": "Revision dates in the notes match the NIA post stored with KR-07/KR-08 ('[안내] 2026년 4월 29일(수), \"고영향 인공지능 판단 가이드라인\" 수정본 업로드', etc.). The MSIT form page confirms that operators should review the guideline first and points to the KOSA help desk. Inside the guideline, PDF page 9 cites the confirmation procedure as '시행령 제24조', while the decree annex numbers it Art. 25. That inconsistency is in the source, not in this record."
+}

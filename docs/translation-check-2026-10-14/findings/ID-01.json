@@ -1,0 +1,88 @@
+{
+ "id": "ID-01",
+ "checked_on": "2026-10-14",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "stored_text": {
+  "files": [
+   "archive/ID-01/2026-10-11/official.html"
+  ],
+  "usable": true,
+  "note": "The Komdigi JDIH record page carries the metadata and the full Indonesian text of the circular (addressees, sections 1-6 including the nine ethical values and the implementation and responsibility points). The text is OCR-derived and has character errors (e.g. KBLI '62ols' in the addressee line, '2O2l', 'expert sAstem'), but it is readable. Contrary to the verification note, the full list of ethical values is in this stored copy, so it does not need to rest on search results or press."
+ },
+ "language_field": {
+  "current": "Indonesian",
+  "proposed": "Indonesian"
+ },
+ "english_version": {
+  "kind": "none found",
+  "url": null,
+  "publisher": null,
+  "stored": false,
+  "evidence": null,
+  "note": "No English text in the stored file. The JDIH site has an 'English Translation' inventory (https://jdih.komdigi.go.id/produk_hukum/inventarisasi-terjemahan); whether it lists this circular was not checked. One web search found only law-firm summaries and an AI-policy database entry (aipalync.org), no translation by a public body."
+ },
+ "title": {
+  "verdict": "accurate rendering",
+  "original_title_matches_source": true,
+  "source_quote": "Surat Edaran Menteri Komunikasi dan Informatika Nomor 9 Tahun 2023 tentang Etika Kecerdasan Artifisial",
+  "file": "archive/ID-01/2026-10-11/official.html",
+  "proposed": null,
+  "why": "original_title matches the page heading exactly. 'Circular Letter of the Minister of Communication and Informatics No. 9 of 2023 on Artificial Intelligence Ethics' is a literal rendering."
+ },
+ "summary_claims": [
+  {
+   "claim": "addressed to AI-programming businesses (KBLI 62015) and to public and private electronic system operators",
+   "file": "archive/ID-01/2026-10-11/official.html",
+   "locator": "'Kepada Yth' (addressees) and section 5 (Definisi)",
+   "original_quote": "Pelaku Usaha adalah pelaku usaha Aktivitas Pemrograman Berbasis Kecerdasan Artifisial pada Kode Baku Lapangan Usaha Indonesia 62015.",
+   "literal_translation": "Business Actors are business actors in AI-based programming activities under Indonesian Standard Industrial Classification code 62015. [The addressee block lists these business actors, Public Scope Electronic System Operators and Private Scope Electronic System Operators.]",
+   "verdict": "accurate"
+  },
+  {
+   "claim": "gives values and ethical principles to guide the internal data and AI ethics policies that Ministerial Regulation 3/2021 already requires, and the conduct of AI-based consulting, analysis and programming",
+   "file": "archive/ID-01/2026-10-11/official.html",
+   "locator": "section 2 (Maksud dan Tujuan), point a",
+   "original_quote": "a. Maksud dari Surat Edaran Menteri ini sebagai pedoman etika dalam: membuat dan merumuskan kebijakan internal perusahaan, penyelenggara sistem elektronik lingkup publik dan penyelenggara sistem elektronik lingkup privat mengenai data dan etika internal kecerdasan artifisial; dan",
+   "literal_translation": "a. The purpose of this Ministerial Circular is to serve as an ethical guideline in: making and formulating the internal policies of companies, public-scope electronic system operators and private-scope electronic system operators on data and internal AI ethics; and carrying out AI-based consulting, analysis and programming [section 1 states that the annex to Ministerial Regulation 3/2021 requires such internal policies].",
+   "verdict": "accurate"
+  },
+  {
+   "claim": "principles including inclusivity, humanity, security, accessibility, transparency, accountability, data protection and sustainability",
+   "file": "archive/ID-01/2026-10-11/official.html",
+   "locator": "section 6 (Isi Edaran), list of AI ethics values",
+   "original_quote": "nilai Etika Kecerdasan Artifisial meliputi: Inklusivitas [...] Kemanusiaan [...] Keamanan [...] Aksesibilitas [...] Transparansi [...] Kredibilitas dan Akuntabilitas [...] Pelindungan Data Pribadi [...] Pembangunan dan Lingkungan Berkelanjutan [...] Kekayaan lntelektual",
+   "literal_translation": "The operation of AI technology observes the values of AI Ethics, comprising: Inclusivity; Humanity; Security; Accessibility; Transparency; Credibility and Accountability; Personal Data Protection; Sustainable Development and Environment; Intellectual Property.",
+   "verdict": "accurate"
+  }
+ ],
+ "key_terms": [
+  {
+   "original": "Surat Edaran",
+   "register_rendering": "Circular Letter / circular",
+   "official_rendering": null,
+   "verdict": "consistent",
+   "note": ""
+  },
+  {
+   "original": "Penyelenggara Sistem Elektronik Lingkup Publik / Lingkup Privat (PSE)",
+   "register_rendering": "public and private electronic system operators",
+   "official_rendering": null,
+   "verdict": "consistent",
+   "note": "The usual English rendering of PSE in Indonesian government translations is 'Electronic System Operator'."
+  },
+  {
+   "original": "Keamanan",
+   "register_rendering": "security",
+   "official_rendering": null,
+   "verdict": "consistent",
+   "note": "The value text concerns the security of users and data (privacy, personal data), so 'security' fits better than 'safety'. The separate word 'keselamatan' in section 1 is rendered 'safety' in the summary, which is also right."
+  }
+ ],
+ "overall": "ok",
+ "issues": [
+  "'Indonesia's first government instrument dedicated to AI ethics' and 'soft law without sanctions' are characterisations not stated in the stored text (the circular has no sanction provisions, so the second is a fair inference).",
+  "The verification note says the list of principles rests on search results and press; the full list is in the stored JDIH copy."
+ ],
+ "note": "The summary's list omits two values the circular names: 'Kredibilitas' (credibility, paired with accountability) and 'Kekayaan Intelektual' (intellectual property); it says 'including', so this is not an error."
+}

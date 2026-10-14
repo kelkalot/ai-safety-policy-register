@@ -1,0 +1,94 @@
+{
+  "id": "KR-08",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": [
+      "archive/KR-08/2026-10-12/official.pdf",
+      "archive/KR-08/2026-10-12/secondary.html"
+    ],
+    "usable": true,
+    "note": "official.pdf is the full Korean guideline (39 PDF pages) with a usable text layer. The cover (PDF page 1) reads '2026 / 인공지능 영향평가 가이드라인' and carries the logos of MSIT (과학기술정보통신부) and KISDI (정보통신정책연구원, Korea Information Society Development Institute). The guideline names KISDI as the dedicated agency that will support impact assessments (PDF page 8). secondary.html is the NIA download post. The KOSA help-desk listing cited in the notes was not stored."
+  },
+  "language_field": {
+    "current": "Korean",
+    "proposed": "Korean"
+  },
+  "english_version": {
+    "kind": "none found",
+    "url": null,
+    "publisher": null,
+    "stored": false,
+    "evidence": null,
+    "note": "No English text in the stored files beyond the names of foreign instruments, and a web search for MSIT English versions of the guidelines found none."
+  },
+  "title": {
+    "verdict": "accurate rendering",
+    "original_title_matches_source": true,
+    "source_quote": "인공지능 영향평가 가이드라인",
+    "file": "archive/KR-08/2026-10-12/official.pdf",
+    "proposed": null,
+    "why": "Literal and accurate: 'Guideline on AI Impact Assessment'. original_title matches the cover and the NIA file name '5._260122_인공지능_영향평가_가이드라인.pdf'. '(Article 35 of the AI Basic Act)' is a register addition."
+  },
+  "summary_claims": [
+    {
+      "claim": "Guidance for the fundamental-rights impact assessment of Article 35 of Korea's AI Basic Act.",
+      "file": "archive/KR-08/2026-10-12/official.pdf",
+      "locator": "PDF page 4, chapter 1 section 1 '개념'",
+      "original_quote": "인공지능 영향평가(이하 “영향평가”) · 인공지능사업자가 고영향 인공지능을 이용한 제품 또는 서비스를 제공하는 경우, 사전에 해당 제품 또는 서비스가 사람의 기본권에 미치는 영향을 평가하는 절차",
+      "literal_translation": "AI impact assessment ('impact assessment'): a procedure in which, where an AI business operator provides products or services using high-impact AI, it assesses in advance the impact of those products or services on people's fundamental rights",
+      "verdict": "accurate",
+      "note": "The substance is right: the assessment concerns fundamental rights. But the instrument's own name is '인공지능 영향평가' (AI impact assessment), and the same page uses '기본권 영향평가 (Fundamental Rights Impact Assessment)' only for EU AI Act Art. 27, saying Korea's assessment will keep interoperability with it. Calling Korea's instrument a 'fundamental-rights impact assessment' blurs that distinction."
+    },
+    {
+      "claim": "Operators providing products or services that use high-impact AI are to endeavour to assess in advance their impact on people's fundamental rights, and state bodies must prefer assessed products when they use high-impact AI.",
+      "file": "archive/KR-08/2026-10-12/official.pdf",
+      "locator": "PDF page 4, box '고영향 인공지능 영향평가(법 제35조)', Art. 35(1)-(2)",
+      "original_quote": "② 국가기관등이 고영향 인공지능을 이용한 제품 또는 서비스를 이용하려는 경우에는 영향평가를 실시한 제품 또는 서비스를 우선적으로 고려하여야 한다.",
+      "literal_translation": "(2) Where state agencies etc. intend to use products or services using high-impact AI, they shall give priority consideration to products or services for which an impact assessment has been carried out.",
+      "verdict": "accurate",
+      "note": "Para. 1 'endeavour' matches '노력하여야 한다'. 'Must prefer' is a little stronger than '우선적으로 고려하여야' ('must give priority consideration to'). 'State bodies' renders 국가기관등, which the Act defines to include local governments and public institutions under the Act on the Management of Public Institutions."
+    },
+    {
+      "claim": "The guideline explains the assessment's concept and legal basis and the main considerations at each stage (preparation, assessment, follow-up), and appends a report template, examples of how system functions can infringe rights and FAQs.",
+      "file": "archive/KR-08/2026-10-12/official.pdf",
+      "locator": "PDF page 2, table of contents",
+      "original_quote": "제2장 인공지능 영향평가 수행 단계별 주요 고려사항 제1절 사전 준비 단계 제2절 본 평가 수행 단계 제3절 사후 단계 부록 1. 인공지능 영향평가서 양식 및 작성 예시 2. 인공지능시스템 기능별 침해 발생 가능 작동원리 예시 3. 인공지능 영향평가 지원 안내 4. 인공지능 영향평가 FAQ",
+      "literal_translation": "Chapter 2: Main considerations at each stage of carrying out an AI impact assessment — Section 1: preparation stage; Section 2: main assessment stage; Section 3: follow-up stage. Annexes: 1. AI impact assessment report form and worked example; 2. examples of operating mechanisms by AI system function through which infringements may occur; 3. guidance on support for AI impact assessment; 4. AI impact assessment FAQ",
+      "verdict": "accurate",
+      "note": "The summary omits annex 3 (support guidance)."
+    }
+  ],
+  "key_terms": [
+    {
+      "original": "인공지능 영향평가 (Act Art. 35: 고영향 인공지능 영향평가)",
+      "register_rendering": "fundamental-rights impact assessment",
+      "official_rendering": null,
+      "verdict": "differs",
+      "note": "The official Korean term is 'AI impact assessment' (high-impact AI impact assessment in the Act). The guideline reserves 기본권 영향평가 / 'Fundamental Rights Impact Assessment' for the EU AI Act instrument. The register title has it right ('AI Impact Assessment'); the summary does not."
+    },
+    {
+      "original": "국가기관등",
+      "register_rendering": "state bodies",
+      "official_rendering": null,
+      "verdict": "differs",
+      "note": "Defined in Act Art. 2(4)(i) as the State, local governments and public institutions under the Act on the Management of Public Institutions, etc. 'State bodies' is narrower than the defined term; 'public bodies' or 'state agencies, local governments and public institutions' would be closer."
+    },
+    {
+      "original": "노력하여야 한다",
+      "register_rendering": "are to endeavour; an obligation of effort (notes)",
+      "official_rendering": null,
+      "verdict": "consistent",
+      "note": "The guideline itself softens it further: operators are 'recommended' (권장) to make the effort (PDF page 5)."
+    }
+  ],
+  "overall": "minor issues",
+  "issues": [
+    "Summary calls the instrument a 'fundamental-rights impact assessment'; the official term is 인공지능 영향평가 (AI impact assessment), and the guideline uses 'Fundamental Rights Impact Assessment' only for the EU AI Act Art. 27 instrument it wants to stay interoperable with.",
+    "'State bodies must prefer' slightly strengthens '국가기관등 ... 우선적으로 고려하여야' (state agencies etc. must give priority consideration), and 'state bodies' is narrower than the defined 국가기관등.",
+    "Title carries a register-added parenthetical '(Article 35 of the AI Basic Act)'.",
+    "Not a translation issue: the cover names KISDI alongside MSIT, and the guideline makes KISDI the dedicated support agency; issuing_body names MSIT and NIA only."
+  ],
+  "note": "The notes are supported. Products and services on the market before 22 Jan 2026 are to be assessed at the operator's discretion (PDF page 7: '사업자가 자율적으로 필요성을 판단하여 현행 서비스(또는 제품)를 기준으로 영향평가를 수행하는 것이 바람직함'). The guideline cites EU AI Act Art. 27 and the General-Purpose AI Code of Practice as reference frameworks (PDF pages 4 and 12)."
+}

@@ -16,7 +16,8 @@ From the first pipeline run on, the register is maintained by the pipeline in se
 
 ## 2. Limitations
 
-- **Extraction errors are possible.** Dates can be misread, a status can lag behind an amendment, an English title can differ from the official translation, and a summary can over- or under-state what an instrument does. Non-English documents are read as machine-extracted text and rendered into English by the agent.
+- **Extraction errors are possible.** Dates can be misread, a status can lag behind an amendment, an English title can differ from the official translation, and a summary can over- or under-state what an instrument does.
+- **The register does not translate instruments.** About a third of the records rest on a text that is not in English. For those, the English title is the official one only where `english_version` says there is an English text of the issuer or a government translation; otherwise it is the agent's rendering. Every summary is written in English by an AI agent that read the original as machine-extracted text, and no native speaker has reviewed them systematically. The original-language text is the authority: quote and cite it, or a government translation, never the summary. `docs/translation-check-2026-10-14.md` measures how well titles, summaries and key terms render the originals.
 - **The verification level is the key field.** A: the official source was stored and confirms the title, date and status. B: another official source confirms them. C: no official source could be stored; the record rests on secondary sources and says `CAUTION` in its verification note. Re-check C records before citing them. For records made by the pipeline the level is computed from the evidence by a script (section 5.5), not chosen by the agent. For the records of version 1, made before the pipeline, the agent that wrote each record also assigned its level; the quality checks and the hand check of 50 records reviewed them, and a recheck run will recompute them.
 - **It is a snapshot.** `meta.snapshot_date` says when every record was last re-verified together. Single records are refreshed more often; `verification.verified_on` and `data/history.jsonl` say when.
 - **Coverage is uneven.** `pipeline/frame.json` records which places have been searched and when, and `pipeline/coverage.md` sums it up (section 7.1). Absence from the register means nothing about a jurisdiction that the frame shows as not yet searched.
@@ -168,14 +169,15 @@ Then a checker agent in a fresh context, ideally another model or tool than the 
 | Field | Rule |
 |---|---|
 | `id`, `slug` | set by script: `<CODE>-<NN>` with the ISO 3166-1 alpha-2 code or a body code in use (`UN`, `EU`, `G7`, `OECD`, `COE`, `INT`, ...); sub-national `US-CA-03` |
-| `title`, `original_title` | official English title where one exists, otherwise an accurate English rendering; original-language title when not English |
+| `title`, `original_title` | official English title where one exists (in an English text of the issuer or a government translation), otherwise an accurate English rendering; original-language title, verbatim, when the official text is not in English |
 | `short_title` | common short name, about 60 characters at most |
-| `jurisdiction`, `country`, `jurisdiction_level`, `region` | copy the spelling used for the same country or body in existing records |
+| `jurisdiction`, `country`, `jurisdiction_level`, `region` | `jurisdiction` (and `country` for national records) exactly as the jurisdiction's `name` in `pipeline/frame.json`, which uses common English short names (Vietnam, South Korea, Türkiye); `validate.py` warns on a difference. Titles and issuing bodies keep the issuer's own English spelling |
 | `issuing_body` | the institution that adopted or issued it |
 | `instrument_type`, `legal_force`, `status` | vocabularies in `tools/validate.py`; a bill is `Proposed` and `Draft / proposed`; a vetoed or expired bill stays `Proposed` with status `Lapsed` or `Revoked / withdrawn` |
 | `date_published`, `date_in_force`, `date_last_updated` | ISO, or `YYYY-MM` / `YYYY` when the source gives no day; adoption or issue date, entry into force, last amendment or new version (not consultation dates or partial commencements; those go in `notes`) |
 | `official_identifier` | the citable number: law or decree number, gazette reference, bill number, UN symbol, CELEX; never a version label or a description |
-| `language` | language(s) of the official text, comma-separated |
+| `language` | language(s) of the official text, comma-separated, names only (`Chinese (Traditional)` is a name); translations go in `english_version` |
+| `english_version` | required when the official text is not in English: `{"kind", "url", "by"}`. `kind` is `authentic` (English is one of the issuer's own texts), `government translation` (published by the issuer or another public body, such as a ministry, a government law-translation service or a public research institute; usually provisional or for reference, without legal force), `third-party translation` (anyone else: a university, law firm, translation project or commercial database) or `none found`. The kind says who translated, not that a text is binding. A translation's `url` must be a stored source (list it in `extra_urls`), and `by` names who made it |
 | `summary` | 250 to 700 characters; what the instrument does and its safety or risk-governance content; no evaluation, no hedges |
 | `safety_topics` | 2 to 6 values from the topic list in `tools/validate.py` |
 | `related` | IDs of existing records; an AI Act implementing law relates to `EU-03` |

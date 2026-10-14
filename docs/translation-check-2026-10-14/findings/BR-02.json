@@ -1,0 +1,90 @@
+{
+ "id": "BR-02",
+ "checked_on": "2026-10-14",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "stored_text": {
+  "files": [
+   "archive/BR-02/2026-10-11/official.html"
+  ],
+  "usable": true,
+  "note": "The TSE compiled-legislation page holds the full Portuguese text of the resolution (ementa, arts. 9-B to 9-E, 27-A, 33-B and the new definitions). Text extracted by stripping HTML tags."
+ },
+ "language_field": {
+  "current": "Portuguese",
+  "proposed": "Portuguese"
+ },
+ "english_version": {
+  "kind": "none found",
+  "url": null,
+  "publisher": null,
+  "stored": false,
+  "evidence": null,
+  "note": "No English text in the stored file. One web search found only academic papers with English abstracts, no translation by the TSE or another public body."
+ },
+ "title": {
+  "verdict": "accurate rendering",
+  "original_title_matches_source": false,
+  "source_quote": "RESOLUÇÃO Nº 23.732, DE 27 DE FEVEREIRO DE 2024\nAltera a Res.-TSE nº 23.610, de 18 de dezembro de 2019, dispondo sobre a propaganda eleitoral.",
+  "file": "archive/BR-02/2026-10-11/official.html",
+  "proposed": null,
+  "why": "The number and date in original_title match the source apart from capitalisation, but the parenthetical '(altera a Res.-TSE nº 23.610/2019)' condenses the ementa and is not verbatim; the source's ementa is 'Altera a Res.-TSE nº 23.610, de 18 de dezembro de 2019, dispondo sobre a propaganda eleitoral.' The English title renders number, date and amended act correctly; the closing words 'AI and synthetic content rules' are a descriptive gloss that is not in the original title."
+ },
+ "summary_claims": [
+  {
+   "claim": "bans deepfakes of real, deceased or fictitious persons used to harm or favour candidates (even with consent)",
+   "file": "archive/BR-02/2026-10-11/official.html",
+   "locator": "Art. 1 (new Art. 9º-C, § 1º of Res.-TSE 23.610/2019)",
+   "original_quote": "§ 1º É proibido o uso, para prejudicar ou para favorecer candidatura, de conteúdo sintético em formato de áudio, vídeo ou combinação de ambos, que tenha sido gerado ou manipulado digitalmente, ainda que mediante autorização, [...] imagem ou voz de pessoa viva, falecida ou fictícia (deep fake).",
+   "literal_translation": "§ 1. The use, to harm or to favour a candidacy, of synthetic content in audio, video or combined format that has been digitally generated or manipulated, even with authorisation, to create, replace or alter the image or voice of a living, deceased or fictitious person (deep fake) is prohibited.",
+   "verdict": "accurate"
+  },
+  {
+   "claim": "bars chatbots or avatars that simulate conversation with candidates",
+   "file": "archive/BR-02/2026-10-11/official.html",
+   "locator": "Art. 1 (new Art. 9º-B, § 3º)",
+   "original_quote": "§ 3º O uso de chatbots, avatares e conteúdos sintéticos como artifício para intermediar a comunicação de campanha com pessoas naturais submete-se ao disposto no caput deste artigo, vedada qualquer simulação de interlocução com a pessoa candidata ou outra pessoa real.",
+   "literal_translation": "§ 3. The use of chatbots, avatars and synthetic content as a device to mediate campaign communication with natural persons is subject to the caput of this article [the disclosure duty], any simulation of dialogue with the candidate or another real person being prohibited.",
+   "verdict": "understated"
+  },
+  {
+   "claim": "makes platforms jointly liable if they fail to remove non-compliant AI content",
+   "file": "archive/BR-02/2026-10-11/official.html",
+   "locator": "Art. 1 (new Art. 9º-E, caput and item V)",
+   "original_quote": "Art. 9º-E. Os provedores de aplicação serão solidariamente responsáveis, civil e administrativamente, quando não promoverem a indisponibilização imediata de conteúdos e contas, durante o período eleitoral, nos seguintes casos de risco:",
+   "literal_translation": "Art. 9-E. Application providers shall be jointly and severally liable, civilly and administratively, when they do not immediately make contents and accounts unavailable, during the electoral period, in the following risk cases: [item V: content fabricated or manipulated by digital technologies, including AI, contrary to the labelling rules of this Resolution]",
+   "verdict": "accurate"
+  }
+ ],
+ "key_terms": [
+  {
+   "original": "conteúdo sintético",
+   "register_rendering": "synthetic content",
+   "official_rendering": null,
+   "verdict": "consistent",
+   "note": "Defined in the new art. 37, XXXV as image, video, audio, text or virtual object generated or significantly modified by digital technology, including AI."
+  },
+  {
+   "original": "solidariamente responsáveis",
+   "register_rendering": "jointly liable",
+   "official_rendering": null,
+   "verdict": "differs",
+   "note": "The usual legal rendering is 'jointly and severally liable'; the register's wording keeps the meaning but drops the 'civilly and administratively' and 'during the electoral period' limits."
+  },
+  {
+   "original": "propaganda eleitoral",
+   "register_rendering": "electoral propaganda (title); election advertising (summary)",
+   "official_rendering": null,
+   "verdict": "consistent",
+   "note": "Both renderings are defensible; the record uses two different ones."
+  }
+ ],
+ "overall": "minor issues",
+ "issues": [
+  "original_title is not verbatim: its parenthetical condenses the ementa 'Altera a Res.-TSE nº 23.610, de 18 de dezembro de 2019, dispondo sobre a propaganda eleitoral.'",
+  "Summary says chatbots may not simulate conversation 'with candidates'; the text bars simulating dialogue with the candidate 'or another real person'.",
+  "'real, deceased or fictitious persons' renders 'pessoa viva, falecida ou fictícia'; 'living' is the literal word.",
+  "'jointly liable' renders 'solidariamente responsáveis' (jointly and severally), and the liability applies only during the electoral period."
+ ],
+ "note": "Loss of registration or mandate (cassação do registro ou do mandato) in the summary is tied in art. 9-C § 2 to the deceptive-content and deepfake bans, not to all violations; the summary's wording is broad but not wrong."
+}

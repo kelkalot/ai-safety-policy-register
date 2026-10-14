@@ -1,0 +1,65 @@
+{
+  "id": "VN-02",
+  "checked_on": "2026-10-14",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "stored_text": {
+    "files": ["archive/VN-02/2026-10-12/official.pdf", "archive/VN-02/2026-10-12/secondary.html", "archive/VN-02/2026-10-11/official.html"],
+    "usable": true,
+    "note": "official.pdf is the signed Law (20 scanned pages, no text layer; pypdf returns nothing). I read it by OCR (tesseract 5, Vietnamese model, 300 dpi); the OCR text is good but drops or swaps some diacritics (e.g. 'cơ yêu' for 'cơ yếu', 'chiên lược' for 'chiến lược'), and quotes below reproduce the OCR reading as it is. secondary.html is the Official Gazette page (metadata only: number, issuer, dates, signer, Gazette No. 40). archive/VN-02/2026-10-11/official.html, an earlier snapshot no longer listed in local_copy.files, is the National Assembly newspaper's report of the vote."
+  },
+  "language_field": {"current": "Vietnamese", "proposed": "Vietnamese"},
+  "english_version": {
+    "kind": "unclear",
+    "url": "https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111260715113551787.htm",
+    "publisher": "Viet Nam Government News (en.baochinhphu.vn), Government Office",
+    "stored": false,
+    "evidence": null,
+    "note": "Lead only, not opened. One web search returned this Government portal page, which the search summary describes as an English text of the Law; whether it is a full translation, and whether the Government treats it as official, is not confirmed. Unofficial translations exist from LuatVietnam (english.luatvietnam.vn, subscription) and Apolat Legal. No English version is stored."
+  },
+  "title": {
+    "verdict": "accurate rendering",
+    "original_title_matches_source": true,
+    "source_quote": "Luật Trí tuệ nhân tạo",
+    "file": "archive/VN-02/2026-10-12/secondary.html",
+    "proposed": null,
+    "why": "The Gazette page's 'Trích yếu' (summary title) field reads 'Luật Trí tuệ nhân tạo'; the signed PDF's heading reads 'LUẬT / TRÍ TUỆ NHÂN TẠO'. 'Law on Artificial Intelligence' is the standard rendering of 'Luật Trí tuệ nhân tạo'."
+  },
+  "summary_claims": [
+    {
+      "claim": "Passed on 10 December 2025 by 429 of 434 deputies present.",
+      "file": "archive/VN-02/2026-10-11/official.html",
+      "locator": "article lead paragraph (daibieunhandan.vn, 10/12/2025)",
+      "original_quote": "Quốc hội đã biểu quyết thông qua Luật Trí tuệ nhân tạo, với 429/434 tổng số ĐBQH có mặt tán thành, đạt 98,8%.",
+      "literal_translation": "The National Assembly voted to pass the Law on Artificial Intelligence, with 429 of the 434 deputies present in favour, i.e. 98.8%.",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "Classifies systems as high, medium or low risk, with management measures proportionate to the risk; encourages controlled testing of technology and voluntary compliance mechanisms.",
+      "file": "archive/VN-02/2026-10-12/official.pdf",
+      "locator": "page 2, Art. 5(2) (OCR); risk tiers in Art. 9(1)(a)-(c), page 5",
+      "original_quote": "2. Khuyến khích thử nghiệm công nghệ có kiểm soát; áp dụng biện pháp quản lý tương xứng với mức độ rủi ro và khuyên khích cơ chê tự nguyện tuân thủ.",
+      "literal_translation": "2. Encourage controlled testing of technology; apply management measures commensurate with the level of risk and encourage voluntary compliance mechanisms.",
+      "verdict": "accurate"
+    },
+    {
+      "claim": "Treats data, computing and safe AI infrastructure as strategic national assets.",
+      "file": "archive/VN-02/2026-10-12/official.pdf",
+      "locator": "page 3, Art. 5(4) (OCR)",
+      "original_quote": "4. Ưu tiên đầu tư và huy động nguồn lực xã hội để phát triển hạ tầng dữ liệu, hạ tâng tính toán, trí tuệ nhân tạo an toàn, nguôn nhân lực chất lượng cao và các nên tảng trí tuệ nhân tạo dùng chung mang tính chiên lược quốc gia.",
+      "literal_translation": "4. Prioritise investment and mobilise social resources to develop data infrastructure, computing infrastructure, safe artificial intelligence, high-quality human resources and shared artificial intelligence platforms of national strategic character.",
+      "verdict": "mistranslated"
+    }
+  ],
+  "key_terms": [
+    {"original": "hệ thống trí tuệ nhân tạo có rủi ro cao / trung bình / thấp", "register_rendering": "high, medium or low risk", "official_rendering": null, "verdict": "consistent", "note": "Art. 9(1)(a)-(c). Notes' definitions of high and medium risk follow Art. 9(1)(a)-(b) closely (the high-risk list also names 'lợi ích quốc gia', national interests, which notes omit)."},
+    {"original": "thử nghiệm có kiểm soát", "register_rendering": "controlled testing", "official_rendering": null, "verdict": "consistent", "note": "Literal; often rendered 'regulatory sandbox' in English commentary."},
+    {"original": "mang tính chiến lược quốc gia", "register_rendering": "strategic national assets", "official_rendering": null, "verdict": "wrong", "note": "The phrase means 'of national strategic character' and grammatically qualifies the shared AI platforms at the end of the list; the provision is a policy of prioritised investment, and 'trí tuệ nhân tạo an toàn' (safe AI) is a separate item, not 'safe AI infrastructure'. The word 'assets' has no basis in the text."}
+  ],
+  "overall": "errors",
+  "issues": [
+    "Summary says the Law 'treats data, computing and safe AI infrastructure as strategic national assets'; Art. 5(4) only makes it state policy to prioritise investment in data infrastructure, computing infrastructure, safe AI, skilled people and shared AI platforms 'of national strategic character'. Suggested wording: 'prioritises investment in data and computing infrastructure, safe AI, skilled people and shared national AI platforms'.",
+    "The official PDF is a scan with no text layer; stored-text checks of this record depend on OCR."
+  ],
+  "note": "Also checked against the OCR text and accurate: exclusion of AI 'chỉ phục vụ cho mục đích quốc phòng, an ninh, cơ yêu' (Art. 1(2), solely for defence, security, cipher); priority for AI in state management and public services (Art. 5(5)); 8 chapters and 35 articles (closing article is Art. 35); Art. 4(2) human control and intervention 'đối với mọi quyết định và hành vi của hệ thống'; Art. 33 repeal list for Law 71/2025/QH15; Art. 34 entry into force 1 March 2026; Art. 35 transition of 18 months (y tế, giáo dục, tài chính) and 12 months, with suspension power. Art. 13(4) gives the Prime Minister the high-risk list (used by VN-05) and Art. 26(5) has the Minister of Science and Technology issue the national AI ethics framework (used by VN-06)."
+}
