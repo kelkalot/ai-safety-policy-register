@@ -185,7 +185,12 @@
   /* ---------- selects ---------- */
   var countryList = Array.from(new Set(R.map(function (r) { return r.jurisdiction_level === "International" ? r.jurisdiction : r.country; }))).sort(function (a, b) { return a.localeCompare(b); });
   $("#country").innerHTML = '<option value="">All</option>' + countryList.map(function (c) { return '<option value="' + esc(c) + '">' + esc(c) + "</option>"; }).join("");
-  var years = Array.from(new Set(R.map(function (r) { return r._year; }).filter(Boolean))).sort();
+  // every year from the first to the last, so a year without records shows as an empty bar instead of vanishing
+  var years = (function () {
+    var seen = Array.from(new Set(R.map(function (r) { return r._year; }).filter(Boolean))).sort(), out = [];
+    for (var y = +seen[0]; seen.length && y <= +seen[seen.length - 1]; y++) out.push(String(y));
+    return out;
+  })();
   ["#yearFrom", "#yearTo"].forEach(function (s, i) {
     $(s).innerHTML = '<option value="">' + (i ? "To" : "From") + "</option>" + years.map(function (y) { return '<option value="' + y + '">' + y + "</option>"; }).join("");
   });
