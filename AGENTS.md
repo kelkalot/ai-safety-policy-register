@@ -4,7 +4,7 @@ Instructions for people and AI agents who work on this repository. Read it befor
 
 ## 1. What this is and how the data is made
 
-The AI Safety Policy Register is a database of official governmental and intergovernmental instruments on AI safety and AI regulation. The data is `data/records.json`; everything else in `data/` is generated from it.
+Every AI Policy Ever is a register of official governmental and intergovernmental instruments on AI safety and AI regulation. The data is `data/records.json`; everything else in `data/` is generated from it.
 
 **The records are an AI-based extraction.** The first 340 records (version 1.6, 11 and 12 October 2026) were made by single agents that searched, fetched, extracted and graded each record in one go, working in Claude Code with Claude Fable 5.1. That method is described in this file as of commit `96430a0`; the passes are logged in `meta.provenance` in `data/records.json`.
 
@@ -20,6 +20,7 @@ From the first pipeline run on, the register is maintained by the pipeline in se
 - **The register does not translate instruments.** About a third of the records rest on a text that is not in English. For those, the English title is the official one only where `english_version` says there is an English text of the issuer or a government translation; otherwise it is the agent's rendering. Every summary is written in English by an AI agent that read the original as machine-extracted text, and no native speaker has reviewed them systematically. The original-language text is the authority: quote and cite it, or a government translation, never the summary. `docs/translation-check-2026-10-14.md` measures how well titles, summaries and key terms render the originals.
 - **The verification level is the key field.** A: the official source was stored and confirms the title, date and status. B: another official source confirms them. C: no official source could be stored; the record rests on secondary sources and says `CAUTION` in its verification note. Re-check C records before citing them. For records made by the pipeline the level is computed from the evidence by a script (section 5.5), not chosen by the agent. For the records of version 1, made before the pipeline, the agent that wrote each record also assigned its level; the quality checks and the hand check of 50 records reviewed them, and a recheck run will recompute them.
 - **It is a snapshot.** `meta.snapshot_date` says when every record was last re-verified together. Single records are refreshed more often; `verification.verified_on` and `data/history.jsonl` say when.
+- **Coverage is densest from 2023 on.** The register aims to hold every instrument within its scope, but only a few records predate 2023 (the README gives the current figure); older instruments are added run by run, and the absence of one says nothing about whether it exists.
 - **Coverage is uneven.** `pipeline/frame.json` records which places have been searched and when, and `pipeline/coverage.md` sums it up (section 7.1). Absence from the register means nothing about a jurisdiction that the frame shows as not yet searched.
 - **Dates can be partial** (`YYYY-MM` or `YYYY`) when the source gives no exact day.
 - **Local copies are third-party documents** and some are bot-check pages or empty JavaScript shells; those records are flagged `archived-review`, `partial` or `failed`, and listed in `archive/needs-attention.txt`.
@@ -320,6 +321,6 @@ Out: documents by companies, think tanks, the press, professional associations o
 
 Cite the record, its verification level and the snapshot, and the stored copy where one exists. The app's "Citation" box on each record produces this form:
 
-> Issuing body. Title [identifier]. Date. Official URL. Status; verified <date> (level <A|B|C>). Local copy <path> retrieved <time>, SHA-256 <hash>. AI Safety Policy Register, snapshot <date>, record <ID>.
+> Issuing body. Title [identifier]. Date. Official URL. Status; verified <date> (level <A|B|C>). Local copy <path> retrieved <time>, SHA-256 <hash>. Every AI Policy Ever, version <version> (snapshot <date>), record <ID>.
 
 Say in your own text that the register is an AI-assisted extraction and name the verification level of the records you rely on.

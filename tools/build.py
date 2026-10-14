@@ -9,6 +9,8 @@ Writes:
   data/register.sqlite  a relational copy for SQL queries
   data/register.xlsx    an Excel workbook (only when the openpyxl package is installed)
   HISTORY.md            the change history from data/history.jsonl, newest first, for readers
+  README.md             only the numbers between <!--n:key--> and <!--/n--> markers and the BibTeX block
+                        between <!-- build:bibtex --> and <!-- /build:bibtex -->, so they follow the data
 
 data/records.json is the single source of truth. Edit it (or let
 tools/archive.py update it), then run this script. It first runs the checks in
@@ -19,8 +21,10 @@ Standard library only. Python 3.8+.
 """
 import csv
 import json
+import re
 import sqlite3
 import sys
+from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -29,6 +33,9 @@ import validate  # noqa: E402  (same folder)
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
+NAME = "Every AI Policy Ever"
+AUTHORS = [("Riegler", "Michael"), ("Gautam", "Sushant")]
+DATASET_URL = "https://huggingface.co/datasets/kelkalot/every-ai-policy-ever"
 
 LOCAL_STATUSES = [
     "archived",            # official source saved, no warnings
@@ -264,6 +271,50 @@ def write_history_md(root=ROOT):
     return True
 
 
+def bibtex(meta, url=DATASET_URL):
+    year = (meta.get("snapshot_date") or "")[:4]
+    return ("@dataset{riegler_gautam_%s_every_ai_policy_ever,\n"
+            "  title     = {%s: a register of official AI safety and AI regulation instruments},\n"
+            "  author    = {%s},\n  year      = {%s},\n  version   = {%s},\n  publisher = {Hugging Face},\n"
+            "  url       = {%s},\n  note      = {AI-assisted extraction, snapshot %s}\n}") % (
+        year, NAME, " and ".join("%s, %s" % a for a in AUTHORS), year, meta.get("version"), url,
+        meta.get("snapshot_date"))
+
+
+def numbers(db):
+    """The figures the README quotes, computed from the data."""
+    R = db["records"]
+    levels = Counter((r.get("verification") or {}).get("level") for r in R)
+    years = [(r.get("date_published") or "")[:4] for r in R if (r.get("date_published") or "")[:4].isdigit()]
+    return {"version": db["meta"].get("version"), "records": len(R), "snapshot": db["meta"].get("snapshot_date"),
+            "level_A": levels["A"], "level_B": levels["B"], "level_C": levels["C"],
+            "countries": len({r.get("country") for r in R if r.get("jurisdiction_level") in ("National", "Sub-national")}),
+            "from_2023": sum(1 for y in years if y >= "2023"), "before_2023": sum(1 for y in years if y < "2023"),
+            "first_year": min(years) if years else ""}
+
+
+NUMBER = re.compile(r"<!--n:(\w+)-->.*?<!--/n-->", re.S)
+BIBTEX = re.compile(r"(<!-- build:bibtex -->\n).*?(\n<!-- /build:bibtex -->)", re.S)
+
+
+def write_readme(db, root=ROOT):
+    """Put the current figures and citation into README.md, so the documentation does not drift from the data."""
+    path = root / "README.md"
+    if not path.is_file():
+        return
+    text = path.read_text(encoding="utf-8")
+    n = numbers(db)
+
+    def fill(m):
+        if m.group(1) not in n:
+            raise SystemExit("README.md: no figure called %r (known: %s)" % (m.group(1), ", ".join(sorted(n))))
+        return "<!--n:%s-->%s<!--/n-->" % (m.group(1), n[m.group(1)])
+    new = NUMBER.sub(fill, text)
+    new = BIBTEX.sub(lambda m: m.group(1) + "```bibtex\n" + bibtex(db["meta"]) + "\n```" + m.group(2), new)
+    if new != text:
+        path.write_text(new, encoding="utf-8")
+
+
 def save(db, root=ROOT):
     """Write records.json atomically and regenerate every derived file."""
     db = normalise(db)
@@ -277,6 +328,7 @@ def save(db, root=ROOT):
     write_csv(db, root)
     write_sqlite(db, root)
     write_history_md(root)
+    write_readme(db, root)
     try:
         import export_xlsx
         export_xlsx.write_xlsx(db, root)

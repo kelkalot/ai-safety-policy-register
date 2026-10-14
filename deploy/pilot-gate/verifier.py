@@ -1,4 +1,4 @@
-"""Pilot gate and admin API for the AI Safety Policy Register.
+"""Pilot gate and admin API for Every AI Policy Ever.
 
 /login         takes a Clerk session token (from the browser, via getToken()), verifies
                its RS256 signature against Clerk's public JWKS, checks the user's verified
