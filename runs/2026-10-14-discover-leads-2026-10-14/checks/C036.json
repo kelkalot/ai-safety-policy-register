@@ -1,0 +1,68 @@
+{
+ "cand_id": "C036",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "The veto date stamp (13 Oct 2025) is the only stored date of the bill's final action; the notes say so."
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "jurisdiction": {
+   "verdict": "supported"
+  },
+  "country": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "As passed, prohibits making a companion chatbot available to users under 18 unless it is not foreseeably capable of certain actions",
+   "verdict": "supported",
+   "locator": "veto message, page 1"
+  },
+  {
+   "claim": "May 2025 version: covered products include companion chatbots that can foreseeably attempt mental health therapy, cause harmful attachment, or manipulate the child, and AI systems that generate social scores, assess emotional state or process biometric information",
+   "verdict": "supported",
+   "locator": "Senate Judiciary analysis, bill text lines on 'covered product'"
+  },
+  {
+   "claim": "Governor pointed to SB 243 and promised a bill the next year",
+   "verdict": "supported",
+   "locator": "veto message, pages 1-2"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Veto of 13 Oct 2025 shown by the stored veto message (OCR) and the legislative update. legal_force Proposed with status Lapsed follows the rule for vetoed bills. No new version found; a bill tracker shows the veto-override item struck from file in Jan 2026, which does not revive it. The enrolled text is not stored, and the summary says 'as passed' only for what the veto message says."
+}

@@ -1,0 +1,121 @@
+{
+ "cand_id": "C030",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Responsible Use of Artificial Intelligence Directive",
+  "original_title": null,
+  "short_title": "Ontario Responsible Use of AI Directive",
+  "jurisdiction": "Ontario (Canada)",
+  "country": "Canada",
+  "jurisdiction_level": "Sub-national",
+  "region": "North America",
+  "issuing_body": "Management Board of Cabinet, Government of Ontario",
+  "instrument_type": "Regulation / implementing rule",
+  "legal_force": "Binding",
+  "status": "In force",
+  "date_published": null,
+  "date_in_force": "2024-12-01",
+  "date_last_updated": null,
+  "official_identifier": null,
+  "official_url": "https://www.ontario.ca/page/responsible-use-artificial-intelligence-directive",
+  "secondary_url": null,
+  "language": "English",
+  "summary": "Management Board of Cabinet directive on the transparent, responsible and accountable use of AI by Ontario ministries and provincial agencies. Its six principles cover benefit to Ontarians, justified and proportionate use of reliable and valid systems, safety, security and privacy, human rights and non-discrimination, transparency, and accountability with ongoing human oversight. For each use case ministries must apply AI risk management (justify the use, assess risks, set a risk level, apply proportional controls), report use cases and risks annually, publish a list of use cases, and disclose AI use where the public interacts with AI or AI is involved in decisions affecting them.",
+  "safety_topics": [
+   "public-sector use",
+   "risk-based classification",
+   "transparency & labelling",
+   "human oversight",
+   "accountability & liability"
+  ],
+  "related": [
+   "CA-ON-01"
+  ],
+  "notes": "Effective 1 Dec 2024. Issued under the Management Board of Cabinet Act; the Ministry of Public and Business Service Delivery and Procurement is responsible for it, and the Associate Deputy Minister, Policy, Archives, and Data must review the Directive and its supporting material at least every two years. Exemptions need Management Board of Cabinet approval. Operational policies may say how its requirements apply to AI use cases set up before its effective date. Provincial agencies must apply the same risk management, set approval processes based on risk level, and report to their accountable ministry.",
+  "verification": {
+   "note": "Stored the Directive's page on ontario.ca (copy of 14 Oct 2026), which holds its full text: purpose, application and scope, the administration clause ('a Management Board of Cabinet Directive, issued under the Management Board of Cabinet Act and effective December 1, 2024'), principles, requirements, roles and definitions. The text gives no date of approval or issue, so date_published is null. The page footer reads 'Updated: January 07, 2026' and 'Published: January 07, 2022'; these are page dates and are not stated to be dates of the Directive or of an amendment, so date_last_updated is also null. Only the English page was stored. The Framework page stored for candidate C031 in this run presents the Directive as part of Ontario's Trustworthy AI Framework and says it took effect on 1 Dec 2024."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C030/2026-10-14/official.html",
+    "sha256": "9cd97817758a069bccf9e3eb1404952eee3f4a442ece3e915446d9d3a9bd4ebd",
+    "locator": "2 Purpose",
+    "quote": "The Responsible Use of Artificial Intelligence Directive (the “Directive”) sets out the requirements for the transparent, responsible and accountable use of AI.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C030/2026-10-14/official.html",
+    "sha256": "9cd97817758a069bccf9e3eb1404952eee3f4a442ece3e915446d9d3a9bd4ebd",
+    "locator": "4 Administration",
+    "quote": "The Directive is a Management Board of Cabinet Directive, issued under the Management Board of Cabinet Act and effective December 1, 2024.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C030/2026-10-14/official.html",
+    "sha256": "9cd97817758a069bccf9e3eb1404952eee3f4a442ece3e915446d9d3a9bd4ebd",
+    "locator": "7.1 Treasury Board and Management Board of Cabinet",
+    "quote": "approve this Directive and any changes to it",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C030/2026-10-14/official.html",
+    "sha256": "9cd97817758a069bccf9e3eb1404952eee3f4a442ece3e915446d9d3a9bd4ebd",
+    "locator": "3 Application and scope",
+    "quote": "The Directive applies to all Ontario ministries and provincial agencies.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C030/2026-10-14/official.html",
+    "sha256": "9cd97817758a069bccf9e3eb1404952eee3f4a442ece3e915446d9d3a9bd4ebd",
+    "locator": "6.1 AI risk management",
+    "quote": "ministries must engage in AI risk management when seeking to use AI systems for a Government of Ontario use case.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C030/2026-10-14/official.html",
+    "sha256": "9cd97817758a069bccf9e3eb1404952eee3f4a442ece3e915446d9d3a9bd4ebd",
+    "locator": "4 Administration",
+    "quote": "The Directive is a Management Board of Cabinet Directive, issued under the Management Board of Cabinet Act and effective December 1, 2024.",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C030/2026-10-14/official.html",
+    "sha256": "9cd97817758a069bccf9e3eb1404952eee3f4a442ece3e915446d9d3a9bd4ebd",
+    "locator": "4 Administration",
+    "quote": "The Directive is a Management Board of Cabinet Directive, issued under the Management Board of Cabinet Act and effective December 1, 2024.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The administration clause makes the Directive effective on 1 Dec 2024, before today (14 Oct 2026). The stored text mentions no repeal, suspension or replacement, and the page is still published (footer 'Updated: January 07, 2026'), so the status is In force.",
+  "scope_reasoning": "In scope with no scope_note: a binding government directive on AI risk management, transparency and oversight in public-sector AI use (AGENTS.md section 10, government safety and risk-management frameworks). The instrument type follows CA-01 (federal Directive on Automated Decision-Making) and AUS-01, which are also binding internal policies on government AI use.",
+  "related_reasoning": "CA-ON-01 (Enhancing Digital Security and Trust Act, 2024) is Ontario's statute on AI use by public sector entities; the earlier refresh run found the Directive as a lead on the Ontario page about that Act. The Directive does not implement it, but the two govern the same field.",
+  "topics_reasoning": "risk-based classification: ministries must 'Determine the risk level of the AI use to inform potential risk-based proportional controls'. transparency & labelling: public disclosure of AI use and a published list of use cases. human oversight: principle 5.6. accountability & liability: roles and responsibilities, annual reporting."
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "Joint principles for the responsible use of AI by Ontario's Information and Privacy Commissioner and the Ontario Human Rights Commission (January 2026)",
+   "url": "https://www.ohrc.on.ca/en/ipc-ohrc-principles-and-ops-ai-directive",
+   "why": "Seen in a web search result while looking for the Directive's date: AI-specific principles issued by Ontario oversight bodies, which the supervisors rule (pipeline/scope-decisions.md) brings into scope."
+  }
+ ],
+ "open_questions": [
+  "date_published: the stored text does not give the date on which Treasury Board/Management Board of Cabinet approved or issued the Directive.",
+  "Whether the page update of 7 Jan 2026 changed the Directive's text is not shown by the stored copy; no amendment is recorded."
+ ]
+}

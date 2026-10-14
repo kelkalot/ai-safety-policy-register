@@ -1,0 +1,134 @@
+{
+ "cand_id": "C014",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "jurisdiction": "Japan",
+  "country": "Japan",
+  "jurisdiction_level": "National",
+  "region": "East Asia",
+  "title": "Data Quality Management Guidebook: Maximizing the Value of Data and AI",
+  "short_title": "J-AISI Data Quality Management Guidebook",
+  "issuing_body": "Japan AI Safety Institute (J-AISI)",
+  "instrument_type": "Guidelines / framework",
+  "legal_force": "Non-binding",
+  "status": "Published (non-binding, current)",
+  "date_published": "2025-03-31",
+  "date_in_force": null,
+  "date_last_updated": "2026-05-14",
+  "official_identifier": null,
+  "official_url": "https://aisi.go.jp/output/output_framework/data_quality_management_guidebook/",
+  "secondary_url": null,
+  "language": "English",
+  "summary": "Guidebook of the Japan AI Safety Institute on managing the quality of data used to build and operate AI systems, on the premise that poor data quality degrades AI performance and trust. It treats data quality as one of the evaluation perspectives on AI safety, linked to fairness, robustness and verifiability, and organises international standards such as ISO/IEC 25012 and ISO/IEC 5259 into a framework of three views: a process view of the data life cycle from design to disposal, a governance cycle view, and a gateway view of data quality characteristics. It adds AI-specific points such as annotation quality, bias checks, drift management, synthetic data and monitoring.",
+  "safety_topics": [
+   "evaluation & testing",
+   "safety institute",
+   "transparency & labelling"
+  ],
+  "related": [
+   "JP-01",
+   "JP-03"
+  ],
+  "notes": "Version 1.00 was published on 31 Mar 2025, version 1.01 on 2 Dec 2025 and version 1.02 on 14 May 2026; version 1.02 turned the slide document into a text document and came with a machine-translated Japanese reference version and a data quality management checklist (version 1.00). The English text is the official edition. The guidebook was produced by J-AISI's standards team with data experts of IPA's Digital Infrastructure Center and J-AISI's Data Quality Sub-Working Group, and is maintained as a living document.",
+  "scope_note": "Mainly a data management guidebook; included because the Japan AI Safety Institute issued it as AI safety guidance and treats data quality as one of its evaluation perspectives on AI safety.",
+  "english_version": {
+   "kind": "authentic",
+   "url": "https://aisi.go.jp/assets/pdf/260514_Data_quality_management_guidebook_en.pdf",
+   "by": "Japan AI Safety Institute (J-AISI)"
+  },
+  "verification": {
+   "note": "Stored: J-AISI's bilingual release page on aisi.go.jp, the English guidebook version 1.02 (89 pages, 2026-05-14) and its Japanese reference translation (107 pages). The release page and the guidebook's version history confirm the title, the three version dates, the issuer, the non-binding character and that the English version is the official edition and the Japanese one a reference translation; the summary is written from the English text."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C014/2026-10-14/document-1.pdf",
+    "sha256": "10fe09c28d9dd0f40337d234c091515a012e066c309141d8e1b1aeb58c0c5789",
+    "locator": "page 1, cover",
+    "quote": "Data Quality Management Guidebook Maximizing the Value of Data and AI",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C014/2026-10-14/document-1.pdf",
+    "sha256": "10fe09c28d9dd0f40337d234c091515a012e066c309141d8e1b1aeb58c0c5789",
+    "locator": "page 84, 6.1 Publishing Organizations and Contributors",
+    "quote": "Japan AI Safety Institute (J -AISI) is the government initiative responsible for ensuring safety as a foundation for accelerating AI",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C014/2026-10-14/official.html",
+    "sha256": "3c3c16dbd816b94177d3a53e1186177c39e102bcf80714b1e2a08158c92d5e05",
+    "locator": "release page, heading",
+    "quote": "データ品質マネジメントガイドブック Data Quality Management Guidebook - Japan AISI",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C014/2026-10-14/official.html",
+    "sha256": "3c3c16dbd816b94177d3a53e1186177c39e102bcf80714b1e2a08158c92d5e05",
+    "locator": "release page, version list",
+    "quote": "Data Quality Management Guidebook (Version 1.00), published on 31 March 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C014/2026-10-14/document-1.pdf",
+    "sha256": "10fe09c28d9dd0f40337d234c091515a012e066c309141d8e1b1aeb58c0c5789",
+    "locator": "page 86, 6.3 Version History",
+    "quote": "Version 1.00 (2025-03-31)",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C014/2026-10-14/official.html",
+    "sha256": "3c3c16dbd816b94177d3a53e1186177c39e102bcf80714b1e2a08158c92d5e05",
+    "locator": "release page, version list",
+    "quote": "Data Quality Management Guidebook (Version 1.02), published on 14 May 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C014/2026-10-14/document-1.pdf",
+    "sha256": "10fe09c28d9dd0f40337d234c091515a012e066c309141d8e1b1aeb58c0c5789",
+    "locator": "page 85, 6.3 Version History",
+    "quote": "Version 1.02 (2026-05-14)",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C014/2026-10-14/official.html",
+    "sha256": "3c3c16dbd816b94177d3a53e1186177c39e102bcf80714b1e2a08158c92d5e05",
+    "locator": "release page, English paragraphs",
+    "quote": "This English version of the guide is the official edition, while the Japanese version serves as a reference.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C014/2026-10-14/document-1.pdf",
+    "sha256": "10fe09c28d9dd0f40337d234c091515a012e066c309141d8e1b1aeb58c0c5789",
+    "locator": "page 6, 1.2 How to Use This Guidebook",
+    "quote": "This document is not a legally binding standard, but a guidebook intended to share practical knowledge on data quality.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Version 1.02 of 14 May 2026 is the latest version on the release page; the guidebook is non-binding ('not a legally binding standard').",
+  "scope_reasoning": "Borderline: its subject is data management, but J-AISI frames data quality as an AI safety evaluation perspective (section 2.4) and covers AI-specific data risks. Included with a scope_note under the include-and-flag rule.",
+  "language_reasoning": "The release page and section 6.4 say the English version is the official edition and the Japanese one a reference translation, so language is English and there is no original_title."
+ },
+ "extra_urls": [],
+ "leads": [
+  "AIST, Machine Learning Quality Management Guideline, 4th edition (National Institute of Advanced Industrial Science and Technology, a public research institute), https://www.digiarc.aist.go.jp/publication/aiqm/; cited by the guidebook; not in the register.",
+  "J-AISI Data Quality Sub-Working Group, FY2025 activity report (https://aisi.go.jp/output/output_information/260415/), linked from the release page."
+ ],
+ "open_questions": []
+}

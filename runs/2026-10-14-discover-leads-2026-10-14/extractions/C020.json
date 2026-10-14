@@ -1,0 +1,147 @@
+{
+ "cand_id": "C020",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "jurisdiction": "Japan",
+  "country": "Japan",
+  "jurisdiction_level": "National",
+  "region": "East Asia",
+  "title": "Guidelines on Assessment of AI Reliability in the Field of Plant Safety",
+  "original_title": "プラント保安分野AI信頼性評価ガイドライン",
+  "short_title": "Plant Safety AI Reliability Assessment Guidelines",
+  "issuing_body": "Liaison Council of Three Ministries on Disaster Prevention of Petroleum Complexes (Ministry of Economy, Trade and Industry; Fire and Disaster Management Agency; Ministry of Health, Labour and Welfare)",
+  "instrument_type": "Guidelines / framework",
+  "legal_force": "Non-binding",
+  "status": "Published (non-binding, current)",
+  "date_published": "2020-11",
+  "date_in_force": null,
+  "date_last_updated": "2021-03",
+  "official_identifier": null,
+  "official_url": "https://www.fdma.go.jp/relocation/neuter/topics/fieldList4_16/jisyuhoan_shiryo.html",
+  "secondary_url": null,
+  "language": "Japanese, English",
+  "summary": "Guidelines of the liaison council of METI, the Fire and Disaster Management Agency and the Ministry of Health, Labour and Welfare on assessing the reliability of machine learning used in petroleum and chemical plants, where safety is crucial. Following AIST's Machine Learning Quality Management Guideline, they manage reliability through quality in use, external quality and internal quality, with required levels for risk avoidance and performance, and take account of external safety mechanisms, safety systems independent of the AI and human involvement in its decisions. They apply this to five plant use cases and set out tasks in development and operation.",
+  "safety_topics": [
+   "critical infrastructure",
+   "evaluation & testing",
+   "human oversight"
+  ],
+  "related": [],
+  "notes": "The first edition was published in November 2020. The second edition of March 2021 clarified how AI safety assessment relates to existing plant risk assessment methods such as HAZOP and FMEA, added explanations to the template for recording reliability assessments, a Q&A and seven practical examples covering the five use cases (pipe wall thickness prediction, pipe image diagnosis, equipment deterioration diagnosis, detection of early signs of abnormality, operation optimisation). The guidelines were drawn up from a working group of plant operators and safety and AI experts that met from April 2020 to March 2021, and are to be reviewed as they are used. The council publishes an English edition of the second edition.",
+  "english_version": {
+   "kind": "authentic",
+   "url": "https://www.fdma.go.jp/relocation/neuter/topics/fieldList4_16/pdf/r03/jisyuhoan_shiryo_03_09.pdf",
+   "by": "Liaison Council of Three Ministries on Disaster Prevention of Petroleum Complexes"
+  },
+  "verification": {
+   "note": "Stored: the three-ministry council's page on the FDMA site (fdma.go.jp), the council's English edition of the second edition (158 pages, March 2021) and the Japanese summary of the revision. They confirm the title, the issuers, the first publication in November 2020 (令和2年11月) and the second edition of March 2021, and the content; the summary is written from the English edition, which the council publishes as its own English edition without a translation notice. The Japanese text of the second edition (jisyuhoan_shiryo_03_02.pdf) was not stored; the original title is quoted from the council's page and the revision summary."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/document-1.pdf",
+    "sha256": "d5450d1d743400dde20ac66a489a52955a221863324d23730d1f7f812f5552cc",
+    "locator": "page 1, cover",
+    "quote": "Guidelines on Assessment of AI Reliability in the Field of Plant Safety Second Edition",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/official.html",
+    "sha256": "c60df78e0244445c0e44253681cf40c489feec561e2f450c4d68b718a315f8c0",
+    "locator": "page, English edition list",
+    "quote": "Guidelines on Assessment of AI Reliability in the Field of Plant Safety（Second Edition）",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/official.html",
+    "sha256": "c60df78e0244445c0e44253681cf40c489feec561e2f450c4d68b718a315f8c0",
+    "locator": "page, AI section",
+    "quote": "プラント保安分野AI信頼性評価ガイドライン　第2版（2021年3月改訂）",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/document-2.pdf",
+    "sha256": "3a9fd7d85935d8ea54d477ce209117926279d67e453ace0a76608725bb9e3110",
+    "locator": "page 1, heading",
+    "quote": "プラント保安分野AI信頼性評価ガイドラインの改訂",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/document-1.pdf",
+    "sha256": "d5450d1d743400dde20ac66a489a52955a221863324d23730d1f7f812f5552cc",
+    "locator": "page 1, cover",
+    "quote": "March 2021 the Liaison Council of Three Ministries on Disaster Prevention of Petroleum Complexes (Ministry of Economy, Trade and Industry; Fire and Disaster Management Agency; and Ministry of Health, Labour and Welfare)",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/official.html",
+    "sha256": "c60df78e0244445c0e44253681cf40c489feec561e2f450c4d68b718a315f8c0",
+    "locator": "page, AI section heading",
+    "quote": "プラント保安分野におけるAIの活用（2020年11月）（石油コンビナート等災害防止3省連絡会議）",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/document-2.pdf",
+    "sha256": "3a9fd7d85935d8ea54d477ce209117926279d67e453ace0a76608725bb9e3110",
+    "locator": "page 1",
+    "quote": "令和2年11月の公表以来、ガイドラインの活用が進んでいる。",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/official.html",
+    "sha256": "c60df78e0244445c0e44253681cf40c489feec561e2f450c4d68b718a315f8c0",
+    "locator": "page, AI section",
+    "quote": "プラント保安分野AI信頼性評価ガイドライン　第2版（2021年3月改訂）",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/document-1.pdf",
+    "sha256": "d5450d1d743400dde20ac66a489a52955a221863324d23730d1f7f812f5552cc",
+    "locator": "page 1, cover",
+    "quote": "Second Edition March 2021 the Liaison Council of Three Ministries",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/document-2.pdf",
+    "sha256": "3a9fd7d85935d8ea54d477ce209117926279d67e453ace0a76608725bb9e3110",
+    "locator": "page 1",
+    "quote": "その活用状況を踏まえて、ガイドラ インの実用例を示すとともに、より適切な適用をはかるためにガイドラインを改訂する。",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/document-1.pdf",
+    "sha256": "d5450d1d743400dde20ac66a489a52955a221863324d23730d1f7f812f5552cc",
+    "locator": "page 17, 1.2.2 Positioning of the Guidelines",
+    "quote": "are positioned as a reference that shows how to apply them to the field of plant safety.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The second edition of March 2021 is the latest listed on the council's page (with later 'New' practical examples); the guidelines are a non-binding reference, so the status is Published (non-binding, current).",
+  "scope_reasoning": "A government guideline specifically on the reliability and safety of AI in safety-critical industrial plants: in scope as a government AI risk-management guideline, with no note. It is substantial guidance, not a minor circular.",
+  "date_reasoning": "The council's page labels its AI section 2020年11月 and the revision summary says the guidelines have been in use since their publication in 令和2年11月 (November 2020); no stored file gives the day. The second edition is dated March 2021 (2021年3月改訂).",
+  "language_reasoning": "The council publishes an English edition of the second edition without a translation notice, so English is counted as one of its own texts; the original drafting language is Japanese."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "If a checker treats the English edition as a translation rather than the council's own text, language becomes 'Japanese', english_version a government translation, and the Japanese second edition (https://www.fdma.go.jp/relocation/neuter/topics/fieldList4_16/pdf/r03/jisyuhoan_shiryo_03_02.pdf) should be stored to check the summary."
+ ]
+}

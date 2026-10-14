@@ -48,9 +48,7 @@
    "state": "open",
    "issue": 8,
    "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/8",
-   "opened": "2026-10-14",
-   "closed": null,
-   "resolution": null
+   "opened": "2026-10-14"
   },
   {
    "key": "record:TH-01@2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
@@ -184,9 +182,7 @@
    "state": "open",
    "issue": 16,
    "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/16",
-   "opened": "2026-10-14",
-   "closed": null,
-   "resolution": null
+   "opened": "2026-10-14"
   },
   {
    "key": "record:TH-03@2026-10-14-refresh-translation-fixes",
@@ -218,9 +214,7 @@
    "state": "open",
    "issue": 18,
    "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/18",
-   "opened": "2026-10-14",
-   "closed": null,
-   "resolution": null
+   "opened": "2026-10-14"
   },
   {
    "key": "record:MX-01@2026-10-14-refresh-translation-fixes",
@@ -235,9 +229,7 @@
    "state": "open",
    "issue": 19,
    "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/19",
-   "opened": "2026-10-14",
-   "closed": null,
-   "resolution": null
+   "opened": "2026-10-14"
   },
   {
    "key": "host:strapi.naio.okie.my",
@@ -361,7 +353,8 @@
    "subject": "vanban.chinhphu.vn",
    "code": "VN",
    "records": [
-    "VN-07"
+    "VN-07",
+    "C043"
    ],
    "why": "Quotes from this host counted as secondary because it is neither a government domain nor in pipeline/official-sites.json.",
    "state": "open",
@@ -406,6 +399,123 @@
    "state": "open",
    "issue": 28,
    "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/28",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "candidate:C007@2026-10-14-discover-leads-2026-10-14",
+   "kind": "candidate",
+   "subject": "C007",
+   "run_id": "2026-10-14-discover-leads-2026-10-14",
+   "held_back": true,
+   "why": "extractor: What exists is one line in a standardisation plan: SAC has approved a project for a recommended national standard on AI deep synthesis security (plan 20264769-T-469, due for approval by 31 Dec 2027), with no draft text. The register covers instruments, including drafts and pending bills, but neither AGENTS.md section 10 nor pipeline/scope-decisions.md says whether an approved standardisation project with no text counts, and a record could say only what the standard will be about. Suggested rule for a human: no record for a plan item; record the standard when its draft for comment is published, and meanwhile mention the project in the notes of CN-02 (deep synthesis provisions). The same list holds about a dozen other AI-related projects (items 7, 9 and 13 to 23), so the decision sets a precedent for all of them.",
+   "records": [],
+   "state": "open",
+   "issue": 31,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/31",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null,
+   "title": "Cybersecurity technology — Security specification for artificial intelligence deep synthesis (planned national standard)"
+  },
+  {
+   "key": "candidate:C022@2026-10-14-discover-leads-2026-10-14",
+   "kind": "candidate",
+   "subject": "C022",
+   "run_id": "2026-10-14-discover-leads-2026-10-14",
+   "held_back": true,
+   "why": "extractor: Probably in scope with a scope_note (a ministry checklist on contract terms for AI use and development, covering AI risks such as data handling and security), but nothing can be extracted: no source is stored.",
+   "records": [],
+   "state": "open",
+   "issue": 32,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/32",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null,
+   "title": "AIの利用・開発に関する契約チェックリスト (METI AI Use and Development Contract Checklist, Feb 2025)"
+  },
+  {
+   "key": "candidate:C027@2026-10-14-discover-leads-2026-10-14",
+   "kind": "candidate",
+   "subject": "C027",
+   "run_id": "2026-10-14-discover-leads-2026-10-14",
+   "held_back": true,
+   "why": "extractor: The Senate AI commission's draft 'Ley General para Regular y Fomentar el Uso de la Inteligencia Artificial en México' (chair Sen. Rolando Zapata Bello) has no filed text: no Gaceta or SIL entry is known, and the only sources are Senate press releases about a working draft, which the archiver could not store (HTTP 403). The stored initiative of another candidate (C026, page 35) confirms only that in April 2026 the commission reported working on such a proposal. No rule or precedent says whether a legislative commission's unfiled working draft is an instrument for the register (TH-01 is a draft the government published for public hearing; this one has not been published), and no stored copy supports any field. A human should decide whether to keep it as a lead until it is filed as an initiative, or to record it as a draft once a Senate page can be stored.",
+   "records": [],
+   "state": "open",
+   "issue": 33,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/33",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null,
+   "title": "Ley General para Regular y Fomentar el Uso de la Inteligencia Artificial en México (Senate AI commission draft, chair Rolando Zapata Bello)"
+  },
+  {
+   "key": "candidate:C040@2026-10-14-discover-leads-2026-10-14",
+   "kind": "candidate",
+   "subject": "C040",
+   "run_id": "2026-10-14-discover-leads-2026-10-14",
+   "held_back": true,
+   "why": "extractor: Evidence and scope cannot be settled from what exists. The only stored source is a CBS News article (4 Oct 2026) reporting a Truth Social post in which the President announced the 'Super Intelligence Force' after the White House Accord on Super Intelligence (US-27), led by DNI Jay Clayton with the FTC chairman, the Pentagon CTO and the OPM director, reporting to the President and the Chief of Staff. Web searches on 14 Oct 2026 found no whitehouse.gov page, executive order, memorandum or published charter creating the task force; press reports mention a 120-day report and a charter that has not been published. A record would rest wholly on press reports of a social-media post (level C), with no official text to quote for its mandate, legal form or status, and section 10 does not say whether a task force announced only in a post, without a published founding instrument, is an instrument. A human should decide whether to wait for an official document (and keep the lead open) or record it now at level C with a scope_note.",
+   "records": [],
+   "state": "open",
+   "issue": 34,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/34",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null,
+   "title": "Super Intelligence Force (SIF), interagency task force announced by the President"
+  },
+  {
+   "key": "candidate:C041@2026-10-14-discover-leads-2026-10-14",
+   "kind": "candidate",
+   "subject": "C041",
+   "run_id": "2026-10-14-discover-leads-2026-10-14",
+   "held_back": true,
+   "why": "extractor: A political party's draft act, presented at a party hearing seminar on 26 July 2026 and still being revised; no draft text is published and nothing shows it has been introduced in the House. The register covers official governmental and intergovernmental instruments and includes pending bills and private members' bills (with a note), but no rule or precedent says whether a party's unfiled draft counts; section 10's exclusions name companies, think tanks and the press, not parties. The only stored source is a newspaper report. A human should decide whether to record it now (level C, with the scope_note above) or keep it as a lead until a bill is introduced.",
+   "records": [],
+   "state": "open",
+   "issue": 35,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/35",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null,
+   "title": "Draft Artificial Intelligence Act for creative people (People's Party draft)"
+  },
+  {
+   "key": "record:US-NV-02@2026-10-14-discover-leads-2026-10-14",
+   "kind": "record",
+   "subject": "US-NV-02",
+   "run_id": "2026-10-14-discover-leads-2026-10-14",
+   "held_back": false,
+   "why": "the checker found something possibly newer: Draft update of the policy under review in 2026, not signed (https://www.it.nv.gov/events/state-ai-roundtable2/); https://www.it.nv.gov/events/state-ai-roundtable2/",
+   "records": [
+    "US-NV-02"
+   ],
+   "state": "open",
+   "issue": 36,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/36",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "sample:2026-10-14-discover-leads-2026-10-14",
+   "kind": "sample",
+   "subject": "2026-10-14-discover-leads-2026-10-14",
+   "run_id": "2026-10-14-discover-leads-2026-10-14",
+   "records": [
+    "CN-20",
+    "CN-27",
+    "JP-09",
+    "JP-14",
+    "SK-04"
+   ],
+   "why": "Human sample of run 2026-10-14-discover-leads-2026-10-14: check each record against its stored sources.",
+   "state": "open",
+   "issue": 37,
+   "url": "https://github.com/kelkalot/ai-safety-policy-register/issues/37",
    "opened": "2026-10-14",
    "closed": null,
    "resolution": null

@@ -1,0 +1,56 @@
+{
+ "cand_id": "C021",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Follows MEXT's page and English summary ('Primary and Secondary Education'); the cover of the translation says 'Elementary and Secondary'. Accurate rendering."
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "The Japanese text and the MEXT page give only 令和5年7月 for the provisional guideline. The 4 July 2023 date is that of a notice to boards of education about its creation, listed on the MEXT page, not of the guideline text. 2023-07 is the supported value; the blind value 2023-07-04 over-reads the notice. Convention (first issue date) is as for JP-02."
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "'学校現場での生成AIの利活用を一律に禁止したり義務付けたりするものではない'"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "five points: safety-conscious proper use (terms, age limits, parental consent), information security, protection of personal information/privacy/copyright, fairness, transparency and accountability",
+   "verdict": "supported",
+   "locator": "page 5-6, items 1-5; literal: ①安全性を考慮した適正利用 ... ⑤透明性の確保、関係者への説明責任"
+  },
+  {
+   "claim": "does not uniformly ban or mandate use",
+   "verdict": "supported",
+   "locator": "page 4"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "JP-02",
+  "JP-03"
+ ],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Education guidance with safeguards for children's use of generative AI; scope_note present and appropriate."
+ },
+ "overall": "accept",
+ "note": "Official MEXT documents confirm title, issuer, Ver.2.0 of 26 December 2024 and the July 2023 provisional guideline. Keep date_published 2023-07; the day in the blind extraction comes from a notice date. The notes already refer to JP-02 and JP-03, so they could be added to related. No Ver.3.0 found."
+}

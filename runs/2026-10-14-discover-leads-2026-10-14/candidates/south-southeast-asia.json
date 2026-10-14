@@ -1,0 +1,55 @@
+{
+ "group": "south-southeast-asia",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "candidates": [
+  {
+   "cand_ref": "south-southeast-asia-01",
+   "cell": "TH/legislature",
+   "title_as_found": "(ร่าง) พระราชบัญญัติปัญญาประดิษฐ์ (AI) เพื่อคนสร้างสรรค์ ฉบับพรรคประชาชน (People's Party draft AI Act for creative people)",
+   "language": "Thai",
+   "url": null,
+   "source_kind": "secondary",
+   "lead_urls": [
+    "https://en.thairath.co.th/news/politic/2948798",
+    "https://www.thairath.co.th/news/politic/2948798"
+   ],
+   "found_via": "news search; the party held a hearing seminar on 26 July 2026 and plans to propose a House subcommittee; no draft text, House bill page or party page found, and no sign that it has been filed in the House",
+   "scope_guess": "borderline",
+   "why": "Opposition party draft with human-in-the-loop and opt-out content, focused on creators' rights; kept only as a lead until a filed text exists; it may be out as a party document, not an official instrument.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "south-southeast-asia-02",
+   "cell": "VN/executive",
+   "title_as_found": "Quyết định số 804/QĐ-TTg ngày 06/5/2026 ban hành Danh mục bộ dữ liệu phục vụ phát triển trí tuệ nhân tạo trong các lĩnh vực thiết yếu",
+   "language": "Vietnamese",
+   "url": "https://chinhphu.vn/?docid=218027&pageid=27160",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/804-ttg.signed.pdf",
+    "https://tapchicongthuong.vn/ban-hanh-danh-muc-bo-du-lieu-phuc-vu-phat-trien-tri-tue-nhan-tao-trong-cac-linh-vuc-thiet-yeu-515980.htm"
+   ],
+   "found_via": "search of chinhphu.vn; the portal page gives number, date and title and an attached PDF (extra_urls candidate)",
+   "scope_guess": "borderline",
+   "why": "List of 15 datasets for AI development under the AI Law; mainly about data supply, with limited safety content, so a scope_note is needed.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "south-southeast-asia-03",
+   "cell": "VN/executive",
+   "title_as_found": "Quyết định số 1528/QĐ-TTg ngày 11/8/2026 phê duyệt Chương trình quốc gia phát triển nhân lực trí tuệ nhân tạo đến năm 2030, định hướng đến năm 2035",
+   "language": "Vietnamese",
+   "url": "https://vanban.chinhphu.vn/?docid=219163&pageid=27160",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/8/1528_qd-ttg_11082026-signed.signed.pdf",
+    "https://chinhphu.vn/?docid=219163&pageid=27160"
+   ],
+   "found_via": "search for the national AI workforce programme; the portal page gives the decision number, date and PDF",
+   "scope_guess": "borderline",
+   "why": "Workforce programme; press reports mention rules on AI use in universities but safety content looks thin, so it may be out as a strategy with no safety content.",
+   "possible_duplicate_of": null
+  }
+ ]
+}

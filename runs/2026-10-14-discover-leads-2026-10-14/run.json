@@ -1,0 +1,247 @@
+{
+ "run_id": "2026-10-14-discover-leads-2026-10-14",
+ "type": "discover",
+ "scope": null,
+ "started": "2026-10-14",
+ "coordinator": {
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5"
+ },
+ "stages": {
+  "collect": {
+   "tool": "Claude Code",
+   "model": "claude-sonnet-5-5",
+   "date": "2026-10-14"
+  },
+  "extract": {
+   "tool": "Claude Code",
+   "model": "claude-opus-5-5",
+   "date": "2026-10-14"
+  },
+  "blind": {
+   "tool": "Claude Code",
+   "model": "claude-opus-5-5",
+   "date": "2026-10-14"
+  },
+  "check": {
+   "tool": "Claude Code",
+   "model": "claude-sonnet-5-5",
+   "date": "2026-10-14"
+  }
+ },
+ "status": "merged",
+ "mode": "leads",
+ "leads": [
+  {
+   "lead": "Ontario Responsible Use of Artificial Intelligence Directive",
+   "cell": "CA-ON/executive",
+   "seen_in": "CA-ON-01"
+  },
+  {
+   "lead": "Ontario's Trustworthy Artificial Intelligence Framework",
+   "cell": "CA-ON/executive",
+   "seen_in": "CA-ON-01"
+  },
+  {
+   "lead": "TC260 draft national standard: AI security capability maturity assessment method (网络安全技术 人工智能安全能力成熟度评估方法)",
+   "cell": "CN/ministries",
+   "seen_in": "CN-06"
+  },
+  {
+   "lead": "TC260 practice guide (draft): security guide for developing AI agent systems (网络安全标准实践指南——智能体系统开发安全指南)",
+   "cell": "CN/ministries",
+   "seen_in": "CN-06, CN-13, CN-17"
+  },
+  {
+   "lead": "TC260 practice guides on AI application security, general part (TC260-PG-20268A) and sector guides",
+   "cell": "CN/ministries",
+   "seen_in": "CN-06, CN-17"
+  },
+  {
+   "lead": "Planned national standard 20264769-T-469: AI deep synthesis security specification",
+   "cell": "CN/ministries",
+   "seen_in": "CN-08"
+  },
+  {
+   "lead": "Planned guide 20264766-T-469: implementation guide for detecting AI-generated content",
+   "cell": "CN/ministries",
+   "seen_in": "CN-08"
+  },
+  {
+   "lead": "GB/T 45674-2025: security specification for generative AI data annotation",
+   "cell": "CN/ministries",
+   "seen_in": "CN-08"
+  },
+  {
+   "lead": "Four TC260 cybersecurity standard practice guides released 15 Sept 2025",
+   "cell": "CN/ministries",
+   "seen_in": "CN-13"
+  },
+  {
+   "lead": "J-AISI Approach Book to AI Incident Response",
+   "cell": "JP/ai-bodies",
+   "seen_in": "JP-01"
+  },
+  {
+   "lead": "J-AISI Chief AI Officer Guidebook",
+   "cell": "JP/ai-bodies",
+   "seen_in": "JP-01"
+  },
+  {
+   "lead": "J-AISI Data Quality Management Guidebook",
+   "cell": "JP/ai-bodies",
+   "seen_in": "JP-01"
+  },
+  {
+   "lead": "J-AISI discussion paper AMAIS: Activity Map on AI Safety",
+   "cell": "JP/ai-bodies",
+   "seen_in": "JP-01"
+  },
+  {
+   "lead": "J-AISI Guide to Evaluation Perspectives on AI Safety in the Healthcare Sector",
+   "cell": "JP/ai-bodies",
+   "seen_in": "JP-03"
+  },
+  {
+   "lead": "Ministry guidelines on AI listed by the Cabinet Office (those with safety or risk content)",
+   "cell": "JP/ministries",
+   "seen_in": "JP-05"
+  },
+  {
+   "lead": "Interim Report of the AI Strategic Council and the AI Institutional Study Group",
+   "cell": "JP/executive",
+   "seen_in": "JP-06"
+  },
+  {
+   "lead": "Senate AI commission draft 'Ley General para Regular y Fomentar la Inteligencia Artificial'",
+   "cell": "MX/legislature",
+   "seen_in": "MX-01"
+  },
+  {
+   "lead": "Chamber of Deputies bill promoting the use of AI for economic and social development (D-2584139)",
+   "cell": "PY/legislature",
+   "seen_in": "PY-01"
+  },
+  {
+   "lead": "Supreme Court of Justice Resolución N° 12.677: guidelines on the use of AI in the judiciary",
+   "cell": "PY/executive",
+   "seen_in": "PY-01"
+  },
+  {
+   "lead": "Private members' bill on AI misuse and deepfakes (SNS), National Council of the Slovak Republic",
+   "cell": "SK/legislature",
+   "seen_in": "SK-02"
+  },
+  {
+   "lead": "People's Party draft Artificial Intelligence Act for creative workers",
+   "cell": "TH/legislature",
+   "seen_in": "TH-01"
+  },
+  {
+   "lead": "Interagency 'Super Intelligence Force' (task force) announced 4 October 2026",
+   "cell": "US/executive",
+   "seen_in": "US-27"
+  },
+  {
+   "lead": "California Executive Order N-5-26 (30 Mar 2026) on AI procurement, civil rights, civil liberties and privacy",
+   "cell": "US-CA/executive",
+   "seen_in": "US-CA-07"
+  },
+  {
+   "lead": "California Executive Order N-12-23 (6 Sep 2023) on generative AI",
+   "cell": "US-CA/executive",
+   "seen_in": "US-CA-08"
+  },
+  {
+   "lead": "California SB 867 (2026): Toys: companion chatbots",
+   "cell": "US-CA/legislature",
+   "seen_in": "US-CA-08"
+  },
+  {
+   "lead": "California SB 1276 (2026): sexual exploitation of a child, including AI-generated material",
+   "cell": "US-CA/legislature",
+   "seen_in": "US-CA-08"
+  },
+  {
+   "lead": "California AB 1064 (2025): companion chatbots and children",
+   "cell": "US-CA/legislature",
+   "seen_in": "US-CA-08"
+  },
+  {
+   "lead": "California AB 1159 (2026): student personal information and AI",
+   "cell": "US-CA/legislature",
+   "seen_in": "US-CA-08"
+  },
+  {
+   "lead": "Illinois Department of Human Rights rules on notice of AI use in employment",
+   "cell": "US-IL/ministries",
+   "seen_in": "US-IL-01"
+  },
+  {
+   "lead": "Nevada State Executive Branch policy on the responsible and ethical use of AI (draft)",
+   "cell": "US-NV/executive",
+   "seen_in": "US-NV-01"
+  },
+  {
+   "lead": "Decision 804/QĐ-TTg (6 May 2026) on datasets for AI development in essential sectors",
+   "cell": "VN/executive",
+   "seen_in": "VN-03"
+  },
+  {
+   "lead": "National programme on AI human resources development to 2030",
+   "cell": "VN/executive",
+   "seen_in": "VN-01, VN-03"
+  },
+  {
+   "lead": "Decree 353/2025/NĐ-CP detailing the Law on Digital Technology Industry",
+   "cell": "VN/executive",
+   "seen_in": "VN-07"
+  }
+ ],
+ "cells": [
+  "CA-ON/executive",
+  "CN/ministries",
+  "JP/ai-bodies",
+  "JP/executive",
+  "JP/ministries",
+  "MX/legislature",
+  "PY/executive",
+  "PY/legislature",
+  "SK/legislature",
+  "TH/legislature",
+  "US-CA/executive",
+  "US-CA/legislature",
+  "US-IL/ministries",
+  "US-NV/executive",
+  "US/executive",
+  "VN/executive"
+ ],
+ "groups": {
+  "north-america": [
+   "CA-ON/executive",
+   "US-CA/executive",
+   "US-CA/legislature",
+   "US-IL/ministries",
+   "US-NV/executive",
+   "US/executive"
+  ],
+  "east-asia": [
+   "CN/ministries",
+   "JP/ai-bodies",
+   "JP/executive",
+   "JP/ministries"
+  ],
+  "latin-america-caribbean": [
+   "MX/legislature",
+   "PY/executive",
+   "PY/legislature"
+  ],
+  "europe": [
+   "SK/legislature"
+  ],
+  "south-southeast-asia": [
+   "TH/legislature",
+   "VN/executive"
+  ]
+ }
+}

@@ -1,0 +1,200 @@
+{
+ "group": "north-america",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "candidates": [
+  {
+   "cand_ref": "north-america-01",
+   "cell": "CA-ON/executive",
+   "title_as_found": "Responsible Use of Artificial Intelligence Directive",
+   "language": "English",
+   "url": "https://www.ontario.ca/page/responsible-use-artificial-intelligence-directive",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://ontariodirectors.ca/download_file/a96dc55e-8302-4045-8bdf-3d0c10e7acc3/694"
+   ],
+   "found_via": "web search; ontario.ca page loads (HTTP 200)",
+   "scope_guess": "in",
+   "why": "Binding directive for Ontario ministries and provincial agencies on transparent, accountable and risk-based AI use.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "north-america-02",
+   "cell": "CA-ON/executive",
+   "title_as_found": "Ontario's Trustworthy Artificial Intelligence (AI) Framework",
+   "language": "English",
+   "url": "https://www.ontario.ca/page/ontarios-trustworthy-artificial-intelligence-ai-framework",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.ontario.ca/ai",
+    "https://www.ontario.ca/page/ontarios-trustworthy-artificial-intelligence-ai-framework-consultations"
+   ],
+   "found_via": "web search; ontario.ca pages",
+   "scope_guess": "borderline",
+   "why": "Umbrella framework page (three priorities, points to the Directive); may duplicate the Directive candidate, so extractor should decide whether it is a separate instrument or related material.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "north-america-03",
+   "cell": "US-CA/executive",
+   "title_as_found": "Executive Order N-5-26 (trusted AI procurement: vendor certification, civil rights and civil liberties, watermarking recommendations)",
+   "language": "English",
+   "url": "https://www.gov.ca.gov/wp-content/uploads/2026/03/3.30-FINAL-Trusted-AI-Procurement-EO-N-5-26.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.gov.ca.gov/2026/03/30/as-trump-rolls-back-protections-governor-newsom-signs-first-of-its-kind-executive-order-to-strengthen-ai-protections-and-responsible-use/",
+    "https://www.ropesgray.com/en/insights/alerts/2026/04/newsom-signs-executive-order-establishing-ai-vendor-certification-and-procurement-framework"
+   ],
+   "found_via": "web search restricted to gov.ca.gov; signed PDF and press release found",
+   "scope_guess": "in",
+   "why": "Governor's executive order of 30 March 2026 on AI vendor certification and safeguards in state procurement; N-9-26 (US-CA-09) is already registered but this order is not.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "north-america-04",
+   "cell": "US-CA/executive",
+   "title_as_found": "Executive Order N-12-23 (generative AI)",
+   "language": "English",
+   "url": "https://www.gov.ca.gov/wp-content/uploads/2023/09/AI-EO-No.12-_-GGN-Signed.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.genai.ca.gov/ca-action/executive-order",
+    "https://www.govops.ca.gov/generative-ai-genai-executive-order/"
+   ],
+   "found_via": "web search; signed PDF loads (HTTP 200)",
+   "scope_guess": "in",
+   "why": "Governor's order of 6 September 2023 requiring risk analysis, guidelines and procurement rules for state use of generative AI.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "north-america-05",
+   "cell": "US-CA/legislature",
+   "title_as_found": "SB 867 (2025-2026): Toys: companion chatbots",
+   "language": "English",
+   "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB867",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://calmatters.digitaldemocracy.org/bills/ca_202520260sb867",
+    "https://www.fenwick.com/insights/publications/california-enacts-comprehensive-child-safety-laws-targeting-ai-chatbots",
+    "https://www.ballardspahr.com/insights/alerts-and-articles/2026/09/california-ai-toy-bill-brings-software-behavior-into-product-safety"
+   ],
+   "found_via": "web search; leginfo URL built from the bill ID pattern, returns 403 to plain curl so needs the archiver's browser retry; chaptering and signing (10 Sept 2026) reported only by secondary sources",
+   "scope_guess": "in",
+   "why": "Bans toys with companion chatbots until 1 Jan 2031; sits beside SB 243 and SB 1119 (US-CA-06, US-CA-08); check enrolled text for age threshold and status.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "north-america-06",
+   "cell": "US-CA/legislature",
+   "title_as_found": "SB 1276 (2025-2026): sexual exploitation of a child, including AI-generated material",
+   "language": "English",
+   "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1276",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://calmatters.digitaldemocracy.org/bills/ca_202520260sb1276",
+    "https://www.recordinglaw.com/news/california-sb-1276-ai-generated-csam/",
+    "https://apcp.assembly.ca.gov/media/1202"
+   ],
+   "found_via": "web search; leginfo URL built from bill ID pattern (403 to curl); status conflicts between sources (suspense file in April vs signed 10 Sept 2026, Ch. 192)",
+   "scope_guess": "borderline",
+   "why": "Criminal and reporting law extended to AI-generated child sexual abuse material; not an AI governance law, include with a scope note like other deepfake laws.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "north-america-07",
+   "cell": "US-CA/legislature",
+   "title_as_found": "AB 1064 (2025-2026): Leading Ethical AI Development (LEAD) for Kids Act, companion chatbots and children",
+   "language": "English",
+   "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1064",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://calmatters.digitaldemocracy.org/bills/CA_202520260AB1064",
+    "https://agora.eto.tech/instrument/2668",
+    "https://sjud.senate.ca.gov/media/1975"
+   ],
+   "found_via": "web search; leginfo URL built from bill ID pattern (403 to curl); trackers say adopted by Legislature 11 Sept 2025 and vetoed",
+   "scope_guess": "in",
+   "why": "AI-specific child-safety bill, reportedly vetoed; vetoed bills are kept for context (section 10), and SB 243 and SB 1119 were enacted in its place.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "north-america-08",
+   "cell": "US-CA/legislature",
+   "title_as_found": "AB 1159 (2025-2026): student personal information, AI training (KOPIPA, ELPIPA, new HESIPA)",
+   "language": "English",
+   "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1159",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://privacyrights.org/resources-tools/articles/governor-signs-prc-sponsored-ab-1159-law-strengthening-privacy-protections",
+    "https://apcp.assembly.ca.gov/media/1030",
+    "https://sedn.senate.ca.gov/media/1639"
+   ],
+   "found_via": "web search; leginfo URL built from bill ID pattern (403 to curl); signing reported by an advocacy group (10 Sept 2026)",
+   "scope_guess": "borderline",
+   "why": "Student privacy law limiting AI training to deidentified data; mainly a privacy law with an AI provision, so include only with a scope_note.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "north-america-09",
+   "cell": "US-IL/ministries",
+   "title_as_found": "Illinois Department of Human Rights proposed rules, 56 Ill. Adm. Code 2520 (new 2520.900 and 2520.910): notice of AI use in employment",
+   "language": "English",
+   "url": null,
+   "source_kind": "secondary",
+   "lead_urls": [
+    "https://www.nfib.com/wp-content/uploads/2025/12/AI-Employment-Notice-Rules-IDHR-Re-HB3773-IL.pdf",
+    "https://ktslaw.com/insights/alert/2026/6/illinois-department-of-human-rights-issues-proposed-rules-on-ai-notice-requirements-in-employment-decisions",
+    "https://www.ilga.gov/agencies/JCAR/EntirePart?titlepart=05602520"
+   ],
+   "found_via": "searches on idhr/ilga/illinois.gov domains found only the existing Part 2520 pages (no AI text) and the Legislative Updates page https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html; no Illinois Register notice found",
+   "scope_guess": "borderline",
+   "why": "Rules implementing HB 3773 (US-IL-01), proposed 15 May 2026 and reportedly postponed on 2 June 2026; a proposed or withdrawn rulemaking with no official text located yet, so the extractor may find only the Illinois Register notice, if any.",
+   "possible_duplicate_of": "US-IL-01"
+  },
+  {
+   "cand_ref": "north-america-10",
+   "cell": "US-NV/executive",
+   "title_as_found": "Policy on the Responsible and Ethical Use of Artificial Intelligence in Nevada State Government Executive Branch (CIO signed, 2024)",
+   "language": "English",
+   "url": "https://www.it.nv.gov/uploadedFiles/itnewnvgov/content/Governance/Policy%20on%20the%20Responsible%20and%20Ethical%20Use%20of%20Artificial%20Intelligence%20in%20Nevada%20-%20CIO%20Signed.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.it.nv.gov/events/state-ai-roundtable/"
+   ],
+   "found_via": "web search on Nevada OCIO policy; signed PDF loads (HTTP 200)",
+   "scope_guess": "in",
+   "why": "Statewide executive-branch AI policy with minimum standards (bias, misuse, data use); not yet in the register (only AB 406 is).",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "north-america-11",
+   "cell": "US-NV/executive",
+   "title_as_found": "Policy on the Responsible and Ethical Use of Artificial Intelligence in Nevada State Government Executive Branch (draft update, 2026)",
+   "language": "English",
+   "url": "https://www.it.nv.gov/uploadedFiles/itnew.nv.gov/content/About(1)/Policy%20on%20the%20Responsible%20and%20Ethical%20Use%20of%20Artificial%20Intelligence%20in%20Nevada%20State%20Government%20Executive%20Branch(draft).pdf",
+   "source_kind": "official",
+   "lead_urls": [],
+   "found_via": "web search on Nevada OCIO policy; draft PDF on it.nv.gov (not fetched); sources say not final or signed",
+   "scope_guess": "borderline",
+   "why": "Draft update of the Nevada policy endorsed for review but not adopted; handle together with the signed policy, as one record whose notes mention the draft.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "north-america-12",
+   "cell": "US/executive",
+   "title_as_found": "Super Intelligence Force (interagency task force announced 4 October 2026)",
+   "language": "English",
+   "url": null,
+   "source_kind": "secondary",
+   "lead_urls": [
+    "https://www.cbsnews.com/news/ai-super-intelligence-force-trump-jay-clayton/",
+    "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+    "https://www.nbcnews.com/politics/trump-administration/trump-announces-members-ai-task-force-rcna601494"
+   ],
+   "found_via": "web searches on whitehouse.gov and news; only Truth Social post coverage and news found, no whitehouse.gov page or order text",
+   "scope_guess": "borderline",
+   "why": "Announced task force (120-day risk report) with no published instrument; keep for an extractor to check whether a whitehouse.gov document appears; US-27 and US-26 are related.",
+   "possible_duplicate_of": null
+  }
+ ]
+}

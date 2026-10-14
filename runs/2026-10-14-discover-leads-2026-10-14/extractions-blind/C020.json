@@ -1,0 +1,168 @@
+{
+  "cand_id": "C020",
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5",
+  "decision": "record",
+  "target_id": null,
+  "record": {
+    "title": "Guidelines on Assessment of AI Reliability in the Field of Plant Safety (Second Edition)",
+    "original_title": "プラント保安分野AI信頼性評価ガイドライン",
+    "short_title": "Plant safety AI reliability assessment guidelines",
+    "jurisdiction": "Japan",
+    "country": "Japan",
+    "jurisdiction_level": "National",
+    "region": "East Asia",
+    "issuing_body": "Liaison Council of Three Ministries on Disaster Prevention of Petroleum Complexes (Ministry of Economy, Trade and Industry; Fire and Disaster Management Agency; Ministry of Health, Labour and Welfare)",
+    "instrument_type": "Guidelines / framework",
+    "legal_force": "Non-binding",
+    "status": "Published (non-binding, current)",
+    "date_published": "2020-11",
+    "date_in_force": null,
+    "date_last_updated": "2021-03",
+    "official_identifier": null,
+    "official_url": "https://www.fdma.go.jp/relocation/neuter/topics/fieldList4_16/jisyuhoan_shiryo.html",
+    "secondary_url": null,
+    "language": "Japanese",
+    "summary": "Guidelines from Japan's three-ministry liaison council on disaster prevention at petroleum complexes (METI, FDMA, MHLW) on assessing the reliability of machine-learning components used for plant safety. Based on AIST's Machine Learning Quality Management Guideline, they manage reliability through quality in use, external quality (risk avoidance and performance) and internal quality. The risk-avoidance level (AISL) is set from the safety function of the whole system, human involvement and any external safety mechanism that monitors and corrects AI output, and fixes requirements for data, models and operation. Five use cases and a recording template are included.",
+    "safety_topics": [
+      "evaluation & testing",
+      "critical infrastructure",
+      "risk-based classification",
+      "human oversight"
+    ],
+    "related": [],
+    "notes": "First published in November 2020; the second edition of March 2021 clarifies how AI safety assessment relates to confirming plant safety with existing risk assessment methods such as HAZOP and FMEA, adds explanations to the recording template, answers common questions in a Q&A and adds seven practical examples covering the five use cases (pipe wall thickness prediction, pipeline image diagnosis, equipment deterioration diagnosis, detection and diagnosis of early signs of abnormality, and operation optimisation). It is based on the study of a working group of plant operators and safety and AI experts that met from April 2020 to March 2021. It covers danger caused by misjudgments of ML components only, not hardware failures, other software, cyber security or legal and ethical issues, and does not relax statutory obligations.",
+    "verification": {
+      "note": "Stored on 14 Oct 2026 from fdma.go.jp (the three ministries' joint site run by the Fire and Disaster Management Agency): the page of voluntary safety materials, which lists the second edition (2021年3月改訂) and its English edition; the English edition of the second edition (158 pages, March 2021); and the two-page Japanese overview of the revision. The Japanese full text of the guidelines is not among the stored files, so the summary is written from the issuer's English edition and the Japanese overview, with terms as the English edition renders them. The first-edition date (November 2020) comes from the Japanese overview and a heading on the FDMA page; neither gives a day. The guidelines carry no document number."
+    },
+    "english_version": {
+      "kind": "government translation",
+      "url": "https://www.fdma.go.jp/relocation/neuter/topics/fieldList4_16/pdf/r03/jisyuhoan_shiryo_03_09.pdf",
+      "by": "Liaison Council of Three Ministries on Disaster Prevention of Petroleum Complexes (METI, FDMA, MHLW)"
+    }
+  },
+  "evidence": {
+    "title": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/official.html",
+        "sha256": "c60df78e0244445c0e44253681cf40c489feec561e2f450c4d68b718a315f8c0",
+        "locator": "ガイドライン英語版資料（第2版に対応）",
+        "quote": "Guidelines on Assessment of AI Reliability in the Field of Plant Safety（Second Edition）",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/document-1.pdf",
+        "sha256": "d5450d1d743400dde20ac66a489a52955a221863324d23730d1f7f812f5552cc",
+        "locator": "page 1",
+        "quote": "Guidelines on Assessment of AI Reliability",
+        "source_kind": "alt-official"
+      }
+    ],
+    "original_title": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/official.html",
+        "sha256": "c60df78e0244445c0e44253681cf40c489feec561e2f450c4d68b718a315f8c0",
+        "locator": "自主保安資料",
+        "quote": "プラント保安分野AI信頼性評価ガイドライン　第2版（2021年3月改訂）",
+        "source_kind": "official"
+      }
+    ],
+    "issuing_body": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/document-1.pdf",
+        "sha256": "d5450d1d743400dde20ac66a489a52955a221863324d23730d1f7f812f5552cc",
+        "locator": "page 1",
+        "quote": "the Liaison Council of Three Ministries on Disaster Prevention of",
+        "source_kind": "alt-official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/document-1.pdf",
+        "sha256": "d5450d1d743400dde20ac66a489a52955a221863324d23730d1f7f812f5552cc",
+        "locator": "page 1",
+        "quote": "(Ministry of Economy, Trade and Industry; Fire and Disaster Management",
+        "source_kind": "alt-official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/official.html",
+        "sha256": "c60df78e0244445c0e44253681cf40c489feec561e2f450c4d68b718a315f8c0",
+        "locator": "自主保安資料",
+        "quote": "プラント保安分野におけるAIの活用（2020年11月）（石油コンビナート等災害防止3省連絡会議）",
+        "source_kind": "official"
+      }
+    ],
+    "date_published": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/document-2.pdf",
+        "sha256": "3a9fd7d85935d8ea54d477ce209117926279d67e453ace0a76608725bb9e3110",
+        "locator": "page 1",
+        "quote": "令和2年11月の公表以来、ガイドラインの活用が進んでいる",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/official.html",
+        "sha256": "c60df78e0244445c0e44253681cf40c489feec561e2f450c4d68b718a315f8c0",
+        "locator": "自主保安資料",
+        "quote": "プラント保安分野におけるAIの活用（2020年11月）（石油コンビナート等災害防止3省連絡会議）",
+        "source_kind": "official"
+      }
+    ],
+    "date_last_updated": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/official.html",
+        "sha256": "c60df78e0244445c0e44253681cf40c489feec561e2f450c4d68b718a315f8c0",
+        "locator": "自主保安資料",
+        "quote": "プラント保安分野AI信頼性評価ガイドライン　第2版（2021年3月改訂）",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/document-1.pdf",
+        "sha256": "d5450d1d743400dde20ac66a489a52955a221863324d23730d1f7f812f5552cc",
+        "locator": "page 1",
+        "quote": "March 2021",
+        "source_kind": "alt-official"
+      }
+    ],
+    "status": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/official.html",
+        "sha256": "c60df78e0244445c0e44253681cf40c489feec561e2f450c4d68b718a315f8c0",
+        "locator": "自主保安資料",
+        "quote": "プラント保安分野AI信頼性評価ガイドライン　第2版（2021年3月改訂）",
+        "source_kind": "official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/document-2.pdf",
+        "sha256": "3a9fd7d85935d8ea54d477ce209117926279d67e453ace0a76608725bb9e3110",
+        "locator": "page 1",
+        "quote": "令和2年11月の公表以来、ガイドラインの活用が進んでいる",
+        "source_kind": "official"
+      }
+    ],
+    "legal_force": [
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/document-1.pdf",
+        "sha256": "d5450d1d743400dde20ac66a489a52955a221863324d23730d1f7f812f5552cc",
+        "locator": "page 19 (1.3 Scope of Application)",
+        "quote": "The Guidelines are not intended to relax or interpret the provisions of laws and regulations; one must",
+        "source_kind": "alt-official"
+      },
+      {
+        "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C020/2026-10-14/document-1.pdf",
+        "sha256": "d5450d1d743400dde20ac66a489a52955a221863324d23730d1f7f812f5552cc",
+        "locator": "page 17 (1.2.2 Positioning of the Guidelines)",
+        "quote": "and are positioned as a reference that shows how to apply them to the field of plant safety.",
+        "source_kind": "alt-official"
+      }
+    ]
+  },
+  "judgment": {
+    "status_reasoning": "The FDMA page lists the second edition (revised March 2021) with its English edition and newer practical examples, and no later edition; a non-binding guideline that is still offered as current: Published (non-binding, current).",
+    "date_reasoning": "date_published is the first edition (November 2020, month only in the official sources); date_last_updated is the second edition (March 2021).",
+    "scope_reasoning": "An AI-specific government safety guideline: it sets how to assess and assure the reliability and risk avoidance of ML components in safety-critical plants. In scope with no note under AGENTS.md section 10 (government safety and risk-management frameworks and guidelines); it is a full guideline, not a minor sectoral circular."
+  },
+  "extra_urls": [],
+  "leads": [],
+  "open_questions": [
+    "The Japanese full text of the second edition (listed on the FDMA page as プラント保安分野AI信頼性評価ガイドライン 第2版) is not stored; the summary rests on the issuer's English edition and the Japanese overview. Archiving the Japanese PDF would let the summary be checked against the original."
+  ]
+}

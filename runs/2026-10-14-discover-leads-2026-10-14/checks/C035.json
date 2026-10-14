@@ -1,0 +1,69 @@
+{
+ "cand_id": "C035",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "jurisdiction": {
+   "verdict": "supported"
+  },
+  "country": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "judgment-differs",
+   "why": "The signing is shown by the stored Governor's release; 'not yet in force' rests on California's general rule that a non-urgency statute takes effect on 1 January after enactment, which no stored source states, and the bill text (urgency clause, operative date) could not be stored. The inference is defensible and matches the treatment of US-CA-08, so the value is kept and date_in_force stays null."
+  },
+  "date_in_force": {
+   "verdict": "supported",
+   "why": "null is correct: no stored source gives an operative date."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Extends the crime of sexual exploitation of a child to downloading, streaming or accessing a depiction, with an exemption for a child who only viewed a video stream",
+   "verdict": "supported",
+   "locator": "Assembly analysis, page 3 (as introduced)"
+  },
+  {
+   "claim": "Adds digitally altered or AI-generated matter to the CANRA definition of sexual exploitation",
+   "verdict": "supported",
+   "locator": "Assembly analysis, THIS BILL item 2"
+  },
+  {
+   "claim": "Passed the Senate 33-0; sponsored by the Los Angeles City Attorney; SB 1381 (2024) already covered AI-generated CSAM",
+   "verdict": "supported",
+   "locator": "analysis page 1 and footnote 3"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Not AI-specific; the existing scope_note is adequate and the record is included under the inclusive rule for non-AI laws that operate on an AI-safety question."
+ },
+ "overall": "accept",
+ "note": "The summary follows the bill as introduced on 20 Feb 2026 (Assembly analysis for the 1 Jul 2026 hearing); amendments made afterwards cannot be seen, and the record says so in its open questions. Signing on 10 Sep 2026 is shown by the Governor's release. A search found no further information on this bill. No duplicate."
+}

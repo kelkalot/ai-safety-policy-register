@@ -1,0 +1,68 @@
+{
+ "cand_id": "C018",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "The first edition cover says 'デジタル社会推進会議幹事会決定' and the 2026 translation says 'Approved by the Council for the Promotion of a Digital Society Executive Board Meeting'; the Digital Agency prepared it with METI and MIC (news page 1. 概要). The first extraction's wording follows the deciding body and names the preparer; the blind wording adds METI and MIC, which the text also supports. Both defensible."
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "27 May 2025 is the first-edition decision date; the record keeps the first issue date and the 12 June 2026 revision in date_last_updated, as for JP-02."
+  },
+  "date_in_force": {
+   "verdict": "judgment-differs",
+   "why": "null is supported: the first edition names no commencement date (full application from fiscal 2026) and the 12 June 2026 revision 'will come into effect on September 1, 2026' (page 50). The revision's effect date is already in the notes; a null for the first edition is defensible."
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "The revision took effect on 1 September 2026, before today (2026-10-14), so In force is right."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "Normative document that ministries must follow; binds government bodies, not the public. Binding is defensible."
+  },
+  "safety_topics": {
+   "verdict": "judgment-differs",
+   "why": "The first set (public-sector use, risk-based classification, accountability & liability) is supported (accountability as an administration, risk classification by the CAIO). The blind set adds incident reporting and human oversight, also present in the text (incident response frameworks; oversight and accountability duties). Either is acceptable."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "each ministry appoints a CAIO who classifies each use case with the High-Risk AI Project Finder and reports likely high-risk uses to the Advanced AI Utilization Advisory Board",
+   "verdict": "supported",
+   "locator": "4.2.1 and 3.2 of the 2026 provisional translation"
+  },
+  {
+   "claim": "AI agents and systems taking images/video fall only under the governance framework (4.1, 4.2, 6.7)",
+   "verdict": "supported",
+   "locator": "2.2.2"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "JP-06",
+  "JP-04"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": "Government rules for procuring and using generative AI, including risk classification."
+ },
+ "overall": "accept",
+ "note": "Title, identifier, dates and status are supported by official Digital Agency documents; the revision of 12 June 2026 is in force since 1 September 2026. Blind differences (issuing_body wording, topics) are both supported by the text; the first extraction's values stand. date_in_force stays null. Related should also include JP-06 (AI Basic Plan, cited in the revision) and JP-04 (AI Act). One targeted search found no later edition. The Japanese text of the revision is not stored, so the revised-scope claims rest on the government's translation."
+}

@@ -1,0 +1,106 @@
+{
+ "cand_id": "C028",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "short_title": {
+   "verdict": "supported"
+  },
+  "jurisdiction": {
+   "verdict": "supported"
+  },
+  "country": {
+   "verdict": "supported"
+  },
+  "jurisdiction_level": {
+   "verdict": "supported"
+  },
+  "region": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Sponsors named in the La Nacion report of 1 May 2025; chamber stated"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Newspaper reports of May and June 2025 show a bill awaiting committee opinions and a public hearing; searches in October 2026 found no dictamen or later stage, so Draft / proposed stands, but this rests on secondary reports and absence of news"
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "The 1 May 2025 La Nacion report says the bill was presented 'recientemente'; year 2025 is the most the source supports"
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "null is right: no stored source gives it"
+  },
+  "language": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "supported"
+  },
+  "related": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "unsupported",
+   "why": "The notes say the committee 'held a public hearing' on 4 June 2025. The stored La Nacion article of 1 June 2025 only announces the hearing for Wednesday 4 June; no stored source reports that it took place.",
+   "fix": {
+    "value": "Presented in the Chamber of Deputies before 1 May 2025 and sent to its advisory committees for opinions before plenary consideration. The Committee on Social Equity and Equal Rights of Men and Women, chaired by Deputy Rocío Abed, convened a public hearing on the bill with experts and the public for 4 June 2025 in the Bicameral Hall of the National Congress. The bill gives priority to human rights, sustainability and inclusion in promoting AI. A separate Senate bill regulating AI systems, presented in May 2025, is PY-01.",
+    "evidence": [
+     {
+      "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C028/extra-b71550498a/2026-10-14/official.html",
+      "sha256": "0cc45e678ba32b804206b9e02664caf0cb389963f2f9fc38c949cd47ad1f3917",
+      "locator": "article body, first paragraph",
+      "quote": "El evento se realizará el miércoles 4 de junio, a partir de las 10:00, en la Sala Bicameral del Congreso Nacional.",
+      "source_kind": "secondary"
+     }
+    ]
+   }
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Explanatory statement calls for a comprehensive framework / state policy on AI combining innovation with ethics and human rights",
+   "verdict": "supported",
+   "locator": "La Nacion 1 May 2025, paragraphs 3-5"
+  },
+  {
+   "claim": "Guarantee equitable, inclusive access; regulate implementation to protect fundamental rights and prevent abuse or misuse; technological sovereignty",
+   "verdict": "supported",
+   "locator": "La Nacion 1 May 2025, paragraphs 4-5"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Existing scope_note kept: a promotion bill with ethics and rights language in general terms; precedents allow inclusion of AI-titled or strategy-like instruments with some safety content. Not a duplicate of PY-01 (Senate bill, May 2025). The record rests on newspapers only (level C), as its verification note says."
+ },
+ "overall": "accept-with-fixes",
+ "note": "Level C record resting on two La Nacion articles. Title, sponsors, date year and summary claims match the stored text. One correction: the notes (and verification note, which says the article reports on the hearing) treat the 4 June 2025 hearing as held, but the source only announces it; fix supplied for notes. The verification.note wording should read 'announcing' instead of 'on the committee's public hearing'; it is not a field the script applies a fix to. A search found no dictamen or later stage for this Diputados bill; a diputados.gov.py PDF turned up in search but I could not tie it to this bill and did not add it."
+}

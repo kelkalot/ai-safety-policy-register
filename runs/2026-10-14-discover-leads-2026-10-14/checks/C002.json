@@ -1,0 +1,50 @@
+{
+ "cand_id": "C002",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "risks named in the abstract: prompt injection, goal deviation, privilege abuse, memory pollution, cascading failure",
+   "verdict": "supported",
+   "locator": "abstract p.4"
+  },
+  {
+   "claim": "excludes agentic systems whose main function is controlling physical devices such as robots",
+   "verdict": "supported",
+   "locator": "3.1 note"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "AI-specific technical standard or practice guide of TC260 (a standards body under SAC/CAC); in scope per the supervisors and standards bodies rule and the CN-06/CN-10 precedents."
+ },
+ "overall": "accept",
+ "note": "Draft guide, comment period closed 2 Oct 2026; no final version found in one targeted search (TC260 site), so status Draft stays. No duplicate in data/records.json; one targeted search found no newer official version. All evidence quotes pass the script and say what the fields say. "
+}

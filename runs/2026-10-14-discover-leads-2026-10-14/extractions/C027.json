@@ -1,0 +1,26 @@
+{
+ "cand_id": "C027",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "needs-human",
+ "target_id": null,
+ "record": null,
+ "evidence": {},
+ "judgment": {
+  "scope_reasoning": "The Senate AI commission's draft 'Ley General para Regular y Fomentar el Uso de la Inteligencia Artificial en México' (chair Sen. Rolando Zapata Bello) has no filed text: no Gaceta or SIL entry is known, and the only sources are Senate press releases about a working draft, which the archiver could not store (HTTP 403). The stored initiative of another candidate (C026, page 35) confirms only that in April 2026 the commission reported working on such a proposal. No rule or precedent says whether a legislative commission's unfiled working draft is an instrument for the register (TH-01 is a draft the government published for public hearing; this one has not been published), and no stored copy supports any field. A human should decide whether to keep it as a lead until it is filed as an initiative, or to record it as a draft once a Senate page can be stored.",
+  "status_reasoning": "Not assessed: nothing stored. A working draft circulated in the Senate AI commission; not presented as an initiative as far as any stored or found source shows."
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "Senate Commission for the Analysis, Monitoring and Evaluation of the Application and Development of AI in Mexico: draft General Law to Regulate and Promote the Use of Artificial Intelligence in Mexico",
+   "url": "https://comunicacionsocial.senado.gob.mx/informacion/comunicados/15057-comision-de-analisis-y-evaluacion-de-la-ia-esta-en-condiciones-de-presentar-una-iniciativa-de-ley-en-la-materia-zapata-bello",
+   "note": "Recheck the Senate's Gaceta and SIL for a filed initiative; the press release (21 April 2026, per the collector) answers 403 to the archiver."
+  }
+ ],
+ "open_questions": [
+  "No stored source: the Senate press releases returned HTTP 403 to the archiver; a --browser retry of the candidate's lead URL may store the 21 April 2026 release.",
+  "Has the commission's draft been filed as an initiative (Gaceta del Senado / SIL)? Until then there is no instrument text to extract.",
+  "Scope: is an unfiled working draft of a legislative commission in the register's scope?"
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "C019",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "businesses must confirm prompt personal information stays within the specified purpose of use; input of personal data without consent may violate the APPI where used beyond the response",
+   "verdict": "supported",
+   "locator": "page 3, (1) ① ②"
+  },
+  {
+   "claim": "Annex 2: alert of 1 June 2023 to OpenAI under Art. 147 on sensitive personal information and notice of purposes in Japanese",
+   "verdict": "supported",
+   "locator": "pages 5-6, 別添２"
+  },
+  {
+   "claim": "general users warned that inputs may be used for training and outputs may be inaccurate",
+   "verdict": "supported",
+   "locator": "pages 3-4, (3) ① ②"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "A data protection authority's alert on generative AI to the public and sector; fits the supervisory-statement precedent (in, with scope_note). Keep the note."
+ },
+ "overall": "accept",
+ "note": "Evidence is from the official PPC press page and the stored notice (the pdf under extra-13306224ae); the date 令和５年６月２日 is 2 June 2023. The legal_force quote is a fragment but the document is plainly advisory. Title is a rendering and is accurate. One targeted web search found no newer version."
+}

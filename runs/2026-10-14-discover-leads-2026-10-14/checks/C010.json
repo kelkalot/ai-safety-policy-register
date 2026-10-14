@@ -1,0 +1,53 @@
+{
+ "cand_id": "C010",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "no administrator rights, restricted directories, high-risk operations list with second confirmation or blocking",
+   "verdict": "supported",
+   "locator": "8 c), d), g)"
+  },
+  {
+   "claim": "Annex B: agent asset register and discovery of unapproved agents",
+   "verdict": "supported",
+   "locator": "Annex B"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "AI-specific technical standard or practice guide of TC260 (a standards body under SAC/CAC); in scope per the supervisors and standards bodies rule and the CN-06/CN-10 precedents."
+ },
+ "overall": "accept",
+ "note": "Notice 80 of 1 July 2026; all quotes match. No duplicate in data/records.json; one targeted search found no newer official version. All evidence quotes pass the script and say what the fields say. "
+}

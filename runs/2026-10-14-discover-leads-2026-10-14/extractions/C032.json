@@ -1,0 +1,153 @@
+{
+ "cand_id": "C032",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Executive Order N-5-26 (AI vendor safeguard certifications and civil liberties in state AI procurement)",
+  "original_title": null,
+  "short_title": "California EO N-5-26",
+  "jurisdiction": "California (US)",
+  "country": "United States",
+  "jurisdiction_level": "Sub-national",
+  "region": "North America",
+  "issuing_body": "Governor of California (Gavin Newsom)",
+  "instrument_type": "Executive order / decree",
+  "legal_force": "Binding",
+  "status": "In force",
+  "date_published": "2026-03-30",
+  "date_in_force": "2026-03-30",
+  "date_last_updated": null,
+  "official_identifier": "Executive Order N-5-26",
+  "official_url": "https://www.gov.ca.gov/wp-content/uploads/2026/03/3.30-FINAL-Trusted-AI-Procurement-EO-N-5-26.pdf",
+  "secondary_url": "https://www.gov.ca.gov/2026/03/30/as-trump-rolls-back-protections-governor-newsom-signs-first-of-its-kind-executive-order-to-strengthen-ai-protections-and-responsible-use/",
+  "language": "English",
+  "summary": "Directs California agencies on buying and using generative AI. Within 120 days, the Departments of General Services and Technology must recommend contract certifications in which vendors attest to and explain safeguards against misuse, such as exploitation or distribution of child sexual abuse material and non-consensual intimate imagery, models with harmful bias or no governance to reduce it, and violations of civil rights and civil liberties. GovOps must recommend contractor-responsibility reforms, the State CISO reviews federal supply-chain-risk designations, and the Department of Technology issues watermarking guidance for AI-generated or significantly manipulated images or video.",
+  "safety_topics": [
+   "public-sector use",
+   "deepfakes & synthetic media",
+   "transparency & labelling",
+   "child safety"
+  ],
+  "related": [
+   "US-CA-09",
+   "US-CA-02"
+  ],
+  "notes": "Signed and effective 30 Mar 2026. All its deadlines run 120 days from issuance. Besides the certifications, it orders reforms so that the state does not contract with entities judicially found to have unlawfully undermined privacy or civil liberties; employee access to vetted GenAI tools with privacy and cybersecurity safeguards; an updated State Digital Strategy; a GenAI pilot giving access to government services by life event; expanded training; and a data minimization toolkit. The watermarking guidance is to follow Business and Professions Code secs. 22757.2 and 22757.3. If the State CISO finds a federal supply-chain-risk designation of a company improper, DGS and CDT issue guidance so that agencies can keep buying from it. It builds on Executive Order N-12-23 of 6 Sep 2023, binds state agencies only and creates no enforceable rights.",
+  "verification": {
+   "note": "Stored the signed order (gov.ca.gov PDF, 3 pages, copy of 14 Oct 2026), which confirms the number, every provision, immediate effect, the Governor's signature on 'this 30th day of March 2026' and the Secretary of State's attestation, and the Governor's release dated 30 Mar 2026 (gov.ca.gov), which confirms the issuance that day and links both the order and an attested copy (3.30-FINAL-Trusted-AI-Procurement-EO-N-5-26_ATTESTED.pdf, also stored; its OCR text matches the order). The release summarises the certification task as a plan by the Government Operations Agency, while the order assigns the recommendations to DGS and CDT; the record follows the order."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C032/2026-10-14/official.pdf",
+    "sha256": "a9a571d88bcea991f360a176e37de9b73698acb4614c22ec1e39431330103acc",
+    "locator": "page 1, heading",
+    "quote": "STATE OF CALIFORNIA EXECUTIVE ORDER N-5-26",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C032/extra-7e312cb9b3/2026-10-14/official.html",
+    "sha256": "e09c199d354b635522606f0e251e291c08f9117aa81457d87cc60a4900c7ae20",
+    "source_kind": "official",
+    "locator": "release date and headline",
+    "quote": "Governor Newsom signs first-of-its-kind executive order to strengthen AI protections and responsible use"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C032/2026-10-14/official.pdf",
+    "sha256": "a9a571d88bcea991f360a176e37de9b73698acb4614c22ec1e39431330103acc",
+    "locator": "page 1, heading",
+    "quote": "STATE OF CALIFORNIA EXECUTIVE ORDER N-5-26",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C032/2026-10-14/official.pdf",
+    "sha256": "a9a571d88bcea991f360a176e37de9b73698acb4614c22ec1e39431330103acc",
+    "locator": "page 1, enacting clause",
+    "quote": "NOW, THEREFORE, I, GAVIN NEWSOM, Governor of the State of California, in accordance with the authority vested in me by the State Constitution and statutes of the State of California, do hereby issue the following Order",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C032/2026-10-14/official.pdf",
+    "sha256": "a9a571d88bcea991f360a176e37de9b73698acb4614c22ec1e39431330103acc",
+    "locator": "page 2, paragraph 1",
+    "quote": "Within 120 days of the issuance of this Order, the Department of General Services (DGS) and the Department of Technology (CDT) shall submit recommendations to the Governor",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C032/2026-10-14/official.pdf",
+    "sha256": "a9a571d88bcea991f360a176e37de9b73698acb4614c22ec1e39431330103acc",
+    "locator": "page 1, enacting clause",
+    "quote": "do hereby issue the following Order to become effective immediately",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C032/2026-10-14/official.pdf",
+    "sha256": "a9a571d88bcea991f360a176e37de9b73698acb4614c22ec1e39431330103acc",
+    "locator": "page 3, signature block",
+    "quote": "IN WITNESS WHEREOF I have hereunto set my hand and caused the Great Seal of the State of California to be affixed this 30th day of March 2026.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C032/extra-7e312cb9b3/2026-10-14/official.html",
+    "sha256": "e09c199d354b635522606f0e251e291c08f9117aa81457d87cc60a4900c7ae20",
+    "source_kind": "official",
+    "locator": "release body, first paragraph",
+    "quote": "Governor Gavin Newsom issued an executive order today to strengthen California’s procurement processes and raise the bar for artificial intelligence companies seeking to do business with the state."
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C032/2026-10-14/official.pdf",
+    "sha256": "a9a571d88bcea991f360a176e37de9b73698acb4614c22ec1e39431330103acc",
+    "locator": "page 3, signature block",
+    "quote": "IN WITNESS WHEREOF I have hereunto set my hand and caused the Great Seal of the State of California to be affixed this 30th day of March 2026.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C032/extra-7e312cb9b3/2026-10-14/official.html",
+    "sha256": "e09c199d354b635522606f0e251e291c08f9117aa81457d87cc60a4900c7ae20",
+    "source_kind": "official",
+    "locator": "release date and headline",
+    "quote": "Mar 30, 2026 As Trump rolls back protections, Governor Newsom signs first-of-its-kind executive order to strengthen AI protections and responsible use"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C032/2026-10-14/official.pdf",
+    "sha256": "a9a571d88bcea991f360a176e37de9b73698acb4614c22ec1e39431330103acc",
+    "locator": "page 1, enacting clause",
+    "quote": "do hereby issue the following Order to become effective immediately",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C032/2026-10-14/official.pdf",
+    "sha256": "a9a571d88bcea991f360a176e37de9b73698acb4614c22ec1e39431330103acc",
+    "locator": "page 3, signature block",
+    "quote": "California to be affixed this 30th day of March 2026.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The order was issued 'to become effective immediately' and signed on 30 Mar 2026. Its directives are time-limited tasks (120 days, so due by about 28 Jul 2026), but the order itself has no expiry or revocation clause, and EO N-9-26 of 18 Sep 2026 (US-CA-09, stored in the register's archive) recites it as a standing order. In force as an executive order binding state agencies.",
+  "scope_reasoning": "In scope with no scope_note: a governor's executive order on AI, setting safeguards for state AI procurement and use (misuse of AI for CSAM and non-consensual intimate imagery, harmful bias, civil liberties, watermarking of synthetic media).",
+  "related_reasoning": "US-CA-09: EO N-9-26 recites N-5-26. US-CA-02: the watermarking guidance must follow Business and Professions Code secs. 22757.2 and 22757.3, the provenance-disclosure sections that the California AI Transparency Act (SB 942) added; this link rests on knowledge of the code, not on a quote from the stored order, and the checker may drop it. The order also builds on EO N-12-23, which is candidate C033 of this run; link the two after assembly.",
+  "date_reasoning": "The order dates its signature 'this 30th day of March 2026'; the Governor's release is dated 'Mar 30, 2026' and says the order was issued 'today'."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "Whether DGS, CDT and GovOps delivered the 120-day recommendations and the watermarking guidance (due about 28 Jul 2026) is not shown by the stored order."
+ ]
+}

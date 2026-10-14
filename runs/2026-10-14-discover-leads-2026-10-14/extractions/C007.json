@@ -1,0 +1,93 @@
+{
+ "cand_id": "C007",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "needs-human",
+ "target_id": null,
+ "record": {
+  "jurisdiction": "China",
+  "country": "China",
+  "jurisdiction_level": "National",
+  "region": "East Asia",
+  "language": "Chinese",
+  "title": "Cybersecurity technology — Security specification for artificial intelligence deep synthesis (planned national standard)",
+  "original_title": "网络安全技术 人工智能深度合成安全规范",
+  "short_title": "Planned standard on AI deep synthesis security (20264769-T-469)",
+  "issuing_body": "Standardization Administration of China (plan); administered by TC260",
+  "instrument_type": "Technical standard",
+  "legal_force": null,
+  "status": null,
+  "date_published": null,
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": "20264769-T-469",
+  "official_url": null,
+  "secondary_url": null,
+  "summary": null,
+  "safety_topics": null,
+  "related": [
+   "CN-02"
+  ],
+  "notes": null,
+  "english_version": {
+   "kind": "none found"
+  },
+  "verification": {
+   "note": "Stored from tc260.org.cn: notice 网安秘字〔2026〕121号 of 13 Oct 2026 (HTML, rendered copy, print) and its PDF with the list of 25 recommended national standard projects that SAC has assigned to TC260. Item 15 is this project: plan number 20264769-T-469, recommended, new standard, 15 months, plan issued 2026-09-30, due for approval by 2027-12-31, working group WG9, lead unit the Institute of Software, Chinese Academy of Sciences. No draft text exists in any stored file."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C007/extra-28631234cf/2026-10-14/official.pdf",
+    "sha256": "5799b03588eb2f31acef6b48629dc72d3948bc0637603aa96cab09a32cefaddd",
+    "locator": "page 4, item 15",
+    "quote": "20264769 -T-469 网络安全技术 人工智 能深度合成安全规范 推荐 制定 15 2026-09 -30 2027-12 -31 WG9 中国科学院软件研究所",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C007/extra-28631234cf/2026-10-14/official.pdf",
+    "sha256": "5799b03588eb2f31acef6b48629dc72d3948bc0637603aa96cab09a32cefaddd",
+    "locator": "page 4, item 15",
+    "quote": "20264769 -T-469 网络安全技术 人工智 能深度合成安全规范",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C007/extra-28631234cf/2026-10-14/official.pdf",
+    "sha256": "5799b03588eb2f31acef6b48629dc72d3948bc0637603aa96cab09a32cefaddd",
+    "locator": "page 1, notice body",
+    "quote": "近日，国家标准化管理委员会下达的推荐性国家标准计 划，其中《网络安全技术 JSON 密码使用语法规范》等 25 项国家标准由全国网络安全标准化技术委员会归口管理",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C007/extra-28631234cf/2026-10-14/official.pdf",
+    "sha256": "5799b03588eb2f31acef6b48629dc72d3948bc0637603aa96cab09a32cefaddd",
+    "locator": "page 4, item 15",
+    "quote": "20264769 -T-469 网络安全技术 人工智 能深度合成安全规范",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "scope_reasoning": "What exists is one line in a standardisation plan: SAC has approved a project for a recommended national standard on AI deep synthesis security (plan 20264769-T-469, due for approval by 31 Dec 2027), with no draft text. The register covers instruments, including drafts and pending bills, but neither AGENTS.md section 10 nor pipeline/scope-decisions.md says whether an approved standardisation project with no text counts, and a record could say only what the standard will be about. Suggested rule for a human: no record for a plan item; record the standard when its draft for comment is published, and meanwhile mention the project in the notes of CN-02 (deep synthesis provisions). The same list holds about a dozen other AI-related projects (items 7, 9 and 13 to 23), so the decision sets a precedent for all of them.",
+  "status_reasoning": "No status fits: there is no text; a planned standard is neither a draft nor adopted. The plan was issued on 2026-09-30 and the standard is due for approval by 2027-12-31."
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "Other AI-related projects in the same plan list (网安秘字〔2026〕121号): 智能体数据处理安全要求, 人工智能用户个人信息保护指引, 人工智能基础模型安全测试方法, 端侧大模型网络安全指南, 人工智能安全测评机构能力基本要求, 人工智能模型开源安全指南, 人工智能生成内容检测技术实现指南, 人工智能模型开发安全指南, 人工智能安全护栏技术要求, 生成式人工智能系统互操作安全规范, 人工智能训练及推理框架安全要求, 网络安全大模型安全规范",
+   "url": null,
+   "seen_in": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C007/extra-28631234cf/2026-10-14/official.pdf (pages 3 to 5)",
+   "why": "Planned recommended national standards on AI security (plan issued 2026-09-30); candidates once drafts for comment appear, subject to the human decision on C007."
+  }
+ ],
+ "open_questions": [
+  "Scope: does an approved national standardisation project with no draft text (plan 20264769-T-469, 网络安全技术 人工智能深度合成安全规范) get a record? No rule or precedent settles it; see judgment.scope_reasoning. If a human decides yes, status and legal_force need a convention (the vocabulary has no 'planned' status)."
+ ]
+}

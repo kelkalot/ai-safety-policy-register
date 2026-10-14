@@ -1,0 +1,159 @@
+{
+ "cand_id": "C033",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Executive Order N-12-23 (generative artificial intelligence: risk assessment and guidelines for state use)",
+  "original_title": null,
+  "short_title": "California EO N-12-23 (generative AI)",
+  "jurisdiction": "California (US)",
+  "country": "United States",
+  "jurisdiction_level": "Sub-national",
+  "region": "North America",
+  "issuing_body": "Governor of California (Gavin Newsom)",
+  "instrument_type": "Executive order / decree",
+  "legal_force": "Binding",
+  "status": "In force",
+  "date_published": "2023-09-06",
+  "date_in_force": "2023-09-06",
+  "date_last_updated": null,
+  "official_identifier": "Executive Order N-12-23",
+  "official_url": "https://www.gov.ca.gov/wp-content/uploads/2023/09/AI-EO-No.12-_-GGN-Signed.pdf",
+  "secondary_url": "https://www.gov.ca.gov/2023/09/06/governor-newsom-signs-executive-order-to-prepare-california-for-the-progress-of-artificial-intelligence/",
+  "language": "English",
+  "summary": "Sets how California state government studies, guards against and uses generative AI (GenAI). It orders a report on beneficial use cases and risks, focused on high-risk uses such as consequential decisions on access to essential goods and services; a joint risk analysis of GenAI threats to critical energy infrastructure, including those that could lead to mass casualty events, with recommendations on testing, monitoring and keeping systems under effective human control; guidelines for public-sector procurement, use and training covering safety, algorithmic discrimination, privacy and notice of GenAI content; an inventory of high-risk uses; and sandboxes for pilots.",
+  "safety_topics": [
+   "public-sector use",
+   "critical infrastructure",
+   "catastrophic risk",
+   "human oversight",
+   "transparency & labelling"
+  ],
+  "related": [
+   "US-CA-09"
+  ],
+  "notes": "Signed and effective 6 Sep 2023. Deadlines: report on GenAI use cases and risks, and agency inventories of high-risk uses, within 60 days; critical-infrastructure risk analysis (with a classified briefing and public recommendations) and pilot sandboxes by March 2024; procurement, use and training guidelines building on the Blueprint for an AI Bill of Rights and the NIST AI Risk Management Framework by January 2024; guidelines on impacts on vulnerable communities, worker trainings and consideration of pilots by July 2024; updated project approval, procurement and contract terms, and criteria on workforce impacts, by January 2025. It also directs a partnership with UC Berkeley and Stanford HAI and a joint summit in 2024. Binding on state agencies only; it creates no enforceable rights.",
+  "verification": {
+   "note": "Stored the signed order (gov.ca.gov PDF, 7 pages, copy of 14 Oct 2026), which confirms the number, all provisions and deadlines, immediate effect, the signature on 'this 6th day of September 2023' and the Secretary of State's attestation; page 1 of the text layer ends in a few garbled characters from the scanned initials, but the provisions are legible. Also stored the Governor's release announcing the order (gov.ca.gov), which confirms its signing and lists its provisions; the stored text of the release carries no date of its own (the date appears only in its URL), so the date rests on the order."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C033/2026-10-14/official.pdf",
+    "sha256": "62b2f985ebde0a397679162aed5b66e1403a1c10a92e636eda6683cdf8886b2e",
+    "locator": "page 1, heading",
+    "quote": "STATE OF CALIFORNIA EXECUTIVE ORDER N-12-23",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C033/2026-10-14/official.pdf",
+    "sha256": "62b2f985ebde0a397679162aed5b66e1403a1c10a92e636eda6683cdf8886b2e",
+    "locator": "page 3, paragraph 3.a",
+    "quote": "shall issue general guidelines for public sector procurement, uses, and required trainings for use of GenAI, including for high-risk scenarios",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C033/extra-c400de9fae/2026-10-14/official.html",
+    "sha256": "c4fedd623bb01b72d6381aa3e2ec65ea0e4deea24ddec4d5c1b9c8c08b64c87b",
+    "source_kind": "official",
+    "locator": "release headline",
+    "quote": "Governor Newsom Signs Executive Order to Prepare California for the Progress of Artificial Intelligence"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C033/2026-10-14/official.pdf",
+    "sha256": "62b2f985ebde0a397679162aed5b66e1403a1c10a92e636eda6683cdf8886b2e",
+    "locator": "page 1, heading",
+    "quote": "STATE OF CALIFORNIA EXECUTIVE ORDER N-12-23",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C033/2026-10-14/official.pdf",
+    "sha256": "62b2f985ebde0a397679162aed5b66e1403a1c10a92e636eda6683cdf8886b2e",
+    "locator": "page 2, enacting clause",
+    "quote": "NOW, THEREFORE, I, GAVIN NEWSOM, Governor of the State of California, in accordance with the authority vested in me by the State Constitution and statutes of the State of California, do hereby issue the following Order",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C033/2026-10-14/official.pdf",
+    "sha256": "62b2f985ebde0a397679162aed5b66e1403a1c10a92e636eda6683cdf8886b2e",
+    "locator": "page 4, paragraph 3.d",
+    "quote": "all agencies and departments subject to my authority shall conduct and submit an inventory of all current high-risk uses of GenAI",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C033/2026-10-14/official.pdf",
+    "sha256": "62b2f985ebde0a397679162aed5b66e1403a1c10a92e636eda6683cdf8886b2e",
+    "locator": "page 2, enacting clause",
+    "quote": "do hereby issue the following Order to become effective immediately",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C033/2026-10-14/official.pdf",
+    "sha256": "62b2f985ebde0a397679162aed5b66e1403a1c10a92e636eda6683cdf8886b2e",
+    "locator": "page 7, signature block",
+    "quote": "IN WITNESS WHEREOF I have hereunto set my hand and caused the Great Seal of the State of California to be affixed this 6th day of September 2023.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C033/extra-c400de9fae/2026-10-14/official.html",
+    "sha256": "c4fedd623bb01b72d6381aa3e2ec65ea0e4deea24ddec4d5c1b9c8c08b64c87b",
+    "source_kind": "official",
+    "locator": "release body, first paragraph",
+    "quote": "Governor Gavin Newsom today signed an executive order to study the development, use, and risks of artificial intelligence (AI) technology throughout the state"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C033/2026-10-14/official.pdf",
+    "sha256": "62b2f985ebde0a397679162aed5b66e1403a1c10a92e636eda6683cdf8886b2e",
+    "locator": "page 7, signature block",
+    "quote": "IN WITNESS WHEREOF I have hereunto set my hand and caused the Great Seal of the State of California to be affixed this 6th day of September 2023.",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C033/2026-10-14/official.pdf",
+    "sha256": "62b2f985ebde0a397679162aed5b66e1403a1c10a92e636eda6683cdf8886b2e",
+    "locator": "page 2, enacting clause",
+    "quote": "do hereby issue the following Order to become effective immediately",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C033/2026-10-14/official.pdf",
+    "sha256": "62b2f985ebde0a397679162aed5b66e1403a1c10a92e636eda6683cdf8886b2e",
+    "locator": "page 7, signature block",
+    "quote": "California to be affixed this 6th day of September 2023.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Issued 'to become effective immediately' and signed 6 Sep 2023. The order has no expiry clause; its deadlines (60 days to January 2025) have passed, but several duties are standing (keeping the high-risk inventory and the guidelines under review). The stored file shows no revocation, and EO N-5-26 of 30 Mar 2026 (candidate C032, stored in this run) recites N-12-23 as the basis of later work without revoking it. In force.",
+  "scope_reasoning": "In scope with no scope_note: a governor's executive order on generative AI that orders risk assessments (including threats to critical infrastructure and mass-casualty risks), safety guidelines and an inventory of high-risk uses.",
+  "related_reasoning": "US-CA-09: EO N-9-26 of 18 Sep 2026 recites N-12-23 (stored N-9-26 text in archive/US-CA-07/2026-10-11/secondary.pdf). Candidate C032 (EO N-5-26) builds on it; link the two after assembly.",
+  "topics_reasoning": "critical infrastructure and catastrophic risk: the joint risk analysis covers threats to critical energy infrastructure 'including those which could lead to mass casualty events'; human oversight: recommendations on how to ensure systems 'remain under effective human control'; transparency & labelling: guidelines must address 'notice of when materials are generated by GenAI'.",
+  "date_reasoning": "The order dates its signature 'this 6th day of September 2023'. The release says the Governor 'today signed' the order but its stored text shows no date, so it supports the signing, not the date."
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "California SB 896 (2024), which requires the Department of Technology to update the report called for in EO N-12-23, Cal OES to analyse GenAI threats to critical infrastructure, and disclosure of GenAI use in state communications",
+   "url": null,
+   "seen_in": "archive/US-CA-01/2026-10-11/official.html (Governor's release listing SB 896 by Senator Bill Dodd)",
+   "why": "A state statute on government use and risk analysis of generative AI that the register does not have."
+  }
+ ],
+ "open_questions": []
+}

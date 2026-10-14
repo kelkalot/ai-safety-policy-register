@@ -1,0 +1,151 @@
+{
+ "cand_id": "C011",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "jurisdiction": "China",
+  "country": "China",
+  "jurisdiction_level": "National",
+  "region": "East Asia",
+  "language": "Chinese",
+  "title": "Cybersecurity Standard Practice Guide — Security Guide for Individual Users Using Artificial Intelligence Services",
+  "original_title": "网络安全标准实践指南——个人用户使用人工智能服务安全指南",
+  "short_title": "TC260-PG-20267A (security guide for individual AI users)",
+  "issuing_body": "National Cybersecurity Standardization Technical Committee (TC260) Secretariat",
+  "instrument_type": "Guidelines / framework",
+  "legal_force": "Non-binding",
+  "status": "Published (non-binding, current)",
+  "date_published": "2026-08-24",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": "TC260-PG-20267A",
+  "official_url": "https://www.tc260.org.cn/tc260/sjzn/202608/6bd7f30173444f6cae692e0e7c3045b8/files/23e68462a22b465c9aef09e584659924.pdf",
+  "secondary_url": "https://www.tc260.org.cn/tc260/tzgg/202608/1586c71e2ebf4db28ed4a7651788ca87.shtml",
+  "summary": "TC260 practice guide on how individual users can use AI services over the internet securely. Users should recognise AI's limits such as errors and hallucinations, avoid over-reliance and replacing real social contact, and watch for misuse such as cloned voices of relatives or forged official notices. They should use services from regular channels and generative AI built on filed large models, check agreements and permissions, protect sensitive information, cross-check outputs, treat legal, medical or financial outputs as reference only, and not induce harmful outputs, impersonate others or remove AI content labels.",
+  "safety_topics": [
+   "transparency & labelling",
+   "deepfakes & synthetic media"
+  ],
+  "related": [
+   "CN-08"
+  ],
+  "notes": "Version v1.0-202608, released with notice 网安秘字〔2026〕105号 of 24 Aug 2026. It also serves as a reference for technology providers, developers and operators of AI services. Guardians of minors and elderly users are asked to help them use AI services safely. For deploying agents it refers users to TC260-PG-20266A, and for the style of content labels to chapter 5 of GB 45438-2025 (CN-08).",
+  "english_version": {
+   "kind": "none found"
+  },
+  "verification": {
+   "note": "Stored from tc260.org.cn: the guide's PDF (version v1.0-202608) and the release notice 网安秘字〔2026〕105号 (HTML, rendered copy and print). Title, number, issuer, date and contents are confirmed from these; the summary follows the Chinese text. No English version was found. The notice copy is flagged for review because the page barely mentions the guide's title; the notice text itself is complete."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C011/2026-10-14/official.pdf",
+    "sha256": "2b8b471b5a5aa188ab08201913a14d3ddce70a6dccf222e2d34ddb3fff39f014",
+    "locator": "page 1, cover",
+    "quote": "TC260-PG-20267A 网络安全标准实践指南 ——个人用户使用人工智能服务安全指南 v1.0-202608",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C011/extra-fe3832f35b/2026-10-14/official.html",
+    "sha256": "e0144b4d8633bfa7af52f420bc2f96819d5600b99f2406ae8b656799a8965bd8",
+    "locator": "notice title",
+    "quote": "关于发布《网络安全标准实践指南——个人用户使用人工智能服务安全指南》的通知 发布时间",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C011/2026-10-14/official.pdf",
+    "sha256": "2b8b471b5a5aa188ab08201913a14d3ddce70a6dccf222e2d34ddb3fff39f014",
+    "locator": "page 1, cover",
+    "quote": "网络安全标准实践指南 ——个人用户使用人工智能服务安全指南",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C011/extra-fe3832f35b/2026-10-14/official.html",
+    "sha256": "e0144b4d8633bfa7af52f420bc2f96819d5600b99f2406ae8b656799a8965bd8",
+    "locator": "notice body",
+    "quote": "秘书处组织编制了《网络安全标准实践指南——个人用户使用人工智能服务安全指南",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C011/2026-10-14/official.pdf",
+    "sha256": "2b8b471b5a5aa188ab08201913a14d3ddce70a6dccf222e2d34ddb3fff39f014",
+    "locator": "page 1, cover",
+    "quote": "全国网络安全标准化技术委员会秘书处 2026 年 8 月",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C011/extra-fe3832f35b/2026-10-14/official.html",
+    "sha256": "e0144b4d8633bfa7af52f420bc2f96819d5600b99f2406ae8b656799a8965bd8",
+    "locator": "notice signature",
+    "quote": "附件：《网络安全标准实践指南——个人用户使用人工智能服务安全指南》 全国网络安全标准化技术委员会秘书处 2026年8月24日",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C011/2026-10-14/official.pdf",
+    "sha256": "2b8b471b5a5aa188ab08201913a14d3ddce70a6dccf222e2d34ddb3fff39f014",
+    "locator": "page 1, cover",
+    "quote": "TC260-PG-20267A 网络安全标准实践指南",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C011/extra-fe3832f35b/2026-10-14/official.html",
+    "sha256": "e0144b4d8633bfa7af52f420bc2f96819d5600b99f2406ae8b656799a8965bd8",
+    "locator": "notice header",
+    "quote": "发布时间： 2026-08-24 网安秘字〔2026〕105号",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C011/extra-fe3832f35b/2026-10-14/official.html",
+    "sha256": "e0144b4d8633bfa7af52f420bc2f96819d5600b99f2406ae8b656799a8965bd8",
+    "locator": "notice signature",
+    "quote": "附件：《网络安全标准实践指南——个人用户使用人工智能服务安全指南》 全国网络安全标准化技术委员会秘书处 2026年8月24日",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C011/extra-fe3832f35b/2026-10-14/official.html",
+    "sha256": "e0144b4d8633bfa7af52f420bc2f96819d5600b99f2406ae8b656799a8965bd8",
+    "locator": "notice title",
+    "quote": "关于发布《网络安全标准实践指南——个人用户使用人工智能服务安全指南》的通知 发布时间",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C011/2026-10-14/official.pdf",
+    "sha256": "2b8b471b5a5aa188ab08201913a14d3ddce70a6dccf222e2d34ddb3fff39f014",
+    "locator": "page 1, cover",
+    "quote": "TC260-PG-20267A 网络安全标准实践指南 ——个人用户使用人工智能服务安全指南 v1.0-202608",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C011/2026-10-14/official.pdf",
+    "sha256": "2b8b471b5a5aa188ab08201913a14d3ddce70a6dccf222e2d34ddb3fff39f014",
+    "locator": "page 2, 前言",
+    "quote": "是全 国网络安全标准化技术委员会（以下简称“网安标委”）秘书处组 织制定和发布的标准相关技术文件，旨在围绕网络安全法律法规 政策、标准、网络安全热点和事件等主题，宣传网络安全相关标 准及知识，提供标准化实践指引",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The TC260 Secretariat released the guide with notice 网安秘字〔2026〕105号 (关于发布 ... 的通知, a release notice, not a call for comments); the cover carries the guide's number and a released version (v1.0-202608) with no draft marking (征求意见稿). The preface describes practice guides as technical documents the TC260 Secretariat drafts and publishes to give practical guidance, so it is not binding; no later version is stored. Published (non-binding, current).",
+  "date_reasoning": "The notice's posting date (发布时间) and signature date are both 2026-08-24.",
+  "scope_reasoning": "AI-specific security guidance from TC260, the national cybersecurity standardisation committee: a government safety and risk-management guideline (AGENTS.md section 10, in with no note).",
+  "instrument_type_reasoning": "TC260 practice guides are 'standard-related technical documents' giving practical guidance, not national standards; recorded as Guidelines / framework."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

@@ -1,0 +1,70 @@
+{
+ "cand_id": "C030",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "jurisdiction": {
+   "verdict": "supported"
+  },
+  "country": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Six principles (benefit, justified/proportionate and reliable/valid, safe/secure/private, human-rights affirming and non-discriminatory, transparent, accountable with ongoing human oversight)",
+   "verdict": "supported",
+   "locator": "section 5.1 to 5.6"
+  },
+  {
+   "claim": "Ministries must report AI use cases and risks annually, publish a list of use cases, and disclose AI use where the public interacts with AI or AI affects decisions about them",
+   "verdict": "supported",
+   "locator": "section 6.2"
+  },
+  {
+   "claim": "Review of the Directive at least every two years by the Associate Deputy Minister, PAD",
+   "verdict": "supported",
+   "locator": "section 7.5"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Every field is supported by the stored ontario.ca page: effective 1 Dec 2024 under the Management Board of Cabinet Act. No issue date is given, so date_published null is right. The page footer date (7 Jan 2026) is not tied to an amendment. A search found no amendment; the joint IPC/OHRC principles of January 2026 are separate instruments (already a lead). No duplicate in the register; CA-ON-01 relation is sensible."
+}

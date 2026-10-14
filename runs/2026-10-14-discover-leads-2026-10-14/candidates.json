@@ -1,0 +1,1012 @@
+{
+ "run_id": "2026-10-14-discover-leads-2026-10-14",
+ "generated": "2026-10-14",
+ "candidates": [
+  {
+   "cand_ref": "east-asia-01",
+   "cell": "CN/ministries",
+   "title_as_found": "网络安全技术 人工智能安全能力成熟度评估方法 (征求意见稿) — draft national standard, notice 网安秘字〔2026〕106号 of 26 Aug 2026",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/portal/suggestion",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.secrss.com/articles/93403"
+   ],
+   "found_via": "search for the title, then TC260's standards-for-comment portal (comment deadline 25 Oct 2026); the portal list is JavaScript-driven, so the draft's own file page was not reached; the notice text was read on the secrss.com repost",
+   "scope_guess": "in",
+   "why": "Draft recommended national standard from TC260 on assessing AI security capability maturity, open for comment until 25 Oct 2026.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C001"
+  },
+  {
+   "cand_ref": "east-asia-02",
+   "cell": "CN/ministries",
+   "title_as_found": "关于对《网络安全标准实践指南——智能体系统开发安全指南（征求意见稿）》公开征求意见的通知 (网安秘字〔2026〕119号, 18 Sept 2026)",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/tc260/tzgg/202609/e5b82ae7aca244d19d36b39575cbb458.shtml",
+   "source_kind": "official",
+   "lead_urls": [],
+   "found_via": "tc260.org.cn home page and notice list; the draft PDF is attached to the notice",
+   "scope_guess": "in",
+   "why": "Draft TC260 practice guide on the security of developing AI agent systems; comment period ended 2 Oct 2026, so the final text may follow.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C002"
+  },
+  {
+   "cand_ref": "east-asia-03",
+   "cell": "CN/ministries",
+   "title_as_found": "网络安全标准实践指南——人工智能应用安全指引 总则 (general part, TC260-PG-20268A)",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d/files/%E3%80%8A%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%A0%87%E5%87%86%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97%E2%80%94%E2%80%94%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8%E6%8C%87%E5%BC%95%20%E6%80%BB%E5%88%99%E3%80%8B.pdf.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d.shtml"
+   ],
+   "found_via": "TC260 notice list (tzgg), notice 网安秘字〔2026〕118号 of 15 Sept 2026 releasing 4 practice guides; PDF attached to the notice",
+   "scope_guess": "in",
+   "why": "General part of the AI application security guidance series, applicable to all sectors. Released 15 Sept 2026; the notice URL is https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d.shtml.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C003"
+  },
+  {
+   "cand_ref": "east-asia-04",
+   "cell": "CN/ministries",
+   "title_as_found": "网络安全标准实践指南——人工智能应用安全指引 教育 (education)",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d/files/%E3%80%8A%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%A0%87%E5%87%86%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97%E2%80%94%E2%80%94%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8%E6%8C%87%E5%BC%95%20%E6%95%99%E8%82%B2%E3%80%8B.pdf.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d.shtml"
+   ],
+   "found_via": "TC260 notice list (tzgg), notice 网安秘字〔2026〕118号 of 15 Sept 2026 releasing 4 practice guides; PDF attached to the notice",
+   "scope_guess": "in",
+   "why": "Sector guide for education in the same series. Released 15 Sept 2026; the notice URL is https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d.shtml.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C004"
+  },
+  {
+   "cand_ref": "east-asia-05",
+   "cell": "CN/ministries",
+   "title_as_found": "网络安全标准实践指南——人工智能应用安全指引 卫生健康 (health)",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d/files/%E3%80%8A%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%A0%87%E5%87%86%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97%E2%80%94%E2%80%94%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8%E6%8C%87%E5%BC%95%20%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E3%80%8B.pdf.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d.shtml"
+   ],
+   "found_via": "TC260 notice list (tzgg), notice 网安秘字〔2026〕118号 of 15 Sept 2026 releasing 4 practice guides; PDF attached to the notice",
+   "scope_guess": "in",
+   "why": "Sector guide for health in the same series. Released 15 Sept 2026; the notice URL is https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d.shtml.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C005"
+  },
+  {
+   "cand_ref": "east-asia-06",
+   "cell": "CN/ministries",
+   "title_as_found": "网络安全标准实践指南——人工智能应用安全指引 广播电视和网络视听 (broadcasting and online audiovisual)",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d/files/%E3%80%8A%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%A0%87%E5%87%86%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97%E2%80%94%E2%80%94%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8%E6%8C%87%E5%BC%95%20%E5%B9%BF%E6%92%AD%E7%94%B5%E8%A7%86%E5%92%8C%E7%BD%91%E7%BB%9C%E8%A7%86%E5%90%AC%E3%80%8B.pdf.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d.shtml"
+   ],
+   "found_via": "TC260 notice list (tzgg), notice 网安秘字〔2026〕118号 of 15 Sept 2026 releasing 4 practice guides; PDF attached to the notice",
+   "scope_guess": "in",
+   "why": "Sector guide for broadcasting and online audiovisual in the same series. Released 15 Sept 2026; the notice URL is https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d.shtml.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C006"
+  },
+  {
+   "cand_ref": "east-asia-07",
+   "cell": "CN/ministries",
+   "title_as_found": "Plan 20264769-T-469 网络安全技术 人工智能深度合成安全规范 (planned recommended national standard)",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/tc260/tzgg/202610/2ac025d624a046199d8895fd6eeee5aa.shtml",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.tc260.org.cn/tc260/tzgg/202607/d35db900acc1470d9018369219086d89.shtml"
+   ],
+   "found_via": "TC260 notice 网安秘字〔2026〕121号 of 13 Oct 2026 (25 plans, PDF attachment, item 15, lead institution CAS Institute of Software); earlier call for drafting units in tzgg 202607",
+   "scope_guess": "borderline",
+   "why": "Only a standardisation plan exists so far (completion due 2027-12), with no standard text; include only as a pointer, extractor may find the plan alone too thin for a record.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C007"
+  },
+  {
+   "cand_ref": "east-asia-08",
+   "cell": "CN/ministries",
+   "title_as_found": "Plan 20264766-T-469 网络安全技术 人工智能生成内容检测技术实现指南 (planned recommended national standard)",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/tc260/tzgg/202610/2ac025d624a046199d8895fd6eeee5aa.shtml",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.tc260.org.cn/tc260/tzgg/202607/c106afd395fd4264b392506958bc9bf1.shtml"
+   ],
+   "found_via": "Same notice 网安秘字〔2026〕121号, item 18 (lead institution Alibaba Cloud)",
+   "scope_guess": "borderline",
+   "why": "Only a plan so far, no text. The same notice also plans other AI standards (foundation-model security testing method 20264773, model development guide 20264764, guardrails 20264765, AI model open-source guide 20264767, AI training and inference frameworks 20264762, agent data processing 20264770, AI user personal information protection 20264755) that the register could pick up when drafts appear.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "duplicate-in-run",
+   "duplicate_of": "C007",
+   "cand_id": null
+  },
+  {
+   "cand_ref": "east-asia-09",
+   "cell": "CN/ministries",
+   "title_as_found": "GB/T 45674-2025 网络安全技术 生成式人工智能数据标注安全规范 (Cybersecurity technology — Security specification for generative AI data annotation)",
+   "language": "Chinese",
+   "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=407584DD0FA2BA19E62E85D3469290B0",
+   "source_kind": "official",
+   "lead_urls": [],
+   "found_via": "SAMR national standards platform (openstd.samr.gov.cn) search for 45674; status 现行, published 2025-04-25, effective 2025-11-01; CN-06 notes name it as a companion standard",
+   "scope_guess": "in",
+   "why": "Recommended national standard on security of training-data annotation for generative AI, in force since 1 Nov 2025; not yet its own record.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C008"
+  },
+  {
+   "cand_ref": "east-asia-10",
+   "cell": "CN/ministries",
+   "title_as_found": "TC260-PG-202515A 网络安全标准实践指南——生成式人工智能服务安全应急响应指南 (released 15 Sept 2025, notice 网安秘字〔2025〕125号)",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/tc260/sjzn/202509/dbafd382ac164506b84065f37f2cebca/files/0d784893a2fe42f396e88d95317a787c.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.tc260.org.cn/front/postDetail.html?id=20250909095834"
+   ],
+   "found_via": "TC260 practice-guide list (tc260.org.cn/tc260/sjzn/list.shtml): the 15 Sept 2025 batch is TC260-PG-202513A to 202516A, of which only 202515A deals with AI",
+   "scope_guess": "in",
+   "why": "The one AI-specific guide among the four practice guides released on 15 Sept 2025; classifies and grades generative-AI security incidents and sets out emergency response.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C009"
+  },
+  {
+   "cand_ref": "east-asia-11",
+   "cell": "CN/ministries",
+   "title_as_found": "TC260-PG-20266A 网络安全标准实践指南——智能体部署使用安全指引 (notice 网安秘字〔2026〕80号, 1 Jul 2026)",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/tc260/sjzn/202608/67702dcf57214da792499be8518446dc/files/f3be1cc4d35d428c98a9f5d197c963ac.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.tc260.org.cn/tc260/tzgg/202607/98b6f259f8a3428b8fe1cfea3c0fb19e.shtml"
+   ],
+   "found_via": "Found while following the agent lead in the TC260 practice-guide list; not a listed lead",
+   "scope_guess": "in",
+   "why": "Published TC260 practice guide on security in deploying and using AI agents; the draft guide for development (another candidate) is its companion.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C010"
+  },
+  {
+   "cand_ref": "east-asia-12",
+   "cell": "CN/ministries",
+   "title_as_found": "TC260-PG-20267A 网络安全标准实践指南——个人用户使用人工智能服务安全指南 (v1.0-202608)",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/tc260/sjzn/202608/6bd7f30173444f6cae692e0e7c3045b8/files/23e68462a22b465c9aef09e584659924.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.tc260.org.cn/tc260/tzgg/202608/1586c71e2ebf4db28ed4a7651788ca87.shtml"
+   ],
+   "found_via": "Found while following the TC260 practice-guide list; not a listed lead",
+   "scope_guess": "in",
+   "why": "Published TC260 practice guide with security advice for individuals using AI services, released Aug 2026.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C011"
+  },
+  {
+   "cand_ref": "east-asia-13",
+   "cell": "JP/ai-bodies",
+   "title_as_found": "AIインシデントレスポンス・アプローチブック (AI Incident Response Approach Book, AI-IRS v1.0, Jan 2026)",
+   "language": "Japanese, English",
+   "url": "https://aisi.go.jp/activity/activity_security/260109/",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://aisi.go.jp/assets/pdf/ai-irs_v1.0_ja.pdf",
+    "https://aisi.go.jp/assets/pdf/ai-irs_summary_v1.0_en.pdf"
+   ],
+   "found_via": "Not on the aisi.go.jp output lists; found by search, release page under activity/activity_security",
+   "scope_guess": "in",
+   "why": "J-AISI conceptual framework for responding to incidents caused by AI-specific risks.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C012"
+  },
+  {
+   "cand_ref": "east-asia-14",
+   "cell": "JP/ai-bodies",
+   "title_as_found": "Chief AI Officerガイド (Chief AI Officer Guide, 17 Mar 2026)",
+   "language": "Japanese",
+   "url": "https://aisi.go.jp/output/output_framework/260317/",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://aisi.go.jp/output/output_information/260205/"
+   ],
+   "found_via": "aisi.go.jp output list, framework section",
+   "scope_guess": "in",
+   "why": "J-AISI guide for the executive role responsible for AI governance in organisations; a draft was posted 5 Feb 2026.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C013"
+  },
+  {
+   "cand_ref": "east-asia-15",
+   "cell": "JP/ai-bodies",
+   "title_as_found": "データ品質マネジメントガイドブック (Data Quality Management Guidebook, May 2026 version; first published 31 Mar 2025)",
+   "language": "Japanese",
+   "url": "https://aisi.go.jp/output/output_framework/data_quality_management_guidebook/",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://aisi.go.jp/output/output_information/250331_2/"
+   ],
+   "found_via": "aisi.go.jp output list, framework section",
+   "scope_guess": "borderline",
+   "why": "J-AISI guidebook on managing AI data quality; safety link is indirect, so include with a scope note if kept.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C014"
+  },
+  {
+   "cand_ref": "east-asia-16",
+   "cell": "JP/ai-bodies",
+   "title_as_found": "AIセーフティに関する活動マップ（AMAIS）(Activity Map on AI Safety, 7 Feb 2025)",
+   "language": "Japanese",
+   "url": "https://aisi.go.jp/output/output_information/250207_1/",
+   "source_kind": "official",
+   "lead_urls": [],
+   "found_via": "aisi.go.jp output list",
+   "scope_guess": "borderline",
+   "why": "J-AISI discussion paper mapping AI safety activities; a paper rather than guidance, so flagged borderline.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C015"
+  },
+  {
+   "cand_ref": "east-asia-17",
+   "cell": "JP/ai-bodies",
+   "title_as_found": "ヘルスケア領域におけるAIセーフティ評価観点ガイド (Guide to Evaluation Perspectives on AI Safety in the Healthcare Sector, 2 Apr 2026)",
+   "language": "Japanese",
+   "url": "https://aisi.go.jp/output/output_information/260402/",
+   "source_kind": "official",
+   "lead_urls": [],
+   "found_via": "aisi.go.jp output list; JP-03 notes say domain guides are not recorded separately",
+   "scope_guess": "in",
+   "why": "J-AISI sector guide on AI safety evaluation in healthcare, a domain extension of the guide in JP-03.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C016"
+  },
+  {
+   "cand_ref": "east-asia-18",
+   "cell": "JP/ministries",
+   "title_as_found": "MIC AIのセキュリティ確保のための技術的対策に係るガイドライン (Technical Guidelines for AI Security, March 2026)",
+   "language": "Japanese",
+   "url": "https://www.soumu.go.jp/menu_news/s-news/01cyber01_02000001_00282.html",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_guideline.html"
+   ],
+   "found_via": "Cabinet Office page on the AI guideline (JP-05), which lists 17 ministry guidelines; those with safety or risk content were picked",
+   "scope_guess": "in",
+   "why": "MIC guidelines on technical security measures for AI systems, with direct risk-governance content.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C017"
+  },
+  {
+   "cand_ref": "east-asia-19",
+   "cell": "JP/ministries",
+   "title_as_found": "デジタル庁 行政の進化と革新のための生成AIの調達・利活用に係るガイドライン (Digital Agency guidelines on procurement and use of generative AI in government, May 2025)",
+   "language": "Japanese",
+   "url": "https://www.digital.go.jp/news/3579c42d-b11c-4756-b66e-3d3e35175623",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_guideline.html"
+   ],
+   "found_via": "Cabinet Office page on the AI guideline (JP-05), which lists 17 ministry guidelines; those with safety or risk content were picked",
+   "scope_guess": "in",
+   "why": "Government-wide guidance with risk assessment duties for generative AI use.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C018"
+  },
+  {
+   "cand_ref": "east-asia-20",
+   "cell": "JP/ministries",
+   "title_as_found": "個人情報保護委員会 生成AIサービスの利用に関する注意喚起等について (PPC notice on use of generative AI services, June 2023)",
+   "language": "Japanese",
+   "url": "https://www.ppc.go.jp/news/press/2023/230602kouhou/",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_guideline.html"
+   ],
+   "found_via": "Cabinet Office page on the AI guideline (JP-05), which lists 17 ministry guidelines; those with safety or risk content were picked",
+   "scope_guess": "borderline",
+   "why": "Data-protection authority warning on generative AI, AI-specific; fits the rule for AI-specific DPA guidance.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C019"
+  },
+  {
+   "cand_ref": "east-asia-21",
+   "cell": "JP/ministries",
+   "title_as_found": "プラント保安分野におけるAI信頼性評価ガイドライン (AI Reliability Evaluation Guidelines for Plant Safety, March 2021)",
+   "language": "Japanese",
+   "url": "https://www.fdma.go.jp/relocation/neuter/topics/fieldList4_16/jisyuhoan_shiryo.html",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_guideline.html"
+   ],
+   "found_via": "Cabinet Office page on the AI guideline (JP-05), which lists 17 ministry guidelines; those with safety or risk content were picked",
+   "scope_guess": "borderline",
+   "why": "Sectoral AI reliability guideline (FDMA, MHLW, METI) with safety content, though narrow; the page may link only a summary.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C020"
+  },
+  {
+   "cand_ref": "east-asia-22",
+   "cell": "JP/ministries",
+   "title_as_found": "初等中等教育段階における生成AIの利活用に関するガイドライン (MEXT guidelines on generative AI in primary and secondary education, Dec 2024)",
+   "language": "Japanese",
+   "url": "https://www.mext.go.jp/a_menu/other/mext_02412.html",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_guideline.html"
+   ],
+   "found_via": "Cabinet Office page on the AI guideline (JP-05), which lists 17 ministry guidelines; those with safety or risk content were picked",
+   "scope_guess": "borderline",
+   "why": "Education ministry guidelines with risk and appropriate-use content; main focus is use in schools.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C021"
+  },
+  {
+   "cand_ref": "east-asia-23",
+   "cell": "JP/ministries",
+   "title_as_found": "AIの利用・開発に関する契約チェックリスト (METI AI Use and Development Contract Checklist, Feb 2025)",
+   "language": "Japanese",
+   "url": "https://www.meti.go.jp/policy/mono_info_service/connected_industries/sharing_and_utilization.html",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_guideline.html"
+   ],
+   "found_via": "Cabinet Office page on the AI guideline (JP-05), which lists 17 ministry guidelines; those with safety or risk content were picked",
+   "scope_guess": "borderline",
+   "why": "Contract checklist covering AI risks and liability; the METI page returned HTTP 403 to a plain request, so the archiver may need --browser.",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C022"
+  },
+  {
+   "cand_ref": "east-asia-24",
+   "cell": "JP/executive",
+   "title_as_found": "中間とりまとめ (Interim Report of the AI Strategic Council and AI Institutional Study Group, 4 Feb 2025)",
+   "language": "Japanese",
+   "url": "https://www8.cao.go.jp/cstp/ai/interim_report.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www8.cao.go.jp/cstp/stmain/20241227ai.html"
+   ],
+   "found_via": "search; Cabinet Office PDF checked, Japanese text, dated 4 Feb 2025",
+   "scope_guess": "in",
+   "why": "Study-group report on the design of Japan's AI regime (innovation with risk response, existing laws plus guidelines); the basis of the AI Promotion Act (JP-04).",
+   "possible_duplicate_of": null,
+   "group": "east-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C023"
+  },
+  {
+   "cand_ref": "europe-01",
+   "cell": "SK/legislature",
+   "title_as_found": "Návrh poslancov NR SR na vydanie zákona, ktorým sa menia a dopĺňajú niektoré zákony v súvislosti s ochranou pred neoprávneným vytváraním a šírením klamlivých záznamov vytvorených alebo podstatne zmenených technickými prostriedkami (parlamentná tlač 1266)",
+   "language": "Slovak",
+   "url": "https://www.nrsr.sk/web/Default.aspx?sid=zakony/zakon&ZakZborID=13&CisObdobia=9&CPT=1266",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.startitup.sk/sns-chce-regulovat-umelu-inteligenciu-novy-zakon-ma-zastavit-zneuzivanie-tvari/"
+   ],
+   "found_via": "press lead on the SNS deepfake bill, then a search restricted to nrsr.sk and the print 1266 page; submitted 27 March 2026 by MPs Farkašovský, Kramplová, Danko, Lučanský; second reading decided 5 May 2026, Constitutional Law Committee",
+   "scope_guess": "borderline",
+   "why": "Private members' bill amending the Civil Code, Misdemeanours Act and Criminal Code against deepfakes; not AI-specific in form but the operative instrument for AI-generated content abuse.",
+   "possible_duplicate_of": null,
+   "group": "europe",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C024"
+  },
+  {
+   "cand_ref": "europe-02",
+   "cell": "SK/legislature",
+   "title_as_found": "Návrh poslancov (Mikloško, Janckulík) na vydanie zákona, ktorým sa menia a dopĺňajú niektoré zákony v súvislosti s ochranou pred zneužitím syntetického obsahu generovaného umelou inteligenciou",
+   "language": "Slovak",
+   "url": "https://www.nrsr.sk/web/Dynamic/DocumentPreview.aspx?DocID=573380",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.nrsr.sk/web/Dynamic/DocumentPreview.aspx?DocID=573380"
+   ],
+   "found_via": "nrsr.sk-restricted search; the document preview opens and names the two MPs and the title; its print number and date are not shown in it (search reported print 1029), proposed effect 1 January 2026",
+   "scope_guess": "borderline",
+   "why": "A second deepfake bill in the same Parliament, specific to AI-generated synthetic content; not on the lead list but found next to it, so it is worth a look; borderline as civil, misdemeanour and criminal amendments.",
+   "possible_duplicate_of": null,
+   "group": "europe",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C025"
+  },
+  {
+   "cand_ref": "latin-america-caribbean-01",
+   "cell": "MX/legislature",
+   "title_as_found": "Iniciativa con proyecto de decreto por el que se expide la Ley General para el Desarrollo de la Inteligencia Artificial y el Impulso del Futuro Digital, y se reforman y adicionan diversas disposiciones de la Ley Orgánica de la Administración Pública Federal (PAN senators, Sept 2026)",
+   "language": "Spanish",
+   "url": "http://sil.gobernacion.gob.mx/Archivos/Documentos/2026/09/asun_5145594_20260929_1788971726.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://comunicacionsocial.senado.gob.mx/informacion/comunicados/15057-comision-de-analisis-y-evaluacion-de-la-ia-esta-en-condiciones-de-presentar-una-iniciativa-de-ley-en-la-materia-zapata-bello"
+   ],
+   "found_via": "search for the Senate AI commission's general law; the Senate Information System (SIL) PDF turned up instead, a separate bill by PAN senators addressed to the Senate president, file dated 29 Sept 2026 in its URL",
+   "scope_guess": "in",
+   "why": "A pending general AI law (not the Zapata Bello commission draft, which I could not find filed); only the SIL PDF was read, so the filing date and SIL record page still need confirming.",
+   "possible_duplicate_of": null,
+   "group": "latin-america-caribbean",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C026"
+  },
+  {
+   "cand_ref": "latin-america-caribbean-02",
+   "cell": "MX/legislature",
+   "title_as_found": "Ley General para Regular y Fomentar el Uso de la Inteligencia Artificial en México (Senate AI commission draft, chair Rolando Zapata Bello)",
+   "language": "Spanish",
+   "url": null,
+   "source_kind": "secondary",
+   "lead_urls": [
+    "https://comunicacionsocial.senado.gob.mx/informacion/comunicados/15057-comision-de-analisis-y-evaluacion-de-la-ia-esta-en-condiciones-de-presentar-una-iniciativa-de-ley-en-la-materia-zapata-bello",
+    "https://comunicacionsocial.senado.gob.mx/informacion/comunicados/13261-comision-del-sen%20ado-impulsa-ley-general-para-regular-y-fomentar-el-uso-de-la-inteligencia-artificial"
+   ],
+   "found_via": "web searches of the Senate press site and SIL/Gaceta; Senate communique of 21 April 2026 says the commission was ready to present the initiative; no Gaceta or SIL filing found. The gaceta/sil searches returned no match; sil.gobernacion.gob.mx fetches of other pages failed on certificates.",
+   "scope_guess": "in",
+   "why": "A cross-party draft general AI law with ethics, high-risk systems and sanctions; it is a lead only until a filed text with a Gaceta or SIL page exists (the Senate communiques are press releases, not the instrument).",
+   "possible_duplicate_of": null,
+   "group": "latin-america-caribbean",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C027"
+  },
+  {
+   "cand_ref": "latin-america-caribbean-03",
+   "cell": "PY/legislature",
+   "title_as_found": "Proyecto de ley que promueve el uso de la inteligencia artificial a favor del desarrollo económico y social del país (D-2584139)",
+   "language": "Spanish",
+   "url": "https://silpy.congreso.gov.py/web/expediente/142181",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.mofo.com/artificial-intelligence/paraguay",
+    "https://www.lanacion.com.py/politica/2025/06/01/debatiran-proyecto-legislativo-sobre-ia-en-audiencia-publica/"
+   ],
+   "found_via": "MoFo country page links the SILpy expediente 142181 for bill D-2584139; La Nación of 1 June 2025 confirms the Chamber of Deputies public hearing on 4 June 2025. The SILpy page itself could not be fetched (connection refused), so the link is unverified.",
+   "scope_guess": "borderline",
+   "why": "Chamber of Deputies bill whose stated aim is promoting AI with human rights, sustainability and privacy safeguards; the focus is promotion, so borderline with a scope_note; companion to PY-01 (Senate bill), not a duplicate.",
+   "possible_duplicate_of": null,
+   "group": "latin-america-caribbean",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C028"
+  },
+  {
+   "cand_ref": "latin-america-caribbean-04",
+   "cell": "PY/executive",
+   "title_as_found": "Resolución N° 12.677: Política operacional que establece directrices para el uso de sistemas de inteligencia artificial (Corte Suprema de Justicia)",
+   "language": "Spanish",
+   "url": "https://www.pj.gov.py/descargas/ID1-133_resolucion_nro_12677_politica_operacional_que_establece_directrices_para_el_uso_de_sistemas_de_inteligencia_artificial_version_1.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.pj.gov.py/notas/29668-csj-aprobo-politica-para-el-uso-de-sistemas-de-inteligencia-artificial-en-el-poder-judicial",
+    "https://www.pj.gov.py/notas/29655-corte-suprema-de-justicia-aprobo-politica-para-el-uso-de-sistemas-de-inteligencia-artificial-en-el-poder-judicial"
+   ],
+   "found_via": "search on pj.gov.py; the Judiciary's news item (10 April 2026) links the PDF, which answers HTTP 200",
+   "scope_guess": "in",
+   "why": "Judiciary policy on AI use by magistrates and staff (human oversight, data privacy); the date is unclear between the news item (April 2026) and a press report (4 March), so the extractor must read the text. Issued by the judiciary, not the executive, but the cell is the leads' cell.",
+   "possible_duplicate_of": null,
+   "group": "latin-america-caribbean",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C029"
+  },
+  {
+   "cand_ref": "north-america-01",
+   "cell": "CA-ON/executive",
+   "title_as_found": "Responsible Use of Artificial Intelligence Directive",
+   "language": "English",
+   "url": "https://www.ontario.ca/page/responsible-use-artificial-intelligence-directive",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://ontariodirectors.ca/download_file/a96dc55e-8302-4045-8bdf-3d0c10e7acc3/694"
+   ],
+   "found_via": "web search; ontario.ca page loads (HTTP 200)",
+   "scope_guess": "in",
+   "why": "Binding directive for Ontario ministries and provincial agencies on transparent, accountable and risk-based AI use.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C030"
+  },
+  {
+   "cand_ref": "north-america-02",
+   "cell": "CA-ON/executive",
+   "title_as_found": "Ontario's Trustworthy Artificial Intelligence (AI) Framework",
+   "language": "English",
+   "url": "https://www.ontario.ca/page/ontarios-trustworthy-artificial-intelligence-ai-framework",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.ontario.ca/ai",
+    "https://www.ontario.ca/page/ontarios-trustworthy-artificial-intelligence-ai-framework-consultations"
+   ],
+   "found_via": "web search; ontario.ca pages",
+   "scope_guess": "borderline",
+   "why": "Umbrella framework page (three priorities, points to the Directive); may duplicate the Directive candidate, so extractor should decide whether it is a separate instrument or related material.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C031"
+  },
+  {
+   "cand_ref": "north-america-03",
+   "cell": "US-CA/executive",
+   "title_as_found": "Executive Order N-5-26 (trusted AI procurement: vendor certification, civil rights and civil liberties, watermarking recommendations)",
+   "language": "English",
+   "url": "https://www.gov.ca.gov/wp-content/uploads/2026/03/3.30-FINAL-Trusted-AI-Procurement-EO-N-5-26.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.gov.ca.gov/2026/03/30/as-trump-rolls-back-protections-governor-newsom-signs-first-of-its-kind-executive-order-to-strengthen-ai-protections-and-responsible-use/",
+    "https://www.ropesgray.com/en/insights/alerts/2026/04/newsom-signs-executive-order-establishing-ai-vendor-certification-and-procurement-framework"
+   ],
+   "found_via": "web search restricted to gov.ca.gov; signed PDF and press release found",
+   "scope_guess": "in",
+   "why": "Governor's executive order of 30 March 2026 on AI vendor certification and safeguards in state procurement; N-9-26 (US-CA-09) is already registered but this order is not.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C032"
+  },
+  {
+   "cand_ref": "north-america-04",
+   "cell": "US-CA/executive",
+   "title_as_found": "Executive Order N-12-23 (generative AI)",
+   "language": "English",
+   "url": "https://www.gov.ca.gov/wp-content/uploads/2023/09/AI-EO-No.12-_-GGN-Signed.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.genai.ca.gov/ca-action/executive-order",
+    "https://www.govops.ca.gov/generative-ai-genai-executive-order/"
+   ],
+   "found_via": "web search; signed PDF loads (HTTP 200)",
+   "scope_guess": "in",
+   "why": "Governor's order of 6 September 2023 requiring risk analysis, guidelines and procurement rules for state use of generative AI.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C033"
+  },
+  {
+   "cand_ref": "north-america-05",
+   "cell": "US-CA/legislature",
+   "title_as_found": "SB 867 (2025-2026): Toys: companion chatbots",
+   "language": "English",
+   "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB867",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://calmatters.digitaldemocracy.org/bills/ca_202520260sb867",
+    "https://www.fenwick.com/insights/publications/california-enacts-comprehensive-child-safety-laws-targeting-ai-chatbots",
+    "https://www.ballardspahr.com/insights/alerts-and-articles/2026/09/california-ai-toy-bill-brings-software-behavior-into-product-safety"
+   ],
+   "found_via": "web search; leginfo URL built from the bill ID pattern, returns 403 to plain curl so needs the archiver's browser retry; chaptering and signing (10 Sept 2026) reported only by secondary sources",
+   "scope_guess": "in",
+   "why": "Bans toys with companion chatbots until 1 Jan 2031; sits beside SB 243 and SB 1119 (US-CA-06, US-CA-08); check enrolled text for age threshold and status.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C034"
+  },
+  {
+   "cand_ref": "north-america-06",
+   "cell": "US-CA/legislature",
+   "title_as_found": "SB 1276 (2025-2026): sexual exploitation of a child, including AI-generated material",
+   "language": "English",
+   "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1276",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://calmatters.digitaldemocracy.org/bills/ca_202520260sb1276",
+    "https://www.recordinglaw.com/news/california-sb-1276-ai-generated-csam/",
+    "https://apcp.assembly.ca.gov/media/1202"
+   ],
+   "found_via": "web search; leginfo URL built from bill ID pattern (403 to curl); status conflicts between sources (suspense file in April vs signed 10 Sept 2026, Ch. 192)",
+   "scope_guess": "borderline",
+   "why": "Criminal and reporting law extended to AI-generated child sexual abuse material; not an AI governance law, include with a scope note like other deepfake laws.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C035"
+  },
+  {
+   "cand_ref": "north-america-07",
+   "cell": "US-CA/legislature",
+   "title_as_found": "AB 1064 (2025-2026): Leading Ethical AI Development (LEAD) for Kids Act, companion chatbots and children",
+   "language": "English",
+   "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1064",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://calmatters.digitaldemocracy.org/bills/CA_202520260AB1064",
+    "https://agora.eto.tech/instrument/2668",
+    "https://sjud.senate.ca.gov/media/1975"
+   ],
+   "found_via": "web search; leginfo URL built from bill ID pattern (403 to curl); trackers say adopted by Legislature 11 Sept 2025 and vetoed",
+   "scope_guess": "in",
+   "why": "AI-specific child-safety bill, reportedly vetoed; vetoed bills are kept for context (section 10), and SB 243 and SB 1119 were enacted in its place.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C036"
+  },
+  {
+   "cand_ref": "north-america-08",
+   "cell": "US-CA/legislature",
+   "title_as_found": "AB 1159 (2025-2026): student personal information, AI training (KOPIPA, ELPIPA, new HESIPA)",
+   "language": "English",
+   "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1159",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://privacyrights.org/resources-tools/articles/governor-signs-prc-sponsored-ab-1159-law-strengthening-privacy-protections",
+    "https://apcp.assembly.ca.gov/media/1030",
+    "https://sedn.senate.ca.gov/media/1639"
+   ],
+   "found_via": "web search; leginfo URL built from bill ID pattern (403 to curl); signing reported by an advocacy group (10 Sept 2026)",
+   "scope_guess": "borderline",
+   "why": "Student privacy law limiting AI training to deidentified data; mainly a privacy law with an AI provision, so include only with a scope_note.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C037"
+  },
+  {
+   "cand_ref": "north-america-09",
+   "cell": "US-IL/ministries",
+   "title_as_found": "Illinois Department of Human Rights proposed rules, 56 Ill. Adm. Code 2520 (new 2520.900 and 2520.910): notice of AI use in employment",
+   "language": "English",
+   "url": null,
+   "source_kind": "secondary",
+   "lead_urls": [
+    "https://www.nfib.com/wp-content/uploads/2025/12/AI-Employment-Notice-Rules-IDHR-Re-HB3773-IL.pdf",
+    "https://ktslaw.com/insights/alert/2026/6/illinois-department-of-human-rights-issues-proposed-rules-on-ai-notice-requirements-in-employment-decisions",
+    "https://www.ilga.gov/agencies/JCAR/EntirePart?titlepart=05602520"
+   ],
+   "found_via": "searches on idhr/ilga/illinois.gov domains found only the existing Part 2520 pages (no AI text) and the Legislative Updates page https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html; no Illinois Register notice found",
+   "scope_guess": "borderline",
+   "why": "Rules implementing HB 3773 (US-IL-01), proposed 15 May 2026 and reportedly postponed on 2 June 2026; a proposed or withdrawn rulemaking with no official text located yet, so the extractor may find only the Illinois Register notice, if any.",
+   "possible_duplicate_of": "US-IL-01",
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "refresh-request",
+   "record_id": "US-IL-01",
+   "cand_id": null
+  },
+  {
+   "cand_ref": "north-america-10",
+   "cell": "US-NV/executive",
+   "title_as_found": "Policy on the Responsible and Ethical Use of Artificial Intelligence in Nevada State Government Executive Branch (CIO signed, 2024)",
+   "language": "English",
+   "url": "https://www.it.nv.gov/uploadedFiles/itnewnvgov/content/Governance/Policy%20on%20the%20Responsible%20and%20Ethical%20Use%20of%20Artificial%20Intelligence%20in%20Nevada%20-%20CIO%20Signed.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.it.nv.gov/events/state-ai-roundtable/"
+   ],
+   "found_via": "web search on Nevada OCIO policy; signed PDF loads (HTTP 200)",
+   "scope_guess": "in",
+   "why": "Statewide executive-branch AI policy with minimum standards (bias, misuse, data use); not yet in the register (only AB 406 is).",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C038"
+  },
+  {
+   "cand_ref": "north-america-11",
+   "cell": "US-NV/executive",
+   "title_as_found": "Policy on the Responsible and Ethical Use of Artificial Intelligence in Nevada State Government Executive Branch (draft update, 2026)",
+   "language": "English",
+   "url": "https://www.it.nv.gov/uploadedFiles/itnew.nv.gov/content/About(1)/Policy%20on%20the%20Responsible%20and%20Ethical%20Use%20of%20Artificial%20Intelligence%20in%20Nevada%20State%20Government%20Executive%20Branch(draft).pdf",
+   "source_kind": "official",
+   "lead_urls": [],
+   "found_via": "web search on Nevada OCIO policy; draft PDF on it.nv.gov (not fetched); sources say not final or signed",
+   "scope_guess": "borderline",
+   "why": "Draft update of the Nevada policy endorsed for review but not adopted; handle together with the signed policy, as one record whose notes mention the draft.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C039"
+  },
+  {
+   "cand_ref": "north-america-12",
+   "cell": "US/executive",
+   "title_as_found": "Super Intelligence Force (interagency task force announced 4 October 2026)",
+   "language": "English",
+   "url": null,
+   "source_kind": "secondary",
+   "lead_urls": [
+    "https://www.cbsnews.com/news/ai-super-intelligence-force-trump-jay-clayton/",
+    "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+    "https://www.nbcnews.com/politics/trump-administration/trump-announces-members-ai-task-force-rcna601494"
+   ],
+   "found_via": "web searches on whitehouse.gov and news; only Truth Social post coverage and news found, no whitehouse.gov page or order text",
+   "scope_guess": "borderline",
+   "why": "Announced task force (120-day risk report) with no published instrument; keep for an extractor to check whether a whitehouse.gov document appears; US-27 and US-26 are related.",
+   "possible_duplicate_of": null,
+   "group": "north-america",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C040"
+  },
+  {
+   "cand_ref": "south-southeast-asia-01",
+   "cell": "TH/legislature",
+   "title_as_found": "(ร่าง) พระราชบัญญัติปัญญาประดิษฐ์ (AI) เพื่อคนสร้างสรรค์ ฉบับพรรคประชาชน (People's Party draft AI Act for creative people)",
+   "language": "Thai",
+   "url": null,
+   "source_kind": "secondary",
+   "lead_urls": [
+    "https://en.thairath.co.th/news/politic/2948798",
+    "https://www.thairath.co.th/news/politic/2948798"
+   ],
+   "found_via": "news search; the party held a hearing seminar on 26 July 2026 and plans to propose a House subcommittee; no draft text, House bill page or party page found, and no sign that it has been filed in the House",
+   "scope_guess": "borderline",
+   "why": "Opposition party draft with human-in-the-loop and opt-out content, focused on creators' rights; kept only as a lead until a filed text exists; it may be out as a party document, not an official instrument.",
+   "possible_duplicate_of": null,
+   "group": "south-southeast-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C041"
+  },
+  {
+   "cand_ref": "south-southeast-asia-02",
+   "cell": "VN/executive",
+   "title_as_found": "Quyết định số 804/QĐ-TTg ngày 06/5/2026 ban hành Danh mục bộ dữ liệu phục vụ phát triển trí tuệ nhân tạo trong các lĩnh vực thiết yếu",
+   "language": "Vietnamese",
+   "url": "https://chinhphu.vn/?docid=218027&pageid=27160",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/804-ttg.signed.pdf",
+    "https://tapchicongthuong.vn/ban-hanh-danh-muc-bo-du-lieu-phuc-vu-phat-trien-tri-tue-nhan-tao-trong-cac-linh-vuc-thiet-yeu-515980.htm"
+   ],
+   "found_via": "search of chinhphu.vn; the portal page gives number, date and title and an attached PDF (extra_urls candidate)",
+   "scope_guess": "borderline",
+   "why": "List of 15 datasets for AI development under the AI Law; mainly about data supply, with limited safety content, so a scope_note is needed.",
+   "possible_duplicate_of": null,
+   "group": "south-southeast-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C042"
+  },
+  {
+   "cand_ref": "south-southeast-asia-03",
+   "cell": "VN/executive",
+   "title_as_found": "Quyết định số 1528/QĐ-TTg ngày 11/8/2026 phê duyệt Chương trình quốc gia phát triển nhân lực trí tuệ nhân tạo đến năm 2030, định hướng đến năm 2035",
+   "language": "Vietnamese",
+   "url": "https://vanban.chinhphu.vn/?docid=219163&pageid=27160",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/8/1528_qd-ttg_11082026-signed.signed.pdf",
+    "https://chinhphu.vn/?docid=219163&pageid=27160"
+   ],
+   "found_via": "search for the national AI workforce programme; the portal page gives the decision number, date and PDF",
+   "scope_guess": "borderline",
+   "why": "Workforce programme; press reports mention rules on AI use in universities but safety content looks thin, so it may be out as a strategy with no safety content.",
+   "possible_duplicate_of": null,
+   "group": "south-southeast-asia",
+   "collector": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5"
+   },
+   "status": "active",
+   "cand_id": "C043"
+  }
+ ],
+ "cells_without_log": [],
+ "unknown_cells": []
+}

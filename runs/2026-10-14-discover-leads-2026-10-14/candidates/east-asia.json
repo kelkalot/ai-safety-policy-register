@@ -1,0 +1,360 @@
+{
+ "group": "east-asia",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "candidates": [
+  {
+   "cand_ref": "east-asia-01",
+   "cell": "CN/ministries",
+   "title_as_found": "网络安全技术 人工智能安全能力成熟度评估方法 (征求意见稿) — draft national standard, notice 网安秘字〔2026〕106号 of 26 Aug 2026",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/portal/suggestion",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.secrss.com/articles/93403"
+   ],
+   "found_via": "search for the title, then TC260's standards-for-comment portal (comment deadline 25 Oct 2026); the portal list is JavaScript-driven, so the draft's own file page was not reached; the notice text was read on the secrss.com repost",
+   "scope_guess": "in",
+   "why": "Draft recommended national standard from TC260 on assessing AI security capability maturity, open for comment until 25 Oct 2026.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-02",
+   "cell": "CN/ministries",
+   "title_as_found": "关于对《网络安全标准实践指南——智能体系统开发安全指南（征求意见稿）》公开征求意见的通知 (网安秘字〔2026〕119号, 18 Sept 2026)",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/tc260/tzgg/202609/e5b82ae7aca244d19d36b39575cbb458.shtml",
+   "source_kind": "official",
+   "lead_urls": [],
+   "found_via": "tc260.org.cn home page and notice list; the draft PDF is attached to the notice",
+   "scope_guess": "in",
+   "why": "Draft TC260 practice guide on the security of developing AI agent systems; comment period ended 2 Oct 2026, so the final text may follow.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-03",
+   "cell": "CN/ministries",
+   "title_as_found": "网络安全标准实践指南——人工智能应用安全指引 总则 (general part, TC260-PG-20268A)",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d/files/%E3%80%8A%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%A0%87%E5%87%86%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97%E2%80%94%E2%80%94%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8%E6%8C%87%E5%BC%95%20%E6%80%BB%E5%88%99%E3%80%8B.pdf.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d.shtml"
+   ],
+   "found_via": "TC260 notice list (tzgg), notice 网安秘字〔2026〕118号 of 15 Sept 2026 releasing 4 practice guides; PDF attached to the notice",
+   "scope_guess": "in",
+   "why": "General part of the AI application security guidance series, applicable to all sectors. Released 15 Sept 2026; the notice URL is https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d.shtml.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-04",
+   "cell": "CN/ministries",
+   "title_as_found": "网络安全标准实践指南——人工智能应用安全指引 教育 (education)",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d/files/%E3%80%8A%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%A0%87%E5%87%86%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97%E2%80%94%E2%80%94%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8%E6%8C%87%E5%BC%95%20%E6%95%99%E8%82%B2%E3%80%8B.pdf.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d.shtml"
+   ],
+   "found_via": "TC260 notice list (tzgg), notice 网安秘字〔2026〕118号 of 15 Sept 2026 releasing 4 practice guides; PDF attached to the notice",
+   "scope_guess": "in",
+   "why": "Sector guide for education in the same series. Released 15 Sept 2026; the notice URL is https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d.shtml.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-05",
+   "cell": "CN/ministries",
+   "title_as_found": "网络安全标准实践指南——人工智能应用安全指引 卫生健康 (health)",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d/files/%E3%80%8A%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%A0%87%E5%87%86%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97%E2%80%94%E2%80%94%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8%E6%8C%87%E5%BC%95%20%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E3%80%8B.pdf.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d.shtml"
+   ],
+   "found_via": "TC260 notice list (tzgg), notice 网安秘字〔2026〕118号 of 15 Sept 2026 releasing 4 practice guides; PDF attached to the notice",
+   "scope_guess": "in",
+   "why": "Sector guide for health in the same series. Released 15 Sept 2026; the notice URL is https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d.shtml.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-06",
+   "cell": "CN/ministries",
+   "title_as_found": "网络安全标准实践指南——人工智能应用安全指引 广播电视和网络视听 (broadcasting and online audiovisual)",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d/files/%E3%80%8A%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%A0%87%E5%87%86%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97%E2%80%94%E2%80%94%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8%E6%8C%87%E5%BC%95%20%E5%B9%BF%E6%92%AD%E7%94%B5%E8%A7%86%E5%92%8C%E7%BD%91%E7%BB%9C%E8%A7%86%E5%90%AC%E3%80%8B.pdf.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d.shtml"
+   ],
+   "found_via": "TC260 notice list (tzgg), notice 网安秘字〔2026〕118号 of 15 Sept 2026 releasing 4 practice guides; PDF attached to the notice",
+   "scope_guess": "in",
+   "why": "Sector guide for broadcasting and online audiovisual in the same series. Released 15 Sept 2026; the notice URL is https://www.tc260.org.cn/tc260/tzgg/202609/ec149159dcb246268eda751eee89967d.shtml.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-07",
+   "cell": "CN/ministries",
+   "title_as_found": "Plan 20264769-T-469 网络安全技术 人工智能深度合成安全规范 (planned recommended national standard)",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/tc260/tzgg/202610/2ac025d624a046199d8895fd6eeee5aa.shtml",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.tc260.org.cn/tc260/tzgg/202607/d35db900acc1470d9018369219086d89.shtml"
+   ],
+   "found_via": "TC260 notice 网安秘字〔2026〕121号 of 13 Oct 2026 (25 plans, PDF attachment, item 15, lead institution CAS Institute of Software); earlier call for drafting units in tzgg 202607",
+   "scope_guess": "borderline",
+   "why": "Only a standardisation plan exists so far (completion due 2027-12), with no standard text; include only as a pointer, extractor may find the plan alone too thin for a record.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-08",
+   "cell": "CN/ministries",
+   "title_as_found": "Plan 20264766-T-469 网络安全技术 人工智能生成内容检测技术实现指南 (planned recommended national standard)",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/tc260/tzgg/202610/2ac025d624a046199d8895fd6eeee5aa.shtml",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.tc260.org.cn/tc260/tzgg/202607/c106afd395fd4264b392506958bc9bf1.shtml"
+   ],
+   "found_via": "Same notice 网安秘字〔2026〕121号, item 18 (lead institution Alibaba Cloud)",
+   "scope_guess": "borderline",
+   "why": "Only a plan so far, no text. The same notice also plans other AI standards (foundation-model security testing method 20264773, model development guide 20264764, guardrails 20264765, AI model open-source guide 20264767, AI training and inference frameworks 20264762, agent data processing 20264770, AI user personal information protection 20264755) that the register could pick up when drafts appear.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-09",
+   "cell": "CN/ministries",
+   "title_as_found": "GB/T 45674-2025 网络安全技术 生成式人工智能数据标注安全规范 (Cybersecurity technology — Security specification for generative AI data annotation)",
+   "language": "Chinese",
+   "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=407584DD0FA2BA19E62E85D3469290B0",
+   "source_kind": "official",
+   "lead_urls": [],
+   "found_via": "SAMR national standards platform (openstd.samr.gov.cn) search for 45674; status 现行, published 2025-04-25, effective 2025-11-01; CN-06 notes name it as a companion standard",
+   "scope_guess": "in",
+   "why": "Recommended national standard on security of training-data annotation for generative AI, in force since 1 Nov 2025; not yet its own record.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-10",
+   "cell": "CN/ministries",
+   "title_as_found": "TC260-PG-202515A 网络安全标准实践指南——生成式人工智能服务安全应急响应指南 (released 15 Sept 2025, notice 网安秘字〔2025〕125号)",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/tc260/sjzn/202509/dbafd382ac164506b84065f37f2cebca/files/0d784893a2fe42f396e88d95317a787c.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.tc260.org.cn/front/postDetail.html?id=20250909095834"
+   ],
+   "found_via": "TC260 practice-guide list (tc260.org.cn/tc260/sjzn/list.shtml): the 15 Sept 2025 batch is TC260-PG-202513A to 202516A, of which only 202515A deals with AI",
+   "scope_guess": "in",
+   "why": "The one AI-specific guide among the four practice guides released on 15 Sept 2025; classifies and grades generative-AI security incidents and sets out emergency response.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-11",
+   "cell": "CN/ministries",
+   "title_as_found": "TC260-PG-20266A 网络安全标准实践指南——智能体部署使用安全指引 (notice 网安秘字〔2026〕80号, 1 Jul 2026)",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/tc260/sjzn/202608/67702dcf57214da792499be8518446dc/files/f3be1cc4d35d428c98a9f5d197c963ac.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.tc260.org.cn/tc260/tzgg/202607/98b6f259f8a3428b8fe1cfea3c0fb19e.shtml"
+   ],
+   "found_via": "Found while following the agent lead in the TC260 practice-guide list; not a listed lead",
+   "scope_guess": "in",
+   "why": "Published TC260 practice guide on security in deploying and using AI agents; the draft guide for development (another candidate) is its companion.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-12",
+   "cell": "CN/ministries",
+   "title_as_found": "TC260-PG-20267A 网络安全标准实践指南——个人用户使用人工智能服务安全指南 (v1.0-202608)",
+   "language": "Chinese",
+   "url": "https://www.tc260.org.cn/tc260/sjzn/202608/6bd7f30173444f6cae692e0e7c3045b8/files/23e68462a22b465c9aef09e584659924.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.tc260.org.cn/tc260/tzgg/202608/1586c71e2ebf4db28ed4a7651788ca87.shtml"
+   ],
+   "found_via": "Found while following the TC260 practice-guide list; not a listed lead",
+   "scope_guess": "in",
+   "why": "Published TC260 practice guide with security advice for individuals using AI services, released Aug 2026.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-13",
+   "cell": "JP/ai-bodies",
+   "title_as_found": "AIインシデントレスポンス・アプローチブック (AI Incident Response Approach Book, AI-IRS v1.0, Jan 2026)",
+   "language": "Japanese, English",
+   "url": "https://aisi.go.jp/activity/activity_security/260109/",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://aisi.go.jp/assets/pdf/ai-irs_v1.0_ja.pdf",
+    "https://aisi.go.jp/assets/pdf/ai-irs_summary_v1.0_en.pdf"
+   ],
+   "found_via": "Not on the aisi.go.jp output lists; found by search, release page under activity/activity_security",
+   "scope_guess": "in",
+   "why": "J-AISI conceptual framework for responding to incidents caused by AI-specific risks.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-14",
+   "cell": "JP/ai-bodies",
+   "title_as_found": "Chief AI Officerガイド (Chief AI Officer Guide, 17 Mar 2026)",
+   "language": "Japanese",
+   "url": "https://aisi.go.jp/output/output_framework/260317/",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://aisi.go.jp/output/output_information/260205/"
+   ],
+   "found_via": "aisi.go.jp output list, framework section",
+   "scope_guess": "in",
+   "why": "J-AISI guide for the executive role responsible for AI governance in organisations; a draft was posted 5 Feb 2026.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-15",
+   "cell": "JP/ai-bodies",
+   "title_as_found": "データ品質マネジメントガイドブック (Data Quality Management Guidebook, May 2026 version; first published 31 Mar 2025)",
+   "language": "Japanese",
+   "url": "https://aisi.go.jp/output/output_framework/data_quality_management_guidebook/",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://aisi.go.jp/output/output_information/250331_2/"
+   ],
+   "found_via": "aisi.go.jp output list, framework section",
+   "scope_guess": "borderline",
+   "why": "J-AISI guidebook on managing AI data quality; safety link is indirect, so include with a scope note if kept.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-16",
+   "cell": "JP/ai-bodies",
+   "title_as_found": "AIセーフティに関する活動マップ（AMAIS）(Activity Map on AI Safety, 7 Feb 2025)",
+   "language": "Japanese",
+   "url": "https://aisi.go.jp/output/output_information/250207_1/",
+   "source_kind": "official",
+   "lead_urls": [],
+   "found_via": "aisi.go.jp output list",
+   "scope_guess": "borderline",
+   "why": "J-AISI discussion paper mapping AI safety activities; a paper rather than guidance, so flagged borderline.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-17",
+   "cell": "JP/ai-bodies",
+   "title_as_found": "ヘルスケア領域におけるAIセーフティ評価観点ガイド (Guide to Evaluation Perspectives on AI Safety in the Healthcare Sector, 2 Apr 2026)",
+   "language": "Japanese",
+   "url": "https://aisi.go.jp/output/output_information/260402/",
+   "source_kind": "official",
+   "lead_urls": [],
+   "found_via": "aisi.go.jp output list; JP-03 notes say domain guides are not recorded separately",
+   "scope_guess": "in",
+   "why": "J-AISI sector guide on AI safety evaluation in healthcare, a domain extension of the guide in JP-03.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-18",
+   "cell": "JP/ministries",
+   "title_as_found": "MIC AIのセキュリティ確保のための技術的対策に係るガイドライン (Technical Guidelines for AI Security, March 2026)",
+   "language": "Japanese",
+   "url": "https://www.soumu.go.jp/menu_news/s-news/01cyber01_02000001_00282.html",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_guideline.html"
+   ],
+   "found_via": "Cabinet Office page on the AI guideline (JP-05), which lists 17 ministry guidelines; those with safety or risk content were picked",
+   "scope_guess": "in",
+   "why": "MIC guidelines on technical security measures for AI systems, with direct risk-governance content.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-19",
+   "cell": "JP/ministries",
+   "title_as_found": "デジタル庁 行政の進化と革新のための生成AIの調達・利活用に係るガイドライン (Digital Agency guidelines on procurement and use of generative AI in government, May 2025)",
+   "language": "Japanese",
+   "url": "https://www.digital.go.jp/news/3579c42d-b11c-4756-b66e-3d3e35175623",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_guideline.html"
+   ],
+   "found_via": "Cabinet Office page on the AI guideline (JP-05), which lists 17 ministry guidelines; those with safety or risk content were picked",
+   "scope_guess": "in",
+   "why": "Government-wide guidance with risk assessment duties for generative AI use.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-20",
+   "cell": "JP/ministries",
+   "title_as_found": "個人情報保護委員会 生成AIサービスの利用に関する注意喚起等について (PPC notice on use of generative AI services, June 2023)",
+   "language": "Japanese",
+   "url": "https://www.ppc.go.jp/news/press/2023/230602kouhou/",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_guideline.html"
+   ],
+   "found_via": "Cabinet Office page on the AI guideline (JP-05), which lists 17 ministry guidelines; those with safety or risk content were picked",
+   "scope_guess": "borderline",
+   "why": "Data-protection authority warning on generative AI, AI-specific; fits the rule for AI-specific DPA guidance.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-21",
+   "cell": "JP/ministries",
+   "title_as_found": "プラント保安分野におけるAI信頼性評価ガイドライン (AI Reliability Evaluation Guidelines for Plant Safety, March 2021)",
+   "language": "Japanese",
+   "url": "https://www.fdma.go.jp/relocation/neuter/topics/fieldList4_16/jisyuhoan_shiryo.html",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_guideline.html"
+   ],
+   "found_via": "Cabinet Office page on the AI guideline (JP-05), which lists 17 ministry guidelines; those with safety or risk content were picked",
+   "scope_guess": "borderline",
+   "why": "Sectoral AI reliability guideline (FDMA, MHLW, METI) with safety content, though narrow; the page may link only a summary.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-22",
+   "cell": "JP/ministries",
+   "title_as_found": "初等中等教育段階における生成AIの利活用に関するガイドライン (MEXT guidelines on generative AI in primary and secondary education, Dec 2024)",
+   "language": "Japanese",
+   "url": "https://www.mext.go.jp/a_menu/other/mext_02412.html",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_guideline.html"
+   ],
+   "found_via": "Cabinet Office page on the AI guideline (JP-05), which lists 17 ministry guidelines; those with safety or risk content were picked",
+   "scope_guess": "borderline",
+   "why": "Education ministry guidelines with risk and appropriate-use content; main focus is use in schools.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-23",
+   "cell": "JP/ministries",
+   "title_as_found": "AIの利用・開発に関する契約チェックリスト (METI AI Use and Development Contract Checklist, Feb 2025)",
+   "language": "Japanese",
+   "url": "https://www.meti.go.jp/policy/mono_info_service/connected_industries/sharing_and_utilization.html",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_guideline.html"
+   ],
+   "found_via": "Cabinet Office page on the AI guideline (JP-05), which lists 17 ministry guidelines; those with safety or risk content were picked",
+   "scope_guess": "borderline",
+   "why": "Contract checklist covering AI risks and liability; the METI page returned HTTP 403 to a plain request, so the archiver may need --browser.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "east-asia-24",
+   "cell": "JP/executive",
+   "title_as_found": "中間とりまとめ (Interim Report of the AI Strategic Council and AI Institutional Study Group, 4 Feb 2025)",
+   "language": "Japanese",
+   "url": "https://www8.cao.go.jp/cstp/ai/interim_report.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www8.cao.go.jp/cstp/stmain/20241227ai.html"
+   ],
+   "found_via": "search; Cabinet Office PDF checked, Japanese text, dated 4 Feb 2025",
+   "scope_guess": "in",
+   "why": "Study-group report on the design of Japan's AI regime (innovation with risk response, existing laws plus guidelines); the basis of the AI Promotion Act (JP-04).",
+   "possible_duplicate_of": null
+  }
+ ]
+}

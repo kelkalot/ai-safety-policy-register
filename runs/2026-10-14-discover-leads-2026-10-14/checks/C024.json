@@ -1,0 +1,97 @@
+{
+ "cand_id": "C024",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "short_title": {
+   "verdict": "supported"
+  },
+  "jurisdiction": {
+   "verdict": "supported"
+  },
+  "country": {
+   "verdict": "supported"
+  },
+  "jurisdiction_level": {
+   "verdict": "supported"
+  },
+  "region": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "language": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "supported"
+  },
+  "related": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported",
+   "why": "null: the bill sets 1 January 2027 as proposed effect only; it is not in force"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "New Civil Code 12(4): protection of likeness/voice extended to recordings created or substantially altered by a technical process",
+   "verdict": "supported",
+   "locator": "bill text, Cl. I (V § 12 ... odsek 4)"
+  },
+  {
+   "claim": "Misdemeanour (Misdemeanours Act 49(1)(h)) for making/sharing such a recording without consent where it can harm honour, dignity or privacy",
+   "verdict": "supported",
+   "locator": "bill text, Cl. II"
+  },
+  {
+   "claim": "Dangerous electronic harassment (Criminal Code 360b(1)(c)) and legal persons (Act 91/2016, 3)",
+   "verdict": "supported",
+   "locator": "bill text, Cl. III and IV"
+  },
+  {
+   "claim": "Explanatory memorandum links the bill to AI and digital tools",
+   "verdict": "supported",
+   "locator": "Dôvodová správa: 'reagovať na vývoj technológií umelej inteligencie a digitálnych nástrojov'"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Existing scope_note is accurate: non-AI-specific amendments, operative deepfake instrument; precedent (general rules, deepfakes) supports inclusion. Not a duplicate of any Slovak record (SK-01, SK-02 differ). C025 is a sibling Slovak deepfake bill; relate the two at assembly if both are merged."
+ },
+ "overall": "accept",
+ "note": "All fields supported by stored official nrsr.sk pages and the bill text; I read the Slovak bill text and memorandum directly (Civil Code 12(4), Misdemeanours Act 49(1)(h), Criminal Code 360b(1)(c), legal-persons Act 3, effect 1 Jan 2027). Status Draft/proposed is current (committee stage; sponsors asked for the 17 Nov 2026 session). One web search for a newer stage found nothing. Optional: related link to the sibling bill C025."
+}

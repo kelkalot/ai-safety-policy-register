@@ -1,0 +1,36 @@
+{
+ "cand_id": "C039",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "duplicate",
+ "target_id": "C038",
+ "record": {
+  "title": "Policy on the Responsible and Ethical Use of Artificial Intelligence in Nevada State Government Executive Branch (draft)"
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C039/2026-10-14/official.pdf",
+    "sha256": "59dd7ade6471089a475ac360c6e5f714e644dcddda96e582ac173a03a4eee31e",
+    "locator": "page 1, title",
+    "quote": "Policy on the Responsible and Ethical Use of Artificial Intelligence in Nevada State Government Executive Branch",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C039/2026-10-14/official.pdf",
+    "sha256": "59dd7ade6471089a475ac360c6e5f714e644dcddda96e582ac173a03a4eee31e",
+    "locator": "page 5, Compliance",
+    "quote": "All state agencies must comply with this policy and related standards as a minimum requirement but are encouraged to develop more stringent policies and standards",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "scope_reasoning": "Same instrument as C038, not a 2026 update. The stored draft has the same title and, apart from page footers, the same text as the signed policy stored for C038 (a word-level comparison of the two text layers differs only in footers, scan errors and the signature block); it lacks the signature block and the 'Effective Date : November 26, 2024' line, and the server dates the file 4 Sep 2024. It is the unsigned draft of the policy that C038 records, so it adds nothing to that record beyond a remark in its verification note."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "target_id C038 is a candidate of this run, not an existing record: the draft is covered by the record that C038 will become."
+ ]
+}

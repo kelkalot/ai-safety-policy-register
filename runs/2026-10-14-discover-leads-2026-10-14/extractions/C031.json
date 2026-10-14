@@ -1,0 +1,43 @@
+{
+ "cand_id": "C031",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "duplicate",
+ "target_id": "C030",
+ "record": {
+  "title": "Ontario's Trustworthy Artificial Intelligence (AI) Framework"
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C031/2026-10-14/official.html",
+    "sha256": "75f0e633f1e9863d606b089ccfc8df54db7aaf3d5fc73209d7529941ae194abd",
+    "locator": "Overview",
+    "quote": "the Trustworthy AI Framework will be made up of policies, products and guidance to set out risk-based rules for the transparent, responsible and accountable use of AI in Ontario.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C031/2026-10-14/official.html",
+    "sha256": "75f0e633f1e9863d606b089ccfc8df54db7aaf3d5fc73209d7529941ae194abd",
+    "locator": "Responsible Use of Artificial Intelligence Directive",
+    "quote": "Ontario’s Trustworthy Artificial Intelligence Framework includes a Responsible Use of Artificial Intelligence Directive that aims to guide Government of Ontario use of AI.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C031/2026-10-14/official.html",
+    "sha256": "75f0e633f1e9863d606b089ccfc8df54db7aaf3d5fc73209d7529941ae194abd",
+    "locator": "Responsible Use of Artificial Intelligence Directive",
+    "quote": "The Directive took effect December 1, 2024 and its implementation is supported by additional policies, guidance and processes.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "scope_reasoning": "Same instrument as C030, not a separate one. The stored ontario.ca page describes the Trustworthy AI Framework as an umbrella that 'will be made up of policies, products and guidance', and its only binding element is the Responsible Use of Artificial Intelligence Directive, which candidate C030 records from its own full text. The rest of the page sets out three priorities ('No AI in secret', 'AI use that people in Ontario can trust', 'AI that serves all the people of Ontario'), lists the members of the AI Expert Working Group and mentions the 2021 consultation; it has no rules, date or issuing act of its own. In scope as a topic, but recorded through C030. If a human prefers a separate record for the Framework as a policy programme, the page's own dates are 'Published: September 14, 2023' and 'Updated: December 01, 2025', and it would need a scope_note as a mainly descriptive policy page."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "target_id C030 is a candidate of this run, not an existing record: the Framework is folded into the record that C030 will become."
+ ]
+}

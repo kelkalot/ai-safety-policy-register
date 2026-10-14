@@ -1,0 +1,164 @@
+{
+ "cand_id": "C042",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Decision No. 804/QĐ-TTg promulgating the List of datasets serving artificial intelligence development in essential sectors",
+  "original_title": "Quyết định số 804/QĐ-TTg ban hành Danh mục bộ dữ liệu phục vụ phát triển trí tuệ nhân tạo trong các lĩnh vực thiết yếu",
+  "short_title": "Viet Nam AI datasets list for essential sectors (Decision 804/QĐ-TTg)",
+  "jurisdiction": "Vietnam",
+  "country": "Vietnam",
+  "jurisdiction_level": "National",
+  "region": "South & Southeast Asia",
+  "issuing_body": "Prime Minister of Viet Nam (signed by Hồ Quốc Dũng; proposed by the Minister of Science and Technology)",
+  "instrument_type": "Executive order / decree",
+  "legal_force": "Binding",
+  "status": "In force",
+  "date_published": "2026-05-06",
+  "date_in_force": "2026-05-06",
+  "date_last_updated": null,
+  "official_identifier": "Decision No. 804/QĐ-TTg",
+  "official_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/804-ttg.signed.pdf",
+  "secondary_url": "https://chinhphu.vn/?docid=218027&pageid=27160",
+  "language": "Vietnamese",
+  "summary": "Prime Minister's decision under the Law on Artificial Intelligence issuing a list of 15 datasets for AI development in essential sectors, among them Vietnamese and ethnic-minority language data, legal texts, health, education, transport, maps and telecommunications (Annex I), and 39 priority data items (Annex II). Priority groups include data for Vietnamese large language models, computer vision, testing and evaluating AI systems, and AI safety and reliability evaluation: detecting false information, recognising AI-generated media, attack scenarios for testing AI safety and ethics, and malware detection. Data work must respect data, personal data, state secret and IP law.",
+  "safety_topics": [
+   "evaluation & testing",
+   "deepfakes & synthetic media",
+   "research priorities"
+  ],
+  "related": [
+   "VN-02",
+   "VN-03"
+  ],
+  "notes": "Dated Hà Nội, 6 May 2026 and in force on signature (Art. 2); the Government portal's digital signature on the published copy is dated 8 May 2026. Issued on the basis of the Law on Organisation of the Government of 18 February 2025 and the Law on Artificial Intelligence of 10 December 2025 (VN-02), on the proposal of the Minister of Science and Technology. The Annex I datasets are to be built in 2026-2030, with priority for the Annex II items. The ministries and provinces assigned to each Annex I dataset plan, collect, quality-assure, label, annotate and standardise it and connect it to the national AI database; the Ministry of Public Security acts as focal point, monitors and reports on implementation, and periodically reviews the list and proposes amendments to the Prime Minister. Datasets IX (transport and urban), XIII (maps and national geospatial data) and XIV (telecommunications and digital infrastructure) are built in coordination with the Ministries of Public Security and National Defence. Decision 367/QĐ-TTg (VN-03) scheduled this list among the AI Law's implementing tasks.",
+  "scope_note": "Mainly a data-supply instrument for AI development; included because it implements the Law on Artificial Intelligence and names priority datasets for testing AI systems and for AI safety and reliability evaluation, including detection of AI-generated media.",
+  "english_version": {
+   "kind": "none found"
+  },
+  "verification": {
+   "note": "Stored: the Government portal's document page (chinhphu.vn), which gives the number 804/QĐ-TTg, issue date 06-05-2026, type (decision), issuer (Prime Minister), signer (Hồ Quốc Dũng) and the summary title, and the signed decision with both annexes from the portal file server (datafiles.chinhphu.vn; 10 scanned pages read through Tesseract OCR with the English model, which drops Vietnamese diacritics and reads the number on page 1 as '304'). The OCR shows the date line (6 May 2026), the legal bases, Articles 1-3, the 15 Annex I datasets and the 39 Annex II items in five groups; the Annex I header reads the number as 804. The signer's office is not shown in the stored text. The link to Decision 367/QĐ-TTg rests on VN-03's stored copy. No English text was found."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/official.html",
+    "sha256": "d2336b8c23e07605c69d82b82542a90e39f361342fa6ba5d75f2de756673bdfe",
+    "locator": "page title",
+    "quote": "Quyết định số 804/QĐ-TTg của Thủ tướng Chính phủ: Ban hành Danh mục bộ dữ liệu phục vụ phát triển trí tuệ nhân tạo trong các lĩnh vực thiết yếu",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/document-1.pdf",
+    "sha256": "38fe67ec952fe733a330939b9340a9d4ceb91877f00b6f8eea811d5c6399852c",
+    "locator": "page 1, title under QUYẾT ĐỊNH",
+    "quote": "Ban hanh Danh muc bé dit ligu phuc vu phat trién tri tué nhAn tao trong cac linh vurc thiét yéu",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/official.html",
+    "sha256": "d2336b8c23e07605c69d82b82542a90e39f361342fa6ba5d75f2de756673bdfe",
+    "locator": "page title",
+    "quote": "Quyết định số 804/QĐ-TTg của Thủ tướng Chính phủ: Ban hành Danh mục bộ dữ liệu phục vụ phát triển trí tuệ nhân tạo trong các lĩnh vực thiết yếu",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/official.html",
+    "sha256": "d2336b8c23e07605c69d82b82542a90e39f361342fa6ba5d75f2de756673bdfe",
+    "locator": "document details (Cơ quan ban hành, Người ký)",
+    "quote": "Cơ quan ban hành Thủ tướng Chính phủ Người ký Hồ Quốc Dũng",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/document-1.pdf",
+    "sha256": "38fe67ec952fe733a330939b9340a9d4ceb91877f00b6f8eea811d5c6399852c",
+    "locator": "page 1, legal bases",
+    "quote": "Theo dé nghi cia B6 truéng B6 Khoa hoc va Céng nghé.",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/official.html",
+    "sha256": "d2336b8c23e07605c69d82b82542a90e39f361342fa6ba5d75f2de756673bdfe",
+    "locator": "document details (Số ký hiệu)",
+    "quote": "Số ký hiệu 804/QĐ-TTg",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/document-1.pdf",
+    "sha256": "38fe67ec952fe733a330939b9340a9d4ceb91877f00b6f8eea811d5c6399852c",
+    "locator": "page 3, Annex I header",
+    "quote": "Quyét dinh sé 804 /OD-TTg ngay 06 thang 5 ndm 2026",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/document-1.pdf",
+    "sha256": "38fe67ec952fe733a330939b9340a9d4ceb91877f00b6f8eea811d5c6399852c",
+    "locator": "page 1, date line",
+    "quote": "Ha Néi, ngay 06 thang 5 ndm 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/official.html",
+    "sha256": "d2336b8c23e07605c69d82b82542a90e39f361342fa6ba5d75f2de756673bdfe",
+    "locator": "document details (Ngày ban hành)",
+    "quote": "Ngày ban hành 06-05-2026",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/document-1.pdf",
+    "sha256": "38fe67ec952fe733a330939b9340a9d4ceb91877f00b6f8eea811d5c6399852c",
+    "locator": "page 1, Art. 2 (Hiệu lực thi hành)",
+    "quote": "Quyét dinh nay cé hiéu lyc thi hanh ti ngay ky.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/document-1.pdf",
+    "sha256": "38fe67ec952fe733a330939b9340a9d4ceb91877f00b6f8eea811d5c6399852c",
+    "locator": "page 1, date line",
+    "quote": "Ha Néi, ngay 06 thang 5 ndm 2026",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/document-1.pdf",
+    "sha256": "38fe67ec952fe733a330939b9340a9d4ceb91877f00b6f8eea811d5c6399852c",
+    "locator": "page 1, Art. 2 (Hiệu lực thi hành)",
+    "quote": "Quyét dinh nay cé hiéu lyc thi hanh ti ngay ky.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C042/2026-10-14/document-1.pdf",
+    "sha256": "38fe67ec952fe733a330939b9340a9d4ceb91877f00b6f8eea811d5c6399852c",
+    "locator": "page 2, Art. 3(3)",
+    "quote": "cé lién quan chiu trach nhiém thi hanh Quyét dinh nay",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Article 2 makes the decision effective from signature, dated 6 May 2026. Nothing stored shows amendment or replacement, so on 14 October 2026 it is In force from 6 May 2026.",
+  "scope_reasoning": "Mainly about supplying data for AI development, but Annex II has groups of priority data for testing and evaluating AI systems and for AI safety and reliability evaluation (false-information detection, recognition of AI-generated media, attack simulation for AI safety and ethics testing, malware detection), and it implements the AI Law. Borderline under the include-and-flag rule, so it is a record with a scope_note.",
+  "instrument_type_reasoning": "An individual Prime Minister's decision (number without year, like 367/QĐ-TTg in VN-03), typed Executive order / decree, Binding, as VN-03."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The signer's office (Hồ Quốc Dũng signing for the Prime Minister, presumably as Deputy Prime Minister as in VN-05) is not shown in the stored text; issuing_body names the signer only."
+ ]
+}

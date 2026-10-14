@@ -1,0 +1,98 @@
+{
+ "cand_id": "C043",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "English rendering of the Vietnamese title on the portal and signed PDF title; matches"
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "Compared character by character with the portal text (vanban.chinhphu.vn page title and Trich yeu): matches, including diacritics. The OCR of the PDF drops diacritics, so the portal text is the reference."
+  },
+  "short_title": {
+   "verdict": "supported"
+  },
+  "jurisdiction": {
+   "verdict": "supported"
+  },
+  "country": {
+   "verdict": "supported"
+  },
+  "jurisdiction_level": {
+   "verdict": "supported"
+  },
+  "region": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Portal: Cơ quan ban hành 'Thủ tướng Chính phủ', Người ký Lê Tiến Châu"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Published, in force on signature, no amendment found; 'Published (non-binding, current)' matches the VN-01 treatment of strategies"
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Portal gives 11-08-2026; the PDF's digital signature is 12.08.2026 and the date line ends 'thang 8 nam 2026'. Month 2026-08 is supported by both; YYYY-MM is the cautious choice, day 11 is in the notes"
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "1528/QĐ-TTg on the portal ('Số ký hiệu'); the PDF OCR shows '4528', an OCR misread of '1528' (file name 1528_qd-ttg_11082026)"
+  },
+  "language": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "supported"
+  },
+  "related": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported",
+   "why": "Art. 2: in force from the signing date, so 2026-08 follows from the issue date"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Three tiers: universal safe use of AI, sectoral application, advanced specialists to research, develop and govern AI systems",
+   "verdict": "supported",
+   "locator": "page 1, I.2 (i)-(iii); own translation: 'a universal tier giving knowledge and skills for safe, effective use of AI ... an applied tier ... a deep tier training scientists, engineers, experts and lecturers able to research, develop, master, deploy and govern AI systems and platforms'"
+  },
+  {
+   "claim": "2030 targets: at least 80% of school pupils with basic AI knowledge, 100% of university learners, 50,000 applied, 10,000 advanced, 100% of universities with rules on AI use in training, research and assessment",
+   "verdict": "supported",
+   "locator": "pages 2-3, II.2 a-d; own translation of d): '100% of higher education institutions implement regulations on the use of AI in training, research and assessment'"
+  },
+  {
+   "claim": "Guiding view ties workforce development to safe, reliable, transparent, accountable AI with risk governance, data sovereignty and cybersecurity",
+   "verdict": "supported",
+   "locator": "page 2, I.4; own translation: 'must be tied to the requirement to develop, deploy and govern AI that is safe, reliable, transparent, responsible and risk-managed; ensure data sovereignty, system safety, cybersecurity, protection of state secrets'"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Education and workforce programme with limited safety content; existing scope_note is accurate. Included per the strategy rule (some safety content, different main focus)."
+ },
+ "overall": "accept",
+ "note": "Vietnamese text read from the portal entry and the OCR of the 18-page signed PDF (English-model OCR, no diacritics, so numbers and phrases were matched by unaccented text). Summary claims and the notes' figures (10 million workers, 100,000 teachers, 1,500 experts, 10 centres, 30 November reporting, Ministry of Public Security, sandbox) are in the OCR. The 'Quyết định' number and day rest on the portal (host not yet recognised as official by the script, a warning only); the month is also supported by the PDF. No amendment found in one search. Note: one news result calls the signer Deputy Prime Minister; the record names only the signer, which is accurate."
+}

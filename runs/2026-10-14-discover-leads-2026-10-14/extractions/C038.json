@@ -1,0 +1,105 @@
+{
+ "cand_id": "C038",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Policy on the Responsible and Ethical Use of Artificial Intelligence in Nevada State Government Executive Branch",
+  "original_title": null,
+  "short_title": "Nevada executive-branch AI policy",
+  "jurisdiction": "Nevada (US)",
+  "country": "United States",
+  "jurisdiction_level": "Sub-national",
+  "region": "North America",
+  "issuing_body": "Office of the Chief Information Officer, Nevada Governor's Office (with the State Technology Governance Committee)",
+  "instrument_type": "Regulation / implementing rule",
+  "legal_force": "Binding",
+  "status": "In force",
+  "date_published": null,
+  "date_in_force": "2024-11-26",
+  "date_last_updated": null,
+  "official_identifier": null,
+  "official_url": "https://www.it.nv.gov/uploadedFiles/itnewnvgov/content/Governance/Policy%20on%20the%20Responsible%20and%20Ethical%20Use%20of%20Artificial%20Intelligence%20in%20Nevada%20-%20CIO%20Signed.pdf",
+  "secondary_url": null,
+  "language": "English",
+  "summary": "Baseline policy of Nevada's Office of the Chief Information Officer for AI use by executive-branch agencies. It sets six principles (fairness and equity, innovation, privacy, safety and security, validity and reliability, and transparency, accountability and explainability), governance by the State Technology Governance Committee and the OCIO, examples of permitted, approval-required and non-permitted uses, security rules, controlled environments for experimentation, human review of critical AI decisions, an action plan aligned with the NIST AI Risk Management Framework, safety training, reporting of AI misuse and incidents, and audits.",
+  "safety_topics": [
+   "public-sector use",
+   "human oversight",
+   "incident reporting",
+   "accountability & liability"
+  ],
+  "related": [],
+  "notes": "Effective 26 Nov 2024. All state agencies must comply with it as a minimum; agencies are encouraged to adopt their own AI policies that meet or exceed it and must submit them to the State Technology Governance Committee annually before 1 July, and where an agency policy and the statewide policy conflict, the more stringent one prevails. Questions about permissible use cases are handled through the state's Technology Investment Notification (TIN) process. The OCIO, the Committee and the AI and Emerging Technologies Working Group are to review the policy annually. It restates that existing law (NRS 205.473 to 205.513) makes deceptive and fraudulent uses of AI or synthetic media unlawful.",
+  "verification": {
+   "note": "Stored the signed policy PDF from it.nv.gov (5 pages, copy of 14 Oct 2026; text layer from a scan, with some character errors), which confirms the title, the Office of the CIO letterhead, all provisions, the compliance clause and 'Effective Date : November 26, 2024' below the signature block of the Office of the CIO as Chair of the State Technology Governance Committee. The document gives no date of signature or issue other than the effective date, so date_published is null. An unsigned draft with the same text and no effective date, stored for candidate C039 in this run (it.nv.gov; the server dates the file 4 Sep 2024), is the version before signature. Whether the annual reviews produced a newer version was not checked against any other source."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C038/2026-10-14/official.pdf",
+    "sha256": "a7e9cf67a2c8a43e21ee3be3a4e8da40f74c9d53c36c6fab7fa8f95564801f6d",
+    "locator": "page 1, title",
+    "quote": "Policy on the Responsible and Ethical Use of Artificial Intelligence in Nevada State Government Executive Branch",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C038/2026-10-14/official.pdf",
+    "sha256": "a7e9cf67a2c8a43e21ee3be3a4e8da40f74c9d53c36c6fab7fa8f95564801f6d",
+    "locator": "page 1, letterhead",
+    "quote": "STATE OF NEVADA GOVERNOR'S OFFICE Office of the Chief Information Officer",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C038/2026-10-14/official.pdf",
+    "sha256": "a7e9cf67a2c8a43e21ee3be3a4e8da40f74c9d53c36c6fab7fa8f95564801f6d",
+    "locator": "page 5, signature block",
+    "quote": "Office of the Governor, Office of the CIO Chair, State Technology",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C038/2026-10-14/official.pdf",
+    "sha256": "a7e9cf67a2c8a43e21ee3be3a4e8da40f74c9d53c36c6fab7fa8f95564801f6d",
+    "locator": "page 5, Compliance",
+    "quote": "All state agencies must comply with this policy and related standards as a minimum requirement",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C038/2026-10-14/official.pdf",
+    "sha256": "a7e9cf67a2c8a43e21ee3be3a4e8da40f74c9d53c36c6fab7fa8f95564801f6d",
+    "locator": "page 5, below the signature block",
+    "quote": "Effective Date : November 26, 2024",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C038/2026-10-14/official.pdf",
+    "sha256": "a7e9cf67a2c8a43e21ee3be3a4e8da40f74c9d53c36c6fab7fa8f95564801f6d",
+    "locator": "page 5, below the signature block",
+    "quote": "Effective Date : November 26, 2024",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The signed policy states 'Effective Date : November 26, 2024', before today (14 Oct 2026). The stored file shows no repeal or replacement; the policy provides for annual review, but no newer version is stored. In force.",
+  "scope_reasoning": "In scope with no scope_note: a binding statewide policy on safe, ethical and accountable AI use by government agencies (government risk-management framework, AGENTS.md section 10). Instrument type and legal force follow AUS-01 and CA-01, binding internal policies on government AI use.",
+  "date_reasoning": "The only date in the signed document is the effective date printed below the signature block. It is recorded as date_in_force; date_published stays null because the document does not say when it was signed or issued.",
+  "topics_reasoning": "human oversight: 'Ensure critical AI decisions involve human review'; incident reporting: 'Agencies must repoti AI-related incidents' (scan error for 'report') and a mandatory reporting system for suspected AI misuse; accountability & liability: governance structure, accountability specialists and audits."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "date_published: the signed policy gives no signature or issue date, only the effective date of 26 Nov 2024.",
+  "The policy is to be reviewed annually; whether a 2025 or 2026 revision exists is not shown by the stored files."
+ ]
+}

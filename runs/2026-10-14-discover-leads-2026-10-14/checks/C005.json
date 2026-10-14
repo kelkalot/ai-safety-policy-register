@@ -1,0 +1,53 @@
+{
+ "cand_id": "C005",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "AI diagnosis and treatment suggestions need doctor review and confirmation; patients know of AI involvement and may refuse it (有权拒绝人工智能辅助)",
+   "verdict": "supported",
+   "locator": "6.1 a), 6.2 a)"
+  },
+  {
+   "claim": "triage: stop the Q&A and direct to emergency on emergency signs",
+   "verdict": "supported",
+   "locator": "8.2 a)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "AI-specific technical standard or practice guide of TC260 (a standards body under SAC/CAC); in scope per the supervisors and standards bodies rule and the CN-06/CN-10 precedents."
+ },
+ "overall": "accept",
+ "note": "Health guide; five-level annex grading and CN-13 reference confirmed. No duplicate in data/records.json; one targeted search found no newer official version. All evidence quotes pass the script and say what the fields say. "
+}

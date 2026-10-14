@@ -1,0 +1,70 @@
+{
+ "group": "latin-america-caribbean",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "candidates": [
+  {
+   "cand_ref": "latin-america-caribbean-01",
+   "cell": "MX/legislature",
+   "title_as_found": "Iniciativa con proyecto de decreto por el que se expide la Ley General para el Desarrollo de la Inteligencia Artificial y el Impulso del Futuro Digital, y se reforman y adicionan diversas disposiciones de la Ley Orgánica de la Administración Pública Federal (PAN senators, Sept 2026)",
+   "language": "Spanish",
+   "url": "http://sil.gobernacion.gob.mx/Archivos/Documentos/2026/09/asun_5145594_20260929_1788971726.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://comunicacionsocial.senado.gob.mx/informacion/comunicados/15057-comision-de-analisis-y-evaluacion-de-la-ia-esta-en-condiciones-de-presentar-una-iniciativa-de-ley-en-la-materia-zapata-bello"
+   ],
+   "found_via": "search for the Senate AI commission's general law; the Senate Information System (SIL) PDF turned up instead, a separate bill by PAN senators addressed to the Senate president, file dated 29 Sept 2026 in its URL",
+   "scope_guess": "in",
+   "why": "A pending general AI law (not the Zapata Bello commission draft, which I could not find filed); only the SIL PDF was read, so the filing date and SIL record page still need confirming.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "latin-america-caribbean-02",
+   "cell": "MX/legislature",
+   "title_as_found": "Ley General para Regular y Fomentar el Uso de la Inteligencia Artificial en México (Senate AI commission draft, chair Rolando Zapata Bello)",
+   "language": "Spanish",
+   "url": null,
+   "source_kind": "secondary",
+   "lead_urls": [
+    "https://comunicacionsocial.senado.gob.mx/informacion/comunicados/15057-comision-de-analisis-y-evaluacion-de-la-ia-esta-en-condiciones-de-presentar-una-iniciativa-de-ley-en-la-materia-zapata-bello",
+    "https://comunicacionsocial.senado.gob.mx/informacion/comunicados/13261-comision-del-sen%20ado-impulsa-ley-general-para-regular-y-fomentar-el-uso-de-la-inteligencia-artificial"
+   ],
+   "found_via": "web searches of the Senate press site and SIL/Gaceta; Senate communique of 21 April 2026 says the commission was ready to present the initiative; no Gaceta or SIL filing found. The gaceta/sil searches returned no match; sil.gobernacion.gob.mx fetches of other pages failed on certificates.",
+   "scope_guess": "in",
+   "why": "A cross-party draft general AI law with ethics, high-risk systems and sanctions; it is a lead only until a filed text with a Gaceta or SIL page exists (the Senate communiques are press releases, not the instrument).",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "latin-america-caribbean-03",
+   "cell": "PY/legislature",
+   "title_as_found": "Proyecto de ley que promueve el uso de la inteligencia artificial a favor del desarrollo económico y social del país (D-2584139)",
+   "language": "Spanish",
+   "url": "https://silpy.congreso.gov.py/web/expediente/142181",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.mofo.com/artificial-intelligence/paraguay",
+    "https://www.lanacion.com.py/politica/2025/06/01/debatiran-proyecto-legislativo-sobre-ia-en-audiencia-publica/"
+   ],
+   "found_via": "MoFo country page links the SILpy expediente 142181 for bill D-2584139; La Nación of 1 June 2025 confirms the Chamber of Deputies public hearing on 4 June 2025. The SILpy page itself could not be fetched (connection refused), so the link is unverified.",
+   "scope_guess": "borderline",
+   "why": "Chamber of Deputies bill whose stated aim is promoting AI with human rights, sustainability and privacy safeguards; the focus is promotion, so borderline with a scope_note; companion to PY-01 (Senate bill), not a duplicate.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "latin-america-caribbean-04",
+   "cell": "PY/executive",
+   "title_as_found": "Resolución N° 12.677: Política operacional que establece directrices para el uso de sistemas de inteligencia artificial (Corte Suprema de Justicia)",
+   "language": "Spanish",
+   "url": "https://www.pj.gov.py/descargas/ID1-133_resolucion_nro_12677_politica_operacional_que_establece_directrices_para_el_uso_de_sistemas_de_inteligencia_artificial_version_1.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.pj.gov.py/notas/29668-csj-aprobo-politica-para-el-uso-de-sistemas-de-inteligencia-artificial-en-el-poder-judicial",
+    "https://www.pj.gov.py/notas/29655-corte-suprema-de-justicia-aprobo-politica-para-el-uso-de-sistemas-de-inteligencia-artificial-en-el-poder-judicial"
+   ],
+   "found_via": "search on pj.gov.py; the Judiciary's news item (10 April 2026) links the PDF, which answers HTTP 200",
+   "scope_guess": "in",
+   "why": "Judiciary policy on AI use by magistrates and staff (human oversight, data privacy); the date is unclear between the news item (April 2026) and a press report (4 March), so the extractor must read the text. Issued by the judiciary, not the executive, but the cell is the leads' cell.",
+   "possible_duplicate_of": null
+  }
+ ]
+}

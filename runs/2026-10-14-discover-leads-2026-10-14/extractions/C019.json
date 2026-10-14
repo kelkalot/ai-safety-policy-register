@@ -1,0 +1,137 @@
+{
+ "cand_id": "C019",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "jurisdiction": "Japan",
+  "country": "Japan",
+  "jurisdiction_level": "National",
+  "region": "East Asia",
+  "title": "Alerts and Other Measures Concerning the Use of Generative AI Services",
+  "original_title": "生成AIサービスの利用に関する注意喚起等について",
+  "short_title": "PPC Alert on Generative AI Services (2023)",
+  "issuing_body": "Personal Information Protection Commission",
+  "instrument_type": "Supervisory statement / letter",
+  "legal_force": "Non-binding",
+  "status": "Published (non-binding, current)",
+  "date_published": "2023-06-02",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": null,
+  "official_url": "https://www.ppc.go.jp/news/press/2023/230602kouhou/",
+  "secondary_url": null,
+  "language": "Japanese",
+  "summary": "Alert of the Personal Information Protection Commission on generative AI services, balancing the protection of individuals' rights through proper handling of personal information against the public benefits of new technology. Businesses and administrative bodies entering prompts with personal information must confirm this stays within the specified purpose of use; if the provider uses the data for other purposes, such as machine learning, input without consent may breach the Act on the Protection of Personal Information. Users are warned that inputs may be used for training and outputs may contain inaccurate personal information.",
+  "safety_topics": [
+   "public-sector use",
+   "general-purpose / frontier AI",
+   "transparency & labelling"
+  ],
+  "related": [],
+  "notes": "Annex 2 summarises the alert the PPC issued on 1 June 2023 under Article 147 of the Act on the Protection of Personal Information to OpenAI, L.L.C. and OpenAI OpCo, LLC, which develop and provide ChatGPT: not to acquire sensitive personal information (要配慮個人情報) without consent, with four measures for information collected for machine learning; not to handle sensitive information entered by users who opted out of training; and to notify or publish the purposes of use in Japanese. The PPC said it would keep watching generative AI services and might issue further alerts.",
+  "scope_note": "An alert (注意喚起) by Japan's data protection authority to businesses, public bodies and general users of generative AI services, with a published summary of an alert to OpenAI; included under the rule for supervisors' statements of expectations on AI to a sector or the public.",
+  "english_version": {
+   "kind": "none found"
+  },
+  "verification": {
+   "note": "Stored: the PPC's press page of 2 June 2023 on ppc.go.jp (plain and browser copies, print PDF) and the notice itself (6 pages: cover note, Annex 1 with the alert to businesses, administrative bodies and general users, Annex 2 with the summary of the alert to OpenAI). They confirm the title, the date (令和５年６月２日, 2 June 2023), the issuer, the addressees and the content; the summary is written from the Japanese text. No English version is linked from the press page or the notice."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C019/2026-10-14/official.html",
+    "sha256": "5d59d980d38f9fe281ba529a3a5678fdd7f4bd5ad1f3990ba2e2a48384b641a0",
+    "locator": "press page, heading",
+    "quote": "生成AIサービスの利用に関する注意喚起等について （令和５年６月２日） 令和５年６月２日 個人情報保護委員会",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C019/extra-13306224ae/2026-10-14/official.pdf",
+    "sha256": "d5e86ce307b3010700ad838f531050bf83ff4093b5b8ad33ec72d3fae02ce1d6",
+    "locator": "page 1, cover note",
+    "quote": "公表資料 生成 AI サービスの利用に関する注意喚起等について 令和５年 ６月２ 日",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C019/2026-10-14/official.html",
+    "sha256": "5d59d980d38f9fe281ba529a3a5678fdd7f4bd5ad1f3990ba2e2a48384b641a0",
+    "locator": "press page, heading",
+    "quote": "生成AIサービスの利用に関する注意喚起等について （令和５年６月２日） 令和５年６月２日 個人情報保護委員会",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C019/2026-10-14/official.html",
+    "sha256": "5d59d980d38f9fe281ba529a3a5678fdd7f4bd5ad1f3990ba2e2a48384b641a0",
+    "locator": "press page, date and issuer",
+    "quote": "令和５年６月２日 個人情報保護委員会 生成AIサービスの利用に関する注意喚起等について（令和５年６月２日）",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C019/extra-13306224ae/2026-10-14/official.pdf",
+    "sha256": "d5e86ce307b3010700ad838f531050bf83ff4093b5b8ad33ec72d3fae02ce1d6",
+    "locator": "page 2, Annex 1 heading",
+    "quote": "生成 AI サービスの利用に関する注意喚起等 令和５年６月２ 日 個人情報保護委員会",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C019/2026-10-14/official.html",
+    "sha256": "5d59d980d38f9fe281ba529a3a5678fdd7f4bd5ad1f3990ba2e2a48384b641a0",
+    "locator": "press page, date and issuer",
+    "quote": "令和５年６月２日 個人情報保護委員会 生成AIサービスの利用に関する注意喚起等について（令和５年６月２日）",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C019/extra-13306224ae/2026-10-14/official.pdf",
+    "sha256": "d5e86ce307b3010700ad838f531050bf83ff4093b5b8ad33ec72d3fae02ce1d6",
+    "locator": "page 2, Annex 1 heading",
+    "quote": "生成 AI サービスの利用に関する注意喚起等 令和５年６月２ 日 個人情報保護委員会",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C019/2026-10-14/official.html",
+    "sha256": "5d59d980d38f9fe281ba529a3a5678fdd7f4bd5ad1f3990ba2e2a48384b641a0",
+    "locator": "press page, document link",
+    "quote": "報道発表資料 生成AIサービスの利用に関する注意喚起等について (PDF : 286KB)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C019/extra-13306224ae/2026-10-14/official.pdf",
+    "sha256": "d5e86ce307b3010700ad838f531050bf83ff4093b5b8ad33ec72d3fae02ce1d6",
+    "locator": "page 1, cover note",
+    "quote": "当委員会として、別添１のとおり、生成 AI サービスの利用に関する注意喚起 等を行うこととしました。",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C019/extra-13306224ae/2026-10-14/official.pdf",
+    "sha256": "d5e86ce307b3010700ad838f531050bf83ff4093b5b8ad33ec72d3fae02ce1d6",
+    "locator": "page 2, Annex 1",
+    "quote": "ての個人情報の取扱いに関する留意点 を取りまとめたので、参考としていただきた",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Issued by the PPC on 2 June 2023 (令和5年 = 2023); no withdrawal or replacement is shown, so it is current.",
+  "scope_reasoning": "Annex 1 is addressed to businesses handling personal information, administrative bodies and general users: a supervisor's AI-specific statement to a sector and the public, in with a scope_note under the supervisors rule. The alert to OpenAI alone would be a letter to a single firm, but here it is part of the published notice.",
+  "legal_force_reasoning": "The notice gives points to note and asks addressees to refer to them when applying the Act; it is an alert, not a rule. The OpenAI alert under Article 147 is administrative guidance.",
+  "topics_reasoning": "The vocabulary has no privacy topic; public-sector use (administrative bodies), general-purpose / frontier AI (generative AI services such as ChatGPT) and transparency & labelling (notice of purposes of use) fit."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "title is a rendering of the Japanese title; no English version is linked from the press page or the notice."
+ ]
+}

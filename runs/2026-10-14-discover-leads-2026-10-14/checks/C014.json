@@ -1,0 +1,52 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "C014",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "data quality as an AI-safety evaluation perspective linked to fairness, robustness and verifiability",
+   "verdict": "supported",
+   "locator": "page 9, 2.4 AI Safety and Data Quality"
+  },
+  {
+   "claim": "three views: process, governance cycle, gateway (characteristics); ISO/IEC 25012 and 5259",
+   "verdict": "supported",
+   "locator": "section 4 and page 4.3 Gateway View"
+  },
+  {
+   "claim": "version history 1.00 2025-03-31, 1.01 2025-12-02, 1.02 2026-05-14; 1.02 converted slides to text and added machine-translated Japanese reference",
+   "verdict": "supported",
+   "locator": "page 85-86, 6.3 Version History"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Data management guidebook that the extractor's scope_note justifies by its AI safety framing; keep the note."
+ },
+ "overall": "accept",
+ "note": "All values match the release page and the guidebook's own version history. The current version 1.02 is stored; date_published is that of the first version and date_last_updated that of 1.02, as the register's convention requires. One targeted web search found no newer version."
+}

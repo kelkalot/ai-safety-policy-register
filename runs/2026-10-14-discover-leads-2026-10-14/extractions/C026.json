@@ -1,0 +1,155 @@
+{
+ "cand_id": "C026",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Initiative with draft decree issuing the General Law for the Development of Artificial Intelligence and the Promotion of the Digital Future and amending the Organic Law of the Federal Public Administration (Senate bill, PAN senators)",
+  "original_title": "Iniciativa con proyecto de decreto por el que se expide la Ley General para el Desarrollo de la Inteligencia Artificial y el Impulso del Futuro Digital, y se reforman y adicionan diversas disposiciones de la Ley Orgánica de la Administración Pública Federal",
+  "short_title": "Mexico General AI Development Law bill (PAN, Senate, 2026)",
+  "jurisdiction": "Mexico",
+  "country": "Mexico",
+  "jurisdiction_level": "National",
+  "region": "Latin America & Caribbean",
+  "issuing_body": "Senate of the Republic (LXVI Legislature); initiative by 21 senators of the National Action Party (PAN) parliamentary group, first signatory Sen. Mauricio Vila Dosal",
+  "instrument_type": "Bill / draft law",
+  "legal_force": "Proposed",
+  "status": "Draft / proposed",
+  "date_published": "2026-09-09",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": null,
+  "official_url": "http://sil.gobernacion.gob.mx/Archivos/Documentos/2026/09/asun_5145594_20260929_1788971726.pdf",
+  "secondary_url": "http://sil.gobernacion.gob.mx/Librerias/pp_ContenidoAsuntos.php?Clave=5145594",
+  "language": "Spanish",
+  "summary": "Senate initiative by PAN senators for a general law promoting AI development and adoption with proportionate risk management. It would create a Secretariat of Artificial Intelligence and Digital Future, a National AI System and a national strategy. Users could learn when they deal with AI or AI-generated content and seek human review of decisions with relevant effects. Systems affecting rights, public services or strategic infrastructure need risk management; manipulative, exploitative or harmful systems and mass biometric identification not allowed by law are banned; relevant incidents are reported, and the Secretariat may order audits or suspend systems posing grave risks.",
+  "safety_topics": [
+   "prohibited practices",
+   "human oversight",
+   "transparency & labelling",
+   "incident reporting",
+   "child safety"
+  ],
+  "related": [
+   "MX-01"
+  ],
+  "notes": "Signed at the seat of the Senate on 8 September 2026 by 21 senators of the PAN parliamentary group, addressed to the President of the Senate's Board of Directors and published in the Senate's Gaceta Parlamentaria on 9 September 2026. The law would have 77 articles in 22 chapters; Article Two amends Article 26 and adds Article 38 Ter to the Organic Law of the Federal Public Administration to create the Secretariat. Other provisions cover reinforced protection of children and other vulnerable groups, including Secretariat guidelines against excessive, addictive or manipulative use of AI by minors; security, continuity and incident reporting for AI in essential services and strategic infrastructure; labour transition measures with a temporary unemployment insurance for workers who lose their jobs to automation or AI; data protection; and intellectual property. Transitional articles: the decree would enter into force the day after publication in the Official Gazette (DOF); the Secretariat would start within 90 days, the National System within 90 days of that, the strategy within 90 days of the Secretariat starting and the adoption model within 90 days of the strategy; states would adapt their laws within 180 days. The explanatory statement lists other AI initiatives of the LXVI Legislature, including the Senate AI commission's work on a General Law to Regulate and Promote the Use of AI (April 2026).",
+  "english_version": {
+   "kind": "none found"
+  },
+  "verification": {
+   "note": "Stored: the initiative's full text (90-page PDF with a text layer) from the Secretaría de Gobernación's Legislative Information System (SIL) file server, file name dated 29 September 2026; it gives the title, the 21 PAN signatories, the explanatory statement, the 77 articles, the amendment to the Organic Law of the Federal Public Administration, the transitional articles and the signing date of 8 September 2026. Also stored: the SIL content page for the matter (asunto 5145594), which gives the official name, a summary of its object and the date of publication in the Gaceta Parlamentaria (09/09/2026). No stored copy shows the committee referral or any later stage; the SIL tracking report for the matter was not located, and official_identifier is null because neither page gives a Gaceta or bill number."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C026/2026-10-14/official.pdf",
+    "sha256": "8fa552113cb1ee496eba145f3c4aa92e2edd55df232f186aca5a8518245c3f62",
+    "locator": "page 1, heading",
+    "quote": "INICIATIVA CON PROYECTO DE DECRETO POR EL QUE SE EXPIDE LA LEY GENERAL PARA EL DESARROLLO DE LA INTELIGENCIA ARTIFICIAL Y EL IMPULSO DEL FUTURO DIGITAL, Y SE REFORMAN Y ADICIONAN DIVERSAS DISPOSICIONES DE LA LEY ORGÁNICA DE LA ADMINISTRACIÓN PÚBLICA FEDERAL.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C026/extra-3b213e26cd/2026-10-14/official.html",
+    "sha256": "f230446361ef46df339d709b03336828a7fbafb381eda1cafc379d5a11ae3077",
+    "locator": "SIL content page, Denominación",
+    "quote": "Que expide la Ley General para el Desarrollo de la Inteligencia Artificial y el Impulso del Futuro Digital, y se reforman y adicionan diversas disposiciones de la Ley Orgánica de la Administración Pública Federal.",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C026/2026-10-14/official.pdf",
+    "sha256": "8fa552113cb1ee496eba145f3c4aa92e2edd55df232f186aca5a8518245c3f62",
+    "locator": "page 1, heading",
+    "quote": "INICIATIVA CON PROYECTO DE DECRETO POR EL QUE SE EXPIDE LA LEY GENERAL PARA EL DESARROLLO DE LA INTELIGENCIA ARTIFICIAL Y EL IMPULSO DEL FUTURO DIGITAL, Y SE REFORMAN Y ADICIONAN DIVERSAS DISPOSICIONES DE LA LEY ORGÁNICA DE LA ADMINISTRACIÓN PÚBLICA FEDERAL.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C026/2026-10-14/official.pdf",
+    "sha256": "8fa552113cb1ee496eba145f3c4aa92e2edd55df232f186aca5a8518245c3f62",
+    "locator": "page 1, opening paragraph",
+    "quote": "Senadoras y Senadores de la República, integrantes del Grupo Parlamentario del Partido Acción Nacional en esta LXVI Legislatura del H. Congreso de la Unión",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C026/2026-10-14/official.pdf",
+    "sha256": "8fa552113cb1ee496eba145f3c4aa92e2edd55df232f186aca5a8518245c3f62",
+    "locator": "page 1, opening paragraph",
+    "quote": "Los suscritos Mauricio Vila Dosal, Ricardo Anaya Cortés",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C026/extra-3b213e26cd/2026-10-14/official.html",
+    "sha256": "f230446361ef46df339d709b03336828a7fbafb381eda1cafc379d5a11ae3077",
+    "locator": "SIL content page, Fecha de publicación en Gaceta Parlamentaria",
+    "quote": "Fecha de publicación en Gaceta Parlamentaria: 09/09/2026",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C026/2026-10-14/official.pdf",
+    "sha256": "8fa552113cb1ee496eba145f3c4aa92e2edd55df232f186aca5a8518245c3f62",
+    "locator": "page 1, opening paragraph",
+    "quote": "sometemos a consideración de esta Soberanía la siguiente Iniciativa con proyecto de decreto por el que se expide la Ley General para el Desarrollo de la Inteligencia Artificial y el Impulso del Futuro Digital",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C026/extra-3b213e26cd/2026-10-14/official.html",
+    "sha256": "f230446361ef46df339d709b03336828a7fbafb381eda1cafc379d5a11ae3077",
+    "locator": "SIL content page, Objeto",
+    "quote": "La iniciativa tiene por objeto el Desarrollo de la Inteligencia Artificial y el Impulso del Futuro Digital.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C026/2026-10-14/official.pdf",
+    "sha256": "8fa552113cb1ee496eba145f3c4aa92e2edd55df232f186aca5a8518245c3f62",
+    "locator": "page 81, Artículos transitorios, Primero",
+    "quote": "Primero. El presente Decreto entrará en vigor al día siguiente de su publicación en el Diario Oficial de la Federación.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The stored document is the initiative as submitted to the Senate ('sometemos a consideración de esta Soberanía'), signed on 8 September 2026 and published in the Gaceta Parlamentaria on 9 September 2026; SIL lists it as an initiative. Its decree would enter into force only after publication in the DOF. No stored copy shows a committee report, a vote or publication, so on 14 October 2026 the bill is pending: Draft / proposed, legal force Proposed.",
+  "date_reasoning": "date_published is the date of publication in the Senate's Gaceta Parlamentaria (9 September 2026, SIL content page), the official date the initiative entered the Senate's record, as MX-01 uses its presentation date; the signing date on the document (8 September 2026) is in the notes.",
+  "scope_reasoning": "A pending general AI law in a national legislature, with risk management, prohibited practices, transparency duties, incident reporting and supervisory powers: in scope with no scope_note, although its main thrust is promotion and adoption.",
+  "related_reasoning": "MX-01 is another general AI law initiative pending in the same Senate; neither implements nor amends the other."
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "Initiative for a Federal Law for the Ethical, Sovereign and Inclusive Development of Artificial Intelligence (Ley Federal para el Desarrollo Ético, Soberano e Inclusivo de la Inteligencia Artificial), Dip. Gabriela Georgina Jiménez Godoy and Morena/PVEM deputies, April 2025",
+   "url": null,
+   "note": "Listed in C026's explanatory statement (page 35): Chamber of Deputies initiative with a National AI Council, a National Algorithmic Audit Platform and a risk-classification system."
+  },
+  {
+   "title": "Initiative for a General Law for the Use and Control of Artificial Intelligence in the Public and Private Sectors (Ley General para el Uso y Control de la Inteligencia Artificial en los Sectores Público y Privado), Sen. Juanita Guerra Mena (PVEM)",
+   "url": null,
+   "note": "Listed in C026's explanatory statement (page 36)."
+  },
+  {
+   "title": "Initiative for a General Law on Artificial Intelligence (Ley General de Inteligencia Artificial), Dip. Laura Cristina Márquez Alcalá and PAN deputies, March 2026",
+   "url": null,
+   "note": "Listed in C026's explanatory statement (page 36)."
+  },
+  {
+   "title": "Initiative for a Federal Law Regulating Artificial Intelligence (Ley Federal que Regula la Inteligencia Artificial), Ricardo Monreal Ávila, 2024",
+   "url": null,
+   "note": "Listed in C026's explanatory statement (page 36): risk management, human oversight, synthetic-content transparency and supervision; also several constitutional initiatives to give Congress express powers to legislate on AI (Art. 73)."
+  }
+ ],
+ "open_questions": [
+  "official_identifier is null: no Gaceta or bill number appears in the stored texts; the SIL matter number 5145594 appears only in the page address and the PDF's file name.",
+  "Committee referral and current stage are not in a stored copy; the SIL tracking report (pp_ReporteSeguimiento) for asunto 5145594 was not located."
+ ]
+}

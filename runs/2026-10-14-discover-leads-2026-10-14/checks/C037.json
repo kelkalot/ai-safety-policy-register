@@ -1,0 +1,69 @@
+{
+ "cand_id": "C037",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "jurisdiction": {
+   "verdict": "supported"
+  },
+  "country": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "judgment-differs",
+   "why": "The signing is shown by the stored Governor's release; 'not yet in force' rests on California's general rule that a non-urgency statute takes effect on 1 January after enactment, which no stored source states, and the bill text (urgency clause, operative date) could not be stored. The inference is defensible and matches the treatment of US-CA-08, so the value is kept and date_in_force stays null."
+  },
+  "date_in_force": {
+   "verdict": "supported",
+   "why": "null is correct for the act as a whole; the higher-education act's 1 Jul 2027 start is in the notes."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Bars operators from using covered pupil information, including persistent unique identifiers, to train or develop AI systems unless for school purposes and for the benefit of school and teacher, pupil or parent",
+   "verdict": "supported",
+   "locator": "Senate Education analysis, page 4, item 1"
+  },
+  {
+   "claim": "New Higher Education Student Information Protection Act from 1 Jul 2027 barring targeted advertising, sale of data, AI training and collection of immigration status",
+   "verdict": "supported",
+   "locator": "analysis page 4, item 3a-b; summary"
+  },
+  {
+   "claim": "Private right of action; covered information widened",
+   "verdict": "supported",
+   "locator": "analysis page 5, items 4-5"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Mainly a student privacy law; the existing scope_note on the AI-training restriction is adequate."
+ },
+ "overall": "accept",
+ "note": "Signing on 10 Sep 2026 is shown by the Governor's release. Summary and notes follow the version of 16 Jan 2026 analysed by the Senate Education Committee; later amendments are unseen, as the record says. A California Lawyers Association chart (search result, not stored) lists the bill as signed and HESIPA as operative 1 Jul 2027, consistent with the record. No duplicate."
+}

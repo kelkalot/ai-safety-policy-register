@@ -1,0 +1,120 @@
+{
+ "cand_id": "C037",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Student Personal Information (AB 1159)",
+  "original_title": null,
+  "short_title": "California AB 1159 (student data and AI training)",
+  "jurisdiction": "California (US)",
+  "country": "United States",
+  "jurisdiction_level": "Sub-national",
+  "region": "North America",
+  "issuing_body": "California State Legislature; signed by Governor Gavin Newsom",
+  "instrument_type": "Law",
+  "legal_force": "Binding",
+  "status": "Adopted, not yet in force",
+  "date_published": "2026-09-10",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": "California Assembly Bill 1159 (2025-2026 Regular Session)",
+  "official_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1159",
+  "secondary_url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+  "language": "English",
+  "summary": "Student privacy law with rules on AI. It amends the K-12 Pupil Online Personal Information Protection Act and the Early Learning Personal Information Protection Act to bar education technology operators from using covered pupil information, including persistent unique identifiers, to train or develop AI systems unless the use serves school purposes and benefits the school and the teacher, pupil or parent. A new Higher Education Student Information Protection Act bars operators serving postsecondary students from targeted advertising, selling student data, using covered information to train or develop AI systems, and collecting sensitive data such as immigration status.",
+  "safety_topics": [
+   "child safety",
+   "accountability & liability"
+  ],
+  "related": [],
+  "notes": "Signed on 10 Sep 2026 in a 13-bill child online-safety package that also included SB 1119 (US-CA-08), SB 867 and SB 1276. The higher-education act is to operate from 1 Jul 2027. The law also widens 'covered information' (adding biometric or behavioural information, device identifiers, search activity, photographs and voice recordings), extends the K-12 and early-learning acts to entities acting for an operator, and creates a private right of action for specified violations.",
+  "scope_note": "Mainly a student privacy law extending California's K-12 and early-learning protections to higher education. Included because it restricts the use of student data to train or develop AI systems, a rule about AI rather than general data protection.",
+  "verification": {
+   "note": "Stored the Governor's release of 10 Sep 2026 (gov.ca.gov), which lists 'AB 1159 by Assemblymember Dawn Addis (D-Morro Bay) – Student personal information' among the bills signed that day and says the package 'regulates the use of K-12 pupil data in AI systems', and the Senate Committee on Education agenda of 10 Jun 2026 (senate.ca.gov), whose analysis of the version of 16 Jan 2026 is the source for the summary and notes. Amendments made after that version cannot be seen. The leginfo.legislature.ca.gov bill page and bill text could not be stored (HTTP 403, browser retry timed out, twice), so the chaptered text, the chapter number and the operative dates are unconfirmed. The status follows California's general rule that a non-urgency statute takes effect on 1 January after enactment, which is not in a stored source."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C037/extra-7762cb8691/2026-10-14/official.html",
+    "sha256": "17c333b0cdf5424ead1fd5a7bb6449ac9a2683d4a8eaf72f5225aa764e2afac6",
+    "locator": "list 'New legislation to keep kids safe online'",
+    "quote": "AB 1159 by Assemblymember Dawn Addis (D-Morro Bay) – Student personal information.",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C037/extra-d87188d6ca/2026-10-14/official.pdf",
+    "sha256": "d33f94b476ac9c3efc8b4b229d6125f6f0aa109684889fcf6173b8a336f5cf94",
+    "locator": "page 3, analysis heading",
+    "quote": "2025 - 2026 Regular Bill No: AB 1159 Hearing Date: June 10, 2026",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C037/extra-7762cb8691/2026-10-14/official.html",
+    "sha256": "17c333b0cdf5424ead1fd5a7bb6449ac9a2683d4a8eaf72f5225aa764e2afac6",
+    "locator": "release body",
+    "quote": "With the Governor’s signature on these bills, California is taking the lead, with the strongest bills regulating chatbots and social media nationwide.",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C037/extra-7762cb8691/2026-10-14/official.html",
+    "sha256": "17c333b0cdf5424ead1fd5a7bb6449ac9a2683d4a8eaf72f5225aa764e2afac6",
+    "locator": "release date and headline",
+    "quote": "Sep 10, 2026 Governor Newsom signs the strongest child safety chatbot and social media laws in the nation",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C037/extra-7762cb8691/2026-10-14/official.html",
+    "sha256": "17c333b0cdf5424ead1fd5a7bb6449ac9a2683d4a8eaf72f5225aa764e2afac6",
+    "locator": "release body, first paragraph",
+    "quote": "Today, Governor Gavin Newsom, joined by First Partner Jennifer Siebel Newsom, and legislators signed landmark bipartisan legislation strengthening California’s nation-leading protections for children online",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C037/extra-7762cb8691/2026-10-14/official.html",
+    "sha256": "17c333b0cdf5424ead1fd5a7bb6449ac9a2683d4a8eaf72f5225aa764e2afac6",
+    "locator": "list 'New legislation to keep kids safe online'",
+    "quote": "AB 1159 by Assemblymember Dawn Addis (D-Morro Bay) – Student personal information.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C037/extra-7762cb8691/2026-10-14/official.html",
+    "sha256": "17c333b0cdf5424ead1fd5a7bb6449ac9a2683d4a8eaf72f5225aa764e2afac6",
+    "locator": "list 'Today’s bills will help protect children by'",
+    "quote": "Strongest privacy protections for kids — Protects kids from targeted advertising and regulates the use of K-12 pupil data in AI systems.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-leads-2026-10-14/C037/extra-d87188d6ca/2026-10-14/official.pdf",
+    "sha256": "d33f94b476ac9c3efc8b4b229d6125f6f0aa109684889fcf6173b8a336f5cf94",
+    "locator": "page 6, ANALYSIS, item 1",
+    "quote": "Expands the scope of KOPIPA to regulat e the use of pupil data in AI systems by prohibiting operators from using covered information, including persistent unique identifiers, to train or develop AI systems",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Latest event: signed by the Governor on 10 Sep 2026 (Governor's release dated 'Sep 10, 2026', listing AB 1159 among the bills signed 'Today'). The Senate Education analysis gives an operative date of 1 Jul 2027 for the new higher-education act; no stored source gives an urgency clause or an earlier operative date for the K-12 and early-learning changes. Under California's general rule for non-urgency statutes (not stored), those take effect on 1 Jan 2027, after today (14 Oct 2026). Status 'Adopted, not yet in force' with date_in_force null, as for US-CA-08 in the same package.",
+  "scope_reasoning": "Borderline, included with the scope_note. AGENTS.md section 10 keeps general privacy laws out, but this law has AI-specific rules: the Senate Education analysis describes prohibitions on operators using covered information 'to train or develop AI systems' in the K-12, early-learning and new higher-education acts, and the Governor's release presents it as regulating 'the use of K-12 pupil data in AI systems'.",
+  "topics_reasoning": "child safety: protections for pupils, including preschool and K-12; accountability & liability: a private right of action for violations. The vocabulary has no privacy or data-governance topic.",
+  "title_reasoning": "The title renders the subject given in the Governor's release ('Student personal information'). The author's statement in the analysis calls it 'the CA Learner Personal Information Protection Act', but that name is not used in the release, so it is not in the title."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The summary follows the version of 16 Jan 2026 analysed by the Senate Education Committee; later amendments need the chaptered text on leginfo, which could not be stored.",
+  "Chapter number and operative dates are unconfirmed; date_in_force stays null (1 Jul 2027 is recorded in the notes for the higher-education act)."
+ ]
+}

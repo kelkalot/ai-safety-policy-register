@@ -1,0 +1,53 @@
+{
+ "cand_id": "C003",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "graded protection into five levels low to especially major security risk",
+   "verdict": "supported",
+   "locator": "7.x grading clause"
+  },
+  {
+   "claim": "encourages unconditional humanitarian relief arrangements for major personal-injury accidents",
+   "verdict": "supported",
+   "locator": "section on responsibility, 7.x e)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "AI-specific technical standard or practice guide of TC260 (a standards body under SAC/CAC); in scope per the supervisors and standards bodies rule and the CN-06/CN-10 precedents."
+ },
+ "overall": "accept",
+ "note": "Published 15 Sept 2026 with notice 118; all quotes match. No duplicate in data/records.json; one targeted search found no newer official version. All evidence quotes pass the script and say what the fields say. C004, C005, C006 and C009 are sibling TC260 records in this run (C003's normative references list TC260-PG-202515A)."
+}

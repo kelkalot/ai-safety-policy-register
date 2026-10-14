@@ -1,0 +1,53 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "C013",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Both Japanese covers carry 2026年3月1日 (Version 1.00); the list page dates the release 2026年3月17日. The cover date follows the convention used for C012 and C016; the release date is in notes. A human may prefer 17 March."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "CAIO authority to halt deployment (停止・差し止め) for high-impact cases",
+   "verdict": "supported",
+   "locator": "guidebook, 否認権 (停止・差し止め) section"
+  },
+  {
+   "claim": "national administrative organs must set up a CAIO under the guideline pursuant to AI Act Art. 13 and the Digital Agency guideline; ISO/IEC 42001 as an option",
+   "verdict": "supported",
+   "locator": "guidebook 1. はじめに, and the certification passage"
+  },
+  {
+   "claim": "drafts of both posted 5 Feb 2026; release 17 Mar 2026",
+   "verdict": "supported",
+   "locator": "Information outputs list; Framework outputs list"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Government AI-governance and risk-management guidance (AI risk structures, escalation, halt authority, incident response)."
+ },
+ "overall": "accept",
+ "note": "Title, original title, issuer, non-binding character and the summary claims are supported by the Japanese originals and the release page. The release page itself carries no date; the 17 March date is from the Framework outputs list. One targeted web search found no newer version."
+}

@@ -1,0 +1,50 @@
+{
+ "cand_id": "C001",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "15 activities and 39 process areas (ASMM)",
+   "verdict": "supported",
+   "locator": "p.12-13 section 5.4"
+  },
+  {
+   "claim": "assessment by organisational self-assessment or third party; five levels from informal execution to continuous optimisation",
+   "verdict": "supported",
+   "locator": "sections 5.3 and 9.1"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "AI-specific technical standard or practice guide of TC260 (a standards body under SAC/CAC); in scope per the supervisors and standards bodies rule and the CN-06/CN-10 precedents."
+ },
+ "overall": "accept",
+ "note": "Draft national standard, comment period 26 Aug to 25 Oct 2026, still open today. date_published is the start of the comment period per TC260's consultation record (the PDF was posted 28 Aug). No newer version found. No duplicate in data/records.json; one targeted search found no newer official version. All evidence quotes pass the script and say what the fields say. "
+}

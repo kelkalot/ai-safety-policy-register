@@ -1,0 +1,59 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "C016",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "scope: LLM-based Non-SaMD products by AI providers (literal: 学習済みの大規模言語モデルを活用してヘルスケア領域のNon-SaMDプロダクトを開発・提供するAI提供者)",
+   "verdict": "supported",
+   "locator": "Japanese guide 1.2 本ガイドのスコープ"
+  },
+  {
+   "claim": "ten evaluation perspectives and five lifecycle phases",
+   "verdict": "supported",
+   "locator": "release page; guide section 4 (5 つのフェーズ)"
+  },
+  {
+   "claim": "risk that Non-SaMD products are used as de facto medical devices (事実上 SaMD として機能するリスク)",
+   "verdict": "supported",
+   "locator": "Japanese guide, 1.1 and risk section"
+  },
+  {
+   "claim": "living document updated as generative AI and regulation evolve",
+   "verdict": "supported",
+   "locator": "1.1 リビングドキュメント"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "JP-02"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": "Sector-specific AI safety evaluation guide by a government AI safety institute working group."
+ },
+ "overall": "accept",
+ "note": "original_title matches the release page character by character (no spaces; the PDF cover shows extraction spaces only). Cover date 3 April 2026 is used, listing date 2 April is in notes. One targeted web search found no newer version."
+}
