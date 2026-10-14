@@ -15,10 +15,12 @@
       "Bash(git add *)",
       "Bash(git commit *)"
     ],
-    "deny": [
+    "ask": [
       "Bash(git push)",
       "Bash(git push *)",
-      "Bash(python3 tools/publish_hf.py *)",
+      "Bash(python3 tools/publish_hf.py *)"
+    ],
+    "deny": [
       "Bash(python3 tools/package.py *)",
       "Bash(python3 tools/archive.py *--ignore-robots*)",
       "Bash(python3 tools/archive.py *--allow-private-hosts*)"

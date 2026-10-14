@@ -51,7 +51,7 @@ If a tool fails or seems to be missing, an agent stops and says so; it does not 
 | `tools/validate.py`, `tools/build.py` | schema and vocabulary checks; `build.py` runs them, then regenerates every derived file |
 | `tools/archive.py` | downloads, hashes and flags sources; `--verify` re-hashes every stored file; `--run` stores a run's sources (public sites only) |
 | `tools/merge.py` | merges a pass into `records.json` with checks and writes the history |
-| `tools/package.py`, `tools/publish_hf.py` | the shareable zip, and the Hugging Face dataset, archive and Space; human steps only (section 8) |
+| `tools/package.py`, `tools/publish_hf.py` | the shareable zip, and the Hugging Face dataset, archive and Space; never run by a pipeline agent, and a release only with a human's confirmation (section 8) |
 | `index.html`, `assets/` | the web app; `assets/site-config.js` says where it is hosted |
 | `examples/analysis.py`, `docs/` | an example analysis from the SQLite file; the quality-check reports |
 
@@ -78,7 +78,7 @@ python3 tools/build.py                               # validate and regenerate d
 python3 tools/archive.py --verify                    # re-hash every stored file; flags missing or changed copies
 ```
 
-Human steps, never run by an agent: `python3 tools/package.py` (the zip in `dist/`) and `python3 tools/publish_hf.py --push` (Hugging Face; README section 9).
+Not part of a pipeline run: `python3 tools/package.py` (the zip in `dist/`, human only) and `python3 tools/publish_hf.py --release` (Hugging Face; README section 9), which an agent may run only when a maintainer asks and confirms it.
 
 Scopes: a discover run selects frame cells with `codes:FI,SE`, `region:Europe`, `level:Sub-national`, `types:legislature,gazette`, `due` and `all`, combined with spaces (quote values with spaces: `region:"Sub-Saharan Africa"`). A refresh or recheck run selects records with `ids:EU-03,US-09`, `codes:`, `region:`, `level:` or `all`; a refresh run without a scope takes the top of the queue.
 
@@ -258,7 +258,7 @@ codex     # Codex: reads AGENTS.md, .agents/skills/, .codex/agents/, and .codex/
 
 A fresh clone has no `archive/`, because the stored documents are not in git. Before a refresh or recheck run, run `python3 tools/archive.py --browser` once to store current copies, or download the earlier copies from the archive dataset on Hugging Face (`kelkalot/every-ai-policy-ever-archive`, free account needed) if you want to compare against the published snapshot.
 
-The repository carries the settings. `.claude/settings.json` lets Claude Code search, fetch, run the pipeline's own tools (`pipeline.py`, `archive.py`, `merge.py`, `build.py`, `validate.py`, `history.py`) and commit on a branch without asking each time. It denies `git push`, `publish_hf.py` and `package.py`, and `archive.py` with `--ignore-robots` or `--allow-private-hosts`; any other command still asks. `.codex/config.toml` sets Codex's web search to live (its default is a cached index) and allows network access in its sandbox, because the archiver downloads from government sites. In a pipeline run the archiver fetches only public addresses, so a page that misleads an agent cannot make it read your machine or local network.
+The repository carries the settings. `.claude/settings.json` lets Claude Code search, fetch, run the pipeline's own tools (`pipeline.py`, `archive.py`, `merge.py`, `build.py`, `validate.py`, `history.py`) and commit on a branch without asking each time. It asks for confirmation before every `git push` and every `publish_hf.py` command, so nothing reaches GitHub or Hugging Face without a person's OK, and it denies `package.py` and `archive.py` with `--ignore-robots` or `--allow-private-hosts`; any other command still asks. `.codex/config.toml` sets Codex's web search to live (its default is a cached index) and allows network access in its sandbox, because the archiver downloads from government sites. In a pipeline run the archiver fetches only public addresses, so a page that misleads an agent cannot make it read your machine or local network.
 
 The same skills exist in both tools; each is a pointer to a file in `pipeline/roles/`, so both tools follow the same text.
 
