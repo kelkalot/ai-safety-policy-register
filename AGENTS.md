@@ -89,7 +89,7 @@ Python 3.8 or later and the standard library are enough for the core; `pypdf` re
 6. **Keep the controlled vocabularies** in `tools/validate.py`. A new topic or status value is added there and in the app's field reference in the same commit, never ad hoc.
 7. **Never delete a record.** An instrument that is withdrawn, replaced or expired keeps its record with status `Revoked / withdrawn`, `Superseded` or `Lapsed` and a note saying what happened.
 8. **Never contact anyone.** No e-mail, no web forms, no identification strings in requests beyond the archiver's own user agent. The archiver respects `robots.txt`; do not work around site blocks other than the documented `--browser` retry.
-9. **No scope creep.** Scope is section 10. Borderline cases are decided against `pipeline/scope-decisions.md`; a case it does not cover goes to the human as `needs-human`.
+9. **Inclusive scope, flagged.** Scope is section 10. A borderline instrument is included with a `scope_note` saying why, not left out and not sent to a human; `pipeline/scope-decisions.md` keeps the precedents. Only the clear exclusions in section 10 stay out.
 10. **Commit on a branch, never push.** A run ends with one commit on the branch `run/<run-id>` containing the run folder and the merged data. The human reviews, merges and publishes.
 
 ## 5. The pipeline
@@ -180,6 +180,7 @@ Then a checker agent in a fresh context, ideally another model or tool than the 
 | `safety_topics` | 2 to 6 values from the topic list in `tools/validate.py` |
 | `related` | IDs of existing records; an AI Act implementing law relates to `EU-03` |
 | `notes` | status details, phased dates, discrepancies between sources, later instruments; plain prose about the instrument |
+| `scope_note` | absent for an instrument clearly in scope; for a borderline one, one or two sentences on why it is borderline and why it is included. The app shows it as a badge and a Scope filter |
 | `verification.note` | what was stored and what it confirmed, and everything that rests on secondary sources or could not be confirmed |
 
 ## 6. Refresh runs and the update loop
@@ -203,7 +204,7 @@ Records named in an issue go into a refresh run by ID (`--scope "ids:..."`). A r
 
 ### 7.2 Scope precedents
 
-`pipeline/scope-decisions.md` records every borderline decision as a short case: instrument, decision, reason, who decided, date. Extractors and checkers apply the precedents; a human adds new ones from the `needs-human` items of each run.
+`pipeline/scope-decisions.md` records the general rules and every borderline decision as a short case: instrument, decision, reason, who decided, date. Extractors and checkers apply them; borderline records carry a `scope_note`, and a human adds a new case when a run raises a question the rules do not settle.
 
 ### 7.3 Checker independence
 
@@ -253,9 +254,13 @@ Git keeps every version of `data/records.json`, but a diff of one large JSON fil
 
 ## 10. Scope
 
-In: AI-specific laws and implementing regulations, including major sub-national ones; executive orders, decrees and cabinet decisions; government safety and risk-management frameworks, guidelines, voluntary codes and technical standards; founding mandates of AI safety or security institutes; national AI strategies only where they contain substantial safety or risk-governance content; intergovernmental declarations, treaties, resolutions and government-commissioned scientific reports; major pending bills; revoked or superseded instruments kept for context.
+The register is inclusive: it includes borderline instruments and flags them with a `scope_note`, instead of leaving them out.
 
-Out: R&D or industrial strategies without safety content, general privacy laws, minor sectoral circulars, documents by companies, think tanks or the press. For cases in between, see `pipeline/scope-decisions.md`.
+In, with no note: AI-specific laws and implementing regulations, including sub-national ones; executive orders, decrees and cabinet decisions on AI; government safety and risk-management frameworks, guidelines, voluntary codes and technical standards; mandates of AI safety, security and supervisory bodies; national AI strategies whose main content is safety or risk governance; intergovernmental declarations, treaties, resolutions and government-commissioned scientific reports; pending bills; revoked, vetoed or superseded instruments kept for context.
+
+In, with a `scope_note`: strategies and action plans with some safety or risk-governance content but a different main focus; laws that are not AI-specific but are the operative instrument for an AI-safety question (liability, deepfakes, ethics review); company commitments that governments brokered and published; instruments with "AI" in the title whose content is mainly about something else; private members' bills with little chance of passing.
+
+Out: documents by companies, think tanks or the press; general privacy, data or cybersecurity laws; strategies with no safety content; minor sectoral circulars. `pipeline/scope-decisions.md` holds the precedents. A record already in the register is never deleted; how to mark one later judged out is an open question in that file.
 
 ## 11. Citing the register
 

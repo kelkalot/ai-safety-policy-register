@@ -317,6 +317,7 @@ df.groupby(["region", "legal_force"]).size().unstack(fill_value=0)
 | `official_url`, `secondary_url` | The official source and, where useful, a second authoritative source |
 | `language` | Language(s) of the official text |
 | `summary`, `notes` | What the instrument does, with its safety content; status details, phased dates and discrepancies between sources |
+| `scope_note` | Empty for an instrument clearly in scope; for a borderline one, why it is included. The register is inclusive and flags such cases instead of leaving them out |
 | `safety_topics` | List of topics from a fixed vocabulary of 17, e.g. `general-purpose / frontier AI`, `incident reporting`, `child safety` |
 | `related_ids` | IDs of related records |
 | `verification_level`, `verified_on`, `verification_method`, `verification_note`, `second_check` | How and when the record was checked, and what rests on secondary sources |

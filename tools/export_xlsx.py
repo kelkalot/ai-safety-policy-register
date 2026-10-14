@@ -36,6 +36,7 @@ GLOSSARY = [
     ("official_url / secondary_url", "Primary official source and, where useful, a second authoritative source."),
     ("language", "Language(s) of the official text."),
     ("summary / notes", "What the instrument does; status notes, phased dates and caveats."),
+    ("scope_note", "Empty for an instrument clearly in scope. Text for a borderline one: why it is included although it is not a core AI safety or regulation instrument."),
     ("safety_topics", "Topics, separated by '; ' (one row per topic on the Topics sheet)."),
     ("related_ids", "IDs of related records, separated by '; ' (one row per link on the Related sheet)."),
     ("verification_level", "A: confirmed on the official page. B: confirmed on an alternative official page. C: not confirmed on an official page; re-check before citing."),

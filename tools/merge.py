@@ -40,7 +40,7 @@ import validate  # noqa: E402
 FIELDS = ["id", "slug", "title", "original_title", "short_title", "jurisdiction", "country", "jurisdiction_level", "region",
           "issuing_body", "instrument_type", "legal_force", "status", "date_published", "date_in_force", "date_last_updated",
           "official_identifier", "official_url", "secondary_url", "language", "summary", "safety_topics", "related", "notes",
-          "verification"]
+          "scope_note", "verification"]
 UPDATABLE = set(FIELDS) - {"id"}
 
 

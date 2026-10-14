@@ -75,7 +75,7 @@ METHOD_TOKENS = {"A": "official-url-fetched", "B": "alternative-official-url-fet
 RECORD_FIELDS = ["id", "slug", "title", "original_title", "short_title", "jurisdiction", "country", "jurisdiction_level",
                  "region", "issuing_body", "instrument_type", "legal_force", "status", "date_published", "date_in_force",
                  "date_last_updated", "official_identifier", "official_url", "secondary_url", "language", "summary",
-                 "safety_topics", "related", "notes", "verification"]
+                 "safety_topics", "related", "notes", "scope_note", "verification"]
 SET_BY_SCRIPT = {"id", "slug"}
 IN_FORCE = {"In force", "Partially in force"}
 ENDED = {"Superseded", "Revoked / withdrawn", "Lapsed"}
@@ -1010,7 +1010,7 @@ def record_problems(rec, db, update=False):
             bad = [x for x in t if x not in validate.TOPICS]
             if bad:
                 errors.append("topics not in the vocabulary: %s" % ", ".join(bad))
-    for k in ("summary", "notes"):
+    for k in ("summary", "notes", "scope_note"):
         txt = rec.get(k) or ""
         hits = [m.group(0) for pat in PROCESS_PATTERNS for m in [re.search(pat, txt, re.I)] if m]
         if hits:
@@ -1394,6 +1394,12 @@ def cmd_assemble(args):
         missing = [k for k in dict.fromkeys(need) if (verdicts.get(k) or {}).get("verdict") not in VERDICTS]
         if missing:
             blockers.append("the checker gave no verdict for %s" % ", ".join(missing))
+        scope = ch.get("scope") or {}
+        if scope.get("assessment") == "out":
+            blockers.append("the checker judges it out of scope: %s" % (scope.get("note") or "no reason given"))
+        elif scope.get("assessment") == "borderline" and scope.get("note") and not rec.get("scope_note"):
+            rec["scope_note"] = scope["note"]  # the checker flags a borderline case the extractor did not
+            applied.append("scope_note")
         new_summary = (ex.get("record") or {}).get("summary") is not None
         if new_summary and not [x for x in ch.get("summary_claims") or [] if x.get("verdict") in VERDICTS]:
             blockers.append("the checker checked no claim of the summary")

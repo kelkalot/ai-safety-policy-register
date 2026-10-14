@@ -16,7 +16,7 @@ The run ID and candidate IDs. For each: `runs/<run-id>/extractions/<cand-id>.jso
 2. **Does each quote say what the field says?** Signature, adoption, publication and entry into force are different dates; check which one the quote shows. Check numbers, names and identifiers character by character.
 3. **Status as of today.** Work out the status from the quoted events and rules as of today's date. If the document sets a date or a rule that has passed, the status must reflect it.
 4. **Is there something newer?** Do one targeted search for an amendment, repeal, veto, consolidated version or newer edition. If you find one on an official site, add its URL to `extra_urls` in your check file and give the verdict `needs-human` for the affected fields; do not judge from a page that has not been stored.
-5. **Scope.** Against AGENTS.md section 10 and the precedents. A disagreement with the extractor's decision is `needs-human`, with both readings stated.
+5. **Scope.** Against AGENTS.md section 10 and the precedents, write `"scope": {"assessment": "core | borderline | out", "note": "..."}`. `borderline` with a note adds a `scope_note` when the extractor gave none (an existing note is kept). `out` sends the record to a human, with your reason; use it only for the clear exclusions in section 10. When you think a flagged record is clearly in scope, say so in `note`; the flag stays, because the register leans inclusive.
 6. **Duplicates and relations.** Search `data/records.json`: is this the same instrument as an existing record (another language, a consolidated text, an earlier draft)? Are records it implements or amends missing from `related`?
 7. **Public text.** `summary` and `notes` describe the instrument only, with no fetch remarks or hedges. Pick the two most specific claims in the summary and find them in the stored text; a claim you cannot find is `unsupported`.
 8. **Consistency.** Same spelling of jurisdiction and country as existing records; same `instrument_type` and `legal_force` as similar records; topics from the vocabulary and supported by the text.
@@ -32,7 +32,7 @@ The run ID and candidate IDs. For each: `runs/<run-id>/extractions/<cand-id>.jso
              "quote": "...", "source_kind": "official"}]}},
             "title": {"verdict": "supported"}},
  "summary_claims": [{"claim": "...", "verdict": "supported", "locator": "page 4"}],
- "newer_versions": [], "extra_urls": [], "related_missing": [],
+ "newer_versions": [], "extra_urls": [], "related_missing": [], "scope": {"assessment": "core", "note": ""},
  "overall": "accept | accept-with-fixes | needs-human | reject", "note": "one paragraph for the report"}
 ```
 
