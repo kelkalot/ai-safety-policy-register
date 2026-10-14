@@ -22,6 +22,8 @@ The run ID and candidate IDs. For each: `runs/<run-id>/extractions/<cand-id>.jso
 8. **Translation**, when the official text is not in English. Check `original_title` character by character against the stored original. Check that an English title presented as official comes from the issuer's English text or a government translation, and that a rendered title is accurate. Check the summary claims against the original-language text, not against a translation, and give your own literal translation of the passage. Check that defined legal terms are rendered literally or as a government translation renders them. Check `english_version`: its kind, and that its `url` is a stored source.
 9. **Consistency.** Same spelling of jurisdiction and country as existing records; same `instrument_type` and `legal_force` as similar records; topics from the vocabulary and supported by the text.
 
+**Keep needs-human for what only a human can settle**: official sources that contradict each other, a scope question the precedents do not settle, a newer version you found on an official site, or a value the record changes that you cannot support or fix. A record that rests only on secondary sources is not needs-human for that reason: its level shows it. When an official source gives only the month of a date and a secondary source the day, propose `YYYY-MM` as a fix and leave the day to the notes. A problem with a value the run does not change does not hold back the run's other corrections: `assemble` merges them and opens a question for the rest.
+
 ## Output
 
 `runs/<run-id>/checks/<cand-id>.json`:

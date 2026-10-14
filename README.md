@@ -188,6 +188,20 @@ The scope, the verification levels (A, B, C), the records to re-check first and 
 - The register does not translate instruments. About a third of the records rest on a text that is not in English; their summaries were written in English by an AI agent from the original, and their English titles are the agent's renderings unless the record's `english_version` names an English text of the issuer or a government translation. For point-by-point work use the original or that translation. A translation check of 58 such records (`docs/translation-check-2026-10-14.md`) found the titles accurate, 73 percent of specific summary claims accurate and 10 percent overstated, understated or mistranslated, and six records with an error that changes the legal meaning, which are being corrected.
 - Record status reflects the research snapshot of 11 and 12 October 2026. The archiver detects changes to the source pages, but it does not re-interpret legal status. Update `status` and the date fields in `records.json` when a law's status changes.
 
+## 6a. Questions and decisions
+
+The pipeline does not wait for people. What only a person can settle (contradicting official sources, scope, whether a site is official, a possible amendment, a run's human sample) becomes a GitHub issue with the label `question`, opened by `python3 tools/pipeline.py questions --sync` at the end of each run. Until it is decided, the record keeps its last checked values and shows an "Open question" badge; releases go ahead.
+
+To decide, a maintainer comments once on the issue:
+
+| Question | Comment |
+|---|---|
+| a record | `decide: keep`, `decide: accept`, `decide: set <field> = <value>` plus `source: <URL>`, or `decide: in` / `decide: out` with a reason |
+| a host | `decide: official` (optionally `operator: <who runs it>`) or `decide: not official` |
+| a human sample | one line per record: `ok <ID> <note>` or `problem <ID> <note>` |
+
+The next run applies the decisions (`python3 tools/pipeline.py questions --apply`), records each in `data/history.jsonl` with the issue link, and closes the issue. AGENTS.md section 7.7 has the details.
+
 ## 7. Share it as one file
 
 ```bash

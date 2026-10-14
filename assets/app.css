@@ -311,3 +311,5 @@ code { font-family: var(--font-mono); font-size: .92em; }
 /* borderline scope flag (records.json scope_note) */
 .scope-flag { display: inline-block; margin-top: 4px; padding: 1px 7px; font-size: 11.5px; font-weight: 600; color: var(--ink-2); border: 1px dashed var(--line); border-radius: var(--r); white-space: nowrap; }
 .sec .scope-flag { margin: 0 6px 0 0; }
+.q-flag { margin-left: 4px; border-style: solid; border-color: var(--warn, #b7791f); color: var(--warn, #b7791f); }
+.sec .muted { color: var(--ink-3); font-size: 13px; }

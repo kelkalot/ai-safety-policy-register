@@ -24,7 +24,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 HISTORY = ROOT / "data" / "history.jsonl"
-EVENTS = ["added", "changed", "re-verified", "source-changed", "human-checked", "scope-decision"]
+EVENTS = ["added", "changed", "re-verified", "source-changed", "human-checked", "scope-decision", "human-decision"]
 KEYS = ["date", "run_id", "record_id", "event", "field", "old", "new", "reason", "evidence", "tool", "model"]
 
 
@@ -105,6 +105,8 @@ def describe(e):
         return "checked by a human: %s" % short(e.get("new"), 70)
     if k == "scope-decision":
         return "scope decision: %s" % short(e.get("new"), 70)
+    if k == "human-decision":
+        return "decided by a human: %s" % short(e.get("new"), 70)
     if k == "source-changed":
         return "source changed: %s" % short(e.get("field") or e.get("new"), 70)
     return k

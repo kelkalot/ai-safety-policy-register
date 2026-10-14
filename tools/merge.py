@@ -142,6 +142,8 @@ def main(argv=None):
                 rec[k] = v
         if before.get("official_url") != rec.get("official_url") or before.get("secondary_url") != rec.get("secondary_url"):
             rec["local_copy"] = None  # the archiver will fetch the new URLs
+        if all(before.get(k) == rec.get(k) for k in FIELDS):
+            continue  # nothing differs, not even the verification block: a repeated merge, not a re-verification
         updated.append(rid)
 
     TOKENS = {"A": "official-url-fetched", "B": "alternative-official-url-fetched", "C": "search-confirmed"}

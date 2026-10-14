@@ -257,6 +257,7 @@ Despite the name, it is not every AI policy: scope is limited to official instru
 - **Browse it:** [{pretty} on Spaces]({space}), with search, filters, a chart, record pages and citations.
 - **Source documents:** [{ns}/{name}-archive]({archive}), the stored copies of the official sources with SHA-256 hashes. Open to anyone with a free Hugging Face account.
 - **Snapshot:** {snapshot}, data version {version}. Statuses are as of the snapshot.
+- **Open questions:** {n_open_questions} records have a question only a maintainer can settle; each is an [issue on GitHub]({github}/issues?q=is%3Aissue+is%3Aopen+label%3Aquestion), and the `open_questions` column links it. Until it is decided, the record keeps its last checked values.
 {changes_md}
 ## How it was made
 
@@ -475,6 +476,7 @@ def build_all(out, ns, name, github_url, changes_md=""):
     st["n_topics"], st["n_related"] = len(topics), len(related)
     st["changes_md"] = changes_md
     st["n_history"] = len(history.load())
+    st["n_open_questions"] = len(build.open_questions())
     if out.exists():
         shutil.rmtree(out)
     ds, ar, sp = out / "dataset", out / "archive", out / "space"

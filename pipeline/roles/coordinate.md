@@ -10,6 +10,7 @@ Read AGENTS.md first; it is the contract. If a script fails, stop at that step a
 
 ## Steps
 
+0. **Apply decisions.** `python3 tools/pipeline.py questions --apply` reads the maintainers' decisions in the open question issues and applies them (AGENTS.md section 7.7). Commit nothing yet; the changes go into the run's commit.
 1. **Create the run.** `python3 tools/pipeline.py new --type <type> --scope "<scope>" --tool "<Claude Code or Codex>" --model <the model you run as>`. It prints the run ID on its last line. For a refresh run without a scope, it takes the top of `pipeline.py queue`. Before each stage, record who runs it: `python3 tools/pipeline.py stage --run <run-id> --stage collect|extract|blind|check --tool ... --model ...`.
 2. **Collect** (discover only). `run.json` lists the groups of frame cells, about 10 jurisdictions each. Start one collector per group, as parallel subagents where your tool has them. Each collector gets the run ID and its group name and follows `pipeline/roles/collect.md`. Wait for all of them. Refresh and recheck runs skip steps 2 and 3.
 3. **Deduplicate.** `python3 tools/pipeline.py dedupe --run <run-id>` merges the groups' candidates, drops duplicates within the run, numbers the rest `C001`, `C002`, ..., and records the searches in `pipeline/frame.json`. It warns about cells with no search-log line; send those back to their collector. Candidates that match an existing record are not extracted; they are listed in the report. If the collector noted something new about that record (an amendment, a new version, a status change), the script adds the record to the refresh queue instead.
@@ -19,12 +20,12 @@ Read AGENTS.md first; it is the contract. If a script fails, stop at that step a
 7. **Blind sample.** `python3 tools/pipeline.py sample --run <run-id>`. Start a fresh extractor for the sampled candidates with the instruction to write into `extractions-blind/` and not to open `extractions/`. Then `python3 tools/pipeline.py compare --run <run-id>`.
 8. **Check.** Start the `checker` subagent (or ask the human to run the check skill in the other tool, if they asked for a cross-tool check; then stop and wait). Give it only the run ID and the candidate IDs, never a summary of what the extractors found.
 9. **Assemble and merge.** `python3 tools/pipeline.py assemble --run <run-id>`, then `python3 tools/merge.py runs/<run-id>/pass.json --dry-run`. Fix nothing by hand: a problem the dry run reports goes back to the stage that caused it, or stays as `needs-human`. Then merge without `--dry-run` and run `python3 tools/build.py`.
-10. **Report and commit.** `python3 tools/pipeline.py report --run <run-id>`, then `python3 tools/pipeline.py frame --report`. Read the report; replace the comment at its top with a short paragraph on what a human should look at first (the script keeps it when the report is rewritten). Hosts listed under "Hosts to review" are for the human: never add a site to `pipeline/official-sites.json` yourself. Commit the run folder, `pipeline/` and the data on the branch `run/<run-id>` with the message `run <run-id>: N added, M changed, K re-verified`. Never push.
+10. **Report and commit.** `python3 tools/pipeline.py report --run <run-id>`, then `python3 tools/pipeline.py frame --report`, then `python3 tools/pipeline.py questions --sync`, which opens a GitHub issue for each new open question and closes the ones the run settled. Read the report; replace the comment at its top with a short paragraph on what a human should look at first (the script keeps it when the report is rewritten). Hosts listed under "Hosts to review" are for the human: never add a site to `pipeline/official-sites.json` yourself. Commit the run folder, `pipeline/` and the data on the branch `run/<run-id>` with the message `run <run-id>: N added, M changed, K re-verified`. Never push.
 
 ## When to stop and ask
 
 - A decision that cannot be undone and could reasonably go either way (deleting or merging records, changing a controlled vocabulary).
-- A scope question that `pipeline/scope-decisions.md` does not settle: leave it as `needs-human`, do not decide it.
+- A scope question that `pipeline/scope-decisions.md` does not settle: leave it as `needs-human`, do not decide it; it becomes a question issue.
 - The subscription's usage limit is near: finish the current stage, set `status` in `run.json`, and tell the human how to resume (`/run-pipeline <run-id>`).
 
 ## Your final message
