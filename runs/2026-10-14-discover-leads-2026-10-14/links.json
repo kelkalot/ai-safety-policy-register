@@ -1,0 +1,345 @@
+{
+ "provenance": {
+  "date": "2026-10-14",
+  "agent": "Claude Code",
+  "model": "claude-opus-5-5",
+  "scope": "two-way links between new records of run 2026-10-14-discover-leads-2026-10-14 that its checkers named",
+  "run_id": "2026-10-14-discover-leads-2026-10-14"
+ },
+ "records": [],
+ "updates": [
+  {
+   "id": "CN-20",
+   "related": [
+    {
+     "id": "CN-03",
+     "slug": "cn-generative-ai-interim-measures"
+    },
+    {
+     "id": "CN-09",
+     "slug": "cn-ai-content-labeling-measures"
+    },
+    {
+     "id": "CN-01",
+     "slug": "cn-algorithmic-recommendation-provisions"
+    },
+    {
+     "id": "CN-02",
+     "slug": "cn-deep-synthesis-provisions"
+    },
+    {
+     "id": "CN-10",
+     "slug": "cn-gb-t-45654-2025"
+    },
+    {
+     "id": "CN-08",
+     "slug": "cn-gb-45438-2025"
+    },
+    {
+     "id": "CN-13",
+     "slug": "cn-ai-safety-governance-framework-2-0"
+    },
+    {
+     "id": "CN-21",
+     "slug": "tc260-pg-20269a-ai-application-security-education"
+    },
+    {
+     "id": "CN-22",
+     "slug": "tc260-pg-202610a-ai-application-security-health"
+    },
+    {
+     "id": "CN-23",
+     "slug": "tc260-pg-202611a-ai-application-security-radio-tv-and-networ"
+    },
+    {
+     "id": "CN-25",
+     "slug": "tc260-pg-202515a-generative-ai-security-emergency-response"
+    }
+   ]
+  },
+  {
+   "id": "CN-21",
+   "related": [
+    {
+     "id": "CN-10",
+     "slug": "cn-gb-t-45654-2025"
+    },
+    {
+     "id": "CN-08",
+     "slug": "cn-gb-45438-2025"
+    },
+    {
+     "id": "CN-20",
+     "slug": "tc260-pg-20268a-ai-application-security-general-provisions"
+    },
+    {
+     "id": "CN-22",
+     "slug": "tc260-pg-202610a-ai-application-security-health"
+    },
+    {
+     "id": "CN-23",
+     "slug": "tc260-pg-202611a-ai-application-security-radio-tv-and-networ"
+    }
+   ]
+  },
+  {
+   "id": "CN-22",
+   "related": [
+    {
+     "id": "CN-10",
+     "slug": "cn-gb-t-45654-2025"
+    },
+    {
+     "id": "CN-08",
+     "slug": "cn-gb-45438-2025"
+    },
+    {
+     "id": "CN-13",
+     "slug": "cn-ai-safety-governance-framework-2-0"
+    },
+    {
+     "id": "CN-20",
+     "slug": "tc260-pg-20268a-ai-application-security-general-provisions"
+    },
+    {
+     "id": "CN-21",
+     "slug": "tc260-pg-20269a-ai-application-security-education"
+    },
+    {
+     "id": "CN-23",
+     "slug": "tc260-pg-202611a-ai-application-security-radio-tv-and-networ"
+    }
+   ]
+  },
+  {
+   "id": "CN-23",
+   "related": [
+    {
+     "id": "CN-08",
+     "slug": "cn-gb-45438-2025"
+    },
+    {
+     "id": "CN-09",
+     "slug": "cn-ai-content-labeling-measures"
+    },
+    {
+     "id": "CN-10",
+     "slug": "cn-gb-t-45654-2025"
+    },
+    {
+     "id": "CN-02",
+     "slug": "cn-deep-synthesis-provisions"
+    },
+    {
+     "id": "CN-20",
+     "slug": "tc260-pg-20268a-ai-application-security-general-provisions"
+    },
+    {
+     "id": "CN-21",
+     "slug": "tc260-pg-20269a-ai-application-security-education"
+    },
+    {
+     "id": "CN-22",
+     "slug": "tc260-pg-202610a-ai-application-security-health"
+    }
+   ]
+  },
+  {
+   "id": "CN-25",
+   "related": [
+    {
+     "id": "CN-03",
+     "slug": "cn-generative-ai-interim-measures"
+    },
+    {
+     "id": "CN-10",
+     "slug": "cn-gb-t-45654-2025"
+    },
+    {
+     "id": "CN-20",
+     "slug": "tc260-pg-20268a-ai-application-security-general-provisions"
+    }
+   ]
+  },
+  {
+   "id": "CN-26",
+   "related": [
+    {
+     "id": "CN-27",
+     "slug": "tc260-pg-20267a-security-guide-for-individual-ai-users"
+    }
+   ]
+  },
+  {
+   "id": "CN-27",
+   "related": [
+    {
+     "id": "CN-08",
+     "slug": "cn-gb-45438-2025"
+    },
+    {
+     "id": "CN-26",
+     "slug": "tc260-pg-20266a-agent-deployment-and-use-security"
+    }
+   ]
+  },
+  {
+   "id": "SK-03",
+   "related": [
+    {
+     "id": "SK-04",
+     "slug": "slovak-ai-synthetic-content-misuse-bill-miklosko-janckulik"
+    }
+   ]
+  },
+  {
+   "id": "SK-04",
+   "related": [
+    {
+     "id": "EU-03",
+     "slug": "eu-ai-act"
+    },
+    {
+     "id": "DK-02",
+     "slug": "dk-deepfake-copyright-bill-2026"
+    },
+    {
+     "id": "SK-03",
+     "slug": "slovak-deceptive-recordings-bill-print-1266"
+    }
+   ]
+  },
+  {
+   "id": "US-CA-10",
+   "related": [
+    {
+     "id": "US-CA-09",
+     "slug": "ca-eo-n-9-26"
+    },
+    {
+     "id": "US-CA-02",
+     "slug": "ca-sb-942"
+    },
+    {
+     "id": "US-CA-11",
+     "slug": "california-eo-n-12-23-generative-ai"
+    }
+   ]
+  },
+  {
+   "id": "US-CA-11",
+   "related": [
+    {
+     "id": "US-CA-09",
+     "slug": "ca-eo-n-9-26"
+    },
+    {
+     "id": "US-CA-10",
+     "slug": "california-eo-n-5-26"
+    }
+   ]
+  }
+ ],
+ "history_context": {
+  "CN-20": {
+   "reason": "TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)",
+   "fields": {
+    "related": {
+     "reason": "TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)",
+     "evidence": []
+    }
+   }
+  },
+  "CN-21": {
+   "reason": "TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)",
+   "fields": {
+    "related": {
+     "reason": "TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)",
+     "evidence": []
+    }
+   }
+  },
+  "CN-22": {
+   "reason": "TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)",
+   "fields": {
+    "related": {
+     "reason": "TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)",
+     "evidence": []
+    }
+   }
+  },
+  "CN-23": {
+   "reason": "TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)",
+   "fields": {
+    "related": {
+     "reason": "TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)",
+     "evidence": []
+    }
+   }
+  },
+  "CN-25": {
+   "reason": "TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)",
+   "fields": {
+    "related": {
+     "reason": "TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)",
+     "evidence": []
+    }
+   }
+  },
+  "CN-26": {
+   "reason": "TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)",
+   "fields": {
+    "related": {
+     "reason": "TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)",
+     "evidence": []
+    }
+   }
+  },
+  "CN-27": {
+   "reason": "TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)",
+   "fields": {
+    "related": {
+     "reason": "TC260 practice guides of one series or referring to each other, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C003.json; C011's own text refers to TC260-PG-20266A)",
+     "evidence": []
+    }
+   }
+  },
+  "SK-03": {
+   "reason": "the two Slovak deepfake bills, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C024.json)",
+   "fields": {
+    "related": {
+     "reason": "the two Slovak deepfake bills, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C024.json)",
+     "evidence": []
+    }
+   }
+  },
+  "SK-04": {
+   "reason": "the two Slovak deepfake bills, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C024.json)",
+   "fields": {
+    "related": {
+     "reason": "the two Slovak deepfake bills, as the checker of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C024.json)",
+     "evidence": []
+    }
+   }
+  },
+  "US-CA-10": {
+   "reason": "the two California executive orders on AI, as the checkers of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C032.json, checks/C033.json)",
+   "fields": {
+    "related": {
+     "reason": "the two California executive orders on AI, as the checkers of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C032.json, checks/C033.json)",
+     "evidence": []
+    }
+   }
+  },
+  "US-CA-11": {
+   "reason": "the two California executive orders on AI, as the checkers of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C032.json, checks/C033.json)",
+   "fields": {
+    "related": {
+     "reason": "the two California executive orders on AI, as the checkers of run 2026-10-14-discover-leads-2026-10-14 named them (checks/C032.json, checks/C033.json)",
+     "evidence": []
+    }
+   }
+  }
+ },
+ "summary": "Links between records added in the same run; related could not name candidates of a run before."
+}
