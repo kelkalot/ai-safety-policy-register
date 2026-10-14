@@ -216,7 +216,7 @@ The checker starts in a fresh context with only the run ID and candidate IDs: a 
 
 ### 7.4 Repeatability measure
 
-`pipeline.py sample` picks 10 percent of the run's extractions, at least 5. A second extractor, in a fresh context and without seeing the first extraction, extracts them again into `extractions-blind/`. `pipeline.py compare` reports agreement per field: exact for dates, identifiers, status, legal force and instrument type; overlap for topics. The agreement table goes into `report.md` and is the run's repeatability number; fields that disagree go to the checker.
+`pipeline.py sample` picks 10 percent of the run's extractions, at least 5. A second extractor, in a fresh context and without seeing the first extraction, extracts them again into `extractions-blind/`. `pipeline.py compare` reports agreement per field: exact for dates, identifiers, status, legal force and instrument type; overlap for topics. The agreement table goes into `report.md` and is the run's repeatability number; fields that disagree go to the checker. In a refresh or recheck run the table counts only the fields an extraction changed, so `compare` also reports agreement on the resulting records (each current record with an extraction's changes applied), which is the better measure of how far two extractions of the same record agree.
 
 ### 7.5 Human sample
 
