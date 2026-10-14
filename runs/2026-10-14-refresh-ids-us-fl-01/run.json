@@ -1,0 +1,36 @@
+{
+ "run_id": "2026-10-14-refresh-ids-us-fl-01",
+ "type": "refresh",
+ "scope": "ids:US-FL-01",
+ "started": "2026-10-14",
+ "coordinator": {
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5"
+ },
+ "stages": {
+  "collect": {
+   "tool": null,
+   "model": null,
+   "date": null
+  },
+  "extract": {
+   "tool": "Claude Code",
+   "model": "claude-opus-5-5",
+   "date": "2026-10-14"
+  },
+  "blind": {
+   "tool": "Claude Code",
+   "model": "claude-opus-5-5",
+   "date": "2026-10-14"
+  },
+  "check": {
+   "tool": "Claude Code",
+   "model": "claude-sonnet-5-5",
+   "date": "2026-10-14"
+  }
+ },
+ "status": "merged",
+ "record_ids": [
+  "US-FL-01"
+ ]
+}

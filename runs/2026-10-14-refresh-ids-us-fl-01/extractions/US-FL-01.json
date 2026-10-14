@@ -1,0 +1,358 @@
+{
+ "cand_id": "US-FL-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "US-FL-01",
+ "record": {
+  "issuing_body": "Florida Senate (2026 Regular Session; sponsor Sen. Leek)",
+  "date_last_updated": "2026-03-04",
+  "summary": "Would have created an 'Artificial Intelligence Bill of Rights'. Companion chatbot platforms would have had to bar minors without parental consent, give parents controls and self-harm alerts, and take reasonable measures against material harmful to minors. Bot operators would have had to tell users hourly they are not talking to a human, and AI companies could have sold or disclosed personal information only as deidentified data. Commercial use of AI-generated likenesses would have needed consent, governments could not have contracted for AI with entities tied to foreign countries of concern, and schools could not have given AI instructional tools to pupils below grade 6, with exceptions.",
+  "notes": "Filed on 22 Dec 2025 and referred to Commerce and Tourism and to Appropriations. Commerce and Tourism reported it favourably (10-0) on 21 Jan 2026. Appropriations adopted a committee substitute (18-0) on 18 Feb 2026 that added, among other changes, a 45-day cure period, a news-media exception for AI-generated likenesses and the rules on AI instructional tools in schools. On 4 Mar 2026 the Senate adopted two floor amendments and passed the bill 35-2. It died in House messages on 13 Mar 2026 without becoming law; the similar House bill HB 1395 died in the Information Technology Budget & Policy Subcommittee the same day. The bill stated an effective date of 1 Jul 2026. As passed by the Senate, the Department of Legal Affairs would have enforced the chatbot, bot and data provisions as deceptive or unfair trade practices, with civil penalties of up to USD 50,000 per violation and a discretionary 45-day cure period; in answer to an alleged violation, a company could show controls aligned with the NIST AI Risk Management Framework and ISO 42001. A minor could have recovered up to USD 10,000 in damages from a chatbot platform. A bill with the same title and the same bill description, SB 2-D (US-FL-04), was filed by Sen. Brodeur in 2026 Special Session D on 24 Apr 2026, passed the Senate 37-1 on 28 Apr 2026 and died in the House Information Technology Budget & Policy Subcommittee on 29 Apr 2026.",
+  "verification": {
+   "note": "Stored the Florida Senate bill page for SB 482 (2026), the Commerce and Tourism Committee's pre- and post-meeting analyses of the filed bill, the Appropriations Committee's analysis of the committee substitute (20 Feb 2026), the engrossed text S 482 e1 as passed by the Senate, and the Senate bill page for SB 2-D (session 2026D) with its Rules Committee analysis and Senate vote record (all flsenate.gov). The SB 482 page confirms the title CS/SB 482, the sponsor, the three versions, the 35-2 Senate vote of 4 Mar 2026, 'Died in Messages' in the House on 13 Mar 2026 and that no chapter law cites the bill; the summary and the enforcement details rest on the engrossed text. The SB 2-D page confirms its filing on 24 Apr 2026, the 37-1 Senate vote of 28 Apr 2026 and its death in a House subcommittee on 29 Apr 2026. Neither page nor the SB 2-D analysis says that SB 2-D refiled SB 482; the notes state only that both bear the same title and bill description. The Florida Phoenix report of 4 Mar 2026, the record's secondary source, returned HTTP 403 and could not be stored; the Governor's backing and the House Speaker's position, which no stored source shows, are no longer stated in the record."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "bill page heading",
+    "quote": "CS/SB 482: Artificial Intelligence Bill of Rights",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-42f42d4dfb/2026-10-14/official.pdf",
+    "sha256": "334914cd9addea558e0a03fa26cddf43f119e0a2b081b8ed9b84027a687b3396",
+    "locator": "page 1",
+    "quote": "An act relating to the Artificial Intelligence Bill of",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-19d5c250ec/2026-10-14/official.pdf",
+    "sha256": "71f4c58a0afbf27a1220b24df79d103b799d36dc0ebcc6d338c123d3d95365cf",
+    "locator": "page 1",
+    "quote": "BILL:  CS/SB 482 \nINTRODUCER:  Appropriations Committee and Senator Leek \nSUBJECT:  Artificial Intelligence Bill of Rights",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "breadcrumb",
+    "quote": "Home > Session > 2026 > Senate Bill 482",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "bill page heading",
+    "quote": "CS/SB 482: Artificial Intelligence Bill of Rights",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-42f42d4dfb/2026-10-14/official.pdf",
+    "sha256": "334914cd9addea558e0a03fa26cddf43f119e0a2b081b8ed9b84027a687b3396",
+    "locator": "page 1",
+    "quote": "CS for SB 482  First Engrossed",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "bill page heading",
+    "quote": "GENERAL BILL by Appropriations; Leek",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-19d5c250ec/2026-10-14/official.pdf",
+    "sha256": "71f4c58a0afbf27a1220b24df79d103b799d36dc0ebcc6d338c123d3d95365cf",
+    "locator": "page 1",
+    "quote": "INTRODUCER:  Appropriations Committee and Senator Leek",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-FL-01/2026-10-12/document-2.pdf",
+    "sha256": "b551917adf0a01e3e40624713323b63a4122884bf18d6eeffecdd66282c3b031",
+    "locator": "page 1",
+    "quote": "BILL:  SB 482 \nINTRODUCER:  Senator Leek",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "Bill History",
+    "quote": "12/22/2025 Senate • Filed",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "Bill Text",
+    "quote": "S 482 Filed 12/22/2025 9:36 AM",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "Bill Text",
+    "quote": "S 482 e1 3/4/2026 8:28 PM",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "Bill History",
+    "quote": "3/4/2026 Senate • Read 2nd time -SJ 554 • Amendment(s) adopted (274134, 623028) -SJ 554 • Read 3rd time -SJ 555 • CS passed as amended; YEAS 35 NAYS 2 -SJ 555",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "bill page heading",
+    "quote": "Last Action: 3/13/2026 House - Died in Messages",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "Bill History",
+    "quote": "3/5/2026 House • In Messages 3/13/2026 House • Died in Messages",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "Citations",
+    "quote": "Citations - Chapter Law (0) No Chapter Law citations.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "bill page heading",
+    "quote": "Last Action: 3/13/2026 House - Died in Messages",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-42f42d4dfb/2026-10-14/official.pdf",
+    "sha256": "334914cd9addea558e0a03fa26cddf43f119e0a2b081b8ed9b84027a687b3396",
+    "locator": "page 12, s. 501.9984(1)",
+    "quote": "(1) A companion chatbot platform shall prohibit a minor",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-42f42d4dfb/2026-10-14/official.pdf",
+    "sha256": "334914cd9addea558e0a03fa26cddf43f119e0a2b081b8ed9b84027a687b3396",
+    "locator": "page 13, s. 501.9984(1)(a)5.",
+    "quote": "expresses to the companion chatbot a desire or an intent to",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-42f42d4dfb/2026-10-14/official.pdf",
+    "sha256": "334914cd9addea558e0a03fa26cddf43f119e0a2b081b8ed9b84027a687b3396",
+    "locator": "page 14, s. 501.9984(2)(c)",
+    "quote": "chatbot from producing or sharing materials harmful to minors or",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-42f42d4dfb/2026-10-14/official.pdf",
+    "sha256": "334914cd9addea558e0a03fa26cddf43f119e0a2b081b8ed9b84027a687b3396",
+    "locator": "page 17, s. 501.9985(1)",
+    "quote": "bot, and at least once every hour during the interaction, an",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-42f42d4dfb/2026-10-14/official.pdf",
+    "sha256": "334914cd9addea558e0a03fa26cddf43f119e0a2b081b8ed9b84027a687b3396",
+    "locator": "page 19, s. 501.9986(1)",
+    "quote": "sell or disclose personal information of users unless the",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-42f42d4dfb/2026-10-14/official.pdf",
+    "sha256": "334914cd9addea558e0a03fa26cddf43f119e0a2b081b8ed9b84027a687b3396",
+    "locator": "page 24, s. 540.08(2)",
+    "quote": "of an individual created through generative artificial",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-42f42d4dfb/2026-10-14/official.pdf",
+    "sha256": "334914cd9addea558e0a03fa26cddf43f119e0a2b081b8ed9b84027a687b3396",
+    "locator": "page 7, s. 287.138(7)",
+    "quote": "(7) A governmental entity may not knowingly enter into a",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-42f42d4dfb/2026-10-14/official.pdf",
+    "sha256": "334914cd9addea558e0a03fa26cddf43f119e0a2b081b8ed9b84027a687b3396",
+    "locator": "page 30, s. 1006.1495(2)",
+    "quote": "tool before grade 6 unless such use is:",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "Bill History",
+    "quote": "1/21/2026 Senate • Favorable by Commerce and Tourism; YEAS 10 NAYS 0",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "Bill History",
+    "quote": "2/18/2026 Senate • CS by- Appropriations; YEAS 18 NAYS 0",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-19d5c250ec/2026-10-14/official.pdf",
+    "sha256": "71f4c58a0afbf27a1220b24df79d103b799d36dc0ebcc6d338c123d3d95365cf",
+    "locator": "page 33, Statement of Substantial Changes",
+    "quote": "Provides that the DLA is authorized to permit a companion chatbot platform, an operator, or an artificial intelligence technology company to cure an alleged violation of the bill within 45 days.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-19d5c250ec/2026-10-14/official.pdf",
+    "sha256": "71f4c58a0afbf27a1220b24df79d103b799d36dc0ebcc6d338c123d3d95365cf",
+    "locator": "page 33, Statement of Substantial Changes",
+    "quote": "Creates s. 1006.1495, F.S., to establish a statewide framework for artificial intelligence instructional tools used by educational entities",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "Related Bills",
+    "quote": "H 1395 Artificial Intelligence Rizo Similar Last Action: 3/13/2026 H Died in Information Technology Budget & Policy Subcommittee",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-FL-01/2026-10-12/official.html",
+    "sha256": "da46adb02d46f0da551cf3a4151d9a43e68c13bd6762122976fb24e0238590b4",
+    "locator": "bill page heading",
+    "quote": "Effective Date: 7/1/2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-42f42d4dfb/2026-10-14/official.pdf",
+    "sha256": "334914cd9addea558e0a03fa26cddf43f119e0a2b081b8ed9b84027a687b3396",
+    "locator": "page 33, section 15",
+    "quote": "Section 15. This act shall take effect July 1, 2026.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-42f42d4dfb/2026-10-14/official.pdf",
+    "sha256": "334914cd9addea558e0a03fa26cddf43f119e0a2b081b8ed9b84027a687b3396",
+    "locator": "page 15, s. 501.9984(3)",
+    "quote": "of up to $50,000 per violation and reasonable attorney fees and",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-42f42d4dfb/2026-10-14/official.pdf",
+    "sha256": "334914cd9addea558e0a03fa26cddf43f119e0a2b081b8ed9b84027a687b3396",
+    "locator": "page 15, s. 501.9984(4)(a)",
+    "quote": "department may grant the companion chatbot platform 45 calendar",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-42f42d4dfb/2026-10-14/official.pdf",
+    "sha256": "334914cd9addea558e0a03fa26cddf43f119e0a2b081b8ed9b84027a687b3396",
+    "locator": "page 15, s. 501.9984(4)(a)2.",
+    "quote": "Technology AI Risk Management Framework, ISO 42001. Such",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-42f42d4dfb/2026-10-14/official.pdf",
+    "sha256": "334914cd9addea558e0a03fa26cddf43f119e0a2b081b8ed9b84027a687b3396",
+    "locator": "page 16, s. 501.9984(5)(a)",
+    "quote": "holder for up to $10,000 in damages plus court costs and",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-2b648944a9/2026-10-14/official.html",
+    "sha256": "7fc575736ab503e836a1bc0054171939ccb2b4111d4e9ed01903acc3254253df",
+    "locator": "bill page heading",
+    "quote": "SB 2-D: Artificial Intelligence Bill of Rights GENERAL BILL by Brodeur",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-2b648944a9/2026-10-14/official.html",
+    "sha256": "7fc575736ab503e836a1bc0054171939ccb2b4111d4e9ed01903acc3254253df",
+    "locator": "breadcrumb",
+    "quote": "Home > Session > 2026D > Senate Bill 2D",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-2b648944a9/2026-10-14/official.html",
+    "sha256": "7fc575736ab503e836a1bc0054171939ccb2b4111d4e9ed01903acc3254253df",
+    "locator": "bill page heading",
+    "quote": "requiring bot operators to periodically provide a certain notification to a user, etc. Effective Date: 7/1/2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-2b648944a9/2026-10-14/official.html",
+    "sha256": "7fc575736ab503e836a1bc0054171939ccb2b4111d4e9ed01903acc3254253df",
+    "locator": "Bill History",
+    "quote": "4/24/2026 Senate • Filed • Referred to Rules",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-2b648944a9/2026-10-14/official.html",
+    "sha256": "7fc575736ab503e836a1bc0054171939ccb2b4111d4e9ed01903acc3254253df",
+    "locator": "Bill History",
+    "quote": "• Passed; YEAS 37 NAYS 1 -SJ 5",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-2b648944a9/2026-10-14/document-2.pdf",
+    "sha256": "41c97fe1ec05dff6c9beb9ced0b8acd8360e9de83a1dbdc71d01776000c92513",
+    "locator": "page 1",
+    "quote": "Session Day:   1 2026D Special Session",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-us-fl-01/US-FL-01/extra-2b648944a9/2026-10-14/official.html",
+    "sha256": "7fc575736ab503e836a1bc0054171939ccb2b4111d4e9ed01903acc3254253df",
+    "locator": "bill page heading",
+    "quote": "Last Action: 4/29/2026 House - Died in Information Technology Budget & Policy Subcommittee",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Latest event: the SB 482 bill page (stored 12 Oct 2026; the archiver found its text unchanged on 14 Oct 2026) gives 'Last Action: 3/13/2026 House - Died in Messages', after the Senate passed the committee substitute as amended 35-2 on 4 Mar 2026 and the House received it on 5 Mar 2026. No later action on SB 482 appears, and the Citations tab shows no chapter law, so the bill never became law. Its stated effective date (section 15 of the engrossed text: 1 Jul 2026) passed without enactment, which does not change the status. The later special-session bill SB 2-D is a separate bill with its own record (US-FL-04) and also died (29 Apr 2026), so nothing revived this text. A regular-session bill that died in messages is Lapsed, and legal_force stays Proposed.",
+  "scope_reasoning": "In scope without a scope note: an AI-specific state bill (companion chatbots and minors, bot disclosure, AI-generated likenesses, government AI procurement, AI instructional tools in schools); AGENTS.md section 10 keeps lapsed bills for context.",
+  "changes": {
+   "issuing_body": "No stored source shows the Governor's backing or the sponsor's first name; the bill page names the sponsor as Leek and the analyses as Senator Leek (with the Appropriations Committee for the committee substitute).",
+   "date_last_updated": "The last new version is the engrossed text S 482 e1, posted 4 Mar 2026 when the Senate adopted two floor amendments and passed the bill; 13 Mar 2026 is the date the bill died, not a new version.",
+   "summary": "Rewritten from the engrossed text the Senate passed: adds the hourly bot notice, the deidentified-data rule and the school AI-tool rule (s. 1006.1495), which the committee substitute added. Removed 'Governor-backed', which no stored source supports, and moved the legislative history to the notes.",
+   "notes": "Added SB 2-D of 2026 Special Session D (same title and bill description; passed the Senate 37-1 on 28 Apr 2026, died in a House subcommittee on 29 Apr 2026), as the refresh request asked. Added the committee history, the changes made by the committee substitute, HB 1395, and the enforcement provisions as passed (USD 50,000 civil penalties, 45-day cure period, NIST AI RMF / ISO 42001 controls, USD 10,000 damages for minors). Removed the House Speaker's position and the Governor's campaign, which no stored source supports.",
+   "verification.note": "Describes what was stored in this run, that no stored source calls SB 2-D a refiling, and that the secondary source could not be stored."
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "legal_force",
+   "official_identifier"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

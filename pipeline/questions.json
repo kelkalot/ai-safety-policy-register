@@ -368,7 +368,7 @@
    "code": "VN",
    "records": [
     "VN-07",
-    "C043"
+    "VN-09"
    ],
    "why": "Quotes from this host counted as secondary because it is neither a government domain nor in pipeline/official-sites.json.",
    "state": "open",
@@ -571,10 +571,10 @@
    "key": "host:flrules.org",
    "kind": "host",
    "subject": "flrules.org",
-   "code": "C012",
+   "code": "US-FL",
    "records": [
-    "C012",
-    "C013"
+    "US-FL-13",
+    "US-FL-14"
    ],
    "why": "Quotes from this host counted as secondary because it is neither a government domain nor in pipeline/official-sites.json.",
    "state": "open",
@@ -588,10 +588,10 @@
    "key": "host:fldoe.org",
    "kind": "host",
    "subject": "fldoe.org",
-   "code": "C012",
+   "code": "US-FL",
    "records": [
-    "C012",
-    "C013"
+    "US-FL-13",
+    "US-FL-14"
    ],
    "why": "Quotes from this host counted as secondary because it is neither a government domain nor in pipeline/official-sites.json.",
    "state": "open",
@@ -605,7 +605,7 @@
    "key": "host:flbog.edu",
    "kind": "host",
    "subject": "flbog.edu",
-   "code": "C014",
+   "code": "US-FL",
    "records": [
     "C014"
    ],
@@ -636,6 +636,23 @@
    "opened": "2026-10-14",
    "closed": null,
    "resolution": null
+  },
+  {
+   "key": "sample:2026-10-14-refresh-ids-us-fl-01",
+   "kind": "sample",
+   "subject": "2026-10-14-refresh-ids-us-fl-01",
+   "run_id": "2026-10-14-refresh-ids-us-fl-01",
+   "records": [
+    "US-FL-01"
+   ],
+   "why": "Human sample of run 2026-10-14-refresh-ids-us-fl-01: check each record against its stored sources.",
+   "state": "open",
+   "issue": 51,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/51",
+   "opened": "2026-10-14",
+   "closed": null,
+   "resolution": null,
+   "title": "Human sample of run 2026-10-14-refresh-ids-us-fl-01 (1 records)"
   }
  ],
  "repo": "kelkalot/every-ai-policy-ever"
