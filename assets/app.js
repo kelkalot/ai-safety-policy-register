@@ -618,7 +618,7 @@
     var rows = current.length ? current : [];
     if (!rows.length) { toast("No records to export. Clear some filters first."); return; }
     var data = kind === "csv" ? toCSV(rows) : toJSON(rows);
-    var name = "ai-safety-policy-register_" + META.snapshot_date + (rows.length < R.length ? "_filtered-" + rows.length : "") + "." + kind;
+    var name = "every-ai-policy-ever_" + META.snapshot_date + (rows.length < R.length ? "_filtered-" + rows.length : "") + "." + kind;
     try {
       var blob = new Blob([data], { type: kind === "csv" ? "text/csv;charset=utf-8" : "application/json" });
       var a = document.createElement("a");

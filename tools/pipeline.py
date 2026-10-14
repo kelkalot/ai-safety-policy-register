@@ -19,6 +19,7 @@ this file does the bookkeeping, so that a run can be repeated and checked.
     python3 tools/pipeline.py frame --due [--days 180] | --report | --add CODE --name N --level L --region R
     python3 tools/pipeline.py hosts [--code C] [--pending]        # the curated list of official sites
     python3 tools/pipeline.py questions [--sync] [--apply] [--dry-run]   # open questions as GitHub issues
+    python3 tools/pipeline.py intake [--dry-run]     # suggestions and provided documents from GitHub issues
     python3 tools/pipeline.py hosts --add HOST --code C --status official|"not official"|proposed --by NAME
                                     [--operator O --kind K --evidence-url U --quote Q --note N]
     python3 tools/pipeline.py log-human --run RUN --id ID --result ok|problem --note "..." [--by NAME]
@@ -473,7 +474,13 @@ def cmd_new(args):
         # a leads run follows up known leads only; its cells are where each lead belongs, and they are not marked
         # as searched, because nobody searched them as a whole
         f = load_frame()
-        leads = (read_json(Path(args.leads), {}) or {}).get("leads") or []
+        lead_file = Path(args.leads)
+        lead_reg = read_json(lead_file, {}) or {}
+        leads = lead_reg.get("leads") or []
+        if any("state" in l for l in leads):  # the leads registry: take only the queued leads
+            leads = [l for l in leads if l.get("state") == "queued"]
+            if not leads:
+                raise SystemExit("No queued leads in %s" % args.leads)
         known = {cell_id(j, t) for j, t, c in frame_cells(f)}
         bad = [l.get("cell") for l in leads if l.get("cell") not in known]
         if not leads or bad:
@@ -482,6 +489,10 @@ def cmd_new(args):
         cells = sorted({l["cell"] for l in leads})
         run["mode"] = "leads"
         run["leads"] = leads
+        if any("state" in l for l in lead_reg.get("leads") or []):
+            for l in leads:
+                l.update(state="in-run", run_id=run_id)
+            write_json(lead_file, lead_reg)
         run["cells"] = cells
         run["groups"] = group_cells(f, cells, args.group_size)
     elif args.type == "discover":
@@ -1677,7 +1688,8 @@ def cmd_assemble(args):
         full = OrderedDict((k, rec.get(k)) for k in RECORD_FIELDS)
         full.update({"id": nid, "slug": slug, "verification": verification})
         full["safety_topics"] = full.get("safety_topics") or []
-        pending_related.append((full, rec.get("related")))
+        # related may name existing records or candidates of this run (C012); the checker can add missing links
+        pending_related.append((full, list(rec.get("related") or []) + list(ch.get("related_missing") or [])))
         lc = ((index.sources.get(cid) or {}).get("main"))
         if lc and lc.get("files"):
             full["local_copy"] = lc
@@ -1688,6 +1700,8 @@ def cmd_assemble(args):
     # related links: resolve now that new IDs exist; make every link two-way
     rev = defaultdict(list)
     for full, wanted in pending_related:
+        wanted = [assigned.get(x.get("id") if isinstance(x, dict) else x, x.get("id") if isinstance(x, dict) else x)
+                  for x in wanted or []]  # candidate IDs of this run become the IDs their records were given
         full["related"], bad = norm_related(wanted, slugs)
         if bad:
             print("WARNING  %s: related IDs that do not exist were dropped: %s" % (full["id"], ", ".join(bad)))
@@ -2323,6 +2337,191 @@ def cmd_questions(args):
     return 0
 
 
+# ----------------------------------------------------------------------------- suggestions and documents from users
+
+LEADS = ROOT / "pipeline" / "leads.json"
+BODY_TO_TYPE = {"legislature": "legislature", "government": "executive", "ministry": "ministries",
+                "ai regulator": "ai-bodies", "supervisory": "supervisors", "election": "elections",
+                "intergovernmental": "repository"}
+ATTACHMENT = re.compile(r"https://github\.com/user-attachments/(?:files|assets)/[^\s)\]>\"']+")
+
+
+def form_fields(body):
+    """The answers of a GitHub issue form: {heading: value}; '_No response_' is empty."""
+    parts = re.split(r"^###\s+(.+?)\s*$", body or "", flags=re.M)
+    out = {}
+    for i in range(1, len(parts) - 1, 2):
+        v = parts[i + 1].strip()
+        out[parts[i].strip().lower()] = "" if v == "_No response_" else v
+    return out
+
+
+def lead_cell(code, issued_by, frame, override=None):
+    cells = {cell_id(j, t) for j, t, c in frame_cells(frame)}
+    if override:
+        return override if override in cells else None
+    kind = next((t for k, t in BODY_TO_TYPE.items() if k in (issued_by or "").lower()), "executive")
+    j = next((x for x in frame.get("jurisdictions") or [] if x["code"] == (code or "").strip().upper()), None)
+    if not j:
+        return None
+    for t in (kind, "repository", "executive", "legislature"):
+        if t in j["cells"]:
+            return "%s/%s" % (j["code"], t)
+    return None
+
+
+def cmd_intake(args):
+    """Suggestions and provided documents from GitHub issues (AGENTS.md section 7.8)."""
+    import archive  # noqa: E402  (same folder)
+    import tempfile as _tf
+    repo = github_repo()
+    reg = read_json(LEADS, {}) or {}
+    reg.setdefault("about", "Leads for the pipeline: instruments suggested in GitHub issues and accepted by a maintainer, "
+                            "and leads noted by agents. `pipeline.py new --type discover --leads pipeline/leads.json` takes "
+                            "the queued ones. Written by tools/pipeline.py intake.")
+    leads = reg.setdefault("leads", [])
+    known = {l.get("issue") for l in leads if l.get("issue")}
+    frame, db = load_frame(), load_db()
+    by = {r["id"]: r for r in db["records"]}
+    done = []
+
+    def say(num, text, close=False):
+        if args.dry_run:
+            return
+        gh("issue", "comment", str(num), "--repo", repo, "--body", text)
+        if close:
+            gh("issue", "close", str(num), "--repo", repo)
+
+    for label in ("source-suggestion", "document"):
+        issues = json.loads(gh("issue", "list", "--repo", repo, "--state", "open", "--label", label, "--limit", "200",
+                               "--json", "number,title,body,author,url") or "[]")
+        for it in issues:
+            num = it["number"]
+            if label == "source-suggestion" and num in known:
+                continue
+            comments = json.loads(gh("api", "repos/%s/issues/%s/comments" % (repo, num), "--paginate") or "[]")
+            got = parse_decisions(comments, "record")
+            if not got:
+                continue
+            comment, lines = got
+            who = (comment.get("user") or {}).get("login") or "maintainer"
+            dec = next(v for k, v in lines if k.lower() == "decide").strip()
+            if dec.lower().startswith("reject"):
+                reason = dec[6:].strip(" :,-") or "outside the register's scope"
+                say(num, "Not included: %s. (Decided by @%s.)" % (reason, who), close=True)
+                done.append("#%s rejected" % num)
+                continue
+            if not dec.lower().startswith("accept"):
+                say(num, "Could not read the decision %r; use `decide: accept` or `decide: reject <reason>`." % dec)
+                continue
+            f = form_fields(it.get("body"))
+            if label == "source-suggestion":
+                url = f.get("official url", "").strip()
+                rid = f.get("existing record", "").strip().upper()
+                if rid and rid in by:
+                    line = {"date": today(), "run_id": "issue #%s" % num, "record_id": rid,
+                            "why": "news suggested in issue #%s and accepted by %s: %s" % (num, who, url)}
+                    if not args.dry_run:
+                        with open(REQUESTS, "a", encoding="utf-8") as fh:
+                            fh.write(json.dumps(line, ensure_ascii=False) + "\n")
+                    leads.append({"issue": num, "url": url, "record_id": rid, "state": "refresh-queued",
+                                  "accepted_by": who, "added": today()})
+                    say(num, "Accepted by @%s: %s goes into the next refresh run, which checks this source." % (who, rid))
+                    done.append("#%s queued for a refresh of %s" % (num, rid))
+                    continue
+                override = next((v.strip() for k, v in lines if k.lower() == "cell"), None)
+                cell = lead_cell(f.get("jurisdiction code"), f.get("issued by"), frame, override)
+                if not cell:
+                    say(num, "Accepted, but the jurisdiction code %r is not in the coverage frame. Add a line "
+                             "`cell: <CODE>/<type>` to the decision (types: legislature, gazette, executive, ministries, "
+                             "ai-bodies, elections, supervisors, repository)." % f.get("jurisdiction code"))
+                    continue
+                leads.append({"lead": f.get("title") or it["title"], "cell": cell, "url": url, "issue": num,
+                              "seen_in": "issue #%s" % num, "why": f.get("why it belongs in the register"),
+                              "state": "queued", "accepted_by": who, "added": today()})
+                say(num, "Accepted by @%s and queued for the next pipeline run (cell %s). This issue is closed when the "
+                         "record is in the register." % (who, cell))
+                done.append("#%s queued as a lead (%s)" % (num, cell))
+            else:
+                rid = f.get("record id", "").strip().upper()
+                url = f.get("official url", "").strip()
+                links = ATTACHMENT.findall(f.get("the document", "") or it.get("body") or "")
+                if rid not in by or not links:
+                    say(num, "Cannot store it: %s." % ("the record ID %r does not exist" % rid if rid not in by
+                                                         else "no attached file was found in the issue"))
+                    continue
+                if args.dry_run:
+                    done.append("#%s would store %s for %s" % (num, links[0], rid))
+                    continue
+                with _tf.TemporaryDirectory() as tmp:
+                    name = urllib.parse.unquote(links[0].rsplit("/", 1)[-1]) or "document.pdf"
+                    path = Path(tmp) / re.sub(r"[^A-Za-z0-9._-]", "_", name)
+                    req = urllib.request.Request(links[0], headers={"User-Agent": "every-ai-policy-ever intake"})
+                    with urllib.request.urlopen(req, timeout=120) as resp:
+                        path.write_bytes(resp.read())
+                    stored = archive.store_provided(db, rid, path, url, (it.get("author") or {}).get("login"),
+                                                    confirmed_by=who, issue=num, source_url=links[0],
+                                                    note="provided in issue #%s" % num)
+                build.save(db)
+                if stored:
+                    with open(REQUESTS, "a", encoding="utf-8") as fh:
+                        fh.write(json.dumps({"date": today(), "run_id": "issue #%s" % num, "record_id": rid,
+                                             "why": "official text provided in issue #%s" % num}) + "\n")
+                    say(num, "Stored as `%s` (SHA-256 `%s`), provided by @%s and confirmed by @%s. The next refresh run "
+                             "of %s reads it." % (stored["path"], stored["sha256"], stored["provided_by"], who, rid), close=True)
+                    done.append("#%s stored for %s" % (num, rid))
+                else:
+                    say(num, "This file is already stored for %s." % rid, close=True)
+    # suggestions about existing records: close them once a pipeline run has checked the record again
+    order = run_order()
+    for l in leads:
+        if l.get("state") != "refresh-queued":
+            continue
+        hit = next((e for e in history.load() if e["record_id"] == l.get("record_id") and e.get("run_id") in order
+                    and e.get("event") in ("changed", "re-verified") and (e.get("date") or "") >= (l.get("added") or "")
+                    and (RUNS / e["run_id"] / "pass.json").is_file()
+                    and l["record_id"] in {u.get("id") for u in (read_json(RUNS / e["run_id"] / "pass.json", {}) or {})
+                                           .get("updates") or [] if set(u) - {"id", "related"}}), None)
+        if hit:
+            l.update(state="checked", run_id=hit["run_id"])
+            if l.get("issue"):
+                say(l["issue"], "Checked in run %s: %s. The record's history shows what changed." % (hit["run_id"], l["record_id"]),
+                    close=True)
+            done.append("suggestion #%s checked in %s" % (l.get("issue"), hit["run_id"]))
+    # leads a run took: close their issues once the run is merged
+    for l in leads:
+        if l.get("state") != "in-run" or not l.get("run_id"):
+            continue
+        d = RUNS / l["run_id"]
+        p = read_json(d / "pass.json", {}) or {}
+        if (read_json(d / "run.json", {}) or {}).get("status") != "merged":
+            continue
+        cand = next((c for c in (read_json(d / "candidates.json", {}) or {}).get("candidates") or []
+                     if (l.get("issue") and c.get("issue") == l["issue"]) or (l.get("url") and c.get("url") == l["url"])), None)
+        rid = (p.get("assigned") or {}).get(cand["cand_id"]) if cand else None
+        if rid:
+            l.update(state="included", record_id=rid)
+            if l.get("issue"):
+                say(l["issue"], "Included as %s in run %s." % (rid, l["run_id"]), close=True)
+            done.append("lead %s included as %s" % (l.get("issue") or l.get("lead", "")[:40], rid))
+        else:
+            l.update(state="not-added")
+            if l.get("issue"):
+                why = next((x.get("why") for x in (p.get("not_added") or []) + (p.get("needs_human") or [])
+                            if cand and x.get("cand_id") == cand["cand_id"]), "the run found no official source for it")
+                say(l["issue"], "Run %s did not add it: %s" % (l["run_id"], (why or "")[:500]), close=False)
+            done.append("lead %s not added" % (l.get("issue") or l.get("lead", "")[:40]))
+    if not args.dry_run:
+        write_json(LEADS, reg)
+        build.write_js(build.normalise(load_db()))
+    for x in done:
+        print(x)
+    st = Counter(l.get("state") for l in leads)
+    print("Leads: %s%s" % (", ".join("%s %d" % kv for kv in st.most_common()) or "none",
+                           " (dry run: nothing written)" if args.dry_run else ""))
+    return 0
+
+
 # ----------------------------------------------------------------------------- main
 
 def main(argv=None):
@@ -2388,6 +2587,8 @@ def main(argv=None):
     s.add_argument("--sync", action="store_true", help="open issues for new questions and close settled ones")
     s.add_argument("--apply", action="store_true", help="apply maintainers' decisions from the issues")
     s.add_argument("--dry-run", action="store_true")
+    s = sub.add_parser("intake", help="suggestions and provided documents from GitHub issues")
+    s.add_argument("--dry-run", action="store_true")
     s = sub.add_parser("log-human")
     s.add_argument("--run")
     s.add_argument("--id", required=True)
@@ -2404,7 +2605,7 @@ def main(argv=None):
     cmds = {"new": cmd_new, "status": cmd_status, "stage": cmd_stage, "dedupe": cmd_dedupe, "textify": cmd_textify,
             "evidence": cmd_evidence, "sample": cmd_sample, "compare": cmd_compare, "queue": cmd_queue,
             "assemble": cmd_assemble, "report": cmd_report, "frame": cmd_frame, "log-human": cmd_log_human,
-            "log-scope": cmd_log_scope, "hosts": cmd_hosts, "questions": cmd_questions}
+            "log-scope": cmd_log_scope, "hosts": cmd_hosts, "questions": cmd_questions, "intake": cmd_intake}
     if not args.cmd:
         ap.print_help()
         return 2

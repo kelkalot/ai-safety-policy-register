@@ -368,7 +368,7 @@ Authors: {authors} ({affiliation}). Please say in your own text that the registe
 
 ## Corrections and updates
 
-Open a discussion on this dataset naming the record ID and the official source that contradicts it. Updates follow the method in `AGENTS.md`; the code and the web app are on [GitHub]({github}).
+Everything a person adds goes through an issue on [GitHub]({github}): *Suggest an instrument* for a missing instrument or news about a record, *Provide a document* for a source the archiver cannot download, and a comment on an issue labelled `question` to help settle an open question. A maintainer decides with one line, the next pipeline run applies it, and the change is recorded in the history with the issue link. The README's "How to contribute" section explains the mechanism.
 """.format(pretty=PRETTY_NAME, space=space_url, archive=archive_url, ns=ns, name=name,
            snapshot=meta.get("snapshot_date"), version=meta.get("version"), github=github_url,
            bibtex=bibtex(meta, repo_url), authors=authors, affiliation=AFFILIATION,
@@ -735,7 +735,7 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description="Publish the register to Hugging Face.")
     ap.add_argument("--namespace", default="kelkalot")
     ap.add_argument("--name", default="every-ai-policy-ever")
-    ap.add_argument("--github", default="https://github.com/kelkalot/ai-safety-policy-register")
+    ap.add_argument("--github", default="https://github.com/kelkalot/every-ai-policy-ever")
     ap.add_argument("--out", default=str(ROOT / "dist" / "hf"))
     ap.add_argument("--push", action="store_true", help="upload to Hugging Face after building")
     ap.add_argument("--only", default="dataset,archive,space", help="comma-separated subset to upload: dataset, archive, space")

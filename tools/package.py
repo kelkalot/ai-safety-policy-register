@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build one zip file that holds the whole register, ready to share.
 
-    python3 tools/package.py                 # -> dist/ai-safety-policy-register_<snapshot>.zip
+    python3 tools/package.py                 # -> dist/every-ai-policy-ever_<snapshot>.zip
     python3 tools/package.py --no-archive    # app and data only (a few MB), without the source documents
     python3 tools/package.py --out /some/folder
 
@@ -131,7 +131,7 @@ def main(argv=None):
         build.save(db)
     meta = db.get("meta") or {}
     include_archive = not args.no_archive
-    folder = "ai-safety-policy-register_%s%s" % (meta.get("snapshot_date", "snapshot"), "" if include_archive else "_data-only")
+    folder = "every-ai-policy-ever_%s%s" % (meta.get("snapshot_date", "snapshot"), "" if include_archive else "_data-only")
     out_dir = Path(args.out); out_dir.mkdir(parents=True, exist_ok=True)
     zip_path = out_dir / (folder + ".zip")
 

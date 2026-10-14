@@ -76,6 +76,7 @@ ROLE_LABELS = {
     "secondary": "Secondary source",
     "official-rendered": "Official source, rendered in a browser",
     "official-print": "Official source, printed to PDF by a browser",
+    "provided": "Official source, a copy provided by a person because the site does not allow automated downloads",
 }
 
 BOT_PATTERNS = [
@@ -541,6 +542,8 @@ class RecordJob:
         prev = rec.get("local_copy") or {}
         self.prev_files = {f.get("role_key"): f for f in prev.get("files") or [] if f.get("role_key")}
         self.prev_attempts = prev.get("attempts") or []
+        # copies a person provided (archive.py --provide) are never fetched again, so every run carries them over
+        self.provided = [f for f in prev.get("files") or [] if f.get("role") == "provided"]
         self.files, self.attempts, self.notes = [], [], []
         self.official_ok = False
         self.official_warnings = []
@@ -622,9 +625,12 @@ class RecordJob:
     # -- outcome
     def finalise(self):
         rec = self.rec
+        have = {f.get("path") for f in self.files}
+        self.files += [dict(f) for f in self.provided if f.get("path") not in have and (ROOT / f["path"]).is_file()]
         stale = [f for f in self.files if f.get("stale")]
         fresh = [f for f in self.files if not f.get("stale")]
-        has_official = any(f["role_key"] in ("official", "official-rendered") for f in fresh)
+        provided = [f for f in fresh if f.get("role") == "provided"]
+        has_official = any(f["role_key"] in ("official", "official-rendered") for f in fresh) or bool(provided)
         has_any_official = any(f["role_key"].startswith("official") for f in self.files)
         has_secondary = any(f["role_key"] == "secondary" for f in self.files)
         flags = []
@@ -659,6 +665,8 @@ class RecordJob:
             status = "failed"
             flags.append("The official source could not be downloaded: %s." % (self.official_error or "unknown error"))
         flags.extend(self.notes)
+        if provided and not any(f["role_key"] in ("official", "official-rendered") for f in fresh):
+            flags.append(provided_flag(provided[-1]))
         if status == "archived" and any(f["role_key"].startswith(("official", "document")) for f in stale):
             status = "archived-review"  # a stale secondary is noted in the flag but does not need a review
         if any(f.get("changed") for f in fresh):
@@ -671,7 +679,7 @@ class RecordJob:
             "flag": " ".join(flags) or None,
             "last_attempt": iso(self.run_time),
             "files": sorted(self.files, key=lambda f: ["official", "official-rendered", "official-print",
-                                                        "document", "secondary"].index(f["role"])
+                                                        "provided", "document", "secondary"].index(f["role"])
                             if f["role"] in ROLE_LABELS else 9),
             "attempts": history,
         }
@@ -839,6 +847,50 @@ def run_browser(job, bf, fetcher, args):
 
 
 # ----------------------------------------------------------------------------- modes
+
+def provided_flag(f):
+    return ("The official site does not allow automated downloads; the stored copy was provided by %s and confirmed by %s%s."
+            % (f.get("provided_by") or "a person", f.get("confirmed_by") or "a maintainer",
+               (" (issue #%s)" % f["issue"]) if f.get("issue") else ""))
+
+
+def store_provided(db, rid, src, url, by, confirmed_by=None, issue=None, note=None, source_url=None):
+    """Store a document a person downloaded by hand (the site blocks automated downloads by robots.txt or refuses
+    this network) as a copy of the record's official source, with who provided and who confirmed it."""
+    import mimetypes
+    rec = {r["id"]: r for r in db["records"]}.get(rid)
+    if not rec:
+        raise SystemExit("No record %s" % rid)
+    body = Path(src).read_bytes()
+    if not body:
+        raise SystemExit("%s is empty" % src)
+    digest = sha256(body)
+    ctype = mimetypes.guess_type(str(src))[0] or "application/octet-stream"
+    ext = Path(src).suffix.lower() or ext_for(ctype, body, url)
+    lc = rec.get("local_copy") or {}
+    files = [f for f in lc.get("files") or []]
+    if any(f.get("sha256") == digest for f in files):
+        return None  # already stored
+    folder = ARCHIVE / rid / iso(utcnow())[:10]
+    folder.mkdir(parents=True, exist_ok=True)
+    name, n = "provided" + ext, 2
+    while (folder / name).exists():
+        name, n = "provided-%d%s" % (n, ext), n + 1
+    (folder / name).write_bytes(body)
+    RecordJob._append_sums(folder, name, digest)
+    now = iso(utcnow())
+    f = {"role_key": "provided", "role": "provided", "label": ROLE_LABELS["provided"],
+         "path": (folder / name).relative_to(ROOT).as_posix(), "url": url, "final_url": source_url or url,
+         "http_status": None, "content_type": ctype, "bytes": len(body), "sha256": digest, "text_sha256": None,
+         "retrieved_at": now, "last_checked": now, "method": "provided", "last_modified": None, "etag": None,
+         "changed": False, "previous_sha256": None, "previous_path": None, "stale": False, "warning": None,
+         "integrity": "ok", "provided_by": by, "confirmed_by": confirmed_by or by, "issue": issue, "note": note}
+    files.append(f)
+    has_fresh_official = any(x.get("role_key") in ("official", "official-rendered") and not x.get("stale") for x in files)
+    rec["local_copy"] = dict(lc, files=files, status="archived",
+                             flag=None if has_fresh_official else provided_flag(f), last_attempt=now)
+    return f
+
 
 def verify(db):
     problems = 0
@@ -1091,10 +1143,33 @@ def main(argv=None):
     ap.add_argument("--retries", type=int, default=2, help="retries for timeouts and 5xx/429 errors (default 2)")
     ap.add_argument("--max-mb", type=int, default=150, help="largest file to keep, in MB (default 150)")
     ap.add_argument("--dry-run", action="store_true", help="list what would be fetched and exit")
+    ap.add_argument("--provide", metavar="FILE", help="store FILE, downloaded by a person, as a copy of a record's official "
+                                                      "source (with --id, --url and --by)")
+    ap.add_argument("--id", help="with --provide: the record ID")
+    ap.add_argument("--url", help="with --provide: the official URL the document comes from")
+    ap.add_argument("--by", help="with --provide: who downloaded or provided it")
+    ap.add_argument("--confirmed-by", help="with --provide: the maintainer who checked it matches the official source "
+                                           "(default: --by)")
+    ap.add_argument("--issue", type=int, help="with --provide: the GitHub issue it was provided in")
+    ap.add_argument("--note", help="with --provide: a short note, e.g. how it was obtained")
     ap.add_argument("--verify", action="store_true", help="re-hash local files, flag missing/modified ones, and exit")
     args = ap.parse_args(argv)
 
     db = build.normalise(build.load())
+
+    if args.provide:
+        if not (args.id and args.url and args.by):
+            raise SystemExit("--provide needs --id, --url and --by")
+        f = store_provided(db, args.id, args.provide, args.url, args.by, args.confirmed_by, args.issue, args.note)
+        if not f:
+            print("%s already has this file (same SHA-256); nothing stored." % args.id)
+            return 0
+        build.save(db)
+        write_attention_log(db)
+        print("Stored %s for %s (SHA-256 %s), provided by %s, confirmed by %s." % (
+            f["path"], args.id, f["sha256"], f["provided_by"], f["confirmed_by"]))
+        print("Next: python3 tools/build.py; a refresh run of %s reads it as the official text." % args.id)
+        return 0
 
     if args.verify:
         print("Verifying local files against their recorded SHA-256 hashes ...")
