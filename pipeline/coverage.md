@@ -1,21 +1,21 @@
 # Search coverage
 
-Written 2026-10-14 by tools/pipeline.py frame --report from pipeline/frame.json: 259 jurisdictions, 1391 cells; 0 cells searched by the pipeline, 0 of them within 180 days.
+Written 2026-10-14 by tools/pipeline.py frame --report from pipeline/frame.json: 266 jurisdictions, 1646 cells; 0 cells searched by the pipeline, 0 of them within 180 days.
 
 | Region | Cells | Searched | Within 180 days | Jurisdictions with records |
 |---|---:|---:|---:|---:|
-| Central Asia | 48 | 0 | 0 | 4 |
-| East Asia | 40 | 0 | 0 | 5 |
-| Europe | 270 | 0 | 0 | 35 |
-| Global | 7 | 0 | 0 | 7 |
-| Latin America & Caribbean | 198 | 0 | 0 | 11 |
-| Middle East & North Africa | 120 | 0 | 0 | 9 |
-| North America | 220 | 0 | 0 | 29 |
-| Oceania | 84 | 0 | 0 | 2 |
-| South & Southeast Asia | 115 | 0 | 0 | 13 |
-| Sub-Saharan Africa | 289 | 0 | 0 | 11 |
+| Central Asia | 56 | 0 | 0 | 4 |
+| East Asia | 47 | 0 | 0 | 5 |
+| Europe | 317 | 0 | 0 | 35 |
+| Global | 12 | 0 | 0 | 7 |
+| Latin America & Caribbean | 231 | 0 | 0 | 11 |
+| Middle East & North Africa | 140 | 0 | 0 | 9 |
+| North America | 274 | 0 | 0 | 29 |
+| Oceania | 98 | 0 | 0 | 2 |
+| South & Southeast Asia | 134 | 0 | 0 | 13 |
+| Sub-Saharan Africa | 337 | 0 | 0 | 11 |
 
-## Never searched by the pipeline (259)
+## Never searched by the pipeline (266)
 
 - UN United Nations (Global), 13 record(s) from earlier research
 - UNESCO UNESCO (Global), 1 record(s) from earlier research
@@ -276,3 +276,10 @@ Written 2026-10-14 by tools/pipeline.py frame --report from pipeline/frame.json:
 - US-WI Wisconsin (US) (North America)
 - US-WV West Virginia (US) (North America)
 - US-WY Wyoming (US) (North America), 1 record(s) from earlier research
+- ISO ISO/IEC (International Organization for Standardization and International Electrotechnical Commission), JTC 1/SC 42 (Global)
+- CEN CEN and CENELEC (European Committee for Standardization and European Committee for Electrotechnical Standardization), JTC 21 (Europe)
+- ETSI ETSI (European Telecommunications Standards Institute) (Europe)
+- IAIS International Association of Insurance Supervisors (Global)
+- IOSCO International Organization of Securities Commissions (Global)
+- BCBS Basel Committee on Banking Supervision (Global)
+- FSB Financial Stability Board (Global)

@@ -147,12 +147,14 @@
         <li>AI-specific laws and implementing regulations, including major sub-national laws such as US state statutes.</li>
         <li>Executive orders, decrees and cabinet decisions on AI.</li>
         <li>Government safety and risk-management frameworks, guidelines, voluntary codes and technical standards.</li>
+        <li>Guidelines, opinions and published expectations of supervisory authorities on AI: sectoral ones such as financial, insurance and health supervisors, and horizontal ones such as data protection authorities and equality bodies. Letters and reports in which a supervisor states its expectations to a whole sector are included with a scope note.</li>
+        <li>European harmonised standards made for AI legislation (CEN-CENELEC, ETSI), and, with a scope note, international ISO/IEC standards that laws or official guidelines cite.</li>
         <li>Founding mandates of AI safety and AI security institutes.</li>
         <li>Flagship national AI strategies, only where they contain substantial safety or risk-governance content.</li>
         <li>Intergovernmental declarations, treaties, resolutions and government-commissioned scientific reports.</li>
         <li>Major pending bills, and revoked, lapsed or superseded instruments, kept for context and labelled as such.</li>
       </ul>
-      <p>It leaves out strategies with no safety content, general privacy, data or cybersecurity laws, and documents written by companies, think tanks or the press. Borderline instruments, such as a strategy with a small safety section or a law that is not AI-specific but governs an AI-safety question, are included and flagged with a scope note; the Scope filter shows them.</p>
+      <p>It leaves out strategies with no safety content, general privacy, data or cybersecurity laws, documents written by companies, think tanks, the press or professional and private standard-setters (such as IEEE or OWASP), and supervisory letters to a single firm, speeches and general annual reports. Borderline instruments, such as a strategy with a small safety section or a law that is not AI-specific but governs an AI-safety question, are included and flagged with a scope note; the Scope filter shows them.</p>
 
       <h2>How each record was verified</h2>
       <p>Every record was researched on 11 or 12 October 2026 against an official primary source: a government or legislature website, an official gazette, EUR-Lex, or the site of the intergovernmental body. The official page was fetched to confirm the title, date and status. The level shows how strong that confirmation is.</p>
@@ -177,6 +179,7 @@
 
       <h2>Coverage and known gaps</h2>
       <p>The register holds <span data-count="records"></span> instruments from <span data-count="countries"></span> countries and from the main intergovernmental bodies and summit processes. Sub-national records include <span data-count="states"></span> US states. Every G20 member and 25 of the 27 EU member states have at least one record. Statuses are as of <span data-count="snapshot"></span>. A country missing from the register may still have AI instruments.</p>
+      <p>Guidance from supervisory authorities and standards bodies was added to the scope in October 2026 and has not been searched systematically yet, so the register holds almost none of it so far. The coverage frame lists a supervisors cell for every national, EU and sub-national jurisdiction, and entries for ISO/IEC, CEN-CENELEC, ETSI, IAIS, IOSCO, the Basel Committee and the Financial Stability Board; <code>pipeline/coverage.md</code> shows which have been searched.</p>
 
       <h3>Not adopted yet</h3>
       <p>As of the snapshot these instruments did not exist in adopted or published form, so there is nothing to record:</p>
@@ -210,7 +213,7 @@
             <tr><td>title / short_title</td><td>Official title (official English title where one exists) and common short name.</td></tr>
             <tr><td>original_title</td><td>Title in the original language, where it is not English.</td></tr>
             <tr><td>jurisdiction / level</td><td>Issuing country, bloc or body; International, Supranational, National or Sub-national.</td></tr>
-            <tr><td>instrument_type</td><td>Law, regulation, executive order, guidelines, voluntary code, standard, institute mandate, declaration, treaty, resolution, bill, strategy or report. Binding internal government directives (OMB memoranda, Treasury Board directives, APS policies) are typed as regulation / implementing rule.</td></tr>
+            <tr><td>instrument_type</td><td>Law, regulation, executive order, guidelines, voluntary code, standard, institute mandate, declaration, treaty, resolution, bill, strategy, report, or supervisory statement / letter (a supervisor's statement of expectations to a sector, in a letter, statement or thematic review; a supervisor's formal guidelines are guidelines). Binding internal government directives (OMB memoranda, Treasury Board directives, APS policies) are typed as regulation / implementing rule.</td></tr>
             <tr><td>legal_force / status</td><td>Binding, non-binding or proposed; current status as of the snapshot.</td></tr>
             <tr><td>date_*</td><td>Published or adopted, in force, and last updated (amendment, new version, delay or status change). ISO dates; <span class="mono">YYYY-MM</span> or <span class="mono">YYYY</span> when the source gives no exact day. The published date is the date of the act itself (adoption, signature or issue); the gazette or Official Journal date, where different, is in the notes.</td></tr>
             <tr><td>official_identifier</td><td>The citable number: CELEX or OJ reference, EO number, CETS number, UN symbol, bill number.</td></tr>

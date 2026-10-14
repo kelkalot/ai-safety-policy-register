@@ -8,7 +8,8 @@
   "ministries": "ministries or agencies for digital affairs, science and technology, justice (state agencies for sub-national)",
   "ai-bodies": "AI-specific regulators, AI offices and AI safety or security institutes",
   "elections": "election authorities: rules on AI and synthetic media in campaigns",
-  "repository": "the body's own document repository, declarations and resolutions"
+  "repository": "the body's own document repository, declarations and resolutions",
+  "supervisors": "supervisory authorities, sectoral (banking and financial services, insurance and pensions, securities, health and medicines) and horizontal (data protection, equality and anti-discrimination, consumer protection, competition): AI guidelines, opinions, supervisory statements, Q&As, sector-wide letters and thematic reviews"
  },
  "jurisdictions": [
   {
@@ -23,7 +24,6 @@
     "digitallibrary.un.org",
     "docs.un.org",
     "documents.un.org",
-    "disarmament.unoda.org",
     "press.un.org"
    ],
    "cells": {
@@ -88,8 +88,7 @@
     "mofa.go.jp",
     "elysee.fr",
     "oecd.org",
-    "pm.gc.ca",
-    "g7.utoronto.ca"
+    "pm.gc.ca"
    ],
    "cells": {
     "repository": {
@@ -109,7 +108,6 @@
    "records": 2,
    "known_hosts": [
     "dirco.gov.za",
-    "g20.utoronto.ca",
     "commerce.gov",
     "assets.publishing.service.gov.uk"
    ],
@@ -208,7 +206,6 @@
    "records": 2,
    "known_hosts": [
     "brics.br",
-    "en.kremlin.ru",
     "dirco.gov.za",
     "sanews.gov.za"
    ],
@@ -287,6 +284,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -334,6 +337,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -377,6 +386,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -431,6 +446,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -474,6 +495,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -525,6 +552,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -572,6 +605,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -584,8 +623,7 @@
    "records": 2,
    "known_hosts": [
     "parliament.bg",
-    "pris.government.bg",
-    "bta.bg"
+    "pris.government.bg"
    ],
    "cells": {
     "legislature": {
@@ -619,6 +657,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -668,6 +712,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -722,6 +772,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -735,8 +791,7 @@
    "known_hosts": [
     "mpo.gov.cz",
     "digital-strategy.ec.europa.eu",
-    "agenturacas.gov.cz",
-    "asociace.ai"
+    "agenturacas.gov.cz"
    ],
    "cells": {
     "legislature": {
@@ -770,6 +825,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -825,6 +886,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -872,6 +939,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -883,8 +956,7 @@
    "parent": null,
    "records": 1,
    "known_hosts": [
-    "finlex.fi",
-    "parliament.fi"
+    "finlex.fi"
    ],
    "cells": {
     "legislature": {
@@ -918,6 +990,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -971,6 +1049,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -1020,6 +1104,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -1032,8 +1122,7 @@
    "records": 3,
    "known_hosts": [
     "ia37rg02wpsa01.blob.core.windows.net",
-    "foresight.gov.gr",
-    "dpa.gr"
+    "foresight.gov.gr"
    ],
    "cells": {
     "legislature": {
@@ -1067,6 +1156,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -1082,8 +1177,7 @@
    "parent": null,
    "records": 2,
    "known_hosts": [
-    "njt.jog.gov.hu",
-    "cms.law"
+    "njt.jog.gov.hu"
    ],
    "cells": {
     "legislature": {
@@ -1117,6 +1211,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -1166,6 +1266,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -1220,6 +1326,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -1231,8 +1343,7 @@
    "parent": null,
    "records": 3,
    "known_hosts": [
-    "gazzettaufficiale.it",
-    "normattiva.it"
+    "gazzettaufficiale.it"
    ],
    "cells": {
     "legislature": {
@@ -1266,6 +1377,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -1282,10 +1399,8 @@
    "records": 3,
    "known_hosts": [
     "likumi.lv",
-    "saeima.lv",
     "varam.gov.lv",
-    "digital-strategy.ec.europa.eu",
-    "lvportals.lv"
+    "digital-strategy.ec.europa.eu"
    ],
    "cells": {
     "legislature": {
@@ -1319,6 +1434,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -1366,6 +1487,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -1419,6 +1546,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -1430,8 +1563,7 @@
    "parent": null,
    "records": 1,
    "known_hosts": [
-    "chd.lu",
-    "wdocs-pub.chd.lu"
+    "chd.lu"
    ],
    "cells": {
     "legislature": {
@@ -1465,6 +1597,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -1518,6 +1656,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -1561,6 +1705,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -1612,6 +1762,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -1655,6 +1811,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -1709,6 +1871,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -1752,6 +1920,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -1805,6 +1979,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -1854,6 +2034,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -1865,8 +2051,7 @@
    "parent": null,
    "records": 1,
    "known_hosts": [
-    "diariodarepublica.pt",
-    "files.diariodarepublica.pt"
+    "diariodarepublica.pt"
    ],
    "cells": {
     "legislature": {
@@ -1900,6 +2085,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -1915,8 +2106,7 @@
    "parent": null,
    "records": 1,
    "known_hosts": [
-    "senat.ro",
-    "cdep.ro"
+    "senat.ro"
    ],
    "cells": {
     "legislature": {
@@ -1950,6 +2140,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -2003,6 +2199,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -2050,6 +2252,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -2062,7 +2270,6 @@
    "records": 2,
    "known_hosts": [
     "srbija.gov.rs",
-    "kmp.respaweb.eu",
     "nitra.gov.rs"
    ],
    "cells": {
@@ -2101,6 +2308,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -2113,8 +2326,7 @@
    "records": 2,
    "known_hosts": [
     "nrsr.sk",
-    "static.slov-lex.sk",
-    "slov-lex.sk"
+    "static.slov-lex.sk"
    ],
    "cells": {
     "legislature": {
@@ -2148,6 +2360,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -2198,6 +2416,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -2253,6 +2477,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -2264,8 +2494,7 @@
    "parent": null,
    "records": 2,
    "known_hosts": [
-    "regeringen.se",
-    "pts.se"
+    "regeringen.se"
    ],
    "cells": {
     "legislature": {
@@ -2299,6 +2528,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -2352,6 +2587,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -2399,6 +2640,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -2455,6 +2702,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -2503,6 +2756,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -2563,6 +2822,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -2606,6 +2871,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -2662,6 +2933,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -2705,6 +2982,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -2756,6 +3039,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -2799,6 +3088,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -2852,6 +3147,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -2864,7 +3165,6 @@
    "records": 2,
    "known_hosts": [
     "camara.leg.br",
-    "www25.senado.leg.br",
     "tse.jus.br"
    ],
    "cells": {
@@ -2903,6 +3203,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -2916,8 +3222,7 @@
    "known_hosts": [
     "diariooficial.interior.gob.cl",
     "minciencia.gob.cl",
-    "camara.cl",
-    "senado.cl"
+    "camara.cl"
    ],
    "cells": {
     "legislature": {
@@ -2951,6 +3256,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -3006,6 +3317,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -3049,6 +3366,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -3100,6 +3423,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -3147,6 +3476,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -3190,6 +3525,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -3243,6 +3584,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -3286,6 +3633,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -3337,6 +3690,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -3380,6 +3739,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -3431,6 +3796,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -3478,6 +3849,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -3521,6 +3898,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -3574,6 +3957,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -3585,8 +3974,7 @@
    "parent": null,
    "records": 1,
    "known_hosts": [
-    "sil.gobernacion.gob.mx",
-    "basham.com.mx"
+    "sil.gobernacion.gob.mx"
    ],
    "cells": {
     "legislature": {
@@ -3620,6 +4008,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -3671,6 +4065,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -3718,6 +4118,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -3728,9 +4134,7 @@
    "region": "Latin America & Caribbean",
    "parent": null,
    "records": 1,
-   "known_hosts": [
-    "ultimahora.com"
-   ],
+   "known_hosts": [],
    "cells": {
     "legislature": {
      "last_searched": null,
@@ -3763,6 +4167,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -3818,6 +4228,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -3861,6 +4277,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -3912,6 +4334,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -3955,6 +4383,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -4006,6 +4440,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -4053,6 +4493,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -4064,8 +4510,7 @@
    "parent": null,
    "records": 1,
    "known_hosts": [
-    "gub.uy",
-    "impo.com.uy"
+    "gub.uy"
    ],
    "cells": {
     "legislature": {
@@ -4099,6 +4544,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -4150,6 +4601,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -4164,7 +4621,6 @@
     "cac.gov.cn",
     "gov.cn",
     "tc260.org.cn",
-    "chinalawtranslate.com",
     "openstd.samr.gov.cn",
     "miit.gov.cn",
     "most.gov.cn",
@@ -4202,6 +4658,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -4259,6 +4721,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -4302,6 +4770,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -4353,6 +4827,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -4366,10 +4846,7 @@
    "known_hosts": [
     "nia.or.kr",
     "law.go.kr",
-    "elaw.klri.re.kr",
     "aisi.re.kr",
-    "korea.kr",
-    "sw.or.kr",
     "msit.go.kr"
    ],
    "cells": {
@@ -4404,6 +4881,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -4451,6 +4934,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -4504,6 +4993,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -4547,6 +5042,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -4600,6 +5101,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -4646,6 +5153,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -4702,6 +5215,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -4747,6 +5266,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -4798,6 +5323,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -4810,8 +5341,7 @@
    "records": 3,
    "known_hosts": [
     "ai.gov.my",
-    "mastic.mosti.gov.my",
-    "strapi.naio.okie.my"
+    "mastic.mosti.gov.my"
    ],
    "cells": {
     "legislature": {
@@ -4845,6 +5375,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -4896,6 +5432,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -4939,6 +5481,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -4993,6 +5541,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -5038,6 +5592,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -5092,6 +5652,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -5107,9 +5673,7 @@
     "mddi.gov.sg",
     "csa.gov.sg",
     "pdpc.gov.sg",
-    "aiverifyfoundation.sg",
-    "parliament.gov.sg",
-    "sgaisi.sg"
+    "parliament.gov.sg"
    ],
    "cells": {
     "legislature": {
@@ -5143,6 +5707,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -5194,6 +5764,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -5205,8 +5781,7 @@
    "parent": null,
    "records": 3,
    "known_hosts": [
-    "etda.or.th",
-    "tilleke.com"
+    "etda.or.th"
    ],
    "cells": {
     "legislature": {
@@ -5240,6 +5815,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -5291,6 +5872,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -5306,9 +5893,7 @@
     "pbgdpl.cantho.gov.vn",
     "en.baochinhphu.vn",
     "english.mst.gov.vn",
-    "congbao.chinhphu.vn",
     "moc.gov.vn",
-    "vietnamplus.vn",
     "storage-vnportal.vnpt.vn"
    ],
    "cells": {
@@ -5343,6 +5928,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -5394,6 +5985,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -5405,8 +6002,7 @@
    "parent": null,
    "records": 1,
    "known_hosts": [
-    "president.az",
-    "static.president.az"
+    "president.az"
    ],
    "cells": {
     "legislature": {
@@ -5440,6 +6036,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -5487,6 +6089,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -5540,6 +6148,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -5585,6 +6199,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -5636,6 +6256,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -5679,6 +6305,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -5733,6 +6365,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -5776,6 +6414,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -5825,6 +6469,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -5879,6 +6529,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -5926,6 +6582,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -5969,6 +6631,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -6022,6 +6690,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -6067,6 +6741,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -6118,6 +6798,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -6161,6 +6847,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -6212,6 +6904,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -6259,6 +6957,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -6270,8 +6974,7 @@
    "parent": null,
    "records": 1,
    "known_hosts": [
-    "mtcit.gov.om",
-    "qanoon.om"
+    "mtcit.gov.om"
    ],
    "cells": {
     "legislature": {
@@ -6305,6 +7008,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -6320,8 +7029,7 @@
    "parent": null,
    "records": 1,
    "known_hosts": [
-    "sharek.gov.qa",
-    "prod16-assets.sprinklr.com"
+    "sharek.gov.qa"
    ],
    "cells": {
     "legislature": {
@@ -6355,6 +7063,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -6410,6 +7124,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -6453,6 +7173,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -6504,6 +7230,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -6551,6 +7283,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -6563,8 +7301,7 @@
    "records": 2,
    "known_hosts": [
     "cdn.tbmm.gov.tr",
-    "tbmm.gov.tr",
-    "morogluarseven.com"
+    "tbmm.gov.tr"
    ],
    "cells": {
     "legislature": {
@@ -6598,6 +7335,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -6652,6 +7395,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -6699,6 +7448,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -6742,6 +7497,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -6796,6 +7557,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -6839,6 +7606,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -6890,6 +7663,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -6933,6 +7712,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -6984,6 +7769,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -7027,6 +7818,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -7078,6 +7875,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -7121,6 +7924,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -7172,6 +7981,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -7215,6 +8030,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -7266,6 +8087,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -7309,6 +8136,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -7360,6 +8193,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -7403,6 +8242,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -7454,6 +8299,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -7497,6 +8348,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -7551,6 +8408,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -7594,6 +8457,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -7645,6 +8514,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -7656,8 +8531,7 @@
    "parent": null,
    "records": 1,
    "known_hosts": [
-    "moc.gov.gh",
-    "gna.org.gh"
+    "moc.gov.gh"
    ],
    "cells": {
     "legislature": {
@@ -7691,6 +8565,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -7742,6 +8622,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -7785,6 +8671,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -7839,6 +8731,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -7882,6 +8780,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -7933,6 +8837,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -7976,6 +8886,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -8027,6 +8943,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -8070,6 +8992,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -8121,6 +9049,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -8132,8 +9066,7 @@
    "parent": null,
    "records": 1,
    "known_hosts": [
-    "aim.govmu.org",
-    "mitci.govmu.org"
+    "aim.govmu.org"
    ],
    "cells": {
     "legislature": {
@@ -8167,6 +9100,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -8218,6 +9157,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -8265,6 +9210,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -8308,6 +9259,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -8362,6 +9319,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -8411,6 +9374,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -8454,6 +9423,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -8508,6 +9483,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -8551,6 +9532,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -8602,6 +9589,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -8645,6 +9638,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -8700,6 +9699,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -8743,6 +9748,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -8794,6 +9805,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -8841,6 +9858,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -8884,6 +9907,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -8937,6 +9966,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -8980,6 +10015,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -9036,6 +10077,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -9079,6 +10126,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -9130,6 +10183,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -9173,6 +10232,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -9224,6 +10289,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -9267,6 +10338,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -9321,6 +10398,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -9364,6 +10447,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -9415,6 +10504,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -9458,6 +10553,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -9509,6 +10610,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -9552,6 +10659,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -9603,6 +10716,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -9646,6 +10765,12 @@
      "where_to_look": []
     },
     "elections": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -9701,6 +10826,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -9738,6 +10869,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -9749,7 +10886,8 @@
    "parent": "CA",
    "records": 1,
    "known_hosts": [
-    "ola.org"
+    "ola.org",
+    "ontario.ca"
    ],
    "cells": {
     "legislature": {
@@ -9771,6 +10909,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -9810,6 +10954,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -9841,6 +10991,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -9882,6 +11038,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -9913,6 +11075,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -9955,6 +11123,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -9988,6 +11162,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -10030,6 +11210,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -10061,6 +11247,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -10100,6 +11292,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -10111,8 +11309,7 @@
    "parent": "US",
    "records": 1,
    "known_hosts": [
-    "flsenate.gov",
-    "floridaphoenix.com"
+    "flsenate.gov"
    ],
    "cells": {
     "legislature": {
@@ -10134,6 +11331,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -10149,8 +11352,7 @@
    "parent": "US",
    "records": 1,
    "known_hosts": [
-    "gov.georgia.gov",
-    "senatepress.net"
+    "gov.georgia.gov"
    ],
    "cells": {
     "legislature": {
@@ -10172,6 +11374,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -10187,8 +11395,7 @@
    "parent": "US",
    "records": 1,
    "known_hosts": [
-    "governor.hawaii.gov",
-    "transparencycoalition.ai"
+    "governor.hawaii.gov"
    ],
    "cells": {
     "legislature": {
@@ -10210,6 +11417,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -10251,6 +11464,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -10261,9 +11480,7 @@
    "region": "North America",
    "parent": "US",
    "records": 1,
-   "known_hosts": [
-    "transparencycoalition.ai"
-   ],
+   "known_hosts": [],
    "cells": {
     "legislature": {
      "last_searched": null,
@@ -10284,6 +11501,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -10328,6 +11551,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -10363,6 +11592,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -10394,6 +11629,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -10435,6 +11676,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -10466,6 +11713,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -10505,6 +11758,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -10536,6 +11795,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -10577,6 +11842,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -10608,6 +11879,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -10649,6 +11926,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -10684,6 +11967,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -10715,6 +12004,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -10756,6 +12051,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -10791,6 +12092,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -10822,6 +12129,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -10864,6 +12177,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -10899,6 +12218,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -10910,8 +12235,7 @@
    "parent": "US",
    "records": 1,
    "known_hosts": [
-    "repo.njstatelib.org",
-    "pub.njleg.state.nj.us"
+    "repo.njstatelib.org"
    ],
    "cells": {
     "legislature": {
@@ -10933,6 +12257,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -10972,6 +12302,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -10982,9 +12318,7 @@
    "region": "North America",
    "parent": "US",
    "records": 1,
-   "known_hosts": [
-    "naswnv.socialworkers.org"
-   ],
+   "known_hosts": [],
    "cells": {
     "legislature": {
      "last_searched": null,
@@ -11005,6 +12339,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -11046,6 +12386,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -11077,6 +12423,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -11116,6 +12468,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -11127,8 +12485,7 @@
    "parent": "US",
    "records": 1,
    "known_hosts": [
-    "apps.oregon.gov",
-    "transparencycoalition.ai"
+    "apps.oregon.gov"
    ],
    "cells": {
     "legislature": {
@@ -11150,6 +12507,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -11189,6 +12552,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -11199,9 +12568,7 @@
    "region": "North America",
    "parent": "US",
    "records": 1,
-   "known_hosts": [
-    "nixonpeabody.com"
-   ],
+   "known_hosts": [],
    "cells": {
     "legislature": {
      "last_searched": null,
@@ -11222,6 +12589,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -11261,6 +12634,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -11296,6 +12675,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -11327,6 +12712,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -11369,6 +12760,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -11406,6 +12803,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -11417,8 +12820,7 @@
    "parent": "US",
    "records": 1,
    "known_hosts": [
-    "lis.virginia.gov",
-    "skadden.com"
+    "lis.virginia.gov"
    ],
    "cells": {
     "legislature": {
@@ -11440,6 +12842,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -11477,6 +12885,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -11519,6 +12933,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -11550,6 +12970,12 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,
@@ -11589,6 +13015,12 @@
      "outcome": null,
      "run_id": null,
      "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
     }
    }
   },
@@ -11622,6 +13054,131 @@
      "where_to_look": []
     },
     "ministries": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    },
+    "supervisors": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    }
+   }
+  },
+  {
+   "code": "ISO",
+   "name": "ISO/IEC (International Organization for Standardization and International Electrotechnical Commission), JTC 1/SC 42",
+   "level": "International",
+   "region": "Global",
+   "parent": null,
+   "records": 0,
+   "known_hosts": [],
+   "cells": {
+    "repository": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    }
+   }
+  },
+  {
+   "code": "CEN",
+   "name": "CEN and CENELEC (European Committee for Standardization and European Committee for Electrotechnical Standardization), JTC 21",
+   "level": "International",
+   "region": "Europe",
+   "parent": null,
+   "records": 0,
+   "known_hosts": [],
+   "cells": {
+    "repository": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    }
+   }
+  },
+  {
+   "code": "ETSI",
+   "name": "ETSI (European Telecommunications Standards Institute)",
+   "level": "International",
+   "region": "Europe",
+   "parent": null,
+   "records": 0,
+   "known_hosts": [],
+   "cells": {
+    "repository": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    }
+   }
+  },
+  {
+   "code": "IAIS",
+   "name": "International Association of Insurance Supervisors",
+   "level": "International",
+   "region": "Global",
+   "parent": null,
+   "records": 0,
+   "known_hosts": [],
+   "cells": {
+    "repository": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    }
+   }
+  },
+  {
+   "code": "IOSCO",
+   "name": "International Organization of Securities Commissions",
+   "level": "International",
+   "region": "Global",
+   "parent": null,
+   "records": 0,
+   "known_hosts": [],
+   "cells": {
+    "repository": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    }
+   }
+  },
+  {
+   "code": "BCBS",
+   "name": "Basel Committee on Banking Supervision",
+   "level": "International",
+   "region": "Global",
+   "parent": null,
+   "records": 0,
+   "known_hosts": [],
+   "cells": {
+    "repository": {
+     "last_searched": null,
+     "outcome": null,
+     "run_id": null,
+     "where_to_look": []
+    }
+   }
+  },
+  {
+   "code": "FSB",
+   "name": "Financial Stability Board",
+   "level": "International",
+   "region": "Global",
+   "parent": null,
+   "records": 0,
+   "known_hosts": [],
+   "cells": {
+    "repository": {
      "last_searched": null,
      "outcome": null,
      "run_id": null,

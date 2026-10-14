@@ -27,4 +27,4 @@ deploy/pilot-gate/.env
 deploy/pilot-gate/local/
 
 # macOS / iCloud conflict copies ("name 2.ext")
-* 2.*
+* [2-9].*

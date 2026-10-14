@@ -34,7 +34,7 @@ VOCAB = {
     "instrument_type": ["Law", "Regulation / implementing rule", "Executive order / decree", "Guidelines / framework",
                         "Voluntary code / commitments", "Technical standard", "Institutional mandate",
                         "Declaration / statement", "Treaty / convention", "Resolution", "Bill / draft law",
-                        "Strategy / action plan", "Report (government-commissioned)"],
+                        "Strategy / action plan", "Report (government-commissioned)", "Supervisory statement / letter"],
     "legal_force": ["Binding", "Non-binding", "Proposed"],
     "status": ["In force", "Partially in force", "Adopted, not yet in force", "Published (non-binding, current)",
                "Draft / proposed", "Superseded", "Revoked / withdrawn", "Lapsed"],

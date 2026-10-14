@@ -252,7 +252,7 @@ configs:
 
 A register of {n} official instruments on AI safety and AI regulation, from {countries} countries, including sub-national records for {states} US states, and from intergovernmental bodies such as the UN, the OECD, the G7, the G20 and the Council of Europe. It covers laws, implementing regulations, executive orders, government frameworks and guidelines, AI safety institute mandates, national strategies with safety content, treaties, declarations and pending bills, from {years}. Each record links to its official source and says how it was verified.
 
-Despite the name, it is not every AI policy: scope is limited to official instruments on AI safety and regulation, and the coverage section below lists what is still missing.
+Despite the name, it is not every AI policy: scope is limited to official instruments on AI safety and regulation, and the coverage section below lists what is still missing. Guidance from supervisory authorities (financial, insurance and health supervisors, data protection authorities, equality bodies) and standards bodies (CEN-CENELEC, ETSI, ISO/IEC) was added to the scope in October 2026 and has not been searched systematically yet.
 
 - **Browse it:** [{pretty} on Spaces]({space}), with search, filters, a chart, record pages and citations.
 - **Source documents:** [{ns}/{name}-archive]({archive}), the stored copies of the official sources with SHA-256 hashes. Open to anyone with a free Hugging Face account.

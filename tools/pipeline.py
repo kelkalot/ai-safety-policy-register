@@ -85,7 +85,8 @@ QUOTE_MIN_ALNUM = 8   # a quote needs at least this many letters or digits to id
 # Which stored files can count as official evidence. The archiver sets a file's role; an agent only labels its quotes,
 # so a label is capped by the role and by the host the file came from.
 SECONDARY_ROLES = {"secondary"}
-GOV_HOST = re.compile(r"\.(gov|mil|int)$|(^|\.)(gov|gob|gouv|govt|gv|go|gub|mil|admin|gc)\.[a-z]{2,3}$"
+GOV_HOST = re.compile(r"\.(gov|mil|int)$|(^|\.)(gov|gob|gouv|govt|gv|go|gub|mil|admin|gc|leg)\.[a-z]{2,3}$"
+                      r"|\.state\.[a-z]{2}\.us$"
                       r"|(^|\.)(europa\.eu|un\.org|unesco\.org|oecd\.org|oecd\.ai|wto\.org|asean\.org)$")
 NOT_OFFICIAL_HOSTS = set(publish_hf.THIRD_PARTY_HOSTS)
 SUMMARY_MIN, SUMMARY_MAX = 250, 700
@@ -320,9 +321,9 @@ def cmd_frame(args):
             raise SystemExit("--add needs --name, --level and --region")
         if args.region not in validate.VOCAB["region"] or args.level not in validate.VOCAB["jurisdiction_level"]:
             raise SystemExit("--region and --level must use the register's vocabulary")
-        types = {"National": ["legislature", "gazette", "executive", "ministries", "ai-bodies", "elections"],
-                 "Supranational": ["legislature", "gazette", "executive", "ai-bodies"],
-                 "Sub-national": ["legislature", "gazette", "executive", "ministries"],
+        types = {"National": ["legislature", "gazette", "executive", "ministries", "ai-bodies", "elections", "supervisors"],
+                 "Supranational": ["legislature", "gazette", "executive", "ai-bodies", "supervisors"],
+                 "Sub-national": ["legislature", "gazette", "executive", "ministries", "supervisors"],
                  "International": ["repository"]}[args.level]
         f["jurisdictions"].append({"code": args.add, "name": args.name, "level": args.level, "region": args.region,
                                    "parent": args.parent, "records": 0, "known_hosts": [],
