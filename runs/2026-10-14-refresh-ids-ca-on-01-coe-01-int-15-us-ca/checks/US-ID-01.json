@@ -1,0 +1,74 @@
+{
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Tracker heading 'SB 1297: The Conversational AI Safety Act'."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "'Enacted March 31, 2026'; this is the enactment date, which the register uses for enacted laws."
+  },
+  "date_in_force": {
+   "verdict": "supported",
+   "why": "'Effective July 1, 2027'. Other web results agree except one that gives 2026; all rest on unstored pages."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Enacted 31 March 2026 with effect on 1 July 2027, which is after today (14 Oct 2026); 'Adopted, not yet in force' is correct."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "Enacted law."
+  },
+  "issuing_body": {
+   "verdict": "unsupported",
+   "why": "'signed by Governor Brad Little' is not in the stored tracker (extractor says so). The Idaho Legislature as issuer is reasonable but unstored."
+  },
+  "official_identifier": {
+   "verdict": "unsupported",
+   "why": "'S 1297 (2026 Regular Session, 68th Idaho Legislature)': bill number supported ('SB 1297'), '68th Idaho Legislature' is not in the stored tracker."
+  },
+  "summary": {
+   "verdict": "unsupported",
+   "why": "Several claims are absent from the only stored source: Attorney General enforcement, the USD 1,000 and USD 500,000 penalties, the three-hour disclaimer, referral to crisis services, no claim of licensed mental-health care, and 'where the operator knows a user is a minor'. The penalty sentence also uses the hedge 'reported' (AGENTS.md rule 5)."
+  },
+  "notes": {
+   "verdict": "unsupported",
+   "why": "Senate 21-12 and House 54-12 votes, '19 Mar 2026' and the 'already in effect' commentary are not in the stored tracker; 'Reported', 'Trackers give' and 'the enrolled text should be checked' are hedges or process language. The Nebraska comparison is partly visible (similar title), but the 1 Jul 2027 Nebraska date is not checked in the stored text."
+  },
+  "verification.note": {
+   "verdict": "supported",
+   "why": "Accurately lists what the stored tracker confirms and what it does not; CAUTION present."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Operators must show a disclaimer repeated at least every three hours",
+   "verdict": "unsupported",
+   "locator": "not in archive/US-ID-01/2026-10-12/secondary.html.txt"
+  },
+  {
+   "claim": "The Attorney General enforces; penalties USD 1,000 per violation capped at USD 500,000",
+   "verdict": "unsupported",
+   "locator": "not in the stored tracker"
+  },
+  {
+   "claim": "Operators may not use reward features to engage minors and must block sexually explicit content for minors",
+   "verdict": "supported",
+   "locator": "section 'Idaho', SB 1297 entry"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "State law on conversational AI and minors' safety; in scope as a sub-national AI-specific law."
+ },
+ "overall": "needs-human",
+ "note": "Title, enactment date, effective date, status and legal force are supported by the Transparency Coalition tracker (level C). The summary and notes go well beyond that one stored source: AG enforcement, penalties, the three-hour disclaimer, the votes and the Governor's signature are unstored, and both texts contain hedges ('reported', 'Trackers give', 'should be checked'). A targeted search found no newer version; it did show LegiScan listing Session Law Chapter 249 and mostly July 1, 2027, but those pages are not stored. A human should decide whether to trim the summary to the stored text or store a bill copy.",
+ "cand_id": "US-ID-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14"
+}

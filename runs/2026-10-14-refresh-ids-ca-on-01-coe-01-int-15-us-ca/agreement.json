@@ -1,0 +1,91 @@
+{
+ "run_id": "2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+ "generated": "2026-10-14",
+ "compared": 5,
+ "pending": [],
+ "overall_field_agreement": 1.0,
+ "fields": {
+  "decision": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "title": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "original_title": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "issuing_body": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "official_identifier": {
+   "compared": 1,
+   "agree": 1,
+   "rate": 1.0
+  },
+  "date_published": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_in_force": {
+   "compared": 1,
+   "agree": 1,
+   "rate": 1.0
+  },
+  "date_last_updated": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "status": {
+   "compared": 1,
+   "agree": 1,
+   "rate": 1.0
+  },
+  "legal_force": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "instrument_type": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "jurisdiction_level": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "region": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "country": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "safety_topics": {
+   "compared": 1,
+   "agree": 1,
+   "rate": 1.0
+  }
+ },
+ "disagreements": {
+  "CA-ON-01": [],
+  "CN-06": [],
+  "US-27": [],
+  "US-CA-08": [],
+  "US-NV-01": []
+ }
+}

@@ -1,0 +1,120 @@
+{
+ "cand_id": "INT-15",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "INT-15",
+ "record": {
+  "notes": "First proposed by China at WAIC in July 2025. Signed in Shanghai on 16 Jul 2026 by representatives of 29 countries, which became founding members; Foreign Minister Wang Yi signed for China, and named signatories include Kazakhstan, Laos, Pakistan, Russia and Indonesia. The Agreement remained open for signature until 31 Jul 2026; Georgia's ambassador signed it in Beijing on that day. The Agreement describes WAICO as an independent intergovernmental international organization that follows the purposes of the UN Charter. The WAIC 2026 Chair's Statement (17 Jul 2026) reports the signing and says WAICO shall be open to all countries.",
+  "verification": {
+   "note": "Stored MFA page on the signing ceremony (updated 16 Jul 2026) confirms the exact title, the 16 Jul 2026 signing in Shanghai, the 29 founding signatories, the Shanghai headquarters and the stated purposes. The stored WAIC 2026 Chair's Statement (MFA, 17 Jul 2026) confirms the signing. A stored page of the Embassy of Georgia in China (31 Jul 2026) confirms Georgia's signature on 31 Jul 2026 and that the Agreement was open for signature until that day. None of the pages gives the treaty text, its authentic languages, or entry-into-force and ratification conditions, so 'Adopted, not yet in force' is provisional. The July 2025 proposal date in the notes is not in the stored pages. Region 'Global' is used because this is a multilateral instrument, although China initiated it."
+  },
+  "issuing_body": "Signatory governments (29 founding members; open for signature until 31 Jul 2026); signing hosted by China in Shanghai"
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/INT-15/2026-10-11/official.html",
+    "sha256": "8d57123e9f85ed2705b364e57aa8d1f3c46c9d851ea5748bf0ef7fb6d68ef78c",
+    "locator": "article heading",
+    "quote": "Signing Ceremony of the Agreement on the Establishment of the World Artificial Intelligence Cooperation Organization Held in Shanghai",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/INT-15/2026-10-11/official.html",
+    "sha256": "8d57123e9f85ed2705b364e57aa8d1f3c46c9d851ea5748bf0ef7fb6d68ef78c",
+    "locator": "article body, first paragraph",
+    "quote": "On July 16, 2026, the signing ceremony of the Agreement on the Establishment of the World Artificial Intelligence Cooperation Organization was held in Shanghai.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-15/2026-10-11/official.html",
+    "sha256": "8d57123e9f85ed2705b364e57aa8d1f3c46c9d851ea5748bf0ef7fb6d68ef78c",
+    "locator": "article body, third paragraph",
+    "quote": "signed the agreement, with these countries becoming founding members of the Organization",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-15/2026-10-11/secondary.html",
+    "sha256": "c7a9044a12440bf652f44c6136810b51eeb2d018b0e19dca73b50b5ddc8d0c69",
+    "locator": "Chair's Statement, final paragraph",
+    "quote": "WAICO will be the world's first intergovernmental international organization on AI, with its Headquarters located in Shanghai.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/INT-15/extra-8b0aeeef23/2026-10-14/official.html",
+    "sha256": "47433ea95128cbe94d951090f437014bc4c6e5d8e8838085ade948789d034e9c",
+    "locator": "news item, 31 July 2026, second paragraph",
+    "quote": "The founding ceremony of the Organization was held on July 16, 2026, during which the Agreement was signed by representatives of 29 countries.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/INT-15/2026-10-11/official.html",
+    "sha256": "8d57123e9f85ed2705b364e57aa8d1f3c46c9d851ea5748bf0ef7fb6d68ef78c",
+    "locator": "article body, third paragraph",
+    "quote": "Representatives of 29 countries, including Kazakhstan's Deputy Prime Minister and Minister of Artificial Intelligence and Digital Development Zhaslan Madiyev",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-15/2026-10-11/official.html",
+    "sha256": "8d57123e9f85ed2705b364e57aa8d1f3c46c9d851ea5748bf0ef7fb6d68ef78c",
+    "locator": "article body, first paragraph",
+    "quote": "Foreign Minister Wang Yi attended the ceremony and signed the agreement on behalf of the Chinese government.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/INT-15/extra-8b0aeeef23/2026-10-14/official.html",
+    "sha256": "47433ea95128cbe94d951090f437014bc4c6e5d8e8838085ade948789d034e9c",
+    "locator": "news item, 31 July 2026, second paragraph",
+    "quote": "The Agreement remained open for signature until July 31, 2026.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/INT-15/extra-8b0aeeef23/2026-10-14/official.html",
+    "sha256": "47433ea95128cbe94d951090f437014bc4c6e5d8e8838085ade948789d034e9c",
+    "locator": "news item, 31 July 2026, first paragraph",
+    "quote": "On July 31, 2026, in Beijing, Ambassador Extraordinary and Plenipotentiary of Georgia to the People's Republic of China, Paata Kalandadze, signed the Agreement on the Establishment of the World Artificial Intelligence Cooperation Organization.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-15/2026-10-11/official.html",
+    "sha256": "8d57123e9f85ed2705b364e57aa8d1f3c46c9d851ea5748bf0ef7fb6d68ef78c",
+    "locator": "article body, second paragraph",
+    "quote": "The Agreement specifies that the World Artificial Intelligence Cooperation Organization is an independent intergovernmental international organization that follows the purposes of the UN Charter",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Latest events in the stored files: signature in Shanghai on 16 Jul 2026 by 29 countries, which became founding members (MFA page); further signature by Georgia in Beijing on 31 Jul 2026, the last day the Agreement was open for signature (Georgian embassy page). The Chair's Statement of 17 Jul 2026 says WAICO 'will be' the first intergovernmental organization on AI. No stored page quotes an entry-into-force clause or reports any ratification or deposit. A treaty founding an intergovernmental organization, signed and closed for signature, is adopted. With no entry-into-force event or rule in the stored text, the status as of 14 Oct 2026 is 'Adopted, not yet in force', and date_in_force stays null. This is provisional until the treaty text or a depositary notice is stored.",
+  "scope_reasoning": "In scope without a scope note: an intergovernmental treaty founding an international organization for AI governance whose stated aim includes the 'safe' development of AI.",
+  "changes": {
+   "issuing_body": "The Agreement stayed open for signature until 31 Jul 2026, and Georgia signed on that day (Georgian embassy page), so the signatories are no longer only the 29 founding members.",
+   "notes": "Added the signature window and Georgia's signature. Removed two remarks about the record itself (provisional status, why region is 'Global'); they now sit in verification.note. Added the Agreement's description of WAICO and 'open to all countries'.",
+   "verification": "New note for this refresh."
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "language holds a remark, 'Not confirmed (multilingual treaty text not reviewed)', not a language. No stored page gives the Agreement's authentic languages, so the field cannot be filled from evidence; it is left as it is.",
+  "safety_topics has one value ('international cooperation'), below the minimum of two in AGENTS.md 5.6. The stored pages describe the Agreement's purposes only in general terms (a 'beneficial, safe and fair direction', bridging the AI divide), which do not clearly support a second topic from the vocabulary. Not changed.",
+  "'First proposed by China at WAIC in July 2025' (notes) is not in the stored pages; it rests on the earlier pass.",
+  "Entry-into-force and ratification conditions are unknown; no stored page has the treaty text or a depositary notice.",
+  "The total number of signatories after 16 Jul 2026 is not known: the stored pages show 29 at the ceremony plus Georgia on 31 Jul 2026, and others may have signed in the same window."
+ ]
+}

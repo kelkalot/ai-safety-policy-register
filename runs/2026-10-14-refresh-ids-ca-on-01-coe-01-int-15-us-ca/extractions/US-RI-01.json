@@ -1,0 +1,157 @@
+{
+ "cand_id": "US-RI-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "US-RI-01",
+ "record": {
+  "verification": {
+   "note": "CAUTION: no official copy is stored. The stored sources are the Nixon Peabody client alert of 20 July 2026 (archive/US-RI-01/2026-10-12/secondary.html), which confirms the Act's name, S 2195, signature by Governor McKee in June 2026, the 1 January 2027 effective date and the provisions in the summary, and the FastDemocracy tracker page for S 2195 (archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-RI-01/extra-8f6f90705c/), which reproduces the Legislature's actions (Senate passage of Sub A as amended on 21 May 2026, House passage in concurrence on 8 June 2026, signed by the Governor on 22 June 2026). Both are secondary. The bill texts on webserver.rilegislature.gov and the General Assembly's press release could not be stored (connections refused), and no Governor or Attorney General page on the Act was found, so the effective date rests on the law-firm alert alone."
+  },
+  "notes": "Signed by the Governor on 22 Jun 2026 and effective 1 Jan 2027. The Senate passed Substitute A as amended on 21 May 2026 and the House passed it in concurrence on 8 Jun 2026; the House companion bill is H 7350. Enacted alongside two Rhode Island health-care AI laws of June 2026: S 2570 (notification when AI documents clinical visits) and S 2197 (Oversight of Artificial Intelligence Technology in Mental Health Care Act, barring AI from making independent therapeutic decisions), which are not recorded separately. Rhode Island was among roughly a dozen states that enacted companion-chatbot statutes in the first half of 2026."
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/US-RI-01/2026-10-12/secondary.html",
+    "sha256": "ac1542d23a324e37b0ae35323b0001694af07d336f1220a1f2d6275c0204362e",
+    "locator": "list of the three acts, after the authors",
+    "quote": "The Regulatory Provisions—Artificial Intelligence Companion Models Act (S 2195) (effective January 1, 2027)",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-RI-01/extra-8f6f90705c/2026-10-14/official.html",
+    "sha256": "3b7a73819d0dc7dbfd3ea3adc0f055f2741f82a97a52112098c939864e65e408",
+    "locator": "bill heading and summary",
+    "quote": "AN ACT RELATING TO COMMERCIAL LAW--GENERAL REGULATORY PROVISIONS -- ARTIFICIAL INTELLIGENCE COMPANION MODELS",
+    "source_kind": "secondary"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/US-RI-01/2026-10-12/secondary.html",
+    "sha256": "ac1542d23a324e37b0ae35323b0001694af07d336f1220a1f2d6275c0204362e",
+    "locator": "first paragraph after the authors",
+    "quote": "In June 2026, Governor Daniel McKee signed three new artificial intelligence (AI) healthcare bills into law.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/US-RI-01/2026-10-12/secondary.html",
+    "sha256": "ac1542d23a324e37b0ae35323b0001694af07d336f1220a1f2d6275c0204362e",
+    "locator": "paragraph after the list of acts",
+    "quote": "Rhode Island’s General Assembly announced The Regulatory Provisions—Artificial Intelligence Companion Models Act and The Oversight of Artificial Intelligence Technology in Mental Health Care Act as part of a 12-piece healthcare legislation package",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-RI-01/extra-8f6f90705c/2026-10-14/official.html",
+    "sha256": "3b7a73819d0dc7dbfd3ea3adc0f055f2741f82a97a52112098c939864e65e408",
+    "locator": "Actions, 22 Jun 2026",
+    "quote": "Jun 22, 2026 | executive 06/22/2026 Signed by Governor",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/US-RI-01/2026-10-12/secondary.html",
+    "sha256": "ac1542d23a324e37b0ae35323b0001694af07d336f1220a1f2d6275c0204362e",
+    "locator": "first paragraph after the authors",
+    "quote": "In June 2026, Governor Daniel McKee signed three new artificial intelligence (AI) healthcare bills into law.",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/US-RI-01/2026-10-12/secondary.html",
+    "sha256": "ac1542d23a324e37b0ae35323b0001694af07d336f1220a1f2d6275c0204362e",
+    "locator": "list of the three acts, after the authors",
+    "quote": "The Regulatory Provisions—Artificial Intelligence Companion Models Act (S 2195) (effective January 1, 2027)",
+    "source_kind": "secondary"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-RI-01/extra-8f6f90705c/2026-10-14/official.html",
+    "sha256": "3b7a73819d0dc7dbfd3ea3adc0f055f2741f82a97a52112098c939864e65e408",
+    "locator": "Actions, 22 Jun 2026",
+    "quote": "Jun 22, 2026 | executive 06/22/2026 Signed by Governor",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/US-RI-01/2026-10-12/secondary.html",
+    "sha256": "ac1542d23a324e37b0ae35323b0001694af07d336f1220a1f2d6275c0204362e",
+    "locator": "first paragraph after the authors",
+    "quote": "In June 2026, Governor Daniel McKee signed three new artificial intelligence (AI) healthcare bills into law.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/US-RI-01/2026-10-12/secondary.html",
+    "sha256": "ac1542d23a324e37b0ae35323b0001694af07d336f1220a1f2d6275c0204362e",
+    "locator": "list of the three acts, after the authors",
+    "quote": "The Regulatory Provisions—Artificial Intelligence Companion Models Act (S 2195) (effective January 1, 2027)",
+    "source_kind": "secondary"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/US-RI-01/2026-10-12/secondary.html",
+    "sha256": "ac1542d23a324e37b0ae35323b0001694af07d336f1220a1f2d6275c0204362e",
+    "locator": "first paragraph after the authors",
+    "quote": "In June 2026, Governor Daniel McKee signed three new artificial intelligence (AI) healthcare bills into law.",
+    "source_kind": "secondary"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-RI-01/extra-8f6f90705c/2026-10-14/official.html",
+    "sha256": "3b7a73819d0dc7dbfd3ea3adc0f055f2741f82a97a52112098c939864e65e408",
+    "locator": "Actions, 22 Jun 2026",
+    "quote": "Jun 22, 2026 | executive 06/22/2026 Signed by Governor",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-RI-01/extra-8f6f90705c/2026-10-14/official.html",
+    "sha256": "3b7a73819d0dc7dbfd3ea3adc0f055f2741f82a97a52112098c939864e65e408",
+    "locator": "Actions, 21 May 2026",
+    "quote": "May 21, 2026 | Senate 05/21/2026 Senate passed Sub A as amended (floor amendment)",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-RI-01/extra-8f6f90705c/2026-10-14/official.html",
+    "sha256": "3b7a73819d0dc7dbfd3ea3adc0f055f2741f82a97a52112098c939864e65e408",
+    "locator": "Actions, 8 Jun 2026",
+    "quote": "Jun 08, 2026 | House 06/08/2026 House passed Sub A as amended in concurrence",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-RI-01/extra-8f6f90705c/2026-10-14/official.html",
+    "sha256": "3b7a73819d0dc7dbfd3ea3adc0f055f2741f82a97a52112098c939864e65e408",
+    "locator": "Latest Bill Text",
+    "quote": "2195 SUB A as amended Companion bills: HB 7350",
+    "source_kind": "secondary"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Latest stored event: signed by the Governor on 22 June 2026; rule: the Act is 'effective January 1, 2027'. Today is 14 October 2026, before 1 January 2027, so it is adopted but not yet in force: Adopted, not yet in force. The annual reporting duty starts later still, on 1 July 2027.",
+  "date_reasoning": "The stored tracker gives '06/22/2026 Signed by Governor' and the stored law-firm alert gives June 2026; they agree, so date_published 2026-06-22 stands.",
+  "scope_reasoning": "A state statute imposing safety protocols on AI companion operators: in scope, no scope_note.",
+  "changes": {
+   "notes": "The signing date is now in a stored copy (tracker action '06/22/2026 Signed by Governor'), so 'Reported signed' loses its hedge; added the Senate and House passage dates and the companion bill from the stored action history."
+  },
+  "confirmed": [
+   "title",
+   "issuing_body",
+   "date_published",
+   "date_in_force",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "No official copy is stored: S2195A.htm, H7350A.htm and the General Assembly press release on rilegislature.gov all failed.",
+  "official_identifier ('2026 S 2195 Sub A / H 7350 Sub A'): the stored tracker gives the enacted text as '2195 SUB A as amended' with companion HB 7350; no public-law chapter number is stored.",
+  "The 1 January 2027 effective date rests only on the Nixon Peabody alert; the bill text was not stored."
+ ]
+}

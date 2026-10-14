@@ -108,6 +108,44 @@
       "US-26"
      ],
      "history_events": 26
+    },
+    {
+     "date": "2026-10-14",
+     "agent": "Claude Code",
+     "model": "claude-opus-5-5",
+     "scope": "pipeline run 2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca (refresh: ids:CA-ON-01,COE-01,INT-15,US-CA-07,US-CA-08,CN-06,PY-01,TH-01,US-27,US-ID-01,US-IL-01,US-NV-01,US-RI-01,VN-07)",
+     "run_id": "2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+     "stages": {
+      "collect": {
+       "tool": null,
+       "model": null,
+       "date": null
+      },
+      "extract": {
+       "tool": "Claude Code",
+       "model": "claude-opus-5-5",
+       "date": "2026-10-14"
+      },
+      "blind": {
+       "tool": "Claude Code",
+       "model": "claude-opus-5-5",
+       "date": "2026-10-14"
+      },
+      "check": {
+       "tool": "Claude Code",
+       "model": "claude-sonnet-5-5",
+       "date": "2026-10-14"
+      }
+     },
+     "records_added": 0,
+     "ids": [],
+     "ids_updated": [
+      "CA-ON-01",
+      "US-CA-07",
+      "US-CA-08",
+      "US-RI-01"
+     ],
+     "history_events": 10
     }
    ]
   }
@@ -1485,7 +1523,7 @@
    "local_copy": {
     "status": "failed",
     "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The secondary source could not be downloaded (HTTP 403 Forbidden). The browser retry also failed (HTTP 403 (in browser)).",
-    "last_attempt": "2026-10-11T14:06:44Z",
+    "last_attempt": "2026-10-14T07:49:24Z",
     "files": [],
     "attempts": [
      {
@@ -1528,6 +1566,60 @@
       "role": "official-rendered",
       "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
       "attempted_at": "2026-10-11T14:09:00Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 (in browser)",
+      "method": "browser"
+     },
+     {
+      "role": "official",
+      "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
+      "attempted_at": "2026-10-14T07:25:06Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.coe.int/en/web/portal/-/council-of-europe-opens-first-ever-global-treaty-on-ai-for-signature",
+      "attempted_at": "2026-10-14T07:25:08Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
+      "attempted_at": "2026-10-14T07:26:09Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 (in browser)",
+      "method": "browser"
+     },
+     {
+      "role": "official",
+      "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
+      "attempted_at": "2026-10-14T07:49:26Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.coe.int/en/web/portal/-/council-of-europe-opens-first-ever-global-treaty-on-ai-for-signature",
+      "attempted_at": "2026-10-14T07:49:28Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
+      "attempted_at": "2026-10-14T07:53:16Z",
       "ok": false,
       "http_status": 403,
       "error": "HTTP 403 (in browser)",
@@ -5072,7 +5164,7 @@
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-11T13:57:56Z",
+    "last_attempt": "2026-10-14T07:49:31Z",
     "files": [
      {
       "role_key": "official",
@@ -5086,7 +5178,7 @@
       "bytes": 22734,
       "sha256": "8d57123e9f85ed2705b364e57aa8d1f3c46c9d851ea5748bf0ef7fb6d68ef78c",
       "retrieved_at": "2026-10-11T13:58:01Z",
-      "last_checked": "2026-10-11T13:58:01Z",
+      "last_checked": "2026-10-14T07:49:34Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -5109,7 +5201,7 @@
       "bytes": 29770,
       "sha256": "c7a9044a12440bf652f44c6136810b51eeb2d018b0e19dca73b50b5ddc8d0c69",
       "retrieved_at": "2026-10-11T13:58:03Z",
-      "last_checked": "2026-10-11T13:58:03Z",
+      "last_checked": "2026-10-14T07:49:37Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -5139,9 +5231,44 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.mfa.gov.cn/eng/wjbzhd/202607/t20260717_11984747.html",
+      "attempted_at": "2026-10-14T07:25:14Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.mfa.gov.cn/mfa_eng/xw/zyxw/202607/t20260717_11984715.html",
+      "attempted_at": "2026-10-14T07:25:16Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.mfa.gov.cn/eng/wjbzhd/202607/t20260717_11984747.html",
+      "attempted_at": "2026-10-14T07:49:34Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.mfa.gov.cn/mfa_eng/xw/zyxw/202607/t20260717_11984715.html",
+      "attempted_at": "2026-10-14T07:49:37Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -11163,28 +11290,29 @@
    },
    "local_copy": {
     "status": "archived-review",
-    "flag": "The page barely mentions the document's title; check that the URL still points to this document",
-    "last_attempt": "2026-10-11T14:07:33Z",
+    "flag": "The page barely mentions the document's title; check that the URL still points to this document. A source changed since the previous snapshot; both versions are kept.",
+    "last_attempt": "2026-10-14T07:49:45Z",
     "files": [
      {
       "role_key": "official",
       "role": "official",
       "label": "Official source",
-      "path": "archive/CN-06/2026-10-11/official.html",
+      "path": "archive/CN-06/2026-10-14/official.html",
       "url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
       "final_url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 23793,
-      "sha256": "e5f9f15e2385b8f5bbc5299829072a20e3c2cc6b8dcb242dd2f5dd1d5e19e00e",
-      "retrieved_at": "2026-10-11T14:00:04Z",
-      "last_checked": "2026-10-11T14:07:37Z",
+      "bytes": 23721,
+      "sha256": "b882626d90f68a77283c19776a2fd8ca948768c4721810a260c81965c0a9aa59",
+      "text_sha256": "973f770079d9abbc9c637c2beb5edc5f7cf26ebd52cc229d69b0cd2de7a2ef60",
+      "retrieved_at": "2026-10-14T07:25:16Z",
+      "last_checked": "2026-10-14T07:49:49Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
       "changed": false,
-      "previous_sha256": null,
-      "previous_path": null,
+      "previous_sha256": "e5f9f15e2385b8f5bbc5299829072a20e3c2cc6b8dcb242dd2f5dd1d5e19e00e",
+      "previous_path": "archive/CN-06/2026-10-11/official.html",
       "stale": false,
       "warning": "The page barely mentions the document's title; check that the URL still points to this document",
       "integrity": "ok"
@@ -11193,21 +11321,22 @@
       "role_key": "official-rendered",
       "role": "official-rendered",
       "label": "Official source, rendered in a browser",
-      "path": "archive/CN-06/2026-10-11/official-rendered.html",
+      "path": "archive/CN-06/2026-10-14/official-rendered.html",
       "url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
       "final_url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 26214,
-      "sha256": "e089a3a6f45a06c788fd4bb11f24b50b75b9516f3dffc59abf4098620ad76f9c",
-      "retrieved_at": "2026-10-11T14:11:06Z",
-      "last_checked": "2026-10-11T14:11:06Z",
+      "bytes": 26142,
+      "sha256": "1dcdce3448e9fe6df8d83b050ea1c26af331d9d35cd24f11880623798229abe5",
+      "text_sha256": "d2e378ab4310838333be55c92d95f95155c7461de1509d1a51622348bf84b113",
+      "retrieved_at": "2026-10-14T07:26:20Z",
+      "last_checked": "2026-10-14T08:00:22Z",
       "method": "browser",
       "last_modified": null,
       "etag": null,
       "changed": false,
-      "previous_sha256": null,
-      "previous_path": null,
+      "previous_sha256": "e089a3a6f45a06c788fd4bb11f24b50b75b9516f3dffc59abf4098620ad76f9c",
+      "previous_path": "archive/CN-06/2026-10-11/official-rendered.html",
       "stale": false,
       "warning": "The page barely mentions the document's title; check that the URL still points to this document",
       "integrity": "ok"
@@ -11216,21 +11345,22 @@
       "role_key": "official-print",
       "role": "official-print",
       "label": "Official source, printed to PDF by a browser",
-      "path": "archive/CN-06/2026-10-11/official-print.pdf",
+      "path": "archive/CN-06/2026-10-14/official-print-2.pdf",
       "url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
       "final_url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
       "http_status": 200,
       "content_type": "application/pdf",
-      "bytes": 2730151,
-      "sha256": "e0ef7402ba4d8a76ecb0e2ca0a2392d01b56ab3ee59c4f5e630a11fdbb7e6c01",
-      "retrieved_at": "2026-10-11T14:11:06Z",
-      "last_checked": "2026-10-11T14:11:06Z",
+      "bytes": 2731147,
+      "sha256": "5bfa3f0e2c50094fc25f8711aae0e510acf196b32c7e0a47ebf4db0cc1ef67e8",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T08:00:22Z",
+      "last_checked": "2026-10-14T08:00:22Z",
       "method": "browser",
       "last_modified": null,
       "etag": null,
-      "changed": false,
-      "previous_sha256": null,
-      "previous_path": null,
+      "changed": true,
+      "previous_sha256": "3188b1ddc24355b287c8ad49d95fec4531219fc68e27676f97382e64d43200d2",
+      "previous_path": "archive/CN-06/2026-10-14/official-print.pdf",
       "stale": false,
       "warning": null,
       "integrity": "ok"
@@ -11239,21 +11369,22 @@
       "role_key": "secondary",
       "role": "secondary",
       "label": "Secondary source",
-      "path": "archive/CN-06/2026-10-11/secondary.html",
+      "path": "archive/CN-06/2026-10-14/secondary.html",
       "url": "https://cset.georgetown.edu/publication/china-safety-requirements-for-generative-ai-final/",
       "final_url": "https://cset.georgetown.edu/publication/china-safety-requirements-for-generative-ai-final/",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 175442,
-      "sha256": "a26d74637810bb99d2d9fb9659df7b0feadaf868cd72f10c20eda73de7159c5f",
-      "retrieved_at": "2026-10-11T14:00:07Z",
-      "last_checked": "2026-10-11T14:07:39Z",
+      "bytes": 175537,
+      "sha256": "3eec0c742e05510ff62977a9bcf02344f5fc06a9ae62b1e6648495414688e455",
+      "text_sha256": "8a80c330c50f9543e5f73e09a60f8df91b81d4ac4c6f9f83a689ca3080744c8c",
+      "retrieved_at": "2026-10-14T07:25:20Z",
+      "last_checked": "2026-10-14T07:49:52Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
       "changed": false,
-      "previous_sha256": null,
-      "previous_path": null,
+      "previous_sha256": "a26d74637810bb99d2d9fb9659df7b0feadaf868cd72f10c20eda73de7159c5f",
+      "previous_path": "archive/CN-06/2026-10-11/secondary.html",
       "stale": false,
       "warning": null,
       "integrity": "ok"
@@ -11304,9 +11435,62 @@
       "http_status": 200,
       "error": null,
       "method": "browser"
+     },
+     {
+      "role": "official",
+      "url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
+      "attempted_at": "2026-10-14T07:25:16Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://cset.georgetown.edu/publication/china-safety-requirements-for-generative-ai-final/",
+      "attempted_at": "2026-10-14T07:25:20Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
+      "attempted_at": "2026-10-14T07:26:20Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "browser"
+     },
+     {
+      "role": "official",
+      "url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
+      "attempted_at": "2026-10-14T07:49:49Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://cset.georgetown.edu/publication/china-safety-requirements-for-generative-ai-final/",
+      "attempted_at": "2026-10-14T07:49:52Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
+      "attempted_at": "2026-10-14T08:00:22Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "browser"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -24842,7 +25026,7 @@
    "local_copy": {
     "status": "partial",
     "flag": "No official URL is recorded; only the secondary source was saved.",
-    "last_attempt": "2026-10-11T14:08:04Z",
+    "last_attempt": "2026-10-14T07:49:54Z",
     "files": [
      {
       "role_key": "secondary",
@@ -24856,7 +25040,7 @@
       "bytes": 41669,
       "sha256": "798af29ed00983636efdc44ff37253af05fd61bdce69e043cc175c0bc2a6beed",
       "retrieved_at": "2026-10-11T14:04:11Z",
-      "last_checked": "2026-10-11T14:08:06Z",
+      "last_checked": "2026-10-14T07:49:56Z",
       "method": "http",
       "last_modified": "Sun, 11 Oct 2026 09:04:54 GMT",
       "etag": "\"1791709495:dtagent103452608101703304Uci\"",
@@ -24865,7 +25049,8 @@
       "previous_path": null,
       "stale": false,
       "warning": null,
-      "integrity": "ok"
+      "integrity": "ok",
+      "text_sha256": "4ccc2c016d5cc26a2136f0278a942fe4b54881195820c4cd4672cb45f98f0623"
      }
     ],
     "attempts": [
@@ -24886,9 +25071,26 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://obernolte.house.gov/media/press-releases/obernolte-trahan-statement-white-house-ai-accord",
+      "attempted_at": "2026-10-14T07:25:18Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://obernolte.house.gov/media/press-releases/obernolte-trahan-statement-white-house-ai-accord",
+      "attempted_at": "2026-10-14T07:49:56Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -25139,9 +25341,9 @@
    "issuing_body": "Legislative Assembly of Ontario",
    "instrument_type": "Law",
    "legal_force": "Binding",
-   "status": "Adopted, not yet in force",
+   "status": "In force",
    "date_published": "2024-11-25",
-   "date_in_force": null,
+   "date_in_force": "2025-01-29",
    "date_last_updated": null,
    "official_identifier": "S.O. 2024, c. 24 (Bill 194, 43rd Parliament, 1st Session)",
    "official_url": "https://www.ola.org/en/legislative-business/bills/parliament-43/session-1/bill-194",
@@ -25161,18 +25363,18 @@
      "id": "CA-01"
     }
    ],
-   "notes": "Royal Assent received on 25 November 2024 (S.O. 2024, c. 24), as shown on the Legislative Assembly's bill page and in the enacted-bill PDF. Schedule 1 commences on a day named by proclamation, and the AI duties apply only to entities and circumstances prescribed by regulation. Whether Schedule 1 has been proclaimed and whether AI regulations have been made could NOT be confirmed (Ontario e-Laws requires JavaScript), so status may be outdated.",
+   "notes": "Royal Assent received on 25 November 2024 (S.O. 2024, c. 24). Order in Council 361/2025 of 28 January 2025 named 29 January 2025 as the day Schedule 1, ss. 1-16, the Enhancing Digital Security and Trust Act, 2024, came into force; it also brought provisions of Schedule 2 (amendments to the Freedom of Information and Protection of Privacy Act) into force on 29 January and 1 July 2025. The AI duties in ss. 5 and 6 apply only to public sector entities and circumstances prescribed by regulation. As of the e-Laws currency date of 9 October 2026 the Act has no amendments, and the only regulations under it are O. Reg. 51/26 (cyber security) and O. Reg. 52/26 (digital technology affecting individuals under 18), in effect from 1 July 2026; no regulation yet prescribes entities or circumstances for the AI duties. Section 12 provides that the Act establishes no private law duty of care.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-14",
     "method": "official-url-fetched",
-    "note": "OLA bill page confirms title, Royal Assent (S.O. 2024, c. 24), the AI provisions in Schedule 1 (ss. 1, 5–8) and commencement by proclamation. In-force status not confirmed.",
-    "second_check": null
+    "note": "The stored OLA bill page and Royal Assent PDF confirm the title, Royal Assent on 25 Nov 2024 as S.O. 2024, c. 24, the AI provisions in Schedule 1, ss. 5-8, and commencement by proclamation (s. 17). Three stored Government of Ontario pages (ontario.ca, 14 Oct 2026) settle the status. Order in Council 361/2025 names 29 Jan 2025 for Schedule 1, ss. 1-16. The e-Laws consolidation (browser-rendered copy and print PDF) shows the current version from 29 Jan 2025 to its currency date of 9 Oct 2026, 'No amendments', and O. Reg. 51/26 and 52/26 as the only regulations. The ontario.ca EDSTA page (updated 7 May 2026) says those regulations take effect on 1 Jul 2026. The plain http copy of e-Laws is an empty JavaScript shell. ontario.ca is not yet in CA-ON known_hosts, so the evidence script counts its quotes as secondary.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 9 field(s) supported."
    },
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-11T14:04:18Z",
+    "last_attempt": "2026-10-14T07:49:16Z",
     "files": [
      {
       "role_key": "official",
@@ -25186,7 +25388,7 @@
       "bytes": 343163,
       "sha256": "1cd5fa2d20165445afed84f8359223c53c1c06ada83dd4b3c3aa68dc865a83fe",
       "retrieved_at": "2026-10-11T14:04:22Z",
-      "last_checked": "2026-10-11T14:04:22Z",
+      "last_checked": "2026-10-14T07:49:19Z",
       "method": "http",
       "last_modified": "Sun, 11 Oct 2026 06:03:04 GMT",
       "etag": "\"1791698584-gzip\"",
@@ -25195,7 +25397,8 @@
       "previous_path": null,
       "stale": false,
       "warning": null,
-      "integrity": "ok"
+      "integrity": "ok",
+      "text_sha256": "a38dcabf77ef27aab7579f4e677302fe0a73c36ddd9ed775b9f92d11ccc4161f"
      },
      {
       "role_key": "document-1",
@@ -25209,7 +25412,7 @@
       "bytes": 222069,
       "sha256": "c830202d71244913575bd346498e6d73056d6fddbe4281a4c23e67e6a2af5ba5",
       "retrieved_at": "2026-10-11T14:04:24Z",
-      "last_checked": "2026-10-11T14:04:24Z",
+      "last_checked": "2026-10-14T07:49:21Z",
       "method": "http",
       "last_modified": "Mon, 25 Nov 2024 22:30:41 GMT",
       "etag": null,
@@ -25232,7 +25435,7 @@
       "bytes": 314661,
       "sha256": "2f0f21cb8bd340b3bc6700dd422a8ce41c31cd54d8dd4d008aa1a08cde1ead0b",
       "retrieved_at": "2026-10-11T14:04:27Z",
-      "last_checked": "2026-10-11T14:04:27Z",
+      "last_checked": "2026-10-14T07:49:24Z",
       "method": "http",
       "last_modified": "Tue, 26 Nov 2024 15:41:58 GMT",
       "etag": null,
@@ -25271,9 +25474,62 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.ola.org/en/legislative-business/bills/parliament-43/session-1/bill-194",
+      "attempted_at": "2026-10-14T07:25:07Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.ola.org/sites/default/files/node-files/bill/document/pdf/2024/2024-11/b194rep_e.pdf",
+      "attempted_at": "2026-10-14T07:25:10Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.ola.org/sites/default/files/node-files/bill/document/pdf/2024/2024-11/b194ra_e.pdf",
+      "attempted_at": "2026-10-14T07:25:13Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.ola.org/en/legislative-business/bills/parliament-43/session-1/bill-194",
+      "attempted_at": "2026-10-14T07:49:19Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.ola.org/sites/default/files/node-files/bill/document/pdf/2024/2024-11/b194rep_e.pdf",
+      "attempted_at": "2026-10-14T07:49:21Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.ola.org/sites/default/files/node-files/bill/document/pdf/2024/2024-11/b194ra_e.pdf",
+      "attempted_at": "2026-10-14T07:49:24Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -26490,8 +26746,8 @@
    "status": "Adopted, not yet in force",
    "date_published": "2026-09-09",
    "date_in_force": null,
-   "date_last_updated": "2026-09-18",
-   "official_identifier": "California Senate Bill 813 and Assembly Bill 1405 (2025-2026 Regular Session); Government Code secs. 8898.1 and 11549.82 (as cited in EO N-9-26)",
+   "date_last_updated": null,
+   "official_identifier": "California Senate Bill 813 and Assembly Bill 1405; Government Code secs. 8898.1 and 11549.82",
    "official_url": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
    "secondary_url": "https://www.gov.ca.gov/wp-content/uploads/2026/09/FINAL-N-9-26-AI-EO-9.18.26-SIGNED.pdf",
    "language": "English",
@@ -26519,38 +26775,39 @@
      "id": "US-25"
     }
    ],
-   "notes": "Both signed 9 Sep 2026. Effective dates not confirmed; California non-urgency statutes normally take effect 1 Jan 2027. EO N-9-26 (18 Sep 2026) orders the Government Operations Agency to finish the Gov. Code sec. 8898.1 requirements and post IVO application criteria by 1 May 2027, and to finish the Gov. Code sec. 11549.82(a) requirements by 1 Dec 2027. Combined into one record because they were enacted together as a single verification and audit framework.",
+   "notes": "Both signed 9 Sep 2026. EO N-9-26 of 18 Sep 2026 (US-CA-09) orders the Government Operations Agency to complete the requirements of Gov. Code sec. 8898.1 and post application requirements, procedures and criteria for independent verification organizations by 1 May 2027, and to complete the requirements of Gov. Code sec. 11549.82(a) by 1 Dec 2027. Combined into one record because they were enacted together as a single verification and audit framework.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-14",
     "method": "official-url-fetched",
-    "note": "The Governor's 9 Sep 2026 release confirms both bills, their authors and purposes. The EO N-9-26 PDF confirms the implementation deadlines and Government Code sections. Statutory text and chapter numbers were not verified (leginfo not fetchable).",
-    "second_check": null
+    "note": "The stored Governor's release of 9 Sep 2026 (copy of 14 Oct 2026; its text matches the 11 Oct copy) confirms the signing of SB 813 and AB 1405, their authors and their purposes. The stored EO N-9-26 PDF (18 Sep 2026) confirms the implementation deadlines and the Government Code sections; the archiver stored it as a secondary source. Neither file gives chapter numbers, the statutory text or an effective date. The leginfo.legislature.ca.gov pages for both bills and for Gov. Code sec. 9600 could not be stored, so the effective date, the chapter numbers and the session label in official_identifier are unconfirmed.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 8 field(s) supported, fixes applied to official_identifier."
    },
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-11T14:04:53Z",
+    "last_attempt": "2026-10-14T07:49:32Z",
     "files": [
      {
       "role_key": "official",
       "role": "official",
       "label": "Official source",
-      "path": "archive/US-CA-07/2026-10-11/official.html",
+      "path": "archive/US-CA-07/2026-10-14/official.html",
       "url": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
       "final_url": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 322597,
-      "sha256": "9810440b2be083ae396003ca3dec848d6ab749e6e5cde04968784e5143f86d14",
-      "retrieved_at": "2026-10-11T14:05:01Z",
-      "last_checked": "2026-10-11T14:05:01Z",
+      "bytes": 322239,
+      "sha256": "6fdce3db5217999b1b51069ec3a2371ad1e3c2cee013f8095dda5811444f01b6",
+      "text_sha256": "b76016a90979d683e9b195c7384729fcff4a69b6a279a55e85542444d1a05b27",
+      "retrieved_at": "2026-10-14T07:25:06Z",
+      "last_checked": "2026-10-14T07:49:34Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
       "changed": false,
-      "previous_sha256": null,
-      "previous_path": null,
+      "previous_sha256": "9810440b2be083ae396003ca3dec848d6ab749e6e5cde04968784e5143f86d14",
+      "previous_path": "archive/US-CA-07/2026-10-11/official.html",
       "stale": false,
       "warning": null,
       "integrity": "ok"
@@ -26567,7 +26824,7 @@
       "bytes": 161419,
       "sha256": "ea398613db19dd4e6479a04a93753d8efbcbfc91e5ecb8a42786721553da3fc5",
       "retrieved_at": "2026-10-11T14:05:18Z",
-      "last_checked": "2026-10-11T14:05:18Z",
+      "last_checked": "2026-10-14T07:49:36Z",
       "method": "http",
       "last_modified": "Fri, 18 Sep 2026 04:12:38 GMT",
       "etag": "\"6aacba36-2768b\"",
@@ -26606,9 +26863,44 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
+      "attempted_at": "2026-10-14T07:25:06Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.ca.gov/wp-content/uploads/2026/09/FINAL-N-9-26-AI-EO-9.18.26-SIGNED.pdf",
+      "attempted_at": "2026-10-14T07:25:09Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
+      "attempted_at": "2026-10-14T07:49:34Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.ca.gov/wp-content/uploads/2026/09/FINAL-N-9-26-AI-EO-9.18.26-SIGNED.pdf",
+      "attempted_at": "2026-10-14T07:49:36Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -26632,11 +26924,12 @@
    "official_url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
    "secondary_url": null,
    "language": "English",
-   "summary": "Strengthens children's protections on companion chatbots. The Governor's release describes the companion-chatbot child-safety law ('Adam's Law', after Adam Raine) as requiring crisis protocols for suicidal ideation, parental controls, notification when a child disables safety settings, and independent child-safety audits with annual risk assessments.",
+   "summary": "SB 1119, 'Adam's Law', named after Adam Raine, expands California's child-safety rules for companion chatbots, building on SB 243. It requires age assurance, risk assessments before a new or substantially modified companion chatbot is released, in-app crisis referrals and notice to a parent of a credible threat of self-harm, parent-controlled default settings such as time limits, reasonable measures against harmful outputs such as self-harm, sexually explicit or emotionally manipulative content, an incident reporting mechanism overseen by the Attorney General, limits on targeted advertising to children, and independent compliance audits reported to the Attorney General.",
    "safety_topics": [
     "child safety",
     "evaluation & testing",
-    "accountability & liability"
+    "accountability & liability",
+    "incident reporting"
    ],
    "related": [
     {
@@ -26644,55 +26937,57 @@
      "id": "US-CA-06"
     }
    ],
-   "notes": "Signed 10 Sep 2026 (Padilla; Wicks; Bauer-Kahan) in a 13-bill child online-safety package that also included SB 867 (companion chatbots in toys), AB 1709 (under-16 social media restrictions) and SB 1276 (AI-generated child sexual abuse material). The release does not explicitly tie 'Adam's Law' to SB 1119; the mapping is inferred from the bill's title. Effective date not confirmed (California default: 1 Jan 2027).",
+   "notes": "Passed the Legislature on 31 Aug 2026 (Senate 39-0, Assembly 64-4) and signed 10 Sep 2026 (Padilla; Wicks; Bauer-Kahan) in a 13-bill child online-safety package that also included SB 867 (toys: companion chatbots), AB 1709 (covered platforms: age restriction) and SB 1276 (crimes: sexual exploitation of a child). It builds on SB 243 (2025), uses the age-bracket signal of AB 1043 (2025) and draws on provisions of AB 1064 (2025) on harmful outputs. It also gives families harmed by violations of its crisis-referral, parental-notice, default-protection and harmful-output provisions a private right of redress.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-14",
     "method": "official-url-fetched",
-    "note": "The Governor's 10 Sep 2026 press release confirms SB 1119's signing, authors and the described companion-chatbot protections. Bill text and effective date were not verified (leginfo not fetchable).",
-    "second_check": null
+    "note": "The stored Governor's release of 10 Sep 2026 (copy of 14 Oct 2026; its text matches the 11 Oct copy) confirms the signing of SB 1119, its authors and its listed subject 'Companion chatbots: children's safety', and describes 'Adam's Law'. The stored release of Senator Padilla (31 Aug 2026, sd18.senate.ca.gov) names the bill 'Adam's Law (SB 1119)' and lists its requirements and the floor votes; it describes the version passed by the Legislature, which the Governor then signed. The leginfo.legislature.ca.gov pages for the bill and for Gov. Code sec. 9600 could not be stored, so the bill text, chapter number and effective date are unconfirmed. The record's second stored file (document-1.pdf) is EO N-12-23 of 2023, linked from the release, and is not a source for SB 1119.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 10 field(s) supported."
    },
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-11T14:04:56Z",
+    "last_attempt": "2026-10-14T07:49:37Z",
     "files": [
      {
       "role_key": "official",
       "role": "official",
       "label": "Official source",
-      "path": "archive/US-CA-08/2026-10-11/official.html",
+      "path": "archive/US-CA-08/2026-10-14/official.html",
       "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
       "final_url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 310802,
-      "sha256": "c411e3bd996e6b58ebd7cd50465707c80af6f3cf58ece75390ae218ea04370cd",
-      "retrieved_at": "2026-10-11T14:05:05Z",
-      "last_checked": "2026-10-11T14:05:05Z",
+      "bytes": 310623,
+      "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071",
+      "text_sha256": "b099d47d443903d71fe2868168d11847c1d5782a6157165e320662df26c1cf91",
+      "retrieved_at": "2026-10-14T07:25:11Z",
+      "last_checked": "2026-10-14T07:49:39Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
       "changed": false,
-      "previous_sha256": null,
-      "previous_path": null,
+      "previous_sha256": "c411e3bd996e6b58ebd7cd50465707c80af6f3cf58ece75390ae218ea04370cd",
+      "previous_path": "archive/US-CA-08/2026-10-11/official.html",
       "stale": false,
       "warning": null,
       "integrity": "ok"
      },
      {
-      "role_key": "document-2",
+      "role_key": "document-1",
       "role": "document",
       "label": "Linked document (PDF)",
-      "path": "archive/US-CA-08/2026-10-11/document-2.pdf",
+      "path": "archive/US-CA-08/2026-10-14/document-1.pdf",
       "url": "https://www.gov.ca.gov/wp-content/uploads/2023/09/AI-EO-No.12-_-GGN-Signed.pdf",
       "final_url": "https://www.gov.ca.gov/wp-content/uploads/2023/09/AI-EO-No.12-_-GGN-Signed.pdf",
       "http_status": 200,
       "content_type": "application/pdf",
       "bytes": 4437328,
       "sha256": "62b2f985ebde0a397679162aed5b66e1403a1c10a92e636eda6683cdf8886b2e",
-      "retrieved_at": "2026-10-11T14:05:20Z",
-      "last_checked": "2026-10-11T14:05:20Z",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T07:25:13Z",
+      "last_checked": "2026-10-14T07:49:41Z",
       "method": "http",
       "last_modified": "Wed, 28 May 2025 18:20:02 GMT",
       "etag": "\"683753d2-43b550\"",
@@ -26731,9 +27026,44 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+      "attempted_at": "2026-10-14T07:25:11Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.gov.ca.gov/wp-content/uploads/2023/09/AI-EO-No.12-_-GGN-Signed.pdf",
+      "attempted_at": "2026-10-14T07:25:13Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+      "attempted_at": "2026-10-14T07:49:39Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.gov.ca.gov/wp-content/uploads/2023/09/AI-EO-No.12-_-GGN-Signed.pdf",
+      "attempted_at": "2026-10-14T07:49:41Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -27234,28 +27564,29 @@
    },
    "local_copy": {
     "status": "partial",
-    "flag": "The official source could not be downloaded (robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'); only the secondary source was saved.",
-    "last_attempt": "2026-10-11T14:08:06Z",
+    "flag": "The official source could not be downloaded (The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'); only the secondary source was saved.",
+    "last_attempt": "2026-10-14T07:50:42Z",
     "files": [
      {
       "role_key": "secondary",
       "role": "secondary",
       "label": "Secondary source",
-      "path": "archive/US-IL-01/2026-10-11/secondary.html",
+      "path": "archive/US-IL-01/2026-10-14/secondary.html",
       "url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
       "final_url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 116221,
-      "sha256": "bf6621e3e8ffb83fc05d4e2b8177bc1458fa5cd8ff6727785734b6e6d3ebb4fa",
-      "retrieved_at": "2026-10-11T14:06:09Z",
-      "last_checked": "2026-10-11T14:08:53Z",
+      "bytes": 116917,
+      "sha256": "ab072476bac10ce023bced6b610924ce8717fb40d624bff5fd288a305cb99425",
+      "text_sha256": "f8293837a262e8356f0e21cfe22d744669a2d2d262cd3d331bf6a6aa56a3a1e2",
+      "retrieved_at": "2026-10-14T07:26:07Z",
+      "last_checked": "2026-10-14T07:51:31Z",
       "method": "http",
-      "last_modified": "Sun, 11 Oct 2026 14:06:09 GMT",
+      "last_modified": "Wed, 14 Oct 2026 06:41:07 GMT",
       "etag": null,
       "changed": false,
-      "previous_sha256": null,
-      "previous_path": null,
+      "previous_sha256": "bf6621e3e8ffb83fc05d4e2b8177bc1458fa5cd8ff6727785734b6e6d3ebb4fa",
+      "previous_path": "archive/US-IL-01/2026-10-11/secondary.html",
       "stale": false,
       "warning": null,
       "integrity": "ok"
@@ -27297,9 +27628,44 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=3773&GAID=17&GA=103&DocTypeID=HB&SessionID=112",
+      "attempted_at": "2026-10-14T07:26:03Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
+      "attempted_at": "2026-10-14T07:26:07Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=3773&GAID=17&GA=103&DocTypeID=HB&SessionID=112",
+      "attempted_at": "2026-10-14T07:51:27Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
+      "attempted_at": "2026-10-14T07:51:31Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -32435,7 +32801,7 @@
    "local_copy": {
     "status": "partial",
     "flag": "No official URL is recorded; only the secondary source was saved.",
-    "last_attempt": "2026-10-11T19:38:33Z",
+    "last_attempt": "2026-10-14T07:51:31Z",
     "files": [
      {
       "role_key": "secondary",
@@ -32450,7 +32816,7 @@
       "sha256": "8dac3344e56270e3866fe0cc811bb116059895e8a3ba8cbb57eb5cea8d5a73ea",
       "text_sha256": "53032c8b9bd9efe472eca1b9b3d38551b1dc8531ac23d52e042c734127504f2e",
       "retrieved_at": "2026-10-11T19:38:37Z",
-      "last_checked": "2026-10-11T19:38:37Z",
+      "last_checked": "2026-10-14T07:51:34Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -32471,9 +32837,26 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://naswnv.socialworkers.org/Professional-Development/AI-Regulation",
+      "attempted_at": "2026-10-14T07:25:22Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://naswnv.socialworkers.org/Professional-Development/AI-Regulation",
+      "attempted_at": "2026-10-14T07:51:34Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -33988,29 +34371,29 @@
    },
    "local_copy": {
     "status": "partial",
-    "flag": "No official URL is recorded; only the secondary source was saved.",
-    "last_attempt": "2026-10-11T19:39:12Z",
+    "flag": "No official URL is recorded; only the secondary source was saved. A source changed since the previous snapshot; both versions are kept.",
+    "last_attempt": "2026-10-14T07:52:23Z",
     "files": [
      {
       "role_key": "secondary",
       "role": "secondary",
       "label": "Secondary source",
-      "path": "archive/VN-07/2026-10-11/secondary.html",
+      "path": "archive/VN-07/2026-10-14/secondary-2.html",
       "url": "https://pbgdpl.cantho.gov.vn/mot-so-diem-moi-cua-luat-tri-tue-nhan-tao",
       "final_url": "https://pbgdpl.cantho.gov.vn/mot-so-diem-moi-cua-luat-tri-tue-nhan-tao",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 65507,
-      "sha256": "5dfd80c7e8a9699e41246470867c127be769dee6bf6e1f1cedc1680b986e5593",
-      "text_sha256": "c9a3ffa390d99f1ee18ea8cf889abecb09b984c1811f05494de3399c21936fb1",
-      "retrieved_at": "2026-10-11T19:39:14Z",
-      "last_checked": "2026-10-11T19:39:14Z",
+      "bytes": 66364,
+      "sha256": "598d59f36edd02c3f37886ac599067408c5060e2800fd19b459a7ccf0d6b55c4",
+      "text_sha256": "ecb1b598e07906c5bc631f4480b8fd5ba6522c9c1a201b63caac6535d510eb48",
+      "retrieved_at": "2026-10-14T07:52:28Z",
+      "last_checked": "2026-10-14T07:52:28Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
-      "changed": false,
-      "previous_sha256": null,
-      "previous_path": null,
+      "changed": true,
+      "previous_sha256": "4f44ecb71ee3ac70fff4820b61e689dcb85f8b27b9ccb98d486e9c88b232cd2b",
+      "previous_path": "archive/VN-07/2026-10-14/secondary.html",
       "stale": false,
       "warning": null,
       "integrity": "ok"
@@ -34025,9 +34408,26 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://pbgdpl.cantho.gov.vn/mot-so-diem-moi-cua-luat-tri-tue-nhan-tao",
+      "attempted_at": "2026-10-14T07:25:39Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://pbgdpl.cantho.gov.vn/mot-so-diem-moi-cua-luat-tri-tue-nhan-tao",
+      "attempted_at": "2026-10-14T07:52:28Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -34283,28 +34683,28 @@
    "local_copy": {
     "status": "partial",
     "flag": "No official URL is recorded; only the secondary source was saved.",
-    "last_attempt": "2026-10-11T19:39:25Z",
+    "last_attempt": "2026-10-14T07:49:51Z",
     "files": [
      {
       "role_key": "secondary",
       "role": "secondary",
       "label": "Secondary source",
-      "path": "archive/TH-01/2026-10-11/secondary.html",
+      "path": "archive/TH-01/2026-10-14/secondary.html",
       "url": "https://www.tilleke.com/insights/thailand-releases-new-draft-artificial-intelligence-act/",
       "final_url": "https://www.tilleke.com/insights/thailand-releases-new-draft-artificial-intelligence-act/",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 234191,
-      "sha256": "28ee0630caecf6b447c3bb8a0b75ed7878726e541ffcaf7b69d5d921047c8f22",
-      "text_sha256": "7144432e169d54a0b268bd88136e22fb08e31021f05336d2273853dda7307617",
-      "retrieved_at": "2026-10-11T19:39:29Z",
-      "last_checked": "2026-10-11T19:39:29Z",
+      "bytes": 233941,
+      "sha256": "ddc11e28c30348a4d6dedbc35cdb49a75a7757c92aa1003b3b25fdbb0f37aa0e",
+      "text_sha256": "cf397a29cca55df245d0ceb8811a6bf3e29a215ed95771dc5faf4e81d6cdb0b4",
+      "retrieved_at": "2026-10-14T07:25:17Z",
+      "last_checked": "2026-10-14T07:49:54Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
       "changed": false,
-      "previous_sha256": null,
-      "previous_path": null,
+      "previous_sha256": "28ee0630caecf6b447c3bb8a0b75ed7878726e541ffcaf7b69d5d921047c8f22",
+      "previous_path": "archive/TH-01/2026-10-11/secondary.html",
       "stale": false,
       "warning": null,
       "integrity": "ok"
@@ -34319,9 +34719,26 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.tilleke.com/insights/thailand-releases-new-draft-artificial-intelligence-act/",
+      "attempted_at": "2026-10-14T07:25:17Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.tilleke.com/insights/thailand-releases-new-draft-artificial-intelligence-act/",
+      "attempted_at": "2026-10-14T07:49:54Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -42294,7 +42711,7 @@
    "local_copy": {
     "status": "partial",
     "flag": "No official URL is recorded; only the secondary source was saved.",
-    "last_attempt": "2026-10-12T04:48:59Z",
+    "last_attempt": "2026-10-14T07:49:56Z",
     "files": [
      {
       "role_key": "secondary",
@@ -42309,7 +42726,7 @@
       "sha256": "fe537ae1d601636aeaddd48f4c839f23541271c62d9117e48f5004ef62487516",
       "text_sha256": "316c59700c083b038987f725d322489d6a7cc3fcabc7ffb2fcdd1904be16d255",
       "retrieved_at": "2026-10-12T04:49:01Z",
-      "last_checked": "2026-10-12T04:49:01Z",
+      "last_checked": "2026-10-14T07:49:58Z",
       "method": "http",
       "last_modified": null,
       "etag": "W/\"e0408f7a6000b5c2715e898f1b788ffd\"",
@@ -42330,9 +42747,26 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.transparencycoalition.ai/news/watershed-year-for-chatbot-safety-measures-14-new-state-laws-enacted-so-far-in-2026",
+      "attempted_at": "2026-10-14T07:25:19Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.transparencycoalition.ai/news/watershed-year-for-chatbot-safety-measures-14-new-state-laws-enacted-so-far-in-2026",
+      "attempted_at": "2026-10-14T07:49:58Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -42773,18 +43207,18 @@
      "slug": "ga-sb-540-ai-companion-chatbots"
     }
    ],
-   "notes": "Reported signed on 22 Jun 2026 and effective 1 Jan 2027. Enacted alongside two Rhode Island health-care AI laws of June 2026: S 2570 (notification when AI documents clinical visits) and S 2197 (Oversight of Artificial Intelligence Technology in Mental Health Care Act, barring AI from making independent therapeutic decisions), which are not recorded separately. Rhode Island was among roughly a dozen states that enacted companion-chatbot statutes in the first half of 2026.",
+   "notes": "Signed by the Governor on 22 Jun 2026 and effective 1 Jan 2027. The Senate passed Substitute A as amended on 21 May 2026 and the House passed it in concurrence on 8 Jun 2026; the House companion bill is H 7350. Enacted alongside two Rhode Island health-care AI laws of June 2026: S 2570 (notification when AI documents clinical visits) and S 2197 (Oversight of Artificial Intelligence Technology in Mental Health Care Act, barring AI from making independent therapeutic decisions), which are not recorded separately.",
    "verification": {
     "level": "C",
-    "verified_on": "2026-10-12",
+    "verified_on": "2026-10-14",
     "method": "search-confirmed",
-    "note": "Fetched the Nixon Peabody client alert of 20 Jul 2026 and the Transparency Coalition 2026 chatbot-law tracker; webserver.rilegislature.gov, status.rilegislature.gov, rilegislature.gov, governor.ri.gov and riag.ri.gov refused connections or returned HTTP 403 to both fetch methods. CAUTION: no official Rhode Island page could be fetched, so official_url is null. Title, provisions, the 22 Jun 2026 signing date, the 1 Jan 2027 effective date and the USD 15,000-per-day penalty rest on the two secondary sources, which agree. The bill text is understood to be at webserver.rilegislature.gov (BillText26/SenateText26/S2195A.htm) but could not be reached.",
-    "second_check": null
+    "note": "CAUTION: no official copy is stored. The stored sources are the Nixon Peabody client alert of 20 July 2026 (archive/US-RI-01/2026-10-12/secondary.html), which confirms the Act's name, S 2195, signature by Governor McKee in June 2026, the 1 January 2027 effective date and the provisions in the summary, and the FastDemocracy tracker page for S 2195 (archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-RI-01/extra-8f6f90705c/), which reproduces the Legislature's actions (Senate passage of Sub A as amended on 21 May 2026, House passage in concurrence on 8 June 2026, signed by the Governor on 22 June 2026). Both are secondary. The bill texts on webserver.rilegislature.gov and the General Assembly's press release could not be stored (connections refused), and no Governor or Attorney General page on the Act was found, so the effective date rests on the law-firm alert alone.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 9 field(s) supported, fixes applied to notes."
    },
    "local_copy": {
     "status": "partial",
     "flag": "No official URL is recorded; only the secondary source was saved.",
-    "last_attempt": "2026-10-12T04:49:04Z",
+    "last_attempt": "2026-10-14T07:51:35Z",
     "files": [
      {
       "role_key": "secondary",
@@ -42799,7 +43233,7 @@
       "sha256": "ac1542d23a324e37b0ae35323b0001694af07d336f1220a1f2d6275c0204362e",
       "text_sha256": "8d0a5882c18ab1d856cd445f74577a8cbf30172272a5c60e22046025c1edc097",
       "retrieved_at": "2026-10-12T04:49:06Z",
-      "last_checked": "2026-10-12T04:49:06Z",
+      "last_checked": "2026-10-14T07:51:38Z",
       "method": "http",
       "last_modified": null,
       "etag": "W/\"urwvu201ea37y2\"",
@@ -42820,9 +43254,26 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.nixonpeabody.com/insights/alerts/2026/07/20/rhode-island-joins-the-wave-of-states-regulating-ai-in-healthcare-and-ai-companion-tools",
+      "attempted_at": "2026-10-14T07:25:22Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.nixonpeabody.com/insights/alerts/2026/07/20/rhode-island-joins-the-wave-of-states-regulating-ai-in-healthcare-and-ai-companion-tools",
+      "attempted_at": "2026-10-14T07:51:38Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -44226,28 +44677,28 @@
    "local_copy": {
     "status": "partial",
     "flag": "No official URL is recorded; only the secondary source was saved.",
-    "last_attempt": "2026-10-12T04:49:23Z",
+    "last_attempt": "2026-10-14T07:49:47Z",
     "files": [
      {
       "role_key": "secondary",
       "role": "secondary",
       "label": "Secondary source",
-      "path": "archive/PY-01/2026-10-12/secondary.html",
+      "path": "archive/PY-01/2026-10-14/secondary.html",
       "url": "https://www.ultimahora.com/proyecto-que-regula-la-inteligencia-artificial-ya-tuvo-entrada-en-el-senado",
       "final_url": "https://www.ultimahora.com/proyecto-que-regula-la-inteligencia-artificial-ya-tuvo-entrada-en-el-senado",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 204174,
-      "sha256": "e4e57c4cb7f844cf3ea0176e74dc16dd10e525fd0615f1c909206ba50fbc9cba",
-      "text_sha256": "12dc8e6a8ea5a98acb088114eb6473488bb096ee5ec304283e60608bce28e402",
-      "retrieved_at": "2026-10-12T04:49:26Z",
-      "last_checked": "2026-10-12T04:49:26Z",
+      "bytes": 205260,
+      "sha256": "a10e57b0f8c12c45817a18dd87c4b2b13381c8cf9bd4d3610dfc6c89645f8aa5",
+      "text_sha256": "a73408123bbda56be0ed02c5b35cc06ae4e97502202d4adbd7b70e5108a12121",
+      "retrieved_at": "2026-10-14T07:25:18Z",
+      "last_checked": "2026-10-14T07:49:53Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
       "changed": false,
-      "previous_sha256": null,
-      "previous_path": null,
+      "previous_sha256": "e4e57c4cb7f844cf3ea0176e74dc16dd10e525fd0615f1c909206ba50fbc9cba",
+      "previous_path": "archive/PY-01/2026-10-12/secondary.html",
       "stale": false,
       "warning": null,
       "integrity": "ok"
@@ -44262,9 +44713,26 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.ultimahora.com/proyecto-que-regula-la-inteligencia-artificial-ya-tuvo-entrada-en-el-senado",
+      "attempted_at": "2026-10-14T07:25:18Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.ultimahora.com/proyecto-que-regula-la-inteligencia-artificial-ya-tuvo-entrada-en-el-senado",
+      "attempted_at": "2026-10-14T07:49:53Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {

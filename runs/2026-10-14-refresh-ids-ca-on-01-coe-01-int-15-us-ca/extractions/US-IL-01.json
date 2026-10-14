@@ -1,0 +1,128 @@
+{
+ "cand_id": "US-IL-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "US-IL-01",
+ "record": {
+  "summary": "Amends the Illinois Human Rights Act to prohibit employers from using artificial intelligence in a way that results in discrimination in employment decisions such as recruiting, hiring and discipline, and requires employers to be transparent about their use of AI for employment-related decisions by notifying employees and job applicants. It covers employers with one or more Illinois employees, including state entities and labor organizations, and is enforced by the Illinois Department of Human Rights and the Human Rights Commission through administrative charges and private lawsuits.",
+  "notes": "Signed 9 Aug 2024; effective 1 Jan 2026. Enforced by the Illinois Department of Human Rights and the Human Rights Commission. As of April 2026, rules on the content and timing of the required AI notice were still at the proposed-rulemaking stage. The FRONTIER Act's reference to Illinois SB 315 is the 2026 AI Safety Measures Act, recorded as US-IL-03.",
+  "verification": {
+   "note": "The stored Governor's release 'Gov. Pritzker Takes Bill Action' of 9 Aug 2024 (gov-pritzker-newsroom.prezly.com) confirms HB3773 as signed, its subject (amends the Illinois Human Rights Act on AI use in employment) and its effective date of 1 Jan 2026. A stored presentation of 2 Apr 2026 on the Illinois Human Rights Commission site, given by a law-firm partner and therefore treated as secondary, confirms that HB 3773 took effect on 1 Jan 2026, who is covered, the enforcement route and that the notice rules were still proposed. The stored IDHR legislative-updates page mentions AI-in-employment rules only in general. The Public Act number 103-0804 is not in any stored file, because ilga.gov could not be reached; it rests on the 11 Oct 2026 pass."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-IL-01/extra-3457d9b5a4/2026-10-14/official.html",
+    "sha256": "39ebf0029143f442f908955e18dd6140f594ef4d9e45cfebca1a16202d143316",
+    "locator": "bill list, HB3773 entry",
+    "quote": "Bill Number: HB3773 Description: Amends the Illinois Human Rights Act protect employees from discrimination from the use of AI in the workplace",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-IL-01/extra-3457d9b5a4/2026-10-14/official.html",
+    "sha256": "39ebf0029143f442f908955e18dd6140f594ef4d9e45cfebca1a16202d143316",
+    "locator": "release header",
+    "quote": "FOR IMMEDIATE RELEASE: Friday, August 9, 2024",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-IL-01/extra-3457d9b5a4/2026-10-14/official.html",
+    "sha256": "39ebf0029143f442f908955e18dd6140f594ef4d9e45cfebca1a16202d143316",
+    "locator": "release body, opening line",
+    "quote": "Today, Governor JB Pritzker took the following bill action:",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-IL-01/extra-3457d9b5a4/2026-10-14/official.html",
+    "sha256": "39ebf0029143f442f908955e18dd6140f594ef4d9e45cfebca1a16202d143316",
+    "locator": "bill list, HB3773 entry",
+    "quote": "ensures employers are transparent about their use of AI for employment-related decisions. Action: Signed Effective: January 1, 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-IL-01/extra-442285362c/2026-10-14/official.pdf",
+    "sha256": "f035756a4e43f8c05e5ad40e33fa22585d72fac2c345a2b0fe732ff8b5d1d04d",
+    "locator": "page 14",
+    "quote": "The law took effect on January 1, 2026",
+    "source_kind": "secondary"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-IL-01/extra-3457d9b5a4/2026-10-14/official.html",
+    "sha256": "39ebf0029143f442f908955e18dd6140f594ef4d9e45cfebca1a16202d143316",
+    "locator": "bill list, HB3773 entry",
+    "quote": "ensures employers are transparent about their use of AI for employment-related decisions. Action: Signed Effective: January 1, 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-IL-01/extra-442285362c/2026-10-14/official.pdf",
+    "sha256": "f035756a4e43f8c05e5ad40e33fa22585d72fac2c345a2b0fe732ff8b5d1d04d",
+    "locator": "page 14",
+    "quote": "HB 3773 amends the Illinois Humans Rights Act to prohibit employers from using AI in a way that will",
+    "source_kind": "secondary"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-IL-01/extra-3457d9b5a4/2026-10-14/official.html",
+    "sha256": "39ebf0029143f442f908955e18dd6140f594ef4d9e45cfebca1a16202d143316",
+    "locator": "release body, opening line",
+    "quote": "Today, Governor JB Pritzker took the following bill action:",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-IL-01/extra-442285362c/2026-10-14/official.pdf",
+    "sha256": "f035756a4e43f8c05e5ad40e33fa22585d72fac2c345a2b0fe732ff8b5d1d04d",
+    "locator": "page 16",
+    "quote": "The IDHR and Illinois Human Rights Commission will enforce the law",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-IL-01/extra-3457d9b5a4/2026-10-14/official.html",
+    "sha256": "39ebf0029143f442f908955e18dd6140f594ef4d9e45cfebca1a16202d143316",
+    "locator": "bill list, HB3773 entry",
+    "quote": "ensures employers are transparent about their use of AI for employment-related decisions. Action: Signed Effective: January 1, 2026",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Events: the Governor signed HB3773 on 9 Aug 2024 (bill-action release dated 'Friday, August 9, 2024'; 'Action: Signed'). The same entry gives 'Effective: January 1, 2026', and the HRC-hosted presentation of 2 Apr 2026 says 'The law took effect on January 1, 2026'. Arithmetic: 1 Jan 2026 is before today (14 Oct 2026). Status 'In force' and date_in_force 2026-01-01 are confirmed. The notice rules were still proposed in April 2026; that does not affect the statute's force.",
+  "scope_reasoning": "In scope as recorded: the amendment's provisions are AI-specific (discriminatory AI use and AI notice in employment), inserted into a civil-rights statute. No scope_note added.",
+  "changes": {
+   "summary": "Rewritten to claims the stored files support: the Governor's release and the HRC-hosted presentation. Dropped the zip-code proxy and the full list of covered decisions, which no stored file states. Added coverage and enforcement.",
+   "notes": "Removed the sentence about the IDHR page naming no statute (a remark about a source); now 'Signed' rather than 'Approved', as in the release. Added that the notice rules were still proposed in April 2026.",
+   "verification": "New note: level now rests on the Governor's release."
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "date_in_force",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "IDHR proposed rules on notice of AI use in employment (Illinois Human Rights Act)",
+   "url": null,
+   "seen_in": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-IL-01/extra-442285362c/2026-10-14/official.pdf, pages 17-21",
+   "why": "Implementing rules for HB 3773's notice duty, at the proposed stage in April 2026. Either an implementing regulation for the register or a note on this record once an official IDHR or Illinois Register source is stored."
+  }
+ ],
+ "open_questions": [
+  "official_identifier 'Public Act 103-0804 (HB 3773, 103rd General Assembly)' is kept as it is. The bill number HB3773 is supported by the Governor's release; the Public Act number and the General Assembly are not in any stored file (ilga.gov could not be reached).",
+  "The HRC-site presentation is by a Fisher Phillips partner, not by the Commission, so its quotes are labelled secondary although the host is official. Status and date_in_force also rest on the Governor's release (official)."
+ ]
+}

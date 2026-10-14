@@ -1,0 +1,94 @@
+{
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "VGP report names the Law on Digital Technology Industry; the Can Tho pages tie Article 41 (AI principles) and the repealed Chapter IV to it."
+  },
+  "original_title": {
+   "verdict": "judgment-differs",
+   "why": "'Luật Công nghiệp công nghệ số' is stored; the parenthetical '(Chương IV về trí tuệ nhân tạo)' is not explicit in any stored text, though Chapter IV is repealed by the AI law and Article 41 covers AI principles."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "VGP: National Assembly passed it at its 9th sitting; Can Tho: Quốc hội ban hành. '15th National Assembly' follows from 'QH15' and 'khóa XV'."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "'Luật số 71/2025/QH15' in the Can Tho page, character for character."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "VGP dated 14 June 2025 reports passage on Saturday; Can Tho: 'Ngày 14 tháng 6 năm 2025 Quốc hội đã ban hành Luật số 71/2025/QH15'. This is the adoption date."
+  },
+  "date_in_force": {
+   "verdict": "supported",
+   "why": "'scheduled to take effect on January 1, 2026' and '01 tháng 01 năm 2026'; both are stored."
+  },
+  "date_last_updated": {
+   "verdict": "supported",
+   "why": "AI law (adopted 10 Dec 2025) takes effect 1 March 2026 and repeals Chapter IV and listed clauses."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "As of 14 Oct 2026 Chapter IV was repealed from 1 March 2026; 'Superseded' fits the AI chapter this record covers, while the rest of the law stays in force."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "A law of the National Assembly."
+  },
+  "summary": {
+   "verdict": "unsupported",
+   "why": "'First statute with binding AI provisions', the definition of AI systems, 'labelling of AI products' and 'highest incentives for AI research and deployment' are not in any stored text, and 'Law on Artificial Intelligence (No. 134/2025/QH15)' gives a number absent from the stored copies."
+  },
+  "notes": {
+   "verdict": "unsupported",
+   "why": "The repeal list (Art 3(9), 4(7), 12(6), 34(2)(đ), Chapter IV) is supported. The 441 of 445 vote, 6 chapters and 51 articles, the 1 July 2025 incentive provisions, Decision 367/QĐ-TTg and the consolidated text 20/VBHN-VPQH are not in a stored text, and 'reported', 'press and law-firm reports' and 'reportedly' are hedges that belong in verification.note (AGENTS.md rule 5)."
+  },
+  "verification.note": {
+   "verdict": "supported",
+   "why": "Describes stored sources accurately and lists what is unconfirmed; CAUTION present. It overstates 'official' for the Can Tho pages (a provincial justice department), but says they are not the issuing body."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Risk-based management of AI systems",
+   "verdict": "supported",
+   "locator": "VGP report: 'AI is categorized into high-risk, high-impact, and non-high-risk groups'"
+  },
+  {
+   "claim": "Prohibited uses of AI against national interests, defence, security, public order and human rights",
+   "verdict": "supported",
+   "locator": "Can Tho article on the 2025 law, Article 12: 'Sử dụng, cung cấp, triển khai hệ thống trí tuệ nhân tạo để xâm phạm lợi ích quốc gia...'"
+  },
+  {
+   "claim": "Chapter repealed when the AI law took effect on 1 March 2026",
+   "verdict": "supported",
+   "locator": "archive/VN-07/2026-10-14/secondary-2.html: 'bãi bỏ ... Chương IV của Luật Công nghiệp công nghệ số'"
+  },
+  {
+   "claim": "Labelling of AI products",
+   "verdict": "unsupported",
+   "locator": "not in any stored text"
+  },
+  {
+   "claim": "Viet Nam's first statute with binding AI provisions",
+   "verdict": "unsupported",
+   "locator": "VGP says only 'first country ... standalone law ... digital technology industry'"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [
+  "https://vanban.chinhphu.vn/?pageid=27160&docid=214609&classid=1&typegroupid=3"
+ ],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "A chapter of a digital-industry law, superseded by the standalone AI law (VN-02); in scope as a repealed instrument kept for context, and a scope_note is advisable."
+ },
+ "overall": "needs-human",
+ "note": "Law number, adoption date, entry into force, repeal of Chapter IV on 1 March 2026 and status are supported by stored Government News and Can Tho pages (level C; the vbpl.vn copy is an empty shell). The summary and notes go beyond them: first-statute claim, labelling and definition content, the Law on AI number, the vote and structure, and hedged wording. The search found no newer amendment; it did surface an official text on vanban.chinhphu.vn (listed in extra_urls) that, once stored, could support Chapter IV's content.",
+ "cand_id": "VN-07",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14"
+}

@@ -1,0 +1,3066 @@
+{
+ "CA-ON-01": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-14T07:49:16Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/CA-ON-01/2026-10-11/official.html",
+     "url": "https://www.ola.org/en/legislative-business/bills/parliament-43/session-1/bill-194",
+     "final_url": "https://www.ola.org/en/legislative-business/bills/parliament-43/session-1/bill-194",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 343163,
+     "sha256": "1cd5fa2d20165445afed84f8359223c53c1c06ada83dd4b3c3aa68dc865a83fe",
+     "retrieved_at": "2026-10-11T14:04:22Z",
+     "last_checked": "2026-10-14T07:49:19Z",
+     "method": "http",
+     "last_modified": "Sun, 11 Oct 2026 06:03:04 GMT",
+     "etag": "\"1791698584-gzip\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok",
+     "text_sha256": "a38dcabf77ef27aab7579f4e677302fe0a73c36ddd9ed775b9f92d11ccc4161f"
+    },
+    {
+     "role_key": "document-1",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/CA-ON-01/2026-10-11/document-1.pdf",
+     "url": "https://www.ola.org/sites/default/files/node-files/bill/document/pdf/2024/2024-11/b194rep_e.pdf",
+     "final_url": "https://www.ola.org/sites/default/files/node-files/bill/document/pdf/2024/2024-11/b194rep_e.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 222069,
+     "sha256": "c830202d71244913575bd346498e6d73056d6fddbe4281a4c23e67e6a2af5ba5",
+     "retrieved_at": "2026-10-11T14:04:24Z",
+     "last_checked": "2026-10-14T07:49:21Z",
+     "method": "http",
+     "last_modified": "Mon, 25 Nov 2024 22:30:41 GMT",
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-2",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/CA-ON-01/2026-10-11/document-2.pdf",
+     "url": "https://www.ola.org/sites/default/files/node-files/bill/document/pdf/2024/2024-11/b194ra_e.pdf",
+     "final_url": "https://www.ola.org/sites/default/files/node-files/bill/document/pdf/2024/2024-11/b194ra_e.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 314661,
+     "sha256": "2f0f21cb8bd340b3bc6700dd422a8ce41c31cd54d8dd4d008aa1a08cde1ead0b",
+     "retrieved_at": "2026-10-11T14:04:27Z",
+     "last_checked": "2026-10-14T07:49:24Z",
+     "method": "http",
+     "last_modified": "Tue, 26 Nov 2024 15:41:58 GMT",
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.ola.org/en/legislative-business/bills/parliament-43/session-1/bill-194",
+     "attempted_at": "2026-10-11T14:04:22Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.ola.org/sites/default/files/node-files/bill/document/pdf/2024/2024-11/b194rep_e.pdf",
+     "attempted_at": "2026-10-11T14:04:24Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.ola.org/sites/default/files/node-files/bill/document/pdf/2024/2024-11/b194ra_e.pdf",
+     "attempted_at": "2026-10-11T14:04:27Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.ola.org/en/legislative-business/bills/parliament-43/session-1/bill-194",
+     "attempted_at": "2026-10-14T07:25:07Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.ola.org/sites/default/files/node-files/bill/document/pdf/2024/2024-11/b194rep_e.pdf",
+     "attempted_at": "2026-10-14T07:25:10Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.ola.org/sites/default/files/node-files/bill/document/pdf/2024/2024-11/b194ra_e.pdf",
+     "attempted_at": "2026-10-14T07:25:13Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.ola.org/en/legislative-business/bills/parliament-43/session-1/bill-194",
+     "attempted_at": "2026-10-14T07:49:19Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.ola.org/sites/default/files/node-files/bill/document/pdf/2024/2024-11/b194rep_e.pdf",
+     "attempted_at": "2026-10-14T07:49:21Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.ola.org/sites/default/files/node-files/bill/document/pdf/2024/2024-11/b194ra_e.pdf",
+     "attempted_at": "2026-10-14T07:49:24Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.ontario.ca/orders-in-council/oc-3612025": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T07:49:16Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/CA-ON-01/extra-04be1c45e1/2026-10-14/official.html",
+      "url": "https://www.ontario.ca/orders-in-council/oc-3612025",
+      "final_url": "https://www.ontario.ca/orders-in-council/oc-3612025",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 90818,
+      "sha256": "b45ca0101befe4314e0caaac09d334e99e762172d82a4de83eeaadb6b96b50cb",
+      "text_sha256": "9568da46d7fdcc3d82bd4852b9495b8d2891a96693d2a6daa71a553a5a3d7dc7",
+      "retrieved_at": "2026-10-14T07:49:24Z",
+      "last_checked": "2026-10-14T07:49:24Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.ontario.ca/orders-in-council/oc-3612025",
+      "attempted_at": "2026-10-14T07:49:24Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.ontario.ca/laws/statute/24e24": {
+    "status": "archived",
+    "flag": "Saved with a headless browser because the plain download looked incomplete.",
+    "last_attempt": "2026-10-14T07:49:16Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/CA-ON-01/extra-b21b53bc97/2026-10-14/official.html",
+      "url": "https://www.ontario.ca/laws/statute/24e24",
+      "final_url": "https://www.ontario.ca/laws/statute/24e24",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 54243,
+      "sha256": "1a069fdf18de59802e39a99ac462935937378b1fc800a192bd3f72434e4af078",
+      "text_sha256": "e3a4a91b746026cead749fd0de42592aba7f66ae144d8fa75e2ef029becc1f11",
+      "retrieved_at": "2026-10-14T07:49:26Z",
+      "last_checked": "2026-10-14T07:49:26Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The page has very little readable text (19 characters); it probably needs JavaScript",
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-rendered",
+      "role": "official-rendered",
+      "label": "Official source, rendered in a browser",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/CA-ON-01/extra-b21b53bc97/2026-10-14/official-rendered.html",
+      "url": "https://www.ontario.ca/laws/statute/24e24",
+      "final_url": "https://www.ontario.ca/laws/statute/24e24",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 98764,
+      "sha256": "7aadeee6dfee9b7c19c1dc3b2206d8456254d1f68a21b6fd304e4a9064c6d5f1",
+      "text_sha256": "07bbd9f9505de11906f4e1572eff118ae2c1fb1528359d0017baa52947d1b10a",
+      "retrieved_at": "2026-10-14T07:53:15Z",
+      "last_checked": "2026-10-14T07:53:15Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-print",
+      "role": "official-print",
+      "label": "Official source, printed to PDF by a browser",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/CA-ON-01/extra-b21b53bc97/2026-10-14/official-print.pdf",
+      "url": "https://www.ontario.ca/laws/statute/24e24",
+      "final_url": "https://www.ontario.ca/laws/statute/24e24",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 122811,
+      "sha256": "1c8f173b3877f57ba752ea8bdf787ff9396a31a8b3233377d4c890d184f40177",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T07:53:15Z",
+      "last_checked": "2026-10-14T07:53:15Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.ontario.ca/laws/statute/24e24",
+      "attempted_at": "2026-10-14T07:49:26Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://www.ontario.ca/laws/statute/24e24",
+      "attempted_at": "2026-10-14T07:53:15Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "browser"
+     }
+    ]
+   },
+   "https://www.ontario.ca/page/enhancing-digital-security-and-trust-act": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T07:49:16Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/CA-ON-01/extra-918dfb6d5e/2026-10-14/official.html",
+      "url": "https://www.ontario.ca/page/enhancing-digital-security-and-trust-act",
+      "final_url": "https://www.ontario.ca/page/enhancing-digital-security-and-trust-act",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 97103,
+      "sha256": "c1aa0ce26082ccaf93240cae132ae743558333571b0e31977c89065ca7daa283",
+      "text_sha256": "64aa8c7df64982711c76a2f58752ddecda55a16e212052f7d9eaaa4772983b51",
+      "retrieved_at": "2026-10-14T07:49:29Z",
+      "last_checked": "2026-10-14T07:49:29Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.ontario.ca/page/enhancing-digital-security-and-trust-act",
+      "attempted_at": "2026-10-14T07:49:29Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "CA-ON-01"
+ },
+ "COE-01": {
+  "main": {
+   "status": "failed",
+   "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The secondary source could not be downloaded (HTTP 403 Forbidden). The browser retry also failed (HTTP 403 (in browser)).",
+   "last_attempt": "2026-10-14T07:49:24Z",
+   "files": [],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
+     "attempted_at": "2026-10-11T13:57:05Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.coe.int/en/web/portal/-/council-of-europe-opens-first-ever-global-treaty-on-ai-for-signature",
+     "attempted_at": "2026-10-11T13:57:09Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
+     "attempted_at": "2026-10-11T14:06:47Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.coe.int/en/web/portal/-/council-of-europe-opens-first-ever-global-treaty-on-ai-for-signature",
+     "attempted_at": "2026-10-11T14:06:51Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    },
+    {
+     "role": "official-rendered",
+     "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
+     "attempted_at": "2026-10-11T14:09:00Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 (in browser)",
+     "method": "browser"
+    },
+    {
+     "role": "official",
+     "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
+     "attempted_at": "2026-10-14T07:25:06Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.coe.int/en/web/portal/-/council-of-europe-opens-first-ever-global-treaty-on-ai-for-signature",
+     "attempted_at": "2026-10-14T07:25:08Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    },
+    {
+     "role": "official-rendered",
+     "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
+     "attempted_at": "2026-10-14T07:26:09Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 (in browser)",
+     "method": "browser"
+    },
+    {
+     "role": "official",
+     "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
+     "attempted_at": "2026-10-14T07:49:26Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.coe.int/en/web/portal/-/council-of-europe-opens-first-ever-global-treaty-on-ai-for-signature",
+     "attempted_at": "2026-10-14T07:49:28Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    },
+    {
+     "role": "official-rendered",
+     "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
+     "attempted_at": "2026-10-14T07:53:16Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 (in browser)",
+     "method": "browser"
+    }
+   ]
+  },
+  "extras": {
+   "https://data.consilium.europa.eu/doc/document/ST-9718-2025-ADD-1/en/pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T07:49:24Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/COE-01/extra-a0575144ba/2026-10-14/official.pdf",
+      "url": "https://data.consilium.europa.eu/doc/document/ST-9718-2025-ADD-1/en/pdf",
+      "final_url": "https://data.consilium.europa.eu/doc/document/ST-9718-2025-ADD-1/en/pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 443906,
+      "sha256": "dd9c380d20ac68ba552318479fdbefd5ab4204bf2459d82cbd68a9973f0241bd",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T07:49:26Z",
+      "last_checked": "2026-10-14T07:49:26Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://data.consilium.europa.eu/doc/document/ST-9718-2025-ADD-1/en/pdf",
+      "attempted_at": "2026-10-14T07:49:26Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://eur-lex.europa.eu/eli/dec/2026/1080/oj": {
+    "status": "archived",
+    "flag": "Saved with a headless browser because the plain download looked incomplete.",
+    "last_attempt": "2026-10-14T07:49:26Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/COE-01/extra-cf294e88f5/2026-10-14/official.html",
+      "url": "https://eur-lex.europa.eu/eli/dec/2026/1080/oj",
+      "final_url": "https://eur-lex.europa.eu/eli/dec/2026/1080/oj",
+      "http_status": 202,
+      "content_type": "text/html",
+      "bytes": 2035,
+      "sha256": "43f31a2457d78824e7cf997b73f98afe2926fb6fffc6f4dc41fd8fdf0a9eaaf6",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-10-14T07:49:33Z",
+      "last_checked": "2026-10-14T07:49:33Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The site returned a JavaScript bot-check page (web application firewall) instead of the document",
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-rendered",
+      "role": "official-rendered",
+      "label": "Official source, rendered in a browser",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/COE-01/extra-cf294e88f5/2026-10-14/official-rendered.html",
+      "url": "https://eur-lex.europa.eu/eli/dec/2026/1080/oj",
+      "final_url": "https://eur-lex.europa.eu/eli/dec/2026/1080/oj",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 271564,
+      "sha256": "f8a6e8192aff5049fcf599ec83344716471c19fc13bb2ccc677329f063230d6e",
+      "text_sha256": "9105aa6c38702ed3fd47a3aa98a80d1e34b9a2bbbb94c99ec1752f0b3b2c219d",
+      "retrieved_at": "2026-10-14T07:53:27Z",
+      "last_checked": "2026-10-14T07:53:27Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-print",
+      "role": "official-print",
+      "label": "Official source, printed to PDF by a browser",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/COE-01/extra-cf294e88f5/2026-10-14/official-print.pdf",
+      "url": "https://eur-lex.europa.eu/eli/dec/2026/1080/oj",
+      "final_url": "https://eur-lex.europa.eu/eli/dec/2026/1080/oj",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 310195,
+      "sha256": "fb2944570a08e81fee55031c2ea5739f8d187d6f9b3ff43dbcb07b2aa29a6de2",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T07:53:27Z",
+      "last_checked": "2026-10-14T07:53:27Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://eur-lex.europa.eu/eli/dec/2026/1080/oj",
+      "attempted_at": "2026-10-14T07:49:33Z",
+      "ok": true,
+      "http_status": 202,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://eur-lex.europa.eu/eli/dec/2026/1080/oj",
+      "attempted_at": "2026-10-14T07:53:27Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "browser"
+     }
+    ]
+   },
+   "https://eur-lex.europa.eu/eli/dec/2024/2218/oj": {
+    "status": "archived",
+    "flag": "Saved with a headless browser because the plain download looked incomplete.",
+    "last_attempt": "2026-10-14T07:49:26Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/COE-01/extra-22d023436d/2026-10-14/official.html",
+      "url": "https://eur-lex.europa.eu/eli/dec/2024/2218/oj",
+      "final_url": "https://eur-lex.europa.eu/eli/dec/2024/2218/oj",
+      "http_status": 202,
+      "content_type": "text/html",
+      "bytes": 2035,
+      "sha256": "42077b885ceeb010e9943cca60017e6f913d15baeec98504fb9bf2210d6463d6",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-10-14T07:49:31Z",
+      "last_checked": "2026-10-14T07:49:31Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The site returned a JavaScript bot-check page (web application firewall) instead of the document",
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-rendered",
+      "role": "official-rendered",
+      "label": "Official source, rendered in a browser",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/COE-01/extra-22d023436d/2026-10-14/official-rendered.html",
+      "url": "https://eur-lex.europa.eu/eli/dec/2024/2218/oj",
+      "final_url": "https://eur-lex.europa.eu/eli/dec/2024/2218/oj",
+      "http_status": 202,
+      "content_type": "text/html",
+      "bytes": 267460,
+      "sha256": "51c02e6a4691ae7f1c6d38319c3c55f86299fd77df78d93a9b18fa93fbff5d09",
+      "text_sha256": "b79e1557ba875defa1433c688a60a467393dcadcceeec02c4ae64851ac2521bb",
+      "retrieved_at": "2026-10-14T07:53:22Z",
+      "last_checked": "2026-10-14T07:53:22Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-print",
+      "role": "official-print",
+      "label": "Official source, printed to PDF by a browser",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/COE-01/extra-22d023436d/2026-10-14/official-print.pdf",
+      "url": "https://eur-lex.europa.eu/eli/dec/2024/2218/oj",
+      "final_url": "https://eur-lex.europa.eu/eli/dec/2024/2218/oj",
+      "http_status": 202,
+      "content_type": "application/pdf",
+      "bytes": 283445,
+      "sha256": "30504fb1a5ff176825c6b8818dec745fbdc3bfe01b9906162e15756a7b4386d4",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T07:53:22Z",
+      "last_checked": "2026-10-14T07:53:22Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://eur-lex.europa.eu/eli/dec/2024/2218/oj",
+      "attempted_at": "2026-10-14T07:49:31Z",
+      "ok": true,
+      "http_status": 202,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://eur-lex.europa.eu/eli/dec/2024/2218/oj",
+      "attempted_at": "2026-10-14T07:53:22Z",
+      "ok": true,
+      "http_status": 202,
+      "error": null,
+      "method": "browser"
+     }
+    ]
+   },
+   "https://www.coe.int/en/web/artificial-intelligence/-/framework-convention-marks-two-years-anniversary-conference-to-advance-trustworthy-ai": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (HTTP 403 (in browser)).",
+    "last_attempt": "2026-10-14T07:49:28Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.coe.int/en/web/artificial-intelligence/-/framework-convention-marks-two-years-anniversary-conference-to-advance-trustworthy-ai",
+      "attempted_at": "2026-10-14T07:49:30Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://www.coe.int/en/web/artificial-intelligence/-/framework-convention-marks-two-years-anniversary-conference-to-advance-trustworthy-ai",
+      "attempted_at": "2026-10-14T07:53:16Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 (in browser)",
+      "method": "browser"
+     }
+    ]
+   },
+   "https://www.coe.int/en/web/artificial-intelligence/-/european-union-ratifies-the-council-of-europe-framework-convention-on-artificial-intelligence": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (HTTP 403 (in browser)).",
+    "last_attempt": "2026-10-14T07:49:29Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.coe.int/en/web/artificial-intelligence/-/european-union-ratifies-the-council-of-europe-framework-convention-on-artificial-intelligence",
+      "attempted_at": "2026-10-14T07:49:32Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://www.coe.int/en/web/artificial-intelligence/-/european-union-ratifies-the-council-of-europe-framework-convention-on-artificial-intelligence",
+      "attempted_at": "2026-10-14T07:53:22Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 (in browser)",
+      "method": "browser"
+     }
+    ]
+   },
+   "https://rm.coe.int/1680afae3c": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (HTTP 403 (in browser)).",
+    "last_attempt": "2026-10-14T07:49:30Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://rm.coe.int/1680afae3c",
+      "attempted_at": "2026-10-14T07:49:32Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://rm.coe.int/1680afae3c",
+      "attempted_at": "2026-10-14T07:53:23Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 (in browser)",
+      "method": "browser"
+     }
+    ]
+   }
+  },
+  "record_id": "COE-01"
+ },
+ "INT-15": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-14T07:49:31Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/INT-15/2026-10-11/official.html",
+     "url": "https://www.mfa.gov.cn/eng/wjbzhd/202607/t20260717_11984747.html",
+     "final_url": "https://www.mfa.gov.cn/eng/wjbzhd/202607/t20260717_11984747.html",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 22734,
+     "sha256": "8d57123e9f85ed2705b364e57aa8d1f3c46c9d851ea5748bf0ef7fb6d68ef78c",
+     "retrieved_at": "2026-10-11T13:58:01Z",
+     "last_checked": "2026-10-14T07:49:34Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/INT-15/2026-10-11/secondary.html",
+     "url": "https://www.mfa.gov.cn/mfa_eng/xw/zyxw/202607/t20260717_11984715.html",
+     "final_url": "https://www.mfa.gov.cn/mfa_eng/xw/zyxw/202607/t20260717_11984715.html",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 29770,
+     "sha256": "c7a9044a12440bf652f44c6136810b51eeb2d018b0e19dca73b50b5ddc8d0c69",
+     "retrieved_at": "2026-10-11T13:58:03Z",
+     "last_checked": "2026-10-14T07:49:37Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.mfa.gov.cn/eng/wjbzhd/202607/t20260717_11984747.html",
+     "attempted_at": "2026-10-11T13:58:01Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.mfa.gov.cn/mfa_eng/xw/zyxw/202607/t20260717_11984715.html",
+     "attempted_at": "2026-10-11T13:58:03Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.mfa.gov.cn/eng/wjbzhd/202607/t20260717_11984747.html",
+     "attempted_at": "2026-10-14T07:25:14Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.mfa.gov.cn/mfa_eng/xw/zyxw/202607/t20260717_11984715.html",
+     "attempted_at": "2026-10-14T07:25:16Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.mfa.gov.cn/eng/wjbzhd/202607/t20260717_11984747.html",
+     "attempted_at": "2026-10-14T07:49:34Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.mfa.gov.cn/mfa_eng/xw/zyxw/202607/t20260717_11984715.html",
+     "attempted_at": "2026-10-14T07:49:37Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://china.mfa.gov.ge/en/news/698378-saqartvelos-elchma-kheli-moatsera-ai-is-tanamshromlobis-msophlio-organizatsiis-shetankhmebas": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T07:49:32Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/INT-15/extra-8b0aeeef23/2026-10-14/official.html",
+      "url": "https://china.mfa.gov.ge/en/news/698378-saqartvelos-elchma-kheli-moatsera-ai-is-tanamshromlobis-msophlio-organizatsiis-shetankhmebas",
+      "final_url": "https://china.mfa.gov.ge/en/news/698378-saqartvelos-elchma-kheli-moatsera-ai-is-tanamshromlobis-msophlio-organizatsiis-shetankhmebas",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 71284,
+      "sha256": "47433ea95128cbe94d951090f437014bc4c6e5d8e8838085ade948789d034e9c",
+      "text_sha256": "0cf4f482cf0a35e264e68a88d354ba041bfa82fba04c76f023b09c91089dc183",
+      "retrieved_at": "2026-10-14T07:49:35Z",
+      "last_checked": "2026-10-14T07:49:35Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://china.mfa.gov.ge/en/news/698378-saqartvelos-elchma-kheli-moatsera-ai-is-tanamshromlobis-msophlio-organizatsiis-shetankhmebas",
+      "attempted_at": "2026-10-14T07:49:35Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "INT-15"
+ },
+ "US-CA-07": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-14T07:49:32Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/US-CA-07/2026-10-14/official.html",
+     "url": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
+     "final_url": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 322239,
+     "sha256": "6fdce3db5217999b1b51069ec3a2371ad1e3c2cee013f8095dda5811444f01b6",
+     "text_sha256": "b76016a90979d683e9b195c7384729fcff4a69b6a279a55e85542444d1a05b27",
+     "retrieved_at": "2026-10-14T07:25:06Z",
+     "last_checked": "2026-10-14T07:49:34Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": "9810440b2be083ae396003ca3dec848d6ab749e6e5cde04968784e5143f86d14",
+     "previous_path": "archive/US-CA-07/2026-10-11/official.html",
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/US-CA-07/2026-10-11/secondary.pdf",
+     "url": "https://www.gov.ca.gov/wp-content/uploads/2026/09/FINAL-N-9-26-AI-EO-9.18.26-SIGNED.pdf",
+     "final_url": "https://www.gov.ca.gov/wp-content/uploads/2026/09/FINAL-N-9-26-AI-EO-9.18.26-SIGNED.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 161419,
+     "sha256": "ea398613db19dd4e6479a04a93753d8efbcbfc91e5ecb8a42786721553da3fc5",
+     "retrieved_at": "2026-10-11T14:05:18Z",
+     "last_checked": "2026-10-14T07:49:36Z",
+     "method": "http",
+     "last_modified": "Fri, 18 Sep 2026 04:12:38 GMT",
+     "etag": "\"6aacba36-2768b\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
+     "attempted_at": "2026-10-11T14:05:01Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.gov.ca.gov/wp-content/uploads/2025/06/SIMM-25B-Web-Accessibility-Certificate_Gov.CA_.GOV-Signed.pdf",
+     "attempted_at": "2026-10-11T14:05:10Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gov.ca.gov/wp-content/uploads/2026/09/FINAL-N-9-26-AI-EO-9.18.26-SIGNED.pdf",
+     "attempted_at": "2026-10-11T14:05:18Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
+     "attempted_at": "2026-10-14T07:25:06Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gov.ca.gov/wp-content/uploads/2026/09/FINAL-N-9-26-AI-EO-9.18.26-SIGNED.pdf",
+     "attempted_at": "2026-10-14T07:25:09Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
+     "attempted_at": "2026-10-14T07:49:34Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gov.ca.gov/wp-content/uploads/2026/09/FINAL-N-9-26-AI-EO-9.18.26-SIGNED.pdf",
+     "attempted_at": "2026-10-14T07:49:36Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB813": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
+    "last_attempt": "2026-10-14T07:49:33Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB813",
+      "attempted_at": "2026-10-14T07:49:35Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB813",
+      "attempted_at": "2026-10-14T07:54:12Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
+      "method": "browser"
+     }
+    ]
+   },
+   "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB813": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
+    "last_attempt": "2026-10-14T07:49:35Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB813",
+      "attempted_at": "2026-10-14T07:49:37Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB813",
+      "attempted_at": "2026-10-14T07:54:57Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
+      "method": "browser"
+     }
+    ]
+   },
+   "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1405": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
+    "last_attempt": "2026-10-14T07:49:35Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1405",
+      "attempted_at": "2026-10-14T07:49:39Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1405",
+      "attempted_at": "2026-10-14T07:55:42Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
+      "method": "browser"
+     }
+    ]
+   },
+   "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1405": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
+    "last_attempt": "2026-10-14T07:49:36Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1405",
+      "attempted_at": "2026-10-14T07:49:41Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1405",
+      "attempted_at": "2026-10-14T07:56:27Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
+      "method": "browser"
+     }
+    ]
+   },
+   "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=9600": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
+    "last_attempt": "2026-10-14T07:49:37Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=9600",
+      "attempted_at": "2026-10-14T07:49:43Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=9600",
+      "attempted_at": "2026-10-14T07:57:12Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
+      "method": "browser"
+     }
+    ]
+   }
+  },
+  "record_id": "US-CA-07"
+ },
+ "US-CA-08": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-14T07:49:37Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/US-CA-08/2026-10-14/official.html",
+     "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+     "final_url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 310623,
+     "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071",
+     "text_sha256": "b099d47d443903d71fe2868168d11847c1d5782a6157165e320662df26c1cf91",
+     "retrieved_at": "2026-10-14T07:25:11Z",
+     "last_checked": "2026-10-14T07:49:39Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": "c411e3bd996e6b58ebd7cd50465707c80af6f3cf58ece75390ae218ea04370cd",
+     "previous_path": "archive/US-CA-08/2026-10-11/official.html",
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-1",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/US-CA-08/2026-10-14/document-1.pdf",
+     "url": "https://www.gov.ca.gov/wp-content/uploads/2023/09/AI-EO-No.12-_-GGN-Signed.pdf",
+     "final_url": "https://www.gov.ca.gov/wp-content/uploads/2023/09/AI-EO-No.12-_-GGN-Signed.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 4437328,
+     "sha256": "62b2f985ebde0a397679162aed5b66e1403a1c10a92e636eda6683cdf8886b2e",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T07:25:13Z",
+     "last_checked": "2026-10-14T07:49:41Z",
+     "method": "http",
+     "last_modified": "Wed, 28 May 2025 18:20:02 GMT",
+     "etag": "\"683753d2-43b550\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+     "attempted_at": "2026-10-11T14:05:05Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.gov.ca.gov/wp-content/uploads/2025/06/SIMM-25B-Web-Accessibility-Certificate_Gov.CA_.GOV-Signed.pdf",
+     "attempted_at": "2026-10-11T14:05:14Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.gov.ca.gov/wp-content/uploads/2023/09/AI-EO-No.12-_-GGN-Signed.pdf",
+     "attempted_at": "2026-10-11T14:05:20Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+     "attempted_at": "2026-10-14T07:25:11Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.gov.ca.gov/wp-content/uploads/2023/09/AI-EO-No.12-_-GGN-Signed.pdf",
+     "attempted_at": "2026-10-14T07:25:13Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+     "attempted_at": "2026-10-14T07:49:39Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.gov.ca.gov/wp-content/uploads/2023/09/AI-EO-No.12-_-GGN-Signed.pdf",
+     "attempted_at": "2026-10-14T07:49:41Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1119": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
+    "last_attempt": "2026-10-14T07:49:39Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1119",
+      "attempted_at": "2026-10-14T07:49:45Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1119",
+      "attempted_at": "2026-10-14T07:57:58Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
+      "method": "browser"
+     }
+    ]
+   },
+   "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB1119": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
+    "last_attempt": "2026-10-14T07:49:41Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB1119",
+      "attempted_at": "2026-10-14T07:49:47Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB1119",
+      "attempted_at": "2026-10-14T07:58:43Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
+      "method": "browser"
+     }
+    ]
+   },
+   "https://sd18.senate.ca.gov/node/419": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T07:49:41Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-CA-08/extra-f12ab82801/2026-10-14/official.html",
+      "url": "https://sd18.senate.ca.gov/node/419",
+      "final_url": "https://sd18.senate.ca.gov/news/victory-children-adams-law-poised-establish-most-comprehensive-child-protections-country",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 39553,
+      "sha256": "e3e83a2535fa5b73edbe100fd0a4122144b387b449360c04a73c264971a785ac",
+      "text_sha256": "323b8de9be46c09333db385086157817bf5fdee608c8a8a503596efd51e1ecb6",
+      "retrieved_at": "2026-10-14T07:49:45Z",
+      "last_checked": "2026-10-14T07:49:45Z",
+      "method": "http",
+      "last_modified": "Mon, 12 Oct 2026 19:51:25 GMT",
+      "etag": "\"1791834685-gzip\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://sd18.senate.ca.gov/node/419",
+      "attempted_at": "2026-10-14T07:49:45Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=9600": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
+    "last_attempt": "2026-10-14T07:49:43Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=9600",
+      "attempted_at": "2026-10-14T07:49:49Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=9600",
+      "attempted_at": "2026-10-14T08:00:13Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
+      "method": "browser"
+     }
+    ]
+   }
+  },
+  "record_id": "US-CA-08"
+ },
+ "CN-06": {
+  "main": {
+   "status": "archived-review",
+   "flag": "The page barely mentions the document's title; check that the URL still points to this document. A source changed since the previous snapshot; both versions are kept.",
+   "last_attempt": "2026-10-14T07:49:45Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/CN-06/2026-10-14/official.html",
+     "url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
+     "final_url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 23721,
+     "sha256": "b882626d90f68a77283c19776a2fd8ca948768c4721810a260c81965c0a9aa59",
+     "text_sha256": "973f770079d9abbc9c637c2beb5edc5f7cf26ebd52cc229d69b0cd2de7a2ef60",
+     "retrieved_at": "2026-10-14T07:25:16Z",
+     "last_checked": "2026-10-14T07:49:49Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": "e5f9f15e2385b8f5bbc5299829072a20e3c2cc6b8dcb242dd2f5dd1d5e19e00e",
+     "previous_path": "archive/CN-06/2026-10-11/official.html",
+     "stale": false,
+     "warning": "The page barely mentions the document's title; check that the URL still points to this document",
+     "integrity": "ok"
+    },
+    {
+     "role_key": "official-rendered",
+     "role": "official-rendered",
+     "label": "Official source, rendered in a browser",
+     "path": "archive/CN-06/2026-10-14/official-rendered.html",
+     "url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
+     "final_url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 26142,
+     "sha256": "1dcdce3448e9fe6df8d83b050ea1c26af331d9d35cd24f11880623798229abe5",
+     "text_sha256": "d2e378ab4310838333be55c92d95f95155c7461de1509d1a51622348bf84b113",
+     "retrieved_at": "2026-10-14T07:26:20Z",
+     "last_checked": "2026-10-14T08:00:22Z",
+     "method": "browser",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": "e089a3a6f45a06c788fd4bb11f24b50b75b9516f3dffc59abf4098620ad76f9c",
+     "previous_path": "archive/CN-06/2026-10-11/official-rendered.html",
+     "stale": false,
+     "warning": "The page barely mentions the document's title; check that the URL still points to this document",
+     "integrity": "ok"
+    },
+    {
+     "role_key": "official-print",
+     "role": "official-print",
+     "label": "Official source, printed to PDF by a browser",
+     "path": "archive/CN-06/2026-10-14/official-print-2.pdf",
+     "url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
+     "final_url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 2731147,
+     "sha256": "5bfa3f0e2c50094fc25f8711aae0e510acf196b32c7e0a47ebf4db0cc1ef67e8",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-14T08:00:22Z",
+     "last_checked": "2026-10-14T08:00:22Z",
+     "method": "browser",
+     "last_modified": null,
+     "etag": null,
+     "changed": true,
+     "previous_sha256": "3188b1ddc24355b287c8ad49d95fec4531219fc68e27676f97382e64d43200d2",
+     "previous_path": "archive/CN-06/2026-10-14/official-print.pdf",
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/CN-06/2026-10-14/secondary.html",
+     "url": "https://cset.georgetown.edu/publication/china-safety-requirements-for-generative-ai-final/",
+     "final_url": "https://cset.georgetown.edu/publication/china-safety-requirements-for-generative-ai-final/",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 175537,
+     "sha256": "3eec0c742e05510ff62977a9bcf02344f5fc06a9ae62b1e6648495414688e455",
+     "text_sha256": "8a80c330c50f9543e5f73e09a60f8df91b81d4ac4c6f9f83a689ca3080744c8c",
+     "retrieved_at": "2026-10-14T07:25:20Z",
+     "last_checked": "2026-10-14T07:49:52Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": "a26d74637810bb99d2d9fb9659df7b0feadaf868cd72f10c20eda73de7159c5f",
+     "previous_path": "archive/CN-06/2026-10-11/secondary.html",
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
+     "attempted_at": "2026-10-11T14:00:04Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://cset.georgetown.edu/publication/china-safety-requirements-for-generative-ai-final/",
+     "attempted_at": "2026-10-11T14:00:07Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
+     "attempted_at": "2026-10-11T14:07:37Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://cset.georgetown.edu/publication/china-safety-requirements-for-generative-ai-final/",
+     "attempted_at": "2026-10-11T14:07:39Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official-rendered",
+     "url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
+     "attempted_at": "2026-10-11T14:11:06Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "browser"
+    },
+    {
+     "role": "official",
+     "url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
+     "attempted_at": "2026-10-14T07:25:16Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://cset.georgetown.edu/publication/china-safety-requirements-for-generative-ai-final/",
+     "attempted_at": "2026-10-14T07:25:20Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official-rendered",
+     "url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
+     "attempted_at": "2026-10-14T07:26:20Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "browser"
+    },
+    {
+     "role": "official",
+     "url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
+     "attempted_at": "2026-10-14T07:49:49Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://cset.georgetown.edu/publication/china-safety-requirements-for-generative-ai-final/",
+     "attempted_at": "2026-10-14T07:49:52Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official-rendered",
+     "url": "https://www.tc260.org.cn/portal/article/2/20240301164054",
+     "attempted_at": "2026-10-14T08:00:22Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "browser"
+    }
+   ]
+  },
+  "extras": {
+   "https://perma.cc/GU3Q-GAJ3": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
+    "last_attempt": "2026-10-14T07:49:45Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://perma.cc/GU3Q-GAJ3",
+      "attempted_at": "2026-10-14T07:49:47Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://perma.cc/GU3Q-GAJ3",
+      "attempted_at": "2026-10-14T07:59:28Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
+      "method": "browser"
+     }
+    ]
+   },
+   "https://www.c-csa.cn/u_file/photo/20240804/d83608a539.pdf": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: The site's robots.txt does not allow automated downloads of this page.",
+    "last_attempt": "2026-10-14T07:49:47Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.c-csa.cn/u_file/photo/20240804/d83608a539.pdf",
+      "attempted_at": "2026-10-14T07:49:50Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's robots.txt does not allow automated downloads of this page",
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "CN-06"
+ },
+ "PY-01": {
+  "main": {
+   "status": "partial",
+   "flag": "No official URL is recorded; only the secondary source was saved.",
+   "last_attempt": "2026-10-14T07:49:47Z",
+   "files": [
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/PY-01/2026-10-14/secondary.html",
+     "url": "https://www.ultimahora.com/proyecto-que-regula-la-inteligencia-artificial-ya-tuvo-entrada-en-el-senado",
+     "final_url": "https://www.ultimahora.com/proyecto-que-regula-la-inteligencia-artificial-ya-tuvo-entrada-en-el-senado",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 205260,
+     "sha256": "a10e57b0f8c12c45817a18dd87c4b2b13381c8cf9bd4d3610dfc6c89645f8aa5",
+     "text_sha256": "a73408123bbda56be0ed02c5b35cc06ae4e97502202d4adbd7b70e5108a12121",
+     "retrieved_at": "2026-10-14T07:25:18Z",
+     "last_checked": "2026-10-14T07:49:53Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": "e4e57c4cb7f844cf3ea0176e74dc16dd10e525fd0615f1c909206ba50fbc9cba",
+     "previous_path": "archive/PY-01/2026-10-12/secondary.html",
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "secondary",
+     "url": "https://www.ultimahora.com/proyecto-que-regula-la-inteligencia-artificial-ya-tuvo-entrada-en-el-senado",
+     "attempted_at": "2026-10-12T04:49:26Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.ultimahora.com/proyecto-que-regula-la-inteligencia-artificial-ya-tuvo-entrada-en-el-senado",
+     "attempted_at": "2026-10-14T07:25:18Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.ultimahora.com/proyecto-que-regula-la-inteligencia-artificial-ya-tuvo-entrada-en-el-senado",
+     "attempted_at": "2026-10-14T07:49:53Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://silpy.congreso.gov.py/web/expediente/142635": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: The site's robots.txt does not allow automated downloads of this page.",
+    "last_attempt": "2026-10-14T07:49:49Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://silpy.congreso.gov.py/web/expediente/142635",
+      "attempted_at": "2026-10-14T07:49:51Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's robots.txt does not allow automated downloads of this page",
+      "method": "http"
+     }
+    ]
+   },
+   "https://silpy.congreso.gov.py/web/descarga/expediente-177591?preview": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: The site's robots.txt does not allow automated downloads of this page.",
+    "last_attempt": "2026-10-14T07:49:50Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://silpy.congreso.gov.py/web/descarga/expediente-177591?preview",
+      "attempted_at": "2026-10-14T07:49:56Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's robots.txt does not allow automated downloads of this page",
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "PY-01"
+ },
+ "TH-01": {
+  "main": {
+   "status": "partial",
+   "flag": "No official URL is recorded; only the secondary source was saved.",
+   "last_attempt": "2026-10-14T07:49:51Z",
+   "files": [
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/TH-01/2026-10-14/secondary.html",
+     "url": "https://www.tilleke.com/insights/thailand-releases-new-draft-artificial-intelligence-act/",
+     "final_url": "https://www.tilleke.com/insights/thailand-releases-new-draft-artificial-intelligence-act/",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 233941,
+     "sha256": "ddc11e28c30348a4d6dedbc35cdb49a75a7757c92aa1003b3b25fdbb0f37aa0e",
+     "text_sha256": "cf397a29cca55df245d0ceb8811a6bf3e29a215ed95771dc5faf4e81d6cdb0b4",
+     "retrieved_at": "2026-10-14T07:25:17Z",
+     "last_checked": "2026-10-14T07:49:54Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": "28ee0630caecf6b447c3bb8a0b75ed7878726e541ffcaf7b69d5d921047c8f22",
+     "previous_path": "archive/TH-01/2026-10-11/secondary.html",
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "secondary",
+     "url": "https://www.tilleke.com/insights/thailand-releases-new-draft-artificial-intelligence-act/",
+     "attempted_at": "2026-10-11T19:39:29Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.tilleke.com/insights/thailand-releases-new-draft-artificial-intelligence-act/",
+     "attempted_at": "2026-10-14T07:25:17Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.tilleke.com/insights/thailand-releases-new-draft-artificial-intelligence-act/",
+     "attempted_at": "2026-10-14T07:49:54Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://law.go.th/listeningDetail?survey_id=NzU4MERHQV9MQVdfRlJPTlRFTkQ=": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (HTTP 403 (in browser)).",
+    "last_attempt": "2026-10-14T07:49:52Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://law.go.th/listeningDetail?survey_id=NzU4MERHQV9MQVdfRlJPTlRFTkQ=",
+      "attempted_at": "2026-10-14T07:49:54Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://law.go.th/listeningDetail?survey_id=NzU4MERHQV9MQVdfRlJPTlRFTkQ=",
+      "attempted_at": "2026-10-14T08:00:22Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 (in browser)",
+      "method": "browser"
+     }
+    ]
+   },
+   "https://policywatch.thaipbs.or.th/article/government-364": {
+    "status": "archived-review",
+    "flag": "The page barely mentions the document's title; check that the URL still points to this document.",
+    "last_attempt": "2026-10-14T07:49:53Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/TH-01/extra-ff67846b01/2026-10-14/official.html",
+      "url": "https://policywatch.thaipbs.or.th/article/government-364",
+      "final_url": "https://policywatch.thaipbs.or.th/article/government-364",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 188767,
+      "sha256": "dbeb75249738d1bc6abe418b45b0c5e695972e680900fb1d2dd5aadb4ad19b91",
+      "text_sha256": "41408f8672a1ebafe1160d89435432751b40e5146f3fa2a818c2cd570853516b",
+      "retrieved_at": "2026-10-14T07:49:56Z",
+      "last_checked": "2026-10-14T07:49:56Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The page barely mentions the document's title; check that the URL still points to this document",
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-rendered",
+      "role": "official-rendered",
+      "label": "Official source, rendered in a browser",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/TH-01/extra-ff67846b01/2026-10-14/official-rendered.html",
+      "url": "https://policywatch.thaipbs.or.th/article/government-364",
+      "final_url": "https://policywatch.thaipbs.or.th/article/government-364",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 189588,
+      "sha256": "d86246f33b8d1dd6d52e83231aaa9bef9182bb12b6cb381bc5339b63debfb451",
+      "text_sha256": "848a28fddead26c2892e600b93297c25336c10744fcb752c0781bcdbe36f6acd",
+      "retrieved_at": "2026-10-14T08:00:31Z",
+      "last_checked": "2026-10-14T08:00:31Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The page barely mentions the document's title; check that the URL still points to this document",
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-print",
+      "role": "official-print",
+      "label": "Official source, printed to PDF by a browser",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/TH-01/extra-ff67846b01/2026-10-14/official-print.pdf",
+      "url": "https://policywatch.thaipbs.or.th/article/government-364",
+      "final_url": "https://policywatch.thaipbs.or.th/article/government-364",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 12322356,
+      "sha256": "cfd2b40c9e9d6f281f6751f3a7bc9809090de253ed7366d2dc2af6f6f76df864",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T08:00:31Z",
+      "last_checked": "2026-10-14T08:00:31Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://policywatch.thaipbs.or.th/article/government-364",
+      "attempted_at": "2026-10-14T07:49:56Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://policywatch.thaipbs.or.th/article/government-364",
+      "attempted_at": "2026-10-14T08:00:31Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "browser"
+     }
+    ]
+   }
+  },
+  "record_id": "TH-01"
+ },
+ "US-27": {
+  "main": {
+   "status": "partial",
+   "flag": "No official URL is recorded; only the secondary source was saved.",
+   "last_attempt": "2026-10-14T07:49:54Z",
+   "files": [
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/US-27/2026-10-11/secondary.html",
+     "url": "https://obernolte.house.gov/media/press-releases/obernolte-trahan-statement-white-house-ai-accord",
+     "final_url": "https://obernolte.house.gov/media/press-releases/obernolte-trahan-statement-white-house-ai-accord",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 41669,
+     "sha256": "798af29ed00983636efdc44ff37253af05fd61bdce69e043cc175c0bc2a6beed",
+     "retrieved_at": "2026-10-11T14:04:11Z",
+     "last_checked": "2026-10-14T07:49:56Z",
+     "method": "http",
+     "last_modified": "Sun, 11 Oct 2026 09:04:54 GMT",
+     "etag": "\"1791709495:dtagent103452608101703304Uci\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok",
+     "text_sha256": "4ccc2c016d5cc26a2136f0278a942fe4b54881195820c4cd4672cb45f98f0623"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "secondary",
+     "url": "https://obernolte.house.gov/media/press-releases/obernolte-trahan-statement-white-house-ai-accord",
+     "attempted_at": "2026-10-11T14:04:11Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://obernolte.house.gov/media/press-releases/obernolte-trahan-statement-white-house-ai-accord",
+     "attempted_at": "2026-10-11T14:08:06Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://obernolte.house.gov/media/press-releases/obernolte-trahan-statement-white-house-ai-accord",
+     "attempted_at": "2026-10-14T07:25:18Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://obernolte.house.gov/media/press-releases/obernolte-trahan-statement-white-house-ai-accord",
+     "attempted_at": "2026-10-14T07:49:56Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.presidency.ucsb.edu/documents/white-house-accord-super-intelligence": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T07:49:54Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-199626f0e9/2026-10-14/official.html",
+      "url": "https://www.presidency.ucsb.edu/documents/white-house-accord-super-intelligence",
+      "final_url": "https://www.presidency.ucsb.edu/documents/white-house-accord-super-intelligence",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 64872,
+      "sha256": "7af6abf3d3d22d2be4d43540cf3e6e2a5832dc427b439669bdf3dad4b5b66d4e",
+      "text_sha256": "d688f85f9e305f475681a59df4cd7d96dcab72a6aa185252ead81e6a6ed4a743",
+      "retrieved_at": "2026-10-14T07:49:57Z",
+      "last_checked": "2026-10-14T07:49:57Z",
+      "method": "http",
+      "last_modified": "Wed, 14 Oct 2026 04:19:11 GMT",
+      "etag": "W/\"1791951551-0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.presidency.ucsb.edu/documents/white-house-accord-super-intelligence",
+      "attempted_at": "2026-10-14T07:49:57Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.presidency.ucsb.edu/documents/truth-social-posts-september-29-2026": {
+    "status": "archived-review",
+    "flag": "The page barely mentions the document's title; check that the URL still points to this document.",
+    "last_attempt": "2026-10-14T07:49:56Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-486619e697/2026-10-14/official.html",
+      "url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-september-29-2026",
+      "final_url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-september-29-2026",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 75377,
+      "sha256": "77aef93ddc3812885b716a065c48d9df92c84661282876f169383005c325312a",
+      "text_sha256": "1544eb7442487c798473f41798277375264cff02bf510acd04b05ccdf33fb3a5",
+      "retrieved_at": "2026-10-14T07:49:59Z",
+      "last_checked": "2026-10-14T07:49:59Z",
+      "method": "http",
+      "last_modified": "Wed, 14 Oct 2026 07:29:06 GMT",
+      "etag": "W/\"1791962946-0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The page barely mentions the document's title; check that the URL still points to this document",
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-rendered",
+      "role": "official-rendered",
+      "label": "Official source, rendered in a browser",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-486619e697/2026-10-14/official-rendered.html",
+      "url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-september-29-2026",
+      "final_url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-september-29-2026",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 80485,
+      "sha256": "3368651d610a93dada9d53dde126cb2705bdee247ee761dbf029a9ccd80e88dd",
+      "text_sha256": "0fe65fcdde05e574c52bb93e991ab17bafef5a32e22f25bfd0e2ff1b05b7a3ac",
+      "retrieved_at": "2026-10-14T08:00:36Z",
+      "last_checked": "2026-10-14T08:00:36Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The page barely mentions the document's title; check that the URL still points to this document",
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-print",
+      "role": "official-print",
+      "label": "Official source, printed to PDF by a browser",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-486619e697/2026-10-14/official-print.pdf",
+      "url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-september-29-2026",
+      "final_url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-september-29-2026",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 2430649,
+      "sha256": "3469ec38f0d42ad99f15382f0b0ae689d33b81003337fa99520738b22ae537a4",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T08:00:36Z",
+      "last_checked": "2026-10-14T08:00:36Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-september-29-2026",
+      "attempted_at": "2026-10-14T07:49:59Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-september-29-2026",
+      "attempted_at": "2026-10-14T08:00:36Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "browser"
+     }
+    ]
+   }
+  },
+  "record_id": "US-27"
+ },
+ "US-ID-01": {
+  "main": {
+   "status": "partial",
+   "flag": "No official URL is recorded; only the secondary source was saved.",
+   "last_attempt": "2026-10-14T07:49:56Z",
+   "files": [
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/US-ID-01/2026-10-12/secondary.html",
+     "url": "https://www.transparencycoalition.ai/news/watershed-year-for-chatbot-safety-measures-14-new-state-laws-enacted-so-far-in-2026",
+     "final_url": "https://www.transparencycoalition.ai/news/watershed-year-for-chatbot-safety-measures-14-new-state-laws-enacted-so-far-in-2026",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 528805,
+     "sha256": "fe537ae1d601636aeaddd48f4c839f23541271c62d9117e48f5004ef62487516",
+     "text_sha256": "316c59700c083b038987f725d322489d6a7cc3fcabc7ffb2fcdd1904be16d255",
+     "retrieved_at": "2026-10-12T04:49:01Z",
+     "last_checked": "2026-10-14T07:49:58Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": "W/\"e0408f7a6000b5c2715e898f1b788ffd\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "secondary",
+     "url": "https://www.transparencycoalition.ai/news/watershed-year-for-chatbot-safety-measures-14-new-state-laws-enacted-so-far-in-2026",
+     "attempted_at": "2026-10-12T04:49:01Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.transparencycoalition.ai/news/watershed-year-for-chatbot-safety-measures-14-new-state-laws-enacted-so-far-in-2026",
+     "attempted_at": "2026-10-14T07:25:19Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.transparencycoalition.ai/news/watershed-year-for-chatbot-safety-measures-14-new-state-laws-enacted-so-far-in-2026",
+     "attempted_at": "2026-10-14T07:49:58Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://legislature.idaho.gov/sessioninfo/2026/legislation/S1297/": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'.",
+    "last_attempt": "2026-10-14T07:49:56Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/S1297/",
+      "attempted_at": "2026-10-14T07:50:42Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     }
+    ]
+   },
+   "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1297E1.pdf": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'.",
+    "last_attempt": "2026-10-14T07:49:57Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1297E1.pdf",
+      "attempted_at": "2026-10-14T07:51:29Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     }
+    ]
+   },
+   "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1297.pdf": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'.",
+    "last_attempt": "2026-10-14T07:49:58Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1297.pdf",
+      "attempted_at": "2026-10-14T07:52:16Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     }
+    ]
+   },
+   "https://legislature.idaho.gov/wp-content/uploads/statutesrules/idstat/Title48/T48CH22.pdf": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'.",
+    "last_attempt": "2026-10-14T07:49:59Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://legislature.idaho.gov/wp-content/uploads/statutesrules/idstat/Title48/T48CH22.pdf",
+      "attempted_at": "2026-10-14T07:53:03Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "US-ID-01"
+ },
+ "US-IL-01": {
+  "main": {
+   "status": "partial",
+   "flag": "The official source could not be downloaded (The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'); only the secondary source was saved.",
+   "last_attempt": "2026-10-14T07:50:42Z",
+   "files": [
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/US-IL-01/2026-10-14/secondary.html",
+     "url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
+     "final_url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 116917,
+     "sha256": "ab072476bac10ce023bced6b610924ce8717fb40d624bff5fd288a305cb99425",
+     "text_sha256": "f8293837a262e8356f0e21cfe22d744669a2d2d262cd3d331bf6a6aa56a3a1e2",
+     "retrieved_at": "2026-10-14T07:26:07Z",
+     "last_checked": "2026-10-14T07:51:31Z",
+     "method": "http",
+     "last_modified": "Wed, 14 Oct 2026 06:41:07 GMT",
+     "etag": null,
+     "changed": false,
+     "previous_sha256": "bf6621e3e8ffb83fc05d4e2b8177bc1458fa5cd8ff6727785734b6e6d3ebb4fa",
+     "previous_path": "archive/US-IL-01/2026-10-11/secondary.html",
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=3773&GAID=17&GA=103&DocTypeID=HB&SessionID=112",
+     "attempted_at": "2026-10-11T14:06:05Z",
+     "ok": false,
+     "http_status": null,
+     "error": "robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
+     "attempted_at": "2026-10-11T14:06:09Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=3773&GAID=17&GA=103&DocTypeID=HB&SessionID=112",
+     "attempted_at": "2026-10-11T14:08:51Z",
+     "ok": false,
+     "http_status": null,
+     "error": "robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
+     "attempted_at": "2026-10-11T14:08:53Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=3773&GAID=17&GA=103&DocTypeID=HB&SessionID=112",
+     "attempted_at": "2026-10-14T07:26:03Z",
+     "ok": false,
+     "http_status": null,
+     "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
+     "attempted_at": "2026-10-14T07:26:07Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=3773&GAID=17&GA=103&DocTypeID=HB&SessionID=112",
+     "attempted_at": "2026-10-14T07:51:27Z",
+     "ok": false,
+     "http_status": null,
+     "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
+     "attempted_at": "2026-10-14T07:51:31Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://gov-pritzker-newsroom.prezly.com/gov-pritzker-takes-bill-action-4gjzsm": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T07:51:29Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-IL-01/extra-3457d9b5a4/2026-10-14/official.html",
+      "url": "https://gov-pritzker-newsroom.prezly.com/gov-pritzker-takes-bill-action-4gjzsm",
+      "final_url": "https://gov-pritzker-newsroom.prezly.com/gov-pritzker-takes-bill-action-4gjzsm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 420286,
+      "sha256": "39ebf0029143f442f908955e18dd6140f594ef4d9e45cfebca1a16202d143316",
+      "text_sha256": "76622a63e895120e06cf9b9b1fc7d9441ee3bc270e54b9f22c89e213813a7e51",
+      "retrieved_at": "2026-10-14T07:51:31Z",
+      "last_checked": "2026-10-14T07:51:31Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://gov-pritzker-newsroom.prezly.com/gov-pritzker-takes-bill-action-4gjzsm",
+      "attempted_at": "2026-10-14T07:51:31Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://hrc.illinois.gov/content/dam/soi/en/web/hrc/documents/20260402-lunch+learn-presentation-materials.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T07:51:31Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-IL-01/extra-442285362c/2026-10-14/official.pdf",
+      "url": "https://hrc.illinois.gov/content/dam/soi/en/web/hrc/documents/20260402-lunch+learn-presentation-materials.pdf",
+      "final_url": "https://hrc.illinois.gov/content/dam/soi/en/web/hrc/documents/20260402-lunch+learn-presentation-materials.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 4198983,
+      "sha256": "f035756a4e43f8c05e5ad40e33fa22585d72fac2c345a2b0fe732ff8b5d1d04d",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T07:51:33Z",
+      "last_checked": "2026-10-14T07:51:33Z",
+      "method": "http",
+      "last_modified": "Thu, 02 Apr 2026 17:05:39 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://hrc.illinois.gov/content/dam/soi/en/web/hrc/documents/20260402-lunch+learn-presentation-materials.pdf",
+      "attempted_at": "2026-10-14T07:51:33Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "US-IL-01"
+ },
+ "US-NV-01": {
+  "main": {
+   "status": "partial",
+   "flag": "No official URL is recorded; only the secondary source was saved.",
+   "last_attempt": "2026-10-14T07:51:31Z",
+   "files": [
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/US-NV-01/2026-10-11/secondary.html",
+     "url": "https://naswnv.socialworkers.org/Professional-Development/AI-Regulation",
+     "final_url": "https://naswnv.socialworkers.org/Professional-Development/AI-Regulation",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 78663,
+     "sha256": "8dac3344e56270e3866fe0cc811bb116059895e8a3ba8cbb57eb5cea8d5a73ea",
+     "text_sha256": "53032c8b9bd9efe472eca1b9b3d38551b1dc8531ac23d52e042c734127504f2e",
+     "retrieved_at": "2026-10-11T19:38:37Z",
+     "last_checked": "2026-10-14T07:51:34Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "secondary",
+     "url": "https://naswnv.socialworkers.org/Professional-Development/AI-Regulation",
+     "attempted_at": "2026-10-11T19:38:37Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://naswnv.socialworkers.org/Professional-Development/AI-Regulation",
+     "attempted_at": "2026-10-14T07:25:22Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://naswnv.socialworkers.org/Professional-Development/AI-Regulation",
+     "attempted_at": "2026-10-14T07:51:34Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://archive.leg.state.nv.us/Session/83rd2025/Bills/AB/AB406_EN.pdf": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (HTTP 403 (in browser)).",
+    "last_attempt": "2026-10-14T07:51:33Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://archive.leg.state.nv.us/Session/83rd2025/Bills/AB/AB406_EN.pdf",
+      "attempted_at": "2026-10-14T07:51:35Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://archive.leg.state.nv.us/Session/83rd2025/Bills/AB/AB406_EN.pdf",
+      "attempted_at": "2026-10-14T08:00:37Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 (in browser)",
+      "method": "browser"
+     }
+    ]
+   },
+   "https://fastdemocracy.com/bill-search/nv/83/bills/NVB00009818/": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T07:51:34Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html",
+      "url": "https://fastdemocracy.com/bill-search/nv/83/bills/NVB00009818/",
+      "final_url": "https://fastdemocracy.com/bill-search/nv/83/bills/NVB00009818/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 175382,
+      "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb",
+      "text_sha256": "23b5524527690aedd8f4a48ec24a13f916e3ccac39af671eebc8211814641192",
+      "retrieved_at": "2026-10-14T07:51:37Z",
+      "last_checked": "2026-10-14T07:51:37Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://fastdemocracy.com/bill-search/nv/83/bills/NVB00009818/",
+      "attempted_at": "2026-10-14T07:51:37Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "US-NV-01"
+ },
+ "US-RI-01": {
+  "main": {
+   "status": "partial",
+   "flag": "No official URL is recorded; only the secondary source was saved.",
+   "last_attempt": "2026-10-14T07:51:35Z",
+   "files": [
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/US-RI-01/2026-10-12/secondary.html",
+     "url": "https://www.nixonpeabody.com/insights/alerts/2026/07/20/rhode-island-joins-the-wave-of-states-regulating-ai-in-healthcare-and-ai-companion-tools",
+     "final_url": "https://www.nixonpeabody.com/insights/alerts/2026/07/20/rhode-island-joins-the-wave-of-states-regulating-ai-in-healthcare-and-ai-companion-tools",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 150294,
+     "sha256": "ac1542d23a324e37b0ae35323b0001694af07d336f1220a1f2d6275c0204362e",
+     "text_sha256": "8d0a5882c18ab1d856cd445f74577a8cbf30172272a5c60e22046025c1edc097",
+     "retrieved_at": "2026-10-12T04:49:06Z",
+     "last_checked": "2026-10-14T07:51:38Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": "W/\"urwvu201ea37y2\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "secondary",
+     "url": "https://www.nixonpeabody.com/insights/alerts/2026/07/20/rhode-island-joins-the-wave-of-states-regulating-ai-in-healthcare-and-ai-companion-tools",
+     "attempted_at": "2026-10-12T04:49:06Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.nixonpeabody.com/insights/alerts/2026/07/20/rhode-island-joins-the-wave-of-states-regulating-ai-in-healthcare-and-ai-companion-tools",
+     "attempted_at": "2026-10-14T07:25:22Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.nixonpeabody.com/insights/alerts/2026/07/20/rhode-island-joins-the-wave-of-states-regulating-ai-in-healthcare-and-ai-companion-tools",
+     "attempted_at": "2026-10-14T07:51:38Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://webserver.rilegislature.gov/BillText26/SenateText26/S2195A.htm": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'.",
+    "last_attempt": "2026-10-14T07:51:37Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://webserver.rilegislature.gov/BillText26/SenateText26/S2195A.htm",
+      "attempted_at": "2026-10-14T07:52:22Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     }
+    ]
+   },
+   "https://webserver.rilegislature.gov/BillText26/HouseText26/H7350A.htm": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'.",
+    "last_attempt": "2026-10-14T07:51:38Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://webserver.rilegislature.gov/BillText26/HouseText26/H7350A.htm",
+      "attempted_at": "2026-10-14T07:53:09Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.rilegislature.gov/pressrelease/Lists/PressReleases/DispForm.aspx?ID=376633": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'.",
+    "last_attempt": "2026-10-14T07:52:16Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.rilegislature.gov/pressrelease/Lists/PressReleases/DispForm.aspx?ID=376633",
+      "attempted_at": "2026-10-14T07:53:01Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     }
+    ]
+   },
+   "https://fastdemocracy.com/bill/ri/2026/bills/RIB00033949": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T07:52:22Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-RI-01/extra-8f6f90705c/2026-10-14/official.html",
+      "url": "https://fastdemocracy.com/bill/ri/2026/bills/RIB00033949",
+      "final_url": "https://fastdemocracy.com/bill-search/ri/2026/bills/RIB00033949/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 174283,
+      "sha256": "3b7a73819d0dc7dbfd3ea3adc0f055f2741f82a97a52112098c939864e65e408",
+      "text_sha256": "2f4c094b1336134c561c8a4e39a4abc45e7d830c8ebb4947e5ccec421fb7a918",
+      "retrieved_at": "2026-10-14T07:52:23Z",
+      "last_checked": "2026-10-14T07:52:23Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://fastdemocracy.com/bill/ri/2026/bills/RIB00033949",
+      "attempted_at": "2026-10-14T07:52:23Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "US-RI-01"
+ },
+ "VN-07": {
+  "main": {
+   "status": "partial",
+   "flag": "No official URL is recorded; only the secondary source was saved. A source changed since the previous snapshot; both versions are kept.",
+   "last_attempt": "2026-10-14T07:52:23Z",
+   "files": [
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/VN-07/2026-10-14/secondary-2.html",
+     "url": "https://pbgdpl.cantho.gov.vn/mot-so-diem-moi-cua-luat-tri-tue-nhan-tao",
+     "final_url": "https://pbgdpl.cantho.gov.vn/mot-so-diem-moi-cua-luat-tri-tue-nhan-tao",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 66364,
+     "sha256": "598d59f36edd02c3f37886ac599067408c5060e2800fd19b459a7ccf0d6b55c4",
+     "text_sha256": "ecb1b598e07906c5bc631f4480b8fd5ba6522c9c1a201b63caac6535d510eb48",
+     "retrieved_at": "2026-10-14T07:52:28Z",
+     "last_checked": "2026-10-14T07:52:28Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": true,
+     "previous_sha256": "4f44ecb71ee3ac70fff4820b61e689dcb85f8b27b9ccb98d486e9c88b232cd2b",
+     "previous_path": "archive/VN-07/2026-10-14/secondary.html",
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "secondary",
+     "url": "https://pbgdpl.cantho.gov.vn/mot-so-diem-moi-cua-luat-tri-tue-nhan-tao",
+     "attempted_at": "2026-10-11T19:39:14Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://pbgdpl.cantho.gov.vn/mot-so-diem-moi-cua-luat-tri-tue-nhan-tao",
+     "attempted_at": "2026-10-14T07:25:39Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://pbgdpl.cantho.gov.vn/mot-so-diem-moi-cua-luat-tri-tue-nhan-tao",
+     "attempted_at": "2026-10-14T07:52:28Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://pbgdpl.cantho.gov.vn/nha-nuoc-thuc-hien-cac-chinh-sach-sau-day-nham-bao-dam-phat-trien-cong-nghiep-cong-nghe-so-theo-luat-cong-nghiep-cong-nghe-so-2025": {
+    "status": "archived-review",
+    "flag": "The page barely mentions the document's title; check that the URL still points to this document.",
+    "last_attempt": "2026-10-14T07:52:28Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/VN-07/extra-fc548cbf6b/2026-10-14/official.html",
+      "url": "https://pbgdpl.cantho.gov.vn/nha-nuoc-thuc-hien-cac-chinh-sach-sau-day-nham-bao-dam-phat-trien-cong-nghiep-cong-nghe-so-theo-luat-cong-nghiep-cong-nghe-so-2025",
+      "final_url": "https://pbgdpl.cantho.gov.vn/nha-nuoc-thuc-hien-cac-chinh-sach-sau-day-nham-bao-dam-phat-trien-cong-nghiep-cong-nghe-so-theo-luat-cong-nghiep-cong-nghe-so-2025",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 59202,
+      "sha256": "abe9754768bbc3f3002076fa86967d15c35a54accb193d7182cbf2ef8ba01812",
+      "text_sha256": "6ca4550040c5c7ed2b40778dba9e24739f025a22f05654e07c1ff57eabf6baeb",
+      "retrieved_at": "2026-10-14T07:52:31Z",
+      "last_checked": "2026-10-14T07:52:31Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The page barely mentions the document's title; check that the URL still points to this document",
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-rendered",
+      "role": "official-rendered",
+      "label": "Official source, rendered in a browser",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/VN-07/extra-fc548cbf6b/2026-10-14/official-rendered.html",
+      "url": "https://pbgdpl.cantho.gov.vn/nha-nuoc-thuc-hien-cac-chinh-sach-sau-day-nham-bao-dam-phat-trien-cong-nghiep-cong-nghe-so-theo-luat-cong-nghiep-cong-nghe-so-2025",
+      "final_url": "https://pbgdpl.cantho.gov.vn/nha-nuoc-thuc-hien-cac-chinh-sach-sau-day-nham-bao-dam-phat-trien-cong-nghiep-cong-nghe-so-theo-luat-cong-nghiep-cong-nghe-so-2025",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 72579,
+      "sha256": "45a23201cc2ff3e5d778a231bd47a519800bbaf59b1a874da90f7487273c6048",
+      "text_sha256": "0b70b9eb8a4cd7b30f3e91c4d4e7c53f79d911d25445fedee5e1a53a6e34bb88",
+      "retrieved_at": "2026-10-14T08:01:06Z",
+      "last_checked": "2026-10-14T08:01:06Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The page barely mentions the document's title; check that the URL still points to this document",
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-print",
+      "role": "official-print",
+      "label": "Official source, printed to PDF by a browser",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/VN-07/extra-fc548cbf6b/2026-10-14/official-print.pdf",
+      "url": "https://pbgdpl.cantho.gov.vn/nha-nuoc-thuc-hien-cac-chinh-sach-sau-day-nham-bao-dam-phat-trien-cong-nghiep-cong-nghe-so-theo-luat-cong-nghiep-cong-nghe-so-2025",
+      "final_url": "https://pbgdpl.cantho.gov.vn/nha-nuoc-thuc-hien-cac-chinh-sach-sau-day-nham-bao-dam-phat-trien-cong-nghiep-cong-nghe-so-theo-luat-cong-nghiep-cong-nghe-so-2025",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 2329038,
+      "sha256": "5d8c2db6e47dd4d5b9aed2bfa51315d1f6f64d6b3a1a052ded18bad5d97a92c7",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-14T08:01:06Z",
+      "last_checked": "2026-10-14T08:01:06Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://pbgdpl.cantho.gov.vn/nha-nuoc-thuc-hien-cac-chinh-sach-sau-day-nham-bao-dam-phat-trien-cong-nghiep-cong-nghe-so-theo-luat-cong-nghiep-cong-nghe-so-2025",
+      "attempted_at": "2026-10-14T07:52:31Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://pbgdpl.cantho.gov.vn/nha-nuoc-thuc-hien-cac-chinh-sach-sau-day-nham-bao-dam-phat-trien-cong-nghiep-cong-nghe-so-theo-luat-cong-nghiep-cong-nghe-so-2025",
+      "attempted_at": "2026-10-14T08:01:06Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "browser"
+     }
+    ]
+   },
+   "https://en.baochinhphu.vn/law-on-digital-technology-industry-approved-111250614143640329.htm": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-14T07:52:31Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/VN-07/extra-9d6f34cea1/2026-10-14/official.html",
+      "url": "https://en.baochinhphu.vn/law-on-digital-technology-industry-approved-111250614143640329.htm",
+      "final_url": "https://en.baochinhphu.vn/law-on-digital-technology-industry-approved-111250614143640329.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 68289,
+      "sha256": "3bd94fb650296ecf42f7224a053f14c9607827a7f17b0eeab6ee6c66672c0d78",
+      "text_sha256": "6e8beb383b9d8426da0b4627263fd835a8b1b129fd4906ac9e19693f2178280a",
+      "retrieved_at": "2026-10-14T07:52:36Z",
+      "last_checked": "2026-10-14T07:52:36Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://en.baochinhphu.vn/law-on-digital-technology-industry-approved-111250614143640329.htm",
+      "attempted_at": "2026-10-14T07:52:36Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=179989": {
+    "status": "archived-review",
+    "flag": "The page has very little readable text (289 characters); it probably needs JavaScript. The browser retry also failed (HTTP 403 (in browser)).",
+    "last_attempt": "2026-10-14T07:52:36Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/VN-07/extra-6b80c6b9af/2026-10-14/official.html",
+      "url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=179989",
+      "final_url": "https://vbpl.vn/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 80001,
+      "sha256": "8cb5a80d7ea31b1531c79d183990eb119604c5592805a75c72af1533c16bbee4",
+      "text_sha256": "c2f636ea9fbef36b4f142a7409f8ef223269d7f45a76ca2035535c0cacadeea6",
+      "retrieved_at": "2026-10-14T07:52:40Z",
+      "last_checked": "2026-10-14T07:52:40Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": "\"h0lg0ac9kg1kab\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The page has very little readable text (289 characters); it probably needs JavaScript",
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=179989",
+      "attempted_at": "2026-10-14T07:52:40Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=179989",
+      "attempted_at": "2026-10-14T08:01:08Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 (in browser)",
+      "method": "browser"
+     }
+    ]
+   }
+  },
+  "record_id": "VN-07"
+ }
+}

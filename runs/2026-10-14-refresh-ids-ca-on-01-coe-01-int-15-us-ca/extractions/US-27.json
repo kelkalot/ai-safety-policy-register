@@ -1,0 +1,139 @@
+{
+ "cand_id": "US-27",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "US-27",
+ "record": {
+  "verification": {
+   "note": "CAUTION: no official (White House) copy of the accord is stored. The stored sources are the American Presidency Project's copy of the accord (UC Santa Barbara; archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-199626f0e9/), which gives the title, subtitle, date of 29 September 2026, full text and signature block, and the statement of Reps. Obernolte and Trahan of 1 October 2026 on obernolte.house.gov, stored as a secondary source; both count as secondary, so the level stays C. The American Presidency Project page of the President's Truth Social posts of 29 September 2026 was also stored, but its text layer lists only links and image names, so the press reports that the accord was released there remain unconfirmed. No copy on whitehouse.gov was found by web search on 11 and 14 October 2026. The roundtable, EO 14434 link and the 'morally binding' remark in notes rest on press reports that are not stored."
+  },
+  "notes": "Signed on 29 Sep 2026 (a Tuesday), after a White House roundtable and alongside EO 14434, by President Trump and Sundar Pichai (Google), Dario Amodei (Anthropic), Mark Zuckerberg (Meta), Greg Brockman (OpenAI), Elon Musk (xAI) and Jensen Huang (Nvidia). President Trump called it 'morally binding'. It has no enforcement mechanism and no breach reporting, and each company chooses its own external auditor or evaluator; the accord says it may make sense to codify these steps into laws or regulations over time. The House sponsors of the FRONTIER Act welcomed it on 1 Oct 2026 and want it codified. It is the current administration's counterpart to the Biden-era voluntary commitments of July 2023."
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-199626f0e9/2026-10-14/official.html",
+    "sha256": "7af6abf3d3d22d2be4d43540cf3e6e2a5832dc427b439669bdf3dad4b5b66d4e",
+    "locator": "document heading and subtitle",
+    "quote": "White House Accord on Super Intelligence Joint Commitment on Frontier Responsibilities",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/US-27/2026-10-11/secondary.html",
+    "sha256": "798af29ed00983636efdc44ff37253af05fd61bdce69e043cc175c0bc2a6beed",
+    "locator": "press release, first paragraph",
+    "quote": "issued the following statement on the White House Accord signed by leading AI companies on Tuesday",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-199626f0e9/2026-10-14/official.html",
+    "sha256": "7af6abf3d3d22d2be4d43540cf3e6e2a5832dc427b439669bdf3dad4b5b66d4e",
+    "locator": "document title and date line",
+    "quote": "White House Accord on Super Intelligence September 29, 2026",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/US-27/2026-10-11/secondary.html",
+    "sha256": "798af29ed00983636efdc44ff37253af05fd61bdce69e043cc175c0bc2a6beed",
+    "locator": "press release, first paragraph (statement dated October 1, 2026)",
+    "quote": "issued the following statement on the White House Accord signed by leading AI companies on Tuesday",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-199626f0e9/2026-10-14/official.html",
+    "sha256": "7af6abf3d3d22d2be4d43540cf3e6e2a5832dc427b439669bdf3dad4b5b66d4e",
+    "locator": "closing paragraph of the accord",
+    "quote": "Over time, it may make sense to codify these steps into laws or regulations. Regardless of whether this is required of companies, we believe that implementing these controls and audits is critical to ensuring a safe future for everyone, and each of our companies are committed to doing this.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-199626f0e9/2026-10-14/official.html",
+    "sha256": "7af6abf3d3d22d2be4d43540cf3e6e2a5832dc427b439669bdf3dad4b5b66d4e",
+    "locator": "accord text, paragraph before the closing paragraph",
+    "quote": "The participating companies will meet regularly to establish standards and best practices to improve the safety of their systems.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/US-27/2026-10-11/secondary.html",
+    "sha256": "798af29ed00983636efdc44ff37253af05fd61bdce69e043cc175c0bc2a6beed",
+    "locator": "press release, quoted statement, first paragraph",
+    "quote": "This week, America's leading AI companies signed the White House Accord, an important step toward ensuring that the most advanced AI systems are developed responsibly.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/US-27/2026-10-11/secondary.html",
+    "sha256": "798af29ed00983636efdc44ff37253af05fd61bdce69e043cc175c0bc2a6beed",
+    "locator": "press release, quoted statement, first paragraph",
+    "quote": "we look forward to each company expeditiously following through",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-199626f0e9/2026-10-14/official.html",
+    "sha256": "7af6abf3d3d22d2be4d43540cf3e6e2a5832dc427b439669bdf3dad4b5b66d4e",
+    "locator": "signature block",
+    "quote": "DONALD J. TRUMP President of the Unites States SUNDAR PICHAI Google DARIO AMODEI Anthropic MARK ZUCKERBERG Meta GREG BROCKMAN OpenAI ELON MUSK XAI JENSEN HUANG Nvidia",
+    "source_kind": "secondary"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-199626f0e9/2026-10-14/official.html",
+    "sha256": "7af6abf3d3d22d2be4d43540cf3e6e2a5832dc427b439669bdf3dad4b5b66d4e",
+    "locator": "closing paragraph of the accord",
+    "quote": "Over time, it may make sense to codify these steps into laws or regulations. Regardless of whether this is required of companies, we believe that implementing these controls and audits is critical to ensuring a safe future for everyone, and each of our companies are committed to doing this.",
+    "source_kind": "secondary"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-199626f0e9/2026-10-14/official.html",
+    "sha256": "7af6abf3d3d22d2be4d43540cf3e6e2a5832dc427b439669bdf3dad4b5b66d4e",
+    "locator": "signature block",
+    "quote": "DONALD J. TRUMP President of the Unites States SUNDAR PICHAI Google DARIO AMODEI Anthropic MARK ZUCKERBERG Meta GREG BROCKMAN OpenAI ELON MUSK XAI JENSEN HUANG Nvidia",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-199626f0e9/2026-10-14/official.html",
+    "sha256": "7af6abf3d3d22d2be4d43540cf3e6e2a5832dc427b439669bdf3dad4b5b66d4e",
+    "locator": "closing paragraph of the accord",
+    "quote": "Over time, it may make sense to codify these steps into laws or regulations. Regardless of whether this is required of companies, we believe that implementing these controls and audits is critical to ensuring a safe future for everyone, and each of our companies are committed to doing this.",
+    "source_kind": "secondary"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The accord (29 September 2026) is a voluntary commitment: 'Regardless of whether this is required of companies ... each of our companies are committed to doing this', and the companies 'will meet regularly'. The 1 October 2026 congressional statement treats it as signed and current. Nothing stored shows withdrawal or replacement. Status: Published (non-binding, current); legal_force Non-binding, since the text itself leaves codification into law for the future.",
+  "date_reasoning": "The American Presidency Project copy dates the accord September 29, 2026; the congressional statement of Thursday 1 October 2026 says it was signed 'on Tuesday', i.e. 29 September 2026. They agree.",
+  "scope_reasoning": "Government-brokered and published voluntary commitments by frontier AI developers; in scope (the existing record has no scope_note and is kept as is).",
+  "changes": {
+   "notes": "Signatories now confirmed by the stored text of the accord, so 'Reported signatories' loses its hedge and names the companies; the research remark about whitehouse.gov and the unconfirmed Truth Social sentence move to verification.note; added the accord's own remark on codification."
+  },
+  "confirmed": [
+   "title",
+   "issuing_body",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "Interagency 'Super Intelligence Force' (task force) announced 4 October 2026",
+   "url": "https://www.crowell.com/en/insights/client-alerts/white-house-announces-ai-responsibility-accord-executive-orders-and-super-intelligence-task-force",
+   "note": "Reported by search results as created after the accord with a report due within 120 days; the founding instrument may be in scope."
+  }
+ ],
+ "open_questions": [
+  "No official White House copy of the accord exists in the stored sources; whitehouse.gov was not reachable or showed no copy.",
+  "The Truth Social posting and the 'morally binding' remark in notes are not confirmed by any stored text.",
+  "issuing_body says 'Alphabet/Google' and 'xAI'; the signature block reads 'Google' and 'XAI'."
+ ]
+}

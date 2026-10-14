@@ -1,0 +1,72 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "US-CA-08",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Governor's release list gives 'Companion chatbots: children's safety' for SB 1119."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Release dated Sep 10, 2026 with signing 'today'."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Signed 10 Sep 2026; not in force before 1 Jan 2027 absent an urgency clause; no stored source gives an effective date."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "'Senate Bill 1119' supported. The session label '(2025-2026 Regular Session)' is not in a stored file but is unremarkable and has no process remark."
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported",
+   "why": "Length 678 characters. Every requirement was matched to the Padilla release (sd18.senate.ca.gov, 31 Aug 2026) and none is stored in the chaptered text."
+  },
+  "notes": {
+   "verdict": "supported",
+   "why": "13 bills in the Governor's list counted; SB 867, AB 1709 and SB 1276 titles match; Senate 39-0, Assembly 64-4; SB 243, AB 1043, AB 1064 links and the private right of redress all appear in the Padilla release."
+  },
+  "safety_topics": {
+   "verdict": "supported",
+   "why": "Incident reporting, audits and risk assessments are in the text."
+  },
+  "verification.note": {
+   "verdict": "supported",
+   "why": "Accurate. It correctly says the summary describes the version passed on 31 Aug, which the Governor then signed."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Requires risk assessments before release of a new or substantially modified companion chatbot",
+   "verdict": "supported",
+   "locator": "Padilla release, requirements list"
+  },
+  {
+   "claim": "Independent compliance audits with findings reported to the Attorney General",
+   "verdict": "supported",
+   "locator": "Padilla release: 'Mandatory independent audits of operator compliance, with findings submitted to the California Attorney General.'"
+  },
+  {
+   "claim": "Notice to a parent of a credible threat of self-harm; parent-controlled default settings",
+   "verdict": "supported",
+   "locator": "Padilla release, requirements list"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "AI-specific child-safety law."
+ },
+ "overall": "accept",
+ "note": "Summary and notes rewritten with detail that all traces to stored text. The two sources are a legislator's release on the passed version and the Governor's release on the signing, so the summary is not checked against chaptered text; this is a mild limit and is disclosed in verification.note. A search found only press coverage after signing and no chapter number or effective date. Blind extraction agrees (same topics) and adds a secondary_url."
+}

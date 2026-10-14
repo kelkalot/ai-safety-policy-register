@@ -1,0 +1,61 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "INT-15",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "MFA page heading and article text give the exact title."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Signing ceremony 16 Jul 2026 in Shanghai (MFA page)."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "29 founding members signed; no stored page gives entry-into-force or ratification terms, so 'Adopted, not yet in force' is provisional, as the verification note says. One web search found no ratification or entry-into-force information."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Supported by the signing-ceremony page and the Georgian embassy item. The new value is long and carries the open-for-signature remark; wording is acceptable but the cut-off date is a status detail that belongs in notes."
+  },
+  "legal_force": {
+   "verdict": "judgment-differs",
+   "why": "The quote shows WAICO is an intergovernmental organisation created by agreement; binding force of a treaty signed but not yet ratified is a legal judgment. Defensible."
+  },
+  "notes": {
+   "verdict": "unsupported",
+   "why": "'First proposed by China at WAIC in July 2025' is in no stored file (the extractor flags this too). Every other claim in notes was found: 16 Jul signing, 29 countries, Wang Yi, Kazakhstan/Laos/Pakistan/Russia/Indonesia, open until 31 Jul, Georgia's signature on 31 Jul, 'independent intergovernmental international organization', and the Chair's Statement line that WAICO shall be open to all countries."
+  },
+  "language": {
+   "verdict": "unsupported",
+   "why": "Value is a remark ('Not confirmed ...'), not a language; no stored page gives the authentic languages."
+  },
+  "safety_topics": {
+   "verdict": "judgment-differs",
+   "why": "One topic only; AGENTS.md 5.6 requires 2 to 6. The stored text ('beneficial, safe and fair direction') would support a second topic, but that is a human choice."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Headquartered in Shanghai",
+   "verdict": "supported",
+   "locator": "MFA page, 'The Organization is headquartered in Shanghai, China'"
+  },
+  {
+   "claim": "Aims to ensure AI develops in a 'beneficial, safe and fair direction'",
+   "verdict": "supported",
+   "locator": "MFA page, para. 2"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Intergovernmental treaty on AI cooperation and governance."
+ },
+ "overall": "needs-human",
+ "note": "The extracted changes are well supported (signing, 29 founding members, 31 Jul close of signature). Needs a human for three items with no stored evidence: the July 2025 proposal claim in notes, the non-language value in language, and a single safety topic. Status stays provisional until a treaty text or depositary notice is stored."
+}

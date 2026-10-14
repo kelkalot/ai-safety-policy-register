@@ -1,0 +1,74 @@
+{
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "NASW-NV page and FastDemocracy name AB 406; the long title's school element is supported by Section 2 quotes."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "'AB 406 (83 legislative session)' and 'Chapter 283' are in the stored tracker; 'Statutes of Nevada 2025' is the conventional citation form."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "'Jun 05, 2025 | executive Approved by the Governor.' (approval date)."
+  },
+  "date_in_force": {
+   "verdict": "unsupported",
+   "why": "No stored text gives 1 July 2025; the extractor says so. Web search (not stored) says 1 July 2025."
+  },
+  "status": {
+   "verdict": "unsupported",
+   "why": "Stored sources show enactment ('Now Law'), not the effective date, so 'In force' rests on the unstored date. A targeted search found no repeal or amendment, only a regulations.ai entry that refers to the 2023 AB 406."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "Enacted statute with civil penalties (Section 7(5))."
+  },
+  "issuing_body": {
+   "verdict": "unsupported",
+   "why": "The stored tracker says only 'Approved by the Governor'; the name Joe Lombardo is not in a stored text."
+  },
+  "summary": {
+   "verdict": "supported",
+   "why": "Unchanged; matches the NASW quotes of Sections 2, 7 and 8."
+  },
+  "notes": {
+   "verdict": "unsupported",
+   "why": "Votes, approval date, chapter and sponsors are supported by the tracker. 'Effective 1 Jul 2025', the amended NRS chapters 391, 433 and 629 and the Illinois HB 1806 comparison are not in a stored text."
+  },
+  "verification.note": {
+   "verdict": "supported",
+   "why": "Accurately lists stored sources and gaps; CAUTION present."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Civil penalties up to USD 15,000 per violation",
+   "verdict": "supported",
+   "locator": "NASW page, Section 7(5): 'subject to a civil penalty not to exceed $15,000 per violation'"
+  },
+  {
+   "claim": "Public schools may not use AI to perform duties of school counsellors, psychologists or social workers; Department of Education must adopt an AI-use policy",
+   "verdict": "supported",
+   "locator": "NASW page, Section 2(1) and 2(2)"
+  },
+  {
+   "claim": "Licensed providers may use AI for administrative support and must independently review AI-generated reports",
+   "verdict": "supported",
+   "locator": "NASW page, Section 8(2) and 8(4)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "A state law on AI in mental-health care and schools: AI-specific, in scope; its safety content is consumer protection in health care, so a scope_note is optional."
+ },
+ "overall": "needs-human",
+ "note": "Enactment, approval date, chapter, votes, sponsors and the summary are supported by the stored NASW-NV and FastDemocracy pages (level C). The 1 July 2025 effective date, the Governor's name and the amended NRS chapters are not in any stored text, so date_in_force and the status 'In force' need a human or a stored official copy (the enrolled bill and NELIS page failed to store). Targeted search found no repeal or amendment. The blind extraction agrees with the main extraction on the compared fields.",
+ "cand_id": "US-NV-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14"
+}

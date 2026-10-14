@@ -1,0 +1,90 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "US-CA-07",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Release names both bills; title is descriptive, not an official bill title (noted by extractor)."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Governor's release dated Sep 9, 2026, signing 'today'."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Signed 9 Sep 2026; effective date not stored, but any non-urgency California statute signed in Sep 2026 is not in force before 1 Jan 2027, so 'Adopted, not yet in force' holds as of today."
+  },
+  "date_last_updated": {
+   "verdict": "supported",
+   "why": "null is right: the 18 Sep EO is a separate instrument (US-CA-09), not an amendment of these laws."
+  },
+  "official_identifier": {
+   "verdict": "contradicted",
+   "why": "The record value carries a process remark '(as cited in EO N-9-26)' and an unquoted session label, which breaks the rule that the identifier is a citable number and not a description. The bill numbers and Government Code sections are supported.",
+   "fix": {
+    "value": "California Senate Bill 813 and Assembly Bill 1405; Government Code secs. 8898.1 and 11549.82",
+    "evidence": [
+     {
+      "file": "archive/US-CA-07/2026-10-14/official.html",
+      "sha256": "6fdce3db5217999b1b51069ec3a2371ad1e3c2cee013f8095dda5811444f01b6",
+      "locator": "release body, first paragraph",
+      "quote": "Governor Gavin Newsom today signed legislation (Senate Bill 813 and Assembly Bill 1405)",
+      "source_kind": "official"
+     },
+     {
+      "file": "archive/US-CA-07/2026-10-11/secondary.pdf",
+      "sha256": "ea398613db19dd4e6479a04a93753d8efbcbfc91e5ecb8a42786721553da3fc5",
+      "locator": "page 2, para. 1",
+      "quote": "complete the requirements of Section 8898.1 of the Government Code",
+      "source_kind": "alt-official"
+     },
+     {
+      "file": "archive/US-CA-07/2026-10-11/secondary.pdf",
+      "sha256": "ea398613db19dd4e6479a04a93753d8efbcbfc91e5ecb8a42786721553da3fc5",
+      "locator": "page 2, para. 2",
+      "quote": "shall complete the requirements of subdivision (a) of Section 11549.82 of the Government Code",
+      "source_kind": "alt-official"
+     }
+    ]
+   }
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "Release describes a signed law; EO text says IVO criteria are 'required by law'."
+  },
+  "notes": {
+   "verdict": "supported",
+   "why": "EO N-9-26 deadlines (1 May 2027 for s. 8898.1 and IVO criteria; 1 Dec 2027 for s. 11549.82(a)) and 'signed 9 Sep 2026' match the stored text."
+  },
+  "verification.note": {
+   "verdict": "supported",
+   "why": "Accurate; says the leginfo pages could not be stored."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "SB 813 (McNerney) frames independent verification organizations that can assess AI models and systems for compliance with state law",
+   "verdict": "supported",
+   "locator": "Governor's release, para. 3"
+  },
+  {
+   "claim": "AB 1405 (Bauer-Kahan) creates a state registry of AI auditors with independence, transparency and integrity standards",
+   "verdict": "supported",
+   "locator": "Governor's release, para. 3"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "State law on AI evaluation and auditing."
+ },
+ "overall": "accept-with-fixes",
+ "note": "Updates are well supported. The one fix cleans official_identifier by dropping the source remark and the unquoted session label, with quotes from stored text. A web search (secondary sources only) suggests SB 813 is Chapter 179, Statutes of 2026 with a 1 Jan 2027 operative date; no official page was found, so nothing is proposed from it. date_in_force stays null."
+}

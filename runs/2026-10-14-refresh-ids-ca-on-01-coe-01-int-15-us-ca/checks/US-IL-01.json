@@ -1,0 +1,68 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "US-IL-01",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Governor's bill list entry for HB3773 matches the subject of the record title."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Release of 9 Aug 2024 lists HB3773 as 'Signed'."
+  },
+  "date_in_force": {
+   "verdict": "supported",
+   "why": "Governor's release: 'Effective: January 1, 2026'; Fisher Phillips slides: 'The law took effect on January 1, 2026'."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Effective date 1 Jan 2026 has passed; 'In force' correct."
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "Enforced by IDHR and the Commission; administrative charges and lawsuits."
+  },
+  "official_identifier": {
+   "verdict": "unsupported",
+   "why": "'Public Act 103-0804' and '103rd General Assembly' are not in any stored file; only the bill number HB3773 is. A web search names Public Act 103-0804 but no official page was stored."
+  },
+  "summary": {
+   "verdict": "supported",
+   "why": "Length 590 characters. Matched to the Governor's release and the slides: one or more employees, state entities and labor organizations, IDHR/Commission enforcement, charges then private lawsuits, notice duty."
+  },
+  "notes": {
+   "verdict": "supported",
+   "why": "Signed 9 Aug 2024; effective 1 Jan 2026; 'As of April 2026 ... proposed rulemaking' matches the 2 Apr 2026 slides. SB 315 to US-IL-03 link left as it was."
+  },
+  "verification.note": {
+   "verdict": "supported",
+   "why": "Honest about the identifier, and about the slides being by a law-firm partner."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Covers employers with one or more Illinois employees, including state entities and labor organizations",
+   "verdict": "supported",
+   "locator": "slides, page 14"
+  },
+  {
+   "claim": "Enforced by IDHR and the Human Rights Commission through administrative charges and private lawsuits",
+   "verdict": "supported",
+   "locator": "slides, page 16"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "AI-specific employment-discrimination law (amends Human Rights Act)."
+ },
+ "overall": "needs-human",
+ "note": "Status, effective date and summary are supported. Two issues. (1) official_identifier 'Public Act 103-0804' is not in any stored text; a human or an ilga.gov copy should confirm it. (2) The only official source for date and status is gov-pritzker-newsroom.prezly.com, listed in known_hosts. It is the State of Illinois Newsroom page and carries the Governor's press contact, but it sits on Prezly, a commercial platform, and it is the reason the level moves from C to A. A human should decide whether that host counts as official. A search suggests the IDHR notice rules proposed on 15 May 2026 may have been withdrawn (one secondary source only); the notes' 'as of April 2026' phrasing is still true."
+}

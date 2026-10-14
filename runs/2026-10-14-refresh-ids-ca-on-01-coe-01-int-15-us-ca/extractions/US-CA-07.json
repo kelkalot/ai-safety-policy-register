@@ -1,0 +1,136 @@
+{
+ "cand_id": "US-CA-07",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "US-CA-07",
+ "record": {
+  "date_last_updated": null,
+  "notes": "Both signed 9 Sep 2026. EO N-9-26 of 18 Sep 2026 (US-CA-09) orders the Government Operations Agency to complete the requirements of Gov. Code sec. 8898.1 and post application requirements, procedures and criteria for independent verification organizations by 1 May 2027, and to complete the requirements of Gov. Code sec. 11549.82(a) by 1 Dec 2027. Combined into one record because they were enacted together as a single verification and audit framework.",
+  "verification": {
+   "note": "The stored Governor's release of 9 Sep 2026 (copy of 14 Oct 2026; its text matches the 11 Oct copy) confirms the signing of SB 813 and AB 1405, their authors and their purposes. The stored EO N-9-26 PDF (18 Sep 2026) confirms the implementation deadlines and the Government Code sections; the archiver stored it as a secondary source. Neither file gives chapter numbers, the statutory text or an effective date. The leginfo.legislature.ca.gov pages for both bills and for Gov. Code sec. 9600 could not be stored, so the effective date, the chapter numbers and the session label in official_identifier are unconfirmed."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/US-CA-07/2026-10-14/official.html",
+    "sha256": "6fdce3db5217999b1b51069ec3a2371ad1e3c2cee013f8095dda5811444f01b6",
+    "locator": "release body, third paragraph",
+    "quote": "The Governor signed Senate Bill 813, authored by Senator Jerry McNerney (D – Pleasanton), which establishes a first-in-the-nation framework for independent verification organizations",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-CA-07/2026-10-14/official.html",
+    "sha256": "6fdce3db5217999b1b51069ec3a2371ad1e3c2cee013f8095dda5811444f01b6",
+    "locator": "release body, third paragraph",
+    "quote": "Governor Newsom also signed Assembly Bill 1405, authored by Assemblymember Rebecca Bauer-Kahan (D-Orinda), creating a state registry for AI auditors",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/US-CA-07/2026-10-14/official.html",
+    "sha256": "6fdce3db5217999b1b51069ec3a2371ad1e3c2cee013f8095dda5811444f01b6",
+    "locator": "release date and headline",
+    "quote": "Sep 9, 2026 Governor Newsom signs first-in-the-nation AI safeguards to protect Californians, calls on the federal government to do its part",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/US-CA-07/2026-10-14/official.html",
+    "sha256": "6fdce3db5217999b1b51069ec3a2371ad1e3c2cee013f8095dda5811444f01b6",
+    "locator": "release body, first paragraph",
+    "quote": "Governor Gavin Newsom today signed legislation (Senate Bill 813 and Assembly Bill 1405)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-CA-07/2026-10-11/secondary.pdf",
+    "sha256": "ea398613db19dd4e6479a04a93753d8efbcbfc91e5ecb8a42786721553da3fc5",
+    "locator": "page 2, para. 1",
+    "quote": "No later than May 1, 2027, the Government Operations Agency shall complete the requirements of Section 8898.1 of the Government Code",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/US-CA-07/2026-10-14/official.html",
+    "sha256": "6fdce3db5217999b1b51069ec3a2371ad1e3c2cee013f8095dda5811444f01b6",
+    "locator": "release body, first paragraph",
+    "quote": "Governor Gavin Newsom today signed legislation (Senate Bill 813 and Assembly Bill 1405)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-CA-07/2026-10-14/official.html",
+    "sha256": "6fdce3db5217999b1b51069ec3a2371ad1e3c2cee013f8095dda5811444f01b6",
+    "locator": "release body, third paragraph",
+    "quote": "The Governor signed Senate Bill 813, authored by Senator Jerry McNerney",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/US-CA-07/2026-10-11/secondary.pdf",
+    "sha256": "ea398613db19dd4e6479a04a93753d8efbcbfc91e5ecb8a42786721553da3fc5",
+    "locator": "page 2, para. 1",
+    "quote": "develop application requirements, procedures, and criteria for independent verification organizations and publicly post them, as required by law.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/US-CA-07/2026-10-14/official.html",
+    "sha256": "6fdce3db5217999b1b51069ec3a2371ad1e3c2cee013f8095dda5811444f01b6",
+    "locator": "release body, McNerney quote",
+    "quote": "This landmark law codifies one of the primary recommendations of the governor's blue-ribbon panel on AI",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/US-CA-07/2026-10-14/official.html",
+    "sha256": "6fdce3db5217999b1b51069ec3a2371ad1e3c2cee013f8095dda5811444f01b6",
+    "locator": "release body, first paragraph",
+    "quote": "Governor Gavin Newsom today signed legislation (Senate Bill 813 and Assembly Bill 1405)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-CA-07/2026-10-11/secondary.pdf",
+    "sha256": "ea398613db19dd4e6479a04a93753d8efbcbfc91e5ecb8a42786721553da3fc5",
+    "locator": "page 2, para. 2",
+    "quote": "shall complete the requirements of subdivision (a) of Section 11549.82 of the Government Code",
+    "source_kind": "alt-official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Latest event in the stored files: the Governor signed SB 813 and AB 1405 on 9 Sep 2026 (release dated 'Sep 9, 2026', 'today signed legislation'). EO N-9-26 of 18 Sep 2026 sets the first implementation deadlines for 1 May 2027 (Gov. Code sec. 8898.1) and 1 Dec 2027 (sec. 11549.82(a)). Neither stored file contains an effective-date or urgency clause. Under California's general rule, which is not in the stored files (Cal. Const. art. IV sec. 8(c); Gov. Code sec. 9600; the leginfo page could not be stored), a non-urgency statute enacted in a regular session takes effect on 1 January after a 90-day period from enactment. For bills enacted on 9 Sep 2026 that is 1 Jan 2027, which is after today (14 Oct 2026). Status stays 'Adopted, not yet in force'. date_in_force stays null because neither the chaptered text nor the rule could be stored.",
+  "scope_reasoning": "In scope without a scope note: AI-specific state statutes creating independent verification of AI models and an AI auditor registry.",
+  "changes": {
+   "date_last_updated": "2026-09-18 is the date of EO N-9-26, a separate implementing order recorded as US-CA-09, not an amendment or new version of SB 813 or AB 1405. AGENTS.md 5.6 keeps the field for amendments and new versions; the EO stays in the notes.",
+   "notes": "Removed the remark that the effective dates were unconfirmed (it now sits in verification.note), and with it the default-rule date, which no stored file supports. EO N-9-26 deadlines kept and linked to US-CA-09.",
+   "verification": "New note for this refresh."
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force",
+   "official_identifier"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "California Executive Order N-5-26 (30 Mar 2026) on AI procurement, civil rights, civil liberties and privacy",
+   "url": null,
+   "seen_in": "archive/US-CA-07/2026-10-11/secondary.pdf, page 1",
+   "why": "EO N-9-26 recites it as directing that state AI procurement and adoption protect civil rights, civil liberties and privacy and be 'transparent, safe, and responsible'. The register has no record of it."
+  }
+ ],
+ "open_questions": [
+  "date_in_force: neither stored file gives an effective date. The leginfo pages for SB 813, AB 1405 and Gov. Code sec. 9600 were requested and could not be stored. 1 Jan 2027, the default for a non-urgency statute enacted in Sep 2026, is the expected value, but it stays null until a stored source gives it. Status 'Adopted, not yet in force' holds either way until 1 Jan 2027.",
+  "official_identifier is kept as it is. 'California Senate Bill 813 and Assembly Bill 1405' and the Government Code sections are supported. '(2025-2026 Regular Session)' is not in the stored files, and '(as cited in EO N-9-26)' is a remark about the source, not part of an identifier. Once leginfo can be stored, the identifier should give the chapter numbers (Statutes of 2026) and drop the remark.",
+  "The title is descriptive, not the bills' official titles; leginfo would give the official short titles."
+ ]
+}

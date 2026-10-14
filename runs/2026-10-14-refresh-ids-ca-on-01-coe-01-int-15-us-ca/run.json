@@ -1,0 +1,49 @@
+{
+ "run_id": "2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+ "type": "refresh",
+ "scope": "ids:CA-ON-01,COE-01,INT-15,US-CA-07,US-CA-08,CN-06,PY-01,TH-01,US-27,US-ID-01,US-IL-01,US-NV-01,US-RI-01,VN-07",
+ "started": "2026-10-14",
+ "coordinator": {
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5"
+ },
+ "stages": {
+  "collect": {
+   "tool": null,
+   "model": null,
+   "date": null
+  },
+  "extract": {
+   "tool": "Claude Code",
+   "model": "claude-opus-5-5",
+   "date": "2026-10-14"
+  },
+  "blind": {
+   "tool": "Claude Code",
+   "model": "claude-opus-5-5",
+   "date": "2026-10-14"
+  },
+  "check": {
+   "tool": "Claude Code",
+   "model": "claude-sonnet-5-5",
+   "date": "2026-10-14"
+  }
+ },
+ "status": "merged",
+ "record_ids": [
+  "CA-ON-01",
+  "COE-01",
+  "INT-15",
+  "US-CA-07",
+  "US-CA-08",
+  "CN-06",
+  "PY-01",
+  "TH-01",
+  "US-27",
+  "US-ID-01",
+  "US-IL-01",
+  "US-NV-01",
+  "US-RI-01",
+  "VN-07"
+ ]
+}

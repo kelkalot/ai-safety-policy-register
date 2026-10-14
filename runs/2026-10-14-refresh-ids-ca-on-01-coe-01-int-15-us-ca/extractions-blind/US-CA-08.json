@@ -1,0 +1,80 @@
+{
+ "cand_id": "US-CA-08",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "US-CA-08",
+ "record": {
+  "summary": "Adam's Law, named after Adam Raine, sets child-safety duties for companion chatbot operators: age assurance using the device age-bracket signal, risk assessments before releasing a new or substantially modified chatbot, in-app crisis referrals and parental notice of credible self-harm risk, default settings only a parent can change, reasonable measures against self-harm, sexual, romantic-roleplay and manipulative outputs, an incident reporting mechanism overseen by the Attorney General, limits on targeted advertising, and independent compliance audits reported to the Attorney General. Families have a private right of redress.",
+  "safety_topics": ["child safety", "evaluation & testing", "accountability & liability", "incident reporting"],
+  "secondary_url": "https://sd18.senate.ca.gov/node/419",
+  "notes": "Known as Adam's Law. Passed the Senate 39-0 and the Assembly 64-4, with final legislative passage on 31 August 2026, and signed on 10 September 2026 as part of a 13-bill child online-safety package that also included SB 867 (companion chatbots in toys), AB 1709 (under-16 social media restrictions), AB 1856 (age verification signals) and SB 1276 (AI-generated child sexual abuse material). Authors: Senator Steve Padilla and Assemblymembers Buffy Wicks and Rebecca Bauer-Kahan. It builds on SB 243 of 2025 (US-CA-06), which required companion chatbot operators to disclose AI interaction and keep self-harm protocols, and on provisions of AB 1064 (Bauer-Kahan, 2025), and relies on the age-bracket signal of AB 1043 (Wicks, 2025).",
+  "verification": {
+   "note": "The Governor's release of 10 September 2026 (gov.ca.gov) confirms the signing of SB 1119, its title 'Companion chatbots: children's safety', its authors and the main protections of 'Adam's Law'. Senator Padilla's release of 31 August 2026 (sd18.senate.ca.gov) names Adam's Law as SB 1119, gives the floor votes and lists the bill's requirements as passed by the Legislature; the summary follows that list. The chaptered text, chapter number and operative date are not among the stored files. The status assumes California's default operative date for a statute without an urgency clause (1 January 2027); this needs checking against the bill text on leginfo."
+  }
+ },
+ "evidence": {
+  "title": [
+   {"file": "archive/US-CA-08/2026-10-14/official.html", "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071", "locator": "New legislation to keep kids safe online", "quote": "SB 1119 by Senator Steve Padilla (D-San Diego), Assemblymembers Buffy Wicks (D-Oakland) and Rebecca Bauer-Kahan (D-Orinda) – Companion chatbots: children’s safety.", "source_kind": "official"}
+  ],
+  "date_published": [
+   {"file": "archive/US-CA-08/2026-10-14/official.html", "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071", "locator": "release date and heading", "quote": "Sep 10, 2026 Governor Newsom signs the strongest child safety chatbot and social media laws in the nation", "source_kind": "official"}
+  ],
+  "status": [
+   {"file": "archive/US-CA-08/2026-10-14/official.html", "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071", "locator": "first paragraph", "quote": "Today, Governor Gavin Newsom, joined by First Partner Jennifer Siebel Newsom, and legislators signed landmark bipartisan legislation strengthening California’s nation-leading protections for children online and when using artificial intelligence (AI).", "source_kind": "official"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-CA-08/extra-f12ab82801/2026-10-14/official.html", "sha256": "e3e83a2535fa5b73edbe100fd0a4122144b387b449360c04a73c264971a785ac", "locator": "Press release, 31 August 2026", "quote": "the bill now heads to Governor Gavin Newsom's desk after passing the Legislature Monday night.", "source_kind": "alt-official"}
+  ],
+  "official_identifier": [
+   {"file": "archive/US-CA-08/2026-10-14/official.html", "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071", "locator": "New legislation to keep kids safe online", "quote": "SB 1119 by Senator Steve Padilla (D-San Diego)", "source_kind": "official"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-CA-08/extra-f12ab82801/2026-10-14/official.html", "sha256": "e3e83a2535fa5b73edbe100fd0a4122144b387b449360c04a73c264971a785ac", "locator": "Press release, first paragraph", "quote": "Today, California lawmakers passed Adam's Law (SB 1119), a landmark bill", "source_kind": "alt-official"}
+  ],
+  "issuing_body": [
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-CA-08/extra-f12ab82801/2026-10-14/official.html", "sha256": "e3e83a2535fa5b73edbe100fd0a4122144b387b449360c04a73c264971a785ac", "locator": "Press release, final paragraph", "quote": "Adam’s Law passed the Senate with bipartisan support by a vote of 39 to 0 and the Assembly with bipartisan support by a vote of 64 to 4.", "source_kind": "alt-official"},
+   {"file": "archive/US-CA-08/2026-10-14/official.html", "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071", "locator": "first paragraph", "quote": "Today, Governor Gavin Newsom, joined by First Partner Jennifer Siebel Newsom, and legislators signed landmark bipartisan legislation", "source_kind": "official"}
+  ],
+  "legal_force": [
+   {"file": "archive/US-CA-08/2026-10-14/official.html", "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071", "locator": "Today's bills will help protect children by", "quote": "“Adam’s Law” requires robust protections around companion chatbots for children, including crisis protocols in the case of suicidal ideation, parental controls, and notifications should a child disable safety settings.", "source_kind": "official"}
+  ],
+  "summary": [
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-CA-08/extra-f12ab82801/2026-10-14/official.html", "sha256": "e3e83a2535fa5b73edbe100fd0a4122144b387b449360c04a73c264971a785ac", "locator": "list of requirements", "quote": "Mandatory age assurance using the privacy protective age-bracket signal required pursuant to AB 1043 (Wicks, 2025).", "source_kind": "alt-official"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-CA-08/extra-f12ab82801/2026-10-14/official.html", "sha256": "e3e83a2535fa5b73edbe100fd0a4122144b387b449360c04a73c264971a785ac", "locator": "list of requirements", "quote": "Mandatory risk assessments before the release of a new or substantially modified companion chatbot.", "source_kind": "alt-official"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-CA-08/extra-f12ab82801/2026-10-14/official.html", "sha256": "e3e83a2535fa5b73edbe100fd0a4122144b387b449360c04a73c264971a785ac", "locator": "list of requirements", "quote": "Timely in-app crisis support requiring platforms to provide referrals to mental health resources, as well as provisions requiring notice to a parent if there is a credible threat of imminent of self-harm", "source_kind": "alt-official"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-CA-08/extra-f12ab82801/2026-10-14/official.html", "sha256": "e3e83a2535fa5b73edbe100fd0a4122144b387b449360c04a73c264971a785ac", "locator": "list of requirements", "quote": "Default settings that can only be changed by a parent, including no notifications, time limits on usage, and limitations on persistent conversational memory.", "source_kind": "alt-official"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-CA-08/extra-f12ab82801/2026-10-14/official.html", "sha256": "e3e83a2535fa5b73edbe100fd0a4122144b387b449360c04a73c264971a785ac", "locator": "list of requirements", "quote": "Liability for failure to take reasonable measures to prevent several categories of harmful outputs, including self-harm, sexually explicit material, romantic roleplaying, excessive praise or flattery, and emotionally manipulative outputs", "source_kind": "alt-official"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-CA-08/extra-f12ab82801/2026-10-14/official.html", "sha256": "e3e83a2535fa5b73edbe100fd0a4122144b387b449360c04a73c264971a785ac", "locator": "list of requirements", "quote": "Requirement to implement an incident reporting mechanism, overseen by the Attorney General.", "source_kind": "alt-official"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-CA-08/extra-f12ab82801/2026-10-14/official.html", "sha256": "e3e83a2535fa5b73edbe100fd0a4122144b387b449360c04a73c264971a785ac", "locator": "list of requirements", "quote": "Strict limitations on targeted advertising to children in conversational chats.", "source_kind": "alt-official"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-CA-08/extra-f12ab82801/2026-10-14/official.html", "sha256": "e3e83a2535fa5b73edbe100fd0a4122144b387b449360c04a73c264971a785ac", "locator": "list of requirements", "quote": "Mandatory independent audits of operator compliance, with findings submitted to the California Attorney General.", "source_kind": "alt-official"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-CA-08/extra-f12ab82801/2026-10-14/official.html", "sha256": "e3e83a2535fa5b73edbe100fd0a4122144b387b449360c04a73c264971a785ac", "locator": "list of requirements", "quote": "A private right of redress for families harmed by violations relating to crisis referral services, parental notice, default protections, and prohibitions on harmful outputs.", "source_kind": "alt-official"}
+  ],
+  "notes": [
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-CA-08/extra-f12ab82801/2026-10-14/official.html", "sha256": "e3e83a2535fa5b73edbe100fd0a4122144b387b449360c04a73c264971a785ac", "locator": "Press release", "quote": "Adam’s Law builds on last year's SB 243, authored by Senator Padilla, which required chatbot operators to disclose that users are interacting with AI and to maintain protocols for detecting self-harm content.", "source_kind": "alt-official"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-CA-08/extra-f12ab82801/2026-10-14/official.html", "sha256": "e3e83a2535fa5b73edbe100fd0a4122144b387b449360c04a73c264971a785ac", "locator": "Press release heading", "quote": "A Victory for Children: Adam's Law Poised to Establish Most Comprehensive Child Protections in the Country August 31, 2026", "source_kind": "alt-official"},
+   {"file": "archive/US-CA-08/2026-10-14/official.html", "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071", "locator": "New legislation to keep kids safe online", "quote": "SB 867 by Senator Steve Padilla (D-San Diego) – Toys: companion chatbots.", "source_kind": "official"},
+   {"file": "archive/US-CA-08/2026-10-14/official.html", "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071", "locator": "New legislation to keep kids safe online", "quote": "SB 1276 by Senator Susan Rubio (D-Baldwin Park) – Crimes: sexual exploitation of a child.", "source_kind": "official"}
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "rewritten from the bill's requirements as listed by its author's release; the old summary described the Governor's release rather than the law",
+   "safety_topics": "incident reporting added (incident reporting mechanism overseen by the Attorney General)",
+   "secondary_url": "Senator Padilla's release ties Adam's Law to SB 1119 and lists its requirements",
+   "notes": "the Adam's Law to SB 1119 link is now stated by the author's release, not inferred; votes and related bills added; the remark about the unconfirmed effective date moved to verification.note",
+   "verification.note": "rewritten for the newly stored author's release"
+  },
+  "confirmed": ["title", "date_published", "status", "official_identifier", "issuing_body", "legal_force"],
+  "status_reasoning": "No change. The Legislature passed SB 1119 on Monday 31 August 2026 and the Governor signed it on 10 September 2026. Neither stored release gives an operative date or mentions an urgency clause. California statutes without an urgency clause become operative on 1 January of the year after enactment unless they say otherwise, which would be 1 January 2027, after today (14 October 2026); so 'Adopted, not yet in force' stays, with date_in_force left null until the chaptered text confirms the date.",
+  "scope_reasoning": "Clearly in scope: an AI-specific state law regulating companion chatbots for child safety."
+ },
+ "extra_urls": [],
+ "leads": [
+  "California SB 867 (Padilla, 2026), Toys: companion chatbots, signed 10 September 2026; not a record.",
+  "California SB 1276 (Rubio, 2026), Crimes: sexual exploitation of a child, extends to AI-generated matter depicting minors; signed 10 September 2026; not a record.",
+  "California AB 1159 (Addis, 2026), Student personal information, described as regulating the use of K-12 pupil data in AI systems; signed 10 September 2026.",
+  "California AB 1064 (Bauer-Kahan, 2025), companion chatbots and children, cited by the author's release as a source of SB 1119's provisions; status not in stored files.",
+  "California Executive Order N-12-23 (Governor Newsom, 2023) on generative AI, stored as a linked PDF of the release; not in the register."
+ ],
+ "open_questions": [
+  "Operative date, chapter number and whether SB 1119 has an urgency clause: the chaptered bill on leginfo.legislature.ca.gov would settle date_in_force and the status.",
+  "The summary follows the author's description of the bill as passed by the Legislature; it should be checked against the chaptered text."
+ ]
+}

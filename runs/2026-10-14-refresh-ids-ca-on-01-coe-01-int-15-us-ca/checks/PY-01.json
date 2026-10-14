@@ -1,0 +1,70 @@
+{
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Quote gives the Spanish title; English title is a faithful rendering."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "Quoted Spanish title matches (capitalisation aside)."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Article dated 13 May 2025 reports entry in the Senate; partial date 2025-05 is consistent. This is a press date, not an official date."
+  },
+  "status": {
+   "verdict": "unsupported",
+   "why": "A May 2025 press report supports 'Draft / proposed' only as of May 2025. No stored source shows the stage as of 14 October 2026; the extractor says so in open_questions. Needs human confirmation against SILpy (expediente S-2502197 not stored)."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "A bill that has entered the Senate; Proposed."
+  },
+  "summary": {
+   "verdict": "supported",
+   "why": "Rewritten summary stays within the Última Hora article; hedge 'As reported' and the committee count were removed."
+  },
+  "issuing_body": {
+   "verdict": "unsupported",
+   "why": "The stored article names only Basilio Núñez as presenter. The six co-sponsors in the field are not in any stored source (La Nación not stored); the extractor notes SILpy lists eight authors."
+  },
+  "notes": {
+   "verdict": "unsupported",
+   "why": "Claims about a Senate public hearing, MITIC recommendations, a 5 May co-sponsor date, a Chamber of Deputies initiative and committee analysis are not in the stored article. 'The bill's SILpy file number was not identified' is research-process language and does not belong in notes (AGENTS.md rule 5)."
+  },
+  "verification.note": {
+   "verdict": "supported",
+   "why": "Accurately says what was stored and what it confirms; CAUTION present."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Drawing on EU, US and Chinese laws",
+   "verdict": "supported",
+   "locator": "DETALLES paragraph: 'Esto se imita de leyes de la Unión Europea, Estados Unidos y China'"
+  },
+  {
+   "claim": "Provider carries out a preliminary evaluation before marketing or service to classify risk level",
+   "verdict": "supported",
+   "locator": "RIESGOS paragraph: 'previamente a su comercialización o uso en servicio ... evaluación preliminar realizada por el proveedor'"
+  },
+  {
+   "claim": "Rights to prior information, explanation, challenge, human participation, non-discrimination, data protection",
+   "verdict": "supported",
+   "locator": "DERECHOS paragraph"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Pending national AI bill, in scope under section 10."
+ },
+ "overall": "needs-human",
+ "note": "The extraction's new summary and verification note are supported by the stored Última Hora article (level C). Three record fields are not: status as of today (a May 2025 report only), issuing_body (six co-sponsors absent from stored sources), and notes (hearing, MITIC and co-sponsor claims unstored, plus process wording 'SILpy file number was not identified'). A targeted web search found no newer version or enactment (only a June 2025 Senate public hearing, on a Senate page that is not stored). A human should check the SILpy file S-2502197 and rewrite notes.",
+ "cand_id": "PY-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14"
+}
