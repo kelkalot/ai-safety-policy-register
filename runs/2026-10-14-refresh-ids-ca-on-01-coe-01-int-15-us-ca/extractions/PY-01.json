@@ -1,0 +1,109 @@
+{
+ "cand_id": "PY-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "PY-01",
+ "record": {
+  "summary": "Risk-based AI bill drawing on EU, US and Chinese laws. Before a system is marketed or put into service, its provider would carry out a preliminary evaluation to classify its risk level; applications with excessive risk would be prohibited and high-risk applications would face stricter controls. The bill sets transparency and bias-mitigation measures, with additional measures for high-risk and government AI systems, and an algorithmic impact assessment procedure. Affected persons would have rights to prior information about interacting with AI, explanation of decisions, challenge of decisions with legal or significant effects, human participation, non-discrimination and data protection.",
+  "verification": {
+   "note": "CAUTION: the only stored source is the Última Hora report of 13 May 2025 (archive/PY-01/2026-10-14/secondary.html), a national newspaper; it confirms the bill's title, its entry into the Senate by 13 May 2025, Sen. Basilio Núñez as presenter, the committee referrals and the risk-based content, so title, date and status rest on a secondary source. The co-sponsors named in issuing_body come from the La Nación report of 15 May 2025, which is not stored. The bill's file on the Congress's SILpy system (expediente S-2502197) and a SILpy PDF with the Senate session sheet of 12 May 2025 and the bill text were located on 14 October 2026, but the archiver could not store either, so official_url and official_identifier stay null."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/PY-01/2026-10-14/secondary.html",
+    "sha256": "a10e57b0f8c12c45817a18dd87c4b2b13381c8cf9bd4d3610dfc6c89645f8aa5",
+    "locator": "article body, first paragraph after the photo caption",
+    "quote": "presentó en mesa de entrada del Senado el proyecto de ley “Que regula y promueve la creación, desarrollo, innovación e implementación de Sistemas de Inteligencia Artificial (IA)”",
+    "source_kind": "secondary"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/PY-01/2026-10-14/secondary.html",
+    "sha256": "a10e57b0f8c12c45817a18dd87c4b2b13381c8cf9bd4d3610dfc6c89645f8aa5",
+    "locator": "article body, first paragraph after the photo caption",
+    "quote": "presentó en mesa de entrada del Senado el proyecto de ley “Que regula y promueve la creación, desarrollo, innovación e implementación de Sistemas de Inteligencia Artificial (IA)”",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/PY-01/2026-10-14/secondary.html",
+    "sha256": "a10e57b0f8c12c45817a18dd87c4b2b13381c8cf9bd4d3610dfc6c89645f8aa5",
+    "locator": "article date line under the standfirst",
+    "quote": "Mayo 13, 2025 02:54 p. m.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/PY-01/2026-10-14/secondary.html",
+    "sha256": "a10e57b0f8c12c45817a18dd87c4b2b13381c8cf9bd4d3610dfc6c89645f8aa5",
+    "locator": "standfirst",
+    "quote": "Basilio Bachi Núñez, presidente del Congreso Nacional, ya remitió al Senado el proyecto de ley que regula la inteligencia artificial en Paraguay.",
+    "source_kind": "secondary"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/PY-01/2026-10-14/secondary.html",
+    "sha256": "a10e57b0f8c12c45817a18dd87c4b2b13381c8cf9bd4d3610dfc6c89645f8aa5",
+    "locator": "standfirst",
+    "quote": "Basilio Bachi Núñez, presidente del Congreso Nacional, ya remitió al Senado el proyecto de ley que regula la inteligencia artificial en Paraguay.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/PY-01/2026-10-14/secondary.html",
+    "sha256": "a10e57b0f8c12c45817a18dd87c4b2b13381c8cf9bd4d3610dfc6c89645f8aa5",
+    "locator": "article body, committee referral paragraph",
+    "quote": "El proyecto fue remitido a las siguientes comisiones asesoras: Asuntos Constitucionales, Defensa Nacional y Fuerza Pública, Legislación, Codificación, y Justicia y Trabajo.",
+    "source_kind": "secondary"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/PY-01/2026-10-14/secondary.html",
+    "sha256": "a10e57b0f8c12c45817a18dd87c4b2b13381c8cf9bd4d3610dfc6c89645f8aa5",
+    "locator": "headline",
+    "quote": "Proyecto que regula la inteligencia artificial ya tuvo entrada en el Senado",
+    "source_kind": "secondary"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The latest event in the stored text is the bill's entry into the Senate and its referral to advisory committees (report dated 13 May 2025). Nothing stored shows a committee report, a floor vote, a rejection or archiving, so the bill remains pending: Draft / proposed. A later stage cannot be ruled out from the stored copy alone; the SILpy file, which could not be stored, is the place to check it.",
+  "date_reasoning": "The report dated 13 May 2025 says the bill 'ya tuvo entrada en el Senado', so it was presented in May 2025 on or before 13 May; the record's month-only value 2025-05 stands.",
+  "scope_reasoning": "A comprehensive, risk-based AI bill pending in a national legislature: in scope, no scope_note.",
+  "changes": {
+   "summary": "Removed the hedge 'As reported' (process language belongs in verification.note) and the count 'seven Senate committees', which the stored report does not support (its list reads as five committees; committee details belong in notes); 'modelled on the EU's risk-based approach' becomes 'drawing on EU, US and Chinese laws' as the report says, and transparency and bias-mitigation measures are no longer limited to high-risk and government systems."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "Chamber of Deputies bill promoting the use of artificial intelligence for the economic and social development of the country (D-2584139)",
+   "url": "https://silpy.congreso.gov.py/web/expediente/142181",
+   "note": "Separate Paraguayan AI bill named in the record's notes as not recorded; listed with this SILpy file by Morrison & Foerster's AI tracker."
+  },
+  {
+   "title": "Supreme Court of Justice of Paraguay, Resolución N° 12.677 (guidelines on the use of AI in the judiciary)",
+   "url": null,
+   "note": "Reported in a search result (palabrasdelderecho.com.ar, June 2026); a judicial-branch AI guideline that may fall in scope."
+  }
+ ],
+ "open_questions": [
+  "official_identifier and official_url stay null: the SILpy file (https://silpy.congreso.gov.py/web/expediente/142635, expediente S-2502197) and the SILpy PDF of the bill could not be stored in this run.",
+  "issuing_body lists six co-sponsors that the stored report does not name; the unstored SILpy file lists eight authors, adding Sen. Patrick Kemper.",
+  "date_published could become 2025-05-08 (SILpy entry date) once an official copy is stored.",
+  "Current legislative stage is not shown by any stored copy; the record's status rests on the absence of later events in a May 2025 report.",
+  "notes says 'The bill's SILpy file number was not identified', which is research-process wording; rewrite the notes once the SILpy file is stored."
+ ]
+}

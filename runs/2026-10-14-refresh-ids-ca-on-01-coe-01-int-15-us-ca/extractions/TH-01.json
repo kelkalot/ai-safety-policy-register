@@ -1,0 +1,137 @@
+{
+ "cand_id": "TH-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "TH-01",
+ "record": {
+  "verification": {
+   "note": "CAUTION: the stored sources are the Tilleke & Gibbins note 'Thailand Releases New Draft Artificial Intelligence Act' (archive/TH-01/2026-10-14/secondary.html) and the Thai PBS Policy Watch article of 1 August 2026 (archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/TH-01/extra-ff67846b01/), both secondary. Together they confirm the title and Thai title, ETDA and MDES as the bodies behind the draft, the 2 July 2026 release for public hearing, the content in the summary, and the post-hearing steps (Council of State, Cabinet, House; target of September 2026) in notes. The Rajah & Tann hearing window of 9 July to 14 August 2026 is not stored. The official hearing page on law.go.th could not be stored (HTTP 403), and no official page for the 2026 draft was stored; no report of Cabinet approval or submission to the House was found on 14 October 2026."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/TH-01/2026-10-14/secondary.html",
+    "sha256": "ddc11e28c30348a4d6dedbc35cdb49a75a7757c92aa1003b3b25fdbb0f37aa0e",
+    "locator": "article body, first paragraph",
+    "quote": "Thailand’s Electronic Transactions Development Agency (ETDA) released a new version of the draft Act on Artificial Intelligence on July 2, 2026, for a public hearing period expected to be approximately 30 days.",
+    "source_kind": "secondary"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/TH-01/2026-10-14/secondary.html",
+    "sha256": "ddc11e28c30348a4d6dedbc35cdb49a75a7757c92aa1003b3b25fdbb0f37aa0e",
+    "locator": "article body, first paragraph",
+    "quote": "Thailand’s Electronic Transactions Development Agency (ETDA) released a new version of the draft Act on Artificial Intelligence on July 2, 2026, for a public hearing period expected to be approximately 30 days.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/TH-01/2026-10-14/secondary.html",
+    "sha256": "ddc11e28c30348a4d6dedbc35cdb49a75a7757c92aa1003b3b25fdbb0f37aa0e",
+    "locator": "article body, closing paragraph",
+    "quote": "They are also encouraged to submit comments on the draft act to the Ministry of Digital Economy and Society during the public hearing period.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/TH-01/extra-ff67846b01/2026-10-14/official.html",
+    "sha256": "dbeb75249738d1bc6abe418b45b0c5e695972e680900fb1d2dd5aadb4ad19b91",
+    "locator": "article summary (สรุปสาระสำคัญ), third point",
+    "quote": "กระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม (ดีอี) และสำนักงานพัฒนาธุรกรรมทางอิเล็กทรอนิกส์ (ETDA) ผลักดัน (ร่าง) พระราชบัญญัติว่าด้วยปัญญาประดิษฐ์ พ.ศ. .... ซึ่งถือเป็นกฎหมายกลางด้าน AI ฉบับแรกของประเทศไทย",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/TH-01/2026-10-14/secondary.html",
+    "sha256": "ddc11e28c30348a4d6dedbc35cdb49a75a7757c92aa1003b3b25fdbb0f37aa0e",
+    "locator": "article body, first paragraph",
+    "quote": "Thailand’s Electronic Transactions Development Agency (ETDA) released a new version of the draft Act on Artificial Intelligence on July 2, 2026, for a public hearing period expected to be approximately 30 days.",
+    "source_kind": "secondary"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/TH-01/2026-10-14/secondary.html",
+    "sha256": "ddc11e28c30348a4d6dedbc35cdb49a75a7757c92aa1003b3b25fdbb0f37aa0e",
+    "locator": "article body, first paragraph",
+    "quote": "If enacted in its current form, the law would introduce extraterritorial obligations, a tiered risk classification system, strict liability for AI-related damages, and new transparency requirements for AI-generated content.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/TH-01/2026-10-14/secondary.html",
+    "sha256": "ddc11e28c30348a4d6dedbc35cdb49a75a7757c92aa1003b3b25fdbb0f37aa0e",
+    "locator": "article body, closing paragraph",
+    "quote": "They are also encouraged to submit comments on the draft act to the Ministry of Digital Economy and Society during the public hearing period.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/TH-01/extra-ff67846b01/2026-10-14/official.html",
+    "sha256": "dbeb75249738d1bc6abe418b45b0c5e695972e680900fb1d2dd5aadb4ad19b91",
+    "locator": "closing section 'จุดเริ่มต้นของกฎหมาย AI ไทย'",
+    "quote": "หลังผ่านกระบวนการรับฟังความคิดเห็น ร่างกฎหมายจะถูกเสนอให้สำนักงานคณะกรรมการกฤษฎีกาตรวจพิจารณา ก่อนเข้าสู่การพิจารณาของคณะรัฐมนตรี และส่งต่อไปยังสภาผู้แทนราษฎร โดยรัฐบาลตั้งเป้าผลักดันเข้าสู่กระบวนการนิติบัญญัติภายในเดือนกันยายน 2569",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/TH-01/extra-ff67846b01/2026-10-14/official.html",
+    "sha256": "dbeb75249738d1bc6abe418b45b0c5e695972e680900fb1d2dd5aadb4ad19b91",
+    "locator": "article date line",
+    "quote": "1 ส.ค. 256911:43 น.",
+    "source_kind": "secondary"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/TH-01/2026-10-14/secondary.html",
+    "sha256": "ddc11e28c30348a4d6dedbc35cdb49a75a7757c92aa1003b3b25fdbb0f37aa0e",
+    "locator": "article body, first paragraph",
+    "quote": "If enacted in its current form, the law would introduce extraterritorial obligations, a tiered risk classification system, strict liability for AI-related damages, and new transparency requirements for AI-generated content.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/TH-01/extra-ff67846b01/2026-10-14/official.html",
+    "sha256": "dbeb75249738d1bc6abe418b45b0c5e695972e680900fb1d2dd5aadb4ad19b91",
+    "locator": "article summary (สรุปสาระสำคัญ), third point",
+    "quote": "กระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม (ดีอี) และสำนักงานพัฒนาธุรกรรมทางอิเล็กทรอนิกส์ (ETDA) ผลักดัน (ร่าง) พระราชบัญญัติว่าด้วยปัญญาประดิษฐ์ พ.ศ. .... ซึ่งถือเป็นกฎหมายกลางด้าน AI ฉบับแรกของประเทศไทย",
+    "source_kind": "secondary"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/TH-01/extra-ff67846b01/2026-10-14/official.html",
+    "sha256": "dbeb75249738d1bc6abe418b45b0c5e695972e680900fb1d2dd5aadb4ad19b91",
+    "locator": "article summary (สรุปสาระสำคัญ), third point",
+    "quote": "กระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม (ดีอี) และสำนักงานพัฒนาธุรกรรมทางอิเล็กทรอนิกส์ (ETDA) ผลักดัน (ร่าง) พระราชบัญญัติว่าด้วยปัญญาประดิษฐ์ พ.ศ. .... ซึ่งถือเป็นกฎหมายกลางด้าน AI ฉบับแรกของประเทศไทย",
+    "source_kind": "secondary"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Stored events: the draft was released for a public hearing of about 30 days from 2 July 2026 (Tilleke & Gibbins); Thai PBS Policy Watch of 1 August 2026 (1 ส.ค. 2569) says that after the hearing the draft goes to the Office of the Council of State, then the Cabinet, then the House of Representatives, with a government target of entering the legislative process in September 2026. No stored copy shows Council of State review, Cabinet approval or submission to the House, and a draft that has not been enacted keeps its draft status. Status as of 14 October 2026: Draft / proposed.",
+  "date_reasoning": "The stored note dates the release to 2 July 2026; the record keeps the month-only value 2026-07 because Rajah & Tann (not stored) date the hearing from 9 July 2026.",
+  "scope_reasoning": "A government draft of a general, risk-based AI statute: in scope, no scope_note.",
+  "changes": {},
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "People's Party draft Artificial Intelligence Act for creative workers (ร่างพระราชบัญญัติปัญญาประดิษฐ์ (AI) เพื่อคนสร้างสรรค์ ฉบับพรรคประชาชน)",
+   "url": "https://www.thairath.co.th/news/politic/2948798",
+   "note": "Opposition party's own AI bill, discussed at a forum on 26 July 2026 per Thairath; a private members' bill that may merit a record with a scope_note."
+  }
+ ],
+ "open_questions": [
+  "No official copy of the 2026 draft is stored: the law.go.th hearing page (survey_id NzU4MERHQV9MQVdfRlJPTlRFTkQ=) failed with HTTP 403.",
+  "The hearing window conflicts between sources (release 2 July with about 30 days of comments vs 9 July to 14 August 2026, the latter not stored).",
+  "Whether the draft has gone to the Council of State or the Cabinet after the hearing is not shown by any stored copy; a later refresh should check."
+ ]
+}

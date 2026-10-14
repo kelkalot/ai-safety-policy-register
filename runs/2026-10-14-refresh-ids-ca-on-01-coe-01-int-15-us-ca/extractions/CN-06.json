@@ -1,0 +1,120 @@
+{
+ "cand_id": "CN-06",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "CN-06",
+ "record": {
+  "summary": "TC260 technical document setting baseline security requirements for providers of generative AI services. It covers training-data (corpus) safety, model safety and safety measures, sets out the safety assessment that providers carry out, and gives the competent oversight departments a reference for judging the safety level of a service. It names more than 30 specific safety risks, including algorithmic bias, disclosure of personal information and copyright infringement, and requires a supply-chain security assessment of the hardware and software underlying models.",
+  "notes": "Released 29 Feb 2024 after a preliminary draft of October 2023, as technical documentation designed to inform a national standard. Its content was taken up in the recommended national standard GB/T 45654-2025 (CN-10), published 25 Apr 2025 and effective 1 Nov 2025. The secondary URL is an unofficial English translation by CSET.",
+  "verification": {
+   "note": "CAUTION: not confirmed on an official page. The official URL now serves the redesigned TC260 homepage, with no trace of the document, in all three stored forms (http copy, browser-rendered copy and print PDF of 14 Oct 2026). Title, original title, issuer, release date (29 Feb 2024) and the document's reference character are confirmed only by the stored CSET translation page (secondary). The identifier TC260-003 is not in any stored file. 'Superseded' is a judgment: CSET describes the document as designed to inform a future national standard, and GB/T 45654-2025 (CN-10, level A) took up its content; no formal TC260 withdrawal notice was found. The original PDF link cited by CSET (tc260.org.cn/upload/2024-03-01/...) now also returns the homepage. Copies requested from perma.cc and c-csa.cn could not be stored."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/CN-06/2026-10-14/secondary.html",
+    "sha256": "3eec0c742e05510ff62977a9bcf02344f5fc06a9ae62b1e6648495414688e455",
+    "locator": "translator's note on the title",
+    "quote": "The Chinese authors of this documentation provided the following English translation of its title: “Basic security requirements for generative artificial intelligence service.”",
+    "source_kind": "secondary"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/CN-06/2026-10-14/secondary.html",
+    "sha256": "3eec0c742e05510ff62977a9bcf02344f5fc06a9ae62b1e6648495414688e455",
+    "locator": "page heading (Chinese title)",
+    "quote": "全国网络安全标准化技术委员会技术文件：生成式人工智能服务安全基本要求",
+    "source_kind": "secondary"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/CN-06/2026-10-14/secondary.html",
+    "sha256": "3eec0c742e05510ff62977a9bcf02344f5fc06a9ae62b1e6648495414688e455",
+    "locator": "Preface",
+    "quote": "This document is released by National Technical Committee 260 on Cybersecurity of Standardization Administration of China (SAC/TC260).",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/CN-06/2026-10-14/secondary.html",
+    "sha256": "3eec0c742e05510ff62977a9bcf02344f5fc06a9ae62b1e6648495414688e455",
+    "locator": "metadata: Source / Originally Published",
+    "quote": "SAC/TC260 website Originally Published February 29, 2024",
+    "source_kind": "secondary"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/CN-06/2026-10-14/secondary.html",
+    "sha256": "3eec0c742e05510ff62977a9bcf02344f5fc06a9ae62b1e6648495414688e455",
+    "locator": "introduction",
+    "quote": "The following Chinese technical documentation on generative AI—designed to inform a future Chinese national standard on the topic—establishes very specific oversight processes",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/CN-06/2026-10-14/secondary.html",
+    "sha256": "3eec0c742e05510ff62977a9bcf02344f5fc06a9ae62b1e6648495414688e455",
+    "locator": "Related Content",
+    "quote": "National Standard of the People's Republic of China: Cybersecurity Technology – Basic Safety Requirements for Generative Artificial Intelligence Services (Draft for Feedback)",
+    "source_kind": "secondary"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/CN-06/2026-10-14/secondary.html",
+    "sha256": "3eec0c742e05510ff62977a9bcf02344f5fc06a9ae62b1e6648495414688e455",
+    "locator": "1 Scope",
+    "quote": "This document applies to service providers carrying out safety assessments and improving their safety levels, and also provides the relevant main oversight department (主管部门) a reference for judging the safety levels of generative AI services.",
+    "source_kind": "secondary"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Events: TC260 released the technical document on 29 Feb 2024 (CSET metadata). CSET describes it as 'designed to inform a future Chinese national standard on the topic' and lists a later draft national standard with the same title (Draft for Feedback, translated December 2024). The register's CN-10 record (level A, from SAMR pages stored for CN-10) shows that standard published as GB/T 45654-2025 on 25 Apr 2025, in effect from 1 Nov 2025. The stored files show no withdrawal notice. A technical document whose content has been taken up in a national standard in force is replaced in practice, so 'Superseded' stays as a judgment. The status rests on secondary evidence in this record's own files.",
+  "scope_reasoning": "In scope without a scope note: a government standards committee's technical document on the safety and security of generative AI services.",
+  "changes": {
+   "summary": "Rewritten to claims supported by the stored text. The '31' risks became 'more than 30', as stated by CSET. Dropped 'when filing under the Generative AI Measures', which no stored file supports. Added the supply-chain assessment and the oversight-reference role.",
+   "notes": "Removed 'Status is our assessment: we found no formal TC260 withdrawal notice' (research language, now in verification.note). Dropped the 1 Mar 2024 posting date, which no stored file supports. Rephrased the CSET relation to what the stored page says ('designed to inform a future national standard'). Added the October 2023 preliminary draft.",
+   "verification": "New note: the official URL no longer shows the document in any stored form."
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "issuing_body",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "网络安全标准实践指南——智能体系统开发安全指南（征求意见稿） (TC260 practice guide draft: security guide for developing AI agent systems)",
+   "url": "https://www.tc260.org.cn/",
+   "seen_in": "archive/CN-06/2026-10-14/official.html (TC260 homepage, notice of 2026-09-18)",
+   "why": "TC260 public consultation on AI-agent system development security, Sep 2026; not in the register."
+  },
+  {
+   "title": "网络安全技术 人工智能安全能力成熟度评估方法 (draft national standard: AI security capability maturity assessment method)",
+   "url": "https://www.tc260.org.cn/",
+   "seen_in": "archive/CN-06/2026-10-14/official-rendered.html (TC260 homepage, consultation 2026-08-26 to 2026-10-25)",
+   "why": "Draft national standard on AI security assessment under consultation; not in the register."
+  },
+  {
+   "title": "TC260-PG-20268A 网络安全标准实践指南——人工智能应用安全指引 总则 (v1.0-202609) and sector guides such as 卫生健康 (TC260-PG-202610A)",
+   "url": "https://www.tc260.org.cn/tc260/sjzn/list.shtml",
+   "seen_in": "web search results while looking for the TC260-003 page",
+   "why": "TC260 practice guides on AI application security issued in Sep 2026; not in the register."
+  }
+ ],
+ "open_questions": [
+  "official_identifier 'TC260-003' is not in any stored file: the official URL now serves the TC260 homepage, the CSET page does not give the number, and the requested copies (perma.cc, c-csa.cn) could not be stored. It is kept as it is and rests on the 11 Oct 2026 pass.",
+  "The official URL (tc260.org.cn/portal/article/2/20240301164054) no longer leads to the notice; the TC260 site has been redesigned and no replacement official page for TC260-003 was found. A human may want to keep the URL as a dead link and say so, or replace it if TC260 republishes the document.",
+  "Level stays C: no stored official file supports title, date or status."
+ ]
+}

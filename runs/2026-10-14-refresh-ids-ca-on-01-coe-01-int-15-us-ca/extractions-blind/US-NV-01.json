@@ -1,0 +1,69 @@
+{
+ "cand_id": "US-NV-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "US-NV-01",
+ "record": {
+  "official_identifier": "Assembly Bill 406 (83rd Session, 2025); Statutes of Nevada 2025, Chapter 283",
+  "official_url": "https://www.leg.state.nv.us/App/NELIS/REL/83rd2025/Bill/12575/Overview",
+  "notes": "Approved by the Governor on 5 June 2025 and filed as Chapter 283 on 6 June 2025; effective 1 July 2025. It passed the Assembly 42-0 on 22 April 2025 and, as amended, the Senate 20-1 on 21 May 2025, and the Assembly concurred in Senate Amendment No. 664 on 29 May 2025. Primary sponsors: Assemblymembers Jovan Jackson and Hanadi Nadeem. The law amends NRS chapters 391, 433 and 629. A licensed provider who breaches the AI rules commits unprofessional conduct and is subject to discipline by the provider's licensing board. One of the first state laws, with Illinois HB 1806, to bar AI from delivering therapy.",
+  "verification": {
+   "note": "CAUTION: no official source was stored. The FastDemocracy bill-tracker page, which cites the Nevada Legislature's NELIS bill page as its source, gives the legislative history: introduction on 11 March 2025, floor votes, Senate Amendment No. 664, approval by the Governor on 5 June 2025 and Chapter 283 on 6 June 2025. The NASW Nevada page quotes the enacted provisions (sections 2, 7 and 8), including the USD 15,000 civil penalty. Not in the stored files: the effective date of 1 July 2025 (from a Wilson Sonsini client alert seen in a search excerpt in October 2026), the Governor's name and the NRS chapters amended (from the October 2026 research). The NELIS page and the enrolled bill PDF returned HTTP 403 in October 2026."
+  }
+ },
+ "evidence": {
+  "title": [
+   {"file": "archive/US-NV-01/2026-10-11/secondary.html", "sha256": "8dac3344e56270e3866fe0cc811bb116059895e8a3ba8cbb57eb5cea8d5a73ea", "locator": "AB406 Is Now Law in Nevada", "quote": "the enactment of Assembly Bill 406 (AB406)—a landmark law that makes Nevada one of the first states in the nation to draw a bold line in the sand against the misuse of artificial intelligence (AI) in mental and behavioral health care.", "source_kind": "secondary"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html", "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb", "locator": "bill overview", "quote": "AB 406 Nevada Assembly Bill", "source_kind": "secondary"}
+  ],
+  "date_published": [
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html", "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb", "locator": "Actions", "quote": "Jun 05, 2025 | executive Approved by the Governor.", "source_kind": "secondary"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html", "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb", "locator": "bill timeline", "quote": "Became Law Jun 05, 2025", "source_kind": "secondary"}
+  ],
+  "status": [
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html", "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb", "locator": "Last Action", "quote": "executive • Jun 06, 2025: Chapter 283.", "source_kind": "secondary"},
+   {"file": "archive/US-NV-01/2026-10-11/secondary.html", "sha256": "8dac3344e56270e3866fe0cc811bb116059895e8a3ba8cbb57eb5cea8d5a73ea", "locator": "heading", "quote": "AB406 Is Now Law in Nevada", "source_kind": "secondary"}
+  ],
+  "official_identifier": [
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html", "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb", "locator": "page title", "quote": "Bill tracking in Nevada - AB 406 (83 legislative session) - FastDemocracy", "source_kind": "secondary"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html", "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb", "locator": "Actions", "quote": "Jun 06, 2025 | executive Chapter 283.", "source_kind": "secondary"}
+  ],
+  "issuing_body": [
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html", "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb", "locator": "Actions", "quote": "Read third time. Passed, as amended. Title approved, as amended. (Yeas: 20, Nays: 1.) To Assembly.", "source_kind": "secondary"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html", "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb", "locator": "Actions", "quote": "Jun 05, 2025 | executive Approved by the Governor.", "source_kind": "secondary"}
+  ],
+  "legal_force": [
+   {"file": "archive/US-NV-01/2026-10-11/secondary.html", "sha256": "8dac3344e56270e3866fe0cc811bb116059895e8a3ba8cbb57eb5cea8d5a73ea", "locator": "Section 7(2), AB406", "quote": "An artificial intelligence provider shall not make available for use by a person in this State an artificial intelligence system that is specifically programmed to provide a service or experience to a user that would constitute the practice of professional mental or behavioral health care", "source_kind": "secondary"},
+   {"file": "archive/US-NV-01/2026-10-11/secondary.html", "sha256": "8dac3344e56270e3866fe0cc811bb116059895e8a3ba8cbb57eb5cea8d5a73ea", "locator": "Section 7(5), AB406", "quote": "is subject to a civil penalty not to exceed $15,000 per violation.", "source_kind": "secondary"}
+  ],
+  "notes": [
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html", "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb", "locator": "Votes", "quote": "Apr 22, 2025, Assembly Final Passage YES: 42 NO: 0", "source_kind": "secondary"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html", "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb", "locator": "Actions", "quote": "May 29, 2025 | Assembly Senate Amendment No. 664 concurred in. To enrollment.", "source_kind": "secondary"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html", "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb", "locator": "Sponsors", "quote": "Jovan Jackson primary Nadeem, Hanadi primary", "source_kind": "secondary"},
+   {"file": "archive/US-NV-01/2026-10-11/secondary.html", "sha256": "8dac3344e56270e3866fe0cc811bb116059895e8a3ba8cbb57eb5cea8d5a73ea", "locator": "Section 8(5), AB406", "quote": "who violates any provision of this section is guilty of unprofessional conduct and is subject to disciplinary action by the board", "source_kind": "secondary"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html", "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb", "locator": "Sources", "quote": "https://www.leg.state.nv.us/App/NELIS/REL/83rd2025/Bill/12575/Overview", "source_kind": "secondary"}
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "official_identifier": "the chapter number (Chapter 283, 6 June 2025) is now in a stored file, so the hedge 'reported as' is dropped",
+   "official_url": "the Nevada Legislature's NELIS bill page, as cited by the stored FastDemocracy page, so that later archiver runs can try to store it",
+   "notes": "legislative history, votes and sponsors added from the stored bill history; hedge 'Reported as' removed",
+   "verification.note": "rewritten for the newly stored bill history"
+  },
+  "confirmed": ["title", "issuing_body", "date_published", "status", "legal_force"],
+  "status_reasoning": "No change. The bill was approved by the Governor on 5 June 2025 and became Chapter 283 on 6 June 2025. The record's effective date of 1 July 2025 is not in any stored file; if it is right, the law has been in force for more than a year by today (14 October 2026). Neither stored source mentions a later operative date, delayed commencement or repeal, so 'In force' stays, resting on secondary evidence.",
+  "scope_reasoning": "Clearly in scope: an AI-specific state law that prohibits AI systems from providing mental or behavioral health care and limits AI use by providers and public schools."
+ },
+ "extra_urls": [
+  {"url": "https://www.leg.state.nv.us/App/NELIS/REL/83rd2025/Bill/12575/Overview", "reason": "official bill page: title, approval by the Governor, chapter number and effective date"},
+  {"url": "https://archive.leg.state.nv.us/Session/83rd2025/Bills/AB/AB406_EN.pdf", "reason": "enrolled bill (path given in the record's verification note): effective-date section, NRS chapters amended, exact wording of sections 2, 7 and 8"}
+ ],
+ "leads": [],
+ "open_questions": [
+  "Effective date (record: 1 July 2025) is not in the stored files; the enrolled bill's effective-date section would settle date_in_force and confirm 'In force'.",
+  "The Governor's name (Joe Lombardo) in issuing_body and the NRS chapters (391, 433, 629) in notes are not shown in the stored files.",
+  "No official source is stored; both stored sources (FastDemocracy, NASW Nevada) are secondary, so the level stays C. NELIS and the enrolled bill returned HTTP 403 in October 2026; a --browser archiver run may store them."
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Nixon Peabody names 'The Regulatory Provisions—Artificial Intelligence Companion Models Act (S 2195)'; the tracker gives the bill title. 'H 7350 Substitute A' in the title is only partly shown (tracker says 'Companion bills: HB 7350'), judgment call."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Governor Daniel McKee signed; the General Assembly announced the Act."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "'2195 SUB A as amended', companion HB 7350 in the tracker; no chapter number stored."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "'Jun 22, 2026 | executive 06/22/2026 Signed by Governor' (signature date)."
+  },
+  "date_in_force": {
+   "verdict": "supported",
+   "why": "'effective January 1, 2027' in the Nixon Peabody alert; the web search found the same date in the bill text (not stored)."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Signed 22 Jun 2026, effective 1 Jan 2027, after today; 'Adopted, not yet in force' is right."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "Signed into law with civil penalties."
+  },
+  "summary": {
+   "verdict": "supported",
+   "why": "Unchanged; every clause is in the Nixon Peabody alert."
+  },
+  "notes": {
+   "verdict": "unsupported",
+   "why": "Dates, votes, companion bill and the two sibling acts are supported. The last sentence ('roughly a dozen states that enacted companion-chatbot statutes in the first half of 2026') is in no stored text for this record. Fix drops it.",
+   "fix": {
+    "value": "Signed by the Governor on 22 Jun 2026 and effective 1 Jan 2027. The Senate passed Substitute A as amended on 21 May 2026 and the House passed it in concurrence on 8 Jun 2026; the House companion bill is H 7350. Enacted alongside two Rhode Island health-care AI laws of June 2026: S 2570 (notification when AI documents clinical visits) and S 2197 (Oversight of Artificial Intelligence Technology in Mental Health Care Act, barring AI from making independent therapeutic decisions), which are not recorded separately.",
+    "evidence": [
+     {
+      "file": "archive/US-RI-01/2026-10-12/secondary.html",
+      "sha256": "ac1542d23a324e37b0ae35323b0001694af07d336f1220a1f2d6275c0204362e",
+      "locator": "list of the three acts",
+      "quote": "The Use of Artificial Intelligence by Healthcare Providers Notification Act (S 2570) (effective June 22, 2026)",
+      "source_kind": "secondary"
+     },
+     {
+      "file": "archive/US-RI-01/2026-10-12/secondary.html",
+      "sha256": "ac1542d23a324e37b0ae35323b0001694af07d336f1220a1f2d6275c0204362e",
+      "locator": "list of the three acts",
+      "quote": "The Oversight of Artificial Intelligence Technology in Mental Health Care Act (S 2197) (effective June 22, 2026)",
+      "source_kind": "secondary"
+     }
+    ]
+   }
+  },
+  "verification.note": {
+   "verdict": "supported",
+   "why": "Accurately describes stored sources and gaps; CAUTION present."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Notification at the start of use and every three hours that the user is not communicating with a human",
+   "verdict": "supported",
+   "locator": "Nixon Peabody, 'Overview of AI companion tools'"
+  },
+  {
+   "claim": "Civil penalties up to USD 15,000 per day; annual reports to the Attorney General from 1 Jul 2027",
+   "verdict": "supported",
+   "locator": "Nixon Peabody, same section"
+  },
+  {
+   "claim": "Customer-service, research and internal business tools are exempt",
+   "verdict": "supported",
+   "locator": "Nixon Peabody, same section"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "State AI companion chatbot safety law."
+ },
+ "overall": "accept-with-fixes",
+ "note": "Title, signing date, effective date, status and the whole summary are supported by the Nixon Peabody alert and the FastDemocracy tracker (level C). The only unsupported text is the closing 'roughly a dozen states' sentence in notes, removed in the proposed fix. Targeted search found no amendment or repeal.",
+ "cand_id": "US-RI-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14"
+}

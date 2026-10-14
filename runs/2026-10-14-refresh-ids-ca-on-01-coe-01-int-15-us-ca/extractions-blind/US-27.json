@@ -1,0 +1,63 @@
+{
+ "cand_id": "US-27",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "US-27",
+ "record": {
+  "secondary_url": "https://www.presidency.ucsb.edu/documents/white-house-accord-super-intelligence",
+  "notes": "Dated 29 September 2026 and signed by President Donald J. Trump and by Sundar Pichai (Google), Dario Amodei (Anthropic), Mark Zuckerberg (Meta), Greg Brockman (OpenAI), Elon Musk (xAI) and Jensen Huang (Nvidia). Announced alongside EO 14434. The text sets no enforcement or reporting mechanism and says that over time it may make sense to codify the steps into laws or regulations. On 1 October 2026 Representatives Jay Obernolte and Lori Trahan, authors of the FRONTIER Act, welcomed the accord and said their bill would build on it and make it durable. It is the current administration's counterpart to the voluntary commitments of July 2023.",
+  "verification": {
+   "note": "CAUTION: no government copy of the accord text was stored. The full text, the title, the date of 29 September 2026 and the signatories come from The American Presidency Project (UCSB), which files the accord as a White House press release; its page of the President's Truth Social posts for 29 September 2026 lists several link-only posts but no accord text. The statement of Representatives Obernolte and Trahan of 1 October 2026 (obernolte.house.gov) confirms that leading AI companies signed the White House Accord on Tuesday, which was 29 September 2026. The link to EO 14434 rests on press reports from the October 2026 research (IAPP, GovConWire, Washington Examiner, TechCrunch, CFR), which were not stored."
+  }
+ },
+ "evidence": {
+  "title": [
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-199626f0e9/2026-10-14/official.html", "sha256": "7af6abf3d3d22d2be4d43540cf3e6e2a5832dc427b439669bdf3dad4b5b66d4e", "locator": "document heading", "quote": "White House Accord on Super Intelligence Joint Commitment on Frontier Responsibilities", "source_kind": "secondary"}
+  ],
+  "date_published": [
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-199626f0e9/2026-10-14/official.html", "sha256": "7af6abf3d3d22d2be4d43540cf3e6e2a5832dc427b439669bdf3dad4b5b66d4e", "locator": "document heading", "quote": "White House Accord on Super Intelligence September 29, 2026", "source_kind": "secondary"},
+   {"file": "archive/US-27/2026-10-11/secondary.html", "sha256": "798af29ed00983636efdc44ff37253af05fd61bdce69e043cc175c0bc2a6beed", "locator": "Press release, first paragraph", "quote": "October 1, 2026 Press Release WASHINGTON, D.C. — Today, Congressman Jay Obernolte (R-CA-23) and Congresswoman Lori Trahan (D-MA-03), authors of the bipartisan FRONTIER Act, issued the following statement on the White House Accord signed by leading AI companies on Tuesday:", "source_kind": "alt-official"}
+  ],
+  "status": [
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-199626f0e9/2026-10-14/official.html", "sha256": "7af6abf3d3d22d2be4d43540cf3e6e2a5832dc427b439669bdf3dad4b5b66d4e", "locator": "final paragraph", "quote": "Over time, it may make sense to codify these steps into laws or regulations. Regardless of whether this is required of companies, we believe that implementing these controls and audits is critical to ensuring a safe future for everyone, and each of our companies are committed to doing this.", "source_kind": "secondary"},
+   {"file": "archive/US-27/2026-10-11/secondary.html", "sha256": "798af29ed00983636efdc44ff37253af05fd61bdce69e043cc175c0bc2a6beed", "locator": "statement", "quote": "This week, America's leading AI companies signed the White House Accord, an important step toward ensuring that the most advanced AI systems are developed responsibly.", "source_kind": "alt-official"}
+  ],
+  "issuing_body": [
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-199626f0e9/2026-10-14/official.html", "sha256": "7af6abf3d3d22d2be4d43540cf3e6e2a5832dc427b439669bdf3dad4b5b66d4e", "locator": "signature block", "quote": "DONALD J. TRUMP President of the Unites States SUNDAR PICHAI Google DARIO AMODEI Anthropic MARK ZUCKERBERG Meta GREG BROCKMAN OpenAI ELON MUSK XAI JENSEN HUANG Nvidia", "source_kind": "secondary"}
+  ],
+  "legal_force": [
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-199626f0e9/2026-10-14/official.html", "sha256": "7af6abf3d3d22d2be4d43540cf3e6e2a5832dc427b439669bdf3dad4b5b66d4e", "locator": "final paragraph", "quote": "Over time, it may make sense to codify these steps into laws or regulations.", "source_kind": "secondary"}
+  ],
+  "notes": [
+   {"file": "archive/US-27/2026-10-11/secondary.html", "sha256": "798af29ed00983636efdc44ff37253af05fd61bdce69e043cc175c0bc2a6beed", "locator": "statement", "quote": "The FRONTIER Act would build on this foundation and make it durable.", "source_kind": "alt-official"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-199626f0e9/2026-10-14/official.html", "sha256": "7af6abf3d3d22d2be4d43540cf3e6e2a5832dc427b439669bdf3dad4b5b66d4e", "locator": "Filed Under", "quote": "Filed Under Categories Press Office Press Releases", "source_kind": "secondary"}
+  ],
+  "summary": [
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-199626f0e9/2026-10-14/official.html", "sha256": "7af6abf3d3d22d2be4d43540cf3e6e2a5832dc427b439669bdf3dad4b5b66d4e", "locator": "control (1)", "quote": "(1) Implement robust internal controls to monitor the capabilities and alignment of its models during training and deployment around areas like cybersecurity, biosecurity, and chemical threats, and to ensure that its models do not hack or access technical systems in unintended ways.", "source_kind": "secondary"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-27/extra-199626f0e9/2026-10-14/official.html", "sha256": "7af6abf3d3d22d2be4d43540cf3e6e2a5832dc427b439669bdf3dad4b5b66d4e", "locator": "after control (4)", "quote": "The participating companies will meet regularly to establish standards and best practices to improve the safety of their systems.", "source_kind": "secondary"}
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "secondary_url": "The American Presidency Project page carries the full text and signature block of the accord; the Obernolte statement stays in the record's stored copies",
+   "notes": "signatories now taken from the accord's own signature block; the remarks about where copies were searched for and the unsupported press quotations removed; process remarks moved to verification.note",
+   "verification.note": "rewritten for the newly stored accord text"
+  },
+  "confirmed": ["title", "date_published", "status", "issuing_body", "legal_force"],
+  "status_reasoning": "No change. The accord is a signed statement of commitments with no legal force; its own text says the steps may later be codified into laws or regulations and that the companies are committed to implementing them. Nothing stored shows withdrawal or replacement, so 'Published (non-binding, current)' stands as of 14 October 2026. 1 October 2026 was a Thursday, so the 'Tuesday' of the Obernolte statement is 29 September 2026, the date on the accord.",
+  "scope_reasoning": "In scope: frontier-AI safety commitments signed by the President and six AI developers and published as a White House press release. The record has no scope_note, consistent with US-03 (the 2023 voluntary commitments); AGENTS.md section 10 gives company commitments brokered by governments a scope_note, but here the President is himself a signatory, so I left it unflagged."
+ },
+ "extra_urls": [
+  {"url": "https://truthsocial.com/@realDonaldTrump/117356337184173252", "reason": "link-only post of 29 September 2026, 1:59 PM PT, listed by The American Presidency Project; may carry the signed accord as published by the President"},
+  {"url": "https://truthsocial.com/@realDonaldTrump/117356435739432952", "reason": "link-only post of 29 September 2026, 2:24 PM PT; may carry the signed accord"},
+  {"url": "https://truthsocial.com/@realDonaldTrump/117357090030899348", "reason": "link-only post of 29 September 2026, 5:11 PM PT; may carry the signed accord"}
+ ],
+ "leads": [],
+ "open_questions": [
+  "No government copy of the accord text is stored (whitehouse.gov or the President's Truth Social account); title and full text rest on The American Presidency Project, so the level stays C.",
+  "Whether, and in which post, the accord was published on the President's Truth Social account on 29 September 2026.",
+  "The link to EO 14434 (US-26) in notes is not shown in any stored file.",
+  "Scope: whether a presidentially co-signed company accord should carry a scope_note under the 'company commitments brokered by governments' rule (US-03 and US-27 have none; INT-06 has one)."
+ ]
+}

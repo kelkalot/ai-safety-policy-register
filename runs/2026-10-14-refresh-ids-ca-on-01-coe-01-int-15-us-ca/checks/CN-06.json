@@ -1,0 +1,74 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14",
+ "cand_id": "CN-06",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "CSET translator's note gives the English title; record title adds '(TC260 technical document)'. Level C, secondary only."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "Chinese title on the CSET page heading."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "CSET preface: released by SAC/TC260."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "CSET metadata 'Originally Published February 29, 2024'. The official page is not stored; the TC260 homepage now loads instead."
+  },
+  "status": {
+   "verdict": "judgment-differs",
+   "why": "No stored file shows supersession; CSET says the document was 'designed to inform a future ... national standard'. 'Superseded' rests on CN-10 (GB/T 45654-2025) having taken up its content. Defensible, but a human should decide between 'Superseded' and a still-published technical document."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "Scope clause: reference for oversight departments; non-binding technical document."
+  },
+  "official_identifier": {
+   "verdict": "unsupported",
+   "why": "'TC260-003' is in no stored file (CSET page, TC260 homepage copies). Web search results name it, but those pages are not stored."
+  },
+  "official_url": {
+   "verdict": "judgment-differs",
+   "why": "All three stored copies of the official URL show the TC260 homepage, not the document; the link is dead."
+  },
+  "notes": {
+   "verdict": "supported",
+   "why": "Checked: draft of Oct 2023 (CSET: 'preliminary draft released in October 2023'), designed to inform a national standard, CSET is unofficial. CN-10 data (published 25 Apr 2025, effective 1 Nov 2025) matches that record, not a file stored in this run."
+  },
+  "verification.note": {
+   "verdict": "supported",
+   "why": "Honest: CAUTION, level C, official page not found."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "names more than 30 specific safety risks including algorithmic bias, disclosure of personal information and copyright infringement",
+   "verdict": "supported",
+   "locator": "CSET introduction"
+  },
+  {
+   "claim": "requires a supply-chain security assessment of the hardware and software underlying models",
+   "verdict": "supported",
+   "locator": "CSET introduction"
+  },
+  {
+   "claim": "gives competent oversight departments a reference for judging safety level",
+   "verdict": "supported",
+   "locator": "1 Scope"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Government safety technical standard."
+ },
+ "overall": "needs-human",
+ "note": "New summary and notes are supported by the CSET translation, but the record is level C and two inherited values lack stored evidence. official_identifier TC260-003 is not in any stored file (search results name it; Junhe and sesec pages could be stored for evidence), and status 'Superseded' is judgment. The official URL is dead. A human should decide on the identifier, status and URL. Blind extraction made no changes and agrees (no disagreements in agreement.json)."
+}

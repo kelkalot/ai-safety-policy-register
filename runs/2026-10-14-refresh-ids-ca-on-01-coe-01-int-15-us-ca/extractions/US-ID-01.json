@@ -1,0 +1,87 @@
+{
+ "cand_id": "US-ID-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "US-ID-01",
+ "record": {
+  "verification": {
+   "note": "CAUTION: the only stored source is the Transparency Coalition tracker of 2026 state chatbot-safety laws (archive/US-ID-01/2026-10-12/secondary.html); it confirms the bill number and name, enactment on 31 March 2026, the 1 July 2027 effective date and the minors' protections, so title, date and status rest on a secondary source. Not confirmed by any stored copy: the Governor's signature, the votes, the Attorney General's enforcement and the USD 1,000 / USD 500,000 penalties (from the EnterpriseDNA summary), and the session-law chapter. The Idaho Legislature's bill page, the introduced and amended bill PDFs and the Idaho Code chapter PDF were located on 14 October 2026, but none could be stored (legislature.idaho.gov refused connections on 11, 12 and 14 October 2026), and no other official Idaho host carrying the bill was found."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/US-ID-01/2026-10-12/secondary.html",
+    "sha256": "fe537ae1d601636aeaddd48f4c839f23541271c62d9117e48f5004ef62487516",
+    "locator": "section 'Idaho'",
+    "quote": "SB 1297: The Conversational AI Safety Act",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/US-ID-01/2026-10-12/secondary.html",
+    "sha256": "fe537ae1d601636aeaddd48f4c839f23541271c62d9117e48f5004ef62487516",
+    "locator": "section 'Idaho'",
+    "quote": "Sponsor: Green. Enacted March 31, 2026. Effective July 1, 2027.",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/US-ID-01/2026-10-12/secondary.html",
+    "sha256": "fe537ae1d601636aeaddd48f4c839f23541271c62d9117e48f5004ef62487516",
+    "locator": "section 'Idaho'",
+    "quote": "Sponsor: Green. Enacted March 31, 2026. Effective July 1, 2027.",
+    "source_kind": "secondary"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/US-ID-01/2026-10-12/secondary.html",
+    "sha256": "fe537ae1d601636aeaddd48f4c839f23541271c62d9117e48f5004ef62487516",
+    "locator": "section 'Idaho'",
+    "quote": "Sponsor: Green. Enacted March 31, 2026. Effective July 1, 2027.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/US-ID-01/2026-10-12/secondary.html",
+    "sha256": "fe537ae1d601636aeaddd48f4c839f23541271c62d9117e48f5004ef62487516",
+    "locator": "introduction",
+    "quote": "chatbot safety laws enacted in both Republican-held legislatures like Georgia and Idaho",
+    "source_kind": "secondary"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/US-ID-01/2026-10-12/secondary.html",
+    "sha256": "fe537ae1d601636aeaddd48f4c839f23541271c62d9117e48f5004ef62487516",
+    "locator": "section 'Idaho'",
+    "quote": "Sponsor: Green. Enacted March 31, 2026. Effective July 1, 2027.",
+    "source_kind": "secondary"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Latest stored event: enacted 31 March 2026, with the rule 'Effective July 1, 2027'. Today is 14 October 2026, before 1 July 2027, so the law is adopted but not yet in force: Adopted, not yet in force. The EnterpriseDNA headline calling the law 'now in effect' is contradicted by this effective date and is not stored.",
+  "scope_reasoning": "A state statute on safety duties of conversational AI operators: in scope, no scope_note.",
+  "changes": {},
+  "confirmed": [
+   "title",
+   "date_published",
+   "date_in_force",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "No official copy is stored: all four legislature.idaho.gov sources (bill page sessioninfo/2026/legislation/S1297/, S1297.pdf, S1297E1.pdf, Idaho Code Title 48 chapter PDF) failed.",
+  "issuing_body ('signed by Governor Brad Little') and official_identifier ('68th Idaho Legislature') are not in the stored tracker.",
+  "Sponsor conflict: the stored tracker names 'Green' as sponsor, while a KIVI-TV report found by search says Sen. Ben Toews introduced the bill in the Senate State Affairs Committee on 20 February 2026.",
+  "The summary's penalty clause ('penalties are reported at USD 1,000 per violation, capped at USD 500,000 per operator') is hedged and rests on an unstored source.",
+  "notes end with 'the enrolled text should be checked', which is research-process wording; rewrite once an official copy is stored."
+ ]
+}

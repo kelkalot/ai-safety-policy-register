@@ -1,0 +1,64 @@
+{
+ "cand_id": "CA-ON-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "CA-ON-01",
+ "record": {
+  "status": "In force",
+  "date_in_force": "2025-01-29",
+  "notes": "Royal Assent received on 25 November 2024 (S.O. 2024, c. 24). Order in Council 361/2025 of 28 January 2025 named 29 January 2025 as the day Schedule 1, ss. 1-16, the Enhancing Digital Security and Trust Act, 2024, came into force; it also brought provisions of Schedule 2 (amendments to the Freedom of Information and Protection of Privacy Act) into force on 29 January and 1 July 2025. The AI duties in ss. 5 and 6 apply only to public sector entities and circumstances prescribed by regulation. As of the e-Laws currency date of 9 October 2026 the Act has no amendments, and the only regulations under it are O. Reg. 51/26 (cyber security) and O. Reg. 52/26 (digital technology affecting individuals under 18), in effect from 1 July 2026; no regulation yet prescribes entities or circumstances for the AI duties. Section 12 provides that the Act establishes no private law duty of care.",
+  "verification": {
+   "note": "The stored OLA bill page and Royal Assent PDF confirm the title, Royal Assent on 25 Nov 2024 as S.O. 2024, c. 24, the AI provisions in Schedule 1, ss. 5-8, and commencement by proclamation (s. 17). Three stored Government of Ontario pages (ontario.ca, 14 Oct 2026) settle the status. Order in Council 361/2025 names 29 Jan 2025 for Schedule 1, ss. 1-16. The e-Laws consolidation (browser-rendered copy and print PDF) shows the current version from 29 Jan 2025 to its currency date of 9 Oct 2026, 'No amendments', and O. Reg. 51/26 and 52/26 as the only regulations. The ontario.ca EDSTA page (updated 7 May 2026) says those regulations take effect on 1 Jul 2026. The plain http copy of e-Laws is an empty JavaScript shell. ontario.ca is not yet in CA-ON known_hosts, so the evidence script counts its quotes as secondary."
+  }
+ },
+ "evidence": {
+  "title": [
+   {"file": "archive/CA-ON-01/2026-10-11/official.html", "sha256": "1cd5fa2d20165445afed84f8359223c53c1c06ada83dd4b3c3aa68dc865a83fe", "locator": "page heading", "quote": "Bill 194, Strengthening Cyber Security and Building Trust in the Public Sector Act, 2024", "source_kind": "official"},
+   {"file": "archive/CA-ON-01/2026-10-11/document-2.pdf", "sha256": "2f0f21cb8bd340b3bc6700dd422a8ce41c31cd54d8dd4d008aa1a08cde1ead0b", "locator": "page 10", "quote": "18 The short title of the Act set out in this Schedule is the Enhancing Digital Security and Trust Act, 2024.", "source_kind": "official"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/CA-ON-01/extra-b21b53bc97/2026-10-14/official-rendered.html", "sha256": "7aadeee6dfee9b7c19c1dc3b2206d8456254d1f68a21b6fd304e4a9064c6d5f1", "locator": "e-Laws page title", "quote": "Enhancing Digital Security and Trust Act, 2024, S.O. 2024, c. 24, Sched. 1", "source_kind": "official"}
+  ],
+  "date_published": [
+   {"file": "archive/CA-ON-01/2026-10-11/document-2.pdf", "sha256": "2f0f21cb8bd340b3bc6700dd422a8ce41c31cd54d8dd4d008aa1a08cde1ead0b", "locator": "page 1", "quote": "Royal Assent November 25, 2024", "source_kind": "official"},
+   {"file": "archive/CA-ON-01/2026-10-11/official.html", "sha256": "1cd5fa2d20165445afed84f8359223c53c1c06ada83dd4b3c3aa68dc865a83fe", "locator": "Status tab, Royal Assent row", "quote": "November 25, 2024 Royal Assent Royal Assent received", "source_kind": "official"}
+  ],
+  "status": [
+   {"file": "archive/CA-ON-01/2026-10-11/document-2.pdf", "sha256": "2f0f21cb8bd340b3bc6700dd422a8ce41c31cd54d8dd4d008aa1a08cde1ead0b", "locator": "page 10, Schedule 1, s. 17 (Commencement): the rule", "quote": "17 The Act set out in this Schedule comes into force on a day to be named by proclamation of the Lieutenant Governor.", "source_kind": "official"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/CA-ON-01/extra-04be1c45e1/2026-10-14/official.html", "sha256": "b45ca0101befe4314e0caaac09d334e99e762172d82a4de83eeaadb6b96b50cb", "locator": "Order in Council 361/2025, first order: the event", "quote": "January 29, 2025 is named as the day on which the following provisions of the Strengthening Cyber Security and Building Trust in the Public Sector Act, 2024, c. 24, being the Enhancing Digital Security and Trust Act, 2024, come into force: Schedule 1, s. 1-16.", "source_kind": "official"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/CA-ON-01/extra-b21b53bc97/2026-10-14/official-rendered.html", "sha256": "7aadeee6dfee9b7c19c1dc3b2206d8456254d1f68a21b6fd304e4a9064c6d5f1", "locator": "e-Laws version header", "quote": "Consolidation period: January 29, 2025 - e-Laws currency date (October 9, 2026)", "source_kind": "official"}
+  ],
+  "date_in_force": [
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/CA-ON-01/extra-04be1c45e1/2026-10-14/official.html", "sha256": "b45ca0101befe4314e0caaac09d334e99e762172d82a4de83eeaadb6b96b50cb", "locator": "Order in Council 361/2025, first order", "quote": "January 29, 2025 is named as the day on which the following provisions of the Strengthening Cyber Security and Building Trust in the Public Sector Act, 2024, c. 24, being the Enhancing Digital Security and Trust Act, 2024, come into force: Schedule 1, s. 1-16.", "source_kind": "official"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/CA-ON-01/extra-b21b53bc97/2026-10-14/official-print.pdf", "sha256": "1c8f173b3877f57ba752ea8bdf787ff9396a31a8b3233377d4c890d184f40177", "locator": "page 1, version header", "quote": "CURRENT Consolidation period: January 29, 2025 - e-Laws currency date (October 9, 2026) No amendments.", "source_kind": "official"}
+  ],
+  "official_identifier": [
+   {"file": "archive/CA-ON-01/2026-10-11/official.html", "sha256": "1cd5fa2d20165445afed84f8359223c53c1c06ada83dd4b3c3aa68dc865a83fe", "locator": "Royal Assent version, Explanatory Note", "quote": "Bill 194 has been enacted as Chapter 24 of the Statutes of Ontario, 2024.", "source_kind": "official"},
+   {"file": "archive/CA-ON-01/2026-10-11/official.html", "sha256": "1cd5fa2d20165445afed84f8359223c53c1c06ada83dd4b3c3aa68dc865a83fe", "locator": "breadcrumb", "quote": "Parliament 43, Session 1", "source_kind": "official"}
+  ],
+  "issuing_body": [
+   {"file": "archive/CA-ON-01/2026-10-11/official.html", "sha256": "1cd5fa2d20165445afed84f8359223c53c1c06ada83dd4b3c3aa68dc865a83fe", "locator": "Royal Assent version, Preamble", "quote": "His Majesty, by and with the advice and consent of the Legislative Assembly of the Province of Ontario, enacts as follows", "source_kind": "official"}
+  ],
+  "legal_force": [
+   {"file": "archive/CA-ON-01/2026-10-11/document-2.pdf", "sha256": "2f0f21cb8bd340b3bc6700dd422a8ce41c31cd54d8dd4d008aa1a08cde1ead0b", "locator": "page 8, Schedule 1, s. 5 (4)", "quote": "A public sector entity to which this section applies shall take such steps as may be prescribed to manage risks associated with the use of the artificial intelligence system.", "source_kind": "official"}
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Rule: Schedule 1, s. 17 says the Act set out in the Schedule 'comes into force on a day to be named by proclamation of the Lieutenant Governor'. Event: Order in Council 361/2025 (approved 28 Jan 2025) names 'January 29, 2025' as the day Schedule 1, ss. 1-16 come into force. The e-Laws consolidation confirms a current version running from 29 Jan 2025 to its currency date of 9 Oct 2026, with no amendments; ss. 17 and 18 (commencement, short title) are shown as omitted, as usual. Arithmetic: 29 Jan 2025 is before today (14 Oct 2026), so every substantive section of the Act (ss. 1-16) has been in force for over 20 months. Status 'In force', date_in_force 2025-01-29. Why not 'Partially in force': no section is still awaiting commencement. The AI duties in ss. 5-6 are in force as law but bind only entities that a regulation prescribes. e-Laws lists only O. Reg. 51/26 (cyber security) and O. Reg. 52/26 (under-18 digital information), so none are prescribed yet; the notes say so.",
+  "scope_reasoning": "In scope without a scope note: the AI provisions in Schedule 1, ss. 5-8 are an AI-specific statutory framework for public-sector AI use.",
+  "changes": {
+   "status": "Schedule 1, ss. 1-16 came into force on 29 Jan 2025 under Order in Council 361/2025, as the e-Laws consolidation confirms.",
+   "date_in_force": "29 Jan 2025, the day named in Order in Council 361/2025.",
+   "notes": "Added the commencement order and the regulations made so far (none for AI). Removed the earlier remark about e-Laws and the unconfirmed status, which is now settled.",
+   "verification": "New note for this refresh."
+  },
+  "confirmed": ["title", "date_published", "official_identifier", "issuing_body", "legal_force"]
+ },
+ "extra_urls": [],
+ "leads": [
+  {"title": "Ontario Responsible Use of Artificial Intelligence Directive", "url": null, "seen_in": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/CA-ON-01/extra-918dfb6d5e/2026-10-14/official.html", "why": "The page says the Directive 'sets requirements and guiding principles for the transparent, responsible and accountable use of AI by Ontario ministries and provincial agencies'. The register has no record of it."},
+  {"title": "Ontario's Trustworthy Artificial Intelligence Framework", "url": null, "seen_in": "same page, 'Related information'", "why": "Ontario government AI framework linked from the EDSTA page; not in the register."}
+ ],
+ "open_questions": [
+  "Host recognition: ontario.ca is the Government of Ontario's own domain, but it is not in CA-ON known_hosts in pipeline/frame.json (only ola.org) and does not match the government-domain pattern. The evidence script will therefore count the OIC and e-Laws quotes as secondary. The level still reaches A, because title and date rest on OLA quotes and status also has the s. 17 commencement rule from the OLA Royal Assent text. A human should add ontario.ca to CA-ON known_hosts."
+ ]
+}

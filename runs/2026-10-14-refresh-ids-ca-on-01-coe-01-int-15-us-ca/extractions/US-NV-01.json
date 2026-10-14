@@ -1,0 +1,154 @@
+{
+ "cand_id": "US-NV-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "US-NV-01",
+ "record": {
+  "verification": {
+   "note": "CAUTION: no official copy is stored. The stored sources are the NASW Nevada Chapter page 'AI regulation in Nevada: What You Need to Know' (archive/US-NV-01/2026-10-11/secondary.html), which quotes sections 2, 7 and 8 of AB 406, and the FastDemocracy tracker page for AB 406 (archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/), which reproduces the Legislature's action history: passed the Assembly 42-0 on 22 Apr 2025 and the Senate 20-1 on 21 May 2025, approved by the Governor on 5 Jun 2025, chapter 283 on 6 Jun 2025. Both are secondary. Not confirmed by any stored copy: the 1 Jul 2025 effective date, the Governor's name, and the NRS chapters amended. The enrolled bill on archive.leg.state.nv.us could not be stored (HTTP 403, including the browser retry); the Legislature's NELIS page named by the tracker is https://www.leg.state.nv.us/App/NELIS/REL/83rd2025/Bill/12575/Overview."
+  },
+  "official_identifier": "Assembly Bill 406 (83rd Session, 2025); Statutes of Nevada 2025, Chapter 283",
+  "notes": "Passed the Assembly 42-0 on 22 Apr 2025 and, as amended, the Senate 20-1 on 21 May 2025; approved by the Governor on 5 Jun 2025 and filed as chapter 283 on 6 Jun 2025. Effective 1 Jul 2025; the law amends NRS chapters 391, 433 and 629. Sponsored by Assemblymembers Jovan Jackson and Hanadi Nadeem. One of the first state laws, with Illinois HB 1806, to bar AI from delivering therapy."
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/US-NV-01/2026-10-11/secondary.html",
+    "sha256": "8dac3344e56270e3866fe0cc811bb116059895e8a3ba8cbb57eb5cea8d5a73ea",
+    "locator": "heading 'AB406 Is Now Law in Nevada', first paragraph",
+    "quote": "The National Association of Social Workers – Nevada Chapter (NASW-NV) is proud to announce the enactment of Assembly Bill 406 (AB406)",
+    "source_kind": "secondary"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/US-NV-01/2026-10-11/secondary.html",
+    "sha256": "8dac3344e56270e3866fe0cc811bb116059895e8a3ba8cbb57eb5cea8d5a73ea",
+    "locator": "heading",
+    "quote": "AB406 Is Now Law in Nevada",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/US-NV-01/2026-10-11/secondary.html",
+    "sha256": "8dac3344e56270e3866fe0cc811bb116059895e8a3ba8cbb57eb5cea8d5a73ea",
+    "locator": "heading 'AB406 Is Now Law in Nevada', fourth paragraph",
+    "quote": "AB406 now establishes some of the strongest consumer protections in the country",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html",
+    "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb",
+    "locator": "Actions, 5 Jun 2025",
+    "quote": "Jun 05, 2025 | executive Approved by the Governor.",
+    "source_kind": "secondary"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/US-NV-01/2026-10-11/secondary.html",
+    "sha256": "8dac3344e56270e3866fe0cc811bb116059895e8a3ba8cbb57eb5cea8d5a73ea",
+    "locator": "heading 'AB406 Is Now Law in Nevada', first paragraph",
+    "quote": "The National Association of Social Workers – Nevada Chapter (NASW-NV) is proud to announce the enactment of Assembly Bill 406 (AB406)",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html",
+    "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb",
+    "locator": "Actions, 6 Jun 2025",
+    "quote": "Jun 06, 2025 | executive Chapter 283.",
+    "source_kind": "secondary"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html",
+    "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb",
+    "locator": "page title",
+    "quote": "Bill tracking in Nevada - AB 406 (83 legislative session) - FastDemocracy",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html",
+    "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb",
+    "locator": "Actions, 6 Jun 2025",
+    "quote": "Jun 06, 2025 | executive Chapter 283.",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html",
+    "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb",
+    "locator": "Actions, 5 Jun 2025",
+    "quote": "Jun 05, 2025 | executive Approved by the Governor.",
+    "source_kind": "secondary"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html",
+    "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb",
+    "locator": "Actions, 22 Apr 2025",
+    "quote": "Apr 22, 2025 | Assembly Read third time. Passed, as amended. Title approved, as amended. (Yeas: 42, Nays: None.) To printer.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html",
+    "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb",
+    "locator": "Actions, 21 May 2025",
+    "quote": "May 21, 2025 | Senate Read third time. Passed, as amended. Title approved, as amended. (Yeas: 20, Nays: 1.) To Assembly.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html",
+    "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb",
+    "locator": "Actions, 5 Jun 2025",
+    "quote": "Jun 05, 2025 | executive Approved by the Governor.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html",
+    "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb",
+    "locator": "Actions, 6 Jun 2025",
+    "quote": "Jun 06, 2025 | executive Chapter 283.",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-NV-01/extra-f2ed2fdd4b/2026-10-14/official.html",
+    "sha256": "d3b1191ad6e32e8b12e459ee4cc0d7021d8f8380ef7d595beba659c8573147cb",
+    "locator": "Sponsors",
+    "quote": "Sponsors Jovan Jackson primary Nadeem, Hanadi primary",
+    "source_kind": "secondary"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Stored events: approved by the Governor on 5 June 2025 and chaptered (chapter 283) on 6 June 2025 (tracker); the NASW-NV page announces the enactment and says AB406 'now establishes' its protections. The record's effective date of 1 July 2025 is not in a stored copy, but any effective date set by a bill signed in June 2025 and described as operating has passed by 14 October 2026, and nothing stored shows repeal. Status: In force.",
+  "scope_reasoning": "A state statute barring AI systems from providing mental or behavioural health care and limiting clinicians' and schools' use of AI: in scope, no scope_note.",
+  "changes": {
+   "official_identifier": "Chapter 283 is now in a stored copy (the tracker's action 'Chapter 283.' of 6 Jun 2025, for AB 406 of the 83rd session), so the hedge 'reported as' is dropped.",
+   "notes": "Signing and chaptering dates, floor votes and both sponsors restated from the stored action history; the hedge 'Reported as' is dropped for the signing date. The 1 Jul 2025 effective date and the NRS chapters are kept from the existing record and flagged in verification.note."
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "legal_force"
+  ],
+  "date_reasoning": "date_published 2025-06-05 is the Governor's approval in the stored action history."
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "Nevada State Executive Branch policy on the responsible and ethical use of artificial intelligence (draft)",
+   "url": "https://www.it.nv.gov/uploadedFiles/itnew.nv.gov/content/About(1)/Policy on the Responsible and Ethical Use of Artificial Intelligence in Nevada State Government Executive Branch(draft).pdf",
+   "note": "Governor Lombardo's AI policy for the executive branch, found in a search result; a state government AI-use framework that may be in scope."
+  }
+ ],
+ "open_questions": [
+  "date_in_force (2025-07-01) has no stored evidence; the enrolled bill (AB406_EN.pdf) failed to store.",
+  "issuing_body names Governor Joe Lombardo; the stored tracker says only 'Approved by the Governor'.",
+  "official_url is still null; the Legislature's NELIS overview (https://www.leg.state.nv.us/App/NELIS/REL/83rd2025/Bill/12575/Overview, named in the stored tracker) should become official_url once it can be stored."
+ ]
+}

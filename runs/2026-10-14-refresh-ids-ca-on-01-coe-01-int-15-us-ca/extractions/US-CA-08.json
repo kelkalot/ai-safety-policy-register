@@ -1,0 +1,150 @@
+{
+ "cand_id": "US-CA-08",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "US-CA-08",
+ "record": {
+  "summary": "SB 1119, 'Adam's Law', named after Adam Raine, expands California's child-safety rules for companion chatbots, building on SB 243. It requires age assurance, risk assessments before a new or substantially modified companion chatbot is released, in-app crisis referrals and notice to a parent of a credible threat of self-harm, parent-controlled default settings such as time limits, reasonable measures against harmful outputs such as self-harm, sexually explicit or emotionally manipulative content, an incident reporting mechanism overseen by the Attorney General, limits on targeted advertising to children, and independent compliance audits reported to the Attorney General.",
+  "notes": "Passed the Legislature on 31 Aug 2026 (Senate 39-0, Assembly 64-4) and signed 10 Sep 2026 (Padilla; Wicks; Bauer-Kahan) in a 13-bill child online-safety package that also included SB 867 (toys: companion chatbots), AB 1709 (covered platforms: age restriction) and SB 1276 (crimes: sexual exploitation of a child). It builds on SB 243 (2025), uses the age-bracket signal of AB 1043 (2025) and draws on provisions of AB 1064 (2025) on harmful outputs. It also gives families harmed by violations of its crisis-referral, parental-notice, default-protection and harmful-output provisions a private right of redress.",
+  "verification": {
+   "note": "The stored Governor's release of 10 Sep 2026 (copy of 14 Oct 2026; its text matches the 11 Oct copy) confirms the signing of SB 1119, its authors and its listed subject 'Companion chatbots: children's safety', and describes 'Adam's Law'. The stored release of Senator Padilla (31 Aug 2026, sd18.senate.ca.gov) names the bill 'Adam's Law (SB 1119)' and lists its requirements and the floor votes; it describes the version passed by the Legislature, which the Governor then signed. The leginfo.legislature.ca.gov pages for the bill and for Gov. Code sec. 9600 could not be stored, so the bill text, chapter number and effective date are unconfirmed. The record's second stored file (document-1.pdf) is EO N-12-23 of 2023, linked from the release, and is not a source for SB 1119."
+  },
+  "safety_topics": [
+   "child safety",
+   "evaluation & testing",
+   "accountability & liability",
+   "incident reporting"
+  ]
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/US-CA-08/2026-10-14/official.html",
+    "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071",
+    "locator": "list 'New legislation to keep kids safe online'",
+    "quote": "SB 1119 by Senator Steve Padilla (D-San Diego), Assemblymembers Buffy Wicks (D-Oakland) and Rebecca Bauer-Kahan (D-Orinda) – Companion chatbots: children's safety.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-CA-08/extra-f12ab82801/2026-10-14/official.html",
+    "sha256": "e3e83a2535fa5b73edbe100fd0a4122144b387b449360c04a73c264971a785ac",
+    "locator": "release body, first paragraph",
+    "quote": "Today, California lawmakers passed Adam's Law (SB 1119), a landmark bill that, if signed into law, will be the most comprehensive digital protections for children interacting with chatbots in the United States.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/US-CA-08/2026-10-14/official.html",
+    "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071",
+    "locator": "release date and headline",
+    "quote": "Sep 10, 2026 Governor Newsom signs the strongest child safety chatbot and social media laws in the nation",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/US-CA-08/2026-10-14/official.html",
+    "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071",
+    "locator": "release body, first paragraph",
+    "quote": "Today, Governor Gavin Newsom, joined by First Partner Jennifer Siebel Newsom, and legislators signed landmark bipartisan legislation strengthening California's nation-leading protections for children online",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-CA-08/2026-10-14/official.html",
+    "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071",
+    "locator": "release body",
+    "quote": "With the Governor's signature on these bills, California is taking the lead, with the strongest bills regulating chatbots and social media nationwide.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/US-CA-08/2026-10-14/official.html",
+    "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071",
+    "locator": "release body",
+    "quote": "With the Governor's signature on these bills, California is taking the lead",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-CA-08/2026-10-14/official.html",
+    "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071",
+    "locator": "list 'New legislation to keep kids safe online'",
+    "quote": "SB 1119 by Senator Steve Padilla (D-San Diego), Assemblymembers Buffy Wicks (D-Oakland) and Rebecca Bauer-Kahan (D-Orinda)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-CA-08/extra-f12ab82801/2026-10-14/official.html",
+    "sha256": "e3e83a2535fa5b73edbe100fd0a4122144b387b449360c04a73c264971a785ac",
+    "locator": "release body, final paragraph",
+    "quote": "Adam's Law passed the Senate with bipartisan support by a vote of 39 to 0 and the Assembly with bipartisan support by a vote of 64 to 4.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/US-CA-08/2026-10-14/official.html",
+    "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071",
+    "locator": "release body, first paragraph",
+    "quote": "The new laws strengthen safeguards for companion chatbots, prohibit social media platforms from offering addictive features to users under 16",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/US-CA-08/2026-10-14/official.html",
+    "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071",
+    "locator": "list 'New legislation to keep kids safe online'",
+    "quote": "SB 1119 by Senator Steve Padilla (D-San Diego)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-CA-08/extra-f12ab82801/2026-10-14/official.html",
+    "sha256": "e3e83a2535fa5b73edbe100fd0a4122144b387b449360c04a73c264971a785ac",
+    "locator": "release body, first paragraph",
+    "quote": "Today, California lawmakers passed Adam's Law (SB 1119)",
+    "source_kind": "alt-official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Events in the stored files: the Legislature passed SB 1119 on 31 Aug 2026 (Padilla release: 'the bill now heads to Governor Gavin Newsom's desk'), and the Governor signed it with the rest of the package on 10 Sep 2026 (release dated 'Sep 10, 2026'; 'With the Governor's signature on these bills'). Neither stored release contains an effective-date or urgency clause. Under California's general rule (Gov. Code sec. 9600; the leginfo page could not be stored), a non-urgency statute enacted in a regular session takes effect on 1 January after a 90-day period from enactment. For a bill enacted on 10 Sep 2026 that is 1 Jan 2027, after today (14 Oct 2026). Status stays 'Adopted, not yet in force'. date_in_force stays null because neither the chaptered text nor the rule could be stored; the chaptered text may also set later operative dates for individual duties.",
+  "scope_reasoning": "In scope without a scope note: an AI-specific state statute on the safety of companion chatbots for children.",
+  "changes": {
+   "summary": "Rewritten from the stored author release, which names the bill 'Adam's Law (SB 1119)' and lists its requirements. This replaces the earlier source-attributed wording ('The Governor's release describes...').",
+   "safety_topics": "Added 'incident reporting': the bill requires 'an incident reporting mechanism, overseen by the Attorney General' (Padilla release).",
+   "notes": "Added the 31 Aug 2026 passage and votes, the bill's links to SB 243, AB 1043 and AB 1064, and the private right of redress. Package bills are given by their listed titles. Removed the remarks on the 'Adam's Law' mapping and the unconfirmed effective date (now settled or in verification.note).",
+   "verification": "New note for this refresh."
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force",
+   "official_identifier"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "California SB 867 (2026): Toys: companion chatbots",
+   "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+   "seen_in": "archive/US-CA-08/2026-10-14/official.html",
+   "why": "Signed 10 Sep 2026 in the same package. It regulates companion chatbots in toys, an AI child-safety measure, and is named only in the notes of US-CA-06 and US-CA-08, without its own record."
+  },
+  {
+   "title": "California Executive Order N-12-23 (6 Sep 2023) on generative AI",
+   "url": "https://www.gov.ca.gov/wp-content/uploads/2023/09/AI-EO-No.12-_-GGN-Signed.pdf",
+   "seen_in": "archive/US-CA-08/2026-10-14/document-1.pdf",
+   "why": "Governor's order directing state agencies to assess generative AI risks and set guardrails for state use. It is already stored as a linked document here, and the register has no record of it."
+  }
+ ],
+ "open_questions": [
+  "date_in_force: no stored file gives an effective date. The leginfo pages for SB 1119 and Gov. Code sec. 9600 were requested and could not be stored. 1 Jan 2027 is the expected default for a non-urgency statute enacted in Sep 2026, but the field stays null; the status holds until then either way.",
+  "official_identifier is kept as it is. 'Senate Bill 1119' is supported; '(2025-2026 Regular Session)' is not in a stored file, and the chapter number is unknown without leginfo.",
+  "The requirements in the summary come from the author's release on the version passed by the Legislature on 31 Aug 2026. The Governor's release confirms that version was signed, but no stored file has the chaptered text.",
+  "The record's second stored file, document-1.pdf, is EO N-12-23 (2023), followed by the archiver from a link in the release. It is not a source for SB 1119."
+ ]
+}

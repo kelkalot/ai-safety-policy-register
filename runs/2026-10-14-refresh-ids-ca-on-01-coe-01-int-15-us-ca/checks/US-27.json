@@ -1,0 +1,61 @@
+{
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Presidency Project heading and subtitle match."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Dated 29 September 2026; Obernolte/Trahan statement of 1 Oct calls it signed 'on Tuesday' (29 Sep 2026 was a Tuesday)."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Voluntary accord, signed and published; no later change found."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "Text says codification into law 'may make sense' over time, so it is not binding law."
+  },
+  "issuing_body": {
+   "verdict": "judgment-differs",
+   "why": "Signature block reads 'Google' and 'XAI'; 'Alphabet/Google' and 'xAI' are acceptable renderings. Signatories otherwise match."
+  },
+  "summary": {
+   "verdict": "supported",
+   "why": "Unchanged by the extraction and supported by the accord text."
+  },
+  "notes": {
+   "verdict": "unsupported",
+   "why": "The roundtable, 'alongside EO 14434', the 'morally binding' remark and the comparison to the July 2023 commitments are not in any stored text (the extractor says so). Signatories and the codification sentence are supported. The statement that the FRONTIER Act sponsors 'want it codified' goes a little beyond their statement, which says the bill 'would build on this foundation and make it durable'."
+  },
+  "verification.note": {
+   "verdict": "supported",
+   "why": "Accurately describes the stored copies and the gaps; CAUTION present. Process language belongs here."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Four layers: internal monitoring (cyber, bio, chemical; models not hacking or accessing systems), internal team, independent external auditor or evaluator, independent board committee",
+   "verdict": "supported",
+   "locator": "Accord text items (1)-(4)"
+  },
+  {
+   "claim": "Signatories will meet regularly to develop safety standards",
+   "verdict": "supported",
+   "locator": "'The participating companies will meet regularly to establish standards and best practices'"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Company commitments brokered and published by a government are in with a scope_note under AGENTS.md section 10; no scope_note is currently set, so one should be added."
+ },
+ "overall": "needs-human",
+ "note": "Title, date, status and the summary are supported by the American Presidency Project copy of the accord and the Obernolte/Trahan statement (level C, no whitehouse.gov copy; a targeted search again found none). Notes carry claims from press reports that are not stored (roundtable, EO 14434 link, 'morally binding' remark). The blind extraction agrees on every compared field; it also carries the EO 14434 claim unstored. Record needs a scope_note for a government-brokered company commitment.",
+ "cand_id": "US-27",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14"
+}

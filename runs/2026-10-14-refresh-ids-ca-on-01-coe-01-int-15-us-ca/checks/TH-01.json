@@ -1,0 +1,80 @@
+{
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Tilleke names the 'draft Act on Artificial Intelligence'; the Thai PBS quote gives the Thai title with 'พ.ศ. ....'."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "Thai PBS quote contains the Thai title."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Tilleke says ETDA released the draft and comments go to MDES; Thai PBS names MDES and ETDA."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Tilleke: released 2 July 2026; partial date 2026-07 is consistent (Rajah & Tann date of 9 July is not stored)."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Draft still in public-hearing/post-hearing stage; Thai PBS of 1 Aug 2026 says Council of State, Cabinet and House steps come next. Targeted search found no Cabinet approval or submission as of mid-October 2026."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "'If enacted' shows a draft."
+  },
+  "summary": {
+   "verdict": "unsupported",
+   "why": "The clause 'after the June 2025 Draft Principles of the Law on Artificial Intelligence' is not in any stored source (the ETDA page is not stored in this run). Other claims are supported."
+  },
+  "notes": {
+   "verdict": "contradicted",
+   "why": "Notes say Thai PBS reported on 1 August 2026 that the hearing had concluded; the article only says what happens 'after the hearing process' (หลังผ่านกระบวนการรับฟังความคิดเห็น) and the notes' own other source gives a closing date of 14 August. Also unstored: Rajah & Tann dates, law.go.th hosting, June 2025 consultation details, ONDE predecessor drafts."
+  },
+  "verification.note": {
+   "verdict": "supported",
+   "why": "Describes the stored sources accurately and states the gaps; CAUTION present."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Foreign providers must appoint a local representative; applies to AI affecting people in Thailand wherever operated",
+   "verdict": "supported",
+   "locator": "Tilleke, Scope and Extraterritorial Application"
+  },
+  {
+   "claim": "Fines of THB 1-5 million",
+   "verdict": "supported",
+   "locator": "Tilleke, Enforcement and Penalties: 'Administrative fines range from THB 1 million to THB 5 million'"
+  },
+  {
+   "claim": "Three tiers: prohibited, high-risk by royal decree, notification/registration/licensing",
+   "verdict": "supported",
+   "locator": "Tilleke, Risk-Based Classification Framework"
+  },
+  {
+   "claim": "Deployers keep logs, assign oversight staff, report unforeseen risks",
+   "verdict": "supported",
+   "locator": "Tilleke, Obligations for High-Risk AI System Providers and Deployers"
+  },
+  {
+   "claim": "Released by ETDA for public hearing in July 2026 after the June 2025 'Draft Principles of the Law on Artificial Intelligence'",
+   "verdict": "unsupported",
+   "locator": "July 2026 release is in Tilleke; the June 2025 predecessor is in no stored text"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Draft national AI statute."
+ },
+ "overall": "needs-human",
+ "note": "The extraction only changes verification.note, which is accurate. The record as it stands has two problems that predate this run but are not covered by stored sources: the summary's June 2025 predecessor clause is unsupported, and notes misstate the Thai PBS article (hearing described as concluded on 1 August) and rely on unstored sources (Rajah & Tann, ETDA 2025 page, law.go.th, ONDE). Level stays C. A targeted search found no Cabinet approval or newer draft.",
+ "cand_id": "TH-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-14"
+}

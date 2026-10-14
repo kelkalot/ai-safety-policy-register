@@ -1,0 +1,43 @@
+{
+ "cand_id": "COE-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "needs-human",
+ "target_id": "COE-01",
+ "record": {
+  "verification": {
+   "note": "No Council of Europe page could be stored: www.coe.int and rm.coe.int returned HTTP 403 to the archiver, including the browser retry. Three EU documents were stored on 14 Oct 2026. Council document 9718/25 ADD 1 (annex to COM(2025) 265) reproduces the Convention text, with the title, 'Vilnius, 5.IX.2024', Article 30 and the closing formula. Council Decision (EU) 2024/2218 records the adoption by the CoE Committee of Ministers (17 May 2024) and authorises the EU signature. Council Decision (EU) 2026/1080 of 21 Apr 2026 approves the Convention for the EU. None of them shows the identifier CETS No. 225 or which other signatories have ratified, so the in-force status on 14 Oct 2026 is unconfirmed."
+  }
+ },
+ "evidence": {
+  "title": [
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/COE-01/extra-a0575144ba/2026-10-14/official.pdf", "sha256": "dd9c380d20ac68ba552318479fdbefd5ab4204bf2459d82cbd68a9973f0241bd", "locator": "page 3, Annex I heading", "quote": "TEXT OF THE COUNCIL OF EUROPE FRAMEWORK CONVENTION ON ARTIFICIAL INTELLIGENCE AND HUMAN RIGHTS, DEMOCRACY AND THE RULE OF LAW", "source_kind": "alt-official"}
+  ],
+  "date_published": [
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/COE-01/extra-a0575144ba/2026-10-14/official.pdf", "sha256": "dd9c380d20ac68ba552318479fdbefd5ab4204bf2459d82cbd68a9973f0241bd", "locator": "page 14, closing formula", "quote": "Done in Vilnius, this 5th day of September 2024, in English and in French, both texts being equally authentic", "source_kind": "alt-official"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/COE-01/extra-cf294e88f5/2026-10-14/official-rendered.html", "sha256": "f8a6e8192aff5049fcf599ec83344716471c19fc13bb2ccc677329f063230d6e", "locator": "Decision (EU) 2026/1080, recital (1)", "quote": "was signed on 5 September 2024 on behalf of the European Union, subject to its conclusion at a later date", "source_kind": "alt-official"}
+  ],
+  "status": [
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/COE-01/extra-22d023436d/2026-10-14/official-rendered.html", "sha256": "51c02e6a4691ae7f1c6d38319c3c55f86299fd77df78d93a9b18fa93fbff5d09", "locator": "Decision (EU) 2024/2218, recital (1)", "quote": "On 17 May 2024, the negotiations were successfully concluded with the initialling of the Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law ('the Convention') and its adoption by the Council of Europe Committee of Ministers.", "source_kind": "alt-official"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/COE-01/extra-a0575144ba/2026-10-14/official.pdf", "sha256": "dd9c380d20ac68ba552318479fdbefd5ab4204bf2459d82cbd68a9973f0241bd", "locator": "page 12, Article 30 (3): the entry-into-force rule", "quote": "after the date on which five signatories, including at least three member States of the Council of Europe, have expressed their consent to be bound by this Convention in accordance with paragraph 2.", "source_kind": "alt-official"},
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/COE-01/extra-cf294e88f5/2026-10-14/official-rendered.html", "sha256": "f8a6e8192aff5049fcf599ec83344716471c19fc13bb2ccc677329f063230d6e", "locator": "Decision (EU) 2026/1080, Article 1", "quote": "The Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (the 'Convention') is hereby approved on behalf of the European Union (10).", "source_kind": "alt-official"}
+  ],
+  "issuing_body": [
+   {"file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/COE-01/extra-22d023436d/2026-10-14/official-rendered.html", "sha256": "51c02e6a4691ae7f1c6d38319c3c55f86299fd77df78d93a9b18fa93fbff5d09", "locator": "Decision (EU) 2024/2218, recital (1)", "quote": "and its adoption by the Council of Europe Committee of Ministers", "source_kind": "alt-official"}
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Supported by the stored EU documents: the Convention was adopted by the CoE Committee of Ministers on 17 May 2024 (Decision 2024/2218) and opened for signature in Vilnius on 5 Sep 2024 (Convention text). The EU approved it on 21 Apr 2026 (Decision 2026/1080, Art. 1). Article 30(3) brings it into force on the first day of the month after three months from the fifth consent to be bound, with at least three CoE member States among the five. So the Convention would be in force on 14 Oct 2026 only if five qualifying consents had been given by 30 Jun 2026. Not supported: the stored EU documents record only the EU's own approval. Ratifications by other signatories are recorded by the CoE Treaty Office, whose pages could not be stored. 'Adopted, not yet in force' is consistent with the evidence but not established for today. Under the coordinator's rule for COE-01 this is needs-human: title and date are supported (alt-official), the current status is not.",
+  "scope_reasoning": null,
+  "changes": {},
+  "confirmed": ["title", "date_published", "issuing_body"]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "needs-human: the stored EU documents (Council 9718/25 ADD 1, Decisions (EU) 2024/2218 and 2026/1080) support the Convention's title, the date of 5 Sep 2024, its adoption by the Committee of Ministers on 17 May 2024, the Article 30 entry-into-force rule and the EU's approval of 21 Apr 2026. They cannot show whether five signatories, at least three of them CoE member States, had ratified by 30 Jun 2026, which is what entry into force on or before 14 Oct 2026 would require. Every CoE source (www.coe.int, rm.coe.int, the record's own URLs) returned HTTP 403. A human should check the CoE Treaty Office chart of signatures and ratifications for the treaty and confirm or change status and date_in_force.",
+  "official_identifier 'CETS No. 225' is not in any stored file; it rests on the 11 Oct 2026 pass.",
+  "date_last_updated is 2026-05-15, the EU ratification date. Under AGENTS.md 5.6 the field is for the last amendment or new version, and one Party's ratification is neither, so it should probably become null, with the ratification kept in the notes. The stored Decision 2026/1080 dates the EU's approval 21 Apr 2026 (published in OJ L 13 May 2026); the 15 May 2026 deposit in the notes is not in any stored file.",
+  "If the human confirms the status, the three EU documents can serve as the record's alt-official evidence (level B). Level A needs a stored CoE page."
+ ]
+}

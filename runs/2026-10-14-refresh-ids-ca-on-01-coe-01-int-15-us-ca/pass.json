@@ -1,0 +1,438 @@
+{
+ "provenance": {
+  "date": "2026-10-14",
+  "agent": "Claude Code",
+  "model": "claude-opus-5-5",
+  "scope": "pipeline run 2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca (refresh: ids:CA-ON-01,COE-01,INT-15,US-CA-07,US-CA-08,CN-06,PY-01,TH-01,US-27,US-ID-01,US-IL-01,US-NV-01,US-RI-01,VN-07)",
+  "run_id": "2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
+  "stages": {
+   "collect": {
+    "tool": null,
+    "model": null,
+    "date": null
+   },
+   "extract": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-14"
+   },
+   "blind": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-14"
+   },
+   "check": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5",
+    "date": "2026-10-14"
+   }
+  }
+ },
+ "records": [],
+ "updates": [
+  {
+   "status": "In force",
+   "date_in_force": "2025-01-29",
+   "notes": "Royal Assent received on 25 November 2024 (S.O. 2024, c. 24). Order in Council 361/2025 of 28 January 2025 named 29 January 2025 as the day Schedule 1, ss. 1-16, the Enhancing Digital Security and Trust Act, 2024, came into force; it also brought provisions of Schedule 2 (amendments to the Freedom of Information and Protection of Privacy Act) into force on 29 January and 1 July 2025. The AI duties in ss. 5 and 6 apply only to public sector entities and circumstances prescribed by regulation. As of the e-Laws currency date of 9 October 2026 the Act has no amendments, and the only regulations under it are O. Reg. 51/26 (cyber security) and O. Reg. 52/26 (digital technology affecting individuals under 18), in effect from 1 July 2026; no regulation yet prescribes entities or circumstances for the AI duties. Section 12 provides that the Act establishes no private law duty of care.",
+   "id": "CA-ON-01",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-14",
+    "method": "official-url-fetched",
+    "note": "The stored OLA bill page and Royal Assent PDF confirm the title, Royal Assent on 25 Nov 2024 as S.O. 2024, c. 24, the AI provisions in Schedule 1, ss. 5-8, and commencement by proclamation (s. 17). Three stored Government of Ontario pages (ontario.ca, 14 Oct 2026) settle the status. Order in Council 361/2025 names 29 Jan 2025 for Schedule 1, ss. 1-16. The e-Laws consolidation (browser-rendered copy and print PDF) shows the current version from 29 Jan 2025 to its currency date of 9 Oct 2026, 'No amendments', and O. Reg. 51/26 and 52/26 as the only regulations. The ontario.ca EDSTA page (updated 7 May 2026) says those regulations take effect on 1 Jul 2026. The plain http copy of e-Laws is an empty JavaScript shell. ontario.ca is not yet in CA-ON known_hosts, so the evidence script counts its quotes as secondary.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 9 field(s) supported."
+   }
+  },
+  {
+   "date_last_updated": null,
+   "notes": "Both signed 9 Sep 2026. EO N-9-26 of 18 Sep 2026 (US-CA-09) orders the Government Operations Agency to complete the requirements of Gov. Code sec. 8898.1 and post application requirements, procedures and criteria for independent verification organizations by 1 May 2027, and to complete the requirements of Gov. Code sec. 11549.82(a) by 1 Dec 2027. Combined into one record because they were enacted together as a single verification and audit framework.",
+   "official_identifier": "California Senate Bill 813 and Assembly Bill 1405; Government Code secs. 8898.1 and 11549.82",
+   "id": "US-CA-07",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-14",
+    "method": "official-url-fetched",
+    "note": "The stored Governor's release of 9 Sep 2026 (copy of 14 Oct 2026; its text matches the 11 Oct copy) confirms the signing of SB 813 and AB 1405, their authors and their purposes. The stored EO N-9-26 PDF (18 Sep 2026) confirms the implementation deadlines and the Government Code sections; the archiver stored it as a secondary source. Neither file gives chapter numbers, the statutory text or an effective date. The leginfo.legislature.ca.gov pages for both bills and for Gov. Code sec. 9600 could not be stored, so the effective date, the chapter numbers and the session label in official_identifier are unconfirmed.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 8 field(s) supported, fixes applied to official_identifier."
+   }
+  },
+  {
+   "summary": "SB 1119, 'Adam's Law', named after Adam Raine, expands California's child-safety rules for companion chatbots, building on SB 243. It requires age assurance, risk assessments before a new or substantially modified companion chatbot is released, in-app crisis referrals and notice to a parent of a credible threat of self-harm, parent-controlled default settings such as time limits, reasonable measures against harmful outputs such as self-harm, sexually explicit or emotionally manipulative content, an incident reporting mechanism overseen by the Attorney General, limits on targeted advertising to children, and independent compliance audits reported to the Attorney General.",
+   "notes": "Passed the Legislature on 31 Aug 2026 (Senate 39-0, Assembly 64-4) and signed 10 Sep 2026 (Padilla; Wicks; Bauer-Kahan) in a 13-bill child online-safety package that also included SB 867 (toys: companion chatbots), AB 1709 (covered platforms: age restriction) and SB 1276 (crimes: sexual exploitation of a child). It builds on SB 243 (2025), uses the age-bracket signal of AB 1043 (2025) and draws on provisions of AB 1064 (2025) on harmful outputs. It also gives families harmed by violations of its crisis-referral, parental-notice, default-protection and harmful-output provisions a private right of redress.",
+   "safety_topics": [
+    "child safety",
+    "evaluation & testing",
+    "accountability & liability",
+    "incident reporting"
+   ],
+   "id": "US-CA-08",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-14",
+    "method": "official-url-fetched",
+    "note": "The stored Governor's release of 10 Sep 2026 (copy of 14 Oct 2026; its text matches the 11 Oct copy) confirms the signing of SB 1119, its authors and its listed subject 'Companion chatbots: children's safety', and describes 'Adam's Law'. The stored release of Senator Padilla (31 Aug 2026, sd18.senate.ca.gov) names the bill 'Adam's Law (SB 1119)' and lists its requirements and the floor votes; it describes the version passed by the Legislature, which the Governor then signed. The leginfo.legislature.ca.gov pages for the bill and for Gov. Code sec. 9600 could not be stored, so the bill text, chapter number and effective date are unconfirmed. The record's second stored file (document-1.pdf) is EO N-12-23 of 2023, linked from the release, and is not a source for SB 1119.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 10 field(s) supported."
+   }
+  },
+  {
+   "notes": "Signed by the Governor on 22 Jun 2026 and effective 1 Jan 2027. The Senate passed Substitute A as amended on 21 May 2026 and the House passed it in concurrence on 8 Jun 2026; the House companion bill is H 7350. Enacted alongside two Rhode Island health-care AI laws of June 2026: S 2570 (notification when AI documents clinical visits) and S 2197 (Oversight of Artificial Intelligence Technology in Mental Health Care Act, barring AI from making independent therapeutic decisions), which are not recorded separately.",
+   "id": "US-RI-01",
+   "verification": {
+    "level": "C",
+    "verified_on": "2026-10-14",
+    "method": "search-confirmed",
+    "note": "CAUTION: no official copy is stored. The stored sources are the Nixon Peabody client alert of 20 July 2026 (archive/US-RI-01/2026-10-12/secondary.html), which confirms the Act's name, S 2195, signature by Governor McKee in June 2026, the 1 January 2027 effective date and the provisions in the summary, and the FastDemocracy tracker page for S 2195 (archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-RI-01/extra-8f6f90705c/), which reproduces the Legislature's actions (Senate passage of Sub A as amended on 21 May 2026, House passage in concurrence on 8 June 2026, signed by the Governor on 22 June 2026). Both are secondary. The bill texts on webserver.rilegislature.gov and the General Assembly's press release could not be stored (connections refused), and no Governor or Attorney General page on the Act was found, so the effective date rests on the law-firm alert alone.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 9 field(s) supported, fixes applied to notes."
+   }
+  }
+ ],
+ "history_context": {
+  "CA-ON-01": {
+   "reason": "pipeline run 2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca (refresh), candidate CA-ON-01",
+   "fields": {
+    "status": {
+     "reason": "Schedule 1, ss. 1-16 came into force on 29 Jan 2025 under Order in Council 361/2025, as the e-Laws consolidation confirms.",
+     "evidence": [
+      {
+       "field": "status",
+       "file": "archive/CA-ON-01/2026-10-11/document-2.pdf",
+       "sha256": "2f0f21cb8bd340b3bc6700dd422a8ce41c31cd54d8dd4d008aa1a08cde1ead0b",
+       "locator": "page 10, Schedule 1, s. 17 (Commencement): the rule",
+       "quote": "17 The Act set out in this Schedule comes into force on a day to be named by proclamation of the Lieutenant Governor."
+      }
+     ]
+    },
+    "date_in_force": {
+     "reason": "29 Jan 2025, the day named in Order in Council 361/2025.",
+     "evidence": [
+      {
+       "field": "date_in_force",
+       "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/CA-ON-01/extra-04be1c45e1/2026-10-14/official.html",
+       "sha256": "b45ca0101befe4314e0caaac09d334e99e762172d82a4de83eeaadb6b96b50cb",
+       "locator": "Order in Council 361/2025, first order",
+       "quote": "January 29, 2025 is named as the day on which the following provisions of the Strengthening Cyber Security and Building Trust in the Public Sector Act, 2024, c. 24, being the Enhancing Digital Security and Trust Act, 2024, come into force: Schedule 1, s. 1-16."
+      }
+     ]
+    },
+    "notes": {
+     "reason": "Added the commencement order and the regulations made so far (none for AI). Removed the earlier remark about e-Laws and the unconfirmed status, which is now settled.",
+     "evidence": []
+    }
+   },
+   "confirmed": [
+    "title",
+    "date_published",
+    "official_identifier",
+    "issuing_body",
+    "legal_force"
+   ],
+   "evidence": [
+    {
+     "field": "title",
+     "file": "archive/CA-ON-01/2026-10-11/official.html",
+     "sha256": "1cd5fa2d20165445afed84f8359223c53c1c06ada83dd4b3c3aa68dc865a83fe",
+     "locator": "page heading",
+     "quote": "Bill 194, Strengthening Cyber Security and Building Trust in the Public Sector Act, 2024"
+    },
+    {
+     "field": "date_published",
+     "file": "archive/CA-ON-01/2026-10-11/document-2.pdf",
+     "sha256": "2f0f21cb8bd340b3bc6700dd422a8ce41c31cd54d8dd4d008aa1a08cde1ead0b",
+     "locator": "page 1",
+     "quote": "Royal Assent November 25, 2024"
+    },
+    {
+     "field": "official_identifier",
+     "file": "archive/CA-ON-01/2026-10-11/official.html",
+     "sha256": "1cd5fa2d20165445afed84f8359223c53c1c06ada83dd4b3c3aa68dc865a83fe",
+     "locator": "Royal Assent version, Explanatory Note",
+     "quote": "Bill 194 has been enacted as Chapter 24 of the Statutes of Ontario, 2024."
+    },
+    {
+     "field": "issuing_body",
+     "file": "archive/CA-ON-01/2026-10-11/official.html",
+     "sha256": "1cd5fa2d20165445afed84f8359223c53c1c06ada83dd4b3c3aa68dc865a83fe",
+     "locator": "Royal Assent version, Preamble",
+     "quote": "His Majesty, by and with the advice and consent of the Legislative Assembly of the Province of Ontario, enacts as follows"
+    },
+    {
+     "field": "legal_force",
+     "file": "archive/CA-ON-01/2026-10-11/document-2.pdf",
+     "sha256": "2f0f21cb8bd340b3bc6700dd422a8ce41c31cd54d8dd4d008aa1a08cde1ead0b",
+     "locator": "page 8, Schedule 1, s. 5 (4)",
+     "quote": "A public sector entity to which this section applies shall take such steps as may be prescribed to manage risks associated with the use of the artificial intelligence system."
+    }
+   ],
+   "cand_id": "CA-ON-01"
+  },
+  "US-CA-07": {
+   "reason": "pipeline run 2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca (refresh), candidate US-CA-07",
+   "fields": {
+    "date_last_updated": {
+     "reason": "2026-09-18 is the date of EO N-9-26, a separate implementing order recorded as US-CA-09, not an amendment or new version of SB 813 or AB 1405. AGENTS.md 5.6 keeps the field for amendments and new versions; the EO stays in the notes.",
+     "evidence": []
+    },
+    "notes": {
+     "reason": "Removed the remark that the effective dates were unconfirmed (it now sits in verification.note), and with it the default-rule date, which no stored file supports. EO N-9-26 deadlines kept and linked to US-CA-09.",
+     "evidence": []
+    },
+    "official_identifier": {
+     "reason": null,
+     "evidence": [
+      {
+       "field": "official_identifier",
+       "file": "archive/US-CA-07/2026-10-14/official.html",
+       "sha256": "6fdce3db5217999b1b51069ec3a2371ad1e3c2cee013f8095dda5811444f01b6",
+       "locator": "release body, first paragraph",
+       "quote": "Governor Gavin Newsom today signed legislation (Senate Bill 813 and Assembly Bill 1405)"
+      }
+     ]
+    }
+   },
+   "confirmed": [
+    "title",
+    "date_published",
+    "status",
+    "issuing_body",
+    "legal_force",
+    "official_identifier"
+   ],
+   "evidence": [
+    {
+     "field": "title",
+     "file": "archive/US-CA-07/2026-10-14/official.html",
+     "sha256": "6fdce3db5217999b1b51069ec3a2371ad1e3c2cee013f8095dda5811444f01b6",
+     "locator": "release body, third paragraph",
+     "quote": "The Governor signed Senate Bill 813, authored by Senator Jerry McNerney (D – Pleasanton), which establishes a first-in-the-nation framework for independent verification organizations"
+    },
+    {
+     "field": "date_published",
+     "file": "archive/US-CA-07/2026-10-14/official.html",
+     "sha256": "6fdce3db5217999b1b51069ec3a2371ad1e3c2cee013f8095dda5811444f01b6",
+     "locator": "release date and headline",
+     "quote": "Sep 9, 2026 Governor Newsom signs first-in-the-nation AI safeguards to protect Californians, calls on the federal government to do its part"
+    },
+    {
+     "field": "status",
+     "file": "archive/US-CA-07/2026-10-14/official.html",
+     "sha256": "6fdce3db5217999b1b51069ec3a2371ad1e3c2cee013f8095dda5811444f01b6",
+     "locator": "release body, first paragraph",
+     "quote": "Governor Gavin Newsom today signed legislation (Senate Bill 813 and Assembly Bill 1405)"
+    },
+    {
+     "field": "issuing_body",
+     "file": "archive/US-CA-07/2026-10-14/official.html",
+     "sha256": "6fdce3db5217999b1b51069ec3a2371ad1e3c2cee013f8095dda5811444f01b6",
+     "locator": "release body, first paragraph",
+     "quote": "Governor Gavin Newsom today signed legislation (Senate Bill 813 and Assembly Bill 1405)"
+    },
+    {
+     "field": "legal_force",
+     "file": "archive/US-CA-07/2026-10-11/secondary.pdf",
+     "sha256": "ea398613db19dd4e6479a04a93753d8efbcbfc91e5ecb8a42786721553da3fc5",
+     "locator": "page 2, para. 1",
+     "quote": "develop application requirements, procedures, and criteria for independent verification organizations and publicly post them, as required by law."
+    },
+    {
+     "field": "official_identifier",
+     "file": "archive/US-CA-07/2026-10-14/official.html",
+     "sha256": "6fdce3db5217999b1b51069ec3a2371ad1e3c2cee013f8095dda5811444f01b6",
+     "locator": "release body, first paragraph",
+     "quote": "Governor Gavin Newsom today signed legislation (Senate Bill 813 and Assembly Bill 1405)"
+    }
+   ],
+   "cand_id": "US-CA-07"
+  },
+  "US-CA-08": {
+   "reason": "pipeline run 2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca (refresh), candidate US-CA-08",
+   "fields": {
+    "summary": {
+     "reason": "Rewritten from the stored author release, which names the bill 'Adam's Law (SB 1119)' and lists its requirements. This replaces the earlier source-attributed wording ('The Governor's release describes...').",
+     "evidence": []
+    },
+    "notes": {
+     "reason": "Added the 31 Aug 2026 passage and votes, the bill's links to SB 243, AB 1043 and AB 1064, and the private right of redress. Package bills are given by their listed titles. Removed the remarks on the 'Adam's Law' mapping and the unconfirmed effective date (now settled or in verification.note).",
+     "evidence": []
+    },
+    "safety_topics": {
+     "reason": "Added 'incident reporting': the bill requires 'an incident reporting mechanism, overseen by the Attorney General' (Padilla release).",
+     "evidence": []
+    }
+   },
+   "confirmed": [
+    "title",
+    "date_published",
+    "status",
+    "issuing_body",
+    "legal_force",
+    "official_identifier"
+   ],
+   "evidence": [
+    {
+     "field": "title",
+     "file": "archive/US-CA-08/2026-10-14/official.html",
+     "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071",
+     "locator": "list 'New legislation to keep kids safe online'",
+     "quote": "SB 1119 by Senator Steve Padilla (D-San Diego), Assemblymembers Buffy Wicks (D-Oakland) and Rebecca Bauer-Kahan (D-Orinda) – Companion chatbots: children's safety."
+    },
+    {
+     "field": "date_published",
+     "file": "archive/US-CA-08/2026-10-14/official.html",
+     "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071",
+     "locator": "release date and headline",
+     "quote": "Sep 10, 2026 Governor Newsom signs the strongest child safety chatbot and social media laws in the nation"
+    },
+    {
+     "field": "status",
+     "file": "archive/US-CA-08/2026-10-14/official.html",
+     "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071",
+     "locator": "release body, first paragraph",
+     "quote": "Today, Governor Gavin Newsom, joined by First Partner Jennifer Siebel Newsom, and legislators signed landmark bipartisan legislation strengthening California's nation-leading protections for children online"
+    },
+    {
+     "field": "issuing_body",
+     "file": "archive/US-CA-08/2026-10-14/official.html",
+     "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071",
+     "locator": "release body",
+     "quote": "With the Governor's signature on these bills, California is taking the lead"
+    },
+    {
+     "field": "legal_force",
+     "file": "archive/US-CA-08/2026-10-14/official.html",
+     "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071",
+     "locator": "release body, first paragraph",
+     "quote": "The new laws strengthen safeguards for companion chatbots, prohibit social media platforms from offering addictive features to users under 16"
+    },
+    {
+     "field": "official_identifier",
+     "file": "archive/US-CA-08/2026-10-14/official.html",
+     "sha256": "524399c03135723159ab3612ccd0c5609675d052ebc2780ede9bbda1367bf071",
+     "locator": "list 'New legislation to keep kids safe online'",
+     "quote": "SB 1119 by Senator Steve Padilla (D-San Diego)"
+    }
+   ],
+   "cand_id": "US-CA-08"
+  },
+  "US-RI-01": {
+   "reason": "pipeline run 2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca (refresh), candidate US-RI-01",
+   "fields": {
+    "notes": {
+     "reason": "The signing date is now in a stored copy (tracker action '06/22/2026 Signed by Governor'), so 'Reported signed' loses its hedge; added the Senate and House passage dates and the companion bill from the stored action history.",
+     "evidence": [
+      {
+       "field": "notes",
+       "file": "archive/US-RI-01/2026-10-12/secondary.html",
+       "sha256": "ac1542d23a324e37b0ae35323b0001694af07d336f1220a1f2d6275c0204362e",
+       "locator": "list of the three acts",
+       "quote": "The Use of Artificial Intelligence by Healthcare Providers Notification Act (S 2570) (effective June 22, 2026)"
+      }
+     ]
+    }
+   },
+   "confirmed": [
+    "title",
+    "issuing_body",
+    "date_published",
+    "date_in_force",
+    "status",
+    "legal_force"
+   ],
+   "evidence": [
+    {
+     "field": "title",
+     "file": "archive/US-RI-01/2026-10-12/secondary.html",
+     "sha256": "ac1542d23a324e37b0ae35323b0001694af07d336f1220a1f2d6275c0204362e",
+     "locator": "list of the three acts, after the authors",
+     "quote": "The Regulatory Provisions—Artificial Intelligence Companion Models Act (S 2195) (effective January 1, 2027)"
+    },
+    {
+     "field": "issuing_body",
+     "file": "archive/US-RI-01/2026-10-12/secondary.html",
+     "sha256": "ac1542d23a324e37b0ae35323b0001694af07d336f1220a1f2d6275c0204362e",
+     "locator": "first paragraph after the authors",
+     "quote": "In June 2026, Governor Daniel McKee signed three new artificial intelligence (AI) healthcare bills into law."
+    },
+    {
+     "field": "date_published",
+     "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-RI-01/extra-8f6f90705c/2026-10-14/official.html",
+     "sha256": "3b7a73819d0dc7dbfd3ea3adc0f055f2741f82a97a52112098c939864e65e408",
+     "locator": "Actions, 22 Jun 2026",
+     "quote": "Jun 22, 2026 | executive 06/22/2026 Signed by Governor"
+    },
+    {
+     "field": "date_in_force",
+     "file": "archive/US-RI-01/2026-10-12/secondary.html",
+     "sha256": "ac1542d23a324e37b0ae35323b0001694af07d336f1220a1f2d6275c0204362e",
+     "locator": "list of the three acts, after the authors",
+     "quote": "The Regulatory Provisions—Artificial Intelligence Companion Models Act (S 2195) (effective January 1, 2027)"
+    },
+    {
+     "field": "status",
+     "file": "archive/_runs/2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca/US-RI-01/extra-8f6f90705c/2026-10-14/official.html",
+     "sha256": "3b7a73819d0dc7dbfd3ea3adc0f055f2741f82a97a52112098c939864e65e408",
+     "locator": "Actions, 22 Jun 2026",
+     "quote": "Jun 22, 2026 | executive 06/22/2026 Signed by Governor"
+    },
+    {
+     "field": "legal_force",
+     "file": "archive/US-RI-01/2026-10-12/secondary.html",
+     "sha256": "ac1542d23a324e37b0ae35323b0001694af07d336f1220a1f2d6275c0204362e",
+     "locator": "first paragraph after the authors",
+     "quote": "In June 2026, Governor Daniel McKee signed three new artificial intelligence (AI) healthcare bills into law."
+    }
+   ],
+   "cand_id": "US-RI-01"
+  }
+ },
+ "assigned": {
+  "CA-ON-01": "CA-ON-01",
+  "US-CA-07": "US-CA-07",
+  "US-CA-08": "US-CA-08",
+  "US-RI-01": "US-RI-01"
+ },
+ "not_added": [],
+ "needs_human": [
+  {
+   "cand_id": "COE-01",
+   "why": "extractor: needs-human: the stored EU documents (Council 9718/25 ADD 1, Decisions (EU) 2024/2218 and 2026/1080) support the Convention's title, the date of 5 Sep 2024, its adoption by the Committee of Ministers on 17 May 2024, the Article 30 entry-into-force rule and the EU's approval of 21 Apr 2026. They cannot show whether five signatories, at least three of them CoE member States, had ratified by 30 Jun 2026, which is what entry into force on or before 14 Oct 2026 would require. Every CoE source (www.coe.int, rm.coe.int, the record's own URLs) returned HTTP 403. A human should check the CoE Treaty Office chart of signatures and ratifications for the treaty and confirm or change status and date_in_force.; official_identifier 'CETS No. 225' is not in any stored file; it rests on the 11 Oct 2026 pass.; date_last_updated is 2026-05-15, the EU ratification date. Under AGENTS.md 5.6 the field is for the last amendment or new version, and one Party's ratification is neither, so it should probably become null, with the ratification kept in the notes. The stored Decision 2026/1080 dates the EU's approval 21 Apr 2026 (published in OJ L 13 May 2026); the 15 May 2026 deposit in the notes is not in any stored file.; If the human confirms the status, the three EU documents can serve as the record's alt-official evidence (level B). Level A needs a stored CoE page."
+  },
+  {
+   "cand_id": "INT-15",
+   "why": "checker: The extracted changes are well supported (signing, 29 founding members, 31 Jul close of signature). Needs a human for three items with no stored evidence: the July 2025 proposal claim in notes, the non-language value in language, and a single safety topic. Status stays provisional until a treaty text or depositary notice is stored."
+  },
+  {
+   "cand_id": "CN-06",
+   "why": "checker: New summary and notes are supported by the CSET translation, but the record is level C and two inherited values lack stored evidence. official_identifier TC260-003 is not in any stored file (search results name it; Junhe and sesec pages could be stored for evidence), and status 'Superseded' is judgment. The official URL is dead. A human should decide on the identifier, status and URL. Blind extraction made no changes and agrees (no disagreements in agreement.json)."
+  },
+  {
+   "cand_id": "PY-01",
+   "why": "checker: The extraction's new summary and verification note are supported by the stored Última Hora article (level C). Three record fields are not: status as of today (a May 2025 report only), issuing_body (six co-sponsors absent from stored sources), and notes (hearing, MITIC and co-sponsor claims unstored, plus process wording 'SILpy file number was not identified'). A targeted web search found no newer version or enactment (only a June 2025 Senate public hearing, on a Senate page that is not stored). A human should check the SILpy file S-2502197 and rewrite notes."
+  },
+  {
+   "cand_id": "TH-01",
+   "why": "checker: The extraction only changes verification.note, which is accurate. The record as it stands has two problems that predate this run but are not covered by stored sources: the summary's June 2025 predecessor clause is unsupported, and notes misstate the Thai PBS article (hearing described as concluded on 1 August) and rely on unstored sources (Rajah & Tann, ETDA 2025 page, law.go.th, ONDE). Level stays C. A targeted search found no Cabinet approval or newer draft."
+  },
+  {
+   "cand_id": "US-27",
+   "why": "checker: Title, date, status and the summary are supported by the American Presidency Project copy of the accord and the Obernolte/Trahan statement (level C, no whitehouse.gov copy; a targeted search again found none). Notes carry claims from press reports that are not stored (roundtable, EO 14434 link, 'morally binding' remark). The blind extraction agrees on every compared field; it also carries the EO 14434 claim unstored. Record needs a scope_note for a government-brokered company commitment."
+  },
+  {
+   "cand_id": "US-ID-01",
+   "why": "checker: Title, enactment date, effective date, status and legal force are supported by the Transparency Coalition tracker (level C). The summary and notes go well beyond that one stored source: AG enforcement, penalties, the three-hour disclaimer, the votes and the Governor's signature are unstored, and both texts contain hedges ('reported', 'Trackers give', 'should be checked'). A targeted search found no newer version; it did show LegiScan listing Session Law Chapter 249 and mostly July 1, 2027, but those pages are not stored. A human should decide whether to trim the summary to the stored text or store a bill copy."
+  },
+  {
+   "cand_id": "US-IL-01",
+   "why": "checker: Status, effective date and summary are supported. Two issues. (1) official_identifier 'Public Act 103-0804' is not in any stored text; a human or an ilga.gov copy should confirm it. (2) The only official source for date and status is gov-pritzker-newsroom.prezly.com, listed in known_hosts. It is the State of Illinois Newsroom page and carries the Governor's press contact, but it sits on Prezly, a commercial platform, and it is the reason the level moves from C to A. A human should decide whether that host counts as official. A search suggests the IDHR notice rules proposed on 15 May 2026 may have been withdrawn (one secondary source only); the notes' 'as of April 2026' phrasing is still true."
+  },
+  {
+   "cand_id": "US-NV-01",
+   "why": "checker: Enactment, approval date, chapter, votes, sponsors and the summary are supported by the stored NASW-NV and FastDemocracy pages (level C). The 1 July 2025 effective date, the Governor's name and the amended NRS chapters are not in any stored text, so date_in_force and the status 'In force' need a human or a stored official copy (the enrolled bill and NELIS page failed to store). Targeted search found no repeal or amendment. The blind extraction agrees with the main extraction on the compared fields."
+  },
+  {
+   "cand_id": "VN-07",
+   "why": "checker: Law number, adoption date, entry into force, repeal of Chapter IV on 1 March 2026 and status are supported by stored Government News and Can Tho pages (level C; the vbpl.vn copy is an empty shell). The summary and notes go beyond them: first-statute claim, labelling and definition content, the Law on AI number, the vote and structure, and hedged wording. The search found no newer amendment; it did surface an official text on vanban.chinhphu.vn (listed in extra_urls) that, once stored, could support Chapter IV's content."
+  }
+ ],
+ "unchecked": [],
+ "summary": "0 new, 4 update(s), 0 not added, 10 need a human, 0 not ready"
+}
