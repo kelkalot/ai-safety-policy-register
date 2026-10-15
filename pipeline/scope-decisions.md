@@ -29,6 +29,14 @@ Supervisors set much of the AI governance that regulated firms follow, often in 
 
 *Michael Riegler, 2026-10-14.*
 
+## Institutions and sector-wide rules (decided October 2026)
+
+- AI policies that individual universities, schools, hospitals or other institutions adopt for their own use, public or private, are out: an institution governing itself is like a company's own policy or an internal administrative circular.
+- Rules a government body sets for a whole sector are in, with a `scope_note`: for example, a state board's regulation that binds all public universities, or a state education department's rule for all school districts.
+- Whether a host counts as official evidence is a separate question (AGENTS.md section 7.6). A body that governs a sector, such as a state university system's board of governors, runs an official host even under `.edu`; marking it official does not bring the universities' own policies into scope.
+
+*Michael Riegler, 2026-10-15.*
+
 ## Cases
 
 - **EU Action Plan on Cybersecurity and Artificial Intelligence** (EU-17): in. Its main focus is risks from advanced AI and pre-market model evaluation. *Recorded in the record's notes, October 2026.*

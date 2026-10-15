@@ -1853,17 +1853,23 @@
   {
    "code": "MY",
    "host": "strapi.naio.okie.my",
-   "status": "proposed",
-   "operator": "unknown (CMS backend; subdomain of okie.my)",
-   "kind": "official channel on a vendor platform",
+   "status": "official",
+   "operator": "Department of Digital Malaysia",
+   "kind": null,
    "evidence": {
-    "url": "https://strapi.naio.okie.my/",
-    "quote": "",
-    "checked_on": "2026-10-14"
+    "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/20#issuecomment-6186492503",
+    "quote": null,
+    "checked_on": "2026-10-15"
    },
-   "decided_by": null,
-   "decided_on": null,
-   "note": "Operator check unclear: Root returned HTTP 403 and naio.gov.my did not resolve, so no link from a Malaysian government site could be found; the host name suggests a CMS backend for a National AI Office site built by a third-party developer. Needs a decision."
+   "decided_by": "kelkalot",
+   "decided_on": "2026-10-15",
+   "note": "decided in issue #20",
+   "previous": {
+    "status": "proposed",
+    "decided_by": null,
+    "decided_on": null,
+    "note": "Operator check unclear: Root returned HTTP 403 and naio.gov.my did not resolve, so no link from a Malaysian government site could be found; the host name suggests a CMS backend for a National AI Office site built by a third-party developer. Needs a decision."
+   }
   },
   {
    "code": "NATO",
@@ -2865,6 +2871,36 @@
   },
   {
    "code": "US-FL",
+   "host": "flbog.edu",
+   "status": "official",
+   "operator": "Board of Governors, State University System of Florida",
+   "kind": null,
+   "evidence": {
+    "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/46#issuecomment-6186392360",
+    "quote": null,
+    "checked_on": "2026-10-15"
+   },
+   "decided_by": "kelkalot",
+   "decided_on": "2026-10-15",
+   "note": "decided in issue #46"
+  },
+  {
+   "code": "US-FL",
+   "host": "fldoe.org",
+   "status": "official",
+   "operator": "Florida Department of Education",
+   "kind": null,
+   "evidence": {
+    "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/45#issuecomment-6186458323",
+    "quote": null,
+    "checked_on": "2026-10-15"
+   },
+   "decided_by": "kelkalot",
+   "decided_on": "2026-10-15",
+   "note": "decided in issue #45"
+  },
+  {
+   "code": "US-FL",
    "host": "floridaphoenix.com",
    "status": "not official",
    "operator": "Florida Phoenix (news outlet, apparently part of States Newsroom)",
@@ -2877,6 +2913,21 @@
    "decided_by": "Michael Riegler",
    "decided_on": "2026-10-14",
    "note": "Removed in the host cleanup of October 2026: it came in only from a record's secondary_url, and the operator check found a third party."
+  },
+  {
+   "code": "US-FL",
+   "host": "flrules.org",
+   "status": "official",
+   "operator": "Florida Department of State",
+   "kind": null,
+   "evidence": {
+    "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/44#issuecomment-6186415648",
+    "quote": null,
+    "checked_on": "2026-10-15"
+   },
+   "decided_by": "kelkalot",
+   "decided_on": "2026-10-15",
+   "note": "decided in issue #44"
   },
   {
    "code": "US-FL",

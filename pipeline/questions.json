@@ -258,12 +258,12 @@
     "checked_on": "2026-10-14"
    },
    "records": [],
-   "state": "open",
+   "state": "decided",
    "issue": 20,
    "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/20",
    "opened": "2026-10-14",
-   "closed": null,
-   "resolution": null
+   "closed": "2026-10-15",
+   "resolution": "host official"
   },
   {
    "key": "host:prod16-assets.sprinklr.com",
@@ -577,12 +577,12 @@
     "US-FL-14"
    ],
    "why": "Quotes from this host counted as secondary because it is neither a government domain nor in pipeline/official-sites.json.",
-   "state": "open",
+   "state": "decided",
    "issue": 44,
    "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/44",
    "opened": "2026-10-14",
-   "closed": null,
-   "resolution": null
+   "closed": "2026-10-15",
+   "resolution": "host official"
   },
   {
    "key": "host:fldoe.org",
@@ -594,12 +594,12 @@
     "US-FL-14"
    ],
    "why": "Quotes from this host counted as secondary because it is neither a government domain nor in pipeline/official-sites.json.",
-   "state": "open",
+   "state": "decided",
    "issue": 45,
    "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/45",
    "opened": "2026-10-14",
-   "closed": null,
-   "resolution": null
+   "closed": "2026-10-15",
+   "resolution": "host official"
   },
   {
    "key": "host:flbog.edu",
@@ -610,12 +610,12 @@
     "C014"
    ],
    "why": "Quotes from this host counted as secondary because it is neither a government domain nor in pipeline/official-sites.json.",
-   "state": "open",
+   "state": "decided",
    "issue": 46,
    "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/46",
    "opened": "2026-10-14",
-   "closed": null,
-   "resolution": null
+   "closed": "2026-10-15",
+   "resolution": "host official"
   },
   {
    "key": "sample:2026-10-14-discover-codes-us-fl",
