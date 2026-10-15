@@ -552,6 +552,12 @@ def build_all(out, ns, name, github_url, changes_md=""):
     (sp / "assets").mkdir(parents=True)
     (sp / "data").mkdir()
     shutil.copy2(ROOT / "index.html", sp / "index.html")
+    shutil.copy2(ROOT / "robots.txt", sp / "robots.txt")          # its Sitemap: line is what the Space serves
+    shutil.copy2(ROOT / "sitemap.xml", sp / "sitemap.xml")
+    (sp / "records").mkdir()                                        # the static record pages, one per instrument
+    for f in (ROOT / "records").iterdir():
+        if f.is_file():
+            shutil.copy2(f, sp / "records" / f.name)
     for f in (ROOT / "assets").iterdir():
         if f.is_file() and f.name != "site-config.js" and " 2." not in f.name:  # skip macOS conflict copies
             shutil.copy2(f, sp / "assets" / f.name)
@@ -734,7 +740,8 @@ def push(out, ns, name, private, only=("dataset", "archive", "space"), squash_ar
     if "space" in only:
         api.create_repo(sp_id, repo_type="space", space_sdk="static", private=private, exist_ok=True)
         api.upload_folder(repo_id=sp_id, repo_type="space", folder_path=str(out / "space"),
-                          commit_message="Publish web app (%s)" % stamp, delete_patterns=["assets/*", "data/*"])
+                          commit_message="Publish web app (%s)" % stamp,
+                          delete_patterns=["assets/*", "data/*", "records/*"])
         print("uploaded", sp_id)
     return ds_id, ar_id, sp_id
 

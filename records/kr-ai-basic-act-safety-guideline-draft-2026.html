@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guideline on Securing AI Safety (draft, Article 32 of the AI Basic Act) (KR-05) · Every AI Policy Ever</title>
+<meta name="description" content="Draft guidance for operators subject to the safety duty of Article 32 of Korea&#x27;s AI Basic Act, which under Article 24 of the Enforcement Decree covers A…">
+<link rel="canonical" href="https://kelkalot-every-ai-policy-ever.static.hf.space/records/kr-ai-basic-act-safety-guideline-draft-2026.html">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<style>
+:root{--bg:#f2f4f7;--surface:#ffffff;--ink:#111924;--ink-2:#455263;--ink-3:#6a7686;--line:#d5dce5;--accent:#2c43b0;--accent-ink:#fff;--accent-soft:#e3e7fa;--ok:#157a3a;--ok-soft:#e1f3e6;--warn:#8f5a00;--warn-soft:#fbefd6;--bad:#b0222a;--bad-soft:#fbe4e4;--gone:#5f6875;--gone-soft:#e7eaee}
+@media (prefers-color-scheme: dark){:root{--bg:#0e131a;--surface:#151c25;--ink:#e6ebf1;--ink-2:#a9b4c2;--ink-3:#8390a1;--line:#29343f;--accent:#8e9dff;--accent-ink:#0e131a;--accent-soft:#222b52;--ok:#63cf88;--ok-soft:#15301f;--warn:#e5b45b;--warn-soft:#332714;--bad:#ff8b8b;--bad-soft:#3a1b1d;--gone:#9aa4b1;--gone-soft:#242c36}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+a{color:var(--accent)}a:hover{text-decoration:underline}
+.wrap{max-width:880px;margin:0 auto;padding:20px 20px 56px}
+.crumb{font-size:13px;color:var(--ink-3)}.crumb a{color:var(--ink-2)}
+.kicker{font-size:13px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-2);margin:16px 0 6px}
+h1{font-size:33px;line-height:1.18;margin:0 0 8px}h2{font-size:19px;margin:0 0 10px;padding-top:22px;border-top:1px solid var(--line)}
+section{margin-top:26px}
+.orig{color:var(--ink-2);font-size:17px;margin:0 0 10px}
+.idline{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;color:var(--ink-3)}
+dl.facts{display:grid;grid-template-columns:190px 1fr;gap:5px 16px;margin:18px 0 0;padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+dl.facts dt{color:var(--ink-3);font-size:14px}dl.facts dd{margin:0;overflow-wrap:anywhere}
+.tag{display:inline-block;background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:2px 10px;font-size:13px;margin:0 6px 6px 0}
+.pill{display:inline-block;border-radius:999px;padding:2px 10px;font-size:13px;font-weight:600;margin-right:8px}
+.p-inforce{background:var(--ok-soft);color:var(--ok)}.p-published{background:var(--accent-soft);color:var(--accent)}
+.p-draft{background:var(--accent-soft);color:var(--accent)}.p-gone{background:var(--gone-soft);color:var(--gone)}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px}
+.muted{color:var(--ink-3);font-size:14px}
+.flag{border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:6px;padding:10px 12px;margin:8px 0;background:var(--surface)}
+.flag-warn{border-left-color:var(--warn)}
+.file{border:1px solid var(--line);border-radius:6px;padding:10px 12px;margin:8px 0;background:var(--surface)}
+.verify{display:flex;gap:14px;align-items:baseline;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px}
+.verify .big{font-size:30px;font-weight:700;color:var(--accent)}
+.verify .vm{color:var(--ink-3);font-size:13px}.verify .vn{margin-top:6px;font-size:14px;color:var(--ink-2)}
+ol.hist{margin:0;padding-left:18px}ol.hist li{margin:0 0 10px}ol.hist .hd{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;color:var(--ink-3);margin-right:8px}
+ol.hist .hm{display:block;color:var(--ink-3);font-size:12px;margin-top:2px}
+pre.cite{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px;white-space:pre-wrap;overflow-wrap:anywhere;font:13.5px/1.5 ui-monospace,Menlo,Consolas,monospace;margin:0}
+footer{margin-top:44px;padding-top:14px;border-top:1px solid var(--line);color:var(--ink-3);font-size:13px}
+</style>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Every AI Policy Ever">
+<meta property="og:title" content="Guideline on Securing AI Safety (draft, Article 32 of the AI Basic Act) (KR-05)">
+<meta property="og:description" content="Draft guidance for operators subject to the safety duty of Article 32 of Korea&#x27;s AI Basic Act, which under Article 24 of the Enforcement Decree covers A…">
+<meta property="og:url" content="https://kelkalot-every-ai-policy-ever.static.hf.space/records/kr-ai-basic-act-safety-guideline-draft-2026.html">
+<meta property="og:image" content="https://kelkalot-every-ai-policy-ever.static.hf.space/assets/og-image.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Guideline on Securing AI Safety (draft, Article 32 of the AI Basic Act) (KR-05)">
+<meta name="twitter:description" content="Draft guidance for operators subject to the safety duty of Article 32 of Korea&#x27;s AI Basic Act, which under Article 24 of the Enforcement Decree covers A…">
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"GovernmentDocument","name":"Guideline on Securing AI Safety (draft, Article 32 of the AI Basic Act)","identifier":"KR-05","description":"Draft guidance for operators subject to the safety duty of Article 32 of Korea's AI Basic Act, which under Article 24 of the Enforcement Decree covers AI systems meeting all three criteria: training compute of 10^26 floating-point operations or more; the most advanced (state-of-the-art) AI technology in current use; and a risk that may broadly and seriously affect life, physical safety and fundamental rights. It explains how to determine the systems in scope and who bears the duty, risk identification, assessment and mitigation across the life cycle, a risk-management system for safety incidents, and reporting, including submission of the safety measures to the Minister within three months.","url":"https://kelkalot-every-ai-policy-ever.static.hf.space/records/kr-ai-basic-act-safety-guideline-draft-2026.html","dateCreated":"2026-01-22","dateModified":"2026-02","inLanguage":"Korean","isAccessibleForFree":true,"about":["general-purpose / frontier AI","incident reporting","evaluation & testing","catastrophic risk"],"creator":{"@type":"Organization","name":"Ministry of Science and ICT, distributed through the National Information Society Agency (NIA) and the Korea AI Software Industry Association (KOSA) help desk"},"sourceUrl":"https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&cbIdx=99835&fileNo=15"},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Register","item":"https://kelkalot-every-ai-policy-ever.static.hf.space/"},{"@type":"ListItem","position":2,"name":"Guideline on Securing AI Safety (draft, Article 32 of the AI Basic Act)","item":"https://kelkalot-every-ai-policy-ever.static.hf.space/records/kr-ai-basic-act-safety-guideline-draft-2026.html"}]}]</script>
+</head>
+<body>
+<div class="wrap">
+  <p class="crumb"><a href="../index.html">Every AI Policy Ever</a> · <a href="../index.html#KR-05">open in the interactive register</a></p>
+
+  <p class="kicker"><span class="pill p-draft">Draft / proposed</span>Proposed · Guidelines / framework</p>
+
+  <h1>Guideline on Securing AI Safety (draft, Article 32 of the AI Basic Act)</h1>
+
+  <p class="orig">인공지능 안전성 확보 가이드라인</p>
+
+  <p class="idline">Record KR-05</p>
+
+  <dl class="facts">
+    <dt>Issued by</dt><dd>Ministry of Science and ICT, distributed through the National Information Society Agency (NIA) and the Korea AI Software Industry Association (KOSA) help desk</dd>
+    <dt>Jurisdiction</dt><dd>South Korea</dd>
+    <dt>Level · region</dt><dd>National · East Asia</dd>
+    <dt>Published / adopted</dt><dd>2026-01-22</dd>
+    <dt>Last updated</dt><dd>2026-02</dd>
+    <dt>Language</dt><dd>Korean</dd>
+  </dl>
+
+  <section><h2>Summary</h2><p>Draft guidance for operators subject to the safety duty of Article 32 of Korea&#x27;s AI Basic Act, which under Article 24 of the Enforcement Decree covers AI systems meeting all three criteria: training compute of 10^26 floating-point operations or more; the most advanced (state-of-the-art) AI technology in current use; and a risk that may broadly and seriously affect life, physical safety and fundamental rights. It explains how to determine the systems in scope and who bears the duty, risk identification, assessment and mitigation across the life cycle, a risk-management system for safety incidents, and reporting, including submission of the safety measures to the Minister within three months.</p></section>
+
+  <section><h2>Language</h2><p>No English version of this instrument was found. The English title and the summary are the register's own, written from the sources below; for the exact wording use the Korean text.</p></section>
+
+  <section><h2>Safety topics</h2><span class="tag">general-purpose / frontier AI</span><span class="tag">incident reporting</span><span class="tag">evaluation &amp; testing</span><span class="tag">catastrophic risk</span></section>
+
+  <section><h2>Status notes</h2><p>The NIA version (file dated 22 January 2026, 71 pages) opens with a notice that this draft guideline is still being written and may differ from the final version to be published. It explains, and reproduces in full, a draft MSIT notification on the methods of implementing the AI safety obligation (인공지능 안전성 확보 의무의 이행방법 등에 관한 고시(안)), whose number is left blank. The draft notification requires a first report to the Minister within 24 hours of recognising a safety incident, an initial-action report within 7 days and a result report within 15 days of the first report, and new submissions within one month of a substantial change that increases risk or of recognising a new risk. Cumulative compute is to be calculated from training records and system logs, including pre-processing and fine-tuning, by theoretical, empirical-statistical or hardware-based methods. The guideline is a reference document that neither replaces the law nor imposes new duties, though supervisors may use it when checking compliance.</p></section>
+
+  <section><h2>Sources</h2><p><a href="https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&amp;cbIdx=99835&amp;fileNo=15" rel="noopener">Open the official source</a> <span class="mono">https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&amp;cbIdx=99835&amp;fileNo=15</span></p>
+<p>Secondary source: <a href="https://www.sw.or.kr/AI_act_helpdesk/main.jsp" rel="noopener">https://www.sw.or.kr/AI_act_helpdesk/main.jsp</a></p>
+</section>
+
+  <section><h2>Local copy</h2><div class="flag"><p><strong>Archived.</strong> The secondary source could not be downloaded (The site&#x27;s robots.txt does not allow automated downloads of this page). <span class="muted">Last attempt 2026-10-14 10:14:47 UTC</span></p>
+<div class="file"><div><span>Official source <span class="muted">(third-party copy, not published)</span></span> <span class="mono">archive/KR-05/2026-10-12/official.pdf</span></div><div class="muted">Retrieved 2026-10-12 04:43:43 UTC</div><div class="mono">SHA-256 c49c4fa002e60d21a4964fbea992e1ae2f3554063db6e5da262b1d74aeb32dd5</div></div>
+</div></section>
+
+  <section><h2>Verification</h2><div class="verify"><span class="big">A</span><div><div>The official source was fetched and confirms the title, date and status. <span class="vm">checked 2026-10-14 · official-url-fetched</span></div><div class="vn">Stored: NIA&#x27;s copy of the guideline (PDF, 71 pages; read through pdftotext, as the PDF&#x27;s own text layer is garbled; the cover image shows &#x27;2026. 1&#x27; and the logos of MSIT and ETRI) and NIA&#x27;s post of 22 January 2026 distributing the AI Basic Act guidelines. The PDF confirms the draft marking, the Article 32 and Decree Article 24 basis, the three criteria, the draft notification with its blank number, the compute-calculation methods, the chapter structure, the three-month submission rule and the 24-hour, 7-day and 15-day incident reports. NIA&#x27;s post confirms the title (file name) and the publication date. The running header on every page misprints the title as &#x27;인공지능 안정성 확보 가이드라인&#x27;. The KOSA help desk&#x27;s later version (draft notification No. 2026-126 of February 2026, title &#x27;최첨단 인공지능 안전성 확보 가이드라인&#x27;), on which date_last_updated &#x27;2026-02&#x27; rests, could not be stored: the site blocks automated downloads. The grace period for fines mentioned in an earlier version of this record is in no file stored for this record (it is stored for KR-04).</div><div class="vn"><strong>Second check:</strong> Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 5 field(s) supported.</div></div></div></section>
+
+  <section><h2>History</h2><ol class="hist"><li><span class="hd">2026-10-14</span>notes: Both the NIA version (file dated 22 January 2026, 71 pages) and the later KOSA v → The NIA version (file dated 22 January 2026, 71 pages) opens with a notice that  <span class="muted">— The incident-reporting timelines are in the stored NIA version (draft notification Article 8(3), page 12), not only in the KOSA version. Removed the statements resting only on the unstored KOSA version and the grace-period sentence (now in verification.note). Added the compute-calculation rule, the one-month submissions and the guideline&#x27;s reference character (pages 5, 9 and 12).</span><span class="hm">2026-10-14-refresh-translation-fixes · Claude Code (claude-opus-5-5)</span></li>
+<li><span class="hd">2026-10-14</span>summary: Draft guidance for operators subject to the safety duty of Article 32 of Korea&#x27;s → Draft guidance for operators subject to the safety duty of Article 32 of Korea&#x27;s <span class="muted">— &#x27;Frontier-level technology&#x27; became &#x27;the most advanced (state-of-the-art) AI technology in current use&#x27;, following Decree Article 24(1)2 (page 8) and the guideline&#x27;s own gloss &#x27;최첨단(State-of-the-Art, SOTA)&#x27; (page 19). Added that all three criteria must be met and the duty-bearer question (pages 14 and 22).</span><span class="hm">2026-10-14-refresh-translation-fixes · Claude Code (claude-opus-5-5)</span></li>
+<li><span class="hd">2026-10-14</span>original_title: 인공지능 안전성 확보 가이드라인(안) → 인공지능 안전성 확보 가이드라인 <span class="muted">— &#x27;인공지능 안전성 확보 가이드라인(안)&#x27; was not verbatim: the title on the cover and in NIA&#x27;s file name has no &#x27;(안)&#x27;; the draft marking comes from the page-2 notice and stays in the English title.</span><span class="hm">2026-10-14-refresh-translation-fixes · Claude Code (claude-opus-5-5)</span></li>
+<li><span class="hd">2026-10-14</span>english_version: – → {&quot;kind&quot;: &quot;none found&quot;} <span class="muted">— No English version in the stored copies, and none found in a targeted search on 14 Oct 2026.</span><span class="hm">manual-2026-10-14 · Claude Code (claude-opus-5-5)</span></li>
+</ol></section>
+
+  <section><h2>Related records</h2><p><a href="kr-ai-basic-act.html">Korea AI Basic Act</a> <span class="muted">South Korea · In force</span></p>
+<p><a href="kr-ai-basic-act-enforcement-decree.html">Korea AI Basic Act Enforcement Decree</a> <span class="muted">South Korea · In force</span></p>
+<p><a href="kr-aisi.html">Korea AISI</a> <span class="muted">South Korea · Published (non-binding, current)</span></p>
+<p><a href="kr-ai-basic-act-transparency-guideline-2026.html">Korea AI transparency guideline (Art. 31)</a> <span class="muted">South Korea · Published (non-binding, current)</span></p>
+</section>
+
+  <section><h2>Citation</h2><pre class="cite">Ministry of Science and ICT, distributed through the National Information Society Agency (NIA) and the Korea AI Software Industry Association (KOSA) help desk. Guideline on Securing AI Safety (draft, Article 32 of the AI Basic Act). 2026-01-22. https://www.nia.or.kr/common/board/Download.do?bcIdx=28987&amp;cbIdx=99835&amp;fileNo=15. Status: Draft / proposed; verified 2026-10-14 (level A). Local copy archive/KR-05/2026-10-12/official.pdf retrieved 2026-10-12 04:43:43 UTC, SHA-256 c49c4fa002e60d21a4964fbea992e1ae2f3554063db6e5da262b1d74aeb32dd5. Every AI Policy Ever, version 1.10.2 (snapshot 2026-10-12), record KR-05.</pre></section>
+
+  <section><h2>Improve this record</h2><p>Know of an amendment, a status change or an error? <a href="https://github.com/kelkalot/every-ai-policy-ever/issues/new?template=suggest-instrument.yml&amp;title=News+or+correction%3A+KR-05+Korea+frontier+AI+safety+guideline+%28Art.+32%2C+draft%29&amp;record=KR-05&amp;url=https%3A%2F%2Fwww.nia.or.kr%2Fcommon%2Fboard%2FDownload.do%3FbcIdx%3D28987%26cbIdx%3D99835%26fileNo%3D15&amp;jurisdiction=KR" target="_blank" rel="noopener">Report news or an error</a> on GitHub; the form opens with this record filled in.</p></section>
+  <footer>Every AI Policy Ever · version 1.10.2 · snapshot 2026-10-12 · an AI-assisted extraction, verified 2026-10-14 (level A) · <a href="../index.html">the interactive register</a> · <a href="https://github.com/kelkalot/every-ai-policy-ever" rel="noopener">the GitHub repository</a></footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guide to Evaluation Perspectives on AI Safety; Guide to Red Teaming Methodology on AI Safety (JP-03) · Every AI Policy Ever</title>
+<meta name="description" content="Two companion guides from the Japan AI Safety Institute for AI developers and AI providers. The Guide to Evaluation Perspectives on AI Safety sets out c…">
+<link rel="canonical" href="https://kelkalot-every-ai-policy-ever.static.hf.space/records/jp-aisi-evaluation-redteaming-guides.html">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<style>
+:root{--bg:#f2f4f7;--surface:#ffffff;--ink:#111924;--ink-2:#455263;--ink-3:#6a7686;--line:#d5dce5;--accent:#2c43b0;--accent-ink:#fff;--accent-soft:#e3e7fa;--ok:#157a3a;--ok-soft:#e1f3e6;--warn:#8f5a00;--warn-soft:#fbefd6;--bad:#b0222a;--bad-soft:#fbe4e4;--gone:#5f6875;--gone-soft:#e7eaee}
+@media (prefers-color-scheme: dark){:root{--bg:#0e131a;--surface:#151c25;--ink:#e6ebf1;--ink-2:#a9b4c2;--ink-3:#8390a1;--line:#29343f;--accent:#8e9dff;--accent-ink:#0e131a;--accent-soft:#222b52;--ok:#63cf88;--ok-soft:#15301f;--warn:#e5b45b;--warn-soft:#332714;--bad:#ff8b8b;--bad-soft:#3a1b1d;--gone:#9aa4b1;--gone-soft:#242c36}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+a{color:var(--accent)}a:hover{text-decoration:underline}
+.wrap{max-width:880px;margin:0 auto;padding:20px 20px 56px}
+.crumb{font-size:13px;color:var(--ink-3)}.crumb a{color:var(--ink-2)}
+.kicker{font-size:13px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-2);margin:16px 0 6px}
+h1{font-size:33px;line-height:1.18;margin:0 0 8px}h2{font-size:19px;margin:0 0 10px;padding-top:22px;border-top:1px solid var(--line)}
+section{margin-top:26px}
+.orig{color:var(--ink-2);font-size:17px;margin:0 0 10px}
+.idline{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;color:var(--ink-3)}
+dl.facts{display:grid;grid-template-columns:190px 1fr;gap:5px 16px;margin:18px 0 0;padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+dl.facts dt{color:var(--ink-3);font-size:14px}dl.facts dd{margin:0;overflow-wrap:anywhere}
+.tag{display:inline-block;background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:2px 10px;font-size:13px;margin:0 6px 6px 0}
+.pill{display:inline-block;border-radius:999px;padding:2px 10px;font-size:13px;font-weight:600;margin-right:8px}
+.p-inforce{background:var(--ok-soft);color:var(--ok)}.p-published{background:var(--accent-soft);color:var(--accent)}
+.p-draft{background:var(--accent-soft);color:var(--accent)}.p-gone{background:var(--gone-soft);color:var(--gone)}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px}
+.muted{color:var(--ink-3);font-size:14px}
+.flag{border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:6px;padding:10px 12px;margin:8px 0;background:var(--surface)}
+.flag-warn{border-left-color:var(--warn)}
+.file{border:1px solid var(--line);border-radius:6px;padding:10px 12px;margin:8px 0;background:var(--surface)}
+.verify{display:flex;gap:14px;align-items:baseline;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px}
+.verify .big{font-size:30px;font-weight:700;color:var(--accent)}
+.verify .vm{color:var(--ink-3);font-size:13px}.verify .vn{margin-top:6px;font-size:14px;color:var(--ink-2)}
+ol.hist{margin:0;padding-left:18px}ol.hist li{margin:0 0 10px}ol.hist .hd{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;color:var(--ink-3);margin-right:8px}
+ol.hist .hm{display:block;color:var(--ink-3);font-size:12px;margin-top:2px}
+pre.cite{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px;white-space:pre-wrap;overflow-wrap:anywhere;font:13.5px/1.5 ui-monospace,Menlo,Consolas,monospace;margin:0}
+footer{margin-top:44px;padding-top:14px;border-top:1px solid var(--line);color:var(--ink-3);font-size:13px}
+</style>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Every AI Policy Ever">
+<meta property="og:title" content="Guide to Evaluation Perspectives on AI Safety; Guide to Red Teaming Methodology on AI Safety (JP-03)">
+<meta property="og:description" content="Two companion guides from the Japan AI Safety Institute for AI developers and AI providers. The Guide to Evaluation Perspectives on AI Safety sets out c…">
+<meta property="og:url" content="https://kelkalot-every-ai-policy-ever.static.hf.space/records/jp-aisi-evaluation-redteaming-guides.html">
+<meta property="og:image" content="https://kelkalot-every-ai-policy-ever.static.hf.space/assets/og-image.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Guide to Evaluation Perspectives on AI Safety; Guide to Red Teaming Methodology on AI Safety (JP-03)">
+<meta name="twitter:description" content="Two companion guides from the Japan AI Safety Institute for AI developers and AI providers. The Guide to Evaluation Perspectives on AI Safety sets out c…">
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"GovernmentDocument","name":"Guide to Evaluation Perspectives on AI Safety; Guide to Red Teaming Methodology on AI Safety","identifier":"JP-03","description":"Two companion guides from the Japan AI Safety Institute for AI developers and AI providers. The Guide to Evaluation Perspectives on AI Safety sets out concepts for evaluating the AI safety of LLM systems and AI agent systems: perspectives such as control of toxic output, fairness and inclusion, privacy protection, ensuring security, robustness and verifiability, with example risks and evaluation items, evaluators, timing and methods; version 1.20 adds 'observation and control' for AI agent systems. The Guide to Red Teaming Methodology on AI Safety covers evaluating the risk countermeasures of LLM systems from an attacker's perspective, from attack methods and roles to a 15-step process.","url":"https://kelkalot-every-ai-policy-ever.static.hf.space/records/jp-aisi-evaluation-redteaming-guides.html","dateCreated":"2024-09-18","dateModified":"2026-07-07","inLanguage":"Japanese","isAccessibleForFree":true,"about":["evaluation & testing","safety institute","general-purpose / frontier AI"],"creator":{"@type":"Organization","name":"Japan AI Safety Institute (J-AISI)"},"sourceUrl":"https://aisi.go.jp/output/output_information/260707/"},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Register","item":"https://kelkalot-every-ai-policy-ever.static.hf.space/"},{"@type":"ListItem","position":2,"name":"Guide to Evaluation Perspectives on AI Safety; Guide to Red Teaming Methodology on AI Safety","item":"https://kelkalot-every-ai-policy-ever.static.hf.space/records/jp-aisi-evaluation-redteaming-guides.html"}]}]</script>
+</head>
+<body>
+<div class="wrap">
+  <p class="crumb"><a href="../index.html">Every AI Policy Ever</a> · <a href="../index.html#JP-03">open in the interactive register</a></p>
+
+  <p class="kicker"><span class="pill p-published">Published (non-binding, current)</span>Non-binding · Guidelines / framework</p>
+
+  <h1>Guide to Evaluation Perspectives on AI Safety; Guide to Red Teaming Methodology on AI Safety</h1>
+
+  <p class="orig">AIセーフティに関する評価観点ガイド；AIセーフティに関するレッドチーミング手法ガイド</p>
+
+  <p class="idline">Record JP-03</p>
+
+  <dl class="facts">
+    <dt>Issued by</dt><dd>Japan AI Safety Institute (J-AISI)</dd>
+    <dt>Jurisdiction</dt><dd>Japan</dd>
+    <dt>Level · region</dt><dd>National · East Asia</dd>
+    <dt>Published / adopted</dt><dd>2024-09-18</dd>
+    <dt>Last updated</dt><dd>2026-07-07</dd>
+    <dt>Language</dt><dd>Japanese</dd>
+  </dl>
+
+  <section><h2>Summary</h2><p>Two companion guides from the Japan AI Safety Institute for AI developers and AI providers. The Guide to Evaluation Perspectives on AI Safety sets out concepts for evaluating the AI safety of LLM systems and AI agent systems: perspectives such as control of toxic output, fairness and inclusion, privacy protection, ensuring security, robustness and verifiability, with example risks and evaluation items, evaluators, timing and methods; version 1.20 adds &#x27;observation and control&#x27; for AI agent systems. The Guide to Red Teaming Methodology on AI Safety covers evaluating the risk countermeasures of LLM systems from an attacker&#x27;s perspective, from attack methods and roles to a 15-step process.</p></section>
+
+  <section><h2>Language</h2><p>English translation by Japan AI Safety Institute (J-AISI) <a href="https://aisi.go.jp/assets/pdf/ai_safety_eval_v1.10_en.pdf">Open it</a>. The Japanese text is authoritative.</p></section>
+
+  <section><h2>Safety topics</h2><span class="tag">evaluation &amp; testing</span><span class="tag">safety institute</span><span class="tag">general-purpose / frontier AI</span></section>
+
+  <section><h2>Status notes</h2><p>Evaluation Perspectives Guide: first published 18 Sept 2024, version 1.10 on 28 Mar 2025, version 1.20 on 7 Jul 2026. Red Teaming Methodology Guide: first published 25 Sept 2024, version 1.10 on 31 Mar 2025. J-AISI has also issued domain-specific evaluation guides (healthcare, 2 Apr 2026; AI robotics, 23 Jul 2026) and annual AI safety reports; these are not recorded separately.</p></section>
+
+  <section><h2>Sources</h2><p><a href="https://aisi.go.jp/output/output_information/260707/" rel="noopener">Open the official source</a> <span class="mono">https://aisi.go.jp/output/output_information/260707/</span></p>
+<p>Secondary source: <a href="https://aisi.go.jp/output/output_information/250331_1/" rel="noopener">https://aisi.go.jp/output/output_information/250331_1/</a></p>
+</section>
+
+  <section><h2>Local copy</h2><div class="flag"><p><strong>Archived.</strong>  <span class="muted">Last attempt 2026-10-14 10:13:41 UTC</span></p>
+<div class="file"><div><span>Official source <span class="muted">(third-party copy, not published)</span></span> <span class="mono">archive/JP-03/2026-10-11/official.html</span></div><div class="muted">Retrieved 2026-10-11 14:00:52 UTC</div><div class="mono">SHA-256 f3e119316cce80e67cc83caec15ca8069a2aa07f94d5a439995e2ba6683b3e18</div></div>
+<div class="file"><div><span>Linked document (PDF) <span class="muted">(third-party copy, not published)</span></span> <span class="mono">archive/JP-03/2026-10-11/document-1.pdf</span></div><div class="muted">Retrieved 2026-10-11 14:01:00 UTC</div><div class="mono">SHA-256 46ed6ddffa92a3343c498ddec49ee57cdad351df4665ee6e3556ba7a7b1197b6</div></div>
+<div class="file"><div><span>Linked document (PDF) <span class="muted">(third-party copy, not published)</span></span> <span class="mono">archive/JP-03/2026-10-11/document-2.pdf</span></div><div class="muted">Retrieved 2026-10-11 14:01:09 UTC</div><div class="mono">SHA-256 a95b0c017a8b45b85f47de38cf3b8a9ac69cae5ba5dcf7d68b6db387e2cebe3b</div></div>
+<div class="file"><div><span>Secondary source <span class="muted">(third-party copy, not published)</span></span> <span class="mono">archive/JP-03/2026-10-11/secondary.html</span></div><div class="muted">Retrieved 2026-10-11 14:01:11 UTC</div><div class="mono">SHA-256 0b57a8aa349f29ac6e31fedc01b0bbfcfdfc6ecfc22c12116f8bbfa226b2d091</div></div>
+</div></section>
+
+  <section><h2>Verification</h2><div class="verify"><span class="big">A</span><div><div>The official source was fetched and confirms the title, date and status. <span class="vm">checked 2026-10-14 · official-url-fetched</span></div><div class="vn">Stored on 11 Oct 2026: J-AISI&#x27;s release page for the Evaluation Perspectives Guide v1.20 (7 Jul 2026), the full Japanese text of v1.20 and its Japanese summary slides, and the release page for the Red Teaming Methodology Guide v1.10. Stored on 14 Oct 2026: J-AISI&#x27;s outputs list (Information), the Japanese text of the Red Teaming Methodology Guide v1.10 (31 Mar 2025), and J-AISI&#x27;s English versions of the Evaluation Perspectives Guide v1.10 and the Red Teaming Methodology Guide v1.10, each marked &#x27;Please refer to the original text for accuracy&#x27;. The outputs list confirms every version date in notes, including first publication on 18 Sept 2024 (evaluation guide) and 25 Sept 2024 (red-teaming guide), and the healthcare and AI robotics guides. No English version of v1.20 is linked from its release page; english_version points at the English v1.10 of the evaluation guide. The summary is written from the Japanese texts, with the evaluation perspectives named as J-AISI&#x27;s English renders them.</div><div class="vn"><strong>Second check:</strong> Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 9 field(s) supported.</div></div></div></section>
+
+  <section><h2>History</h2><ol class="hist"><li><span class="hd">2026-10-14</span>related: [{&quot;slug&quot;: &quot;jp-aisi&quot;, &quot;id&quot;: &quot;JP-01&quot;}, {&quot;slug&quot;: &quot;jp-ai-guidelines-for-business&quot;, &quot; → [{&quot;slug&quot;: &quot;jp-aisi&quot;, &quot;id&quot;: &quot;JP-01&quot;}, {&quot;slug&quot;: &quot;jp-ai-guidelines-for-business&quot;, &quot; <span class="muted">— two-way link to JP-09, JP-11, JP-12 added in run 2026-10-14-discover-leads-2026-10-14</span><span class="hm">2026-10-14-discover-leads-2026-10-14 · Claude Code (claude-opus-5-5)</span></li>
+<li><span class="hd">2026-10-14</span>english_version: {&quot;kind&quot;: &quot;government translation&quot;, &quot;url&quot;: &quot;https://aisi.go.jp/output/output_info → {&quot;kind&quot;: &quot;government translation&quot;, &quot;url&quot;: &quot;https://aisi.go.jp/assets/pdf/ai_safe <span class="muted">— Now points at J-AISI&#x27;s English v1.10 of the evaluation guide, a stored source; it pointed at the red-teaming release page.</span><span class="hm">2026-10-14-refresh-translation-fixes · Claude Code (claude-opus-5-5)</span></li>
+<li><span class="hd">2026-10-14</span>summary: Two companion technical guides from J-AISI for AI developers and providers. One  → Two companion guides from the Japan AI Safety Institute for AI developers and AI <span class="muted">— Written from the Japanese texts of both guides: readers AI developers and AI providers (eval 1.3), scope LLM systems and AI agent systems (eval 2.4) and LLM systems (red-teaming 1.4); perspectives named as J-AISI&#x27;s English v1.10 renders them (Control of Toxic Output, Fairness and Inclusion, ...); the red-teaming guide described from its section 1.1 (evaluating risk countermeasures from an attacker&#x27;s perspective) and its contents (attack methods, roles, STEP 1 to STEP 15). &#x27;Including LLM-based systems&#x27; from the earlier summary is gone.</span><span class="hm">2026-10-14-refresh-translation-fixes · Claude Code (claude-opus-5-5)</span></li>
+<li><span class="hd">2026-10-14</span>english_version: – → {&quot;kind&quot;: &quot;government translation&quot;, &quot;url&quot;: &quot;https://aisi.go.jp/output/output_info <span class="muted">— English version found by the translation check in a stored copy (archive/JP-03/2026-10-11/secondary.html).</span><span class="hm">manual-2026-10-14 · Claude Code (claude-opus-5-5)</span></li>
+<li><span class="hd">2026-10-14</span>language: Japanese, English → Japanese <span class="muted">— The translation check found the official text in this language only; the English texts are translations (recorded in english_version where stored).</span><span class="hm">manual-2026-10-14 · Claude Code (claude-opus-5-5)</span></li>
+</ol></section>
+
+  <section><h2>Related records</h2><p><a href="jp-aisi.html">Japan AISI</a> <span class="muted">Japan · Published (non-binding, current)</span></p>
+<p><a href="jp-ai-guidelines-for-business.html">AI Guidelines for Business</a> <span class="muted">Japan · Published (non-binding, current)</span></p>
+<p><a href="j-aisi-data-quality-management-guidebook.html">J-AISI Data Quality Management Guidebook</a> <span class="muted">Japan · Published (non-binding, current)</span></p>
+<p><a href="j-aisi-healthcare-ai-safety-evaluation-guide.html">J-AISI Healthcare AI Safety Evaluation Guide</a> <span class="muted">Japan · Published (non-binding, current)</span></p>
+<p><a href="mic-guidelines-on-technical-measures-for-ai-security.html">MIC Guidelines on Technical Measures for AI Security</a> <span class="muted">Japan · Published (non-binding, current)</span></p>
+</section>
+
+  <section><h2>Citation</h2><pre class="cite">Japan AI Safety Institute (J-AISI). Guide to Evaluation Perspectives on AI Safety; Guide to Red Teaming Methodology on AI Safety. 2024-09-18. https://aisi.go.jp/output/output_information/260707/. Status: Published (non-binding, current); verified 2026-10-14 (level A). Local copy archive/JP-03/2026-10-11/official.html retrieved 2026-10-11 14:00:52 UTC, SHA-256 f3e119316cce80e67cc83caec15ca8069a2aa07f94d5a439995e2ba6683b3e18. Every AI Policy Ever, version 1.10.2 (snapshot 2026-10-12), record JP-03.</pre></section>
+
+  <section><h2>Improve this record</h2><p>Know of an amendment, a status change or an error? <a href="https://github.com/kelkalot/every-ai-policy-ever/issues/new?template=suggest-instrument.yml&amp;title=News+or+correction%3A+JP-03+J-AISI+Evaluation+and+Red+Teaming+Guides&amp;record=JP-03&amp;url=https%3A%2F%2Faisi.go.jp%2Foutput%2Foutput_information%2F260707%2F&amp;jurisdiction=JP" target="_blank" rel="noopener">Report news or an error</a> on GitHub; the form opens with this record filled in.</p></section>
+  <footer>Every AI Policy Ever · version 1.10.2 · snapshot 2026-10-12 · an AI-assisted extraction, verified 2026-10-14 (level A) · <a href="../index.html">the interactive register</a> · <a href="https://github.com/kelkalot/every-ai-policy-ever" rel="noopener">the GitHub repository</a></footer>
+
+</div>
+</body>
+</html>

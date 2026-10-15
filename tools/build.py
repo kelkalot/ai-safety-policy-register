@@ -8,6 +8,9 @@ Writes:
   data/records.csv      one row per record, for spreadsheets
   data/register.sqlite  a relational copy for SQL queries
   data/register.xlsx    an Excel workbook (only when the openpyxl package is installed)
+  records/<slug>.html   one static, no-JavaScript page per record, so search engines can index every
+                        instrument without running the app (links back to the interactive register)
+  sitemap.xml           the site and every record page, for search engines
   HISTORY.md            the change history from data/history.jsonl, newest first, for readers
   README.md             only the numbers between <!--n:key--> and <!--/n--> markers and the BibTeX block
                         between <!-- build:bibtex --> and <!-- /build:bibtex -->, so they follow the data
@@ -20,10 +23,12 @@ malformed dates, dangling related IDs, ...), so a bad edit never reaches the app
 Standard library only. Python 3.8+.
 """
 import csv
+import html as _html
 import json
 import re
 import sqlite3
 import sys
+import urllib.parse
 from collections import Counter
 from pathlib import Path
 
@@ -36,6 +41,11 @@ DATA = ROOT / "data"
 NAME = "Every AI Policy Ever"
 AUTHORS = [("Riegler", "Michael"), ("Gautam", "Sushant")]
 DATASET_URL = "https://huggingface.co/datasets/kelkalot/every-ai-policy-ever"
+ARCHIVE_URL = "https://huggingface.co/datasets/kelkalot/every-ai-policy-ever-archive"
+REPO_URL = "https://github.com/kelkalot/every-ai-policy-ever"
+# Where the web app is published; the generated pages and sitemap point here so crawlers
+# get absolute URLs even when the folder is served from another host.
+SPACE_URL = "https://kelkalot-every-ai-policy-ever.static.hf.space"
 
 LOCAL_STATUSES = [
     "archived",            # official source saved, no warnings
@@ -163,6 +173,352 @@ def write_csv(db, root=ROOT):
         w.writeheader()
         for r in db["records"]:
             w.writerow(flat(r))
+
+
+# ---------- static record pages and sitemap ----------
+#
+# One page per record, with no JavaScript: search engines that do not render the app
+# can still find and read every instrument. The interactive register stays the main
+# interface; these pages link back to it.
+
+
+def _esc(s):
+    return _html.escape("" if s is None else str(s), quote=True)
+
+
+def _when(s):
+    return (s or "").replace("T", " ").replace("Z", " UTC").strip()
+
+
+def _slugmap(db):
+    """record ID -> page file name; a collision keeps the record ID as a suffix."""
+    out = {}
+    for r in db["records"]:
+        s = (r.get("slug") or r["id"].lower()).replace("/", "-")
+        if s in out.values():
+            s = "%s-%s" % (s, r["id"].lower())
+        out[r["id"]] = s
+    return out
+
+
+def citation_text(r, meta):
+    """The same citation the app's copy button offers."""
+    v = r.get("verification") or {}
+    f = next((x for x in (r.get("local_copy") or {}).get("files") or [] if not x.get("stale")), None)
+    local = "Local copy %s retrieved %s, SHA-256 %s." % (f["path"], _when(f.get("retrieved_at")), f.get("sha256")) if f else ""
+    parts = [
+        (r.get("issuing_body") or "") + ".",
+        (r.get("title") or "") + ((" [%s]" % r["official_identifier"]) if r.get("official_identifier") else "") + ".",
+        (r.get("date_published") or "n.d.") + ".",
+        r["official_url"] + "." if r.get("official_url") else "",
+        "Status: %s; verified %s (level %s)." % (r.get("status"), v.get("verified_on"), v.get("level")),
+        local,
+        "Every AI Policy Ever, version %s (snapshot %s), record %s." % (meta.get("version"), meta.get("snapshot_date"), r["id"]),
+    ]
+    return " ".join(p for p in parts if p)
+
+
+RECORD_CSS = """
+:root{--bg:#f2f4f7;--surface:#ffffff;--ink:#111924;--ink-2:#455263;--ink-3:#6a7686;--line:#d5dce5;--accent:#2c43b0;--accent-ink:#fff;--accent-soft:#e3e7fa;--ok:#157a3a;--ok-soft:#e1f3e6;--warn:#8f5a00;--warn-soft:#fbefd6;--bad:#b0222a;--bad-soft:#fbe4e4;--gone:#5f6875;--gone-soft:#e7eaee}
+@media (prefers-color-scheme: dark){:root{--bg:#0e131a;--surface:#151c25;--ink:#e6ebf1;--ink-2:#a9b4c2;--ink-3:#8390a1;--line:#29343f;--accent:#8e9dff;--accent-ink:#0e131a;--accent-soft:#222b52;--ok:#63cf88;--ok-soft:#15301f;--warn:#e5b45b;--warn-soft:#332714;--bad:#ff8b8b;--bad-soft:#3a1b1d;--gone:#9aa4b1;--gone-soft:#242c36}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+a{color:var(--accent)}a:hover{text-decoration:underline}
+.wrap{max-width:880px;margin:0 auto;padding:20px 20px 56px}
+.crumb{font-size:13px;color:var(--ink-3)}.crumb a{color:var(--ink-2)}
+.kicker{font-size:13px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-2);margin:16px 0 6px}
+h1{font-size:33px;line-height:1.18;margin:0 0 8px}h2{font-size:19px;margin:0 0 10px;padding-top:22px;border-top:1px solid var(--line)}
+section{margin-top:26px}
+.orig{color:var(--ink-2);font-size:17px;margin:0 0 10px}
+.idline{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;color:var(--ink-3)}
+dl.facts{display:grid;grid-template-columns:190px 1fr;gap:5px 16px;margin:18px 0 0;padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+dl.facts dt{color:var(--ink-3);font-size:14px}dl.facts dd{margin:0;overflow-wrap:anywhere}
+.tag{display:inline-block;background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:2px 10px;font-size:13px;margin:0 6px 6px 0}
+.pill{display:inline-block;border-radius:999px;padding:2px 10px;font-size:13px;font-weight:600;margin-right:8px}
+.p-inforce{background:var(--ok-soft);color:var(--ok)}.p-published{background:var(--accent-soft);color:var(--accent)}
+.p-draft{background:var(--accent-soft);color:var(--accent)}.p-gone{background:var(--gone-soft);color:var(--gone)}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px}
+.muted{color:var(--ink-3);font-size:14px}
+.flag{border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:6px;padding:10px 12px;margin:8px 0;background:var(--surface)}
+.flag-warn{border-left-color:var(--warn)}
+.file{border:1px solid var(--line);border-radius:6px;padding:10px 12px;margin:8px 0;background:var(--surface)}
+.verify{display:flex;gap:14px;align-items:baseline;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px}
+.verify .big{font-size:30px;font-weight:700;color:var(--accent)}
+.verify .vm{color:var(--ink-3);font-size:13px}.verify .vn{margin-top:6px;font-size:14px;color:var(--ink-2)}
+ol.hist{margin:0;padding-left:18px}ol.hist li{margin:0 0 10px}ol.hist .hd{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;color:var(--ink-3);margin-right:8px}
+ol.hist .hm{display:block;color:var(--ink-3);font-size:12px;margin-top:2px}
+pre.cite{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px;white-space:pre-wrap;overflow-wrap:anywhere;font:13.5px/1.5 ui-monospace,Menlo,Consolas,monospace;margin:0}
+footer{margin-top:44px;padding-top:14px;border-top:1px solid var(--line);color:var(--ink-3);font-size:13px}
+"""
+
+
+def _record_page(r, db, hist, questions, reverse_rel, slugmap):
+    v = r.get("verification") or {}
+    lc = r.get("local_copy") or {}
+    ev = r.get("english_version") or {}
+    meta = db.get("meta") or {}
+    rid = r["id"]
+    slug = slugmap[rid]
+    page_url = "%s/records/%s.html" % (SPACE_URL, slug)
+    title = r.get("title") or rid
+    desc = r.get("summary") or "%s: official AI safety and AI regulation instruments." % NAME
+    if len(desc) > 155:
+        desc = desc[:152].rstrip() + "…"
+
+    def fact(label, value):
+        if not value:
+            return ""
+        return '    <dt>%s</dt><dd>%s</dd>\n' % (_esc(label), _esc(value))
+
+    # --- kicker + title
+    status = r.get("status") or ""
+    sclass = {"In force": "p-inforce", "Partially in force": "p-inforce",
+              "Published (non-binding, current)": "p-published",
+              "Adopted, not yet in force": "p-published"}.get(status, "p-draft" if status == "Draft / proposed" else "p-gone")
+    body = []
+    body.append('  <p class="kicker"><span class="pill %s">%s</span>%s · %s</p>\n' %
+                (sclass, _esc(status), _esc(r.get("legal_force") or ""), _esc(r.get("instrument_type") or "")))
+    body.append("  <h1>%s</h1>\n" % _esc(title))
+    if r.get("original_title"):
+        body.append('  <p class="orig">%s</p>\n' % _esc(r["original_title"]))
+    idline = "Record %s" % rid + ((" · %s" % r["official_identifier"]) if r.get("official_identifier") else "")
+    body.append('  <p class="idline">%s</p>\n' % _esc(idline))
+
+    facts = (fact("Issued by", r.get("issuing_body")) + fact("Jurisdiction", r.get("jurisdiction")) +
+             fact("Level · region", ("%s · %s" % (r.get("jurisdiction_level"), r.get("region"))) if r.get("jurisdiction_level") else None) +
+             (fact("Country", r.get("country")) if r.get("jurisdiction_level") == "Sub-national" and r.get("country") else "") +
+             fact("Published / adopted", r.get("date_published")) + fact("In force", r.get("date_in_force")) +
+             fact("Last updated", r.get("date_last_updated")) + fact("Language", r.get("language")) +
+             fact("Official identifier", r.get("official_identifier")))
+    if facts:
+        body.append('  <dl class="facts">\n' + facts + "  </dl>\n")
+
+    body.append('  <section><h2>Summary</h2><p>%s</p></section>\n' % _esc(r.get("summary") or ""))
+
+    # language note, same rule as the app
+    lang = r.get("language") or ""
+    english_original = bool(re.match(r"^All 24 official EU languages", lang)) or \
+        any(x.strip().lower() == "english" for x in lang.split(","))
+    kind = ev.get("kind")
+    if kind != "authentic" and not english_original:
+        link = " <a href=\"%s\">Open it</a>." % _esc(ev["url"]) if ev.get("url") else "."
+        if kind == "government translation":
+            t = "English translation by %s%s The %s text is authoritative." % (_esc(ev.get("by") or "a public body"), link, _esc(lang or "original-language"))
+        elif kind == "third-party translation":
+            t = "English translation by %s, not by a public body%s The %s text is authoritative." % (_esc(ev.get("by") or "a third party"), link, _esc(lang or "original-language"))
+        elif kind == "none found":
+            t = "No English version of this instrument was found. The English title and the summary are the register's own, written from the sources below; for the exact wording use the %s text." % _esc(lang or "original-language")
+        else:
+            t = "No English version is recorded for this record yet. The English title may be the register's own rendering, and the summary was written from the sources below; for the exact wording use the %s text." % _esc(lang or "original-language")
+        body.append('  <section><h2>Language</h2><p>%s</p></section>\n' % t)
+
+    if r.get("safety_topics"):
+        tags = "".join('<span class="tag">%s</span>' % _esc(t) for t in r["safety_topics"])
+        body.append('  <section><h2>Safety topics</h2>%s</section>\n' % tags)
+
+    if r.get("scope_note"):
+        body.append('  <section><h2>Scope</h2><p><span class="pill p-published">Borderline scope</span> %s</p></section>\n' % _esc(r["scope_note"]))
+
+    qs = questions.get(rid) or []
+    if qs:
+        ps = "".join("<p>%s <a href=\"%s\">Issue #%s</a></p>" % (_esc(q.get("why") or ""), _esc(q.get("url") or REPO_URL + "/issues"), _esc(q.get("issue") or ""))
+                     for q in qs if q.get("url"))
+        body.append('  <section><h2>Open question</h2>%s<p class="muted">The record shows its last checked values until a maintainer decides; the decision is recorded in its history.</p></section>\n' % ps)
+
+    if r.get("notes"):
+        body.append('  <section><h2>Status notes</h2><p>%s</p></section>\n' % _esc(r["notes"]))
+
+    srcs = ""
+    if r.get("official_url"):
+        srcs += '<p><a href="%s" rel="noopener">Open the official source</a> <span class="mono">%s</span></p>\n' % (_esc(r["official_url"]), _esc(r["official_url"]))
+    if r.get("secondary_url"):
+        srcs += '<p>Secondary source: <a href="%s" rel="noopener">%s</a></p>\n' % (_esc(r["secondary_url"]), _esc(r["secondary_url"]))
+    if not srcs:
+        srcs = '<p class="muted">No official URL could be confirmed for this record.</p>\n'
+    body.append('  <section><h2>Sources</h2>%s</section>\n' % srcs)
+
+    # local copy
+    LC = {"archived": "Archived", "archived-review": "Archived, needs review", "partial": "Partial (secondary source only)",
+          "failed": "Download failed", "no-url": "No URL to archive", "not-attempted": "Not archived yet"}
+    lch = '<p><strong>%s.</strong> %s%s</p>\n' % (
+        LC.get(lc.get("status"), "Local copy"), _esc(lc.get("flag") or ""),
+        (" <span class=\"muted\">Last attempt %s</span>" % _when(lc.get("last_attempt"))) if lc.get("last_attempt") else "")
+    lcf = ""
+    for f in lc.get("files") or []:
+        link = ('<a href="%s/blob/main/%s" rel="noopener">%s</a>' % (ARCHIVE_URL, _esc(f.get("path") or ""), _esc(f.get("label") or f.get("role") or "Stored file"))) \
+            if f.get("in_archive_dataset") else ('<span>%s <span class="muted">(third-party copy, not published)</span></span>' % _esc(f.get("label") or f.get("role") or "Stored file"))
+        warn = ""
+        if f.get("warning"):
+            warn += '<p class="muted">Warning: %s</p>' % _esc(f["warning"])
+        if f.get("integrity") and f["integrity"] != "ok":
+            warn += '<p class="muted">Integrity check: %s</p>' % _esc(f["integrity"])
+        if f.get("redaction_note"):
+            warn += '<p class="muted">Published copy: %s. The SHA-256 above is the original file\'s.</p>' % _esc(f["redaction_note"])
+        lcf += ('<div class="file"><div>%s <span class="mono">%s</span></div>'
+                '<div class="muted">Retrieved %s</div><div class="mono">SHA-256 %s</div>%s</div>\n' % (
+                    link, _esc(f.get("path") or ""), _when(f.get("retrieved_at")), _esc(f.get("sha256") or ""), warn))
+    if lc.get("status") != "no-url":
+        body.append('  <section><h2>Local copy</h2><div class="flag">%s%s</div></section>\n' % (lch, lcf))
+
+    # verification
+    VLABEL = {"A": "The official source was fetched and confirms the title, date and status.",
+              "B": "Another official source confirms the title, date and status.",
+              "C": "Not confirmed on an official page; the record rests on secondary sources. Check it before citing."}
+    sc = v.get("second_check")
+    body.append('  <section><h2>Verification</h2><div class="verify"><span class="big">%s</span>'
+                '<div><div>%s <span class="vm">checked %s · %s</span></div>'
+                '<div class="vn">%s</div>%s</div></div></section>\n' % (
+                    _esc(v.get("level") or "?"), _esc(VLABEL.get(v.get("level"), "")),
+                    _esc(v.get("verified_on") or ""), _esc(v.get("method") or ""),
+                    _esc(v.get("note") or ""),
+                    ('<div class="vn"><strong>Second check:</strong> %s</div>' % _esc(sc)) if sc else ""))
+
+    # history, newest first
+    he = hist.get(rid) or []
+    if he:
+        def ht(e):
+            s = lambda val: ("–" if val in (None, "") else (val if isinstance(val, str) else json.dumps(val)))[:80]
+            kind = e.get("event")
+            if kind == "changed":
+                return "%s: %s → %s" % (e.get("field"), s(e.get("old")), s(e.get("new")))
+            return {"added": "Added to the register", "re-verified": "Re-verified against its sources, no change",
+                    "human-checked": "Checked by a human: %s" % s(e.get("new")),
+                    "scope-decision": "Scope decision: %s" % s(e.get("new")),
+                    "source-changed": "A stored source changed", "human-decision": "Maintainer decision"}.get(kind, kind or "")
+        rows = ""
+        for e in reversed(he):
+            who = e.get("tool") or ""
+            if e.get("model"):
+                who += " (%s)" % e["model"]
+            rows += ('<li><span class="hd">%s</span>%s%s'
+                     '<span class="hm">%s%s</span></li>\n' % (
+                         _esc(e.get("date") or ""), _esc(ht(e)),
+                         (' <span class="muted">— %s</span>' % _esc(e.get("reason"))) if e.get("reason") else "",
+                         _esc(e.get("run_id") or ""),
+                         ((" · " + who) if who else "")))
+        body.append('  <section><h2>History</h2><ol class="hist">%s</ol></section>\n' % rows)
+
+    # related records, both directions, as links to the static pages
+    fwd = [x.get("id") for x in (r.get("related") or []) if x.get("id") in slugmap and x.get("id") != rid]
+    seen = set(fwd)
+    rev = [x for x in (reverse_rel.get(rid) or []) if x not in seen and x in slugmap]
+    if fwd or rev:
+        byid = {x["id"]: x for x in db["records"]}
+        rows = "".join('<p><a href="%s.html">%s</a> <span class="muted">%s · %s</span></p>\n' % (
+            slugmap[i], _esc(byid[i].get("short_title") or byid[i].get("title") or i),
+            _esc(byid[i].get("jurisdiction") or ""), _esc(byid[i].get("status") or "")) for i in fwd + rev)
+        body.append('  <section><h2>Related records</h2>%s</section>\n' % rows)
+
+    body.append('  <section><h2>Citation</h2><pre class="cite">%s</pre></section>\n' % _esc(citation_text(r, meta)))
+
+    issue_q = urllib.parse.urlencode({"template": "suggest-instrument.yml",
+                                      "title": "News or correction: %s %s" % (rid, r.get("short_title") or r.get("title") or ""),
+                                      "record": rid, "url": r.get("official_url") or "",
+                                      "jurisdiction": re.sub(r"-\d+$", "", rid)})
+    improve = ('  <section><h2>Improve this record</h2><p>Know of an amendment, a status change or an error? '
+               '<a href="%s" target="_blank" rel="noopener">Report news or an error</a> on GitHub; the form opens with this record filled in.</p></section>\n' %
+               _esc(REPO_URL + "/issues/new?" + issue_q))
+    body.append(improve)
+
+    # JSON-LD
+    ld = {
+        "@context": "https://schema.org",
+        "@type": "GovernmentDocument",
+        "name": title,
+        "identifier": r.get("official_identifier") or rid,
+        "description": r.get("summary") or "",
+        "url": page_url,
+        "dateCreated": r.get("date_published"),
+        "dateModified": r.get("date_last_updated") or v.get("verified_on"),
+        "inLanguage": r.get("language"),
+        "isAccessibleForFree": True,
+        "about": r.get("safety_topics") or [],
+        "creator": {"@type": "Organization", "name": r.get("issuing_body") or NAME},
+    }
+    if r.get("official_url"):
+        ld["sourceUrl"] = r["official_url"]
+    ld2 = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Register", "item": SPACE_URL + "/"},
+        {"@type": "ListItem", "position": 2, "name": title, "item": page_url}]}
+    ld_text = json.dumps([ld, ld2], ensure_ascii=False, separators=(",", ":"))
+
+    head = [
+        "<!doctype html>",
+        '<html lang="en">',
+        "<head>",
+        '<meta charset="utf-8">',
+        '<meta name="viewport" content="width=device-width, initial-scale=1">',
+        "<title>%s (%s) · %s</title>" % (_esc(title), _esc(rid), _esc(NAME)),
+        '<meta name="description" content="%s">' % _esc(desc),
+        '<link rel="canonical" href="%s">' % _esc(page_url),
+        '<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">',
+        '<style>%s</style>' % RECORD_CSS,
+        '<meta property="og:type" content="article">',
+        '<meta property="og:site_name" content="%s">' % _esc(NAME),
+        '<meta property="og:title" content="%s">' % _esc("%s (%s)" % (title, rid)),
+        '<meta property="og:description" content="%s">' % _esc(desc),
+        '<meta property="og:url" content="%s">' % _esc(page_url),
+        '<meta property="og:image" content="%s/assets/og-image.png">' % SPACE_URL,
+        '<meta name="twitter:card" content="summary">',
+        '<meta name="twitter:title" content="%s">' % _esc("%s (%s)" % (title, rid)),
+        '<meta name="twitter:description" content="%s">' % _esc(desc),
+        '<script type="application/ld+json">%s</script>' % ld_text.replace("</", "<\\/"),
+        "</head>",
+        '<body>',
+        '<div class="wrap">',
+        '  <p class="crumb"><a href="../index.html">Every AI Policy Ever</a> · <a href="../index.html#%s">open in the interactive register</a></p>\n' % _esc(rid),
+    ]
+    tail = [
+        "  <footer>%s · version %s · snapshot %s · an AI-assisted extraction, verified %s (level %s) · "
+        "<a href=\"../index.html\">the interactive register</a> · <a href=\"%s\" rel=\"noopener\">the GitHub repository</a></footer>\n" % (
+            _esc(NAME), _esc(meta.get("version") or ""), _esc(meta.get("snapshot_date") or ""),
+            _esc(v.get("verified_on") or ""), _esc(v.get("level") or ""), _esc(REPO_URL)),
+        "</div>",
+        "</body>",
+        "</html>",
+    ]
+    return "\n".join(head) + "\n" + "\n".join(body) + "\n".join(tail) + "\n"
+
+
+def write_record_pages(db, root=ROOT):
+    """One static, no-JavaScript HTML page per record under records/, plus its sitemap."""
+    out = root / "records"
+    if out.is_dir():
+        for f in out.iterdir():  # a record may change its slug; the folder is fully generated
+            if f.suffix == ".html":
+                f.unlink()
+    hist = history_for_app(root)
+    questions = open_questions(root)
+    slugmap = _slugmap(db)
+    ids = set(slugmap)
+    reverse = {}
+    for r in db["records"]:
+        for x in r.get("related") or []:
+            if x.get("id") in ids and x["id"] != r["id"]:
+                reverse.setdefault(x["id"], []).append(r["id"])
+    out.mkdir(parents=True, exist_ok=True)
+    for r in db["records"]:
+        (out / (slugmap[r["id"]] + ".html")).write_text(
+            _record_page(r, db, hist, questions, reverse, slugmap), encoding="utf-8")
+    return len(db["records"])
+
+
+def write_sitemap(db, root=ROOT):
+    meta = db.get("meta") or {}
+    lastmod = meta.get("snapshot_date") or ""
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+             "  <!-- Generated by tools/build.py. -->"]
+
+    def url(line_loc):
+        return "  <url><loc>%s</loc>%s</url>" % (line_loc, ("<lastmod>%s</lastmod>" % lastmod) if lastmod else "")
+
+    lines.append(url(SPACE_URL + "/"))
+    byid = {r["id"]: r for r in db["records"]}
+    slugmap = _slugmap(db)
+    for rid in sorted(slugmap, key=lambda i: (byid[i].get("date_published") or "", i)):
+        lines.append(url("%s/records/%s.html" % (SPACE_URL, slugmap[rid])))
+    lines.append("</urlset>")
+    (root / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def write_sqlite(db, root=ROOT):
@@ -326,6 +682,8 @@ def save(db, root=ROOT):
     tmp.replace(root / "data" / "records.json")
     write_js(db, root)
     write_csv(db, root)
+    save.n_pages = write_record_pages(db, root)
+    write_sitemap(db, root)
     write_sqlite(db, root)
     write_history_md(root)
     write_readme(db, root)
@@ -351,6 +709,7 @@ def main():
     print("Built data/records.js, data/records.csv, data/register.sqlite%s from %d records." % (
         ", data/register.xlsx" if getattr(save, "xlsx_written", False) else " (no register.xlsx: pip install openpyxl)",
         len(db["records"])))
+    print("Built records/ (%d static pages) and sitemap.xml." % getattr(save, "n_pages", 0))
     print("Local copies: " + ", ".join("%s %d" % (k, counts[k]) for k in LOCAL_STATUSES if k in counts))
 
 

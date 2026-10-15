@@ -210,6 +210,7 @@ h1 { font-size: clamp(30px, 4.4vw, 46px); line-height: 1.04; letter-spacing: -.0
 .cite { display: grid; gap: 8px; }
 .cite textarea { width: 100%; min-height: 92px; resize: vertical; font-family: var(--font-mono); font-size: 12px; padding: 10px; border-radius: 6px; border: 1px solid var(--line); background: var(--surface-2); color: var(--ink); }
 .row-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.row-actions a.btn { color: var(--ink); text-decoration: none; }
 
 /* About */
 .about { padding-block: 28px 64px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 340px); gap: 40px; align-items: start; }

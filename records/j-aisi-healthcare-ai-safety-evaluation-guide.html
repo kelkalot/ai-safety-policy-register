@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guide to Evaluation Perspectives on AI Safety in the Healthcare Sector: Toward the Realization of Trustworthy AI (JP-11) · Every AI Policy Ever</title>
+<meta name="description" content="Sector guide by the Japan AI Safety Institute&#x27;s Healthcare Sub-Working Group that applies the ten evaluation perspectives of J-AISI&#x27;s Guide to Evaluatio…">
+<link rel="canonical" href="https://kelkalot-every-ai-policy-ever.static.hf.space/records/j-aisi-healthcare-ai-safety-evaluation-guide.html">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<style>
+:root{--bg:#f2f4f7;--surface:#ffffff;--ink:#111924;--ink-2:#455263;--ink-3:#6a7686;--line:#d5dce5;--accent:#2c43b0;--accent-ink:#fff;--accent-soft:#e3e7fa;--ok:#157a3a;--ok-soft:#e1f3e6;--warn:#8f5a00;--warn-soft:#fbefd6;--bad:#b0222a;--bad-soft:#fbe4e4;--gone:#5f6875;--gone-soft:#e7eaee}
+@media (prefers-color-scheme: dark){:root{--bg:#0e131a;--surface:#151c25;--ink:#e6ebf1;--ink-2:#a9b4c2;--ink-3:#8390a1;--line:#29343f;--accent:#8e9dff;--accent-ink:#0e131a;--accent-soft:#222b52;--ok:#63cf88;--ok-soft:#15301f;--warn:#e5b45b;--warn-soft:#332714;--bad:#ff8b8b;--bad-soft:#3a1b1d;--gone:#9aa4b1;--gone-soft:#242c36}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+a{color:var(--accent)}a:hover{text-decoration:underline}
+.wrap{max-width:880px;margin:0 auto;padding:20px 20px 56px}
+.crumb{font-size:13px;color:var(--ink-3)}.crumb a{color:var(--ink-2)}
+.kicker{font-size:13px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-2);margin:16px 0 6px}
+h1{font-size:33px;line-height:1.18;margin:0 0 8px}h2{font-size:19px;margin:0 0 10px;padding-top:22px;border-top:1px solid var(--line)}
+section{margin-top:26px}
+.orig{color:var(--ink-2);font-size:17px;margin:0 0 10px}
+.idline{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;color:var(--ink-3)}
+dl.facts{display:grid;grid-template-columns:190px 1fr;gap:5px 16px;margin:18px 0 0;padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+dl.facts dt{color:var(--ink-3);font-size:14px}dl.facts dd{margin:0;overflow-wrap:anywhere}
+.tag{display:inline-block;background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:2px 10px;font-size:13px;margin:0 6px 6px 0}
+.pill{display:inline-block;border-radius:999px;padding:2px 10px;font-size:13px;font-weight:600;margin-right:8px}
+.p-inforce{background:var(--ok-soft);color:var(--ok)}.p-published{background:var(--accent-soft);color:var(--accent)}
+.p-draft{background:var(--accent-soft);color:var(--accent)}.p-gone{background:var(--gone-soft);color:var(--gone)}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px}
+.muted{color:var(--ink-3);font-size:14px}
+.flag{border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:6px;padding:10px 12px;margin:8px 0;background:var(--surface)}
+.flag-warn{border-left-color:var(--warn)}
+.file{border:1px solid var(--line);border-radius:6px;padding:10px 12px;margin:8px 0;background:var(--surface)}
+.verify{display:flex;gap:14px;align-items:baseline;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px}
+.verify .big{font-size:30px;font-weight:700;color:var(--accent)}
+.verify .vm{color:var(--ink-3);font-size:13px}.verify .vn{margin-top:6px;font-size:14px;color:var(--ink-2)}
+ol.hist{margin:0;padding-left:18px}ol.hist li{margin:0 0 10px}ol.hist .hd{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;color:var(--ink-3);margin-right:8px}
+ol.hist .hm{display:block;color:var(--ink-3);font-size:12px;margin-top:2px}
+pre.cite{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px;white-space:pre-wrap;overflow-wrap:anywhere;font:13.5px/1.5 ui-monospace,Menlo,Consolas,monospace;margin:0}
+footer{margin-top:44px;padding-top:14px;border-top:1px solid var(--line);color:var(--ink-3);font-size:13px}
+</style>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Every AI Policy Ever">
+<meta property="og:title" content="Guide to Evaluation Perspectives on AI Safety in the Healthcare Sector: Toward the Realization of Trustworthy AI (JP-11)">
+<meta property="og:description" content="Sector guide by the Japan AI Safety Institute&#x27;s Healthcare Sub-Working Group that applies the ten evaluation perspectives of J-AISI&#x27;s Guide to Evaluatio…">
+<meta property="og:url" content="https://kelkalot-every-ai-policy-ever.static.hf.space/records/j-aisi-healthcare-ai-safety-evaluation-guide.html">
+<meta property="og:image" content="https://kelkalot-every-ai-policy-ever.static.hf.space/assets/og-image.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Guide to Evaluation Perspectives on AI Safety in the Healthcare Sector: Toward the Realization of Trustworthy AI (JP-11)">
+<meta name="twitter:description" content="Sector guide by the Japan AI Safety Institute&#x27;s Healthcare Sub-Working Group that applies the ten evaluation perspectives of J-AISI&#x27;s Guide to Evaluatio…">
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"GovernmentDocument","name":"Guide to Evaluation Perspectives on AI Safety in the Healthcare Sector: Toward the Realization of Trustworthy AI","identifier":"JP-11","description":"Sector guide by the Japan AI Safety Institute's Healthcare Sub-Working Group that applies the ten evaluation perspectives of J-AISI's Guide to Evaluation Perspectives on AI Safety to healthcare. It covers AI providers whose products build on pre-trained text-generating LLMs and are not Software as a Medical Device, and for each perspective, from control of toxic output and prevention of misinformation to data quality and verifiability, sets out healthcare-specific risks, actual cases and example evaluation items, including the risk that such products are used as de facto medical devices. It explains evaluation in five phases from product design to deployment and operation, with a checklist.","url":"https://kelkalot-every-ai-policy-ever.static.hf.space/records/j-aisi-healthcare-ai-safety-evaluation-guide.html","dateCreated":"2026-04-03","dateModified":"2026-10-14","inLanguage":"Japanese, English","isAccessibleForFree":true,"about":["evaluation & testing","safety institute","general-purpose / frontier AI"],"creator":{"@type":"Organization","name":"Japan AI Safety Institute (J-AISI), Healthcare Sub-Working Group of the Business Demonstration Working Group"},"sourceUrl":"https://aisi.go.jp/output/output_information/260402/"},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Register","item":"https://kelkalot-every-ai-policy-ever.static.hf.space/"},{"@type":"ListItem","position":2,"name":"Guide to Evaluation Perspectives on AI Safety in the Healthcare Sector: Toward the Realization of Trustworthy AI","item":"https://kelkalot-every-ai-policy-ever.static.hf.space/records/j-aisi-healthcare-ai-safety-evaluation-guide.html"}]}]</script>
+</head>
+<body>
+<div class="wrap">
+  <p class="crumb"><a href="../index.html">Every AI Policy Ever</a> · <a href="../index.html#JP-11">open in the interactive register</a></p>
+
+  <p class="kicker"><span class="pill p-published">Published (non-binding, current)</span>Non-binding · Guidelines / framework</p>
+
+  <h1>Guide to Evaluation Perspectives on AI Safety in the Healthcare Sector: Toward the Realization of Trustworthy AI</h1>
+
+  <p class="orig">ヘルスケア領域におけるAIセーフティ評価観点ガイド</p>
+
+  <p class="idline">Record JP-11</p>
+
+  <dl class="facts">
+    <dt>Issued by</dt><dd>Japan AI Safety Institute (J-AISI), Healthcare Sub-Working Group of the Business Demonstration Working Group</dd>
+    <dt>Jurisdiction</dt><dd>Japan</dd>
+    <dt>Level · region</dt><dd>National · East Asia</dd>
+    <dt>Published / adopted</dt><dd>2026-04-03</dd>
+    <dt>Language</dt><dd>Japanese, English</dd>
+  </dl>
+
+  <section><h2>Summary</h2><p>Sector guide by the Japan AI Safety Institute&#x27;s Healthcare Sub-Working Group that applies the ten evaluation perspectives of J-AISI&#x27;s Guide to Evaluation Perspectives on AI Safety to healthcare. It covers AI providers whose products build on pre-trained text-generating LLMs and are not Software as a Medical Device, and for each perspective, from control of toxic output and prevention of misinformation to data quality and verifiability, sets out healthcare-specific risks, actual cases and example evaluation items, including the risk that such products are used as de facto medical devices. It explains evaluation in five phases from product design to deployment and operation, with a checklist.</p></section>
+
+  <section><h2>Safety topics</h2><span class="tag">evaluation &amp; testing</span><span class="tag">safety institute</span><span class="tag">general-purpose / frontier AI</span></section>
+
+  <section><h2>Status notes</h2><p>J-AISI&#x27;s list of outputs dates the release 2 April 2026; the Japanese and English covers are dated 3 April 2026. J-AISI also published summaries, Markdown versions of chapters 3 and 4 for use with AI services, and, in Japanese, practical examples of AI safety evaluation with prompts and agent skills. Products that qualify as Software as a Medical Device are left to the approval and certification framework of the Pharmaceuticals and Medical Devices Act. The guide is a living document, to be updated as generative AI and regulation evolve.</p></section>
+
+  <section><h2>Sources</h2><p><a href="https://aisi.go.jp/output/output_information/260402/" rel="noopener">Open the official source</a> <span class="mono">https://aisi.go.jp/output/output_information/260402/</span></p>
+</section>
+
+  <section><h2>Local copy</h2><div class="flag"><p><strong>Archived.</strong>  <span class="muted">Last attempt 2026-10-14 13:11:03 UTC</span></p>
+<div class="file"><div><span>Official source <span class="muted">(third-party copy, not published)</span></span> <span class="mono">archive/_runs/2026-10-14-discover-leads-2026-10-14/C016/2026-10-14/official.html</span></div><div class="muted">Retrieved 2026-10-14 13:11:17 UTC</div><div class="mono">SHA-256 951778896a6fbaa2c4f7f426bf53d9ac4941d1fe5fc3e1c23bc2d3330ec3f2b8</div></div>
+<div class="file"><div><span>Linked document (PDF) <span class="muted">(third-party copy, not published)</span></span> <span class="mono">archive/_runs/2026-10-14-discover-leads-2026-10-14/C016/2026-10-14/document-1.pdf</span></div><div class="muted">Retrieved 2026-10-14 13:11:35 UTC</div><div class="mono">SHA-256 b86d121c089ebf57a36ccdabfa1e18f3f9d7728e7c21eda6b6484c42a430d5c7</div></div>
+<div class="file"><div><span>Linked document (PDF) <span class="muted">(third-party copy, not published)</span></span> <span class="mono">archive/_runs/2026-10-14-discover-leads-2026-10-14/C016/2026-10-14/document-2.pdf</span></div><div class="muted">Retrieved 2026-10-14 13:11:39 UTC</div><div class="mono">SHA-256 e9daae8da0d5f86bb330dd6a2e65f701447bb02e907ddd26a486c2e418894c5f</div></div>
+</div></section>
+
+  <section><h2>Verification</h2><div class="verify"><span class="big">A</span><div><div>The official source was fetched and confirms the title, date and status. <span class="vm">checked 2026-10-14 · official-url-fetched</span></div><div class="vn">Stored: J-AISI&#x27;s bilingual release page on aisi.go.jp, the Japanese guide version 1.0 (118 pages, 令和 8 年 4 月 3 日), the English guide (98 pages) and English summary, both dated April 3, 2026, and J-AISI&#x27;s list of Information outputs, which dates the release 2 April 2026. They confirm the title, the issuer, the scope and the content; the summary is checked against the Japanese text. date_published follows the date on the documents; the listing date is in notes. The English edition carries no translation notice and is listed beside the Japanese edition, so it is treated as an authentic text.</div><div class="vn"><strong>Second check:</strong> Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 6 field(s) supported.</div></div></div></section>
+
+  <section><h2>History</h2><ol class="hist"><li><span class="hd">2026-10-14</span>Added to the register <span class="muted">— found in pipeline run 2026-10-14-discover-leads-2026-10-14, candidate C016 (JP/ai-bodies)</span><span class="hm">2026-10-14-discover-leads-2026-10-14 · Claude Code (claude-opus-5-5)</span></li>
+</ol></section>
+
+  <section><h2>Related records</h2><p><a href="jp-aisi-evaluation-redteaming-guides.html">J-AISI Evaluation and Red Teaming Guides</a> <span class="muted">Japan · Published (non-binding, current)</span></p>
+<p><a href="jp-aisi.html">Japan AISI</a> <span class="muted">Japan · Published (non-binding, current)</span></p>
+</section>
+
+  <section><h2>Citation</h2><pre class="cite">Japan AI Safety Institute (J-AISI), Healthcare Sub-Working Group of the Business Demonstration Working Group. Guide to Evaluation Perspectives on AI Safety in the Healthcare Sector: Toward the Realization of Trustworthy AI. 2026-04-03. https://aisi.go.jp/output/output_information/260402/. Status: Published (non-binding, current); verified 2026-10-14 (level A). Local copy archive/_runs/2026-10-14-discover-leads-2026-10-14/C016/2026-10-14/official.html retrieved 2026-10-14 13:11:17 UTC, SHA-256 951778896a6fbaa2c4f7f426bf53d9ac4941d1fe5fc3e1c23bc2d3330ec3f2b8. Every AI Policy Ever, version 1.10.2 (snapshot 2026-10-12), record JP-11.</pre></section>
+
+  <section><h2>Improve this record</h2><p>Know of an amendment, a status change or an error? <a href="https://github.com/kelkalot/every-ai-policy-ever/issues/new?template=suggest-instrument.yml&amp;title=News+or+correction%3A+JP-11+J-AISI+Healthcare+AI+Safety+Evaluation+Guide&amp;record=JP-11&amp;url=https%3A%2F%2Faisi.go.jp%2Foutput%2Foutput_information%2F260402%2F&amp;jurisdiction=JP" target="_blank" rel="noopener">Report news or an error</a> on GitHub; the form opens with this record filled in.</p></section>
+  <footer>Every AI Policy Ever · version 1.10.2 · snapshot 2026-10-12 · an AI-assisted extraction, verified 2026-10-14 (level A) · <a href="../index.html">the interactive register</a> · <a href="https://github.com/kelkalot/every-ai-policy-ever" rel="noopener">the GitHub repository</a></footer>
+
+</div>
+</body>
+</html>
