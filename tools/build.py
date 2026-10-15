@@ -479,6 +479,47 @@ def _record_page(r, db, hist, questions, reverse_rel, slugmap):
     return "\n".join(head) + "\n" + "\n".join(body) + "\n".join(tail) + "\n"
 
 
+def _records_index(db, slugmap):
+    """records/index.html: a static list of every record, so /records/ is a page, not a dead end."""
+    meta = db.get("meta") or {}
+    page_url = SPACE_URL + "/records/"
+    recs = sorted(db["records"], key=lambda r: (r.get("date_published") or "", r["id"]), reverse=True)
+    rows = "".join(
+        '<p><a href="%s.html">%s</a> <span class="muted">%s · %s · %s</span></p>\n' % (
+            slugmap[r["id"]], _esc(r.get("short_title") or r.get("title") or r["id"]),
+            _esc(r["id"]), _esc(r.get("jurisdiction") or ""), _esc(r.get("date_published") or ""))
+        for r in recs)
+    return "\n".join([
+        "<!doctype html>",
+        '<html lang="en">',
+        "<head>",
+        '<meta charset="utf-8">',
+        '<meta name="viewport" content="width=device-width, initial-scale=1">',
+        "<title>All records · %s</title>" % _esc(NAME),
+        '<meta name="description" content="All %d records in %s: official governmental and intergovernmental AI safety and AI regulation instruments, newest first."' % (len(recs), NAME),
+        '<link rel="canonical" href="%s">' % _esc(page_url),
+        '<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">',
+        "<style>%s</style>" % RECORD_CSS,
+        '<meta property="og:type" content="website">',
+        '<meta property="og:site_name" content="%s">' % _esc(NAME),
+        '<meta property="og:title" content="All records · %s">' % _esc(NAME),
+        '<meta property="og:description" content="All %d records, newest first." % len(recs)',
+        '<meta property="og:url" content="%s">' % _esc(page_url),
+        '<meta property="og:image" content="%s/assets/og-image.png">' % SPACE_URL,
+        "</head>",
+        "<body>",
+        '<div class="wrap">',
+        '  <p class="crumb"><a href="../index.html">Every AI Policy Ever</a> · <a href="../index.html">open in the interactive register</a></p>',
+        '  <h1>All records <span style="color:var(--ink-3);font-size:20px">(%d)</span></h1>\n' % len(recs),
+        '  <p class="muted">Every instrument in the register, newest first. Snapshot %s · version %s. Use the <a href="../index.html">interactive register</a> to search and filter.</p>\n' % (_esc(meta.get("snapshot_date") or ""), _esc(meta.get("version") or "")),
+        rows,
+        '  <footer>%s · version %s · snapshot %s</footer>\n' % (_esc(NAME), _esc(meta.get("version") or ""), _esc(meta.get("snapshot_date") or "")),
+        "</div>",
+        "</body>",
+        "</html>",
+    ]) + "\n"
+
+
 def write_record_pages(db, root=ROOT):
     """One static, no-JavaScript HTML page per record under records/, plus its sitemap."""
     out = root / "records"
@@ -499,6 +540,7 @@ def write_record_pages(db, root=ROOT):
     for r in db["records"]:
         (out / (slugmap[r["id"]] + ".html")).write_text(
             _record_page(r, db, hist, questions, reverse, slugmap), encoding="utf-8")
+    (out / "index.html").write_text(_records_index(db, slugmap), encoding="utf-8")
     return len(db["records"])
 
 
@@ -513,6 +555,7 @@ def write_sitemap(db, root=ROOT):
         return "  <url><loc>%s</loc>%s</url>" % (line_loc, ("<lastmod>%s</lastmod>" % lastmod) if lastmod else "")
 
     lines.append(url(SPACE_URL + "/"))
+    lines.append(url(SPACE_URL + "/records/"))
     byid = {r["id"]: r for r in db["records"]}
     slugmap = _slugmap(db)
     for rid in sorted(slugmap, key=lambda i: (byid[i].get("date_published") or "", i)):
