@@ -565,7 +565,7 @@
       historySection(r) +
       (rel ? '<div class="sec"><h3>Related records</h3><div class="related">' + rel + "</div></div>" : "") +
       improveSection(r) +
-      '<div class="sec cite"><h3>Citation</h3><textarea id="citeText" readonly aria-label="Citation text">' + esc(citation(r)) + '</textarea><div class="row-actions"><button class="btn" id="copyCite">Copy citation</button><button class="btn" id="copyUrl"' + (r.official_url ? "" : " disabled") + ">Copy official URL</button></div></div>";
+      '<div class="sec cite"><h3>Citation</h3><textarea id="citeText" readonly aria-label="Citation text">' + esc(citation(r)) + '</textarea><div class="row-actions"><button class="btn" id="copyCite">Copy citation</button><button class="btn" id="copyUrl"' + (r.official_url ? "" : " disabled") + ">Copy official URL</button><a class=\"btn\" href=\"records/" + esc(r.slug) + ".html\" target=\"_blank\" rel=\"noopener\">Permanent page</a></div></div>";
     $("#drawer").hidden = false; $("#scrim").hidden = false;
     $("#dBody").scrollTop = 0;
     var idx = current.findIndex(function (x) { return x.id === id; });
