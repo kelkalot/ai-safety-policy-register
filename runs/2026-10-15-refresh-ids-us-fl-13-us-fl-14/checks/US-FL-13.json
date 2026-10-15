@@ -1,0 +1,67 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-15",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "cand_id": "US-FL-13",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "scope_note": {
+   "verdict": "supported"
+  },
+  "verification.note": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "judgment-differs",
+   "why": "The quote is the rule file date (filing with the Department of State), not the Board's adoption date (16 Sep 2026, press release). The filing date is a defensible issue date for the final text, so the value stands; the notes give both dates."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "By 1 Jul 2027 each district school board and charter school governing board must amend its internet safety policy on AI instructional tools",
+   "verdict": "supported",
+   "locator": "FAR Vol 52/166, 26 Aug 2026, rule text (3)(e)"
+  },
+  {
+   "claim": "Adult supervision, logs and a shut-off for agentic AI",
+   "verdict": "supported",
+   "locator": "FAR Vol 52/182, 18 Sep 2026, notice of change, (3)(e)3"
+  },
+  {
+   "claim": "Incident reports to the Department",
+   "verdict": "supported",
+   "locator": "FAR Vol 52/182, (3)(e)18"
+  },
+  {
+   "claim": "No use of student data to train commercial AI models; AI simulating friendship barred",
+   "verdict": "supported",
+   "locator": "FAR Vol 52/166, (3)(e)15 and (3)(f)"
+  }
+ ],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Sector-wide rule of a state education board binding all school districts and charter boards; matches the 15 Oct 2026 precedent on sector-wide rules. The extractor's scope_note is kept."
+ },
+ "overall": "accept",
+ "note": "Rule page and final notice (flrules.org) show effective date 29 Oct 2026, file date 9 Oct 2026; today is 15 Oct 2026, so Adopted, not yet in force is right. Summary and notes claims found in the stored FAR issues of 26 Aug and 18 Sep 2026; adopted Word file has no text layer, so adopted text is not independently quoted. One targeted search on official sites found no later amendment, repeal or challenge. date_published uses the filing date (judgment call)."
+}

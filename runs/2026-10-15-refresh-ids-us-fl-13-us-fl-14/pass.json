@@ -1,0 +1,215 @@
+{
+ "provenance": {
+  "date": "2026-10-15",
+  "agent": "Claude Code",
+  "model": "claude-opus-5-5",
+  "scope": "pipeline run 2026-10-15-refresh-ids-us-fl-13-us-fl-14 (refresh: ids:US-FL-13,US-FL-14)",
+  "run_id": "2026-10-15-refresh-ids-us-fl-13-us-fl-14",
+  "stages": {
+   "collect": {
+    "tool": null,
+    "model": null,
+    "date": null
+   },
+   "extract": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-15"
+   },
+   "blind": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-15"
+   },
+   "check": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5",
+    "date": "2026-10-15"
+   }
+  }
+ },
+ "records": [],
+ "updates": [
+  {
+   "scope_note": "Borderline as a rule on AI use in one public sector: the State Board of Education binds every Florida school district and charter school governing board to adopt AI safety policies. Included because rules that a government body sets for a whole sector are in scope.",
+   "id": "US-FL-13",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-15",
+    "method": "official-url-fetched",
+    "note": "Stored in this run, all from official hosts. From flrules.org (the Florida Administrative Code and Register site of the Florida Department of State): the rule page for 6A-1.0957, unchanged since 14 Oct 2026, with the effective date of the latest adopted version and the notice history; the final notice 31488060, with the rule file date (9 Oct 2026) and the effective date (29 Oct 2026); the Florida Administrative Register issues of 26 Aug 2026 (notice of proposed rule with the full proposed text and the hearing date of 16 Sep 2026) and 18 Sep 2026 (notice of change made by the Board); and the text of the rule as adopted, a Word file that has no text layer and so cannot be quoted. From fldoe.org: the Department of Education press release of 16 Sep 2026 saying that the State Board adopted the AI rules that day. The summary follows the proposed text as changed by the notice of change; a plain-text reading of the adopted Word file shows the same provisions.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-15: 8 field(s) supported."
+   }
+  },
+  {
+   "scope_note": "Borderline as a rule on AI use in one public sector: the State Board of Education requires the trustees of every Florida College System institution to adopt AI policies. Included because rules that a government body sets for a whole sector are in scope; the policies each college adopts for itself are not.",
+   "id": "US-FL-14",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-15",
+    "method": "official-url-fetched",
+    "note": "Stored in this run, all from official hosts. From flrules.org (the Florida Administrative Code and Register site of the Florida Department of State): the rule page for 6A-14.0719, unchanged since 14 Oct 2026, with the effective date and the notice history (development notice of 27 May 2026, proposed rule of 25 Aug 2026, no notice of change); the final notice 31445186, with the rule file date (30 Sep 2026) and the effective date (20 Oct 2026); the Florida Administrative Register issue of 25 Aug 2026 with the notice of proposed rule, the full text and the hearing date of 16 Sep 2026; and the text of the rule as adopted, a Word file that has no text layer and so cannot be quoted. From fldoe.org: the Department of Education press release of 16 Sep 2026 saying that the State Board adopted the AI rules, including those for Florida College System institutions, that day. The summary follows the proposed text, which the rule page shows was adopted without a notice of change; a plain-text reading of the adopted Word file shows the same provisions.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-15: 8 field(s) supported."
+   }
+  }
+ ],
+ "history_context": {
+  "US-FL-13": {
+   "reason": "pipeline run 2026-10-15-refresh-ids-us-fl-13-us-fl-14 (refresh), candidate US-FL-13",
+   "fields": {
+    "scope_note": {
+     "reason": "precedent of 15 Oct 2026 in pipeline/scope-decisions.md (Institutions and sector-wide rules): a state education department's rule for all school districts is in, with a scope_note",
+     "evidence": []
+    },
+    "verification.level": {
+     "reason": "level computed from the evidence by tools/pipeline.py",
+     "evidence": []
+    }
+   },
+   "confirmed": [
+    "title",
+    "date_published",
+    "status",
+    "date_in_force",
+    "official_identifier",
+    "issuing_body",
+    "legal_force"
+   ],
+   "evidence": [
+    {
+     "field": "title",
+     "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/2026-10-14/official.html",
+     "sha256": "2ba17953a0b18d3107bda5d1c5b4657a39aa4f554b209a314e6066721b122c45",
+     "locator": "rule page heading",
+     "quote": "Rule: 6A-1.0957"
+    },
+    {
+     "field": "date_published",
+     "file": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-13/extra-827310769e/2026-10-15/official.html",
+     "sha256": "72fadff8b32ff5f9e266342e03d4cec722c671f8c1974c3c95e709d4ed60c963",
+     "locator": "Notice: 31488060, Overview",
+     "quote": "RULE FILE DATE: 10/9/2026"
+    },
+    {
+     "field": "status",
+     "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/2026-10-14/official.html",
+     "sha256": "2ba17953a0b18d3107bda5d1c5b4657a39aa4f554b209a314e6066721b122c45",
+     "locator": "Latest version of the final adopted rule",
+     "quote": "Latest version of the final adopted rule presented in Florida Administrative Code (FAC): Effective Date: 10/29/2026"
+    },
+    {
+     "field": "date_in_force",
+     "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/2026-10-14/official.html",
+     "sha256": "2ba17953a0b18d3107bda5d1c5b4657a39aa4f554b209a314e6066721b122c45",
+     "locator": "Latest version of the final adopted rule",
+     "quote": "Effective Date: 10/29/2026"
+    },
+    {
+     "field": "official_identifier",
+     "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/2026-10-14/official.html",
+     "sha256": "2ba17953a0b18d3107bda5d1c5b4657a39aa4f554b209a314e6066721b122c45",
+     "locator": "page title",
+     "quote": "6A-1.0957 : Internet Safety Policy - Florida Administrative Rules, Law, Code, Register - FAC"
+    },
+    {
+     "field": "issuing_body",
+     "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/2026-10-14/official.html",
+     "sha256": "2ba17953a0b18d3107bda5d1c5b4657a39aa4f554b209a314e6066721b122c45",
+     "locator": "rule page heading",
+     "quote": "Department: DEPARTMENT OF EDUCATION"
+    },
+    {
+     "field": "legal_force",
+     "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/2026-10-14/official.html",
+     "sha256": "2ba17953a0b18d3107bda5d1c5b4657a39aa4f554b209a314e6066721b122c45",
+     "locator": "Latest version of the final adopted rule",
+     "quote": "Latest version of the final adopted rule presented in Florida Administrative Code (FAC)"
+    }
+   ],
+   "cand_id": "US-FL-13"
+  },
+  "US-FL-14": {
+   "reason": "pipeline run 2026-10-15-refresh-ids-us-fl-13-us-fl-14 (refresh), candidate US-FL-14",
+   "fields": {
+    "scope_note": {
+     "reason": "precedent of 15 Oct 2026 in pipeline/scope-decisions.md (Institutions and sector-wide rules): a state board's regulation that binds all public colleges is in, with a scope_note",
+     "evidence": []
+    },
+    "verification.level": {
+     "reason": "level computed from the evidence by tools/pipeline.py",
+     "evidence": []
+    }
+   },
+   "confirmed": [
+    "title",
+    "date_published",
+    "status",
+    "date_in_force",
+    "official_identifier",
+    "issuing_body",
+    "legal_force"
+   ],
+   "evidence": [
+    {
+     "field": "title",
+     "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/2026-10-14/official.html",
+     "sha256": "1b31862a37ff25dd2ab33bed64d55831527dad853627bdbefb96d412426055ba",
+     "locator": "rule page heading",
+     "quote": "Rule: 6A-14.0719"
+    },
+    {
+     "field": "date_published",
+     "file": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-61c023c79c/2026-10-15/official.html",
+     "sha256": "2dfd38e61d74080ba32f95c235df77a7dfc2b3ac898211f4490ea7b236be0d57",
+     "locator": "Notice: 31445186, Overview",
+     "quote": "RULE FILE DATE: 9/30/2026"
+    },
+    {
+     "field": "status",
+     "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/2026-10-14/official.html",
+     "sha256": "1b31862a37ff25dd2ab33bed64d55831527dad853627bdbefb96d412426055ba",
+     "locator": "Latest version of the final adopted rule",
+     "quote": "Latest version of the final adopted rule presented in Florida Administrative Code (FAC): Effective Date: 10/20/2026"
+    },
+    {
+     "field": "date_in_force",
+     "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/2026-10-14/official.html",
+     "sha256": "1b31862a37ff25dd2ab33bed64d55831527dad853627bdbefb96d412426055ba",
+     "locator": "Latest version of the final adopted rule",
+     "quote": "Effective Date: 10/20/2026"
+    },
+    {
+     "field": "official_identifier",
+     "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/2026-10-14/official.html",
+     "sha256": "1b31862a37ff25dd2ab33bed64d55831527dad853627bdbefb96d412426055ba",
+     "locator": "page title",
+     "quote": "6A-14.0719 : Artificial Intelligence (A.I.) Policies in Florida College System Institutions - Florida Administrative Rules, Law, Code, Register - FAC"
+    },
+    {
+     "field": "issuing_body",
+     "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/2026-10-14/official.html",
+     "sha256": "1b31862a37ff25dd2ab33bed64d55831527dad853627bdbefb96d412426055ba",
+     "locator": "rule page heading",
+     "quote": "Department: DEPARTMENT OF EDUCATION"
+    },
+    {
+     "field": "legal_force",
+     "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/2026-10-14/official.html",
+     "sha256": "1b31862a37ff25dd2ab33bed64d55831527dad853627bdbefb96d412426055ba",
+     "locator": "Latest version of the final adopted rule",
+     "quote": "Latest version of the final adopted rule presented in Florida Administrative Code (FAC)"
+    }
+   ],
+   "cand_id": "US-FL-14"
+  }
+ },
+ "assigned": {
+  "US-FL-13": "US-FL-13",
+  "US-FL-14": "US-FL-14"
+ },
+ "not_added": [],
+ "needs_human": [],
+ "questions": [],
+ "unchecked": [],
+ "summary": "0 new, 2 update(s), 0 not added, 0 need a human, 0 merged with an open question, 0 not ready"
+}

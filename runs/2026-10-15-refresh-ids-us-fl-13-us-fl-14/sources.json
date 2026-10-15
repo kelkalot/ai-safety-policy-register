@@ -1,0 +1,510 @@
+{
+ "US-FL-13": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-15T10:20:03Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/2026-10-14/official.html",
+     "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-1.0957",
+     "final_url": "https://flrules.org/gateway/ruleNo.asp?id=6A-1.0957",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 17505,
+     "sha256": "2ba17953a0b18d3107bda5d1c5b4657a39aa4f554b209a314e6066721b122c45",
+     "text_sha256": "754deb3d1f4e95f11aa758d0d6c21116ec929da5bc2de7692fac02388cb29668",
+     "retrieved_at": "2026-10-14T15:57:40Z",
+     "last_checked": "2026-10-15T10:20:12Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-1.0957",
+     "attempted_at": "2026-10-14T15:57:40Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-1.0957",
+     "attempted_at": "2026-10-14T16:39:07Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-1.0957",
+     "attempted_at": "2026-10-15T10:20:12Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.flrules.org/Gateway/View_notice.asp?id=31488060": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-15T10:37:25Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-13/extra-827310769e/2026-10-15/official.html",
+      "url": "https://www.flrules.org/Gateway/View_notice.asp?id=31488060",
+      "final_url": "https://flrules.org/Gateway/View_notice.asp?id=31488060",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 11931,
+      "sha256": "72fadff8b32ff5f9e266342e03d4cec722c671f8c1974c3c95e709d4ed60c963",
+      "text_sha256": "0a935c322a2b12ff9047d86250beba3cd39c3d1e205e0af73d3af43f5ceedd4d",
+      "retrieved_at": "2026-10-15T10:37:37Z",
+      "last_checked": "2026-10-15T10:37:37Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flrules.org/Gateway/View_notice.asp?id=31488060",
+      "attempted_at": "2026-10-15T10:37:37Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.flrules.org/gateway/readFile.asp?sid=0&tid=31488060&type=1&file=6A-1.0957.doc": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-15T10:37:25Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-13/extra-1328a9fb3f/2026-10-15/official.doc",
+      "url": "https://www.flrules.org/gateway/readFile.asp?sid=0&tid=31488060&type=1&file=6A-1.0957.doc",
+      "final_url": "https://flrules.org/gateway/readFile.asp?sid=0&tid=31488060&type=1&file=6A-1.0957.doc",
+      "http_status": 200,
+      "content_type": "application/msword",
+      "bytes": 32768,
+      "sha256": "a680c09e96c6e034463e768d467cdde654c815654da0b3497cfc760fbe64eeb1",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-15T10:37:40Z",
+      "last_checked": "2026-10-15T10:37:40Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flrules.org/gateway/readFile.asp?sid=0&tid=31488060&type=1&file=6A-1.0957.doc",
+      "attempted_at": "2026-10-15T10:37:40Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52166/52166doc.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-15T10:37:25Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-13/extra-e480be885f/2026-10-15/official.pdf",
+      "url": "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52166/52166doc.pdf",
+      "final_url": "https://flrules.org/Faw/FAWDocuments/FAWVOLUMEFOLDERS2026/52166/52166doc.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 432134,
+      "sha256": "799181403f6b27c92b3fdbe2cc1f59346e467eb239e442b305aac07523d71a77",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-15T10:37:43Z",
+      "last_checked": "2026-10-15T10:37:43Z",
+      "method": "http",
+      "last_modified": "Tue, 25 Aug 2026 19:50:50 GMT",
+      "etag": "\"d92fe67cb34dd1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52166/52166doc.pdf",
+      "attempted_at": "2026-10-15T10:37:43Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52182/52182doc.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-15T10:37:25Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-13/extra-92e0647d30/2026-10-15/official.pdf",
+      "url": "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52182/52182doc.pdf",
+      "final_url": "https://flrules.org/Faw/FAWDocuments/FAWVOLUMEFOLDERS2026/52182/52182doc.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 427642,
+      "sha256": "61d1f459ae71cb262c1164c274a1737a83b3a30f90350aca9efcb7c1cdc692f4",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-15T10:37:35Z",
+      "last_checked": "2026-10-15T10:37:35Z",
+      "method": "http",
+      "last_modified": "Thu, 17 Sep 2026 19:52:06 GMT",
+      "etag": "\"5fb9e4de46dd1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52182/52182doc.pdf",
+      "attempted_at": "2026-10-15T10:37:35Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-15T10:37:35Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-13/extra-e412ee8e5d/2026-10-15/official.html",
+      "url": "https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml",
+      "final_url": "https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 49903,
+      "sha256": "12253191c832d0a4a9dd373ede55bc09188d591c316111ae6b90b6a79aa1cd8e",
+      "text_sha256": "2fd72462969b346eac42ed6db5aaf90a5fcc209715481eead3e990825480334e",
+      "retrieved_at": "2026-10-15T10:37:39Z",
+      "last_checked": "2026-10-15T10:37:39Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml",
+      "attempted_at": "2026-10-15T10:37:39Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "US-FL-13"
+ },
+ "US-FL-14": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-15T10:20:03Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/2026-10-14/official.html",
+     "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-14.0719",
+     "final_url": "https://flrules.org/gateway/ruleNo.asp?id=6A-14.0719",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 12109,
+     "sha256": "1b31862a37ff25dd2ab33bed64d55831527dad853627bdbefb96d412426055ba",
+     "text_sha256": "c2b575d5301c1a7062c33e5226530e9e2517f65422eb1fa883d1d35d8ccff665",
+     "retrieved_at": "2026-10-14T15:57:43Z",
+     "last_checked": "2026-10-15T10:20:09Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-14.0719",
+     "attempted_at": "2026-10-14T15:57:43Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-14.0719",
+     "attempted_at": "2026-10-14T16:39:09Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-14.0719",
+     "attempted_at": "2026-10-15T10:20:09Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.flrules.org/Gateway/View_notice.asp?id=31445186": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-15T10:37:37Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-61c023c79c/2026-10-15/official.html",
+      "url": "https://www.flrules.org/Gateway/View_notice.asp?id=31445186",
+      "final_url": "https://flrules.org/Gateway/View_notice.asp?id=31445186",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 11916,
+      "sha256": "2dfd38e61d74080ba32f95c235df77a7dfc2b3ac898211f4490ea7b236be0d57",
+      "text_sha256": "495163caff7e556e3a2924b677d360f17938a2ab13ef94dc0b521ecc68fd821d",
+      "retrieved_at": "2026-10-15T10:37:45Z",
+      "last_checked": "2026-10-15T10:37:45Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flrules.org/Gateway/View_notice.asp?id=31445186",
+      "attempted_at": "2026-10-15T10:37:45Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.flrules.org/gateway/readFile.asp?sid=0&tid=31445186&type=1&file=6A-14.0719.doc": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-15T10:37:39Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-9b0b019f07/2026-10-15/official.doc",
+      "url": "https://www.flrules.org/gateway/readFile.asp?sid=0&tid=31445186&type=1&file=6A-14.0719.doc",
+      "final_url": "https://flrules.org/gateway/readFile.asp?sid=0&tid=31445186&type=1&file=6A-14.0719.doc",
+      "http_status": 200,
+      "content_type": "application/msword",
+      "bytes": 23552,
+      "sha256": "afbed22708ee2b6364a7af42f82eb62d51756467457297f4797aa9cec40b2a92",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-15T10:37:48Z",
+      "last_checked": "2026-10-15T10:37:48Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flrules.org/gateway/readFile.asp?sid=0&tid=31445186&type=1&file=6A-14.0719.doc",
+      "attempted_at": "2026-10-15T10:37:48Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52165/52165doc.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-15T10:37:40Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-53a26cd21c/2026-10-15/official.pdf",
+      "url": "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52165/52165doc.pdf",
+      "final_url": "https://flrules.org/Faw/FAWDocuments/FAWVOLUMEFOLDERS2026/52165/52165doc.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 533048,
+      "sha256": "7a466192940733d1da7191c1cea139ef4533d67c0d359820825f97b8262c4c70",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-15T10:37:51Z",
+      "last_checked": "2026-10-15T10:37:51Z",
+      "method": "http",
+      "last_modified": "Mon, 24 Aug 2026 19:50:10 GMT",
+      "etag": "\"ff6847c5134dd1:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52165/52165doc.pdf",
+      "attempted_at": "2026-10-15T10:37:51Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-15T10:37:43Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-e412ee8e5d/2026-10-15/official.html",
+      "url": "https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml",
+      "final_url": "https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 49903,
+      "sha256": "7b42f1af92263769452970114857ff64bcef8003d3a90e15c3d40e151afdcc6c",
+      "text_sha256": "2fd72462969b346eac42ed6db5aaf90a5fcc209715481eead3e990825480334e",
+      "retrieved_at": "2026-10-15T10:37:44Z",
+      "last_checked": "2026-10-15T10:37:44Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml",
+      "attempted_at": "2026-10-15T10:37:44Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "US-FL-14"
+ }
+}
