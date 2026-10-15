@@ -32,7 +32,7 @@ Supervisors set much of the AI governance that regulated firms follow, often in 
 ## Institutions and sector-wide rules (decided October 2026)
 
 - AI policies that individual universities, schools, hospitals or other institutions adopt for their own use, public or private, are out: an institution governing itself is like a company's own policy or an internal administrative circular.
-- Rules a government body sets for a whole sector are in, with a `scope_note`: for example, a state board's regulation that binds all public universities, or a state education department's rule for all school districts.
+- Rules a government body sets for a whole sector are in. They need no note when they are AI-specific (AGENTS.md section 10 admits AI-specific sub-national rules with no note), for example a state education board's rule on AI policies in all public colleges (US-FL-14). They get a `scope_note` when AI is only part of them, for example a general internet-safety rule amended to cover AI tools (US-FL-13), or a state board's regulation on university governance that adds a duty to disclose AI use. *Narrowed 2026-10-15.*
 - Whether a host counts as official evidence is a separate question (AGENTS.md section 7.6). A body that governs a sector, such as a state university system's board of governors, runs an official host even under `.edu`; marking it official does not bring the universities' own policies into scope.
 
 *Michael Riegler, 2026-10-15.*
