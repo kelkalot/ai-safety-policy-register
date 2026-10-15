@@ -1,0 +1,161 @@
+{
+ "cand_id": "US-FL-14",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "US-FL-14",
+ "record": {
+  "scope_note": "A sector-wide rule: the State Board of Education requires the board of trustees of every Florida College System institution to adopt AI policies covering set areas. Included because it binds all of the state's public colleges, not a single institution.",
+  "verification": {
+   "note": "Stored from flrules.org (the Florida Administrative Code and Register site of the Florida Department of State, listed as official for Florida): the rule page for 6A-14.0719, with the rule title, the State Board of Education as the issuing division, the effective date (20 Oct 2026), the reference to Training and Employment Notice 07-25 and the notice history (development, proposed and final notices, no notice of change); the final notice 31445186, with the rule file date (30 Sep 2026) and effective date (20 Oct 2026); and the Florida Administrative Register issue of 25 Aug 2026 with the notice of proposed rule, the full proposed text and the 16 Sep 2026 hearing. Also stored the Department of Education press release of 16 Sep 2026 (fldoe.org, listed as official), which says the State Board adopted binding AI rules for school districts, charter school boards and Florida College System institutions that day; it does not name the rule numbers. The adopted rule text was also stored from flrules.org as a Word .doc file, but the text layer has no reader for .doc files, so the summary follows the proposed text, which the rule page shows was adopted without a notice of change."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/2026-10-14/official.html",
+    "sha256": "1b31862a37ff25dd2ab33bed64d55831527dad853627bdbefb96d412426055ba",
+    "locator": "rule header",
+    "quote": "Rule Title: Artificial Intelligence (A.I.) Policies in Florida College System Institutions",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/2026-10-14/official.html",
+    "sha256": "1b31862a37ff25dd2ab33bed64d55831527dad853627bdbefb96d412426055ba",
+    "locator": "rule header",
+    "quote": "Rule: 6A-14.0719",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-53a26cd21c/2026-10-15/official.pdf",
+    "sha256": "7a466192940733d1da7191c1cea139ef4533d67c0d359820825f97b8262c4c70",
+    "locator": "page 6",
+    "quote": "6A-14.0719 Artificial Intelligence (A.I.) Policies in Florida College System Institutions. The purpose of this rule is to require Florida College System (FCS) institutions to adopt policies",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/2026-10-14/official.html",
+    "sha256": "1b31862a37ff25dd2ab33bed64d55831527dad853627bdbefb96d412426055ba",
+    "locator": "rule header",
+    "quote": "Division: State Board of Education",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-53a26cd21c/2026-10-15/official.pdf",
+    "sha256": "7a466192940733d1da7191c1cea139ef4533d67c0d359820825f97b8262c4c70",
+    "locator": "page 6",
+    "quote": "DEPARTMENT OF EDUCATION State Board of Education RULE NO.: RULE TITLE: 6A-14.0719 Artificial Intelligence (A.I.) Policies in",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/2026-10-14/official.html",
+    "sha256": "1b31862a37ff25dd2ab33bed64d55831527dad853627bdbefb96d412426055ba",
+    "locator": "rule header",
+    "quote": "Rule: 6A-14.0719",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/2026-10-14/official.html",
+    "sha256": "1b31862a37ff25dd2ab33bed64d55831527dad853627bdbefb96d412426055ba",
+    "locator": "rule header",
+    "quote": "Latest version of the final adopted rule presented in Florida Administrative Code (FAC):",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-61c023c79c/2026-10-15/official.html",
+    "sha256": "2dfd38e61d74080ba32f95c235df77a7dfc2b3ac898211f4490ea7b236be0d57",
+    "locator": "Overview",
+    "quote": "RULE FILE DATE: 9/30/2026",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-61c023c79c/2026-10-15/official.html",
+    "sha256": "2dfd38e61d74080ba32f95c235df77a7dfc2b3ac898211f4490ea7b236be0d57",
+    "locator": "Overview",
+    "quote": "RULE EFFECTIVE DATE: 10/20/2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/2026-10-14/official.html",
+    "sha256": "1b31862a37ff25dd2ab33bed64d55831527dad853627bdbefb96d412426055ba",
+    "locator": "rule header",
+    "quote": "Effective Date: 10/20/2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/2026-10-14/official.html",
+    "sha256": "1b31862a37ff25dd2ab33bed64d55831527dad853627bdbefb96d412426055ba",
+    "locator": "History Notes",
+    "quote": "History–New 10-20-26.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-61c023c79c/2026-10-15/official.html",
+    "sha256": "2dfd38e61d74080ba32f95c235df77a7dfc2b3ac898211f4490ea7b236be0d57",
+    "locator": "Notice: 31445186",
+    "quote": "Final Adopted Version in F.A.C.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-61c023c79c/2026-10-15/official.html",
+    "sha256": "2dfd38e61d74080ba32f95c235df77a7dfc2b3ac898211f4490ea7b236be0d57",
+    "locator": "Overview",
+    "quote": "RULE FILE DATE: 9/30/2026 RULE EFFECTIVE DATE: 10/20/2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-e412ee8e5d/2026-10-15/official.html",
+    "sha256": "7b42f1af92263769452970114857ff64bcef8003d3a90e15c3d40e151afdcc6c",
+    "locator": "press release, 16 Sep 2026",
+    "quote": "Today, the Florida State Board of Education adopted new rules governing the use of artificial intelligence (AI) and educational technology in Florida’s school districts, charter school boards, and Florida College System institutions",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-e412ee8e5d/2026-10-15/official.html",
+    "sha256": "7b42f1af92263769452970114857ff64bcef8003d3a90e15c3d40e151afdcc6c",
+    "locator": "press release, 16 Sep 2026",
+    "quote": "While many states have issued guidance, Florida is acting with binding rules that run the full pipeline of public education.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/2026-10-14/official.html",
+    "sha256": "1b31862a37ff25dd2ab33bed64d55831527dad853627bdbefb96d412426055ba",
+    "locator": "rule header",
+    "quote": "Latest version of the final adopted rule presented in Florida Administrative Code (FAC):",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The final notice 31445186 gives rule file date 9/30/2026 and rule effective date 10/20/2026; the rule page shows 'Effective Date: 10/20/2026' and 'History-New 10-20-26'. Today is 15 Oct 2026, five days before the effective date, so the rule is adopted but not yet in force. date_published stays the rule file date (30 Sep 2026), the date the official rule record gives for the adopted rule; the Board's vote at the 16 Sep 2026 hearing is in notes. The status should become In force after 20 Oct 2026.",
+  "scope_reasoning": "An AI-specific binding rule that the State Board of Education sets for the boards of trustees of every Florida College System institution. The precedent of 15 Oct 2026 in pipeline/scope-decisions.md (institutions and sector-wide rules) puts rules a government body sets for a whole sector in, with a scope_note, and gives a state board's regulation binding all public universities as an example; this rule is the college-sector equivalent. AGENTS.md section 10 would put AI-specific sub-national implementing regulations in with no note; I followed the newer, more specific precedent.",
+  "changes": {
+   "scope_note": "Added under the precedent of 15 Oct 2026 on institutions and sector-wide rules, which names a state board's regulation binding all public universities as in with a scope_note; the same applies to a State Board of Education rule binding all Florida College System institutions.",
+   "verification.note": "flrules.org and fldoe.org are now listed as official for Florida in pipeline/official-sites.json (15 Oct 2026), so the CAUTION and the remark that neither host was listed no longer apply; the note describes the copies stored in this run, including the final notice and the adopted .doc text, which has no text layer."
+  },
+  "confirmed": [
+   "title",
+   "issuing_body",
+   "official_identifier",
+   "date_published",
+   "date_in_force",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

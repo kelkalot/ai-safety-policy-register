@@ -2321,7 +2321,9 @@ def cmd_questions(args):
             if not args.dry_run and q["kind"] != "sample":
                 q.update(state="decided", closed=today(), resolution=result)
                 gh("issue", "close", str(q["issue"]), "--repo", repo, "--comment",
-                   "Applied by `pipeline.py questions --apply`: %s. Recorded in data/history.jsonl." % result)
+                   "Applied by `pipeline.py questions --apply`: %s. Recorded in %s." % (
+                       result, "pipeline/official-sites.json; the records that quote this host change in their next "
+                       "refresh run" if q["kind"] == "host" else "data/history.jsonl"))
         if not args.dry_run:
             db = load_db()
             found = collect_questions(db)  # decisions may have settled samples and hosts

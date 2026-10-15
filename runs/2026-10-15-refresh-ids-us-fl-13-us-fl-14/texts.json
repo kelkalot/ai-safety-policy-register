@@ -1,0 +1,138 @@
+{
+ "run_id": "2026-10-15-refresh-ids-us-fl-13-us-fl-14",
+ "generated": "2026-10-15",
+ "files": [
+  {
+   "cand_id": "US-FL-13",
+   "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/2026-10-14/official.html",
+   "sha256": "2ba17953a0b18d3107bda5d1c5b4657a39aa4f554b209a314e6066721b122c45",
+   "role": "official",
+   "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-1.0957",
+   "txt": "archive/_runs/2026-10-14-discover-codes-us-fl/C012/2026-10-14/official.html.txt",
+   "pages": null,
+   "chars": 2616,
+   "method": "html",
+   "warning": null
+  },
+  {
+   "cand_id": "US-FL-13",
+   "file": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-13/extra-827310769e/2026-10-15/official.html",
+   "sha256": "72fadff8b32ff5f9e266342e03d4cec722c671f8c1974c3c95e709d4ed60c963",
+   "role": "extra",
+   "url": "https://www.flrules.org/Gateway/View_notice.asp?id=31488060",
+   "txt": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-13/extra-827310769e/2026-10-15/official.html.txt",
+   "pages": null,
+   "chars": 1561,
+   "method": "html",
+   "warning": null
+  },
+  {
+   "cand_id": "US-FL-13",
+   "file": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-13/extra-1328a9fb3f/2026-10-15/official.doc",
+   "sha256": "a680c09e96c6e034463e768d467cdde654c815654da0b3497cfc760fbe64eeb1",
+   "role": "extra",
+   "url": "https://www.flrules.org/gateway/readFile.asp?sid=0&tid=31488060&type=1&file=6A-1.0957.doc",
+   "txt": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-13/extra-1328a9fb3f/2026-10-15/official.doc.txt",
+   "pages": null,
+   "chars": 0,
+   "method": null,
+   "warning": "no text extraction for .doc files"
+  },
+  {
+   "cand_id": "US-FL-13",
+   "file": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-13/extra-e480be885f/2026-10-15/official.pdf",
+   "sha256": "799181403f6b27c92b3fdbe2cc1f59346e467eb239e442b305aac07523d71a77",
+   "role": "extra",
+   "url": "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52166/52166doc.pdf",
+   "txt": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-13/extra-e480be885f/2026-10-15/official.pdf.txt",
+   "pages": 20,
+   "chars": 91800,
+   "method": "pypdf",
+   "warning": null
+  },
+  {
+   "cand_id": "US-FL-13",
+   "file": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-13/extra-92e0647d30/2026-10-15/official.pdf",
+   "sha256": "61d1f459ae71cb262c1164c274a1737a83b3a30f90350aca9efcb7c1cdc692f4",
+   "role": "extra",
+   "url": "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52182/52182doc.pdf",
+   "txt": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-13/extra-92e0647d30/2026-10-15/official.pdf.txt",
+   "pages": 18,
+   "chars": 78231,
+   "method": "pypdf",
+   "warning": null
+  },
+  {
+   "cand_id": "US-FL-13",
+   "file": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-13/extra-e412ee8e5d/2026-10-15/official.html",
+   "sha256": "12253191c832d0a4a9dd373ede55bc09188d591c316111ae6b90b6a79aa1cd8e",
+   "role": "extra",
+   "url": "https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml",
+   "txt": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-13/extra-e412ee8e5d/2026-10-15/official.html.txt",
+   "pages": null,
+   "chars": 8388,
+   "method": "html",
+   "warning": null
+  },
+  {
+   "cand_id": "US-FL-14",
+   "file": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/2026-10-14/official.html",
+   "sha256": "1b31862a37ff25dd2ab33bed64d55831527dad853627bdbefb96d412426055ba",
+   "role": "official",
+   "url": "https://www.flrules.org/gateway/ruleNo.asp?id=6A-14.0719",
+   "txt": "archive/_runs/2026-10-14-discover-codes-us-fl/C013/2026-10-14/official.html.txt",
+   "pages": null,
+   "chars": 2216,
+   "method": "html",
+   "warning": null
+  },
+  {
+   "cand_id": "US-FL-14",
+   "file": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-61c023c79c/2026-10-15/official.html",
+   "sha256": "2dfd38e61d74080ba32f95c235df77a7dfc2b3ac898211f4490ea7b236be0d57",
+   "role": "extra",
+   "url": "https://www.flrules.org/Gateway/View_notice.asp?id=31445186",
+   "txt": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-61c023c79c/2026-10-15/official.html.txt",
+   "pages": null,
+   "chars": 1643,
+   "method": "html",
+   "warning": null
+  },
+  {
+   "cand_id": "US-FL-14",
+   "file": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-9b0b019f07/2026-10-15/official.doc",
+   "sha256": "afbed22708ee2b6364a7af42f82eb62d51756467457297f4797aa9cec40b2a92",
+   "role": "extra",
+   "url": "https://www.flrules.org/gateway/readFile.asp?sid=0&tid=31445186&type=1&file=6A-14.0719.doc",
+   "txt": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-9b0b019f07/2026-10-15/official.doc.txt",
+   "pages": null,
+   "chars": 0,
+   "method": null,
+   "warning": "no text extraction for .doc files"
+  },
+  {
+   "cand_id": "US-FL-14",
+   "file": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-53a26cd21c/2026-10-15/official.pdf",
+   "sha256": "7a466192940733d1da7191c1cea139ef4533d67c0d359820825f97b8262c4c70",
+   "role": "extra",
+   "url": "https://www.flrules.org/gateway/GotoLink.asp?Goto=BigDocFAW&Para=2026/52165/52165doc.pdf",
+   "txt": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-53a26cd21c/2026-10-15/official.pdf.txt",
+   "pages": 29,
+   "chars": 136305,
+   "method": "pypdf",
+   "warning": null
+  },
+  {
+   "cand_id": "US-FL-14",
+   "file": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-e412ee8e5d/2026-10-15/official.html",
+   "sha256": "7b42f1af92263769452970114857ff64bcef8003d3a90e15c3d40e151afdcc6c",
+   "role": "extra",
+   "url": "https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml",
+   "txt": "archive/_runs/2026-10-15-refresh-ids-us-fl-13-us-fl-14/US-FL-14/extra-e412ee8e5d/2026-10-15/official.html.txt",
+   "pages": null,
+   "chars": 8388,
+   "method": "html",
+   "warning": null
+  }
+ ]
+}

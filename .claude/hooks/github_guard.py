@@ -13,9 +13,11 @@ import re
 import sys
 
 MARK = "every-ai-policy-ever:agent"
-POSTS = re.compile(r"\bgh\s+(?:issue|pr)\s+(?:create|comment|close|edit|review)\b|\bgh\s+api\b.*\b(?:issues|pulls)\b",
+# gh api only sends something with a write method or with fields; a plain gh api call reads
+API_WRITE = r"\bgh\s+api\b(?=.*(?:(?:-X|--method)[\s=]*(?:POST|PATCH|PUT)\b|\s(?:-f|-F|--field|--raw-field|--input)\b))"
+POSTS = re.compile(r"\bgh\s+(?:issue|pr)\s+(?:create|comment|close|edit|review)\b|" + API_WRITE + r".*\b(?:issues|pulls)\b",
                    re.S)
-WRITES = re.compile(r"\bgh\s+(?:issue|pr)\s+(?:create|comment|review)\b|\bgh\s+api\b.*\bcomments\b", re.S)
+WRITES = re.compile(r"\bgh\s+(?:issue|pr)\s+(?:create|comment|review)\b|" + API_WRITE + r".*\bcomments\b", re.S)
 # the same lines tools/pipeline.py parse_decisions reads: "decide: ..." and sample lines "ok <ID>" / "problem <ID>"
 DECISION = re.compile(r"(?im)^\s*decide\s*:|^\s*(?:ok|problem)\s+[A-Z]{2,5}(?:-[A-Z]{2,3})?-\d+\b")
 
@@ -25,6 +27,8 @@ def body_files(cmd):
     out = []
     for m in re.finditer(r"(?:--body-file|-F)\s+(\"[^\"]+\"|'[^']+'|\S+)|body=@(\S+)", cmd):
         path = (m.group(1) or m.group(2) or "").strip("'\"")
+        if "=@" in path:  # gh api -F body=@FILE
+            path = path.split("=@", 1)[1]
         if path and path != "-" and os.path.isfile(path):
             with open(path, encoding="utf-8", errors="replace") as fh:
                 out.append(fh.read())
