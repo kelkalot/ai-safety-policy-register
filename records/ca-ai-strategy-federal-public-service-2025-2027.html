@@ -7,36 +7,14 @@
 <meta name="description" content="Government-wide strategy for responsible AI adoption in federal institutions: lifecycle governance and risk frameworks proportionate to impact, ethics r…">
 <link rel="canonical" href="https://kelkalot-every-ai-policy-ever.static.hf.space/records/ca-ai-strategy-federal-public-service-2025-2027.html">
 <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/app.css">
 <style>
-:root{--bg:#f2f4f7;--surface:#ffffff;--ink:#111924;--ink-2:#455263;--ink-3:#6a7686;--line:#d5dce5;--accent:#2c43b0;--accent-ink:#fff;--accent-soft:#e3e7fa;--ok:#157a3a;--ok-soft:#e1f3e6;--warn:#8f5a00;--warn-soft:#fbefd6;--bad:#b0222a;--bad-soft:#fbe4e4;--gone:#5f6875;--gone-soft:#e7eaee}
-@media (prefers-color-scheme: dark){:root{--bg:#0e131a;--surface:#151c25;--ink:#e6ebf1;--ink-2:#a9b4c2;--ink-3:#8390a1;--line:#29343f;--accent:#8e9dff;--accent-ink:#0e131a;--accent-soft:#222b52;--ok:#63cf88;--ok-soft:#15301f;--warn:#e5b45b;--warn-soft:#332714;--bad:#ff8b8b;--bad-soft:#3a1b1d;--gone:#9aa4b1;--gone-soft:#242c36}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
-a{color:var(--accent)}a:hover{text-decoration:underline}
-.wrap{max-width:880px;margin:0 auto;padding:20px 20px 56px}
-.crumb{font-size:13px;color:var(--ink-3)}.crumb a{color:var(--ink-2)}
-.kicker{font-size:13px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-2);margin:16px 0 6px}
-h1{font-size:33px;line-height:1.18;margin:0 0 8px}h2{font-size:19px;margin:0 0 10px;padding-top:22px;border-top:1px solid var(--line)}
-section{margin-top:26px}
-.orig{color:var(--ink-2);font-size:17px;margin:0 0 10px}
-.idline{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;color:var(--ink-3)}
-dl.facts{display:grid;grid-template-columns:190px 1fr;gap:5px 16px;margin:18px 0 0;padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-radius:6px}
-dl.facts dt{color:var(--ink-3);font-size:14px}dl.facts dd{margin:0;overflow-wrap:anywhere}
-.tag{display:inline-block;background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:2px 10px;font-size:13px;margin:0 6px 6px 0}
-.pill{display:inline-block;border-radius:999px;padding:2px 10px;font-size:13px;font-weight:600;margin-right:8px}
-.p-inforce{background:var(--ok-soft);color:var(--ok)}.p-published{background:var(--accent-soft);color:var(--accent)}
-.p-draft{background:var(--accent-soft);color:var(--accent)}.p-gone{background:var(--gone-soft);color:var(--gone)}
-.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px}
-.muted{color:var(--ink-3);font-size:14px}
-.flag{border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:6px;padding:10px 12px;margin:8px 0;background:var(--surface)}
-.flag-warn{border-left-color:var(--warn)}
-.file{border:1px solid var(--line);border-radius:6px;padding:10px 12px;margin:8px 0;background:var(--surface)}
-.verify{display:flex;gap:14px;align-items:baseline;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px}
-.verify .big{font-size:30px;font-weight:700;color:var(--accent)}
-.verify .vm{color:var(--ink-3);font-size:13px}.verify .vn{margin-top:6px;font-size:14px;color:var(--ink-2)}
-ol.hist{margin:0;padding-left:18px}ol.hist li{margin:0 0 10px}ol.hist .hd{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;color:var(--ink-3);margin-right:8px}
-ol.hist .hm{display:block;color:var(--ink-3);font-size:12px;margin-top:2px}
-pre.cite{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px;white-space:pre-wrap;overflow-wrap:anywhere;font:13.5px/1.5 ui-monospace,Menlo,Consolas,monospace;margin:0}
-footer{margin-top:44px;padding-top:14px;border-top:1px solid var(--line);color:var(--ink-3);font-size:13px}
+.page { max-width: 620px; margin: 0 auto; }
+.d-title { font-size: 22px; line-height: 1.22; letter-spacing: -.01em; margin: 6px 0 0; text-wrap: balance; }
+.d-head .mono a { color: var(--ink-2); text-decoration: none; }
+.d-head .mono a:hover { text-decoration: underline; }
+a.relbtn { text-decoration: none; color: var(--ink); }
+.page-foot { padding: 18px 22px 40px; border-top: 1px solid var(--line); color: var(--ink-3); font-size: 13px; display: grid; gap: 4px; }
 </style>
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Every AI Policy Ever">
@@ -50,49 +28,23 @@ footer{margin-top:44px;padding-top:14px;border-top:1px solid var(--line);color:v
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"GovernmentDocument","name":"AI Strategy for the Federal Public Service 2025-2027","identifier":"CA-06","description":"Government-wide strategy for responsible AI adoption in federal institutions: lifecycle governance and risk frameworks proportionate to impact, ethics review of higher-risk projects with controls including emergency shutdown, security and reliability controls, an AI Centre of Expertise, and public transparency through a Government of Canada AI Register.","url":"https://kelkalot-every-ai-policy-ever.static.hf.space/records/ca-ai-strategy-federal-public-service-2025-2027.html","dateCreated":"2025-03-04","dateModified":"2026-10-02","inLanguage":"English, French","isAccessibleForFree":true,"about":["public-sector use","risk-based classification","human oversight","transparency & labelling","accountability & liability"],"creator":{"@type":"Organization","name":"Treasury Board of Canada Secretariat"},"sourceUrl":"https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/gc-ai-strategy-full-text.html"},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Register","item":"https://kelkalot-every-ai-policy-ever.static.hf.space/"},{"@type":"ListItem","position":2,"name":"AI Strategy for the Federal Public Service 2025-2027","item":"https://kelkalot-every-ai-policy-ever.static.hf.space/records/ca-ai-strategy-federal-public-service-2025-2027.html"}]}]</script>
 </head>
 <body>
-<div class="wrap">
-  <p class="crumb"><a href="../index.html">Every AI Policy Ever</a> · <a href="../index.html#CA-06">open in the interactive register</a></p>
+<div class="page">
+  <header class="d-head"><span class="mono"><a href="../index.html">Every AI Policy Ever</a> · <a href="../index.html#CA-06">CA-06</a></span><span class="mono"><a href="../index.html#CA-06">open in the interactive register</a></span></header>
 
-  <p class="kicker"><span class="pill p-published">Published (non-binding, current)</span>Non-binding · Strategy / action plan</p>
-
-  <h1>AI Strategy for the Federal Public Service 2025-2027</h1>
-
-  <p class="idline">Record CA-06</p>
-
-  <dl class="facts">
-    <dt>Issued by</dt><dd>Treasury Board of Canada Secretariat</dd>
-    <dt>Jurisdiction</dt><dd>Canada</dd>
-    <dt>Level · region</dt><dd>National · North America</dd>
-    <dt>Published / adopted</dt><dd>2025-03-04</dd>
-    <dt>Last updated</dt><dd>2026-10-02</dd>
-    <dt>Language</dt><dd>English, French</dd>
-  </dl>
-
-  <section><h2>Summary</h2><p>Government-wide strategy for responsible AI adoption in federal institutions: lifecycle governance and risk frameworks proportionate to impact, ethics review of higher-risk projects with controls including emergency shutdown, security and reliability controls, an AI Centre of Expertise, and public transparency through a Government of Canada AI Register.</p></section>
-
-  <section><h2>Safety topics</h2><span class="tag">public-sector use</span><span class="tag">risk-based classification</span><span class="tag">human oversight</span><span class="tag">transparency &amp; labelling</span><span class="tag">accountability &amp; liability</span></section>
-
-  <section><h2>Status notes</h2><p>Published 4 March 2025 after consultation (16 Sept–31 Oct 2024; What We Heard report 30 Jan 2025). Implementation updates: fourth DADM review (amendments 24 June 2025); AI Register launched Nov 2025, with public consultation on its design Jan–Mar 2026. Full-text page last modified 2 Oct 2026. Distinct from the economy-wide National AI Strategy of June 2026.</p></section>
-
-  <section><h2>Sources</h2><p><a href="https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/gc-ai-strategy-full-text.html" rel="noopener">Open the official source</a> <span class="mono">https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/gc-ai-strategy-full-text.html</span></p>
-<p>Secondary source: <a href="https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/gc-ai-strategy-priority-areas.html" rel="noopener">https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/gc-ai-strategy-priority-areas.html</a></p>
-</section>
-
-  <section><h2>Local copy</h2><div class="flag"><p><strong>Archived.</strong>  <span class="muted">Last attempt 2026-10-11 13:59:34 UTC</span></p>
-<div class="file"><div><span>Official source <span class="muted">(third-party copy, not published)</span></span> <span class="mono">archive/CA-06/2026-10-11/official.html</span></div><div class="muted">Retrieved 2026-10-11 13:59:40 UTC</div><div class="mono">SHA-256 7220e1dab9046883981681fce8d6ac2e2b4418d92c06a0cc106d905d21315c3b</div></div>
-<div class="file"><div><span>Secondary source <span class="muted">(third-party copy, not published)</span></span> <span class="mono">archive/CA-06/2026-10-11/secondary.html</span></div><div class="muted">Retrieved 2026-10-11 13:59:44 UTC</div><div class="mono">SHA-256 f7990cf421b9e71439001bee2dbeda62f461dd2953741d62372511d7eb496bbc</div></div>
-</div></section>
-
-  <section><h2>Verification</h2><div class="verify"><span class="big">A</span><div><div>The official source was fetched and confirms the title, date and status. <span class="vm">checked 2026-10-11 · official-url-fetched</span></div><div class="vn">Priority-areas page metadata gives issued 2025-03-04 (matches the &#x27;Progress on AI in government&#x27; page); full-text page fetched (modified 2026-10-02) confirms risk-framework, ethics-review, AI Register and DADM content.</div></div></div></section>
-
-  <section><h2>Related records</h2><p><a href="ca-directive-automated-decision-making.html">DADM</a> <span class="muted">Canada · In force</span></p>
-<p><a href="ca-tbs-guide-generative-ai.html">GC Generative AI Guide</a> <span class="muted">Canada · Published (non-binding, current)</span></p>
-</section>
-
-  <section><h2>Citation</h2><pre class="cite">Treasury Board of Canada Secretariat. AI Strategy for the Federal Public Service 2025-2027. 2025-03-04. https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/gc-ai-strategy-full-text.html. Status: Published (non-binding, current); verified 2026-10-11 (level A). Local copy archive/CA-06/2026-10-11/official.html retrieved 2026-10-11 13:59:40 UTC, SHA-256 7220e1dab9046883981681fce8d6ac2e2b4418d92c06a0cc106d905d21315c3b. Every AI Policy Ever, version 1.10.2 (snapshot 2026-10-12), record CA-06.</pre></section>
-
-  <section><h2>Improve this record</h2><p>Know of an amendment, a status change or an error? <a href="https://github.com/kelkalot/every-ai-policy-ever/issues/new?template=suggest-instrument.yml&amp;title=News+or+correction%3A+CA-06+GC+AI+Strategy+2025-2027&amp;record=CA-06&amp;url=https%3A%2F%2Fwww.canada.ca%2Fen%2Fgovernment%2Fsystem%2Fdigital-government%2Fdigital-government-innovations%2Fresponsible-use-ai%2Fgc-ai-strategy-full-text.html&amp;jurisdiction=CA" target="_blank" rel="noopener">Report news or an error</a> on GitHub; the form opens with this record filled in.</p></section>
-  <footer>Every AI Policy Ever · version 1.10.2 · snapshot 2026-10-12 · an AI-assisted extraction, verified 2026-10-11 (level A) · <a href="../index.html">the interactive register</a> · <a href="https://github.com/kelkalot/every-ai-policy-ever" rel="noopener">the GitHub repository</a></footer>
+  <main class="d-body">
+    <div><div class="d-kicker"><span class="pill s-published">Published, current</span><span>Non-binding</span><span>·</span><span>Strategy / action plan</span></div><h1 class="d-title">AI Strategy for the Federal Public Service 2025-2027</h1></div>
+    <dl class="facts"><div class="wide"><dt>Issued by</dt><dd>Treasury Board of Canada Secretariat</dd></div><div><dt>Jurisdiction</dt><dd>Canada</dd></div><div><dt>Level · region</dt><dd>National · North America</dd></div><div><dt>Published / adopted</dt><dd class="mono">2025-03-04</dd></div><div><dt>In force</dt><dd class="mono">—</dd></div><div><dt>Last updated</dt><dd class="mono">2026-10-02</dd></div><div><dt>Language</dt><dd>English, French</dd></div><div class="wide"><dt>Official identifier</dt><dd class="mono">—</dd></div></dl>
+    <div class="sec"><h3>Summary</h3><p>Government-wide strategy for responsible AI adoption in federal institutions: lifecycle governance and risk frameworks proportionate to impact, ethics review of higher-risk projects with controls including emergency shutdown, security and reliability controls, an AI Centre of Expertise, and public transparency through a Government of Canada AI Register.</p></div>
+    <div class="sec"><h3>Safety topics</h3><div class="tags"><span class="tag">public-sector use</span><span class="tag">risk-based classification</span><span class="tag">human oversight</span><span class="tag">transparency &amp; labelling</span><span class="tag">accountability &amp; liability</span></div></div>
+    <div class="sec"><h3>Status notes</h3><p>Published 4 March 2025 after consultation (16 Sept–31 Oct 2024; What We Heard report 30 Jan 2025). Implementation updates: fourth DADM review (amendments 24 June 2025); AI Register launched Nov 2025, with public consultation on its design Jan–Mar 2026. Full-text page last modified 2 Oct 2026. Distinct from the economy-wide National AI Strategy of June 2026.</p></div>
+    <div class="sec"><h3>Sources</h3><div class="sources"><a class="src" href="https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/gc-ai-strategy-full-text.html" target="_blank" rel="noopener"><span class="k">Official</span><span>Open the official source</span><span class="u">https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/gc-ai-strategy-full-text.html</span></a><a class="src" href="https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/gc-ai-strategy-priority-areas.html" target="_blank" rel="noopener"><span class="k">Second</span><span>Secondary source</span><span class="u">https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/gc-ai-strategy-priority-areas.html</span></a></div></div>
+    <div class="sec"><h3>Local copy</h3><div class="files"><div class="flag flag-ok"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><div><strong>Archived.</strong> The official source was downloaded and stored locally with a SHA-256 hash and timestamp.<br><span class="mono" style="font-size:12px;color:var(--ink-2)">Last attempt 2026-10-11 13:59:34 UTC</span></div></div><div class="file"><div class="file-top"><span>Official source <span style="color:var(--ink-3)">(third-party copy, not published; see the original URL)</span></span> <span class="mono" style="font-size:12px;color:var(--ink-3)">archive/CA-06/2026-10-11/official.html</span></div><div class="meta"><span>Retrieved 2026-10-11 13:59:40 UTC</span><span>text/html</span><span>115.2 KB</span><span>HTTP 200</span><span>server date Sat, 10 Oct 2026 05:47:47 GMT</span></div><div class="hash"><span>SHA-256 7220e1dab9046883981681fce8d6ac2e2b4418d92c06a0cc106d905d21315c3b</span></div></div><div class="file"><div class="file-top"><span>Secondary source <span style="color:var(--ink-3)">(third-party copy, not published; see the original URL)</span></span> <span class="mono" style="font-size:12px;color:var(--ink-3)">archive/CA-06/2026-10-11/secondary.html</span></div><div class="meta"><span>Retrieved 2026-10-11 13:59:44 UTC</span><span>text/html</span><span>21.5 KB</span><span>HTTP 200</span><span>server date Sat, 10 Oct 2026 04:49:15 GMT</span></div><div class="hash"><span>SHA-256 f7990cf421b9e71439001bee2dbeda62f461dd2953741d62372511d7eb496bbc</span></div></div></div></div>
+    <div class="sec"><h3>Verification</h3><div class="verify v-A"><span class="big">A</span><span class="vt">official source fetched</span><span class="vm">checked 2026-10-11 · official-url-fetched</span><span class="vn">Priority-areas page metadata gives issued 2025-03-04 (matches the &#x27;Progress on AI in government&#x27; page); full-text page fetched (modified 2026-10-02) confirms risk-framework, ethics-review, AI Register and DADM content.</span></div></div>
+    <div class="sec"><h3>Related records</h3><div class="related"><a class="relbtn" href="ca-directive-automated-decision-making.html"><span class="mono">CA-01</span><span>DADM <span style="color:var(--ink-3)">· In force</span></span></a><a class="relbtn" href="ca-tbs-guide-generative-ai.html"><span class="mono">CA-04</span><span>GC Generative AI Guide <span style="color:var(--ink-3)">· Published (non-binding, current)</span></span></a></div></div>
+    <div class="sec"><h3>Improve this record</h3><p>Know of an amendment, a status change or an error? <a href="https://github.com/kelkalot/every-ai-policy-ever/issues/new?template=suggest-instrument.yml&amp;title=News+or+correction%3A+CA-06+GC+AI+Strategy+2025-2027&amp;record=CA-06&amp;url=https%3A%2F%2Fwww.canada.ca%2Fen%2Fgovernment%2Fsystem%2Fdigital-government%2Fdigital-government-innovations%2Fresponsible-use-ai%2Fgc-ai-strategy-full-text.html&amp;jurisdiction=CA" target="_blank" rel="noopener">Report news or an error</a>; the GitHub form opens with this record filled in.</p><p class="muted">What happens next: <a href="../index.html#contribute">Contribute</a>.</p></div>
+    <div class="sec cite"><h3>Citation</h3><textarea readonly aria-label="Citation text" rows="5">Treasury Board of Canada Secretariat. AI Strategy for the Federal Public Service 2025-2027. 2025-03-04. https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/gc-ai-strategy-full-text.html. Status: Published (non-binding, current); verified 2026-10-11 (level A). Local copy archive/CA-06/2026-10-11/official.html retrieved 2026-10-11 13:59:40 UTC, SHA-256 7220e1dab9046883981681fce8d6ac2e2b4418d92c06a0cc106d905d21315c3b. Every AI Policy Ever, version 1.10.2 (snapshot 2026-10-12), record CA-06.</textarea></div>
+  </main>
+  <footer class="page-foot"><span>Every AI Policy Ever · version 1.10.2 · snapshot 2026-10-12</span><span>an AI-assisted extraction — verified 2026-10-11 (level A); the original-language text is the authority</span><span><a href="../index.html">the interactive register</a> · <a href="https://github.com/kelkalot/every-ai-policy-ever" rel="noopener">the GitHub repository</a></span></footer>
 
 </div>
 </body>

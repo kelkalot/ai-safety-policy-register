@@ -218,37 +218,64 @@ def citation_text(r, meta):
     return " ".join(p for p in parts if p)
 
 
-RECORD_CSS = """
-:root{--bg:#f2f4f7;--surface:#ffffff;--ink:#111924;--ink-2:#455263;--ink-3:#6a7686;--line:#d5dce5;--accent:#2c43b0;--accent-ink:#fff;--accent-soft:#e3e7fa;--ok:#157a3a;--ok-soft:#e1f3e6;--warn:#8f5a00;--warn-soft:#fbefd6;--bad:#b0222a;--bad-soft:#fbe4e4;--gone:#5f6875;--gone-soft:#e7eaee}
-@media (prefers-color-scheme: dark){:root{--bg:#0e131a;--surface:#151c25;--ink:#e6ebf1;--ink-2:#a9b4c2;--ink-3:#8390a1;--line:#29343f;--accent:#8e9dff;--accent-ink:#0e131a;--accent-soft:#222b52;--ok:#63cf88;--ok-soft:#15301f;--warn:#e5b45b;--warn-soft:#332714;--bad:#ff8b8b;--bad-soft:#3a1b1d;--gone:#9aa4b1;--gone-soft:#242c36}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
-a{color:var(--accent)}a:hover{text-decoration:underline}
-.wrap{max-width:880px;margin:0 auto;padding:20px 20px 56px}
-.crumb{font-size:13px;color:var(--ink-3)}.crumb a{color:var(--ink-2)}
-.kicker{font-size:13px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-2);margin:16px 0 6px}
-h1{font-size:33px;line-height:1.18;margin:0 0 8px}h2{font-size:19px;margin:0 0 10px;padding-top:22px;border-top:1px solid var(--line)}
-section{margin-top:26px}
-.orig{color:var(--ink-2);font-size:17px;margin:0 0 10px}
-.idline{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;color:var(--ink-3)}
-dl.facts{display:grid;grid-template-columns:190px 1fr;gap:5px 16px;margin:18px 0 0;padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-radius:6px}
-dl.facts dt{color:var(--ink-3);font-size:14px}dl.facts dd{margin:0;overflow-wrap:anywhere}
-.tag{display:inline-block;background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:2px 10px;font-size:13px;margin:0 6px 6px 0}
-.pill{display:inline-block;border-radius:999px;padding:2px 10px;font-size:13px;font-weight:600;margin-right:8px}
-.p-inforce{background:var(--ok-soft);color:var(--ok)}.p-published{background:var(--accent-soft);color:var(--accent)}
-.p-draft{background:var(--accent-soft);color:var(--accent)}.p-gone{background:var(--gone-soft);color:var(--gone)}
-.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px}
-.muted{color:var(--ink-3);font-size:14px}
-.flag{border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:6px;padding:10px 12px;margin:8px 0;background:var(--surface)}
-.flag-warn{border-left-color:var(--warn)}
-.file{border:1px solid var(--line);border-radius:6px;padding:10px 12px;margin:8px 0;background:var(--surface)}
-.verify{display:flex;gap:14px;align-items:baseline;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px}
-.verify .big{font-size:30px;font-weight:700;color:var(--accent)}
-.verify .vm{color:var(--ink-3);font-size:13px}.verify .vn{margin-top:6px;font-size:14px;color:var(--ink-2)}
-ol.hist{margin:0;padding-left:18px}ol.hist li{margin:0 0 10px}ol.hist .hd{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;color:var(--ink-3);margin-right:8px}
-ol.hist .hm{display:block;color:var(--ink-3);font-size:12px;margin-top:2px}
-pre.cite{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px;white-space:pre-wrap;overflow-wrap:anywhere;font:13.5px/1.5 ui-monospace,Menlo,Consolas,monospace;margin:0}
-footer{margin-top:44px;padding-top:14px;border-top:1px solid var(--line);color:var(--ink-3);font-size:13px}
+# The same maps and icons assets/app.js uses, so the pages match the drawer exactly.
+STATUS_CLASS = {"In force": "s-inforce", "Partially in force": "s-partial",
+                "Adopted, not yet in force": "s-adopted", "Published (non-binding, current)": "s-published",
+                "Draft / proposed": "s-draft"}
+STATUS_SHORT = {"Published (non-binding, current)": "Published, current",
+                "Adopted, not yet in force": "Adopted, not in force"}
+VLABEL = {"A": "A · official source fetched", "B": "B · alternative official source",
+          "C": "C · not confirmed on an official page"}
+LC_LABEL = {"archived": "Archived", "archived-review": "Archived, needs review", "partial": "Partial (secondary only)",
+            "failed": "Download failed", "no-url": "No URL", "not-attempted": "Not archived"}
+LC_HELP = {
+    "archived": "The official source was downloaded and stored locally with a SHA-256 hash and timestamp.",
+    "archived-review": "A copy is stored, but something needs a human look: a bot-check or JavaScript-only page, a page that no longer mentions the document, a source that has since disappeared, or a local file that changed.",
+    "partial": "The official source could not be downloaded; only the secondary source is stored.",
+    "failed": "Nothing could be downloaded. The flag gives the reason (HTTP error, timeout, robots.txt, TLS error).",
+    "no-url": "The record has no URL, so there is nothing to archive.",
+    "not-attempted": "The archiver has not been run for this record yet."}
+LC_ICON = {"archived": "ok", "archived-review": "warn", "partial": "warn", "failed": "bad", "no-url": "bad", "not-attempted": "info"}
+LC_FLAGCLASS = {"ok": "flag-ok", "warn": "flag-warn", "bad": "flag-bad", "info": "flag-info"}
+ICON = {
+    "ok": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>',
+    "warn": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l9 16H3z"></path><path d="M12 10v4M12 17v.5"></path></svg>',
+    "bad": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg>',
+    "info": '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 11v5M12 8v.5"></path></svg>'}
+
+
+def _fmt_bytes(n):
+    try:
+        n = int(n)
+    except (TypeError, ValueError):
+        return ""
+    if not n:
+        return "0 KB"
+    if n < 1048576:
+        return "%.1f KB" % (n / 1024.0)
+    if n < 1073741824:
+        return "%.1f MB" % (n / 1048576.0)
+    return "%.2f GB" % (n / 1073741824.0)
+
+
+# The pages link the app's own stylesheet (assets/app.css) and reuse the record
+# drawer's markup, so they look exactly like the interactive register. This small
+# sheet only adds the page shell the drawer gets from the app layout.
+PAGE_CSS = """
+.page { max-width: 620px; margin: 0 auto; }
+.d-title { font-size: 22px; line-height: 1.22; letter-spacing: -.01em; margin: 6px 0 0; text-wrap: balance; }
+.d-head .mono a { color: var(--ink-2); text-decoration: none; }
+.d-head .mono a:hover { text-decoration: underline; }
+a.relbtn { text-decoration: none; color: var(--ink); }
+.page-foot { padding: 18px 22px 40px; border-top: 1px solid var(--line); color: var(--ink-3); font-size: 13px; display: grid; gap: 4px; }
 """
+
+
+def _fact(label, value, wide=False, mono=False):
+    val = "—" if value in (None, "") else value
+    dcls = " class=\"wide\"" if wide else ""
+    xcls = " class=\"mono\"" if mono else ""
+    return "<div%s><dt>%s</dt><dd%s>%s</dd></div>" % (dcls, _esc(label), xcls, _esc(val))
 
 
 def _record_page(r, db, hist, questions, reverse_rel, slugmap):
@@ -264,113 +291,129 @@ def _record_page(r, db, hist, questions, reverse_rel, slugmap):
     if len(desc) > 155:
         desc = desc[:152].rstrip() + "…"
 
-    def fact(label, value):
-        if not value:
-            return ""
-        return '    <dt>%s</dt><dd>%s</dd>\n' % (_esc(label), _esc(value))
-
-    # --- kicker + title
     status = r.get("status") or ""
-    sclass = {"In force": "p-inforce", "Partially in force": "p-inforce",
-              "Published (non-binding, current)": "p-published",
-              "Adopted, not yet in force": "p-published"}.get(status, "p-draft" if status == "Draft / proposed" else "p-gone")
+    sclass = STATUS_CLASS.get(status, "s-gone")
     body = []
-    body.append('  <p class="kicker"><span class="pill %s">%s</span>%s · %s</p>\n' %
-                (sclass, _esc(status), _esc(r.get("legal_force") or ""), _esc(r.get("instrument_type") or "")))
-    body.append("  <h1>%s</h1>\n" % _esc(title))
-    if r.get("original_title"):
-        body.append('  <p class="orig">%s</p>\n' % _esc(r["original_title"]))
-    idline = "Record %s" % rid + ((" · %s" % r["official_identifier"]) if r.get("official_identifier") else "")
-    body.append('  <p class="idline">%s</p>\n' % _esc(idline))
+    body.append('    <div><div class="d-kicker"><span class="pill %s">%s</span><span>%s</span><span>·</span><span>%s</span></div>'
+                '<h1 class="d-title">%s</h1>%s</div>\n' % (
+                    sclass, _esc(STATUS_SHORT.get(status, status)),
+                    _esc(r.get("legal_force") or ""), _esc(r.get("instrument_type") or ""),
+                    _esc(title),
+                    ('<p class="orig">%s</p>' % _esc(r["original_title"])) if r.get("original_title") else ""))
 
-    facts = (fact("Issued by", r.get("issuing_body")) + fact("Jurisdiction", r.get("jurisdiction")) +
-             fact("Level · region", ("%s · %s" % (r.get("jurisdiction_level"), r.get("region"))) if r.get("jurisdiction_level") else None) +
-             (fact("Country", r.get("country")) if r.get("jurisdiction_level") == "Sub-national" and r.get("country") else "") +
-             fact("Published / adopted", r.get("date_published")) + fact("In force", r.get("date_in_force")) +
-             fact("Last updated", r.get("date_last_updated")) + fact("Language", r.get("language")) +
-             fact("Official identifier", r.get("official_identifier")))
-    if facts:
-        body.append('  <dl class="facts">\n' + facts + "  </dl>\n")
+    body.append("    <dl class=\"facts\">%s</dl>\n" % "".join([
+        _fact("Issued by", r.get("issuing_body"), wide=True),
+        _fact("Jurisdiction", r.get("jurisdiction")),
+        _fact("Level · region", ("%s · %s" % (r.get("jurisdiction_level"), r.get("region"))) if r.get("jurisdiction_level") else None),
+        _fact("Published / adopted", r.get("date_published"), mono=True),
+        _fact("In force", r.get("date_in_force"), mono=True),
+        _fact("Last updated", r.get("date_last_updated"), mono=True),
+        _fact("Language", r.get("language")),
+        _fact("Official identifier", r.get("official_identifier"), wide=True, mono=True)]))
 
-    body.append('  <section><h2>Summary</h2><p>%s</p></section>\n' % _esc(r.get("summary") or ""))
+    body.append('    <div class="sec"><h3>Summary</h3><p>%s</p></div>\n' % _esc(r.get("summary") or ""))
 
-    # language note, same rule as the app
+    # language note, same rule and wording as assets/app.js
     lang = r.get("language") or ""
     english_original = bool(re.match(r"^All 24 official EU languages", lang)) or \
         any(x.strip().lower() == "english" for x in lang.split(","))
     kind = ev.get("kind")
     if kind != "authentic" and not english_original:
-        link = " <a href=\"%s\">Open it</a>." % _esc(ev["url"]) if ev.get("url") else "."
+        lang_label = _esc(lang or "original-language")
+        link = ' <a href="%s" target="_blank" rel="noopener">Open it</a>.' % _esc(ev["url"]) if ev.get("url") else ""
         if kind == "government translation":
-            t = "English translation by %s%s The %s text is authoritative." % (_esc(ev.get("by") or "a public body"), link, _esc(lang or "original-language"))
+            t = "English translation by %s.%s Translations by public bodies are usually provisional or for reference and have no legal force; the %s text is authoritative." % (
+                _esc(ev.get("by") or "a public body"), link, lang_label)
         elif kind == "third-party translation":
-            t = "English translation by %s, not by a public body%s The %s text is authoritative." % (_esc(ev.get("by") or "a third party"), link, _esc(lang or "original-language"))
+            t = "English translation by %s, not by a public body.%s The %s text is authoritative." % (
+                _esc(ev.get("by") or "a third party"), link, lang_label)
         elif kind == "none found":
-            t = "No English version of this instrument was found. The English title and the summary are the register's own, written from the sources below; for the exact wording use the %s text." % _esc(lang or "original-language")
+            t = "No English version of this instrument was found. The English title and the summary are the register's own, written by an AI agent from the sources below; for the exact wording use the %s text." % lang_label
         else:
-            t = "No English version is recorded for this record yet. The English title may be the register's own rendering, and the summary was written from the sources below; for the exact wording use the %s text." % _esc(lang or "original-language")
-        body.append('  <section><h2>Language</h2><p>%s</p></section>\n' % t)
+            t = "No English version is recorded for this record yet. The English title may be the register's own rendering, and the summary was written by an AI agent from the sources below; for the exact wording use the %s text." % lang_label
+        body.append('    <div class="sec"><h3>Language</h3><p>%s</p></div>\n' % t)
 
     if r.get("safety_topics"):
-        tags = "".join('<span class="tag">%s</span>' % _esc(t) for t in r["safety_topics"])
-        body.append('  <section><h2>Safety topics</h2>%s</section>\n' % tags)
+        body.append('    <div class="sec"><h3>Safety topics</h3><div class="tags">%s</div></div>\n' %
+                    "".join('<span class="tag">%s</span>' % _esc(t) for t in r["safety_topics"]))
 
     if r.get("scope_note"):
-        body.append('  <section><h2>Scope</h2><p><span class="pill p-published">Borderline scope</span> %s</p></section>\n' % _esc(r["scope_note"]))
+        body.append('    <div class="sec"><h3>Scope</h3><p><span class="scope-flag">Borderline scope</span> %s</p></div>\n' % _esc(r["scope_note"]))
 
     qs = questions.get(rid) or []
     if qs:
-        ps = "".join("<p>%s <a href=\"%s\">Issue #%s</a></p>" % (_esc(q.get("why") or ""), _esc(q.get("url") or REPO_URL + "/issues"), _esc(q.get("issue") or ""))
-                     for q in qs if q.get("url"))
-        body.append('  <section><h2>Open question</h2>%s<p class="muted">The record shows its last checked values until a maintainer decides; the decision is recorded in its history.</p></section>\n' % ps)
+        ps = "".join("<p>%s %s</p>" % (_esc(q.get("why") or ""),
+                                       ('<a href="%s" target="_blank" rel="noopener">Issue #%s</a>' % (_esc(q.get("url")), _esc(q.get("issue")))) if q.get("url") else "(not filed yet)")
+                     for q in qs)
+        body.append('    <div class="sec"><h3>Open question</h3>%s<p class="muted">The record shows its last checked values until a maintainer decides; the decision is recorded in its history.</p></div>\n' % ps)
 
     if r.get("notes"):
-        body.append('  <section><h2>Status notes</h2><p>%s</p></section>\n' % _esc(r["notes"]))
+        body.append('    <div class="sec"><h3>Status notes</h3><p>%s</p></div>\n' % _esc(r["notes"]))
 
-    srcs = ""
+    # sources
     if r.get("official_url"):
-        srcs += '<p><a href="%s" rel="noopener">Open the official source</a> <span class="mono">%s</span></p>\n' % (_esc(r["official_url"]), _esc(r["official_url"]))
+        srcs = ('<a class="src" href="%s" target="_blank" rel="noopener"><span class="k">Official</span>'
+                '<span>Open the official source</span><span class="u">%s</span></a>') % (_esc(r["official_url"]), _esc(r["official_url"]))
+    else:
+        srcs = ""
     if r.get("secondary_url"):
-        srcs += '<p>Secondary source: <a href="%s" rel="noopener">%s</a></p>\n' % (_esc(r["secondary_url"]), _esc(r["secondary_url"]))
+        srcs += ('<a class="src" href="%s" target="_blank" rel="noopener"><span class="k">Second</span>'
+                 '<span>Secondary source</span><span class="u">%s</span></a>') % (_esc(r["secondary_url"]), _esc(r["secondary_url"]))
     if not srcs:
-        srcs = '<p class="muted">No official URL could be confirmed for this record.</p>\n'
-    body.append('  <section><h2>Sources</h2>%s</section>\n' % srcs)
+        srcs = '<p style="color:var(--bad)">No official URL could be confirmed for this record.</p>'
+    body.append('    <div class="sec"><h3>Sources</h3><div class="sources">%s</div></div>\n' % srcs)
 
     # local copy
-    LC = {"archived": "Archived", "archived-review": "Archived, needs review", "partial": "Partial (secondary source only)",
-          "failed": "Download failed", "no-url": "No URL to archive", "not-attempted": "Not archived yet"}
-    lch = '<p><strong>%s.</strong> %s%s</p>\n' % (
-        LC.get(lc.get("status"), "Local copy"), _esc(lc.get("flag") or ""),
-        (" <span class=\"muted\">Last attempt %s</span>" % _when(lc.get("last_attempt"))) if lc.get("last_attempt") else "")
+    st = lc.get("status")
+    ic = "warn" if (lc.get("integrity_flag") and st == "archived") else LC_ICON.get(st, "info")
+    lch = '<div class="flag %s">%s<div><strong>%s.</strong> %s%s</div></div>' % (
+        LC_FLAGCLASS.get(ic, "flag-info"), ICON[ic],
+        LC_LABEL.get(st, "Local copy"), _esc(lc.get("flag") or LC_HELP.get(st, "")),
+        ('<br><span class="mono" style="font-size:12px;color:var(--ink-2)">Last attempt %s</span>' % _when(lc.get("last_attempt"))) if lc.get("last_attempt") else "")
     lcf = ""
     for f in lc.get("files") or []:
-        link = ('<a href="%s/blob/main/%s" rel="noopener">%s</a>' % (ARCHIVE_URL, _esc(f.get("path") or ""), _esc(f.get("label") or f.get("role") or "Stored file"))) \
-            if f.get("in_archive_dataset") else ('<span>%s <span class="muted">(third-party copy, not published)</span></span>' % _esc(f.get("label") or f.get("role") or "Stored file"))
+        if f.get("in_archive_dataset"):
+            top = '<a href="%s/blob/main/%s" target="_blank" rel="noopener">%s</a>' % (
+                ARCHIVE_URL, _esc(f.get("path") or ""), _esc(f.get("label") or f.get("role") or "Stored file"))
+        else:
+            top = '<span>%s <span style="color:var(--ink-3)">(third-party copy, not published; see the original URL)</span></span>' % _esc(f.get("label") or f.get("role") or "Stored file")
+        mspan = [x for x in (f.get("content_type"), _fmt_bytes(f.get("bytes")) or None,
+                             ("HTTP %s" % f["http_status"]) if f.get("http_status") else None,
+                             "saved by headless browser" if f.get("method") == "browser" else None,
+                             ("server date %s" % f["last_modified"]) if f.get("last_modified") else None) if x]
         warn = ""
+        if f.get("stale"):
+            warn += '<div class="warn">This source could not be downloaded on %s (%s). This is the earlier copy.</div>' % (_esc((f.get("last_failed") or "")[:10]), _esc(f.get("last_error") or ""))
+        if f.get("changed"):
+            prev = (' (earlier version: <a href="%s/blob/main/%s" target="_blank" rel="noopener">%s</a>)' % (ARCHIVE_URL, _esc(f["previous_path"]), _esc(f["previous_path"]))) if f.get("previous_path") else ""
+            warn += '<div class="warn">Changed since the previous snapshot%s.</div>' % prev
         if f.get("warning"):
-            warn += '<p class="muted">Warning: %s</p>' % _esc(f["warning"])
-        if f.get("integrity") and f["integrity"] != "ok":
-            warn += '<p class="muted">Integrity check: %s</p>' % _esc(f["integrity"])
+            warn += '<div class="warn">%s</div>' % _esc(f["warning"])
         if f.get("redaction_note"):
-            warn += '<p class="muted">Published copy: %s. The SHA-256 above is the original file\'s.</p>' % _esc(f["redaction_note"])
-        lcf += ('<div class="file"><div>%s <span class="mono">%s</span></div>'
-                '<div class="muted">Retrieved %s</div><div class="mono">SHA-256 %s</div>%s</div>\n' % (
-                    link, _esc(f.get("path") or ""), _when(f.get("retrieved_at")), _esc(f.get("sha256") or ""), warn))
-    if lc.get("status") != "no-url":
-        body.append('  <section><h2>Local copy</h2><div class="flag">%s%s</div></section>\n' % (lch, lcf))
+            warn += '<div class="warn">Published copy: %s. The SHA-256 above is the original page\'s.</div>' % _esc(f["redaction_note"])
+        if f.get("integrity") and f["integrity"] != "ok":
+            warn += '<div class="warn" style="color:var(--bad)">Integrity check: file %s.</div>' % _esc(f["integrity"])
+        lcf += ('<div class="file%s">'
+                '<div class="file-top">%s <span class="mono" style="font-size:12px;color:var(--ink-3)">%s</span></div>'
+                '<div class="meta"><span>Retrieved %s</span>%s</div>'
+                '<div class="hash"><span>SHA-256 %s</span></div>%s</div>' % (
+                    " stale" if f.get("stale") else "", top, _esc(f.get("path") or ""),
+                    _when(f.get("retrieved_at")),
+                    ('<span>unchanged at %s</span>' % _when(f.get("last_checked"))) if (f.get("last_checked") and f.get("last_checked") != f.get("retrieved_at")) else ""
+                    + "".join("<span>%s</span>" % _esc(m) for m in mspan),
+                    _esc(f.get("sha256") or ""), warn))
+    if st != "no-url":
+        body.append('    <div class="sec"><h3>Local copy</h3><div class="files">%s%s</div></div>\n' % (lch, lcf))
 
     # verification
-    VLABEL = {"A": "The official source was fetched and confirms the title, date and status.",
-              "B": "Another official source confirms the title, date and status.",
-              "C": "Not confirmed on an official page; the record rests on secondary sources. Check it before citing."}
     sc = v.get("second_check")
-    body.append('  <section><h2>Verification</h2><div class="verify"><span class="big">%s</span>'
-                '<div><div>%s <span class="vm">checked %s · %s</span></div>'
-                '<div class="vn">%s</div>%s</div></div></section>\n' % (
-                    _esc(v.get("level") or "?"), _esc(VLABEL.get(v.get("level"), "")),
-                    _esc(v.get("verified_on") or ""), _esc(v.get("method") or ""),
-                    _esc(v.get("note") or ""),
-                    ('<div class="vn"><strong>Second check:</strong> %s</div>' % _esc(sc)) if sc else ""))
+    body.append('    <div class="sec"><h3>Verification</h3><div class="verify v-%s"><span class="big">%s</span>'
+                '<span class="vt">%s</span><span class="vm">checked %s · %s</span><span class="vn">%s</span>%s</div></div>\n' % (
+                    _esc(v.get("level") or "?"), _esc(v.get("level") or "?"),
+                    _esc(VLABEL.get(v.get("level"), "").replace("A · ", "").replace("B · ", "").replace("C · ", "")),
+                    _esc(v.get("verified_on") or ""), _esc(v.get("method") or ""), _esc(v.get("note") or ""),
+                    ('<span class="v2"><strong>Second check%s:</strong> %s</span>' % (
+                        (", " + _esc(meta.get("snapshot_date") or "")) if sc and not sc.startswith("Independent check") else "", _esc(sc))) if sc else ""))
 
     # history, newest first
     he = hist.get(rid) or []
@@ -389,13 +432,15 @@ def _record_page(r, db, hist, questions, reverse_rel, slugmap):
             who = e.get("tool") or ""
             if e.get("model"):
                 who += " (%s)" % e["model"]
-            rows += ('<li><span class="hd">%s</span>%s%s'
-                     '<span class="hm">%s%s</span></li>\n' % (
+            hm = "%s%s%s" % (_esc(e.get("run_id") or ""),
+                             ((" · " + who) if who else ""),
+                             (" · " + str(e.get("evidence")) + " evidence item" + ("s" if (e.get("evidence") or 0) > 1 else "")) if e.get("evidence") else "")
+            rows += ('<li><span class="hd mono">%s</span><span class="ht">%s</span>'
+                     '%s%s<span class="hm">%s</span></li>' % (
                          _esc(e.get("date") or ""), _esc(ht(e)),
-                         (' <span class="muted">— %s</span>' % _esc(e.get("reason"))) if e.get("reason") else "",
-                         _esc(e.get("run_id") or ""),
-                         ((" · " + who) if who else "")))
-        body.append('  <section><h2>History</h2><ol class="hist">%s</ol></section>\n' % rows)
+                         ('<span class="hr">%s</span>' % _esc(e.get("reason"))) if e.get("reason") else "",
+                         ('<span class="hq">“%s”</span>' % _esc(e.get("quote"))) if e.get("quote") else "", hm))
+        body.append('    <div class="sec"><h3>History</h3><ol class="hist">%s</ol></div>\n' % rows)
 
     # related records, both directions, as links to the static pages
     fwd = [x.get("id") for x in (r.get("related") or []) if x.get("id") in slugmap and x.get("id") != rid]
@@ -403,21 +448,29 @@ def _record_page(r, db, hist, questions, reverse_rel, slugmap):
     rev = [x for x in (reverse_rel.get(rid) or []) if x not in seen and x in slugmap]
     if fwd or rev:
         byid = {x["id"]: x for x in db["records"]}
-        rows = "".join('<p><a href="%s.html">%s</a> <span class="muted">%s · %s</span></p>\n' % (
-            slugmap[i], _esc(byid[i].get("short_title") or byid[i].get("title") or i),
-            _esc(byid[i].get("jurisdiction") or ""), _esc(byid[i].get("status") or "")) for i in fwd + rev)
-        body.append('  <section><h2>Related records</h2>%s</section>\n' % rows)
+        rows = "".join('<a class="relbtn" href="%s.html"><span class="mono">%s</span><span>%s <span style="color:var(--ink-3)">· %s</span></span></a>' % (
+            slugmap[i], _esc(i), _esc(byid[i].get("short_title") or byid[i].get("title") or i),
+            _esc(byid[i].get("status") or "")) for i in fwd + rev)
+        body.append('    <div class="sec"><h3>Related records</h3><div class="related">%s</div></div>\n' % rows)
 
-    body.append('  <section><h2>Citation</h2><pre class="cite">%s</pre></section>\n' % _esc(citation_text(r, meta)))
+    # improve this record, same links the app builds
+    name = rid + " " + (r.get("short_title") or r.get("title") or "")
+    news_q = urllib.parse.urlencode({"template": "suggest-instrument.yml", "title": "News or correction: " + name,
+                                     "record": rid, "url": r.get("official_url") or "",
+                                     "jurisdiction": re.sub(r"-\d+$", "", rid)})
+    doc_q = urllib.parse.urlencode({"template": "provide-document.yml", "title": "Document: " + name,
+                                    "record": rid, "url": r.get("official_url") or ""})
+    need_doc = st != "archived" or bool(lc.get("integrity_flag"))
+    imp = ('<p>Know of an amendment, a status change or an error? <a href="%s" target="_blank" rel="noopener">Report news or an error</a>; '
+           'the GitHub form opens with this record filled in.</p>') % _esc(REPO_URL + "/issues/new?" + news_q)
+    if need_doc:
+        imp += ('<p>The official source is not stored as it should be (see Local copy). If you can download it from the official site, '
+                '<a href="%s" target="_blank" rel="noopener">provide the document</a>.</p>') % _esc(REPO_URL + "/issues/new?" + doc_q)
+    imp += '<p class="muted">What happens next: <a href="../index.html#contribute">Contribute</a>.</p>'
+    body.append('    <div class="sec"><h3>Improve this record</h3>%s</div>\n' % imp)
 
-    issue_q = urllib.parse.urlencode({"template": "suggest-instrument.yml",
-                                      "title": "News or correction: %s %s" % (rid, r.get("short_title") or r.get("title") or ""),
-                                      "record": rid, "url": r.get("official_url") or "",
-                                      "jurisdiction": re.sub(r"-\d+$", "", rid)})
-    improve = ('  <section><h2>Improve this record</h2><p>Know of an amendment, a status change or an error? '
-               '<a href="%s" target="_blank" rel="noopener">Report news or an error</a> on GitHub; the form opens with this record filled in.</p></section>\n' %
-               _esc(REPO_URL + "/issues/new?" + issue_q))
-    body.append(improve)
+    body.append('    <div class="sec cite"><h3>Citation</h3><textarea readonly aria-label="Citation text" rows="5">%s</textarea></div>\n' %
+                _esc(citation_text(r, meta)))
 
     # JSON-LD
     ld = {
@@ -451,7 +504,8 @@ def _record_page(r, db, hist, questions, reverse_rel, slugmap):
         '<meta name="description" content="%s">' % _esc(desc),
         '<link rel="canonical" href="%s">' % _esc(page_url),
         '<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">',
-        '<style>%s</style>' % RECORD_CSS,
+        '<link rel="stylesheet" href="../assets/app.css">',
+        '<style>%s</style>' % PAGE_CSS,
         '<meta property="og:type" content="article">',
         '<meta property="og:site_name" content="%s">' % _esc(NAME),
         '<meta property="og:title" content="%s">' % _esc("%s (%s)" % (title, rid)),
@@ -463,32 +517,34 @@ def _record_page(r, db, hist, questions, reverse_rel, slugmap):
         '<meta name="twitter:description" content="%s">' % _esc(desc),
         '<script type="application/ld+json">%s</script>' % ld_text.replace("</", "<\\/"),
         "</head>",
-        '<body>',
-        '<div class="wrap">',
-        '  <p class="crumb"><a href="../index.html">Every AI Policy Ever</a> · <a href="../index.html#%s">open in the interactive register</a></p>\n' % _esc(rid),
+        "<body>",
+        '<div class="page">',
+        '  <header class="d-head"><span class="mono"><a href="../index.html">%s</a> · <a href="../index.html#%s">%s</a></span>'
+        '<span class="mono"><a href="../index.html#%s">open in the interactive register</a></span></header>\n' % (_esc(NAME), _esc(rid), _esc(rid), _esc(rid)),
+        '  <main class="d-body">',
     ]
     tail = [
-        "  <footer>%s · version %s · snapshot %s · an AI-assisted extraction, verified %s (level %s) · "
-        "<a href=\"../index.html\">the interactive register</a> · <a href=\"%s\" rel=\"noopener\">the GitHub repository</a></footer>\n" % (
+        "  </main>",
+        '  <footer class="page-foot"><span>%s · version %s · snapshot %s</span>'
+        '<span>an AI-assisted extraction — verified %s (level %s); the original-language text is the authority</span>'
+        '<span><a href="../index.html">the interactive register</a> · <a href="%s" rel="noopener">the GitHub repository</a></span></footer>\n' % (
             _esc(NAME), _esc(meta.get("version") or ""), _esc(meta.get("snapshot_date") or ""),
             _esc(v.get("verified_on") or ""), _esc(v.get("level") or ""), _esc(REPO_URL)),
         "</div>",
         "</body>",
         "</html>",
     ]
-    return "\n".join(head) + "\n" + "\n".join(body) + "\n".join(tail) + "\n"
+    return "\n".join(head) + "\n" + "".join(body) + "\n".join(tail) + "\n"
 
 
 def _records_index(db, slugmap):
-    """records/index.html: a static list of every record, so /records/ is a page, not a dead end."""
+    """records/index.html: every record as drawer-style rows, so /records/ matches the register."""
     meta = db.get("meta") or {}
     page_url = SPACE_URL + "/records/"
     recs = sorted(db["records"], key=lambda r: (r.get("date_published") or "", r["id"]), reverse=True)
-    rows = "".join(
-        '<p><a href="%s.html">%s</a> <span class="muted">%s · %s · %s</span></p>\n' % (
-            slugmap[r["id"]], _esc(r.get("short_title") or r.get("title") or r["id"]),
-            _esc(r["id"]), _esc(r.get("jurisdiction") or ""), _esc(r.get("date_published") or ""))
-        for r in recs)
+    rows = "".join('<a class="relbtn" href="%s.html"><span class="mono">%s</span><span>%s <span style="color:var(--ink-3)">· %s · %s</span></span></a>' % (
+        slugmap[r["id"]], _esc(r["id"]), _esc(r.get("short_title") or r.get("title") or r["id"]),
+        _esc(r.get("jurisdiction") or ""), _esc(r.get("date_published") or "")) for r in recs)
     return "\n".join([
         "<!doctype html>",
         '<html lang="en">',
@@ -499,7 +555,8 @@ def _records_index(db, slugmap):
         '<meta name="description" content="All %d records in %s: official governmental and intergovernmental AI safety and AI regulation instruments, newest first."' % (len(recs), NAME),
         '<link rel="canonical" href="%s">' % _esc(page_url),
         '<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">',
-        "<style>%s</style>" % RECORD_CSS,
+        '<link rel="stylesheet" href="../assets/app.css">',
+        "<style>%s</style>" % PAGE_CSS,
         '<meta property="og:type" content="website">',
         '<meta property="og:site_name" content="%s">' % _esc(NAME),
         '<meta property="og:title" content="All records · %s">' % _esc(NAME),
@@ -508,12 +565,14 @@ def _records_index(db, slugmap):
         '<meta property="og:image" content="%s/assets/og-image.png">' % SPACE_URL,
         "</head>",
         "<body>",
-        '<div class="wrap">',
-        '  <p class="crumb"><a href="../index.html">Every AI Policy Ever</a> · <a href="../index.html">open in the interactive register</a></p>',
-        '  <h1>All records <span style="color:var(--ink-3);font-size:20px">(%d)</span></h1>\n' % len(recs),
-        '  <p class="muted">Every instrument in the register, newest first. Snapshot %s · version %s. Use the <a href="../index.html">interactive register</a> to search and filter.</p>\n' % (_esc(meta.get("snapshot_date") or ""), _esc(meta.get("version") or "")),
-        rows,
-        '  <footer>%s · version %s · snapshot %s</footer>\n' % (_esc(NAME), _esc(meta.get("version") or ""), _esc(meta.get("snapshot_date") or "")),
+        '<div class="page">',
+        '  <header class="d-head"><span class="mono"><a href="../index.html">%s</a> · <a href="../index.html">all records</a></span></header>\n' % _esc(NAME),
+        '  <main class="d-body">',
+        '    <div><div class="d-kicker"><span>All records</span><span>·</span><span>%d instruments, newest first</span></div><h1 class="d-title">All records</h1></div>\n' % len(recs),
+        '    <div class="sec"><p>Snapshot %s · version %s. Use the <a href="../index.html">interactive register</a> to search and filter.</p></div>\n' % (_esc(meta.get("snapshot_date") or ""), _esc(meta.get("version") or "")),
+        '    <div class="related">%s</div>\n' % rows,
+        "  </main>",
+        '  <footer class="page-foot"><span>%s · version %s · snapshot %s</span></footer>\n' % (_esc(NAME), _esc(meta.get("version") or ""), _esc(meta.get("snapshot_date") or "")),
         "</div>",
         "</body>",
         "</html>",
