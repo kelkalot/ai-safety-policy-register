@@ -1,0 +1,108 @@
+{
+ "cand_id": "C004",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Promoting the Use of Trustworthy Artificial Intelligence in the Federal Government (Executive Order 13960)",
+  "short_title": "EO 13960: Trustworthy AI in Government",
+  "jurisdiction": "United States",
+  "country": "United States",
+  "jurisdiction_level": "National",
+  "region": "North America",
+  "issuing_body": "The White House (President Donald J. Trump)",
+  "instrument_type": "Executive order / decree",
+  "legal_force": "Binding",
+  "status": "In force",
+  "date_published": "2020-12-03",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": "Executive Order 13960; 85 FR 78939 (FR Doc. 2020-27065)",
+  "language": "English",
+  "summary": "Sets nine principles for federal agencies' design, development, acquisition and use of AI outside national security and defense: lawful, purposeful, accurate and reliable, safe, secure and resilient, understandable, responsible and traceable, regularly monitored, transparent and accountable. It tasks OMB with policy guidance, requires agencies to inventory their AI use cases, and sets up interagency coordination and AI expertise.",
+  "safety_topics": [
+   "public-sector use",
+   "transparency & labelling",
+   "accountability & liability",
+   "evaluation & testing"
+  ],
+  "related": [
+   "C003"
+  ],
+  "notes": "Signed 3 December 2020 and published in the Federal Register on 8 December 2020. It builds on Executive Order 13859. OMB memorandum M-26-04 of 11 December 2025 refers to it among the existing directives on agency AI use.",
+  "verification": {
+   "note": "Federal Register PDF from govinfo.gov stored and read. Current status rests on OMB memorandum M-26-04 (stored as an extra source), which cites the order as an existing directive."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C004/2026-10-16/official.pdf",
+    "sha256": "806dd5f22488f28f063bf06eae6f3f0480d40baf263bbe7e11721c01a265e5af",
+    "locator": "page 1",
+    "quote": "Promoting the Use of Trustworthy Artificial Intelligence in",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C004/2026-10-16/official.pdf",
+    "sha256": "806dd5f22488f28f063bf06eae6f3f0480d40baf263bbe7e11721c01a265e5af",
+    "locator": "page 1",
+    "quote": "By the authority vested in me as President by the Constitution and the",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C004/2026-10-16/official.pdf",
+    "sha256": "806dd5f22488f28f063bf06eae6f3f0480d40baf263bbe7e11721c01a265e5af",
+    "locator": "page 1",
+    "quote": "Executive Order 13960 of December 3, 2020",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C004/2026-10-16/official.pdf",
+    "sha256": "806dd5f22488f28f063bf06eae6f3f0480d40baf263bbe7e11721c01a265e5af",
+    "locator": "page 5",
+    "quote": "[FR Doc. 2020–27065",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C004/2026-10-16/official.pdf",
+    "sha256": "806dd5f22488f28f063bf06eae6f3f0480d40baf263bbe7e11721c01a265e5af",
+    "locator": "page 1",
+    "quote": "Executive Order 13960 of December 3, 2020",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C004/extra-69004c5fb8/2026-10-16/official.pdf",
+    "sha256": "d33b0277d720baac843babc5f24269e4c0b8777447870a36309d8b4f3d9c79bc",
+    "locator": "page 4",
+    "quote": "and use of AI, such as President Trump’s Executive Order 13960, Promoting the Use of",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C004/2026-10-16/official.pdf",
+    "sha256": "806dd5f22488f28f063bf06eae6f3f0480d40baf263bbe7e11721c01a265e5af",
+    "locator": "page 1",
+    "quote": "laws of the United States of America, it is hereby ordered as follows:",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Signed 3 December 2020; OMB memo M-26-04 (11 December 2025) cites it as an existing directive, so it is treated as In force.",
+  "scope_reasoning": "Clearly in scope: government principles for trustworthy AI use."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}

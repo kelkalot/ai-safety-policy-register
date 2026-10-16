@@ -1,0 +1,127 @@
+{
+ "cand_id": "C001",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "New Generation Artificial Intelligence Development Plan",
+  "original_title": "新一代人工智能发展规划",
+  "short_title": "New Generation AI Development Plan (2017)",
+  "jurisdiction": "China",
+  "country": "China",
+  "jurisdiction_level": "National",
+  "region": "East Asia",
+  "issuing_body": "State Council of the People's Republic of China",
+  "instrument_type": "Strategy / action plan",
+  "legal_force": "Non-binding",
+  "status": "Published (non-binding, current)",
+  "date_published": "2017-07-08",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": "国发〔2017〕35号",
+  "language": "Chinese",
+  "english_version": {
+   "kind": "third-party translation",
+   "url": "https://digichina.stanford.edu/work/full-translation-chinas-new-generation-artificial-intelligence-development-plan-2017/",
+   "by": "DigiChina, Stanford University (translators Graham Webster, Rogier Creemers, Elsa Kania, Paul Triolo)"
+  },
+  "summary": "China's State Council national plan for AI development to 2030, in three steps. It sets goals of building a system of AI laws, regulations, ethical norms and policies and an AI security assessment and control capability, and tasks on liability and traceability rules, safety management rules for autonomous driving and service robots, risk assessment, a two-tier regulatory structure, testing platforms and safety certification.",
+  "safety_topics": [
+   "accountability & liability",
+   "evaluation & testing",
+   "research priorities",
+   "international cooperation"
+  ],
+  "related": [
+   "CN-12"
+  ],
+  "notes": "Dated 8 July 2017 on the document; published on the government portal on 20 July 2017. Sets milestones for 2020, 2025 and 2030. Mainly an industrial and R&D plan; the governance content is in the guarantee measures (laws and ethical norms, security supervision and assessment).",
+  "scope_note": "A national AI development strategy with a mainly industrial and research focus; its sections on laws and ethical norms and on AI security supervision and assessment give it safety and risk-governance content, so it is included as China's flagship AI plan.",
+  "verification": {
+   "note": "Stored copy of the State Council page on gov.cn gives the title, number and dates; the English title is a rendering of the Chinese title, based on the Stanford DigiChina translation, which is a third-party translation."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C001/2026-10-16/official.html",
+    "sha256": "562b0de202ab0be7a944cc8ac97fd3bea84836caf3dda982acc1db5b9b1b97c0",
+    "locator": "page header",
+    "quote": "国务院关于印发新一代人工智能发展规划的通知",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C001/2026-10-16/official.html",
+    "sha256": "562b0de202ab0be7a944cc8ac97fd3bea84836caf3dda982acc1db5b9b1b97c0",
+    "locator": "heading",
+    "quote": "新一代人工智能发展规划",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C001/2026-10-16/official.html",
+    "sha256": "562b0de202ab0be7a944cc8ac97fd3bea84836caf3dda982acc1db5b9b1b97c0",
+    "locator": "page metadata",
+    "quote": "国务院关于印发新一代人工智能发展规划的通知",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C001/2026-10-16/official.html",
+    "sha256": "562b0de202ab0be7a944cc8ac97fd3bea84836caf3dda982acc1db5b9b1b97c0",
+    "locator": "notice text",
+    "quote": "现将《新一代人工智能发展规划》印发给你们，请认真贯彻执行。",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C001/2026-10-16/official.html",
+    "sha256": "562b0de202ab0be7a944cc8ac97fd3bea84836caf3dda982acc1db5b9b1b97c0",
+    "locator": "notice heading",
+    "quote": "国发〔2017〕35号",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C001/2026-10-16/official.html",
+    "sha256": "562b0de202ab0be7a944cc8ac97fd3bea84836caf3dda982acc1db5b9b1b97c0",
+    "locator": "page metadata",
+    "quote": "2017年07月08日",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C001/2026-10-16/official.html",
+    "sha256": "562b0de202ab0be7a944cc8ac97fd3bea84836caf3dda982acc1db5b9b1b97c0",
+    "locator": "section 1 (三步走)",
+    "quote": "第三步，到2030年人工智能理论、技术与应用总体达到世界领先水平，成为世界主要人工智能创新中心，智能经济、智能社会取得明显成效，为跻身创新型国家前列和经济强国奠定重要基础。",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C001/2026-10-16/official.html",
+    "sha256": "562b0de202ab0be7a944cc8ac97fd3bea84836caf3dda982acc1db5b9b1b97c0",
+    "locator": "notice text",
+    "quote": "现将《新一代人工智能发展规划》印发给你们，请认真贯彻执行。",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "A plan issued by the State Council with targets to 2030; nothing in the stored text or elsewhere shows it withdrawn or replaced, so it is current and non-binding policy guidance (a plan sent to departments for implementation).",
+  "scope_reasoning": "Borderline strategy: mainly industrial, with guarantee measures on AI law, ethics and security supervision (General rule: strategy with some safety content is in with a scope_note)."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "No English official text found among stored sources; English title is a rendering.",
+  "No entry-into-force clause; date_in_force left null."
+ ],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}

@@ -1,9 +1,9 @@
 {
  "meta": {
   "name": "Every AI Policy Ever",
-  "version": "1.10.3",
+  "version": "1.11",
   "snapshot_date": "2026-10-12",
-  "record_count": 391,
+  "record_count": 394,
   "scope": "Official governmental and intergovernmental AI safety and AI regulation instruments (core safety + regulation), global coverage.",
   "research_snapshot_date": "2026-10-11/2026-10-12",
   "archive_note": "Local copies of sources are created by tools/archive.py on the machine where the register is deployed.",
@@ -564,6 +564,49 @@
       "US-FL-14"
      ],
      "history_events": 4
+    },
+    {
+     "date": "2026-10-16",
+     "agent": "Claude Code",
+     "model": "claude-opus-5-5",
+     "scope": "pipeline run 2026-10-16-discover-leads (discover: queue)",
+     "run_id": "2026-10-16-discover-leads",
+     "stages": {
+      "collect": {
+       "tool": "Claude Code",
+       "model": "claude-sonnet-5-5",
+       "date": "2026-10-16"
+      },
+      "extract": {
+       "tool": "Claude Code",
+       "model": "claude-opus-5-5",
+       "date": "2026-10-16"
+      },
+      "blind": {
+       "tool": "Claude Code",
+       "model": "claude-sonnet-5-5",
+       "date": "2026-10-16"
+      },
+      "check": {
+       "tool": "Claude Code",
+       "model": "claude-sonnet-5-5",
+       "date": "2026-10-16"
+      }
+     },
+     "records_added": 3,
+     "ids": [
+      "CN-28",
+      "EU-20",
+      "US-29"
+     ],
+     "ids_updated": [
+      "CN-12",
+      "US-06",
+      "US-12",
+      "US-17",
+      "US-19"
+     ],
+     "history_events": 8
     }
    ]
   }
@@ -748,8 +791,8 @@
    },
    "local_copy": {
     "status": "failed",
-    "flag": "The official source could not be downloaded: robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'. The secondary source could not be downloaded (robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl').",
-    "last_attempt": "2026-10-11T14:06:44Z",
+    "flag": "The official source could not be downloaded: DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'. The secondary source could not be downloaded (DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl').",
+    "last_attempt": "2026-10-16T11:38:55Z",
     "files": [],
     "attempts": [
      {
@@ -786,6 +829,24 @@
       "ok": false,
       "http_status": null,
       "error": "robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231208",
+      "attempted_at": "2026-10-16T11:38:57Z",
+      "ok": false,
+      "http_status": null,
+      "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://impact.indiaai.gov.in/outcome-resources",
+      "attempted_at": "2026-10-16T11:38:57Z",
+      "ok": false,
+      "http_status": null,
+      "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
       "method": "http"
      }
     ]
@@ -1940,8 +2001,8 @@
    },
    "local_copy": {
     "status": "failed",
-    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The secondary source could not be downloaded (HTTP 403 Forbidden). The browser retry also failed (HTTP 403 (in browser)).",
-    "last_attempt": "2026-10-14T07:49:24Z",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The secondary source could not be downloaded (HTTP 403 Forbidden).",
+    "last_attempt": "2026-10-16T11:38:55Z",
     "files": [],
     "attempts": [
      {
@@ -2042,6 +2103,24 @@
       "http_status": 403,
       "error": "HTTP 403 (in browser)",
       "method": "browser"
+     },
+     {
+      "role": "official",
+      "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
+      "attempted_at": "2026-10-16T11:38:59Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.coe.int/en/web/portal/-/council-of-europe-opens-first-ever-global-treaty-on-ai-for-signature",
+      "attempted_at": "2026-10-16T11:39:03Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
      }
     ]
    }
@@ -2089,8 +2168,8 @@
    },
    "local_copy": {
     "status": "failed",
-    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The secondary source could not be downloaded (HTTP 403 Forbidden). The browser retry also failed (HTTP 403 (in browser)).",
-    "last_attempt": "2026-10-11T14:06:45Z",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The secondary source could not be downloaded (HTTP 403 Forbidden).",
+    "last_attempt": "2026-10-16T11:38:55Z",
     "files": [],
     "attempts": [
      {
@@ -2137,6 +2216,24 @@
       "http_status": 403,
       "error": "HTTP 403 (in browser)",
       "method": "browser"
+     },
+     {
+      "role": "official",
+      "url": "https://www.coe.int/en/web/artificial-intelligence/huderia-risk-and-impact-assessment-of-ai-systems",
+      "attempted_at": "2026-10-16T11:39:01Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://rm.coe.int/huderia-methodology-and-model-adopted-provisional-version-2026/48802ac001",
+      "attempted_at": "2026-10-16T11:39:03Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
      }
     ]
    }
@@ -3228,8 +3325,8 @@
    },
    "local_copy": {
     "status": "partial",
-    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.). A source changed since the previous snapshot; both versions are kept.",
-    "last_attempt": "2026-10-11T14:06:49Z",
+    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved.",
+    "last_attempt": "2026-10-16T11:38:55Z",
     "files": [
      {
       "role_key": "secondary",
@@ -3243,16 +3340,17 @@
       "bytes": 76412,
       "sha256": "f02dcf866484029c511330b2be05d8beca8c46df8dde6509ba22188cc852a3c9",
       "retrieved_at": "2026-10-11T14:06:54Z",
-      "last_checked": "2026-10-11T14:06:54Z",
+      "last_checked": "2026-10-16T11:39:01Z",
       "method": "http",
       "last_modified": null,
       "etag": "W/\"f02dcf866484029c511330b2be05d8be\"",
-      "changed": true,
+      "changed": false,
       "previous_sha256": "6ec8a0b7f9f1e72420b9b1a8843aa31855c6984c349942f5909c1f89c8afec86",
       "previous_path": "archive/INT-11/2026-10-11/secondary.html",
       "stale": false,
       "warning": null,
-      "integrity": "ok"
+      "integrity": "ok",
+      "text_sha256": "951e7c5467d624a87376755c05d2c4061f6da12f8bd72fda4a93eed54900cb6f"
      }
     ],
     "attempts": [
@@ -3300,9 +3398,26 @@
       "http_status": null,
       "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
       "method": "browser"
+     },
+     {
+      "role": "official",
+      "url": "https://www.commerce.gov/news/fact-sheets/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
+      "attempted_at": "2026-10-16T11:38:58Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+      "attempted_at": "2026-10-16T11:39:01Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -3732,8 +3847,8 @@
    },
    "local_copy": {
     "status": "partial",
-    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
-    "last_attempt": "2026-10-11T14:06:51Z",
+    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved.",
+    "last_attempt": "2026-10-16T11:38:57Z",
     "files": [
      {
       "role_key": "secondary",
@@ -3747,7 +3862,7 @@
       "bytes": 5192,
       "sha256": "348bf2a18e4c8f013bb6cb7d44954aa55e2b1bce00968e7aac6efabeedb56bc4",
       "retrieved_at": "2026-10-11T13:57:39Z",
-      "last_checked": "2026-10-11T14:06:57Z",
+      "last_checked": "2026-10-16T11:39:04Z",
       "method": "http",
       "last_modified": "Wed, 07 Oct 2026 09:43:02 GMT",
       "etag": "W/\"1448-65d3cf0feb27d\"",
@@ -3804,9 +3919,26 @@
       "http_status": null,
       "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
       "method": "browser"
+     },
+     {
+      "role": "official",
+      "url": "https://www.oecd.org/en/about/news/press-releases/2025/02/oecd-launches-global-framework-to-monitor-application-of-g7-hiroshima-ai-code-of-conduct.html",
+      "attempted_at": "2026-10-16T11:38:59Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.soumu.go.jp/hiroshimaaiprocess/en/report.html",
+      "attempted_at": "2026-10-16T11:39:04Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -10910,28 +11042,29 @@
    },
    "local_copy": {
     "status": "partial",
-    "flag": "The official source could not be downloaded (The site's robots.txt does not allow automated downloads of this page); only the secondary source was saved.",
-    "last_attempt": "2026-10-11T14:07:26Z",
+    "flag": "The official source could not be downloaded (DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'); only the secondary source was saved. A source changed since the previous snapshot; both versions are kept.",
+    "last_attempt": "2026-10-16T11:39:01Z",
     "files": [
      {
       "role_key": "secondary",
       "role": "secondary",
       "label": "Secondary source",
-      "path": "archive/CL-01/2026-10-11/secondary.html",
+      "path": "archive/CL-01/2026-10-16/secondary.html",
       "url": "https://minciencia.gob.cl/areas/inteligencia-artificial/politica-nacional-de-inteligencia-artificial/",
       "final_url": "https://minciencia.gob.cl/areas/inteligencia-artificial/politica-nacional-de-inteligencia-artificial/",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 79831,
-      "sha256": "f667c4823c447b6d3fc3675b4efe9f15b3866054d2b8cc848400ec0b2bd97847",
-      "retrieved_at": "2026-10-11T13:59:44Z",
-      "last_checked": "2026-10-11T14:07:33Z",
+      "bytes": 78386,
+      "sha256": "0e39f98addb2294115a612f9d111ef2134608f9e87baadc5ab62b5a20ff34763",
+      "text_sha256": "43c1eb4ce36f12557cffda486d61e93998477bd163eeca4d5bc0d303d2881bdf",
+      "retrieved_at": "2026-10-16T11:39:07Z",
+      "last_checked": "2026-10-16T11:39:07Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
-      "changed": false,
-      "previous_sha256": null,
-      "previous_path": null,
+      "changed": true,
+      "previous_sha256": "f667c4823c447b6d3fc3675b4efe9f15b3866054d2b8cc848400ec0b2bd97847",
+      "previous_path": "archive/CL-01/2026-10-11/secondary.html",
       "stale": false,
       "warning": null,
       "integrity": "ok"
@@ -10973,9 +11106,26 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2025/01/28/44060/01/2600578.pdf",
+      "attempted_at": "2026-10-16T11:39:02Z",
+      "ok": false,
+      "http_status": null,
+      "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://minciencia.gob.cl/areas/inteligencia-artificial/politica-nacional-de-inteligencia-artificial/",
+      "attempted_at": "2026-10-16T11:39:07Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -11036,8 +11186,8 @@
    },
    "local_copy": {
     "status": "partial",
-    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved. The browser retry also failed (HTTP 403 (in browser)).",
-    "last_attempt": "2026-10-11T14:07:27Z",
+    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved.",
+    "last_attempt": "2026-10-16T11:39:03Z",
     "files": [
      {
       "role_key": "secondary",
@@ -11051,7 +11201,7 @@
       "bytes": 167762,
       "sha256": "8778fa4ddc931ede9376757681b7929e094aedbd845c77ece0c4a205b9ab4655",
       "retrieved_at": "2026-10-11T13:59:49Z",
-      "last_checked": "2026-10-11T14:07:34Z",
+      "last_checked": "2026-10-16T11:39:10Z",
       "method": "http",
       "last_modified": "Sunday, 11-Oct-2026 13:59:49 UTC",
       "etag": "\"1ddwj5qlha3l9z\"",
@@ -11108,9 +11258,26 @@
       "http_status": 403,
       "error": "HTTP 403 (in browser)",
       "method": "browser"
+     },
+     {
+      "role": "official",
+      "url": "https://www.camara.cl/cms/?p=90888",
+      "attempted_at": "2026-10-16T11:39:06Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.senado.cl/actividad-legislativa/comisiones/941/22741",
+      "attempted_at": "2026-10-16T11:39:10Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -11584,10 +11751,34 @@
     "second_check": null
    },
    "local_copy": {
-    "status": "partial",
-    "flag": "The official source could not be downloaded (robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'); only the secondary source was saved.",
-    "last_attempt": "2026-10-11T14:07:33Z",
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T11:39:03Z",
     "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/CN-04/2026-10-16/official.html",
+      "url": "https://www.gov.cn/zhengce/zhengceku/202310/content_6908045.htm",
+      "final_url": "https://www.gov.cn/zhengce/zhengceku/202310/content_6908045.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 90026,
+      "sha256": "37543711142507e9c9a633538585923ce7021e5a5c11aef3f5ff2cb6f64ab3a2",
+      "text_sha256": "20d1613cfc9e9e21496d703e3c480188dc4dc150833ec52f49f2363abc818c07",
+      "retrieved_at": "2026-10-16T11:39:06Z",
+      "last_checked": "2026-10-16T11:39:06Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
      {
       "role_key": "secondary",
       "role": "secondary",
@@ -11600,7 +11791,7 @@
       "bytes": 39088,
       "sha256": "4ac2b55420448d2f0f046dd32cc78d3062e55da4d8f6a34e6650c3df7c5503d3",
       "retrieved_at": "2026-10-11T13:59:58Z",
-      "last_checked": "2026-10-11T14:07:39Z",
+      "last_checked": "2026-10-16T11:39:13Z",
       "method": "http",
       "last_modified": "Thu, 28 May 2026 07:10:26 GMT",
       "etag": "W/\"39088-1779952226000\"",
@@ -11648,9 +11839,26 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gov.cn/zhengce/zhengceku/202310/content_6908045.htm",
+      "attempted_at": "2026-10-16T11:39:06Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/gfxwj/gfxwj2023/202310/t20231008_188309.html",
+      "attempted_at": "2026-10-16T11:39:13Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    },
    "scope_note": "Not AI-specific; included for its AI-related review list and as the parent framework of the AI-specific ethics measures of March 2026."
   },
@@ -13001,6 +13209,10 @@
     {
      "slug": "cn-ai-safety-governance-framework-2-0",
      "id": "CN-13"
+    },
+    {
+     "id": "CN-28",
+     "slug": "new-generation-ai-development-plan"
     }
    ],
    "notes": "Signed 21 Aug 2025 and released on 26 Aug 2025. The NDRC coordinates implementation. Item (14) also calls for an inclusive and prudent, categorised and graded approach to AI governance. Outside items (13) and (14), item (6)2 calls for jointly assessing and responding to AI application risks to keep AI development safe, reliable and controllable, and item (4)1 for assessing the employment risks of AI applications.",
@@ -14924,8 +15136,8 @@
    },
    "local_copy": {
     "status": "failed",
-    "flag": "The official source could not be downloaded: robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'. The secondary source could not be downloaded (robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl').",
-    "last_attempt": "2026-10-11T14:07:39Z",
+    "flag": "The official source could not be downloaded: DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'. The secondary source could not be downloaded (DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl').",
+    "last_attempt": "2026-10-16T11:39:04Z",
     "files": [],
     "attempts": [
      {
@@ -14962,6 +15174,24 @@
       "ok": false,
       "http_status": null,
       "error": "robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://indiaai.gov.in/article/india-takes-the-lead-establishing-the-indiaai-safety-institute-for-responsible-ai-innovation",
+      "attempted_at": "2026-10-16T11:39:04Z",
+      "ok": false,
+      "http_status": null,
+      "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://psa.gov.in/CMS/web/sites/default/files/publication/India%20Takes%20the%20Lead%20Establishing%20the%20IndiaAI%20Safety%20Institute%20for%20Responsible%20AI%20Innovation.pdf",
+      "attempted_at": "2026-10-16T11:39:06Z",
+      "ok": false,
+      "http_status": null,
+      "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
       "method": "http"
      }
     ]
@@ -15022,8 +15252,8 @@
    },
    "local_copy": {
     "status": "failed",
-    "flag": "The official source could not be downloaded: robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'. The secondary source could not be downloaded (robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl').",
-    "last_attempt": "2026-10-11T14:07:39Z",
+    "flag": "The official source could not be downloaded: DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'. The secondary source could not be downloaded (DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl').",
+    "last_attempt": "2026-10-16T11:39:06Z",
     "files": [],
     "attempts": [
      {
@@ -15060,6 +15290,24 @@
       "ok": false,
       "http_status": null,
       "error": "robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://indiaai.gov.in/article/india-ai-governance-guidelines-empowering-ethical-and-responsible-ai",
+      "attempted_at": "2026-10-16T11:39:06Z",
+      "ok": false,
+      "http_status": null,
+      "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2186639",
+      "attempted_at": "2026-10-16T11:39:06Z",
+      "ok": false,
+      "http_status": null,
+      "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
       "method": "http"
      }
     ]
@@ -15108,10 +15356,35 @@
     "second_check": null
    },
    "local_copy": {
-    "status": "failed",
-    "flag": "The official source could not be downloaded: DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'.",
-    "last_attempt": "2026-10-11T15:28:33Z",
-    "files": [],
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T11:39:06Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/IN-03/2026-10-16/official.pdf",
+      "url": "https://www.meity.gov.in/static/uploads/2026/02/550681ab908f8afb135b0ad42816a1c9.pdf",
+      "final_url": "https://www.meity.gov.in/static/uploads/2026/02/550681ab908f8afb135b0ad42816a1c9.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 437825,
+      "sha256": "7881536e07458e616f6c91b841814cc95b7084edc7ded8a0897a4beaec701351",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T11:39:10Z",
+      "last_checked": "2026-10-16T11:39:10Z",
+      "method": "http",
+      "last_modified": "Tue, 10 Feb 2026 15:08:38 GMT",
+      "etag": "18f884fc769c082c5646c8096cb020de",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
     "attempts": [
      {
       "role": "official",
@@ -15138,6 +15411,15 @@
       "ok": false,
       "http_status": null,
       "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.meity.gov.in/static/uploads/2026/02/550681ab908f8afb135b0ad42816a1c9.pdf",
+      "attempted_at": "2026-10-16T11:39:10Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
       "method": "http"
      }
     ]
@@ -15300,8 +15582,8 @@
    },
    "local_copy": {
     "status": "failed",
-    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
-    "last_attempt": "2026-10-11T14:07:39Z",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden.",
+    "last_attempt": "2026-10-16T11:39:07Z",
     "files": [],
     "attempts": [
      {
@@ -15330,6 +15612,15 @@
       "http_status": null,
       "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
       "method": "browser"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gov.il/BlobFolder/policy/ai_2023/en/Israels%20AI%20Policy%202023.pdf",
+      "attempted_at": "2026-10-16T11:39:09Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
      }
     ]
    }
@@ -17158,10 +17449,58 @@
     "second_check": null
    },
    "local_copy": {
-    "status": "partial",
-    "flag": "The official source could not be downloaded (The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'); only the secondary source was saved.",
-    "last_attempt": "2026-10-11T20:06:47Z",
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T11:39:09Z",
     "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/KE-01/2026-10-16/official.html",
+      "url": "https://ict.go.ke/ict-ministry-set-launch-national-artificial-intelligence-strategy-2025-2030",
+      "final_url": "https://ict.go.ke/ict-ministry-set-launch-national-artificial-intelligence-strategy-2025-2030",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 65106,
+      "sha256": "2130480ddc5cf5e48cc55be2b9bc7518aa12348a74eae3c61b28d7c63f11677d",
+      "text_sha256": "bc62c70853311c85ff2cece350710704b4c28c4394ed41b88714724a44d205e7",
+      "retrieved_at": "2026-10-16T11:39:13Z",
+      "last_checked": "2026-10-16T11:39:13Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/KE-01/2026-10-16/document-1.pdf",
+      "url": "https://ict.go.ke/sites/default/files/2026-03/CYBERSECURITY%20AND%20SYSTEM%20AUDIT%20JOB%20OPPORTUNITIES%20-%202026.pdf",
+      "final_url": "https://ict.go.ke/sites/default/files/2026-03/CYBERSECURITY%20AND%20SYSTEM%20AUDIT%20JOB%20OPPORTUNITIES%20-%202026.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 124453,
+      "sha256": "48637ae372731a623c4b7bcf51921f526fcedac3e9cc6c0a3329102f92b109c4",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T11:39:16Z",
+      "last_checked": "2026-10-16T11:39:16Z",
+      "method": "http",
+      "last_modified": "Tue, 31 Mar 2026 06:56:15 GMT",
+      "etag": "\"1e625-64e4c76a0e1c0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
      {
       "role_key": "secondary",
       "role": "secondary",
@@ -17175,7 +17514,7 @@
       "sha256": "55e33e3ebf2c78bb8024bae1229fa7d557e32eeb81726021f5d163a637e3b145",
       "text_sha256": null,
       "retrieved_at": "2026-10-11T20:06:51Z",
-      "last_checked": "2026-10-11T20:06:51Z",
+      "last_checked": "2026-10-16T11:39:19Z",
       "method": "http",
       "last_modified": "Thu, 23 Apr 2026 14:34:59 GMT",
       "etag": "W/\"16d29b0-19dbac3fb00\"",
@@ -17205,9 +17544,35 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://ict.go.ke/ict-ministry-set-launch-national-artificial-intelligence-strategy-2025-2030",
+      "attempted_at": "2026-10-16T11:39:13Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://ict.go.ke/sites/default/files/2026-03/CYBERSECURITY%20AND%20SYSTEM%20AUDIT%20JOB%20OPPORTUNITIES%20-%202026.pdf",
+      "attempted_at": "2026-10-16T11:39:16Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://api.oecd.ai/storage//policy-initiatives/Apr2026/117ojpi25umobl2fb8-Kenya%20AI%20Strategy%202025%20-%202030.pdf",
+      "attempted_at": "2026-10-16T11:39:19Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -23532,8 +23897,8 @@
    },
    "local_copy": {
     "status": "failed",
-    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The secondary source could not be downloaded (HTTP 403 Forbidden). The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
-    "last_attempt": "2026-10-11T14:07:54Z",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The secondary source could not be downloaded (HTTP 403 Forbidden).",
+    "last_attempt": "2026-10-16T11:39:10Z",
     "files": [],
     "attempts": [
      {
@@ -23580,6 +23945,24 @@
       "http_status": null,
       "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
       "method": "browser"
+     },
+     {
+      "role": "official",
+      "url": "https://bills.parliament.uk/bills/4288",
+      "attempted_at": "2026-10-16T11:39:12Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://bills.parliament.uk/bills/4288/stages",
+      "attempted_at": "2026-10-16T11:39:14Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
      }
     ]
    },
@@ -24138,8 +24521,8 @@
    },
    "local_copy": {
     "status": "failed",
-    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
-    "last_attempt": "2026-10-11T14:07:55Z",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden.",
+    "last_attempt": "2026-10-16T11:39:10Z",
     "files": [],
     "attempts": [
      {
@@ -24168,6 +24551,15 @@
       "http_status": null,
       "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
       "method": "browser"
+     },
+     {
+      "role": "official",
+      "url": "https://www.commerce.gov/news/press-releases/2023/11/direction-president-biden-department-commerce-establish-us-artificial",
+      "attempted_at": "2026-10-16T11:39:10Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
      }
     ]
    }
@@ -24213,6 +24605,10 @@
     {
      "slug": "us-eo-14179",
      "id": "US-11"
+    },
+    {
+     "id": "US-29",
+     "slug": "eo-13960"
     }
    ],
    "notes": "Issued 28 Mar 2024 under EO 14110. Rescinded and replaced on 3 Apr 2025 by OMB M-25-21 under EO 14179 Sec. 5(b). Its companion acquisition memo M-24-18 (Oct 2024) was likewise replaced by M-25-22.",
@@ -24952,6 +25348,10 @@
     {
      "slug": "us-omb-m-26-04",
      "id": "US-19"
+    },
+    {
+     "id": "US-29",
+     "slug": "eo-13960"
     }
    ],
    "notes": "Issued 3 Apr 2025 under EO 14179. Deadlines from issuance: CAIO within 60 days; CFO Act agency AI strategies and agency compliance plans within 180 days (repeating every two years until 2036); high-impact minimum practices documented within 365 days (about 3 Apr 2026). In force as of Oct 2026. Binding on federal agencies only.",
@@ -25323,8 +25723,8 @@
    },
    "local_copy": {
     "status": "partial",
-    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.). A source changed since the previous snapshot; both versions are kept.",
-    "last_attempt": "2026-10-11T14:07:58Z",
+    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved.",
+    "last_attempt": "2026-10-16T11:39:10Z",
     "files": [
      {
       "role_key": "secondary",
@@ -25338,16 +25738,17 @@
       "bytes": 90501,
       "sha256": "442de0991f18b3ef8462b716f392d6ffd48a92932e8df7d4bd07983c7c4cd1e7",
       "retrieved_at": "2026-10-11T14:08:02Z",
-      "last_checked": "2026-10-11T14:08:02Z",
+      "last_checked": "2026-10-16T11:39:16Z",
       "method": "http",
       "last_modified": "Sun, 11 Oct 2026 09:01:34 GMT",
       "etag": null,
-      "changed": true,
+      "changed": false,
       "previous_sha256": "ebec4dbfdaa3d4899071a33637be01a142a008d72f3ea74ed96e3e10c359f427",
       "previous_path": "archive/US-15/2026-10-11/secondary.html",
       "stale": false,
       "warning": null,
-      "integrity": "ok"
+      "integrity": "ok",
+      "text_sha256": "b156ec80d7815807dd8f6992f96dff8ce42300942d65b1bacafdfe8c1493a8e2"
      }
     ],
     "attempts": [
@@ -25395,9 +25796,26 @@
       "http_status": null,
       "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
       "method": "browser"
+     },
+     {
+      "role": "official",
+      "url": "https://www.commerce.gov/news/press-releases/2025/06/statement-us-secretary-commerce-howard-lutnick-transforming-us-ai",
+      "attempted_at": "2026-10-16T11:39:13Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.nist.gov/caissi",
+      "attempted_at": "2026-10-16T11:39:16Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -25543,6 +25961,10 @@
     {
      "slug": "us-ftc-ai-accuracy-policy-statement",
      "id": "US-24"
+    },
+    {
+     "id": "US-29",
+     "slug": "eo-13960"
     }
    ],
    "notes": "Signed 23 Jul 2025 alongside America's AI Action Plan; published in the Federal Register 28 Jul 2025. Implemented by OMB M-26-04 (11 Dec 2025). Included because it sets binding governance requirements for federal procurement of AI models.",
@@ -25817,6 +26239,10 @@
     {
      "slug": "us-omb-m-25-22",
      "id": "US-13"
+    },
+    {
+     "id": "US-29",
+     "slug": "eo-13960"
     }
    ],
    "notes": "Issued 11 Dec 2025, the same day as EO 14365. Agencies had to update procurement policies by 11 Mar 2026. Existing LLM contracts should be modified, where practicable, before any option extension. Excludes national security systems and generally exempts free open-source LLMs. Expires 11 Dec 2027 unless extended. Binding on federal agencies only.",
@@ -27028,7 +27454,7 @@
    "local_copy": {
     "status": "partial",
     "flag": "No official URL is recorded; only the secondary source was saved.",
-    "last_attempt": "2026-10-14T07:49:54Z",
+    "last_attempt": "2026-10-16T11:39:13Z",
     "files": [
      {
       "role_key": "secondary",
@@ -27042,7 +27468,7 @@
       "bytes": 41669,
       "sha256": "798af29ed00983636efdc44ff37253af05fd61bdce69e043cc175c0bc2a6beed",
       "retrieved_at": "2026-10-11T14:04:11Z",
-      "last_checked": "2026-10-14T07:49:56Z",
+      "last_checked": "2026-10-16T11:39:16Z",
       "method": "http",
       "last_modified": "Sun, 11 Oct 2026 09:04:54 GMT",
       "etag": "\"1791709495:dtagent103452608101703304Uci\"",
@@ -27087,6 +27513,15 @@
       "role": "secondary",
       "url": "https://obernolte.house.gov/media/press-releases/obernolte-trahan-statement-white-house-ai-accord",
       "attempted_at": "2026-10-14T07:49:56Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://obernolte.house.gov/media/press-releases/obernolte-trahan-statement-white-house-ai-accord",
+      "attempted_at": "2026-10-16T11:39:16Z",
       "ok": true,
       "http_status": 200,
       "error": null,
@@ -29643,7 +30078,7 @@
    "local_copy": {
     "status": "partial",
     "flag": "The official source could not be downloaded (The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'); only the secondary source was saved.",
-    "last_attempt": "2026-10-14T07:50:42Z",
+    "last_attempt": "2026-10-16T11:39:14Z",
     "files": [
      {
       "role_key": "secondary",
@@ -29658,7 +30093,7 @@
       "sha256": "ab072476bac10ce023bced6b610924ce8717fb40d624bff5fd288a305cb99425",
       "text_sha256": "f8293837a262e8356f0e21cfe22d744669a2d2d262cd3d331bf6a6aa56a3a1e2",
       "retrieved_at": "2026-10-14T07:26:07Z",
-      "last_checked": "2026-10-14T07:51:31Z",
+      "last_checked": "2026-10-16T11:40:02Z",
       "method": "http",
       "last_modified": "Wed, 14 Oct 2026 06:41:07 GMT",
       "etag": null,
@@ -29738,6 +30173,24 @@
       "role": "secondary",
       "url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
       "attempted_at": "2026-10-14T07:51:31Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=3773&GAID=17&GA=103&DocTypeID=HB&SessionID=112",
+      "attempted_at": "2026-10-16T11:39:59Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
+      "attempted_at": "2026-10-16T11:40:02Z",
       "ok": true,
       "http_status": 200,
       "error": null,
@@ -29904,8 +30357,8 @@
    },
    "local_copy": {
     "status": "failed",
-    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The secondary source could not be downloaded (HTTP 403 Forbidden). The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
-    "last_attempt": "2026-10-11T14:08:09Z",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The secondary source could not be downloaded (HTTP 403 Forbidden).",
+    "last_attempt": "2026-10-16T11:39:16Z",
     "files": [],
     "attempts": [
      {
@@ -29952,6 +30405,24 @@
       "http_status": null,
       "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
       "method": "browser"
+     },
+     {
+      "role": "official",
+      "url": "https://www.nysenate.gov/legislation/bills/2025/S6953/amendment/B",
+      "attempted_at": "2026-10-16T11:39:18Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.nysenate.gov/legislation/bills/2025/S8828",
+      "attempted_at": "2026-10-16T11:39:20Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
      }
     ]
    }
@@ -30387,7 +30858,7 @@
    "local_copy": {
     "status": "partial",
     "flag": "The official source could not be downloaded (The site's robots.txt does not allow automated downloads of this page); only the secondary source was saved.",
-    "last_attempt": "2026-10-11T15:42:19Z",
+    "last_attempt": "2026-10-16T11:39:16Z",
     "files": [
      {
       "role_key": "secondary",
@@ -30402,7 +30873,7 @@
       "sha256": "1dca333102c9925e1a7bc3f2d109e47eeb8bd180b4ba79622263c5b0665abb2d",
       "text_sha256": "830355b3768ca4018f98da51472795ca7d1136e4b1da417dba72d8dfa3b37107",
       "retrieved_at": "2026-10-11T15:42:23Z",
-      "last_checked": "2026-10-11T15:42:23Z",
+      "last_checked": "2026-10-16T11:39:20Z",
       "method": "http",
       "last_modified": "Sun, 11 Oct 2026 13:40:42 GMT",
       "etag": "\"1791726042-gzip\"",
@@ -30432,9 +30903,26 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://documents.un.org/doc/undoc/gen/n24/426/98/pdf/n2442698.pdf",
+      "attempted_at": "2026-10-16T11:39:17Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's robots.txt does not allow automated downloads of this page",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://disarmament.unoda.org/en/our-work/emerging-challenges/artificial-intelligence-military-domain",
+      "attempted_at": "2026-10-16T11:39:20Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -30856,29 +31344,29 @@
    },
    "local_copy": {
     "status": "partial",
-    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved. The browser retry also failed (HTTP 403 (in browser)).",
-    "last_attempt": "2026-10-11T15:42:22Z",
+    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved. A source changed since the previous snapshot; both versions are kept.",
+    "last_attempt": "2026-10-16T11:39:19Z",
     "files": [
      {
       "role_key": "secondary",
       "role": "secondary",
       "label": "Secondary source",
-      "path": "archive/AE-02/2026-10-11/secondary.html",
+      "path": "archive/AE-02/2026-10-16/secondary.html",
       "url": "https://u.ae/en/about-the-uae/strategies-initiatives-and-awards/policies/Ai/The-UAE-Charter-for-the-Development-and-Use-of-Artificial-Intelligence",
       "final_url": "https://u.ae/en/about-the-uae/strategies-initiatives-and-awards/policies/Ai/The-UAE-Charter-for-the-Development-and-Use-of-Artificial-Intelligence",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 73249,
-      "sha256": "1b37fba25aff42f876973ad95b978645e0dffa45b00a915f14e73aec690fccbf",
-      "text_sha256": "2cf9f1ff5d4d4374b3b291d5538cf58882376eed658829a128c33489817d13ed",
-      "retrieved_at": "2026-10-11T15:42:33Z",
-      "last_checked": "2026-10-11T15:42:33Z",
+      "bytes": 73244,
+      "sha256": "c7ba34ea519424ec275f294fc0950e48aaedff6e238aaf33e07e7f3810500010",
+      "text_sha256": "bba66c9faacadf52d243c1dc13d0aecce5689a38dbaa2496bd2d5160483c9822",
+      "retrieved_at": "2026-10-16T11:39:29Z",
+      "last_checked": "2026-10-16T11:39:29Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
-      "changed": false,
-      "previous_sha256": null,
-      "previous_path": null,
+      "changed": true,
+      "previous_sha256": "1b37fba25aff42f876973ad95b978645e0dffa45b00a915f14e73aec690fccbf",
+      "previous_path": "archive/AE-02/2026-10-11/secondary.html",
       "stale": false,
       "warning": null,
       "integrity": "ok"
@@ -30911,9 +31399,26 @@
       "http_status": 403,
       "error": "HTTP 403 (in browser)",
       "method": "browser"
+     },
+     {
+      "role": "official",
+      "url": "https://ai.gov.ae/wp-content/uploads/2024/07/UAEAI-Methaq-EN2-3.pdf",
+      "attempted_at": "2026-10-16T11:39:21Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://u.ae/en/about-the-uae/strategies-initiatives-and-awards/policies/Ai/The-UAE-Charter-for-the-Development-and-Use-of-Artificial-Intelligence",
+      "attempted_at": "2026-10-16T11:39:29Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -31064,7 +31569,7 @@
    "local_copy": {
     "status": "partial",
     "flag": "The official source could not be downloaded (The site's robots.txt does not allow automated downloads of this page); only the secondary source was saved.",
-    "last_attempt": "2026-10-11T19:15:56Z",
+    "last_attempt": "2026-10-16T11:39:20Z",
     "files": [
      {
       "role_key": "secondary",
@@ -31079,7 +31584,7 @@
       "sha256": "139650ad4200e668fc363b970d46f2267507696056c05b45e0f27d2253d113e7",
       "text_sha256": "39911c3b11892e518b7bd6b950a0e6ca323309a6c89c60ccdc15c90f9df0e0c2",
       "retrieved_at": "2026-10-11T19:16:03Z",
-      "last_checked": "2026-10-11T19:16:03Z",
+      "last_checked": "2026-10-16T11:39:23Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -31109,9 +31614,26 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.internetconsultatie.nl/uaiv",
+      "attempted_at": "2026-10-16T11:39:20Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's robots.txt does not allow automated downloads of this page",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/04/20/kabinet-zet-stap-met-toezicht-op-europese-ai-regels",
+      "attempted_at": "2026-10-16T11:39:23Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -31469,7 +31991,7 @@
    "local_copy": {
     "status": "partial",
     "flag": "The official source could not be downloaded (The site's robots.txt does not allow automated downloads of this page); only the secondary source was saved.",
-    "last_attempt": "2026-10-11T19:15:56Z",
+    "last_attempt": "2026-10-16T11:39:20Z",
     "files": [
      {
       "role_key": "secondary",
@@ -31484,7 +32006,7 @@
       "sha256": "db95eaac7c27c90e7928e619e8ddd57c31bf8e8e5e950ed5595e09a3e03ff4cf",
       "text_sha256": "da6b4ffa33dee78ca450a42a02ac35de9407fc0d711d77a1634c2873560815e4",
       "retrieved_at": "2026-10-11T19:15:58Z",
-      "last_checked": "2026-10-11T19:15:58Z",
+      "last_checked": "2026-10-16T11:39:22Z",
       "method": "http",
       "last_modified": "Sun, 11 Oct 2026 19:03:42 GMT",
       "etag": "\"1791745422-gzip\"",
@@ -31514,9 +32036,26 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://mpo.gov.cz/cz/rozcestnik/pro-media/tiskove-zpravy/mpo-pripravilo-navrh-zakona-o-umele-inteligenci--cilem-je-vytvorit-co-nejlepsi-prostredi-pro-rozvoj-ai-v-cesku--289653/",
+      "attempted_at": "2026-10-16T11:39:20Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's robots.txt does not allow automated downloads of this page",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "attempted_at": "2026-10-16T11:39:22Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -32804,7 +33343,7 @@
    "local_copy": {
     "status": "partial",
     "flag": "The official source could not be downloaded (The site's robots.txt does not allow automated downloads of this page); only the secondary source was saved. The secondary source is a bot-check or empty page (The page has very little readable text (79 characters); it probably needs JavaScript).",
-    "last_attempt": "2026-10-11T19:18:32Z",
+    "last_attempt": "2026-10-16T11:39:22Z",
     "files": [
      {
       "role_key": "secondary",
@@ -32819,7 +33358,7 @@
       "sha256": "778fe9fd120c7d75218425c0de7aee856b3f8a5922e91ae79e980bc4193cf5a3",
       "text_sha256": "8d649a2af0212925c1c5e1d30be34ee87ba1dbb3382ab89af0bfa752a0476db0",
       "retrieved_at": "2026-10-11T19:18:35Z",
-      "last_checked": "2026-10-11T19:18:35Z",
+      "last_checked": "2026-10-16T11:39:26Z",
       "method": "http",
       "last_modified": null,
       "etag": "\"1055-dyGJtZhYbWFPbitauvKVOLlEGFk\"",
@@ -32849,9 +33388,26 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://documents.un.org/doc/undoc/gen/n25/339/20/pdf/n2533920.pdf",
+      "attempted_at": "2026-10-16T11:39:22Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's robots.txt does not allow automated downloads of this page",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://docs.un.org/en/A/RES/80/58",
+      "attempted_at": "2026-10-16T11:39:26Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -32912,7 +33468,7 @@
    "local_copy": {
     "status": "partial",
     "flag": "The official source could not be downloaded (The site's robots.txt does not allow automated downloads of this page); only the secondary source was saved.",
-    "last_attempt": "2026-10-11T19:18:32Z",
+    "last_attempt": "2026-10-16T11:39:23Z",
     "files": [
      {
       "role_key": "secondary",
@@ -32927,7 +33483,7 @@
       "sha256": "21064515a00a38cf824fbf7c611b263e587c3ce1e95d034f54411cde81b6802f",
       "text_sha256": "830355b3768ca4018f98da51472795ca7d1136e4b1da417dba72d8dfa3b37107",
       "retrieved_at": "2026-10-11T19:18:38Z",
-      "last_checked": "2026-10-11T19:18:38Z",
+      "last_checked": "2026-10-16T11:39:23Z",
       "method": "http",
       "last_modified": "Sun, 11 Oct 2026 19:18:37 GMT",
       "etag": "\"1791746317-gzip\"",
@@ -32957,9 +33513,26 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://documents.un.org/doc/undoc/gen/n25/107/66/pdf/n2510766.pdf",
+      "attempted_at": "2026-10-16T11:39:23Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's robots.txt does not allow automated downloads of this page",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://disarmament.unoda.org/en/our-work/emerging-challenges/artificial-intelligence-military-domain",
+      "attempted_at": "2026-10-16T11:39:23Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -33270,8 +33843,8 @@
    },
    "local_copy": {
     "status": "partial",
-    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
-    "last_attempt": "2026-10-11T19:18:37Z",
+    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved.",
+    "last_attempt": "2026-10-16T11:39:23Z",
     "files": [
      {
       "role_key": "secondary",
@@ -33286,7 +33859,7 @@
       "sha256": "3c7a87070da448a74fb7456cd0d4fda3b815562744ad0fc006505ec58e23c997",
       "text_sha256": null,
       "retrieved_at": "2026-10-11T19:18:43Z",
-      "last_checked": "2026-10-11T19:18:43Z",
+      "last_checked": "2026-10-16T11:39:27Z",
       "method": "http",
       "last_modified": "Thu, 03 Sep 2026 12:26:46 GMT",
       "etag": "\"6a996786-5ff17\"",
@@ -33325,9 +33898,26 @@
       "http_status": null,
       "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
       "method": "browser"
+     },
+     {
+      "role": "official",
+      "url": "https://www.commerce.gov/news/press-releases/2026/09/g20-innovation-ministerial-concludes-consensus-statement",
+      "attempted_at": "2026-10-16T11:39:24Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://assets.publishing.service.gov.uk/media/6a996786f5b35599aec19180/g20-innovation-ministerial-statement.pdf",
+      "attempted_at": "2026-10-16T11:39:27Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -33387,7 +33977,7 @@
    "local_copy": {
     "status": "partial",
     "flag": "The official source could not be downloaded (DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'); only the secondary source was saved.",
-    "last_attempt": "2026-10-11T19:18:38Z",
+    "last_attempt": "2026-10-16T11:39:26Z",
     "files": [
      {
       "role_key": "secondary",
@@ -33402,7 +33992,7 @@
       "sha256": "345d8f9001f060d678d126165b4d79ad304a593408b1f792492d7f0e63d0dce4",
       "text_sha256": "20ecabffc4ece79d66dd7cac39fb8dae05ee4d52a53562f6f4c72018a66b30f4",
       "retrieved_at": "2026-10-11T19:18:41Z",
-      "last_checked": "2026-10-11T19:18:41Z",
+      "last_checked": "2026-10-16T11:39:29Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -33432,9 +34022,26 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://brics.br/en/documents/presidency-documents/250706_brics_ggai_declarationfinal.pdf/@@download/file",
+      "attempted_at": "2026-10-16T11:39:27Z",
+      "ok": false,
+      "http_status": null,
+      "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "http://en.kremlin.ru/events/president/news/77373",
+      "attempted_at": "2026-10-16T11:39:29Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -34135,29 +34742,29 @@
    },
    "local_copy": {
     "status": "partial",
-    "flag": "The official source could not be downloaded (The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'); only the secondary source was saved.",
-    "last_attempt": "2026-10-14T10:17:39Z",
+    "flag": "The official source could not be downloaded (The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'); only the secondary source was saved. A source changed since the previous snapshot; both versions are kept.",
+    "last_attempt": "2026-10-16T11:39:27Z",
     "files": [
      {
       "role_key": "secondary",
       "role": "secondary",
       "label": "Secondary source",
-      "path": "archive/MX-01/2026-10-12/secondary.html",
+      "path": "archive/MX-01/2026-10-16/secondary.html",
       "url": "https://basham.com.mx/en/legislative-alert-bill-to-regulate-the-use-of-artificial-intelligence/",
       "final_url": "https://basham.com.mx/en/legislative-alert-bill-to-regulate-the-use-of-artificial-intelligence/",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 136643,
-      "sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
-      "text_sha256": "14ddb77a5260c580b9b247aaeef37183c6f42e3c71bd45f09921e2253f8a0a57",
-      "retrieved_at": "2026-10-12T04:49:04Z",
-      "last_checked": "2026-10-14T10:17:45Z",
+      "bytes": 136488,
+      "sha256": "517955dac0702b9f33a0ca5adbbce5ab36be4278f4a2f5fe2b068bb36d04aace",
+      "text_sha256": "f34cee9b9d228e1c9384ad3d9be83e27993c797eef9c208ff0144b293c59810e",
+      "retrieved_at": "2026-10-16T11:39:32Z",
+      "last_checked": "2026-10-16T11:39:32Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
-      "changed": false,
-      "previous_sha256": null,
-      "previous_path": null,
+      "changed": true,
+      "previous_sha256": "5260bbd95cf59ec443af8075888345471d8d6cb9cf3e99428a4bb880cc2738d5",
+      "previous_path": "archive/MX-01/2026-10-12/secondary.html",
       "stale": false,
       "warning": null,
       "integrity": "ok"
@@ -34213,6 +34820,24 @@
       "role": "secondary",
       "url": "https://basham.com.mx/en/legislative-alert-bill-to-regulate-the-use-of-artificial-intelligence/",
       "attempted_at": "2026-10-14T10:17:45Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://sil.gobernacion.gob.mx/Librerias/pp_ReporteSeguimiento.php?Seguimiento=5019704&Asunto=5012817",
+      "attempted_at": "2026-10-16T11:39:28Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://basham.com.mx/en/legislative-alert-bill-to-regulate-the-use-of-artificial-intelligence/",
+      "attempted_at": "2026-10-16T11:39:32Z",
       "ok": true,
       "http_status": 200,
       "error": null,
@@ -35029,7 +35654,7 @@
    "local_copy": {
     "status": "partial",
     "flag": "No official URL is recorded; only the secondary source was saved.",
-    "last_attempt": "2026-10-14T07:51:31Z",
+    "last_attempt": "2026-10-16T11:39:29Z",
     "files": [
      {
       "role_key": "secondary",
@@ -35044,7 +35669,7 @@
       "sha256": "8dac3344e56270e3866fe0cc811bb116059895e8a3ba8cbb57eb5cea8d5a73ea",
       "text_sha256": "53032c8b9bd9efe472eca1b9b3d38551b1dc8531ac23d52e042c734127504f2e",
       "retrieved_at": "2026-10-11T19:38:37Z",
-      "last_checked": "2026-10-14T07:51:34Z",
+      "last_checked": "2026-10-16T11:39:33Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -35079,6 +35704,15 @@
       "role": "secondary",
       "url": "https://naswnv.socialworkers.org/Professional-Development/AI-Regulation",
       "attempted_at": "2026-10-14T07:51:34Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://naswnv.socialworkers.org/Professional-Development/AI-Regulation",
+      "attempted_at": "2026-10-16T11:39:33Z",
       "ok": true,
       "http_status": 200,
       "error": null,
@@ -35678,7 +36312,7 @@
    "local_copy": {
     "status": "partial",
     "flag": "The official source could not be downloaded (The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'); only the secondary source was saved.",
-    "last_attempt": "2026-10-11T19:38:48Z",
+    "last_attempt": "2026-10-16T11:39:29Z",
     "files": [
      {
       "role_key": "secondary",
@@ -35693,7 +36327,7 @@
       "sha256": "61429e946078872dfd935b88adbc33766ff278d780ba08ee645bd582772ecdc2",
       "text_sha256": "ec0cddc5f5896abdac498e1a72041454feefee16d382d7130e8340ba198a8cea",
       "retrieved_at": "2026-10-11T19:38:52Z",
-      "last_checked": "2026-10-11T19:38:52Z",
+      "last_checked": "2026-10-16T11:39:36Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -35723,9 +36357,26 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00015-R00SB-00005-PA.PDF",
+      "attempted_at": "2026-10-16T11:39:31Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://portal.ct.gov/governor/news/press-releases/2026/06-2026/governor-lamont-signs-legislation-establishing-youth-online-safety-protections",
+      "attempted_at": "2026-10-16T11:39:36Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -36762,28 +37413,28 @@
    "local_copy": {
     "status": "partial",
     "flag": "No official URL is recorded; only the secondary source was saved. A source changed since the previous snapshot; both versions are kept.",
-    "last_attempt": "2026-10-14T10:17:29Z",
+    "last_attempt": "2026-10-16T11:39:32Z",
     "files": [
      {
       "role_key": "secondary",
       "role": "secondary",
       "label": "Secondary source",
-      "path": "archive/VN-07/2026-10-14/secondary-4.html",
+      "path": "archive/VN-07/2026-10-16/secondary.html",
       "url": "https://pbgdpl.cantho.gov.vn/mot-so-diem-moi-cua-luat-tri-tue-nhan-tao",
       "final_url": "https://pbgdpl.cantho.gov.vn/mot-so-diem-moi-cua-luat-tri-tue-nhan-tao",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 66364,
-      "sha256": "2b8f3015bf4b2eedba4befae26b2fb119a1be0a7fe84d5e613be22afd026fdf2",
-      "text_sha256": "68f01006738c34a3985f71a49cf427823be2b7645be6d49123c7484fe50c6767",
-      "retrieved_at": "2026-10-14T10:17:31Z",
-      "last_checked": "2026-10-14T10:17:31Z",
+      "bytes": 68058,
+      "sha256": "b02ebfbcb6b4d13f5236733f7fd57b0ce1338b25e0972ccee5aaa544d77f72ea",
+      "text_sha256": "97f116997a8f1c4b5613e181b63c998c740d7d263896cad00bf5469e6c3ecfe1",
+      "retrieved_at": "2026-10-16T11:39:40Z",
+      "last_checked": "2026-10-16T11:39:40Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
       "changed": true,
-      "previous_sha256": "5283980c4bff7061f62e9c0822052fd4001dea3d2b8ad17f2764fd9e26bb3c05",
-      "previous_path": "archive/VN-07/2026-10-14/secondary-3.html",
+      "previous_sha256": "2b8f3015bf4b2eedba4befae26b2fb119a1be0a7fe84d5e613be22afd026fdf2",
+      "previous_path": "archive/VN-07/2026-10-14/secondary-4.html",
       "stale": false,
       "warning": null,
       "integrity": "ok"
@@ -36830,6 +37481,15 @@
       "role": "secondary",
       "url": "https://pbgdpl.cantho.gov.vn/mot-so-diem-moi-cua-luat-tri-tue-nhan-tao",
       "attempted_at": "2026-10-14T10:17:31Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://pbgdpl.cantho.gov.vn/mot-so-diem-moi-cua-luat-tri-tue-nhan-tao",
+      "attempted_at": "2026-10-16T11:39:40Z",
       "ok": true,
       "http_status": 200,
       "error": null,
@@ -37154,29 +37814,29 @@
    },
    "local_copy": {
     "status": "partial",
-    "flag": "No official URL is recorded; only the secondary source was saved.",
-    "last_attempt": "2026-10-14T07:49:51Z",
+    "flag": "No official URL is recorded; only the secondary source was saved. A source changed since the previous snapshot; both versions are kept.",
+    "last_attempt": "2026-10-16T11:39:33Z",
     "files": [
      {
       "role_key": "secondary",
       "role": "secondary",
       "label": "Secondary source",
-      "path": "archive/TH-01/2026-10-14/secondary.html",
+      "path": "archive/TH-01/2026-10-16/secondary.html",
       "url": "https://www.tilleke.com/insights/thailand-releases-new-draft-artificial-intelligence-act/",
       "final_url": "https://www.tilleke.com/insights/thailand-releases-new-draft-artificial-intelligence-act/",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 233941,
-      "sha256": "ddc11e28c30348a4d6dedbc35cdb49a75a7757c92aa1003b3b25fdbb0f37aa0e",
-      "text_sha256": "cf397a29cca55df245d0ceb8811a6bf3e29a215ed95771dc5faf4e81d6cdb0b4",
-      "retrieved_at": "2026-10-14T07:25:17Z",
-      "last_checked": "2026-10-14T07:49:54Z",
+      "bytes": 233794,
+      "sha256": "d68b7a81a2ce2cb6765f76193c7fc1568ebccb5ecc703abb05d5d4109ca6bc8b",
+      "text_sha256": "6db65c20521550a4752385773e0988fe9c7c55354807a9724ca4e301decea978",
+      "retrieved_at": "2026-10-16T11:39:36Z",
+      "last_checked": "2026-10-16T11:39:36Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
-      "changed": false,
-      "previous_sha256": "28ee0630caecf6b447c3bb8a0b75ed7878726e541ffcaf7b69d5d921047c8f22",
-      "previous_path": "archive/TH-01/2026-10-11/secondary.html",
+      "changed": true,
+      "previous_sha256": "ddc11e28c30348a4d6dedbc35cdb49a75a7757c92aa1003b3b25fdbb0f37aa0e",
+      "previous_path": "archive/TH-01/2026-10-14/secondary.html",
       "stale": false,
       "warning": null,
       "integrity": "ok"
@@ -37205,6 +37865,15 @@
       "role": "secondary",
       "url": "https://www.tilleke.com/insights/thailand-releases-new-draft-artificial-intelligence-act/",
       "attempted_at": "2026-10-14T07:49:54Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.tilleke.com/insights/thailand-releases-new-draft-artificial-intelligence-act/",
+      "attempted_at": "2026-10-16T11:39:36Z",
       "ok": true,
       "http_status": 200,
       "error": null,
@@ -37595,8 +38264,8 @@
    },
    "local_copy": {
     "status": "failed",
-    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
-    "last_attempt": "2026-10-11T19:39:37Z",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden.",
+    "last_attempt": "2026-10-16T11:39:36Z",
     "files": [],
     "attempts": [
      {
@@ -37616,6 +38285,15 @@
       "http_status": null,
       "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
       "method": "browser"
+     },
+     {
+      "role": "official",
+      "url": "https://privacy.gov.ph/wp-content/uploads/2025/02/Advisory-2024.12.19-Guidelines-on-Artificial-Intelligence-w-SGD.pdf",
+      "attempted_at": "2026-10-16T11:39:39Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
      }
     ]
    }
@@ -37755,7 +38433,7 @@
    "local_copy": {
     "status": "failed",
     "flag": "The official source could not be downloaded: The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'. The secondary source could not be downloaded (The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl').",
-    "last_attempt": "2026-10-11T19:39:39Z",
+    "last_attempt": "2026-10-16T11:39:36Z",
     "files": [],
     "attempts": [
      {
@@ -37771,6 +38449,24 @@
       "role": "secondary",
       "url": "https://aipolicy.gov.bd/",
       "attempted_at": "2026-10-11T19:39:40Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://aipolicy.gov.bd/docs/national-ai-policy-bangladesh-2026-2030-draft-v2.0.pdf",
+      "attempted_at": "2026-10-16T11:39:38Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://aipolicy.gov.bd/",
+      "attempted_at": "2026-10-16T11:39:38Z",
       "ok": false,
       "http_status": null,
       "error": "The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
@@ -39771,7 +40467,7 @@
    "local_copy": {
     "status": "partial",
     "flag": "The official source could not be downloaded (The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'); only the secondary source was saved.",
-    "last_attempt": "2026-10-11T19:46:40Z",
+    "last_attempt": "2026-10-16T11:39:38Z",
     "files": [
      {
       "role_key": "secondary",
@@ -39786,7 +40482,7 @@
       "sha256": "c1b26449e2019c784b8e574faa36005c078a16e06b9eb507459af11a95ff9264",
       "text_sha256": null,
       "retrieved_at": "2026-10-11T19:47:28Z",
-      "last_checked": "2026-10-11T19:47:28Z",
+      "last_checked": "2026-10-16T11:40:23Z",
       "method": "http",
       "last_modified": "Thu, 23 Apr 2026 16:04:21 GMT",
       "etag": "W/\"258c46-19dbb15cf4e\"",
@@ -39816,9 +40512,26 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "http://www.mint.gov.et/documents/d/guest/ethiopian_ai__policy-2?download=true",
+      "attempted_at": "2026-10-16T11:40:23Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://api.oecd.ai/storage//policy-initiatives/Apr2026/117ojpi25umobo9d90-Ethiopian%20ai%20policy.pdf",
+      "attempted_at": "2026-10-16T11:40:23Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -39874,7 +40587,7 @@
    "local_copy": {
     "status": "failed",
     "flag": "The official source could not be downloaded: The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'. The secondary source could not be downloaded (The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl').",
-    "last_attempt": "2026-10-11T19:47:04Z",
+    "last_attempt": "2026-10-16T11:39:39Z",
     "files": [],
     "attempts": [
      {
@@ -39890,6 +40603,24 @@
       "role": "secondary",
       "url": "https://www.mots.gov.zm/?p=4492",
       "attempted_at": "2026-10-11T19:47:05Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.mots.gov.zm/wp-content/uploads/2025/02/Zambia-Ai-Strategy-Book-option-2.pdf",
+      "attempted_at": "2026-10-16T11:39:40Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.mots.gov.zm/?p=4492",
+      "attempted_at": "2026-10-16T11:39:40Z",
       "ok": false,
       "http_status": null,
       "error": "The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
@@ -40733,10 +41464,59 @@
     "second_check": null
    },
    "local_copy": {
-    "status": "failed",
-    "flag": "The official source could not be downloaded: The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'. The secondary source could not be downloaded (The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl').",
-    "last_attempt": "2026-10-12T04:32:53Z",
-    "files": [],
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T11:39:40Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/KE-02/2026-10-16/official.pdf",
+      "url": "https://ict.go.ke/sites/default/files/AI%20Policy%20Doc/draft-kenya-ai-and-emerging-technologies-policy-2026.pdf",
+      "final_url": "https://ict.go.ke/sites/default/files/AI%20Policy%20Doc/draft-kenya-ai-and-emerging-technologies-policy-2026.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 5411919,
+      "sha256": "87329f33eff5cb0fe955040e1c65b947895536893b2e57bd3b0c4761c6daec26",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T11:39:42Z",
+      "last_checked": "2026-10-16T11:39:42Z",
+      "method": "http",
+      "last_modified": "Tue, 21 Jul 2026 08:46:13 GMT",
+      "etag": "\"52944f-6571b0e205f40\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/KE-02/2026-10-16/secondary.html",
+      "url": "https://ict.go.ke/sites/default/files/AI%20Policy%20Doc/index.html",
+      "final_url": "https://ict.go.ke/sites/default/files/AI%20Policy%20Doc/index.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 4658,
+      "sha256": "54c32b56fc35b2bd266ebb1b0df272e55d52cb88d372b2a8b6231e96553c6f53",
+      "text_sha256": "53d84c372a54b3832000422623c1a4854237604ec89605a32d78218b3e9a56c0",
+      "retrieved_at": "2026-10-16T11:39:45Z",
+      "last_checked": "2026-10-16T11:39:45Z",
+      "method": "http",
+      "last_modified": "Tue, 21 Jul 2026 08:46:14 GMT",
+      "etag": "\"1232-6571b0e2fa180-gzip\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
     "attempts": [
      {
       "role": "official",
@@ -40754,6 +41534,24 @@
       "ok": false,
       "http_status": null,
       "error": "The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://ict.go.ke/sites/default/files/AI%20Policy%20Doc/draft-kenya-ai-and-emerging-technologies-policy-2026.pdf",
+      "attempted_at": "2026-10-16T11:39:42Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://ict.go.ke/sites/default/files/AI%20Policy%20Doc/index.html",
+      "attempted_at": "2026-10-16T11:39:45Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
       "method": "http"
      }
     ]
@@ -45646,29 +46444,29 @@
    },
    "local_copy": {
     "status": "partial",
-    "flag": "No official URL is recorded; only the secondary source was saved.",
-    "last_attempt": "2026-10-14T07:49:56Z",
+    "flag": "No official URL is recorded; only the secondary source was saved. A source changed since the previous snapshot; both versions are kept.",
+    "last_attempt": "2026-10-16T11:39:40Z",
     "files": [
      {
       "role_key": "secondary",
       "role": "secondary",
       "label": "Secondary source",
-      "path": "archive/US-ID-01/2026-10-12/secondary.html",
+      "path": "archive/US-ID-01/2026-10-16/secondary.html",
       "url": "https://www.transparencycoalition.ai/news/watershed-year-for-chatbot-safety-measures-14-new-state-laws-enacted-so-far-in-2026",
       "final_url": "https://www.transparencycoalition.ai/news/watershed-year-for-chatbot-safety-measures-14-new-state-laws-enacted-so-far-in-2026",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 528805,
-      "sha256": "fe537ae1d601636aeaddd48f4c839f23541271c62d9117e48f5004ef62487516",
-      "text_sha256": "316c59700c083b038987f725d322489d6a7cc3fcabc7ffb2fcdd1904be16d255",
-      "retrieved_at": "2026-10-12T04:49:01Z",
-      "last_checked": "2026-10-14T07:49:58Z",
+      "bytes": 427606,
+      "sha256": "6a71c72263bc3df4ca903228a9ff970b41efee5844493430a6124022738e8584",
+      "text_sha256": "b920797bd6b4034886175b24e51c6f3e231cadd2d8fc9aefbd731ab2ae47dcb4",
+      "retrieved_at": "2026-10-16T11:39:43Z",
+      "last_checked": "2026-10-16T11:39:43Z",
       "method": "http",
       "last_modified": null,
-      "etag": "W/\"e0408f7a6000b5c2715e898f1b788ffd\"",
-      "changed": false,
-      "previous_sha256": null,
-      "previous_path": null,
+      "etag": "W/\"e4d507c15f44a9413c5d4c7b988b9918\"",
+      "changed": true,
+      "previous_sha256": "fe537ae1d601636aeaddd48f4c839f23541271c62d9117e48f5004ef62487516",
+      "previous_path": "archive/US-ID-01/2026-10-12/secondary.html",
       "stale": false,
       "warning": null,
       "integrity": "ok"
@@ -45697,6 +46495,15 @@
       "role": "secondary",
       "url": "https://www.transparencycoalition.ai/news/watershed-year-for-chatbot-safety-measures-14-new-state-laws-enacted-so-far-in-2026",
       "attempted_at": "2026-10-14T07:49:58Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.transparencycoalition.ai/news/watershed-year-for-chatbot-safety-measures-14-new-state-laws-enacted-so-far-in-2026",
+      "attempted_at": "2026-10-16T11:39:43Z",
       "ok": true,
       "http_status": 200,
       "error": null,
@@ -46154,7 +46961,7 @@
    "local_copy": {
     "status": "partial",
     "flag": "No official URL is recorded; only the secondary source was saved.",
-    "last_attempt": "2026-10-14T07:51:35Z",
+    "last_attempt": "2026-10-16T11:39:43Z",
     "files": [
      {
       "role_key": "secondary",
@@ -46169,7 +46976,7 @@
       "sha256": "ac1542d23a324e37b0ae35323b0001694af07d336f1220a1f2d6275c0204362e",
       "text_sha256": "8d0a5882c18ab1d856cd445f74577a8cbf30172272a5c60e22046025c1edc097",
       "retrieved_at": "2026-10-12T04:49:06Z",
-      "last_checked": "2026-10-14T07:51:38Z",
+      "last_checked": "2026-10-16T11:39:46Z",
       "method": "http",
       "last_modified": null,
       "etag": "W/\"urwvu201ea37y2\"",
@@ -46204,6 +47011,15 @@
       "role": "secondary",
       "url": "https://www.nixonpeabody.com/insights/alerts/2026/07/20/rhode-island-joins-the-wave-of-states-regulating-ai-in-healthcare-and-ai-companion-tools",
       "attempted_at": "2026-10-14T07:51:38Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.nixonpeabody.com/insights/alerts/2026/07/20/rhode-island-joins-the-wave-of-states-regulating-ai-in-healthcare-and-ai-companion-tools",
+      "attempted_at": "2026-10-16T11:39:46Z",
       "ok": true,
       "http_status": 200,
       "error": null,
@@ -47730,29 +48546,29 @@
    },
    "local_copy": {
     "status": "partial",
-    "flag": "No official URL is recorded; only the secondary source was saved.",
-    "last_attempt": "2026-10-14T07:49:47Z",
+    "flag": "No official URL is recorded; only the secondary source was saved. A source changed since the previous snapshot; both versions are kept.",
+    "last_attempt": "2026-10-16T11:39:45Z",
     "files": [
      {
       "role_key": "secondary",
       "role": "secondary",
       "label": "Secondary source",
-      "path": "archive/PY-01/2026-10-14/secondary.html",
+      "path": "archive/PY-01/2026-10-16/secondary.html",
       "url": "https://www.ultimahora.com/proyecto-que-regula-la-inteligencia-artificial-ya-tuvo-entrada-en-el-senado",
       "final_url": "https://www.ultimahora.com/proyecto-que-regula-la-inteligencia-artificial-ya-tuvo-entrada-en-el-senado",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 205260,
-      "sha256": "a10e57b0f8c12c45817a18dd87c4b2b13381c8cf9bd4d3610dfc6c89645f8aa5",
-      "text_sha256": "a73408123bbda56be0ed02c5b35cc06ae4e97502202d4adbd7b70e5108a12121",
-      "retrieved_at": "2026-10-14T07:25:18Z",
-      "last_checked": "2026-10-14T07:49:53Z",
+      "bytes": 204838,
+      "sha256": "f3ba64cb7691a615ca6cdd03f22e1eec80b760270ebc526b9d73143715f051a7",
+      "text_sha256": "3c0ff65ec38a1d9fdede8a30776bfb02e055bc88e0e884a0a8699928ccc9b0c0",
+      "retrieved_at": "2026-10-16T11:39:48Z",
+      "last_checked": "2026-10-16T11:39:48Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
-      "changed": false,
-      "previous_sha256": "e4e57c4cb7f844cf3ea0176e74dc16dd10e525fd0615f1c909206ba50fbc9cba",
-      "previous_path": "archive/PY-01/2026-10-12/secondary.html",
+      "changed": true,
+      "previous_sha256": "a10e57b0f8c12c45817a18dd87c4b2b13381c8cf9bd4d3610dfc6c89645f8aa5",
+      "previous_path": "archive/PY-01/2026-10-14/secondary.html",
       "stale": false,
       "warning": null,
       "integrity": "ok"
@@ -47781,6 +48597,15 @@
       "role": "secondary",
       "url": "https://www.ultimahora.com/proyecto-que-regula-la-inteligencia-artificial-ya-tuvo-entrada-en-el-senado",
       "attempted_at": "2026-10-14T07:49:53Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.ultimahora.com/proyecto-que-regula-la-inteligencia-artificial-ya-tuvo-entrada-en-el-senado",
+      "attempted_at": "2026-10-16T11:39:48Z",
       "ok": true,
       "http_status": 200,
       "error": null,
@@ -50878,11 +51703,46 @@
     "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 19 field(s) supported, fixes applied to notes."
    },
    "local_copy": {
-    "status": "not-attempted",
-    "flag": "The archiver has not been run for this record yet.",
-    "last_attempt": null,
-    "files": [],
-    "attempts": []
+    "status": "partial",
+    "flag": "No official URL is recorded; only the secondary source was saved.",
+    "last_attempt": "2026-10-16T11:39:46Z",
+    "files": [
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/PY-02/2026-10-16/secondary.html",
+      "url": "https://www.lanacion.com.py/politica/2025/06/01/debatiran-proyecto-legislativo-sobre-ia-en-audiencia-publica/",
+      "final_url": "https://www.lanacion.com.py/politica/2025/06/01/debatiran-proyecto-legislativo-sobre-ia-en-audiencia-publica/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 76583,
+      "sha256": "d6ec6f537d863a58c67fee402467cd14f47cdf1a13245cc92a0c88b6e68ad2d5",
+      "text_sha256": "482fb63e5288c8dd277afddc9f943e1aa06a783ab26b4e3117704a15167154b4",
+      "retrieved_at": "2026-10-16T11:39:52Z",
+      "last_checked": "2026-10-16T11:39:52Z",
+      "method": "http",
+      "last_modified": "Fri, 16 Oct 2026 11:39:52 GMT",
+      "etag": "W/\"118ed-Rog8qu/+RIlOThxvO2prn5wDVJI\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "secondary",
+      "url": "https://www.lanacion.com.py/politica/2025/06/01/debatiran-proyecto-legislativo-sobre-ia-en-audiencia-publica/",
+      "attempted_at": "2026-10-16T11:39:52Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
    }
   },
   {
@@ -51291,11 +52151,55 @@
     "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 10 field(s) supported."
    },
    "local_copy": {
-    "status": "not-attempted",
-    "flag": "The archiver has not been run for this record yet.",
-    "last_attempt": null,
-    "files": [],
-    "attempts": []
+    "status": "partial",
+    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved.",
+    "last_attempt": "2026-10-16T11:39:48Z",
+    "files": [
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/US-CA-12/2026-10-16/secondary.html",
+      "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+      "final_url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 311546,
+      "sha256": "889273afe4ae66361af70faaea587baeea599d147b77b79c3c0c7cf51e69b343",
+      "text_sha256": "eaf828e26b573390390014f3946a33638d237827e3f276b6f36c6aeb36903a95",
+      "retrieved_at": "2026-10-16T11:39:53Z",
+      "last_checked": "2026-10-16T11:39:53Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB867",
+      "attempted_at": "2026-10-16T11:39:51Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+      "attempted_at": "2026-10-16T11:39:53Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
    }
   },
   {
@@ -51342,29 +52246,29 @@
    },
    "local_copy": {
     "status": "partial",
-    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
-    "last_attempt": "2026-10-14T16:36:06Z",
+    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved. A source changed since the previous snapshot; both versions are kept.",
+    "last_attempt": "2026-10-16T11:39:52Z",
     "files": [
      {
       "role_key": "secondary",
       "role": "secondary",
       "label": "Secondary source",
-      "path": "archive/US-CA-13/2026-10-14/secondary.html",
+      "path": "archive/US-CA-13/2026-10-16/secondary.html",
       "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
       "final_url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 310729,
-      "sha256": "164deffbf237a48fc4b77381b0ebecf24498615e0f7083c6a9daf99cc5b7f667",
-      "text_sha256": "2a21b55fd1aedf1d944b15765389bba1f439f676b0d88518a71e61c96d702935",
-      "retrieved_at": "2026-10-14T16:36:11Z",
-      "last_checked": "2026-10-14T16:36:11Z",
+      "bytes": 311546,
+      "sha256": "8b026b5a2ecf0acf19ca2c17f2b953540406cb7b80a25fff36182f2c8660b93b",
+      "text_sha256": "eaf828e26b573390390014f3946a33638d237827e3f276b6f36c6aeb36903a95",
+      "retrieved_at": "2026-10-16T11:39:56Z",
+      "last_checked": "2026-10-16T11:39:56Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
-      "changed": false,
-      "previous_sha256": null,
-      "previous_path": null,
+      "changed": true,
+      "previous_sha256": "164deffbf237a48fc4b77381b0ebecf24498615e0f7083c6a9daf99cc5b7f667",
+      "previous_path": "archive/US-CA-13/2026-10-14/secondary.html",
       "stale": false,
       "warning": null,
       "integrity": "ok"
@@ -51397,6 +52301,24 @@
       "http_status": null,
       "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
       "method": "browser"
+     },
+     {
+      "role": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1276",
+      "attempted_at": "2026-10-16T11:39:53Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+      "attempted_at": "2026-10-16T11:39:56Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
     ]
    }
@@ -51448,11 +52370,55 @@
     "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 11 field(s) supported."
    },
    "local_copy": {
-    "status": "not-attempted",
-    "flag": "The archiver has not been run for this record yet.",
-    "last_attempt": null,
-    "files": [],
-    "attempts": []
+    "status": "partial",
+    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved.",
+    "last_attempt": "2026-10-16T11:39:53Z",
+    "files": [
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/US-CA-14/2026-10-16/secondary.pdf",
+      "url": "https://www.gov.ca.gov/wp-content/uploads/2025/10/AB-1064-Veto.pdf",
+      "final_url": "https://www.gov.ca.gov/wp-content/uploads/2025/10/AB-1064-Veto.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 97091,
+      "sha256": "227094b97dea106fae38061d63242f2ca6061aab32bd117bc6c947c9057b3d0e",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T11:39:58Z",
+      "last_checked": "2026-10-16T11:39:58Z",
+      "method": "http",
+      "last_modified": "Mon, 13 Oct 2025 20:20:39 GMT",
+      "etag": "\"68ed5f17-17b43\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1064",
+      "attempted_at": "2026-10-16T11:39:55Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.ca.gov/wp-content/uploads/2025/10/AB-1064-Veto.pdf",
+      "attempted_at": "2026-10-16T11:39:58Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
    }
   },
   {
@@ -51493,11 +52459,55 @@
     "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-14: 10 field(s) supported."
    },
    "local_copy": {
-    "status": "not-attempted",
-    "flag": "The archiver has not been run for this record yet.",
-    "last_attempt": null,
-    "files": [],
-    "attempts": []
+    "status": "partial",
+    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved.",
+    "last_attempt": "2026-10-16T11:39:56Z",
+    "files": [
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/US-CA-15/2026-10-16/secondary.html",
+      "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+      "final_url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 311546,
+      "sha256": "3a5a25c8d7566af1a3cdecec58f9b8b29f5f48c8a51efaf38ae5a7147a4c0631",
+      "text_sha256": "eaf828e26b573390390014f3946a33638d237827e3f276b6f36c6aeb36903a95",
+      "retrieved_at": "2026-10-16T11:40:00Z",
+      "last_checked": "2026-10-16T11:40:00Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1159",
+      "attempted_at": "2026-10-16T11:39:57Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+      "attempted_at": "2026-10-16T11:40:00Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
    }
   },
   {
@@ -54340,7 +55350,7 @@
    "local_copy": {
     "status": "partial",
     "flag": "The official source could not be downloaded (The site's robots.txt does not allow automated downloads of this page); only the secondary source was saved.",
-    "last_attempt": "2026-10-14T16:39:09Z",
+    "last_attempt": "2026-10-16T11:39:58Z",
     "files": [
      {
       "role_key": "secondary",
@@ -54355,7 +55365,7 @@
       "sha256": "0d839029d7c87efedac99d1ea526bdbb8a93a99c67909f9875c91c9e721aef9e",
       "text_sha256": null,
       "retrieved_at": "2026-10-14T16:39:13Z",
-      "last_checked": "2026-10-14T16:39:13Z",
+      "last_checked": "2026-10-16T11:40:01Z",
       "method": "http",
       "last_modified": "Mon, 13 Apr 2026 16:59:36 GMT",
       "etag": "\"1a236b2a60f91205351ced887e5de80b\"",
@@ -54381,6 +55391,24 @@
       "role": "secondary",
       "url": "https://assets.alm.com/b3/ef/635b69ee4a80aa7afc28763aa2ba/opinion-disposition-chapter-4.pdf",
       "attempted_at": "2026-10-14T16:39:13Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://supremecourt.flcourts.gov/content/download/2439771/opinion/Opinion_SC2024-0032.pdf",
+      "attempted_at": "2026-10-16T11:39:58Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's robots.txt does not allow automated downloads of this page",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://assets.alm.com/b3/ef/635b69ee4a80aa7afc28763aa2ba/opinion-disposition-chapter-4.pdf",
+      "attempted_at": "2026-10-16T11:40:01Z",
       "ok": true,
       "http_status": 200,
       "error": null,
@@ -54434,8 +55462,8 @@
    },
    "local_copy": {
     "status": "partial",
-    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved. The browser retry also failed (HTTP 403 (in browser)).",
-    "last_attempt": "2026-10-14T16:39:13Z",
+    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved.",
+    "last_attempt": "2026-10-16T11:40:00Z",
     "files": [
      {
       "role_key": "secondary",
@@ -54450,7 +55478,7 @@
       "sha256": "75048873b09c0cd02c05520e11021923f8800b73677c1f9924004d87ae52533d",
       "text_sha256": null,
       "retrieved_at": "2026-10-14T16:39:18Z",
-      "last_checked": "2026-10-14T16:39:18Z",
+      "last_checked": "2026-10-16T11:40:06Z",
       "method": "http",
       "last_modified": "Wed, 14 Oct 2026 16:06:01 GMT",
       "etag": "W/\"2da95-65dcf1b87c2a9\"",
@@ -54489,6 +55517,409 @@
       "http_status": 403,
       "error": "HTTP 403 (in browser)",
       "method": "browser"
+     },
+     {
+      "role": "official",
+      "url": "https://www.floridabar.org/etopinions/opinion-24-1/",
+      "attempted_at": "2026-10-16T11:40:03Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.law.buffalo.edu/content/dam/law/content/cle/24mar27-materials/fl-bar-ethics.pdf",
+      "attempted_at": "2026-10-16T11:40:06Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "CN-28",
+   "slug": "new-generation-ai-development-plan",
+   "title": "New Generation Artificial Intelligence Development Plan",
+   "original_title": "新一代人工智能发展规划",
+   "short_title": "New Generation AI Development Plan",
+   "jurisdiction": "China",
+   "country": "China",
+   "jurisdiction_level": "National",
+   "region": "East Asia",
+   "issuing_body": "State Council of the People's Republic of China",
+   "instrument_type": "Strategy / action plan",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2017-07-08",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": "国发〔2017〕35号",
+   "official_url": "https://www.gov.cn/zhengce/content/2017-07/20/content_5211996.htm",
+   "secondary_url": null,
+   "language": "Chinese",
+   "summary": "State Council plan to develop new-generation AI in three steps, to 2020, 2025 and 2030, mainly through research, an intelligent economy and society, military-civil fusion and infrastructure. Its safeguards call for AI laws and ethical norms, with research on civil and criminal liability, a traceability and accountability system and safety rules for autonomous driving and service robots, and for an AI safety supervision and assessment system with monitoring and early warning, two-layer supervision of design accountability and application, test platforms and safety certification. Its 2025 goals include initial AI laws, ethical norms and policies and AI safety assessment and control capability.",
+   "safety_topics": [
+    "accountability & liability",
+    "evaluation & testing",
+    "research priorities",
+    "international cooperation",
+    "national security & military"
+   ],
+   "related": [
+    {
+     "id": "CN-12",
+     "slug": "cn-ai-plus-action-opinions"
+    }
+   ],
+   "notes": "Issued by the State Council on 8 Jul 2017 to provincial governments and State Council departments, and released on 20 Jul 2017. The 2020 goal includes initial AI ethical norms, policies and regulations in some fields; the 2030 goal a more complete system of AI laws, regulations, ethical norms and policies. The plan also calls for codes of ethics and conduct for AI developers and designers, assessment of AI's potential harms and benefits, research on robot alienation and safety supervision, and international cooperation on AI laws and rules. Risk prevention is to focus on employment in the near term and on social ethics in the long term. Implementation is led by the national leading group for science and technology system reform and innovation system building, with an AI plan promotion office in the Ministry of Science and Technology and an AI strategic advisory committee.",
+   "scope_note": "Mainly a national plan for AI research, industry and adoption, with its safety content in the safeguards on AI laws, ethics and a safety supervision and assessment system; included as the State Council's national AI plan, which set goals for AI laws, ethical norms and safety assessment.",
+   "english_version": {
+    "kind": "third-party translation",
+    "url": "https://digichina.stanford.edu/work/full-translation-chinas-new-generation-artificial-intelligence-development-plan-2017/",
+    "by": "DigiChina, Stanford University; translated by Rogier Creemers, Graham Webster, Paul Triolo and Elsa Kania"
+   },
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-16",
+    "method": "official-url-fetched",
+    "note": "Stored the State Council's own page on gov.cn with the notice and the full plan in Chinese. It confirms the document number 国发〔2017〕35号, the issuing body, the date of the notice (成文日期 8 Jul 2017) and the release date (发布日期 20 Jul 2017), and the plan's goals, safeguards and implementation sections. The plan was also printed in the State Council Gazette 2017 No. 22, which was not stored. No English text by the State Council was found; the English title renders the Chinese title and matches the name DigiChina uses. Also stored DigiChina's third-party English translation (first published as a PDF on 1 Aug 2017, renamed 'New Generation' in October 2018). The summary follows the Chinese text. 安全 is rendered 'safety', as in the official English title of 人工智能安全治理框架 (CN-07); DigiChina renders 人工智能安全监管和评估体系, 安全评估和管控能力 and 安全认证 with 'security'.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-16: 10 field(s) supported."
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T12:01:34Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads/C001/2026-10-16/official.html",
+      "url": "https://www.gov.cn/zhengce/content/2017-07/20/content_5211996.htm",
+      "final_url": "https://www.gov.cn/zhengce/content/2017-07/20/content_5211996.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 115463,
+      "sha256": "562b0de202ab0be7a944cc8ac97fd3bea84836caf3dda982acc1db5b9b1b97c0",
+      "text_sha256": "bc3c6be8b8cce8c2d52851e68a110bae4c11d8823cab29b8e8b159a1fc0cb02f",
+      "retrieved_at": "2026-10-16T11:40:35Z",
+      "last_checked": "2026-10-16T12:01:37Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.gov.cn/zhengce/content/2017-07/20/content_5211996.htm",
+      "attempted_at": "2026-10-16T11:40:35Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gov.cn/zhengce/content/2017-07/20/content_5211996.htm",
+      "attempted_at": "2026-10-16T12:01:37Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "EU-20",
+   "slug": "hleg-ethics-guidelines-for-trustworthy-ai",
+   "title": "Ethics Guidelines for Trustworthy AI",
+   "original_title": null,
+   "short_title": "HLEG Ethics Guidelines for Trustworthy AI",
+   "jurisdiction": "European Union",
+   "country": "European Union",
+   "jurisdiction_level": "Supranational",
+   "region": "Europe",
+   "issuing_body": "European Commission",
+   "instrument_type": "Guidelines / framework",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2019-04-08",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai",
+   "secondary_url": null,
+   "language": "English",
+   "summary": "Non-binding guidelines that define trustworthy AI as lawful, ethical and robust. Founded on fundamental rights, they set four ethical principles (respect for human autonomy, prevention of harm, fairness, explicability) and seven key requirements: human agency and oversight, technical robustness and safety, privacy and data governance, transparency, diversity, non-discrimination and fairness, societal and environmental well-being, and accountability. An assessment list operationalises them, and the guidelines name critical concerns such as AI identification of individuals, covert AI systems, citizen scoring and lethal autonomous weapons.",
+   "safety_topics": [
+    "human oversight",
+    "transparency & labelling",
+    "accountability & liability",
+    "evaluation & testing"
+   ],
+   "related": [],
+   "notes": "Written by the High-Level Expert Group on Artificial Intelligence (AI HLEG), an independent group of 52 members that the European Commission set up in June 2018, as the first of its two mandated deliverables (the other being policy and investment recommendations). The document states that its views are those of the AI HLEG and not an official position of the Commission. Made public on 8 Apr 2019, revised after a first draft of 18 Dec 2018 drew feedback from more than 500 contributors. Where an AI system poses risks to fundamental rights, a fundamental rights impact assessment should be done before development. The assessment list in Chapter III was piloted from 26 Jun to 1 Dec 2019; the AI HLEG then presented the final Assessment List for Trustworthy AI (ALTAI), a self-assessment checklist, in July 2020 (made public on 17 Jul 2020). The guidelines are available in 23 EU languages, with a separate AI HLEG document defining AI for their purpose.",
+   "scope_note": "Written by the independent High-Level Expert Group on Artificial Intelligence that the European Commission set up, and published by the Commission; included as a report of an expert group that the authority convened and published.",
+   "english_version": null,
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-16",
+    "method": "official-url-fetched",
+    "note": "Stored the Commission's library page on digital-strategy.ec.europa.eu (HTML and the site's printable PDF), the English guidelines document (41 pages) from ec.europa.eu, and the AI HLEG's ALTAI of July 2020. The guidelines document confirms the title, its authorship by the AI HLEG set up by the Commission, the date it was made public (8 Apr 2019), its non-binding character and the content summarised; the library page confirms publication on 8 Apr 2019 and that the guidelines are still offered in 23 languages. The document carries no ISBN, doi or document number, so official_identifier is empty.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-16: 8 field(s) supported."
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": "A source changed since the previous snapshot; both versions are kept.",
+    "last_attempt": "2026-10-16T12:01:34Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/official.html",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai",
+      "final_url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 54219,
+      "sha256": "f54a63e0a739de2f551a2974762e492852b85453c5c28b0282cc79928e19756e",
+      "text_sha256": "7065b202a35f684d481ad055d0b51c911688cb3e071a10da3d15008d635e6e85",
+      "retrieved_at": "2026-10-16T11:40:35Z",
+      "last_checked": "2026-10-16T12:01:36Z",
+      "method": "http",
+      "last_modified": "Fri, 16 Oct 2026 11:17:25 GMT",
+      "etag": "\"1792149445-gzip\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/EU-20/2026-10-16/document-1.pdf",
+      "url": "https://digital-strategy.ec.europa.eu/en/node/1950/printable/pdf",
+      "final_url": "https://digital-strategy.ec.europa.eu/en/node/1950/printable/pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 393384,
+      "sha256": "00af03f5c2eb87887627b8e8ed5446fbb72ecd9904dda1835961ccb0f3dd915d",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T12:01:39Z",
+      "last_checked": "2026-10-16T12:01:39Z",
+      "method": "http",
+      "last_modified": "Fri, 16 Oct 2026 00:50:02 GMT",
+      "etag": null,
+      "changed": true,
+      "previous_sha256": "39bdb57b988e8c0b555f61d80019d0d99ca583bd92adce92891660d17ff59928",
+      "previous_path": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/document-1.pdf",
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/document-2.pdf",
+      "url": "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=68342",
+      "final_url": "https://ec.europa.eu/newsroom/dae/redirection/document/68342",
+      "http_status": 200,
+      "content_type": "application/",
+      "bytes": 545364,
+      "sha256": "05d2831f581f4630e02b98b14464c8bb131434363c606d10ad4129bbf2f4b7df",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T11:40:41Z",
+      "last_checked": "2026-10-16T12:01:42Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai",
+      "attempted_at": "2026-10-16T11:40:35Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://digital-strategy.ec.europa.eu/en/node/1950/printable/pdf",
+      "attempted_at": "2026-10-16T11:40:37Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=68342",
+      "attempted_at": "2026-10-16T11:40:41Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai",
+      "attempted_at": "2026-10-16T12:01:36Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://digital-strategy.ec.europa.eu/en/node/1950/printable/pdf",
+      "attempted_at": "2026-10-16T12:01:39Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=68342",
+      "attempted_at": "2026-10-16T12:01:42Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "US-29",
+   "slug": "eo-13960",
+   "title": "Promoting the Use of Trustworthy Artificial Intelligence in the Federal Government (Executive Order 13960)",
+   "original_title": null,
+   "short_title": "EO 13960",
+   "jurisdiction": "United States",
+   "country": "United States",
+   "jurisdiction_level": "National",
+   "region": "North America",
+   "issuing_body": "The White House (President Donald J. Trump)",
+   "instrument_type": "Executive order / decree",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2020-12-03",
+   "date_in_force": "2020-12-03",
+   "date_last_updated": null,
+   "official_identifier": "Executive Order 13960; 85 FR 78939 (FR Doc. 2020-27065)",
+   "official_url": "https://www.govinfo.gov/content/pkg/FR-2020-12-08/pdf/2020-27065.pdf",
+   "secondary_url": null,
+   "language": "English",
+   "summary": "Executive order setting nine principles that federal agencies must follow when designing, developing, acquiring and using AI for purposes other than national security and defense: lawful and respectful of the nation's values; purposeful and performance-driven; accurate, reliable and effective; safe, secure and resilient; understandable; responsible and traceable; regularly monitored; transparent; and accountable. OMB must post a roadmap for policy guidance to implement them. Agencies must inventory their non-classified AI use cases every year, publish the inventories, and bring applications that are inconsistent with the order into line or retire them.",
+   "safety_topics": [
+    "public-sector use",
+    "accountability & liability",
+    "transparency & labelling",
+    "evaluation & testing",
+    "human oversight"
+   ],
+   "related": [
+    {
+     "id": "US-06",
+     "slug": "us-omb-m-24-10"
+    },
+    {
+     "id": "US-12",
+     "slug": "us-omb-m-25-21"
+    },
+    {
+     "id": "US-17",
+     "slug": "us-eo-14319"
+    },
+    {
+     "id": "US-19",
+     "slug": "us-omb-m-26-04"
+    }
+   ],
+   "notes": "Signed 3 Dec 2020 and published in the Federal Register on 8 Dec 2020 (85 FR 78939). It does not apply to the Department of Defense or to agencies and components whose functions lie wholly within the intelligence community, nor to AI in defense or national security systems, AI embedded in common commercial products, or AI research and development. Under the 'regularly monitored' principle, agencies keep mechanisms to supersede, disengage or deactivate AI applications whose performance or outcomes are inconsistent with their intended use. Deadlines: inventory criteria from the CIO Council within 60 days and the OMB roadmap within 180 days of the order; agency inventories within 180 days of the criteria and annually after that; plans to achieve consistency or retire applications within 120 days of each inventory, and public inventories within 120 days. The order uses the AI definition in section 238(g) of the National Defense Authorization Act for Fiscal Year 2019 as a reference point. OMB memorandum M-26-04 of 11 Dec 2025, on unbiased AI principles for federal procurement of large language models, builds on this order together with OMB memoranda M-25-21 and M-25-22.",
+   "scope_note": null,
+   "english_version": null,
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-16",
+    "method": "official-url-fetched",
+    "note": "Stored the Federal Register print of the order from govinfo.gov (5 pages, 85 FR 78939-78943). It confirms the title, the order number, the signing on 3 Dec 2020, publication on 8 Dec 2020 and FR Doc. 2020-27065, and the content of Secs. 1 to 10. Also stored OMB memorandum M-26-04 of 11 Dec 2025 from whitehouse.gov, which names the order among the existing directives it builds on; that it is still in force rests on this and on the absence of any revocation or amendment in the stored sources.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-16: 8 field(s) supported."
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T12:01:34Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads/C004/2026-10-16/official.pdf",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2020-12-08/pdf/2020-27065.pdf",
+      "final_url": "https://www.govinfo.gov/content/pkg/FR-2020-12-08/pdf/2020-27065.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 187349,
+      "sha256": "806dd5f22488f28f063bf06eae6f3f0480d40baf263bbe7e11721c01a265e5af",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T11:40:38Z",
+      "last_checked": "2026-10-16T12:01:37Z",
+      "method": "http",
+      "last_modified": "Mon, 22 Sep 2025 19:12:36 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2020-12-08/pdf/2020-27065.pdf",
+      "attempted_at": "2026-10-16T11:40:38Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2020-12-08/pdf/2020-27065.pdf",
+      "attempted_at": "2026-10-16T12:01:37Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
     ]
    }

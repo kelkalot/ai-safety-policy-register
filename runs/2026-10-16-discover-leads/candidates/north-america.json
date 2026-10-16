@@ -1,0 +1,35 @@
+{
+ "group": "north-america",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "candidates": [
+  {
+   "cand_ref": "north-america-01",
+   "lead": "L004",
+   "cell": "US/executive",
+   "title_as_found": "Executive Order 13859: Maintaining American Leadership in Artificial Intelligence",
+   "language": "English",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2019-02-14/pdf/2019-02544.pdf",
+   "source_kind": "official",
+   "lead_urls": [],
+   "found_via": "lead URL (Federal Register, 14 Feb 2019) confirmed as official govinfo.gov PDF; not found in data/records.json",
+   "scope_guess": "in",
+   "why": "First US executive order on AI, setting policy on AI leadership, standards and regulation guidance.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "north-america-02",
+   "lead": "L005",
+   "cell": "US/executive",
+   "title_as_found": "Executive Order 13960: Promoting the Use of Trustworthy Artificial Intelligence in the Federal Government",
+   "language": "English",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2020-12-08/pdf/2020-27065.pdf",
+   "source_kind": "official",
+   "lead_urls": [],
+   "found_via": "lead URL (Federal Register, 8 Dec 2020) confirmed as official govinfo.gov PDF; not found in data/records.json",
+   "scope_guess": "in",
+   "why": "Executive order setting principles for trustworthy AI use by federal agencies.",
+   "possible_duplicate_of": null
+  }
+ ]
+}

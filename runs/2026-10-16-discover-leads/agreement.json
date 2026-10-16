@@ -1,0 +1,124 @@
+{
+ "run_id": "2026-10-16-discover-leads",
+ "generated": "2026-10-16",
+ "compared": 4,
+ "pending": [],
+ "overall_field_agreement": 0.913,
+ "fields": {
+  "decision": {
+   "compared": 4,
+   "agree": 4,
+   "rate": 1.0
+  },
+  "title": {
+   "compared": 4,
+   "agree": 4,
+   "rate": 1.0
+  },
+  "original_title": {
+   "compared": 1,
+   "agree": 1,
+   "rate": 1.0
+  },
+  "issuing_body": {
+   "compared": 4,
+   "agree": 3,
+   "rate": 0.75
+  },
+  "official_identifier": {
+   "compared": 3,
+   "agree": 3,
+   "rate": 1.0
+  },
+  "date_published": {
+   "compared": 4,
+   "agree": 4,
+   "rate": 1.0
+  },
+  "date_in_force": {
+   "compared": 2,
+   "agree": 0,
+   "rate": 0.0
+  },
+  "date_last_updated": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "status": {
+   "compared": 4,
+   "agree": 4,
+   "rate": 1.0
+  },
+  "legal_force": {
+   "compared": 4,
+   "agree": 4,
+   "rate": 1.0
+  },
+  "instrument_type": {
+   "compared": 4,
+   "agree": 4,
+   "rate": 1.0
+  },
+  "jurisdiction_level": {
+   "compared": 4,
+   "agree": 4,
+   "rate": 1.0
+  },
+  "region": {
+   "compared": 4,
+   "agree": 4,
+   "rate": 1.0
+  },
+  "country": {
+   "compared": 4,
+   "agree": 4,
+   "rate": 1.0
+  },
+  "safety_topics": {
+   "compared": 4,
+   "agree": 3,
+   "rate": 0.75
+  }
+ },
+ "disagreements": {
+  "C001": [],
+  "C002": [
+   {
+    "field": "issuing_body",
+    "first": "European Commission",
+    "blind": "European Commission, High-Level Expert Group on Artificial Intelligence (AI HLEG)"
+   }
+  ],
+  "C003": [
+   {
+    "field": "date_in_force",
+    "first": "2019-02-11",
+    "blind": null
+   },
+   {
+    "field": "safety_topics",
+    "first": [
+     "research priorities",
+     "national security & military",
+     "international cooperation"
+    ],
+    "blind": [
+     "research priorities",
+     "evaluation & testing",
+     "public-sector use",
+     "national security & military"
+    ]
+   }
+  ],
+  "C004": [
+   {
+    "field": "date_in_force",
+    "first": "2020-12-03",
+    "blind": null
+   }
+  ]
+ },
+ "resulting_record_agreement": null,
+ "resulting_record_fields": 0
+}

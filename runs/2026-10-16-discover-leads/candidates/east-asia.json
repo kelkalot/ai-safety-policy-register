@@ -1,0 +1,24 @@
+{
+ "group": "east-asia",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "candidates": [
+  {
+   "cand_ref": "east-asia-01",
+   "lead": "L007",
+   "cell": "CN/executive",
+   "title_as_found": "国务院关于印发新一代人工智能发展规划的通知 (New Generation Artificial Intelligence Development Plan), Guofa [2017] No. 35",
+   "language": "Chinese",
+   "url": "https://www.gov.cn/zhengce/content/2017-07/20/content_5211996.htm",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.chinalawtranslate.com/en/%e5%9b%bd%e5%8a%a1%e9%99%a2%e5%85%b3%e4%ba%8e%e5%8d%b0%e5%8f%91%e6%96%b0%e4%b8%80%e4%bb%a3%e4%ba%ba%e5%b7%a5%e6%99%ba%e8%83%bd%e5%8f%91%e5%b1%95%e8%a7%84%e5%88%92%e7%9a%84%e9%80%9a%e7%9f%a5/",
+    "https://www.gov.cn/gongbao/content/2017/content_5216427.htm"
+   ],
+   "found_via": "lead URL on gov.cn confirmed (HTTP 200); State Council Gazette 2017 No. 22 copy noted; not found in data/records.json",
+   "scope_guess": "borderline",
+   "why": "National AI strategy with goals for AI laws, ethics and safety assessment but a mainly industrial focus, so in with a scope_note.",
+   "possible_duplicate_of": null
+  }
+ ]
+}

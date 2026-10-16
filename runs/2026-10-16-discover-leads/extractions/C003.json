@@ -1,0 +1,162 @@
+{
+ "cand_id": "C003",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Maintaining American Leadership in Artificial Intelligence (Executive Order 13859)",
+  "original_title": null,
+  "short_title": "EO 13859",
+  "jurisdiction": "United States",
+  "country": "United States",
+  "jurisdiction_level": "National",
+  "region": "North America",
+  "issuing_body": "The White House (President Donald J. Trump)",
+  "instrument_type": "Executive order / decree",
+  "legal_force": "Binding",
+  "status": "In force",
+  "date_published": "2019-02-11",
+  "date_in_force": "2019-02-11",
+  "date_last_updated": null,
+  "official_identifier": "Executive Order 13859; 84 FR 3967 (FR Doc. 2019-02544)",
+  "official_url": "https://www.govinfo.gov/content/pkg/FR-2019-02-14/pdf/2019-02544.pdf",
+  "secondary_url": null,
+  "language": "English",
+  "summary": "Executive order setting the policy of sustaining US leadership in AI research, development and deployment through the American AI Initiative, guided by five principles, among them developing technical standards, reducing barriers to the safe testing and deployment of AI, and fostering public trust. Agencies must prioritise AI R&D and open federal data and models while protecting safety, security and privacy. OMB must issue guidance to agencies on regulatory and non-regulatory approaches to AI applications, first in draft for public comment, and NIST a plan for federal engagement in technical standards for reliable, robust and trustworthy AI.",
+  "safety_topics": [
+   "research priorities",
+   "national security & military",
+   "international cooperation"
+  ],
+  "related": [
+   "C004"
+  ],
+  "notes": "Signed 11 Feb 2019 and published in the Federal Register on 14 Feb 2019 (84 FR 3967). The initiative is coordinated through the National Science and Technology Council Select Committee on Artificial Intelligence. The OMB memorandum and the NIST standards plan were due within 180 days of the order; agencies with regulatory authority then had 180 days from the memorandum to submit plans for consistency with it. Sec. 8 requires an action plan, which may be classified, to protect the US advantage in AI against strategic competitors and adversarial nations, as directed by the National Security Presidential Memorandum of 11 Feb 2019. The order creates no right or benefit enforceable at law. Executive Order 13960 of 3 Dec 2020 on trustworthy AI in the federal government states that agencies act in alignment with it.",
+  "verification": {
+   "note": "Stored the Federal Register print of the order from govinfo.gov (6 pages, 84 FR 3967-3972). It confirms the title, the order number, the signing on 11 Feb 2019, publication on 14 Feb 2019 and FR Doc. 2019-02544, and the content of Secs. 1 to 10. The order sets no expiry; that it is still in force rests on the absence of any revocation or amendment in the stored sources and in the stored texts of the later US executive orders and OMB memoranda in the register. The Federal Register's disposition table, which would confirm this, is on federalregister.gov, which serves the archiver a bot-check page."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C003/2026-10-16/official.pdf",
+    "sha256": "49faaba43e2e92bc2aea1d8a0eed6a8a490e1792e6ee010134c0194fb55b0672",
+    "locator": "page 1",
+    "quote": "Executive Order 13859 of February 11, 2019 Maintaining American Leadership in Artificial Intelligence",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C003/2026-10-16/official.pdf",
+    "sha256": "49faaba43e2e92bc2aea1d8a0eed6a8a490e1792e6ee010134c0194fb55b0672",
+    "locator": "page 1",
+    "quote": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered as follows:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C003/2026-10-16/official.pdf",
+    "sha256": "49faaba43e2e92bc2aea1d8a0eed6a8a490e1792e6ee010134c0194fb55b0672",
+    "locator": "page 6, signature block",
+    "quote": "THE WHITE HOUSE, February 11, 2019.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C003/2026-10-16/official.pdf",
+    "sha256": "49faaba43e2e92bc2aea1d8a0eed6a8a490e1792e6ee010134c0194fb55b0672",
+    "locator": "page 6, signature graphic",
+    "quote": "Trump.EPS",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C003/2026-10-16/official.pdf",
+    "sha256": "49faaba43e2e92bc2aea1d8a0eed6a8a490e1792e6ee010134c0194fb55b0672",
+    "locator": "page 1",
+    "quote": "Presidential Documents 3967 Federal Register Vol. 84, No. 31 Thursday, February 14, 2019 Title 3— The President Executive Order 13859 of February 11, 2019",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C003/2026-10-16/official.pdf",
+    "sha256": "49faaba43e2e92bc2aea1d8a0eed6a8a490e1792e6ee010134c0194fb55b0672",
+    "locator": "page 6",
+    "quote": "[FR Doc. 2019–02544 Filed 2–13–19; 8:45 am]",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C003/2026-10-16/official.pdf",
+    "sha256": "49faaba43e2e92bc2aea1d8a0eed6a8a490e1792e6ee010134c0194fb55b0672",
+    "locator": "page 6, signature block",
+    "quote": "THE WHITE HOUSE, February 11, 2019.",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C003/2026-10-16/official.pdf",
+    "sha256": "49faaba43e2e92bc2aea1d8a0eed6a8a490e1792e6ee010134c0194fb55b0672",
+    "locator": "page 6, signature block",
+    "quote": "THE WHITE HOUSE, February 11, 2019.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C003/2026-10-16/official.pdf",
+    "sha256": "49faaba43e2e92bc2aea1d8a0eed6a8a490e1792e6ee010134c0194fb55b0672",
+    "locator": "page 6, signature block",
+    "quote": "THE WHITE HOUSE, February 11, 2019. [FR Doc. 2019–02544 Filed 2–13–19; 8:45 am]",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C003/2026-10-16/official.pdf",
+    "sha256": "49faaba43e2e92bc2aea1d8a0eed6a8a490e1792e6ee010134c0194fb55b0672",
+    "locator": "page 6, Sec. 10",
+    "quote": "(b) This order shall be implemented consistent with applicable law and subject to the availability of appropriations.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C003/2026-10-16/official.pdf",
+    "sha256": "49faaba43e2e92bc2aea1d8a0eed6a8a490e1792e6ee010134c0194fb55b0672",
+    "locator": "page 1",
+    "quote": "it is hereby ordered as follows:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C003/2026-10-16/official.pdf",
+    "sha256": "49faaba43e2e92bc2aea1d8a0eed6a8a490e1792e6ee010134c0194fb55b0672",
+    "locator": "page 6, Sec. 10(c)",
+    "quote": "(c) This order is not intended to, and does not, create any right or benefit, substantive or procedural, enforceable at law or in equity by any party against the United States",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The order was signed on 11 Feb 2019 (signature block 'THE WHITE HOUSE, February 11, 2019.') and published on 14 Feb 2019 (FR Doc. 2019-02544, filed 13 Feb 2019). It sets no expiry or sunset, and an executive order takes effect when signed unless it says otherwise, so date_in_force is the signing date, as for the other US executive orders in the register. No stored source revokes or amends it: the order is not mentioned in the stored texts of the later US executive orders and OMB memoranda in the register, and EO 13960 of 3 Dec 2020 (C004) cites it as current policy. As of 16 Oct 2026: In force.",
+  "date_reasoning": "date_published is the signing date (11 Feb 2019), as for the other US executive orders in the register; Federal Register publication on 14 Feb 2019 is in the notes.",
+  "identifier_reasoning": "Order number plus Federal Register citation and document number, in the format of US-11.",
+  "legal_force_reasoning": "An executive order binding on federal agencies, which creates no rights enforceable by third parties (Sec. 10(c)); Binding, as for the other US executive orders in the register.",
+  "topics_reasoning": "research priorities: Secs. 4 and 5 make AI an agency R&D priority and open federal data, models and computing; national security & military: Sec. 1(e), Sec. 2(f) and Sec. 8 on protecting the AI advantage against strategic competitors under the NSPM; international cooperation: Sec. 2(d) on developing international standards and Sec. 4(c) on collaboration with foreign partners and allies.",
+  "scope_reasoning": "An executive order on AI, setting federal AI policy including guidance on regulating AI applications and technical standards for reliable, robust and trustworthy AI (AGENTS.md section 10: executive orders on AI are in with no note)."
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "OMB memorandum to agency heads on regulatory and non-regulatory approaches to AI applications, required by Sec. 6(a) of EO 13859 (issued in draft for public comment first, Sec. 6(b))",
+   "cell": "US/executive",
+   "why": "Federal guidance for regulating AI applications; not in the register."
+  },
+  {
+   "title": "NIST plan for Federal engagement in the development of technical standards and related tools for reliable, robust and trustworthy AI, required by Sec. 6(d) of EO 13859",
+   "cell": "US/executive",
+   "why": "Government plan on AI technical standards; not in the register."
+  }
+ ],
+ "open_questions": []
+}

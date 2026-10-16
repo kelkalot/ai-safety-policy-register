@@ -1,0 +1,689 @@
+{
+ "provenance": {
+  "date": "2026-10-16",
+  "agent": "Claude Code",
+  "model": "claude-opus-5-5",
+  "scope": "pipeline run 2026-10-16-discover-leads (discover: queue)",
+  "run_id": "2026-10-16-discover-leads",
+  "stages": {
+   "collect": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5",
+    "date": "2026-10-16"
+   },
+   "extract": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+   },
+   "blind": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5",
+    "date": "2026-10-16"
+   },
+   "check": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5",
+    "date": "2026-10-16"
+   }
+  }
+ },
+ "records": [
+  {
+   "id": "CN-28",
+   "slug": "new-generation-ai-development-plan",
+   "title": "New Generation Artificial Intelligence Development Plan",
+   "original_title": "新一代人工智能发展规划",
+   "short_title": "New Generation AI Development Plan",
+   "jurisdiction": "China",
+   "country": "China",
+   "jurisdiction_level": "National",
+   "region": "East Asia",
+   "issuing_body": "State Council of the People's Republic of China",
+   "instrument_type": "Strategy / action plan",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2017-07-08",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": "国发〔2017〕35号",
+   "official_url": "https://www.gov.cn/zhengce/content/2017-07/20/content_5211996.htm",
+   "secondary_url": null,
+   "language": "Chinese",
+   "summary": "State Council plan to develop new-generation AI in three steps, to 2020, 2025 and 2030, mainly through research, an intelligent economy and society, military-civil fusion and infrastructure. Its safeguards call for AI laws and ethical norms, with research on civil and criminal liability, a traceability and accountability system and safety rules for autonomous driving and service robots, and for an AI safety supervision and assessment system with monitoring and early warning, two-layer supervision of design accountability and application, test platforms and safety certification. Its 2025 goals include initial AI laws, ethical norms and policies and AI safety assessment and control capability.",
+   "safety_topics": [
+    "accountability & liability",
+    "evaluation & testing",
+    "research priorities",
+    "international cooperation",
+    "national security & military"
+   ],
+   "related": [
+    {
+     "id": "CN-12",
+     "slug": "cn-ai-plus-action-opinions"
+    }
+   ],
+   "notes": "Issued by the State Council on 8 Jul 2017 to provincial governments and State Council departments, and released on 20 Jul 2017. The 2020 goal includes initial AI ethical norms, policies and regulations in some fields; the 2030 goal a more complete system of AI laws, regulations, ethical norms and policies. The plan also calls for codes of ethics and conduct for AI developers and designers, assessment of AI's potential harms and benefits, research on robot alienation and safety supervision, and international cooperation on AI laws and rules. Risk prevention is to focus on employment in the near term and on social ethics in the long term. Implementation is led by the national leading group for science and technology system reform and innovation system building, with an AI plan promotion office in the Ministry of Science and Technology and an AI strategic advisory committee.",
+   "scope_note": "Mainly a national plan for AI research, industry and adoption, with its safety content in the safeguards on AI laws, ethics and a safety supervision and assessment system; included as the State Council's national AI plan, which set goals for AI laws, ethical norms and safety assessment.",
+   "english_version": {
+    "kind": "third-party translation",
+    "url": "https://digichina.stanford.edu/work/full-translation-chinas-new-generation-artificial-intelligence-development-plan-2017/",
+    "by": "DigiChina, Stanford University; translated by Rogier Creemers, Graham Webster, Paul Triolo and Elsa Kania"
+   },
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-16",
+    "method": "official-url-fetched",
+    "note": "Stored the State Council's own page on gov.cn with the notice and the full plan in Chinese. It confirms the document number 国发〔2017〕35号, the issuing body, the date of the notice (成文日期 8 Jul 2017) and the release date (发布日期 20 Jul 2017), and the plan's goals, safeguards and implementation sections. The plan was also printed in the State Council Gazette 2017 No. 22, which was not stored. No English text by the State Council was found; the English title renders the Chinese title and matches the name DigiChina uses. Also stored DigiChina's third-party English translation (first published as a PDF on 1 Aug 2017, renamed 'New Generation' in October 2018). The summary follows the Chinese text. 安全 is rendered 'safety', as in the official English title of 人工智能安全治理框架 (CN-07); DigiChina renders 人工智能安全监管和评估体系, 安全评估和管控能力 and 安全认证 with 'security'.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-16: 10 field(s) supported."
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T11:40:32Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads/C001/2026-10-16/official.html",
+      "url": "https://www.gov.cn/zhengce/content/2017-07/20/content_5211996.htm",
+      "final_url": "https://www.gov.cn/zhengce/content/2017-07/20/content_5211996.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 115463,
+      "sha256": "562b0de202ab0be7a944cc8ac97fd3bea84836caf3dda982acc1db5b9b1b97c0",
+      "text_sha256": "bc3c6be8b8cce8c2d52851e68a110bae4c11d8823cab29b8e8b159a1fc0cb02f",
+      "retrieved_at": "2026-10-16T11:40:35Z",
+      "last_checked": "2026-10-16T11:40:35Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.gov.cn/zhengce/content/2017-07/20/content_5211996.htm",
+      "attempted_at": "2026-10-16T11:40:35Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "EU-20",
+   "slug": "hleg-ethics-guidelines-for-trustworthy-ai",
+   "title": "Ethics Guidelines for Trustworthy AI",
+   "original_title": null,
+   "short_title": "HLEG Ethics Guidelines for Trustworthy AI",
+   "jurisdiction": "European Union",
+   "country": "European Union",
+   "jurisdiction_level": "Supranational",
+   "region": "Europe",
+   "issuing_body": "European Commission",
+   "instrument_type": "Guidelines / framework",
+   "legal_force": "Non-binding",
+   "status": "Published (non-binding, current)",
+   "date_published": "2019-04-08",
+   "date_in_force": null,
+   "date_last_updated": null,
+   "official_identifier": null,
+   "official_url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai",
+   "secondary_url": null,
+   "language": "English",
+   "summary": "Non-binding guidelines that define trustworthy AI as lawful, ethical and robust. Founded on fundamental rights, they set four ethical principles (respect for human autonomy, prevention of harm, fairness, explicability) and seven key requirements: human agency and oversight, technical robustness and safety, privacy and data governance, transparency, diversity, non-discrimination and fairness, societal and environmental well-being, and accountability. An assessment list operationalises them, and the guidelines name critical concerns such as AI identification of individuals, covert AI systems, citizen scoring and lethal autonomous weapons.",
+   "safety_topics": [
+    "human oversight",
+    "transparency & labelling",
+    "accountability & liability",
+    "evaluation & testing"
+   ],
+   "related": [],
+   "notes": "Written by the High-Level Expert Group on Artificial Intelligence (AI HLEG), an independent group of 52 members that the European Commission set up in June 2018, as the first of its two mandated deliverables (the other being policy and investment recommendations). The document states that its views are those of the AI HLEG and not an official position of the Commission. Made public on 8 Apr 2019, revised after a first draft of 18 Dec 2018 drew feedback from more than 500 contributors. Where an AI system poses risks to fundamental rights, a fundamental rights impact assessment should be done before development. The assessment list in Chapter III was piloted from 26 Jun to 1 Dec 2019; the AI HLEG then presented the final Assessment List for Trustworthy AI (ALTAI), a self-assessment checklist, in July 2020 (made public on 17 Jul 2020). The guidelines are available in 23 EU languages, with a separate AI HLEG document defining AI for their purpose.",
+   "scope_note": "Written by the independent High-Level Expert Group on Artificial Intelligence that the European Commission set up, and published by the Commission; included as a report of an expert group that the authority convened and published.",
+   "english_version": null,
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-16",
+    "method": "official-url-fetched",
+    "note": "Stored the Commission's library page on digital-strategy.ec.europa.eu (HTML and the site's printable PDF), the English guidelines document (41 pages) from ec.europa.eu, and the AI HLEG's ALTAI of July 2020. The guidelines document confirms the title, its authorship by the AI HLEG set up by the Commission, the date it was made public (8 Apr 2019), its non-binding character and the content summarised; the library page confirms publication on 8 Apr 2019 and that the guidelines are still offered in 23 languages. The document carries no ISBN, doi or document number, so official_identifier is empty.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-16: 8 field(s) supported."
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T11:40:32Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/official.html",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai",
+      "final_url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 54219,
+      "sha256": "f54a63e0a739de2f551a2974762e492852b85453c5c28b0282cc79928e19756e",
+      "text_sha256": "7065b202a35f684d481ad055d0b51c911688cb3e071a10da3d15008d635e6e85",
+      "retrieved_at": "2026-10-16T11:40:35Z",
+      "last_checked": "2026-10-16T11:40:35Z",
+      "method": "http",
+      "last_modified": "Fri, 16 Oct 2026 11:17:25 GMT",
+      "etag": "\"1792149445-gzip\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/document-1.pdf",
+      "url": "https://digital-strategy.ec.europa.eu/en/node/1950/printable/pdf",
+      "final_url": "https://digital-strategy.ec.europa.eu/en/node/1950/printable/pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 393384,
+      "sha256": "39bdb57b988e8c0b555f61d80019d0d99ca583bd92adce92891660d17ff59928",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T11:40:37Z",
+      "last_checked": "2026-10-16T11:40:37Z",
+      "method": "http",
+      "last_modified": "Fri, 16 Oct 2026 00:55:12 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/document-2.pdf",
+      "url": "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=68342",
+      "final_url": "https://ec.europa.eu/newsroom/dae/redirection/document/68342",
+      "http_status": 200,
+      "content_type": "application/",
+      "bytes": 545364,
+      "sha256": "05d2831f581f4630e02b98b14464c8bb131434363c606d10ad4129bbf2f4b7df",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T11:40:41Z",
+      "last_checked": "2026-10-16T11:40:41Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai",
+      "attempted_at": "2026-10-16T11:40:35Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://digital-strategy.ec.europa.eu/en/node/1950/printable/pdf",
+      "attempted_at": "2026-10-16T11:40:37Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=68342",
+      "attempted_at": "2026-10-16T11:40:41Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  {
+   "id": "US-29",
+   "slug": "eo-13960",
+   "title": "Promoting the Use of Trustworthy Artificial Intelligence in the Federal Government (Executive Order 13960)",
+   "original_title": null,
+   "short_title": "EO 13960",
+   "jurisdiction": "United States",
+   "country": "United States",
+   "jurisdiction_level": "National",
+   "region": "North America",
+   "issuing_body": "The White House (President Donald J. Trump)",
+   "instrument_type": "Executive order / decree",
+   "legal_force": "Binding",
+   "status": "In force",
+   "date_published": "2020-12-03",
+   "date_in_force": "2020-12-03",
+   "date_last_updated": null,
+   "official_identifier": "Executive Order 13960; 85 FR 78939 (FR Doc. 2020-27065)",
+   "official_url": "https://www.govinfo.gov/content/pkg/FR-2020-12-08/pdf/2020-27065.pdf",
+   "secondary_url": null,
+   "language": "English",
+   "summary": "Executive order setting nine principles that federal agencies must follow when designing, developing, acquiring and using AI for purposes other than national security and defense: lawful and respectful of the nation's values; purposeful and performance-driven; accurate, reliable and effective; safe, secure and resilient; understandable; responsible and traceable; regularly monitored; transparent; and accountable. OMB must post a roadmap for policy guidance to implement them. Agencies must inventory their non-classified AI use cases every year, publish the inventories, and bring applications that are inconsistent with the order into line or retire them.",
+   "safety_topics": [
+    "public-sector use",
+    "accountability & liability",
+    "transparency & labelling",
+    "evaluation & testing",
+    "human oversight"
+   ],
+   "related": [
+    {
+     "id": "US-06",
+     "slug": "us-omb-m-24-10"
+    },
+    {
+     "id": "US-12",
+     "slug": "us-omb-m-25-21"
+    },
+    {
+     "id": "US-17",
+     "slug": "us-eo-14319"
+    },
+    {
+     "id": "US-19",
+     "slug": "us-omb-m-26-04"
+    }
+   ],
+   "notes": "Signed 3 Dec 2020 and published in the Federal Register on 8 Dec 2020 (85 FR 78939). It does not apply to the Department of Defense or to agencies and components whose functions lie wholly within the intelligence community, nor to AI in defense or national security systems, AI embedded in common commercial products, or AI research and development. Under the 'regularly monitored' principle, agencies keep mechanisms to supersede, disengage or deactivate AI applications whose performance or outcomes are inconsistent with their intended use. Deadlines: inventory criteria from the CIO Council within 60 days and the OMB roadmap within 180 days of the order; agency inventories within 180 days of the criteria and annually after that; plans to achieve consistency or retire applications within 120 days of each inventory, and public inventories within 120 days. The order uses the AI definition in section 238(g) of the National Defense Authorization Act for Fiscal Year 2019 as a reference point. OMB memorandum M-26-04 of 11 Dec 2025, on unbiased AI principles for federal procurement of large language models, builds on this order together with OMB memoranda M-25-21 and M-25-22.",
+   "scope_note": null,
+   "english_version": null,
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-16",
+    "method": "official-url-fetched",
+    "note": "Stored the Federal Register print of the order from govinfo.gov (5 pages, 85 FR 78939-78943). It confirms the title, the order number, the signing on 3 Dec 2020, publication on 8 Dec 2020 and FR Doc. 2020-27065, and the content of Secs. 1 to 10. Also stored OMB memorandum M-26-04 of 11 Dec 2025 from whitehouse.gov, which names the order among the existing directives it builds on; that it is still in force rests on this and on the absence of any revocation or amendment in the stored sources.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-16: 8 field(s) supported."
+   },
+   "local_copy": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T11:40:32Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads/C004/2026-10-16/official.pdf",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2020-12-08/pdf/2020-27065.pdf",
+      "final_url": "https://www.govinfo.gov/content/pkg/FR-2020-12-08/pdf/2020-27065.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 187349,
+      "sha256": "806dd5f22488f28f063bf06eae6f3f0480d40baf263bbe7e11721c01a265e5af",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T11:40:38Z",
+      "last_checked": "2026-10-16T11:40:38Z",
+      "method": "http",
+      "last_modified": "Mon, 22 Sep 2025 19:12:36 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2020-12-08/pdf/2020-27065.pdf",
+      "attempted_at": "2026-10-16T11:40:38Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  }
+ ],
+ "updates": [
+  {
+   "id": "CN-12",
+   "related": [
+    {
+     "slug": "cn-cybersecurity-law-2025-amendment",
+     "id": "CN-14"
+    },
+    {
+     "slug": "cn-ai-safety-governance-framework-2-0",
+     "id": "CN-13"
+    },
+    {
+     "id": "CN-28",
+     "slug": "new-generation-ai-development-plan"
+    }
+   ]
+  },
+  {
+   "id": "US-06",
+   "related": [
+    {
+     "slug": "us-omb-m-25-21",
+     "id": "US-12"
+    },
+    {
+     "slug": "us-eo-14110",
+     "id": "US-04"
+    },
+    {
+     "slug": "us-eo-14179",
+     "id": "US-11"
+    },
+    {
+     "id": "US-29",
+     "slug": "eo-13960"
+    }
+   ]
+  },
+  {
+   "id": "US-12",
+   "related": [
+    {
+     "slug": "us-omb-m-24-10",
+     "id": "US-06"
+    },
+    {
+     "slug": "us-omb-m-25-22",
+     "id": "US-13"
+    },
+    {
+     "slug": "us-eo-14179",
+     "id": "US-11"
+    },
+    {
+     "slug": "us-omb-m-26-04",
+     "id": "US-19"
+    },
+    {
+     "id": "US-29",
+     "slug": "eo-13960"
+    }
+   ]
+  },
+  {
+   "id": "US-17",
+   "related": [
+    {
+     "slug": "us-omb-m-26-04",
+     "id": "US-19"
+    },
+    {
+     "slug": "us-ai-action-plan-2025",
+     "id": "US-16"
+    },
+    {
+     "slug": "us-ftc-ai-accuracy-policy-statement",
+     "id": "US-24"
+    },
+    {
+     "id": "US-29",
+     "slug": "eo-13960"
+    }
+   ]
+  },
+  {
+   "id": "US-19",
+   "related": [
+    {
+     "slug": "us-eo-14319",
+     "id": "US-17"
+    },
+    {
+     "slug": "us-omb-m-25-21",
+     "id": "US-12"
+    },
+    {
+     "slug": "us-omb-m-25-22",
+     "id": "US-13"
+    },
+    {
+     "id": "US-29",
+     "slug": "eo-13960"
+    }
+   ]
+  }
+ ],
+ "history_context": {
+  "CN-28": {
+   "reason": "found in pipeline run 2026-10-16-discover-leads, candidate C001 (CN/executive)",
+   "evidence": [
+    {
+     "field": "title",
+     "file": "archive/_runs/2026-10-16-discover-leads/C001/2026-10-16/official.html",
+     "sha256": "562b0de202ab0be7a944cc8ac97fd3bea84836caf3dda982acc1db5b9b1b97c0",
+     "locator": "notice text",
+     "quote": "现将《新一代人工智能发展规划》印发给你们，请认真贯彻执行。"
+    },
+    {
+     "field": "original_title",
+     "file": "archive/_runs/2026-10-16-discover-leads/C001/2026-10-16/official.html",
+     "sha256": "562b0de202ab0be7a944cc8ac97fd3bea84836caf3dda982acc1db5b9b1b97c0",
+     "locator": "heading of the plan, after the notice",
+     "quote": "（此件公开发布） 新一代人工智能发展规划 人工智能的迅速发展将深刻改变人类社会生活、改变世界。"
+    },
+    {
+     "field": "issuing_body",
+     "file": "archive/_runs/2026-10-16-discover-leads/C001/2026-10-16/official.html",
+     "sha256": "562b0de202ab0be7a944cc8ac97fd3bea84836caf3dda982acc1db5b9b1b97c0",
+     "locator": "document metadata",
+     "quote": "发文机关： 国务院 成文日期： 2017年07月08日"
+    },
+    {
+     "field": "official_identifier",
+     "file": "archive/_runs/2026-10-16-discover-leads/C001/2026-10-16/official.html",
+     "sha256": "562b0de202ab0be7a944cc8ac97fd3bea84836caf3dda982acc1db5b9b1b97c0",
+     "locator": "document metadata",
+     "quote": "发文字号： 国发〔2017〕35号 发布日期： 2017年07月20日"
+    },
+    {
+     "field": "date_published",
+     "file": "archive/_runs/2026-10-16-discover-leads/C001/2026-10-16/official.html",
+     "sha256": "562b0de202ab0be7a944cc8ac97fd3bea84836caf3dda982acc1db5b9b1b97c0",
+     "locator": "document metadata",
+     "quote": "发文机关： 国务院 成文日期： 2017年07月08日"
+    },
+    {
+     "field": "status",
+     "file": "archive/_runs/2026-10-16-discover-leads/C001/2026-10-16/official.html",
+     "sha256": "562b0de202ab0be7a944cc8ac97fd3bea84836caf3dda982acc1db5b9b1b97c0",
+     "locator": "notice text",
+     "quote": "现将《新一代人工智能发展规划》印发给你们，请认真贯彻执行。 国务院 2017年7月8日 （此件公开发布）"
+    },
+    {
+     "field": "legal_force",
+     "file": "archive/_runs/2026-10-16-discover-leads/C001/2026-10-16/official.html",
+     "sha256": "562b0de202ab0be7a944cc8ac97fd3bea84836caf3dda982acc1db5b9b1b97c0",
+     "locator": "preamble of the plan",
+     "quote": "加快建设创新型国家和世界科技强国，按照党中央、国务院部署要求，制定本规划。"
+    }
+   ],
+   "cand_id": "C001"
+  },
+  "EU-20": {
+   "reason": "found in pipeline run 2026-10-16-discover-leads, candidate C002 (EU/executive)",
+   "evidence": [
+    {
+     "field": "title",
+     "file": "archive/_runs/2026-10-16-discover-leads/C002/extra-22b2a3d31b/2026-10-16/official.pdf",
+     "sha256": "4a89863a96551bb3b9ce786afb1b1d58e8062f5a7fa3ed6748922550dde35e25",
+     "locator": "page 1, cover",
+     "quote": "SET UP BY THE EUROPEAN COMMISSION ETHICS GUIDELINES FOR TRUSTWORTHY AI"
+    },
+    {
+     "field": "issuing_body",
+     "file": "archive/_runs/2026-10-16-discover-leads/C002/extra-22b2a3d31b/2026-10-16/official.pdf",
+     "sha256": "4a89863a96551bb3b9ce786afb1b1d58e8062f5a7fa3ed6748922550dde35e25",
+     "locator": "page 2",
+     "quote": "The AI HLEG is an independent expert group that was set up by the European Commission in June 2018."
+    },
+    {
+     "field": "date_published",
+     "file": "archive/_runs/2026-10-16-discover-leads/C002/extra-22b2a3d31b/2026-10-16/official.pdf",
+     "sha256": "4a89863a96551bb3b9ce786afb1b1d58e8062f5a7fa3ed6748922550dde35e25",
+     "locator": "page 2",
+     "quote": "Document made public on 8 April 2019."
+    },
+    {
+     "field": "status",
+     "file": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/official.html",
+     "sha256": "f54a63e0a739de2f551a2974762e492852b85453c5c28b0282cc79928e19756e",
+     "locator": "page heading",
+     "quote": "Ethics guidelines for trustworthy AI REPORT / STUDY Publication 08 April 2019"
+    },
+    {
+     "field": "legal_force",
+     "file": "archive/_runs/2026-10-16-discover-leads/C002/extra-22b2a3d31b/2026-10-16/official.pdf",
+     "sha256": "4a89863a96551bb3b9ce786afb1b1d58e8062f5a7fa3ed6748922550dde35e25",
+     "locator": "page 12, Chapter I",
+     "quote": "for the purpose of these non -binding guidelines, references to fundamental rights reflect the latter component."
+    }
+   ],
+   "cand_id": "C002"
+  },
+  "US-29": {
+   "reason": "found in pipeline run 2026-10-16-discover-leads, candidate C004 (US/executive)",
+   "evidence": [
+    {
+     "field": "title",
+     "file": "archive/_runs/2026-10-16-discover-leads/C004/2026-10-16/official.pdf",
+     "sha256": "806dd5f22488f28f063bf06eae6f3f0480d40baf263bbe7e11721c01a265e5af",
+     "locator": "page 1",
+     "quote": "Executive Order 13960 of December 3, 2020 Promoting the Use of Trustworthy Artificial Intelligence in the Federal Government"
+    },
+    {
+     "field": "issuing_body",
+     "file": "archive/_runs/2026-10-16-discover-leads/C004/2026-10-16/official.pdf",
+     "sha256": "806dd5f22488f28f063bf06eae6f3f0480d40baf263bbe7e11721c01a265e5af",
+     "locator": "page 1",
+     "quote": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered as follows:"
+    },
+    {
+     "field": "official_identifier",
+     "file": "archive/_runs/2026-10-16-discover-leads/C004/2026-10-16/official.pdf",
+     "sha256": "806dd5f22488f28f063bf06eae6f3f0480d40baf263bbe7e11721c01a265e5af",
+     "locator": "page 1",
+     "quote": "Presidential Documents 78939 Federal Register Vol. 85, No. 236 Tuesday, December 8, 2020 Title 3— The President Executive Order 13960 of December 3, 2020"
+    },
+    {
+     "field": "date_published",
+     "file": "archive/_runs/2026-10-16-discover-leads/C004/2026-10-16/official.pdf",
+     "sha256": "806dd5f22488f28f063bf06eae6f3f0480d40baf263bbe7e11721c01a265e5af",
+     "locator": "page 5, signature block",
+     "quote": "THE WHITE HOUSE, December 3, 2020."
+    },
+    {
+     "field": "date_in_force",
+     "file": "archive/_runs/2026-10-16-discover-leads/C004/2026-10-16/official.pdf",
+     "sha256": "806dd5f22488f28f063bf06eae6f3f0480d40baf263bbe7e11721c01a265e5af",
+     "locator": "page 5, signature block",
+     "quote": "THE WHITE HOUSE, December 3, 2020."
+    },
+    {
+     "field": "status",
+     "file": "archive/_runs/2026-10-16-discover-leads/C004/2026-10-16/official.pdf",
+     "sha256": "806dd5f22488f28f063bf06eae6f3f0480d40baf263bbe7e11721c01a265e5af",
+     "locator": "page 5, signature block",
+     "quote": "THE WHITE HOUSE, December 3, 2020. [FR Doc. 2020–27065 Filed 12–7–20; 8:45 am]"
+    },
+    {
+     "field": "legal_force",
+     "file": "archive/_runs/2026-10-16-discover-leads/C004/2026-10-16/official.pdf",
+     "sha256": "806dd5f22488f28f063bf06eae6f3f0480d40baf263bbe7e11721c01a265e5af",
+     "locator": "page 2, Sec. 3",
+     "quote": "Sec. 3. Principles for Use of AI in Government. When designing, developing, acquiring, and using AI in the Federal Government, agencies shall adhere to the following Principles:"
+    }
+   ],
+   "cand_id": "C004"
+  },
+  "CN-12": {
+   "fields": {
+    "related": {
+     "reason": "two-way link to CN-28 added in run 2026-10-16-discover-leads",
+     "evidence": []
+    }
+   }
+  },
+  "US-06": {
+   "fields": {
+    "related": {
+     "reason": "two-way link to US-29 added in run 2026-10-16-discover-leads",
+     "evidence": []
+    }
+   }
+  },
+  "US-12": {
+   "fields": {
+    "related": {
+     "reason": "two-way link to US-29 added in run 2026-10-16-discover-leads",
+     "evidence": []
+    }
+   }
+  },
+  "US-17": {
+   "fields": {
+    "related": {
+     "reason": "two-way link to US-29 added in run 2026-10-16-discover-leads",
+     "evidence": []
+    }
+   }
+  },
+  "US-19": {
+   "fields": {
+    "related": {
+     "reason": "two-way link to US-29 added in run 2026-10-16-discover-leads",
+     "evidence": []
+    }
+   }
+  }
+ },
+ "assigned": {
+  "C001": "CN-28",
+  "C002": "EU-20",
+  "C004": "US-29"
+ },
+ "not_added": [],
+ "needs_human": [
+  {
+   "cand_id": "C003",
+   "record_id": null,
+   "why": "checker: Title, number, dates and legal force are supported by the Federal Register print. The status 'In force' has no quote showing that the order is still current; the evidence script passed it only because the Sec. 10(b) quote exists in the file. Option for a human or the next run: store the 13960 text and M-26-04 evidence is not enough, so store the Federal Register disposition or a later official document naming 13859 as current. Not found revoked.; status is unsupported and the checker gave no evidence-backed fix"
+  }
+ ],
+ "questions": [],
+ "unchecked": [],
+ "summary": "3 new, 5 update(s), 0 not added, 1 need a human, 0 merged with an open question, 0 not ready"
+}
