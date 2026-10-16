@@ -2871,7 +2871,7 @@ def cmd_questions(args):
     if (args.sync or args.apply) and not args.dry_run:  # listing only reads
         reg["questions"] = list(items.values())
         write_json(QUESTIONS, reg)
-        build.write_js(build.normalise(load_db()))
+        build.save(build.load())  # open questions show in records.js, the CSV, the record pages and the exports
     st = Counter(q["state"] for q in items.values())
     kinds = Counter(q["kind"] for q in items.values() if q["state"] == "open")
     print("Questions: %s; open by kind: %s%s" % (", ".join("%s %d" % kv for kv in st.most_common()) or "none",
@@ -3270,7 +3270,7 @@ def cmd_intake(args):
             done.append("lead %s not added" % lead_name(l))
     if not args.dry_run:
         write_json(LEADS, reg)
-        build.write_js(build.normalise(load_db()))
+        build.save(build.load())
     for x in done:
         print(x)
     st = Counter(l.get("state") for l in leads)
