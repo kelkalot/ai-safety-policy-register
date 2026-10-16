@@ -9,6 +9,8 @@ records, checked by script and compared between two independent extractions.
     python3 tools/definitions.py report  --run RUN   # RUN/report.md with the definitions side by side
 
 RUN/plan.json: {"records": ["EU-03", ...], "term_groups": ["AI system", "model"]}
+RUN/unfiled/<NAME>.json: definitions read in a copy that could not be filed (for example a licensed standard a user
+  provided); listed in the report with their provenance, never merged.
 RUN/definitions/<RECORD>.json (and definitions-blind/ for the second extraction):
   {"record_id": "EU-03", "definitions": [{"term": "AI system", "term_group": "AI system",
     "definition": "<verbatim>", "english": "<only when the text is not English>", "english_by": "issuer | agent",
@@ -222,6 +224,12 @@ def cmd_report(args):
         L += ["## For review: found by one extraction only, or quoted differently", "",
               "These are not in `data/definitions.json`; only definitions both extractions found and quoted alike are.", ""]
         L += ["- %s, %s: %s" % (r["record_id"], r["term_group"], r["text"]) for r in review] + [""]
+    for u in sorted((d / "unfiled").glob("*.json")):
+        x = P.read_json(u)
+        L += ["## Seen but not filed: %s" % x.get("instrument"), "", x.get("provenance") or "", "",
+              "| Term | Definition | Where |", "|---|---|---|"]
+        L += ["| %s | %s | %s |" % (i["term"], i["definition"].replace("|", "\\|"), i["locator"]) for i in x.get("definitions") or []]
+        L += ["", "These quotes are not in `data/definitions.json`, which holds only definitions checked against stored copies.", ""]
     missing = [(rid, ex.get("not_found")) for rid, ex in load_extractions(d, "definitions").items() if ex.get("not_found")]
     if missing:
         L += ["## Not defined in the stored text", ""] + ["- %s: %s" % (rid, ", ".join(nf)) for rid, nf in missing] + [""]

@@ -37,6 +37,18 @@ These are not in `data/definitions.json`; only definitions both extractions foun
 - CN-03, generative AI: differs
 - US-29, artificial intelligence: only in first
 
+## Seen but not filed: ISO/IEC 22989:2022, Information technology — Artificial intelligence — Artificial intelligence concepts and terminology (first edition, 2022-07)
+
+Read in a licensed copy of the standard that a user provided. Not filed: the licence is for a single user and prohibits copying, so the copy is not stored in the archive, not hashed and not published, and tools/definitions.py cannot check these quotes. ISO publishes the terms and definitions of its standards on its Online Browsing Platform (https://www.iso.org/obp), where they can be checked.
+
+| Term | Definition | Where |
+|---|---|---|
+| artificial intelligence (AI) | <discipline> research and development of mechanisms and applications of AI systems | 3.1.3 |
+| artificial intelligence system (AI system) | engineered system that generates outputs such as content, forecasts, recommendations or decisions for a given set of human-defined objectives | 3.1.4 |
+| model | physical, mathematical or otherwise logical representation of a system, entity, phenomenon, process or data | 3.1.23 |
+
+These quotes are not in `data/definitions.json`, which holds only definitions checked against stored copies.
+
 ## Not defined in the stored text
 
 - BR-01: AI system, artificial intelligence, model, AI model, general-purpose AI model, automated decision system, generative AI
