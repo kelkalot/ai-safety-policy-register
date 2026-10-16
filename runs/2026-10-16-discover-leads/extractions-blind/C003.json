@@ -1,0 +1,109 @@
+{
+ "cand_id": "C003",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Maintaining American Leadership in Artificial Intelligence (Executive Order 13859)",
+  "short_title": "EO 13859: American AI Initiative",
+  "jurisdiction": "United States",
+  "country": "United States",
+  "jurisdiction_level": "National",
+  "region": "North America",
+  "issuing_body": "The White House (President Donald J. Trump)",
+  "instrument_type": "Executive order / decree",
+  "legal_force": "Binding",
+  "status": "In force",
+  "date_published": "2019-02-11",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": "Executive Order 13859; 84 FR 3967 (FR Doc. 2019-02544)",
+  "language": "English",
+  "summary": "The first US executive order on AI. It launches the American AI Initiative to sustain US leadership in AI R&D and deployment, with five principles and six objectives. It directs agencies on investment, access to federal data and computing, workforce training, OMB guidance for regulating AI applications, NIST work on technical standards for reliable, robust and trustworthy AI, and protection of the US AI technology base.",
+  "safety_topics": [
+   "research priorities",
+   "evaluation & testing",
+   "public-sector use",
+   "national security & military"
+  ],
+  "related": [],
+  "notes": "Signed 11 February 2019 and published in the Federal Register on 14 February 2019. Section 6 asked OMB for a regulatory guidance memorandum and NIST for a plan on technical standards within 180 days. Executive Order 13960 of December 2020 builds on it.",
+  "scope_note": "An executive order mainly about promoting AI R&D and US leadership; its safety content is limited to trust, safe testing and deployment, technical standards and regulatory guidance, so it is included as the first US AI executive order.",
+  "verification": {
+   "note": "Federal Register PDF from govinfo.gov stored and read. Whether the order has since been amended or revoked could not be confirmed from the stored text."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C003/2026-10-16/official.pdf",
+    "sha256": "49faaba43e2e92bc2aea1d8a0eed6a8a490e1792e6ee010134c0194fb55b0672",
+    "locator": "page 1",
+    "quote": "Maintaining American Leadership in Artificial Intelligence",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C003/2026-10-16/official.pdf",
+    "sha256": "49faaba43e2e92bc2aea1d8a0eed6a8a490e1792e6ee010134c0194fb55b0672",
+    "locator": "page 1",
+    "quote": "By the authority vested in me as President by the Constitution and the",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C003/2026-10-16/official.pdf",
+    "sha256": "49faaba43e2e92bc2aea1d8a0eed6a8a490e1792e6ee010134c0194fb55b0672",
+    "locator": "page 1",
+    "quote": "Executive Order 13859 of February 11, 2019",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C003/2026-10-16/official.pdf",
+    "sha256": "49faaba43e2e92bc2aea1d8a0eed6a8a490e1792e6ee010134c0194fb55b0672",
+    "locator": "page 6",
+    "quote": "[FR Doc. 2019–02544",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C003/2026-10-16/official.pdf",
+    "sha256": "49faaba43e2e92bc2aea1d8a0eed6a8a490e1792e6ee010134c0194fb55b0672",
+    "locator": "page 1",
+    "quote": "Executive Order 13859 of February 11, 2019",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C003/2026-10-16/official.pdf",
+    "sha256": "49faaba43e2e92bc2aea1d8a0eed6a8a490e1792e6ee010134c0194fb55b0672",
+    "locator": "page 6",
+    "quote": "THE WHITE HOUSE,",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C003/2026-10-16/official.pdf",
+    "sha256": "49faaba43e2e92bc2aea1d8a0eed6a8a490e1792e6ee010134c0194fb55b0672",
+    "locator": "page 1",
+    "quote": "laws of the United States of America, it is hereby ordered as follows:",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Signed 11 February 2019 with no sunset or revocation clause in the text; no stored source shows revocation, so recorded as In force. Currency could not be checked against later orders.",
+  "scope_reasoning": "Borderline: AI leadership order with some safety and standards content; in with a scope_note."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "Whether a later executive order amended or revoked EO 13859 is not shown by the stored text."
+ ],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}

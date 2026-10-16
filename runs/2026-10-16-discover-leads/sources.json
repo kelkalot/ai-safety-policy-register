@@ -1,0 +1,377 @@
+{
+ "C001": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-16T11:40:32Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-16-discover-leads/C001/2026-10-16/official.html",
+     "url": "https://www.gov.cn/zhengce/content/2017-07/20/content_5211996.htm",
+     "final_url": "https://www.gov.cn/zhengce/content/2017-07/20/content_5211996.htm",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 115463,
+     "sha256": "562b0de202ab0be7a944cc8ac97fd3bea84836caf3dda982acc1db5b9b1b97c0",
+     "text_sha256": "bc3c6be8b8cce8c2d52851e68a110bae4c11d8823cab29b8e8b159a1fc0cb02f",
+     "retrieved_at": "2026-10-16T11:40:35Z",
+     "last_checked": "2026-10-16T11:40:35Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.gov.cn/zhengce/content/2017-07/20/content_5211996.htm",
+     "attempted_at": "2026-10-16T11:40:35Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://digichina.stanford.edu/work/full-translation-chinas-new-generation-artificial-intelligence-development-plan-2017/": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T11:53:48Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads/C001/extra-7d6a008810/2026-10-16/official.html",
+      "url": "https://digichina.stanford.edu/work/full-translation-chinas-new-generation-artificial-intelligence-development-plan-2017/",
+      "final_url": "https://digichina.stanford.edu/work/full-translation-chinas-new-generation-artificial-intelligence-development-plan-2017/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 118695,
+      "sha256": "fa1c8c5f413cbfa914b02815c25dfc14d63d82dc37a3916393f547d42fda8585",
+      "text_sha256": "2fa2ff81e57cad56cba0a808ba2d52cf4da76ade098dcd98ebead67a5a6501eb",
+      "retrieved_at": "2026-10-16T11:53:52Z",
+      "last_checked": "2026-10-16T11:53:52Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://digichina.stanford.edu/work/full-translation-chinas-new-generation-artificial-intelligence-development-plan-2017/",
+      "attempted_at": "2026-10-16T11:53:52Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  }
+ },
+ "C002": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-16T11:40:32Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/official.html",
+     "url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai",
+     "final_url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 54219,
+     "sha256": "f54a63e0a739de2f551a2974762e492852b85453c5c28b0282cc79928e19756e",
+     "text_sha256": "7065b202a35f684d481ad055d0b51c911688cb3e071a10da3d15008d635e6e85",
+     "retrieved_at": "2026-10-16T11:40:35Z",
+     "last_checked": "2026-10-16T11:40:35Z",
+     "method": "http",
+     "last_modified": "Fri, 16 Oct 2026 11:17:25 GMT",
+     "etag": "\"1792149445-gzip\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-1",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/document-1.pdf",
+     "url": "https://digital-strategy.ec.europa.eu/en/node/1950/printable/pdf",
+     "final_url": "https://digital-strategy.ec.europa.eu/en/node/1950/printable/pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 393384,
+     "sha256": "39bdb57b988e8c0b555f61d80019d0d99ca583bd92adce92891660d17ff59928",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-16T11:40:37Z",
+     "last_checked": "2026-10-16T11:40:37Z",
+     "method": "http",
+     "last_modified": "Fri, 16 Oct 2026 00:55:12 GMT",
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-2",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/document-2.pdf",
+     "url": "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=68342",
+     "final_url": "https://ec.europa.eu/newsroom/dae/redirection/document/68342",
+     "http_status": 200,
+     "content_type": "application/",
+     "bytes": 545364,
+     "sha256": "05d2831f581f4630e02b98b14464c8bb131434363c606d10ad4129bbf2f4b7df",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-16T11:40:41Z",
+     "last_checked": "2026-10-16T11:40:41Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai",
+     "attempted_at": "2026-10-16T11:40:35Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://digital-strategy.ec.europa.eu/en/node/1950/printable/pdf",
+     "attempted_at": "2026-10-16T11:40:37Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=68342",
+     "attempted_at": "2026-10-16T11:40:41Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T11:53:48Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads/C002/extra-22b2a3d31b/2026-10-16/official.pdf",
+      "url": "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419",
+      "final_url": "https://ec.europa.eu/newsroom/dae/redirection/document/60419",
+      "http_status": 200,
+      "content_type": "application/",
+      "bytes": 1632682,
+      "sha256": "4a89863a96551bb3b9ce786afb1b1d58e8062f5a7fa3ed6748922550dde35e25",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T11:53:52Z",
+      "last_checked": "2026-10-16T11:53:52Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419",
+      "attempted_at": "2026-10-16T11:53:52Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  }
+ },
+ "C003": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-16T11:40:32Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-16-discover-leads/C003/2026-10-16/official.pdf",
+     "url": "https://www.govinfo.gov/content/pkg/FR-2019-02-14/pdf/2019-02544.pdf",
+     "final_url": "https://www.govinfo.gov/content/pkg/FR-2019-02-14/pdf/2019-02544.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 189108,
+     "sha256": "49faaba43e2e92bc2aea1d8a0eed6a8a490e1792e6ee010134c0194fb55b0672",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-16T11:40:40Z",
+     "last_checked": "2026-10-16T11:40:40Z",
+     "method": "http",
+     "last_modified": "Mon, 22 Sep 2025 19:36:39 GMT",
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.govinfo.gov/content/pkg/FR-2019-02-14/pdf/2019-02544.pdf",
+     "attempted_at": "2026-10-16T11:40:40Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {}
+ },
+ "C004": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-16T11:40:32Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-16-discover-leads/C004/2026-10-16/official.pdf",
+     "url": "https://www.govinfo.gov/content/pkg/FR-2020-12-08/pdf/2020-27065.pdf",
+     "final_url": "https://www.govinfo.gov/content/pkg/FR-2020-12-08/pdf/2020-27065.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 187349,
+     "sha256": "806dd5f22488f28f063bf06eae6f3f0480d40baf263bbe7e11721c01a265e5af",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-16T11:40:38Z",
+     "last_checked": "2026-10-16T11:40:38Z",
+     "method": "http",
+     "last_modified": "Mon, 22 Sep 2025 19:12:36 GMT",
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.govinfo.gov/content/pkg/FR-2020-12-08/pdf/2020-27065.pdf",
+     "attempted_at": "2026-10-16T11:40:38Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.whitehouse.gov/wp-content/uploads/2025/12/M-26-04-Increasing-Public-Trust-in-Artificial-Intelligence-Through-Unbiased-AI-Principles-1.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T11:53:48Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads/C004/extra-69004c5fb8/2026-10-16/official.pdf",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/12/M-26-04-Increasing-Public-Trust-in-Artificial-Intelligence-Through-Unbiased-AI-Principles-1.pdf",
+      "final_url": "https://www.whitehouse.gov/wp-content/uploads/2025/12/M-26-04-Increasing-Public-Trust-in-Artificial-Intelligence-Through-Unbiased-AI-Principles-1.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 261386,
+      "sha256": "d33b0277d720baac843babc5f24269e4c0b8777447870a36309d8b4f3d9c79bc",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T11:53:51Z",
+      "last_checked": "2026-10-16T11:53:51Z",
+      "method": "http",
+      "last_modified": "Thu, 11 Dec 2025 17:39:13 GMT",
+      "etag": "\"fd9499c18ec71587\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/12/M-26-04-Increasing-Public-Trust-in-Artificial-Intelligence-Through-Unbiased-AI-Principles-1.pdf",
+      "attempted_at": "2026-10-16T11:53:51Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "cand_id": "C001",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-16",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported"
+  },
+  "language": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Three steps to 2020, 2025 and 2030",
+   "verdict": "supported",
+   "locator": "二、(三) 战略目标"
+  },
+  {
+   "claim": "Safeguards call for civil and criminal liability research, traceability and accountability system, safety rules for autonomous driving and service robots",
+   "verdict": "supported",
+   "locator": "保障措施, 加强人工智能相关法律、伦理和社会问题研究 (literal: 'research on confirming civil and criminal liability... establish a tracing and accountability system... accelerate safety-management regulations for autonomous driving, service robots')"
+  },
+  {
+   "claim": "Two-layer supervision of design accountability and application; test platforms; safety certification",
+   "verdict": "supported",
+   "locator": "保障措施 (实行设计问责和应用监督并重的双层监管结构; 建设跨领域的人工智能测试平台，推动人工智能安全认证)"
+  },
+  {
+   "claim": "2025 goals: initial AI laws, ethical norms, policies and AI safety assessment and control capability",
+   "verdict": "supported",
+   "locator": "战略目标, 第二步 (初步建立人工智能法律法规、伦理规范和政策体系，形成人工智能安全评估和管控能力)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "CN-12"
+ ],
+ "scope": {
+  "assessment": "borderline",
+  "note": "National plan mainly on research and industry with safety and ethics safeguards; the extractor's scope_note is apt and is kept."
+ },
+ "overall": "accept",
+ "note": "All evidence quotes verified by the script (level A) and checked against the stored gov.cn text. Summary and notes claims found in the Chinese text, including the robot alienation research item (机器人异化). Original title and document number match. One targeted search found no repeal or successor plan. The translation is marked third-party and its URL is a stored extra source. CN-12 (State Council AI+ opinions) is a related later instrument."
+}

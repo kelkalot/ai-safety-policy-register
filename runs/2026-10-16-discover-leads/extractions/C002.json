@@ -1,0 +1,181 @@
+{
+ "cand_id": "C002",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Ethics Guidelines for Trustworthy AI",
+  "original_title": null,
+  "short_title": "HLEG Ethics Guidelines for Trustworthy AI",
+  "jurisdiction": "European Union",
+  "country": "European Union",
+  "jurisdiction_level": "Supranational",
+  "region": "Europe",
+  "issuing_body": "European Commission",
+  "instrument_type": "Guidelines / framework",
+  "legal_force": "Non-binding",
+  "status": "Published (non-binding, current)",
+  "date_published": "2019-04-08",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": null,
+  "official_url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai",
+  "secondary_url": null,
+  "language": "English",
+  "summary": "Non-binding guidelines that define trustworthy AI as lawful, ethical and robust. Founded on fundamental rights, they set four ethical principles (respect for human autonomy, prevention of harm, fairness, explicability) and seven key requirements: human agency and oversight, technical robustness and safety, privacy and data governance, transparency, diversity, non-discrimination and fairness, societal and environmental well-being, and accountability. An assessment list operationalises them, and the guidelines name critical concerns such as AI identification of individuals, covert AI systems, citizen scoring and lethal autonomous weapons.",
+  "safety_topics": [
+   "human oversight",
+   "transparency & labelling",
+   "accountability & liability",
+   "evaluation & testing"
+  ],
+  "related": [],
+  "notes": "Written by the High-Level Expert Group on Artificial Intelligence (AI HLEG), an independent group of 52 members that the European Commission set up in June 2018, as the first of its two mandated deliverables (the other being policy and investment recommendations). The document states that its views are those of the AI HLEG and not an official position of the Commission. Made public on 8 Apr 2019, revised after a first draft of 18 Dec 2018 drew feedback from more than 500 contributors. Where an AI system poses risks to fundamental rights, a fundamental rights impact assessment should be done before development. The assessment list in Chapter III was piloted from 26 Jun to 1 Dec 2019; the AI HLEG then presented the final Assessment List for Trustworthy AI (ALTAI), a self-assessment checklist, in July 2020 (made public on 17 Jul 2020). The guidelines are available in 23 EU languages, with a separate AI HLEG document defining AI for their purpose.",
+  "scope_note": "Written by the independent High-Level Expert Group on Artificial Intelligence that the European Commission set up, and published by the Commission; included as a report of an expert group that the authority convened and published.",
+  "verification": {
+   "note": "Stored the Commission's library page on digital-strategy.ec.europa.eu (HTML and the site's printable PDF), the English guidelines document (41 pages) from ec.europa.eu, and the AI HLEG's ALTAI of July 2020. The guidelines document confirms the title, its authorship by the AI HLEG set up by the Commission, the date it was made public (8 Apr 2019), its non-binding character and the content summarised; the library page confirms publication on 8 Apr 2019 and that the guidelines are still offered in 23 languages. The document carries no ISBN, doi or document number, so official_identifier is empty."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/extra-22b2a3d31b/2026-10-16/official.pdf",
+    "sha256": "4a89863a96551bb3b9ce786afb1b1d58e8062f5a7fa3ed6748922550dde35e25",
+    "locator": "page 1, cover",
+    "quote": "SET UP BY THE EUROPEAN COMMISSION ETHICS GUIDELINES FOR TRUSTWORTHY AI",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/official.html",
+    "sha256": "f54a63e0a739de2f551a2974762e492852b85453c5c28b0282cc79928e19756e",
+    "locator": "page heading",
+    "quote": "Ethics guidelines for trustworthy AI REPORT / STUDY Publication 08 April 2019",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/extra-22b2a3d31b/2026-10-16/official.pdf",
+    "sha256": "4a89863a96551bb3b9ce786afb1b1d58e8062f5a7fa3ed6748922550dde35e25",
+    "locator": "page 2",
+    "quote": "The AI HLEG is an independent expert group that was set up by the European Commission in June 2018.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/extra-22b2a3d31b/2026-10-16/official.pdf",
+    "sha256": "4a89863a96551bb3b9ce786afb1b1d58e8062f5a7fa3ed6748922550dde35e25",
+    "locator": "page 2",
+    "quote": "European Commission B-1049 Brussels Document made public on 8 April 2019.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/official.html",
+    "sha256": "f54a63e0a739de2f551a2974762e492852b85453c5c28b0282cc79928e19756e",
+    "locator": "page footer",
+    "quote": "This site is managed by: Directorate-General for Communications Networks, Content and Technology",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/document-2.pdf",
+    "sha256": "05d2831f581f4630e02b98b14464c8bb131434363c606d10ad4129bbf2f4b7df",
+    "locator": "page 3",
+    "quote": "The High-Level Expert Group on AI is an independent expert group that was set up by the European Commission in June 2018.",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/extra-22b2a3d31b/2026-10-16/official.pdf",
+    "sha256": "4a89863a96551bb3b9ce786afb1b1d58e8062f5a7fa3ed6748922550dde35e25",
+    "locator": "page 2",
+    "quote": "Document made public on 8 April 2019.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/official.html",
+    "sha256": "f54a63e0a739de2f551a2974762e492852b85453c5c28b0282cc79928e19756e",
+    "locator": "page heading",
+    "quote": "On 8 April 2019, the High-Level Expert Group on AI presented Ethics Guidelines for Trustworthy Artificial Intelligence.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/official.html",
+    "sha256": "f54a63e0a739de2f551a2974762e492852b85453c5c28b0282cc79928e19756e",
+    "locator": "page heading",
+    "quote": "Ethics guidelines for trustworthy AI REPORT / STUDY Publication 08 April 2019",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/official.html",
+    "sha256": "f54a63e0a739de2f551a2974762e492852b85453c5c28b0282cc79928e19756e",
+    "locator": "page body",
+    "quote": "Download the Guidelines in your language below:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/extra-22b2a3d31b/2026-10-16/official.pdf",
+    "sha256": "4a89863a96551bb3b9ce786afb1b1d58e8062f5a7fa3ed6748922550dde35e25",
+    "locator": "page 5, executive summary",
+    "quote": "They should be seen as a living document to be reviewed and updated over time to ensure their continuous relevance",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/extra-22b2a3d31b/2026-10-16/official.pdf",
+    "sha256": "4a89863a96551bb3b9ce786afb1b1d58e8062f5a7fa3ed6748922550dde35e25",
+    "locator": "page 12, Chapter I",
+    "quote": "for the purpose of these non -binding guidelines, references to fundamental rights reflect the latter component.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/extra-22b2a3d31b/2026-10-16/official.pdf",
+    "sha256": "4a89863a96551bb3b9ce786afb1b1d58e8062f5a7fa3ed6748922550dde35e25",
+    "locator": "page 7, Audience and Scope",
+    "quote": "Stakeholders committed towards achieving Trustworthy AI can voluntarily opt to use these Guidelines as a method to operationalise their commitment",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/extra-22b2a3d31b/2026-10-16/official.pdf",
+    "sha256": "4a89863a96551bb3b9ce786afb1b1d58e8062f5a7fa3ed6748922550dde35e25",
+    "locator": "page 5, executive summary",
+    "quote": "These Guidelines do not intend to substitute any form of current or future policymaking or regulation",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/official.html",
+    "sha256": "f54a63e0a739de2f551a2974762e492852b85453c5c28b0282cc79928e19756e",
+    "locator": "page body",
+    "quote": "The Guidelines put forward a set of 7 key requirements that AI systems should meet in order to be deemed trustworthy.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The guidelines were made public on 8 Apr 2019 (page 2 of the document; library page 'Publication 08 April 2019'), and the Commission's library page still offers them for download in 23 languages (last updated 31 Jan 2024). The final ALTAI of July 2020 replaced the pilot assessment list of Chapter III but not the guidelines. Non-binding guidance ('these non-binding guidelines'; stakeholders 'can voluntarily opt to use these Guidelines') that has not been withdrawn: Published (non-binding, current).",
+  "date_reasoning": "date_published is the date the AI HLEG presented the guidelines, which the Commission's page also gives as the publication date (08 April 2019).",
+  "issuing_body_reasoning": "The precedent for reports an authority publishes but an expert group it convened wrote: the issuing body is the authority (European Commission), and the notes name the AI HLEG as author.",
+  "instrument_type_reasoning": "Ethics guidelines with key requirements and an assessment list: Guidelines / framework, although the Commission's library classes the page as REPORT / STUDY.",
+  "scope_reasoning": "Guidelines written by the independent AI HLEG that the Commission set up and published by the Commission: in with a scope_note under the rule for reports an authority publishes that an expert group it convened wrote (pipeline/scope-decisions.md, October 2026).",
+  "identifier_reasoning": "The guidelines document has no ISBN, doi, catalogue number or Commission document number, so official_identifier is null.",
+  "topics_reasoning": "human oversight: requirement 1.1 (human-in-the-loop, human-on-the-loop, human-in-command); transparency & labelling: requirement 4 and the covert AI concern (people should know they interact with an AI system); accountability & liability: requirement 7 (auditability, redress); evaluation & testing: the Chapter III assessment list and testing methods such as red teaming."
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "Assessment List for Trustworthy Artificial Intelligence (ALTAI) for self-assessment, AI HLEG, made public 17 Jul 2020",
+   "url": "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=68342",
+   "cell": "EU/executive",
+   "why": "The AI HLEG's final assessment list, published by the Commission; an expert-group report on AI risk self-assessment not in the register."
+  },
+  {
+   "title": "Coordinated Plan on Artificial Intelligence, agreed and published by the Commission and Member States in December 2018 (the guidelines cite the Commission Communication of 7 Dec 2018, COM(2018)795)",
+   "cell": "EU/executive",
+   "why": "Cited in footnotes 4, 5 and 37 of the guidelines, footnote 37 for security considerations in its section 2.7; an EU AI plan not in the register."
+  }
+ ],
+ "open_questions": []
+}

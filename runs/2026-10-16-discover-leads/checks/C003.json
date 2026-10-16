@@ -1,0 +1,65 @@
+{
+ "cand_id": "C003",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-16",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "language": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "judgment-differs",
+   "why": "The only quote is the signature date; the order has no separate effective-date clause, so entry into force on signing is an inference. It matches the register's practice for US executive orders (US-04, US-11) and the blind extraction left it null."
+  },
+  "status": {
+   "verdict": "unsupported",
+   "why": "The quotes (signature block; Sec. 10(b) 'implemented consistent with applicable law') show nothing about the order still being in force today. The note says later orders and OMB memoranda in the register were read, but none of them is stored in this run's files for C003, and the stored OMB memorandum M-26-04 (C004's files) does not mention EO 13859. Only EO 13960 (2020) refers to it. I found no revocation in one targeted search, but I cannot quote a stored source for the current status."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "American AI Initiative guided by five principles",
+   "verdict": "supported",
+   "locator": "Sec. 1, page 1"
+  },
+  {
+   "claim": "OMB guidance first in draft for public comment; NIST plan for technical standards",
+   "verdict": "supported",
+   "locator": "Sec. 6(a),(b),(d)"
+  },
+  {
+   "claim": "Sec. 8 action plan may be classified",
+   "verdict": "supported",
+   "locator": "Sec. 8"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "US-11"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": "National AI executive order; in scope without a note. Its safety content is thin (safe testing, trust) but it is an executive order on AI."
+ },
+ "overall": "needs-human",
+ "note": "Title, number, dates and legal force are supported by the Federal Register print. The status 'In force' has no quote showing that the order is still current; the evidence script passed it only because the Sec. 10(b) quote exists in the file. Option for a human or the next run: store the 13960 text and M-26-04 evidence is not enough, so store the Federal Register disposition or a later official document naming 13859 as current. Not found revoked."
+}

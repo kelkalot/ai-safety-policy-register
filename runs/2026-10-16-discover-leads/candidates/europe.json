@@ -1,0 +1,21 @@
+{
+ "group": "europe",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "candidates": [
+  {
+   "cand_ref": "europe-01",
+   "lead": "L006",
+   "cell": "EU/executive",
+   "title_as_found": "Ethics guidelines for trustworthy AI",
+   "language": "English",
+   "url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai",
+   "source_kind": "official",
+   "lead_urls": [],
+   "found_via": "lead URL on the European Commission digital-strategy site confirmed (HTTP 200); not found in data/records.json",
+   "scope_guess": "borderline",
+   "why": "Guidelines written by the Commission-convened High-Level Expert Group on AI (an expert-group report published by the authority), so in with a scope_note.",
+   "possible_duplicate_of": null
+  }
+ ]
+}

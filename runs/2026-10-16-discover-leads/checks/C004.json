@@ -1,0 +1,65 @@
+{
+ "cand_id": "C004",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-16",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "language": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "judgment-differs",
+   "why": "The quote is the signature date; the order has no separate effective-date clause, so entry into force on signing is an inference, consistent with US-04 and US-11. The blind extraction left it null."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Sec. 10(b) is not evidence of status, but the stored OMB M-26-04 of 11 Dec 2025 (whitehouse.gov) lists EO 13960 among the existing directives it builds on; this supports 'In force' as of that date. No revocation found in one targeted search. Level should rest on that alt-official source."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Nine principles from lawful to accountable",
+   "verdict": "supported",
+   "locator": "Sec. 3(a)-(i)"
+  },
+  {
+   "claim": "Annual inventory of non-classified AI use cases, public inventories, bring inconsistent applications into line or retire",
+   "verdict": "supported",
+   "locator": "Sec. 5"
+  },
+  {
+   "claim": "Notes: M-26-04 builds on EO 13960 with M-25-21 and M-25-22",
+   "verdict": "supported",
+   "locator": "M-26-04 Appendix A"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "C003"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": "Executive order on AI use in government with safety, accountability and monitoring principles."
+ },
+ "overall": "accept",
+ "note": "Quotes verified. Dates are signing and Federal Register publication, correctly given in notes. Deadlines and exclusions in the notes match Secs. 4, 5 and 9. Status rests on a December 2025 official memorandum, which is recent enough."
+}

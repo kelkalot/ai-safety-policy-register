@@ -1,0 +1,59 @@
+{
+ "cand_id": "C002",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-16",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "language": {
+   "verdict": "supported"
+  },
+  "instrument_type": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "null; the document carries no number (checked first pages)"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Four ethical principles incl. explicability and seven key requirements",
+   "verdict": "supported",
+   "locator": "pdf page 5 executive summary; Chapter I"
+  },
+  {
+   "claim": "Critical concerns: covert AI systems, citizen scoring, lethal autonomous weapon systems",
+   "verdict": "supported",
+   "locator": "Chapter on critical concerns raised by AI"
+  },
+  {
+   "claim": "Piloting 26 Jun to 1 Dec 2019; 23 language versions; 52 members; more than 500 contributors; ALTAI made public 17 Jul 2020",
+   "verdict": "supported",
+   "locator": "ALTAI pdf p.2-3; library page; guidelines pdf p.2-3"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Report of an expert group convened and published by the Commission; scope_note fits section 10."
+ },
+ "overall": "accept",
+ "note": "Quotes verified and level A. Issuing body: the document states it reflects the AI HLEG and not an official Commission position; the blind extraction named the HLEG as well, but the Commission as publisher with the notes explaining authorship is defensible and not a contradiction. Two leads (ALTAI, Coordinated Plan) are for the next run. No newer version found in one targeted search."
+}

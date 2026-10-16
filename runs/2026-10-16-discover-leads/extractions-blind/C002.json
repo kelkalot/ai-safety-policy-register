@@ -1,0 +1,123 @@
+{
+ "cand_id": "C002",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Ethics Guidelines for Trustworthy AI",
+  "short_title": "EU Ethics Guidelines for Trustworthy AI",
+  "jurisdiction": "European Union",
+  "country": "European Union",
+  "jurisdiction_level": "Supranational",
+  "region": "Europe",
+  "issuing_body": "European Commission, High-Level Expert Group on Artificial Intelligence (AI HLEG)",
+  "instrument_type": "Guidelines / framework",
+  "legal_force": "Non-binding",
+  "status": "Published (non-binding, current)",
+  "date_published": "2019-04-08",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": null,
+  "language": "English",
+  "summary": "Guidelines by the Commission's independent High-Level Expert Group on AI, setting out a framework for trustworthy AI that is lawful, ethical and robust. They give seven key requirements: human agency and oversight, technical robustness and safety, privacy and data governance, transparency, diversity and non-discrimination, societal and environmental well-being, and accountability, with an assessment list to apply them.",
+  "safety_topics": [
+   "human oversight",
+   "transparency & labelling",
+   "accountability & liability",
+   "evaluation & testing"
+  ],
+  "related": [
+   "EU-03"
+  ],
+  "notes": "Written by the AI HLEG, whose members support the overall framework but not necessarily every statement; the views do not represent an official Commission position. A draft of 18 December 2018 drew more than 500 comments. The assessment list was piloted from 26 June to 1 December 2019 and presented as the final Assessment List for Trustworthy AI (ALTAI), made public on 17 July 2020. The Commission page offers the text in 23 EU languages.",
+  "scope_note": "A report by an expert group that the European Commission convened and publishes, not an act of the Commission itself; included as the EU's foundational trustworthy-AI guidance.",
+  "verification": {
+   "note": "Stored copies: the Commission page, its printable PDF and the English PDF of the Guidelines (stored as an extra source), plus the ALTAI PDF. Title, date and non-binding character confirmed from the English PDF and page."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/extra-22b2a3d31b/2026-10-16/official.pdf",
+    "sha256": "4a89863a96551bb3b9ce786afb1b1d58e8062f5a7fa3ed6748922550dde35e25",
+    "locator": "page 1",
+    "quote": "ETHICS GUIDELINES FOR TRUSTWORTHY AI",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/official.html",
+    "sha256": "f54a63e0a739de2f551a2974762e492852b85453c5c28b0282cc79928e19756e",
+    "locator": "page body",
+    "quote": "On 8 April 2019, the High-Level Expert Group on AI presented Ethics Guidelines for Trustworthy Artificial Intelligence.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/extra-22b2a3d31b/2026-10-16/official.pdf",
+    "sha256": "4a89863a96551bb3b9ce786afb1b1d58e8062f5a7fa3ed6748922550dde35e25",
+    "locator": "page 2",
+    "quote": "This document was written by the High-Level Expert Group on AI (AI HLEG) .",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/extra-22b2a3d31b/2026-10-16/official.pdf",
+    "sha256": "4a89863a96551bb3b9ce786afb1b1d58e8062f5a7fa3ed6748922550dde35e25",
+    "locator": "page 2",
+    "quote": "The AI HLEG is an independent expert group that was set up by the European Commission in June 2018.",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/extra-22b2a3d31b/2026-10-16/official.pdf",
+    "sha256": "4a89863a96551bb3b9ce786afb1b1d58e8062f5a7fa3ed6748922550dde35e25",
+    "locator": "page 2",
+    "quote": "Document made public on 8 April 2019.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/official.html",
+    "sha256": "f54a63e0a739de2f551a2974762e492852b85453c5c28b0282cc79928e19756e",
+    "locator": "page header",
+    "quote": "Publication 08 April 2019",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/official.html",
+    "sha256": "f54a63e0a739de2f551a2974762e492852b85453c5c28b0282cc79928e19756e",
+    "locator": "page body",
+    "quote": "Based on the feedback received, the AI HLEG presented the final Assessment List for Trustworthy AI (ALTAI) in July 2020.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/official.html",
+    "sha256": "f54a63e0a739de2f551a2974762e492852b85453c5c28b0282cc79928e19756e",
+    "locator": "page footer",
+    "quote": "31 January 2024",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/extra-22b2a3d31b/2026-10-16/official.pdf",
+    "sha256": "4a89863a96551bb3b9ce786afb1b1d58e8062f5a7fa3ed6748922550dde35e25",
+    "locator": "page 2",
+    "quote": "Level Expert Group on Artificial Intelligence (AI HLEG). Although Commission staff facilitated the preparation of the",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Published guidance, still hosted on the Commission site (page last updated 31 January 2024); no withdrawal or replacement appears in the stored texts. The Commission states the views are those of the AI HLEG, so non-binding.",
+  "scope_reasoning": "Expert-group report published by the Commission: in with a scope_note (scope-decisions: report an authority publishes but an expert group wrote)."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "Date_last_updated left null: the ALTAI (17 July 2020) is a separate document."
+ ],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}
