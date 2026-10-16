@@ -58,6 +58,7 @@ If a tool fails or seems to be missing, an agent stops and says so; it does not 
 | `pipeline/official-sites.json` | the curated list of sites, besides government domains, whose pages count as official evidence, with who runs each and who decided (section 7.6) |
 | `pipeline/refresh-requests.jsonl` | existing records a collector found news about; `queue` puts them first |
 | `pipeline/roles/*.md` | step-by-step instructions for each agent role |
+| `pipeline/host-review.json` | pending hosts in batches for maintainers' decisions, with the host reviewers' findings (section 7.6) |
 | `.claude/`, `.agents/`, `.codex/` | settings, skills and subagents for Claude Code and Codex; the skills only point at `pipeline/roles/` |
 | `archive/<ID>/<date>/` | local copies of record sources with `SHA256SUMS`; owned by `tools/archive.py` |
 | `archive/_provided/<lead-id>/` | documents people provided for instruments without a record, kept with their lead until a run uses them |
@@ -274,7 +275,16 @@ The evidence script counts a quote as official or alt-official only when its fil
 - `not official`: a third party (law firm, news outlet, university, NGO, tracker, commercial database), including state news agencies, whose articles are not the instruments themselves. Never counts, even if a later run suggests it; the entry stays so that the decision is not undone.
 - `proposed`: the operator check was unclear; waits for a human decision and does not count.
 
-Entries with `decided_by: "seed"` were taken from the hosts of records' `official_url` when the frame was built; they count as official until a person reviews them (`hosts --pending` lists them). A run's report lists, under "Hosts to review", every host whose quotes were counted as secondary for that reason alone; a human checks who runs it and records the decision.
+Entries with `decided_by: "seed"` were taken from the hosts of records' `official_url` when the frame was built; they count as official until a person reviews them (`hosts --pending` lists them). Seeds are reviewed in two ways:
+
+- **On a government domain:** the domain rule counts them as official anyway, so a maintainer confirms them at once with `python3 tools/pipeline.py hosts --confirm-gov --by NAME`.
+- **Every other pending host:**
+  1. Host reviewers (`pipeline/roles/hosts.md`) find who runs each site and write the operator, the page and a quote, with a suggestion, into `runs/<review-id>/hosts/`. They never decide.
+  2. `python3 tools/pipeline.py hosts --batches <review-id>` groups the pending hosts into batches of 15 in `pipeline/host-review.json`.
+  3. `questions --sync` opens one issue per batch.
+  4. A maintainer decides in a comment, one line per host: `decide: official <host> (operator)` or `decide: not official <host>`.
+  5. `questions --apply` records each line with `hosts --add`.
+  6. The issue closes when every host in it is decided. A run's report lists, under "Hosts to review", every host whose quotes were counted as secondary for that reason alone; a human checks who runs it and records the decision.
 
 ### 7.7 Questions for humans
 

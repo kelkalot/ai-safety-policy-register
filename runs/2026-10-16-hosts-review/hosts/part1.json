@@ -1,0 +1,247 @@
+{
+ "hosts": [
+  {
+   "code": "AE",
+   "host": "u.ae",
+   "operator": "UAE Government (portal; page also names the UAE mGovernment)",
+   "url": "https://u.ae/en/about-the-uae",
+   "quote": "The Official Platform of the UAE Government",
+   "suggestion": "official",
+   "note": "Page title only; no imprint found. www.u.ae presented a TLS certificate for tdra.gov.ae/dgov.ae names, which points to the Telecommunications and Digital Government Regulatory Authority, but I did not open a page that says so."
+  },
+  {
+   "code": "AZ",
+   "host": "president.az",
+   "operator": "Press Service of the President of the Republic of Azerbaijan",
+   "url": "https://president.az/en",
+   "quote": "This website is managed by the Press Service of the President of the Republic of Azerbaijan",
+   "suggestion": "official",
+   "note": ""
+  },
+  {
+   "code": "BG",
+   "host": "parliament.bg",
+   "operator": null,
+   "url": "https://www.parliament.bg/en",
+   "quote": "Parliament.bg",
+   "suggestion": "unclear",
+   "note": "Pages opened showed only the title; no footer or imprint text was returned. Name suggests the National Assembly, not confirmed."
+  },
+  {
+   "code": "BG",
+   "host": "pris.government.bg",
+   "operator": "Council of Ministers of Bulgaria (Министерски съвет)",
+   "url": "https://pris.government.bg/",
+   "quote": "Добре дошли в Правно-информационната система на Министерски съвет (ПРИС)",
+   "suggestion": "official",
+   "note": "Host is also a government.bg subdomain."
+  },
+  {
+   "code": "BJ",
+   "host": "asin.bj",
+   "operator": "Agence des Systèmes d'Information et du Numérique (ASIN)",
+   "url": "https://asin.bj/",
+   "quote": "© Agence des Systèmes d'Information et du Numérique - 2023",
+   "suggestion": "official",
+   "note": "The page does not itself say ASIN is a public body; it describes its mission as operating digital-sector projects. Maintainer should confirm ASIN's public status."
+  },
+  {
+   "code": "BR",
+   "host": "tse.jus.br",
+   "operator": null,
+   "url": null,
+   "quote": null,
+   "suggestion": "unclear",
+   "note": "Pages returned HTTP 403 to the fetcher; nothing opened. The .jus.br domain is the Brazilian judiciary's."
+  },
+  {
+   "code": "BRICS",
+   "host": "brics.br",
+   "operator": null,
+   "url": null,
+   "quote": null,
+   "suggestion": "unclear",
+   "note": "Host did not resolve (DNS error) from the fetcher. A search summary said Serpro's news item calls brics.br the official portal of the Brazilian presidency of BRICS, but I could not open that page or any page of the site."
+  },
+  {
+   "code": "CA",
+   "host": "canada.ca",
+   "operator": "Government of Canada",
+   "url": "https://www.canada.ca/en/transparency/terms.html",
+   "quote": "The Government of Canada is committed to achieving a high standard of accessibility.",
+   "suggestion": "official",
+   "note": ""
+  },
+  {
+   "code": "CA",
+   "host": "ised-isde.canada.ca",
+   "operator": "Innovation, Science and Economic Development Canada (ISED)",
+   "url": "https://ised-isde.canada.ca/site/ised/en",
+   "quote": "Innovation, Science and Economic Development Canada (ISED) works with Canadians in all areas of the economy.",
+   "suggestion": "official",
+   "note": "Subdomain of canada.ca."
+  },
+  {
+   "code": "CA",
+   "host": "parl.ca",
+   "operator": "Parliament of Canada (Senate and House of Commons; the page does not say which body runs the site)",
+   "url": "https://www.parl.ca/",
+   "quote": "Welcome to the Parliament of Canada.",
+   "suggestion": "official",
+   "note": "No imprint line found; page links to the Senate and House of Commons."
+  },
+  {
+   "code": "CA",
+   "host": "tbs-sct.canada.ca",
+   "operator": "Treasury Board of Canada Secretariat",
+   "url": "https://www.canada.ca/en/treasury-board-secretariat.html",
+   "quote": "Treasury Board of Canada Secretariat (TBS)",
+   "suggestion": "official",
+   "note": "tbs-sct.canada.ca/tbs-sct/index-eng.asp returned a 301 redirect to this canada.ca page. Subdomain of canada.ca."
+  },
+  {
+   "code": "CA-ON",
+   "host": "ola.org",
+   "operator": "Legislative Assembly of Ontario",
+   "url": "https://www.ola.org/",
+   "quote": "The Legislative Assembly of Ontario is made up of members of provincial Parliament (MPPs)",
+   "suggestion": "official",
+   "note": "Footer lists the Office of the Assembly under About us; no copyright line naming the Assembly."
+  },
+  {
+   "code": "CL",
+   "host": "camara.cl",
+   "operator": null,
+   "url": null,
+   "quote": null,
+   "suggestion": "unclear",
+   "note": "Pages returned HTTP 403 to the fetcher. A search result list shows the site titled 'CÁMARA DE DIPUTADAS Y DIPUTADOS' but I did not open it."
+  },
+  {
+   "code": "CN",
+   "host": "tc260.org.cn",
+   "operator": "Secretariat of the National Cybersecurity Standardization Technical Committee (全国网络安全标准化技术委员会秘书处)",
+   "url": "https://www.tc260.org.cn/",
+   "quote": "全国网络安全标准化技术委员会秘书处 版权所有 ©2009-2026",
+   "suggestion": "official",
+   "note": "The fetcher reported the secretariat is hosted at the China Electronics Standardization Institute (中国电子技术标准化研究院), a public institute; I did not see that line quoted. A technical committee secretariat, not a ministry."
+  },
+  {
+   "code": "DE",
+   "host": "gesetze-im-internet.de",
+   "operator": "Bundesrepublik Deutschland (represented by the Federal Ministry of Justice and Consumer Protection; technical provision by juris GmbH)",
+   "url": "https://www.gesetze-im-internet.de/impressum.html",
+   "quote": "Bundesrepublik Deutschland,",
+   "suggestion": "official",
+   "note": "Imprint says the technical provision is by juris GmbH, a private company."
+  },
+  {
+   "code": "DK",
+   "host": "kum.dk",
+   "operator": null,
+   "url": null,
+   "quote": null,
+   "suggestion": "unclear",
+   "note": "https://www.kum.dk/ and /en returned 404; nothing opened."
+  },
+  {
+   "code": "DK",
+   "host": "retsinformation.dk",
+   "operator": null,
+   "url": "https://www.retsinformation.dk/",
+   "quote": "Retsinformation",
+   "suggestion": "unclear",
+   "note": "Opened pages showed only the title; no operator named."
+  },
+  {
+   "code": "ES",
+   "host": "boe.es",
+   "operator": "Agencia Estatal Boletín Oficial del Estado",
+   "url": "https://www.boe.es/",
+   "quote": "Agencia Estatal Boletín Oficial del Estado",
+   "suggestion": "official",
+   "note": ""
+  },
+  {
+   "code": "FI",
+   "host": "finlex.fi",
+   "operator": "Ministry of Justice (Finland); upkeep by the Legal Register Centre",
+   "url": "https://www.finlex.fi/en",
+   "quote": "Finlex is a free, public online database of legal information owned by the Ministry of Justice.",
+   "suggestion": "official",
+   "note": ""
+  },
+  {
+   "code": "G7",
+   "host": "elysee.fr",
+   "operator": "Présidence de la République (Élysée)",
+   "url": "https://www.elysee.fr/",
+   "quote": "Bienvenue sur le site de l'Élysée",
+   "suggestion": "official",
+   "note": "Page title; no imprint line found (mentions-legales returned 404). Presidency of France site, used for G7 documents of the French presidency."
+  },
+  {
+   "code": "GB",
+   "host": "bills.parliament.uk",
+   "operator": null,
+   "url": null,
+   "quote": null,
+   "suggestion": "unclear",
+   "note": "Page returned HTTP 403 to the fetcher. Subdomain of parliament.uk."
+  },
+  {
+   "code": "GR",
+   "host": "ia37rg02wpsa01.blob.core.windows.net",
+   "operator": null,
+   "url": null,
+   "quote": null,
+   "suggestion": "unclear",
+   "note": "An Azure Blob Storage account endpoint (Microsoft cloud storage). The root returned HTTP 400 and a search found nothing naming the owner. Shared platform; not official unless a Greek public body's site links to it."
+  },
+  {
+   "code": "HR",
+   "host": "narodne-novine.nn.hr",
+   "operator": "Narodne novine d.o.o./d.d. (company name appears as 'NARODNE NOVINE D.D.' in the footer of www.nn.hr)",
+   "url": "https://www.nn.hr/",
+   "quote": "Copyright 2026. Narodne novine.",
+   "suggestion": "unclear",
+   "note": "The page does not say who owns the company. Wikipedia (en.wikipedia.org/wiki/Narodne_novine, opened) says it is 'published by the eponymous public company' with Croatia as owner; a search summary said 100 percent state-owned. The host narodne-novine.nn.hr itself was not shown to be the gazette's channel on the page I opened."
+  },
+  {
+   "code": "INT",
+   "host": "elysee.fr",
+   "operator": "Présidence de la République (Élysée)",
+   "url": "https://www.elysee.fr/",
+   "quote": "Bienvenue sur le site de l'Élysée",
+   "suggestion": "official",
+   "note": "Same host as the G7 entry."
+  },
+  {
+   "code": "INT",
+   "host": "government.nl",
+   "operator": "Government of the Netherlands (Ministry of General Affairs named in a photo credit)",
+   "url": "https://www.government.nl/",
+   "quote": "Image: © Ministry of General Affairs",
+   "suggestion": "official",
+   "note": "No explicit operator line found; page title is 'Information from the Government of the Netherlands | Government.nl'."
+  },
+  {
+   "code": "INT",
+   "host": "internationalaisafetyreport.org",
+   "operator": "Not stated; footer links to the UK Department for Science, Innovation and Technology; partners listed are the UK AI Security Institute and Mila",
+   "url": "http://internationalaisafetyreport.org/",
+   "quote": "To make a Freedom of Information request regarding the Department of Science Innovation and Technology",
+   "suggestion": "unclear",
+   "note": "The report is overseen by an Expert Advisory Panel nominated by more than 30 countries and intergovernmental organisations. Site is not a government domain and names no operator; a maintainer should decide whether the UK government channel is enough."
+  },
+  {
+   "code": "IS",
+   "host": "stjornarradid.is",
+   "operator": "Stjórnarráð Íslands (Government Offices of Iceland)",
+   "url": "https://www.stjornarradid.is/",
+   "quote": "Stjórnarráð Íslands",
+   "suggestion": "official",
+   "note": "Logo text in the header; footer only has an 'Um vefinn' link."
+  }
+ ]
+}
