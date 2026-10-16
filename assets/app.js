@@ -472,13 +472,15 @@
   $("#rows").addEventListener("click", function (e) { var row = e.target.closest(".row"); if (row) openRecord(row.dataset.id); });
 
   /* tabs */
-  var TABS = ["register", "about", "contribute"];
+  var TABS = ["register", "about", "contribute", "compare"];
   function showTab(which) {
     TABS.forEach(function (t) {
       $("#tab-" + t).setAttribute("aria-selected", String(t === which));
       $("#view-" + t).hidden = t !== which;
     });
     if (which === "register") renderChart();
+    var row = document.querySelector(".tabs"), btn = $("#tab-" + which);
+    if (row && btn && row.scrollWidth > row.clientWidth) row.scrollLeft = btn.offsetLeft - 16;  // keep the active tab in view on phones
   }
   TABS.forEach(function (t) { $("#tab-" + t).addEventListener("click", function () { showTab(t); }); });
   document.addEventListener("click", function (e) {
@@ -588,7 +590,7 @@
       (definitionsOf(r).length ? '<div class="sec"><h3>Defined terms</h3>' + definitionsOf(r).map(function (d) {
         return '<p class="def"><strong>' + esc(d.term) + "</strong> (" + esc(d.locator) + "): " + esc(d.definition) +
           (d.english ? ' <span class="muted">English' + (d.english_by === "issuer" ? " by the issuer" : ", the agent's rendering") + ": " + esc(d.english) + "</span>" : "") + "</p>";
-      }).join("") + '<p class="muted">Quoted verbatim from the stored source. <a href="#definitions" data-tab="about" data-scroll="definitions">Compare with other instruments</a>.</p></div>' : "") +
+      }).join("") + '<p class="muted">Quoted verbatim from the stored source. <a href="#compare" data-tab="compare">Compare with other instruments</a>.</p></div>' : "") +
       (r.notes ? '<div class="sec"><h3>Status notes</h3><p>' + esc(r.notes) + "</p></div>" : "") +
       '<div class="sec"><h3>Sources</h3><div class="sources">' + srcs + "</div></div>" +
       localSection(r) +
@@ -700,5 +702,5 @@
   if (window.innerWidth > 900) $("#filters").classList.remove("closed");
   var h = (location.hash || "").slice(1);
   if (h && byId[h]) openRecord(h);
-  else if (h === "contribute" || h === "about") showTab(h);
+  else if (h === "contribute" || h === "about" || h === "compare") showTab(h);
 })();
