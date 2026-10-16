@@ -1,0 +1,18 @@
+{
+ "record_id": "CN-03",
+ "definitions": [
+  {
+   "term": "生成式人工智能技术",
+   "term_group": "generative AI",
+   "definition": "生成式人工智能技术，是指具有文本、图片、音频、视频等内容生成能力的模型及相关技术。",
+   "english": "Generative artificial intelligence technology refers to models and related technologies that have the capability to generate content such as text, images, audio and video.",
+   "english_by": "agent",
+   "file": "archive/CN-03/2026-10-11/official.html",
+   "sha256": "7fae988c064dde72c95e96e5727bf9abee4b3a5a1ea817606a9ca1f97ffac54b",
+   "locator": "Article 22, item (1) (第二十二条（一）)",
+   "language": "Chinese"
+  }
+ ],
+ "not_found": ["AI system", "artificial intelligence", "model", "AI model", "general-purpose AI model", "automated decision system"],
+ "note": "The defined term is generative artificial intelligence technology (生成式人工智能技术), defined as models and related technologies; the Measures do not define 'model' or 'artificial intelligence' themselves. Article 2 delimits generative artificial intelligence services (生成式人工智能服务) as services that use generative AI technology to provide content such as text, images, audio and video to the public within the People's Republic of China, introduced with 'hereinafter' (以下称) rather than in the definitions article. Article 22, items (2) and (3), define providers and users of generative AI services, which are outside this pilot's term groups. The stored English text (secondary.html, China Law Translate) is a third-party translation, so the English rendering is the agent's."
+}

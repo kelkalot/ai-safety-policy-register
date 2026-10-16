@@ -56,6 +56,7 @@ If a tool fails or seems to be missing, an agent stops and says so; it does not 
 | `tools/pipeline.py` | the run scripts (below); `tools/history.py` shows or checks the history |
 | `tools/validate.py`, `tools/build.py` | schema and vocabulary checks; `build.py` runs them, then regenerates every derived file |
 | `tools/archive.py` | downloads, hashes and flags sources; `--verify` re-hashes every stored file; `--run` stores a run's sources (public sites only) |
+| `tools/definitions.py`, `data/definitions.json` | the definitions layer of the crosswalk (issue #70): defined terms quoted verbatim from records' stored sources, checked against the files and compared between two extractions |
 | `tools/merge.py` | merges a pass into `records.json` with checks and writes the history |
 | `tools/package.py`, `tools/publish_hf.py` | the shareable zip, and the Hugging Face dataset, archive and Space; never run by a pipeline agent, and a release only with a human's confirmation (section 8) |
 | `index.html`, `assets/` | the web app; `assets/site-config.js` says where it is hosted |

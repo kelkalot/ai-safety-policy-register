@@ -1,0 +1,25 @@
+{
+ "record_id": "EU-03",
+ "definitions": [
+  {
+   "term": "AI system",
+   "term_group": "AI system",
+   "definition": "‘AI system’ means a machine-based system that is designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment, and that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments",
+   "file": "archive/EU-03/2026-10-11/official-2.html",
+   "sha256": "04b84ff27d3a06619a937798707d5c924c92787fd80cc2f1811b238f3eb45aaa",
+   "locator": "Article 3, point (1)",
+   "language": "English"
+  },
+  {
+   "term": "general-purpose AI model",
+   "term_group": "general-purpose AI model",
+   "definition": "‘general-purpose AI model’ means an AI model, including where such an AI model is trained with a large amount of data using self-supervision at scale, that displays significant generality and is capable of competently performing a wide range of distinct tasks regardless of the way the model is placed on the market and that can be integrated into a variety of downstream systems or applications, except AI models that are used for research, development or prototyping activities before they are placed on the market",
+   "file": "archive/EU-03/2026-10-11/official-2.html",
+   "sha256": "04b84ff27d3a06619a937798707d5c924c92787fd80cc2f1811b238f3eb45aaa",
+   "locator": "Article 3, point (63)",
+   "language": "English"
+  }
+ ],
+ "not_found": ["artificial intelligence", "model", "AI model", "automated decision system", "generative AI"],
+ "note": "Quoted from the Official Journal text on EUR-Lex (HTML). The same points are on pages 46 and 50 of the Official Journal PDF (document-1.pdf), whose text layer splits words, so the HTML is cited. The Regulation uses 'AI model' throughout without defining it; point (63) defines only the general-purpose kind. Article 3 also defines 'general-purpose AI system' (point (66): an AI system based on a general-purpose AI model), which has no term group of its own, and 'provider' and 'deployer' (points (3) and (4)), which are outside this pilot's term groups. 'Generative AI' appears only in the recitals, as an example of general-purpose AI models, not as a defined term."
+}

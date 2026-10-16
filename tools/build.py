@@ -714,6 +714,21 @@ def write_readme(db, root=ROOT):
         path.write_text(new, encoding="utf-8")
 
 
+def write_definitions_csv(root=ROOT):
+    """data/definitions.csv from data/definitions.json, the definitions layer of the crosswalk (issue #70)."""
+    src = root / "data" / "definitions.json"
+    if not src.is_file():
+        return
+    rows = json.loads(src.read_text(encoding="utf-8")).get("definitions") or []
+    cols = ["id", "record_id", "term", "term_group", "definition", "english", "english_by", "language", "locator",
+            "file", "sha256", "run_id"]
+    with open(root / "data" / "definitions.csv", "w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
+        w.writeheader()
+        for r in rows:
+            w.writerow({k: r.get(k) for k in cols})
+
+
 def save(db, root=ROOT):
     """Write records.json atomically and regenerate every derived file."""
     db = normalise(db)
@@ -730,6 +745,7 @@ def save(db, root=ROOT):
     write_sqlite(db, root)
     write_history_md(root)
     write_readme(db, root)
+    write_definitions_csv(root)
     try:
         import export_xlsx
         export_xlsx.write_xlsx(db, root)

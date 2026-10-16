@@ -1,0 +1,118 @@
+{
+ "definitions": {
+  "CA-01": [
+   {
+    "index": 0,
+    "term": "automated decision system",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "CN-03": [
+   {
+    "index": 0,
+    "term": "生成式人工智能技术",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "EU-03": [
+   {
+    "index": 0,
+    "term": "AI system",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 1,
+    "term": "general-purpose AI model",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "KR-02": [
+   {
+    "index": 0,
+    "term": "인공지능",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 1,
+    "term": "인공지능시스템",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "OECD-01": [
+   {
+    "index": 0,
+    "term": "AI system",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "US-29": [
+   {
+    "index": 0,
+    "term": "AI",
+    "ok": true,
+    "problems": []
+   }
+  ]
+ },
+ "definitions-blind": {
+  "CA-01": [
+   {
+    "index": 0,
+    "term": "automated decision system",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "CN-03": [
+   {
+    "index": 0,
+    "term": "生成式人工智能技术",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "EU-03": [
+   {
+    "index": 0,
+    "term": "AI system",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 1,
+    "term": "general-purpose AI model",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "KR-02": [
+   {
+    "index": 0,
+    "term": "인공지능",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 1,
+    "term": "인공지능시스템",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "OECD-01": [
+   {
+    "index": 0,
+    "term": "AI system",
+    "ok": true,
+    "problems": []
+   }
+  ]
+ }
+}

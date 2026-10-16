@@ -1,0 +1,23 @@
+{
+ "record_id": "CA-01",
+ "definitions": [
+  {
+   "term": "automated decision system",
+   "term_group": "automated decision system",
+   "definition": "Any technology that either assists or replaces the judgment of human decision makers. These systems draw from fields like statistics, linguistics and computer science, and use techniques such as rules-based systems, regression, predictive analytics, machine learning, deep learning, and neural networks.",
+   "file": "archive/CA-01/2026-10-11/official.html",
+   "sha256": "225f990673205a49cee216fb8fc124909e8eb917559e3e258a8dd7fb7c35a0e3",
+   "locator": "Appendix A - Definitions, \"automated decision system\"",
+   "language": "English"
+  }
+ ],
+ "not_found": [
+  "AI system",
+  "artificial intelligence",
+  "model",
+  "AI model",
+  "general-purpose AI model",
+  "generative AI"
+ ],
+ "note": "The definition text follows the heading 'automated decision system' in Appendix A of the stored page. The stored page links a Guide on the Use of Generative AI but does not define the term."
+}

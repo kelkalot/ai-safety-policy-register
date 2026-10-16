@@ -1,0 +1,55 @@
+{
+ "pairs": 8,
+ "same_definition": 6,
+ "same_locator": 6,
+ "rows": [
+  {
+   "record_id": "CA-01",
+   "term_group": "automated decision system",
+   "text": "same",
+   "locator": "differs"
+  },
+  {
+   "record_id": "CN-03",
+   "term_group": "generative AI",
+   "text": "differs",
+   "locator": "same"
+  },
+  {
+   "record_id": "EU-03",
+   "term_group": "AI system",
+   "text": "same",
+   "locator": "same"
+  },
+  {
+   "record_id": "EU-03",
+   "term_group": "general-purpose AI model",
+   "text": "same",
+   "locator": "same"
+  },
+  {
+   "record_id": "KR-02",
+   "term_group": "AI system",
+   "text": "same",
+   "locator": "same"
+  },
+  {
+   "record_id": "KR-02",
+   "term_group": "artificial intelligence",
+   "text": "same",
+   "locator": "same"
+  },
+  {
+   "record_id": "OECD-01",
+   "term_group": "AI system",
+   "text": "same",
+   "locator": "same"
+  },
+  {
+   "record_id": "US-29",
+   "term_group": "artificial intelligence",
+   "text": "only in first",
+   "locator": null
+  }
+ ]
+}

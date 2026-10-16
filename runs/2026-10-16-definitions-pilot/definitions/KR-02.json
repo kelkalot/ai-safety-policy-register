@@ -1,0 +1,29 @@
+{
+ "record_id": "KR-02",
+ "definitions": [
+  {
+   "term": "인공지능",
+   "term_group": "artificial intelligence",
+   "definition": "“인공지능”이란 학습, 추론, 지각, 판단, 언어의 이해 등 인간이 가진 지적 능력을 전자적 방법으로 구현한 것을 말한다.",
+   "english": "“Artificial intelligence” means the electronic implementation of intellectual abilities that humans possess, such as learning, reasoning, perception, judgment and the understanding of language.",
+   "english_by": "agent",
+   "file": "archive/KR-02/2026-10-14/official-print-2.pdf",
+   "sha256": "682054eacf782c36974dfa6c5b886205ecacde76a24a869f2d05f5f06fec816c",
+   "locator": "Article 2, item 1 (제2조 제1호), page 1",
+   "language": "Korean"
+  },
+  {
+   "term": "인공지능시스템",
+   "term_group": "AI system",
+   "definition": "“인공지능시스템”이란 다양한 수준의 자율성과 적응성을 가지고 주어진 목표를 위하여 실제 및 가상환경에 영향을 미치는 예측, 추천, 결정 등의 결과물을 추론하는 인공지능 기반 시스템을 말한다.",
+   "english": "“Artificial intelligence system” means an artificial intelligence-based system that, with various levels of autonomy and adaptability, infers outputs such as predictions, recommendations and decisions that affect real and virtual environments, for given objectives.",
+   "english_by": "agent",
+   "file": "archive/KR-02/2026-10-14/official-print-2.pdf",
+   "sha256": "682054eacf782c36974dfa6c5b886205ecacde76a24a869f2d05f5f06fec816c",
+   "locator": "Article 2, item 2 (제2조 제2호), page 1",
+   "language": "Korean"
+  }
+ ],
+ "not_found": ["model", "AI model", "general-purpose AI model", "automated decision system", "generative AI"],
+ "note": "The stored print from the national law database (law.go.kr) has one page and ends at Article 2, item 3, so the later items of Article 2 are not in the stored text; the term groups listed as not found were not found in the stored text, which does not show whether the Act defines them. The print shows the version in force from 21 July 2026 (Act No. 21311, partially amended 20 January 2026), and Article 2 is marked as amended on 20 January 2026. Item 3 defines '인공지능기술' (artificial intelligence technology), which has no term group in this pilot. The definitions are quoted with the PDF text layer's extra spaces removed (around punctuation and quotation marks, and inside the word '추천', which the layer breaks across two lines); no other character differs. The stored English page of the Korea Legislation Research Institute (secondary.html) contains no statute text, so the English renderings are the agent's, not the government translation."
+}
