@@ -1,0 +1,31 @@
+{
+ "record_id": "EU-03",
+ "definitions": [
+  {
+   "term": "AI system",
+   "term_group": "AI system",
+   "definition": "‘AI system’ means a machine-based system that is designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment, and that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments;",
+   "file": "archive/EU-03/2026-10-11/official-2.html",
+   "sha256": "04b84ff27d3a06619a937798707d5c924c92787fd80cc2f1811b238f3eb45aaa",
+   "locator": "Article 3(1)",
+   "language": "English"
+  },
+  {
+   "term": "general-purpose AI model",
+   "term_group": "general-purpose AI model",
+   "definition": "‘general-purpose AI model’ means an AI model, including where such an AI model is trained with a large amount of data using self-supervision at scale, that displays significant generality and is capable of competently performing a wide range of distinct tasks regardless of the way the model is placed on the market and that can be integrated into a variety of downstream systems or applications, except AI models that are used for research, development or prototyping activities before they are placed on the market;",
+   "file": "archive/EU-03/2026-10-11/official-2.html",
+   "sha256": "04b84ff27d3a06619a937798707d5c924c92787fd80cc2f1811b238f3eb45aaa",
+   "locator": "Article 3(63)",
+   "language": "English"
+  }
+ ],
+ "not_found": [
+  "artificial intelligence",
+  "model",
+  "AI model",
+  "automated decision system",
+  "generative AI"
+ ],
+ "note": "Text layer is the EUR-Lex HTML (official-2.html); the PDF text layer has broken spacing. The Regulation also defines 'general-purpose AI system' (Article 3(66)), 'provider' and 'deployer' (Article 3(3), 3(4)), which are outside the plan's term groups. 'AI model' has no stand-alone definition; it is used inside the general-purpose AI model definition. Recital 99 mentions large generative AI models as an example but does not define generative AI."
+}

@@ -1,0 +1,35 @@
+{
+ "record_id": "KR-02",
+ "definitions": [
+  {
+   "term": "인공지능",
+   "term_group": "artificial intelligence",
+   "definition": "1. “ 인공지능 ” 이란  학습 , 추론 , 지각 , 판단 , 언어의  이해  등  인간이  가진  지적  능력을  전자적  방법으로  구현한  것을  말한다 .",
+   "file": "archive/KR-02/2026-10-14/official-print.pdf",
+   "sha256": "0169da72344c8685eeb446c2496d5625869643b11ced6ea2d60ebabcd29c49ae",
+   "locator": "Article 2, item 1 (page 1)",
+   "language": "Korean",
+   "english": "\"Artificial intelligence\" means the electronic implementation of human intellectual abilities such as learning, reasoning, perception, judgment and understanding of language.",
+   "english_by": "agent"
+  },
+  {
+   "term": "인공지능시스템",
+   "term_group": "AI system",
+   "definition": "2. “ 인공지능시스템 ” 이란  다양한  수준의  자율성과  적응성을  가지고  주어진  목표를  위하여  실제  및  가상환경에  영향을  미치는  예측 , 추\n천 , 결정  등의  결과물을  추론하는  인공지능  기반  시스템을  말한다 .",
+   "file": "archive/KR-02/2026-10-14/official-print.pdf",
+   "sha256": "0169da72344c8685eeb446c2496d5625869643b11ced6ea2d60ebabcd29c49ae",
+   "locator": "Article 2, item 2 (page 1)",
+   "language": "Korean",
+   "english": "\"AI system\" means an AI-based system that, with varying levels of autonomy and adaptiveness, infers outputs such as predictions, recommendations and decisions that affect real and virtual environments for given objectives.",
+   "english_by": "agent"
+  }
+ ],
+ "not_found": [
+  "model",
+  "AI model",
+  "general-purpose AI model",
+  "automated decision system",
+  "generative AI"
+ ],
+ "note": "The stored print PDF text layer ends after Article 2, item 3 (AI technology, 인공지능기술); later definitions in Article 2 (such as generative AI and high-impact AI) are not in the stored text. The stored English text (secondary.html) is an empty shell, so the English renderings are the agent's. 'Not found' means not found in the stored text."
+}

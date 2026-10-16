@@ -1,0 +1,25 @@
+{
+ "record_id": "CN-03",
+ "definitions": [
+  {
+   "term": "生成式人工智能技术",
+   "term_group": "generative AI",
+   "definition": "（一）生成式人工智能技术，是指具有文本、图片、音频、视频等内容生成能力的模型及相关技术。",
+   "file": "archive/CN-03/2026-10-11/official.html",
+   "sha256": "7fae988c064dde72c95e96e5727bf9abee4b3a5a1ea817606a9ca1f97ffac54b",
+   "locator": "Article 22(1)",
+   "language": "Chinese",
+   "english": "Generative AI technology means models and related technologies capable of generating content such as text, images, audio and video.",
+   "english_by": "agent"
+  }
+ ],
+ "not_found": [
+  "AI system",
+  "artificial intelligence",
+  "model",
+  "AI model",
+  "general-purpose AI model",
+  "automated decision system"
+ ],
+ "note": "Article 22 also defines generative AI service provider and user (Article 22(2), 22(3)), outside the plan's term groups. No English text of the issuer is stored."
+}

@@ -1,0 +1,16 @@
+{
+ "record_id": "US-29",
+ "definitions": [
+  {
+   "term": "AI",
+   "term_group": "artificial intelligence",
+   "definition": "This order uses the definition of AI set forth in section 238(g) of the National Defense Authorization Act for Fiscal Year 2019 as a reference point.",
+   "file": "archive/_runs/2026-10-16-discover-leads/C004/2026-10-16/official.pdf",
+   "sha256": "806dd5f22488f28f063bf06eae6f3f0480d40baf263bbe7e11721c01a265e5af",
+   "locator": "Sec. 9(a), page 4 (85 FR 78942)",
+   "language": "English"
+  }
+ ],
+ "not_found": ["AI system", "model", "AI model", "general-purpose AI model", "automated decision system", "generative AI"],
+ "note": "The order gives no definition of AI in its own words. Sec. 9(a) adopts the definition in section 238(g) of the National Defense Authorization Act for Fiscal Year 2019 'as a reference point' and says that OMB guidance shall include further definitions as needed; the text of that statutory definition is not in the stored file. The item therefore quotes the cross-reference, not a definition text. Sec. 9(b) to (d) set the order's scope (AI used to advance agency missions, stand-alone and embedded AI, with exclusions for defense and national security systems, AI in common commercial products and AI research and development). The order defines 'agency' (Sec. 8(a)) and uses 'AI applications' and 'use cases' without defining them."
+}
