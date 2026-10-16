@@ -1,0 +1,47 @@
+{
+ "record_id": "VN-02",
+ "definitions": [
+  {
+   "term": "Hệ thống trí tuệ nhân tạo",
+   "term_group": "AI system",
+   "definition": "2. Hệ thông trí tuệ nhân tạo là hệ thống dựa trên máy, được thiết kế để thực hiện các năng lực trí tuệ nhân tạo với các mức độ tự chủ khác nhau, có khả năng tự thích nghi sau khi được triển khai; căn cứ vào các mục tiêu được xác định rõ ràng hoặc được hình thành một cách ngầm định, hệ thống suy luận từ dữ liệu đầu vào dé tạo ra các đầu ra như dự đoán, nội dung, khuyến nghị hoặc quyết định có",
+   "file": "archive/VN-02/2026-10-12/official.pdf",
+   "sha256": "53be2f9993e5060cc0ce723fc506d6535c9358978dbbeff11324c8d6236cae69",
+   "locator": "Article 3(2), page 1",
+   "language": "Vietnamese",
+   "english": "An AI system is a machine-based system designed to perform artificial intelligence capabilities with varying levels of autonomy and the ability to adapt after deployment; based on explicitly defined or implicitly formed objectives, it infers from input data to generate outputs such as predictions, content, recommendations or decisions that can affect the physical or virtual environment.",
+   "english_by": "agent"
+  },
+  {
+   "term": "Trí tuệ nhân tạo",
+   "term_group": "artificial intelligence",
+   "definition": "1. Trí tuệ nhân tạo là việc thực hiện bằng điện tử các năng lực trí tuệ của con người, bao gồm học tập, suy luận, nhận thức, phán đoán và hiểu ngôn ngữ tự nhiên.",
+   "file": "archive/VN-02/2026-10-12/official.pdf",
+   "sha256": "53be2f9993e5060cc0ce723fc506d6535c9358978dbbeff11324c8d6236cae69",
+   "locator": "Article 3(1), page 1",
+   "language": "Vietnamese",
+   "english": "Artificial intelligence is the electronic performance of human intellectual capabilities, including learning, reasoning, perception, judgment and natural language understanding.",
+   "english_by": "agent"
+  },
+  {
+   "term": "Hệ thống trí tuệ nhân tạo có rủi ro cao",
+   "term_group": "high-risk AI system",
+   "definition": "a) Hệ thống trí tuệ nhân tạo có rủi ro cao là hệ thống có thể gây thiệt hại đáng ké đến. tính mạng, sức khỏe, quyền và lợi ích hợp pháp của tổ chức, cá nhân, lợi ích quốc gia, lợi ích công cộng, an ninh quốc gia;",
+   "file": "archive/VN-02/2026-10-12/official.pdf",
+   "sha256": "53be2f9993e5060cc0ce723fc506d6535c9358978dbbeff11324c8d6236cae69",
+   "locator": "Article 9(1)(a), page 5",
+   "language": "Vietnamese",
+   "english": "A high-risk AI system is a system that can cause significant harm to life, health, the lawful rights and interests of organisations and individuals, national interests, public interests or national security.",
+   "english_by": "agent"
+  }
+ ],
+ "not_found": [
+  "frontier model",
+  "foundation model",
+  "generative AI",
+  "model",
+  "AI model",
+  "general-purpose AI model"
+ ],
+ "note": "Article 3 has no definition of model or generative AI."
+}

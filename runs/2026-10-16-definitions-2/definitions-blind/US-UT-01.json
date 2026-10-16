@@ -1,0 +1,33 @@
+{
+ "record_id": "US-UT-01",
+ "definitions": [
+  {
+   "term": "Generative artificial intelligence",
+   "term_group": "generative AI",
+   "definition": "\"Generative artificial intelligence\" means an artificial system that: (i) is trained on data; (ii) interacts with a person using text, audio, or visual communication; and (iii) generates non-scripted outputs similar to outputs created by a human, with limited or no human oversight.",
+   "file": "archive/US-UT-01/2026-10-11/document-1.pdf",
+   "sha256": "b636e3f1b2684e74e6e84ee08f65c2493ed4da951d8f38dfb592599c8bddd8b5",
+   "locator": "Section 13-2-12(1)(a), page 2",
+   "language": "English"
+  },
+  {
+   "term": "Artificial intelligence",
+   "term_group": "artificial intelligence",
+   "definition": "\"Artificial intelligence\" means a machine-based system that makes predictions, recommendations, or decisions influencing real or virtual environments.",
+   "file": "archive/US-UT-01/2026-10-11/document-1.pdf",
+   "sha256": "b636e3f1b2684e74e6e84ee08f65c2493ed4da951d8f38dfb592599c8bddd8b5",
+   "locator": "Section 13-70-101(2), page 13",
+   "language": "English"
+  }
+ ],
+ "not_found": [
+  "AI system",
+  "high-risk AI system",
+  "frontier model",
+  "foundation model",
+  "model",
+  "AI model",
+  "general-purpose AI model"
+ ],
+ "note": "Section 76-2-107 refers to the definition in 13-2-12 and is not listed separately. document-2.pdf is an amended version with the same definitions."
+}

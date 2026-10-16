@@ -1,0 +1,33 @@
+{
+ "record_id": "US-CO-01",
+ "definitions": [
+  {
+   "term": "artificial intelligence system",
+   "term_group": "AI system",
+   "definition": "\"ARTIFICIAL INTELLIGENCE SYSTEM\" MEANS ANY MACHINE-BASED SYSTEM THAT, FOR ANY EXPLICIT OR IMPLICIT OBJECTIVE, INFERS FROM THE INPUTS THE SYSTEM RECEIVES HOW TO GENERATE OUTPUTS, INCLUDING CONTENT, DECISIONS, PREDICTIONS, OR RECOMMENDATIONS, THAT CAN INFLUENCE PHYSICAL OR VIRTUAL ENVIRONMENTS.",
+   "file": "archive/US-CO-01/2026-10-11/document-1.pdf",
+   "sha256": "2814096f203618c2f7e9aaff9e121af67df8efcd6edfa56c5cba22835c074138",
+   "locator": "C.R.S. 6-1-1701(2), page 2 (Session Laws 2024, Ch. 198, p. 1200)",
+   "language": "English"
+  },
+  {
+   "term": "high-risk artificial intelligence system",
+   "term_group": "high-risk AI system",
+   "definition": "\"HIGH-RISK ARTIFICIAL INTELLIGENCE SYSTEM\" MEANS ANY ARTIFICIAL INTELLIGENCE SYSTEM THAT, WHEN DEPLOYED, MAKES, OR IS A SUBSTANTIAL FACTOR IN MAKING, A CONSEQUENTIAL DECISION.",
+   "file": "archive/US-CO-01/2026-10-11/document-1.pdf",
+   "sha256": "2814096f203618c2f7e9aaff9e121af67df8efcd6edfa56c5cba22835c074138",
+   "locator": "C.R.S. 6-1-1701(9)(a), page 3 (Session Laws 2024, Ch. 198, p. 1201)",
+   "language": "English"
+  }
+ ],
+ "not_found": [
+  "artificial intelligence",
+  "frontier model",
+  "foundation model",
+  "generative AI",
+  "model",
+  "AI model",
+  "general-purpose AI model"
+ ],
+ "note": "Quoted from the session law as published (Session Laws 2024, Chapter 198, Senate Bill 24-205, document-1.pdf), section 1, which adds part 17 to article 1 of title 6 C.R.S.; the session law prints new material in capital letters, so the definitions are in capitals. Section 6-1-1701(9)(b) excludes from 'high-risk artificial intelligence system' an AI system intended to perform a narrow procedural task or to detect decision-making patterns or deviations from them without replacing or influencing a completed human assessment without sufficient human review, and a list of technologies (from anti-fraud technology that does not use facial recognition to web hosting, and natural-language technology subject to an accepted use policy against discriminatory or harmful content) unless they make, or are a substantial factor in making, a consequential decision; the exclusions run across two pages and are not part of the quoted item. The Act does not define 'artificial intelligence' on its own, and uses 'model' only in section 6-1-1705(1)(h) ('artificial intelligence system or model') and in 'model cards', without defining it. Section 6-1-1701 also defines 'deployer' and 'developer' (subsections (6) and (7)), which have no term group in this round, and 'consequential decision', 'algorithmic discrimination', 'intentional and substantial modification' and 'substantial factor'. The stored page for SB25B-004 (secondary.html) says that act extends the effective date of the requirements of SB 24-205 to June 30, 2026; it does not change the quoted definitions."
+}

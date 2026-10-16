@@ -1,0 +1,27 @@
+{
+ "record_id": "TW-01",
+ "definitions": [
+  {
+   "term": "人工智慧",
+   "term_group": "artificial intelligence",
+   "definition": "本法所稱人工智慧，指具自主運行能力之系統，該系統透過輸入或感測，經由機器學習及演算法，可為明確或隱含之目標實現預測、內容、建議或決策等影響實體或虛擬環境之產出。",
+   "file": "archive/TW-01/2026-10-11/official.html",
+   "sha256": "53efa9363ba8ac7ccd02281eb84ddd480312d8a259792ad2d5a2139e22cd567a",
+   "locator": "Article 3",
+   "language": "Chinese (Traditional)",
+   "english": "In this Act, artificial intelligence means a system capable of autonomous operation that, through input or sensing, by means of machine learning and algorithms, can produce outputs such as predictions, content, recommendations or decisions that affect physical or virtual environments in pursuit of explicit or implicit objectives.",
+   "english_by": "agent"
+  }
+ ],
+ "not_found": [
+  "AI system",
+  "high-risk AI system",
+  "frontier model",
+  "foundation model",
+  "generative AI",
+  "model",
+  "AI model",
+  "general-purpose AI model"
+ ],
+ "note": "Article 5 mentions high-risk applications without defining them. The page title notes an English version exists but none is stored."
+}

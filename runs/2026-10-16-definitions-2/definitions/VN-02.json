@@ -1,0 +1,47 @@
+{
+ "record_id": "VN-02",
+ "definitions": [
+  {
+   "term": "Trí tuệ nhân tạo",
+   "term_group": "artificial intelligence",
+   "definition": "Trí tuệ nhân tạo là việc thực hiện bằng điện tử các năng lực trí tuệ của con người, bao gồm học tập, suy luận, nhận thức, phán đoán và hiểu ngôn ngữ tự nhiên.",
+   "english": "Artificial intelligence is the electronic performance of human intellectual capabilities, including learning, reasoning, perception, judgement and the understanding of natural language.",
+   "english_by": "agent",
+   "file": "archive/VN-02/2026-10-12/official.pdf",
+   "sha256": "53be2f9993e5060cc0ce723fc506d6535c9358978dbbeff11324c8d6236cae69",
+   "locator": "Article 3, item 1 (Điều 3, khoản 1), page 1",
+   "language": "Vietnamese"
+  },
+  {
+   "term": "Hệ thống trí tuệ nhân tạo",
+   "term_group": "AI system",
+   "definition": "Hệ thông trí tuệ nhân tạo là hệ thống dựa trên máy, được thiết kế để thực hiện các năng lực trí tuệ nhân tạo với các mức độ tự chủ khác nhau, có khả năng tự thích nghi sau khi được triển khai; căn cứ vào các mục tiêu được xác định rõ ràng hoặc được hình thành một cách ngầm định, hệ thống suy luận từ dữ liệu đầu vào dé tạo ra các đầu ra như dự đoán, nội dung, khuyến nghị hoặc quyết định có thể gây ảnh hưởng tới môi trường vật lý hoặc môi trường sô.",
+   "english": "An artificial intelligence system is a machine-based system designed to perform artificial intelligence capabilities with varying levels of autonomy and capable of adapting itself after deployment; on the basis of objectives that are explicitly defined or implicitly formed, the system infers from input data to generate outputs such as predictions, content, recommendations or decisions that may influence the physical environment or the digital environment.",
+   "english_by": "agent",
+   "file": "archive/VN-02/2026-10-12/official.pdf",
+   "sha256": "53be2f9993e5060cc0ce723fc506d6535c9358978dbbeff11324c8d6236cae69",
+   "locator": "Article 3, item 2 (Điều 3, khoản 2), page 1",
+   "language": "Vietnamese"
+  },
+  {
+   "term": "Hệ thống trí tuệ nhân tạo có rủi ro cao",
+   "term_group": "high-risk AI system",
+   "definition": "Hệ thống trí tuệ nhân tạo có rủi ro cao là hệ thống có thể gây thiệt hại đáng ké đến. tính mạng, sức khỏe, quyền và lợi ích hợp pháp của tổ chức, cá nhân, lợi ích quốc gia, lợi ích công cộng, an ninh quốc gia;",
+   "english": "A high-risk artificial intelligence system is a system that may cause significant harm to the life, health, or lawful rights and interests of organisations and individuals, to national interests, public interests or national security;",
+   "english_by": "agent",
+   "file": "archive/VN-02/2026-10-12/official.pdf",
+   "sha256": "53be2f9993e5060cc0ce723fc506d6535c9358978dbbeff11324c8d6236cae69",
+   "locator": "Article 9, clause 1, point a (Điều 9, khoản 1, điểm a), page 5",
+   "language": "Vietnamese"
+  }
+ ],
+ "not_found": [
+  "frontier model",
+  "foundation model",
+  "generative AI",
+  "model",
+  "AI model",
+  "general-purpose AI model"
+ ],
+ "note": "The stored official text is the signed PDF of Law No. 134/2025/QH15 from the Government portal (official.pdf); the definitions are quoted from its OCR text layer as it stands, which keeps a few OCR slips ('Hệ thông' for 'Hệ thống', 'dé' for 'để' and 'sô' for 'số' in Article 3, item 2; 'ké đến.' for 'kể đến' in Article 9). The English renderings are the agent's, not a government translation: the English text the record lists is not among the stored files. Article 3 defines eight terms: artificial intelligence, artificial intelligence system, developer (nhà phát triển), provider (nhà cung cấp), deployer (bên triển khai), user, affected person and serious incident; developer, provider and deployer have no term group in this round. The high-risk definition is not in Article 3 but in Article 9, which classifies AI systems as high-, medium- or low-risk; points b and c define medium-risk and low-risk systems. Article 16 (national AI infrastructure) names foundation models (mô hình nền tảng), general-purpose AI models (mô hình trí tuệ nhân tạo đa dụng) and large language models, Article 18 general-purpose AI models and Article 25 foundation models, all without defining them; 'model' is used in the definition of developer without a definition of its own. Generative AI is not defined."
+}
