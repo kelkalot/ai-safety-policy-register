@@ -1,0 +1,67 @@
+{
+ "pairs": 10,
+ "same_definition": 9,
+ "same_locator": 5,
+ "rows": [
+  {
+   "record_id": "PE-01",
+   "term_group": "AI system",
+   "text": "same",
+   "locator": "differs"
+  },
+  {
+   "record_id": "PE-01",
+   "term_group": "artificial intelligence",
+   "text": "same",
+   "locator": "differs"
+  },
+  {
+   "record_id": "TW-01",
+   "term_group": "artificial intelligence",
+   "text": "same",
+   "locator": "differs"
+  },
+  {
+   "record_id": "US-CO-01",
+   "term_group": "AI system",
+   "text": "same",
+   "locator": "differs"
+  },
+  {
+   "record_id": "US-CO-01",
+   "term_group": "high-risk AI system",
+   "text": "same",
+   "locator": "differs"
+  },
+  {
+   "record_id": "US-UT-01",
+   "term_group": "artificial intelligence",
+   "text": "same",
+   "locator": "same"
+  },
+  {
+   "record_id": "US-UT-01",
+   "term_group": "generative AI",
+   "text": "same",
+   "locator": "same"
+  },
+  {
+   "record_id": "VN-02",
+   "term_group": "AI system",
+   "text": "differs",
+   "locator": "same"
+  },
+  {
+   "record_id": "VN-02",
+   "term_group": "artificial intelligence",
+   "text": "same",
+   "locator": "same"
+  },
+  {
+   "record_id": "VN-02",
+   "term_group": "high-risk AI system",
+   "text": "same",
+   "locator": "same"
+  }
+ ]
+}

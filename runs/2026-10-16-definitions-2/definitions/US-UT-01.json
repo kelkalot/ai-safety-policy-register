@@ -1,0 +1,33 @@
+{
+ "record_id": "US-UT-01",
+ "definitions": [
+  {
+   "term": "artificial intelligence",
+   "term_group": "artificial intelligence",
+   "definition": "\"Artificial intelligence\" means a machine-based system that makes predictions, recommendations, or decisions influencing real or virtual environments.",
+   "file": "archive/US-UT-01/2026-10-11/document-2.pdf",
+   "sha256": "11f156fc184d6710bda8dcd8205ea26bf1d533f60c78acdd4226aa2d3998a417",
+   "locator": "Section 13-70-101(2) (bill section 4), lines 423-424, page 14",
+   "language": "English"
+  },
+  {
+   "term": "generative artificial intelligence",
+   "term_group": "generative AI",
+   "definition": "\"Generative artificial intelligence\" means an artificial system that: (i) is trained on data; (ii) interacts with a person using text, audio, or visual communication; and (iii) generates non-scripted outputs similar to outputs created by a human, with limited or no human oversight.",
+   "file": "archive/US-UT-01/2026-10-11/document-2.pdf",
+   "sha256": "11f156fc184d6710bda8dcd8205ea26bf1d533f60c78acdd4226aa2d3998a417",
+   "locator": "Section 13-2-12(1)(a) (bill section 1), lines 48-52, page 2",
+   "language": "English"
+  }
+ ],
+ "not_found": [
+  "AI system",
+  "high-risk AI system",
+  "frontier model",
+  "foundation model",
+  "model",
+  "AI model",
+  "general-purpose AI model"
+ ],
+ "note": "Quoted from S.B. 149 (2024 General Session) as amended by the Senate committee amendments of 2-8-2024 (document-2.pdf); the introduced text (document-1.pdf) has the same wording for both definitions. The enrolled bill is not among the stored files. The definitions are in the bill's own numbering: new Section 13-70-101 in a Chapter 70, Artificial Intelligence Policy Act, and new Section 13-2-12; the record's identifier gives the codified chapter as Title 13, Chapter 72. Section 13-70-101(3) also defines 'artificial intelligence technology' (a computer system, application or other product that uses or incorporates one or more forms of artificial intelligence), which has no term group; Section 76-2-107(1) refers back to the definition of 'generative artificial intelligence' in Section 13-2-12. The bill does not define 'AI system', 'model' or the other groups."
+}

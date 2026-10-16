@@ -162,7 +162,7 @@ def write_js(db, root=ROOT):
     payload["questions"] = open_questions(root)
     defs = root / "data" / "definitions.json"
     if defs.is_file():  # the definitions layer of the crosswalk (issue #70): checked definitions only
-        keep = ("id", "record_id", "term", "term_group", "definition", "english", "english_by", "language", "locator")
+        keep = ("id", "record_id", "term", "term_group", "definition", "english", "english_by", "language", "locator", "text_layer")
         payload["definitions"] = [{k: d.get(k) for k in keep}
                                   for d in json.loads(defs.read_text(encoding="utf-8")).get("definitions") or []]
     payload = json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
@@ -726,7 +726,7 @@ def write_definitions_csv(root=ROOT):
         return
     rows = json.loads(src.read_text(encoding="utf-8")).get("definitions") or []
     cols = ["id", "record_id", "term", "term_group", "definition", "english", "english_by", "language", "locator",
-            "file", "sha256", "run_id"]
+            "text_layer", "file", "sha256", "run_id"]
     with open(root / "data" / "definitions.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
         w.writeheader()

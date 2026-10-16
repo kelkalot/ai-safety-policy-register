@@ -1,0 +1,146 @@
+{
+ "definitions": {
+  "PE-01": [
+   {
+    "index": 0,
+    "term": "Inteligencia artificial",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 1,
+    "term": "Sistema basado en inteligencia artificial",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "TW-01": [
+   {
+    "index": 0,
+    "term": "人工智慧",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "US-CO-01": [
+   {
+    "index": 0,
+    "term": "artificial intelligence system",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 1,
+    "term": "high-risk artificial intelligence system",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "US-UT-01": [
+   {
+    "index": 0,
+    "term": "artificial intelligence",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 1,
+    "term": "generative artificial intelligence",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "VN-02": [
+   {
+    "index": 0,
+    "term": "Trí tuệ nhân tạo",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 1,
+    "term": "Hệ thống trí tuệ nhân tạo",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 2,
+    "term": "Hệ thống trí tuệ nhân tạo có rủi ro cao",
+    "ok": true,
+    "problems": []
+   }
+  ]
+ },
+ "definitions-blind": {
+  "PE-01": [
+   {
+    "index": 0,
+    "term": "Inteligencia artificial",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 1,
+    "term": "Sistema basado en inteligencia artificial",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "TW-01": [
+   {
+    "index": 0,
+    "term": "人工智慧",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "US-CO-01": [
+   {
+    "index": 0,
+    "term": "ARTIFICIAL INTELLIGENCE SYSTEM",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 1,
+    "term": "HIGH-RISK ARTIFICIAL INTELLIGENCE SYSTEM",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "US-UT-01": [
+   {
+    "index": 0,
+    "term": "Generative artificial intelligence",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 1,
+    "term": "Artificial intelligence",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "VN-02": [
+   {
+    "index": 0,
+    "term": "Hệ thống trí tuệ nhân tạo",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 1,
+    "term": "Trí tuệ nhân tạo",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 2,
+    "term": "Hệ thống trí tuệ nhân tạo có rủi ro cao",
+    "ok": true,
+    "problems": []
+   }
+  ]
+ }
+}

@@ -1,4 +1,4 @@
-# Definitions pilot 2026-10-16-definitions-pilot
+# Definitions 2026-10-16-definitions-pilot
 
 Defined terms quoted verbatim from the stored sources of 7 records (issue #70). Every quote was checked against its stored file and SHA-256 by `tools/definitions.py check`. Similar definitions are not legally equivalent; nothing here is legal advice.
 
@@ -37,7 +37,9 @@ These are not in `data/definitions.json`; only definitions both extractions foun
 - CN-03, generative AI: differs
 - US-29, artificial intelligence: only in first
 
-## Not defined in the stored text
+## Not found in the stored text
+
+Not found means only that the stored files do not define the term: where they are a press release or a status page rather than the instrument's text (the extraction's note says so), that text has to be archived before a later run can look again.
 
 - BR-01: AI system, artificial intelligence, model, AI model, general-purpose AI model, automated decision system, generative AI
 - CA-01: AI system, artificial intelligence, model, AI model, general-purpose AI model, generative AI

@@ -1,0 +1,658 @@
+[page 1]
+S.B. 149
+LEGISLATIVE GENERAL COUNSEL
+6  Approved for Filing: S. Elder  6
+6    01-25-24 12:06 PM    6
+S.B. 149
+1 ARTIFICIAL INTELLIGENCE AMENDMENTS
+2 2024 GENERAL SESSION
+3 STATE OF UTAH
+4 Chief Sponsor:  Kirk A. Cullimore
+5 House Sponsor:   Jefferson Moss
+6  
+7 LONG TITLE
+8 General Description:
+9 This bill creates the Artificial Intelligence Policy Act.
+10 Highlighted Provisions:
+11 This bill:
+12 < defines terms;
+13 < establishes liability for use of artificial intelligence (AI) that violates consumer
+14 protection laws if not properly disclosed;
+15 < creates the Office of Artificial Intelligence Policy (office) and a regulatory AI
+16 analysis program;
+17 < enables temporary mitigation of regulatory impacts during AI pilot testing;
+18 < establishes the Artificial Intelligence Learning Laboratory Program to assess
+19 technologies, risks, and policy;
+20 < requires disclosure when an individual interacts with AI in a regulated occupation;
+21 and
+22 < grants the office rulemaking authority over AI programs and regulatory exemptions.
+23 Money Appropriated in this Bill:
+24 None
+25 Other Special Clauses:
+26 None
+27 Utah Code Sections Affected:
+*SB0149*
+[page 2]
+S.B. 149 01-25-24 12:06 PM
+- 2 -
+28 AMENDS:
+29 13-11-4, as last amended by Laws of Utah 2021, Chapters 138, 154
+30 13-61-101, as last amended by Laws of Utah 2023, Chapter 327
+31 63I-2-213, as last amended by Laws of Utah 2023, Chapter 33
+32 ENACTS:
+33 13-2-12, Utah Code Annotated 1953
+34 13-70-101, Utah Code Annotated 1953
+35 13-70-201, Utah Code Annotated 1953
+36 13-70-301, Utah Code Annotated 1953
+37 13-70-302, Utah Code Annotated 1953
+38 13-70-303, Utah Code Annotated 1953
+39 13-70-304, Utah Code Annotated 1953
+40 13-70-305, Utah Code Annotated 1953
+41 76-2-107, Utah Code Annotated 1953
+42  
+43 Be it enacted by the Legislature of the state of Utah:
+44 Section 1.  Section 13-2-12 is enacted to read:
+45 13-2-12.  Generative artificial intelligence  -- Impact on liability for violation of
+46 consumer protection law.
+47 (1)  As used in this section:
+48 (a)  "Generative artificial intelligence" means an artificial system that:
+49 (i)  is trained on data;
+50 (ii)  interacts with a person using text, audio, or visual communication; and
+51 (iii)  generates non-scripted outputs similar to outputs created by a human, with limited
+52 or no human oversight.
+53 (b)  "License" means a state-granted authorization for a person to engage in a specified
+54 occupation:
+55 (i)  based on the person meeting personal qualifications established under state law; and
+56 (ii)  where state law requires the authorization before the person may lawfully engage in
+57 the occupation for compensation.
+58 (c)  "Regulated occupation" means an occupation regulated by the Department of
+[page 3]
+01-25-24 12:06 PM S.B. 149
+- 3 -
+59 Commerce that requires a person to obtain a license or state certification to practice the
+60 occupation.
+61 (d)  "State certification" means a state-granted authorization given to a person to use the
+62 term "state certified" as part of a designated title related to engaging in a specified occupation:
+63 (i)  based on the person meeting personal qualifications established under state law; and
+64 (ii)  where state law prohibits a noncertified person from using the term "state certified"
+65 as part of a designated title but does not otherwise prohibit a noncertified person from engaging
+66 in the occupation for compensation.
+67 (2)  It is not a defense to the violation of any statute administered and enforced by the
+68 division, as described in Section 13-2-1, that generative artificial intelligence:
+69 (a)  made the violative statement;
+70 (b)  undertook the violative act; or
+71 (c)  was used in furtherance of the violation.
+72 (3)  A person who uses, prompts, or otherwise causes generative artificial intelligence
+73 to interact with a person in connection with any act administered and enforced by the division,
+74 as described in Section 13-2-1, shall clearly and conspicuously disclose to the person with
+75 whom the generative artificial intelligence interacts, if asked or prompted by the person, that
+76 the person is interacting with generative artificial intelligence and not a human.
+77 (4) (a)  A person who provides the services of a regulated occupation shall prominently
+78 disclose when a person is interacting with a generative artificial intelligence in the provision of
+79 regulated services.
+80 (b)  Nothing in this section permits a person to provide the services of a regulated
+81 occupation through generative artificial intelligence without meeting the requirements of the
+82 regulated occupation.
+83 (5)  A disclosure described Subsection (4)(a) shall be provided:
+84 (a)  verbally at the start of an oral exchange or conversation; and
+85 (b)  through electronic messaging before a written exchange.
+86 (6)  The division shall administer and enforce the provisions of this section in
+87 accordance with Chapter 2, Division of Consumer Protection.
+88 (7)  In addition to the division's enforcement powers described by Chapter 2, Division
+89 of Consumer Protection:
+[page 4]
+S.B. 149 01-25-24 12:06 PM
+- 4 -
+90 (a)  the division director may impose an administrative fine for up to $2,500 for each
+91 violation of this section; and
+92 (b)  the division may bring an action in court to enforce a provision of this section.
+93 (8)  In a court action by the division to enforce a provision of this section, the court
+94 may:
+95 (a)  declare that an act or practice violates a provision of this section;
+96 (b)  issue an injunction for a violation of this section;
+97 (c)  order disgorgement of any money received in violation of this section;
+98 (d)  order payment of disgorged money to a person injured by a violation of this section;
+99 (e)  impose a fine of up to $2,500 for each violation of this section; or
+100 (f)  award any other relief that the court deems reasonable and necessary.
+101 (9)  If a court of competent jurisdiction grants judgment or injunctive relief to the
+102 division, the court shall award the division:
+103 (a)  reasonable attorney fees;
+104 (b)  court costs; and
+105 (c)  investigative fees.
+106 (10) (a)  A person who violates an administrative or court order issued for a violation of
+107 this chapter is subject to a civil penalty of no more than $5,000 for each violation.
+108 (b)  A civil penalty authorized under this section may be imposed in any civil action
+109 brought by the attorney general on behalf of the division.
+110 Section 2.  Section 13-11-4 is amended to read:
+111 13-11-4.   Deceptive act or practice by supplier.
+112 (1)  A deceptive act or practice by a supplier in connection with a consumer transaction
+113 violates this chapter whether it occurs before, during, or after the transaction.
+114 (2)  Without limiting the scope of Subsection (1), a supplier commits a deceptive act or
+115 practice if the supplier knowingly or intentionally:
+116 (a)  indicates that the subject of a consumer transaction has sponsorship, approval,
+117 performance characteristics, accessories, uses, or benefits, if it has not;
+118 (b)  indicates that the subject of a consumer transaction is of a particular standard,
+119 quality, grade, style, or model, if it is not;
+120 (c)  indicates that the subject of a consumer transaction is new, or unused, if it is not, or
+[page 5]
+01-25-24 12:06 PM S.B. 149
+- 5 -
+121 has been used to an extent that is materially different from the fact;
+122 (d)  indicates that the subject of a consumer transaction is available to the consumer for
+123 a reason that does not exist, including any of the following reasons falsely used in an
+124 advertisement:
+125 (i)  "going out of business";
+126 (ii)  "bankruptcy sale";
+127 (iii)  "lost our lease";
+128 (iv)  "building coming down";
+129 (v)  "forced out of business";
+130 (vi)  "final days";
+131 (vii)  "liquidation sale";
+132 (viii)  "fire sale";
+133 (ix)  "quitting business"; or
+134 (x)  an expression similar to any of the expressions in Subsections (2)(d)(i) through
+135 (ix);
+136 (e)  indicates that the subject of a consumer transaction has been supplied in accordance
+137 with a previous representation, if it has not;
+138 (f)  indicates that the subject of a consumer transaction will be supplied in greater
+139 quantity than the supplier intends;
+140 (g)  indicates that replacement or repair is needed, if it is not;
+141 (h)  indicates that a specific price advantage exists, if it does not;
+142 (i)  indicates that the supplier has a sponsorship, approval, license, certification, or
+143 affiliation the supplier does not have;
+144 (j) (i)  indicates that a consumer transaction involves or does not involve a warranty, a
+145 disclaimer of warranties, particular warranty terms, or other rights, remedies, or obligations, if
+146 the representation is false; or
+147 (ii)  fails to honor a warranty or a particular warranty term;
+148 (k)  indicates that the consumer will receive a rebate, discount, or other benefit as an
+149 inducement for entering into a consumer transaction in return for giving the supplier the names
+150 of prospective consumers or otherwise helping the supplier to enter into other consumer
+151 transactions, if receipt of the benefit is contingent on an event occurring after the consumer
+[page 6]
+S.B. 149 01-25-24 12:06 PM
+- 6 -
+152 enters into the transaction;
+153 (l)  after receipt of payment for goods or services, fails to ship the goods or furnish the
+154 services within the time advertised or otherwise represented or, if no specific time is advertised
+155 or represented, fails to ship the goods or furnish the services within 30 days, unless within the
+156 applicable time period the supplier provides the buyer with the option to:
+157 (i)  cancel the sales agreement and receive a refund of all previous payments to the
+158 supplier if the refund is mailed or delivered to the buyer within 10 business days after the day
+159 on which the seller receives written notification from the buyer of the buyer's intent to cancel
+160 the sales agreement and receive the refund; or
+161 (ii)  extend the shipping date to a specific date proposed by the supplier;
+162 (m)  except as provided in Subsection (3)(b), fails to furnish a notice meeting the
+163 requirements of Subsection (3)(a) of the purchaser's right to cancel a direct solicitation sale
+164 within three business days of the time of purchase if:
+165 (i)  the sale is made other than at the supplier's established place of business pursuant to
+166 the supplier's personal contact, whether through mail, electronic mail, facsimile transmission,
+167 telephone, or any other form of direct solicitation; and
+168 (ii)  the sale price exceeds $25;
+169 (n)  promotes, offers, or grants participation in a pyramid scheme as defined under Title
+170 76, Chapter 6a, Pyramid Scheme Act;
+171 (o)  represents that the funds or property conveyed in response to a charitable
+172 solicitation will be donated or used for a particular purpose or will be donated to or used by a
+173 particular organization, if the representation is false;
+174 (p)  if a consumer indicates the consumer's intention of making a claim for a motor
+175 vehicle repair against the consumer's motor vehicle insurance policy:
+176 (i)  commences the repair without first giving the consumer oral and written notice of:
+177 (A)  the total estimated cost of the repair; and
+178 (B)  the total dollar amount the consumer is responsible to pay for the repair, which
+179 dollar amount may not exceed the applicable deductible or other copay arrangement in the
+180 consumer's insurance policy; or
+181 (ii)  requests or collects from a consumer an amount that exceeds the dollar amount a
+182 consumer was initially told the consumer was responsible to pay as an insurance deductible or
+[page 7]
+01-25-24 12:06 PM S.B. 149
+- 7 -
+183 other copay arrangement for a motor vehicle repair under Subsection (2)(p)(i), even if that
+184 amount is less than the full amount the motor vehicle insurance policy requires the insured to
+185 pay as a deductible or other copay arrangement, unless:
+186 (A)  the consumer's insurance company denies that coverage exists for the repair, in
+187 which case, the full amount of the repair may be charged and collected from the consumer; or
+188 (B)  the consumer misstates, before the repair is commenced, the amount of money the
+189 insurance policy requires the consumer to pay as a deductible or other copay arrangement, in
+190 which case, the supplier may charge and collect from the consumer an amount that does not
+191 exceed the amount the insurance policy requires the consumer to pay as a deductible or other
+192 copay arrangement;
+193 (q)  includes in any contract, receipt, or other written documentation of a consumer
+194 transaction, or any addendum to any contract, receipt, or other written documentation of a
+195 consumer transaction, any confession of judgment or any waiver of any of the rights to which a
+196 consumer is entitled under this chapter;
+197 (r)  charges a consumer for a consumer transaction or a portion of a consumer
+198 transaction that has not previously been agreed to by the consumer;
+199 (s)  solicits or enters into a consumer transaction with a person who lacks the mental
+200 ability to comprehend the nature and consequences of:
+201 (i)  the consumer transaction; or
+202 (ii)  the person's ability to benefit from the consumer transaction;
+203 (t)  solicits for the sale of a product or service by providing a consumer with an
+204 unsolicited check or negotiable instrument the presentment or negotiation of which obligates
+205 the consumer to purchase a product or service, unless the supplier is:
+206 (i)  a depository institution under Section 7-1-103;
+207 (ii)  an affiliate of a depository institution; or
+208 (iii)  an entity regulated under Title 7, Financial Institutions Act;
+209 (u)  sends an unsolicited mailing to a person that appears to be a billing, statement, or
+210 request for payment for a product or service the person has not ordered or used, or that implies
+211 that the mailing requests payment for an ongoing product or service the person has not received
+212 or requested;
+213 (v)  issues a gift certificate, instrument, or other record in exchange for payment to
+[page 8]
+S.B. 149 01-25-24 12:06 PM
+- 8 -
+214 provide the bearer, upon presentation, goods or services in a specified amount without printing
+215 in a readable manner on the gift certificate, instrument, packaging, or record any expiration
+216 date or information concerning a fee to be charged and deducted from the balance of the gift
+217 certificate, instrument, or other record;
+218 (w)  misrepresents the geographical origin or location of the supplier's business;
+219 (x)  fails to comply with the restrictions of Section 15-10-201 on automatic renewal
+220 provisions;
+221 (y)  violates Section 13-59-201; or
+222 (z)  fails to comply with the restrictions of Subsection 13-54-202(2).
+223 (3) (a)  The notice required by Subsection (2)(m) shall:
+224 (i)  be a conspicuous statement written in dark bold with at least 12-point type on the
+225 first page of the purchase documentation; and
+226 (ii)  read as follows: "YOU, THE BUYER, MAY CANCEL THIS CONTRACT AT
+227 ANY TIME PRIOR TO MIDNIGHT OF THE THIRD BUSINESS DAY (or time period
+228 reflecting the supplier's cancellation policy but not less than three business days) AFTER THE
+229 DATE OF THE TRANSACTION OR RECEIPT OF THE PRODUCT, WHICHEVER IS
+230 LATER."
+231 (b)  A supplier is exempt from the requirements of Subsection (2)(m) if the supplier's
+232 cancellation policy:
+233 (i)  is communicated to the buyer; and
+234 (ii)  offers greater rights to the buyer than Subsection (2)(m).
+235 (4) (a)  A gift certificate, instrument, or other record that does not print an expiration
+236 date in accordance with Subsection (2)(v) does not expire.
+237 (b)  A gift certificate, instrument, or other record that does not include printed
+238 information concerning a fee to be charged and deducted from the balance of the gift
+239 certificate, instrument, or other record is not subject to the charging and deduction of the fee.
+240 (c)  Subsections (2)(v) and (4)(b) do not apply to a gift certificate, instrument, or other
+241 record useable at multiple, unaffiliated sellers of goods or services if an expiration date is
+242 printed on the gift certificate, instrument, or other record.
+243 Section 3.  Section 13-61-101 is amended to read:
+244 13-61-101.   Definitions.
+[page 9]
+01-25-24 12:06 PM S.B. 149
+- 9 -
+245 As used in this chapter:
+246 (1)  "Account" means the Consumer Privacy Restricted Account established in Section
+247 13-61-403.
+248 (2)  "Affiliate" means an entity that:
+249 (a)  controls, is controlled by, or is under common control with another entity; or
+250 (b)  shares common branding with another entity.
+251 (3)  "Aggregated data" means information that relates to a group or category of
+252 consumers:
+253 (a)  from which individual consumer identities have been removed; and
+254 (b)  that is not linked or reasonably linkable to any consumer.
+255 (4)  "Air carrier" means the same as that term is defined in 49 U.S.C. Sec. 40102.
+256 (5)  "Authenticate" means to use reasonable means to determine that a consumer's
+257 request to exercise the rights described in Section 13-61-201 is made by the consumer who is
+258 entitled to exercise those rights.
+259 (6) (a)  "Biometric data" means data generated by automatic measurements of an
+260 individual's unique biological characteristics.
+261 (b)  "Biometric data" includes data described in Subsection (6)(a) that are generated by
+262 automatic measurements of an individual's fingerprint, voiceprint, eye retinas, irises, or any
+263 other unique biological pattern or characteristic that is used to identify a specific individual.
+264 (c)  "Biometric data" does not include:
+265 (i)  a physical or digital photograph;
+266 (ii)  a video or audio recording;
+267 (iii)  data generated from an item described in Subsection (6)(c)(i) or (ii);
+268 (iv)  information captured from a patient in a health care setting; or
+269 (v)  information collected, used, or stored for treatment, payment, or health care
+270 operations as those terms are defined in 45 C.F.R. Parts 160, 162, and 164.
+271 (7)  "Business associate" means the same as that term is defined in 45 C.F.R. Sec.
+272 160.103.
+273 (8)  "Child" means an individual younger than 13 years old.
+274 (9)  "Consent" means an affirmative act by a consumer that unambiguously indicates
+275 the consumer's voluntary and informed agreement to allow a person to process personal data
+[page 10]
+S.B. 149 01-25-24 12:06 PM
+- 10 -
+276 related to the consumer.
+277 (10) (a)  "Consumer" means an individual who is a resident of the state acting in an
+278 individual or household context.
+279 (b)  "Consumer" does not include an individual acting in an employment or commercial
+280 context.
+281 (11)  "Control" or "controlled" as used in Subsection (2) means:
+282 (a)  ownership of, or the power to vote, more than 50% of the outstanding shares of any
+283 class of voting securities of an entity;
+284 (b)  control in any manner over the election of a majority of the directors or of the
+285 individuals exercising similar functions; or
+286 (c)  the power to exercise controlling influence of the management of an entity.
+287 (12)  "Controller" means a person doing business in the state who determines the
+288 purposes for which and the means by which personal data are processed, regardless of whether
+289 the person makes the determination alone or with others.
+290 (13)  "Covered entity" means the same as that term is defined in 45 C.F.R. Sec.
+291 160.103.
+292 (14) (a)  "Deidentified data" means data that:
+293 [(a)] (i)  cannot reasonably be linked to an identified individual or an identifiable
+294 individual; and
+295 [(b)] (ii)  are possessed by a controller who:
+296 [(i)] (A)  takes reasonable measures to ensure that a person cannot associate the data
+297 with an individual;
+298 [(ii)] (B)  publicly commits to maintain and use the data only in deidentified form and
+299 not attempt to reidentify the data; and
+300 [(iii)] (C)  contractually obligates any recipients of the data to comply with the
+301 requirements described in Subsections (14)(b)(i) and (ii).
+302 (b)  "Deidentified data" includes synthetic data.
+303 (15)  "Director" means the director of the Division of Consumer Protection.
+304 (16)  "Division" means the Division of Consumer Protection created in Section 13-2-1.
+305 (17)  "Governmental entity" means the same as that term is defined in Section
+306 63G-2-103.
+[page 11]
+01-25-24 12:06 PM S.B. 149
+- 11 -
+307 (18)  "Health care facility" means the same as that term is defined in Section
+308 26B-2-201.
+309 (19)  "Health care provider" means the same as that term is defined in Section
+310 78B-3-403.
+311 (20)  "Identifiable individual" means an individual who can be readily identified,
+312 directly or indirectly.
+313 (21)  "Institution of higher education" means a public or private institution of higher
+314 education.
+315 (22)  "Local political subdivision" means the same as that term is defined in Section
+316 11-14-102.
+317 (23)  "Nonprofit corporation" means:
+318 (a)  the same as that term is defined in Section 16-6a-102; or
+319 (b)  a foreign nonprofit corporation as defined in Section 16-6a-102.
+320 (24) (a)  "Personal data" means information that is linked or reasonably linkable to an
+321 identified individual or an identifiable individual.
+322 (b)  "Personal data" does not include deidentified data, aggregated data, or publicly
+323 available information.
+324 (25)  "Process" means an operation or set of operations performed on personal data,
+325 including collection, use, storage, disclosure, analysis, deletion, or modification of personal
+326 data.
+327 (26)  "Processor" means a person who processes personal data on behalf of a controller.
+328 (27)  "Protected health information" means the same as that term is defined in 45 C.F.R.
+329 Sec. 160.103.
+330 (28)  "Pseudonymous data" means personal data that cannot be attributed to a specific
+331 individual without the use of additional information, if the additional information is:
+332 (a)  kept separate from the consumer's personal data; and
+333 (b)  subject to appropriate technical and organizational measures to ensure that the
+334 personal data are not attributable to an identified individual or an identifiable individual.
+335 (29)  "Publicly available information" means information that a person:
+336 (a)  lawfully obtains from a record of a governmental entity;
+337 (b)  reasonably believes a consumer or widely distributed media has lawfully made
+[page 12]
+S.B. 149 01-25-24 12:06 PM
+- 12 -
+338 available to the general public; or
+339 (c)  if the consumer has not restricted the information to a specific audience, obtains
+340 from a person to whom the consumer disclosed the information.
+341 (30)  "Right" means a consumer right described in Section 13-61-201.
+342 (31) (a)  "Sale," "sell," or "sold" means the exchange of personal data for monetary
+343 consideration by a controller to a third party.
+344 (b)  "Sale," "sell," or "sold" does not include:
+345 (i)  a controller's disclosure of personal data to a processor who processes the personal
+346 data on behalf of the controller;
+347 (ii)  a controller's disclosure of personal data to an affiliate of the controller;
+348 (iii)  considering the context in which the consumer provided the personal data to the
+349 controller, a controller's disclosure of personal data to a third party if the purpose is consistent
+350 with a consumer's reasonable expectations;
+351 (iv)  the disclosure or transfer of personal data when a consumer directs a controller to:
+352 (A)  disclose the personal data; or
+353 (B)  interact with one or more third parties;
+354 (v)  a consumer's disclosure of personal data to a third party for the purpose of
+355 providing a product or service requested by the consumer or a parent or legal guardian of a
+356 child;
+357 (vi)  the disclosure of information that the consumer:
+358 (A)  intentionally makes available to the general public via a channel of mass media;
+359 and
+360 (B)  does not restrict to a specific audience; or
+361 (vii)  a controller's transfer of personal data to a third party as an asset that is part of a
+362 proposed or actual merger, an acquisition, or a bankruptcy in which the third party assumes
+363 control of all or part of the controller's assets.
+364 (32) (a)  "Sensitive data" means:
+365 (i)  personal data that reveals:
+366 (A)  an individual's racial or ethnic origin;
+367 (B)  an individual's religious beliefs;
+368 (C)  an individual's sexual orientation;
+[page 13]
+01-25-24 12:06 PM S.B. 149
+- 13 -
+369 (D)  an individual's citizenship or immigration status; or
+370 (E)  information regarding an individual's medical history, mental or physical health
+371 condition, or medical treatment or diagnosis by a health care professional;
+372 (ii)  the processing of genetic personal data or biometric data, if the processing is for the
+373 purpose of identifying a specific individual; or
+374 (iii)  specific geolocation data.
+375 (b)  "Sensitive data" does not include personal data that reveals an individual's:
+376 (i)  racial or ethnic origin, if the personal data are processed by a video communication
+377 service; or
+378 (ii)  if the personal data are processed by a person licensed to provide health care under
+379 Title 26B, Chapter 2, Part 2, Health Care Facility Licensing and Inspection, or Title 58,
+380 Occupations and Professions, information regarding an individual's medical history, mental or
+381 physical health condition, or medical treatment or diagnosis by a health care professional.
+382 (33) (a)  "Specific geolocation data" means information derived from technology,
+383 including global position system level latitude and longitude coordinates, that directly
+384 identifies an individual's specific location, accurate within a radius of 1,750 feet or less.
+385 (b)  "Specific geolocation data" does not include:
+386 (i)  the content of a communication; or
+387 (ii)  any data generated by or connected to advanced utility metering infrastructure
+388 systems or equipment for use by a utility.
+389 (34)  "Synthetic data" means data that has been generated by computer algorithms or
+390 statistical models and does not contain personal data.
+391 [(34)] (35) (a)  "Targeted advertising" means displaying an advertisement to a consumer
+392 where the advertisement is selected based on personal data obtained from the consumer's
+393 activities over time and across nonaffiliated websites or online applications to predict the
+394 consumer's preferences or interests.
+395 (b)  "Targeted advertising" does not include advertising:
+396 (i)  based on a consumer's activities within a controller's website or online application
+397 or any affiliated website or online application;
+398 (ii)  based on the context of a consumer's current search query or visit to a website or
+399 online application;
+[page 14]
+S.B. 149 01-25-24 12:06 PM
+- 14 -
+400 (iii)  directed to a consumer in response to the consumer's request for information,
+401 product, a service, or feedback; or
+402 (iv)  processing personal data solely to measure or report advertising:
+403 (A)  performance;
+404 (B)  reach; or
+405 (C)  frequency.
+406 [(35)] (36)  "Third party" means a person other than:
+407 (a)  the consumer, controller, or processor; or
+408 (b)  an affiliate or contractor of the controller or the processor.
+409 [(36)] (37)  "Trade secret" means information, including a formula, pattern,
+410 compilation, program, device, method, technique, or process, that:
+411 (a)  derives independent economic value, actual or potential, from not being generally
+412 known to, and not being readily ascertainable by proper means by, other persons who can
+413 obtain economic value from the information's disclosure or use; and
+414 (b)  is the subject of efforts that are reasonable under the circumstances to maintain the
+415 information's secrecy.
+416 Section 4.  Section 13-70-101 is enacted to read:
+417 CHAPTER 70. ARTIFICIAL INTELLIGENCE POLICY ACT
+418 Part 1. General Provisions
+419 13-70-101.  Definitions.
+420 As used in this chapter:
+421 (1)  "Applicant" means a person that applies for participation in the regulatory learning
+422 laboratory.
+423 (2)  "Artificial intelligence" means a machine-based system that makes predictions,
+424 recommendations, or decisions influencing real or virtual environments.
+425 (3)  "Artificial intelligence technology" means a computer system, application, or other
+426 product that uses or incorporates one or more forms of artificial intelligence.
+427 (4)  "Department" means the Department of Commerce.
+428 (5)  "Director" means the director of the office.
+429 (6)  "Executive director" means the executive director of the Department of Commerce.
+430 (7)  "Learning agenda" means the areas of artificial intelligence applications, risks, and
+[page 15]
+01-25-24 12:06 PM S.B. 149
+- 15 -
+431 policy considerations selected by the office for focus by the learning laboratory.
+432 (8)  "Learning laboratory" means the artificial intelligence analysis and research
+433 program created in Section 13-70-301.
+434 (9)  "Office" means the Office of Artificial Intelligence Policy created in Section
+435 13-70-201.
+436 (10)  "Participant" means a person that is accepted to participate in the learning
+437 laboratory.
+438 (11)  "Regulatory mitigation agreement" means an agreement between a participant, the
+439 office, and relevant state agencies described in Section 13-70-104.
+440 (12)  "Regulatory mitigation" means:
+441 (a)  when restitution to users may be required;
+442 (b)  terms and conditions related to any cure period before penalties may be assessed;
+443 (c)  any reduced civil fines during the participation term; and
+444 (d)  other terms tailored to identified issues of the artificial intelligence technology.
+445 Section 5.  Section 13-70-201 is enacted to read:
+446 Part 2. Office of Artificial Intelligence Policy
+447 13-70-201.  Creation of Office of Artificial Intelligence Policy -- Director appointed
+448 -- Duties and authority.
+449 (1)  There is created in the department the Office of Artificial Intelligence Policy.
+450 (2)  The executive director of the department shall appoint a director to oversee the
+451 management and operations of the office.
+452 (3)  The office shall:
+453 (a)  create and administer an artificial intelligence learning laboratory program;
+454 (b)  consult with businesses and other stakeholders in the state about potential
+455 regulatory proposals;
+456 (c)  make rules in accordance with Title 63G, Chapter 3, Utah Administrative
+457 Rulemaking Act, establishing:
+458 (i)  procedures, requirements, and fees to apply to participate in the learning laboratory
+459 program;
+460 (ii)  criteria for invitation, acceptance, denial, or removal of participants;
+461 (iii)  data usage limitations and cybersecurity criteria for participants;
+[page 16]
+S.B. 149 01-25-24 12:06 PM
+- 16 -
+462 (iv)  required participant disclosures to consumers;
+463 (v)  reporting requirements for participants to the office;
+464 (vi)  criteria for limited extension of the participation period; and
+465 (vii)  other requirements necessary to administer the learning laboratory; and
+466 (d)  report annually, before November 30, to the Business and Labor Interim Committee
+467 regarding:
+468 (i)  the proposed learning agenda for the learning laboratory;
+469 (ii)  the findings, participation, and outcomes of the learning laboratory; and
+470 (iii)  recommended legislation from findings from the learning laboratory.
+471 Section 6.  Section 13-70-301 is enacted to read:
+472 Part 3. Artificial Intelligence Learning Laboratory Program
+473 13-70-301.   Artificial Intelligence Learning Laboratory Program.
+474 (1)  There is established the Artificial Intelligence Learning Laboratory Program, to be
+475 administered by the office.
+476 (2)  The purpose of the learning laboratory is to:
+477 (a)  analyze and research the risks, benefits, impacts, and policy implications of
+478 artificial intelligence technologies to inform the state regulatory framework;
+479 (b)  encourage development of artificial intelligence technologies in the state;
+480 (c)  evaluate the effectiveness and viability of current, potential, or proposed regulation
+481 on artificial intelligence technologies with artificial intelligence companies; and
+482 (d)  produce findings and recommendations for legislation and regulation of artificial
+483 intelligence.
+484 (3) (a)  The office shall periodically set a learning agenda for the learning laboratory
+485 that establishes the specific areas of artificial intelligence policy the office intends to study.
+486 (b)  In establishing the learning agenda, the office may consult with:
+487 (i)  relevant agencies;
+488 (ii)  industry leaders;
+489 (iii)  academic institutions in the state; and
+490 (iv)  key stakeholders with relevant knowledge, experience, or expertise in the area.
+491 (4)  The office may invite and receive an application from a person to participate in the
+492 learning laboratory.
+[page 17]
+01-25-24 12:06 PM S.B. 149
+- 17 -
+493 (5)  The office shall establish the procedures and requirements for sending an invitation
+494 and receiving requests to participate in the learning laboratory in accordance with the purposes
+495 of the learning laboratory.
+496 (6)  In selecting participants for the learning laboratory, the office shall consider:
+497 (a)  the relevance and utility of an invitee or applicant's artificial intelligence technology
+498 to the learning agenda;
+499 (b)  the invitee or applicant's expertise and knowledge specific to the learning agenda;
+500 and
+501 (c)  other factors identified by the office as relevant to participation in the learning
+502 laboratory.
+503 (7)  The office shall work with participants to establish benchmarks and assess
+504 outcomes of participation in the learning laboratory.
+505 Section 7.  Section 13-70-302 is enacted to read:
+506 13-70-302.  Regulatory mitigation agreements.
+507 (1)  A participant who uses or wants to utilize an artificial intelligence technology in the
+508 state may apply for regulatory mitigation according to criteria and procedures outlined by the
+509 office by rule made under Section 13-70-201.
+510 (2)  The office may grant, on a temporary basis, regulatory mitigation to a participant by
+511 entering into a regulatory mitigation agreement with the office and relevant agencies.
+512 (3)  To receive regulatory mitigation, a participant must demonstrate that the applicant
+513 meets eligibility criteria established in Section 13-70-303.
+514 (4)  A regulatory mitigation agreement between a participant and the office and relevant
+515 agencies shall specify:
+516 (a)  limitations on scope of the use of the participant's artificial intelligence technology,
+517 including:
+518 (i)  the number and types of users;
+519 (ii)  geographic limitations; and
+520 (iii)  other limitations to implementation;
+521 (b)  safeguards to be implemented; and
+522 (c)  any regulatory mitigation granted to the applicant.
+523 (5)  The office shall consult with relevant agencies regarding appropriate terms in a
+[page 18]
+S.B. 149 01-25-24 12:06 PM
+- 18 -
+524 regulatory mitigation agreement.
+525 (6)  A participant remains subject to all legal and regulatory requirements not expressly
+526 waived or modified by the terms of the regulatory mitigation agreement.
+527 (7) (a)  The office may remove a participant at any time and for any reason, and the
+528 participant does not have an expectation of a property right or license to participate in the
+529 learning laboratory.
+530 (b)  A participant demonstrating an artificial intelligence technology that violates legal
+531 or regulatory requirements or the terms of the participation agreement may be immediately
+532 removed from further participation and subject to all applicable civil and criminal penalties.
+533 (8)  Participation in the learning laboratory does not constitute an endorsement or
+534 approval from the state.
+535 (9)  The state shall not be responsible for any claims, liabilities, damages, losses, or
+536 expenses arising out of a participant's involvement in the learning laboratory.
+537 Section 8.  Section 13-70-303 is enacted to read:
+538 13-70-303.  Regulatory mitigation eligibility requirements -- Application
+539 evaluation and admission.
+540 (1)  To be eligible for regulatory mitigation, a participant shall demonstrate to the office
+541 that:
+542 (a)  the participant has the technical expertise and capability to responsibly develop and
+543 test the proposed artificial intelligence technology;
+544 (b)  the participant has sufficient financial resources to meet obligations during testing;
+545 (c)  the artificial intelligence technology provides potential substantial consumer
+546 benefits that may outweigh identified risks from mitigated enforcement of regulations;
+547 (d)  the participant has an effective plan to monitor and minimize identified risks from
+548 testing; and
+549 (e)  the scale, scope, duration of proposed testing is appropriately limited based on risk
+550 assessments.
+551 (2)  To evaluate whether an applicant meets eligibility criteria to receive regulatory
+552 mitigation, the office may consult with relevant agencies and outside experts regarding the
+553 application.
+554 Section 9.  Section 13-70-304 is enacted to read:
+[page 19]
+01-25-24 12:06 PM S.B. 149
+- 19 -
+555 13-70-304.  Participation in Artificial Intelligence Learning Laboratory.
+556 (1) (a)  The office may approve an applicant to participate in the program.
+557 (b)  An approved applicant becomes a participant by entering into a participation
+558 agreement with the office and relevant state agencies.
+559 (2)  A participant shall:
+560 (a)  provide required information to state agencies in accordance with the terms of the
+561 participation agreement; and
+562 (b)  report to the office as required in the participation agreement.
+563 (3)  The office may establish additional cybersecurity auditing procedures applicable to
+564 participants demonstrating artificial intelligence technologies that the office considers higher
+565 risk.
+566 (4)  A participant shall retain records as required by office rule or the participation
+567 agreement.
+568 (5)  A participant shall immediately report to the office any incidents resulting in
+569 consumer harm, privacy breach, or unauthorized data usage, which may result in removal of the
+570 participant from the learning laboratory.
+571 Section 10.  Section 13-70-305 is enacted to read:
+572 13-70-305.  Program extension.
+573 (1)  An initial regulatory mitigation agreement shall be in force for no longer than 12
+574 months.
+575 (2)  A participant may request a single 12-month extension for participation in the
+576 learning laboratory period no later than 30 days before the end of the initial 12-month period.
+577 (3)  The office shall grant or deny an extension request before expiration of the initial
+578 demonstration period.
+579 Section 11.  Section 63I-2-213 is amended to read:
+580 63I-2-213.   Repeal dates: Title 13.
+581 (1)  Section 13-1-16 is repealed on July 1, 2024.
+582 (2)  Title 13, Chapter 47, Private Employer Verification Act, is repealed on the program
+583 start date, as defined in Section 63G-12-102.
+584 (3)  Title 13, Chapter 70, Artificial Intelligence Act, is repealed on May 1, 2025.
+585 Section 12.  Section 76-2-107 is enacted to read:
+[page 20]
+S.B. 149 01-25-24 12:06 PM
+- 20 -
+586 76-2-107.  Commission of offense with aid of generative artificial intelligence.
+587 (1)  As used in this section, "generative artificial intelligence" means the same as that
+588 term is defined in Section 13-2-12.
+589 (2)  An actor may be found guilty of an offense if:
+590 (a)  the actor commits the offense with the aid of a generative artificial intelligence; or
+591 (b)  the actor intentionally prompts or otherwise causes a generative artificial
+592 intelligence to commit the offense.
+593 Section 13.  Effective date.
+594 This bill takes effect on May 1, 2024.

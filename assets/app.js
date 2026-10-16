@@ -498,19 +498,40 @@
     var box = $("#defsTable");
     if (!box) return;
     if (!DEFS.length) { box.innerHTML = '<p class="muted">No definitions yet.</p>'; return; }
-    var ORDER = ["AI system", "artificial intelligence", "general-purpose AI model", "AI model", "model", "generative AI", "automated decision system"];
+    var ORDER = ["AI system", "artificial intelligence", "high-risk AI system", "general-purpose AI model", "frontier model", "foundation model", "AI model", "model", "generative AI", "automated decision system"];
     var groups = [];
     DEFS.forEach(function (d) { if (groups.indexOf(d.term_group) < 0) groups.push(d.term_group); });
     groups.sort(function (x, y) { return (ORDER.indexOf(x) + 1 || 99) - (ORDER.indexOf(y) + 1 || 99); });
+    // closest wording in the same group: the share of content words two definitions have in common
+    // (Dice coefficient over word sets; the English rendering stands in for a text in another language)
+    var STOP = new Set("a an and any are as at be by can for from in into is it its may of on or other such than that the their these this those to which with".split(" "));
+    function words(d) {
+      var all = ((d.english || d.definition) || "").toLowerCase().match(/[a-z]+/g) || [];
+      return new Set(all.filter(function (w) { return !STOP.has(w); }).map(function (w) { return w.length > 3 ? w.replace(/s$/, "") : w; }));
+    }
+    function shared(a, b) { var n = 0; a.forEach(function (w) { if (b.has(w)) n++; }); return a.size + b.size ? 2 * n / (a.size + b.size) : 0; }
+    function closest(d, peers) {
+      var best = null, wd = words(d);
+      peers.forEach(function (p) {
+        if (p === d || p.record_id === d.record_id) return;
+        var s = shared(wd, words(p));
+        if (!best || s > best.s) best = { d: p, s: s };
+      });
+      return best;
+    }
     box.innerHTML = groups.map(function (g) {
-      var rows = DEFS.filter(function (d) { return d.term_group === g; }).map(function (d) {
-        var r = byId[d.record_id] || {};
+      var peers = DEFS.filter(function (d) { return d.term_group === g; });
+      var rows = peers.map(function (d) {
+        var r = byId[d.record_id] || {}, c = closest(d, peers);
         return "<tr><td><a href=\"#" + esc(d.record_id) + "\" data-open=\"" + esc(d.record_id) + "\">" + esc(d.record_id) + "</a> " + esc(r.short_title || "") +
           "</td><td>" + esc(d.term) + "</td><td>" + esc(d.definition) +
           (d.english ? ' <span class="muted">(English' + (d.english_by === "issuer" ? " by the issuer" : ", the agent's rendering") + ": " + esc(d.english) + ")</span>" : "") +
-          "</td><td>" + esc(d.locator) + "</td></tr>";
+          (d.text_layer ? ' <span class="muted">(quoted from the OCR text of a scan; a letter or a diacritic can differ from the print)</span>' : "") +
+          "</td><td>" + esc(d.locator) + "</td><td class=\"closest\">" +
+          (c ? '<a href="#' + esc(c.d.record_id) + '" data-open="' + esc(c.d.record_id) + '">' + esc(c.d.record_id) + "</a> " + Math.round(100 * c.s) + "%" +
+            (d.english || c.d.english ? ' <span class="muted">in English</span>' : "") : '<span class="muted">—</span>') + "</td></tr>";
       }).join("");
-      return "<h3>" + esc(g) + '</h3><div class="schema"><table><thead><tr><th>Record</th><th>Term</th><th>Definition</th><th>Where</th></tr></thead><tbody>' + rows + "</tbody></table></div>";
+      return "<h3>" + esc(g) + '</h3><div class="schema"><table><thead><tr><th>Record</th><th>Term</th><th>Definition</th><th>Where</th><th title="The definition in the same group with the most words in common">Closest wording</th></tr></thead><tbody>' + rows + "</tbody></table></div>";
     }).join("");
     box.addEventListener("click", function (e) { var a = e.target.closest("[data-open]"); if (a) { e.preventDefault(); openRecord(a.dataset.open); } });
   })();
@@ -589,7 +610,7 @@
       (questionsOf(r).length ? '<div class="sec"><h3>Open question</h3>' + questionsOf(r).map(function (q) { return "<p>" + esc(q.why) + " " + (q.url ? '<a href="' + esc(q.url) + '" target="_blank" rel="noopener">Issue #' + esc(q.issue) + "</a>" : "(not filed yet)") + "</p>"; }).join("") + '<p class="muted">The record shows its last checked values until a maintainer decides; the decision is recorded in its history.</p></div>' : "") +
       (definitionsOf(r).length ? '<div class="sec"><h3>Defined terms</h3>' + definitionsOf(r).map(function (d) {
         return '<p class="def"><strong>' + esc(d.term) + "</strong> (" + esc(d.locator) + "): " + esc(d.definition) +
-          (d.english ? ' <span class="muted">English' + (d.english_by === "issuer" ? " by the issuer" : ", the agent's rendering") + ": " + esc(d.english) + "</span>" : "") + "</p>";
+          (d.english ? ' <span class="muted">English' + (d.english_by === "issuer" ? " by the issuer" : ", the agent's rendering") + ": " + esc(d.english) + "</span>" : "") + (d.text_layer ? ' <span class="muted">(quoted from the OCR text of a scan; a letter or a diacritic can differ from the print)</span>' : "") + "</p>";
       }).join("") + '<p class="muted">Quoted verbatim from the stored source. <a href="#compare" data-tab="compare">Compare with other instruments</a>.</p></div>' : "") +
       (r.notes ? '<div class="sec"><h3>Status notes</h3><p>' + esc(r.notes) + "</p></div>" : "") +
       '<div class="sec"><h3>Sources</h3><div class="sources">' + srcs + "</div></div>" +

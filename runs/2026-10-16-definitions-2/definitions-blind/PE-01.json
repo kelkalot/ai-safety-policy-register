@@ -1,0 +1,37 @@
+{
+ "record_id": "PE-01",
+ "definitions": [
+  {
+   "term": "Inteligencia artificial",
+   "term_group": "artificial intelligence",
+   "definition": "Inteligencia artificial: Tecnología emergente de propósito general que tiene el potencial de mejorar el bienestar de las personas, contribuir a una actividad económica global sostenible positiva, aumentar la innovación y la productividad, y ayudar a responder a los desafíos globales clave.",
+   "file": "archive/PE-01/2026-10-11/official.pdf",
+   "sha256": "bd1d7428b4be4809a125375e9bce898bdc6306be47a581c2daeebf76f4045ae0",
+   "locator": "Artículo 3(a), page 2",
+   "language": "Spanish",
+   "english": "Artificial intelligence: a general-purpose emerging technology with the potential to improve people's well-being, contribute to positive sustainable global economic activity, increase innovation and productivity, and help respond to key global challenges.",
+   "english_by": "agent"
+  },
+  {
+   "term": "Sistema basado en inteligencia artificial",
+   "term_group": "AI system",
+   "definition": "Sistema basado en inteligencia artificial: Sistema electrónico-mecánico que puede, para una serie de objetivos definidos por humanos, hacer predicciones, recomendaciones o tomar decisiones, influenciando ambientes reales o virtuale s. Está diseñado para funcionar con diferentes niveles de autonomía.",
+   "file": "archive/PE-01/2026-10-11/official.pdf",
+   "sha256": "bd1d7428b4be4809a125375e9bce898bdc6306be47a581c2daeebf76f4045ae0",
+   "locator": "Artículo 3(b), page 2",
+   "language": "Spanish",
+   "english": "AI-based system: an electro-mechanical system that can, for a set of human-defined objectives, make predictions, recommendations or take decisions, influencing real or virtual environments. It is designed to operate with different levels of autonomy.",
+   "english_by": "agent"
+  }
+ ],
+ "not_found": [
+  "high-risk AI system",
+  "frontier model",
+  "foundation model",
+  "generative AI",
+  "model",
+  "AI model",
+  "general-purpose AI model"
+ ],
+ "note": ""
+}

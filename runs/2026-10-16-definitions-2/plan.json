@@ -1,0 +1,30 @@
+{
+ "about": "Second round of the definitions layer of the crosswalk (issue #70): eleven more laws and executive acts that define AI terms in their own words.",
+ "records": [
+  "US-04",
+  "US-CA-05",
+  "US-CO-01",
+  "US-TX-01",
+  "US-UT-01",
+  "CA-02",
+  "JP-04",
+  "VN-02",
+  "TW-01",
+  "KZ-01",
+  "PE-01"
+ ],
+ "term_groups": [
+  "AI system",
+  "artificial intelligence",
+  "high-risk AI system",
+  "frontier model",
+  "foundation model",
+  "generative AI",
+  "model",
+  "AI model",
+  "general-purpose AI model"
+ ],
+ "ocr_lang": {
+  "VN-02": "vie+eng"
+ }
+}

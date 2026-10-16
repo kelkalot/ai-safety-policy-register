@@ -1,0 +1,33 @@
+{
+ "record_id": "US-CO-01",
+ "definitions": [
+  {
+   "term": "ARTIFICIAL INTELLIGENCE SYSTEM",
+   "term_group": "AI system",
+   "definition": "\"ARTIFICIAL INTELLIGENCE SYSTEM\" MEANS ANY MACHINE-BASED SYSTEM THAT, FOR ANY EXPLICIT OR IMPLICIT OBJECTIVE, INFERS FROM THE INPUTS THE SYSTEM RECEIVES HOW TO GENERATE OUTPUTS, INCLUDING CONTENT, DECISIONS, PREDICTIONS, OR RECOMMENDATIONS, THAT CAN INFLUENCE PHYSICAL OR VIRTUAL ENVIRONMENTS.",
+   "file": "archive/US-CO-01/2026-10-11/document-1.pdf",
+   "sha256": "2814096f203618c2f7e9aaff9e121af67df8efcd6edfa56c5cba22835c074138",
+   "locator": "Section 6-1-1701(2), page 2",
+   "language": "English"
+  },
+  {
+   "term": "HIGH-RISK ARTIFICIAL INTELLIGENCE SYSTEM",
+   "term_group": "high-risk AI system",
+   "definition": "\"HIGH-RISK ARTIFICIAL INTELLIGENCE SYSTEM\" MEANS ANY ARTIFICIAL INTELLIGENCE SYSTEM THAT, WHEN DEPLOYED, MAKES, OR IS A SUBSTANTIAL FACTOR IN MAKING, A CONSEQUENTIAL DECISION.",
+   "file": "archive/US-CO-01/2026-10-11/document-1.pdf",
+   "sha256": "2814096f203618c2f7e9aaff9e121af67df8efcd6edfa56c5cba22835c074138",
+   "locator": "Section 6-1-1701(9)(a), page 3",
+   "language": "English"
+  }
+ ],
+ "not_found": [
+  "artificial intelligence",
+  "frontier model",
+  "foundation model",
+  "generative AI",
+  "model",
+  "AI model",
+  "general-purpose AI model"
+ ],
+ "note": "Definitions are in section 2 of the enacted act, page 2-3 of the session-law PDF; the text is in capitals in the source. Subsection (9)(b) exclusions not quoted."
+}

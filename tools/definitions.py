@@ -8,15 +8,19 @@ records, checked by script and compared between two independent extractions.
     python3 tools/definitions.py merge   --run RUN   # add the checked definitions to data/definitions.json
     python3 tools/definitions.py report  --run RUN   # RUN/report.md with the definitions side by side
 
-RUN/plan.json: {"records": ["EU-03", ...], "term_groups": ["AI system", "model"]}
+RUN/plan.json: {"records": ["EU-03", ...], "term_groups": ["AI system", "model"],
+                "ocr_lang": {"VN-02": "vie+eng"}}   # optional: the OCR language of a record's scans (default --ocr-lang)
 RUN/definitions/<RECORD>.json (and definitions-blind/ for the second extraction):
   {"record_id": "EU-03", "definitions": [{"term": "AI system", "term_group": "AI system",
     "definition": "<verbatim>", "english": "<only when the text is not English>", "english_by": "issuer | agent",
     "file": "archive/...", "sha256": "...", "locator": "Article 3(1)", "language": "English"}],
    "not_found": ["model"], "note": "..."}
+A definition quoted from a scan carries text_layer ("ocr (tesseract, vie+eng)") in data/definitions.json: the quote is
+verbatim from the OCR text, which can differ from the printed text by a letter or a diacritic.
 """
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -26,8 +30,10 @@ import pipeline as P  # noqa: E402  (same folder)
 ROOT = P.ROOT
 DEFS = ROOT / "data" / "definitions.json"
 TERM_GROUPS = ["AI system", "artificial intelligence", "model", "AI model", "general-purpose AI model",
-               "automated decision system", "generative AI", "high-risk AI system", "provider", "deployer"]
+               "automated decision system", "generative AI", "high-risk AI system", "frontier model", "foundation model",
+               "provider", "deployer"]
 MAX_QUOTE = 1200  # a definition is the data itself, so it may be longer than an evidence quote
+LINE_NO = re.compile(r"(?m)^[ \t]*\d{1,4}[ \t]+")  # margin line numbers of a printed bill
 
 
 def run_dir(run):
@@ -60,9 +66,9 @@ def cmd_textify(args):
     for rid in plan["records"]:
         for path, digest in record_files(db, rid).items():
             src, out = ROOT / path, text_path(d, path)
-            ext = src.suffix.lower()
+            ext, method = src.suffix.lower(), None
             if ext == ".pdf":
-                text = P.pdf_text(src, args.ocr_lang)[0]
+                text, _, method, _ = P.pdf_text(src, (plan.get("ocr_lang") or {}).get(rid, args.ocr_lang))
             elif ext in (".html", ".xml"):
                 text = P.html_text(src)[0]
             elif ext == ".txt":
@@ -71,8 +77,8 @@ def cmd_textify(args):
                 continue
             out.parent.mkdir(parents=True, exist_ok=True)
             out.write_text(text, encoding="utf-8")
-            rows.append({"record_id": rid, "file": path, "sha256": digest, "text": str(out.relative_to(ROOT)),
-                         "chars": len(text)})
+            rows.append(dict({"record_id": rid, "file": path, "sha256": digest, "text": str(out.relative_to(ROOT)),
+                              "chars": len(text)}, **({"method": method} if method and method.startswith("ocr") else {})))
     P.write_json(d / "texts.json", {"files": rows})
     print("Text for %d file(s) of %d record(s); listed in runs/%s/texts.json" % (len(rows), len(plan["records"]), args.run))
     return 0
@@ -103,10 +109,14 @@ def check_one(db, d, texts, rid, item):
         problems.append("the definition is empty or longer than %d characters" % MAX_QUOTE)
     if path in files and quote:
         tp = text_path(d, path)
-        body = texts.setdefault(path, P.norm_text(tp.read_text(encoding="utf-8")) if tp.is_file() else "")
+        if path not in texts:
+            raw = tp.read_text(encoding="utf-8") if tp.is_file() else ""
+            # a bill printed with line numbers: the number that starts a line is not part of the text
+            texts[path] = (P.norm_text(raw), P.norm_text(LINE_NO.sub("", raw)))
+        body, unnumbered = texts[path]
         if not body:
             problems.append("no text layer for %s (run textify)" % path)
-        elif P.norm_text(quote) not in body and P.loose(quote) not in P.loose(body):
+        elif not any(P.norm_text(quote) in b or P.loose(quote) in P.loose(b) for b in (body, unnumbered)):
             problems.append("the definition is not found in the stored text")
     if not item.get("locator"):
         problems.append("no locator")
@@ -172,6 +182,7 @@ def cmd_merge(args):
                             "tools/definitions.py. Similar definitions are not legally equivalent; nothing here is "
                             "legal advice.")
     items = reg.setdefault("definitions", [])
+    ocr = {t["file"]: t["method"] for t in (P.read_json(d / "texts.json", {}) or {}).get("files") or [] if t.get("method")}
     have = {(x["record_id"], x["term_group"]) for x in items}
     n = max([int(x["id"][1:]) for x in items] + [0])
     added = 0
@@ -183,7 +194,7 @@ def cmd_merge(args):
             n += 1
             items.append(dict({"id": "D%04d" % n, "record_id": rid}, **{k: item.get(k) for k in (
                 "term", "term_group", "definition", "english", "english_by", "language", "locator", "file", "sha256")},
-                run_id=args.run))
+                **dict({"text_layer": ocr[item.get("file")]} if item.get("file") in ocr else {}, run_id=args.run)))
             added += 1
     if not args.dry_run:
         P.write_json(DEFS, reg)
@@ -198,12 +209,16 @@ def cmd_report(args):
     reg = P.read_json(DEFS, {}) or {}
     agr = P.read_json(d / "agreement.json", {}) or {}
     mine = [x for x in reg.get("definitions") or [] if x.get("run_id") == args.run]
-    L = ["# Definitions pilot %s" % args.run, "",
+    L = ["# Definitions %s" % args.run, "",
          "Defined terms quoted verbatim from the stored sources of %d records (issue #70). Every quote was checked "
          "against its stored file and SHA-256 by `tools/definitions.py check`. Similar definitions are not legally "
          "equivalent; nothing here is legal advice." % len(plan["records"]), "",
          "**Repeatability:** %s of %s pairs from two independent extractions quote the same definition, %s the same "
          "locator." % (agr.get("same_definition"), agr.get("pairs"), agr.get("same_locator")), ""]
+    scans = sorted({(x["record_id"], x["text_layer"]) for x in mine if x.get("text_layer")})
+    if scans:
+        L += ["**Text from OCR:** %s. These quotes are verbatim from the OCR text of a scan, which can differ from the "
+              "printed text by a letter or a diacritic." % "; ".join("%s, %s" % s for s in scans), ""]
     for g in TERM_GROUPS:
         rows = [x for x in mine if x["term_group"] == g]
         if not rows:
@@ -224,7 +239,10 @@ def cmd_report(args):
         L += ["- %s, %s: %s" % (r["record_id"], r["term_group"], r["text"]) for r in review] + [""]
     missing = [(rid, ex.get("not_found")) for rid, ex in load_extractions(d, "definitions").items() if ex.get("not_found")]
     if missing:
-        L += ["## Not defined in the stored text", ""] + ["- %s: %s" % (rid, ", ".join(nf)) for rid, nf in missing] + [""]
+        L += ["## Not found in the stored text", "",
+              "Not found means only that the stored files do not define the term: where they are a press release or a "
+              "status page rather than the instrument's text (the extraction's note says so), that text has to be "
+              "archived before a later run can look again.", ""] + ["- %s: %s" % (rid, ", ".join(nf)) for rid, nf in missing] + [""]
     (d / "report.md").write_text("\n".join(L) + "\n", encoding="utf-8")
     print("Written runs/%s/report.md (%d definitions)" % (args.run, len(mine)))
     return 0

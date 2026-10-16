@@ -1,0 +1,37 @@
+{
+ "record_id": "PE-01",
+ "definitions": [
+  {
+   "term": "Inteligencia artificial",
+   "term_group": "artificial intelligence",
+   "definition": "Tecnología emergente de propósito general que tiene el potencial de mejorar el bienestar de las personas, contribuir a una actividad económica global sostenible positiva, aumentar la innovación y la productividad, y ayudar a responder a los desafíos globales clave.",
+   "english": "Artificial intelligence: an emerging general-purpose technology that has the potential to improve people's well-being, contribute to positive and sustainable global economic activity, increase innovation and productivity, and help respond to key global challenges.",
+   "english_by": "agent",
+   "file": "archive/PE-01/2026-10-11/official.pdf",
+   "sha256": "bd1d7428b4be4809a125375e9bce898bdc6306be47a581c2daeebf76f4045ae0",
+   "locator": "Article 3(a) (Artículo 3, literal a), page 2",
+   "language": "Spanish"
+  },
+  {
+   "term": "Sistema basado en inteligencia artificial",
+   "term_group": "AI system",
+   "definition": "Sistema electrónico-mecánico que puede, para una serie de objetivos definidos por humanos, hacer predicciones, recomendaciones o tomar decisiones, influenciando ambientes reales o virtuales. Está diseñado para funcionar con diferentes niveles de autonomía.",
+   "english": "Artificial intelligence-based system: an electronic-mechanical system that can, for a set of human-defined objectives, make predictions, recommendations or decisions influencing real or virtual environments. It is designed to operate with different levels of autonomy.",
+   "english_by": "agent",
+   "file": "archive/PE-01/2026-10-11/official.pdf",
+   "sha256": "bd1d7428b4be4809a125375e9bce898bdc6306be47a581c2daeebf76f4045ae0",
+   "locator": "Article 3(b) (Artículo 3, literal b), page 2",
+   "language": "Spanish"
+  }
+ ],
+ "not_found": [
+  "high-risk AI system",
+  "frontier model",
+  "foundation model",
+  "generative AI",
+  "model",
+  "AI model",
+  "general-purpose AI model"
+ ],
+ "note": "Quoted from the consolidated text of Law No. 31814 on the Congress's law site (official.pdf), whose header says it was published in El Peruano on 5 July 2023. The definitions are quoted without the term labels that precede them ('Inteligencia artificial:' and 'Sistema basado en inteligencia artificial:'). The text layer splits 'virtuales' into 'virtuale s' in item (b); the quote removes that space, and no other character differs. Item (a) calls artificial intelligence an emerging general-purpose technology; that is not a definition of a general-purpose AI model. Article 3 also defines 'tecnologías emergentes' (emerging technologies) and 'algoritmo' (algorithm), which have no term group. No English text of the law is among the stored files, so the English renderings are the agent's."
+}
