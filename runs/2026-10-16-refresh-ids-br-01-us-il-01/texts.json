@@ -1,0 +1,90 @@
+{
+ "run_id": "2026-10-16-refresh-ids-br-01-us-il-01",
+ "generated": "2026-10-16",
+ "files": [
+  {
+   "cand_id": "BR-01",
+   "file": "archive/BR-01/2026-10-11/official.html",
+   "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+   "role": "official",
+   "url": "https://www.camara.leg.br/propostas-legislativas/2487262",
+   "txt": "archive/BR-01/2026-10-11/official.html.txt",
+   "pages": null,
+   "chars": 221991,
+   "method": "html",
+   "warning": null
+  },
+  {
+   "cand_id": "BR-01",
+   "file": "archive/BR-01/2026-10-16/secondary.html",
+   "sha256": "55370034983db3e98d04546ac6bcdadccc7483387c1310286e6a69005201deb1",
+   "role": "secondary",
+   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/157233",
+   "txt": "archive/BR-01/2026-10-16/secondary.html.txt",
+   "pages": null,
+   "chars": 234387,
+   "method": "html",
+   "warning": null
+  },
+  {
+   "cand_id": "BR-01",
+   "file": "archive/BR-01/2026-10-11/secondary.html",
+   "sha256": "391abaa09bc304ed65305390f36037f6d4be5c92f6990e3a0b55de15b44fae63",
+   "role": "secondary",
+   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/157233",
+   "txt": "archive/BR-01/2026-10-11/secondary.html.txt",
+   "pages": null,
+   "chars": 234387,
+   "method": "html",
+   "warning": null
+  },
+  {
+   "cand_id": "BR-01",
+   "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+   "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+   "role": "extra",
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2868197",
+   "txt": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf.txt",
+   "pages": 36,
+   "chars": 99084,
+   "method": "pypdf",
+   "warning": null
+  },
+  {
+   "cand_id": "BR-01",
+   "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-3b087e7a57/2026-10-16/official.pdf",
+   "sha256": "f7dfa91ea6cae62a8a655b0aff5f3957ae50abf8c19ffac9ee840abe4dfa15b1",
+   "role": "extra",
+   "url": "https://camposthomaz.com/wp-content/uploads/2024/12/DOC-Minuta-SF247487258667-20241219.pdf",
+   "txt": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-3b087e7a57/2026-10-16/official.pdf.txt",
+   "pages": 35,
+   "chars": 104916,
+   "method": "pypdf",
+   "warning": null
+  },
+  {
+   "cand_id": "US-IL-01",
+   "file": "archive/US-IL-01/2026-10-14/secondary.html",
+   "sha256": "ab072476bac10ce023bced6b610924ce8717fb40d624bff5fd288a305cb99425",
+   "role": "secondary",
+   "url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
+   "txt": "archive/US-IL-01/2026-10-14/secondary.html.txt",
+   "pages": null,
+   "chars": 8730,
+   "method": "html",
+   "warning": null
+  },
+  {
+   "cand_id": "US-IL-01",
+   "file": "archive/US-IL-01/2026-10-11/secondary.html",
+   "sha256": "bf6621e3e8ffb83fc05d4e2b8177bc1458fa5cd8ff6727785734b6e6d3ebb4fa",
+   "role": "secondary",
+   "url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
+   "txt": "archive/US-IL-01/2026-10-11/secondary.html.txt",
+   "pages": null,
+   "chars": 8646,
+   "method": "html",
+   "warning": null
+  }
+ ]
+}

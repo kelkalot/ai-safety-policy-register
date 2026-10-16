@@ -1,0 +1,239 @@
+{
+ "provenance": {
+  "date": "2026-10-16",
+  "agent": "Claude Code",
+  "model": "claude-opus-5-5",
+  "scope": "pipeline run 2026-10-16-refresh-ids-br-01-us-il-01 (refresh: ids:BR-01,US-IL-01)",
+  "run_id": "2026-10-16-refresh-ids-br-01-us-il-01",
+  "stages": {
+   "collect": {
+    "tool": null,
+    "model": null,
+    "date": null
+   },
+   "extract": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+   },
+   "blind": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5",
+    "date": "2026-10-16"
+   },
+   "check": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5",
+    "date": "2026-10-16"
+   }
+  }
+ },
+ "records": [],
+ "updates": [
+  {
+   "title": "Bill No. 2338/2023 on the development, promotion and ethical and responsible use of artificial intelligence based on the centrality of the human person",
+   "original_title": "Projeto de Lei nº 2338, de 2023 – Dispõe sobre o desenvolvimento, o fomento e o uso ético e responsável da inteligência artificial com base na centralidade da pessoa humana",
+   "summary": "Sets national rules for responsible governance of AI systems. It bans 'excessive risk' systems, such as those that exploit vulnerabilities to cause harm, assess personality traits to predict crime, public-authority universal scoring, autonomous weapons and, with exceptions, real-time remote biometric identification in public spaces. High-risk uses bring rights to explanation, contestation and human review, governance measures and algorithmic impact assessments. General-purpose and generative AI developers must assess risk and, for systemic risk, document tests. Synthetic content needs identifiers and serious incidents must be reported, under a national system (SIA) coordinated by the ANPD.",
+   "safety_topics": [
+    "risk-based classification",
+    "prohibited practices",
+    "general-purpose / frontier AI",
+    "human oversight",
+    "transparency & labelling",
+    "incident reporting"
+   ],
+   "english_version": {
+    "kind": "third-party translation",
+    "url": "https://camposthomaz.com/wp-content/uploads/2024/12/DOC-Minuta-SF247487258667-20241219.pdf",
+    "by": "Campos Thomaz Advogados (automatic machine translation by Google Translate)"
+   },
+   "secondary_url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2868197",
+   "date_last_updated": "2024-12-10",
+   "notes": "Presented in the Federal Senate by Sen. Rodrigo Pacheco on 3 May 2023, with the original ementa 'Dispõe sobre o uso da Inteligência Artificial'; the Senate calls it the 'Marco Legal da Inteligência Artificial'. The Senate's Temporary Internal Committee on Artificial Intelligence (CTIA) approved rapporteur Sen. Eduardo Gomes's substitute (Amendment No. 199) on 5 Dec 2024. On 10 Dec 2024 the Senate plenary approved the substitute, which was definitively adopted in the supplementary round without amendments, and the other Senate AI bills joined to it (PL 5051/2019, 5691/2019, 21/2020, 872/2021, 3592/2023, 210/2024 and 266/2024) were declared prejudicados. The text sent to the Chamber is the Senate's autógrafo of the substitute, signed by Senate President Rodrigo Pacheco on 31 Jan 2025; Ofício SF No. 235 of 17 Mar 2025 sent it to the Chamber of Deputies for review under art. 65 of the Federal Constitution. As adopted by the Senate, the law would enter into force 730 days after publication; the bans of art. 13, the rules for general-purpose and generative AI (Chapter IV, Section V) and the copyright rules (Chapter X, Section IV) 180 days after publication, except art. 62, which would apply at once; and Chapter IX on supervision (except the sanctions of art. 50) and Sections III and V of Chapter X on publication. Civil liability for damage caused by AI stays under the Consumer Defence Code and the Civil Code, with the burden of proof reversed when the victim is hyposufficient or proof is excessively burdensome (arts. 35 to 37), and fines are capped at R$50 million per infraction or, for private legal entities, 2% of gross revenue in Brazil (art. 50). In the Chamber the bill is subject to a plenary vote under the priority regime (art. 151, II, of the Chamber's Rules). On 4 Apr 2025 it was distributed to six committees and, because more than four had jurisdiction on the merits, a Special Committee was created; the committee was constituted on 29 Apr 2025 and Dep. Aguinaldo Ribeiro (PP-PB) was designated rapporteur on 20 May 2025. The committee approved requests for public hearings and seminars in 2025, and further bills were attached to the bill in 2025 and 2026, most recently PL 3060/2026 on 1 Sep 2026. Its Chamber status is 'Aguardando Parecer do(a) Relator(a) na Comissão Especial' (awaiting the rapporteur's report in the Special Committee); no report or substitute has been presented in the Chamber, and the last recorded action is of 2 Sep 2026. The English machine translation given as english_version renders the Senate's revised text ('Minuta') of 19 Dec 2024, the undated draft of the autógrafo with the same reference (ivb/pl23-2338rev), not the signed autógrafo of 31 Jan 2025.",
+   "id": "BR-01",
+   "verification": {
+    "level": "B",
+    "verified_on": "2026-10-16",
+    "method": "alternative-official-url-fetched",
+    "note": "Stored copies: the bill text as received by the Chamber of Deputies (camara.leg.br, 'inteiro teor', codteor=2868197, stored 16 Oct 2026; 36 pages, the Senate autógrafo signed 31 Jan 2025 and stamped 'Apresentação: 17/03/2025'), the Chamber bill page (stored 11 Oct 2026; the archiver found its text unchanged on 16 Oct 2026), the Federal Senate bill page (senado.leg.br, stored 16 Oct 2026; it differs from the 11 Oct copy only in its news sidebar) and an English machine translation published by Campos Thomaz Advogados. Summary, topics, title and original_title were written from the Portuguese text. The Chamber page confirms the number, the ementa, the author, the receipt on 17 Mar 2025, the Special Committee and rapporteur, the status 'Aguardando Parecer do(a) Relator(a) na Comissão Especial', no reports or substitutes in the Chamber and the last action of 2 Sep 2026. The Senate page confirms presentation on 3 May 2023, the CTIA approval of Amendment No. 199 on 5 Dec 2024, final adoption on 10 Dec 2024 and the remittance with Ofício SF 235/2025; it was stored as the record's secondary source, so the presentation date rests on alt-official evidence. The translation is marked 'Machine Translated by Google', is not reviewed and contains errors (its art. 13 renders 'sistemas de IA' as 'information systems'); it was not used for the summary. No English text of the issuer and no government translation was found. The secondary_url now points to the stored bill text; the Senate page, the only stored source of the 3 May 2023 date, leaves the record's local copy and should be requested again in extra_urls by a later refresh. Press reports on the timing of a Chamber vote rest on no stored source and are no longer stated in the record.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-16: 10 field(s) supported."
+   }
+  },
+  {
+   "id": "US-IL-01",
+   "verification": {
+    "level": "C",
+    "verified_on": "2026-10-16",
+    "method": "search-confirmed",
+    "note": "CAUTION: no stored file supports the title, the Public Act number, the approval date, the effective date or the status. The ILGA bill status page, the record's official source, could not be stored in any attempt from 11 to 16 Oct 2026 (connection timed out; robots.txt unreachable). The only stored file is the Illinois Department of Human Rights legislative-updates page (dhr.illinois.gov, stored 14 Oct 2026, the record's secondary source); it says that recent additions to Illinois civil rights law include 'regulations on artificial intelligence in employment', that proposed IDHR rules are published in the Illinois Register with comment periods of typically 45 days, and that no comment period is open, but it names no statute, Public Act or date. Bill number, Public Act number and dates were carried over from the version 1 record and still need an official source. IDHR rules implementing the notice duty were proposed in the Illinois Register of 15 May 2026 (50 Ill. Reg. 6794 per law-firm alerts) and withdrawn in June 2026 (the Illinois Register of 26 Jun 2026 lists a withdrawal of proposed rules on the Procedures of the Department of Human Rights); both issues on ilsos.gov and the Public Act text on ilga.gov were requested for storage. These rulemaking facts rest on search results and secondary sources only and are not stated in the record.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-16: 0 field(s) supported."
+   }
+  }
+ ],
+ "history_context": {
+  "BR-01": {
+   "reason": "pipeline run 2026-10-16-refresh-ids-br-01-us-il-01 (refresh), candidate BR-01",
+   "fields": {
+    "title": {
+     "reason": "Rendered from the full ementa of the stored text; the earlier title left out 'based on the centrality of the human person' (com base na centralidade da pessoa humana).",
+     "evidence": [
+      {
+       "field": "title",
+       "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+       "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+       "locator": "page 1",
+       "quote": "Dispõe sobre o desenvolvimento, o fomento e o uso ético e responsável da inteligência artificial com base na centralidade da pessoa humana. O Congresso Nacional decreta:"
+      }
+     ]
+    },
+    "original_title": {
+     "reason": "The number in the form both chambers use in full ('Projeto de Lei nº 2338, de 2023', as on the Chamber page) followed by the ementa verbatim from the stored text; 'nº 2338/2023' does not appear in that form on any stored page.",
+     "evidence": [
+      {
+       "field": "original_title",
+       "file": "archive/BR-01/2026-10-11/official.html",
+       "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+       "locator": "Situação",
+       "quote": "Situação: Aguardando Parecer do(a) Relator(a) na Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 2338, de 2023, do Senado Federal"
+      }
+     ]
+    },
+    "summary": {
+     "reason": "Rewritten from the stored Portuguese text (arts. 1, 6, 13, 14, 18, 19, 25, 29, 30, 42 and 45), using the bill's own terms: 'excessive risk' (risco excessivo), 'high risk' (alto risco), general-purpose and generative AI (IA de propósito geral e generativa), systemic risk (risco sistêmico), synthetic content (conteúdo sintético), serious incidents (grave incidente), the SIA and the ANPD as competent authority. Moved liability and fines to the notes.",
+     "evidence": [
+      {
+       "field": "summary",
+       "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+       "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+       "locator": "page 1, art. 1",
+       "quote": "Art. 1º Esta Lei estabelece normas gerais de caráter nacional para a governança responsável de sistemas de inteligência artificial (IA) no Brasil"
+      }
+     ]
+    },
+    "safety_topics": {
+     "reason": "Six topics, each backed by a provision: risk-based classification (arts. 12-15), prohibited practices (art. 13), general-purpose / frontier AI (arts. 29-30), human oversight (arts. 6 and 8), transparency & labelling (art. 19), incident reporting (art. 42). Dropped 'accountability & liability': the record had seven topics, one more than allowed, and the liability chapter mostly keeps the existing Consumer Defence Code and Civil Code regimes (arts. 35-36); the liability and fine provisions are now in the notes.",
+     "evidence": [
+      {
+       "field": "safety_topics",
+       "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+       "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+       "locator": "art. 15",
+       "quote": "Art. 15. Caberá ao SIA regulamentar a classificação da lista dos sistemas de IA de alto risco"
+      }
+     ]
+    },
+    "english_version": {
+     "reason": "The only English text found: a Google machine translation of the Senate's revised text of 19 Dec 2024, published by Campos Thomaz Advogados (third-party); stored in this run.",
+     "evidence": [
+      {
+       "field": "english_version",
+       "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-3b087e7a57/2026-10-16/official.pdf",
+       "sha256": "f7dfa91ea6cae62a8a655b0aff5f3957ae50abf8c19ffac9ee840abe4dfa15b1",
+       "locator": "page 1",
+       "quote": "Machine Translated by Google"
+      }
+     ]
+    },
+    "secondary_url": {
+     "reason": "Points the record's second source at the stored bill text, so that the local copy holds the bill's own text; see local_copy_reasoning.",
+     "evidence": []
+    },
+    "date_last_updated": {
+     "reason": "The last new version of the text is the Senate substitute definitively adopted on 10 Dec 2024; the 2 Sep 2026 entry was an attachment of other bills, not a new version of PL 2338/2023.",
+     "evidence": [
+      {
+       "field": "date_last_updated",
+       "file": "archive/BR-01/2026-10-16/secondary.html",
+       "sha256": "55370034983db3e98d04546ac6bcdadccc7483387c1310286e6a69005201deb1",
+       "locator": "Lista de publicações oficiais, 11/12/2024 (DSF nº 212)",
+       "quote": "(Sessão Deliberativa Ordinária, realizada em 10/12/2024) Encaminhadas à publicação as Emendas nºs 200 a 244-PLEN."
+      }
+     ]
+    },
+    "notes": {
+     "reason": "Rewritten from the stored pages and text: adds the CTIA approval, the Senate's final adoption and the bills declared prejudicados, the autógrafo of 31 Jan 2025, the Ofício and art. 65 review, the phased entry into force of art. 80, the liability and fine provisions, the Chamber's distribution, Special Committee and priority regime, the 2026 attachments, the absence of a Chamber report and the version the English translation renders. Removed the press reports on the timing of a vote and the remark that Chamber amendments send the bill back to the Senate, which no stored source shows, and the sentence on the excluded PBIA, which was about the research, not the bill.",
+     "evidence": [
+      {
+       "field": "notes",
+       "file": "archive/BR-01/2026-10-16/secondary.html",
+       "sha256": "55370034983db3e98d04546ac6bcdadccc7483387c1310286e6a69005201deb1",
+       "locator": "Documentos, Proposição",
+       "quote": "Descrição/Ementa Dispõe sobre o uso da Inteligência Artificial."
+      }
+     ]
+    },
+    "verification.level": {
+     "reason": "level computed from the evidence by tools/pipeline.py",
+     "evidence": []
+    }
+   },
+   "confirmed": [
+    "issuing_body",
+    "official_identifier",
+    "date_published",
+    "status",
+    "legal_force"
+   ],
+   "evidence": [
+    {
+     "field": "issuing_body",
+     "file": "archive/BR-01/2026-10-11/official.html",
+     "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+     "locator": "Identificação da Proposição, Autor",
+     "quote": "Autor Senado Federal - Rodrigo Pacheco - PSD/MG"
+    },
+    {
+     "field": "official_identifier",
+     "file": "archive/BR-01/2026-10-11/official.html",
+     "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+     "locator": "page heading",
+     "quote": "PL 2338/2023 Inteiro teor Projeto de Lei"
+    },
+    {
+     "field": "date_published",
+     "file": "archive/BR-01/2026-10-16/secondary.html",
+     "sha256": "55370034983db3e98d04546ac6bcdadccc7483387c1310286e6a69005201deb1",
+     "locator": "Documentos, Proposição",
+     "quote": "Identificação: PL 2338/2023 Autor: Senador Rodrigo Pacheco (PSD/MG) Data: 03/05/2023"
+    },
+    {
+     "field": "status",
+     "file": "archive/BR-01/2026-10-11/official.html",
+     "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+     "locator": "Situação",
+     "quote": "Situação: Aguardando Parecer do(a) Relator(a) na Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 2338, de 2023, do Senado Federal"
+    },
+    {
+     "field": "legal_force",
+     "file": "archive/BR-01/2026-10-11/official.html",
+     "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+     "locator": "page heading",
+     "quote": "PL 2338/2023 Inteiro teor Projeto de Lei"
+    }
+   ],
+   "cand_id": "BR-01"
+  },
+  "US-IL-01": {
+   "reason": "pipeline run 2026-10-16-refresh-ids-br-01-us-il-01 (refresh), candidate US-IL-01",
+   "fields": {},
+   "confirmed": [],
+   "evidence": [],
+   "cand_id": "US-IL-01"
+  }
+ },
+ "assigned": {
+  "BR-01": "BR-01",
+  "US-IL-01": "US-IL-01"
+ },
+ "not_added": [],
+ "needs_human": [],
+ "questions": [
+  {
+   "cand_id": "US-IL-01",
+   "record_id": "US-IL-01",
+   "why": "checker: The run changes only verification.note, which is accurate and carries CAUTION. No title, date or status can be supported from a stored file, since the ILGA page has not been stored in any attempt and the IDHR page names no statute. Web search agrees with the published values (signed 9 Aug 2024, effective 1 Jan 2026) but only from secondary sources, and conflicts on whether the 2026 IDHR rules were withdrawn. The existing notes sentence about what the IDHR page says belongs in verification.note. A human or a run on a network that reaches ilga.gov must store the Public Act.; title is unsupported and the checker gave no evidence-backed fix; official_identifier is unsupported and the checker gave no evidence-backed fix; date_published is unsupported and the checker gave no evidence-ba"
+  }
+ ],
+ "unchecked": [],
+ "summary": "0 new, 2 update(s), 0 not added, 0 need a human, 1 merged with an open question, 0 not ready"
+}

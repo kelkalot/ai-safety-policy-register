@@ -1,0 +1,124 @@
+{
+ "run_id": "2026-10-16-refresh-ids-br-01-us-il-01",
+ "generated": "2026-10-16",
+ "compared": 2,
+ "pending": [],
+ "overall_field_agreement": 0.0,
+ "fields": {
+  "decision": {
+   "compared": 2,
+   "agree": 1,
+   "rate": 0.5
+  },
+  "title": {
+   "compared": 1,
+   "agree": 0,
+   "rate": 0.0
+  },
+  "original_title": {
+   "compared": 1,
+   "agree": 0,
+   "rate": 0.0
+  },
+  "issuing_body": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "official_identifier": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_published": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_in_force": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_last_updated": {
+   "compared": 1,
+   "agree": 0,
+   "rate": 0.0
+  },
+  "status": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "legal_force": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "instrument_type": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "jurisdiction_level": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "region": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "country": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "safety_topics": {
+   "compared": 1,
+   "agree": 0,
+   "rate": 0.0
+  }
+ },
+ "disagreements": {
+  "BR-01": [
+   {
+    "field": "title",
+    "first": "Bill No. 2338/2023 on the development, promotion and ethical and responsible use of artificial intelligence based on the centrality of the human person",
+    "blind": null
+   },
+   {
+    "field": "original_title",
+    "first": "Projeto de Lei nº 2338, de 2023 – Dispõe sobre o desenvolvimento, o fomento e o uso ético e responsável da inteligência artificial com base na centralidade da pessoa humana",
+    "blind": null
+   },
+   {
+    "field": "date_last_updated",
+    "first": "2024-12-10",
+    "blind": null
+   },
+   {
+    "field": "safety_topics",
+    "first": [
+     "risk-based classification",
+     "prohibited practices",
+     "general-purpose / frontier AI",
+     "human oversight",
+     "transparency & labelling",
+     "incident reporting"
+    ],
+    "blind": null
+   }
+  ],
+  "US-IL-01": [
+   {
+    "field": "decision",
+    "first": "update",
+    "blind": "needs-human"
+   }
+  ]
+ },
+ "resulting_record_agreement": 0.846,
+ "resulting_record_fields": 13
+}

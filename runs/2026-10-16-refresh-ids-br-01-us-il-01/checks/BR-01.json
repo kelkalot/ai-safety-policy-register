@@ -1,0 +1,84 @@
+{
+ "cand_id": "BR-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-16",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Ementa quoted from the stored Chamber text, page 1, matches the English title; rendering is accurate."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "Checked against the stored bill text and Senate page heading; the 'Projeto de Lei nº 2338, de 2023 – ' prefix comes from the Senate heading."
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "3 May 2023 shown on the stored Senate page (alt-official), so level is B."
+  },
+  "date_last_updated": {
+   "verdict": "supported",
+   "why": "10 Dec 2024 final adoption of the Senate substitute; the 2 Sep 2026 Chamber entry only attaches another bill, so it is not a new version."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Chamber page: awaiting the rapporteur's report in the Special Committee; a bill, status Draft / proposed fits."
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported",
+   "why": "Third-party machine translation, stored (extra_urls); kind and 'by' are accurate."
+  },
+  "safety_topics": {
+   "verdict": "judgment-differs",
+   "why": "Dropping 'accountability & liability' is defensible, but arts. 35-37 set liability rules; I would have kept it."
+  },
+  "summary": {
+   "verdict": "supported",
+   "why": "Claims checked against the Portuguese text."
+  },
+  "notes": {
+   "verdict": "judgment-differs",
+   "why": "Last sentence describes the provenance of the English machine translation, which belongs in verification.note rather than notes. Dates, article numbers and the 180/730-day phasing match the stored text."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Bans excessive-risk systems incl. autonomous weapons and real-time remote biometric identification with exceptions",
+   "verdict": "supported",
+   "locator": "page 9, art. 13 III-IV"
+  },
+  {
+   "claim": "National system SIA coordinated by the ANPD",
+   "verdict": "supported",
+   "locator": "art. 45 par. 1 I"
+  },
+  {
+   "claim": "Serious incidents must be reported",
+   "verdict": "supported",
+   "locator": "art. 42"
+  },
+  {
+   "claim": "General-purpose and generative AI developers assess risk, document tests for systemic risk",
+   "verdict": "supported",
+   "locator": "arts. 29-30"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Pending national AI bill."
+ },
+ "overall": "accept",
+ "note": "Every changed field is backed by quotes that the evidence script found in stored official files. I spot-checked art. 13, 29, 30, 42, 45, 50 and 80 against the stored text of the bill and the Chamber page. A web search found no newer official version (no Chamber report or substitute). The notes field has one sentence about the translation's provenance that would fit better in verification.note; this is a wording point and does not block acceptance."
+}

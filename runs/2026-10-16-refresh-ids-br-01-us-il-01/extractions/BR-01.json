@@ -1,0 +1,591 @@
+{
+ "cand_id": "BR-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "BR-01",
+ "record": {
+  "title": "Bill No. 2338/2023 on the development, promotion and ethical and responsible use of artificial intelligence based on the centrality of the human person",
+  "original_title": "Projeto de Lei nº 2338, de 2023 – Dispõe sobre o desenvolvimento, o fomento e o uso ético e responsável da inteligência artificial com base na centralidade da pessoa humana",
+  "summary": "Sets national rules for responsible governance of AI systems. It bans 'excessive risk' systems, such as those that exploit vulnerabilities to cause harm, assess personality traits to predict crime, public-authority universal scoring, autonomous weapons and, with exceptions, real-time remote biometric identification in public spaces. High-risk uses bring rights to explanation, contestation and human review, governance measures and algorithmic impact assessments. General-purpose and generative AI developers must assess risk and, for systemic risk, document tests. Synthetic content needs identifiers and serious incidents must be reported, under a national system (SIA) coordinated by the ANPD.",
+  "safety_topics": [
+   "risk-based classification",
+   "prohibited practices",
+   "general-purpose / frontier AI",
+   "human oversight",
+   "transparency & labelling",
+   "incident reporting"
+  ],
+  "english_version": {
+   "kind": "third-party translation",
+   "url": "https://camposthomaz.com/wp-content/uploads/2024/12/DOC-Minuta-SF247487258667-20241219.pdf",
+   "by": "Campos Thomaz Advogados (automatic machine translation by Google Translate)"
+  },
+  "secondary_url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2868197",
+  "date_last_updated": "2024-12-10",
+  "notes": "Presented in the Federal Senate by Sen. Rodrigo Pacheco on 3 May 2023, with the original ementa 'Dispõe sobre o uso da Inteligência Artificial'; the Senate calls it the 'Marco Legal da Inteligência Artificial'. The Senate's Temporary Internal Committee on Artificial Intelligence (CTIA) approved rapporteur Sen. Eduardo Gomes's substitute (Amendment No. 199) on 5 Dec 2024. On 10 Dec 2024 the Senate plenary approved the substitute, which was definitively adopted in the supplementary round without amendments, and the other Senate AI bills joined to it (PL 5051/2019, 5691/2019, 21/2020, 872/2021, 3592/2023, 210/2024 and 266/2024) were declared prejudicados. The text sent to the Chamber is the Senate's autógrafo of the substitute, signed by Senate President Rodrigo Pacheco on 31 Jan 2025; Ofício SF No. 235 of 17 Mar 2025 sent it to the Chamber of Deputies for review under art. 65 of the Federal Constitution. As adopted by the Senate, the law would enter into force 730 days after publication; the bans of art. 13, the rules for general-purpose and generative AI (Chapter IV, Section V) and the copyright rules (Chapter X, Section IV) 180 days after publication, except art. 62, which would apply at once; and Chapter IX on supervision (except the sanctions of art. 50) and Sections III and V of Chapter X on publication. Civil liability for damage caused by AI stays under the Consumer Defence Code and the Civil Code, with the burden of proof reversed when the victim is hyposufficient or proof is excessively burdensome (arts. 35 to 37), and fines are capped at R$50 million per infraction or, for private legal entities, 2% of gross revenue in Brazil (art. 50). In the Chamber the bill is subject to a plenary vote under the priority regime (art. 151, II, of the Chamber's Rules). On 4 Apr 2025 it was distributed to six committees and, because more than four had jurisdiction on the merits, a Special Committee was created; the committee was constituted on 29 Apr 2025 and Dep. Aguinaldo Ribeiro (PP-PB) was designated rapporteur on 20 May 2025. The committee approved requests for public hearings and seminars in 2025, and further bills were attached to the bill in 2025 and 2026, most recently PL 3060/2026 on 1 Sep 2026. Its Chamber status is 'Aguardando Parecer do(a) Relator(a) na Comissão Especial' (awaiting the rapporteur's report in the Special Committee); no report or substitute has been presented in the Chamber, and the last recorded action is of 2 Sep 2026. The English machine translation given as english_version renders the Senate's revised text ('Minuta') of 19 Dec 2024, the undated draft of the autógrafo with the same reference (ivb/pl23-2338rev), not the signed autógrafo of 31 Jan 2025.",
+  "verification": {
+   "note": "Stored copies: the bill text as received by the Chamber of Deputies (camara.leg.br, 'inteiro teor', codteor=2868197, stored 16 Oct 2026; 36 pages, the Senate autógrafo signed 31 Jan 2025 and stamped 'Apresentação: 17/03/2025'), the Chamber bill page (stored 11 Oct 2026; the archiver found its text unchanged on 16 Oct 2026), the Federal Senate bill page (senado.leg.br, stored 16 Oct 2026; it differs from the 11 Oct copy only in its news sidebar) and an English machine translation published by Campos Thomaz Advogados. Summary, topics, title and original_title were written from the Portuguese text. The Chamber page confirms the number, the ementa, the author, the receipt on 17 Mar 2025, the Special Committee and rapporteur, the status 'Aguardando Parecer do(a) Relator(a) na Comissão Especial', no reports or substitutes in the Chamber and the last action of 2 Sep 2026. The Senate page confirms presentation on 3 May 2023, the CTIA approval of Amendment No. 199 on 5 Dec 2024, final adoption on 10 Dec 2024 and the remittance with Ofício SF 235/2025; it was stored as the record's secondary source, so the presentation date rests on alt-official evidence. The translation is marked 'Machine Translated by Google', is not reviewed and contains errors (its art. 13 renders 'sistemas de IA' as 'information systems'); it was not used for the summary. No English text of the issuer and no government translation was found. The secondary_url now points to the stored bill text; the Senate page, the only stored source of the 3 May 2023 date, leaves the record's local copy and should be requested again in extra_urls by a later refresh. Press reports on the timing of a Chamber vote rest on no stored source and are no longer stated in the record."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 1",
+    "quote": "Dispõe sobre o desenvolvimento, o fomento e o uso ético e responsável da inteligência artificial com base na centralidade da pessoa humana. O Congresso Nacional decreta:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Identificação da Proposição, Ementa",
+    "quote": "Dispõe sobre o desenvolvimento, o fomento e o uso ético e responsável da inteligência artificial com base na centralidade da pessoa humana.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "page heading",
+    "quote": "PL 2338/2023 Inteiro teor Projeto de Lei",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Situação",
+    "quote": "Situação: Aguardando Parecer do(a) Relator(a) na Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 2338, de 2023, do Senado Federal",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 1",
+    "quote": "Dispõe sobre o desenvolvimento, o fomento e o uso ético e responsável da inteligência artificial com base na centralidade da pessoa humana.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-16/secondary.html",
+    "sha256": "55370034983db3e98d04546ac6bcdadccc7483387c1310286e6a69005201deb1",
+    "locator": "page heading",
+    "quote": "Projeto de Lei n° 2338, de 2023 Marco Legal da Inteligência Artificial",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Identificação da Proposição, Autor",
+    "quote": "Autor Senado Federal - Rodrigo Pacheco - PSD/MG",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-16/secondary.html",
+    "sha256": "55370034983db3e98d04546ac6bcdadccc7483387c1310286e6a69005201deb1",
+    "locator": "page heading",
+    "quote": "Autoria: Senador Rodrigo Pacheco (PSD/MG) Nº na Câmara dos Deputados: PL 2338/2023",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 1",
+    "quote": "O Congresso Nacional decreta: CAPÍTULO I DISPOSIÇÕES PRELIMINARES",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Tramitação, 17/03/2025",
+    "quote": "Recebido o Ofício nº 235/ 2025 do Senado Federal que submete à revisão da Câmara dos Deputados, nos termos do art. 65 da Constituição Federal, o Projeto de Lei n° 2.338, de 2023, de autoria do Senador Rodrigo Pacheco",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "page heading",
+    "quote": "PL 2338/2023 Inteiro teor Projeto de Lei",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 1, footer",
+    "quote": "PL n.2338/2023 Apresentação: 17/03/2025 17:21:16.020 - Mesa",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-16/secondary.html",
+    "sha256": "55370034983db3e98d04546ac6bcdadccc7483387c1310286e6a69005201deb1",
+    "locator": "page heading",
+    "quote": "Nº na Câmara dos Deputados: PL 2338/2023",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/BR-01/2026-10-16/secondary.html",
+    "sha256": "55370034983db3e98d04546ac6bcdadccc7483387c1310286e6a69005201deb1",
+    "locator": "Documentos, Proposição",
+    "quote": "Identificação: PL 2338/2023 Autor: Senador Rodrigo Pacheco (PSD/MG) Data: 03/05/2023",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/BR-01/2026-10-16/secondary.html",
+    "sha256": "55370034983db3e98d04546ac6bcdadccc7483387c1310286e6a69005201deb1",
+    "locator": "Lista de publicações oficiais, 11/12/2024 (DSF nº 212)",
+    "quote": "(Sessão Deliberativa Ordinária, realizada em 10/12/2024) Encaminhadas à publicação as Emendas nºs 200 a 244-PLEN.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-16/secondary.html",
+    "sha256": "55370034983db3e98d04546ac6bcdadccc7483387c1310286e6a69005201deb1",
+    "locator": "Lista de publicações oficiais, 11/12/2024 (DSF nº 212)",
+    "quote": "Encerrada a discussão em turno suplementar, sem emendas, o Substitutivo é dado como definitivamente adotado, sem votação. O Projeto de Lei nº 2.338, de 2023, aprovado na forma do Substitutivo, vai à Câmara dos Deputados.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Situação",
+    "quote": "Situação: Aguardando Parecer do(a) Relator(a) na Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 2338, de 2023, do Senado Federal",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Última Ação Legislativa",
+    "quote": "02/09/2026 Mesa Diretora ( MESA ) Apensação da proposição PL 1542/2026 à proposição PL 904/2026.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Histórico de Pareceres, Substitutivos e Votos",
+    "quote": "Histórico de Pareceres, Substitutivos e Votos ( 0 )",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-16/secondary.html",
+    "sha256": "55370034983db3e98d04546ac6bcdadccc7483387c1310286e6a69005201deb1",
+    "locator": "page heading",
+    "quote": "Último estado: 17/03/2025 - REMETIDA À CÂMARA DOS DEPUTADOS",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "page heading",
+    "quote": "PL 2338/2023 Inteiro teor Projeto de Lei",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Situação",
+    "quote": "Situação: Aguardando Parecer do(a) Relator(a) na Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 2338, de 2023, do Senado Federal",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 35",
+    "quote": "Art. 80. Esta Lei entra em vigor após decorridos 730 (setecentos e trinta) dias de sua publicação oficial.",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 1, art. 1",
+    "quote": "Art. 1º Esta Lei estabelece normas gerais de caráter nacional para a governança responsável de sistemas de inteligência artificial (IA) no Brasil",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 8, art. 13",
+    "quote": "Seção II Do Risco Excessivo Art. 13. São vedados o desenvolvimento, a implementação e o uso de sistemas de IA:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 9, art. 13",
+    "quote": "b) explorar quaisquer vulnerabilidades da pessoa natural ou de grupos com o objetivo ou o efeito de induzir o seu comportamento de maneira que cause danos à saúde",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 9, art. 13",
+    "quote": "c) avaliar os traços de personalidade, as características ou o comportamento passado, criminal ou não, de pessoas singulares ou grupos, para avaliação de risco de cometimento de crimes",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 9, art. 13",
+    "quote": "pelo poder público, para avaliar, classificar ou ranquear as pessoas naturais, com base no seu comportamento social ou em atributos da sua personalidade, por meio de pontuação universal",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 9, art. 13",
+    "quote": "III – em sistemas de armas autônomas (SAA); IV – em sistemas de identificação biométrica à distância, em tempo real e em espaços acessíveis ao público, com exceção das seguintes hipóteses:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 9, art. 14",
+    "quote": "Art. 14. Considera-se de alto risco o sistema de IA empregado para as seguintes finalidades e contextos de usos",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 7, art. 6",
+    "quote": "I – direito à explicação sobre a decisão, a recomendação ou a previsão feitas pelo sistema; II – direito de contestar e de solicitar a revisão de decisões, recomendações ou previsões de sistema de IA; III – direito à revisão humana das decisões",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 13, art. 18",
+    "quote": "o desenvolvedor e o aplicador, ao introduzirem ou colocarem em circulação no mercado sistema de alto risco, adotarão, entre outras, as seguintes medidas de governança",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "art. 25",
+    "quote": "Art. 25. A avaliação de impacto algorítmico de sistemas de IA é obrigação do desenvolvedor ou do aplicador que introduzir ou colocar sistema de IA em circulação no mercado, sempre que o sistema ou o seu uso forem de alto risco",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 17, art. 29",
+    "quote": "Art. 29. O desenvolvedor de sistemas de IA de propósito geral e generativa deverá realizar, além da documentação pertinente sobre o desenvolvimento do sistema, sua avaliação preliminar, a fim de identificar seus respectivos níveis de risco esperados, inclusive potencial risco sistêmico.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 17, art. 30",
+    "quote": "II – documentar os testes e as análises realizados, a fim de identificar e gerenciar riscos razoavelmente previsíveis",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "art. 19",
+    "quote": "Art. 19. Quando o sistema de IA gerar conteúdo sintético, deverá, considerando o estado da arte do desenvolvimento tecnológico e o contexto de uso, incluir identificador em tais conteúdos",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "art. 42",
+    "quote": "Art. 42. O agente de IA comunicará, em prazo a ser estabelecido, à autoridade setorial a ocorrência de grave incidente de segurança",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 23, art. 45",
+    "quote": "I – a Autoridade Nacional de Proteção de Dados (ANPD), autoridade competente que coordenará o SIA;",
+    "source_kind": "official"
+   }
+  ],
+  "safety_topics": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "art. 15",
+    "quote": "Art. 15. Caberá ao SIA regulamentar a classificação da lista dos sistemas de IA de alto risco",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 8, art. 13",
+    "quote": "Seção II Do Risco Excessivo Art. 13. São vedados o desenvolvimento, a implementação e o uso de sistemas de IA:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 17, art. 30",
+    "quote": "Art. 30. O desenvolvedor de sistemas de IA de propósito geral e generativa com risco sistêmico, deve, antes de sua disponibilização ou introdução no mercado para fins comerciais, garantir o cumprimento dos seguintes requisitos:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 7, art. 8",
+    "quote": "Art. 8º A supervisão humana de sistemas de IA de alto risco buscará prevenir ou minimizar os riscos para direitos e liberdades das pessoas ou grupos afetados",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "art. 19",
+    "quote": "Art. 19. Quando o sistema de IA gerar conteúdo sintético, deverá, considerando o estado da arte do desenvolvimento tecnológico e o contexto de uso, incluir identificador em tais conteúdos",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "art. 42",
+    "quote": "CAPÍTULO VII DA COMUNICAÇÃO DE INCIDENTE GRAVE Art. 42. O agente de IA comunicará, em prazo a ser estabelecido, à autoridade setorial a ocorrência de grave incidente de segurança",
+    "source_kind": "official"
+   }
+  ],
+  "english_version": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-3b087e7a57/2026-10-16/official.pdf",
+    "sha256": "f7dfa91ea6cae62a8a655b0aff5f3957ae50abf8c19ffac9ee840abe4dfa15b1",
+    "locator": "page 1",
+    "quote": "Machine Translated by Google",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-3b087e7a57/2026-10-16/official.pdf",
+    "sha256": "f7dfa91ea6cae62a8a655b0aff5f3957ae50abf8c19ffac9ee840abe4dfa15b1",
+    "locator": "page 1",
+    "quote": "Art. 1 This Law establishes general national standards for the responsible governance of artificial intelligence (AI) systems in Brazil",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-3b087e7a57/2026-10-16/official.pdf",
+    "sha256": "f7dfa91ea6cae62a8a655b0aff5f3957ae50abf8c19ffac9ee840abe4dfa15b1",
+    "locator": "page 35",
+    "quote": "ivb/pl23-2338rev",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/BR-01/2026-10-16/secondary.html",
+    "sha256": "55370034983db3e98d04546ac6bcdadccc7483387c1310286e6a69005201deb1",
+    "locator": "Documentos, Outros: Minuta",
+    "quote": "Identificação: Minuta Autor: Senado Federal Data: 19/12/2024 Local: Secretaria de Expediente Ação Legislativa: Anexado o texto revisado.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/BR-01/2026-10-16/secondary.html",
+    "sha256": "55370034983db3e98d04546ac6bcdadccc7483387c1310286e6a69005201deb1",
+    "locator": "Documentos, Proposição",
+    "quote": "Descrição/Ementa Dispõe sobre o uso da Inteligência Artificial.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-16/secondary.html",
+    "sha256": "55370034983db3e98d04546ac6bcdadccc7483387c1310286e6a69005201deb1",
+    "locator": "page heading",
+    "quote": "Projeto de Lei n° 2338, de 2023 Marco Legal da Inteligência Artificial",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-16/secondary.html",
+    "sha256": "55370034983db3e98d04546ac6bcdadccc7483387c1310286e6a69005201deb1",
+    "locator": "Emendas, EMENDA 199 / CTIA",
+    "quote": "EMENDA 199 / CTIA - PL 2338/2023 Senador Eduardo Gomes (PL/TO) (Ver outros) 05/12/2024 Único Aprovada - SF-CTIA - 05/12/2024",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-16/secondary.html",
+    "sha256": "55370034983db3e98d04546ac6bcdadccc7483387c1310286e6a69005201deb1",
+    "locator": "Lista de publicações oficiais, 11/12/2024 (DSF nº 212)",
+    "quote": "Aprovada a Emenda nº 199 (Substitutivo), com adequação redacional de Plenário no art. 44 do Substitutivo, nos termos dos pareceres.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-16/secondary.html",
+    "sha256": "55370034983db3e98d04546ac6bcdadccc7483387c1310286e6a69005201deb1",
+    "locator": "Lista de publicações oficiais, 11/12/2024 (DSF nº 212)",
+    "quote": "Os Projetos de Lei nºs 5.051 e 5.691, de 2019; 21, de 2020; 872, de 2021; 3.592, de 2023; 210 e 266, de 2024, prejudicados, vão ao Arquivo.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 36",
+    "quote": "Senado Federal, em 31 de janeiro de 2025. Senador Rodrigo Pacheco Presidente do Senado Federal ivb/pl23-2338rev",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-16/secondary.html",
+    "sha256": "55370034983db3e98d04546ac6bcdadccc7483387c1310286e6a69005201deb1",
+    "locator": "Documentos, OFSF 235/2025",
+    "quote": "Remetido Ofício SF nº 235, de 17/03/25, ao Senhor Primeiro-Secretário da Câmara dos Deputados, encaminhando autógrafo do projeto para revisão, nos termos do art. 65 da Constituição Federal.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 35",
+    "quote": "Art. 80. Esta Lei entra em vigor após decorridos 730 (setecentos e trinta) dias de sua publicação oficial. § 1º Entram em vigor após 180 (cento e oitenta) dias da publicação desta Lei: I – o art. 13; II – as regras previstas na Seção V do Capítulo IV; e",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 36",
+    "quote": "III – as regras previstas na Seção IV do Capítulo X, salvo o art. 62, que possui vigência imediata. § 2º Entram em vigor na data de publicação desta Lei: I – as disposições do Capítulo IX, com exceção do art. 50;",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "art. 35",
+    "quote": "Art. 35. A responsabilidade civil decorrente de danos causados por sistemas de IA no âmbito das relações de consumo permanece sujeita às regras de responsabilidade previstas na Lei nº 8.078, de 11 de setembro de 1990 (Código de Defesa do Consumidor)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 20, art. 37",
+    "quote": "Art. 37. O juiz inverterá o ônus da prova quando a vítima for hipossuficiente ou quando as características de funcionamento do sistema de IA tornarem excessivamente oneroso para a vítima provar os requisitos da responsabilidade civil.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "art. 50",
+    "quote": "II – multa simples, limitada, no total, a R$ 50.000.000,00 (cinquenta milhões de reais) por infração, sendo, no caso de pessoa jurídica de direito privado, de até 2% (dois por cento) de seu faturamento bruto",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Informações de Tramitação",
+    "quote": "Forma de Apreciação Proposição Sujeita à Apreciação do Plenário Regime de Tramitação Prioridade (Art. 151, II, RICD)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Tramitação, 04/04/2025",
+    "quote": "Às Comissões de Trabalho; Cultura; Educação; Defesa do Consumidor; Ciência, Tecnologia e Inovação e Constituição e Justiça e de Cidadania (Mérito e Art. 54, RICD).",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Tramitação, 04/04/2025",
+    "quote": "Em razão da distribuição a mais de quatro Comissões de mérito, determino a criação de Comissão Especial para analisar a matéria, conforme o inciso II do art. 34 do RICD.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Tramitação, 29/04/2025",
+    "quote": "Ato da Presidência: Constitui Comissão Especial, nos termos do inciso II do art. 34 do Regimento Interno. Publicado em DCD Extra no dia 29/04/2025.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Tramitação, 20/05/2025",
+    "quote": "Designado Relator, Dep. Aguinaldo Ribeiro (PP-PB).",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Tramitação, 2025",
+    "quote": "Aprovado o requerimento nº 11/2025,da Sra. Jandira Feghali que requer a realização de quatro audiências públicas no âmbito da Comissão Especial Sobre Inteligência Artificial",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Tramitação, 30/09/2025",
+    "quote": "Aprovado o requerimento nº 153/2025,da Sra. Luisa Canziani que requer a realização de seminário internacional para subsídio aos debates do Projeto de Lei nº 2.338/2023.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Tramitação, 2025",
+    "quote": "Apensação da proposição PL-4358/2025 à proposição PL-2338/2023.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Tramitação, 06/04/2026",
+    "quote": "Apensação do PL 6237/2025 a esta proposição.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Última Ação Legislativa",
+    "quote": "01/09/2026 Mesa Diretora ( MESA ) Apense-se a este o PL 3060/2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-3b087e7a57/2026-10-16/official.pdf",
+    "sha256": "f7dfa91ea6cae62a8a655b0aff5f3957ae50abf8c19ffac9ee840abe4dfa15b1",
+    "locator": "page 35",
+    "quote": "ivb/pl23-2338rev",
+    "source_kind": "secondary"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Latest event: the Chamber of Deputies page gives the situation 'Aguardando Parecer do(a) Relator(a) na Comissão Especial' and, as the last legislative actions, the attachment of PL 3060/2026 on 1 Sep 2026 and an attachment between two other attached bills (PL 1542/2026 to PL 904/2026) on 2 Sep 2026. The page lists no reports, substitutes or votes in the Chamber ('Histórico de Pareceres, Substitutivos e Votos ( 0 )'), and the archiver found its text unchanged on 16 Oct 2026. The Senate finished its part on 10 Dec 2024 and its page shows the last state '17/03/2025 - REMETIDA À CÂMARA DOS DEPUTADOS'. The stored text is the bill as received for review, with an entry-into-force clause counted from a publication that has not happened. The bill is therefore still pending in the reviewing house: status Draft / proposed, legal_force Proposed, date_in_force null.",
+  "scope_reasoning": "In scope without a scope note: Brazil's general AI bill, a pending bill on AI risk governance (AGENTS.md section 10 includes pending bills).",
+  "local_copy_reasoning": "Three stored official pages compete for two slots. The Chamber bill page (official_url, unchanged) is the page a later refresh needs: the bill now moves only in the Chamber, so the status, a Chamber substitute (date_last_updated) and any sanction (date_in_force) will appear there first, and as the record's official source it gives official evidence for title, identifier and status. The bill's own text should be the other slot, so secondary_url becomes the stored Chamber 'inteiro teor' (codteor=2868197), the autógrafo the Chamber is reviewing; it supports the title, original_title, summary and topics, and as a secondary source counts as alt-official. The cost is date_published: 3 May 2023 appears only on the Senate page (neither the Chamber page nor the bill text shows it), which leaves the local copy. In this run the level is B either way, because the Senate page was stored as the record's secondary source. A later refresh should list https://www25.senado.leg.br/web/atividade/materias/-/materia/157233 in extra_urls to support date_published; stored then as an extra from an official host it would count as official, and with title and status from the Chamber page the level could be A. The alternative, the Senate page as official_url and the bill text as secondary_url, would give date_published official evidence but drop the Chamber page, which no longer tracks any change on the Senate side, so a later refresh would miss the Chamber's report, committee vote and plenary vote.",
+  "changes": {
+   "title": "Rendered from the full ementa of the stored text; the earlier title left out 'based on the centrality of the human person' (com base na centralidade da pessoa humana).",
+   "original_title": "The number in the form both chambers use in full ('Projeto de Lei nº 2338, de 2023', as on the Chamber page) followed by the ementa verbatim from the stored text; 'nº 2338/2023' does not appear in that form on any stored page.",
+   "summary": "Rewritten from the stored Portuguese text (arts. 1, 6, 13, 14, 18, 19, 25, 29, 30, 42 and 45), using the bill's own terms: 'excessive risk' (risco excessivo), 'high risk' (alto risco), general-purpose and generative AI (IA de propósito geral e generativa), systemic risk (risco sistêmico), synthetic content (conteúdo sintético), serious incidents (grave incidente), the SIA and the ANPD as competent authority. Moved liability and fines to the notes.",
+   "safety_topics": "Six topics, each backed by a provision: risk-based classification (arts. 12-15), prohibited practices (art. 13), general-purpose / frontier AI (arts. 29-30), human oversight (arts. 6 and 8), transparency & labelling (art. 19), incident reporting (art. 42). Dropped 'accountability & liability': the record had seven topics, one more than allowed, and the liability chapter mostly keeps the existing Consumer Defence Code and Civil Code regimes (arts. 35-36); the liability and fine provisions are now in the notes.",
+   "english_version": "The only English text found: a Google machine translation of the Senate's revised text of 19 Dec 2024, published by Campos Thomaz Advogados (third-party); stored in this run.",
+   "secondary_url": "Points the record's second source at the stored bill text, so that the local copy holds the bill's own text; see local_copy_reasoning.",
+   "date_last_updated": "The last new version of the text is the Senate substitute definitively adopted on 10 Dec 2024; the 2 Sep 2026 entry was an attachment of other bills, not a new version of PL 2338/2023.",
+   "notes": "Rewritten from the stored pages and text: adds the CTIA approval, the Senate's final adoption and the bills declared prejudicados, the autógrafo of 31 Jan 2025, the Ofício and art. 65 review, the phased entry into force of art. 80, the liability and fine provisions, the Chamber's distribution, Special Committee and priority regime, the 2026 attachments, the absence of a Chamber report and the version the English translation renders. Removed the press reports on the timing of a vote and the remark that Chamber amendments send the bill back to the Senate, which no stored source shows, and the sentence on the excluded PBIA, which was about the research, not the bill.",
+   "verification.note": "Describes the four stored files, what each confirms, the quality of the translation and the change of secondary_url."
+  },
+  "confirmed": [
+   "issuing_body",
+   "official_identifier",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [
+  {
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2868197",
+   "reason": "Lead L018: the full text ('inteiro teor') of PL 2338/2023 as received by the Chamber, linked from the stored Chamber page (bill heading and the 17/03/2025 'Apresentação do PL n. 2338/2023' entry). Stored in this run."
+  },
+  {
+   "url": "https://camposthomaz.com/wp-content/uploads/2024/12/DOC-Minuta-SF247487258667-20241219.pdf",
+   "reason": "english_version: the Google machine translation of the Senate's revised text of 19 Dec 2024 published by Campos Thomaz Advogados (https://camposthomaz.com/en/comunicado-ct/senado-aprova-regulacao-de-inteligencia-artificial/). Stored in this run."
+  }
+ ],
+ "leads": [],
+ "open_questions": [
+  "date_published (3 May 2023) rests only on the Senate page, stored in this run as the record's secondary source (alt-official). With secondary_url pointing at the bill text, the Senate page leaves the local copy; a later refresh should request it in extra_urls."
+ ]
+}
