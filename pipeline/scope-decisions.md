@@ -29,6 +29,8 @@ Supervisors set much of the AI governance that regulated firms follow, often in 
 
 *Michael Riegler, 2026-10-14.*
 
+- Supervisory guidance that does not use the word AI is in, with a `scope_note`, when it governs models, analytics or automated decision-making that include AI or machine learning, explicitly or through its definition of "model". Examples are guidance on model risk management, big data, advanced analytics or algorithmic trading. Its status follows the supervisor's own withdrawal or replacement notices, so guidance that still applies is current however old it is. Guidance on models in general that never reaches AI or machine learning stays out. *Michael Riegler, 2026-10-16 (#30).*
+
 ## Institutions and sector-wide rules (decided October 2026)
 
 - AI policies that individual universities, schools, hospitals or other institutions adopt for their own use, public or private, are out: an institution governing itself is like a company's own policy or an internal administrative circular.
