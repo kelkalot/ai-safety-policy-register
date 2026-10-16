@@ -1,0 +1,58 @@
+{
+ "record_id": "KZ-01",
+ "definitions": [
+  {
+   "term": "искусственный интеллект",
+   "term_group": "artificial intelligence",
+   "definition": "искусственный интеллект – функциональная способность к имитации когнитивных функций, характерных для человека, обеспечивающая результаты, сопоставимые с результатами интеллектуальной деятельности человека или превосходящие их",
+   "english": "artificial intelligence – the functional capability to imitate cognitive functions characteristic of humans, providing results comparable to or exceeding the results of human intellectual activity",
+   "english_by": "agent",
+   "file": "archive/KZ-01/2026-10-16/official.html",
+   "sha256": "50c94b18354221b871cecfb12c8023c879a8fcebaf2288af27c0e9c10a56c2b3",
+   "locator": "Article 1, item 3 (статья 1, подпункт 3)",
+   "language": "Russian"
+  },
+  {
+   "term": "система искусственного интеллекта",
+   "term_group": "AI system",
+   "definition": "система искусственного интеллекта – цифровой объект, функционирующий на основе одной или нескольких моделей искусственного интеллекта",
+   "english": "artificial intelligence system – a digital object functioning on the basis of one or more artificial intelligence models",
+   "english_by": "agent",
+   "file": "archive/KZ-01/2026-10-16/official.html",
+   "sha256": "50c94b18354221b871cecfb12c8023c879a8fcebaf2288af27c0e9c10a56c2b3",
+   "locator": "Article 1, item 5 (статья 1, подпункт 5)",
+   "language": "Russian"
+  },
+  {
+   "term": "модель искусственного интеллекта",
+   "term_group": "AI model",
+   "definition": "модель искусственного интеллекта – программный продукт, разработанный для выполнения специализированных задач и способный адаптироваться к изменяющимся условиям, обучаться на основе накопленного опыта и оптимизировать процессы и результаты своей деятельности",
+   "english": "artificial intelligence model – a software product developed to perform specialised tasks and capable of adapting to changing conditions, learning on the basis of accumulated experience and optimising the processes and results of its activity",
+   "english_by": "agent",
+   "file": "archive/KZ-01/2026-10-16/official.html",
+   "sha256": "50c94b18354221b871cecfb12c8023c879a8fcebaf2288af27c0e9c10a56c2b3",
+   "locator": "Article 1, item 8 (статья 1, подпункт 8)",
+   "language": "Russian"
+  },
+  {
+   "term": "системы искусственного интеллекта высокой степени риска",
+   "term_group": "high-risk AI system",
+   "definition": "высокой степени риска, нарушение или прекращение функционирования которых может привести к чрезвычайной ситуации социального и (или) техногенного характера и (или) значительным негативным последствиям для обороны, безопасности, международных отношений, экономики, отдельных сфер хозяйства, пользователей, инфраструктуры Республики Казахстан, жизнедеятельности физических лиц.",
+   "english": "[systems] of a high degree of risk, the disruption or cessation of whose functioning may lead to an emergency of a social and (or) technogenic nature and (or) to significant negative consequences for defence, security, international relations, the economy, individual sectors of the economy, users, the infrastructure of the Republic of Kazakhstan, or the life activities of natural persons.",
+   "english_by": "agent",
+   "file": "archive/KZ-01/2026-10-16/official.html",
+   "sha256": "50c94b18354221b871cecfb12c8023c879a8fcebaf2288af27c0e9c10a56c2b3",
+   "locator": "Article 17(1), subparagraph 3 (статья 17, пункт 1, подпункт 3)",
+   "language": "Russian"
+  }
+ ],
+ "not_found": [
+  "model",
+  "frontier model",
+  "foundation model",
+  "generative AI",
+  "general-purpose AI model",
+  "automated decision system"
+ ],
+ "note": "Quoted from the Russian text of Law No. 230-VIII ZRK of 17 November 2025 on the Adilet legal information system (official.html), in its updated form, which notes that Articles 1 and 17 were amended by Law No. 326-VIII of 24 June 2026; document-1.pdf is the same updated Russian text as a PDF and gives the same wording. Article 1 lists the Law's basic concepts and defines artificial intelligence (item 3), an artificial intelligence system (item 5) and an artificial intelligence model (item 8). There is no separate definition of high-risk systems: Article 17(1) divides artificial intelligence systems, 'depending on the degree of impact on the security of users, society and the state', into systems of minimal, medium and high degree of risk, and subparagraph 3, quoted here, describes the high-risk class; the term is written as in the heading of Article 19 ('систем искусственного интеллекта высокой степени риска', in the genitive there), and Article 17(1) leaves the assignment to a class to the system's owner or holder under the rules for classifying digital objects. Article 1, item 4, defines synthetic results of the activity of artificial intelligence systems (synthesised images, video, audio or text that imitate a person or show events that did not happen), which is a definition of outputs, not of generative AI, so generative AI is listed as not found. The Law does not define 'model' on its own, frontier, foundation or general-purpose models, or automated decision systems. The Kazakh text and any English text of the issuer are not among the stored files; the English renderings are the agent's."
+}

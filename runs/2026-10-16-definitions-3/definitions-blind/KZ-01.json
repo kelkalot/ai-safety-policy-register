@@ -1,0 +1,48 @@
+{
+ "record_id": "KZ-01",
+ "definitions": [
+  {
+   "term": "искусственный интеллект",
+   "term_group": "artificial intelligence",
+   "definition": "искусственный интеллект – функциональная способность к имитации когнитивных функций, характерных для человека, обеспечивающая результаты, сопоставимые с результатами интеллектуальной деятельности человека или превосходящие их;",
+   "file": "archive/KZ-01/2026-10-16/document-1.pdf",
+   "sha256": "76749890a5703cfedf762a66ba91d04c94830b8146a23bf5be8e18cf1793c683",
+   "locator": "Статья 1, пункт 3, page 1",
+   "language": "Russian",
+   "english": "artificial intelligence: the functional ability to imitate cognitive functions characteristic of humans, producing results comparable to or exceeding those of human intellectual activity;",
+   "english_by": "agent"
+  },
+  {
+   "term": "система искусственного интеллекта",
+   "term_group": "AI system",
+   "definition": "система искусственного интеллекта – цифровой объект, функционирующий на основе одной или нескольких моделей искусственного интеллекта;",
+   "file": "archive/KZ-01/2026-10-16/document-1.pdf",
+   "sha256": "76749890a5703cfedf762a66ba91d04c94830b8146a23bf5be8e18cf1793c683",
+   "locator": "Статья 1, пункт 5, page 1",
+   "language": "Russian",
+   "english": "AI system: a digital object operating on the basis of one or more artificial intelligence models;",
+   "english_by": "agent"
+  },
+  {
+   "term": "модель искусственного интеллекта",
+   "term_group": "AI model",
+   "definition": "модель искусственного интеллекта – программный продукт, разработанный для выполнения специализированных задач и способный адаптироваться к изменяющимся условиям, обучаться на основе накопленного опыта и оптимизировать процессы и результаты своей деятельности;",
+   "file": "archive/KZ-01/2026-10-16/document-1.pdf",
+   "sha256": "76749890a5703cfedf762a66ba91d04c94830b8146a23bf5be8e18cf1793c683",
+   "locator": "Статья 1, пункт 8, page 1",
+   "language": "Russian",
+   "english": "AI model: a software product developed to perform specialised tasks and able to adapt to changing conditions, learn from accumulated experience and optimise its processes and results;",
+   "english_by": "agent"
+  }
+ ],
+ "not_found": [
+  "model",
+  "high-risk AI system",
+  "frontier model",
+  "foundation model",
+  "generative AI",
+  "general-purpose AI model",
+  "automated decision system"
+ ],
+ "note": "Read from the Russian text of the law (document-1.pdf); the issuer's English text is not among the stored files."
+}

@@ -1,0 +1,58 @@
+{
+ "record_id": "US-04",
+ "definitions": [
+  {
+   "term": "artificial intelligence",
+   "term_group": "artificial intelligence",
+   "definition": "The term ‘‘artificial intelligence’’ or ‘‘AI’’ has the meaning set forth in 15 U.S.C. 9401(3): a machine-based system that can, for a given set of human-defined objectives, make predictions, recommendations, or decisions influencing real or virtual environments. Artificial intelligence systems use machine- and human-based inputs to perceive real and virtual environments; abstract such perceptions into models through analysis in an automated manner; and use model inference to formulate options for information or action.",
+   "file": "archive/US-04/2026-10-16/official.pdf",
+   "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+   "locator": "Section 3(b), page 3 (88 FR 75193)",
+   "language": "English"
+  },
+  {
+   "term": "AI model",
+   "term_group": "AI model",
+   "definition": "The term ‘‘AI model’’ means a component of an information system that implements AI technology and uses computational, statistical, or machine-learning techniques to produce outputs from a given set of inputs.",
+   "file": "archive/US-04/2026-10-16/official.pdf",
+   "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+   "locator": "Section 3(c), page 3 (88 FR 75193)",
+   "language": "English"
+  },
+  {
+   "term": "AI system",
+   "term_group": "AI system",
+   "definition": "The term ‘‘AI system’’ means any data system, software, hardware, application, tool, or utility that operates in whole or in part using AI.",
+   "file": "archive/US-04/2026-10-16/official.pdf",
+   "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+   "locator": "Section 3(e), page 4 (88 FR 75194)",
+   "language": "English"
+  },
+  {
+   "term": "dual-use foundation model",
+   "term_group": "foundation model",
+   "definition": "The term ‘‘dual-use foundation model’’ means an AI model that is trained on broad data; generally uses self-supervision; contains at least tens of billions of parameters; is applicable across a wide range of contexts; and that exhibits, or could be easily modified to exhibit, high levels of performance at tasks that pose a serious risk to security, national economic security, national public health or safety, or any combination of those matters, such as by: (i) substantially lowering the barrier of entry for non-experts to design, synthesize, acquire, or use chemical, biological, radiological, or nuclear (CBRN) weapons; (ii) enabling powerful offensive cyber operations through automated vulnerability discovery and exploitation against a wide range of potential targets of cyber attacks; or (iii) permitting the evasion of human control or oversight through means of deception or obfuscation. Models meet this definition even if they are provided to end users with technical safeguards that attempt to prevent users from taking advantage of the relevant unsafe capabilities.",
+   "file": "archive/US-04/2026-10-16/official.pdf",
+   "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+   "locator": "Section 3(k), page 4 (88 FR 75194)",
+   "language": "English"
+  },
+  {
+   "term": "generative AI",
+   "term_group": "generative AI",
+   "definition": "The term ‘‘generative AI’’ means the class of AI models that emulate the structure and characteristics of input data in order to generate derived synthetic content. This can include images, videos, audio, text, and other digital content.",
+   "file": "archive/US-04/2026-10-16/official.pdf",
+   "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+   "locator": "Section 3(p), page 5 (88 FR 75195)",
+   "language": "English"
+  }
+ ],
+ "not_found": [
+  "model",
+  "high-risk AI system",
+  "frontier model",
+  "general-purpose AI model",
+  "automated decision system"
+ ],
+ "note": "Quoted from Executive Order 14110 as published in the Federal Register (Vol. 88, No. 210, 1 November 2023, pages 75191 ff.; official.pdf), section 3 ('Definitions. For purposes of this order'). Section 3(b) defines 'artificial intelligence' by reference to 15 U.S.C. 9401(3) and gives that provision's words, so it counts as a definition. The 'dual-use foundation model' definition is grouped under foundation model; the order does not define 'frontier model', 'high-risk AI system', 'general-purpose AI model' or 'automated decision system', and defines 'model weight' (section 3(u)) but not 'model' on its own. Section 4.2(b) leaves the technical conditions for models subject to reporting to be set by the Secretary of Commerce and states interim conditions; these are reporting thresholds, not a definition of a term in the groups. The secondary file (secondary.html) is Executive Order 14148 of 20 January 2025 (90 FR 8237), Initial Rescissions of Harmful Executive Orders and Actions; it contains no definitions of these terms."
+}

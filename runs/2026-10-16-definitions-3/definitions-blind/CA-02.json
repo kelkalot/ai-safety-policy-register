@@ -1,0 +1,34 @@
+{
+ "record_id": "CA-02",
+ "definitions": [
+  {
+   "term": "artificial intelligence system",
+   "term_group": "AI system",
+   "definition": "artificial intelligence system means a technological system that, autonomously or partly autonomously, processes data related to human activities through the use of a genetic algorithm, a neural network, machine learning or another technique in order to generate content or make decisions, recommendations or predictions.",
+   "file": "archive/CA-02/2026-10-16/official.pdf",
+   "sha256": "a219dfa522bf5a00e71c68145aad2adabae97a03a4e07103aa814d8c7291a702",
+   "locator": "AIDA s. 2, page 98",
+   "language": "English"
+  },
+  {
+   "term": "high-impact system",
+   "term_group": "high-risk AI system",
+   "definition": "high-impact system means an artificial intelligence system that meets the criteria for a high-impact system that are established in regulations.",
+   "file": "archive/CA-02/2026-10-16/official.pdf",
+   "sha256": "a219dfa522bf5a00e71c68145aad2adabae97a03a4e07103aa814d8c7291a702",
+   "locator": "AIDA s. 2, page 100",
+   "language": "English"
+  }
+ ],
+ "not_found": [
+  "artificial intelligence",
+  "AI model",
+  "model",
+  "frontier model",
+  "foundation model",
+  "generative AI",
+  "general-purpose AI model",
+  "automated decision system"
+ ],
+ "note": "The high-impact system definition defers its criteria to regulations; it is included as the closest group to high-risk AI system."
+}
