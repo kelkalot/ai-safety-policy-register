@@ -75,7 +75,7 @@ SITES = ROOT / "pipeline" / "official-sites.json"
 SITE_STATUSES = ["official", "not official", "proposed"]
 SCOPE_DECISIONS = ROOT / "pipeline" / "scope-decisions.md"
 
-RUN_TYPES = ["discover", "refresh", "recheck"]
+RUN_TYPES = ["discover", "refresh", "recheck", "compare"]
 FACT_FIELDS = ["title", "original_title", "issuing_body", "official_identifier", "date_published", "date_in_force",
                "date_last_updated", "status", "legal_force"]
 LEVEL_FIELDS = ["title", "date_published", "status"]   # date_published only counts when it is not null
@@ -114,6 +114,84 @@ PROCESS_PATTERNS = [
     r"\bthe (?:extractor|checker|collector|coordinator)\b",
 ]
 STAGES = ["collect", "extract", "blind", "check"]
+
+# What a run kicks off, in order: (step, who does it, what to run or which role to follow). `new` writes the list into
+# run.json and prints it; `status` shows which steps are done. Agents work through the steps of their run only.
+_FIND = [("extract", "extractors, about 8 candidates each", "pipeline/roles/extract.md -> extractions/<ID>.json; "
+                                                                      "archive and textify again for extra_urls"),
+         ("evidence", "script", "python3 tools/pipeline.py evidence --run {run}"),
+         ("sample", "script", "python3 tools/pipeline.py sample --run {run}"),
+         ("blind", "a fresh extractor", "pipeline/roles/extract.md -> extractions-blind/<ID>.json; never opens extractions/"),
+         ("agreement", "script", "python3 tools/pipeline.py compare --run {run}"),
+         ("check", "the checker, in a fresh context", "pipeline/roles/check.md -> checks/<ID>.json"),
+         ("assemble", "script", "python3 tools/pipeline.py assemble --run {run}"),
+         ("merge", "script", "python3 tools/merge.py runs/{run}/pass.json --dry-run, then without --dry-run; "
+                             "python3 tools/build.py"),
+         ("report", "script", "python3 tools/pipeline.py report --run {run}; frame --report; questions --sync; intake"),
+         ("commit", "coordinator", "one commit on the branch run/{run}")]
+_STORE = [("archive", "script", "python3 tools/archive.py --run {run} --browser"),
+          ("textify", "script", "python3 tools/pipeline.py textify --run {run}")]
+STEPS = {
+    "discover": [("collect", "collectors, one per group", "pipeline/roles/collect.md -> candidates/<group>.json, "
+                                                                     "search-log.jsonl"),
+                 ("dedupe", "script", "python3 tools/pipeline.py dedupe --run {run}")] + _STORE + _FIND,
+    "refresh": _STORE + _FIND,
+    "recheck": _STORE + _FIND,
+    "compare": [("textify", "script", "python3 tools/definitions.py textify --run {run}"),
+                ("extract", "an extractor", "pipeline/roles/compare.md -> definitions/<ID>.json"),
+                ("blind", "a fresh extractor", "pipeline/roles/compare.md -> definitions-blind/<ID>.json; never opens definitions/"),
+                ("quotes", "script", "python3 tools/definitions.py check --run {run}"),
+                ("agreement", "script", "python3 tools/definitions.py compare --run {run}"),
+                ("check", "the checker, in a fresh context", "pipeline/roles/compare.md -> checks/<ID>.json"),
+                ("merge", "script", "python3 tools/definitions.py merge --run {run}; python3 tools/build.py"),
+                ("report", "script", "python3 tools/definitions.py report --run {run}"),
+                ("commit", "coordinator", "one commit on the branch run/{run}")],
+}
+
+
+def run_steps(run):
+    return [{"step": a, "who": b, "do": c.format(run=run["run_id"])} for a, b, c in STEPS[run["type"]]]
+
+
+def step_done(d, run, step):
+    """True when the files a step writes are there, False when not, None when no file shows it."""
+    if run["type"] == "compare":
+        recs = set((read_json(d / "plan.json", {}) or {}).get("records") or [])
+        files = {"textify": "texts.json", "quotes": "check.json", "agreement": "agreement.json", "report": "report.md"}
+        if step in files:
+            return (d / files[step]).is_file()
+        if step in ("extract", "blind", "check"):
+            sub = {"extract": "definitions", "blind": "definitions-blind", "check": "checks"}[step]
+            return bool(recs) and recs <= set(agent_files(d, sub))
+        if step == "merge":
+            seen = (read_json(ROOT / "data" / "definitions.json", {}) or {}).get("compared") or {}
+            return any(v.get("run_id") == run["run_id"] for v in seen.values())
+        return None
+    act = [c["cand_id"] for c in candidates(d) if c.get("status") == "active"]
+    ex = agent_files(d, "extractions")
+    files = {"dedupe": "candidates.json", "archive": "sources.json", "textify": "texts.json", "evidence": "evidence.json",
+             "sample": "sample.json", "agreement": "agreement.json", "assemble": "pass.json", "report": "report.md"}
+    if step == "collect":
+        return bool(run.get("groups")) and all((d / "candidates" / ("%s.json" % g)).is_file() for g in run["groups"])
+    if step in files:
+        return (d / files[step]).is_file()
+    if step == "extract":
+        return bool(act) and set(act) <= set(ex)
+    if step == "blind":
+        want = (read_json(d / "sample.json", {}) or {}).get("blind") or []
+        return bool(want) and set(want) <= set(agent_files(d, "extractions-blind"))
+    if step == "check":
+        need = [c for c, e in ex.items() if (e or {}).get("decision") in ("record", "update")]
+        return bool(need) and set(need) <= set(agent_files(d, "checks"))
+    if step == "merge":
+        return any(e.get("run_id") == run["run_id"] for e in history.load())
+    return None
+
+
+def print_steps(d, run, marks=True):
+    for i, st in enumerate(run.get("steps") or run_steps(run), 1):
+        mark = {True: "[x] ", False: "[ ] ", None: "    "}[step_done(d, run, st["step"])] if marks else ""
+        print("  %s%2d. %-10s %-34s %s" % (mark, i, st["step"], st["who"], st["do"]))
 
 
 # ----------------------------------------------------------------------------- small helpers
@@ -462,6 +540,14 @@ def select_records(db, scope):
     return [r["id"] for r in R]
 
 
+def run_size_ok(args, n):
+    """Refuse a run larger than MAX_RUN before anything is written."""
+    if n > MAX_RUN[args.type] and not getattr(args, "large", False):
+        raise SystemExit("This run would take %d %s; one run takes at most %d. Narrow the scope (one region, a list of "
+                         "codes or IDs) or split it into several runs; --large overrides." % (
+                             n, "frame cells" if args.type == "discover" else "records", MAX_RUN[args.type]))
+
+
 def cmd_new(args):
     if args.type not in RUN_TYPES:
         raise SystemExit("--type must be one of %s" % ", ".join(RUN_TYPES))
@@ -494,6 +580,7 @@ def cmd_new(args):
             raise SystemExit("--leads needs {\"leads\": [{\"lead\", \"cell\", ...}]} with frame cells; unknown: %s"
                              % ", ".join(map(str, bad[:10])))
         cells = sorted({l["cell"] for l in leads})
+        run_size_ok(args, len(cells))
         run["mode"] = "leads"
         run["leads"] = leads
         if any("state" in l for l in lead_reg.get("leads") or []):
@@ -507,6 +594,7 @@ def cmd_new(args):
         cells = select_frame(f, args.scope, args.days or f.get("stale_days", STALE_DAYS))
         if not cells:
             raise SystemExit("The scope selects no frame cells.")
+        run_size_ok(args, len(cells))
         run["cells"] = cells
         run["groups"] = group_cells(f, cells, args.group_size)
         run["status"] = "collecting"
@@ -518,16 +606,32 @@ def cmd_new(args):
                 l.update(state="in-run", run_id=run_id)
             run["leads"] = taken
             write_json(LEADS, lead_reg)
+    elif args.type == "compare":
+        import definitions as D  # noqa: E402  (same folder; it imports this module)
+        if args.scope:
+            ids, reasons = select_records(db, args.scope), {}
+        else:
+            due = D.compare_queue(db)
+            ids, reasons = [rid for rid, _ in due][:args.limit or 5], dict(due)
+        if not ids:
+            raise SystemExit("The scope selects no records." if args.scope else "No record is due for a compare run.")
+        run_size_ok(args, len(ids))
+        run["record_ids"] = ids
+        run["reasons"] = {rid: reasons.get(rid) or ["named in the scope"] for rid in ids}
+        run["status"] = "textify"
+        write_json(d / "plan.json", {"about": "Compare run: the definitions layer of the crosswalk (issue #70).",
+                                     "records": ids, "term_groups": D.DEFAULT_GROUPS, "ocr_lang": {}})
     else:
         if args.type == "refresh" and not args.scope:
             due = queue(db, args.days or STALE_DAYS)
-            ids = [rid for rid, _ in due][:args.limit]
+            ids = [rid for rid, _ in due][:args.limit or 25]
             reasons = dict(due)
         else:
             ids = select_records(db, args.scope or "all")
             reasons = {}
         if not ids:
             raise SystemExit("The scope selects no records.")
+        run_size_ok(args, len(ids))
         by = {r["id"]: r for r in db["records"]}
         run["record_ids"] = ids
         run["status"] = "archiving"
@@ -535,17 +639,89 @@ def cmd_new(args):
                   "url": by[rid].get("official_url"), "why": "; ".join(reasons.get(rid, [])) or args.type}
                  for rid in ids]
         write_json(d / "candidates.json", {"run_id": run_id, "generated": today(), "candidates": cands})
-    for sub in ("candidates", "extractions", "extractions-blind", "checks"):
-        (d / sub).mkdir(parents=True, exist_ok=True)
+    subs = ("definitions", "definitions-blind", "checks") if args.type == "compare" else \
+        ("candidates", "extractions", "extractions-blind", "checks")
+    for sub_ in subs:
+        (d / sub_).mkdir(parents=True, exist_ok=True)
+    run["steps"] = run_steps(run)
     save_run(d, run)
     print("Created runs/%s" % run_id)
     if args.type == "discover":
         print("%d cells in %d groups: %s" % (len(run["cells"]), len(run["groups"]),
                                              ", ".join("%s (%d)" % (g, len(c)) for g, c in run["groups"].items())))
-        print("Next: one collector per group (pipeline/roles/collect.md), then: python3 tools/pipeline.py dedupe --run %s" % run_id)
     else:
-        print("%d records. Next: python3 tools/archive.py --run %s --browser" % (len(run["record_ids"]), run_id))
+        print("%d records: %s" % (len(run["record_ids"]), ", ".join(run["record_ids"])))
+    print("This run kicks off these steps, in order (also in run.json; `pipeline.py status --run %s` shows which "
+          "are done). Record who runs each agent step with `pipeline.py stage`:" % run_id)
+    print_steps(d, run, marks=False)
     print(run_id)
+    return 0
+
+
+# the size of one run, unless --large: a run that fits in one session and one subscription's usage window
+MAX_RUN = {"discover": 120, "refresh": 40, "recheck": 40, "compare": 15}  # frame cells, or records
+
+
+def cmd_menu(args):
+    """What is ready to run now, one line each with the command that starts it, and what only people decide."""
+    import definitions as D  # noqa: E402  (same folder; it imports this module)
+    import importlib.util
+    db, f = load_db(), load_frame()
+    print("Every AI Policy Ever: work that is ready now. Pick one; one run per session.\n")
+    have = sum(1 for r in db["records"] for x in (r.get("local_copy") or {}).get("files") or []
+               if x.get("path") and (ROOT / x["path"]).is_file())
+    setup = []
+    if not have:
+        setup.append("No stored documents (a fresh clone has no archive/): run `python3 tools/archive.py --browser` once, "
+                     "or download kelkalot/every-ai-policy-ever-archive from Hugging Face. Refresh, recheck and compare "
+                     "runs read them.")
+    for mod, why in (("pypdf", "reads PDFs"), ("playwright", "the browser retry for blocked pages")):
+        if importlib.util.find_spec(mod) is None:
+            setup.append("Python package %s is missing (%s): python3 -m pip install %s" % (mod, why, mod))
+    if not shutil.which("tesseract"):
+        setup.append("tesseract is missing (OCR for scanned PDFs); runs work without it but cannot read scans")
+    if setup:
+        print("Setup first:")
+        for x in setup:
+            print("  - " + x)
+        print()
+    refresh = queue(db, STALE_DAYS)
+    urgent = [rid for rid, why in refresh if any(w.startswith(("requested", "date_in_force")) for w in why)]
+    leads = [l for l in (read_json(LEADS, {}) or {}).get("leads") or [] if l.get("state") == "queued"]
+    due_cells = select_frame(f, "due", f.get("stale_days", STALE_DAYS))
+    by_region = Counter(next(j["region"] for j in f["jurisdictions"] if j["code"] == c.split("/")[0]) for c in due_cells)
+    compare = D.compare_queue(db)
+    opts = [
+        ("decisions", "Apply the maintainers' decisions from GitHub (always first; reads GitHub, quick)",
+         "python3 tools/pipeline.py intake && python3 tools/pipeline.py questions --apply", True),
+        ("refresh", "Refresh run: %d records due%s; one run takes the top 25" % (
+            len(refresh), (", %d of them urgent (news or a passed in-force date)" % len(urgent)) if urgent else ""),
+         "/run-pipeline refresh", bool(refresh)),
+        ("leads", "Leads run: %d queued leads (suggestions people accepted)" % len(leads),
+         "/run-pipeline discover leads", bool(leads)),
+        ("discover", "Discover run: %d frame cells due; pick one region, about 10 jurisdictions (%s)" % (
+            len(due_cells), ", ".join("%s %d" % (k, v) for k, v in by_region.most_common(4))),
+         '/run-pipeline discover <region or countries>', bool(due_cells)),
+        ("compare", "Compare run: %d records due for the definitions layer; one run takes the top 5" % len(compare),
+         "/run-pipeline compare", bool(compare)),
+    ]
+    print("For agents (Claude Code: /run-pipeline ...; Codex: $run-pipeline ...):")
+    for i, (key, text, cmd, ready) in enumerate([o for o in opts if o[3]], 1):
+        print("  %d. %-9s %s\n               %s" % (i, key, text, cmd))
+    if urgent:
+        print("\nSuggested: the decisions, then a refresh run (%d urgent records)." % len(urgent))
+    elif leads:
+        print("\nSuggested: the decisions, then the leads run.")
+    qs = [q for q in (read_json(QUESTIONS, {}) or {}).get("questions") or [] if q.get("state") == "open"]
+    kinds = Counter(q.get("kind") for q in qs)
+    sites = (read_json(SITES, {}) or {}).get("sites") or []
+    print("\nFor people only (agents never decide these; AGENTS.md sections 7.6 to 7.8):")
+    print("  - %d open questions on GitHub (%s)" % (len(qs), ", ".join("%d %s" % (v, k) for k, v in kinds.most_common())))
+    print("  - %d hosts to review (`python3 tools/pipeline.py hosts --pending`)" % sum(
+        1 for x in sites if x.get("status") == "proposed" or x.get("decided_by") == "seed"))
+    print("  - documents a site blocks, to download and provide: see archive/needs-attention.txt and the "
+          "Provide a document form")
+    print("\nA run does only the steps `pipeline.py new` prints (also in its run.json). Flow chart: pipeline/flow.md")
     return 0
 
 
@@ -553,9 +729,10 @@ def cmd_stage(args):
     d, run = load_run(args.run)
     if args.stage not in STAGES:
         raise SystemExit("--stage must be one of %s" % ", ".join(STAGES))
-    run["stages"][args.stage] = {"tool": args.tool, "model": args.model, "date": today()}
+    run["stages"][args.stage] = dict({"tool": args.tool, "model": args.model, "date": today()},
+                                     **({"tokens": args.tokens} if args.tokens else {}))
     save_run(d, run)
-    print("Recorded %s: %s, %s" % (args.stage, args.tool, args.model))
+    print("Recorded %s: %s, %s%s" % (args.stage, args.tool, args.model, (", %d tokens" % args.tokens) if args.tokens else ""))
     return 0
 
 
@@ -569,6 +746,15 @@ def cmd_status(args):
     texts = read_json(d / "texts.json", {}) or {}
     logs = read_log(d)
     print("Run %s (%s), started %s, status: %s" % (run["run_id"], run["type"], run["started"], run.get("status")))
+    print("Steps:")
+    print_steps(d, run)
+    if run["type"] == "compare":
+        plan = read_json(d / "plan.json", {}) or {}
+        print("Records: %s" % ", ".join(plan.get("records") or []))
+        for s in STAGES[1:]:
+            st = run["stages"].get(s) or {}
+            print("  %-8s %s" % (s, ("%s, %s, %s" % (st.get("tool"), st.get("model"), st.get("date"))) if st.get("tool") else "-"))
+        return 0
     for s in STAGES:
         st = run["stages"].get(s) or {}
         print("  %-8s %s" % (s, ("%s, %s, %s" % (st.get("tool"), st.get("model"), st.get("date"))) if st.get("tool") else "-"))
@@ -2793,9 +2979,11 @@ def main(argv=None):
     s.add_argument("--tool")
     s.add_argument("--model")
     s.add_argument("--days", type=int)
-    s.add_argument("--limit", type=int, default=25, help="refresh: records taken from the queue")
+    s.add_argument("--limit", type=int, help="records taken from the queue: refresh 25, compare 5")
+    s.add_argument("--large", action="store_true", help="allow a run larger than MAX_RUN")
     s.add_argument("--group-size", type=int, default=10)
     s.add_argument("--leads", help="discover: follow up only these leads, a JSON file {\"leads\": [{\"lead\", \"cell\", \"seen_in\", \"url\"}]}")
+    s = sub.add_parser("menu", help="what is ready to run now")
     s = sub.add_parser("status")
     s.add_argument("--run", required=True)
     s = sub.add_parser("stage", help="record the tool and model of a stage")
@@ -2803,6 +2991,7 @@ def main(argv=None):
     s.add_argument("--stage", required=True)
     s.add_argument("--tool", required=True)
     s.add_argument("--model", required=True)
+    s.add_argument("--tokens", type=int, help="tokens the stage's agents used, when the tool reports them (effort figure)")
     s = sub.add_parser("dedupe")
     s.add_argument("--run", required=True)
     s.add_argument("--force", action="store_true")
@@ -2881,7 +3070,7 @@ def main(argv=None):
     s.add_argument("--note", required=True)
     s.add_argument("--by")
     args = ap.parse_args(argv)
-    cmds = {"new": cmd_new, "status": cmd_status, "stage": cmd_stage, "dedupe": cmd_dedupe, "textify": cmd_textify,
+    cmds = {"new": cmd_new, "menu": cmd_menu, "status": cmd_status, "stage": cmd_stage, "dedupe": cmd_dedupe, "textify": cmd_textify,
             "evidence": cmd_evidence, "sample": cmd_sample, "compare": cmd_compare, "queue": cmd_queue,
             "assemble": cmd_assemble, "report": cmd_report, "frame": cmd_frame, "log-human": cmd_log_human,
             "log-scope": cmd_log_scope, "hosts": cmd_hosts, "questions": cmd_questions, "intake": cmd_intake,

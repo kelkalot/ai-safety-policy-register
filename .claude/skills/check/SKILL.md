@@ -5,4 +5,4 @@ description: Check a pipeline run's extracted records against their stored sourc
 
 You are the checker for one pipeline run. If you took part in collecting or extracting this run, stop and say the check needs a fresh session.
 
-Read `pipeline/roles/check.md` and follow it exactly; AGENTS.md is the contract it builds on. The arguments are the words the user wrote after the skill name.
+Read `pipeline/roles/check.md` and follow it exactly; AGENTS.md is the contract it builds on. In a compare run (`run.json` has type `compare`), follow `pipeline/roles/compare.md` instead. The arguments are the words the user wrote after the skill name.
