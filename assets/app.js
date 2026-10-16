@@ -9,6 +9,8 @@
   var META = DB.meta;
   var QUESTIONS = DB.questions || {};  // record ID -> open questions (GitHub issues), from pipeline/questions.json
   function questionsOf(r) { return QUESTIONS[r.id] || []; }
+  var DEFS = DB.definitions || [];  // defined terms quoted verbatim from stored sources (issue #70)
+  function definitionsOf(r) { return DEFS.filter(function (d) { return d.record_id === r.id; }); }
   var byId = {}, bySlug = {};
   R.forEach(function (r, i) {
     byId[r.id] = r; bySlug[r.slug] = r;
@@ -171,6 +173,8 @@
     levelC: cnt(function (r) { return r.verification.level === "C"; }), nocopy: cnt(function (r) { return r.local_copy.status !== "archived"; }),
     nonEnglish: cnt(function (r) { return !hasEnglishText(r); }),
     openQuestions: cnt(function (r) { return questionsOf(r).length > 0; }),
+    definitions: DEFS.length,
+    definitionRecords: new Set(DEFS.map(function (d) { return d.record_id; })).size,
     before2023: cnt(function (r) { return /^\d{4}/.test(r.date_published || "") && r.date_published.slice(0, 4) < "2023"; }),
     from2023: cnt(function (r) { return /^\d{4}/.test(r.date_published || "") && r.date_published.slice(0, 4) >= "2023"; }),
     noEnglish: cnt(function (r) { var k = englishKind(r); return k === "none found" || k === "unchecked"; })
@@ -481,9 +485,33 @@
     var a = e.target.closest("[data-tab]"); if (!a) return;
     e.preventDefault();
     if (openId) closeRecord();
-    showTab(a.dataset.tab); window.scrollTo(0, 0);
+    showTab(a.dataset.tab);
+    var target = a.dataset.scroll && document.getElementById(a.dataset.scroll);
+    if (target) target.scrollIntoView(); else window.scrollTo(0, 0);
   });
   $("#weakList").addEventListener("click", function (e) { var a = e.target.closest("[data-open]"); if (a) { e.preventDefault(); openRecord(a.dataset.open); } });
+
+  /* definitions compared (issue #70) */
+  (function () {
+    var box = $("#defsTable");
+    if (!box) return;
+    if (!DEFS.length) { box.innerHTML = '<p class="muted">No definitions yet.</p>'; return; }
+    var ORDER = ["AI system", "artificial intelligence", "general-purpose AI model", "AI model", "model", "generative AI", "automated decision system"];
+    var groups = [];
+    DEFS.forEach(function (d) { if (groups.indexOf(d.term_group) < 0) groups.push(d.term_group); });
+    groups.sort(function (x, y) { return (ORDER.indexOf(x) + 1 || 99) - (ORDER.indexOf(y) + 1 || 99); });
+    box.innerHTML = groups.map(function (g) {
+      var rows = DEFS.filter(function (d) { return d.term_group === g; }).map(function (d) {
+        var r = byId[d.record_id] || {};
+        return "<tr><td><a href=\"#" + esc(d.record_id) + "\" data-open=\"" + esc(d.record_id) + "\">" + esc(d.record_id) + "</a> " + esc(r.short_title || "") +
+          "</td><td>" + esc(d.term) + "</td><td>" + esc(d.definition) +
+          (d.english ? ' <span class="muted">(English' + (d.english_by === "issuer" ? " by the issuer" : ", the agent's rendering") + ": " + esc(d.english) + ")</span>" : "") +
+          "</td><td>" + esc(d.locator) + "</td></tr>";
+      }).join("");
+      return "<h3>" + esc(g) + '</h3><div class="schema"><table><thead><tr><th>Record</th><th>Term</th><th>Definition</th><th>Where</th></tr></thead><tbody>' + rows + "</tbody></table></div>";
+    }).join("");
+    box.addEventListener("click", function (e) { var a = e.target.closest("[data-open]"); if (a) { e.preventDefault(); openRecord(a.dataset.open); } });
+  })();
 
   /* ---------- drawer ---------- */
   var openId = null, lastFocus = null;
@@ -557,6 +585,10 @@
       ((r.safety_topics || []).length ? '<div class="sec"><h3>Safety topics</h3><div class="tags">' + r.safety_topics.map(function (t) { return '<span class="tag">' + esc(t) + "</span>"; }).join("") + "</div></div>" : "") +
       (r.scope_note ? '<div class="sec"><h3>Scope</h3><p><span class="scope-flag">Borderline scope</span> ' + esc(r.scope_note) + "</p></div>" : "") +
       (questionsOf(r).length ? '<div class="sec"><h3>Open question</h3>' + questionsOf(r).map(function (q) { return "<p>" + esc(q.why) + " " + (q.url ? '<a href="' + esc(q.url) + '" target="_blank" rel="noopener">Issue #' + esc(q.issue) + "</a>" : "(not filed yet)") + "</p>"; }).join("") + '<p class="muted">The record shows its last checked values until a maintainer decides; the decision is recorded in its history.</p></div>' : "") +
+      (definitionsOf(r).length ? '<div class="sec"><h3>Defined terms</h3>' + definitionsOf(r).map(function (d) {
+        return '<p class="def"><strong>' + esc(d.term) + "</strong> (" + esc(d.locator) + "): " + esc(d.definition) +
+          (d.english ? ' <span class="muted">English' + (d.english_by === "issuer" ? " by the issuer" : ", the agent's rendering") + ": " + esc(d.english) + "</span>" : "") + "</p>";
+      }).join("") + '<p class="muted">Quoted verbatim from the stored source. <a href="#definitions" data-tab="about" data-scroll="definitions">Compare with other instruments</a>.</p></div>' : "") +
       (r.notes ? '<div class="sec"><h3>Status notes</h3><p>' + esc(r.notes) + "</p></div>" : "") +
       '<div class="sec"><h3>Sources</h3><div class="sources">' + srcs + "</div></div>" +
       localSection(r) +
