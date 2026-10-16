@@ -1,0 +1,139 @@
+{
+ "run_id": "2026-10-16-discover-leads-2018",
+ "type": "discover",
+ "scope": null,
+ "started": "2026-10-16",
+ "coordinator": {
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5"
+ },
+ "stages": {
+  "collect": {
+   "tool": "Claude Code",
+   "model": "claude-sonnet-5-5",
+   "date": "2026-10-16"
+  },
+  "extract": {
+   "tool": "Claude Code",
+   "model": "claude-opus-5-5",
+   "date": "2026-10-16"
+  },
+  "blind": {
+   "tool": "Claude Code",
+   "model": "claude-sonnet-5-5",
+   "date": "2026-10-16"
+  },
+  "check": {
+   "tool": "Claude Code",
+   "model": "claude-sonnet-5-5",
+   "date": "2026-10-16"
+  }
+ },
+ "status": "merged",
+ "mode": "leads",
+ "leads": [
+  {
+   "id": "L008",
+   "lead": "Communication: Artificial Intelligence for Europe, COM(2018) 237 (European Commission, 25 Apr 2018)",
+   "cell": "EU/executive",
+   "url": "https://digital-strategy.ec.europa.eu/en/library/communication-artificial-intelligence-europe",
+   "why": "2018 instrument missing from the register (no records dated 2018). The Commission's first AI strategy, including the ethical and legal framework that led to the HLEG guidelines.",
+   "state": "in-run",
+   "added_by": "Michael Riegler",
+   "added": "2026-10-16",
+   "run_id": "2026-10-16-discover-leads-2018"
+  },
+  {
+   "id": "L009",
+   "lead": "Coordinated Plan on Artificial Intelligence, COM(2018) 795 (European Commission, 7 Dec 2018)",
+   "cell": "EU/executive",
+   "url": "https://digital-strategy.ec.europa.eu/en/library/coordinated-plan-artificial-intelligence",
+   "why": "2018 instrument missing from the register (no records dated 2018). Joint plan of the Commission and member states, with ethics guidelines and trustworthy AI as one of its aims; reviewed in 2021.",
+   "state": "in-run",
+   "added_by": "Michael Riegler",
+   "added": "2026-10-16",
+   "run_id": "2026-10-16-discover-leads-2018"
+  },
+  {
+   "id": "L010",
+   "lead": "Charlevoix Common Vision for the Future of Artificial Intelligence (G7 leaders, 9 Jun 2018)",
+   "cell": "G7/repository",
+   "url": "https://publications.gc.ca/site/eng/9.859270/publication.html",
+   "seen_in": "https://www.g7.utoronto.ca/summit/2018charlevoix/ai-commitment.html",
+   "why": "2018 instrument missing from the register (no records dated 2018). G7 leaders' commitment to human-centric AI, with safeguards for privacy, security and bias.",
+   "state": "in-run",
+   "added_by": "Michael Riegler",
+   "added": "2026-10-16",
+   "run_id": "2026-10-16-discover-leads-2018"
+  },
+  {
+   "id": "L011",
+   "lead": "European Ethical Charter on the use of Artificial Intelligence in judicial systems and their environment (CEPEJ, Council of Europe, 4 Dec 2018)",
+   "cell": "COE/repository",
+   "url": "https://www.coe.int/en/web/cepej/ethical-charter-on-ai1",
+   "seen_in": "https://unodc.org/ji/en/resdb/data/european_ethical_charter_on_the_use_of_artificial_intelligence_in_judicial_systems_and_their_environment_adopted_at.html",
+   "why": "2018 instrument missing from the register (no records dated 2018). Five ethical principles for AI in justice. coe.int blocks the archiver (Cloudflare), so the run may need a provided document.",
+   "state": "in-run",
+   "added_by": "Michael Riegler",
+   "added": "2026-10-16",
+   "run_id": "2026-10-16-discover-leads-2018"
+  },
+  {
+   "id": "L012",
+   "lead": "Strategie Künstliche Intelligenz der Bundesregierung (Federal Government AI Strategy, Nov 2018; Bundestag Drucksache 19/5880)",
+   "cell": "DE/executive",
+   "url": "https://dserver.bundestag.de/btd/19/058/1905880.pdf",
+   "seen_in": "https://dserver.bundestag.de/brd/2018/0597-18.pdf",
+   "why": "2018 instrument missing from the register (no records dated 2018). Germany's national AI strategy, adopted by the cabinet on 15 Nov 2018, with sections on ethics, regulation and AI safety.",
+   "state": "in-run",
+   "added_by": "Michael Riegler",
+   "added": "2026-10-16",
+   "run_id": "2026-10-16-discover-leads-2018"
+  },
+  {
+   "id": "L013",
+   "lead": "National Strategy for Artificial Intelligence #AIforAll (NITI Aayog, Jun 2018, discussion paper)",
+   "cell": "IN/executive",
+   "url": "https://www.niti.gov.in/sites/default/files/2023-03/National-Strategy-for-Artificial-Intelligence.pdf",
+   "seen_in": "https://www.niti.gov.in/node/708",
+   "why": "2018 instrument missing from the register (no records dated 2018). India's first national AI strategy paper, including a chapter on ethics, privacy and security; a discussion paper, so probably in with a scope note.",
+   "state": "in-run",
+   "added_by": "Michael Riegler",
+   "added": "2026-10-16",
+   "run_id": "2026-10-16-discover-leads-2018"
+  },
+  {
+   "id": "L014",
+   "lead": "French national AI strategy 'AI for Humanity' (Mar 2018)",
+   "cell": "FR/executive",
+   "url": "https://www.enseignementsup-recherche.gouv.fr/fr/la-strategie-ia-pour-faire-de-la-france-un-acteur-majeur-de-l-intelligence-artificielle-49298",
+   "why": "2018 instrument missing from the register (no records dated 2018). Announced on 30 Mar 2018 on the basis of the Villani report; ethics is one of its priorities, so probably in with a scope note.",
+   "state": "in-run",
+   "added_by": "Michael Riegler",
+   "added": "2026-10-16",
+   "run_id": "2026-10-16-discover-leads-2018"
+  }
+ ],
+ "cells": [
+  "COE/repository",
+  "DE/executive",
+  "EU/executive",
+  "FR/executive",
+  "G7/repository",
+  "IN/executive"
+ ],
+ "groups": {
+  "europe": [
+   "COE/repository",
+   "DE/executive",
+   "EU/executive",
+   "FR/executive"
+  ],
+  "global": [
+   "G7/repository"
+  ],
+  "south-southeast-asia": [
+   "IN/executive"
+  ]
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "cand_id": "C006",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-16",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "language": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "Left null; the catalogue number seen by the blind extractor (FR5-144/2018-27E-PDF) is a publications-catalogue number, not the instrument's identifier."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "commitments to safeguard privacy, invest in cybersecurity, and foster initiatives that promote safety and transparency and give guidance on human intervention in AI decision-making",
+   "verdict": "supported",
+   "locator": "commitments list, English page"
+  },
+  {
+   "claim": "improve digital security in AI through voluntary codes of conduct, standards or guidelines",
+   "verdict": "supported",
+   "locator": "commitments list, last-but-one bullet group"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Intergovernmental declaration on human-centric AI with safety and accountability commitments."
+ },
+ "overall": "accept",
+ "note": "Title and commitments match the full English text on gc.ca; the catalogue record confirms issue on 9 June 2018 at the 44th summit and a French edition. Blind extraction differed only in issuing-body wording and an identifier, neither a factual conflict."
+}

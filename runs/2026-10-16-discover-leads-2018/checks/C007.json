@@ -1,0 +1,57 @@
+{
+ "cand_id": "C007",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-16",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "judgment-differs",
+   "why": "NITI's AIRAWAT paper says 4 June 2018; NITI's publication page shows a posting stamp of 27 June 2018; the strategy paper is undated; the blind extraction chose 2018-06. The day is not settled, so the month is the safe value; the notes keep the 4 June and 27 June statements.",
+   "fix": {
+    "value": "2018-06",
+    "evidence": [
+     {
+      "file": "archive/_runs/2026-10-16-discover-leads-2018/C007/extra-e89cc95621/2026-10-16/official.pdf",
+      "sha256": "f01d23332f0efb84b040d2ee6ca9fb7cf2c34bea39c7b528353d8a0095ce6f5f",
+      "locator": "page 5",
+      "quote": "NITI Aayog released the National Strategy for Artificial Intelligence (NSAI) discussion paper in June 2018",
+      "source_kind": "official"
+     }
+    ]
+   }
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "negligence test for damages caused by AI, safe harbours where the product was properly designed, tested and monitored",
+   "verdict": "supported",
+   "locator": "ethics, privacy and security chapter, recommendations a-b"
+  },
+  {
+   "claim": "consortium of ethics councils at each research centre; AIRAWAT; marketplace",
+   "verdict": "supported",
+   "locator": "executive summary, Box 15"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Discussion paper mainly on adoption and research, one chapter on ethics, privacy and security; extractor's scope_note kept."
+ },
+ "overall": "accept-with-fixes",
+ "note": "Content, authorship and discussion-paper status are supported by the NITI PDF. date_published is changed to 2018-06 because two NITI sources give different days and the paper is undated; the notes already describe both."
+}

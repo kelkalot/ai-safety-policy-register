@@ -1,0 +1,23 @@
+{
+ "group": "south-southeast-asia",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "candidates": [
+  {
+   "cand_ref": "south-southeast-asia-01",
+   "cell": "IN/executive",
+   "lead": "L013",
+   "title_as_found": "National Strategy for Artificial Intelligence #AIforAll (discussion paper)",
+   "language": "English",
+   "url": "https://www.niti.gov.in/sites/default/files/2023-03/National-Strategy-for-Artificial-Intelligence.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.niti.gov.in/node/708"
+   ],
+   "found_via": "lead URL is the NITI Aayog PDF itself, HTTP 200 application/pdf",
+   "scope_guess": "borderline",
+   "why": "Discussion paper with a chapter on ethics, privacy and security; main focus is adoption, so a scope note.",
+   "possible_duplicate_of": null
+  }
+ ]
+}

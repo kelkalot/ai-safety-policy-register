@@ -1,0 +1,137 @@
+{
+ "cand_id": "C001",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Artificial Intelligence for Europe",
+  "short_title": "EU Communication on AI for Europe (2018)",
+  "jurisdiction": "European Union",
+  "country": "European Union",
+  "jurisdiction_level": "Supranational",
+  "region": "Europe",
+  "issuing_body": "European Commission",
+  "instrument_type": "Strategy / action plan",
+  "legal_force": "Non-binding",
+  "status": "Published (non-binding, current)",
+  "date_published": "2018-04-25",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": "COM(2018) 237 final",
+  "official_url": "https://digital-strategy.ec.europa.eu/en/library/communication-artificial-intelligence-europe",
+  "secondary_url": null,
+  "language": "English",
+  "summary": "European Commission strategy for an EU initiative on AI in three parts: boosting the EU's technological and industrial capacity and AI uptake, aiming at public and private AI investment of at least EUR 20 billion by the end of 2020; preparing for socioeconomic changes; and ensuring an appropriate ethical and legal framework. Under that framework the Commission undertook to have draft AI ethics guidelines developed with stakeholders by the end of 2018, to issue guidance on the Product Liability Directive and a report on the liability and safety frameworks for AI, the Internet of Things and robotics by mid-2019, and to support research on explainable AI.",
+  "safety_topics": [
+   "accountability & liability",
+   "transparency & labelling",
+   "research priorities",
+   "international cooperation"
+  ],
+  "related": [
+   "C002",
+   "EU-20"
+  ],
+  "notes": "Accompanied by a Commission staff working document on liability, SWD(2018) 137. The communication builds on the declaration of cooperation on AI signed on 10 April 2018 by 24 Member States and Norway, encourages every Member State to have an AI strategy, and announced a coordinated plan on AI with Member States by the end of 2018 and a European AI Alliance by July 2018. As a first step the Commission raised AI investment under Horizon 2020 to around EUR 1.5 billion for 2018-2020. It names safety and liability, security (criminal use or attacks), bias and discrimination among the risks of AI, says consumers should know whether they are communicating with a machine or another human, and says the Commission will review existing legal frameworks if necessary.",
+  "scope_note": "Mainly a strategy for AI investment, research and uptake, with an ethical and legal framework as one of its three parts; included as the European Commission's first AI strategy, which launched the AI ethics guidelines and the review of the safety and liability rules for AI.",
+  "verification": {
+   "note": "Stored the Commission's PDF of COM(2018) 237 final from ec.europa.eu (20 pages), which confirms the title, the number, the date 'Brussels, 25.4.2018' and the content, and the Commission's library page on digital-strategy.ec.europa.eu with its printable PDF, which gives the publication date 25 April 2018. The candidate's EUR-Lex URL and the European Parliament register copy returned bot-check pages with no text. No stored source says the communication was withdrawn or replaced."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C001/extra-a8793899c2/2026-10-16/official.pdf",
+    "sha256": "6b66eec8b63bb51577d1710e0759e2f3a96ec7a4111eaa4bba3a6a5c044b93f7",
+    "locator": "page 1",
+    "quote": "REGIONS Artificial Intelligence for Europe {SWD(2018) 137 final}",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C001/extra-67a5426d88/2026-10-16/official.html",
+    "sha256": "095fc4f3f774991822b750acf99aaabc6b97159681eb2cea14d93975226bead0",
+    "locator": "library page, heading",
+    "quote": "Communication Artificial Intelligence for Europe POLICY AND LEGISLATION Publication 25 April 2018",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C001/extra-a8793899c2/2026-10-16/official.pdf",
+    "sha256": "6b66eec8b63bb51577d1710e0759e2f3a96ec7a4111eaa4bba3a6a5c044b93f7",
+    "locator": "page 1",
+    "quote": "EUROPEAN COMMISSION Brussels, 25.4.2018 COM(2018) 237 final COMMUNICATION FROM THE COMMISSION",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C001/extra-a8793899c2/2026-10-16/official.pdf",
+    "sha256": "6b66eec8b63bb51577d1710e0759e2f3a96ec7a4111eaa4bba3a6a5c044b93f7",
+    "locator": "page 1",
+    "quote": "Brussels, 25.4.2018 COM(2018) 237 final",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C001/extra-a8793899c2/2026-10-16/official.pdf",
+    "sha256": "6b66eec8b63bb51577d1710e0759e2f3a96ec7a4111eaa4bba3a6a5c044b93f7",
+    "locator": "page 1",
+    "quote": "Brussels, 25.4.2018 COM(2018) 237 final",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C001/extra-67a5426d88/2026-10-16/official.html",
+    "sha256": "095fc4f3f774991822b750acf99aaabc6b97159681eb2cea14d93975226bead0",
+    "locator": "library page, heading",
+    "quote": "Publication 25 April 2018",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C001/extra-a8793899c2/2026-10-16/official.pdf",
+    "sha256": "6b66eec8b63bb51577d1710e0759e2f3a96ec7a4111eaa4bba3a6a5c044b93f7",
+    "locator": "page 20",
+    "quote": "The approach to AI described in this document shows the way forward and highlights the need to join forces at European level",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C001/extra-67a5426d88/2026-10-16/official.html",
+    "sha256": "095fc4f3f774991822b750acf99aaabc6b97159681eb2cea14d93975226bead0",
+    "locator": "library page, heading",
+    "quote": "Publication 25 April 2018",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C001/extra-a8793899c2/2026-10-16/official.pdf",
+    "sha256": "6b66eec8b63bb51577d1710e0759e2f3a96ec7a4111eaa4bba3a6a5c044b93f7",
+    "locator": "page 1",
+    "quote": "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE EUROPEAN COUNCIL, THE COUNCIL",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C001/extra-a8793899c2/2026-10-16/official.pdf",
+    "sha256": "6b66eec8b63bb51577d1710e0759e2f3a96ec7a4111eaa4bba3a6a5c044b93f7",
+    "locator": "page 20",
+    "quote": "The approach to AI described in this document shows the way forward and highlights the need to join forces at European level",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The latest stored event is the adoption of the communication on 25 April 2018 ('Brussels, 25.4.2018'), published in the Commission's library on that date. A communication that sets out an approach ('shows the way forward'), with no legal effect; no stored source withdraws or replaces it. Later EU instruments built on it, but none of them is stored as a replacement, so Published (non-binding, current).",
+  "date_reasoning": "date_published is the date on the cover, 25.4.2018, which the library page repeats.",
+  "legal_force_reasoning": "A Commission communication to the other institutions: Non-binding.",
+  "related_reasoning": "C002 (the Coordinated Plan of 7 December 2018) is the coordinated plan this communication announced for the end of 2018. EU-20 (Ethics Guidelines for Trustworthy AI) are the AI ethics guidelines it set in motion.",
+  "topics_reasoning": "accountability & liability: the safety and liability section and the Product Liability Directive guidance and liability report (pages 16-17); transparency & labelling: explainability and consumers' right to know whether they deal with a machine (pages 15, 17); research priorities: research on explainable AI and the algorithmic awareness pilot (page 17); international cooperation: G7, G20, OECD and UN discussions (page 19).",
+  "scope_reasoning": "A strategy whose main content is investment, research and uptake, with an ethical and legal framework that sets specific actions (ethics guidelines, liability and safety review). AGENTS.md section 10: a strategy with some safety content and a different main focus is in with a scope_note. Unlike the precedent of the EU AI Continent Action Plan (only high-level references to trustworthy AI), it sets concrete safety and liability work."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

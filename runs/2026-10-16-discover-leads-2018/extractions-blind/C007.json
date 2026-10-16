@@ -1,0 +1,108 @@
+{
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "National Strategy for Artificial Intelligence",
+  "original_title": null,
+  "short_title": "India National Strategy for AI (#AIforAll)",
+  "jurisdiction": "India",
+  "country": "India",
+  "jurisdiction_level": "National",
+  "region": "South & Southeast Asia",
+  "issuing_body": "NITI Aayog, Government of India",
+  "instrument_type": "Strategy / action plan",
+  "legal_force": "Non-binding",
+  "status": "Published (non-binding, current)",
+  "date_published": "2018-06",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": null,
+  "official_url": "https://www.niti.gov.in/sites/default/files/2023-03/National-Strategy-for-Artificial-Intelligence.pdf",
+  "secondary_url": "https://www.niti.gov.in/node/708",
+  "language": "English",
+  "summary": "Discussion paper in which NITI Aayog sets out a national strategy for AI under the theme #AIforAll. It covers research, skilling, adoption in healthcare, agriculture, education, smart cities and mobility, and a chapter on ethics, privacy, security and AI. The chapter urges fairness and bias mitigation, data protection and sectoral regulation, privacy-preserving techniques, and a liability framework with a negligence test and safe harbours for developers.",
+  "safety_topics": [
+   "accountability & liability",
+   "research priorities",
+   "public-sector use",
+   "evaluation & testing"
+  ],
+  "related": [
+   "IN-02"
+  ],
+  "notes": "Described by NITI Aayog as a discussion paper, released in June 2018 on the mandate given in the 2018-2019 Budget Speech. NITI Aayog later published approach papers detailing its recommendations, for example AIRAWAT on AI-specific cloud computing infrastructure. The stored PDF is the copy on the NITI Aayog site uploaded in March 2023."
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C007/2026-10-16/official.pdf",
+    "sha256": "da5404dbb584c8956aae707dfcfe324dc1df11a179bc8288af0e898f4e37dcc5",
+    "locator": "page 2",
+    "quote": "National Strategy for Artificial Intelligence",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C007/2026-10-16/official.pdf",
+    "sha256": "da5404dbb584c8956aae707dfcfe324dc1df11a179bc8288af0e898f4e37dcc5",
+    "locator": "page 5",
+    "quote": "which is the focus of this discussion paper.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C007/2026-10-16/official.pdf",
+    "sha256": "da5404dbb584c8956aae707dfcfe324dc1df11a179bc8288af0e898f4e37dcc5",
+    "locator": "page 3",
+    "quote": "In writing this Report, Arnab Kumar , Punit Shukla, Aalekh Sharan and Tanay Mahindru of NITI Aayog",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C007/extra-e89cc95621/2026-10-16/official.pdf",
+    "sha256": "f01d23332f0efb84b040d2ee6ca9fb7cf2c34bea39c7b528353d8a0095ce6f5f",
+    "locator": "page 5",
+    "quote": "NITI Aayog released the National Strategy for Artificial Intelligence (NSAI) discussion paper in June 2018",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C007/2026-10-16/official.pdf",
+    "sha256": "da5404dbb584c8956aae707dfcfe324dc1df11a179bc8288af0e898f4e37dcc5",
+    "locator": "page 5",
+    "quote": "which is the focus of this discussion paper.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C007/extra-e89cc95621/2026-10-16/official.pdf",
+    "sha256": "f01d23332f0efb84b040d2ee6ca9fb7cf2c34bea39c7b528353d8a0095ce6f5f",
+    "locator": "page 5",
+    "quote": "NITI Aayog released the National Strategy for Artificial Intelligence (NSAI) discussion paper in June 2018",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C007/2026-10-16/official.pdf",
+    "sha256": "da5404dbb584c8956aae707dfcfe324dc1df11a179bc8288af0e898f4e37dcc5",
+    "locator": "page 5",
+    "quote": "which is the focus of this discussion paper.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "A discussion paper released in June 2018; NITI Aayog's later approach papers build on it and no withdrawal or replacement appears in the stored sources. The NITI Aayog site still hosts it. India's later AI governance guidelines (IN-02) are a separate instrument.",
+  "scope_reasoning": "Adoption-focused national strategy whose main content is not safety, with a chapter on ethics, privacy and security and a proposed liability framework; borderline, included with a scope note."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The PDF carries no date of its own; the month comes from NITI Aayog's AIRAWAT approach paper, so the date is given to the month."
+ ],
+ "cand_id": "C007",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}

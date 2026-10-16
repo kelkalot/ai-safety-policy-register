@@ -93,9 +93,11 @@
    "cell": "EU/executive",
    "url": "https://digital-strategy.ec.europa.eu/en/library/communication-artificial-intelligence-europe",
    "why": "2018 instrument missing from the register (no records dated 2018). The Commission's first AI strategy, including the ethical and legal framework that led to the HLEG guidelines.",
-   "state": "queued",
+   "state": "included",
    "added_by": "Michael Riegler",
-   "added": "2026-10-16"
+   "added": "2026-10-16",
+   "run_id": "2026-10-16-discover-leads-2018",
+   "record_id": "EU-21"
   },
   {
    "id": "L009",
@@ -103,9 +105,10 @@
    "cell": "EU/executive",
    "url": "https://digital-strategy.ec.europa.eu/en/library/coordinated-plan-artificial-intelligence",
    "why": "2018 instrument missing from the register (no records dated 2018). Joint plan of the Commission and member states, with ethics guidelines and trustworthy AI as one of its aims; reviewed in 2021.",
-   "state": "queued",
+   "state": "not-added",
    "added_by": "Michael Riegler",
-   "added": "2026-10-16"
+   "added": "2026-10-16",
+   "run_id": "2026-10-16-discover-leads-2018"
   },
   {
    "id": "L010",
@@ -114,9 +117,11 @@
    "url": "https://publications.gc.ca/site/eng/9.859270/publication.html",
    "seen_in": "https://www.g7.utoronto.ca/summit/2018charlevoix/ai-commitment.html",
    "why": "2018 instrument missing from the register (no records dated 2018). G7 leaders' commitment to human-centric AI, with safeguards for privacy, security and bias.",
-   "state": "queued",
+   "state": "included",
    "added_by": "Michael Riegler",
-   "added": "2026-10-16"
+   "added": "2026-10-16",
+   "run_id": "2026-10-16-discover-leads-2018",
+   "record_id": "G7-07"
   },
   {
    "id": "L011",
@@ -125,9 +130,11 @@
    "url": "https://www.coe.int/en/web/cepej/ethical-charter-on-ai1",
    "seen_in": "https://unodc.org/ji/en/resdb/data/european_ethical_charter_on_the_use_of_artificial_intelligence_in_judicial_systems_and_their_environment_adopted_at.html",
    "why": "2018 instrument missing from the register (no records dated 2018). Five ethical principles for AI in justice. coe.int blocks the archiver (Cloudflare), so the run may need a provided document.",
-   "state": "queued",
+   "state": "included",
    "added_by": "Michael Riegler",
-   "added": "2026-10-16"
+   "added": "2026-10-16",
+   "run_id": "2026-10-16-discover-leads-2018",
+   "record_id": "COE-03"
   },
   {
    "id": "L012",
@@ -136,9 +143,11 @@
    "url": "https://dserver.bundestag.de/btd/19/058/1905880.pdf",
    "seen_in": "https://dserver.bundestag.de/brd/2018/0597-18.pdf",
    "why": "2018 instrument missing from the register (no records dated 2018). Germany's national AI strategy, adopted by the cabinet on 15 Nov 2018, with sections on ethics, regulation and AI safety.",
-   "state": "queued",
+   "state": "included",
    "added_by": "Michael Riegler",
-   "added": "2026-10-16"
+   "added": "2026-10-16",
+   "run_id": "2026-10-16-discover-leads-2018",
+   "record_id": "DE-02"
   },
   {
    "id": "L013",
@@ -147,9 +156,11 @@
    "url": "https://www.niti.gov.in/sites/default/files/2023-03/National-Strategy-for-Artificial-Intelligence.pdf",
    "seen_in": "https://www.niti.gov.in/node/708",
    "why": "2018 instrument missing from the register (no records dated 2018). India's first national AI strategy paper, including a chapter on ethics, privacy and security; a discussion paper, so probably in with a scope note.",
-   "state": "queued",
+   "state": "included",
    "added_by": "Michael Riegler",
-   "added": "2026-10-16"
+   "added": "2026-10-16",
+   "run_id": "2026-10-16-discover-leads-2018",
+   "record_id": "IN-04"
   },
   {
    "id": "L014",
@@ -157,9 +168,11 @@
    "cell": "FR/executive",
    "url": "https://www.enseignementsup-recherche.gouv.fr/fr/la-strategie-ia-pour-faire-de-la-france-un-acteur-majeur-de-l-intelligence-artificielle-49298",
    "why": "2018 instrument missing from the register (no records dated 2018). Announced on 30 Mar 2018 on the basis of the Villani report; ethics is one of its priorities, so probably in with a scope note.",
-   "state": "queued",
+   "state": "included",
    "added_by": "Michael Riegler",
-   "added": "2026-10-16"
+   "added": "2026-10-16",
+   "run_id": "2026-10-16-discover-leads-2018",
+   "record_id": "FR-02"
   }
  ]
 }

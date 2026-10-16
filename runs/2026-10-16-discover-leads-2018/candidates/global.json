@@ -1,0 +1,25 @@
+{
+ "group": "global",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "candidates": [
+  {
+   "cand_ref": "global-01",
+   "cell": "G7/repository",
+   "lead": "L010",
+   "title_as_found": "Charlevoix Common Vision for the Future of Artificial Intelligence",
+   "language": "English, French",
+   "url": "https://publications.gc.ca/collections/collection_2018/amc-gac/FR5-144-2018-27-eng.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://publications.gc.ca/site/eng/9.859270/publication.html",
+    "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/g7/documents/2018-06-09-artificial-intelligence-artificielle.aspx?lang=eng",
+    "https://www.g7.utoronto.ca/summit/2018charlevoix/ai-commitment.html"
+   ],
+   "found_via": "lead landing page on publications.gc.ca links the PDF (Canada's G7 presidency publication)",
+   "scope_guess": "in",
+   "why": "G7 leaders' commitment to human-centric AI with safeguards for privacy, security and bias.",
+   "possible_duplicate_of": null
+  }
+ ]
+}

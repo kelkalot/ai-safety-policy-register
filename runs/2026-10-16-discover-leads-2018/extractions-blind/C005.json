@@ -1,0 +1,124 @@
+{
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "AI for Humanity: French national strategy for artificial intelligence",
+  "original_title": null,
+  "short_title": "France AI for Humanity strategy",
+  "jurisdiction": "France",
+  "country": "France",
+  "jurisdiction_level": "National",
+  "region": "Europe",
+  "issuing_body": "President of the Republic and Government of France",
+  "instrument_type": "Strategy / action plan",
+  "legal_force": "Non-binding",
+  "status": "Published (non-binding, current)",
+  "date_published": "2018-03-29",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": null,
+  "official_url": "https://www.elysee.fr/emmanuel-macron/2018/03/29/discours-du-president-de-la-republique-sur-lintelligence-artificielle",
+  "secondary_url": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/content_migration/document/mesri_IA_dep_A4_09_1040607.pdf",
+  "language": "French",
+  "english_version": {
+   "kind": "none found"
+  },
+  "summary": "France's national AI strategy, presented by President Macron on 29 March 2018 on the basis of the report by Cedric Villani. It rests on four pillars: an AI research and innovation ecosystem, an open data policy, public funding and projects in selected sectors, and an ethical and political debate. On ethics it commits the State to publish the code of the algorithms it uses, to track bias, to keep humans in the decision and to non-discrimination, and it proposes an international expert body on AI.",
+  "safety_topics": [
+   "transparency & labelling",
+   "human oversight",
+   "public-sector use",
+   "research priorities",
+   "international cooperation"
+  ],
+  "related": [],
+  "notes": "The strategy was announced in the President's speech at the Collège de France on 29 March 2018. The Government's press kit of 28 November 2018 on the national AI research strategy describes the measures that carry it out, including a research programme led by Inria and an ethics axis."
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-f2a567052b/2026-10-16/official.pdf",
+    "sha256": "20248c82753b7b701ed65795b9e5b1c3d3df0434dfc9269d5cb33e469fc396a2",
+    "locator": "page 3",
+    "quote": "LA STRATÉGIE AI FOR HUMANITY",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-3f80776e63/2026-10-16/document-1.pdf",
+    "sha256": "1374bd6bc99e253c4d0924122f9608b8daaf724f5b8ad8211f8226e84f06ab74",
+    "locator": "page 2",
+    "quote": "Cette stratégie à mes yeux passe par quatre éléments principaux qui procèdent largement du travail",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-3f80776e63/2026-10-16/document-1.pdf",
+    "sha256": "1374bd6bc99e253c4d0924122f9608b8daaf724f5b8ad8211f8226e84f06ab74",
+    "locator": "page 1",
+    "quote": "Discours du Président de la République",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-f2a567052b/2026-10-16/official.pdf",
+    "sha256": "20248c82753b7b701ed65795b9e5b1c3d3df0434dfc9269d5cb33e469fc396a2",
+    "locator": "page 1",
+    "quote": "numerique.gouv.fr",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-3f80776e63/2026-10-16/document-1.pdf",
+    "sha256": "1374bd6bc99e253c4d0924122f9608b8daaf724f5b8ad8211f8226e84f06ab74",
+    "locator": "page 1",
+    "quote": "Paris Collège de France – Jeudi 29 mars 2018",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-3f80776e63/2026-10-16/document-1.pdf",
+    "sha256": "1374bd6bc99e253c4d0924122f9608b8daaf724f5b8ad8211f8226e84f06ab74",
+    "locator": "page 11",
+    "quote": "La stratégie que je viens de présenter et qui procède des travaux que nombre d’entre vous ici, dans cet",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-f2a567052b/2026-10-16/official.pdf",
+    "sha256": "20248c82753b7b701ed65795b9e5b1c3d3df0434dfc9269d5cb33e469fc396a2",
+    "locator": "page 3",
+    "quote": "Le premier comité de pilotage ministériel sur l’intelligence artificielle est justement consacré au suivi de ces efforts",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-3f80776e63/2026-10-16/document-1.pdf",
+    "sha256": "1374bd6bc99e253c4d0924122f9608b8daaf724f5b8ad8211f8226e84f06ab74",
+    "locator": "page 11",
+    "quote": "La stratégie que je viens de présenter et qui procède des travaux que nombre d’entre vous ici, dans cet",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The strategy was announced on 29 March 2018 and the Government's press kit of 28 November 2018 reports its implementation under a ministerial steering committee. No repeal or replacement is stored; a later phase of the strategy may exist but is not in the stored sources, so the status stays Published (non-binding, current).",
+  "scope_reasoning": "National AI strategy mainly about research, data and funding, with ethics as one of four pillars and concrete duties on algorithmic transparency and bias; borderline, included with a scope note."
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "lead": "Villani report 'Donner un sens a l'intelligence artificielle' (March 2018), the basis of the strategy",
+   "reason": "Official report behind the strategy; not stored in this run"
+  }
+ ],
+ "open_questions": [
+  "The strategy's own text was not stored: the ministry page returned HTTP 403, and the record rests on the President's speech of 29 March 2018 and the press kit of 28 November 2018.",
+  "The official French title of the strategy document is not confirmed by a stored text, so original_title is null.",
+  "Whether a later phase of the French AI strategy supersedes this one."
+ ],
+ "cand_id": "C005",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}
