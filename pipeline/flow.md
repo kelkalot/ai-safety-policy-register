@@ -6,7 +6,8 @@ These charts show what an agent session can do, what each run kicks off, and how
 
 ```mermaid
 flowchart TD
-    start(["New clone or new agent session"]) --> menu["python3 tools/pipeline.py menu<br/>what is ready now"]
+    start(["New clone or new agent session"]) --> board["pinned issue Project status<br/>priorities, in progress, rhythm"]
+    board --> menu["python3 tools/pipeline.py menu<br/>what is ready now"]
     menu --> setup{"setup missing?<br/>no archive, pypdf, playwright"}
     setup -- yes --> fix["archive.py --browser, or the archive<br/>from Hugging Face; pip install"]
     fix --> menu
@@ -81,6 +82,8 @@ flowchart TD
     lq --> rq
     lq --> leads["leads run / discover run"]
     leads --> rec
+    main(("merge to main")) -- "Action board, and every Monday" --> statusissue["pinned issue Project status<br/>pipeline.py board --sync"]
+    rec --> main
     classDef human fill:#fff4e5,stroke:#b26b00
     class gh,apply,users,contrib human
 ```
