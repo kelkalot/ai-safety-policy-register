@@ -336,7 +336,7 @@ Codex has no hooks. A maintainer who commits by hand or with Codex turns on the 
 
 ### 7.11 The project status issue
 
-The register is kept by agents in different sessions and tools, and by people. They share one overview: the pinned issue **Project status** (label `status`). `python3 tools/pipeline.py board --sync` writes it from the repository and GitHub. The GitHub Action `board` (`.github/workflows/board.yml`) runs it after every push to main and every Monday, so the issue is never older than the last merge. It shows:
+The register is kept by agents in different sessions and tools, and by people. They share one overview: the pinned issue **Project status** (label `status`). `python3 tools/pipeline.py board --sync` writes it from the repository and GitHub. The GitHub Action `board` (`.github/workflows/board.yml`) runs it after every push to main, after every release (the release tag `v*`) and every Monday, so the issue is never older than the last merge or release. It shows:
 
 - the data version and the last release;
 - **Priorities now**, the one section maintainers write by hand. The script keeps it when it rewrites the rest;
