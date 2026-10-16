@@ -2196,6 +2196,24 @@ def github_repo():
 
 
 AGENT_MARK = "<!-- every-ai-policy-ever:agent -->"
+_CAN_WRITE = {}
+
+
+def can_write(repo):
+    """Whether the signed-in GitHub account may write to repo. Only maintainers' runs post questions, apply decisions
+    and answer suggestions; a contributor's run in a fork leaves that to the maintainers after the merge."""
+    if repo not in _CAN_WRITE:
+        res = subprocess.run(["gh", "api", "repos/%s" % repo, "--jq", ".permissions.push"], capture_output=True,
+                             text=True) if shutil.which("gh") else None
+        _CAN_WRITE[repo] = bool(res and res.returncode == 0 and res.stdout.strip() == "true")
+    return _CAN_WRITE[repo]
+
+
+def not_a_maintainer(repo, what):
+    print("Skipped %s: your GitHub account has no write access to %s, so nothing is read from or posted to its issues. "
+          "That is normal for a contributor: open a pull request with your run, and the maintainers' next run posts its "
+          "questions and applies decisions." % (what, repo))
+    return 0
 
 
 def gh(*args, input_text=None):
@@ -2456,6 +2474,8 @@ def apply_record_decision(q, comment, lines, db, dry):
 
 
 def cmd_questions(args):
+    if (args.sync or args.apply) and not args.dry_run and not can_write(github_repo()):
+        return not_a_maintainer(github_repo(), "questions --sync/--apply")
     db = load_db()
     by = {r["id"]: r for r in db["records"]}
     reg = read_json(QUESTIONS, {}) or {}
@@ -2801,6 +2821,8 @@ def cmd_intake(args):
     leads = reg["leads"]
     if args.triage:
         return intake_triage(repo, reg, load_db())
+    if not args.dry_run and not can_write(repo):
+        return not_a_maintainer(repo, "intake")
     known = {l.get("issue") for l in leads if l.get("issue")}
     frame, db = load_frame(), load_db()
     by = {r["id"]: r for r in db["records"]}

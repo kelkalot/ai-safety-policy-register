@@ -44,6 +44,56 @@ The app's **Contribute** tab explains the same for readers, and each record page
 
 **AI agents** may contribute for a person under the rules in [`CONTRIBUTING.md`](CONTRIBUTING.md): they say so in the form, suggest only what they found on an official page they opened, and never write a decision. Before deciding, a maintainer can list the undecided issues with their warning signs (a declared agent, a bot or new account, many issues at once, a URL that is not on an official site, an instrument already in the register): `python3 tools/pipeline.py intake --triage`.
 
+### From start to finish: five examples
+
+Each example ends with a change in the published register. The first three need only a browser and a GitHub account.
+
+**1. Fix an error in a record** (about 10 minutes of your time)
+1. On the record's page in the [app](https://huggingface.co/spaces/kelkalot/every-ai-policy-ever), find "Improve this record" and click *Report news or an error*. The GitHub form opens with the record filled in.
+2. Say what is wrong and give the official URL that shows the right value, such as a newer version or an amendment in the gazette.
+3. A maintainer comments `decide: accept`. The next refresh run stores the source, re-extracts the record and has it checked. Each changed field is logged in `data/history.jsonl` with its evidence, and the issue is closed once the run has checked the record.
+
+The correction is in the next release, and the record page's History section shows it.
+
+**2. Add an instrument the register lacks**
+1. Open [*Suggest an instrument*](https://github.com/kelkalot/every-ai-policy-ever/issues/new/choose) with the official URL, the title and the jurisdiction code.
+2. After `decide: accept` it becomes a lead (`pipeline/leads.json`). The next leads run stores the source, writes the record, checks it and merges it. The issue is closed with the new record's ID.
+
+**3. Provide a document a site blocks**
+
+A live case: the Texas TRAIGA record (US-TX-01) is at level C, because capitol.texas.gov forbids automated downloads of bill texts (issue #76).
+1. Open the enrolled HB 149 on capitol.texas.gov in your browser and save it.
+2. Open *Provide a document*, enter the record ID US-TX-01 and the URL, and attach the file.
+3. A maintainer checks that it matches the official source and accepts it. The next refresh run reads it, the record's title and adoption date get official evidence, and the record returns to level A.
+
+**4. Rerun the pipeline and check the register** (your own Claude Code or Codex subscription, about an hour)
+1. Get the code and the stored documents. The archive dataset is free but needs a Hugging Face account and accepting its terms:
+
+   ```bash
+   git clone https://github.com/kelkalot/every-ai-policy-ever && cd every-ai-policy-ever
+   python3 -m pip install pypdf playwright huggingface_hub && python3 -m playwright install chromium
+   hf auth login
+   hf download kelkalot/every-ai-policy-ever-archive --repo-type dataset --include "archive/*" --local-dir .
+   python3 tools/pipeline.py menu      # what is ready now; it also checks the setup
+   ```
+2. Start `claude` (or `codex`) in the folder and run one item from the menu. For example:
+   - `/run-pipeline refresh`, for the records most overdue for a check;
+   - `/run-pipeline refresh US-04 EU-03`, for records you care about;
+   - `/run-pipeline compare`, for the next definitions to quote.
+
+   The run prints its steps, works through them and ends with a commit on a local branch `run/<run-id>`.
+3. Read `runs/<run-id>/report.md`. It shows what changed, what was confirmed, how far the blind second extraction agreed with the first (the repeatability figure), and what the checker found.
+4. If your run found something the register lacks, push the branch to a fork and report it with form 1, linking your report. Examples: a newer version, an amendment, a wrong date. The maintainers' next run repeats the change from their own stored copies and merges it.
+
+A pull request with the run itself cannot be merged yet, because the documents it quotes are stored on your machine and not in git. The scripts that post to GitHub (`questions --sync`, `questions --apply`, `intake`) notice that you are not a maintainer and skip themselves.
+
+**5. Maintainers and collaborators: a run that ends in a release**
+1. `python3 tools/pipeline.py menu`; pick one item. One run per session. `new` refuses a run larger than 120 frame cells or 40 records.
+2. `/run-pipeline <item>`. The run applies the pending decisions first, ends with a commit on `run/<run-id>`, opens issues for its questions and its human sample, and closes the issues it settled.
+3. Review the report and the diff, merge the pull request, and release (section 9).
+
+`pipeline/flow.md` shows how these paths connect.
+
 ### Contact the maintainers
 
 For anything the issue forms do not cover, such as a question about the method, reuse of the data or a problem with the site, open a [blank issue](https://github.com/kelkalot/every-ai-policy-ever/issues/new). If you have no GitHub account, or for anything that should not be public, write to the maintainers at the AI Safety Department of SimulaMet and OsloMet: Michael A. Riegler (michael@simula.no) and Sushant Gautam (sushant@simula.no).

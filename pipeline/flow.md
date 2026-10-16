@@ -71,13 +71,16 @@ flowchart TD
     COMP -- "held definitions" --> rep["run report"]
     gh -- "a maintainer comments decide: ..." --> apply["questions --apply, intake"]
     users["issue forms: suggest an instrument,<br/>provide a document"] --> gh
+    contrib["a contributor's own run<br/>no write access, posts nothing"] -- "run report linked in a form" --> users
     apply -- "leads, refresh requests,<br/>provided documents" --> lq["leads and refresh requests"]
     lq --> rq
     lq --> leads["leads run / discover run"]
     leads --> rec
     classDef human fill:#fff4e5,stroke:#b26b00
-    class gh,apply,users human
+    class gh,apply,users,contrib human
 ```
+
+A contributor's own run (README, example 4) does not reach the register directly: the documents it quotes are on the contributor's machine, not in git. Its report goes into an issue form as evidence, and the maintainers' next run repeats the change from their own stored copies. `questions --sync`, `questions --apply` and `intake` skip themselves for an account without write access.
 
 ## 4. The crosswalk (issue #70)
 
