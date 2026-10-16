@@ -66,7 +66,7 @@ A live case: the Texas TRAIGA record (US-TX-01) is at level C, because capitol.t
 2. Open *Provide a document*, enter the record ID US-TX-01 and the URL, and attach the file.
 3. A maintainer checks that it matches the official source and accepts it. The next refresh run reads it, the record's title and adoption date get official evidence, and the record returns to level A.
 
-**4. Rerun the pipeline and check the register** (your own Claude Code or Codex subscription, about an hour)
+**4. Rerun the pipeline: your own copy of the register, or a check of this one** (your own Claude Code or Codex subscription, about an hour)
 1. Get the code and the stored documents. The archive dataset is free but needs a Hugging Face account and accepting its terms:
 
    ```bash
@@ -83,11 +83,12 @@ A live case: the Texas TRAIGA record (US-TX-01) is at level C, because capitol.t
 
    The run prints its steps, works through them and ends with a commit on a local branch `run/<run-id>`.
 3. Read `runs/<run-id>/report.md`. It shows what changed, what was confirmed, how far the blind second extraction agreed with the first (the repeatability figure), and what the checker found.
-4. If your run found something the register lacks, push the branch to a fork and report it with form 1, linking your report. Examples: a newer version, an amendment, a wrong date. The maintainers' next run repeats the change from their own stored copies and merges it.
+4. Merge the branch in your copy, run `python3 tools/build.py`, and open `index.html`. Your copy of the register now has the change, with its evidence, its history and its own app, and it is a full register you can keep running. To have your copy's questions and human samples filed as issues on your fork, set `"repo"` in `pipeline/questions.json` to your fork.
+5. To bring a finding into the maintained register (a newer version, an amendment, a wrong date), report it with form 1 and link your run report. The maintainers' next run repeats the change from their own stored copies.
 
-A pull request with the run itself cannot be merged yet, because the documents it quotes are stored on your machine and not in git. The scripts that post to GitHub (`questions --sync`, `questions --apply`, `intake`) notice that you are not a maintainer and skip themselves.
+The maintained register takes findings through the forms, not as pull requests of runs. The documents a run quotes stay on the machine that stored them, because `archive/` is not in git. For the same reason, the scripts that post to GitHub (`questions --sync`, `questions --apply`, `intake`) skip themselves when your account cannot write to the repository named in `pipeline/questions.json`.
 
-**5. Maintainers and collaborators: a run that ends in a release**
+**5. Maintainers of the register: a run that ends in a release**
 1. `python3 tools/pipeline.py menu`; pick one item. One run per session. `new` refuses a run larger than 120 frame cells or 40 records.
 2. `/run-pipeline <item>`. The run applies the pending decisions first, ends with a commit on `run/<run-id>`, opens issues for its questions and its human sample, and closes the issues it settled.
 3. Review the report and the diff, merge the pull request, and release (section 9).

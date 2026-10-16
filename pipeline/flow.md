@@ -71,7 +71,7 @@ flowchart TD
     COMP -- "held definitions" --> rep["run report"]
     gh -- "a maintainer comments decide: ..." --> apply["questions --apply, intake"]
     users["issue forms: suggest an instrument,<br/>provide a document"] --> gh
-    contrib["a contributor's own run<br/>no write access, posts nothing"] -- "run report linked in a form" --> users
+    contrib["a run in someone else's copy<br/>changes that copy; posts nothing here"] -- "finding, with the run report, in a form" --> users
     apply -- "leads, refresh requests,<br/>provided documents" --> lq["leads and refresh requests"]
     lq --> rq
     lq --> leads["leads run / discover run"]
@@ -80,7 +80,7 @@ flowchart TD
     class gh,apply,users,contrib human
 ```
 
-A contributor's own run (README, example 4) does not reach the register directly: the documents it quotes are on the contributor's machine, not in git. Its report goes into an issue form as evidence, and the maintainers' next run repeats the change from their own stored copies. `questions --sync`, `questions --apply` and `intake` skip themselves for an account without write access.
+A run in someone else's clone or fork (README, example 4) is complete in that copy. Its findings reach the maintained register through an issue form with the run report as evidence, and the maintainers' next run repeats the change from their own stored copies; the documents a run quotes stay on the machine that stored them. `questions --sync`, `questions --apply` and `intake` skip themselves when the account cannot write to the repository named in `pipeline/questions.json`.
 
 ## 4. The crosswalk (issue #70)
 
