@@ -315,7 +315,7 @@ The gate runs at four points:
 3. on every pull request to main and every push to main, in the GitHub Action `gate` (`.github/workflows/gate.yml`), without the stored documents;
 4. in full, with the stored documents and against the last release tag, at the start of `publish_hf.py --release`, which refuses to publish when it fails.
 
-Codex has no hooks. A maintainer who commits by hand or with Codex turns on the same check once per clone with `git config core.hooksPath .githooks`. A maintainer who marks the `gate` check as required for main in the repository settings makes GitHub refuse a merge that fails it. A failed gate is fixed at its cause; nobody, person or agent, commits past it.
+Codex has no hooks. A maintainer who commits by hand or with Codex turns on the same check once per clone with `git config core.hooksPath .githooks`. The repository's ruleset for main requires the `gate` check and has no bypass, so GitHub refuses a merge that fails it and any direct push to main, including a version bump: that goes through a pull request too. A failed gate is fixed at its cause; nobody, person or agent, commits past it.
 
 ## 8. Running it with Claude Code or Codex
 

@@ -307,7 +307,7 @@ The tool builds three repositories from `data/records.json`:
 
 `--private` creates the repositories as private, for a review before they go public.
 
-A new version is published as a release, from the main branch on the machine that holds `archive/`:
+A new version is published as a release, from the main branch on the machine that holds `archive/`. Main accepts changes only through pull requests that pass the `gate` check (a ruleset, AGENTS.md section 7.10), so the version goes through one as well: bump `meta.version` in `data/records.json` on a branch, run `python3 tools/build.py`, open a pull request, and merge it when the gate is green. Then, on main:
 
 ```bash
 python3 tools/publish_hf.py --release --dry-run    # every check, no upload
@@ -316,7 +316,7 @@ python3 tools/publish_hf.py --release              # upload all three repositori
 
 First the release runs the gate (`tools/gate.py`, AGENTS.md section 7.10) on every change since the last release tag, with the stored documents, and stops if it fails. Then, before uploading, it checks that main is clean and pushed, that `meta.version` is higher than the published version and not yet tagged, that no record published before is missing (records are never deleted), that the history and the stored files are intact, that the built archive holds no live access tokens, and that the Hugging Face token can write. It adds a "Changes in this version" section to the dataset card from the history events since the last release, and tags the version (`v1.7`, ...) on the dataset, the archive, the Space and GitHub, so a citation can name a fixed version.
 
-The rhythm: run the archiver weekly to notice changed sources; rerun the pipeline over the full register at least once a month (recheck runs of at most 40 records each, to stay within usage limits), with refresh runs from the queue in between, a discover run per group of countries quarterly, and compare runs from the comparison queue (AGENTS.md sections 5 to 7); after a human has reviewed and merged a run's branch, bump `meta.version` (minor for added records, patch for corrections) and release. Use a fine-grained Hugging Face token with write access to these three repositories only, passed as `HF_TOKEN` for the release command. The archive dataset only grows; a history squash (`--squash-archive`) is for incidents such as a leaked credential.
+The rhythm: run the archiver weekly to notice changed sources; rerun the pipeline over the full register at least once a month (recheck runs of at most 40 records each, to stay within usage limits), with refresh runs from the queue in between, a discover run per group of countries quarterly, and compare runs from the comparison queue (AGENTS.md sections 5 to 7); after a human has reviewed and merged a run's branch, bump `meta.version` in a pull request (minor for added records, patch for corrections) and release. Use a fine-grained Hugging Face token with write access to these three repositories only, passed as `HF_TOKEN` for the release command. The archive dataset only grows; a history squash (`--squash-archive`) is for incidents such as a leaked credential.
 
 ## 10. License and citation
 
