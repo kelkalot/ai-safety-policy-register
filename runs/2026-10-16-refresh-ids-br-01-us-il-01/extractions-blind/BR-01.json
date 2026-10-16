@@ -1,0 +1,100 @@
+{
+ "cand_id": "BR-01",
+ "decision": "update",
+ "target_id": "BR-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "record": {},
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Ementa",
+    "quote": "Dispõe sobre o desenvolvimento, o fomento e o uso ético e responsável da inteligência artificial com base na centralidade da pessoa humana.",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Ementa",
+    "quote": "Dispõe sobre o desenvolvimento, o fomento e o uso ético e responsável da inteligência artificial com base na centralidade da pessoa humana.",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "header",
+    "quote": "PL 2338/2023",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Autor",
+    "quote": "Senado Federal - Rodrigo Pacheco - PSD/MG",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/BR-01/2026-10-16/secondary.html",
+    "sha256": "55370034983db3e98d04546ac6bcdadccc7483387c1310286e6a69005201deb1",
+    "locator": "Dados da matéria",
+    "quote": "03/05/2023",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Situação",
+    "quote": "Aguardando Parecer do(a) Relator(a) na Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 2338, de 2023, do Senado Federal",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+    "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+    "locator": "page 36",
+    "quote": "Art. 80. Esta Lei entra em vigor após decorridos 730 (setecentos e trinta) dias de",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/BR-01/2026-10-11/official.html",
+    "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+    "locator": "Ação",
+    "quote": "Apensação da proposição PL 1542/2026 à proposição PL 904/2026.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Chamber page Situacao: awaiting rapporteur report in the Special Committee; no later event. Bill, not enacted, so Draft / proposed.",
+  "changes": {},
+  "confirmed": [
+   "title",
+   "original_title",
+   "official_identifier",
+   "issuing_body",
+   "date_published",
+   "status",
+   "date_in_force",
+   "date_last_updated"
+  ],
+  "note": "Senate-approved text (Chamber PDF) says the law enters into force 730 days after publication; date_in_force stays null as the bill is not enacted. Official URL is a tracking page; the bill text is the Chamber PDF (extra source) but no URL change proposed."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

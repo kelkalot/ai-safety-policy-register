@@ -1,0 +1,416 @@
+{
+ "BR-01": {
+  "main": {
+   "status": "archived",
+   "flag": "A source changed since the previous snapshot; both versions are kept.",
+   "last_attempt": "2026-10-16T18:31:15Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/BR-01/2026-10-11/official.html",
+     "url": "https://www.camara.leg.br/propostas-legislativas/2487262",
+     "final_url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262&fichaAmigavel=nao",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 492527,
+     "sha256": "1a1bcb116b49e842b0118b1b1651cf8856930c1c4f74297539a0507246bc9883",
+     "retrieved_at": "2026-10-11T13:59:23Z",
+     "last_checked": "2026-10-16T18:31:20Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/BR-01/2026-10-16/secondary.html",
+     "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/157233",
+     "final_url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/157233",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 730200,
+     "sha256": "55370034983db3e98d04546ac6bcdadccc7483387c1310286e6a69005201deb1",
+     "text_sha256": "8ff2cdd1a93f8f686bacd2ec22a8d528d07e9cb48ea7a456ecb1006819393ef1",
+     "retrieved_at": "2026-10-16T18:31:28Z",
+     "last_checked": "2026-10-16T18:31:28Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": true,
+     "previous_sha256": "391abaa09bc304ed65305390f36037f6d4be5c92f6990e3a0b55de15b44fae63",
+     "previous_path": "archive/BR-01/2026-10-11/secondary.html",
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.camara.leg.br/propostas-legislativas/2487262",
+     "attempted_at": "2026-10-11T13:59:23Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/157233",
+     "attempted_at": "2026-10-11T13:59:31Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.camara.leg.br/propostas-legislativas/2487262",
+     "attempted_at": "2026-10-16T18:31:20Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/157233",
+     "attempted_at": "2026-10-16T18:31:28Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2868197": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T18:45:45Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-fc94be211e/2026-10-16/official.pdf",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2868197",
+      "final_url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2868197",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 279835,
+      "sha256": "82e264056ab6622a58ce7cbb66e02d0c79c5d85ff76639841421ca415892c8ca",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T18:45:49Z",
+      "last_checked": "2026-10-16T18:45:49Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2868197",
+      "attempted_at": "2026-10-16T18:45:49Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://camposthomaz.com/wp-content/uploads/2024/12/DOC-Minuta-SF247487258667-20241219.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T18:45:45Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-refresh-ids-br-01-us-il-01/BR-01/extra-3b087e7a57/2026-10-16/official.pdf",
+      "url": "https://camposthomaz.com/wp-content/uploads/2024/12/DOC-Minuta-SF247487258667-20241219.pdf",
+      "final_url": "https://camposthomaz.com/wp-content/uploads/2024/12/DOC-Minuta-SF247487258667-20241219.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 1048196,
+      "sha256": "f7dfa91ea6cae62a8a655b0aff5f3957ae50abf8c19ffac9ee840abe4dfa15b1",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T18:45:47Z",
+      "last_checked": "2026-10-16T18:45:47Z",
+      "method": "http",
+      "last_modified": "Tue, 24 Mar 2026 13:44:46 GMT",
+      "etag": "\"69c2954e-ffe84\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://camposthomaz.com/wp-content/uploads/2024/12/DOC-Minuta-SF247487258667-20241219.pdf",
+      "attempted_at": "2026-10-16T18:45:47Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "BR-01"
+ },
+ "US-IL-01": {
+  "main": {
+   "status": "partial",
+   "flag": "The official source could not be downloaded (The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'); only the secondary source was saved.",
+   "last_attempt": "2026-10-16T18:45:45Z",
+   "files": [
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/US-IL-01/2026-10-14/secondary.html",
+     "url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
+     "final_url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 116917,
+     "sha256": "ab072476bac10ce023bced6b610924ce8717fb40d624bff5fd288a305cb99425",
+     "text_sha256": "f8293837a262e8356f0e21cfe22d744669a2d2d262cd3d331bf6a6aa56a3a1e2",
+     "retrieved_at": "2026-10-14T07:26:07Z",
+     "last_checked": "2026-10-16T18:46:32Z",
+     "method": "http",
+     "last_modified": "Wed, 14 Oct 2026 06:41:07 GMT",
+     "etag": null,
+     "changed": false,
+     "previous_sha256": "bf6621e3e8ffb83fc05d4e2b8177bc1458fa5cd8ff6727785734b6e6d3ebb4fa",
+     "previous_path": "archive/US-IL-01/2026-10-11/secondary.html",
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=3773&GAID=17&GA=103&DocTypeID=HB&SessionID=112",
+     "attempted_at": "2026-10-11T14:06:05Z",
+     "ok": false,
+     "http_status": null,
+     "error": "robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
+     "attempted_at": "2026-10-11T14:06:09Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=3773&GAID=17&GA=103&DocTypeID=HB&SessionID=112",
+     "attempted_at": "2026-10-11T14:08:51Z",
+     "ok": false,
+     "http_status": null,
+     "error": "robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
+     "attempted_at": "2026-10-11T14:08:53Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=3773&GAID=17&GA=103&DocTypeID=HB&SessionID=112",
+     "attempted_at": "2026-10-14T07:26:03Z",
+     "ok": false,
+     "http_status": null,
+     "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
+     "attempted_at": "2026-10-14T07:26:07Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=3773&GAID=17&GA=103&DocTypeID=HB&SessionID=112",
+     "attempted_at": "2026-10-14T07:51:27Z",
+     "ok": false,
+     "http_status": null,
+     "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
+     "attempted_at": "2026-10-14T07:51:31Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=3773&GAID=17&GA=103&DocTypeID=HB&SessionID=112",
+     "attempted_at": "2026-10-16T11:39:59Z",
+     "ok": false,
+     "http_status": null,
+     "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
+     "attempted_at": "2026-10-16T11:40:02Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=3773&GAID=17&GA=103&DocTypeID=HB&SessionID=112",
+     "attempted_at": "2026-10-16T18:32:00Z",
+     "ok": false,
+     "http_status": null,
+     "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
+     "attempted_at": "2026-10-16T18:32:03Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=3773&GAID=17&GA=103&DocTypeID=HB&SessionID=112",
+     "attempted_at": "2026-10-16T18:46:30Z",
+     "ok": false,
+     "http_status": null,
+     "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://dhr.illinois.gov/about-us/news-and-media/legislative-updates.html",
+     "attempted_at": "2026-10-16T18:46:32Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.ilsos.gov/content/dam/departments/index/register/volume50/register_volume50_20.pdf": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (HTTP 403 (in browser)).",
+    "last_attempt": "2026-10-16T18:45:45Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.ilsos.gov/content/dam/departments/index/register/volume50/register_volume50_20.pdf",
+      "attempted_at": "2026-10-16T18:45:47Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://www.ilsos.gov/content/dam/departments/index/register/volume50/register_volume50_20.pdf",
+      "attempted_at": "2026-10-16T18:47:18Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 (in browser)",
+      "method": "browser"
+     }
+    ]
+   },
+   "https://www.ilsos.gov/content/dam/departments/index/register/volume50/register_volume50_26.pdf": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (HTTP 403 (in browser)).",
+    "last_attempt": "2026-10-16T18:45:47Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.ilsos.gov/content/dam/departments/index/register/volume50/register_volume50_26.pdf",
+      "attempted_at": "2026-10-16T18:45:49Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://www.ilsos.gov/content/dam/departments/index/register/volume50/register_volume50_26.pdf",
+      "attempted_at": "2026-10-16T18:47:19Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 (in browser)",
+      "method": "browser"
+     }
+    ]
+   },
+   "https://www.ilga.gov/Legislation/publicacts/view/103-0804": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'.",
+    "last_attempt": "2026-10-16T18:45:47Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.ilga.gov/Legislation/publicacts/view/103-0804",
+      "attempted_at": "2026-10-16T18:47:17Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The connection timed out; the site may block this network. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "US-IL-01"
+ }
+}

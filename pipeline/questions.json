@@ -117,13 +117,14 @@
    "records": [
     "US-IL-01"
    ],
-   "state": "open",
+   "state": "settled",
    "issue": 12,
    "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/12",
    "opened": "2026-10-14",
-   "closed": null,
-   "resolution": null,
-   "title": null
+   "closed": "2026-10-16",
+   "resolution": "settled by a later run or decision",
+   "title": null,
+   "closed_on_github": true
   },
   {
    "key": "record:US-NV-01@2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
@@ -1400,6 +1401,42 @@
    "closed": null,
    "resolution": null,
    "title": "Which of these 9 sites are official? (host review 2026-10-16-hosts-review-4)"
+  },
+  {
+   "key": "record:US-IL-01@2026-10-16-refresh-ids-br-01-us-il-01",
+   "kind": "record",
+   "subject": "US-IL-01",
+   "run_id": "2026-10-16-refresh-ids-br-01-us-il-01",
+   "held_back": false,
+   "why": "checker: The run changes only verification.note, which is accurate and carries CAUTION. No title, date or status can be supported from a stored file, since the ILGA page has not been stored in any attempt and the IDHR page names no statute. Web search agrees with the published values (signed 9 Aug 2024, effective 1 Jan 2026) but only from secondary sources, and conflicts on whether the 2026 IDHR rules were withdrawn. The existing notes sentence about what the IDHR page says belongs in verification.note. A human or a run on a network that reaches ilga.gov must store the Public Act.; title is unsupported and the checker gave no evidence-backed fix; official_identifier is unsupported and the checker gave no evidence-backed fix; date_published is unsupported and the checker gave no evidence-ba",
+   "records": [
+    "US-IL-01"
+   ],
+   "title": "US-IL-01 Illinois HB 3773 (AI in employment): open question from run 2026-10-16-refresh-ids-br-01-us-il-01",
+   "state": "open",
+   "issue": 93,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/93",
+   "opened": "2026-10-16",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "sample:2026-10-16-refresh-ids-br-01-us-il-01",
+   "kind": "sample",
+   "subject": "2026-10-16-refresh-ids-br-01-us-il-01",
+   "run_id": "2026-10-16-refresh-ids-br-01-us-il-01",
+   "records": [
+    "BR-01",
+    "US-IL-01"
+   ],
+   "why": "Human sample of run 2026-10-16-refresh-ids-br-01-us-il-01: check each record against its stored sources.",
+   "state": "open",
+   "issue": 94,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/94",
+   "opened": "2026-10-16",
+   "closed": null,
+   "resolution": null,
+   "title": "Human sample of run 2026-10-16-refresh-ids-br-01-us-il-01 (2 records)"
   }
  ],
  "repo": "kelkalot/every-ai-policy-ever"

@@ -1,0 +1,76 @@
+{
+ "cand_id": "US-IL-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-16",
+ "fields": {
+  "title": {
+   "verdict": "unsupported",
+   "why": "No stored file supports this value; the only stored file (IDHR legislative-updates page) names no statute, Public Act or date, and the evidence script reports no evidence. The run leaves the value as published."
+  },
+  "official_identifier": {
+   "verdict": "unsupported",
+   "why": "No stored file supports this value; the only stored file (IDHR legislative-updates page) names no statute, Public Act or date, and the evidence script reports no evidence. The run leaves the value as published."
+  },
+  "date_published": {
+   "verdict": "unsupported",
+   "why": "No stored file supports this value; the only stored file (IDHR legislative-updates page) names no statute, Public Act or date, and the evidence script reports no evidence. The run leaves the value as published."
+  },
+  "date_in_force": {
+   "verdict": "unsupported",
+   "why": "No stored file supports this value; the only stored file (IDHR legislative-updates page) names no statute, Public Act or date, and the evidence script reports no evidence. The run leaves the value as published."
+  },
+  "status": {
+   "verdict": "unsupported",
+   "why": "No stored file supports this value; the only stored file (IDHR legislative-updates page) names no statute, Public Act or date, and the evidence script reports no evidence. The run leaves the value as published."
+  },
+  "legal_force": {
+   "verdict": "unsupported",
+   "why": "No stored file supports this value; the only stored file (IDHR legislative-updates page) names no statute, Public Act or date, and the evidence script reports no evidence. The run leaves the value as published."
+  },
+  "issuing_body": {
+   "verdict": "unsupported",
+   "why": "No stored file supports this value; the only stored file (IDHR legislative-updates page) names no statute, Public Act or date, and the evidence script reports no evidence. The run leaves the value as published."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Use of zip codes as a proxy is a violation",
+   "verdict": "unsupported",
+   "locator": "no stored text"
+  },
+  {
+   "claim": "Employers must notify employees when they use AI",
+   "verdict": "unsupported",
+   "locator": "no stored text"
+  }
+ ],
+ "newer_versions": [
+  {
+   "what": "IDHR proposed AI rules (56 Ill. Adm. Code 2520), proposed 15 May 2026 and reportedly withdrawn in June 2026",
+   "where": "Illinois Register on ilsos.gov",
+   "status": "not stored; official sources not opened by me, secondary search results conflict on withdrawal"
+  }
+ ],
+ "extra_urls": [
+  {
+   "url": "https://www.ilga.gov/Legislation/publicacts/view/103-0804",
+   "reason": "Public Act text for title, approval date, effective date and notice duty."
+  },
+  {
+   "url": "https://www.ilsos.gov/content/dam/departments/index/register/volume50/register_volume50_20.pdf",
+   "reason": "Illinois Register 15 May 2026, IDHR proposed rules."
+  },
+  {
+   "url": "https://www.ilsos.gov/content/dam/departments/index/register/volume50/register_volume50_26.pdf",
+   "reason": "Illinois Register 26 Jun 2026, reported withdrawal."
+  }
+ ],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Sub-national AI-specific employment law."
+ },
+ "overall": "needs-human",
+ "note": "The run changes only verification.note, which is accurate and carries CAUTION. No title, date or status can be supported from a stored file, since the ILGA page has not been stored in any attempt and the IDHR page names no statute. Web search agrees with the published values (signed 9 Aug 2024, effective 1 Jan 2026) but only from secondary sources, and conflicts on whether the 2026 IDHR rules were withdrawn. The existing notes sentence about what the IDHR page says belongs in verification.note. A human or a run on a network that reaches ilga.gov must store the Public Act."
+}

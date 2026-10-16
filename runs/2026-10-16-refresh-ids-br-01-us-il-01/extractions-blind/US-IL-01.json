@@ -1,0 +1,29 @@
+{
+ "cand_id": "US-IL-01",
+ "decision": "needs-human",
+ "target_id": "US-IL-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "record": {},
+ "evidence": {
+  "summary": [
+   {
+    "file": "archive/US-IL-01/2026-10-14/secondary.html",
+    "sha256": "ab072476bac10ce023bced6b610924ce8717fb40d624bff5fd288a305cb99425",
+    "locator": "Legislative updates",
+    "quote": "regulations on artificial intelligence in employment (addressing how technology can perpetuate bias)",
+    "source_kind": "secondary"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "No stored official text of HB 3773 or Public Act 103-0804; status, dates and identifier cannot be confirmed from stored files.",
+  "changes": {},
+  "confirmed": []
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "title, date_published (2024-08-09), date_in_force (2026-01-01), status (In force) and official_identifier (Public Act 103-0804) are unsupported: ilga.gov source not stored; IDHR page names no statute. Stays level C."
+ ]
+}
