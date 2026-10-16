@@ -740,7 +740,7 @@ def run_summary(d):
     """(start date, type, status, one line) of a run folder."""
     run = read_json(d / "run.json", {}) or {}
     plan = read_json(d / "plan.json", {}) or {}
-    kind = run.get("type") or ("compare" if plan else "?")
+    kind = run.get("type") or ("compare" if plan.get("term_groups") else "host review" if (d / "hosts").is_dir() else "?")
     rep = (d / "report.md").read_text(encoding="utf-8") if (d / "report.md").is_file() else ""
     line = next((l[2:] for l in rep.splitlines() if l.startswith("- Added:")), "")
     if not line:
@@ -2296,9 +2296,58 @@ def cmd_log_scope(args):
 
 # ----------------------------------------------------------------------------- official sites
 
+HOST_REVIEW = ROOT / "pipeline" / "host-review.json"
+
+
+def pending_site(e):
+    return e.get("status") == "proposed" or e.get("decided_by") == "seed"
+
+
 def cmd_hosts(args):
     data = load_sites()
     sites = data.setdefault("sites", [])
+    if getattr(args, "confirm_gov", False):
+        # a seed on a government domain counts as official by the domain rule anyway; a maintainer confirms them at once
+        if not args.by:
+            raise SystemExit("--confirm-gov needs --by (the maintainer who decides)")
+        n = 0
+        for e in sites:
+            if e.get("decided_by") == "seed" and e.get("status") == "official" and GOV_HOST.search(strip_www(e["host"]).lower()):
+                e["previous"] = {k: e.get(k) for k in ("status", "decided_by", "decided_on", "note")}
+                e.update(decided_by=args.by, decided_on=today(),
+                         note="A government domain, which the evidence script counts as official by the domain rule "
+                              "(AGENTS.md section 7.6); confirmed in bulk with the other seeds on government domains.")
+                n += 1
+        write_json(SITES, data)
+        print("Confirmed %d seed host(s) on government domains as official (decided by %s)." % (n, args.by))
+        return 0
+    if getattr(args, "batches", None):
+        # the host reviewers' findings (pipeline/roles/hosts.md) grouped into batch questions for maintainers
+        d = RUNS / args.batches
+        found = {}
+        for f in sorted((d / "hosts").glob("*.json")):
+            for h in (read_json(f, {}) or {}).get("hosts") or []:
+                found[(h.get("code"), strip_www(h.get("host") or ""))] = h
+        own = {q.get("subject") for q in (read_json(QUESTIONS, {}) or {}).get("questions") or []
+               if q.get("kind") == "host" and q.get("state") == "open"}
+        todo = [e for e in sites if pending_site(e) and strip_www(e["host"]) not in own]
+        rows = []
+        for e in sorted(todo, key=lambda e: (e["code"], e["host"])):
+            h = found.get((e["code"], strip_www(e["host"]))) or {}
+            rows.append({"code": e["code"], "host": strip_www(e["host"]), "operator": h.get("operator"),
+                         "url": h.get("url"), "quote": h.get("quote"), "suggestion": h.get("suggestion"),
+                         "note": h.get("note")})
+        size = args.size or 15
+        batches = [{"id": "%s-%d" % (args.batches, i + 1), "hosts": rows[i * size:(i + 1) * size]}
+                   for i in range((len(rows) + size - 1) // size)]
+        write_json(HOST_REVIEW, {"about": "Pending hosts of pipeline/official-sites.json in batches for maintainers' "
+                                          "decisions (AGENTS.md section 7.6), with what the host reviewers of run %s "
+                                          "found about who runs each. Written by tools/pipeline.py hosts --batches; "
+                                          "`questions --sync` opens one issue per batch." % args.batches,
+                                 "run_id": args.batches, "batches": batches})
+        print("%d pending host(s) in %d batch(es) in pipeline/host-review.json; %d without a finding." % (
+            len(rows), len(batches), sum(1 for r in rows if not r.get("operator"))))
+        return 0
     if args.add:
         host = strip_www(args.add)
         if not (args.code and args.status and args.by):
@@ -2454,6 +2503,13 @@ def collect_questions(db):
                                                      "subject": strip_www(e["host"]), "code": e["code"],
                                                      "why": e.get("note"), "operator": e.get("operator"),
                                                      "evidence": e.get("evidence"), "records": []}
+    pending = {strip_www(e["host"]) for e in sites.get("sites") or [] if pending_site(e)}
+    for b in (read_json(HOST_REVIEW, {}) or {}).get("batches") or []:
+        left = [h for h in b.get("hosts") or [] if h.get("host") in pending]
+        if left:
+            out["hosts:%s" % b["id"]] = {"key": "hosts:%s" % b["id"], "kind": "hosts", "subject": b["id"], "hosts": left,
+                                        "records": [], "why": "Hosts in pipeline/official-sites.json that no person has "
+                                                              "reviewed yet (seeds from records' official_url)."}
     for run_id in run_order():
         cells = {c.get("cand_id"): c.get("cell") for c in
                  (read_json(RUNS / run_id / "candidates.json", {}) or {}).get("candidates") or [] if c.get("cand_id")}
@@ -2491,6 +2547,8 @@ def question_title(q, by):
         return "%s %s: open question from run %s" % (q["subject"], r.get("short_title") or r.get("title") or "", q["run_id"])
     if q["kind"] == "host":
         return "Is %s an official site for %s?" % (q["subject"], q.get("code"))
+    if q["kind"] == "hosts":
+        return "Which of these %d sites are official? (host review %s)" % (len(q.get("hosts") or []), q["subject"])
     return "Human sample of run %s (%d records)" % (q["subject"], len(q["records"]))
 
 
@@ -2536,6 +2594,25 @@ def question_body(q, by, repo):
         L += ["", "Until decided, quotes from this host count as secondary.", "", "### How to decide", "",
               "- `decide: official`, optionally with `operator: <who runs it>`",
               "- `decide: not official`"]
+    elif q["kind"] == "hosts":
+        L += ["These hosts are in `pipeline/official-sites.json` as official seeds (taken from records' official_url), "
+              "and no person has confirmed who runs them (AGENTS.md section 7.6). A host reviewer looked up each "
+              "site's operator; the suggestion is the reviewer's, the decision is yours. Open the page before deciding: a quote "
+              "may be shortened or paraphrased by the tool the reviewer read it with.", "",
+              "| Jurisdiction | Host | Who runs it (reviewer's finding) | Page | Suggestion |", "|---|---|---|---|---|"]
+        for h in q.get("hosts") or []:
+            who = (h.get("operator") or "not found").replace("|", "/")
+            if h.get("quote"):
+                who += ': "%s"' % h["quote"].replace("|", "/").replace("\n", " ")[:200]
+            L.append("| %s | `%s` | %s | %s | %s |" % (h["code"], h["host"], who, h.get("url") or "-",
+                                                        h.get("suggestion") or "-"))
+        L += ["", "### How to decide", "",
+              "In one comment, one line per host you decide (leave out the ones you are unsure of):", "",
+              "- `decide: official <host>`, optionally followed by the operator in parentheses",
+              "- `decide: not official <host>`", "",
+              "Each line is recorded with `pipeline.py hosts --add` (you as the decider, this comment as the evidence). "
+              "The issue stays open until every host in it is decided; hosts without a decision keep counting as "
+              "official seeds."]
     else:
         L += ["**Run:** [%s](%sruns/%s/report.md)" % (q["subject"], blob, q["subject"]), "",
               "Check each record against its stored sources (the run report and the record page link them):", ""]
@@ -2573,6 +2650,20 @@ def parse_decisions(comments, kind):
         if lines and (kind == "sample" or any(k.lower() == "decide" for k, _ in lines)):
             return c, lines
     return None
+
+
+HOST_LINE = re.compile(r"(?im)^\s*decide\s*:\s*(official|not official)\s+`?([a-z0-9.-]+\.[a-z]{2,})`?\s*(?:\((.+?)\))?\s*$")
+
+
+def parse_host_batch(comments):
+    """{host: (status, operator, comment)} from every maintainer comment on a batch issue; a later line wins."""
+    out = {}
+    for c in comments:
+        if c.get("author_association") not in DECIDERS or written_by_agent(c):
+            continue
+        for status, host, op in HOST_LINE.findall(c.get("body") or ""):
+            out[strip_www(host.lower())] = (status.lower(), op.strip() or None, c)
+    return out
 
 
 def apply_record_decision(q, comment, lines, db, dry):
@@ -2661,6 +2752,33 @@ def cmd_questions(args):
             if q.get("state") != "open" or not q.get("issue"):
                 continue
             comments = json.loads(gh("api", "repos/%s/issues/%s/comments" % (repo, q["issue"]), "--paginate") or "[]")
+            if q["kind"] == "hosts":
+                pend = {strip_www(e["host"]) for e in load_sites().get("sites") or [] if pending_site(e)}
+                mine = {h["host"]: h for h in q.get("hosts") or []}
+                done = []
+                for host, (status, op, c) in parse_host_batch(comments).items():
+                    if host in mine and host in pend:
+                        who_ = (c.get("user") or {}).get("login") or "maintainer"
+                        if not args.dry_run:
+                            cmd_hosts(argparse.Namespace(add=host, code=mine[host]["code"], status=status, by=who_,
+                                                         operator=op or mine[host].get("operator"), kind=None,
+                                                         evidence_url=c.get("html_url"), quote=None, pending=False,
+                                                         note="decided in issue #%s (host review %s)" % (q["issue"], q["subject"])))
+                        done.append("%s %s" % (host, status))
+                left = [h for h in mine if h in pend and h not in {d.split()[0] for d in done}]
+                if done:
+                    print("#%-5s %-40s %s" % (q["issue"], key, "; ".join(done)))
+                    applied += len(done)
+                    if not args.dry_run:
+                        if left:
+                            gh("issue", "comment", str(q["issue"]), "--repo", repo, "--body",
+                               "Applied by `pipeline.py questions --apply`: %s. Still open: %s." % (", ".join(done), ", ".join(left)))
+                        else:
+                            q.update(state="decided", closed=today(), resolution="; ".join(done))
+                            gh("issue", "close", str(q["issue"]), "--repo", repo, "--comment",
+                               "Applied by `pipeline.py questions --apply`: %s. Recorded in pipeline/official-sites.json; "
+                               "the records that quote these hosts change in their next refresh run." % ", ".join(done))
+                continue
             got = parse_decisions(comments, q["kind"])
             if not got:
                 continue
@@ -3226,6 +3344,9 @@ def main(argv=None):
     s.add_argument("--evidence-url")
     s.add_argument("--quote")
     s.add_argument("--note")
+    s.add_argument("--confirm-gov", action="store_true", help="confirm the seeds on government domains (with --by)")
+    s.add_argument("--batches", metavar="RUN", help="group the pending hosts, with RUN's host findings, into batch questions")
+    s.add_argument("--size", type=int, help="hosts per batch (15)")
     s = sub.add_parser("questions", help="open questions for humans, as GitHub issues")
     s.add_argument("--sync", action="store_true", help="open issues for new questions and close settled ones")
     s.add_argument("--apply", action="store_true", help="apply maintainers' decisions from the issues")
