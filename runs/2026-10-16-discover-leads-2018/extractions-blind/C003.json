@@ -1,0 +1,108 @@
+{
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "European Ethical Charter on the use of artificial intelligence in judicial systems and their environment",
+  "original_title": null,
+  "short_title": "CEPEJ European Ethical Charter on AI in Justice",
+  "jurisdiction": "Council of Europe",
+  "country": "International",
+  "jurisdiction_level": "International",
+  "region": "Europe",
+  "issuing_body": "European Commission for the Efficiency of Justice (CEPEJ), Council of Europe",
+  "instrument_type": "Guidelines / framework",
+  "legal_force": "Non-binding",
+  "status": "Published (non-binding, current)",
+  "date_published": "2018-12-04",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": "CEPEJ(2018)14",
+  "official_url": "https://book.coe.int/en/computers-and-law/7842-european-ethical-charter-on-the-use-of-artificial-intelligence-in-judicial-systems-and-their-environment.html",
+  "secondary_url": "https://www.questionegiustizia.it/data/doc/1804/cepej_ethical_charter_ia_en-pdf.pdf",
+  "language": "English, French",
+  "summary": "The first European text on ethics of AI in justice, adopted by the CEPEJ at its 31st plenary meeting. It sets five principles for the design and use of AI tools that process judicial decisions and data: respect for fundamental rights, non-discrimination, quality and security, transparency, impartiality and fairness (including external audits), and keeping users in control. Appendices give an in-depth study, a list of uses to encourage or treat with reservations, and a checklist.",
+  "safety_topics": [
+   "transparency & labelling",
+   "human oversight",
+   "public-sector use",
+   "evaluation & testing"
+  ],
+  "related": [],
+  "notes": "Adopted during the CEPEJ's 31st plenary meeting, held in Strasbourg on 3 and 4 December 2018; the cover of the document is dated 3 December 2018 and the Council of Europe's publication page gives 4 December 2018 as the adoption date. The Council of Europe also publishes the text in French."
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C003/extra-952b7be5e0/2026-10-16/official.html",
+    "sha256": "770978d4cd95f6bd8811fd19297a1382fd30c33f9c547cc597ad55731be65735",
+    "locator": "Publication page: Summary",
+    "quote": "European Ethical Charter on the use of artificial intelligence in judicial systems and their environment",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C003/extra-952b7be5e0/2026-10-16/official.html",
+    "sha256": "770978d4cd95f6bd8811fd19297a1382fd30c33f9c547cc597ad55731be65735",
+    "locator": "Publication page: Summary",
+    "quote": "The European Commission for the Efficiency of Justice (Cepej) of the Council of Europe has adopted on 4th December 2018 the first European text setting out ethical principles relating to the use of artificial intelligence (AI) in judicial systems.",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C003/extra-7df10d278c/2026-10-16/official.pdf",
+    "sha256": "31401e6f2eb31c829925c49c4d9a370fa4ce96223ada9fca92c7f30354425ff6",
+    "locator": "page 1",
+    "quote": "CEPEJ(2018)14",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C003/extra-952b7be5e0/2026-10-16/official.html",
+    "sha256": "770978d4cd95f6bd8811fd19297a1382fd30c33f9c547cc597ad55731be65735",
+    "locator": "Publication page: Summary",
+    "quote": "The European Commission for the Efficiency of Justice (Cepej) of the Council of Europe has adopted on 4th December 2018 the first European text setting out ethical principles relating to the use of artificial intelligence (AI) in judicial systems.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C003/extra-7df10d278c/2026-10-16/official.pdf",
+    "sha256": "31401e6f2eb31c829925c49c4d9a370fa4ce96223ada9fca92c7f30354425ff6",
+    "locator": "page 1",
+    "quote": "adopted by the CEPEJ during its 31st Plenary meeting (Strasbourg, 3-4 December 2018)",
+    "source_kind": "secondary"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C003/extra-952b7be5e0/2026-10-16/official.html",
+    "sha256": "770978d4cd95f6bd8811fd19297a1382fd30c33f9c547cc597ad55731be65735",
+    "locator": "Publication page: Summary",
+    "quote": "The European Commission for the Efficiency of Justice (Cepej) of the Council of Europe has adopted on 4th December 2018 the first European text setting out ethical principles relating to the use of artificial intelligence (AI) in judicial systems.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C003/extra-952b7be5e0/2026-10-16/official.html",
+    "sha256": "770978d4cd95f6bd8811fd19297a1382fd30c33f9c547cc597ad55731be65735",
+    "locator": "Publication page: Summary",
+    "quote": "The Charter provides a framework of principles that can guide policy makers, legislators and justice professionals",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The CEPEJ adopted the Charter on 4 December 2018 as a set of principles to guide policy makers and justice professionals; no later amendment or withdrawal appears in the stored sources, and the Council of Europe still offers it as a publication.",
+  "scope_reasoning": "AI-specific ethical principles issued by an intergovernmental body of the Council of Europe; clearly in scope, no note."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The official PDF on rm.coe.int could not be stored (HTTP 403); the full text stored is a copy on a third-party site, so identifier and date rest partly on secondary evidence besides the Council of Europe publication page."
+ ],
+ "cand_id": "C003",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,91 @@
+{
+ "group": "europe",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "candidates": [
+  {
+   "cand_ref": "europe-01",
+   "cell": "EU/executive",
+   "lead": "L008",
+   "title_as_found": "Artificial Intelligence for Europe, COM(2018) 237 final",
+   "language": "English",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52018DC0237",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://digital-strategy.ec.europa.eu/en/library/communication-artificial-intelligence-europe",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2018%3A237%3AFIN"
+   ],
+   "found_via": "lead landing page links to the EUR-Lex text; PDF form of the same CELEX",
+   "scope_guess": "borderline",
+   "why": "Commission AI strategy with an ethical and legal framework chapter; main focus is investment and uptake, so a scope note.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "europe-02",
+   "cell": "EU/executive",
+   "lead": "L009",
+   "title_as_found": "Coordinated Plan on Artificial Intelligence, COM(2018) 795 final",
+   "language": "English",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52018DC0795",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://digital-strategy.ec.europa.eu/en/library/coordinated-plan-artificial-intelligence",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52018DC0795"
+   ],
+   "found_via": "lead landing page links to the EUR-Lex text; PDF form of the same CELEX",
+   "scope_guess": "borderline",
+   "why": "Joint Commission and member-state plan; trustworthy AI and ethics guidelines are one aim among several.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "europe-03",
+   "cell": "COE/repository",
+   "lead": "L011",
+   "title_as_found": "European ethical Charter on the use of Artificial Intelligence in judicial systems and their environment (CEPEJ(2018)14)",
+   "language": "English, French",
+   "url": "https://rm.coe.int/ethical-charter-en-for-publication-4-december-2018/16808f699c",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.coe.int/en/web/cepej/ethical-charter-on-ai1",
+    "https://unodc.org/ji/en/resdb/data/european_ethical_charter_on_the_use_of_artificial_intelligence_in_judicial_systems_and_their_environment_adopted_at.html"
+   ],
+   "found_via": "web search found the official rm.coe.int PDF; coe.int and rm.coe.int return 403 to curl and fetch, so a provided document or --browser may be needed",
+   "scope_guess": "in",
+   "why": "Five ethical principles for AI in justice systems adopted by CEPEJ on 4 Dec 2018.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "europe-04",
+   "cell": "DE/executive",
+   "lead": "L012",
+   "title_as_found": "Strategie Künstliche Intelligenz der Bundesregierung (Unterrichtung, Drucksache 19/5880)",
+   "language": "German",
+   "url": "https://dserver.bundestag.de/btd/19/058/1905880.pdf",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://dserver.bundestag.de/brd/2018/0597-18.pdf"
+   ],
+   "found_via": "lead URL is the Bundestag PDF itself, HTTP 200 application/pdf",
+   "scope_guess": "borderline",
+   "why": "National AI strategy adopted 15 Nov 2018; ethics, regulation and safety sections but mainly industrial and research policy.",
+   "possible_duplicate_of": null
+  },
+  {
+   "cand_ref": "europe-05",
+   "cell": "FR/executive",
+   "lead": "L014",
+   "title_as_found": "La stratégie IA, pour faire de la France un acteur majeur de l'intelligence artificielle",
+   "language": "French",
+   "url": "https://www.enseignementsup-recherche.gouv.fr/fr/la-strategie-ia-pour-faire-de-la-france-un-acteur-majeur-de-l-intelligence-artificielle-49298",
+   "source_kind": "official",
+   "lead_urls": [
+    "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/content_migration/document/mesri_IA_dep_A4_09_1040607.pdf",
+    "https://www.aiforhumanity.fr/pdfs/MissionVillani_Report_ENG-VF.pdf"
+   ],
+   "found_via": "lead landing page (403 to automated fetch, so not read); no stable PDF of the 29 Mar 2018 strategy text found. The PDF in lead_urls is the 28 Nov 2018 press kit on the national AI research strategy, not the March announcement; the Villani report URL was unreachable",
+   "scope_guess": "borderline",
+   "why": "National AI strategy 'AI for Humanity' with ethics as one priority; main focus is research, data and funding.",
+   "possible_duplicate_of": null
+  }
+ ]
+}

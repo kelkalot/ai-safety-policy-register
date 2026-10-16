@@ -680,7 +680,7 @@
    "held_back": true,
    "why": "checker: Title, number, dates and legal force are supported by the Federal Register print. The status 'In force' has no quote showing that the order is still current; the evidence script passed it only because the Sec. 10(b) quote exists in the file. Option for a human or the next run: store the 13960 text and M-26-04 evidence is not enough, so store the Federal Register disposition or a later official document naming 13859 as current. Not found revoked.; status is unsupported and the checker gave no evidence-backed fix",
    "records": [],
-   "title": "Candidate C003, Maintaining American Leadership in Artificial Intelligence (Executive Order 13859): not added, open question from run 2026-10-16-discover-leads",
+   "title": "Maintaining American Leadership in Artificial Intelligence (Executive Order 13859)",
    "state": "open",
    "issue": 61,
    "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/61",
@@ -706,6 +706,94 @@
    "closed": null,
    "resolution": null,
    "title": "Human sample of run 2026-10-16-discover-leads (3 records)"
+  },
+  {
+   "key": "candidate:C002@2026-10-16-discover-leads-2018",
+   "kind": "candidate",
+   "subject": "C002",
+   "run_id": "2026-10-16-discover-leads-2018",
+   "held_back": true,
+   "why": "checker: Content, title, number and date are supported by the stored PDFs. A targeted search found the 2021 Review of the plan (COM(2021) 205) on an official Commission site. It is not stored, so the status of the 2018 edition (current or Superseded) goes to a human and a later run should store the 2021 Review.; status is unsupported and the checker gave no evidence-backed fix; the checker found something possibly newer: {'what': 'Coordinated Plan on Artificial Intelligence 2021 Review, annex to COM(2021) 205 of 21 April 2021, published as an updated edition of the plan', 'url': 'https://digital-strategy.ec.europa.eu/en/library/new-coordinated-plan-artificial-intelligence', 'also': 'https://ec.europa.eu/transparency",
+   "records": [],
+   "title": "Candidate C002, Coordinated Plan on Artificial Intelligence: not added, open question from run 2026-10-16-discover-leads-2018",
+   "state": "open",
+   "issue": 64,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/64",
+   "opened": "2026-10-16",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "host:ki-strategie-deutschland.de",
+   "kind": "host",
+   "subject": "ki-strategie-deutschland.de",
+   "code": "DE",
+   "records": [
+    "DE-02"
+   ],
+   "why": "Quotes from this host counted as secondary because it is neither a government domain nor in pipeline/official-sites.json.",
+   "state": "open",
+   "issue": 65,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/65",
+   "opened": "2026-10-16",
+   "closed": null,
+   "resolution": null,
+   "title": "Is ki-strategie-deutschland.de an official site for DE?"
+  },
+  {
+   "key": "host:dserver.bundestag.de",
+   "kind": "host",
+   "subject": "dserver.bundestag.de",
+   "code": "DE",
+   "records": [
+    "DE-02"
+   ],
+   "why": "Quotes from this host counted as secondary because it is neither a government domain nor in pipeline/official-sites.json.",
+   "state": "open",
+   "issue": 66,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/66",
+   "opened": "2026-10-16",
+   "closed": null,
+   "resolution": null,
+   "title": "Is dserver.bundestag.de an official site for DE?"
+  },
+  {
+   "key": "host:bundesregierung.de",
+   "kind": "host",
+   "subject": "bundesregierung.de",
+   "code": "DE",
+   "records": [
+    "DE-02"
+   ],
+   "why": "Quotes from this host counted as secondary because it is neither a government domain nor in pipeline/official-sites.json.",
+   "state": "open",
+   "issue": 67,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/67",
+   "opened": "2026-10-16",
+   "closed": null,
+   "resolution": null,
+   "title": "Is bundesregierung.de an official site for DE?"
+  },
+  {
+   "key": "sample:2026-10-16-discover-leads-2018",
+   "kind": "sample",
+   "subject": "2026-10-16-discover-leads-2018",
+   "run_id": "2026-10-16-discover-leads-2018",
+   "records": [
+    "COE-03",
+    "DE-02",
+    "EU-21",
+    "FR-02",
+    "G7-07"
+   ],
+   "why": "Human sample of run 2026-10-16-discover-leads-2018: check each record against its stored sources.",
+   "state": "open",
+   "issue": 68,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/68",
+   "opened": "2026-10-16",
+   "closed": null,
+   "resolution": null,
+   "title": "Human sample of run 2026-10-16-discover-leads-2018 (5 records)"
   }
  ],
  "repo": "kelkalot/every-ai-policy-ever"

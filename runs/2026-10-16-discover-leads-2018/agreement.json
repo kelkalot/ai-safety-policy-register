@@ -1,0 +1,131 @@
+{
+ "run_id": "2026-10-16-discover-leads-2018",
+ "generated": "2026-10-16",
+ "compared": 5,
+ "pending": [],
+ "overall_field_agreement": 0.907,
+ "fields": {
+  "decision": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "title": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "original_title": {
+   "compared": 1,
+   "agree": 0,
+   "rate": 0.0
+  },
+  "issuing_body": {
+   "compared": 5,
+   "agree": 4,
+   "rate": 0.8
+  },
+  "official_identifier": {
+   "compared": 3,
+   "agree": 2,
+   "rate": 0.667
+  },
+  "date_published": {
+   "compared": 5,
+   "agree": 4,
+   "rate": 0.8
+  },
+  "date_in_force": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_last_updated": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "status": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "legal_force": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "instrument_type": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "jurisdiction_level": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "region": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "country": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "safety_topics": {
+   "compared": 5,
+   "agree": 4,
+   "rate": 0.8
+  }
+ },
+ "disagreements": {
+  "C002": [],
+  "C003": [],
+  "C005": [
+   {
+    "field": "original_title",
+    "first": "La stratégie AI for Humanity",
+    "blind": null
+   }
+  ],
+  "C006": [
+   {
+    "field": "issuing_body",
+    "first": "G7 Leaders, 44th G7 Summit (Charlevoix, Quebec)",
+    "blind": "G7 Leaders (Canadian G7 Presidency), Charlevoix Summit"
+   },
+   {
+    "field": "official_identifier",
+    "first": null,
+    "blind": "FR5-144/2018-27E-PDF"
+   }
+  ],
+  "C007": [
+   {
+    "field": "date_published",
+    "first": "2018-06-04",
+    "blind": "2018-06"
+   },
+   {
+    "field": "safety_topics",
+    "first": [
+     "accountability & liability",
+     "transparency & labelling",
+     "research priorities",
+     "international cooperation"
+    ],
+    "blind": [
+     "accountability & liability",
+     "research priorities",
+     "public-sector use",
+     "evaluation & testing"
+    ]
+   }
+  ]
+ },
+ "resulting_record_agreement": null,
+ "resulting_record_fields": 0
+}

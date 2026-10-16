@@ -1,0 +1,1474 @@
+{
+ "C001": {
+  "main": {
+   "status": "archived-review",
+   "flag": "The site returned a JavaScript bot-check page (web application firewall) instead of the document.",
+   "last_attempt": "2026-10-16T12:18:40Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-16-discover-leads-2018/C001/2026-10-16/official.html",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52018DC0237",
+     "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52018DC0237",
+     "http_status": 202,
+     "content_type": "text/html",
+     "bytes": 2035,
+     "sha256": "006f72ed3dcd16b9fdd25e15e099dc0c1016be66d2e501879e3f6ced1e9aa3d1",
+     "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "retrieved_at": "2026-10-16T12:18:44Z",
+     "last_checked": "2026-10-16T12:18:44Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": "The site returned a JavaScript bot-check page (web application firewall) instead of the document",
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52018DC0237",
+     "attempted_at": "2026-10-16T12:18:44Z",
+     "ok": true,
+     "http_status": 202,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=51625": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T12:37:57Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C001/extra-a8793899c2/2026-10-16/official.pdf",
+      "url": "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=51625",
+      "final_url": "https://ec.europa.eu/newsroom/dae/redirection/document/51625",
+      "http_status": 200,
+      "content_type": "application/",
+      "bytes": 429951,
+      "sha256": "6b66eec8b63bb51577d1710e0759e2f3a96ec7a4111eaa4bba3a6a5c044b93f7",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T12:38:03Z",
+      "last_checked": "2026-10-16T12:38:03Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=51625",
+      "attempted_at": "2026-10-16T12:38:03Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.europarl.europa.eu/RegData/docs_autres_institutions/commission_europeenne/com/2018/0237/COM_COM(2018)0237_EN.pdf": {
+    "status": "archived-review",
+    "flag": "The site returned a JavaScript bot-check page (web application firewall) instead of the document.",
+    "last_attempt": "2026-10-16T12:37:57Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C001/extra-d5780cb7ba/2026-10-16/official.html",
+      "url": "https://www.europarl.europa.eu/RegData/docs_autres_institutions/commission_europeenne/com/2018/0237/COM_COM(2018)0237_EN.pdf",
+      "final_url": "https://www.europarl.europa.eu/RegData/docs_autres_institutions/commission_europeenne/com/2018/0237/COM_COM(2018)0237_EN.pdf",
+      "http_status": 202,
+      "content_type": "text/html",
+      "bytes": 2431,
+      "sha256": "7b1d38cc724d348c5e448fc2c1e7a076d36d8bcd7c911a37a47b90538a613f3a",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-10-16T12:37:59Z",
+      "last_checked": "2026-10-16T12:37:59Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The site returned a JavaScript bot-check page (web application firewall) instead of the document",
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.europarl.europa.eu/RegData/docs_autres_institutions/commission_europeenne/com/2018/0237/COM_COM(2018)0237_EN.pdf",
+      "attempted_at": "2026-10-16T12:37:59Z",
+      "ok": true,
+      "http_status": 202,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://digital-strategy.ec.europa.eu/en/library/communication-artificial-intelligence-europe": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T12:37:57Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C001/extra-67a5426d88/2026-10-16/official.html",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/communication-artificial-intelligence-europe",
+      "final_url": "https://digital-strategy.ec.europa.eu/en/library/communication-artificial-intelligence-europe",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 41537,
+      "sha256": "095fc4f3f774991822b750acf99aaabc6b97159681eb2cea14d93975226bead0",
+      "text_sha256": "524367fc1f50fc69bf41f7b7868bda71bad98a564268365f5b04a606d925dca5",
+      "retrieved_at": "2026-10-16T12:37:59Z",
+      "last_checked": "2026-10-16T12:37:59Z",
+      "method": "http",
+      "last_modified": "Fri, 16 Oct 2026 12:13:58 GMT",
+      "etag": "\"1792152838-gzip\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C001/extra-67a5426d88/2026-10-16/document-1.pdf",
+      "url": "https://digital-strategy.ec.europa.eu/en/node/3071/printable/pdf",
+      "final_url": "https://digital-strategy.ec.europa.eu/en/node/3071/printable/pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 85438,
+      "sha256": "e4c4a948503eb3cdb2e50fe1efd15d966500ce41033d103b6aa670faae7e838c",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T12:38:01Z",
+      "last_checked": "2026-10-16T12:38:01Z",
+      "method": "http",
+      "last_modified": "Thu, 15 Oct 2026 17:03:16 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/communication-artificial-intelligence-europe",
+      "attempted_at": "2026-10-16T12:37:59Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://digital-strategy.ec.europa.eu/en/node/3071/printable/pdf",
+      "attempted_at": "2026-10-16T12:38:01Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  }
+ },
+ "C002": {
+  "main": {
+   "status": "archived-review",
+   "flag": "The site returned a JavaScript bot-check page (web application firewall) instead of the document.",
+   "last_attempt": "2026-10-16T12:18:40Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-16-discover-leads-2018/C002/2026-10-16/official.html",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52018DC0795",
+     "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52018DC0795",
+     "http_status": 202,
+     "content_type": "text/html",
+     "bytes": 2035,
+     "sha256": "4f26d79554cd5ba43a44ccc1069a6858166e06261e2aa7e4457d865557f0c308",
+     "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "retrieved_at": "2026-10-16T12:18:47Z",
+     "last_checked": "2026-10-16T12:18:47Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": "The site returned a JavaScript bot-check page (web application firewall) instead of the document",
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52018DC0795",
+     "attempted_at": "2026-10-16T12:18:47Z",
+     "ok": true,
+     "http_status": 202,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=56018": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T12:37:57Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C002/extra-2233cabf30/2026-10-16/official.pdf",
+      "url": "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=56018",
+      "final_url": "https://ec.europa.eu/newsroom/dae/redirection/document/56018",
+      "http_status": 200,
+      "content_type": "application/",
+      "bytes": 490596,
+      "sha256": "bfbf0758dd02f6a37d182a899d02ffd3a7d434851196a5e7490155a7bc3d79e9",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T12:38:09Z",
+      "last_checked": "2026-10-16T12:38:09Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=56018",
+      "attempted_at": "2026-10-16T12:38:09Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=56017": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T12:37:59Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C002/extra-51e576c6ff/2026-10-16/official.pdf",
+      "url": "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=56017",
+      "final_url": "https://ec.europa.eu/newsroom/dae/redirection/document/56017",
+      "http_status": 200,
+      "content_type": "application/",
+      "bytes": 753228,
+      "sha256": "23fc83efdefc0f2e3cd32e119bf67860aae8d1afa23e9ba67c8b1d521ce9d926",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T12:38:06Z",
+      "last_checked": "2026-10-16T12:38:06Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=56017",
+      "attempted_at": "2026-10-16T12:38:06Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://digital-strategy.ec.europa.eu/en/library/coordinated-plan-artificial-intelligence": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T12:38:01Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C002/extra-04e750f40d/2026-10-16/official.html",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/coordinated-plan-artificial-intelligence",
+      "final_url": "https://digital-strategy.ec.europa.eu/en/library/coordinated-plan-artificial-intelligence",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 41658,
+      "sha256": "d48e33085ff65c346255ab7ecb2dee5648f2ee495e792173c3c15011478d84a6",
+      "text_sha256": "3724ba04033db76608668a75250450cedff916885c9aa72f909929e6b8d788bb",
+      "retrieved_at": "2026-10-16T12:38:03Z",
+      "last_checked": "2026-10-16T12:38:03Z",
+      "method": "http",
+      "last_modified": "Fri, 16 Oct 2026 12:13:58 GMT",
+      "etag": "\"1792152838-gzip\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C002/extra-04e750f40d/2026-10-16/document-1.pdf",
+      "url": "https://digital-strategy.ec.europa.eu/en/node/2274/printable/pdf",
+      "final_url": "https://digital-strategy.ec.europa.eu/en/node/2274/printable/pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 85446,
+      "sha256": "e124e888ab15a8c704820262001cba0912c069f488faba6caa9a953ed4548d5c",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T12:38:08Z",
+      "last_checked": "2026-10-16T12:38:08Z",
+      "method": "http",
+      "last_modified": "Fri, 16 Oct 2026 12:38:08 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/coordinated-plan-artificial-intelligence",
+      "attempted_at": "2026-10-16T12:38:03Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://digital-strategy.ec.europa.eu/en/node/2274/printable/pdf",
+      "attempted_at": "2026-10-16T12:38:08Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.europarl.europa.eu/RegData/docs_autres_institutions/commission_europeenne/com/2018/0795/COM_COM(2018)0795_EN.pdf": {
+    "status": "archived-review",
+    "flag": "The site returned a JavaScript bot-check page (web application firewall) instead of the document.",
+    "last_attempt": "2026-10-16T12:38:03Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C002/extra-8d4d49a891/2026-10-16/official.html",
+      "url": "https://www.europarl.europa.eu/RegData/docs_autres_institutions/commission_europeenne/com/2018/0795/COM_COM(2018)0795_EN.pdf",
+      "final_url": "https://www.europarl.europa.eu/RegData/docs_autres_institutions/commission_europeenne/com/2018/0795/COM_COM(2018)0795_EN.pdf",
+      "http_status": 202,
+      "content_type": "text/html",
+      "bytes": 2431,
+      "sha256": "675362fd4dc7cbc4efc467b71fe45a22bf93018cebf7262f22a8c34e8834bb0e",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-10-16T12:38:03Z",
+      "last_checked": "2026-10-16T12:38:03Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The site returned a JavaScript bot-check page (web application firewall) instead of the document",
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.europarl.europa.eu/RegData/docs_autres_institutions/commission_europeenne/com/2018/0795/COM_COM(2018)0795_EN.pdf",
+      "attempted_at": "2026-10-16T12:38:03Z",
+      "ok": true,
+      "http_status": 202,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.europarl.europa.eu/RegData/docs_autres_institutions/commission_europeenne/com/2018/0795/COM_COM(2018)0795(ANN)_EN.pdf": {
+    "status": "archived-review",
+    "flag": "The site returned a JavaScript bot-check page (web application firewall) instead of the document.",
+    "last_attempt": "2026-10-16T12:38:03Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C002/extra-859a451c59/2026-10-16/official.html",
+      "url": "https://www.europarl.europa.eu/RegData/docs_autres_institutions/commission_europeenne/com/2018/0795/COM_COM(2018)0795(ANN)_EN.pdf",
+      "final_url": "https://www.europarl.europa.eu/RegData/docs_autres_institutions/commission_europeenne/com/2018/0795/COM_COM(2018)0795(ANN)_EN.pdf",
+      "http_status": 202,
+      "content_type": "text/html",
+      "bytes": 2431,
+      "sha256": "12c057d806f89c42c93e6d3a17666fbd74924c701902fa8d35ce8ba055223706",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-10-16T12:38:05Z",
+      "last_checked": "2026-10-16T12:38:05Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The site returned a JavaScript bot-check page (web application firewall) instead of the document",
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.europarl.europa.eu/RegData/docs_autres_institutions/commission_europeenne/com/2018/0795/COM_COM(2018)0795(ANN)_EN.pdf",
+      "attempted_at": "2026-10-16T12:38:05Z",
+      "ok": true,
+      "http_status": 202,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  }
+ },
+ "C003": {
+  "main": {
+   "status": "failed",
+   "flag": "The official source could not be downloaded: HTTP 403 Forbidden.",
+   "last_attempt": "2026-10-16T12:38:05Z",
+   "files": [],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://rm.coe.int/ethical-charter-en-for-publication-4-december-2018/16808f699c",
+     "attempted_at": "2026-10-16T12:18:42Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://rm.coe.int/ethical-charter-en-for-publication-4-december-2018/16808f699c",
+     "attempted_at": "2026-10-16T12:38:07Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://book.coe.int/en/computers-and-law/7842-european-ethical-charter-on-the-use-of-artificial-intelligence-in-judicial-systems-and-their-environment.html": {
+    "status": "archived",
+    "flag": "A linked file (https://book.coe.int/en/computers-and-law/8554-european-ethical-charter-on-the-use-of-artificial-intelligence-in-judicial-systems-and-their-environment-greek-version.html) was not a PDF and was skipped. A linked file (https://book.coe.int/en/international-law/7104-use-of-information-technology-in-european-courts.html) was not a PDF and was skipped.",
+    "last_attempt": "2026-10-16T12:38:06Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C003/extra-952b7be5e0/2026-10-16/official.html",
+      "url": "https://book.coe.int/en/computers-and-law/7842-european-ethical-charter-on-the-use-of-artificial-intelligence-in-judicial-systems-and-their-environment.html",
+      "final_url": "https://book.coe.int/en/computers-and-law/7842-european-ethical-charter-on-the-use-of-artificial-intelligence-in-judicial-systems-and-their-environment.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 239099,
+      "sha256": "770978d4cd95f6bd8811fd19297a1382fd30c33f9c547cc597ad55731be65735",
+      "text_sha256": "f89faf5247f0f1c4efd3b8581a5e24d21ef6b0e9a3bee34174ae8403fd0110fb",
+      "retrieved_at": "2026-10-16T12:38:13Z",
+      "last_checked": "2026-10-16T12:38:13Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://book.coe.int/en/computers-and-law/7842-european-ethical-charter-on-the-use-of-artificial-intelligence-in-judicial-systems-and-their-environment.html",
+      "attempted_at": "2026-10-16T12:38:13Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://book.coe.int/en/computers-and-law/8554-european-ethical-charter-on-the-use-of-artificial-intelligence-in-judicial-systems-and-their-environment-greek-version.html",
+      "attempted_at": "2026-10-16T12:38:17Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://book.coe.int/en/international-law/7104-use-of-information-technology-in-european-courts.html",
+      "attempted_at": "2026-10-16T12:38:20Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.questionegiustizia.it/data/doc/1804/cepej_ethical_charter_ia_en-pdf.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T12:38:07Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C003/extra-7df10d278c/2026-10-16/official.pdf",
+      "url": "https://www.questionegiustizia.it/data/doc/1804/cepej_ethical_charter_ia_en-pdf.pdf",
+      "final_url": "https://www.questionegiustizia.it/data/doc/1804/cepej_ethical_charter_ia_en-pdf.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 1545396,
+      "sha256": "31401e6f2eb31c829925c49c4d9a370fa4ce96223ada9fca92c7f30354425ff6",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T12:38:10Z",
+      "last_checked": "2026-10-16T12:38:10Z",
+      "method": "http",
+      "last_modified": "Mon, 15 Jun 2020 08:27:29 GMT",
+      "etag": "\"1794b4-5a81b328b80bd\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.questionegiustizia.it/data/doc/1804/cepej_ethical_charter_ia_en-pdf.pdf",
+      "attempted_at": "2026-10-16T12:38:10Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  }
+ },
+ "C004": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-16T12:18:40Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-16-discover-leads-2018/C004/2026-10-16/official.pdf",
+     "url": "https://dserver.bundestag.de/btd/19/058/1905880.pdf",
+     "final_url": "https://dserver.bundestag.de/btd/19/058/1905880.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 377376,
+     "sha256": "b24f5db947d9678cd75116a973c31c375a2c482e0c79403cb757db37cb9ceb9f",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-16T12:18:43Z",
+     "last_checked": "2026-10-16T12:18:43Z",
+     "method": "http",
+     "last_modified": "Sat, 20 Jun 2020 08:13:47 GMT",
+     "etag": "\"5eedc53b-5c220\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://dserver.bundestag.de/btd/19/058/1905880.pdf",
+     "attempted_at": "2026-10-16T12:18:43Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://dserver.bundestag.de/brd/2018/0597-18.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T12:38:08Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C004/extra-ce36d1ce97/2026-10-16/official.pdf",
+      "url": "https://dserver.bundestag.de/brd/2018/0597-18.pdf",
+      "final_url": "https://dserver.bundestag.de/brd/2018/0597-18.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 70908,
+      "sha256": "9bd400ac2dc87dc2afb3c1b51145d7523c2e4e916bd4cc9f70192bfb91a2cdc7",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T12:38:11Z",
+      "last_checked": "2026-10-16T12:38:11Z",
+      "method": "http",
+      "last_modified": "Fri, 04 Sep 2020 09:30:58 GMT",
+      "etag": "\"5f520952-114fc\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://dserver.bundestag.de/brd/2018/0597-18.pdf",
+      "attempted_at": "2026-10-16T12:38:11Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.ki-strategie-deutschland.de/files/downloads/Nationale_KI-Strategie_engl.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T12:38:09Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C004/extra-842106e48c/2026-10-16/official.pdf",
+      "url": "https://www.ki-strategie-deutschland.de/files/downloads/Nationale_KI-Strategie_engl.pdf",
+      "final_url": "https://www.ki-strategie-deutschland.de/files/downloads/Nationale_KI-Strategie_engl.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 616354,
+      "sha256": "b71a1bc1fad56a9e640504b0d0d5521f56f04b039cc63bf9cabd0cb412f05efb",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T12:38:11Z",
+      "last_checked": "2026-10-16T12:38:11Z",
+      "method": "http",
+      "last_modified": "Thu, 16 Sep 2021 13:53:23 GMT",
+      "etag": "\"967a2-5cc1d23607568\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.ki-strategie-deutschland.de/files/downloads/Nationale_KI-Strategie_engl.pdf",
+      "attempted_at": "2026-10-16T12:38:11Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.ki-strategie-deutschland.de/files/downloads/201201_Fortschreibung_KI-Strategie.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T12:38:10Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C004/extra-baf48cdb1e/2026-10-16/official.pdf",
+      "url": "https://www.ki-strategie-deutschland.de/files/downloads/201201_Fortschreibung_KI-Strategie.pdf",
+      "final_url": "https://www.ki-strategie-deutschland.de/files/downloads/201201_Fortschreibung_KI-Strategie.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 439604,
+      "sha256": "fd687fad588748022441345376b98694cbeab0679fdf17d0d426f1666c24caf1",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T12:38:14Z",
+      "last_checked": "2026-10-16T12:38:14Z",
+      "method": "http",
+      "last_modified": "Thu, 16 Sep 2021 13:53:58 GMT",
+      "etag": "\"6b534-5cc1d2578c700\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.ki-strategie-deutschland.de/files/downloads/201201_Fortschreibung_KI-Strategie.pdf",
+      "attempted_at": "2026-10-16T12:38:14Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.bundesregierung.de/breg-de/aktuelles/fortschreibung-ki-strategie-1824340": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T12:38:11Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C004/extra-b3072230b1/2026-10-16/official.html",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/fortschreibung-ki-strategie-1824340",
+      "final_url": "https://www.bundesregierung.de/breg-de/service/archiv-bundesregierung/fortschreibung-ki-strategie-1824340",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 105727,
+      "sha256": "ad7920e6a9915b759a08904279884f263c5c16f2d5ecf6631cb71cc5fd548b9b",
+      "text_sha256": "445d7cb732d2911b3e573b21ca4a34db8ddccd3429eb02a2e064e10bfcff25d7",
+      "retrieved_at": "2026-10-16T12:38:15Z",
+      "last_checked": "2026-10-16T12:38:15Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/fortschreibung-ki-strategie-1824340",
+      "attempted_at": "2026-10-16T12:38:15Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  }
+ },
+ "C005": {
+  "main": {
+   "status": "failed",
+   "flag": "The official source could not be downloaded: HTTP 403 Forbidden.",
+   "last_attempt": "2026-10-16T12:38:11Z",
+   "files": [],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.enseignementsup-recherche.gouv.fr/fr/la-strategie-ia-pour-faire-de-la-france-un-acteur-majeur-de-l-intelligence-artificielle-49298",
+     "attempted_at": "2026-10-16T12:18:45Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.enseignementsup-recherche.gouv.fr/fr/la-strategie-ia-pour-faire-de-la-france-un-acteur-majeur-de-l-intelligence-artificielle-49298",
+     "attempted_at": "2026-10-16T12:38:14Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/content_migration/document/mesri_IA_dep_A4_09_1040607.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T12:38:14Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-f2a567052b/2026-10-16/official.pdf",
+      "url": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/content_migration/document/mesri_IA_dep_A4_09_1040607.pdf",
+      "final_url": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/content_migration/document/mesri_IA_dep_A4_09_1040607.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 3214166,
+      "sha256": "20248c82753b7b701ed65795b9e5b1c3d3df0434dfc9269d5cb33e469fc396a2",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T12:38:16Z",
+      "last_checked": "2026-10-16T12:38:16Z",
+      "method": "http",
+      "last_modified": "Mon, 28 Jun 2021 09:15:22 GMT",
+      "etag": "\"60d9932a-310b56\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/content_migration/document/mesri_IA_dep_A4_09_1040607.pdf",
+      "attempted_at": "2026-10-16T12:38:16Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.elysee.fr/emmanuel-macron/2018/03/29/discours-du-president-de-la-republique-sur-lintelligence-artificielle": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T12:38:14Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-3f80776e63/2026-10-16/official.html",
+      "url": "https://www.elysee.fr/emmanuel-macron/2018/03/29/discours-du-president-de-la-republique-sur-lintelligence-artificielle",
+      "final_url": "https://www.elysee.fr/emmanuel-macron/2018/03/29/discours-du-president-de-la-republique-sur-lintelligence-artificielle",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 336318,
+      "sha256": "8516a58297656a817e839e7a09946ae79e7f67392867f6af46b693f709f46579",
+      "text_sha256": "c812cebe91bf6c6f60b209df395334f05a768496bd46febc4214c2aa20cd802c",
+      "retrieved_at": "2026-10-16T12:38:16Z",
+      "last_checked": "2026-10-16T12:38:16Z",
+      "method": "http",
+      "last_modified": "Fri, 16 Oct 2026 12:38:16 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-3f80776e63/2026-10-16/document-1.pdf",
+      "url": "https://www.elysee.fr/front/pdf/elysee-module-888-fr.pdf",
+      "final_url": "https://www.elysee.fr/front/pdf/elysee-module-888-fr.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 1390179,
+      "sha256": "1374bd6bc99e253c4d0924122f9608b8daaf724f5b8ad8211f8226e84f06ab74",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T12:38:18Z",
+      "last_checked": "2026-10-16T12:38:18Z",
+      "method": "http",
+      "last_modified": "Fri, 16 Oct 2026 12:38:18 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-3f80776e63/2026-10-16/document-2.pdf",
+      "url": "https://www.elysee.fr/admin/upload/default/0001/19/b7c19bfb2f5d5acd875534a0042f33732a2dac01.pdf",
+      "final_url": "https://www.elysee.fr/admin/upload/default/0001/19/b7c19bfb2f5d5acd875534a0042f33732a2dac01.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 1071813,
+      "sha256": "8294ea24d8bec81a520fefd9dc86ec7254ee69a78efdf56ebbe27917205f64af",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T12:38:21Z",
+      "last_checked": "2026-10-16T12:38:21Z",
+      "method": "http",
+      "last_modified": "Fri, 16 Oct 2026 12:38:21 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.elysee.fr/emmanuel-macron/2018/03/29/discours-du-president-de-la-republique-sur-lintelligence-artificielle",
+      "attempted_at": "2026-10-16T12:38:16Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.elysee.fr/front/pdf/elysee-module-888-fr.pdf",
+      "attempted_at": "2026-10-16T12:38:18Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.elysee.fr/admin/upload/default/0001/19/b7c19bfb2f5d5acd875534a0042f33732a2dac01.pdf",
+      "attempted_at": "2026-10-16T12:38:21Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  }
+ },
+ "C006": {
+  "main": {
+   "status": "archived-review",
+   "flag": "The page barely mentions the document's title; check that the URL still points to this document.",
+   "last_attempt": "2026-10-16T12:18:43Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-16-discover-leads-2018/C006/2026-10-16/official.html",
+     "url": "https://publications.gc.ca/collections/collection_2018/amc-gac/FR5-144-2018-27-eng.pdf",
+     "final_url": "https://publications.gc.ca/site/archivee-archived.html?url=https%3A%2F%2Fpublications.gc.ca%2Fcollections%2Fcollection_2018%2Famc-gac%2FFR5-144-2018-27-eng.pdf",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 19284,
+     "sha256": "052de7b4ce3130ec7c4bd6990b8256deaca64159d52607df24beb44de857dea0",
+     "text_sha256": "77eb1d938e85a44b04734486678ed2a49719fd17d71a98f29a78873f7b2b5d67",
+     "retrieved_at": "2026-10-16T12:18:47Z",
+     "last_checked": "2026-10-16T12:18:47Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": "The page barely mentions the document's title; check that the URL still points to this document",
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://publications.gc.ca/collections/collection_2018/amc-gac/FR5-144-2018-27-eng.pdf",
+     "attempted_at": "2026-10-16T12:18:47Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/g7/documents/2018-06-09-artificial-intelligence-artificielle.aspx?lang=eng": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T12:38:15Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C006/extra-7efe1076a3/2026-10-16/official.html",
+      "url": "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/g7/documents/2018-06-09-artificial-intelligence-artificielle.aspx?lang=eng",
+      "final_url": "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/g7/documents/2018-06-09-artificial-intelligence-artificielle.aspx?lang=eng",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 29217,
+      "sha256": "f0c740d427bc18f074e9aab4785f8b6a93cbda5f216e0fdb5836da53fee7effa",
+      "text_sha256": "1fce43261f1c182d3e593a5645f4db093d670bba4a4214510cb1d32847646ba7",
+      "retrieved_at": "2026-10-16T12:38:18Z",
+      "last_checked": "2026-10-16T12:38:18Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C006/extra-7efe1076a3/2026-10-16/document-1.pdf",
+      "url": "https://www.international.gc.ca/world-monde/assets/pdfs/international_relations-relations_internationales/g7/2018-06-09-artificial-intelligence-artificielle-en.pdf",
+      "final_url": "https://www.international.gc.ca/world-monde/assets/pdfs/international_relations-relations_internationales/g7/2018-06-09-artificial-intelligence-artificielle-en.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 893757,
+      "sha256": "4945f65b4f9ecda7b4505ff0659d07270921e766025ed5632c02ee7a3b557291",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T12:38:22Z",
+      "last_checked": "2026-10-16T12:38:22Z",
+      "method": "http",
+      "last_modified": "Wed, 20 Feb 2019 16:43:52 GMT",
+      "etag": "\"094f7753bc9d41:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/g7/documents/2018-06-09-artificial-intelligence-artificielle.aspx?lang=eng",
+      "attempted_at": "2026-10-16T12:38:18Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.international.gc.ca/world-monde/assets/pdfs/international_relations-relations_internationales/g7/2018-06-09-artificial-intelligence-artificielle-en.pdf",
+      "attempted_at": "2026-10-16T12:38:22Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://publications.gc.ca/site/eng/9.859270/publication.html": {
+    "status": "archived",
+    "flag": "A linked file (https://publications.gc.ca/collections/collection_2018/amc-gac/FR5-144-2018-27-eng.pdf) was not a PDF and was skipped.",
+    "last_attempt": "2026-10-16T12:38:16Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C006/extra-10453fb8c9/2026-10-16/official.html",
+      "url": "https://publications.gc.ca/site/eng/9.859270/publication.html",
+      "final_url": "https://publications.gc.ca/site/eng/9.859270/publication.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 91475,
+      "sha256": "b5fe206e8de5803f8c5cb3489b79eef2b3f6c2efad2fb021a069337df64c1b39",
+      "text_sha256": "5ffb559adb097a6cfa551ae099794c825f7fd31969b38409b0c0909e393ba873",
+      "retrieved_at": "2026-10-16T12:38:19Z",
+      "last_checked": "2026-10-16T12:38:19Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://publications.gc.ca/site/eng/9.859270/publication.html",
+      "attempted_at": "2026-10-16T12:38:19Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://publications.gc.ca/collections/collection_2018/amc-gac/FR5-144-2018-27-eng.pdf",
+      "attempted_at": "2026-10-16T12:38:22Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.international.gc.ca/world-monde/assets/pdfs/international_relations-relations_internationales/g7/2018-06-09-artificial-intelligence-artificielle-en.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T12:38:20Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C006/extra-32f2cfadf6/2026-10-16/official.pdf",
+      "url": "https://www.international.gc.ca/world-monde/assets/pdfs/international_relations-relations_internationales/g7/2018-06-09-artificial-intelligence-artificielle-en.pdf",
+      "final_url": "https://www.international.gc.ca/world-monde/assets/pdfs/international_relations-relations_internationales/g7/2018-06-09-artificial-intelligence-artificielle-en.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 893757,
+      "sha256": "4945f65b4f9ecda7b4505ff0659d07270921e766025ed5632c02ee7a3b557291",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T12:38:26Z",
+      "last_checked": "2026-10-16T12:38:26Z",
+      "method": "http",
+      "last_modified": "Wed, 20 Feb 2019 16:43:52 GMT",
+      "etag": "\"094f7753bc9d41:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.international.gc.ca/world-monde/assets/pdfs/international_relations-relations_internationales/g7/2018-06-09-artificial-intelligence-artificielle-en.pdf",
+      "attempted_at": "2026-10-16T12:38:26Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/g7/documents/2018-06-09-artificial-intelligence-artificielle.aspx?lang=fra": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T12:38:21Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C006/extra-0df5177302/2026-10-16/official.html",
+      "url": "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/g7/documents/2018-06-09-artificial-intelligence-artificielle.aspx?lang=fra",
+      "final_url": "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/g7/documents/2018-06-09-artificial-intelligence-artificielle.aspx?lang=fra",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 32766,
+      "sha256": "1f8dc4f51c4dfb1c3bdb86b9d599d93c830bd686c5ea28a4d06f630849244e21",
+      "text_sha256": "3cf4c24ee5bfba5583d27e560fb661306ca82c6844b6d584d9ac9bb01efb12ed",
+      "retrieved_at": "2026-10-16T12:38:29Z",
+      "last_checked": "2026-10-16T12:38:29Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C006/extra-0df5177302/2026-10-16/document-1.pdf",
+      "url": "https://www.international.gc.ca/world-monde/assets/pdfs/international_relations-relations_internationales/g7/2018-06-09-artificial-intelligence-artificielle-fr.pdf",
+      "final_url": "https://www.international.gc.ca/world-monde/assets/pdfs/international_relations-relations_internationales/g7/2018-06-09-artificial-intelligence-artificielle-fr.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 889031,
+      "sha256": "83270bcb13e1f59ead3370519a273148f227a6d0e0382b2393e7cfeb84e48339",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T12:38:33Z",
+      "last_checked": "2026-10-16T12:38:33Z",
+      "method": "http",
+      "last_modified": "Wed, 20 Feb 2019 16:43:53 GMT",
+      "etag": "\"802a90763bc9d41:0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/g7/documents/2018-06-09-artificial-intelligence-artificielle.aspx?lang=fra",
+      "attempted_at": "2026-10-16T12:38:29Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.international.gc.ca/world-monde/assets/pdfs/international_relations-relations_internationales/g7/2018-06-09-artificial-intelligence-artificielle-fr.pdf",
+      "attempted_at": "2026-10-16T12:38:33Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  }
+ },
+ "C007": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-16T12:18:45Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/_runs/2026-10-16-discover-leads-2018/C007/2026-10-16/official.pdf",
+     "url": "https://www.niti.gov.in/sites/default/files/2023-03/National-Strategy-for-Artificial-Intelligence.pdf",
+     "final_url": "https://www.niti.gov.in/sites/default/files/2023-03/National-Strategy-for-Artificial-Intelligence.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 4615281,
+     "sha256": "da5404dbb584c8956aae707dfcfe324dc1df11a179bc8288af0e898f4e37dcc5",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-16T12:18:48Z",
+     "last_checked": "2026-10-16T12:18:48Z",
+     "method": "http",
+     "last_modified": "Mon, 27 Mar 2023 14:03:58 GMT",
+     "etag": "\"466c71-5f7e236d2af80\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.niti.gov.in/sites/default/files/2023-03/National-Strategy-for-Artificial-Intelligence.pdf",
+     "attempted_at": "2026-10-16T12:18:48Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.niti.gov.in/node/708": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T12:38:22Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C007/extra-568c369b27/2026-10-16/official.html",
+      "url": "https://www.niti.gov.in/node/708",
+      "final_url": "https://www.niti.gov.in/node/708",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 353740,
+      "sha256": "d564723aedc542ba2c856b047648c4aab89ffea9809a164656e7e0c71af53450",
+      "text_sha256": "a297f345901369e6a3f6fd071f016138b0bbb83c09955b2e84cf7189d770545b",
+      "retrieved_at": "2026-10-16T12:38:28Z",
+      "last_checked": "2026-10-16T12:38:28Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C007/extra-568c369b27/2026-10-16/document-1.pdf",
+      "url": "https://www.niti.gov.in/sites/default/files/2023-03/National-Strategy-for-Artificial-Intelligence.pdf",
+      "final_url": "https://www.niti.gov.in/sites/default/files/2023-03/National-Strategy-for-Artificial-Intelligence.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 4615281,
+      "sha256": "da5404dbb584c8956aae707dfcfe324dc1df11a179bc8288af0e898f4e37dcc5",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T12:38:35Z",
+      "last_checked": "2026-10-16T12:38:35Z",
+      "method": "http",
+      "last_modified": "Mon, 27 Mar 2023 14:03:58 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.niti.gov.in/node/708",
+      "attempted_at": "2026-10-16T12:38:28Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.niti.gov.in/sites/default/files/2023-03/National-Strategy-for-Artificial-Intelligence.pdf",
+      "attempted_at": "2026-10-16T12:38:35Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.niti.gov.in/sites/default/files/2020-01/AIRAWAT_Approach_Paper.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T12:38:22Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-discover-leads-2018/C007/extra-e89cc95621/2026-10-16/official.pdf",
+      "url": "https://www.niti.gov.in/sites/default/files/2020-01/AIRAWAT_Approach_Paper.pdf",
+      "final_url": "https://www.niti.gov.in/sites/default/files/2020-01/AIRAWAT_Approach_Paper.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 2208320,
+      "sha256": "f01d23332f0efb84b040d2ee6ca9fb7cf2c34bea39c7b528353d8a0095ce6f5f",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T12:38:32Z",
+      "last_checked": "2026-10-16T12:38:32Z",
+      "method": "http",
+      "last_modified": "Wed, 18 Oct 2023 09:55:46 GMT",
+      "etag": "\"21b240-607faa4a8ac80\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.niti.gov.in/sites/default/files/2020-01/AIRAWAT_Approach_Paper.pdf",
+      "attempted_at": "2026-10-16T12:38:32Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  }
+ }
+}

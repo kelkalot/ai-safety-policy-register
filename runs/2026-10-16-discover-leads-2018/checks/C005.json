@@ -1,0 +1,60 @@
+{
+ "cand_id": "C005",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-16",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Rendering of the strategy's own name 'AI for Humanity' with an accurate English descriptor; english_version none found is correct."
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "The press kit gives 'LA STRATÉGIE AI FOR HUMANITY' and 'la stratégie AI for Humanity'; no single strategy document exists. Case differs from the capitals of the heading."
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "language": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "EUR 1.5 billion over the five-year term; Inria-coordinated national programme",
+   "verdict": "supported",
+   "locator": "press kit page 5 (1,5 milliard ... quinquennat; programme national coordonné par Inria)"
+  },
+  {
+   "claim": "speech: public transparency of algorithms, European reflection on control and certification of algorithms, an IPCC-like body (GIEC de l'IA)",
+   "verdict": "supported",
+   "locator": "Elysee speech, algorithm and GIEC passages; literal: 'mettre partout de la transparence publique sur les algorithmes' / 'réflexion européenne et internationale sur le contrôle et la certification des algorithmes'"
+  },
+  {
+   "claim": "EUR 100 million seed, 70 million a year via Bpifrance, 400 million for innovation challenges, 500 million private investment; algorithm code public by default, Parcoursup",
+   "verdict": "supported",
+   "locator": "Elysee speech document-1.pdf"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "No single strategy document; speech and press kit; strategy with ethics pillar. Extractor's scope_note kept."
+ },
+ "overall": "accept",
+ "note": "Strategy, date and funding are confirmed by the ministry press kit (official) and the Elysee speech (host not yet official for FR; quotes count as secondary). A search found a second phase launched in November 2021 that official-style sources describe as a continuation, not a replacement, so the status stays; a later run may add it as a separate record."
+}

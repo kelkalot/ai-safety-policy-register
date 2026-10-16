@@ -1,0 +1,56 @@
+{
+ "cand_id": "C002",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-16",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "unsupported",
+   "why": "The 2018 plan says it is rolling and reviewed annually; a 2021 Review edition exists on an official Commission site and is not stored, so whether this edition is still 'current' or Superseded cannot be judged from the stored files."
+  },
+  "legal_force": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "plan prepared by Member States, Norway, Switzerland and the Commission",
+   "verdict": "supported",
+   "locator": "page 3"
+  },
+  {
+   "claim": "ethics-by-design, safety and liability review, AI cybersecurity requirements, human control over lethal force",
+   "verdict": "supported",
+   "locator": "page 6-7"
+  }
+ ],
+ "newer_versions": [
+  {
+   "what": "Coordinated Plan on Artificial Intelligence 2021 Review, annex to COM(2021) 205 of 21 April 2021, published as an updated edition of the plan",
+   "url": "https://digital-strategy.ec.europa.eu/en/library/new-coordinated-plan-artificial-intelligence",
+   "also": "https://ec.europa.eu/transparency/documents-register/api/files/COM(2021)205_0/de00000001034487"
+  }
+ ],
+ "extra_urls": [
+  "https://digital-strategy.ec.europa.eu/en/library/new-coordinated-plan-artificial-intelligence"
+ ],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Coordination plan on investment and research with safety and liability actions; extractor's scope_note kept."
+ },
+ "overall": "needs-human",
+ "note": "Content, title, number and date are supported by the stored PDFs. A targeted search found the 2021 Review of the plan (COM(2021) 205) on an official Commission site. It is not stored, so the status of the 2018 edition (current or Superseded) goes to a human and a later run should store the 2021 Review."
+}

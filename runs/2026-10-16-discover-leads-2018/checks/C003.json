@@ -1,0 +1,52 @@
+{
+ "cand_id": "C003",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-16",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "CEPEJ(2018)14 appears on page 1 of the full copy from questionegiustizia.it, a secondary host; the official rm.coe.int PDF is not stored."
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "language": {
+   "verdict": "supported",
+   "why": "Product page lists English and French editions."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "five principles incl. user control, parties informed of AI processing and can object so a court hears the case",
+   "verdict": "supported",
+   "locator": "pages 3-4, principle 5 (secondary copy)"
+  },
+  {
+   "claim": "adopted by CEPEJ on 4 December 2018",
+   "verdict": "supported",
+   "locator": "book.coe.int summary"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "AI-specific ethical principles for judicial use by a Council of Europe body."
+ },
+ "overall": "accept",
+ "note": "Official publisher page confirms title, author and the 4 December 2018 adoption; identifier and principle wording rest on a secondary full copy, as the verification note says. A search found a 2023 assessment tool and 2025 revision around the charter, no replacement."
+}

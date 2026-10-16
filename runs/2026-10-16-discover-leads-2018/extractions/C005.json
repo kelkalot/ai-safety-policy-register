@@ -1,0 +1,170 @@
+{
+ "cand_id": "C005",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "AI for Humanity: national strategy for artificial intelligence",
+  "original_title": "La stratégie AI for Humanity",
+  "short_title": "France AI for Humanity strategy (2018)",
+  "jurisdiction": "France",
+  "country": "France",
+  "jurisdiction_level": "National",
+  "region": "Europe",
+  "issuing_body": "President of the Republic and Government of France",
+  "instrument_type": "Strategy / action plan",
+  "legal_force": "Non-binding",
+  "status": "Published (non-binding, current)",
+  "date_published": "2018-03-29",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": null,
+  "official_url": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/content_migration/document/mesri_IA_dep_A4_09_1040607.pdf",
+  "secondary_url": "https://www.elysee.fr/emmanuel-macron/2018/03/29/discours-du-president-de-la-republique-sur-lintelligence-artificielle",
+  "language": "French",
+  "english_version": {
+   "kind": "none found"
+  },
+  "summary": "France's national AI strategy, presented by the President on 29 March 2018 at the Collège de France on the basis of the Villani report, with 1.5 billion euros of public funding over the five-year term. Its pillars are the AI ecosystem and talent, with a national research programme coordinated by Inria; an active policy of opening data; a financing and regulatory framework for priority sectors such as health and mobility; and the ethical and political questions of AI. On ethics it calls for public transparency of algorithms, tracking their bias, not leaving them the monopoly of decisions, a European reflection on the control and certification of algorithms, and an IPCC-like body for AI.",
+  "safety_topics": [
+   "transparency & labelling",
+   "evaluation & testing",
+   "research priorities",
+   "public-sector use",
+   "international cooperation"
+  ],
+  "related": [],
+  "notes": "Presented at the 'AI for Humanity' conference; the government press kit of 28 November 2018 describes the strategy in three axes: talent, diffusion of AI in the economy and society, and ethics. The funding includes 100 million euros from the Fund for Innovation and Industry for AI start-ups, 70 million euros a year through the public investment bank for deep-technology start-ups and 400 million euros for innovation challenges and industrial projects, within a total of 1.5 billion euros of public money expected to bring more than 500 million euros of private investment. The President said the State would by default make public the code of all algorithms it uses, starting with Parcoursup, and announced a regulatory framework for autonomous vehicles by 2022. The national research strategy for AI of 28 November 2018 is its research component: a national programme run by Inria with interdisciplinary AI institutes (3IA), 40 chairs and a doubling of AI doctorates. A 'Grand Défi' launched on 18 July 2018 aims to secure, certify and make reliable systems that use AI.",
+  "scope_note": "Mainly a strategy for AI research, talent, data and funding, with ethics as one of its pillars, and set out in the President's speech and government press material rather than in a single strategy document; included as France's national AI strategy.",
+  "verification": {
+   "note": "Stored the press kit of the Ministry of Higher Education, Research and Innovation and the Secretary of State for Digital Affairs of 28 November 2018 from enseignementsup-recherche.gouv.fr (official), which confirms the presentation on 29 March 2018, the Government's mobilisation around the strategy, the funding and the three axes, and the Élysée's page and PDF of the President's speech of 29 March 2018, which give the four pillars and the ethics measures (the page also linked an unrelated deontology guide, which was stored). Host to review: elysee.fr is listed in pipeline/official-sites.json as official for G7 and INT but not for FR, so the speech's quotes count as secondary until a person records the host for FR. The ministry's own page on the strategy (the candidate URL) answered 403 and is not stored. There is no single strategy document; the record describes the strategy from these sources. The English title renders the French one ('AI for Humanity' is the strategy's own name); no English text of the strategy is stored. The summary follows the French texts."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-f2a567052b/2026-10-16/official.pdf",
+    "sha256": "20248c82753b7b701ed65795b9e5b1c3d3df0434dfc9269d5cb33e469fc396a2",
+    "locator": "page 5",
+    "quote": "LA STRATÉGIE AI FOR HUMANITY Jeudi 29 mars 2018 s’est tenu, à Paris au Collège de France",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-f2a567052b/2026-10-16/official.pdf",
+    "sha256": "20248c82753b7b701ed65795b9e5b1c3d3df0434dfc9269d5cb33e469fc396a2",
+    "locator": "page 3",
+    "quote": "Gouvernement est mobilisé autour de la stratégie AI for Humanity, nourrie par le rapport préparé par le député Cédric Villani.",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-f2a567052b/2026-10-16/official.pdf",
+    "sha256": "20248c82753b7b701ed65795b9e5b1c3d3df0434dfc9269d5cb33e469fc396a2",
+    "locator": "page 5",
+    "quote": "LA STRATÉGIE AI FOR HUMANITY Jeudi 29 mars 2018 s’est tenu, à Paris au Collège de France",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-f2a567052b/2026-10-16/official.pdf",
+    "sha256": "20248c82753b7b701ed65795b9e5b1c3d3df0434dfc9269d5cb33e469fc396a2",
+    "locator": "page 3",
+    "quote": "Gouvernement est mobilisé autour de la stratégie AI for Humanity, nourrie par le rapport préparé par le député Cédric Villani.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-f2a567052b/2026-10-16/official.pdf",
+    "sha256": "20248c82753b7b701ed65795b9e5b1c3d3df0434dfc9269d5cb33e469fc396a2",
+    "locator": "page 5",
+    "quote": "À cette occasion, le Président de la République a présenté une stratégie ambitieuse en faveur de l’intelligence artificielle",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-f2a567052b/2026-10-16/official.pdf",
+    "sha256": "20248c82753b7b701ed65795b9e5b1c3d3df0434dfc9269d5cb33e469fc396a2",
+    "locator": "page 3",
+    "quote": "Gouvernement est mobilisé autour de la stratégie AI for Humanity, nourrie par le rapport préparé par le député Cédric Villani.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-3f80776e63/2026-10-16/document-1.pdf",
+    "sha256": "1374bd6bc99e253c4d0924122f9608b8daaf724f5b8ad8211f8226e84f06ab74",
+    "locator": "page 1",
+    "quote": "Discours du Président de la République Emmanuel Macron #Aiforhumanity Paris Collège de France – Jeudi 29 mars 2018",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-f2a567052b/2026-10-16/official.pdf",
+    "sha256": "20248c82753b7b701ed65795b9e5b1c3d3df0434dfc9269d5cb33e469fc396a2",
+    "locator": "page 5",
+    "quote": "Jeudi 29 mars 2018 s’est tenu, à Paris au Collège de France, le colloque sur l’intelligence artificielle",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-3f80776e63/2026-10-16/document-1.pdf",
+    "sha256": "1374bd6bc99e253c4d0924122f9608b8daaf724f5b8ad8211f8226e84f06ab74",
+    "locator": "page 1",
+    "quote": "Paris Collège de France – Jeudi 29 mars 2018",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-f2a567052b/2026-10-16/official.pdf",
+    "sha256": "20248c82753b7b701ed65795b9e5b1c3d3df0434dfc9269d5cb33e469fc396a2",
+    "locator": "page 5",
+    "quote": "Le Président de la République a annoncé que le Gouvernement consacrera 1,5 milliard d’euros sur l’ensemble du quinquennat pour développer l’intelligence artificielle",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-f2a567052b/2026-10-16/official.pdf",
+    "sha256": "20248c82753b7b701ed65795b9e5b1c3d3df0434dfc9269d5cb33e469fc396a2",
+    "locator": "page 3",
+    "quote": "Gouvernement est mobilisé autour de la stratégie AI for Humanity, nourrie par le rapport préparé par le député Cédric Villani.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-f2a567052b/2026-10-16/official.pdf",
+    "sha256": "20248c82753b7b701ed65795b9e5b1c3d3df0434dfc9269d5cb33e469fc396a2",
+    "locator": "page 5",
+    "quote": "Les mesures s’inspirent du rapport rédigé par le mathématicien et député Cédric Villani",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C005/extra-3f80776e63/2026-10-16/document-1.pdf",
+    "sha256": "1374bd6bc99e253c4d0924122f9608b8daaf724f5b8ad8211f8226e84f06ab74",
+    "locator": "page 2",
+    "quote": "Cette stratégie à mes yeux passe par quatre éléments principaux",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The President presented the strategy on 29 March 2018; the government press kit of 28 November 2018 says the whole Government is mobilised around it and that 1.5 billion euros will be spent over the five-year term. No stored source withdraws or replaces it, so Published (non-binding, current). The funding period of the five-year term ended in 2022; whether a later phase of the national strategy superseded it is not settled by stored sources (open_questions).",
+  "date_reasoning": "date_published is the day of the presentation, Thursday 29 March 2018, in both sources.",
+  "title_reasoning": "No stored source gives a formal title. The press kit names it 'la stratégie AI for Humanity' and 'cette stratégie nationale de l'IA'; original_title takes the press kit's wording, and the English title renders it.",
+  "issuer_reasoning": "The President presented the strategy and the Government implements it ('l'ensemble du Gouvernement est mobilisé autour de la stratégie AI for Humanity').",
+  "terms": "transparence publique sur les algorithmes 'public transparency of algorithms'; traquer leurs biais 'tracking their bias'; ne pas leur confier le monopole de la décision 'not leaving them the monopoly of decisions'; contrôle et certification des algorithmes 'control and certification of algorithms'; GIEC de l'intelligence artificielle 'an IPCC-like body for AI' (GIEC is the French name of the IPCC); sécuriser, certifier et fiabiliser 'secure, certify and make reliable'; quinquennat 'five-year term'.",
+  "topics_reasoning": "transparency & labelling: public transparency of algorithms and publication of the code of public algorithms (speech page 10); evaluation & testing: control and certification of algorithms and the Grand Défi to secure and certify AI systems (speech page 10, press kit page 7); research priorities: the Inria programme and research on algorithmic transparency (press kit pages 5, 9; speech page 10); public-sector use: publishing the code of algorithms the State uses, such as Parcoursup (speech page 10); international cooperation: the IPCC-like body for AI and work with Canada in the G7 (speech page 10, press kit page 7).",
+  "scope_reasoning": "A national AI strategy whose main focus is research, talent, data and funding, with ethics as one pillar and concrete measures on algorithmic transparency and certification. AGENTS.md section 10: a strategy with some safety content and a different main focus is in with a scope_note. A speech alone is out of scope; here the speech is the act that set out the strategy, and the record is the strategy."
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "Donner un sens à l'intelligence artificielle : pour une stratégie nationale et européenne (Villani report, made public 28 March 2018)",
+   "url": "https://www.enseignementsup-recherche.gouv.fr/fr/rapport-de-cedric-villani-donner-un-sens-l-intelligence-artificielle-ia-49194",
+   "note": "Government-commissioned report on which the strategy is based; not in the register."
+  }
+ ],
+ "open_questions": [
+  "Host review: elysee.fr is not listed as official for FR in pipeline/official-sites.json (it is for G7 and INT); until a person records it, the speech's quotes count as secondary. Title, date and status also have official evidence from the gouv.fr press kit.",
+  "The 1.5 billion euros were planned over the five-year term to 2022; a later run should check whether a later phase of the national AI strategy superseded this one."
+ ]
+}

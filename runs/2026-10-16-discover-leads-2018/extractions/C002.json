@@ -1,0 +1,154 @@
+{
+ "cand_id": "C002",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "record",
+ "target_id": null,
+ "record": {
+  "title": "Coordinated Plan on Artificial Intelligence",
+  "short_title": "EU Coordinated Plan on AI (2018)",
+  "jurisdiction": "European Union",
+  "country": "European Union",
+  "jurisdiction_level": "Supranational",
+  "region": "Europe",
+  "issuing_body": "European Commission",
+  "instrument_type": "Strategy / action plan",
+  "legal_force": "Non-binding",
+  "status": "Published (non-binding, current)",
+  "date_published": "2018-12-07",
+  "date_in_force": null,
+  "date_last_updated": null,
+  "official_identifier": "COM(2018) 795 final",
+  "official_url": "https://digital-strategy.ec.europa.eu/en/library/coordinated-plan-artificial-intelligence",
+  "secondary_url": null,
+  "language": "English",
+  "summary": "Commission communication presenting the coordinated plan on AI prepared by Member States, Norway, Switzerland and the Commission on the basis of the April 2018 European AI strategy. It provides a strategic framework for national AI strategies, which Member States without one are encouraged to adopt by mid-2019, and sets joint actions on investment, research excellence and testing facilities, skills, data and AI in the public sector. On trust and safety it relies on ethics guidelines from the High-Level Expert Group on AI with an ethics-by-design principle, a review of the safety and liability frameworks, AI cybersecurity requirements and human control over decisions on lethal force.",
+  "safety_topics": [
+   "accountability & liability",
+   "evaluation & testing",
+   "public-sector use",
+   "international cooperation",
+   "national security & military"
+  ],
+  "related": [
+   "C001",
+   "EU-20"
+  ],
+  "notes": "The plan itself is the annex, 'Coordinated Plan on the Development and Use of Artificial Intelligence Made in Europe - 2018', a rolling plan to be monitored and reviewed annually; this first edition mainly covers activities for 2019 and 2020 and is expected to run possibly until 2027. Investment: EUR 1.5 billion from Horizon 2020 in 2018-2020, more than EUR 20 billion of total investment for 2018-2020 if Member States and the private sector make similar efforts, and a target of EUR 20 billion per year over the next decade, with at least EUR 1 billion per year proposed from Horizon Europe and Digital Europe in 2021-2027. The annex provides for discussions in 2019 on regulatory sandboxes and public testing arrangements, which Member States are encouraged to create by the end of 2020, and a report by mid-2019 on gaps in the safety and liability framework for AI. The EU position stated in the plan is that international humanitarian law applies fully to autonomous weapons systems. The Commission invited the European Council to endorse the plan and Member States to implement it.",
+  "scope_note": "Mainly a plan to coordinate investment, research, skills and data policy on AI across the EU, with ethics guidelines, the safety and liability framework and AI security among its actions; included as the EU's joint plan with the Member States on AI.",
+  "verification": {
+   "note": "Stored the Commission's PDFs of the communication COM(2018) 795 final (10 pages) and of its annex (23 pages) from ec.europa.eu, and the Commission's library page on digital-strategy.ec.europa.eu with its printable PDF, which gives the publication date 7 December 2018. They confirm the title, the number, the date and the content. The candidate's EUR-Lex URL and the European Parliament register copies returned bot-check pages with no text. No stored source records a later edition of the plan."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C002/extra-2233cabf30/2026-10-16/official.pdf",
+    "sha256": "bfbf0758dd02f6a37d182a899d02ffd3a7d434851196a5e7490155a7bc3d79e9",
+    "locator": "page 1",
+    "quote": "REGIONS Coordinated Plan on Artificial Intelligence",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C002/extra-04e750f40d/2026-10-16/official.html",
+    "sha256": "d48e33085ff65c346255ab7ecb2dee5648f2ee495e792173c3c15011478d84a6",
+    "locator": "library page, heading",
+    "quote": "Coordinated Plan on Artificial Intelligence (COM(2018) 795 final)",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C002/extra-2233cabf30/2026-10-16/official.pdf",
+    "sha256": "bfbf0758dd02f6a37d182a899d02ffd3a7d434851196a5e7490155a7bc3d79e9",
+    "locator": "page 1",
+    "quote": "EUROPEAN COMMISSION Brussels, 7.12.2018 COM(2018) 795 final",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C002/extra-2233cabf30/2026-10-16/official.pdf",
+    "sha256": "bfbf0758dd02f6a37d182a899d02ffd3a7d434851196a5e7490155a7bc3d79e9",
+    "locator": "page 3",
+    "quote": "Member States (as part of the group on digitising European industry and AI) , Norway, Switzerland and the Commission prepared the plan during several meetings between June and November 2018.",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C002/extra-2233cabf30/2026-10-16/official.pdf",
+    "sha256": "bfbf0758dd02f6a37d182a899d02ffd3a7d434851196a5e7490155a7bc3d79e9",
+    "locator": "page 1",
+    "quote": "Brussels, 7.12.2018 COM(2018) 795 final",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C002/extra-04e750f40d/2026-10-16/official.html",
+    "sha256": "d48e33085ff65c346255ab7ecb2dee5648f2ee495e792173c3c15011478d84a6",
+    "locator": "library page, heading",
+    "quote": "Coordinated Plan on Artificial Intelligence (COM(2018) 795 final)",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C002/extra-2233cabf30/2026-10-16/official.pdf",
+    "sha256": "bfbf0758dd02f6a37d182a899d02ffd3a7d434851196a5e7490155a7bc3d79e9",
+    "locator": "page 1",
+    "quote": "Brussels, 7.12.2018 COM(2018) 795 final",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C002/extra-04e750f40d/2026-10-16/official.html",
+    "sha256": "d48e33085ff65c346255ab7ecb2dee5648f2ee495e792173c3c15011478d84a6",
+    "locator": "library page, heading",
+    "quote": "Publication 07 December 2018",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C002/extra-2233cabf30/2026-10-16/official.pdf",
+    "sha256": "bfbf0758dd02f6a37d182a899d02ffd3a7d434851196a5e7490155a7bc3d79e9",
+    "locator": "page 3",
+    "quote": "It details actions to be started in 2019 -2020 and prepares the ground for activities in the following years. It will be reviewed and updated annually.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C002/extra-51e576c6ff/2026-10-16/official.pdf",
+    "sha256": "23fc83efdefc0f2e3cd32e119bf67860aae8d1afa23e9ba67c8b1d521ce9d926",
+    "locator": "page 3",
+    "quote": "agreed to put in place a rolling coordinated plan that is to be monitored and reviewed annually",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C002/extra-2233cabf30/2026-10-16/official.pdf",
+    "sha256": "bfbf0758dd02f6a37d182a899d02ffd3a7d434851196a5e7490155a7bc3d79e9",
+    "locator": "page 3",
+    "quote": "The coordinated plan provides a strategic framework for national AI strategies.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads-2018/C002/extra-2233cabf30/2026-10-16/official.pdf",
+    "sha256": "bfbf0758dd02f6a37d182a899d02ffd3a7d434851196a5e7490155a7bc3d79e9",
+    "locator": "page 10",
+    "quote": "the European Council to endorse the coordinated plan;",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The latest stored event is the adoption of the communication on 7 December 2018. The plan is a rolling plan 'to be monitored and reviewed annually', but no later edition or replacement is stored, so Published (non-binding, current). See open_questions.",
+  "date_reasoning": "date_published is the date on the cover, 7.12.2018, which the library page repeats.",
+  "legal_force_reasoning": "A Commission communication with a plan agreed with the Member States, which the Commission invites the European Council to endorse and Member States to implement; no legal obligations: Non-binding.",
+  "related_reasoning": "C001 is the April 2018 strategy the plan builds on (COM(2018) 237, cited in footnote 3). EU-20 is the ethics guidelines of the High-Level Expert Group on AI, whose final version the plan expected for March 2019.",
+  "topics_reasoning": "accountability & liability: assessment of the safety and liability frameworks and the mid-2019 report (communication page 9, annex pages 18-19); evaluation & testing: large-scale reference test sites, regulatory sandboxes and public testing arrangements (communication page 5, annex page 19); public-sector use: AI in public administrations and the annex section 'AI for the Public Sector'; international cooperation: the annex section on international cooperation and the global ethics agenda; national security & military: security aspects of AI and human control over lethal force in weapons systems (communication page 9).",
+  "scope_reasoning": "A coordination plan whose main content is investment, research, skills and data, with ethics guidelines, the safety and liability framework and AI security among its actions. AGENTS.md section 10: an action plan with some safety content and a different main focus is in with a scope_note."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The lead for this candidate (L009) says the plan was reviewed in 2021. No later edition is stored, so the status stays Published (non-binding, current); a later run should check whether the 2021 review superseded this first edition."
+ ]
+}

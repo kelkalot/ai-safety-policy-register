@@ -4,9 +4,9 @@
 
 Every AI Policy Ever is a pipeline of AI agents and the register of official AI safety and AI regulation instruments it maintains. Collectors search official sites, extractors write each record from a stored copy of its source with quoted evidence, a checker on a different model verifies every field, and scripts assign IDs, compute verification levels and record every change. Each step leaves a file in `runs/`, so you can rerun the pipeline with your own Claude Code or Codex subscription, or with another model, and compare your records with the published ones field by field (`AGENTS.md` sections 5 to 8). The maintainers rerun it over the full register at least once a month.
 
-The register holds official governmental and intergovernmental instruments, from laws, executive orders and implementing rules to safety frameworks, supervisory guidance, technical standards, AI safety institute mandates, treaties and declarations. Data version <!--n:version-->1.11<!--/n--> holds <!--n:records-->394<!--/n--> records; `data/records.json` and the [releases on Hugging Face](https://huggingface.co/datasets/kelkalot/every-ai-policy-ever) say which version you have.
+The register holds official governmental and intergovernmental instruments, from laws, executive orders and implementing rules to safety frameworks, supervisory guidance, technical standards, AI safety institute mandates, treaties and declarations. Data version <!--n:version-->1.12<!--/n--> holds <!--n:records-->400<!--/n--> records; `data/records.json` and the [releases on Hugging Face](https://huggingface.co/datasets/kelkalot/every-ai-policy-ever) say which version you have.
 
-**Time coverage.** The register aims to hold every such instrument, but so far it is densest from 2023 on: <!--n:from_2023-->367<!--/n--> records date from 2023 or later and <!--n:before_2023-->20<!--/n--> from earlier years, the oldest from <!--n:first_year-->2017<!--/n-->. Older instruments are being added run by run. The absence of an instrument from before 2023 says nothing about whether it exists.
+**Time coverage.** The register aims to hold every such instrument, but so far it is densest from 2023 on: <!--n:from_2023-->367<!--/n--> records date from 2023 or later and <!--n:before_2023-->26<!--/n--> from earlier years, the oldest from <!--n:first_year-->2017<!--/n-->. Older instruments are being added run by run. The absence of an instrument from before 2023 says nothing about whether it exists.
 
 Every record links to its official source, says how and when it was verified, keeps a **local copy** of its sources with a SHA-256 hash, and carries its **history**: what changed, when, why and on what evidence. Anything that cannot be stored is **flagged on the record** with the reason.
 
@@ -222,8 +222,8 @@ Two things to keep in mind: `date_published` can be a partial date (`YYYY-MM` or
 
 The scope, the verification levels (A, B, C), the records to re-check first and the known coverage gaps are explained in the app under **Method & coverage**. In short:
 
-- In data version <!--n:version-->1.11<!--/n-->, <!--n:level_A-->355<!--/n--> records are confirmed by an official source (level A), <!--n:level_B-->26<!--/n--> by another official source (B), and <!--n:level_C-->13<!--/n--> rest on secondary sources only (C). Re-check level C records before citing them.
-- Coverage is densest from 2023 on (<!--n:before_2023-->20<!--/n--> records predate 2023), and uneven across places: the coverage frame (`pipeline/frame.json`, summed up in `pipeline/coverage.md`) records which places the pipeline has searched. Supervisory authorities and standards bodies were added to the scope in October 2026 and are not yet searched (issue #30 plans the pilot).
+- In data version <!--n:version-->1.12<!--/n-->, <!--n:level_A-->360<!--/n--> records are confirmed by an official source (level A), <!--n:level_B-->26<!--/n--> by another official source (B), and <!--n:level_C-->14<!--/n--> rest on secondary sources only (C). Re-check level C records before citing them.
+- Coverage is densest from 2023 on (<!--n:before_2023-->26<!--/n--> records predate 2023), and uneven across places: the coverage frame (`pipeline/frame.json`, summed up in `pipeline/coverage.md`) records which places the pipeline has searched. Supervisory authorities and standards bodies were added to the scope in October 2026 and are not yet searched (issue #30 plans the pilot).
 - The register does not translate instruments. About a third of the records rest on a text that is not in English; their summaries were written in English by an AI agent from the original, and their English titles are the agent's renderings unless the record's `english_version` names an English text of the issuer or a government translation. For point-by-point work use the original or that translation. A translation check of 58 such records (`docs/translation-check-2026-10-14.md`) found the titles accurate, 73 percent of specific summary claims accurate and 10 percent overstated, understated or mistranslated, and six records with an error that changes the legal meaning, which are being corrected.
 - Statuses are as of each record's `verification.verified_on`. The archiver detects changes to the source pages and queues the record for a refresh run, which re-checks its status; `meta.snapshot_date` changes only after a recheck of every record.
 
@@ -278,7 +278,7 @@ The code, the web app and the records, summaries and notes are released under [C
   title     = {Every AI Policy Ever: a register of official AI safety and AI regulation instruments},
   author    = {Riegler, Michael and Gautam, Sushant},
   year      = {2026},
-  version   = {1.11},
+  version   = {1.12},
   publisher = {Hugging Face},
   url       = {https://huggingface.co/datasets/kelkalot/every-ai-policy-ever},
   note      = {AI-assisted extraction, snapshot 2026-10-12}
