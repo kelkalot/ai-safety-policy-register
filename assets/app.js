@@ -526,7 +526,7 @@
         return "<tr><td><a href=\"#" + esc(d.record_id) + "\" data-open=\"" + esc(d.record_id) + "\">" + esc(d.record_id) + "</a> " + esc(r.short_title || "") +
           "</td><td>" + esc(d.term) + "</td><td>" + esc(d.definition) +
           (d.english ? ' <span class="muted">(English' + (d.english_by === "issuer" ? " by the issuer" : ", the agent's rendering") + ": " + esc(d.english) + ")</span>" : "") +
-          (d.text_layer ? ' <span class="muted">(quoted from the OCR text of a scan; a letter or a diacritic can differ from the print)</span>' : "") +
+          (d.text_layer ? ' <span class="muted">(quoted from the OCR text of a scan; a letter or a diacritic can differ from the print)</span>' : "") + (d.source_changed ? ' <span class="muted">(the stored source changed after this was quoted; a compare run will quote it again)</span>' : "") +
           "</td><td>" + esc(d.locator) + "</td><td class=\"closest\">" +
           (c ? '<a href="#' + esc(c.d.record_id) + '" data-open="' + esc(c.d.record_id) + '">' + esc(c.d.record_id) + "</a> " + Math.round(100 * c.s) + "%" +
             (d.english || c.d.english ? ' <span class="muted">in English</span>' : "") : '<span class="muted">—</span>') + "</td></tr>";
@@ -558,6 +558,8 @@
       case "human-checked": return "Checked by a human: " + s(e.new);
       case "scope-decision": return "Scope decision: " + s(e.new);
       case "source-changed": return "A stored source changed";
+      case "definition-added": return "Defined term quoted: " + s(e.field);
+      case "definition-changed": return e.field + ": " + s(e.old) + " → " + s(e.new);
       default: return e.event;
     }
   }
@@ -610,7 +612,7 @@
       (questionsOf(r).length ? '<div class="sec"><h3>Open question</h3>' + questionsOf(r).map(function (q) { return "<p>" + esc(q.why) + " " + (q.url ? '<a href="' + esc(q.url) + '" target="_blank" rel="noopener">Issue #' + esc(q.issue) + "</a>" : "(not filed yet)") + "</p>"; }).join("") + '<p class="muted">The record shows its last checked values until a maintainer decides; the decision is recorded in its history.</p></div>' : "") +
       (definitionsOf(r).length ? '<div class="sec"><h3>Defined terms</h3>' + definitionsOf(r).map(function (d) {
         return '<p class="def"><strong>' + esc(d.term) + "</strong> (" + esc(d.locator) + "): " + esc(d.definition) +
-          (d.english ? ' <span class="muted">English' + (d.english_by === "issuer" ? " by the issuer" : ", the agent's rendering") + ": " + esc(d.english) + "</span>" : "") + (d.text_layer ? ' <span class="muted">(quoted from the OCR text of a scan; a letter or a diacritic can differ from the print)</span>' : "") + "</p>";
+          (d.english ? ' <span class="muted">English' + (d.english_by === "issuer" ? " by the issuer" : ", the agent's rendering") + ": " + esc(d.english) + "</span>" : "") + (d.text_layer ? ' <span class="muted">(quoted from the OCR text of a scan; a letter or a diacritic can differ from the print)</span>' : "") + (d.source_changed ? ' <span class="muted">(the stored source changed after this was quoted; a compare run will quote it again)</span>' : "") + "</p>";
       }).join("") + '<p class="muted">Quoted verbatim from the stored source. <a href="#compare" data-tab="compare">Compare with other instruments</a>.</p></div>' : "") +
       (r.notes ? '<div class="sec"><h3>Status notes</h3><p>' + esc(r.notes) + "</p></div>" : "") +
       '<div class="sec"><h3>Sources</h3><div class="sources">' + srcs + "</div></div>" +

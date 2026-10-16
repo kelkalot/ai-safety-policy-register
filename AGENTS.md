@@ -1,5 +1,7 @@
 # AGENTS.md
 
+> **Start here.** Run `python3 tools/pipeline.py menu`. It lists the work that is ready now, each item with the command that starts it, and the decisions that only people make. Pick one item; one run per session. A run does only the steps `pipeline.py new` prints for it (they are also in its `run.json`), and `pipeline/flow.md` shows how the parts fit together.
+
 Instructions for people and AI agents who work on this repository. Read it before changing anything. It says how the data is made, what its limits are, and how to extend or re-check it with the same method. Claude Code and Codex both read this file automatically when they are started in the repository; section 8 says how to run the pipeline with either of them.
 
 ## 1. What this is and how the data is made
@@ -56,14 +58,15 @@ If a tool fails or seems to be missing, an agent stops and says so; it does not 
 | `tools/pipeline.py` | the run scripts (below); `tools/history.py` shows or checks the history |
 | `tools/validate.py`, `tools/build.py` | schema and vocabulary checks; `build.py` runs them, then regenerates every derived file |
 | `tools/archive.py` | downloads, hashes and flags sources; `--verify` re-hashes every stored file; `--run` stores a run's sources (public sites only) |
-| `tools/definitions.py`, `data/definitions.json` | the definitions layer of the crosswalk (issue #70): defined terms quoted verbatim from records' stored sources, checked against the files and compared between two extractions |
+| `tools/definitions.py`, `data/definitions.json` | the definitions layer of the crosswalk (issue #70): defined terms quoted verbatim from records' stored sources, checked against the files, compared between two extractions and accepted by a checker; the scripts of a compare run (section 5.7) |
 | `tools/merge.py` | merges a pass into `records.json` with checks and writes the history |
 | `tools/package.py`, `tools/publish_hf.py` | the shareable zip, and the Hugging Face dataset, archive and Space; never run by a pipeline agent, and a release only with a human's confirmation (section 8) |
 | `index.html`, `assets/` | the web app; `assets/site-config.js` says where it is hosted |
 | `examples/analysis.py`, `docs/` | an example analysis from the SQLite file; the quality-check reports |
 
 ```bash
-python3 tools/pipeline.py new --type discover --scope "codes:DK,FI,IS,NO,SE"   # create runs/<run-id>/
+python3 tools/pipeline.py menu                       # what is ready to run now, and what only people decide
+python3 tools/pipeline.py new --type discover --scope "codes:DK,FI,IS,NO,SE"   # create runs/<run-id>/; prints its steps
 python3 tools/pipeline.py status --run <run-id>      # what each stage has produced; use it to resume
 python3 tools/pipeline.py stage --run <run-id> --stage extract --tool "Claude Code" --model <model>
 python3 tools/pipeline.py dedupe --run <run-id>      # number candidates, drop duplicates, update the frame
@@ -78,6 +81,8 @@ python3 tools/pipeline.py report --run <run-id>      # write runs/<run-id>/repor
 python3 tools/pipeline.py log-human --run <run-id> --id <ID> --result ok --note "..." --by <name>
 python3 tools/pipeline.py log-scope --id <ID> --decision in --note "..." --by <name>
 python3 tools/pipeline.py queue                      # records due for a refresh run (section 6)
+python3 tools/pipeline.py new --type compare         # a compare run on the top of the comparison queue (section 5.7)
+python3 tools/definitions.py queue                   # records due for a compare run, and why
 python3 tools/pipeline.py frame --due | --report     # cells due for a search; the coverage table
 python3 tools/pipeline.py hosts [--pending]          # the curated list of official sites (section 7.6)
 python3 tools/pipeline.py questions [--sync] [--apply] # open questions as GitHub issues, and maintainers' decisions (section 7.7)
@@ -93,7 +98,7 @@ python3 tools/archive.py --verify                    # re-hash every stored file
 
 Not part of a pipeline run: `python3 tools/package.py` (the zip in `dist/`, human only) and `python3 tools/publish_hf.py --release` (Hugging Face; README section 9), which an agent may run only when a maintainer asks and confirms it.
 
-Scopes: a discover run selects frame cells with `codes:FI,SE`, `region:Europe`, `level:Sub-national`, `types:legislature,gazette`, `due` and `all`, combined with spaces (quote values with spaces: `region:"Sub-Saharan Africa"`). A refresh or recheck run selects records with `ids:EU-03,US-09`, `codes:`, `region:`, `level:` or `all`; a refresh run without a scope takes the top of the queue.
+Scopes: a discover run selects frame cells with `codes:FI,SE`, `region:Europe`, `level:Sub-national`, `types:legislature,gazette`, `due` and `all`, combined with spaces (quote values with spaces: `region:"Sub-Saharan Africa"`). A refresh or recheck run selects records with `ids:EU-03,US-09`, `codes:`, `region:`, `level:` or `all`; a refresh run without a scope takes the top of the queue. Selectors combine, so `region:Europe types:legislature` is a run-sized part of a region; a scope larger than one run (section 8) is refused.
 
 Python 3.8 or later and the standard library are enough for the core; `pypdf` reads PDFs, `playwright` gives the browser retry, and `tesseract` reads scanned PDFs.
 
@@ -124,7 +129,9 @@ Python 3.8 or later and the standard library are enough for the core; `pypdf` re
                                        ASSEMBLE + MERGE (scripts) ──▶ records.json, history.jsonl, report.md
 ```
 
-A run has a type. **discover** searches frame cells for instruments not yet in the register. **refresh** re-extracts and re-checks records from the queue (section 6). **recheck** refreshes every record; it is the only run that may change `meta.snapshot_date`.
+A run has a type. **discover** searches frame cells for instruments not yet in the register. **refresh** re-extracts and re-checks records from the queue (section 6). **recheck** refreshes every record; it is the only run that may change `meta.snapshot_date`. **compare** builds the comparison tables from the records' stored texts and never changes a record (section 5.7).
+
+What a run kicks off is fixed by its type. `pipeline.py new` writes the run's steps into `run.json` and prints them: each step, who runs it (a script, or an agent following a role file) and what it writes. `pipeline.py status` marks the steps that are done. Agents work through the steps of their run and nothing else; anything they notice outside it goes into the run's `leads`, `open_questions` or report.
 
 What is fixed and what is left to the agents:
 
@@ -202,6 +209,16 @@ Then a checker agent in a fresh context, ideally another model or tool than the 
 | `notes` | status details, phased dates, discrepancies between sources, later instruments; plain prose about the instrument |
 | `scope_note` | absent for an instrument clearly in scope; for a borderline one, one or two sentences on why it is borderline and why it is included. The app shows it as a badge and a Scope filter |
 | `verification.note` | what was stored and what it confirmed, and everything that rests on secondary sources or could not be confirmed |
+
+### 5.7 Compare runs → `pipeline/roles/compare.md`
+
+The crosswalk (issue #70) compares instruments: first their definitions (`data/definitions.json`), later their requirements and a mapping between them. That work runs separately from finding and adding instruments, so a discover or refresh run never waits for it and a compare run never changes a record.
+
+- **Start:** `pipeline.py new --type compare` takes the top of the comparison queue (5 records unless `--limit` says otherwise), or the records in `--scope "ids:..."`. It writes `run.json` with the steps and `plan.json` with the records and term groups.
+- **Steps:** textify the records' stored files; an extractor and, in a fresh context, a blind extractor quote each defined term verbatim; `definitions.py check` matches every quote and hash; `definitions.py compare` pairs the two extractions; a checker accepts or rejects each agreed definition and flags term groups for a human; `definitions.py merge` adds what both extractions agree on, the check passes and the checker accepts; `build.py`; `definitions.py report`; one commit on `run/<run-id>`.
+- **Queue:** `definitions.py queue` lists, most urgent first, records with a definition whose stored file or hash is no longer current, records whose stored files changed since they were compared, and records with stored text that were never compared. `data/definitions.json` keeps, under `compared`, the files each record was compared against.
+- **Updates:** when a refresh or the archiver replaces a record's source, its definitions stay and the app, the CSV and the Hugging Face table mark them `source_changed` until a compare run quotes them again. A definition keeps its ID; `merge` logs `definition-added`, `definition-changed` (old and new wording) and `re-verified` (same wording, new file) in `data/history.jsonl`. Nothing is deleted.
+- **Report:** agreement between the two extractions, checker acceptance, term-group assignments for a human, the effort per record when `pipeline.py stage --tokens` recorded it, and what was not found. Similar wording is not legal equivalence; the app and the report say so.
 
 ## 6. Refresh runs and the update loop
 
@@ -295,15 +312,16 @@ The same skills exist in both tools; each is a pointer to a file in `pipeline/ro
 |---|---|---|
 | a whole discover run | `/run-pipeline discover Nordic countries` | `$run-pipeline discover Nordic countries` |
 | a refresh run from the queue | `/run-pipeline refresh` | `$run-pipeline refresh` |
+| a compare run from the comparison queue | `/run-pipeline compare` | `$run-pipeline compare` |
 | one stage of an existing run | `/collect <run-id>`, `/extract <run-id>`, `/check <run-id>` | `$collect`, `$extract`, `$check` with the run ID |
 
-For a cross-tool check, run everything up to extraction in one tool, then open the other tool in the same folder and run its check skill on the run ID. Collectors and extractors can run in parallel as subagents, because each writes only its own files and IDs are assigned at merge. Subscriptions have usage limits; split a recheck of the whole register into runs by region.
+For a cross-tool check, run everything up to extraction in one tool, then open the other tool in the same folder and run its check skill on the run ID. Collectors and extractors can run in parallel as subagents, because each writes only its own files and IDs are assigned at merge. Subscriptions have usage limits, so one run takes at most 120 frame cells or 40 records (15 for a compare run); `new` refuses more unless a person adds `--large`. Split a recheck of the whole register into runs of that size.
 
 ## 9. History
 
 Git keeps every version of `data/records.json`, but a diff of one large JSON file does not tell a reader what changed in a record, why, or on what evidence, and it does not show checks that changed nothing. So the register keeps its own history, and git remains the tamper-evident layer under it.
 
-- `data/history.jsonl`: append-only, written only by `tools/merge.py` and by `tools/pipeline.py log-human`, `log-scope` and `questions --apply`. One line per event: `{"date", "run_id", "record_id", "event", "field", "old", "new", "reason", "evidence", "tool", "model"}`, where `event` is `added`, `changed`, `re-verified`, `source-changed`, `human-checked`, `scope-decision` or `human-decision`. Lines are never edited or deleted; a correction is a new event.
+- `data/history.jsonl`: append-only, written only by `tools/merge.py`, by `tools/pipeline.py log-human`, `log-scope` and `questions --apply`, and by `tools/definitions.py merge` for compare runs. One line per event: `{"date", "run_id", "record_id", "event", "field", "old", "new", "reason", "evidence", "tool", "model"}`, where `event` is `added`, `changed`, `re-verified`, `source-changed`, `human-checked`, `scope-decision`, `human-decision`, `definition-added` or `definition-changed`. Lines are never edited or deleted; a correction is a new event.
 - `runs/<run-id>/report.md`: the account of each run for humans: what was added, changed and confirmed, what was not found, the agreement table, the human sample and the open questions.
 - `HISTORY.md` and the History section on each record page in the app are generated from it by `tools/build.py`, and `tools/publish_hf.py` publishes it as the `history` configuration on Hugging Face. `python3 tools/history.py <ID>` prints one record's history.
 - Each run is one commit, with the message `run <run-id>: N added, M changed, K re-verified`.

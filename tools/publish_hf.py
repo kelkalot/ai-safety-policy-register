@@ -172,7 +172,7 @@ def schemas():
         "related": pa.schema([("record_id", s), ("related_id", s)]),
         "definitions": pa.schema([("id", s), ("record_id", s), ("term", s), ("term_group", s), ("definition", s),
                                   ("english", s), ("english_by", s), ("language", s), ("locator", s), ("text_layer", s),
-                                  ("file", s), ("sha256", s), ("run_id", s)]),
+                                  ("source_changed", pa.bool_()), ("file", s), ("sha256", s), ("run_id", s)]),
         "history": pa.schema([("date", s), ("run_id", s), ("record_id", s), ("event", s), ("field", s), ("old", s),
                               ("new", s), ("reason", s), ("evidence", s), ("tool", s), ("model", s)]),
         "source_files": pa.schema([("record_id", s), ("role", s), ("path", s), ("url", s), ("final_url", s), ("host", s),
@@ -494,8 +494,7 @@ def build_all(out, ns, name, github_url, changes_md=""):
     st["n_topics"], st["n_related"] = len(topics), len(related)
     st["changes_md"] = changes_md
     st["n_history"] = len(history.load())
-    defs = (json.loads((ROOT / "data" / "definitions.json").read_text(encoding="utf-8")).get("definitions") or []
-            if (ROOT / "data" / "definitions.json").is_file() else [])
+    defs = build.definitions_table(db)
     st["n_definitions"] = len(defs)
     st["n_open_questions"] = len(build.open_questions())
     if out.exists():

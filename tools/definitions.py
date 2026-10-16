@@ -7,6 +7,18 @@ records, checked by script and compared between two independent extractions.
     python3 tools/definitions.py compare --run RUN   # agreement between the two extractions
     python3 tools/definitions.py merge   --run RUN   # add the checked definitions to data/definitions.json
     python3 tools/definitions.py report  --run RUN   # RUN/report.md with the definitions side by side
+    python3 tools/definitions.py queue               # records due for a compare run, and why
+
+A compare run is created with `python3 tools/pipeline.py new --type compare`, which writes RUN/run.json (the steps
+and who runs each) and RUN/plan.json; `pipeline.py status --run RUN` shows which steps are done. Its checker writes
+RUN/checks/<RECORD>.json: {"record_id": "EU-03", "definitions": [{"term_group": "AI system", "verdict": "accept |
+reject", "reason": "...", "group_ok": true}], "missed": [{"term_group": "...", "note": "..."}]}, and merge takes only
+definitions both extractions agree on, the script check passes and the checker accepts. Runs made before compare
+runs existed have no run.json and no checker.
+
+data/definitions.json keeps, besides the definitions, "compared": {RECORD: {"run_id", "date", "files": {path:
+sha256}}}, the stored files each record was last compared against. A definition keeps its ID when a later run
+quotes it again; a changed text is logged in data/history.jsonl (definition-added, definition-changed).
 
 RUN/plan.json: {"records": ["EU-03", ...], "term_groups": ["AI system", "model"],
                 "ocr_lang": {"VN-02": "vie+eng"}}   # optional: the OCR language of a record's scans (default --ocr-lang)
@@ -32,6 +44,9 @@ DEFS = ROOT / "data" / "definitions.json"
 TERM_GROUPS = ["AI system", "artificial intelligence", "model", "AI model", "general-purpose AI model",
                "automated decision system", "generative AI", "high-risk AI system", "frontier model", "foundation model",
                "provider", "deployer"]
+# the groups a compare run looks for; "provider" and "deployer" are parked (issue #70 tracker)
+DEFAULT_GROUPS = ["AI system", "artificial intelligence", "AI model", "model", "high-risk AI system", "frontier model",
+                  "foundation model", "generative AI", "general-purpose AI model", "automated decision system"]
 MAX_QUOTE = 1200  # a definition is the data itself, so it may be longer than an evidence quote
 LINE_NO = re.compile(r"(?m)^[ \t]*\d{1,4}[ \t]+")  # margin line numbers of a printed bill
 
@@ -53,6 +68,56 @@ def record_files(db, rid):
             if path and (ROOT / path).is_file():
                 out[path] = digest
     return out
+
+
+def current_files(rec):
+    """path -> sha256 of the record's current stored files (not stale, still on disk)."""
+    return {f["path"]: f.get("sha256") for f in (rec.get("local_copy") or {}).get("files") or []
+            if f.get("path") and not f.get("stale") and (ROOT / f["path"]).is_file()}
+
+
+def source_changed(db, items):
+    """IDs of definitions whose file and SHA-256 are no longer a current stored file of their record."""
+    by = {r["id"]: r for r in db["records"]}
+    return {x["id"] for x in items
+            if current_files(by.get(x["record_id"]) or {}).get(x.get("file")) != x.get("sha256")}
+
+
+def compare_queue(db, reg=None):
+    """[(record_id, [reasons])] due for a compare run, most urgent first: a definition whose source changed, a
+    record whose stored files changed since it was compared, then records never compared that have stored text."""
+    reg = reg if reg is not None else (P.read_json(DEFS, {}) or {})
+    items, seen = reg.get("definitions") or [], reg.get("compared") or {}
+    changed = source_changed(db, items)
+    out = []
+    for r in db["records"]:
+        rid, cur = r["id"], current_files(r)
+        if not cur:
+            continue
+        stale = sorted(x["id"] for x in items if x["record_id"] == rid and x["id"] in changed)
+        if stale:
+            out.append((0, rid, ["the source of %s changed after it was quoted" % ", ".join(stale)]))
+        elif rid in seen and any((seen[rid].get("files") or {}).get(f) != h for f, h in cur.items()):
+            # a current file the run did not read, or read with another hash
+            out.append((1, rid, ["stored files changed since run %s" % seen[rid].get("run_id")]))
+        elif rid not in seen:
+            out.append((2 if r.get("legal_force") == "Binding" else 3, rid, ["not compared yet"]))
+    out.sort(key=lambda t: (t[0], t[1]))
+    return [(rid, why) for _, rid, why in out]
+
+
+def cmd_queue(args):
+    db = P.load_db()
+    due = compare_queue(db)
+    for rid, why in due[:args.limit]:
+        print("%-12s %s" % (rid, "; ".join(why)))
+    kinds = {}
+    for _, why in due:
+        k = "never compared" if why == ["not compared yet"] else "changed"
+        kinds[k] = kinds.get(k, 0) + 1
+    print("%d record(s) due (%s). Start a run: python3 tools/pipeline.py new --type compare [--limit N]"
+          % (len(due), ", ".join("%d %s" % (n, k) for k, n in sorted(kinds.items())) or "none"))
+    return 0
 
 
 def text_path(d, path):
@@ -172,33 +237,96 @@ def cmd_compare(args):
     return 0
 
 
+def checker_verdicts(d):
+    """{(record_id, term_group): verdict} from RUN/checks/, or None when the run has no checker step."""
+    run = P.read_json(d / "run.json", {}) or {}
+    if run.get("type") != "compare":
+        return None  # a run made before compare runs existed
+    out = {}
+    for rid, ch in load_extractions(d, "checks").items():
+        for v in ch.get("definitions") or []:
+            out[(rid, v.get("term_group"))] = v
+    return out
+
+
 def cmd_merge(args):
+    import history as H  # noqa: E402  (same folder)
     d, plan = run_dir(args.run)
+    run = P.read_json(d / "run.json", {}) or {}
+    stage = (run.get("stages") or {}).get("extract") or {}
     check = P.read_json(d / "check.json", {}) or {}
     agreed = {(r["record_id"], r["term_group"]) for r in (P.read_json(d / "agreement.json", {}) or {}).get("rows") or []
               if r.get("text") == "same"}
+    verdicts = checker_verdicts(d)
+    if verdicts is not None and not verdicts:
+        raise SystemExit("No checker verdicts in runs/%s/checks/: the checker step comes before merge" % args.run)
     reg = P.read_json(DEFS, {}) or {}
     reg.setdefault("about", "Defined terms quoted verbatim from the stored sources of records (issue #70), checked by "
                             "tools/definitions.py. Similar definitions are not legally equivalent; nothing here is "
                             "legal advice.")
     items = reg.setdefault("definitions", [])
-    ocr = {t["file"]: t["method"] for t in (P.read_json(d / "texts.json", {}) or {}).get("files") or [] if t.get("method")}
-    have = {(x["record_id"], x["term_group"]) for x in items}
+    by_key = {(x["record_id"], x["term_group"]): x for x in items}
     n = max([int(x["id"][1:]) for x in items] + [0])
-    added = 0
+    ocr = {t["file"]: t["method"] for t in (P.read_json(d / "texts.json", {}) or {}).get("files") or [] if t.get("method")}
+    fields = ("term", "term_group", "definition", "english", "english_by", "language", "locator", "file", "sha256")
+    events, added, changed, confirmed, held = [], 0, 0, 0, 0
+    ev = lambda rid, kind, field, old, new, why: events.append(H.event(  # noqa: E731
+        rid, kind, run_id=args.run, field=field, old=old, new=new, reason=why, tool=stage.get("tool"),
+        model=stage.get("model")))
     for rid, ex in load_extractions(d, "definitions").items():
         oks = {c["index"] for c in (check.get("definitions") or {}).get(rid) or [] if c["ok"]}
         for i, item in enumerate(ex.get("definitions") or []):
-            if i not in oks or (rid, item["term_group"]) in have or (rid, item["term_group"]) not in agreed:
+            key = (rid, item.get("term_group"))
+            if i not in oks or key not in agreed:
                 continue
-            n += 1
-            items.append(dict({"id": "D%04d" % n, "record_id": rid}, **{k: item.get(k) for k in (
-                "term", "term_group", "definition", "english", "english_by", "language", "locator", "file", "sha256")},
-                **dict({"text_layer": ocr[item.get("file")]} if item.get("file") in ocr else {}, run_id=args.run)))
-            added += 1
+            if verdicts is not None and (verdicts.get(key) or {}).get("verdict") != "accept":
+                held += 1
+                continue
+            new = dict({k: item.get(k) for k in fields}, **({"text_layer": ocr[item["file"]]} if item.get("file") in ocr else {}))
+            old = by_key.get(key)
+            if old is None:
+                n += 1
+                row = dict({"id": "D%04d" % n, "record_id": rid}, **new, run_id=args.run)
+                items.append(row)
+                by_key[key] = row
+                added += 1
+                ev(rid, "definition-added", "definition %s (%s)" % (row["id"], key[1]), None, new["definition"],
+                   "quoted alike by two extractions and checked against %s" % new["file"])
+            elif old.get("run_id") == args.run:
+                continue  # merged before from this run
+            elif P.loose(old.get("definition")) == P.loose(new["definition"]):
+                if (old.get("file"), old.get("sha256")) != (new["file"], new["sha256"]):
+                    old.update({k: new[k] for k in ("file", "sha256", "locator")}, run_id=args.run)
+                    old.pop("text_layer", None)
+                    old.update({k: v for k, v in new.items() if k == "text_layer"})
+                    confirmed += 1
+                    ev(rid, "re-verified", "definition %s (%s)" % (old["id"], key[1]), None, None,
+                       "the same wording quoted again from %s" % new["file"])
+            else:
+                text_before = old.get("definition")
+                for k in list(old):
+                    if k not in ("id", "record_id"):
+                        old.pop(k)
+                old.update(new, run_id=args.run)
+                changed += 1
+                ev(rid, "definition-changed", "definition %s (%s)" % (old["id"], key[1]), text_before, new["definition"],
+                   "quoted again from %s" % new["file"])
+    db = P.load_db()
+    by = {r["id"]: r for r in db["records"]}
+    seen = reg.setdefault("compared", {})
+    files = {}
+    for t in (P.read_json(d / "texts.json", {}) or {}).get("files") or []:
+        files.setdefault(t["record_id"], {})[t["file"]] = t["sha256"]
+    for rid in plan["records"]:
+        if rid in by:  # the stored files this run compared; the queue looks for changes against them
+            seen[rid] = {"run_id": args.run, "date": args.run[:10], "files": files.get(rid) or {}}
+    reg["compared"] = dict(sorted(seen.items()))
     if not args.dry_run:
         P.write_json(DEFS, reg)
-    print("%d definition(s) added to data/definitions.json%s" % (added, " (dry run)" if args.dry_run else ""))
+        H.append(events)
+    print("%d added, %d changed, %d re-verified%s in data/definitions.json%s" % (
+        added, changed, confirmed, (", %d held back by the checker" % held) if held else "",
+        " (dry run)" if args.dry_run else ""))
     return 0
 
 
@@ -215,6 +343,31 @@ def cmd_report(args):
          "equivalent; nothing here is legal advice." % len(plan["records"]), "",
          "**Repeatability:** %s of %s pairs from two independent extractions quote the same definition, %s the same "
          "locator." % (agr.get("same_definition"), agr.get("pairs"), agr.get("same_locator")), ""]
+    verdicts = checker_verdicts(d)
+    if verdicts is not None:
+        agreed = [(r["record_id"], r["term_group"]) for r in agr.get("rows") or [] if r.get("text") == "same"]
+        acc = [k for k in agreed if (verdicts.get(k) or {}).get("verdict") == "accept"]
+        groups = [(k, v) for k, v in sorted(verdicts.items()) if v.get("group_ok") is False]
+        L += ["**Checker:** accepted %d of %d definitions both extractions agree on. Term-group assignments for a "
+              "human: %d." % (len(acc), len(agreed), len(groups)), ""]
+        L += ["- %s, %s: rejected (%s)" % (k[0], k[1], (verdicts.get(k) or {}).get("reason") or "no verdict")
+              for k in agreed if k not in acc]
+        L += ["- %s, %s: term group for a human (%s)" % (k[0], k[1], v.get("reason") or "") for k, v in groups]
+        missed = [(rid, m) for rid, ch in load_extractions(d, "checks").items() for m in ch.get("missed") or []]
+        L += ["- %s: the checker found a definition both extractions missed: %s (%s)" % (rid, m.get("term_group"),
+                                                                                        m.get("note") or "")
+              for rid, m in missed]
+        L += [""] if (len(acc) < len(agreed) or groups or missed) else []
+    run = P.read_json(d / "run.json", {}) or {}
+    tokens = [((run.get("stages") or {}).get(s) or {}).get("tokens") for s in ("extract", "blind", "check")]
+    if any(tokens):
+        L += ["**Effort:** about %s tokens per record for extraction, blind extraction and check together (%s)."
+              % (format(sum(t or 0 for t in tokens) // max(len(plan["records"]), 1), ","),
+                 ", ".join("%s %s" % (s, format(t, ",")) for s, t in zip(("extract", "blind", "check"), tokens) if t)), ""]
+    earlier = [x for x in reg.get("definitions") or [] if x["record_id"] in set(plan["records"]) and x.get("run_id") != args.run]
+    if earlier and run.get("type") == "compare":
+        L += ["**Earlier definitions not quoted again in this run** (they stay as they are; the app marks one whose "
+              "source changed): %s." % ", ".join("%s (%s, %s)" % (x["id"], x["record_id"], x["term_group"]) for x in earlier), ""]
     scans = sorted({(x["record_id"], x["text_layer"]) for x in mine if x.get("text_layer")})
     if scans:
         L += ["**Text from OCR:** %s. These quotes are verbatim from the OCR text of a scan, which can differ from the "
@@ -251,6 +404,8 @@ def cmd_report(args):
 def main(argv=None):
     ap = argparse.ArgumentParser(description="Definitions layer of the crosswalk (issue #70).")
     sub = ap.add_subparsers(dest="cmd")
+    q = sub.add_parser("queue")
+    q.add_argument("--limit", type=int, default=30)
     for name in ("textify", "check", "compare", "merge", "report"):
         s = sub.add_parser(name)
         s.add_argument("--run", required=True)
@@ -263,7 +418,7 @@ def main(argv=None):
         ap.print_help()
         return 1
     return {"textify": cmd_textify, "check": cmd_check, "compare": cmd_compare, "merge": cmd_merge,
-            "report": cmd_report}[args.cmd](args)
+            "report": cmd_report, "queue": cmd_queue}[args.cmd](args)
 
 
 if __name__ == "__main__":

@@ -8,7 +8,9 @@ One JSON object per line, appended and never rewritten:
    "reason": "...", "evidence": [{"file", "sha256", "locator", "quote"}], "tool": "...", "model": "..."}
 
 event is one of EVENTS. Only tools write this file: tools/merge.py for added, changed and
-re-verified records, and tools/pipeline.py for human checks and scope decisions. Agents never
+re-verified records, tools/pipeline.py for human checks and scope decisions, and
+tools/definitions.py merge for the definitions of a compare run (definition-added,
+definition-changed, and re-verified when the same wording is quoted again). Agents never
 edit it. A correction is a new event, never an edited line.
 
     python3 tools/history.py ID        # print the history of one record
@@ -24,7 +26,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 HISTORY = ROOT / "data" / "history.jsonl"
-EVENTS = ["added", "changed", "re-verified", "source-changed", "human-checked", "scope-decision", "human-decision"]
+EVENTS = ["added", "changed", "re-verified", "source-changed", "human-checked", "scope-decision", "human-decision",
+          "definition-added", "definition-changed"]
 KEYS = ["date", "run_id", "record_id", "event", "field", "old", "new", "reason", "evidence", "tool", "model"]
 
 
@@ -109,6 +112,10 @@ def describe(e):
         return "decided by a human: %s" % short(e.get("new"), 70)
     if k == "source-changed":
         return "source changed: %s" % short(e.get("field") or e.get("new"), 70)
+    if k == "definition-added":
+        return "%s quoted: %s" % (e.get("field"), short(e.get("new"), 60))
+    if k == "definition-changed":
+        return "%s: %s → %s" % (e.get("field"), short(e.get("old"), 50), short(e.get("new"), 50))
     return k
 
 
