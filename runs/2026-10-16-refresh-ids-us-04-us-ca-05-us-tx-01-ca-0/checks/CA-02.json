@@ -1,0 +1,55 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-16",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "cand_id": "CA-02",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Section 41 of AIDA: provisions in force on a day or days fixed by order of the Governor in Council",
+   "verdict": "supported",
+   "locator": "C-27 first reading PDF, Part 3 s. 41"
+  },
+  {
+   "claim": "Second reading and referral 24 Apr 2023 with Part 3 voted separately; committee consideration not completed",
+   "verdict": "supported",
+   "locator": "LEGISinfo page"
+  },
+  {
+   "claim": "Government bills without royal assent cease to exist on prorogation of 6 Jan 2025",
+   "verdict": "supported",
+   "locator": "Speaker's news release"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": "Lapsed government bill kept for context."
+ },
+ "overall": "accept",
+ "note": "All run-set fields are supported. The Speaker's release counts as secondary only because ourcommons.ca is not in official-sites.json (the extractor's open question); LEGISinfo carries the status on its own. The dropped topic 'general-purpose / frontier AI' is a judgment call. Bill C-36 is described as a privacy-only re-enactment and excluded. Search by the extractor basis stands; I saw no AIDA successor in the stored material."
+}

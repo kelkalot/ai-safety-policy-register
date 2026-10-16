@@ -1,0 +1,59 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-16",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "cand_id": "US-TX-01",
+ "fields": {
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "title": {
+   "verdict": "unsupported",
+   "why": "Value left as published. No stored text gives 'Texas Responsible Artificial Intelligence Governance Act'; the stored chapter heading is 'Artificial Intelligence Protection'. The run does not change the title."
+  },
+  "date_published": {
+   "verdict": "unsupported",
+   "why": "Value left as published (2025-06-22). No stored official text shows the signing date; bill history is blocked by robots.txt. The run does not change it."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Government social scoring ban and certain government biometric restrictions",
+   "verdict": "supported",
+   "locator": "Secs. 552.053, 552.054"
+  },
+  {
+   "claim": "Exclusive AG enforcement with a 60-day cure period and civil penalties",
+   "verdict": "supported",
+   "locator": "Secs. 552.101, 552.104, 552.105"
+  },
+  {
+   "claim": "Notes: penalty ranges $10,000-12,000, $80,000-200,000, $2,000-40,000 a day; state agency sanctions up to $100,000",
+   "verdict": "supported",
+   "locator": "Secs. 552.105(a), 552.106(b)"
+  },
+  {
+   "claim": "Disparate impact alone insufficient",
+   "verdict": "supported",
+   "locator": "Sec. 552.056(c)"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "The run changes only notes and the verification note, and every new claim in them matches Chapter 552 as stored (one nuance: the AG's exclusivity is subject to Sec. 552.106 agency sanctions). The title and date_published are unchanged published values with no stored support; they are open questions for a person to settle with the enrolled bill, not a reason to hold back the corrections. No 2026 amendment found by search. Level C as computed by the script (no evidence for title and date) is for assemble to apply."
+}

@@ -1,0 +1,103 @@
+{
+ "cand_id": "US-CA-05",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "US-CA-05",
+ "record": {
+  "summary": "California's frontier AI safety law. Large frontier developers must publish a frontier AI framework describing how they incorporate national and international standards and industry-consensus best practices, and must send the Office of Emergency Services summaries of their assessments of catastrophic risk from internal use of frontier models. The Office runs a mechanism for frontier developers and the public to report critical safety incidents. The Act protects whistleblowers who disclose significant risks posed by frontier models, creates a civil penalty enforced by the Attorney General, sets up the CalCompute consortium and has the Department of Technology recommend updates annually.",
+  "notes": "Signed 29 Sep 2025. Large frontier developers must send the Office of Emergency Services a summary of any assessment of catastrophic risk from internal use of their frontier models every three months or on another reasonable schedule they set (Business and Professions Code section 22757.12(d)); the Office runs a portal for these summaries and for critical safety incident reports. CalCompute is a consortium within the Government Operations Agency to develop a framework for a public computing cluster. The Governor's signing message says the Act provides a compliance pathway for the incident-reporting requirements if federal standards are adopted. Governor's EO N-9-26 (18 Sep 2026) seeks recommendations by 16 Nov 2026 on strengthening state law: independent verification of filings, onsite auditors, a 'kill switch', and loss-of-control incidents. The federal FRONTIER Act would preempt it.",
+  "verification": {
+   "note": "Stored: the Governor's release of 29 Sep 2025 (gov.ca.gov), which gives the title, the signing and the main provisions; the Governor's signing message of 29 Sep 2025 (a scan, read by OCR); and the Office of Emergency Services page for the Act's reporting portal (caloes.ca.gov), which quotes Business and Professions Code section 22757.12(d). leginfo.legislature.ca.gov refused automated downloads (HTTP 403, also in a browser), so the chaptered text, the chapter number and the operative date could not be stored. The effective date of 1 Jan 2026, the 10^26-operation compute threshold, the $500 million revenue threshold for large frontier developers, the duty to publish transparency reports for new models, the penalty cap of $1 million per violation and the incident-reporting deadlines (15 days, or 24 hours where there is imminent risk of death or serious injury) come from secondary sources and from the Assembly Privacy and Consumer Protection Committee's analysis of the bill as amended on 5 Sep 2025, not from the statute. Earlier notes cited a Fortune report of 14 Sep 2026 alleging that recent OpenAI releases may not comply; it rests on a press source only."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/US-CA-05/2026-10-16/official.html",
+    "sha256": "90850f8184638ba37f5d442570b59a63716b0385aea3be6cb2073396a6ec2d8a",
+    "locator": "news release, first paragraph",
+    "quote": "Governor Newsom today signed into law Senate Bill 53, the Transparency in Frontier Artificial Intelligence Act (TFAIA)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-CA-05/extra-9ba93a428b/2026-10-16/official.pdf",
+    "sha256": "e3a8cd758bc5be06704ef480b8544538ec0187c808fc91304264e66959dd71bb",
+    "locator": "page 1, first paragraph",
+    "quote": "signing Senate Bill 53, the Transparency in Frontier Artificial Intelligence Act",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/US-CA-05/2026-10-16/official.html",
+    "sha256": "90850f8184638ba37f5d442570b59a63716b0385aea3be6cb2073396a6ec2d8a",
+    "locator": "news release, dateline and headline",
+    "quote": "Sep 29, 2025 Governor Newsom signs SB 53, advancing California’s world-leading artificial intelligence industry",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-CA-05/extra-9ba93a428b/2026-10-16/official.pdf",
+    "sha256": "e3a8cd758bc5be06704ef480b8544538ec0187c808fc91304264e66959dd71bb",
+    "locator": "page 1, date stamp",
+    "quote": "OFFICE OF THE GOVERNOR SEP 29 2025 To the Members of the California State Senate:",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/US-CA-05/2026-10-16/official.html",
+    "sha256": "90850f8184638ba37f5d442570b59a63716b0385aea3be6cb2073396a6ec2d8a",
+    "locator": "news release, first paragraph",
+    "quote": "Governor Newsom today signed into law Senate Bill 53, the Transparency in Frontier Artificial Intelligence Act (TFAIA), authored by Senator Scott Wiener (D-San Francisco)",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/US-CA-05/2026-10-16/official.html",
+    "sha256": "90850f8184638ba37f5d442570b59a63716b0385aea3be6cb2073396a6ec2d8a",
+    "locator": "news release, 'What you need to know'",
+    "quote": "Governor Newsom today signed legislation further establishing California as a world leader in safe, secure, and trustworthy artificial intelligence, creating a new law",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-CA-05/extra-97a3f02eb0/2026-10-16/official.html",
+    "sha256": "a478a6f88e7c211a93552bc8bcc4d950e58e0f56814185c2191607bfdfb7238d",
+    "locator": "Transparency in Frontier AI Act Reporting",
+    "quote": "The above link will direct you to the Governor’s Office of Emergency Service’s reporting portal where members of the public and frontier developers can confidentially submit the following reports required under the Transparency in Frontier Artificial Intelligence Act.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-CA-05/extra-97a3f02eb0/2026-10-16/official.html",
+    "sha256": "a478a6f88e7c211a93552bc8bcc4d950e58e0f56814185c2191607bfdfb7238d",
+    "locator": "Transparency in Frontier AI Act Reporting",
+    "quote": "Business and Professions Code section 22757.12(d): A large frontier developer shall transmit to the Office of Emergency Services a summary of any assessment of catastrophic risk resulting from internal use of its frontier models every three months",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "rewritten so that every claim rests on a stored official text (the Governor's release and the Office of Emergency Services page); the duty to publish transparency reports for new models is dropped from the summary because no stored official text states it, and is recorded in verification.note",
+   "notes": "research remarks removed ('secondary source', 'Not amended as of verification', 'commentators named it'), the unsupported thresholds, penalty cap and incident deadlines moved to verification.note, and the quarterly catastrophic-risk summaries and the signing message's compliance pathway added from stored texts",
+   "verification.note": "rewritten: the earlier note repeated one sentence in nested brackets and relied on 'researcher knowledge'"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "issuing_body",
+   "legal_force",
+   "status"
+  ],
+  "status_reasoning": "The Office of Emergency Services page (stored 16 Oct 2026) runs a portal for 'reports required under the Transparency in Frontier Artificial Intelligence Act' and quotes the duty in Business and Professions Code section 22757.12(d), so the Act is enacted, codified and its reporting duties are operating: 'In force' stands. The date on which the duties began is not in any stored official text, because the chaptered bill on leginfo could not be stored; date_in_force 2026-01-01 stays as published but unconfirmed. The stored texts show no amendment."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "No official copy of the chaptered SB 53 text could be stored: leginfo.legislature.ca.gov refuses the archiver (HTTP 403, also in a browser), and no other official copy of the chaptered bill or the statute was found on another official site. date_in_force (2026-01-01), the chapter number (Chapter 138, Statutes of 2025 according to third-party trackers) for official_identifier, and the thresholds, penalty cap and incident deadlines in verification.note wait for a person to provide the chaptered bill from leginfo (AGENTS.md 7.8).",
+  "official_url (the Governor's release) and secondary_url (leginfo, which cannot be stored) stay as they are, so after the merge the record's local copy holds only the release; the signing message and the Office of Emergency Services page that support the status are stored only in this run's folder."
+ ]
+}

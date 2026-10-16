@@ -1,0 +1,50 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-16",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "cand_id": "US-CA-05",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "The Office of Emergency Services page runs the Act's reporting portal and cites B&P Code 22757.12(d); together with the 1 Jan 2026 date this supports 'In force' as of today, though no stored text states the effective date."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Framework describing incorporation of national and international standards and industry-consensus best practices",
+   "verdict": "supported",
+   "locator": "Governor's release, 'What the law does' (Transparency)"
+  },
+  {
+   "claim": "Whistleblower protection, civil penalty enforced by the Attorney General, CalCompute within the Government Operations Agency, Department of Technology annual update recommendations",
+   "verdict": "supported",
+   "locator": "Governor's release, 'What the law does'"
+  },
+  {
+   "claim": "Large frontier developers send OES a summary of catastrophic-risk assessments from internal use (B&P 22757.12(d))",
+   "verdict": "supported",
+   "locator": "OES page quote"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Fields the run sets are supported by the Governor's release, the signing message (OCR) and the OES page. date_in_force (2026-01-01, unchanged) has no stored official evidence because leginfo is blocked; the extractor's open question covers it and the run does not change it. The notes' sentences on EO N-9-26 and the FRONTIER Act are not in stored files but match records US-CA-09 and US-25. Search found no 2026 bill amending SB 53 (only a reported OpenAI request to strengthen it, secondary source)."
+}

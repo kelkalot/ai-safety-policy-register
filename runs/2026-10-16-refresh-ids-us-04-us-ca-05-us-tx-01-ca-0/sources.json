@@ -1,0 +1,1588 @@
+{
+ "US-04": {
+  "main": {
+   "status": "archived-review",
+   "flag": "The site returned a CAPTCHA or bot-check page.",
+   "last_attempt": "2026-10-16T15:53:53Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/US-04/2026-10-11/official-2.html",
+     "url": "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence",
+     "final_url": "https://unblock.federalregister.gov/",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 10596,
+     "sha256": "51b1d8ae4a87fc44e7c5940df002368527b4137723a40677248ceb9a981bc79a",
+     "retrieved_at": "2026-10-11T14:07:58Z",
+     "last_checked": "2026-10-16T15:53:56Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": "843e25d9cdf966250094d2ac6f76ba57cbae4c8e4586afe7bac6efd0971e68c8",
+     "previous_path": "archive/US-04/2026-10-11/official.html",
+     "stale": false,
+     "warning": "The site returned a CAPTCHA or bot-check page",
+     "integrity": "ok",
+     "text_sha256": "b8a13da65fb2828b3da9e54d93bc40dfa6f054c31a9e7486e3b3d2b58d64241c"
+    },
+    {
+     "role_key": "official-rendered",
+     "role": "official-rendered",
+     "label": "Official source, rendered in a browser",
+     "path": "archive/US-04/2026-10-16/official-rendered.html",
+     "url": "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence",
+     "final_url": "https://unblock.federalregister.gov/",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 13949,
+     "sha256": "2c2cbe4f9fc44750b42e31eb845ceaaf05501f1067517d585a508fe035d21522",
+     "text_sha256": "8f9b5753fa055d05cca8c5a86a6bd1de9e8c8fae71034e6761fdb7ad22b6e0fa",
+     "retrieved_at": "2026-10-16T15:54:19Z",
+     "last_checked": "2026-10-16T15:54:19Z",
+     "method": "browser",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": "The site returned a CAPTCHA or bot-check page",
+     "integrity": "ok"
+    },
+    {
+     "role_key": "official-print",
+     "role": "official-print",
+     "label": "Official source, printed to PDF by a browser",
+     "path": "archive/US-04/2026-10-16/official-print.pdf",
+     "url": "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence",
+     "final_url": "https://unblock.federalregister.gov/",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 204866,
+     "sha256": "d49d2ff62b73c9f693a9c6b4ad5dc6ab2a42694444f11418c345b928f2c247a8",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-16T15:54:19Z",
+     "last_checked": "2026-10-16T15:54:19Z",
+     "method": "browser",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence",
+     "attempted_at": "2026-10-11T14:03:44Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence",
+     "attempted_at": "2026-10-11T14:07:58Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official-rendered",
+     "url": "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence",
+     "attempted_at": "2026-10-11T14:13:12Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "browser"
+    },
+    {
+     "role": "official",
+     "url": "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence",
+     "attempted_at": "2026-10-11T15:28:43Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence",
+     "attempted_at": "2026-10-16T15:53:56Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official-rendered",
+     "url": "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence",
+     "attempted_at": "2026-10-16T15:54:19Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "browser"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.govinfo.gov/content/pkg/FR-2023-11-01/pdf/2023-24283.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T16:16:20Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-24a27fbd15/2026-10-16/official.pdf",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2023-11-01/pdf/2023-24283.pdf",
+      "final_url": "https://www.govinfo.gov/content/pkg/FR-2023-11-01/pdf/2023-24283.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 437813,
+      "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T16:16:23Z",
+      "last_checked": "2026-10-16T16:16:23Z",
+      "method": "http",
+      "last_modified": "Mon, 22 Sep 2025 22:40:19 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2023-11-01/pdf/2023-24283.pdf",
+      "attempted_at": "2026-10-16T16:16:23Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://govinfo.gov/content/pkg/FR-2025-01-28/html/2025-01901.htm": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T16:16:20Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-5b4c27c439/2026-10-16/official.html",
+      "url": "https://govinfo.gov/content/pkg/FR-2025-01-28/html/2025-01901.htm",
+      "final_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-28/html/2025-01901.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 20222,
+      "sha256": "ab3e74a704e5b49fa8eac7a1a268060c96c177deeb55e4b0148ae5828bc5236c",
+      "text_sha256": "1d7625f4af3786f904d377dfbd8eddcaa9b6807189103f849fda3c58a2220b07",
+      "retrieved_at": "2026-10-16T16:16:23Z",
+      "last_checked": "2026-10-16T16:16:23Z",
+      "method": "http",
+      "last_modified": "Tue, 23 Sep 2025 00:48:11 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://govinfo.gov/content/pkg/FR-2025-01-28/html/2025-01901.htm",
+      "attempted_at": "2026-10-16T16:16:23Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "US-04"
+ },
+ "US-CA-05": {
+  "main": {
+   "status": "archived",
+   "flag": "The secondary source could not be downloaded (HTTP 403 Forbidden). A source changed since the previous snapshot; both versions are kept.",
+   "last_attempt": "2026-10-16T15:53:53Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/US-CA-05/2026-10-16/official.html",
+     "url": "https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry/",
+     "final_url": "https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry/",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 294720,
+     "sha256": "90850f8184638ba37f5d442570b59a63716b0385aea3be6cb2073396a6ec2d8a",
+     "text_sha256": "2bf5065e5c7c61ecca159dbd413951b65c36aae3d6ef465b5c778ef50e9e6407",
+     "retrieved_at": "2026-10-16T15:53:56Z",
+     "last_checked": "2026-10-16T15:53:56Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": true,
+     "previous_sha256": "9446a59ed09a5a21c55bb646220765090e56da704259f534e1f4d89573f0332b",
+     "previous_path": "archive/US-CA-05/2026-10-11/official.html",
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry/",
+     "attempted_at": "2026-10-11T14:04:51Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.gov.ca.gov/wp-content/uploads/2025/09/SB-53-Signing-Message.pdf",
+     "attempted_at": "2026-10-11T14:04:59Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.gov.ca.gov/wp-content/uploads/2025/06/SIMM-25B-Web-Accessibility-Certificate_Gov.CA_.GOV-Signed.pdf",
+     "attempted_at": "2026-10-11T14:05:07Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53",
+     "attempted_at": "2026-10-11T14:05:08Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry/",
+     "attempted_at": "2026-10-16T15:53:56Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53",
+     "attempted_at": "2026-10-16T15:53:59Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: HTTP 403 Forbidden. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
+    "last_attempt": "2026-10-16T16:16:20Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53",
+      "attempted_at": "2026-10-16T16:16:22Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53",
+      "attempted_at": "2026-10-16T16:17:51Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
+      "method": "browser"
+     }
+    ]
+   },
+   "https://www.gov.ca.gov/wp-content/uploads/2025/09/SB-53-Signing-Message.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T16:16:20Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-CA-05/extra-9ba93a428b/2026-10-16/official.pdf",
+      "url": "https://www.gov.ca.gov/wp-content/uploads/2025/09/SB-53-Signing-Message.pdf",
+      "final_url": "https://www.gov.ca.gov/wp-content/uploads/2025/09/SB-53-Signing-Message.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 90354,
+      "sha256": "e3a8cd758bc5be06704ef480b8544538ec0187c808fc91304264e66959dd71bb",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T16:16:22Z",
+      "last_checked": "2026-10-16T16:16:22Z",
+      "method": "http",
+      "last_modified": "Mon, 29 Sep 2025 19:45:34 GMT",
+      "etag": "\"68dae1de-160f2\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.gov.ca.gov/wp-content/uploads/2025/09/SB-53-Signing-Message.pdf",
+      "attempted_at": "2026-10-16T16:16:22Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.caloes.ca.gov/office-of-the-director/operations/homeland-security/california-cybersecurity-integration-center/transparency-in-frontier-ai-act-reporting/": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T16:16:22Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-CA-05/extra-97a3f02eb0/2026-10-16/official.html",
+      "url": "https://www.caloes.ca.gov/office-of-the-director/operations/homeland-security/california-cybersecurity-integration-center/transparency-in-frontier-ai-act-reporting/",
+      "final_url": "https://www.caloes.ca.gov/office-of-the-director/operations/homeland-security/california-cybersecurity-integration-center/transparency-in-frontier-ai-act-reporting/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 164348,
+      "sha256": "a478a6f88e7c211a93552bc8bcc4d950e58e0f56814185c2191607bfdfb7238d",
+      "text_sha256": "876dc8afd55047b553bf0a74f490819bfa731254d869da7d15cf86f1f0357f37",
+      "retrieved_at": "2026-10-16T16:16:25Z",
+      "last_checked": "2026-10-16T16:16:25Z",
+      "method": "http",
+      "last_modified": "Fri, 16 Oct 2026 16:16:25 GMT",
+      "etag": "\"bcddbc8b89328b2644444f164bf477e6\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.caloes.ca.gov/office-of-the-director/operations/homeland-security/california-cybersecurity-integration-center/transparency-in-frontier-ai-act-reporting/",
+      "attempted_at": "2026-10-16T16:16:25Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "US-CA-05"
+ },
+ "US-TX-01": {
+  "main": {
+   "status": "archived",
+   "flag": "The secondary source could not be downloaded (The site's robots.txt does not allow automated downloads of this page). Saved with a headless browser because the plain download looked incomplete. A source changed since the previous snapshot; both versions are kept.",
+   "last_attempt": "2026-10-16T15:53:53Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/US-TX-01/2026-10-11/official.html",
+     "url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm",
+     "final_url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 250874,
+     "sha256": "dbfba8a96dc3cd584157ca66aaafdf67e0ed15dd5a0c8a58f3d4bd0f109fc646",
+     "text_sha256": "dda82cf8ec332b58704300a64a10ae941c23fda19827e40985bded6f703245c7",
+     "retrieved_at": "2026-10-11T18:09:37Z",
+     "last_checked": "2026-10-16T15:53:58Z",
+     "method": "http",
+     "last_modified": "Tue, 12 May 2026 15:11:35 GMT",
+     "etag": "\"80ed609f21e2dc1:0\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": "The page is a JavaScript application shell; the saved copy holds only the site's navigation, not the document",
+     "integrity": "ok"
+    },
+    {
+     "role_key": "official-rendered",
+     "role": "official-rendered",
+     "label": "Official source, rendered in a browser",
+     "path": "archive/US-TX-01/2026-10-11/official-rendered-2.html",
+     "url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm",
+     "final_url": "https://statutes.capitol.texas.gov/?tab=1&code=BC&chapter=BC.552&artSec=",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 295233,
+     "sha256": "c1223fb086d5a28d9f24222571b4bd270b6ec7d19447300260caf12488a1f12c",
+     "text_sha256": "50a510571dce079b993d4a7d4e37e872ead57b236f6bccad6cf3df3808f89104",
+     "retrieved_at": "2026-10-11T18:09:46Z",
+     "last_checked": "2026-10-16T15:54:27Z",
+     "method": "browser",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": "8427d4eab5d034980641708dbfb29ec2862936c9769ac8292f51c06321d36676",
+     "previous_path": "archive/US-TX-01/2026-10-11/official-rendered.html",
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "official-print",
+     "role": "official-print",
+     "label": "Official source, printed to PDF by a browser",
+     "path": "archive/US-TX-01/2026-10-16/official-print.pdf",
+     "url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm",
+     "final_url": "https://statutes.capitol.texas.gov/?tab=1&code=BC&chapter=BC.552&artSec=",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 494566,
+     "sha256": "ee51cb08480876b684e559d42224a1633fcdf4d61a1edd4613cf6f74f7250f52",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-16T15:54:27Z",
+     "last_checked": "2026-10-16T15:54:27Z",
+     "method": "browser",
+     "last_modified": null,
+     "etag": null,
+     "changed": true,
+     "previous_sha256": "1e19dfea2bf53b533963be1e02d21c28e560b6b73bdea7768d735df3225eb870",
+     "previous_path": "archive/US-TX-01/2026-10-11/official-print-2.pdf",
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm",
+     "attempted_at": "2026-10-11T14:05:31Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149",
+     "attempted_at": "2026-10-11T14:05:32Z",
+     "ok": false,
+     "http_status": null,
+     "error": "robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm",
+     "attempted_at": "2026-10-11T18:07:47Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149",
+     "attempted_at": "2026-10-11T18:07:49Z",
+     "ok": false,
+     "http_status": null,
+     "error": "The site's robots.txt does not allow automated downloads of this page",
+     "method": "http"
+    },
+    {
+     "role": "official-rendered",
+     "url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm",
+     "attempted_at": "2026-10-11T18:07:54Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "browser"
+    },
+    {
+     "role": "official",
+     "url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm",
+     "attempted_at": "2026-10-11T18:09:37Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149",
+     "attempted_at": "2026-10-11T18:09:37Z",
+     "ok": false,
+     "http_status": null,
+     "error": "The site's robots.txt does not allow automated downloads of this page",
+     "method": "http"
+    },
+    {
+     "role": "official-rendered",
+     "url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm",
+     "attempted_at": "2026-10-11T18:09:46Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "browser"
+    },
+    {
+     "role": "official",
+     "url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm",
+     "attempted_at": "2026-10-16T15:53:58Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149",
+     "attempted_at": "2026-10-16T15:53:59Z",
+     "ok": false,
+     "http_status": null,
+     "error": "The site's robots.txt does not allow automated downloads of this page",
+     "method": "http"
+    },
+    {
+     "role": "official-rendered",
+     "url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm",
+     "attempted_at": "2026-10-16T15:54:27Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "browser"
+    }
+   ]
+  },
+  "extras": {
+   "http://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.HTM": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: The site's robots.txt does not allow automated downloads of this page.",
+    "last_attempt": "2026-10-16T16:16:22Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "http://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.HTM",
+      "attempted_at": "2026-10-16T16:16:23Z",
+      "ok": false,
+      "http_status": null,
+      "error": "The site's robots.txt does not allow automated downloads of this page",
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "US-TX-01"
+ },
+ "CA-02": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-16T15:53:53Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/CA-02/2026-10-11/official.html",
+     "url": "https://www.parl.ca/legisinfo/en/bill/44-1/c-27",
+     "final_url": "https://www.parl.ca/legisinfo/en/bill/44-1/c-27",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 62575,
+     "sha256": "3f71f5a0e5e2c3ea119a6cbece6dd376e945f55a971225f59a409c5857bb4038",
+     "retrieved_at": "2026-10-11T13:59:31Z",
+     "last_checked": "2026-10-16T15:53:57Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/CA-02/2026-10-11/secondary.html",
+     "url": "https://ised-isde.canada.ca/site/innovation-better-canada/en/artificial-intelligence-and-data-act",
+     "final_url": "https://ised-isde.canada.ca/site/innovation-better-canada/en/artificial-intelligence-and-data-act",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 29849,
+     "sha256": "4463ce56374f1c0347fa9818edb721299d065d524bc939a0df0d163f75617ac1",
+     "retrieved_at": "2026-10-11T13:59:37Z",
+     "last_checked": "2026-10-16T15:54:00Z",
+     "method": "http",
+     "last_modified": "Wed, 26 Aug 2026 13:56:13 GMT",
+     "etag": "W/\"1787752573\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.parl.ca/legisinfo/en/bill/44-1/c-27",
+     "attempted_at": "2026-10-11T13:59:31Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://ised-isde.canada.ca/site/innovation-better-canada/en/artificial-intelligence-and-data-act",
+     "attempted_at": "2026-10-11T13:59:37Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.parl.ca/legisinfo/en/bill/44-1/c-27",
+     "attempted_at": "2026-10-16T15:53:57Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://ised-isde.canada.ca/site/innovation-better-canada/en/artificial-intelligence-and-data-act",
+     "attempted_at": "2026-10-16T15:54:00Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.parl.ca/Content/Bills/441/Government/C-27/C-27_1/C-27_1.PDF": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T16:16:23Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/CA-02/extra-218229b95c/2026-10-16/official.pdf",
+      "url": "https://www.parl.ca/Content/Bills/441/Government/C-27/C-27_1/C-27_1.PDF",
+      "final_url": "https://www.parl.ca/Content/Bills/441/Government/C-27/C-27_1/C-27_1.PDF",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 1348910,
+      "sha256": "a219dfa522bf5a00e71c68145aad2adabae97a03a4e07103aa814d8c7291a702",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T16:16:32Z",
+      "last_checked": "2026-10-16T16:16:32Z",
+      "method": "http",
+      "last_modified": "Thu, 16 Jun 2022 17:44:43 GMT",
+      "etag": "\"1d881a8c2de62ae\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.parl.ca/Content/Bills/441/Government/C-27/C-27_1/C-27_1.PDF",
+      "attempted_at": "2026-10-16T16:16:32Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.ourcommons.ca/Content/Newsroom/Articles/NewsRelease-OfficeSpeaker-Prorogation-E.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T16:16:23Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/CA-02/extra-4a816bf7bb/2026-10-16/official.pdf",
+      "url": "https://www.ourcommons.ca/Content/Newsroom/Articles/NewsRelease-OfficeSpeaker-Prorogation-E.pdf",
+      "final_url": "https://www.ourcommons.ca/Content/Newsroom/Articles/NewsRelease-OfficeSpeaker-Prorogation-E.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 464993,
+      "sha256": "dc85a3b227962071adaa143608c13c3878e0ce04f06cdfa84fce7829be2a551a",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T16:16:27Z",
+      "last_checked": "2026-10-16T16:16:27Z",
+      "method": "http",
+      "last_modified": "Mon, 06 Jan 2025 20:33:15 GMT",
+      "etag": "\"1db607a3638efe1\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.ourcommons.ca/Content/Newsroom/Articles/NewsRelease-OfficeSpeaker-Prorogation-E.pdf",
+      "attempted_at": "2026-10-16T16:16:27Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "CA-02"
+ },
+ "JP-04": {
+  "main": {
+   "status": "archived",
+   "flag": "The secondary source returned a bot-check or empty page this time (The page is a JavaScript application shell; the saved copy holds only the site's navigation, not the document); the earlier copy is kept.",
+   "last_attempt": "2026-10-16T15:53:56Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/JP-04/2026-10-11/official.html",
+     "url": "https://www8.cao.go.jp/cstp/ai/ai_act/ai_act.html",
+     "final_url": "https://www8.cao.go.jp/cstp/ai/ai_act/ai_act.html",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 6708,
+     "sha256": "05380a580a25a9655145873475af7710d70161ccf3f85ed8304911b896310c36",
+     "retrieved_at": "2026-10-11T14:00:59Z",
+     "last_checked": "2026-10-16T15:54:02Z",
+     "method": "http",
+     "last_modified": "Fri, 04 Sep 2026 05:18:58 GMT",
+     "etag": "\"1a34-65aa167dc2cb4\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-1",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/JP-04/2026-10-11/document-1.pdf",
+     "url": "https://www8.cao.go.jp/cstp/ai/ai_hou_gaiyou_en.pdf",
+     "final_url": "https://www8.cao.go.jp/cstp/ai/ai_hou_gaiyou_en.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 281719,
+     "sha256": "31544306a9041edca18a84a2173c007c112ecbdf20e40ebd533e90b47ce7b9be",
+     "retrieved_at": "2026-10-11T14:01:07Z",
+     "last_checked": "2026-10-16T15:54:07Z",
+     "method": "http",
+     "last_modified": "Tue, 01 Sep 2026 05:39:40 GMT",
+     "etag": "\"44c77-65a65585b4c1a\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-2",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/JP-04/2026-10-11/document-2.pdf",
+     "url": "https://www8.cao.go.jp/cstp/ai/ai_hou_gaiyou.pdf",
+     "final_url": "https://www8.cao.go.jp/cstp/ai/ai_hou_gaiyou.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 404701,
+     "sha256": "4fce096214cd7b838b9a270b4fb89dc8ca3dbf655538e1e348b23788ca59d886",
+     "retrieved_at": "2026-10-11T14:01:23Z",
+     "last_checked": "2026-10-16T15:54:12Z",
+     "method": "http",
+     "last_modified": "Fri, 05 Sep 2025 01:28:07 GMT",
+     "etag": "\"62cdd-63e03c004ac9b\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/JP-04/2026-10-11/secondary.html",
+     "url": "https://laws.e-gov.go.jp/law/507AC0000000053",
+     "final_url": "https://laws.e-gov.go.jp/law/507AC0000000053",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 800,
+     "sha256": "b2e5ede6447907450aadd16d512d97d3ffed4c35dac9e5ba0fa6a9859de8ab55",
+     "retrieved_at": "2026-10-11T14:01:26Z",
+     "last_checked": "2026-10-11T14:01:26Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": true,
+     "warning": null,
+     "integrity": "ok",
+     "last_failed": "2026-10-16T15:53:56Z",
+     "last_error": "The page is a JavaScript application shell; the saved copy holds only the site's navigation, not the document"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www8.cao.go.jp/cstp/ai/ai_act/ai_act.html",
+     "attempted_at": "2026-10-11T14:00:59Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www8.cao.go.jp/cstp/ai/ai_hou_gaiyou_en.pdf",
+     "attempted_at": "2026-10-11T14:01:07Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www8.cao.go.jp/cstp/ai/ai_hou_gaiyou.pdf",
+     "attempted_at": "2026-10-11T14:01:23Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://laws.e-gov.go.jp/law/507AC0000000053",
+     "attempted_at": "2026-10-11T14:01:26Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www8.cao.go.jp/cstp/ai/ai_act/ai_act.html",
+     "attempted_at": "2026-10-14T09:43:46Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www8.cao.go.jp/cstp/ai/ai_hou_gaiyou_en.pdf",
+     "attempted_at": "2026-10-14T09:43:53Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www8.cao.go.jp/cstp/ai/ai_hou_gaiyou.pdf",
+     "attempted_at": "2026-10-14T09:44:02Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://laws.e-gov.go.jp/law/507AC0000000053",
+     "attempted_at": "2026-10-14T09:44:05Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www8.cao.go.jp/cstp/ai/ai_act/ai_act.html",
+     "attempted_at": "2026-10-14T10:14:05Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www8.cao.go.jp/cstp/ai/ai_hou_gaiyou_en.pdf",
+     "attempted_at": "2026-10-14T10:14:09Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www8.cao.go.jp/cstp/ai/ai_hou_gaiyou.pdf",
+     "attempted_at": "2026-10-14T10:14:16Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://laws.e-gov.go.jp/law/507AC0000000053",
+     "attempted_at": "2026-10-14T10:14:16Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www8.cao.go.jp/cstp/ai/ai_act/ai_act.html",
+     "attempted_at": "2026-10-16T15:54:02Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www8.cao.go.jp/cstp/ai/ai_hou_gaiyou_en.pdf",
+     "attempted_at": "2026-10-16T15:54:07Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www8.cao.go.jp/cstp/ai/ai_hou_gaiyou.pdf",
+     "attempted_at": "2026-10-16T15:54:12Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://laws.e-gov.go.jp/law/507AC0000000053",
+     "attempted_at": "2026-10-16T15:54:15Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.shugiin.go.jp/internet/itdb_housei.nsf/html/housei/21720250604053.htm": {
+    "status": "archived-review",
+    "flag": "The page barely mentions the document's title; check that the URL still points to this document.",
+    "last_attempt": "2026-10-16T16:16:23Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-1a375a60de/2026-10-16/official.html",
+      "url": "https://www.shugiin.go.jp/internet/itdb_housei.nsf/html/housei/21720250604053.htm",
+      "final_url": "https://www.shugiin.go.jp/internet/itdb_housei.nsf/html/housei/21720250604053.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 22849,
+      "sha256": "cd22f0534af71e7fdf8001fa6df205a7ddec2a4ad6ee27415618dd185934f640",
+      "text_sha256": "436afaa52d5e2e0b2e964163bb186e5c48c8b237c7d4369259c0d2e7ffdd0e18",
+      "retrieved_at": "2026-10-16T16:16:29Z",
+      "last_checked": "2026-10-16T16:16:29Z",
+      "method": "http",
+      "last_modified": "Mon, 05 Oct 2026 00:05:05 GMT",
+      "etag": "W/\"MTAtODA4Qy00OTI1OERFNjAwMDI0ODg3LTQ5MjU4RTg3MDAwMDc3MEYtMA==\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The page barely mentions the document's title; check that the URL still points to this document",
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-rendered",
+      "role": "official-rendered",
+      "label": "Official source, rendered in a browser",
+      "path": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-1a375a60de/2026-10-16/official-rendered.html",
+      "url": "https://www.shugiin.go.jp/internet/itdb_housei.nsf/html/housei/21720250604053.htm",
+      "final_url": "https://www.shugiin.go.jp/internet/itdb_housei.nsf/html/housei/21720250604053.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 31260,
+      "sha256": "6b6547621d536a23c0311d8a5a58655abdf596676364b22ba04918af00e16da9",
+      "text_sha256": "ef78d10249bf567631f945f65008b1511cd81f3597259ffda94b09b0aeb5302a",
+      "retrieved_at": "2026-10-16T16:18:02Z",
+      "last_checked": "2026-10-16T16:18:02Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The page barely mentions the document's title; check that the URL still points to this document",
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-print",
+      "role": "official-print",
+      "label": "Official source, printed to PDF by a browser",
+      "path": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-1a375a60de/2026-10-16/official-print.pdf",
+      "url": "https://www.shugiin.go.jp/internet/itdb_housei.nsf/html/housei/21720250604053.htm",
+      "final_url": "https://www.shugiin.go.jp/internet/itdb_housei.nsf/html/housei/21720250604053.htm",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 475826,
+      "sha256": "647d1ea2b720434c423b344a8b1a753cb76b75168806c28c644f7b246f6d8123",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T16:18:02Z",
+      "last_checked": "2026-10-16T16:18:02Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.shugiin.go.jp/internet/itdb_housei.nsf/html/housei/21720250604053.htm",
+      "attempted_at": "2026-10-16T16:16:29Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://www.shugiin.go.jp/internet/itdb_housei.nsf/html/housei/21720250604053.htm",
+      "attempted_at": "2026-10-16T16:18:02Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "browser"
+     }
+    ]
+   },
+   "https://laws.e-gov.go.jp/law/507AC0000000053": {
+    "status": "archived-review",
+    "flag": "The page barely mentions the document's title; check that the URL still points to this document.",
+    "last_attempt": "2026-10-16T16:16:25Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-eb0fc0b12b/2026-10-16/official.html",
+      "url": "https://laws.e-gov.go.jp/law/507AC0000000053",
+      "final_url": "https://laws.e-gov.go.jp/law/507AC0000000053",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 800,
+      "sha256": "b2e5ede6447907450aadd16d512d97d3ffed4c35dac9e5ba0fa6a9859de8ab55",
+      "text_sha256": "6024f07e5c8247290be6e39195ed46da0ce6843abfe9a25e8a7a2fd472223c25",
+      "retrieved_at": "2026-10-16T16:16:28Z",
+      "last_checked": "2026-10-16T16:16:28Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The page is a JavaScript application shell; the saved copy holds only the site's navigation, not the document",
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-rendered",
+      "role": "official-rendered",
+      "label": "Official source, rendered in a browser",
+      "path": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-eb0fc0b12b/2026-10-16/official-rendered.html",
+      "url": "https://laws.e-gov.go.jp/law/507AC0000000053",
+      "final_url": "https://laws.e-gov.go.jp/law/507AC0000000053",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 60155,
+      "sha256": "5044be9f8858e69789be0783000b98cc6e811f6f286972d8b2e1ce4377b02c6b",
+      "text_sha256": "65aed603e7bfcecc8bbeded9944bfbaf73ebeaea55dac61ee7afaf6e8e90c48e",
+      "retrieved_at": "2026-10-16T16:17:57Z",
+      "last_checked": "2026-10-16T16:17:57Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The page barely mentions the document's title; check that the URL still points to this document",
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-print",
+      "role": "official-print",
+      "label": "Official source, printed to PDF by a browser",
+      "path": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-eb0fc0b12b/2026-10-16/official-print.pdf",
+      "url": "https://laws.e-gov.go.jp/law/507AC0000000053",
+      "final_url": "https://laws.e-gov.go.jp/law/507AC0000000053",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 504143,
+      "sha256": "513864c8e1b804ade60d528670698882d7f456ff89f93c20630a1ed21063bf3d",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T16:17:57Z",
+      "last_checked": "2026-10-16T16:17:57Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://laws.e-gov.go.jp/law/507AC0000000053",
+      "attempted_at": "2026-10-16T16:16:28Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://laws.e-gov.go.jp/law/507AC0000000053",
+      "attempted_at": "2026-10-16T16:17:57Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "browser"
+     }
+    ]
+   },
+   "https://www.japaneselawtranslation.go.jp/en/laws/view/5066": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-16T16:16:27Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-d5f234a0a9/2026-10-16/official.html",
+      "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5066",
+      "final_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5066",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 89189,
+      "sha256": "f4eb615fea9ab32addb5e15d9438ad215c6f2beb23bb025a295142fb3161cf33",
+      "text_sha256": "1e53d053003e41b52d32e4b0ccc7abb10c274a609869bde4678675cf068bf0b1",
+      "retrieved_at": "2026-10-16T16:16:31Z",
+      "last_checked": "2026-10-16T16:16:31Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-d5f234a0a9/2026-10-16/document-1.pdf",
+      "url": "https://www.japaneselawtranslation.go.jp/en/laws/download/5066/14/r07Aa000530105je18.0.pdf",
+      "final_url": "https://www.japaneselawtranslation.go.jp/en/laws/download/5066/14/r07Aa000530105je18.0.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 294573,
+      "sha256": "25a18618e2b05d085abbc01f0ea35c7b2c904e1eda38653f222f2954e11e2da5",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-16T16:16:35Z",
+      "last_checked": "2026-10-16T16:16:35Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5066",
+      "attempted_at": "2026-10-16T16:16:31Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.japaneselawtranslation.go.jp/en/laws/download/5066/14/r07Aa000530105je18.0.pdf",
+      "attempted_at": "2026-10-16T16:16:35Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "JP-04"
+ },
+ "KZ-01": {
+  "main": {
+   "status": "archived-review",
+   "flag": "The official source could not be downloaded this time (The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'). The copy from 2026-10-11 is kept; the source may have moved or been taken down. The secondary source can no longer be downloaded (The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'); the earlier copy is kept.",
+   "last_attempt": "2026-10-16T15:53:59Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/KZ-01/2026-10-11/official.html",
+     "url": "https://www.akorda.kz/ru/glavoy-gosudarstva-podpisan-zakon-respubliki-kazahstan-ob-iskusstvennom-intellekte-17105536",
+     "final_url": "https://www.akorda.kz/ru/glavoy-gosudarstva-podpisan-zakon-respubliki-kazahstan-ob-iskusstvennom-intellekte-17105536",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 48729,
+     "sha256": "0f102b557887ced4a64972f6b12d7f9c044f895185cf7fff619e4b4570d9363d",
+     "retrieved_at": "2026-10-11T14:01:14Z",
+     "last_checked": "2026-10-11T14:01:14Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": true,
+     "warning": null,
+     "integrity": "ok",
+     "last_failed": "2026-10-16T15:53:59Z",
+     "last_error": "The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'"
+    },
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/KZ-01/2026-10-11/secondary.html",
+     "url": "https://www.akorda.kz/ru/glavoy-gosudarstva-podpisan-zakon-respubliki-kazahstan-o-vnesenii-izmeneniy-i-dopolneniy-v-nekotorye-zakonodatelnye-akty-respubliki-kazahstan-po-voprosam-iskusstvennogo-intellekta-i-cifrovizacii-1710019",
+     "final_url": "https://www.akorda.kz/ru/glavoy-gosudarstva-podpisan-zakon-respubliki-kazahstan-o-vnesenii-izmeneniy-i-dopolneniy-v-nekotorye-zakonodatelnye-akty-respubliki-kazahstan-po-voprosam-iskusstvennogo-intellekta-i-cifrovizacii-1710019",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 49412,
+     "sha256": "ac9d0ed9b4768430dd71b1f0e67e08bd4a67fc452b62ac734d3925e46541a7f4",
+     "retrieved_at": "2026-10-11T14:01:16Z",
+     "last_checked": "2026-10-11T14:01:16Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": true,
+     "warning": null,
+     "integrity": "ok",
+     "last_failed": "2026-10-16T15:53:59Z",
+     "last_error": "The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.akorda.kz/ru/glavoy-gosudarstva-podpisan-zakon-respubliki-kazahstan-ob-iskusstvennom-intellekte-17105536",
+     "attempted_at": "2026-10-11T14:01:14Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.akorda.kz/ru/glavoy-gosudarstva-podpisan-zakon-respubliki-kazahstan-o-vnesenii-izmeneniy-i-dopolneniy-v-nekotorye-zakonodatelnye-akty-respubliki-kazahstan-po-voprosam-iskusstvennogo-intellekta-i-cifrovizacii-1710019",
+     "attempted_at": "2026-10-11T14:01:16Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.akorda.kz/ru/glavoy-gosudarstva-podpisan-zakon-respubliki-kazahstan-ob-iskusstvennom-intellekte-17105536",
+     "attempted_at": "2026-10-16T15:53:59Z",
+     "ok": false,
+     "http_status": null,
+     "error": "The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.akorda.kz/ru/glavoy-gosudarstva-podpisan-zakon-respubliki-kazahstan-o-vnesenii-izmeneniy-i-dopolneniy-v-nekotorye-zakonodatelnye-akty-respubliki-kazahstan-po-voprosam-iskusstvennogo-intellekta-i-cifrovizacii-1710019",
+     "attempted_at": "2026-10-16T15:53:59Z",
+     "ok": false,
+     "http_status": null,
+     "error": "The site's TLS certificate could not be verified. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://old.adilet.zan.kz/rus/docs/Z2500000230": {
+    "status": "archived",
+    "flag": "A linked PDF could not be downloaded (https://old.adilet.zan.kz/rus/docs/Z2500000230/download: Connection failed: Remote end closed connection without response. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl').",
+    "last_attempt": "2026-10-16T16:16:28Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/KZ-01/extra-801f866bb3/2026-10-16/official.html",
+      "url": "https://old.adilet.zan.kz/rus/docs/Z2500000230",
+      "final_url": "https://old.adilet.zan.kz/rus/docs/Z2500000230",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 100451,
+      "sha256": "af4366490e520ea166e23d330ddfb094ad39021255b62c633b5ba8ecc703e39b",
+      "text_sha256": "e097ede7cbe15ab1e178e78095c2730dc55564cf9ea6edd91d35a698b0d87dec",
+      "retrieved_at": "2026-10-16T16:17:05Z",
+      "last_checked": "2026-10-16T16:17:05Z",
+      "method": "http",
+      "last_modified": "Friday, 16-Oct-2026 16:18:05 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://old.adilet.zan.kz/rus/docs/Z2500000230",
+      "attempted_at": "2026-10-16T16:17:05Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://old.adilet.zan.kz/rus/docs/Z2500000230/download",
+      "attempted_at": "2026-10-16T16:17:05Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Connection failed: Remote end closed connection without response. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     }
+    ]
+   },
+   "https://old.adilet.zan.kz/rus/docs/Z2500000230/info": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: Connection failed: Remote end closed connection without response. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'.",
+    "last_attempt": "2026-10-16T16:16:29Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://old.adilet.zan.kz/rus/docs/Z2500000230/info",
+      "attempted_at": "2026-10-16T16:16:31Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Connection failed: Remote end closed connection without response. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     }
+    ]
+   },
+   "https://old.adilet.zan.kz/rus/docs/Z2500000230/history": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: Connection failed: Remote end closed connection without response. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'.",
+    "last_attempt": "2026-10-16T16:16:31Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://old.adilet.zan.kz/rus/docs/Z2500000230/history",
+      "attempted_at": "2026-10-16T16:16:31Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Connection failed: Remote end closed connection without response. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     }
+    ]
+   },
+   "https://old.adilet.zan.kz/eng/docs/Z2500000230": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: Connection failed: Remote end closed connection without response. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'.",
+    "last_attempt": "2026-10-16T16:16:31Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://old.adilet.zan.kz/eng/docs/Z2500000230",
+      "attempted_at": "2026-10-16T16:16:31Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Connection failed: Remote end closed connection without response. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.gov.kz/memleket/entities/maidd/press/news/details/1143060?lang=ru": {
+    "status": "archived-review",
+    "flag": "The page is a JavaScript application shell; the saved copy holds only the site's navigation, not the document. The browser retry also failed (HTTP 500 (in browser)).",
+    "last_attempt": "2026-10-16T16:16:31Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/KZ-01/extra-3b2ef994a1/2026-10-16/official.html",
+      "url": "https://www.gov.kz/memleket/entities/maidd/press/news/details/1143060?lang=ru",
+      "final_url": "https://www.gov.kz/memleket/entities/maidd/press/news/details/1143060?lang=ru",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 1209,
+      "sha256": "71e77cc009e14df08941d4ad67c69fb3705e9d0557a4e8d81ae4523286b248e7",
+      "text_sha256": "2f3cc91d5fe6ba3eebbbf9c3b97c024ca18eb36be9588e013eadc0bcfe274c78",
+      "retrieved_at": "2026-10-16T16:16:34Z",
+      "last_checked": "2026-10-16T16:16:34Z",
+      "method": "http",
+      "last_modified": "Thu, 15 Oct 2026 06:31:45 GMT",
+      "etag": "W/\"6ad07351-4b9\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": "The page is a JavaScript application shell; the saved copy holds only the site's navigation, not the document",
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.gov.kz/memleket/entities/maidd/press/news/details/1143060?lang=ru",
+      "attempted_at": "2026-10-16T16:16:34Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://www.gov.kz/memleket/entities/maidd/press/news/details/1143060?lang=ru",
+      "attempted_at": "2026-10-16T16:18:03Z",
+      "ok": false,
+      "http_status": 500,
+      "error": "HTTP 500 (in browser)",
+      "method": "browser"
+     }
+    ]
+   }
+  },
+  "record_id": "KZ-01"
+ }
+}

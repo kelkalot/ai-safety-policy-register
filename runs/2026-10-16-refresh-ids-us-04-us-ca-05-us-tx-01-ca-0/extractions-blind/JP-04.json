@@ -1,0 +1,93 @@
+{
+ "record": {},
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-d5f234a0a9/2026-10-16/official.html",
+    "sha256": "f4eb615fea9ab32addb5e15d9438ad215c6f2beb23bb025a295142fb3161cf33",
+    "locator": "title",
+    "quote": "Act on Promotion of Research and Development, and Utilization of Artificial Intelligence-related Technology（Act No. 53 of 2025）",
+    "source_kind": "alt-official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-eb0fc0b12b/2026-10-16/official-rendered.html",
+    "sha256": "5044be9f8858e69789be0783000b98cc6e811f6f286972d8b2e1ce4377b02c6b",
+    "locator": "heading",
+    "quote": "人工知能関連技術の研究開発及び活用の推進に関する法律（令和七年法律第五十三号）",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-d5f234a0a9/2026-10-16/official.html",
+    "sha256": "f4eb615fea9ab32addb5e15d9438ad215c6f2beb23bb025a295142fb3161cf33",
+    "locator": "heading",
+    "quote": "Act No. 53 of June 4, 2025",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-d5f234a0a9/2026-10-16/official.html",
+    "sha256": "f4eb615fea9ab32addb5e15d9438ad215c6f2beb23bb025a295142fb3161cf33",
+    "locator": "heading",
+    "quote": "Act No. 53 of June 4, 2025",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-d5f234a0a9/2026-10-16/official.html",
+    "sha256": "f4eb615fea9ab32addb5e15d9438ad215c6f2beb23bb025a295142fb3161cf33",
+    "locator": "Supplementary Provisions Art. 1",
+    "quote": "Article 1This Act comes into effect on the date of promulgation; provided, however, that the provisions of Chapters III and IV, and Article 3 and Article 4",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-eb0fc0b12b/2026-10-16/official-rendered.html",
+    "sha256": "5044be9f8858e69789be0783000b98cc6e811f6f286972d8b2e1ce4377b02c6b",
+    "locator": "revision history",
+    "quote": "令和7年6月4日 施行",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-eb0fc0b12b/2026-10-16/official-rendered.html",
+    "sha256": "5044be9f8858e69789be0783000b98cc6e811f6f286972d8b2e1ce4377b02c6b",
+    "locator": "revision history",
+    "quote": "令和7年9月1日 施行",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/JP-04/2026-10-11/official.html",
+    "sha256": "05380a580a25a9655145873475af7710d70161ccf3f85ed8304911b896310c36",
+    "locator": "概要",
+    "quote": "９月１日にはＡＩ戦略本部の設置に係る規定等も含め、全面施行されました。",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {},
+  "confirmed": [
+   "title",
+   "original_title",
+   "official_identifier",
+   "date_published",
+   "date_in_force",
+   "status"
+  ],
+  "status_reasoning": "Promulgated 4 Jun 2025, fully in force 1 Sep 2025, no later revision listed on e-Gov."
+ },
+ "open_questions": [],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "target_id": "JP-04",
+ "decision": "update",
+ "cand_id": "JP-04",
+ "extra_urls": [],
+ "leads": []
+}

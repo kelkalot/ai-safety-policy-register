@@ -1,0 +1,117 @@
+{
+ "run_id": "2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0",
+ "generated": "2026-10-16",
+ "compared": 5,
+ "pending": [],
+ "overall_field_agreement": 0.0,
+ "fields": {
+  "decision": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "title": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "original_title": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "issuing_body": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "official_identifier": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_published": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_in_force": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_last_updated": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "status": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "legal_force": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "instrument_type": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "jurisdiction_level": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "region": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "country": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "safety_topics": {
+   "compared": 2,
+   "agree": 0,
+   "rate": 0.0
+  }
+ },
+ "disagreements": {
+  "CA-02": [
+   {
+    "field": "safety_topics",
+    "first": [
+     "risk-based classification",
+     "transparency & labelling",
+     "incident reporting",
+     "accountability & liability"
+    ],
+    "blind": null
+   }
+  ],
+  "JP-04": [],
+  "US-04": [
+   {
+    "field": "safety_topics",
+    "first": [
+     "general-purpose / frontier AI",
+     "evaluation & testing",
+     "catastrophic risk",
+     "critical infrastructure",
+     "transparency & labelling",
+     "public-sector use"
+    ],
+    "blind": null
+   }
+  ],
+  "US-CA-05": [],
+  "US-TX-01": []
+ },
+ "resulting_record_agreement": 1.0,
+ "resulting_record_fields": 62
+}

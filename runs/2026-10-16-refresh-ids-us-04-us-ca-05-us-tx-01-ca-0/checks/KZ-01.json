@@ -1,0 +1,65 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-16",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "cand_id": "KZ-01",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Art. 31: in force 60 calendar days after first official publication; signed 17 Nov 2025 and the Akorda notice says the text is published in print, so the period has passed by today. The publication date itself is not stored."
+  },
+  "date_in_force": {
+   "verdict": "supported",
+   "why": "null is correct while the publication date is unstored; web results suggest 18 Jan 2026 but only from secondary sites."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "AI system defined as a digital object working on one or more AI models (Art. 1(5)); risk classes (high risk) and autonomy classes (low, medium, high)",
+   "verdict": "supported",
+   "locator": "Art. 1; Arts. on classification, lines on 'высокой степени риска' and 'автономности'"
+  },
+  {
+   "claim": "Prohibitions: subliminal/manipulative techniques, exploiting vulnerabilities, social scoring, biometric categorisation for discrimination, emotion detection without consent (Art. 17(3))",
+   "verdict": "supported",
+   "locator": "Art. 17(3) items 1-6; literal: 'определение эмоций физического лица без его согласия' = determining a person's emotions without consent"
+  },
+  {
+   "claim": "Users must be informed of AI use; synthetic outputs labelled in machine-readable form (Art. 21(1)-(2))",
+   "verdict": "supported",
+   "locator": "Art. 21"
+  },
+  {
+   "claim": "Notes: amended by Law No. 326-VIII of 24 Jun 2026 (Arts 1, 13, 17, 20, 28)",
+   "verdict": "supported",
+   "locator": "footnotes to those articles"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Text matches the stored Russian law on old.adilet.zan.kz, which counts as secondary until a person records the host (official_identifier and date_last_updated therefore rest on secondary-kind evidence; title, date and status keep the Akorda notice as official). english_version is not recorded and the Article 'Әділет' English text was not stored; kind 'none found' or a later stored translation needs a person or later run. issuing_body names Parliament, which no stored file states (signature of the President does appear). A secondary search shows the Әділет-type database history dated 24.06.2026, consistent with the amendment; the amending law is not in the register (lead already raised by the extractor)."
+}
