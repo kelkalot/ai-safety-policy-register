@@ -18,7 +18,9 @@ One run takes at most 120 frame cells (about 15 jurisdictions) or 40 records (15
 
 ## Steps
 
-0. **Apply decisions.** `python3 tools/pipeline.py intake` applies the maintainers' decisions on suggestions and provided documents, and `python3 tools/pipeline.py questions --apply` those on open questions (AGENTS.md sections 7.7 and 7.8). Queued leads go into a leads run (`new --type discover --leads pipeline/leads.json`). Commit nothing yet; the changes go into the run's commit.
+0. **Read the project status, then apply decisions.**
+   - **Status:** read the pinned issue Project status (`gh issue list --label status`, or `python3 tools/pipeline.py board`). If a run "In progress" overlaps your scope, stop and tell the human. If the maintainers' priorities point elsewhere, say so before you start.
+   - **Decisions:** `python3 tools/pipeline.py intake` applies the maintainers' decisions on suggestions and provided documents, and `python3 tools/pipeline.py questions --apply` those on open questions (AGENTS.md sections 7.7 and 7.8). Queued leads go into a leads run (`new --type discover --leads pipeline/leads.json`). Commit nothing yet; the changes go into the run's commit.
 1. **Create the run.** `python3 tools/pipeline.py new --type <type> --scope "<scope>" --tool "<Claude Code or Codex>" --model <the model you run as>`. It prints the run ID on its last line. For a refresh run without a scope, it takes the top of `pipeline.py queue`.
    - **The steps:** `new` prints the steps this run kicks off and writes them into `run.json`: each step, who runs it (a script or an agent role) and what it writes. Work through those steps in order and nothing else. `python3 tools/pipeline.py status --run <run-id>` marks the steps that are done, so a resumed run starts where it stopped. The numbered steps below explain them.
    - **Who ran each stage:** before each agent stage, record it: `python3 tools/pipeline.py stage --run <run-id> --stage collect|extract|blind|check --tool ... --model ...`. Add `--tokens N` when your tool reports what the stage's agents used; the report turns it into the effort per record.

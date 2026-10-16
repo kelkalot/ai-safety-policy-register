@@ -70,28 +70,29 @@ def record_files(db, rid):
     return out
 
 
-def current_files(rec):
-    """path -> sha256 of the record's current stored files (not stale, still on disk)."""
+def current_files(rec, on_disk=True):
+    """path -> sha256 of the record's current stored files (not stale; on disk unless on_disk=False)."""
     return {f["path"]: f.get("sha256") for f in (rec.get("local_copy") or {}).get("files") or []
-            if f.get("path") and not f.get("stale") and (ROOT / f["path"]).is_file()}
+            if f.get("path") and not f.get("stale") and (not on_disk or (ROOT / f["path"]).is_file())}
 
 
-def source_changed(db, items):
+def source_changed(db, items, on_disk=True):
     """IDs of definitions whose file and SHA-256 are no longer a current stored file of their record."""
     by = {r["id"]: r for r in db["records"]}
     return {x["id"] for x in items
-            if current_files(by.get(x["record_id"]) or {}).get(x.get("file")) != x.get("sha256")}
+            if current_files(by.get(x["record_id"]) or {}, on_disk).get(x.get("file")) != x.get("sha256")}
 
 
-def compare_queue(db, reg=None):
+def compare_queue(db, reg=None, on_disk=True):
     """[(record_id, [reasons])] due for a compare run, most urgent first: a definition whose source changed, a
-    record whose stored files changed since it was compared, then records never compared that have stored text."""
+    record whose stored files changed since it was compared, then records never compared that have stored text.
+    on_disk=False works from records.json alone, as on a machine without archive/."""
     reg = reg if reg is not None else (P.read_json(DEFS, {}) or {})
     items, seen = reg.get("definitions") or [], reg.get("compared") or {}
-    changed = source_changed(db, items)
+    changed = source_changed(db, items, on_disk)
     out = []
     for r in db["records"]:
-        rid, cur = r["id"], current_files(r)
+        rid, cur = r["id"], current_files(r, on_disk)
         if not cur:
             continue
         stale = sorted(x["id"] for x in items if x["record_id"] == rid and x["id"] in changed)

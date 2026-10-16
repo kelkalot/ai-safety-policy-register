@@ -1,6 +1,11 @@
 # AGENTS.md
 
-> **Start here.** Run `python3 tools/pipeline.py menu`. It lists the work that is ready now, each item with the command that starts it, and the decisions that only people make. Pick one item; one run per session. A run does only the steps `pipeline.py new` prints for it (they are also in its `run.json`), and `pipeline/flow.md` shows how the parts fit together.
+> **Start here.** First read the pinned issue **Project status** (`gh issue list --label status`, or offline `python3 tools/pipeline.py board`). It shows the maintainers' priorities, what is in progress, what is due and where each enhancement stands. Then, by task:
+> - to run the pipeline: `python3 tools/pipeline.py menu` lists the work that is ready, each item with the command that starts it. Pick one item, one run per session, and never one whose scope overlaps a run "In progress". A run does only the steps `pipeline.py new` prints for it (they are also in its `run.json`);
+> - to work on an enhancement: follow the tracker in its issue, and tick or add tasks there, not in the status issue;
+> - to release: the "Rhythm" section and section 7.10 (the gate).
+>
+> `pipeline/flow.md` shows how the parts fit together.
 
 Instructions for people and AI agents who work on this repository. Read it before changing anything. It says how the data is made, what its limits are, and how to extend or re-check it with the same method. Claude Code and Codex both read this file automatically when they are started in the repository; section 8 says how to run the pipeline with either of them.
 
@@ -46,6 +51,7 @@ If a tool fails or seems to be missing, an agent stops and says so; it does not 
 | `CONTRIBUTING.md` | how people and outside agents contribute, and the rules for agents (section 7.9) |
 | `.claude/hooks/github_guard.py` | Claude Code hook that stops an agent from posting a decision line or an unmarked post on GitHub (section 4, rule 11) |
 | `tools/gate.py`, `.claude/hooks/data_gate.py`, `.githooks/`, `.github/workflows/gate.yml` | the gate before the official data and where it runs (section 7.10) |
+| `.github/workflows/board.yml` | rewrites the pinned Project status issue after every push to main and weekly (section 7.11) |
 | `pipeline/leads.json` | leads for the next run: accepted suggestions from GitHub issues and leads a maintainer added by hand, each with an ID (`L001`) and its state (section 7.8) |
 | `.github/ISSUE_TEMPLATE/` | the issue forms *Suggest an instrument* and *Provide a document* |
 | `pipeline/questions.json` | open questions for humans and their GitHub issues, written by `pipeline.py questions` (section 7.7) |
@@ -66,6 +72,7 @@ If a tool fails or seems to be missing, an agent stops and says so; it does not 
 | `examples/analysis.py`, `docs/` | an example analysis from the SQLite file; the quality-check reports |
 
 ```bash
+python3 tools/pipeline.py board                      # the project status (the pinned issue); --sync writes the issue
 python3 tools/pipeline.py menu                       # what is ready to run now, and what only people decide
 python3 tools/pipeline.py new --type discover --scope "codes:DK,FI,IS,NO,SE"   # create runs/<run-id>/; prints its steps
 python3 tools/pipeline.py status --run <run-id>      # what each stage has produced; use it to resume
@@ -316,6 +323,18 @@ The gate runs at four points:
 4. in full, with the stored documents and against the last release tag, at the start of `publish_hf.py --release`, which refuses to publish when it fails.
 
 Codex has no hooks. A maintainer who commits by hand or with Codex turns on the same check once per clone with `git config core.hooksPath .githooks`. The repository's ruleset for main requires the `gate` check and has no bypass, so GitHub refuses a merge that fails it and any direct push to main, including a version bump: that goes through a pull request too. A failed gate is fixed at its cause; nobody, person or agent, commits past it.
+
+### 7.11 The project status issue
+
+The register is kept by agents in different sessions and tools, and by people. They share one overview: the pinned issue **Project status** (label `status`). `python3 tools/pipeline.py board --sync` writes it from the repository and GitHub. The GitHub Action `board` (`.github/workflows/board.yml`) runs it after every push to main and every Monday, so the issue is never older than the last merge. It shows:
+
+- the data version and the last release;
+- **Priorities now**, the one section maintainers write by hand. The script keeps it when it rewrites the rest;
+- **In progress**: open pull requests and unmerged `run/*` branches;
+- **Rhythm**: when the archiver, the monthly recheck, refresh, discover and compare runs and the release last ran, and which are due;
+- the queues, the decisions waiting for people, each enhancement's tracker progress and next open task, and the last runs.
+
+Agents read it before starting work (the "Start here" box) and never edit it. An agent that thinks a priority should change says so in a comment, and a maintainer decides. Everything else in it is generated, so it is corrected at the source: a run, a tracker in an enhancement issue, or the data. `python3 tools/pipeline.py board` prints the same overview without the priorities, for a session without GitHub.
 
 ## 8. Running it with Claude Code or Codex
 
