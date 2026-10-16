@@ -128,6 +128,7 @@ _FIND = [("extract", "extractors, about 8 candidates each", "pipeline/roles/extr
          ("merge", "script", "python3 tools/merge.py runs/{run}/pass.json --dry-run, then without --dry-run; "
                              "python3 tools/build.py"),
          ("report", "script", "python3 tools/pipeline.py report --run {run}; frame --report; questions --sync; intake"),
+         ("gate", "script", "python3 tools/gate.py: every change against the rules; fix what fails, never skip it"),
          ("commit", "coordinator", "one commit on the branch run/{run}")]
 _STORE = [("archive", "script", "python3 tools/archive.py --run {run} --browser"),
           ("textify", "script", "python3 tools/pipeline.py textify --run {run}")]
@@ -145,6 +146,7 @@ STEPS = {
                 ("check", "the checker, in a fresh context", "pipeline/roles/compare.md -> checks/<ID>.json"),
                 ("merge", "script", "python3 tools/definitions.py merge --run {run}; python3 tools/build.py"),
                 ("report", "script", "python3 tools/definitions.py report --run {run}"),
+                ("gate", "script", "python3 tools/gate.py: every change against the rules; fix what fails, never skip it"),
                 ("commit", "coordinator", "one commit on the branch run/{run}")],
 }
 

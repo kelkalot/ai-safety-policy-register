@@ -1,0 +1,7 @@
+#!/bin/sh
+# Runs tools/gate.py before a push that changes the official data (AGENTS.md section 7.10).
+# Turn it on once per clone: git config core.hooksPath .githooks
+base=$(git merge-base HEAD origin/main 2>/dev/null) || exit 0
+git diff --quiet "$base" -- data/records.json data/history.jsonl data/definitions.json pipeline/official-sites.json \
+    pipeline/frame.json pipeline/leads.json pipeline/questions.json pipeline/scope-decisions.md && exit 0
+exec python3 tools/gate.py --quiet

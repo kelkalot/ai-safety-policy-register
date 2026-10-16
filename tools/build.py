@@ -164,7 +164,7 @@ def definitions_table(db, root=ROOT):
     cur = {}
     for r in db["records"]:
         for f in (r.get("local_copy") or {}).get("files") or []:
-            if f.get("path") and not f.get("stale") and (root / f["path"]).is_file():
+            if f.get("path") and not f.get("stale"):  # from records.json only, so that a clone without archive/ builds the same
                 cur[(r["id"], f["path"])] = f.get("sha256")
     rows = json.loads(src.read_text(encoding="utf-8")).get("definitions") or []
     return [dict(d, source_changed=cur.get((d["record_id"], d.get("file"))) != d.get("sha256")) for d in rows]

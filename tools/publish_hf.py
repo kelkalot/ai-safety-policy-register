@@ -800,6 +800,13 @@ def release(args, out):
     version = str((db.get("meta") or {}).get("version") or "")
     tag = "v" + version
     prev = previous_release(args.namespace, args.name)
+    # the gate (tools/gate.py, AGENTS.md section 7.10): every change since the last release, with the stored documents
+    rc, last = git("describe", "--tags", "--abbrev=0", "--match", "v*", "HEAD")
+    gate = subprocess.run([sys.executable, str(ROOT / "tools" / "gate.py"), "--quiet", "--base",
+                           last.strip() if rc == 0 and last.strip() else "origin/main"], cwd=str(ROOT))
+    if gate.returncode:
+        print("\nNot releasing: the gate failed (above). Fix what it reports, merge, and release again.")
+        return 1
     changes = changes_section(version, prev, history.load())
     st = build_all(out, args.namespace, args.name, args.github, changes_md=changes)
     print("Release %s (published now: %s). Built %s: %d records, archive %d files, %d third-party copies left out, "

@@ -31,7 +31,15 @@
       {
         "matcher": "Bash",
         "hooks": [
-          {"type": "command", "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/github_guard.py\""}
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/github_guard.py\""
+          },
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/data_gate.py\"",
+            "timeout": 300
+          }
         ]
       }
     ]
