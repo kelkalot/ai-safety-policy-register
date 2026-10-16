@@ -168,6 +168,9 @@ def schemas():
         "records": pa.schema(rec_fields),
         "topics": pa.schema([("record_id", s), ("topic", s)]),
         "related": pa.schema([("record_id", s), ("related_id", s)]),
+        "definitions": pa.schema([("id", s), ("record_id", s), ("term", s), ("term_group", s), ("definition", s),
+                                  ("english", s), ("english_by", s), ("language", s), ("locator", s), ("file", s),
+                                  ("sha256", s), ("run_id", s)]),
         "history": pa.schema([("date", s), ("run_id", s), ("record_id", s), ("event", s), ("field", s), ("old", s),
                               ("new", s), ("reason", s), ("evidence", s), ("tool", s), ("model", s)]),
         "source_files": pa.schema([("record_id", s), ("role", s), ("path", s), ("url", s), ("final_url", s), ("host", s),
@@ -242,8 +245,9 @@ configs:
   data_files: data/related.parquet
 - config_name: source_files
   data_files: data/source_files.parquet
-%s---
-""" % (PRETTY_NAME, "- config_name: history\n  data_files: data/history.parquet\n" if st.get("n_history") else "")
+%s%s---
+""" % (PRETTY_NAME, "- config_name: history\n  data_files: data/history.parquet\n" if st.get("n_history") else "",
+       "- config_name: definitions\n  data_files: data/definitions.parquet\n" if st.get("n_definitions") else "")
     body = """
 # {pretty}
 
@@ -315,7 +319,7 @@ df.groupby(["region", "legal_force"]).size().unstack(fill_value=0)
 | `topics` | {n_topics} | instrument and safety topic |
 | `related` | {n_related} | link between two records |
 | `source_files` | {files} | stored copy of a source, with URL, hash, retrieval time and a link into the archive dataset; `redacted` marks the few published copies in which a live access token embedded by the source site was replaced |
-{history_row}
+{history_row}{definitions_row}
 `raw/records.json` is the full nested source of truth, with the complete verification and local-copy history of each record. `raw/records.csv` and `raw/register.xlsx` hold the same records for spreadsheets.
 
 ### Fields of `records`
@@ -381,7 +385,11 @@ For anything the issue forms do not cover, or that should not be public, write t
            nocopy=st["n"] - st["with_copy"],
            history_row=("| `history` | %d | event in a record's history: added, a field changed, re-verified without change, "
                         "checked by a human, a scope decision; `old`, `new` and `evidence` are JSON text. `HISTORY.md` is the "
-                        "readable version |\n" % st["n_history"]) if st.get("n_history") else "", **st)
+                        "readable version |\n" % st["n_history"]) if st.get("n_history") else "",
+           definitions_row=("| `definitions` | %d | defined term of an instrument (\"AI system\", \"model\" and others), quoted "
+                            "verbatim from its stored source with the article or section; a pilot of the crosswalk "
+                            "between instruments. Similar definitions are not legally equivalent |\n" % st["n_definitions"])
+           if st.get("n_definitions") else "", **st)
     return yaml + body
 
 
@@ -484,6 +492,9 @@ def build_all(out, ns, name, github_url, changes_md=""):
     st["n_topics"], st["n_related"] = len(topics), len(related)
     st["changes_md"] = changes_md
     st["n_history"] = len(history.load())
+    defs = (json.loads((ROOT / "data" / "definitions.json").read_text(encoding="utf-8")).get("definitions") or []
+            if (ROOT / "data" / "definitions.json").is_file() else [])
+    st["n_definitions"] = len(defs)
     st["n_open_questions"] = len(build.open_questions())
     if out.exists():
         shutil.rmtree(out)
@@ -495,6 +506,9 @@ def build_all(out, ns, name, github_url, changes_md=""):
     write_parquet(records, ds / "data" / "records.parquet", sch["records"])
     write_parquet(topics, ds / "data" / "topics.parquet", sch["topics"])
     write_parquet(related, ds / "data" / "related.parquet", sch["related"])
+    if defs:  # the definitions layer of the crosswalk (issue #70)
+        write_parquet([{k: d.get(k) for k in sch["definitions"].names} for d in defs], ds / "data" / "definitions.parquet",
+                      sch["definitions"])
     write_parquet([{k: v for k, v in f.items() if k != "_missing"} for f in files], ds / "data" / "source_files.parquet",
                   sch["source_files"])
     hist = []
@@ -506,7 +520,7 @@ def build_all(out, ns, name, github_url, changes_md=""):
     if hist:  # no history table until the first pipeline run has written events
         write_parquet(hist, ds / "data" / "history.parquet", sch["history"])
     (ds / "raw").mkdir()
-    for f in ("records.json", "records.csv", "register.xlsx", "history.jsonl"):
+    for f in ("records.json", "records.csv", "register.xlsx", "history.jsonl", "definitions.json", "definitions.csv"):
         if (ROOT / "data" / f).is_file():
             shutil.copy2(ROOT / "data" / f, ds / "raw" / f)
     if (ROOT / "HISTORY.md").is_file():
