@@ -38,6 +38,7 @@ flowchart TD
         f6 --> f7["check<br/>checker, fresh context"]
         f7 --> f8["assemble + merge + build<br/>scripts"]
         f8 --> f9["report, questions --sync, intake<br/>scripts"]
+        f9 --> f10{{"gate<br/>tools/gate.py"}}
     end
     subgraph COMPARE["compare"]
         direction TB
@@ -46,12 +47,16 @@ flowchart TD
         c3 --> c4["check<br/>checker, fresh context"]
         c4 --> c5["merge + build<br/>scripts"]
         c5 --> c6["report<br/>script"]
+        c6 --> c7{{"gate<br/>tools/gate.py"}}
     end
-    f8 --> rec[("data/records.json<br/>data/history.jsonl")]
-    c5 --> defs[("data/definitions.json<br/>data/history.jsonl")]
+    f10 -- "passes: commit on run/run-id,<br/>pull request, gate again in CI,<br/>a person merges" --> rec[("data/records.json<br/>data/history.jsonl")]
+    c7 -- "passes: the same" --> defs[("data/definitions.json<br/>data/history.jsonl")]
+    rec --> rel{{"release: the gate in full,<br/>with the stored documents"}}
+    defs --> rel
+    rel --> hf[("Hugging Face:<br/>dataset, archive, app")]
 ```
 
-Refresh and recheck runs start at "archive + textify": their candidates are the records. A compare run never changes a record, and a find-and-add run never writes `data/definitions.json`. Each run ends with one commit on `run/<run-id>`, which a person reviews and merges.
+Refresh and recheck runs start at "archive + textify": their candidates are the records. The gate (AGENTS.md section 7.10) checks every change to the official data four times: as a run's last step, in the Claude Code hook before a commit or push, in the GitHub Action on the pull request, and in full before a release. A failed gate stops the change until its cause is fixed. A compare run never changes a record, and a find-and-add run never writes `data/definitions.json`. Each run ends with one commit on `run/<run-id>`, which a person reviews and merges.
 
 ## 3. How the runs feed each other
 

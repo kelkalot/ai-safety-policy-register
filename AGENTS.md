@@ -45,6 +45,7 @@ If a tool fails or seems to be missing, an agent stops and says so; it does not 
 | `pipeline/scope-decisions.md` | precedents for borderline scope cases; read before deciding scope |
 | `CONTRIBUTING.md` | how people and outside agents contribute, and the rules for agents (section 7.9) |
 | `.claude/hooks/github_guard.py` | Claude Code hook that stops an agent from posting a decision line or an unmarked post on GitHub (section 4, rule 11) |
+| `tools/gate.py`, `.claude/hooks/data_gate.py`, `.githooks/`, `.github/workflows/gate.yml` | the gate before the official data and where it runs (section 7.10) |
 | `pipeline/leads.json` | leads for the next run: accepted suggestions from GitHub issues and leads a maintainer added by hand, each with an ID (`L001`) and its state (section 7.8) |
 | `.github/ISSUE_TEMPLATE/` | the issue forms *Suggest an instrument* and *Provide a document* |
 | `pipeline/questions.json` | open questions for humans and their GitHub issues, written by `pipeline.py questions` (section 7.7) |
@@ -93,6 +94,7 @@ python3 tools/pipeline.py new --type discover --leads pipeline/leads.json   # a 
 python3 tools/archive.py --provide FILE --id ID --url URL --by NAME          # store a document a site blocks, downloaded by a person
 python3 tools/pipeline.py leads --add ... --provided FILE   # the same for an instrument without a record, with a new lead
 python3 tools/build.py                               # validate and regenerate data files and HISTORY.md
+python3 tools/gate.py                                # every change against the rules, before a commit, merge or release
 python3 tools/archive.py --verify                    # re-hash every stored file; flags missing or changed copies
 ```
 
@@ -115,6 +117,7 @@ Python 3.8 or later and the standard library are enough for the core; `pypdf` re
 9. **Inclusive scope, flagged.** Scope is section 10. A borderline instrument is included with a `scope_note` saying why, not left out and not sent to a human; `pipeline/scope-decisions.md` keeps the precedents. Only the clear exclusions in section 10 stay out.
 10. **Commit on a branch, never push.** A run ends with one commit on the branch `run/<run-id>` containing the run folder and the merged data. The human reviews, merges and publishes.
 11. **Decisions are the maintainers' own.** Agents open issues, comment on them and close them, through the scripts and directly; the pipeline depends on it. An agent never writes a decision: no line starting with `decide:` and no sample line `ok <ID>` or `problem <ID>`, in any issue, comment or pull request, even when it posts with a maintainer's login. Everything an agent posts on GitHub carries the line `<!-- every-ai-policy-ever:agent -->`; `tools/pipeline.py` adds it to its own posts and never reads a marked comment, or one from a bot account, as a decision. In Claude Code the hook `.claude/hooks/github_guard.py` stops a `gh` command that would post a decision line or lacks the marker; Codex has no such hook and relies on this rule.
+12. **Nothing reaches the official data without the gate.** `python3 tools/gate.py` checks every change to `data/` and the decision files in `pipeline/` before it is committed, merged or released (section 7.10). When it fails, fix the cause with the tools that own the data. Never edit the data by hand to make it pass, never skip it, and never commit past it.
 
 ## 5. The pipeline
 
@@ -290,6 +293,29 @@ Two issue forms let anyone add to the register; a maintainer decides with one co
 Outside agents and automated tools may use the issue forms under the rules in `CONTRIBUTING.md`: they declare themselves in the form's "Submitted by" field, suggest only instruments they found on an official page they opened, one per issue, and never write a decision line. Nothing an outside agent writes changes the data. A suggestion is a lead only after a maintainer accepts it; only maintainers' comments are decisions; and a form's text reaches the pipeline's agents only as capped fields (title 200, reason 500 and URL 500 characters), never its comments. GitHub drops the labels of an issue that someone without write access creates through the API, so `intake` sees only issues filed with the forms, where the rules are shown.
 
 Whether an account is run by an agent cannot be detected reliably. `python3 tools/pipeline.py intake --triage` lists the undecided issues with what to look at before deciding: a declared agent, a bot account or an issue posted through an app, an account younger than 30 days, more than three issues from one account in a week, a URL that is not on an official host for the jurisdiction (section 7.6), and an instrument that is already a record's source or a lead. It reads and prints only.
+
+### 7.10 The gate before the official data
+
+The maintained register is what people cite, so every change to it passes a second, mechanical check before it lands: `python3 tools/gate.py`. It compares the working tree with `origin/main` (or `--base` a tag or commit) and fails when:
+
+- validation finds an error, or the generated files are not in sync with the data (it rebuilds them, so they can be reviewed and included);
+- the history was edited instead of appended to, a record or a definition was deleted, or a record changed its ID or slug;
+- a field changed, a record was added, or a definition was added or changed, without its history event (a hand edit instead of `merge.py` or `definitions.py merge`);
+- a run named in the new history has no folder and report;
+- an official-site entry was removed, or changed without who decided and when;
+- the change holds something that looks like a credential (a Hugging Face, GitHub, OpenAI, Anthropic or AWS key, or a private key), or a sync-conflict copy;
+- with the stored documents: a changed record's file, an evidence quote in the new history, or a new or changed definition does not match its file and SHA-256.
+
+It warns, without failing, when more than 40 records change in one go or the snapshot date changes.
+
+The gate runs at four points:
+
+1. as the last step of every run, before its commit;
+2. in Claude Code, from the hook `.claude/hooks/data_gate.py`, before any `git commit` or `git push` that changes the official data;
+3. on every pull request to main and every push to main, in the GitHub Action `gate` (`.github/workflows/gate.yml`), without the stored documents;
+4. in full, with the stored documents and against the last release tag, at the start of `publish_hf.py --release`, which refuses to publish when it fails.
+
+Codex has no hooks. A maintainer who commits by hand or with Codex turns on the same check once per clone with `git config core.hooksPath .githooks`. A maintainer who marks the `gate` check as required for main in the repository settings makes GitHub refuse a merge that fails it. A failed gate is fixed at its cause; nobody, person or agent, commits past it.
 
 ## 8. Running it with Claude Code or Codex
 

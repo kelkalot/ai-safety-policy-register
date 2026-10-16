@@ -1,0 +1,25 @@
+# The gate (tools/gate.py, AGENTS.md section 7.10) on every pull request to main and every push to main.
+# It has no stored documents here, so the hash and quote checks run on the maintainers' machines (the run's gate
+# step and the release); everything else runs here.
+name: gate
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run the gate
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then base="origin/${{ github.base_ref }}"; else base="${{ github.event.before }}"; fi
+          python3 tools/gate.py --no-archive --base "$base"

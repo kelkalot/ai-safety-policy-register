@@ -90,7 +90,7 @@ A pull request with the run itself cannot be merged yet, because the documents i
 **5. Maintainers and collaborators: a run that ends in a release**
 1. `python3 tools/pipeline.py menu`; pick one item. One run per session. `new` refuses a run larger than 120 frame cells or 40 records.
 2. `/run-pipeline <item>`. The run applies the pending decisions first, ends with a commit on `run/<run-id>`, opens issues for its questions and its human sample, and closes the issues it settled.
-3. Review the report and the diff, merge the pull request, and release (section 9).
+3. The run's last step is the gate (`python3 tools/gate.py`, AGENTS.md section 7.10), and it runs again on the pull request (the `gate` check). Review the report and the diff, merge only when the gate is green, and release (section 9). The release runs the gate once more, with the stored documents, and refuses to publish when it fails.
 
 `pipeline/flow.md` shows how these paths connect.
 
@@ -314,7 +314,7 @@ python3 tools/publish_hf.py --release --dry-run    # every check, no upload
 python3 tools/publish_hf.py --release              # upload all three repositories and tag the version
 ```
 
-Before uploading, the release checks that main is clean and pushed, that `meta.version` is higher than the published version and not yet tagged, that no record published before is missing (records are never deleted), that the history and the stored files are intact, that the built archive holds no live access tokens, and that the Hugging Face token can write. It adds a "Changes in this version" section to the dataset card from the history events since the last release, and tags the version (`v1.7`, ...) on the dataset, the archive, the Space and GitHub, so a citation can name a fixed version.
+First the release runs the gate (`tools/gate.py`, AGENTS.md section 7.10) on every change since the last release tag, with the stored documents, and stops if it fails. Then, before uploading, it checks that main is clean and pushed, that `meta.version` is higher than the published version and not yet tagged, that no record published before is missing (records are never deleted), that the history and the stored files are intact, that the built archive holds no live access tokens, and that the Hugging Face token can write. It adds a "Changes in this version" section to the dataset card from the history events since the last release, and tags the version (`v1.7`, ...) on the dataset, the archive, the Space and GitHub, so a citation can name a fixed version.
 
 The rhythm: run the archiver weekly to notice changed sources; rerun the pipeline over the full register at least once a month (recheck runs of at most 40 records each, to stay within usage limits), with refresh runs from the queue in between, a discover run per group of countries quarterly, and compare runs from the comparison queue (AGENTS.md sections 5 to 7); after a human has reviewed and merged a run's branch, bump `meta.version` (minor for added records, patch for corrections) and release. Use a fine-grained Hugging Face token with write access to these three repositories only, passed as `HF_TOKEN` for the release command. The archive dataset only grows; a history squash (`--squash-archive`) is for incidents such as a leaked credential.
 
