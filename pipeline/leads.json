@@ -173,6 +173,36 @@
    "added": "2026-10-16",
    "run_id": "2026-10-16-discover-leads-2018",
    "record_id": "FR-02"
+  },
+  {
+   "id": "L015",
+   "lead": "Sound Practices for Responsible Adoption of Artificial Intelligence (AI), final report (Financial Stability Board, 15 Oct 2026)",
+   "cell": "FSB/repository",
+   "url": "https://www.fsb.org/uploads/P151026-1.pdf",
+   "why": "FSB report on AI adoption by financial institutions, published 15 Oct 2026; an international body of supervisors, in scope without a note.",
+   "state": "queued",
+   "added_by": "Michael Riegler",
+   "added": "2026-10-16"
+  },
+  {
+   "id": "L016",
+   "lead": "Artificial intelligence and machine learning in financial services: market developments and financial stability implications (Financial Stability Board, 1 Nov 2017)",
+   "cell": "FSB/repository",
+   "url": "https://www.fsb.org/uploads/P011117.pdf",
+   "why": "The FSB's first report on AI and machine learning in financial services.",
+   "state": "queued",
+   "added_by": "Michael Riegler",
+   "added": "2026-10-16"
+  },
+  {
+   "id": "L017",
+   "lead": "Joint Committee Final Report on Big Data, JC/2018/04 (EBA, EIOPA and ESMA, 15 Mar 2018)",
+   "cell": "EU/supervisors",
+   "url": "https://www.esma.europa.eu/sites/default/files/library/jc-2018-04_joint_committee_final_report_on_big_data.pdf",
+   "why": "Joint guidance of the three European Supervisory Authorities on big data and advanced analytics, including machine learning; uses earlier terms than AI, so probably in with a scope note (see #30).",
+   "state": "queued",
+   "added_by": "Michael Riegler",
+   "added": "2026-10-16"
   }
  ]
 }
