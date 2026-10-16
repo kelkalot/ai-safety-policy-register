@@ -1,0 +1,97 @@
+{
+ "record": {
+  "official_url": "https://www.govinfo.gov/content/pkg/FR-2023-11-01/pdf/2023-24283.pdf"
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-24a27fbd15/2026-10-16/official.pdf",
+    "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+    "locator": "page 1",
+    "quote": "Executive Order 14110 of October 30, 2023",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-24a27fbd15/2026-10-16/official.pdf",
+    "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+    "locator": "page 1",
+    "quote": "Executive Order 14110 of October 30, 2023",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-24a27fbd15/2026-10-16/official.pdf",
+    "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+    "locator": "page 1",
+    "quote": "75191",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-24a27fbd15/2026-10-16/official.pdf",
+    "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+    "locator": "page 1",
+    "quote": "Executive Order 14110 of October 30, 2023",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-24a27fbd15/2026-10-16/official.pdf",
+    "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+    "locator": "signature block",
+    "quote": "October 30, 2023.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-5b4c27c439/2026-10-16/official.html",
+    "sha256": "ab3e74a704e5b49fa8eac7a1a268060c96c177deeb55e4b0148ae5828bc5236c",
+    "locator": "Sec. 2, page 8240",
+    "quote": "(ggg) Executive Order 14110 of October 30, 2023",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-5b4c27c439/2026-10-16/official.html",
+    "sha256": "ab3e74a704e5b49fa8eac7a1a268060c96c177deeb55e4b0148ae5828bc5236c",
+    "locator": "Sec. 2",
+    "quote": "Sec. 2. Revocation of Orders and Actions. The following",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-5b4c27c439/2026-10-16/official.html",
+    "sha256": "ab3e74a704e5b49fa8eac7a1a268060c96c177deeb55e4b0148ae5828bc5236c",
+    "locator": "signature",
+    "quote": "January 20, 2025.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "official_url": "The stored Federal Register page (and its secondary copy) are bot-check shells; the govinfo PDF of 88 FR 75191 is the instrument's own stored text, so it should be the official URL."
+  },
+  "confirmed": [
+   "title",
+   "official_identifier",
+   "date_published",
+   "date_in_force",
+   "status",
+   "date_last_updated"
+  ],
+  "status_reasoning": "EO 14148 (signed 20 Jan 2025, 90 FR 8237) revokes EO 14110 in Sec. 2 item (ggg)."
+ },
+ "extra_urls": [],
+ "open_questions": [],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "target_id": "US-04",
+ "decision": "update",
+ "cand_id": "US-04",
+ "leads": []
+}

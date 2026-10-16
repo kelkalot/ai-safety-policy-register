@@ -1,0 +1,178 @@
+{
+ "cand_id": "JP-04",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "JP-04",
+ "record": {
+  "official_url": "https://www.shugiin.go.jp/internet/itdb_housei.nsf/html/housei/21720250604053.htm",
+  "secondary_url": "https://laws.e-gov.go.jp/law/507AC0000000053",
+  "english_version": {
+   "kind": "government translation",
+   "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5066",
+   "by": "Ministry of Justice of Japan (Japanese Law Translation)"
+  },
+  "verification": {
+   "note": "Stored on 16 Oct 2026: the Act as promulgated (法律第五十三号（令七・六・四）) on the House of Representatives' list of laws enacted in the 217th Diet (shugiin.go.jp; plain HTML, also rendered and printed); e-Gov's text of the Act with its revision history (browser render and print; the plain download is an empty JavaScript shell), which lists the revisions in force from 4 Jun 2025 and 1 Sep 2025 and marks the latter as current; and the Ministry of Justice's Japanese Law Translation page with its bilingual PDF. Stored on 11 Oct 2026: the Cabinet Office's AI Act page, its one-page Japanese overview and its provisional English translation of the overview. The texts confirm the title, the number, the commencement clause (Supplementary Provisions Article 1) and Articles 1 to 28; the summary is written from the Japanese text. The English title follows the Japanese Law Translation, which renders 人工知能 in full; the Cabinet Office's provisional overview uses 'AI-related Technology'. Enactment on 28 May 2025 comes from the Cabinet Office overviews, full commencement on 1 Sep 2025 from the Cabinet Office page and e-Gov's revision history."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-d5f234a0a9/2026-10-16/official.html",
+    "sha256": "f4eb615fea9ab32addb5e15d9438ad215c6f2beb23bb025a295142fb3161cf33",
+    "locator": "page heading, English",
+    "quote": "Act on Promotion of Research and Development, and Utilization of Artificial Intelligence-related Technology（Act No. 53 of 2025）",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-1a375a60de/2026-10-16/official.html",
+    "sha256": "cd22f0534af71e7fdf8001fa6df205a7ddec2a4ad6ee27415618dd185934f640",
+    "locator": "law heading",
+    "quote": "法律第五十三号（令七・六・四） ◎人工知能関連技術の研究開発及び活用の推進に関する法律",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/JP-04/2026-10-11/official.html",
+    "sha256": "05380a580a25a9655145873475af7710d70161ccf3f85ed8304911b896310c36",
+    "locator": "page heading",
+    "quote": "人工知能関連技術の研究開発及び活用の推進に関する法律（ＡＩ法）",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-1a375a60de/2026-10-16/official.html",
+    "sha256": "cd22f0534af71e7fdf8001fa6df205a7ddec2a4ad6ee27415618dd185934f640",
+    "locator": "law heading",
+    "quote": "法律第五十三号（令七・六・四） ◎人工知能関連技術の研究開発及び活用の推進に関する法律",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-eb0fc0b12b/2026-10-16/official-rendered.html",
+    "sha256": "5044be9f8858e69789be0783000b98cc6e811f6f286972d8b2e1ce4377b02c6b",
+    "locator": "page heading",
+    "quote": "人工知能関連技術の研究開発及び活用の推進に関する法律（令和七年法律第五十三号）",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-1a375a60de/2026-10-16/official.html",
+    "sha256": "cd22f0534af71e7fdf8001fa6df205a7ddec2a4ad6ee27415618dd185934f640",
+    "locator": "law heading",
+    "quote": "法律第五十三号（令七・六・四）",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-d5f234a0a9/2026-10-16/official.html",
+    "sha256": "f4eb615fea9ab32addb5e15d9438ad215c6f2beb23bb025a295142fb3161cf33",
+    "locator": "law header",
+    "quote": "Act No. 53 of June 4, 2025",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-1a375a60de/2026-10-16/official.html",
+    "sha256": "cd22f0534af71e7fdf8001fa6df205a7ddec2a4ad6ee27415618dd185934f640",
+    "locator": "breadcrumb",
+    "quote": "第217回国会　制定法律の一覧",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/JP-04/2026-10-11/official.html",
+    "sha256": "05380a580a25a9655145873475af7710d70161ccf3f85ed8304911b896310c36",
+    "locator": "関連資料",
+    "quote": "人工知能関連技術の研究開発及び活用の推進に関する法律案に対する附帯決議（衆議院ホームページ）",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-d5f234a0a9/2026-10-16/official.html",
+    "sha256": "f4eb615fea9ab32addb5e15d9438ad215c6f2beb23bb025a295142fb3161cf33",
+    "locator": "law header",
+    "quote": "Act No. 53 of June 4, 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/JP-04/2026-10-11/official.html",
+    "sha256": "05380a580a25a9655145873475af7710d70161ccf3f85ed8304911b896310c36",
+    "locator": "概要, second paragraph",
+    "quote": "令和7年6月4日にＡＩ法が公布・一部施行され",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-1a375a60de/2026-10-16/official.html",
+    "sha256": "cd22f0534af71e7fdf8001fa6df205a7ddec2a4ad6ee27415618dd185934f640",
+    "locator": "附則, 第一条",
+    "quote": "第一条　この法律は、公布の日から施行する。",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-eb0fc0b12b/2026-10-16/official-rendered.html",
+    "sha256": "5044be9f8858e69789be0783000b98cc6e811f6f286972d8b2e1ce4377b02c6b",
+    "locator": "法令改正履歴",
+    "quote": "法令改正履歴 令和7年9月1日 施行 （新規制定） 令和7年6月4日 施行 （新規制定）",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/JP-04/2026-10-11/document-1.pdf",
+    "sha256": "31544306a9041edca18a84a2173c007c112ecbdf20e40ebd533e90b47ce7b9be",
+    "locator": "page 1, footnote",
+    "quote": "Partial enforcement: 4th June, 2025. Full enforcement: 1st September 2025.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-eb0fc0b12b/2026-10-16/official-rendered.html",
+    "sha256": "5044be9f8858e69789be0783000b98cc6e811f6f286972d8b2e1ce4377b02c6b",
+    "locator": "法令改正履歴",
+    "quote": "令和7年9月1日 施行 現在施行",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/JP-04/2026-10-11/official.html",
+    "sha256": "05380a580a25a9655145873475af7710d70161ccf3f85ed8304911b896310c36",
+    "locator": "概要, second paragraph",
+    "quote": "９月１日にはＡＩ戦略本部の設置に係る規定等も含め、全面施行されました。",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-1a375a60de/2026-10-16/official.html",
+    "sha256": "cd22f0534af71e7fdf8001fa6df205a7ddec2a4ad6ee27415618dd185934f640",
+    "locator": "第七条",
+    "quote": "第四条の規定に基づき国が実施する施策及び第五条の規定に基づき地方公共団体が実施する施策に協力しなければならない。",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "official_url": "the Act's own text as promulgated, on the House of Representatives' site (plain HTML, stored in this run); the Cabinet Office page described the Act but did not contain it",
+   "secondary_url": "unchanged URL (e-Gov), kept because its revision history is what a later refresh needs for the status and for amendments; it is a JavaScript application, so the archiver has to render it in a browser",
+   "english_version": "unchanged value; restated so that its URL is checked against the Japanese Law Translation page stored in this run",
+   "verification.note": "rewritten for the sources stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "official_identifier",
+   "issuing_body",
+   "date_published",
+   "date_in_force",
+   "status",
+   "legal_force"
+  ],
+  "status_reasoning": "Supplementary Provisions Article 1 brings the Act into force on promulgation (4 Jun 2025), except Chapters III and IV and Supplementary Provisions Articles 3 and 4, which take effect on a day set by Cabinet Order within three months. e-Gov's revision history (stored 16 Oct 2026) lists the revisions in force from 4 Jun 2025 and 1 Sep 2025, both new enactment, and marks the 1 Sep 2025 revision as current (現在施行); the Cabinet Office page says the Act has been fully in force since 1 Sep 2025. No later revision is listed, so 'In force' stands and date_last_updated stays null."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

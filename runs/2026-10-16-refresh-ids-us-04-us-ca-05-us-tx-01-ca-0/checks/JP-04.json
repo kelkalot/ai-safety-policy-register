@@ -1,0 +1,58 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-16",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "cand_id": "JP-04",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Basic principles require transparency in R&D and use because wrongful use can abet crime, personal-data leaks and copyright infringement (Art. 3(4)); leading role in international cooperation (Art. 3(5))",
+   "verdict": "supported",
+   "locator": "Art. 3, paras 4-5; literal: 'may foster ... use for crime, leakage of personal information, infringement of copyright'"
+  },
+  {
+   "claim": "State analyses cases of rights infringement and gives guidance, advice and information (Art. 16); guidelines in line with international norms (Art. 13)",
+   "verdict": "supported",
+   "locator": "Arts. 13, 16"
+  },
+  {
+   "claim": "Art. 7 business duty '協力しなければならない' (must cooperate); Art. 6 and 8 'よう努めるものとする'",
+   "verdict": "supported",
+   "locator": "Arts. 6-8; JLT English also says 'must cooperate'"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Title follows the Japanese Law Translation (government translation, english_version kind correct and stored). Original title and number match the House of Representatives and e-Gov texts. Minor imprecision in notes (unchanged by the run): Supplementary Provision Art. 1 defers Chapters III and IV and also Supplementary Arts. 3 and 4 to a Cabinet Order within three months. e-Gov shows the 1 Sep 2025 revision as current. No later amendment found in stored material."
+}

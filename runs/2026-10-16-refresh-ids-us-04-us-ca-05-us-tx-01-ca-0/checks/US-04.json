@@ -1,0 +1,58 @@
+{
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-16",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "cand_id": "US-04",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Interim thresholds of 10^26 operations (10^23 for models trained mainly on biological sequence data) and large computing clusters",
+   "verdict": "supported",
+   "locator": "Sec. 4.2(b), FR page with 'Until such technical conditions are defined'"
+  },
+  {
+   "claim": "Under the Defense Production Act the Secretary of Commerce requires reports on training, model-weight ownership/security and red-team results",
+   "verdict": "supported",
+   "locator": "Sec. 4.2(a)"
+  },
+  {
+   "claim": "NIST guidance and benchmarks for AI safety, red-teaming and evaluation",
+   "verdict": "supported",
+   "locator": "Sec. 4.1(a)"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": "Executive order on AI safety and security; revoked but kept for context."
+ },
+ "overall": "accept",
+ "note": "Revoked status rests on EO 14148 Sec. 2(ggg) in the stored Federal Register text; title, date, number and summary claims match the stored FR printing. date_in_force equals the signing date; the order states no other effective date. The notes on EO 14179 and the fate of the implementing instruments are not in this record's stored files and rest on other records (as the verification note says). A targeted search found no newer version of an order revoked in 2025."
+}

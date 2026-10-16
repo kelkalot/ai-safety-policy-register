@@ -1,0 +1,93 @@
+{
+ "cand_id": "US-TX-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "US-TX-01",
+ "record": {
+  "notes": "Chapter 552 took effect on 1 Jan 2026. The Attorney General has exclusive enforcement authority and must run an online complaint mechanism; the chapter gives no private right of action. Before suing, the Attorney General must give written notice and wait 60 days, during which the violation can be cured. Civil penalties are $10,000 to $12,000 for a curable violation, $80,000 to $200,000 for an uncurable one and $2,000 to $40,000 a day for a continuing one. A rebuttable presumption of reasonable care applies. A defendant is not liable if another person misuses the system, or if it discovers the violation through feedback, testing including red-teaming, state agency guidelines, or an internal review while substantially complying with the NIST AI Risk Management Framework Generative AI Profile or a comparable framework. State agencies may add sanctions of up to $100,000 against their licensees. Chapter 552 preempts local rules on AI.",
+  "verification": {
+   "note": "Stored: Business and Commerce Code Chapter 552 from the Texas Statutes site (statutes.capitol.texas.gov, a JavaScript application, stored with a headless browser as page and print PDF), which gives the text summarised here and, after each section, 'Added by Acts 2025, 89th Leg., R.S., Ch. 1174 (H.B. 149), Sec. 4, eff. January 1, 2026'. The enrolled bill and the bill history on capitol.texas.gov are closed to automated downloads by the site's robots.txt, and the Legislative Reference Library refuses automated access, so the short title 'Texas Responsible Artificial Intelligence Governance Act', the Governor's signature on 22 Jun 2025 and the Act's other parts (a regulatory sandbox and a Texas Artificial Intelligence Council) are not confirmed from a stored official text; they rest on secondary sources."
+  }
+ },
+ "evidence": {
+  "date_in_force": [
+   {
+    "file": "archive/US-TX-01/2026-10-16/official-print.pdf",
+    "sha256": "ee51cb08480876b684e559d42224a1633fcdf4d61a1edd4613cf6f74f7250f52",
+    "locator": "page 3, Sec. 552.001, history note",
+    "quote": "Added by Acts 2025, 89th Leg., R.S., Ch. 1174 (H.B. 149), Sec. 4, eff. January 1, 2026.",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/US-TX-01/2026-10-16/official-print.pdf",
+    "sha256": "ee51cb08480876b684e559d42224a1633fcdf4d61a1edd4613cf6f74f7250f52",
+    "locator": "page 3, chapter heading",
+    "quote": "BUSINESS AND COMMERCE CODE TITLE 11. PERSONAL IDENTITY INFORMATION SUBTITLE D. ARTIFICIAL INTELLIGENCE PROTECTION CHAPTER 552. ARTIFICIAL INTELLIGENCE PROTECTION",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-TX-01/2026-10-16/official-print.pdf",
+    "sha256": "ee51cb08480876b684e559d42224a1633fcdf4d61a1edd4613cf6f74f7250f52",
+    "locator": "page 3, Sec. 552.001, history note",
+    "quote": "Added by Acts 2025, 89th Leg., R.S., Ch. 1174 (H.B. 149), Sec. 4, eff. January 1, 2026.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/US-TX-01/2026-10-16/official-print.pdf",
+    "sha256": "ee51cb08480876b684e559d42224a1633fcdf4d61a1edd4613cf6f74f7250f52",
+    "locator": "page 3, Sec. 552.001, history note",
+    "quote": "Added by Acts 2025, 89th Leg., R.S., Ch. 1174 (H.B. 149), Sec. 4, eff. January 1, 2026.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-TX-01/2026-10-16/official-print.pdf",
+    "sha256": "ee51cb08480876b684e559d42224a1633fcdf4d61a1edd4613cf6f74f7250f52",
+    "locator": "page 1, site notice",
+    "quote": "The statutes available on this website are current through the 89th 2nd Called Legislative Session, 2025.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/US-TX-01/2026-10-16/official-print.pdf",
+    "sha256": "ee51cb08480876b684e559d42224a1633fcdf4d61a1edd4613cf6f74f7250f52",
+    "locator": "page 7, Sec. 552.101",
+    "quote": "Sec. 552.101. ENFORCEMENT AUTHORITY. (a) The attorney general has exclusive authority to enforce this chapter",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-TX-01/2026-10-16/official-print.pdf",
+    "sha256": "ee51cb08480876b684e559d42224a1633fcdf4d61a1edd4613cf6f74f7250f52",
+    "locator": "page 8, Sec. 552.105",
+    "quote": "A person who violates this chapter and does not cure the violation under Section 552.104 is liable to this state for a civil penalty",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "notes": "rewritten from Chapter 552: the research remark ('not verified on the fetched page') removed, the unconfirmed sandbox and council claim moved to verification.note, and the enforcement details (notice and cure, penalty ranges, defences, agency sanctions, preemption) added from Sections 552.003 and 552.101 to 552.106",
+   "verification.note": "rewritten: it named 'researcher knowledge' and repeated the unconfirmed claim twice"
+  },
+  "confirmed": [
+   "date_in_force",
+   "official_identifier",
+   "status",
+   "legal_force"
+  ],
+  "status_reasoning": "Business and Commerce Code Chapter 552, stored from the Texas Statutes site on 16 Oct 2026, carries after every section the note 'Added by Acts 2025, 89th Leg., R.S., Ch. 1174 (H.B. 149), Sec. 4, eff. January 1, 2026', and the site says it is current through the 89th Legislature's 2nd Called Session, 2025. 1 Jan 2026 is before today (16 Oct 2026), so 'In force' and date_in_force 2026-01-01 stand for Chapter 552. Whether the Act's other parts carry other dates cannot be checked without the enrolled bill.",
+  "url_reasoning": "official_url (Chapter 552 on the Texas Statutes site) is the enacted text of the Act's main chapter and stays; it also gives the effective date. The enrolled bill, which would give the short title and the other chapters, cannot be stored, so no URL change is proposed."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "title: no stored official text gives the short title 'Texas Responsible Artificial Intelligence Governance Act'; Chapter 552 is headed 'Artificial Intelligence Protection'. The enrolled bill (capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.HTM) is closed to the archiver by robots.txt and needs a person to provide it (AGENTS.md 7.8).",
+  "date_published (2025-06-22) and 'signed by Governor Greg Abbott' in issuing_body rest on no stored source; the Texas Legislature Online bill history (/BillLookup/) is closed by robots.txt and the Legislative Reference Library refuses automated access, so the signing date needs a person to provide the history page or another official record of the signature.",
+  "The regulatory sandbox and the Texas Artificial Intelligence Council, which the Act is said to create in other chapters, are not in the stored text; they wait for the enrolled bill."
+ ]
+}

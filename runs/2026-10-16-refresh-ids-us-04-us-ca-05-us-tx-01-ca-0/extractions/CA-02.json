@@ -1,0 +1,181 @@
+{
+ "cand_id": "CA-02",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "CA-02",
+ "record": {
+  "official_url": "https://www.parl.ca/Content/Bills/441/Government/C-27/C-27_1/C-27_1.PDF",
+  "secondary_url": "https://www.parl.ca/legisinfo/en/bill/44-1/c-27",
+  "safety_topics": [
+   "risk-based classification",
+   "transparency & labelling",
+   "incident reporting",
+   "accountability & liability"
+  ],
+  "notes": "Introduced 16 June 2022 (first reading); second reading and referral to the Standing Committee on Industry and Technology 24 April 2023, with a separate vote on Part 3; last committee meeting 26 Sept 2024. The Artificial Intelligence and Data Act would have come into force on a day or days fixed by order of the Governor in Council (its section 41). The 1st Session of the 44th Parliament was prorogued on 6 Jan 2025, and government bills without royal assent ceased to exist, so the bill died at committee stage. No AIDA successor as of Oct 2026: the June 2026 National AI Strategy relies on privacy and online-safety law modernisation instead. Bill C-36 (Protecting Privacy and Consumer Data Act, first reading 15 June 2026, sponsored by the Minister of AI and Digital Innovation) re-enacts only the privacy part of C-27, including disclosure on automated decision systems.",
+  "verification": {
+   "note": "Stored: the bill's text at first reading (parl.ca PDF, 16 June 2022), from which Part 3 is summarised; the LEGISinfo page for C-27 (44-1), which gives the full title, first reading 16 June 2022, second reading and referral 24 April 2023, consideration in committee 'Not completed' and the end of the session on 6 Jan 2025; the House of Commons Speaker's news release of 6 Jan 2025 on the prorogation and its effect on government bills (ourcommons.ca, a host not yet listed in pipeline/official-sites.json); and ISED's archived AIDA page (modified 2025-12-09). The statements on Bill C-36 and the June 2026 strategy rest on the verification of 11 Oct 2026 (LEGISinfo 45-1/c-36), not on files stored in this run. A press report of late Sept 2026 quotes AI Minister Evan Solomon saying that AI deployment needs regulation, without details; no official source for it was stored."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/CA-02/extra-218229b95c/2026-10-16/official.pdf",
+    "sha256": "a219dfa522bf5a00e71c68145aad2adabae97a03a4e07103aa814d8c7291a702",
+    "locator": "page 1, title",
+    "quote": "An Act to enact the Consumer Privacy Protection Act, the Personal Information and Data Protection Tribunal Act and the Artificial Intelligence and Data Act and to make consequential and related amendments to other Acts",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CA-02/2026-10-11/official.html",
+    "sha256": "3f71f5a0e5e2c3ea119a6cbece6dd376e945f55a971225f59a409c5857bb4038",
+    "locator": "bill heading",
+    "quote": "Short title: Digital Charter Implementation Act, 2022",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CA-02/2026-10-11/official.html",
+    "sha256": "3f71f5a0e5e2c3ea119a6cbece6dd376e945f55a971225f59a409c5857bb4038",
+    "locator": "Progress, House of Commons, second reading",
+    "quote": "2nd reading and referral to committee - Part 3",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/CA-02/extra-218229b95c/2026-10-16/official.pdf",
+    "sha256": "a219dfa522bf5a00e71c68145aad2adabae97a03a4e07103aa814d8c7291a702",
+    "locator": "page 1",
+    "quote": "FIRST READING, JUNE 16, 2022",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CA-02/2026-10-11/official.html",
+    "sha256": "3f71f5a0e5e2c3ea119a6cbece6dd376e945f55a971225f59a409c5857bb4038",
+    "locator": "Progress, House of Commons, first reading",
+    "quote": "Introduction and first reading, Thursday, June 16, 2022",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/CA-02/2026-10-11/official.html",
+    "sha256": "3f71f5a0e5e2c3ea119a6cbece6dd376e945f55a971225f59a409c5857bb4038",
+    "locator": "historical information banner",
+    "quote": "The information below relates to a prior session.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CA-02/2026-10-11/official.html",
+    "sha256": "3f71f5a0e5e2c3ea119a6cbece6dd376e945f55a971225f59a409c5857bb4038",
+    "locator": "bill heading",
+    "quote": "44th Parliament, 1st session Monday, November 22, 2021, to Monday, January 6, 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CA-02/2026-10-11/official.html",
+    "sha256": "3f71f5a0e5e2c3ea119a6cbece6dd376e945f55a971225f59a409c5857bb4038",
+    "locator": "Progress, House of Commons, consideration in committee",
+    "quote": "Consideration in committee Not completed Standing Committee on Industry and Technology",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/CA-02/extra-4a816bf7bb/2026-10-16/official.pdf",
+    "sha256": "dc85a3b227962071adaa143608c13c3878e0ce04f06cdfa84fce7829be2a551a",
+    "locator": "page 1",
+    "quote": "All government bills that have not received royal assent prior to prorogation cease to exist",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/CA-02/2026-10-11/official.html",
+    "sha256": "3f71f5a0e5e2c3ea119a6cbece6dd376e945f55a971225f59a409c5857bb4038",
+    "locator": "bill heading",
+    "quote": "44th Parliament, 1st session Monday, November 22, 2021, to Monday, January 6, 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/CA-02/extra-4a816bf7bb/2026-10-16/official.pdf",
+    "sha256": "dc85a3b227962071adaa143608c13c3878e0ce04f06cdfa84fce7829be2a551a",
+    "locator": "page 1",
+    "quote": "A Proclamation was issued today, January 6, 2025, proroguing the First Session of the 44th Parliament, effective immediately.",
+    "source_kind": "secondary"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/CA-02/2026-10-11/official.html",
+    "sha256": "3f71f5a0e5e2c3ea119a6cbece6dd376e945f55a971225f59a409c5857bb4038",
+    "locator": "page title",
+    "quote": "C-27 (44-1) - LEGISinfo - Parliament of Canada",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/CA-02/extra-218229b95c/2026-10-16/official.pdf",
+    "sha256": "a219dfa522bf5a00e71c68145aad2adabae97a03a4e07103aa814d8c7291a702",
+    "locator": "page 1",
+    "quote": "First Session, Forty-fourth Parliament, 70-71 Elizabeth II, 2021-2022",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/CA-02/2026-10-11/official.html",
+    "sha256": "3f71f5a0e5e2c3ea119a6cbece6dd376e945f55a971225f59a409c5857bb4038",
+    "locator": "bill details",
+    "quote": "Bill type House Government Bill Sponsor Minister of Innovation, Science and Industry",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/CA-02/extra-218229b95c/2026-10-16/official.pdf",
+    "sha256": "a219dfa522bf5a00e71c68145aad2adabae97a03a4e07103aa814d8c7291a702",
+    "locator": "page 1",
+    "quote": "MINISTER OF INNOVATION, SCIENCE AND INDUSTRY",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/CA-02/2026-10-11/official.html",
+    "sha256": "3f71f5a0e5e2c3ea119a6cbece6dd376e945f55a971225f59a409c5857bb4038",
+    "locator": "bill details",
+    "quote": "Current status At consideration in committee in the House of Commons",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/CA-02/2026-10-11/secondary.html",
+    "sha256": "4463ce56374f1c0347fa9818edb721299d065d524bc939a0df0d163f75617ac1",
+    "locator": "The Artificial Intelligence and Data Act",
+    "quote": "The proposed Artificial Intelligence and Data Act (AIDA), introduced as part of the Digital Charter Implementation Act, 2022",
+    "source_kind": "alt-official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "official_url": "the bill's own text at first reading (parl.ca PDF, stored in this run); the record had only the LEGISinfo status page and ISED's description",
+   "secondary_url": "LEGISinfo, the page a later refresh needs for the bill's status; ISED's archived AIDA page drops out",
+   "safety_topics": "'general-purpose / frontier AI' dropped: the bill's text at first reading regulates high-impact systems and has no provision on general-purpose systems or models",
+   "notes": "the prorogation and its effect now rest on the Speaker's release; the order-in-council commencement of the Artificial Intelligence and Data Act added (its section 41); the press-report sentence and the remark that Bill C-36 is excluded from the register removed",
+   "verification.note": "rewritten for the sources stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "date_last_updated",
+   "official_identifier",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "LEGISinfo (stored 11 Oct 2026) marks the page as relating to a prior session, gives the 1st session of the 44th Parliament as 22 Nov 2021 to 6 Jan 2025, and shows consideration in committee 'Not completed', report stage and third reading 'Not reached' and no Senate stage. The Speaker's release of 6 Jan 2025 says that the session was prorogued that day and that government bills without royal assent cease to exist. C-27 had not left committee, so it fell: 'Lapsed' stands, with legal_force 'Proposed' and date_last_updated 2025-01-06.",
+  "summary_check": "The summary's account of Part 3 matches the bill's text: assessment of whether a system is high-impact (s. 7), risk mitigation (s. 8), monitoring (s. 9), records (s. 10), plain-language public descriptions (s. 11), notification of material harm (s. 12), the Artificial Intelligence and Data Commissioner (s. 33) and the offence of making available a system whose use causes serious harm (s. 39)."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "ourcommons.ca (House of Commons) is not in pipeline/official-sites.json for CA, so the Speaker's release counts as secondary until a person records the host; LEGISinfo on parl.ca carries the status on its own."
+ ]
+}

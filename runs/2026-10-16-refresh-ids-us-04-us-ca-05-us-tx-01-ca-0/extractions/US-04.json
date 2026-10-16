@@ -1,0 +1,148 @@
+{
+ "cand_id": "US-04",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "US-04",
+ "record": {
+  "official_url": "https://www.govinfo.gov/content/pkg/FR-2023-11-01/pdf/2023-24283.pdf",
+  "secondary_url": "https://govinfo.gov/content/pkg/FR-2025-01-28/html/2025-01901.htm",
+  "summary": "Comprehensive federal order on AI safety and security. Under the Defense Production Act it directed the Secretary of Commerce to require companies developing potential dual-use foundation models to report on training, model-weight security and the results of red-team testing, with interim thresholds of 10^26 operations (10^23 for models trained mainly on biological sequence data) and for large computing clusters. It tasked NIST with guidelines and benchmarks for AI safety, red-teaming and evaluation, and directed agency action on synthetic-content labelling, critical infrastructure and cybersecurity, chemical, biological, radiological and nuclear risks, and federal use of AI.",
+  "safety_topics": [
+   "general-purpose / frontier AI",
+   "evaluation & testing",
+   "catastrophic risk",
+   "critical infrastructure",
+   "transparency & labelling",
+   "public-sector use"
+  ],
+  "verification": {
+   "note": "Stored on 16 Oct 2026 from govinfo.gov (Government Publishing Office): the Federal Register printing of EO 14110 (Vol. 88, No. 210, 1 Nov 2023, pp. 75191-75226, FR Doc. 2023-24283), which gives the title, the number, the signing on 30 Oct 2023 and the provisions summarised; and the Federal Register text of EO 14148 of 20 Jan 2025 (FR Doc. 2025-01901), whose section 2 lists EO 14110 among the orders revoked. federalregister.gov has answered the archiver only with a bot-check page since 11 Oct 2026, so official_url now points at the govinfo.gov copy of the same Federal Register issue. The statements in notes on EO 14179 and on the fate of the implementing instruments rest on the records US-11, US-05, US-06 and US-09, not on files stored for this record."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-24a27fbd15/2026-10-16/official.pdf",
+    "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+    "locator": "page 1, heading",
+    "quote": "Executive Order 14110 of October 30, 2023",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-5b4c27c439/2026-10-16/official.html",
+    "sha256": "ab3e74a704e5b49fa8eac7a1a268060c96c177deeb55e4b0148ae5828bc5236c",
+    "locator": "Sec. 2 (ggg)",
+    "quote": "(ggg) Executive Order 14110 of October 30, 2023 (Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence).",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-24a27fbd15/2026-10-16/official.pdf",
+    "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+    "locator": "page 1, heading",
+    "quote": "Executive Order 14110 of October 30, 2023",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-24a27fbd15/2026-10-16/official.pdf",
+    "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+    "locator": "page 36, signature",
+    "quote": "THE WHITE HOUSE, October 30, 2023.",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-24a27fbd15/2026-10-16/official.pdf",
+    "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+    "locator": "page 36, signature",
+    "quote": "THE WHITE HOUSE, October 30, 2023.",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-24a27fbd15/2026-10-16/official.pdf",
+    "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+    "locator": "page 1, header",
+    "quote": "75191 Federal Register Vol. 88, No. 210 Wednesday, November 1, 2023",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-24a27fbd15/2026-10-16/official.pdf",
+    "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+    "locator": "page 36, FR Doc. line",
+    "quote": "[FR Doc. 2023–24283 Filed 10–31–23; 11:15 am]",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-24a27fbd15/2026-10-16/official.pdf",
+    "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+    "locator": "page 1, heading",
+    "quote": "Title 3— The President Executive Order 14110 of October 30, 2023",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-24a27fbd15/2026-10-16/official.pdf",
+    "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+    "locator": "page 1, preamble",
+    "quote": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered as follows:",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-5b4c27c439/2026-10-16/official.html",
+    "sha256": "ab3e74a704e5b49fa8eac7a1a268060c96c177deeb55e4b0148ae5828bc5236c",
+    "locator": "Sec. 2",
+    "quote": "Sec. 2. Revocation of Orders and Actions. The following executive actions are hereby revoked:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-5b4c27c439/2026-10-16/official.html",
+    "sha256": "ab3e74a704e5b49fa8eac7a1a268060c96c177deeb55e4b0148ae5828bc5236c",
+    "locator": "Sec. 2 (ggg)",
+    "quote": "(ggg) Executive Order 14110 of October 30, 2023 (Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence).",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-5b4c27c439/2026-10-16/official.html",
+    "sha256": "ab3e74a704e5b49fa8eac7a1a268060c96c177deeb55e4b0148ae5828bc5236c",
+    "locator": "heading",
+    "quote": "Executive Order 14148 of January 20, 2025 Initial Rescissions of Harmful Executive Orders and Actions",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "official_url": "the Federal Register printing of the order on govinfo.gov, stored in this run; federalregister.gov serves the archiver only a bot-check page, so the record had no stored text of its own",
+   "secondary_url": "EO 14148 as printed in the Federal Register (govinfo.gov, stored in this run): the revoking order, which is the source a later refresh needs for the status",
+   "summary": "rewritten from the order's text: the order directed the Secretary of Commerce to require the reports under the Defense Production Act (section 4.2), rather than requiring them itself, and the interim thresholds and the CBRN section (4.4) are named",
+   "safety_topics": "eight values cut to six as the vocabulary rule requires; 'safety institute' dropped because the order's text does not mention a safety institute, and 'national security & military' dropped as the least central of the remaining ones (the order directs a national security memorandum in section 4.8)",
+   "verification.note": "rewritten for the sources stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "date_in_force",
+   "official_identifier",
+   "issuing_body",
+   "legal_force",
+   "status",
+   "date_last_updated"
+  ],
+  "status_reasoning": "EO 14148 of 20 Jan 2025 (Federal Register of 28 Jan 2025, FR Doc. 2025-01901), section 2, revokes a list of orders that includes '(ggg) Executive Order 14110 of October 30, 2023'. So 'Revoked / withdrawn' stands, with date_last_updated 2025-01-20, the date of the revoking order. The order took effect on signature: it states no other date, and the signature line reads 'THE WHITE HOUSE, October 30, 2023.'"
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

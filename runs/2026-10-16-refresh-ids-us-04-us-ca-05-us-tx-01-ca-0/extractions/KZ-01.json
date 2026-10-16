@@ -1,0 +1,155 @@
+{
+ "cand_id": "KZ-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "KZ-01",
+ "record": {
+  "official_url": "https://old.adilet.zan.kz/rus/docs/Z2500000230",
+  "secondary_url": "https://www.akorda.kz/ru/glavoy-gosudarstva-podpisan-zakon-respubliki-kazahstan-ob-iskusstvennom-intellekte-17105536",
+  "official_identifier": "Law No. 230-VIII ZRK (№ 230-VIII ЗРК) of 17 November 2025",
+  "date_last_updated": "2026-06-24",
+  "summary": "Framework AI law. It defines an AI system as a digital object working on one or more AI models and sets principles including fairness, transparency and explainability, responsibility and controllability, priority of human well-being, and safety. Systems are classed by risk and by autonomy. It bans creating or operating systems with prohibited capabilities, among them manipulative or subliminal techniques, exploiting vulnerabilities, social scoring, biometric categorisation for discrimination and emotion recognition without consent. Owners and holders must manage risks; users must be told when goods or services use AI, and synthetic outputs must carry machine-readable labels.",
+  "safety_topics": [
+   "prohibited practices",
+   "risk-based classification",
+   "transparency & labelling",
+   "accountability & liability",
+   "human oversight",
+   "deepfakes & synthetic media"
+  ],
+  "notes": "Signed on 17 Nov 2025, together with a companion law amending other legislative acts on AI and digitalisation. That companion law aligns existing laws with the AI Law and also covers digital assets, personal-data consent and information security. Under Article 31 the law enters into force 60 calendar days after the day of its first official publication. Amended by Law No. 326-VIII of 24 Jun 2026 (Articles 1, 13, 17, 20 and 28), which also enters into force 60 calendar days after its first official publication. High-risk systems classed as critically important digital objects are treated like state systems for cybersecurity; sectoral agencies publish lists of trusted high-risk systems, for which an audit is required. Works created with AI are protected by copyright only where a human made a creative contribution, and works may be used for training only if the author or rightholder has not objected in machine-readable form.",
+  "verification": {
+   "note": "Stored on 16 Oct 2026: the law's Russian text on Әділет, the legal information system of the Institute of Legislation and Legal Information of the Ministry of Justice (old.adilet.zan.kz; consolidated text with the amendment footnotes), which gives the number, the date, Article 31 on entry into force and the provisions summarised; the summary is written from it. Stored on 11 Oct 2026: the Akorda (Presidential Office) notices of 17 Nov 2025 on the signing of this law and of the companion amendments law. The Әділет information, history and English pages, and the announcement of entry into force by the Ministry of Artificial Intelligence and Digital Development (gov.kz, a JavaScript shell), could not be stored, so the date of first official publication, the exact date of entry into force and the adopting body are not confirmed from a stored source; date_in_force stays empty. The English title is a rendering of the Russian title; Әділет's English text, marked as an unofficial translation, was not stored. Earlier notes said Kazakhstan created a Ministry of Artificial Intelligence and Digital Development in 2025; no source for it was stored for this record."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/KZ-01/2026-10-11/official.html",
+    "sha256": "0f102b557887ced4a64972f6b12d7f9c044f895185cf7fff619e4b4570d9363d",
+    "locator": "notice heading",
+    "quote": "Главой государства подписан Закон Республики Казахстан «Об искусственном интеллекте»",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/KZ-01/extra-801f866bb3/2026-10-16/official.html",
+    "sha256": "af4366490e520ea166e23d330ddfb094ad39021255b62c633b5ba8ecc703e39b",
+    "locator": "document heading",
+    "quote": "Об искусственном интеллекте Обновленный Закон Республики Казахстан от 17 ноября 2025 года № 230-VIII ЗРК.",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/KZ-01/2026-10-11/official.html",
+    "sha256": "0f102b557887ced4a64972f6b12d7f9c044f895185cf7fff619e4b4570d9363d",
+    "locator": "notice heading",
+    "quote": "Главой государства подписан Закон Республики Казахстан «Об искусственном интеллекте»",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/KZ-01/2026-10-11/official.html",
+    "sha256": "0f102b557887ced4a64972f6b12d7f9c044f895185cf7fff619e4b4570d9363d",
+    "locator": "notice heading and date",
+    "quote": "Главой государства подписан Закон Республики Казахстан «Об искусственном интеллекте» 17 ноября 2025 года",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/KZ-01/extra-801f866bb3/2026-10-16/official.html",
+    "sha256": "af4366490e520ea166e23d330ddfb094ad39021255b62c633b5ba8ecc703e39b",
+    "locator": "document heading",
+    "quote": "Закон Республики Казахстан от 17 ноября 2025 года № 230-VIII ЗРК.",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/KZ-01/extra-801f866bb3/2026-10-16/official.html",
+    "sha256": "af4366490e520ea166e23d330ddfb094ad39021255b62c633b5ba8ecc703e39b",
+    "locator": "document heading",
+    "quote": "Закон Республики Казахстан от 17 ноября 2025 года № 230-VIII ЗРК.",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/KZ-01/extra-801f866bb3/2026-10-16/official.html",
+    "sha256": "af4366490e520ea166e23d330ddfb094ad39021255b62c633b5ba8ecc703e39b",
+    "locator": "Article 1, footnote",
+    "quote": "Сноска. Статья 1 с изменениями, внесенными Законом РК от 24.06.2026 № 326-VIII (вводится в действие по истечении шестидесяти календарных дней после дня его первого официального опубликования).",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/KZ-01/extra-801f866bb3/2026-10-16/official.html",
+    "sha256": "af4366490e520ea166e23d330ddfb094ad39021255b62c633b5ba8ecc703e39b",
+    "locator": "Article 31",
+    "quote": "Статья 31. Порядок введения в действие настоящего Закона Настоящий Закон вводится в действие по истечении шестидесяти календарных дней после дня его первого официального опубликования.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/KZ-01/2026-10-11/official.html",
+    "sha256": "0f102b557887ced4a64972f6b12d7f9c044f895185cf7fff619e4b4570d9363d",
+    "locator": "notice, last paragraph",
+    "quote": "Текст Закона публикуется в печати.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/KZ-01/extra-801f866bb3/2026-10-16/official.html",
+    "sha256": "af4366490e520ea166e23d330ddfb094ad39021255b62c633b5ba8ecc703e39b",
+    "locator": "Article 17(3)",
+    "quote": "На территории Республики Казахстан запрещаются создание и эксплуатация систем искусственного интеллекта, обладающих одной из следующих функциональных возможностей",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/KZ-01/2026-10-11/official.html",
+    "sha256": "0f102b557887ced4a64972f6b12d7f9c044f895185cf7fff619e4b4570d9363d",
+    "locator": "notice, first paragraph",
+    "quote": "Законом введены основополагающие принципы функционирования систем искусственного интеллекта.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "official_url": "the law's own Russian text on Әділет (old.adilet.zan.kz, plain HTML, stored in this run); the Akorda notice only announces the signature. old.adilet.zan.kz is not yet in pipeline/official-sites.json, so its quotes count as secondary until a person records the host",
+   "secondary_url": "the Akorda signing notice, formerly official_url: the official record of the President's signature and of the publication of the text; the Akorda notice on the companion law drops out",
+   "official_identifier": "the number from the Әділет heading 'от 17 ноября 2025 года № 230-VIII ЗРК'",
+   "date_last_updated": "Әділет footnotes to Articles 1, 13, 17, 20 and 28 record amendments by the law of 24.06.2026 No. 326-VIII",
+   "summary": "rewritten from the Russian text: an AI system is now defined as a 'цифровой объект' (digital object), not an object of informatisation; goods and services made with AI require informing users (Article 21(1)), while labelling applies to synthetic outputs (Article 21(2)); the risk and autonomy classes and the full list of prohibitions (Article 17) added; the evaluative 'Central Asia's first comprehensive AI law' removed",
+   "safety_topics": "'risk-based classification' added for the minimal, medium and high risk classes of Article 17(1)",
+   "notes": "the commencement rule (Article 31) and the 2026 amendment added from the text, and the provisions on high-risk systems, audit and copyright; research remarks removed ('reportedly', 'assumes', 'could not be fetched', 'Uzbekistan and other Central Asian states were not covered', 'referenced on primeminister.kz')",
+   "verification.note": "rewritten for the sources stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "date_published",
+   "official_identifier",
+   "date_last_updated",
+   "status",
+   "legal_force"
+  ],
+  "status_reasoning": "Article 31 (Әділет text stored 16 Oct 2026): the law enters into force 60 calendar days after the day of its first official publication. The Akorda notice of 17 Nov 2025 records the signature and says 'Текст Закона публикуется в печати' (the text is being published in the press), so publication followed the signature in November 2025 and the 60 days ran out in January 2026, long before today (16 Oct 2026). The consolidated text on Әділет also carries amendments of 24 Jun 2026 to the law. So 'In force' stands. The exact date of entry into force needs the date of first publication, which is not in a stored file; date_in_force stays null."
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "Law of the Republic of Kazakhstan of 24 Jun 2026 No. 326-VIII amending the AI Law",
+   "url": null,
+   "note": "Named in Әділет footnotes to Articles 1, 13, 17, 20 and 28 of the AI Law as the amending law; its full subject is not known; not in the register."
+  }
+ ],
+ "open_questions": [
+  "date_in_force is null: Article 31 counts 60 calendar days from the first official publication, whose date is on the Әділет information page that could not be stored (the server closed the connection).",
+  "issuing_body names Parliament, which no stored file states; the Әділет information page names the adopting body. The text is signed 'Президент Республики Казахстан К. ТОКАЕВ'.",
+  "english_version is not recorded: Әділет publishes an English text marked as an unofficial translation, but the archiver could not store it.",
+  "old.adilet.zan.kz is not in pipeline/official-sites.json for KZ; the site names itself the legal information system of the Ministry of Justice's Institute of Legislation and Legal Information. Until a person records it with hosts --add, quotes from it count as secondary, and after the merge the record's level will rest on the Akorda notice as secondary_url."
+ ]
+}

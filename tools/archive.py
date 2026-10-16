@@ -120,6 +120,16 @@ def iso(t):
     return t.strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
+def robots_allow(rp, url):
+    """robots.txt allows the URL, and allows it when rules and path are compared without letter case. Many servers
+    ignore case, so a rule for /TLODOCS/ also means /tlodocs/; this never allows more than the plain check."""
+    if not rp.can_fetch(AGENT_TOKEN, url):
+        return False
+    folded = getattr(rp, "folded", None)
+    u = urllib.parse.urlsplit(url)
+    return folded is None or folded.can_fetch(AGENT_TOKEN.lower(), urllib.parse.urlunsplit(u._replace(path=u.path.lower())))
+
+
 def iri_to_uri(url):
     """Percent-encode non-ASCII paths and IDNA-encode hosts so urllib accepts the URL."""
     p = urllib.parse.urlsplit(url.strip())
@@ -381,7 +391,10 @@ class Fetcher:
             self._pace(p.netloc)
             try:
                 status, _, _, body = self._raw(base + "/robots.txt")
-                rp.parse(body.decode("utf-8", errors="replace").splitlines() if status == 200 else [])
+                lines = body.decode("utf-8", errors="replace").splitlines() if status == 200 else []
+                rp.parse(lines)
+                rp.folded = urllib.robotparser.RobotFileParser()  # the same rules in lower case (robots_allow)
+                rp.folded.parse([x.lower() for x in lines])
             except urllib.error.HTTPError as e:
                 if 400 <= e.code < 500:
                     rp.parse([])  # RFC 9309: robots.txt unavailable (4xx) means no restrictions
@@ -415,7 +428,7 @@ class Fetcher:
                           code="private-host")
         if self.respect_robots:
             rp, note, rcode = self._robots_for(url)
-            if not rp.can_fetch(AGENT_TOKEN, url):
+            if not robots_allow(rp, url):
                 return Result(url, False, error=note or "The site's robots.txt does not allow automated downloads of this page",
                               code=rcode)
         host = urllib.parse.urlsplit(url).netloc
@@ -823,7 +836,7 @@ def run_browser(job, bf, fetcher, args):
     url = rec.get("official_url")
     if args.respect_robots:
         rp, _, _ = fetcher._robots_for(iri_to_uri(url))
-        if not rp.can_fetch(AGENT_TOKEN, iri_to_uri(url)):
+        if not robots_allow(rp, iri_to_uri(url)):
             return
     res, pres = bf.get(url)
     job.attempt("official-rendered", res)

@@ -1,0 +1,60 @@
+{
+ "record": {},
+ "evidence": {
+  "official_identifier": [
+   {
+    "file": "archive/US-TX-01/2026-10-16/official-print.pdf",
+    "sha256": "ee51cb08480876b684e559d42224a1633fcdf4d61a1edd4613cf6f74f7250f52",
+    "locator": "page 3",
+    "quote": "Added by Acts 2025, 89th Leg., R.S., Ch. 1174 (H.B. 149), Sec. 4, eff.",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/US-TX-01/2026-10-16/official-print.pdf",
+    "sha256": "ee51cb08480876b684e559d42224a1633fcdf4d61a1edd4613cf6f74f7250f52",
+    "locator": "page 3",
+    "quote": "January 1, 2026.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/US-TX-01/2026-10-16/official-print.pdf",
+    "sha256": "ee51cb08480876b684e559d42224a1633fcdf4d61a1edd4613cf6f74f7250f52",
+    "locator": "page 1",
+    "quote": "The statutes available on this website are current through the 89th 2nd Called Legislative Session,",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/US-TX-01/2026-10-16/official-print.pdf",
+    "sha256": "ee51cb08480876b684e559d42224a1633fcdf4d61a1edd4613cf6f74f7250f52",
+    "locator": "page 3",
+    "quote": "Added by Acts 2025, 89th Leg., R.S., Ch. 1174 (H.B. 149), Sec. 4, eff.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {},
+  "confirmed": [
+   "official_identifier",
+   "date_in_force",
+   "status"
+  ],
+  "status_reasoning": "Chapter 552 carries eff. January 1, 2026, which has passed; site is current through the 2025 2nd called session with no amendment shown."
+ },
+ "open_questions": [
+  "The title 'Texas Responsible Artificial Intelligence Governance Act' is not in the stored text; the chapter is headed 'ARTIFICIAL INTELLIGENCE PROTECTION' and cites H.B. 149.",
+  "date_published 2025-06-22 (signing) is not in any stored file; the bill history page is robots-blocked.",
+  "The sandbox and Texas Artificial Intelligence Council claims in notes are not in stored Chapter 552 and are unconfirmed."
+ ],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "target_id": "US-TX-01",
+ "decision": "update",
+ "cand_id": "US-TX-01",
+ "extra_urls": [],
+ "leads": []
+}

@@ -1,0 +1,41 @@
+{
+ "run_id": "2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0",
+ "type": "refresh",
+ "scope": "ids:US-04,US-CA-05,US-TX-01,CA-02,JP-04,KZ-01",
+ "started": "2026-10-16",
+ "coordinator": {
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5"
+ },
+ "stages": {
+  "collect": {
+   "tool": null,
+   "model": null,
+   "date": null
+  },
+  "extract": {
+   "tool": "Claude Code",
+   "model": "claude-opus-5-5",
+   "date": "2026-10-16"
+  },
+  "blind": {
+   "tool": "Claude Code",
+   "model": "claude-sonnet-5-5",
+   "date": "2026-10-16"
+  },
+  "check": {
+   "tool": "Claude Code",
+   "model": "claude-sonnet-5-5",
+   "date": "2026-10-16"
+  }
+ },
+ "status": "merged",
+ "record_ids": [
+  "US-04",
+  "US-CA-05",
+  "US-TX-01",
+  "CA-02",
+  "JP-04",
+  "KZ-01"
+ ]
+}

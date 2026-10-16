@@ -1,0 +1,83 @@
+{
+ "record": {},
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/CA-02/2026-10-11/official.html",
+    "sha256": "3f71f5a0e5e2c3ea119a6cbece6dd376e945f55a971225f59a409c5857bb4038",
+    "locator": "heading",
+    "quote": "An Act to enact the Consumer Privacy Protection Act, the Personal Information and Data Protection Tribunal Act and the Artificial Intelligence and Data Act",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/CA-02/2026-10-11/official.html",
+    "sha256": "3f71f5a0e5e2c3ea119a6cbece6dd376e945f55a971225f59a409c5857bb4038",
+    "locator": "Progress: House of Commons, First reading",
+    "quote": "Introduction and first reading, Thursday, June 16, 2022",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/CA-02/2026-10-11/official.html",
+    "sha256": "3f71f5a0e5e2c3ea119a6cbece6dd376e945f55a971225f59a409c5857bb4038",
+    "locator": "header",
+    "quote": "The information below relates to a prior session.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/CA-02/extra-4a816bf7bb/2026-10-16/official.pdf",
+    "sha256": "dc85a3b227962071adaa143608c13c3878e0ce04f06cdfa84fce7829be2a551a",
+    "locator": "page 1",
+    "quote": "All government bills that have not received royal assent prior to prorogation cease to exist; in order for",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/CA-02/extra-4a816bf7bb/2026-10-16/official.pdf",
+    "sha256": "dc85a3b227962071adaa143608c13c3878e0ce04f06cdfa84fce7829be2a551a",
+    "locator": "page 1",
+    "quote": "effective immediately.",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/CA-02/2026-10-11/official.html",
+    "sha256": "3f71f5a0e5e2c3ea119a6cbece6dd376e945f55a971225f59a409c5857bb4038",
+    "locator": "header",
+    "quote": "44th Parliament, 1st session",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/CA-02/extra-4a816bf7bb/2026-10-16/official.pdf",
+    "sha256": "dc85a3b227962071adaa143608c13c3878e0ce04f06cdfa84fce7829be2a551a",
+    "locator": "page 1",
+    "quote": "Ottawa, Ontario – January 6, 2025",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {},
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "official_identifier",
+   "date_last_updated"
+  ],
+  "status_reasoning": "LEGISinfo marks the bill as belonging to a prior session ending 6 Jan 2025; the Speaker's release says bills without royal assent cease to exist on prorogation. Bill was last at committee, so Lapsed stands."
+ },
+ "open_questions": [],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "target_id": "CA-02",
+ "decision": "update",
+ "cand_id": "CA-02",
+ "extra_urls": [],
+ "leads": []
+}

@@ -715,7 +715,7 @@
    "held_back": true,
    "why": "checker: Content, title, number and date are supported by the stored PDFs. A targeted search found the 2021 Review of the plan (COM(2021) 205) on an official Commission site. It is not stored, so the status of the 2018 edition (current or Superseded) goes to a human and a later run should store the 2021 Review.; status is unsupported and the checker gave no evidence-backed fix; the checker found something possibly newer: {'what': 'Coordinated Plan on Artificial Intelligence 2021 Review, annex to COM(2021) 205 of 21 April 2021, published as an updated edition of the plan', 'url': 'https://digital-strategy.ec.europa.eu/en/library/new-coordinated-plan-artificial-intelligence', 'also': 'https://ec.europa.eu/transparency",
    "records": [],
-   "title": "Candidate C002, Coordinated Plan on Artificial Intelligence: not added, open question from run 2026-10-16-discover-leads-2018",
+   "title": "Coordinated Plan on Artificial Intelligence",
    "state": "open",
    "issue": 64,
    "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/64",
@@ -794,6 +794,62 @@
    "closed": null,
    "resolution": null,
    "title": "Human sample of run 2026-10-16-discover-leads-2018 (5 records)"
+  },
+  {
+   "key": "record:US-TX-01@2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0",
+   "kind": "record",
+   "subject": "US-TX-01",
+   "run_id": "2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0",
+   "held_back": false,
+   "why": "title is unsupported and the checker gave no evidence-backed fix; date_published is unsupported and the checker gave no evidence-backed fix; title has no evidence; date_published has no evidence",
+   "records": [
+    "US-TX-01"
+   ],
+   "title": "US-TX-01 Texas TRAIGA: open question from run 2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0",
+   "state": "open",
+   "issue": 76,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/76",
+   "opened": "2026-10-16",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "host:old.adilet.zan.kz",
+   "kind": "host",
+   "subject": "old.adilet.zan.kz",
+   "code": "KZ",
+   "records": [
+    "KZ-01"
+   ],
+   "why": "Quotes from this host counted as secondary because it is neither a government domain nor in pipeline/official-sites.json.",
+   "state": "open",
+   "issue": 77,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/77",
+   "opened": "2026-10-16",
+   "closed": null,
+   "resolution": null,
+   "title": "Is old.adilet.zan.kz an official site for KZ?"
+  },
+  {
+   "key": "sample:2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0",
+   "kind": "sample",
+   "subject": "2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0",
+   "run_id": "2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0",
+   "records": [
+    "CA-02",
+    "JP-04",
+    "US-04",
+    "US-CA-05",
+    "US-TX-01"
+   ],
+   "why": "Human sample of run 2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0: check each record against its stored sources.",
+   "state": "open",
+   "issue": 78,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/78",
+   "opened": "2026-10-16",
+   "closed": null,
+   "resolution": null,
+   "title": "Human sample of run 2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0 (5 records)"
   }
  ],
  "repo": "kelkalot/every-ai-policy-ever"

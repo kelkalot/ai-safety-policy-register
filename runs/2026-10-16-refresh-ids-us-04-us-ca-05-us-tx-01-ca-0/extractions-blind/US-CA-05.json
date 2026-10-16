@@ -1,0 +1,59 @@
+{
+ "record": {},
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/US-CA-05/2026-10-16/official.html",
+    "sha256": "90850f8184638ba37f5d442570b59a63716b0385aea3be6cb2073396a6ec2d8a",
+    "locator": "body",
+    "quote": "Governor Newsom today signed into law Senate Bill 53, the Transparency in Frontier Artificial Intelligence Act (TFAIA)",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/US-CA-05/2026-10-16/official.html",
+    "sha256": "90850f8184638ba37f5d442570b59a63716b0385aea3be6cb2073396a6ec2d8a",
+    "locator": "dateline",
+    "quote": "Sep 29, 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-CA-05/extra-9ba93a428b/2026-10-16/official.pdf",
+    "sha256": "e3a8cd758bc5be06704ef480b8544538ec0187c808fc91304264e66959dd71bb",
+    "locator": "page 1",
+    "quote": "SEP 29 2025",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-CA-05/extra-97a3f02eb0/2026-10-16/official.html",
+    "sha256": "a478a6f88e7c211a93552bc8bcc4d950e58e0f56814185c2191607bfdfb7238d",
+    "locator": "Reporting page",
+    "quote": "can confidentially submit the following reports required under the Transparency in Frontier Artificial Intelligence Act.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {},
+  "confirmed": [
+   "title",
+   "date_published",
+   "status"
+  ],
+  "status_reasoning": "Signed 29 Sep 2025; Cal OES now runs a live reporting portal for reports required under the Act. The 1 Jan 2026 effective date is not stated in any stored file."
+ },
+ "open_questions": [
+  "date_in_force 2026-01-01 is not stated in any stored text (the statute text is not stored); level cannot rest on it.",
+  "The chapter number and statutory text are not stored; official_identifier remains unconfirmed."
+ ],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "target_id": "US-CA-05",
+ "decision": "update",
+ "cand_id": "US-CA-05",
+ "extra_urls": [],
+ "leads": []
+}

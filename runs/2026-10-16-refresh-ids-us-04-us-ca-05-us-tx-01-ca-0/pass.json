@@ -1,0 +1,621 @@
+{
+ "provenance": {
+  "date": "2026-10-16",
+  "agent": "Claude Code",
+  "model": "claude-opus-5-5",
+  "scope": "pipeline run 2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0 (refresh: ids:US-04,US-CA-05,US-TX-01,CA-02,JP-04,KZ-01)",
+  "run_id": "2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0",
+  "stages": {
+   "collect": {
+    "tool": null,
+    "model": null,
+    "date": null
+   },
+   "extract": {
+    "tool": "Claude Code",
+    "model": "claude-opus-5-5",
+    "date": "2026-10-16"
+   },
+   "blind": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5",
+    "date": "2026-10-16"
+   },
+   "check": {
+    "tool": "Claude Code",
+    "model": "claude-sonnet-5-5",
+    "date": "2026-10-16"
+   }
+  }
+ },
+ "records": [],
+ "updates": [
+  {
+   "official_url": "https://www.govinfo.gov/content/pkg/FR-2023-11-01/pdf/2023-24283.pdf",
+   "secondary_url": "https://govinfo.gov/content/pkg/FR-2025-01-28/html/2025-01901.htm",
+   "summary": "Comprehensive federal order on AI safety and security. Under the Defense Production Act it directed the Secretary of Commerce to require companies developing potential dual-use foundation models to report on training, model-weight security and the results of red-team testing, with interim thresholds of 10^26 operations (10^23 for models trained mainly on biological sequence data) and for large computing clusters. It tasked NIST with guidelines and benchmarks for AI safety, red-teaming and evaluation, and directed agency action on synthetic-content labelling, critical infrastructure and cybersecurity, chemical, biological, radiological and nuclear risks, and federal use of AI.",
+   "safety_topics": [
+    "general-purpose / frontier AI",
+    "evaluation & testing",
+    "catastrophic risk",
+    "critical infrastructure",
+    "transparency & labelling",
+    "public-sector use"
+   ],
+   "id": "US-04",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-16",
+    "method": "official-url-fetched",
+    "note": "Stored on 16 Oct 2026 from govinfo.gov (Government Publishing Office): the Federal Register printing of EO 14110 (Vol. 88, No. 210, 1 Nov 2023, pp. 75191-75226, FR Doc. 2023-24283), which gives the title, the number, the signing on 30 Oct 2023 and the provisions summarised; and the Federal Register text of EO 14148 of 20 Jan 2025 (FR Doc. 2025-01901), whose section 2 lists EO 14110 among the orders revoked. federalregister.gov has answered the archiver only with a bot-check page since 11 Oct 2026, so official_url now points at the govinfo.gov copy of the same Federal Register issue. The statements in notes on EO 14179 and on the fate of the implementing instruments rest on the records US-11, US-05, US-06 and US-09, not on files stored for this record.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-16: 8 field(s) supported."
+   }
+  },
+  {
+   "summary": "California's frontier AI safety law. Large frontier developers must publish a frontier AI framework describing how they incorporate national and international standards and industry-consensus best practices, and must send the Office of Emergency Services summaries of their assessments of catastrophic risk from internal use of frontier models. The Office runs a mechanism for frontier developers and the public to report critical safety incidents. The Act protects whistleblowers who disclose significant risks posed by frontier models, creates a civil penalty enforced by the Attorney General, sets up the CalCompute consortium and has the Department of Technology recommend updates annually.",
+   "notes": "Signed 29 Sep 2025. Large frontier developers must send the Office of Emergency Services a summary of any assessment of catastrophic risk from internal use of their frontier models every three months or on another reasonable schedule they set (Business and Professions Code section 22757.12(d)); the Office runs a portal for these summaries and for critical safety incident reports. CalCompute is a consortium within the Government Operations Agency to develop a framework for a public computing cluster. The Governor's signing message says the Act provides a compliance pathway for the incident-reporting requirements if federal standards are adopted. Governor's EO N-9-26 (18 Sep 2026) seeks recommendations by 16 Nov 2026 on strengthening state law: independent verification of filings, onsite auditors, a 'kill switch', and loss-of-control incidents. The federal FRONTIER Act would preempt it.",
+   "id": "US-CA-05",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-16",
+    "method": "official-url-fetched",
+    "note": "Stored: the Governor's release of 29 Sep 2025 (gov.ca.gov), which gives the title, the signing and the main provisions; the Governor's signing message of 29 Sep 2025 (a scan, read by OCR); and the Office of Emergency Services page for the Act's reporting portal (caloes.ca.gov), which quotes Business and Professions Code section 22757.12(d). leginfo.legislature.ca.gov refused automated downloads (HTTP 403, also in a browser), so the chaptered text, the chapter number and the operative date could not be stored. The effective date of 1 Jan 2026, the 10^26-operation compute threshold, the $500 million revenue threshold for large frontier developers, the duty to publish transparency reports for new models, the penalty cap of $1 million per violation and the incident-reporting deadlines (15 days, or 24 hours where there is imminent risk of death or serious injury) come from secondary sources and from the Assembly Privacy and Consumer Protection Committee's analysis of the bill as amended on 5 Sep 2025, not from the statute. Earlier notes cited a Fortune report of 14 Sep 2026 alleging that recent OpenAI releases may not comply; it rests on a press source only.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-16: 5 field(s) supported."
+   }
+  },
+  {
+   "notes": "Chapter 552 took effect on 1 Jan 2026. The Attorney General has exclusive enforcement authority and must run an online complaint mechanism; the chapter gives no private right of action. Before suing, the Attorney General must give written notice and wait 60 days, during which the violation can be cured. Civil penalties are $10,000 to $12,000 for a curable violation, $80,000 to $200,000 for an uncurable one and $2,000 to $40,000 a day for a continuing one. A rebuttable presumption of reasonable care applies. A defendant is not liable if another person misuses the system, or if it discovers the violation through feedback, testing including red-teaming, state agency guidelines, or an internal review while substantially complying with the NIST AI Risk Management Framework Generative AI Profile or a comparable framework. State agencies may add sanctions of up to $100,000 against their licensees. Chapter 552 preempts local rules on AI.",
+   "id": "US-TX-01",
+   "verification": {
+    "level": "C",
+    "verified_on": "2026-10-16",
+    "method": "search-confirmed",
+    "note": "CAUTION: no official source confirms the title, date and status; the record rests on secondary sources. Stored: Business and Commerce Code Chapter 552 from the Texas Statutes site (statutes.capitol.texas.gov, a JavaScript application, stored with a headless browser as page and print PDF), which gives the text summarised here and, after each section, 'Added by Acts 2025, 89th Leg., R.S., Ch. 1174 (H.B. 149), Sec. 4, eff. January 1, 2026'. The enrolled bill and the bill history on capitol.texas.gov are closed to automated downloads by the site's robots.txt, and the Legislative Reference Library refuses automated access, so the short title 'Texas Responsible Artificial Intelligence Governance Act', the Governor's signature on 22 Jun 2025 and the Act's other parts (a regulatory sandbox and a Texas Artificial Intelligence Council) are not confirmed from a stored official text; they rest on secondary sources.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-16: 4 field(s) supported."
+   }
+  },
+  {
+   "official_url": "https://www.parl.ca/Content/Bills/441/Government/C-27/C-27_1/C-27_1.PDF",
+   "secondary_url": "https://www.parl.ca/legisinfo/en/bill/44-1/c-27",
+   "safety_topics": [
+    "risk-based classification",
+    "transparency & labelling",
+    "incident reporting",
+    "accountability & liability"
+   ],
+   "notes": "Introduced 16 June 2022 (first reading); second reading and referral to the Standing Committee on Industry and Technology 24 April 2023, with a separate vote on Part 3; last committee meeting 26 Sept 2024. The Artificial Intelligence and Data Act would have come into force on a day or days fixed by order of the Governor in Council (its section 41). The 1st Session of the 44th Parliament was prorogued on 6 Jan 2025, and government bills without royal assent ceased to exist, so the bill died at committee stage. No AIDA successor as of Oct 2026: the June 2026 National AI Strategy relies on privacy and online-safety law modernisation instead. Bill C-36 (Protecting Privacy and Consumer Data Act, first reading 15 June 2026, sponsored by the Minister of AI and Digital Innovation) re-enacts only the privacy part of C-27, including disclosure on automated decision systems.",
+   "id": "CA-02",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-16",
+    "method": "official-url-fetched",
+    "note": "Stored: the bill's text at first reading (parl.ca PDF, 16 June 2022), from which Part 3 is summarised; the LEGISinfo page for C-27 (44-1), which gives the full title, first reading 16 June 2022, second reading and referral 24 April 2023, consideration in committee 'Not completed' and the end of the session on 6 Jan 2025; the House of Commons Speaker's news release of 6 Jan 2025 on the prorogation and its effect on government bills (ourcommons.ca, a host not yet listed in pipeline/official-sites.json); and ISED's archived AIDA page (modified 2025-12-09). The statements on Bill C-36 and the June 2026 strategy rest on the verification of 11 Oct 2026 (LEGISinfo 45-1/c-36), not on files stored in this run. A press report of late Sept 2026 quotes AI Minister Evan Solomon saying that AI deployment needs regulation, without details; no official source for it was stored.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-16: 7 field(s) supported."
+   }
+  },
+  {
+   "official_url": "https://www.shugiin.go.jp/internet/itdb_housei.nsf/html/housei/21720250604053.htm",
+   "id": "JP-04",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-16",
+    "method": "official-url-fetched",
+    "note": "Stored on 16 Oct 2026: the Act as promulgated (法律第五十三号（令七・六・四）) on the House of Representatives' list of laws enacted in the 217th Diet (shugiin.go.jp; plain HTML, also rendered and printed); e-Gov's text of the Act with its revision history (browser render and print; the plain download is an empty JavaScript shell), which lists the revisions in force from 4 Jun 2025 and 1 Sep 2025 and marks the latter as current; and the Ministry of Justice's Japanese Law Translation page with its bilingual PDF. Stored on 11 Oct 2026: the Cabinet Office's AI Act page, its one-page Japanese overview and its provisional English translation of the overview. The texts confirm the title, the number, the commencement clause (Supplementary Provisions Article 1) and Articles 1 to 28; the summary is written from the Japanese text. The English title follows the Japanese Law Translation, which renders 人工知能 in full; the Cabinet Office's provisional overview uses 'AI-related Technology'. Enactment on 28 May 2025 comes from the Cabinet Office overviews, full commencement on 1 Sep 2025 from the Cabinet Office page and e-Gov's revision history.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-16: 8 field(s) supported."
+   }
+  },
+  {
+   "official_url": "https://old.adilet.zan.kz/rus/docs/Z2500000230",
+   "secondary_url": "https://www.akorda.kz/ru/glavoy-gosudarstva-podpisan-zakon-respubliki-kazahstan-ob-iskusstvennom-intellekte-17105536",
+   "official_identifier": "Law No. 230-VIII ZRK (№ 230-VIII ЗРК) of 17 November 2025",
+   "date_last_updated": "2026-06-24",
+   "summary": "Framework AI law. It defines an AI system as a digital object working on one or more AI models and sets principles including fairness, transparency and explainability, responsibility and controllability, priority of human well-being, and safety. Systems are classed by risk and by autonomy. It bans creating or operating systems with prohibited capabilities, among them manipulative or subliminal techniques, exploiting vulnerabilities, social scoring, biometric categorisation for discrimination and emotion recognition without consent. Owners and holders must manage risks; users must be told when goods or services use AI, and synthetic outputs must carry machine-readable labels.",
+   "safety_topics": [
+    "prohibited practices",
+    "risk-based classification",
+    "transparency & labelling",
+    "accountability & liability",
+    "human oversight",
+    "deepfakes & synthetic media"
+   ],
+   "notes": "Signed on 17 Nov 2025, together with a companion law amending other legislative acts on AI and digitalisation. That companion law aligns existing laws with the AI Law and also covers digital assets, personal-data consent and information security. Under Article 31 the law enters into force 60 calendar days after the day of its first official publication. Amended by Law No. 326-VIII of 24 Jun 2026 (Articles 1, 13, 17, 20 and 28), which also enters into force 60 calendar days after its first official publication. High-risk systems classed as critically important digital objects are treated like state systems for cybersecurity; sectoral agencies publish lists of trusted high-risk systems, for which an audit is required. Works created with AI are protected by copyright only where a human made a creative contribution, and works may be used for training only if the author or rightholder has not objected in machine-readable form.",
+   "id": "KZ-01",
+   "verification": {
+    "level": "A",
+    "verified_on": "2026-10-16",
+    "method": "official-url-fetched",
+    "note": "Stored on 16 Oct 2026: the law's Russian text on Әділет, the legal information system of the Institute of Legislation and Legal Information of the Ministry of Justice (old.adilet.zan.kz; consolidated text with the amendment footnotes), which gives the number, the date, Article 31 on entry into force and the provisions summarised; the summary is written from it. Stored on 11 Oct 2026: the Akorda (Presidential Office) notices of 17 Nov 2025 on the signing of this law and of the companion amendments law. The Әділет information, history and English pages, and the announcement of entry into force by the Ministry of Artificial Intelligence and Digital Development (gov.kz, a JavaScript shell), could not be stored, so the date of first official publication, the exact date of entry into force and the adopting body are not confirmed from a stored source; date_in_force stays empty. The English title is a rendering of the Russian title; Әділет's English text, marked as an unofficial translation, was not stored. Earlier notes said Kazakhstan created a Ministry of Artificial Intelligence and Digital Development in 2025; no source for it was stored for this record.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-16: 8 field(s) supported."
+   }
+  }
+ ],
+ "history_context": {
+  "US-04": {
+   "reason": "pipeline run 2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0 (refresh), candidate US-04",
+   "fields": {
+    "official_url": {
+     "reason": "the Federal Register printing of the order on govinfo.gov, stored in this run; federalregister.gov serves the archiver only a bot-check page, so the record had no stored text of its own",
+     "evidence": []
+    },
+    "secondary_url": {
+     "reason": "EO 14148 as printed in the Federal Register (govinfo.gov, stored in this run): the revoking order, which is the source a later refresh needs for the status",
+     "evidence": []
+    },
+    "summary": {
+     "reason": "rewritten from the order's text: the order directed the Secretary of Commerce to require the reports under the Defense Production Act (section 4.2), rather than requiring them itself, and the interim thresholds and the CBRN section (4.4) are named",
+     "evidence": []
+    },
+    "safety_topics": {
+     "reason": "eight values cut to six as the vocabulary rule requires; 'safety institute' dropped because the order's text does not mention a safety institute, and 'national security & military' dropped as the least central of the remaining ones (the order directs a national security memorandum in section 4.8)",
+     "evidence": []
+    }
+   },
+   "confirmed": [
+    "title",
+    "date_published",
+    "date_in_force",
+    "official_identifier",
+    "issuing_body",
+    "legal_force",
+    "status",
+    "date_last_updated"
+   ],
+   "evidence": [
+    {
+     "field": "title",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-24a27fbd15/2026-10-16/official.pdf",
+     "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+     "locator": "page 1, heading",
+     "quote": "Executive Order 14110 of October 30, 2023"
+    },
+    {
+     "field": "date_published",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-24a27fbd15/2026-10-16/official.pdf",
+     "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+     "locator": "page 1, heading",
+     "quote": "Executive Order 14110 of October 30, 2023"
+    },
+    {
+     "field": "date_in_force",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-24a27fbd15/2026-10-16/official.pdf",
+     "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+     "locator": "page 36, signature",
+     "quote": "THE WHITE HOUSE, October 30, 2023."
+    },
+    {
+     "field": "official_identifier",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-24a27fbd15/2026-10-16/official.pdf",
+     "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+     "locator": "page 1, header",
+     "quote": "75191 Federal Register Vol. 88, No. 210 Wednesday, November 1, 2023"
+    },
+    {
+     "field": "issuing_body",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-24a27fbd15/2026-10-16/official.pdf",
+     "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+     "locator": "page 1, heading",
+     "quote": "Title 3— The President Executive Order 14110 of October 30, 2023"
+    },
+    {
+     "field": "legal_force",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-24a27fbd15/2026-10-16/official.pdf",
+     "sha256": "46739dfc1af256961458d3b73fa4d6f4b447b38eaa72efd80966463818be68ab",
+     "locator": "page 1, preamble",
+     "quote": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered as follows:"
+    },
+    {
+     "field": "status",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-5b4c27c439/2026-10-16/official.html",
+     "sha256": "ab3e74a704e5b49fa8eac7a1a268060c96c177deeb55e4b0148ae5828bc5236c",
+     "locator": "Sec. 2",
+     "quote": "Sec. 2. Revocation of Orders and Actions. The following executive actions are hereby revoked:"
+    },
+    {
+     "field": "date_last_updated",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-04/extra-5b4c27c439/2026-10-16/official.html",
+     "sha256": "ab3e74a704e5b49fa8eac7a1a268060c96c177deeb55e4b0148ae5828bc5236c",
+     "locator": "heading",
+     "quote": "Executive Order 14148 of January 20, 2025 Initial Rescissions of Harmful Executive Orders and Actions"
+    }
+   ],
+   "cand_id": "US-04"
+  },
+  "US-CA-05": {
+   "reason": "pipeline run 2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0 (refresh), candidate US-CA-05",
+   "fields": {
+    "summary": {
+     "reason": "rewritten so that every claim rests on a stored official text (the Governor's release and the Office of Emergency Services page); the duty to publish transparency reports for new models is dropped from the summary because no stored official text states it, and is recorded in verification.note",
+     "evidence": []
+    },
+    "notes": {
+     "reason": "research remarks removed ('secondary source', 'Not amended as of verification', 'commentators named it'), the unsupported thresholds, penalty cap and incident deadlines moved to verification.note, and the quarterly catastrophic-risk summaries and the signing message's compliance pathway added from stored texts",
+     "evidence": []
+    }
+   },
+   "confirmed": [
+    "title",
+    "date_published",
+    "issuing_body",
+    "legal_force",
+    "status"
+   ],
+   "evidence": [
+    {
+     "field": "title",
+     "file": "archive/US-CA-05/2026-10-16/official.html",
+     "sha256": "90850f8184638ba37f5d442570b59a63716b0385aea3be6cb2073396a6ec2d8a",
+     "locator": "news release, first paragraph",
+     "quote": "Governor Newsom today signed into law Senate Bill 53, the Transparency in Frontier Artificial Intelligence Act (TFAIA)"
+    },
+    {
+     "field": "date_published",
+     "file": "archive/US-CA-05/2026-10-16/official.html",
+     "sha256": "90850f8184638ba37f5d442570b59a63716b0385aea3be6cb2073396a6ec2d8a",
+     "locator": "news release, dateline and headline",
+     "quote": "Sep 29, 2025 Governor Newsom signs SB 53, advancing California’s world-leading artificial intelligence industry"
+    },
+    {
+     "field": "issuing_body",
+     "file": "archive/US-CA-05/2026-10-16/official.html",
+     "sha256": "90850f8184638ba37f5d442570b59a63716b0385aea3be6cb2073396a6ec2d8a",
+     "locator": "news release, first paragraph",
+     "quote": "Governor Newsom today signed into law Senate Bill 53, the Transparency in Frontier Artificial Intelligence Act (TFAIA), authored by Senator Scott Wiener (D-San Francisco)"
+    },
+    {
+     "field": "legal_force",
+     "file": "archive/US-CA-05/2026-10-16/official.html",
+     "sha256": "90850f8184638ba37f5d442570b59a63716b0385aea3be6cb2073396a6ec2d8a",
+     "locator": "news release, 'What you need to know'",
+     "quote": "Governor Newsom today signed legislation further establishing California as a world leader in safe, secure, and trustworthy artificial intelligence, creating a new law"
+    },
+    {
+     "field": "status",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/US-CA-05/extra-97a3f02eb0/2026-10-16/official.html",
+     "sha256": "a478a6f88e7c211a93552bc8bcc4d950e58e0f56814185c2191607bfdfb7238d",
+     "locator": "Transparency in Frontier AI Act Reporting",
+     "quote": "The above link will direct you to the Governor’s Office of Emergency Service’s reporting portal where members of the public and frontier developers can confidentially submit the following reports required under the Transparency in Frontier Artificial Intelligence Act."
+    }
+   ],
+   "cand_id": "US-CA-05"
+  },
+  "US-TX-01": {
+   "reason": "pipeline run 2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0 (refresh), candidate US-TX-01",
+   "fields": {
+    "notes": {
+     "reason": "rewritten from Chapter 552: the research remark ('not verified on the fetched page') removed, the unconfirmed sandbox and council claim moved to verification.note, and the enforcement details (notice and cure, penalty ranges, defences, agency sanctions, preemption) added from Sections 552.003 and 552.101 to 552.106",
+     "evidence": []
+    },
+    "verification.level": {
+     "reason": "level computed from the evidence by tools/pipeline.py",
+     "evidence": []
+    }
+   },
+   "confirmed": [
+    "date_in_force",
+    "official_identifier",
+    "status",
+    "legal_force"
+   ],
+   "evidence": [
+    {
+     "field": "date_in_force",
+     "file": "archive/US-TX-01/2026-10-16/official-print.pdf",
+     "sha256": "ee51cb08480876b684e559d42224a1633fcdf4d61a1edd4613cf6f74f7250f52",
+     "locator": "page 3, Sec. 552.001, history note",
+     "quote": "Added by Acts 2025, 89th Leg., R.S., Ch. 1174 (H.B. 149), Sec. 4, eff. January 1, 2026."
+    },
+    {
+     "field": "official_identifier",
+     "file": "archive/US-TX-01/2026-10-16/official-print.pdf",
+     "sha256": "ee51cb08480876b684e559d42224a1633fcdf4d61a1edd4613cf6f74f7250f52",
+     "locator": "page 3, chapter heading",
+     "quote": "BUSINESS AND COMMERCE CODE TITLE 11. PERSONAL IDENTITY INFORMATION SUBTITLE D. ARTIFICIAL INTELLIGENCE PROTECTION CHAPTER 552. ARTIFICIAL INTELLIGENCE PROTECTION"
+    },
+    {
+     "field": "status",
+     "file": "archive/US-TX-01/2026-10-16/official-print.pdf",
+     "sha256": "ee51cb08480876b684e559d42224a1633fcdf4d61a1edd4613cf6f74f7250f52",
+     "locator": "page 3, Sec. 552.001, history note",
+     "quote": "Added by Acts 2025, 89th Leg., R.S., Ch. 1174 (H.B. 149), Sec. 4, eff. January 1, 2026."
+    },
+    {
+     "field": "legal_force",
+     "file": "archive/US-TX-01/2026-10-16/official-print.pdf",
+     "sha256": "ee51cb08480876b684e559d42224a1633fcdf4d61a1edd4613cf6f74f7250f52",
+     "locator": "page 7, Sec. 552.101",
+     "quote": "Sec. 552.101. ENFORCEMENT AUTHORITY. (a) The attorney general has exclusive authority to enforce this chapter"
+    }
+   ],
+   "cand_id": "US-TX-01"
+  },
+  "CA-02": {
+   "reason": "pipeline run 2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0 (refresh), candidate CA-02",
+   "fields": {
+    "official_url": {
+     "reason": "the bill's own text at first reading (parl.ca PDF, stored in this run); the record had only the LEGISinfo status page and ISED's description",
+     "evidence": []
+    },
+    "secondary_url": {
+     "reason": "LEGISinfo, the page a later refresh needs for the bill's status; ISED's archived AIDA page drops out",
+     "evidence": []
+    },
+    "safety_topics": {
+     "reason": "'general-purpose / frontier AI' dropped: the bill's text at first reading regulates high-impact systems and has no provision on general-purpose systems or models",
+     "evidence": []
+    },
+    "notes": {
+     "reason": "the prorogation and its effect now rest on the Speaker's release; the order-in-council commencement of the Artificial Intelligence and Data Act added (its section 41); the press-report sentence and the remark that Bill C-36 is excluded from the register removed",
+     "evidence": []
+    }
+   },
+   "confirmed": [
+    "title",
+    "date_published",
+    "status",
+    "date_last_updated",
+    "official_identifier",
+    "issuing_body",
+    "legal_force"
+   ],
+   "evidence": [
+    {
+     "field": "title",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/CA-02/extra-218229b95c/2026-10-16/official.pdf",
+     "sha256": "a219dfa522bf5a00e71c68145aad2adabae97a03a4e07103aa814d8c7291a702",
+     "locator": "page 1, title",
+     "quote": "An Act to enact the Consumer Privacy Protection Act, the Personal Information and Data Protection Tribunal Act and the Artificial Intelligence and Data Act and to make consequential and related amendments to other Acts"
+    },
+    {
+     "field": "date_published",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/CA-02/extra-218229b95c/2026-10-16/official.pdf",
+     "sha256": "a219dfa522bf5a00e71c68145aad2adabae97a03a4e07103aa814d8c7291a702",
+     "locator": "page 1",
+     "quote": "FIRST READING, JUNE 16, 2022"
+    },
+    {
+     "field": "status",
+     "file": "archive/CA-02/2026-10-11/official.html",
+     "sha256": "3f71f5a0e5e2c3ea119a6cbece6dd376e945f55a971225f59a409c5857bb4038",
+     "locator": "historical information banner",
+     "quote": "The information below relates to a prior session."
+    },
+    {
+     "field": "date_last_updated",
+     "file": "archive/CA-02/2026-10-11/official.html",
+     "sha256": "3f71f5a0e5e2c3ea119a6cbece6dd376e945f55a971225f59a409c5857bb4038",
+     "locator": "bill heading",
+     "quote": "44th Parliament, 1st session Monday, November 22, 2021, to Monday, January 6, 2025"
+    },
+    {
+     "field": "official_identifier",
+     "file": "archive/CA-02/2026-10-11/official.html",
+     "sha256": "3f71f5a0e5e2c3ea119a6cbece6dd376e945f55a971225f59a409c5857bb4038",
+     "locator": "page title",
+     "quote": "C-27 (44-1) - LEGISinfo - Parliament of Canada"
+    },
+    {
+     "field": "issuing_body",
+     "file": "archive/CA-02/2026-10-11/official.html",
+     "sha256": "3f71f5a0e5e2c3ea119a6cbece6dd376e945f55a971225f59a409c5857bb4038",
+     "locator": "bill details",
+     "quote": "Bill type House Government Bill Sponsor Minister of Innovation, Science and Industry"
+    },
+    {
+     "field": "legal_force",
+     "file": "archive/CA-02/2026-10-11/official.html",
+     "sha256": "3f71f5a0e5e2c3ea119a6cbece6dd376e945f55a971225f59a409c5857bb4038",
+     "locator": "bill details",
+     "quote": "Current status At consideration in committee in the House of Commons"
+    }
+   ],
+   "cand_id": "CA-02"
+  },
+  "JP-04": {
+   "reason": "pipeline run 2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0 (refresh), candidate JP-04",
+   "fields": {
+    "official_url": {
+     "reason": "the Act's own text as promulgated, on the House of Representatives' site (plain HTML, stored in this run); the Cabinet Office page described the Act but did not contain it",
+     "evidence": []
+    }
+   },
+   "confirmed": [
+    "title",
+    "original_title",
+    "official_identifier",
+    "issuing_body",
+    "date_published",
+    "date_in_force",
+    "status",
+    "legal_force"
+   ],
+   "evidence": [
+    {
+     "field": "title",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-d5f234a0a9/2026-10-16/official.html",
+     "sha256": "f4eb615fea9ab32addb5e15d9438ad215c6f2beb23bb025a295142fb3161cf33",
+     "locator": "page heading, English",
+     "quote": "Act on Promotion of Research and Development, and Utilization of Artificial Intelligence-related Technology（Act No. 53 of 2025）"
+    },
+    {
+     "field": "original_title",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-1a375a60de/2026-10-16/official.html",
+     "sha256": "cd22f0534af71e7fdf8001fa6df205a7ddec2a4ad6ee27415618dd185934f640",
+     "locator": "law heading",
+     "quote": "法律第五十三号（令七・六・四） ◎人工知能関連技術の研究開発及び活用の推進に関する法律"
+    },
+    {
+     "field": "official_identifier",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-1a375a60de/2026-10-16/official.html",
+     "sha256": "cd22f0534af71e7fdf8001fa6df205a7ddec2a4ad6ee27415618dd185934f640",
+     "locator": "law heading",
+     "quote": "法律第五十三号（令七・六・四）"
+    },
+    {
+     "field": "issuing_body",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-1a375a60de/2026-10-16/official.html",
+     "sha256": "cd22f0534af71e7fdf8001fa6df205a7ddec2a4ad6ee27415618dd185934f640",
+     "locator": "breadcrumb",
+     "quote": "第217回国会　制定法律の一覧"
+    },
+    {
+     "field": "date_published",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-d5f234a0a9/2026-10-16/official.html",
+     "sha256": "f4eb615fea9ab32addb5e15d9438ad215c6f2beb23bb025a295142fb3161cf33",
+     "locator": "law header",
+     "quote": "Act No. 53 of June 4, 2025"
+    },
+    {
+     "field": "date_in_force",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-1a375a60de/2026-10-16/official.html",
+     "sha256": "cd22f0534af71e7fdf8001fa6df205a7ddec2a4ad6ee27415618dd185934f640",
+     "locator": "附則, 第一条",
+     "quote": "第一条　この法律は、公布の日から施行する。"
+    },
+    {
+     "field": "status",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-eb0fc0b12b/2026-10-16/official-rendered.html",
+     "sha256": "5044be9f8858e69789be0783000b98cc6e811f6f286972d8b2e1ce4377b02c6b",
+     "locator": "法令改正履歴",
+     "quote": "令和7年9月1日 施行 現在施行"
+    },
+    {
+     "field": "legal_force",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/JP-04/extra-1a375a60de/2026-10-16/official.html",
+     "sha256": "cd22f0534af71e7fdf8001fa6df205a7ddec2a4ad6ee27415618dd185934f640",
+     "locator": "第七条",
+     "quote": "第四条の規定に基づき国が実施する施策及び第五条の規定に基づき地方公共団体が実施する施策に協力しなければならない。"
+    }
+   ],
+   "cand_id": "JP-04"
+  },
+  "KZ-01": {
+   "reason": "pipeline run 2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0 (refresh), candidate KZ-01",
+   "fields": {
+    "official_url": {
+     "reason": "the law's own Russian text on Әділет (old.adilet.zan.kz, plain HTML, stored in this run); the Akorda notice only announces the signature. old.adilet.zan.kz is not yet in pipeline/official-sites.json, so its quotes count as secondary until a person records the host",
+     "evidence": []
+    },
+    "secondary_url": {
+     "reason": "the Akorda signing notice, formerly official_url: the official record of the President's signature and of the publication of the text; the Akorda notice on the companion law drops out",
+     "evidence": []
+    },
+    "official_identifier": {
+     "reason": "the number from the Әділет heading 'от 17 ноября 2025 года № 230-VIII ЗРК'",
+     "evidence": [
+      {
+       "field": "official_identifier",
+       "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/KZ-01/extra-801f866bb3/2026-10-16/official.html",
+       "sha256": "af4366490e520ea166e23d330ddfb094ad39021255b62c633b5ba8ecc703e39b",
+       "locator": "document heading",
+       "quote": "Закон Республики Казахстан от 17 ноября 2025 года № 230-VIII ЗРК."
+      }
+     ]
+    },
+    "date_last_updated": {
+     "reason": "Әділет footnotes to Articles 1, 13, 17, 20 and 28 record amendments by the law of 24.06.2026 No. 326-VIII",
+     "evidence": [
+      {
+       "field": "date_last_updated",
+       "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/KZ-01/extra-801f866bb3/2026-10-16/official.html",
+       "sha256": "af4366490e520ea166e23d330ddfb094ad39021255b62c633b5ba8ecc703e39b",
+       "locator": "Article 1, footnote",
+       "quote": "Сноска. Статья 1 с изменениями, внесенными Законом РК от 24.06.2026 № 326-VIII (вводится в действие по истечении шестидесяти календарных дней после дня его первого официального опубликования)."
+      }
+     ]
+    },
+    "summary": {
+     "reason": "rewritten from the Russian text: an AI system is now defined as a 'цифровой объект' (digital object), not an object of informatisation; goods and services made with AI require informing users (Article 21(1)), while labelling applies to synthetic outputs (Article 21(2)); the risk and autonomy classes and the full list of prohibitions (Article 17) added; the evaluative 'Central Asia's first comprehensive AI law' removed",
+     "evidence": []
+    },
+    "safety_topics": {
+     "reason": "'risk-based classification' added for the minimal, medium and high risk classes of Article 17(1)",
+     "evidence": []
+    },
+    "notes": {
+     "reason": "the commencement rule (Article 31) and the 2026 amendment added from the text, and the provisions on high-risk systems, audit and copyright; research remarks removed ('reportedly', 'assumes', 'could not be fetched', 'Uzbekistan and other Central Asian states were not covered', 'referenced on primeminister.kz')",
+     "evidence": []
+    }
+   },
+   "confirmed": [
+    "title",
+    "original_title",
+    "date_published",
+    "official_identifier",
+    "date_last_updated",
+    "status",
+    "legal_force"
+   ],
+   "evidence": [
+    {
+     "field": "title",
+     "file": "archive/KZ-01/2026-10-11/official.html",
+     "sha256": "0f102b557887ced4a64972f6b12d7f9c044f895185cf7fff619e4b4570d9363d",
+     "locator": "notice heading",
+     "quote": "Главой государства подписан Закон Республики Казахстан «Об искусственном интеллекте»"
+    },
+    {
+     "field": "original_title",
+     "file": "archive/KZ-01/2026-10-11/official.html",
+     "sha256": "0f102b557887ced4a64972f6b12d7f9c044f895185cf7fff619e4b4570d9363d",
+     "locator": "notice heading",
+     "quote": "Главой государства подписан Закон Республики Казахстан «Об искусственном интеллекте»"
+    },
+    {
+     "field": "date_published",
+     "file": "archive/KZ-01/2026-10-11/official.html",
+     "sha256": "0f102b557887ced4a64972f6b12d7f9c044f895185cf7fff619e4b4570d9363d",
+     "locator": "notice heading and date",
+     "quote": "Главой государства подписан Закон Республики Казахстан «Об искусственном интеллекте» 17 ноября 2025 года"
+    },
+    {
+     "field": "official_identifier",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/KZ-01/extra-801f866bb3/2026-10-16/official.html",
+     "sha256": "af4366490e520ea166e23d330ddfb094ad39021255b62c633b5ba8ecc703e39b",
+     "locator": "document heading",
+     "quote": "Закон Республики Казахстан от 17 ноября 2025 года № 230-VIII ЗРК."
+    },
+    {
+     "field": "date_last_updated",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/KZ-01/extra-801f866bb3/2026-10-16/official.html",
+     "sha256": "af4366490e520ea166e23d330ddfb094ad39021255b62c633b5ba8ecc703e39b",
+     "locator": "Article 1, footnote",
+     "quote": "Сноска. Статья 1 с изменениями, внесенными Законом РК от 24.06.2026 № 326-VIII (вводится в действие по истечении шестидесяти календарных дней после дня его первого официального опубликования)."
+    },
+    {
+     "field": "status",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/KZ-01/extra-801f866bb3/2026-10-16/official.html",
+     "sha256": "af4366490e520ea166e23d330ddfb094ad39021255b62c633b5ba8ecc703e39b",
+     "locator": "Article 31",
+     "quote": "Статья 31. Порядок введения в действие настоящего Закона Настоящий Закон вводится в действие по истечении шестидесяти календарных дней после дня его первого официального опубликования."
+    },
+    {
+     "field": "legal_force",
+     "file": "archive/_runs/2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0/KZ-01/extra-801f866bb3/2026-10-16/official.html",
+     "sha256": "af4366490e520ea166e23d330ddfb094ad39021255b62c633b5ba8ecc703e39b",
+     "locator": "Article 17(3)",
+     "quote": "На территории Республики Казахстан запрещаются создание и эксплуатация систем искусственного интеллекта, обладающих одной из следующих функциональных возможностей"
+    }
+   ],
+   "cand_id": "KZ-01"
+  }
+ },
+ "assigned": {
+  "US-04": "US-04",
+  "US-CA-05": "US-CA-05",
+  "US-TX-01": "US-TX-01",
+  "CA-02": "CA-02",
+  "JP-04": "JP-04",
+  "KZ-01": "KZ-01"
+ },
+ "not_added": [],
+ "needs_human": [],
+ "questions": [
+  {
+   "cand_id": "US-TX-01",
+   "record_id": "US-TX-01",
+   "why": "title is unsupported and the checker gave no evidence-backed fix; date_published is unsupported and the checker gave no evidence-backed fix; title has no evidence; date_published has no evidence"
+  }
+ ],
+ "unchecked": [],
+ "summary": "0 new, 6 update(s), 0 not added, 0 need a human, 1 merged with an open question, 0 not ready"
+}
