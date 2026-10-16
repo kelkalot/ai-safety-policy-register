@@ -1,0 +1,79 @@
+{
+ "pairs": 12,
+ "same_definition": 11,
+ "same_locator": 5,
+ "rows": [
+  {
+   "record_id": "CA-02",
+   "term_group": "AI system",
+   "text": "same",
+   "locator": "differs"
+  },
+  {
+   "record_id": "CA-02",
+   "term_group": "high-risk AI system",
+   "text": "same",
+   "locator": "differs"
+  },
+  {
+   "record_id": "JP-04",
+   "term_group": "artificial intelligence",
+   "text": "same",
+   "locator": "same"
+  },
+  {
+   "record_id": "KZ-01",
+   "term_group": "AI model",
+   "text": "same",
+   "locator": "same"
+  },
+  {
+   "record_id": "KZ-01",
+   "term_group": "AI system",
+   "text": "same",
+   "locator": "same"
+  },
+  {
+   "record_id": "KZ-01",
+   "term_group": "artificial intelligence",
+   "text": "same",
+   "locator": "same"
+  },
+  {
+   "record_id": "KZ-01",
+   "term_group": "high-risk AI system",
+   "text": "only in first",
+   "locator": null
+  },
+  {
+   "record_id": "US-04",
+   "term_group": "AI model",
+   "text": "same",
+   "locator": "same"
+  },
+  {
+   "record_id": "US-04",
+   "term_group": "AI system",
+   "text": "same",
+   "locator": "differs"
+  },
+  {
+   "record_id": "US-04",
+   "term_group": "artificial intelligence",
+   "text": "same",
+   "locator": "differs"
+  },
+  {
+   "record_id": "US-04",
+   "term_group": "foundation model",
+   "text": "same",
+   "locator": "differs"
+  },
+  {
+   "record_id": "US-04",
+   "term_group": "generative AI",
+   "text": "same",
+   "locator": "differs"
+  }
+ ]
+}

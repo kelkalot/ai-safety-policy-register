@@ -1,0 +1,160 @@
+{
+ "definitions": {
+  "CA-02": [
+   {
+    "index": 0,
+    "term": "artificial intelligence system",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 1,
+    "term": "high-impact system",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "JP-04": [
+   {
+    "index": 0,
+    "term": "人工知能関連技術",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "KZ-01": [
+   {
+    "index": 0,
+    "term": "искусственный интеллект",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 1,
+    "term": "система искусственного интеллекта",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 2,
+    "term": "модель искусственного интеллекта",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 3,
+    "term": "системы искусственного интеллекта высокой степени риска",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "US-04": [
+   {
+    "index": 0,
+    "term": "artificial intelligence",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 1,
+    "term": "AI model",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 2,
+    "term": "AI system",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 3,
+    "term": "dual-use foundation model",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 4,
+    "term": "generative AI",
+    "ok": true,
+    "problems": []
+   }
+  ]
+ },
+ "definitions-blind": {
+  "CA-02": [
+   {
+    "index": 0,
+    "term": "artificial intelligence system",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 1,
+    "term": "high-impact system",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "JP-04": [
+   {
+    "index": 0,
+    "term": "人工知能関連技術",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "KZ-01": [
+   {
+    "index": 0,
+    "term": "искусственный интеллект",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 1,
+    "term": "система искусственного интеллекта",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 2,
+    "term": "модель искусственного интеллекта",
+    "ok": true,
+    "problems": []
+   }
+  ],
+  "US-04": [
+   {
+    "index": 0,
+    "term": "artificial intelligence",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 1,
+    "term": "AI model",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 2,
+    "term": "AI system",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 3,
+    "term": "dual-use foundation model",
+    "ok": true,
+    "problems": []
+   },
+   {
+    "index": 4,
+    "term": "generative AI",
+    "ok": true,
+    "problems": []
+   }
+  ]
+ }
+}
