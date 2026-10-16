@@ -1,9 +1,11 @@
 # Rewrites the pinned "Project status" issue (tools/pipeline.py board --sync, AGENTS.md section 7.11) after every
-# push to main and every Monday, so the status agents and people read is never older than the last merge.
+# push to main, after every release (its tag v*), and every Monday, so the status agents and people read is never
+# older than the last merge or release.
 name: board
 on:
   push:
     branches: [main]
+    tags: ["v*"]
   schedule:
     - cron: "17 6 * * 1"
   workflow_dispatch:
