@@ -53,6 +53,8 @@ AFFILIATION = "AI Safety Department, SimulaMet & OsloMet"
 MAINTAINERS = [("Michael A. Riegler", "michael@simula.no"), ("Sushant Gautam", "sushant@simula.no")]
 CONTACT = "%s, %s" % (" and ".join("%s (%s)" % m for m in MAINTAINERS), AFFILIATION)
 PRETTY_NAME = build.NAME
+# copies that macOS or iCloud make when a file changes on two sides, such as "page 2.html" or "notes 3"
+SYNC_COPY = re.compile(r" \d+(\.[^./]+)?$")
 
 # Hosts of secondary copies that are commentary or press rather than official publications.
 THIRD_PARTY_HOSTS = {
@@ -527,7 +529,7 @@ def build_all(out, ns, name, github_url, changes_md=""):
         shutil.copy2(ROOT / "HISTORY.md", ds / "HISTORY.md")
     shutil.copy2(ROOT / "AGENTS.md", ds / "AGENTS.md")
     if (ROOT / "docs").is_dir():
-        shutil.copytree(ROOT / "docs", ds / "docs")
+        shutil.copytree(ROOT / "docs", ds / "docs", ignore=lambda d, names: [n for n in names if SYNC_COPY.search(n)])
     (ds / "README.md").write_text(dataset_card(db, st, ns, name, github_url), encoding="utf-8")
 
     # archive: official copies only, with SHA256SUMS rewritten to list what is published
@@ -569,11 +571,12 @@ def build_all(out, ns, name, github_url, changes_md=""):
     shutil.copy2(ROOT / "robots.txt", sp / "robots.txt")          # its Sitemap: line is what the Space serves
     shutil.copy2(ROOT / "sitemap.xml", sp / "sitemap.xml")
     (sp / "records").mkdir()                                        # the static record pages, one per instrument
-    for f in (ROOT / "records").iterdir():
-        if f.is_file():
-            shutil.copy2(f, sp / "records" / f.name)
+    pages = {"index.html"} | {"%s.html" % r["slug"] for r in db["records"] if r.get("slug")}
+    for name in sorted(pages):  # only the pages build.py writes, never sync copies such as "page 2.html"
+        if (ROOT / "records" / name).is_file():
+            shutil.copy2(ROOT / "records" / name, sp / "records" / name)
     for f in (ROOT / "assets").iterdir():
-        if f.is_file() and f.name != "site-config.js" and " 2." not in f.name:  # skip macOS conflict copies
+        if f.is_file() and f.name != "site-config.js" and not SYNC_COPY.search(f.name):
             shutil.copy2(f, sp / "assets" / f.name)
     for f in ("records.js", "records.json", "records.csv"):
         shutil.copy2(ROOT / "data" / f, sp / "data" / f)
