@@ -850,6 +850,556 @@
    "closed": null,
    "resolution": null,
    "title": "Human sample of run 2026-10-16-refresh-ids-us-04-us-ca-05-us-tx-01-ca-0 (5 records)"
+  },
+  {
+   "key": "hosts:2026-10-16-hosts-review-1",
+   "kind": "hosts",
+   "subject": "2026-10-16-hosts-review-1",
+   "hosts": [
+    {
+     "code": "AE",
+     "host": "u.ae",
+     "operator": "UAE Government (portal; page also names the UAE mGovernment)",
+     "url": "https://u.ae/en/about-the-uae",
+     "quote": "The Official Platform of the UAE Government",
+     "suggestion": "official",
+     "note": "Page title only; no imprint found. www.u.ae presented a TLS certificate for tdra.gov.ae/dgov.ae names, which points to the Telecommunications and Digital Government Regulatory Authority, but I did not open a page that says so."
+    },
+    {
+     "code": "AZ",
+     "host": "president.az",
+     "operator": "Press Service of the President of the Republic of Azerbaijan",
+     "url": "https://president.az/en",
+     "quote": "This website is managed by the Press Service of the President of the Republic of Azerbaijan",
+     "suggestion": "official",
+     "note": ""
+    },
+    {
+     "code": "BG",
+     "host": "parliament.bg",
+     "operator": null,
+     "url": "https://www.parliament.bg/en",
+     "quote": "Parliament.bg",
+     "suggestion": "unclear",
+     "note": "Pages opened showed only the title; no footer or imprint text was returned. Name suggests the National Assembly, not confirmed."
+    },
+    {
+     "code": "BG",
+     "host": "pris.government.bg",
+     "operator": "Council of Ministers of Bulgaria (Министерски съвет)",
+     "url": "https://pris.government.bg/",
+     "quote": "Добре дошли в Правно-информационната система на Министерски съвет (ПРИС)",
+     "suggestion": "official",
+     "note": "Host is also a government.bg subdomain."
+    },
+    {
+     "code": "BJ",
+     "host": "asin.bj",
+     "operator": "Agence des Systèmes d'Information et du Numérique (ASIN)",
+     "url": "https://asin.bj/",
+     "quote": "© Agence des Systèmes d'Information et du Numérique - 2023",
+     "suggestion": "official",
+     "note": "The page does not itself say ASIN is a public body; it describes its mission as operating digital-sector projects. Maintainer should confirm ASIN's public status."
+    },
+    {
+     "code": "BR",
+     "host": "tse.jus.br",
+     "operator": null,
+     "url": null,
+     "quote": null,
+     "suggestion": "unclear",
+     "note": "Pages returned HTTP 403 to the fetcher; nothing opened. The .jus.br domain is the Brazilian judiciary's."
+    },
+    {
+     "code": "BRICS",
+     "host": "brics.br",
+     "operator": null,
+     "url": null,
+     "quote": null,
+     "suggestion": "unclear",
+     "note": "Host did not resolve (DNS error) from the fetcher. A search summary said Serpro's news item calls brics.br the official portal of the Brazilian presidency of BRICS, but I could not open that page or any page of the site."
+    },
+    {
+     "code": "CA",
+     "host": "canada.ca",
+     "operator": "Government of Canada",
+     "url": "https://www.canada.ca/en/transparency/terms.html",
+     "quote": "The Government of Canada is committed to achieving a high standard of accessibility.",
+     "suggestion": "official",
+     "note": ""
+    },
+    {
+     "code": "CA",
+     "host": "ised-isde.canada.ca",
+     "operator": "Innovation, Science and Economic Development Canada (ISED)",
+     "url": "https://ised-isde.canada.ca/site/ised/en",
+     "quote": "Innovation, Science and Economic Development Canada (ISED) works with Canadians in all areas of the economy.",
+     "suggestion": "official",
+     "note": "Subdomain of canada.ca."
+    },
+    {
+     "code": "CA",
+     "host": "parl.ca",
+     "operator": "Parliament of Canada (Senate and House of Commons; the page does not say which body runs the site)",
+     "url": "https://www.parl.ca/",
+     "quote": "Welcome to the Parliament of Canada.",
+     "suggestion": "official",
+     "note": "No imprint line found; page links to the Senate and House of Commons."
+    },
+    {
+     "code": "CA",
+     "host": "tbs-sct.canada.ca",
+     "operator": "Treasury Board of Canada Secretariat",
+     "url": "https://www.canada.ca/en/treasury-board-secretariat.html",
+     "quote": "Treasury Board of Canada Secretariat (TBS)",
+     "suggestion": "official",
+     "note": "tbs-sct.canada.ca/tbs-sct/index-eng.asp returned a 301 redirect to this canada.ca page. Subdomain of canada.ca."
+    },
+    {
+     "code": "CA-ON",
+     "host": "ola.org",
+     "operator": "Legislative Assembly of Ontario",
+     "url": "https://www.ola.org/",
+     "quote": "The Legislative Assembly of Ontario is made up of members of provincial Parliament (MPPs)",
+     "suggestion": "official",
+     "note": "Footer lists the Office of the Assembly under About us; no copyright line naming the Assembly."
+    },
+    {
+     "code": "CL",
+     "host": "camara.cl",
+     "operator": null,
+     "url": null,
+     "quote": null,
+     "suggestion": "unclear",
+     "note": "Pages returned HTTP 403 to the fetcher. A search result list shows the site titled 'CÁMARA DE DIPUTADAS Y DIPUTADOS' but I did not open it."
+    },
+    {
+     "code": "CN",
+     "host": "tc260.org.cn",
+     "operator": "Secretariat of the National Cybersecurity Standardization Technical Committee (全国网络安全标准化技术委员会秘书处)",
+     "url": "https://www.tc260.org.cn/",
+     "quote": "全国网络安全标准化技术委员会秘书处 版权所有 ©2009-2026",
+     "suggestion": "official",
+     "note": "The fetcher reported the secretariat is hosted at the China Electronics Standardization Institute (中国电子技术标准化研究院), a public institute; I did not see that line quoted. A technical committee secretariat, not a ministry."
+    },
+    {
+     "code": "DE",
+     "host": "gesetze-im-internet.de",
+     "operator": "Bundesrepublik Deutschland (represented by the Federal Ministry of Justice and Consumer Protection; technical provision by juris GmbH)",
+     "url": "https://www.gesetze-im-internet.de/impressum.html",
+     "quote": "Bundesrepublik Deutschland,",
+     "suggestion": "official",
+     "note": "Imprint says the technical provision is by juris GmbH, a private company."
+    }
+   ],
+   "records": [],
+   "why": "Hosts in pipeline/official-sites.json that no person has reviewed yet (seeds from records' official_url).",
+   "state": "open",
+   "issue": 88,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/88",
+   "opened": "2026-10-16",
+   "closed": null,
+   "resolution": null,
+   "title": "Which of these 15 sites are official? (host review 2026-10-16-hosts-review-1)"
+  },
+  {
+   "key": "hosts:2026-10-16-hosts-review-2",
+   "kind": "hosts",
+   "subject": "2026-10-16-hosts-review-2",
+   "hosts": [
+    {
+     "code": "DK",
+     "host": "kum.dk",
+     "operator": null,
+     "url": null,
+     "quote": null,
+     "suggestion": "unclear",
+     "note": "https://www.kum.dk/ and /en returned 404; nothing opened."
+    },
+    {
+     "code": "DK",
+     "host": "retsinformation.dk",
+     "operator": null,
+     "url": "https://www.retsinformation.dk/",
+     "quote": "Retsinformation",
+     "suggestion": "unclear",
+     "note": "Opened pages showed only the title; no operator named."
+    },
+    {
+     "code": "ES",
+     "host": "boe.es",
+     "operator": "Agencia Estatal Boletín Oficial del Estado",
+     "url": "https://www.boe.es/",
+     "quote": "Agencia Estatal Boletín Oficial del Estado",
+     "suggestion": "official",
+     "note": ""
+    },
+    {
+     "code": "FI",
+     "host": "finlex.fi",
+     "operator": "Ministry of Justice (Finland); upkeep by the Legal Register Centre",
+     "url": "https://www.finlex.fi/en",
+     "quote": "Finlex is a free, public online database of legal information owned by the Ministry of Justice.",
+     "suggestion": "official",
+     "note": ""
+    },
+    {
+     "code": "G7",
+     "host": "elysee.fr",
+     "operator": "Présidence de la République (Élysée)",
+     "url": "https://www.elysee.fr/",
+     "quote": "Bienvenue sur le site de l'Élysée",
+     "suggestion": "official",
+     "note": "Page title; no imprint line found (mentions-legales returned 404). Presidency of France site, used for G7 documents of the French presidency."
+    },
+    {
+     "code": "GB",
+     "host": "bills.parliament.uk",
+     "operator": null,
+     "url": null,
+     "quote": null,
+     "suggestion": "unclear",
+     "note": "Page returned HTTP 403 to the fetcher. Subdomain of parliament.uk."
+    },
+    {
+     "code": "GR",
+     "host": "ia37rg02wpsa01.blob.core.windows.net",
+     "operator": null,
+     "url": null,
+     "quote": null,
+     "suggestion": "unclear",
+     "note": "An Azure Blob Storage account endpoint (Microsoft cloud storage). The root returned HTTP 400 and a search found nothing naming the owner. Shared platform; not official unless a Greek public body's site links to it."
+    },
+    {
+     "code": "HR",
+     "host": "narodne-novine.nn.hr",
+     "operator": "Narodne novine d.o.o./d.d. (company name appears as 'NARODNE NOVINE D.D.' in the footer of www.nn.hr)",
+     "url": "https://www.nn.hr/",
+     "quote": "Copyright 2026. Narodne novine.",
+     "suggestion": "unclear",
+     "note": "The page does not say who owns the company. Wikipedia (en.wikipedia.org/wiki/Narodne_novine, opened) says it is 'published by the eponymous public company' with Croatia as owner; a search summary said 100 percent state-owned. The host narodne-novine.nn.hr itself was not shown to be the gazette's channel on the page I opened."
+    },
+    {
+     "code": "INT",
+     "host": "elysee.fr",
+     "operator": "Présidence de la République (Élysée)",
+     "url": "https://www.elysee.fr/",
+     "quote": "Bienvenue sur le site de l'Élysée",
+     "suggestion": "official",
+     "note": "Same host as the G7 entry."
+    },
+    {
+     "code": "INT",
+     "host": "government.nl",
+     "operator": "Government of the Netherlands (Ministry of General Affairs named in a photo credit)",
+     "url": "https://www.government.nl/",
+     "quote": "Image: © Ministry of General Affairs",
+     "suggestion": "official",
+     "note": "No explicit operator line found; page title is 'Information from the Government of the Netherlands | Government.nl'."
+    },
+    {
+     "code": "INT",
+     "host": "internationalaisafetyreport.org",
+     "operator": "Not stated; footer links to the UK Department for Science, Innovation and Technology; partners listed are the UK AI Security Institute and Mila",
+     "url": "http://internationalaisafetyreport.org/",
+     "quote": "To make a Freedom of Information request regarding the Department of Science Innovation and Technology",
+     "suggestion": "unclear",
+     "note": "The report is overseen by an Expert Advisory Panel nominated by more than 30 countries and intergovernmental organisations. Site is not a government domain and names no operator; a maintainer should decide whether the UK government channel is enough."
+    },
+    {
+     "code": "IS",
+     "host": "stjornarradid.is",
+     "operator": "Stjórnarráð Íslands (Government Offices of Iceland)",
+     "url": "https://www.stjornarradid.is/",
+     "quote": "Stjórnarráð Íslands",
+     "suggestion": "official",
+     "note": "Logo text in the header; footer only has an 'Um vefinn' link."
+    },
+    {
+     "code": "IT",
+     "host": "gazzettaufficiale.it",
+     "operator": "Istituto Poligrafico e Zecca dello Stato S.p.A.",
+     "url": "https://www.gazzettaufficiale.it/",
+     "quote": "Realizzazione Istituto Poligrafico e Zecca dello Stato S.p.A.",
+     "suggestion": "official",
+     "note": "The page credits IPZS with building the site. IPZS is the state-owned publisher of the Gazzetta Ufficiale; the page does not itself say it is the official gazette's publisher."
+    },
+    {
+     "code": "KR",
+     "host": "aisi.re.kr",
+     "operator": "AI Safety Institute (Korea)",
+     "url": "https://www.aisi.re.kr/",
+     "quote": "© 2024 AI Safety Institute. All rights reserved.",
+     "suggestion": "official",
+     "note": "Footer links to the Ministry of Science and ICT and ETRI, but the page does not say how the institute relates to them. The institute is a research body hosted by ETRI; that relationship was not shown on the page."
+    },
+    {
+     "code": "KR",
+     "host": "nia.or.kr",
+     "operator": "NIA (한국지능정보사회진흥원, National Information Society Agency)",
+     "url": "https://www.nia.or.kr/",
+     "quote": "NIA 한국지능정보사회진흥원",
+     "suggestion": "unclear",
+     "note": "Only the header names NIA; no footer or about text naming the operator was returned. NIA is a public agency, but the page did not state it."
+    }
+   ],
+   "records": [],
+   "why": "Hosts in pipeline/official-sites.json that no person has reviewed yet (seeds from records' official_url).",
+   "state": "open",
+   "issue": 89,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/89",
+   "opened": "2026-10-16",
+   "closed": null,
+   "resolution": null,
+   "title": "Which of these 15 sites are official? (host review 2026-10-16-hosts-review-2)"
+  },
+  {
+   "key": "hosts:2026-10-16-hosts-review-3",
+   "kind": "hosts",
+   "subject": "2026-10-16-hosts-review-3",
+   "hosts": [
+    {
+     "code": "KZ",
+     "host": "akorda.kz",
+     "operator": "Office of the President of the Republic of Kazakhstan (Akorda)",
+     "url": "https://www.akorda.kz/en",
+     "quote": "The Republic of Kazakhstan, Astana, «Akorda» Presidential Palace | 2026.",
+     "suggestion": "official",
+     "note": "The site also describes itself as the \"Official website of the President of the Republic of Kazakhstan.\""
+    },
+    {
+     "code": "LT",
+     "host": "e-seimas.lrs.lt",
+     "operator": "Office of the Seimas of the Republic of Lithuania (Seimo kanceliarija)",
+     "url": "https://www.lrs.lt/sip/portal.show?p_r=35403&p_k=2",
+     "quote": "© Office of the Seimas of the Republic of Lithuania",
+     "suggestion": "official",
+     "note": "The Seimas site links e-seimas.lrs.lt as its 'Legal acts information system' (Teisės aktų informacinė sistema). The e-seimas page itself (a data-security order of the Seimas Chancellery, 400-ĮVK-186) shows the Chancellery as adopting body, https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/e8a9d5a0e79111ea8d16c98db9b69006. The lrs.lt footer is the site-wide copyright, not an explicit statement about e-seimas."
+    },
+    {
+     "code": "LU",
+     "host": "chd.lu",
+     "operator": null,
+     "url": null,
+     "quote": null,
+     "suggestion": "unclear",
+     "note": "Connection reset on every fetch of chd.lu pages; no page opened. The guichet.public.lu directory (seen in search results only, not opened) lists chd.lu as the Chambre des Députés' site."
+    },
+    {
+     "code": "LV",
+     "host": "likumi.lv",
+     "operator": "Latvijas Vēstnesis (official publisher)",
+     "url": "https://likumi.lv/",
+     "quote": "Šajā vietnē oficiālais izdevējs \"Latvijas Vēstnesis\" nodrošina tiesību aktu sistematizācijas funkciju.",
+     "suggestion": "official",
+     "note": "Latvijas Vēstnesis is a state agency, directly administered by the Ministry of Justice; the page does not say so."
+    },
+    {
+     "code": "MT",
+     "host": "legislation.mt",
+     "operator": "Office of the Attorney General (Malta) (L-Uffiċċju tal-Avukat tal-Istat)",
+     "url": "https://legislation.mt/",
+     "quote": "© Dritt tal-awtur: L-Uffiċċju tal-Avukat tal-Istat.",
+     "suggestion": "official",
+     "note": "Copyright line in footer."
+    },
+    {
+     "code": "MU",
+     "host": "aim.govmu.org",
+     "operator": "Artificial Intelligence Unit, Ministry of Information Technology, Communication and Innovation (Mauritius)",
+     "url": "https://aim.govmu.org/",
+     "quote": "Welcome to the official platform of the AI Unit under the Ministry of Information Technology, Communication and Innovation.",
+     "suggestion": "official",
+     "note": "govmu.org is the Mauritian government domain."
+    },
+    {
+     "code": "NL",
+     "host": "internetconsultatie.nl",
+     "operator": null,
+     "url": "https://www.internetconsultatie.nl/",
+     "quote": "De overheid verzamelt via deze website ideeën van burgers en bedrijven over wetsvoorstellen.",
+     "suggestion": "unclear",
+     "note": "The page says the government collects input on bills through it, but names no operator. Ministries listed are sponsors of single consultations. The site appears under overheid.nl; this was not confirmed on a page."
+    },
+    {
+     "code": "NL",
+     "host": "rijksoverheid.nl",
+     "operator": "De Rijksoverheid (Dutch national government)",
+     "url": "https://www.rijksoverheid.nl/",
+     "quote": "De Rijksoverheid. Voor Nederland",
+     "suggestion": "official",
+     "note": "Site is the central government information portal; the page names the Rijksoverheid in the footer but gives no legal notice text."
+    },
+    {
+     "code": "NO",
+     "host": "regjeringen.no",
+     "operator": "Kommunal- og distriktsdepartementet (overall responsibility); central unit in Departementenes sikkerhets- og serviceorganisasjon (DSS)",
+     "url": "https://www.regjeringen.no/nb/Om-nettstedet/strategi-organisering-og-historikk-/id450433/",
+     "quote": "Det overordnede ansvar for regjeringen.no ligger i Kommunal- og distriktsdepartementet",
+     "suggestion": "official",
+     "note": "The same page says: \"Den sentrale enheten for regjeringen.no er plassert i Departementenes sikkerhets- og serviceorganisasjon (DSS)\". The WebFetch tool shortened both quotes; they are from the page text. A search snippet suggested the unit may since have moved to DIO."
+    },
+    {
+     "code": "PE",
+     "host": "busquedas.elperuano.pe",
+     "operator": "Empresa Peruana de Servicios Editoriales S.A. - Editora Perú (publisher of the Diario Oficial El Peruano)",
+     "url": "https://elperuano.pe/gestionop/",
+     "quote": "El Peruano es una Marca Registrada de Empresa Peruana de Servicios Editoriales S.A. - Editora Perú ®",
+     "suggestion": "official",
+     "note": "elperuano.pe/gestionop/ has a 'Busqueda de Normas Legales' button that links to https://busquedas.elperuano.pe. The busquedas home page itself only says 'Buscador El Peruano — Diario Oficial'. Editora Perú is a state-owned company; the page does not say so."
+    },
+    {
+     "code": "PH",
+     "host": "docs.congress.hrep.online",
+     "operator": null,
+     "url": null,
+     "quote": null,
+     "suggestion": "unclear",
+     "note": "Home page returned 403 and congress.gov.ph returned 403; the one PDF opened had no host information. Search results show the host carrying House of Representatives Congressional Records and legislative documents (legisdocs), but no page naming the operator was opened."
+    },
+    {
+     "code": "PT",
+     "host": "diariodarepublica.pt",
+     "operator": "Imprensa Nacional-Casa da Moeda, S.A. (INCM)",
+     "url": "https://diariodarepublica.pt/dr/geral/avisos-legais",
+     "quote": null,
+     "suggestion": "official",
+     "note": "The page returned no text to the fetch tool, so no verbatim quote was copied. A web search describing the Avisos Legais page says the free public-access service is ensured by INCM under Decree-Law 83/2016 and Decree-Law 235/2015; a maintainer should open the page to confirm. INCM is a state-owned company."
+    },
+    {
+     "code": "RO",
+     "host": "senat.ro",
+     "operator": "Senate of Romania (Parlamentul României SENAT)",
+     "url": "https://www.senat.ro/",
+     "quote": "Copyright © Parlamentul României SENAT.",
+     "suggestion": "official",
+     "note": ""
+    },
+    {
+     "code": "RU",
+     "host": "kremlin.ru",
+     "operator": null,
+     "url": null,
+     "quote": null,
+     "suggestion": "unclear",
+     "note": "kremlin.ru and en.kremlin.ru could not be fetched (command failed). Not opened, so no quote. It is the President of Russia's own site by common knowledge, but that was not verified here."
+    },
+    {
+     "code": "SE",
+     "host": "regeringen.se",
+     "operator": "Regeringskansliet (Government Offices of Sweden)",
+     "url": "https://www.regeringen.se/",
+     "quote": "Det här är regeringens och Regeringskansliets gemensamma webbplats.",
+     "suggestion": "official",
+     "note": ""
+    }
+   ],
+   "records": [],
+   "why": "Hosts in pipeline/official-sites.json that no person has reviewed yet (seeds from records' official_url).",
+   "state": "open",
+   "issue": 90,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/90",
+   "opened": "2026-10-16",
+   "closed": null,
+   "resolution": null,
+   "title": "Which of these 15 sites are official? (host review 2026-10-16-hosts-review-3)"
+  },
+  {
+   "key": "hosts:2026-10-16-hosts-review-4",
+   "kind": "hosts",
+   "subject": "2026-10-16-hosts-review-4",
+   "hosts": [
+    {
+     "code": "SI",
+     "host": "uradni-list.si",
+     "operator": null,
+     "url": null,
+     "quote": null,
+     "suggestion": "unclear",
+     "note": "Site returned 503 on every fetch. Search results only (not opened) say the gazette is issued by the Government's legislative service (Služba Vlade RS za zakonodajo), published electronically via PISRS, with a new law on publication (ZOUL) in Uradni list 83/2025. A maintainer should check the issuer under ZOUL."
+    },
+    {
+     "code": "SK",
+     "host": "nrsr.sk",
+     "operator": "Kancelária Národnej rady Slovenskej republiky (K NR SR, Office of the National Council)",
+     "url": "http://www.nrsr.sk/web/",
+     "quote": "© 2004 - 2026 K NR SR. Všetky práva vyhradené.",
+     "suggestion": "official",
+     "note": "K NR SR is the Office of the National Council as the abbreviation in the footer; the page does not spell it out."
+    },
+    {
+     "code": "SK",
+     "host": "static.slov-lex.sk",
+     "operator": "Ministerstvo spravodlivosti Slovenskej republiky (Ministry of Justice)",
+     "url": "https://static.slov-lex.sk/static/SK/ZZ/2018/18/",
+     "quote": "Prevádzkovateľom služby je Ministerstvo spravodlivosti Slovenskej republiky.",
+     "suggestion": "official",
+     "note": "Static archive of the Slov-lex legal information system, which the Ministry of Justice runs."
+    },
+    {
+     "code": "TH",
+     "host": "etda.or.th",
+     "operator": "ETDA (Electronic Transactions Development Agency)",
+     "url": "https://www.etda.or.th/en/Home.aspx",
+     "quote": "Copyright © 2020, All right reserved.ETDA | Electronic Transactions Development Agency",
+     "suggestion": "official",
+     "note": "ETDA is a Thai public agency; the page does not say it is under the Ministry of Digital Economy and Society."
+    },
+    {
+     "code": "US-NJ",
+     "host": "repo.njstatelib.org",
+     "operator": "New Jersey State Library",
+     "url": "https://repo.njstatelib.org/",
+     "quote": "Copyright © 1796-2026 New Jersey State Library",
+     "suggestion": "official",
+     "note": "The State Library is a state body (within Thomas Edison State University, per general knowledge; not on the page). It is a document repository, not the legislature."
+    },
+    {
+     "code": "UZ",
+     "host": "lex.uz",
+     "operator": "\"Adolat\" National Legal Information Center, state institution under the Ministry of Justice of Uzbekistan",
+     "url": "https://lex.uz/",
+     "quote": "© O‘zbekiston Respublikasi Adliya vazirligi qoshidagi “Adolat” milliy huquqiy axborot markazi davlat muassasasi",
+     "suggestion": "official",
+     "note": ""
+    },
+    {
+     "code": "VN",
+     "host": "datafiles.chinhphu.vn",
+     "operator": null,
+     "url": null,
+     "quote": null,
+     "suggestion": "unclear",
+     "note": "Home page returned 403. Search results show it serving signed PDFs of legal documents under /cpp/files/vbpq/; the one PDF opened was an image scan with no readable issuer line. chinhphu.vn is the Government portal domain, so a maintainer may judge it official, but no page naming the operator was opened."
+    },
+    {
+     "code": "VN",
+     "host": "en.baochinhphu.vn",
+     "operator": "Báo Điện tử Chính phủ (Government Electronic Newspaper) - Cục Thông tin và Truyền thông Chính phủ",
+     "url": "https://baochinhphu.vn/",
+     "quote": "Bản quyền thuộc Báo Điện tử Chính phủ - Cục Thông tin và Truyền thông Chính phủ.",
+     "suggestion": "unclear",
+     "note": "en.baochinhphu.vn itself did not resolve (DNS error). The Vietnamese edition baochinhphu.vn has an 'English' link to it and the footer above. It is a government newspaper (news outlet), whose articles are not the instruments themselves, so a maintainer may treat it like a state news agency."
+    },
+    {
+     "code": "VN",
+     "host": "storage-vnportal.vnpt.vn",
+     "operator": null,
+     "url": null,
+     "quote": null,
+     "suggestion": "unclear",
+     "note": "Home page returned 403. Search results show the host serving a VNPT user guide for its document-management system and files under /hnm-chinhquyen/. vnpt.vn belongs to VNPT, a state-owned telecom company; it is a shared cloud storage host, and no government page linking it as its own channel was found."
+    }
+   ],
+   "records": [],
+   "why": "Hosts in pipeline/official-sites.json that no person has reviewed yet (seeds from records' official_url).",
+   "state": "open",
+   "issue": 91,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/91",
+   "opened": "2026-10-16",
+   "closed": null,
+   "resolution": null,
+   "title": "Which of these 9 sites are official? (host review 2026-10-16-hosts-review-4)"
   }
  ],
  "repo": "kelkalot/every-ai-policy-ever"

@@ -2627,6 +2627,7 @@ def ensure_labels(repo):
     for name, color, desc in (("question", "d876e3", "A question for a maintainer from the pipeline"),
                               ("question:record", "c5def5", "A record's open question"),
                               ("question:host", "c5def5", "Is this host an official site?"),
+                              ("question:hosts", "c5def5", "Which of these hosts are official sites? (a batch)"),
                               ("question:sample", "c5def5", "Human sample of a run")):
         gh("label", "create", name, "--repo", repo, "--color", color, "--description", desc, "--force")
 
@@ -2824,7 +2825,9 @@ def cmd_questions(args):
     for key, q in found.items():  # new questions, and new facts about open ones
         old = items.get(key)
         if old and old.get("state") == "open":
-            old.update({k: v for k, v in q.items() if k not in ("issue", "url", "opened", "state")})
+            # a record question has no title of its own; keep the one its issue was given
+            old.update({k: v for k, v in q.items() if k not in ("issue", "url", "opened", "state")
+                        and not (k == "title" and v is None)})
         elif not old:
             items[key] = dict(q, state="open", issue=None, url=None, opened=today(), closed=None, resolution=None)
     for key, q in items.items():  # open questions nothing implies any more are settled
