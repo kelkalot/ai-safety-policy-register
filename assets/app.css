@@ -74,6 +74,12 @@ h1 { font-size: clamp(30px, 4.4vw, 46px); line-height: 1.04; letter-spacing: -.0
 .tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
 .tab:hover { color: var(--ink); }
 @media (max-width: 520px) { .tab { padding: 10px 9px 12px; white-space: nowrap; } }
+/* on narrow screens the tab row scrolls sideways instead of widening the page */
+@media (max-width: 640px) {
+  .tabs { overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab { flex: 0 0 auto; }
+}
 .tabs .tab-actions { margin-left: auto; display: flex; gap: 8px; align-items: center; padding-bottom: 8px; }
 .tab-btn { appearance: none; font: inherit; font-size: 13px; font-weight: 600; padding: 6px 12px; border: 1px solid var(--line); border-radius: var(--r); background: var(--surface-2); color: var(--ink); cursor: pointer; }
 .tab-btn:hover { border-color: var(--accent); color: var(--accent); }

@@ -64,6 +64,7 @@
       <button class="tab" role="tab" id="tab-register" aria-selected="true" aria-controls="view-register">Register</button>
       <button class="tab" role="tab" id="tab-about" aria-selected="false" aria-controls="view-about">Method &amp; coverage</button>
       <button class="tab" role="tab" id="tab-contribute" aria-selected="false" aria-controls="view-contribute">Contribute</button>
+      <button class="tab" role="tab" id="tab-compare" aria-selected="false" aria-controls="view-compare">Compare</button>
       <span class="tab-actions">
         <button class="tab-btn primary" type="button" id="tab-admin" hidden>Admin</button>
         <button class="tab-btn" type="button" id="tab-logout" hidden>Pilot logout</button>
@@ -226,9 +227,9 @@
       <h3>Records with weaker evidence</h3>
       <p><span data-count="levelC"></span> records rest on secondary sources only (level C) and <span data-count="levelB"></span> were confirmed on an alternative official page (level B). Both groups are listed under "Records to re-check first" above. For <span data-count="nocopy"></span> records the official source is either missing from the local copies or stored in a form that needs review, such as a bot-check page. The "Local copy" filter in the register shows them, and each record says why.</p>
 
-      <h2 id="definitions">Definitions compared</h2>
-      <p>A first step towards comparing instruments (a pilot, issue #70 in the repository): how instruments define the terms their duties rest on, such as "AI system" and "model". <span data-count="definitions"></span> definitions from <span data-count="definitionRecords"></span> records are quoted word for word from the stored official text, with the article or section they come from. Each was found and quoted alike by two independent extractions and checked against the stored file and its SHA-256. Definitions in other languages keep the original wording; the English is the issuer's where it says so, otherwise the agent's rendering. Similar wording does not make two definitions legally equivalent, and nothing here is legal advice.</p>
-      <div id="defsTable"></div>
+      <h2>Definitions compared</h2>
+      <p>How instruments define the terms their duties rest on, such as "AI system", is compared under the <a href="#compare" data-tab="compare">Compare</a> tab.</p>
+
 
       <h2>Field reference</h2>
       <div class="schema">
@@ -257,6 +258,30 @@
       <h3>This snapshot</h3>
       <dl id="snapStats"></dl>
       <p style="margin:0;font-size:13px;color:var(--ink-2)">Each archiver run is logged in <code>archive/runs.jsonl</code>, and <a href="archive/needs-attention.txt">archive/needs-attention.txt</a> lists the records that still need a human decision. Keep the folder under version control (for example git) to have a dated history of every change.</p>
+    </aside>
+  </div>
+</section>
+
+<section id="view-compare" role="tabpanel" aria-labelledby="tab-compare" hidden>
+  <div class="wrap about">
+    <div class="prose">
+      <h2 id="definitions">Definitions compared</h2>
+      <p>A first step towards comparing instruments (a pilot, issue #70 in the repository): how instruments define the terms their duties rest on, such as "AI system" and "model". <span data-count="definitions"></span> definitions from <span data-count="definitionRecords"></span> records are quoted word for word from the stored official text, with the article or section they come from. Each was found and quoted alike by two independent extractions and checked against the stored file and its SHA-256. Definitions in other languages keep the original wording; the English is the issuer's where it says so, otherwise the agent's rendering. Similar wording does not make two definitions legally equivalent, and nothing here is legal advice.</p>
+      <div id="defsTable"></div>
+      <h3>What comes next</h3>
+      <p>Definitions are the first layer of a comparison between instruments. The next layers are the requirements of each instrument (what it obliges, whom, from when) and a mapping of similar requirements across instruments, so that one measure can be seen to meet several of them. The plan and the progress are in issues <a href="https://github.com/kelkalot/every-ai-policy-ever/issues/70" target="_blank" rel="noopener">#70</a> and <a href="https://github.com/kelkalot/every-ai-policy-ever/issues/59" target="_blank" rel="noopener">#59</a>.</p>
+    </div>
+    <aside class="side">
+      <h3>This comparison</h3>
+      <dl>
+        <dt>Definitions</dt><dd data-count="definitions"></dd>
+        <dt>Records</dt><dd data-count="definitionRecords"></dd>
+      </dl>
+      <ul class="links">
+        <li><a href="https://github.com/kelkalot/every-ai-policy-ever/blob/main/runs/2026-10-16-definitions-pilot/report.md" target="_blank" rel="noopener">The pilot report</a>, with the definitions that need a second look</li>
+        <li><a href="https://github.com/kelkalot/every-ai-policy-ever/blob/main/data/definitions.csv" target="_blank" rel="noopener">Definitions as CSV</a></li>
+        <li><a href="https://huggingface.co/datasets/kelkalot/every-ai-policy-ever" target="_blank" rel="noopener">The dataset</a>, config <code>definitions</code></li>
+      </ul>
     </aside>
   </div>
 </section>
