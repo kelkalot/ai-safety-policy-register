@@ -29,13 +29,14 @@
    "records": [
     "INT-15"
    ],
-   "state": "open",
+   "state": "settled",
    "issue": 7,
    "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/7",
    "opened": "2026-10-14",
-   "closed": null,
-   "resolution": null,
-   "title": null
+   "closed": "2026-10-17",
+   "resolution": "settled by a later run or decision",
+   "title": null,
+   "closed_on_github": true
   },
   {
    "key": "record:PY-01@2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
@@ -1565,6 +1566,63 @@
    "closed": null,
    "resolution": null,
    "title": "Human sample of run 2026-10-17-recheck-international-1 (5 records)"
+  },
+  {
+   "key": "record:INT-15@2026-10-17-recheck-international-2",
+   "kind": "record",
+   "subject": "INT-15",
+   "run_id": "2026-10-17-recheck-international-2",
+   "held_back": false,
+   "why": "language is unsupported and the checker gave no evidence-backed fix",
+   "records": [
+    "INT-15"
+   ],
+   "title": "INT-15 WAICO Agreement: open question from run 2026-10-17-recheck-international-2",
+   "state": "open",
+   "issue": 109,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/109",
+   "opened": "2026-10-17",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "record:INT-13@2026-10-17-recheck-international-2",
+   "kind": "record",
+   "subject": "INT-13",
+   "run_id": "2026-10-17-recheck-international-2",
+   "held_back": false,
+   "why": "date_published is unsupported and the checker gave no evidence-backed fix; issuing_body is unsupported and the checker gave no evidence-backed fix; date_published has no evidence",
+   "records": [
+    "INT-13"
+   ],
+   "title": "INT-13 Political Declaration on Military AI: open question from run 2026-10-17-recheck-international-2",
+   "state": "open",
+   "issue": 110,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/110",
+   "opened": "2026-10-17",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "sample:2026-10-17-recheck-international-2",
+   "kind": "sample",
+   "subject": "2026-10-17-recheck-international-2",
+   "run_id": "2026-10-17-recheck-international-2",
+   "records": [
+    "INT-07",
+    "INT-10",
+    "INT-11",
+    "INT-16",
+    "INT-18"
+   ],
+   "why": "Human sample of run 2026-10-17-recheck-international-2: check each record against its stored sources.",
+   "state": "open",
+   "issue": 111,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/111",
+   "opened": "2026-10-17",
+   "closed": null,
+   "resolution": null,
+   "title": "Human sample of run 2026-10-17-recheck-international-2 (5 records)"
   }
  ],
  "repo": "kelkalot/every-ai-policy-ever"

@@ -1,0 +1,62 @@
+{
+ "cand_id": "INT-08",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "judgment-differs",
+   "why": "the page says last updated 22 October 2025, but only to add a link to the external website. Setting null (no change to the report) is defensible; the record kept the page date before and the change is explained in notes"
+  },
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "75 experts, panel nominated by 30 countries, EU and UN",
+   "verdict": "supported",
+   "locator": "PDF, About this report"
+  },
+  {
+   "claim": "does not discuss policy interventions",
+   "verdict": "supported",
+   "locator": "page 14"
+  },
+  {
+   "claim": "22 Oct 2025 update added link only",
+   "verdict": "supported",
+   "locator": "GOV.UK Updates"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Identifier DSIT 2024/009 matches the colophon and page. The null for date_last_updated is a judgment call; not blocking."
+}

@@ -1,0 +1,57 @@
+{
+ "cand_id": "INT-13",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "unsupported",
+   "why": "Stored MOFA copy prints no date; no stored file dates the ten-measure text (the value 2023-11 is kept from v1). The evidence script reports no evidence. A web search shows the endorsement count was announced on 1 Nov 2023 (32 states) and later (47 states, Jan 2024 per search results), and some databases date the text 9 Nov 2023, but none of these pages is stored, so no fix can be given."
+  },
+  "issuing_body": {
+   "verdict": "unsupported",
+   "why": "The only stored source (MOFA copy) speaks of 'the endorsing States'; the parenthetical 'initiative of the United States Department of State' has no stored support. The value is not changed by the run."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "senior officials oversee high-consequence applications",
+   "verdict": "supported",
+   "locator": "page 1, measure C"
+  },
+  {
+   "claim": "training to mitigate automation bias",
+   "verdict": "supported",
+   "locator": "page 1, measure G"
+  },
+  {
+   "claim": "disengaging or deactivating systems that demonstrate unintended behavior",
+   "verdict": "supported",
+   "locator": "page 2, measure J"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Intergovernmental declaration on military AI."
+ },
+ "overall": "accept-with-fixes",
+ "note": "Title, ten measures, non-binding character and summary check out against the stored MOFA text. date_published (2023-11) and the issuing-body parenthetical are not supported by any stored file and are not changed by this run; they need a stored source (State Department or White House page, or a person-provided copy) and should become a question. The extractor moved the unsupported Feb 2023 launch and 47-endorser claims out of the notes, which is right. Level C may result from the missing date evidence; the extractor's notes and open questions say so."
+}

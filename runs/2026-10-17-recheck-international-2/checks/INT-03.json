@@ -1,0 +1,68 @@
+{
+ "cand_id": "INT-03",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "secondary_url": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "29 entries counted: 28 countries plus EU"
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "declaration; quotes show resolve and encouragement, no binding terms"
+  },
+  "title": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "frontier AI includes narrow AI that could cause harm",
+   "verdict": "supported",
+   "locator": "text, frontier paragraph"
+  },
+  {
+   "claim": "cybersecurity, biotechnology, disinformation",
+   "verdict": "supported",
+   "locator": "text"
+  },
+  {
+   "claim": "New Zealand joined 23 October 2024",
+   "verdict": "supported",
+   "locator": "end of text"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "INT-09"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Summary and notes confirmed against the stored GOV.UK text and publication page. No newer version found."
+}

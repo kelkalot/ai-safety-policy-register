@@ -1,0 +1,99 @@
+{
+ "cand_id": "INT-12",
+ "decision": "update",
+ "target_id": "INT-12",
+ "record": {
+  "notes": "Adopted at the Ministerial and High Authorities Summit in Santiago, 23-24 Oct 2023. The Spanish text does not list the signatory countries; Chile's investment promotion agency (InvestChile) reports that 20 Latin American and Caribbean nations signed. The second summit (Montevideo, 3-4 Oct 2024) adopted the Montevideo Declaration, recorded as INT-17."
+ },
+ "evidence": {
+  "original_title": [
+   {
+    "file": "archive/INT-12/2026-10-11/official.pdf",
+    "sha256": "b589e5c97527b23919b51c58dcb37bea3d3c7dcdcbe5f58bb43c7f2623f44a68",
+    "locator": "page 1",
+    "quote": "“Para promover una inteligencia artificial ética en América Latina y el Caribe”",
+    "source_kind": "official"
+   }
+  ],
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-12/extra-6d3af4075e/2026-10-17/official.html",
+    "sha256": "dd913a8113aa893b9a15323bf9861406ce8fc507da4d7cf273e4017dc475ee2c",
+    "locator": "article",
+    "quote": "Santiago Declaration to Promote Ethical Artificial Intelligence in Latin America and the Caribbean",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/INT-12/2026-10-11/official.pdf",
+    "sha256": "b589e5c97527b23919b51c58dcb37bea3d3c7dcdcbe5f58bb43c7f2623f44a68",
+    "locator": "page 1",
+    "quote": "Santiago de Chile, 23-24 de octubre de 2023",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-12/2026-10-11/official.pdf",
+    "sha256": "b589e5c97527b23919b51c58dcb37bea3d3c7dcdcbe5f58bb43c7f2623f44a68",
+    "locator": "page 1",
+    "quote": "Las Ministras, Ministros y Altas Autoridades representantes de los países de América Latina y el Caribe",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-12/2026-10-11/official.pdf",
+    "sha256": "b589e5c97527b23919b51c58dcb37bea3d3c7dcdcbe5f58bb43c7f2623f44a68",
+    "locator": "page 1",
+    "quote": "2. Que los países aquí firmantes acuerdan iniciar un análisis",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/INT-12/2026-10-11/official.pdf",
+    "sha256": "b589e5c97527b23919b51c58dcb37bea3d3c7dcdcbe5f58bb43c7f2623f44a68",
+    "locator": "page 1",
+    "quote": "Cumbre Ministerial y de Altas Autoridades de América Latina y el Caribe",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-12/extra-6d3af4075e/2026-10-17/official.html",
+    "sha256": "dd913a8113aa893b9a15323bf9861406ce8fc507da4d7cf273e4017dc475ee2c",
+    "locator": "article",
+    "quote": "In a historic meeting at La Moneda Palace, 20 Latin American and Caribbean nations came together to sign the Santiago Declaration",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-12/extra-64803d61fe/2026-10-17/official.pdf",
+    "sha256": "d7a6d38f6aed11aa91575132496f9f00ab836ac3ea29e6c6f762833ef0b30987",
+    "locator": "page 1",
+    "quote": "DECLARATION OF MONTEVIDEO",
+    "source_kind": "alt-official"
+   }
+  ]
+ },
+ "judgment": {
+  "confirmed": [
+   "title",
+   "original_title",
+   "date_published",
+   "status",
+   "legal_force",
+   "issuing_body"
+  ],
+  "changes": {
+   "notes": "The Montevideo follow-up declaration (3-4 Oct 2024) is now stored and recorded as INT-17, so the \"reportedly\" wording is stale; the Chilean government investment agency says 20 nations signed."
+  },
+  "status_reasoning": "Adopted Oct 2023; no amendment. English title matches InvestChile rendering (agency page, not the issuer text), so title is a rendering; english_version stays none found."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}

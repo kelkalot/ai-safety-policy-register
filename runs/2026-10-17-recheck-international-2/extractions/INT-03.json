@@ -1,0 +1,224 @@
+{
+ "cand_id": "INT-03",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "INT-03",
+ "record": {
+  "secondary_url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration",
+  "summary": "Declaration by 28 countries and the EU on the risks of 'frontier' AI: highly capable general-purpose models, and narrow AI with harmful capabilities, that match or exceed today's most advanced models. It warns of substantial risks from intentional misuse or unintended issues of control, names cybersecurity, biotechnology and disinformation, and sees potential for serious, even catastrophic, harm. Its agenda is a shared scientific understanding of these risks and risk-based national policies, with safety testing, evaluations and transparency from developers of frontier AI, and an international network of scientific research on frontier AI safety.",
+  "notes": "Agreed at the AI Safety Summit at Bletchley Park, 1-2 November 2023; the countries represented include the US, China and the EU. New Zealand joined the commitment on 23 October 2024, and GOV.UK updated the publication on 13 February 2025 to include it as a signatory. The participants said they would meet again in 2024. The International AI Safety Report (interim report INT-08, full report INT-09) was launched at this summit. GOV.UK also offers a Latin American Spanish version of the publication.",
+  "verification": {
+   "note": "Stored and read: the declaration's HTML text on GOV.UK (official, stored 11 Oct 2026 and unchanged on 17 Oct 2026), which confirms the title, the text, the 28 countries and the EU represented and New Zealand's accession of 23 October 2024; and, in this run, the GOV.UK publication page (proposed as secondary_url), which gives the first publication on 1 November 2023 and the update of 13 February 2025 that added New Zealand, and DSIT's press release of 29 January 2025, which says the International AI Safety Report was launched at the summit. Version 1's claim that the text was unchanged by the 2025 update, and its description as the 'first' declaration of its kind, are not supported and were removed."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/INT-03/2026-10-11/official.html",
+    "sha256": "413a95f75c30deec5911910e6e7a6851e871709d745a1ca599d08e5a2c21cd35",
+    "locator": "heading",
+    "quote": "The Bletchley Declaration by Countries Attending the AI Safety Summit, 1-2 November 2023",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-03/extra-243fa770c1/2026-10-17/official.html",
+    "sha256": "9d7d8fefc27aeed6be7e1baee3a604e7e4259e40fb813d2785e16298b824c5b5",
+    "locator": "Documents",
+    "quote": "The Bletchley Declaration by Countries Attending the AI Safety Summit, 1-2 November 2023 HTML",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-03/extra-243fa770c1/2026-10-17/official.html",
+    "sha256": "9d7d8fefc27aeed6be7e1baee3a604e7e4259e40fb813d2785e16298b824c5b5",
+    "locator": "Published",
+    "quote": "Published: 1 November 2023",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-03/extra-243fa770c1/2026-10-17/official.html",
+    "sha256": "9d7d8fefc27aeed6be7e1baee3a604e7e4259e40fb813d2785e16298b824c5b5",
+    "locator": "Updates to this page",
+    "quote": "1 November 2023 First published.",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-03/extra-243fa770c1/2026-10-17/official.html",
+    "sha256": "9d7d8fefc27aeed6be7e1baee3a604e7e4259e40fb813d2785e16298b824c5b5",
+    "locator": "Updates to this page",
+    "quote": "13 February 2025 Updated to include New Zealand as a signatory of the declaration.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-03/2026-10-11/official.html",
+    "sha256": "413a95f75c30deec5911910e6e7a6851e871709d745a1ca599d08e5a2c21cd35",
+    "locator": "below the heading",
+    "quote": "Updated 13 February 2025",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-03/extra-243fa770c1/2026-10-17/official.html",
+    "sha256": "9d7d8fefc27aeed6be7e1baee3a604e7e4259e40fb813d2785e16298b824c5b5",
+    "locator": "summary",
+    "quote": "Declaration agreed by countries attending the AI Safety Summit 2023 at Bletchley Park, Buckinghamshire.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-03/extra-243fa770c1/2026-10-17/official.html",
+    "sha256": "9d7d8fefc27aeed6be7e1baee3a604e7e4259e40fb813d2785e16298b824c5b5",
+    "locator": "Updates to this page",
+    "quote": "13 February 2025 Updated to include New Zealand as a signatory of the declaration.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/INT-03/2026-10-11/official.html",
+    "sha256": "413a95f75c30deec5911910e6e7a6851e871709d745a1ca599d08e5a2c21cd35",
+    "locator": "list of countries",
+    "quote": "The countries represented were: Australia Brazil Canada Chile China European Union France Germany",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-03/2026-10-11/official.html",
+    "sha256": "413a95f75c30deec5911910e6e7a6851e871709d745a1ca599d08e5a2c21cd35",
+    "locator": "list of countries",
+    "quote": "United Arab Emirates United Kingdom of Great Britain and Northern Ireland United States of America",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-03/extra-243fa770c1/2026-10-17/official.html",
+    "sha256": "9d7d8fefc27aeed6be7e1baee3a604e7e4259e40fb813d2785e16298b824c5b5",
+    "locator": "From",
+    "quote": "Prime Minister's Office, 10 Downing Street, Department for Science, Innovation and Technology and Foreign, Commonwealth & Development Office",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-03/2026-10-11/official.html",
+    "sha256": "413a95f75c30deec5911910e6e7a6851e871709d745a1ca599d08e5a2c21cd35",
+    "locator": "text",
+    "quote": "we resolve to support an internationally inclusive network of scientific research on frontier AI safety",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-03/2026-10-11/official.html",
+    "sha256": "413a95f75c30deec5911910e6e7a6851e871709d745a1ca599d08e5a2c21cd35",
+    "locator": "text",
+    "quote": "We encourage all relevant actors to provide context-appropriate transparency and accountability",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/INT-03/2026-10-11/official.html",
+    "sha256": "413a95f75c30deec5911910e6e7a6851e871709d745a1ca599d08e5a2c21cd35",
+    "locator": "text",
+    "quote": "Particular safety risks arise at the 'frontier' of AI, understood as being those highly capable general-purpose AI models, including foundation models, that could perform a wide variety of tasks",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-03/2026-10-11/official.html",
+    "sha256": "413a95f75c30deec5911910e6e7a6851e871709d745a1ca599d08e5a2c21cd35",
+    "locator": "text",
+    "quote": "Substantial risks may arise from potential intentional misuse or unintended issues of control relating to alignment with human intent.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-03/2026-10-11/official.html",
+    "sha256": "413a95f75c30deec5911910e6e7a6851e871709d745a1ca599d08e5a2c21cd35",
+    "locator": "text",
+    "quote": "We are especially concerned by such risks in domains such as cybersecurity and biotechnology, as well as where frontier AI systems may amplify risks such as disinformation.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-03/2026-10-11/official.html",
+    "sha256": "413a95f75c30deec5911910e6e7a6851e871709d745a1ca599d08e5a2c21cd35",
+    "locator": "text",
+    "quote": "There is potential for serious, even catastrophic, harm, either deliberate or unintentional",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-03/2026-10-11/official.html",
+    "sha256": "413a95f75c30deec5911910e6e7a6851e871709d745a1ca599d08e5a2c21cd35",
+    "locator": "agenda",
+    "quote": "alongside increased transparency by private actors developing frontier AI capabilities, appropriate evaluation metrics, tools for safety testing",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-03/2026-10-11/official.html",
+    "sha256": "413a95f75c30deec5911910e6e7a6851e871709d745a1ca599d08e5a2c21cd35",
+    "locator": "text",
+    "quote": "including through systems for safety testing, through evaluations, and by other appropriate measures",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/INT-03/2026-10-11/official.html",
+    "sha256": "413a95f75c30deec5911910e6e7a6851e871709d745a1ca599d08e5a2c21cd35",
+    "locator": "end of text",
+    "quote": "On 23 October 2024, New Zealand joined the commitment to the Bletchley Declaration.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-03/2026-10-11/official.html",
+    "sha256": "413a95f75c30deec5911910e6e7a6851e871709d745a1ca599d08e5a2c21cd35",
+    "locator": "text",
+    "quote": "We look forward to meeting again in 2024.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-03/extra-4851ff791c/2026-10-17/official.html",
+    "sha256": "4d9af45900c07aac4eec08f36ad15762912e0145ebf4e5b9e17ff4eeeb3dea73",
+    "locator": "press release",
+    "quote": "Launched at the AI Safety Summit in November 2023, the report is mandated by more than 30 countries",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-03/extra-243fa770c1/2026-10-17/official.html",
+    "sha256": "9d7d8fefc27aeed6be7e1baee3a604e7e4259e40fb813d2785e16298b824c5b5",
+    "locator": "language switcher",
+    "quote": "English Español de América Latina",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "secondary_url": "the GOV.UK publication page (linked from the stored text), stored in this run: the only stored source for the first-publication date and for what the 13 February 2025 update changed",
+   "summary": "'First intergovernmental declaration focused on frontier AI' is a claim the text does not make; the definition of frontier AI, the risks named and the agenda are now as the text gives them",
+   "notes": "the 13 February 2025 update added New Zealand as a signatory (version 1 said the text was unchanged); New Zealand's accession; the launch of the International AI Safety Report at the summit from DSIT's press release; the later summits are left to the related records",
+   "verification.note": "rewritten for the files stored and read"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "date_last_updated",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "A declaration agreed at the summit on 1-2 November 2023 and published on GOV.UK on 1 November 2023; the only later change is the addition of New Zealand as a signatory (13 February 2025), which date_last_updated records. No withdrawal or replacement is shown. 'Published (non-binding, current)' stands.",
+  "scope_reasoning": "An intergovernmental declaration on frontier AI safety; in scope with no note."
+ },
+ "extra_urls": [
+  {
+   "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration",
+   "reason": "GOV.UK publication page linked from the stored declaration (stored in this run): first published 1 November 2023 and the update history of 13 February 2025; proposed as secondary_url"
+  },
+  {
+   "url": "https://www.gov.uk/government/news/first-international-ai-safety-report-to-inform-discussions-at-ai-action-summit",
+   "reason": "DSIT press release of 29 Jan 2025 (stored in this run): the International AI Safety Report was launched at the AI Safety Summit in November 2023"
+  }
+ ],
+ "leads": [],
+ "open_questions": []
+}

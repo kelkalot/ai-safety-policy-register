@@ -1,0 +1,155 @@
+{
+ "cand_id": "INT-06",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "INT-06",
+ "record": {
+  "issuing_body": "AI organisations that agreed to the commitments (20 by February 2025), announced by the UK and Republic of Korea governments at the AI Seoul Summit; published by the UK Department for Science, Innovation and Technology",
+  "notes": "The UK and Republic of Korea governments announced the first 16 signatories: Amazon, Anthropic, Cohere, Google, G42, IBM, Inflection AI, Meta, Microsoft, Mistral AI, Naver, OpenAI, Samsung Electronics, Technology Innovation Institute, xAI and Zhipu.ai. Magic, Minimax, 01.ai and NVIDIA were added on 7 February 2025, making 20. Signatories undertook to publish a safety framework focused on severe risks by the next AI summit, in France (the AI Action Summit, INT-01), and to provide public updates if their approaches to the three outcomes change.",
+  "verification": {
+   "note": "Stored and read: the GOV.UK publication page (official), which gives the first publication on 21 May 2024 and the update of 7 February 2025 that added organisations, and the commitments' HTML text (alt-official), which gives the 20 organisations, the eight commitments under three outcomes and the definitions; both stored 11 Oct 2026 and unchanged on 17 Oct 2026, with no update after 7 February 2025."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/INT-06/2026-10-11/official.html",
+    "sha256": "b1f8a2846196606a728e5e831a74ed36e275460a4bbcb68e43ca64f3e663d236",
+    "locator": "heading",
+    "quote": "Frontier AI Safety Commitments, AI Seoul Summit 2024 Leading AI organisations agree to the Frontier AI Safety Commitments",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-06/2026-10-11/secondary.html",
+    "sha256": "4c9c5bc59457b52e34c80e2349ebc23b875e8e621c45719539e2be171cff81d4",
+    "locator": "heading",
+    "quote": "Frontier AI Safety Commitments, AI Seoul Summit 2024 Updated 7 February 2025",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/INT-06/2026-10-11/official.html",
+    "sha256": "b1f8a2846196606a728e5e831a74ed36e275460a4bbcb68e43ca64f3e663d236",
+    "locator": "Published",
+    "quote": "Published: 21 May 2024",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-06/2026-10-11/official.html",
+    "sha256": "b1f8a2846196606a728e5e831a74ed36e275460a4bbcb68e43ca64f3e663d236",
+    "locator": "Updates to this page",
+    "quote": "21 May 2024 First published.",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/INT-06/2026-10-11/official.html",
+    "sha256": "b1f8a2846196606a728e5e831a74ed36e275460a4bbcb68e43ca64f3e663d236",
+    "locator": "Last updated",
+    "quote": "Last updated: 7 February 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-06/2026-10-11/official.html",
+    "sha256": "b1f8a2846196606a728e5e831a74ed36e275460a4bbcb68e43ca64f3e663d236",
+    "locator": "Updates to this page",
+    "quote": "7 February 2025 Additional organisations added to the existing list who have agreed to the Frontier AI Safety Commitments.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-06/2026-10-11/official.html",
+    "sha256": "b1f8a2846196606a728e5e831a74ed36e275460a4bbcb68e43ca64f3e663d236",
+    "locator": "Updates to this page",
+    "quote": "7 February 2025 Additional organisations added to the existing list who have agreed to the Frontier AI Safety Commitments.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-06/2026-10-11/official.html",
+    "sha256": "b1f8a2846196606a728e5e831a74ed36e275460a4bbcb68e43ca64f3e663d236",
+    "locator": "summary",
+    "quote": "Leading AI organisations agree to the Frontier AI Safety Commitments in furtherance of safe and trustworthy AI.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/INT-06/2026-10-11/secondary.html",
+    "sha256": "4c9c5bc59457b52e34c80e2349ebc23b875e8e621c45719539e2be171cff81d4",
+    "locator": "text",
+    "quote": "The UK and Republic of Korea governments announced that the following organisations have agreed to the Frontier AI Safety Commitments:",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/INT-06/2026-10-11/official.html",
+    "sha256": "b1f8a2846196606a728e5e831a74ed36e275460a4bbcb68e43ca64f3e663d236",
+    "locator": "From",
+    "quote": "From: Department for Science, Innovation and Technology",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-06/2026-10-11/secondary.html",
+    "sha256": "4c9c5bc59457b52e34c80e2349ebc23b875e8e621c45719539e2be171cff81d4",
+    "locator": "text",
+    "quote": "The following organisations have been added to the existing list: Magic Minimax 01.ai NVIDIA",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-06/2026-10-11/secondary.html",
+    "sha256": "4c9c5bc59457b52e34c80e2349ebc23b875e8e621c45719539e2be171cff81d4",
+    "locator": "text",
+    "quote": "undertake to develop and deploy their frontier AI models and systems[footnote 1] responsibly, in accordance with the following voluntary commitments",
+    "source_kind": "alt-official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/INT-06/2026-10-11/secondary.html",
+    "sha256": "4c9c5bc59457b52e34c80e2349ebc23b875e8e621c45719539e2be171cff81d4",
+    "locator": "list of organisations",
+    "quote": "Amazon Anthropic Cohere Google G42 IBM Inflection AI Meta Microsoft Mistral AI Naver OpenAI Samsung Electronics Technology Innovation Institute xAI Zhipu.ai",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/INT-06/2026-10-11/secondary.html",
+    "sha256": "4c9c5bc59457b52e34c80e2349ebc23b875e8e621c45719539e2be171cff81d4",
+    "locator": "text",
+    "quote": "to demonstrate how they have achieved this by publishing a safety framework focused on severe risks by the upcoming AI Summit in France",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/INT-06/2026-10-11/secondary.html",
+    "sha256": "4c9c5bc59457b52e34c80e2349ebc23b875e8e621c45719539e2be171cff81d4",
+    "locator": "text",
+    "quote": "In such instances, organisations will provide transparency on this, including their reasons, through public updates.",
+    "source_kind": "alt-official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "issuing_body": "the text says the UK and Republic of Korea governments announced the commitments, which the AI organisations made; DSIT published them. Version 1's 'published for the AI Seoul Summit co-hosts' is replaced by what the page says",
+   "notes": "'before the Paris AI Action Summit (Feb 2025)' replaced by the text's 'by the upcoming AI Summit in France'; the public-updates clause added",
+   "verification.note": "rewritten for the files stored and read"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "date_last_updated",
+   "status",
+   "legal_force"
+  ],
+  "status_reasoning": "Voluntary commitments published on 21 May 2024; the publication page lists one update, on 7 February 2025 (organisations added), and the copy re-checked on 17 Oct 2026 shows no later update. 'Published (non-binding, current)' stands.",
+  "summary_check": "The summary matches commitments I to VIII: risk assessment across the lifecycle, thresholds for intolerable severe risks, not developing or deploying a model if risks cannot be kept below the thresholds, internal accountability, publication of a safety framework, public transparency and sharing with trusted actors such as home governments.",
+  "scope_reasoning": "Company commitments brokered and published by governments; the existing scope_note stands."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

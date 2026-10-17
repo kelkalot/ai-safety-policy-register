@@ -1,0 +1,69 @@
+{
+ "cand_id": "INT-05",
+ "decision": "update",
+ "target_id": "INT-05",
+ "record": {},
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/INT-05/2026-10-11/official.html",
+    "sha256": "4f9bf25c7d9fa101ef26ea471d9140beacd4b5adb7bc4d62ba3fb6935c39fdeb",
+    "locator": "heading",
+    "quote": "Seoul Statement of Intent toward International Cooperation on AI Safety Science, AI Seoul Summit 2024 (Annex)",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/INT-05/2026-10-11/official.html",
+    "sha256": "4f9bf25c7d9fa101ef26ea471d9140beacd4b5adb7bc4d62ba3fb6935c39fdeb",
+    "locator": "para 1",
+    "quote": "Gathered at the AI Seoul Summit on 21 May 2024",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-05/2026-10-11/official.html",
+    "sha256": "4f9bf25c7d9fa101ef26ea471d9140beacd4b5adb7bc4d62ba3fb6935c39fdeb",
+    "locator": "header",
+    "quote": "Published 21 May 2024",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-05/2026-10-11/official.html",
+    "sha256": "4f9bf25c7d9fa101ef26ea471d9140beacd4b5adb7bc4d62ba3fb6935c39fdeb",
+    "locator": "para 2.3",
+    "quote": "We express our shared intent to take steps toward fostering common international scientific understanding",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/INT-05/2026-10-11/official.html",
+    "sha256": "4f9bf25c7d9fa101ef26ea471d9140beacd4b5adb7bc4d62ba3fb6935c39fdeb",
+    "locator": "para 1",
+    "quote": "world leaders representing Australia, Canada, the European Union, France, Germany, Italy, Japan, the Republic of Korea, the Republic of Singapore, the United Kingdom, and the United States of America",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "legal_force",
+   "issuing_body"
+  ],
+  "changes": {},
+  "status_reasoning": "Published 21 May 2024 as annex; no later change in the stored text."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}

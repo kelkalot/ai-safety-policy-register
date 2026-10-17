@@ -1,0 +1,166 @@
+{
+ "cand_id": "INT-04",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "INT-04",
+ "record": {
+  "summary": "Leaders of ten countries and the EU treat AI safety, innovation and inclusivity as inter-related goals and call for interoperable AI governance frameworks, in line with a risk-based approach, for the safe, secure and trustworthy design, development, deployment and use of AI. They support creating or expanding AI safety institutes, research programmes and supervisory bodies and networks between them, welcome the annexed Seoul Statement of Intent on AI safety science, recognise the particular responsibility of organisations developing frontier AI, note the Frontier AI Safety Commitments and back the operationalisation of the Hiroshima Process Code of Conduct.",
+  "notes": "Agreed at the Leaders' Session of the AI Seoul Summit on 21 May 2024. The summit, co-hosted by the UK and the Republic of Korea on 21 and 22 May 2024, built on the AI Safety Summit at Bletchley Park (INT-03). The Seoul Statement of Intent toward International Cooperation on AI Safety Science (INT-05) is annexed to it. It looks forward to the third gathering, the AI Action Summit in France (INT-01).",
+  "verification": {
+   "note": "Stored and read: the GOV.UK publication page (official) and the declaration's HTML text (alt-official), both stored 11 Oct 2026 and unchanged on 17 Oct 2026, which confirm the title, the date of 21 May 2024, the ten countries and the EU and the text; and, in this run, the GOV.UK topical event page for the AI Seoul Summit 2024, which says the UK co-hosted the summit with the Republic of Korea on 21 and 22 May 2024. Version 1's description of the Leaders' Session as virtual is not in the stored files and was removed."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/INT-04/2026-10-11/official.html",
+    "sha256": "070aa3dfbe56595765a7ca9f282e504f8007aea0df4fb550884a77b2cc65274f",
+    "locator": "Documents",
+    "quote": "Seoul Declaration for safe, innovative and inclusive AI by participants attending the Leaders' Session: AI Seoul Summit, 21 May 2024",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-04/2026-10-11/secondary.html",
+    "sha256": "294434498d8216e502915e2a518a6f5d6965258ffedb0bdc83f4b5c68bcb9d23",
+    "locator": "heading",
+    "quote": "Seoul Declaration for safe, innovative and inclusive AI by participants attending the Leaders' Session: AI Seoul Summit, 21 May 2024 Published 21 May 2024",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/INT-04/2026-10-11/official.html",
+    "sha256": "070aa3dfbe56595765a7ca9f282e504f8007aea0df4fb550884a77b2cc65274f",
+    "locator": "Published",
+    "quote": "Published: 21 May 2024",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-04/2026-10-11/secondary.html",
+    "sha256": "294434498d8216e502915e2a518a6f5d6965258ffedb0bdc83f4b5c68bcb9d23",
+    "locator": "below the heading",
+    "quote": "Published 21 May 2024",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-04/2026-10-11/official.html",
+    "sha256": "070aa3dfbe56595765a7ca9f282e504f8007aea0df4fb550884a77b2cc65274f",
+    "locator": "summary",
+    "quote": "Seoul Declaration and Statement of Intent toward International Cooperation on AI Safety Science, agreed by world leaders represented at the AI Seoul Summit, 21 May 2024.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/INT-04/2026-10-11/secondary.html",
+    "sha256": "294434498d8216e502915e2a518a6f5d6965258ffedb0bdc83f4b5c68bcb9d23",
+    "locator": "paragraph 1",
+    "quote": "We, world leaders representing Australia, Canada, the European Union, France, Germany, Italy, Japan, the Republic of Korea, the Republic of Singapore, the United Kingdom, and the United States of America, gathered at the AI Seoul Summit on 21st May 2024",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-04/extra-1b4616cecf/2026-10-17/official.html",
+    "sha256": "ec2c949776256c4b82ada1c071263345fb8b9064dcb0bbb926b629b1f6af8d62",
+    "locator": "topical event",
+    "quote": "The UK government will co-host the AI Seoul Summit with the Republic of Korea on the 21 and 22 May 2024.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-04/2026-10-11/secondary.html",
+    "sha256": "294434498d8216e502915e2a518a6f5d6965258ffedb0bdc83f4b5c68bcb9d23",
+    "locator": "paragraph 1",
+    "quote": "affirm our common dedication to fostering international cooperation and dialogue on artificial intelligence",
+    "source_kind": "alt-official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/INT-04/2026-10-11/secondary.html",
+    "sha256": "294434498d8216e502915e2a518a6f5d6965258ffedb0bdc83f4b5c68bcb9d23",
+    "locator": "paragraph 2",
+    "quote": "we recognize that AI safety, innovation, and inclusivity are inter-related goals",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/INT-04/2026-10-11/secondary.html",
+    "sha256": "294434498d8216e502915e2a518a6f5d6965258ffedb0bdc83f4b5c68bcb9d23",
+    "locator": "paragraph 3",
+    "quote": "We recognise the importance of interoperability between AI governance frameworks in line with a risk-based approach",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/INT-04/2026-10-11/secondary.html",
+    "sha256": "294434498d8216e502915e2a518a6f5d6965258ffedb0bdc83f4b5c68bcb9d23",
+    "locator": "paragraph 3",
+    "quote": "We continue to focus on supporting the operationalisation of the Hiroshima Process International Code of Conduct for Organizations Developing Advanced AI Systems.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/INT-04/2026-10-11/secondary.html",
+    "sha256": "294434498d8216e502915e2a518a6f5d6965258ffedb0bdc83f4b5c68bcb9d23",
+    "locator": "paragraph 3",
+    "quote": "We recognize the particular responsibility of organizations developing and deploying frontier AI, and, in this regard, note the Frontier AI Safety Commitments.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/INT-04/2026-10-11/secondary.html",
+    "sha256": "294434498d8216e502915e2a518a6f5d6965258ffedb0bdc83f4b5c68bcb9d23",
+    "locator": "paragraph 4",
+    "quote": "We support existing and ongoing efforts of the participants to this Declaration to create or expand AI safety institutes, research programmes and/or other relevant institutions including supervisory bodies",
+    "source_kind": "alt-official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-04/extra-1b4616cecf/2026-10-17/official.html",
+    "sha256": "ec2c949776256c4b82ada1c071263345fb8b9064dcb0bbb926b629b1f6af8d62",
+    "locator": "topical event",
+    "quote": "The AI Seoul Summit will build on the legacy of the first AI Safety Summit which was hosted by the UK at Bletchley Park in November 2023",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-04/2026-10-11/secondary.html",
+    "sha256": "294434498d8216e502915e2a518a6f5d6965258ffedb0bdc83f4b5c68bcb9d23",
+    "locator": "paragraph 4",
+    "quote": "we welcome the Seoul Statement of Intent toward International Cooperation on AI Safety Science, which is annexed to this Declaration",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/INT-04/2026-10-11/secondary.html",
+    "sha256": "294434498d8216e502915e2a518a6f5d6965258ffedb0bdc83f4b5c68bcb9d23",
+    "locator": "paragraph 9",
+    "quote": "we look forward to our third gathering at the upcoming AI Action Summit to be held in France",
+    "source_kind": "alt-official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "corrected to what paragraphs 2 to 4 say: the declaration supports operationalising the Hiroshima Code of Conduct and notes the Frontier AI Safety Commitments, but does not present them as 'ways to put interoperable governance into practice'; supervisory bodies and the annexed Statement of Intent added",
+   "notes": "'virtual' removed (not in the stored files); the co-hosts and summit dates from the GOV.UK topical event page; Bletchley precedent and the France summit from the text",
+   "verification.note": "rewritten for the files stored and read"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "Agreed by the leaders on 21 May 2024 and published on GOV.UK the same day; the publication page shows no later update, and nothing stored shows a revision or replacement. 'Published (non-binding, current)' stands; the leaders affirm, recognise and support, without obligations.",
+  "scope_reasoning": "An intergovernmental summit declaration on AI safety, AI safety institutes and frontier AI; in scope with no note."
+ },
+ "extra_urls": [
+  {
+   "url": "https://www.gov.uk/government/topical-events/ai-seoul-summit-2024",
+   "reason": "GOV.UK topical event page linked from the stored publication page (stored in this run): the UK co-hosted the AI Seoul Summit with the Republic of Korea on 21 and 22 May 2024; supports the issuing_body's co-host clause"
+  }
+ ],
+ "leads": [],
+ "open_questions": []
+}

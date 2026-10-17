@@ -1,0 +1,121 @@
+{
+ "cand_id": "INT-20",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "INT-20",
+ "record": {
+  "notes": "The Friends Group was launched in May 2024 as a voluntary framework of countries supporting the spirit of the HAIP; as of March 2026 it had 66 countries and regions and 38 organisations in its Partners Community. The Tokyo meeting of 15-16 March 2026, hosted by Japan's Ministry of Internal Affairs and Communications with the OECD and the World Bank as co-hosts, was attended by 34 Friends Group countries and regions, Brazil as an observer and 32 partner organisations. The plan is to be shared in coming international discussions. At the meeting the OECD announced a pilot version aimed at revising the HAIP Reporting Framework (OECD-02), and the World Bank announced an AI Academy to support capacity building in the Global South. The G7 Digital and Technology Ministers, meeting in Paris on 29 May under France's presidency, welcomed the Friends Group's initiatives and 'the related Action Plan announced in March 2026' (G7-04).",
+  "verification": {
+   "note": "Stored and read in this run: the Action Plan PDF (8 pages) on the MIC Japan site, the MIC press release on the meeting, and the G7 Ministerial Declaration on Digital & Technology on MIC Japan's HAIP site. The PDF confirms the title, the 16 March 2026 date, the membership figures and the listed initiatives; the press release confirms the meeting dates, the hosts, attendance and the OECD and World Bank announcements; the G7 declaration confirms the ministers' welcome of the plan."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/INT-20/2026-10-11/official.pdf",
+    "sha256": "4c324616e053f45786b3de1dd70976380d7df8667034b9445cc2f9d046cf75ac",
+    "locator": "page 1",
+    "quote": "Hiroshima AI Process Friends Group Action Plan 2026",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/INT-20/2026-10-11/official.pdf",
+    "sha256": "4c324616e053f45786b3de1dd70976380d7df8667034b9445cc2f9d046cf75ac",
+    "locator": "page 1",
+    "quote": "March 16 th, 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-20/2026-10-11/secondary.html",
+    "sha256": "ac425431222f93436842005729989361d242d282a3a9dd2d838aae20b0b5321f",
+    "locator": "press release, first paragraph",
+    "quote": "from Sunday, March 15 to Monday, March 16, 2026",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-20/2026-10-11/official.pdf",
+    "sha256": "4c324616e053f45786b3de1dd70976380d7df8667034b9445cc2f9d046cf75ac",
+    "locator": "page 1",
+    "quote": "we, the Friends Group, will work on the “Hiroshima AI Process Friends Group Action Plan 2026” on a voluntary basis, to promote the safe, secure, and trustworthy AI, which will be shared in the coming international discussions.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-20/2026-10-11/secondary.html",
+    "sha256": "ac425431222f93436842005729989361d242d282a3a9dd2d838aae20b0b5321f",
+    "locator": "press release",
+    "quote": "As an outcome, the “Hiroshima AI Process Friends Group Action Plan 2026,” was announced",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/INT-20/2026-10-11/official.pdf",
+    "sha256": "4c324616e053f45786b3de1dd70976380d7df8667034b9445cc2f9d046cf75ac",
+    "locator": "page 1",
+    "quote": "we, the Fr iends Group , gathered in the Second In - Person Meeting of the Hiroshima AI Process Friends Group (Meeting) in Tokyo",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-20/2026-10-11/secondary.html",
+    "sha256": "ac425431222f93436842005729989361d242d282a3a9dd2d838aae20b0b5321f",
+    "locator": "press release",
+    "quote": "Vice-Minister for Policy Coordination at the Ministry of Internal Affairs and Communications IMAGAWA Takuo (host), and the OECD and the World Bank (co-hosts)",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-20/2026-10-11/official.pdf",
+    "sha256": "4c324616e053f45786b3de1dd70976380d7df8667034b9445cc2f9d046cf75ac",
+    "locator": "page 1",
+    "quote": "will work on the “Hiroshima AI Process Friends Group Action Plan 2026” on a voluntary basis",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-20/extra-63bd12e21b/2026-10-17/official.pdf",
+    "sha256": "101316653594a6c0711dca2672308f63f808b6699f9a2c0b67f9441f831488b3",
+    "locator": "page 1",
+    "quote": "Additionally, we welcome the initiatives of the Hiroshima AI Process Friends Group and the Partners’ Community, the further expansion of its membership from developing countries, and the related Action Plan announced in March 2026.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-20/extra-63bd12e21b/2026-10-17/official.pdf",
+    "sha256": "101316653594a6c0711dca2672308f63f808b6699f9a2c0b67f9441f831488b3",
+    "locator": "page 1",
+    "quote": "We, the G7 Digital and Technology Ministers, met on May 29 in Paris, under France’s presidency.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-20/2026-10-11/secondary.html",
+    "sha256": "ac425431222f93436842005729989361d242d282a3a9dd2d838aae20b0b5321f",
+    "locator": "press release",
+    "quote": "the OECD announced the launch of a pilot version aimed at revising the Hiroshima AI Process Reporting Framework, while the World Bank announced the establishment of an AI Academy",
+    "source_kind": "alt-official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "notes": "'later released as version 2.0' and the evaluative last sentence removed; the meeting's hosts and co-hosts added from the press release; the G7 ministers' welcome of the plan rests on the stored declaration",
+   "verification.note": "rewritten for the sources stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "A voluntary one-year action plan announced on 16 March 2026 and to be carried out 'over the coming year'; nothing stored ends or replaces it. 'Published (non-binding, current)' stands."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

@@ -1,0 +1,149 @@
+{
+ "cand_id": "INT-15",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "INT-15",
+ "record": {
+  "summary": "Agreement signed in Shanghai on 16 July 2026 by representatives of 29 countries, which became its founding members, establishing the World Artificial Intelligence Cooperation Organization (WAICO) as an independent intergovernmental international organisation headquartered in Shanghai. WAICO follows the purposes of the UN Charter and aims to promote international cooperation and global governance on AI and to ensure the healthy, orderly development of AI in a beneficial, safe and fair direction. It is to help bridge the AI divide by supporting Global South countries and is open to all countries.",
+  "notes": "Foreign Minister Wang Yi signed for China; the named signatories include Kazakhstan, Laos, Pakistan, Russia and Indonesia, and UN Secretary-General António Guterres attended the ceremony. The agreement remained open for signature until 31 July 2026; Georgia's ambassador signed it in Beijing on that day. The Chair's Statement of the 2026 World Artificial Intelligence Conference (17 July 2026) reports the signing, calls WAICO the world's first intergovernmental international organisation on AI, lists its guiding principles (the UN Charter, sovereignty and the diversity of civilisations, equality, multilateralism) and says it will maintain communication with other international organisations. China's Premier Li Qiang had announced the proposal to establish WAICO in July 2025, on the day the Global AI Governance Action Plan (CN-11) was released, with headquarters in Shanghai then under consideration.",
+  "verification": {
+   "note": "Stored and read in this run: the Chinese Ministry of Foreign Affairs report on the signing ceremony (16 July 2026); the MFA's English text of the Chair's Statement of WAIC 2026 (17 July 2026); the MFA's text of Deputy Foreign Minister Ma Zhaoxu's remarks at the High-Level Meeting on Global AI Governance (page updated 30 July 2025), which reports Premier Li Qiang's announcement of the WAICO proposal that morning; and the Embassy of Georgia in China's report of 31 July 2026 on Georgia's signature. They confirm the title, the signing on 16 July 2026, the 29 founding signatories, the Shanghai headquarters, the purposes summarised and the close of signature on 31 July 2026. The text of the agreement itself, with its languages, its entry-into-force clause and its functions, is not stored; no official page seen in this run publishes it. The status rests on the signing as the latest event."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/INT-15/2026-10-11/official.html",
+    "sha256": "8d57123e9f85ed2705b364e57aa8d1f3c46c9d851ea5748bf0ef7fb6d68ef78c",
+    "locator": "page heading",
+    "quote": "Signing Ceremony of the Agreement on the Establishment of the World Artificial Intelligence Cooperation Organization Held in Shanghai",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/INT-15/2026-10-11/official.html",
+    "sha256": "8d57123e9f85ed2705b364e57aa8d1f3c46c9d851ea5748bf0ef7fb6d68ef78c",
+    "locator": "first paragraph",
+    "quote": "On July 16, 2026, the signing ceremony of the Agreement on the Establishment of the World Artificial Intelligence Cooperation Organization was held in Shanghai.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-15/2026-10-11/official.html",
+    "sha256": "8d57123e9f85ed2705b364e57aa8d1f3c46c9d851ea5748bf0ef7fb6d68ef78c",
+    "locator": "third paragraph",
+    "quote": "signed the agreement, with these countries becoming founding members of the Organization.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-15/2026-10-11/secondary.html",
+    "sha256": "c7a9044a12440bf652f44c6136810b51eeb2d018b0e19dca73b50b5ddc8d0c69",
+    "locator": "paragraph after point 15",
+    "quote": "WAICO will be the world’s first intergovernmental international organization on AI, with its Headquarters located in Shanghai.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-15/extra-8b0aeeef23/2026-10-17/official-rendered.html",
+    "sha256": "35b9754e2358ec9e010066bc71fd7fb2f92599e2c151ecc466d4a2134fff19e8",
+    "locator": "news item",
+    "quote": "The Agreement remained open for signature until July 31, 2026.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/INT-15/2026-10-11/official.html",
+    "sha256": "8d57123e9f85ed2705b364e57aa8d1f3c46c9d851ea5748bf0ef7fb6d68ef78c",
+    "locator": "third paragraph",
+    "quote": "Representatives of 29 countries, including Kazakhstan",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-15/2026-10-11/official.html",
+    "sha256": "8d57123e9f85ed2705b364e57aa8d1f3c46c9d851ea5748bf0ef7fb6d68ef78c",
+    "locator": "first paragraph",
+    "quote": "Foreign Minister Wang Yi attended the ceremony and signed the agreement on behalf of the Chinese government.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-15/2026-10-11/official.html",
+    "sha256": "8d57123e9f85ed2705b364e57aa8d1f3c46c9d851ea5748bf0ef7fb6d68ef78c",
+    "locator": "second paragraph",
+    "quote": "The Agreement specifies that the World Artificial Intelligence Cooperation Organization is an independent intergovernmental international organization",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-15/extra-8b0aeeef23/2026-10-17/official-rendered.html",
+    "sha256": "35b9754e2358ec9e010066bc71fd7fb2f92599e2c151ecc466d4a2134fff19e8",
+    "locator": "news item",
+    "quote": "The Agreement remained open for signature until July 31, 2026.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-15/extra-8b0aeeef23/2026-10-17/official-rendered.html",
+    "sha256": "35b9754e2358ec9e010066bc71fd7fb2f92599e2c151ecc466d4a2134fff19e8",
+    "locator": "news item",
+    "quote": "On July 31, 2026, in Beijing, Ambassador Extraordinary and Plenipotentiary of Georgia to the People’s Republic of China, Paata Kalandadze, signed the Agreement on the Establishment of the World Artificial Intelligence Cooperation Organization.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-15/extra-9e4191a14b/2026-10-17/official.html",
+    "sha256": "0a57894cebdca81905eacbfe40927e138a2f8e8e1f2009196c4ec40785b3ee39",
+    "locator": "remarks",
+    "quote": "This morning, on behalf of the Chinese government, Premier Li Qiang of the State Council announced the proposal to establish the World AI Cooperation Organization (WAICO).",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-15/extra-9e4191a14b/2026-10-17/official.html",
+    "sha256": "0a57894cebdca81905eacbfe40927e138a2f8e8e1f2009196c4ec40785b3ee39",
+    "locator": "remarks",
+    "quote": "The Global AI Governance Action Plan released today aims to translate the important consensus of the international community on AI development and governance into concrete actions.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-15/extra-9e4191a14b/2026-10-17/official.html",
+    "sha256": "0a57894cebdca81905eacbfe40927e138a2f8e8e1f2009196c4ec40785b3ee39",
+    "locator": "remarks",
+    "quote": "We are currently considering having its headquarters in Shanghai.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-15/extra-9e4191a14b/2026-10-17/official.html",
+    "sha256": "0a57894cebdca81905eacbfe40927e138a2f8e8e1f2009196c4ec40785b3ee39",
+    "locator": "page header",
+    "quote": "Updated: July 30, 2025 09:10",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "rewritten from the MFA texts; 'described by China as' dropped and the stated aims restated as the MFA gives them",
+   "notes": "'first proposed by China at WAIC in July 2025' restated as the stored MFA remarks have it (Premier Li Qiang announced the proposal in July 2025, the day the Global AI Governance Action Plan was released); the close of signature on 31 July 2026 and Georgia's signature added; the remarks on provisional status and on the region setting moved out of the notes",
+   "verification.note": "rewritten for the sources stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "The agreement was signed on 16 July 2026 by 29 countries, which became founding members, and remained open for signature until 31 July 2026 (Georgia signed on that day). The Chair's Statement of 17 July 2026 still speaks of WAICO in the future tense. No stored source reports ratification or entry into force, so 'Adopted, not yet in force' stands, with no in-force date.",
+  "legal_force_reasoning": "An agreement establishing an intergovernmental organisation, signed by states, is a treaty; 'Binding' as before, though its entry-into-force clause is not stored."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The agreement text is not stored and was not found on an official page: its languages, its entry-into-force and ratification clause, and its functions are unknown, so the status rests on the signing alone.",
+  "language holds a remark ('Not confirmed (multilingual treaty text not reviewed)') instead of language names; the stored sources do not say in which languages the agreement was concluded, so it cannot be corrected until the agreement text is stored. original_title stays empty for the same reason.",
+  "safety_topics has one value, 'international cooperation', below the minimum of two; the stored texts (the signing report, the Chair's Statement and the 2025 remarks on WAICO's goals: innovation cooperation, capacity building, coordination of governance rules and technical standards) support no second topic from the vocabulary."
+ ]
+}

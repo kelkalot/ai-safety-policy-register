@@ -1,0 +1,119 @@
+{
+ "run_id": "2026-10-17-recheck-international-2",
+ "generated": "2026-10-17",
+ "compared": 5,
+ "pending": [],
+ "overall_field_agreement": 0.0,
+ "fields": {
+  "decision": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "title": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "original_title": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "issuing_body": {
+   "compared": 1,
+   "agree": 0,
+   "rate": 0.0
+  },
+  "official_identifier": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_published": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_in_force": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_last_updated": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "status": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "legal_force": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "instrument_type": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "jurisdiction_level": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "region": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "country": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "safety_topics": {
+   "compared": 2,
+   "agree": 0,
+   "rate": 0.0
+  }
+ },
+ "disagreements": {
+  "INT-01": [
+   {
+    "field": "safety_topics",
+    "first": [
+     "international cooperation",
+     "transparency & labelling"
+    ],
+    "blind": null
+   }
+  ],
+  "INT-04": [],
+  "INT-05": [],
+  "INT-06": [
+   {
+    "field": "issuing_body",
+    "first": "AI organisations that agreed to the commitments (20 by February 2025), announced by the UK and Republic of Korea governments at the AI Seoul Summit; published by the UK Department for Science, Innovation and Technology",
+    "blind": null
+   }
+  ],
+  "INT-12": [
+   {
+    "field": "safety_topics",
+    "first": [
+     "international cooperation",
+     "accountability & liability",
+     "human oversight",
+     "transparency & labelling"
+    ],
+    "blind": null
+   }
+  ]
+ },
+ "resulting_record_agreement": 0.981,
+ "resulting_record_fields": 53
+}

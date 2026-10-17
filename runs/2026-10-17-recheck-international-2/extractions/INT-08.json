@@ -1,0 +1,155 @@
+{
+ "cand_id": "INT-08",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "INT-08",
+ "record": {
+  "official_identifier": "DSIT 2024/009",
+  "date_last_updated": null,
+  "summary": "Interim edition of the first International Scientific Report on the Safety of Advanced AI, written by 75 AI experts with an Expert Advisory Panel nominated by 30 countries, the EU and the UN. It synthesises the evidence on the capabilities of general-purpose AI and sorts its risks into malicious use (fake content, disinformation, cyber offence, biological weapons), malfunctions (bias, loss of control) and systemic risks (labour markets, the AI divide, market concentration, privacy, copyright). It finds that technical methods such as benchmarking, red-teaming and auditing training data can help mitigate risks but all have limitations. It does not discuss policy interventions.",
+  "notes": "Commissioned at the AI Safety Summit at Bletchley Park in November 2023 and chaired by Yoshua Bengio, with a UK Government secretariat hosted by the AI Safety Institute; published in May 2024 ahead of the AI Seoul Summit 2024. Executive summaries were published in Arabic, Chinese, French, Russian and Spanish. The interim report said the final version would be published ahead of the AI Action Summit in France; that full report, the International AI Safety Report 2025 (INT-09), followed in January 2025. On 22 October 2025 the GOV.UK page was updated only to add a link to the report's website, internationalaisafetyreport.org.",
+  "verification": {
+   "note": "Stored: the GOV.UK publication page (from the Cabinet Office, the AI Security Institute and DSIT; published 17 May 2024, last updated 22 October 2025), the interim report PDF (132 pages, May 2024, research series number DSIT 2024/009) and its Arabic executive summary; in this run also the report website's About page. They confirm the title, date, chair, secretariat, research series number, that a final version was to follow and that the full report was published in January 2025. The publication ahead of the AI Seoul Summit 2024 rests on the About page."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/INT-08/2026-10-11/official.html",
+    "sha256": "017f482de89ea041b01ddd42ab3d2eba24b216a1365d988c51136d0508f70237",
+    "locator": "page heading",
+    "quote": "International Scientific Report on the Safety of Advanced AI: interim report",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-08/2026-10-11/document-1.pdf",
+    "sha256": "ccc4f9c9dfe608d40bec7eff2167a780f2c2610391db815099be48e36d603196",
+    "locator": "page 2, running header",
+    "quote": "International Scientific Report on the Safety of Advanced AI: Interim Report",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/INT-08/2026-10-11/official.html",
+    "sha256": "017f482de89ea041b01ddd42ab3d2eba24b216a1365d988c51136d0508f70237",
+    "locator": "Updates to this page",
+    "quote": "Published: 17 May 2024",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-08/2026-10-11/document-1.pdf",
+    "sha256": "ccc4f9c9dfe608d40bec7eff2167a780f2c2610391db815099be48e36d603196",
+    "locator": "page 132, colophon",
+    "quote": "Published in May 2024 by the UK Government",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-08/2026-10-11/official.html",
+    "sha256": "017f482de89ea041b01ddd42ab3d2eba24b216a1365d988c51136d0508f70237",
+    "locator": "Details",
+    "quote": "A full report - International AI Safety Report 2025, was published in January 2025 ahead of the AI Action Summit in France.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-08/2026-10-11/document-1.pdf",
+    "sha256": "ccc4f9c9dfe608d40bec7eff2167a780f2c2610391db815099be48e36d603196",
+    "locator": "page 15, Introduction",
+    "quote": "This is the first interim publication of that report: the final version of the first report will be published ahead of the France AI Summit.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-08/extra-c06ca24796/2026-10-17/official.html",
+    "sha256": "fb541394cdc267335fbdd8d5d67ad163db49762dbeb265a2058bdce8fe93f2a2",
+    "locator": "About page",
+    "quote": "An Interim Report was published in May 2024 in advance of the AI Seoul Summit 2024 and the first Annual Report was published in January 2025 ahead of the France AI Action Summit 2025.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/INT-08/2026-10-11/official.html",
+    "sha256": "017f482de89ea041b01ddd42ab3d2eba24b216a1365d988c51136d0508f70237",
+    "locator": "From:",
+    "quote": "Cabinet Office, AI Security Institute and Department for Science, Innovation and Technology",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-08/2026-10-11/official.html",
+    "sha256": "017f482de89ea041b01ddd42ab3d2eba24b216a1365d988c51136d0508f70237",
+    "locator": "Background information",
+    "quote": "The report was commissioned by the UK government and chaired by Yoshua Bengio",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-08/2026-10-11/document-1.pdf",
+    "sha256": "ccc4f9c9dfe608d40bec7eff2167a780f2c2610391db815099be48e36d603196",
+    "locator": "page 3, Secretariat",
+    "quote": "UK Government Secretariat hosted by the AI Safety Institute",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/INT-08/2026-10-11/official.html",
+    "sha256": "017f482de89ea041b01ddd42ab3d2eba24b216a1365d988c51136d0508f70237",
+    "locator": "Documents",
+    "quote": "Ref: DSIT research paper series number 2024/009",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-08/2026-10-11/document-1.pdf",
+    "sha256": "ccc4f9c9dfe608d40bec7eff2167a780f2c2610391db815099be48e36d603196",
+    "locator": "page 4",
+    "quote": "Research series number: DSIT 2024/009",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-08/2026-10-11/document-1.pdf",
+    "sha256": "ccc4f9c9dfe608d40bec7eff2167a780f2c2610391db815099be48e36d603196",
+    "locator": "page 4, Disclaimer",
+    "quote": "The report does not represent the views of the Chair, any particular individual in the writing or advisory groups, nor any of the governments that have supported its development.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-08/2026-10-11/document-1.pdf",
+    "sha256": "ccc4f9c9dfe608d40bec7eff2167a780f2c2610391db815099be48e36d603196",
+    "locator": "page 14, Executive Summary",
+    "quote": "While this report does not discuss policy interventions for mitigating risks from general-purpose AI",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "official_identifier": "the GOV.UK page gives 'Ref: DSIT research paper series number 2024/009' and the PDF 'Research series number: DSIT 2024/009'; the 2025 report (INT-09) carries its DSIT number in the same field",
+   "date_last_updated": "the 22 October 2025 GOV.UK update only added a link to the report's website ('Updated with a link to the external website of the International AI Safety Report'); the report was not amended or reissued, so the field is cleared and the update goes in the notes",
+   "summary": "checked against the executive summary: the 75 experts and the 30-country panel added, the three risk categories filled in from the executive summary, 'commissioned under the Bletchley Declaration' replaced (the text says the work was 'commissioned at the Bletchley Park AI Safety Summit'), the absence of policy discussion added",
+   "notes": "rewritten from the stored files: commissioning, secretariat, executive-summary languages, the planned final version and the 2025 report; publication ahead of the AI Seoul Summit 2024 from the website's About page, stored in this run",
+   "verification.note": "rewritten for the files stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "The interim report announces that 'the final version of the first report will be published ahead of the France AI Summit'; the GOV.UK page says the full International AI Safety Report 2025 'was published in January 2025', and the report website's About page lists the Interim Report (May 2024) followed by the first Annual Report (January 2025). The interim edition has been replaced by the full report, so 'Superseded' stands.",
+  "scope_reasoning": "A government-commissioned international scientific report on AI safety, in scope with no note (AGENTS.md section 10).",
+  "summary_check": "Executive summary, pages 9 to 14: '75 artificial intelligence (AI) experts', 'Expert Advisory Panel nominated by 30 countries, the European Union (EU), and the United Nations (UN)'; 'three categories: malicious use risks, risks from malfunctions, and systemic risks'; fake content, disinformation, cyber offence and biological weapons under malicious use; bias and 'loss of control' under malfunctions; labour market, 'AI Divide', market concentration, privacy and copyright under systemic risks; 'does not discuss policy interventions'. GOV.UK Details: 'Several technical methods (including benchmarking, red-teaming and auditing training data) can help to mitigate risks, though all current methods have limitations'."
+ },
+ "extra_urls": [
+  {
+   "url": "https://internationalaisafetyreport.org/about",
+   "reason": "the report website's About page (run with the UK AI Security Institute), which says the Interim Report 'was published in May 2024 in advance of the AI Seoul Summit 2024' and lists the later Annual Reports and Key Updates; supports the notes"
+  }
+ ],
+ "leads": [],
+ "open_questions": []
+}

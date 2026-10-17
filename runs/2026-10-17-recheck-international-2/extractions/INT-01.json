@@ -1,0 +1,195 @@
+{
+ "cand_id": "INT-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "INT-01",
+ "record": {
+  "summary": "Statement of the AI Action Summit in Paris that sets six priorities: accessible AI to reduce digital divides; AI that is open, inclusive, transparent, ethical, safe, secure and trustworthy; innovation without market concentration; AI that shapes work and labour markets positively; sustainable AI; and international cooperation on governance. It commends the Bletchley and Seoul summits' work on AI safety and notes the voluntary commitments made there, says the signatories will keep addressing AI risks to information integrity and continue work on AI transparency, and reaffirms the commitment to a UN Global Dialogue on AI governance and an Independent International Scientific Panel on AI.",
+  "safety_topics": [
+   "international cooperation",
+   "transparency & labelling"
+  ],
+  "notes": "Published on 11 February 2025, the second day of the AI Action Summit, held in Paris on 10 and 11 February 2025. The signatory list names 63 countries, the African Union Commission and the EU; the United States and the United Kingdom are not on it. A footnote limits the statement to civil applications and use of AI. Founding members launched a Public Interest AI Platform and Incubator under it. The International AI Safety Report 2025 (INT-09) was published ahead of the summit.",
+  "verification": {
+   "note": "Stored and read in this run: the Élysée English text (official; the snapshot of 17 Oct 2026 differs from that of 11 Oct 2026 only in the site's news links) and the French text (Élysée, alt-official), which confirm the title, the French title, the posting date of 11 February 2025, the six priorities, the paragraphs on safety, transparency and information integrity, the civil-use footnote and the signatory list of 63 countries, the African Union Commission and the EU; and DSIT's press release of 29 January 2025 (GOV.UK), which says the International AI Safety Report 2025 was published ahead of the summit hosted by France. Version 1's topic 'accountability & liability' has no support in the text and was dropped; the summary was rewritten from the text."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/INT-01/2026-10-17/official.html",
+    "sha256": "09361fd47328a2f6d5071a8181d0142b52223a131e817510e8dd5ead1fd54a64",
+    "locator": "heading",
+    "quote": "Statement on Inclusive and Sustainable Artificial Intelligence for People and the Planet.",
+    "source_kind": "official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/INT-01/2026-10-17/secondary.html",
+    "sha256": "720d400921a832d0b5a396d9964df28620d995db6c47c43e64e5ad2a29c57814",
+    "locator": "heading",
+    "quote": "Déclaration sur une intelligence artificielle inclusive et durable pour les peuples et la planète.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/INT-01/2026-10-17/official.html",
+    "sha256": "09361fd47328a2f6d5071a8181d0142b52223a131e817510e8dd5ead1fd54a64",
+    "locator": "below the heading",
+    "quote": "Posted on 11 February 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-01/2026-10-17/secondary.html",
+    "sha256": "720d400921a832d0b5a396d9964df28620d995db6c47c43e64e5ad2a29c57814",
+    "locator": "below the heading",
+    "quote": "Publié le 11 février 2025",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-01/2026-10-17/official.html",
+    "sha256": "09361fd47328a2f6d5071a8181d0142b52223a131e817510e8dd5ead1fd54a64",
+    "locator": "below the heading",
+    "quote": "Posted on 11 February 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-01/2026-10-17/official.html",
+    "sha256": "09361fd47328a2f6d5071a8181d0142b52223a131e817510e8dd5ead1fd54a64",
+    "locator": "paragraph 3",
+    "quote": "we have affirmed the following main priorities",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/INT-01/2026-10-17/official.html",
+    "sha256": "09361fd47328a2f6d5071a8181d0142b52223a131e817510e8dd5ead1fd54a64",
+    "locator": "Signatory countries",
+    "quote": "Signatory countries: Armenia Australia Austria Belgium Brazil",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-01/2026-10-17/official.html",
+    "sha256": "09361fd47328a2f6d5071a8181d0142b52223a131e817510e8dd5ead1fd54a64",
+    "locator": "Signatory countries, end of list",
+    "quote": "Zimbabwe African Union Commission European Union",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-01/extra-4851ff791c/2026-10-17/official.html",
+    "sha256": "4d9af45900c07aac4eec08f36ad15762912e0145ebf4e5b9e17ff4eeeb3dea73",
+    "locator": "press release, paragraph 1",
+    "quote": "Ahead of the AI Action Summit hosted by France next month",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-01/2026-10-17/official.html",
+    "sha256": "09361fd47328a2f6d5071a8181d0142b52223a131e817510e8dd5ead1fd54a64",
+    "locator": "paragraph 4",
+    "quote": "We recognize the need for inclusive multistakeholder dialogues [4] and cooperation on AI governance.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-01/2026-10-17/official.html",
+    "sha256": "09361fd47328a2f6d5071a8181d0142b52223a131e817510e8dd5ead1fd54a64",
+    "locator": "paragraph 5",
+    "quote": "we note the voluntary commitments launched there",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/INT-01/2026-10-17/official.html",
+    "sha256": "09361fd47328a2f6d5071a8181d0142b52223a131e817510e8dd5ead1fd54a64",
+    "locator": "paragraph 3",
+    "quote": "Ensuring AI is open, inclusive, transparent, ethical, safe, secure and trustworthy, taking into account international frameworks for all",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-01/2026-10-17/official.html",
+    "sha256": "09361fd47328a2f6d5071a8181d0142b52223a131e817510e8dd5ead1fd54a64",
+    "locator": "paragraph 5",
+    "quote": "We commend the role of the Bletchley Park AI Safety Summit and Seoul Summits that have been essential in progressing international cooperation on AI safety",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-01/2026-10-17/official.html",
+    "sha256": "09361fd47328a2f6d5071a8181d0142b52223a131e817510e8dd5ead1fd54a64",
+    "locator": "paragraph 5",
+    "quote": "We will keep addressing the risks of AI to information integrity and continue the work on AI transparency.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-01/2026-10-17/official.html",
+    "sha256": "09361fd47328a2f6d5071a8181d0142b52223a131e817510e8dd5ead1fd54a64",
+    "locator": "paragraph 4",
+    "quote": "participants also reaffirmed their commitment to initiate a Global Dialogue on AI governance and the Independent International Scientific Panel on AI",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/INT-01/2026-10-17/official.html",
+    "sha256": "09361fd47328a2f6d5071a8181d0142b52223a131e817510e8dd5ead1fd54a64",
+    "locator": "paragraph 1",
+    "quote": "gathered in Paris on 10 and 11 February 2025 to hold the AI Action Summit",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-01/2026-10-17/official.html",
+    "sha256": "09361fd47328a2f6d5071a8181d0142b52223a131e817510e8dd5ead1fd54a64",
+    "locator": "Notes [1]",
+    "quote": "this Statement relates to civil applications and use of AI only",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-01/2026-10-17/official.html",
+    "sha256": "09361fd47328a2f6d5071a8181d0142b52223a131e817510e8dd5ead1fd54a64",
+    "locator": "paragraph 3",
+    "quote": "Founding members [3] have launched a major Public Interest AI Platform and Incubator",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-01/extra-4851ff791c/2026-10-17/official.html",
+    "sha256": "4d9af45900c07aac4eec08f36ad15762912e0145ebf4e5b9e17ff4eeeb3dea73",
+    "locator": "press release, paragraph 1",
+    "quote": "Ahead of the AI Action Summit hosted by France next month, the Independent International AI Safety Report published today",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "rewritten from the text: version 1's opening ('moves the emphasis from frontier safety to inclusion...') is an evaluation the statement does not make; the six priorities, the safety paragraph, information integrity, transparency and the UN Dialogue and Panel are quoted",
+   "safety_topics": "'accountability & liability' dropped: no paragraph deals with accountability or liability; 'international cooperation' (paragraphs 3 to 5) and 'transparency & labelling' (paragraph 5) stay",
+   "notes": "the summit dates, the civil-use footnote and the Public Interest AI Platform from the text; the link to the International AI Safety Report 2025 now rests on DSIT's press release, stored in this run",
+   "verification.note": "rewritten for the files stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "A summit statement of priorities, posted by the Élysée on 11 February 2025; nothing in the stored texts (the English and French pages, both re-stored on 17 Oct 2026 with the same statement) shows a revision, withdrawal or later edition. 'Published (non-binding, current)' stands; it creates no obligations: the signatories affirm priorities, recognise needs and note voluntary commitments.",
+  "scope_reasoning": "An intergovernmental summit declaration with AI safety and trustworthiness content; in scope with no note, like the other summit declarations (INT-03, INT-04)."
+ },
+ "extra_urls": [
+  {
+   "url": "https://www.gov.uk/government/news/first-international-ai-safety-report-to-inform-discussions-at-ai-action-summit",
+   "reason": "DSIT press release of 29 Jan 2025 (GOV.UK; the secondary source of INT-09), stored in this run: the International AI Safety Report 2025 was published ahead of the AI Action Summit hosted by France; supports the note and the issuing body's 'hosted by' clause"
+  }
+ ],
+ "leads": [],
+ "open_questions": []
+}

@@ -1,0 +1,197 @@
+{
+ "cand_id": "INT-09",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "INT-09",
+ "record": {
+  "issuing_body": "Independent expert panel chaired by Yoshua Bengio, with a secretariat at the UK AI Safety Institute and Mila – Quebec AI Institute; published by the UK Government (DSIT)",
+  "date_last_updated": null,
+  "summary": "The first full International AI Safety Report, the work of 96 AI experts with an Expert Advisory Panel nominated by 30 countries, the OECD, the EU and the UN. It summarises the scientific evidence on the capabilities of general-purpose AI, including AI agents; on its risks from malicious use (fake content, manipulation, cyber offence, biological and chemical attacks), malfunctions (reliability, bias, loss of control) and systemic effects (labour markets, the AI R&D divide, market concentration, environment, privacy, copyright) and open-weight models; and on technical approaches to identifying, assessing, mitigating and monitoring risks. It does not recommend specific policies.",
+  "notes": "Published ahead of the AI Action Summit in Paris in February 2025, following the interim report of May 2024 (INT-08), which was presented at the AI Seoul Summit. A Chair's note covers AI advances between the end of the writing period (5 December 2024) and publication, notably early test results of OpenAI's o3 model. The UK Government said it would keep providing the secretariat until a long-term international home was agreed, with Yoshua Bengio as chair for 2025. Two Key Updates followed as separate publications: 'First Key Update: Capabilities and Risk Implications' (15 October 2025) and 'Second Key Update: Technical Safeguards and Risk Management' (25 November 2025). The second edition, the International AI Safety Report 2026 (INT-10), followed on 3 February 2026. The PDF's back page prints the research series number as DSIT 2024/000; its front matter and the website give DSIT 2025/001.",
+  "verification": {
+   "note": "Stored: the report's publication page on internationalaisafetyreport.org (dated 29 January 2025, with the full text, the citation 'DSIT 2025/001' and the contributor lists), the English PDF (298 pages) and the Arabic executive summary from the same site, the GOV.UK press release of 29 January 2025 (DSIT and the AI Safety Institute), and in this run the site's Publications and About pages. They confirm the title, date, chair, secretariat, research series number and non-binding character, the two Key Updates with their dates (15 October and 25 November 2025) and the 2026 edition (3 February 2026). No stored file shows that the old GOV.UK publication URL redirects to the report site, so that sentence was dropped from the notes."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/INT-09/2026-10-11/official.html",
+    "sha256": "0fa3a9e56890013e95da8bb888d329c25a2554ed809e789b683af30f7067012b",
+    "locator": "page title",
+    "quote": "International AI Safety Report 2025 | International AI Safety Report",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-09/2026-10-11/document-1.pdf",
+    "sha256": "cd7a8f0c6abcfcc0175578e762eb8b6575e9263aa1c9accd37fa8b6facff828d",
+    "locator": "page 1, cover",
+    "quote": "International AI Safety Report The International Scientific Report on the Safety of Advanced AI January 2025",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/INT-09/2026-10-11/official.html",
+    "sha256": "0fa3a9e56890013e95da8bb888d329c25a2554ed809e789b683af30f7067012b",
+    "locator": "publication header",
+    "quote": "29 January 2025 — Annual Report International AI Safety Report 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-09/2026-10-11/secondary.html",
+    "sha256": "ae087aa8923488cd4e6540444ba5c2eea020bd3ddfa55656c397a0ba23a9146b",
+    "locator": "GOV.UK press release, Published",
+    "quote": "Published: 29 January 2025",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-09/2026-10-11/official.html",
+    "sha256": "0fa3a9e56890013e95da8bb888d329c25a2554ed809e789b683af30f7067012b",
+    "locator": "publication summary",
+    "quote": "The inaugural International AI Safety Report, published in January 2025, is the first comprehensive review of scientific research on the capabilities and risks of general-purpose AI systems.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-09/2026-10-11/document-1.pdf",
+    "sha256": "cd7a8f0c6abcfcc0175578e762eb8b6575e9263aa1c9accd37fa8b6facff828d",
+    "locator": "page 298, colophon",
+    "quote": "Published in January 2025 by the UK Government",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-09/extra-6fe393a193/2026-10-17/official.html",
+    "sha256": "28485b003e617067d609cd5117de93b4ff71d6008369332cfac60c5be7bd4ee0",
+    "locator": "Publications page",
+    "quote": "3 February 2026 — Annual Report International AI Safety Report 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-09/extra-6fe393a193/2026-10-17/official.html",
+    "sha256": "28485b003e617067d609cd5117de93b4ff71d6008369332cfac60c5be7bd4ee0",
+    "locator": "Publications page",
+    "quote": "25 November 2025 — Key update Second Key Update: Technical Safeguards and Risk Management",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-09/extra-6fe393a193/2026-10-17/official.html",
+    "sha256": "28485b003e617067d609cd5117de93b4ff71d6008369332cfac60c5be7bd4ee0",
+    "locator": "Publications page",
+    "quote": "15 October 2025 — Key update First Key Update: Capabilities and Risk Implications",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-09/extra-c06ca24796/2026-10-17/official.html",
+    "sha256": "324eae8871074fb7ffd05809a8e29f5e39b501d996860d90bc2ed480e7bde69f",
+    "locator": "About page",
+    "quote": "The First Key Update was published in October 2025, the Second Key Update was published in November 2025. The 2026 Annual Report was published in February 2026",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/INT-09/2026-10-11/official.html",
+    "sha256": "0fa3a9e56890013e95da8bb888d329c25a2554ed809e789b683af30f7067012b",
+    "locator": "Contributors, Chair",
+    "quote": "Prof. Yoshua Bengio, Université de Montréal / Mila - Quebec AI Institute",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-09/2026-10-11/official.html",
+    "sha256": "0fa3a9e56890013e95da8bb888d329c25a2554ed809e789b683af30f7067012b",
+    "locator": "Contributors, Secretariat",
+    "quote": "SECRETARIAT AI Safety Institute",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-09/2026-10-11/official.html",
+    "sha256": "0fa3a9e56890013e95da8bb888d329c25a2554ed809e789b683af30f7067012b",
+    "locator": "Contributors, Secretariat",
+    "quote": "Mila — Quebec AI Institute Jonathan Barry",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-09/2026-10-11/document-1.pdf",
+    "sha256": "cd7a8f0c6abcfcc0175578e762eb8b6575e9263aa1c9accd37fa8b6facff828d",
+    "locator": "page 298, colophon",
+    "quote": "Published in January 2025 by the UK Government",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-09/2026-10-11/secondary.html",
+    "sha256": "ae087aa8923488cd4e6540444ba5c2eea020bd3ddfa55656c397a0ba23a9146b",
+    "locator": "GOV.UK press release",
+    "quote": "with operational support provided by the Department for Science, Innovation, and Technology",
+    "source_kind": "alt-official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/INT-09/2026-10-11/official.html",
+    "sha256": "0fa3a9e56890013e95da8bb888d329c25a2554ed809e789b683af30f7067012b",
+    "locator": "Copyright and disclaimer",
+    "quote": "Research series number: DSIT 2025/001",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-09/2026-10-11/document-1.pdf",
+    "sha256": "cd7a8f0c6abcfcc0175578e762eb8b6575e9263aa1c9accd37fa8b6facff828d",
+    "locator": "page 6",
+    "quote": "Research series number: DSIT 2025/001",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-09/2026-10-11/document-1.pdf",
+    "sha256": "cd7a8f0c6abcfcc0175578e762eb8b6575e9263aa1c9accd37fa8b6facff828d",
+    "locator": "page 10, About this report",
+    "quote": "The report aims to provide scientific information that will support informed policymaking. It does not recommend specific policies.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-09/2026-10-11/official.html",
+    "sha256": "0fa3a9e56890013e95da8bb888d329c25a2554ed809e789b683af30f7067012b",
+    "locator": "Disclaimer",
+    "quote": "The report does not represent the views of the Chair, any particular individual in the writing or advisory groups, nor any of the governments that have supported its development.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "issuing_body": "the stored contributor lists name two secretariat bodies, the AI Safety Institute and Mila – Quebec AI Institute; the old value named only the UK institute",
+   "date_last_updated": "2025-11-25 was the date of the Second Key Update, a separate publication between editions, not an amendment or new version of the 2025 report; the Key Updates now go in the notes",
+   "summary": "checked against 'About this report' and the contents: 96 experts (not 'about 100'), the 30 countries, OECD, EU and UN, the risk sub-sections and the risk-management chapter listed; 'It does not recommend specific policies' kept as the report words it",
+   "notes": "rewritten: the Paris summit and the interim report from Bengio's foreword, the Chair's note on o3, the secretariat arrangement from the GOV.UK release, the Key Updates and the 2026 edition with their dates from the Publications page stored in this run, and the DSIT number misprint on the PDF's back page; the unsupported GOV.UK redirect sentence removed",
+   "verification.note": "rewritten for the files stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "official_identifier",
+   "legal_force"
+  ],
+  "status_reasoning": "The 2025 report is the first of a series of annual reports. The site's Publications page lists the International AI Safety Report 2026 as the next Annual Report, dated 3 February 2026, after the two Key Updates, and the About page says 'The 2026 Annual Report was published in February 2026'. The 2025 report has been replaced by the 2026 edition as the current assessment, so 'Superseded' stands.",
+  "scope_reasoning": "A government-commissioned international scientific report on AI safety, in scope with no note (AGENTS.md section 10).",
+  "summary_check": "Page 10 'About this report': '96 Artificial Intelligence (AI) experts', 'Expert Advisory Panel nominated by 30 countries, the Organisation for Economic Co-operation and Development (OECD), the European Union (EU), and the United Nations (UN)', 'It does not recommend specific policies'. Contents (page 7): sections 2.1.1 to 2.1.4 (fake content, manipulation of public opinion, cyber offence, biological and chemical attacks), 2.2.1 to 2.2.3 (reliability, bias, loss of control), 2.3.1 to 2.3.6 (labour market, global AI R&D divide, market concentration, environment, privacy, copyright), 2.4 (open-weight models), chapter 3 (risk identification and assessment, risk mitigation and monitoring). Foreword (page 8) on general-purpose AI 'agents'."
+ },
+ "extra_urls": [
+  {
+   "url": "https://internationalaisafetyreport.org/publications",
+   "reason": "the report site's Publications page lists the 2025 Annual Report (29 January 2025), the First Key Update (15 October 2025), the Second Key Update (25 November 2025) and the International AI Safety Report 2026 (3 February 2026); needed for the notes and for the status 'Superseded'"
+  },
+  {
+   "url": "https://internationalaisafetyreport.org/about",
+   "reason": "the report site's About page: the Interim Report (May 2024), the first Annual Report (January 2025, ahead of the France AI Action Summit), the two Key Updates (October and November 2025), the 2026 Annual Report (February 2026) and the secretariat within the UK AI Security Institute; corroborates the notes and status"
+  }
+ ],
+ "leads": [
+  "First Key Update: Capabilities and Risk Implications, International AI Safety Report, 15 October 2025: https://internationalaisafetyreport.org/publication/first-key-update-capabilities-and-risk-implications (a separate publication of the report series, not in the register)",
+  "Second Key Update: Technical Safeguards and Risk Management, International AI Safety Report, 25 November 2025: https://internationalaisafetyreport.org/publication/second-key-update-technical-safeguards-and-risk-management (a separate publication of the report series, not in the register)"
+ ],
+ "open_questions": []
+}

@@ -1,0 +1,50 @@
+{
+ "cand_id": "INT-16",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "endorsed at the closing session as outcome document, supported by 61 states, roadmap for establishing norms",
+   "verdict": "supported",
+   "locator": "MOFA Korea press release, closing-session paragraph"
+  },
+  {
+   "claim": "emphasis on international law, human responsibility and accountability, reliable and trustworthy AI, appropriate human involvement, explainability",
+   "verdict": "supported",
+   "locator": "same paragraph"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Intergovernmental outcome document on military AI."
+ },
+ "overall": "accept",
+ "note": "Blueprint text is not stored; every claim rests on the host ministry's press release (an official source) and the 2026 Pathways PDF. The summary stays within what the press release says, and the unsupported claim that China did not endorse was removed from the notes. Level B or A depending on the script; a stored copy of the text would be better."
+}

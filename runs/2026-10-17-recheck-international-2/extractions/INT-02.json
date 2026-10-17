@@ -1,0 +1,264 @@
+{
+ "cand_id": "INT-02",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "INT-02",
+ "record": {
+  "title": "AI Impact Summit Declaration",
+  "secondary_url": "https://eoibelgrade.gov.in/listview/Njk1",
+  "summary": "Declaration of the AI Impact Summit in New Delhi, held after the Bletchley, Seoul and Paris summits. It calls for international cooperation along seven pillars: human capital, access for social empowerment, trustworthiness of AI systems, energy efficiency, AI in science, democratising AI resources, and AI for economic growth and social good. Its secure and trusted AI section calls secure, trustworthy and robust AI foundational to trust and recognises security in AI systems, industry-led voluntary measures, technical solutions and policy frameworks across the AI lifecycle. It notes the voluntary Trusted AI Commons, a platform of technical resources, tools, benchmarks and best practices.",
+  "safety_topics": [
+   "international cooperation",
+   "evaluation & testing"
+  ],
+  "notes": "The declaration is headed 'AI Impact Summit Declaration, New Delhi (February 18 - 19, 2026)', and its preamble says the participants gathered in New Delhi on 19 February 2026; the European Commission announced on 20 February 2026 that the EU would endorse it, and the Australian government gives the summit as 19 and 20 February 2026, so only the month is given. The Commission calls it the Leaders' Declaration at the AI Impact Summit, the Australian government the India AI Impact Summit Declaration. The endorsement list published with the text names 89 endorsers: 87 countries, among them the USA, China, India, Russia and the UK, plus the EU and IFAD. Under its pillars the declaration takes note of voluntary deliverables, among them the Charter for the Democratic Diffusion of AI, the Global AI Impact Commons, the Trusted AI Commons and its guidance note, the International Network of AI for Science Institutions and the Voluntary Guiding Principles on Resilient, Innovative, and Efficient Artificial Intelligence.",
+  "verification": {
+   "note": "pib.gov.in and impact.indiaai.gov.in, the record's sources, could not be reached from the archiver's network on 11, 16 and 17 Oct 2026 (robots.txt unreachable, then DNS failures), and other Indian government hosts (mea.gov.in, negd.gov.in) were unreachable or geo-blocked. Stored and read in this run: the declaration's full text with its endorsement list as published by the Embassy of India in Belgrade (eoibelgrade.gov.in, Government of India; proposed as secondary_url), which confirms the title, the dateline 18-19 February 2026, the pillars, the secure-and-trusted-AI section and the voluntary, non-binding character; the European Commission's press release of 20 February 2026 (digital-strategy.ec.europa.eu, alt-official) on the EU's endorsement; and the Australian Department of Industry, Science and Resources' news item of 23 February 2026 (industry.gov.au, alt-official), which links the text on the Ministry of External Affairs website (https://www.mea.gov.in/bilateral-documents.htm?dtl%2F40809%2F, unreachable from the archiver's network). Version 1's title, 'New Delhi Declaration on AI Impact', is not the heading of the stored text; the declaration's own heading is used now. Version 1's 92 endorsers as of 5 March 2026, the names of the three Sutras, and its companion documents (a Guidance Note on AI Governance, 'AI and Child Safety', the New Delhi Frontier AI Impact Commitments) rest on the PIB releases, which are not stored."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/official.html",
+    "sha256": "c5160e466bef9dfff52d050cf6c6715a0f7be78491660459c66065e7160bd5b7",
+    "locator": "page heading",
+    "quote": "AI Impact Summit Declaration, New Delhi (February 18 - 19, 2026)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-6a60cfdfb7/2026-10-17/official.html",
+    "sha256": "3b75d8c185bb5bdd40a944ee65636975a98d7ba86bf0c7dd95417f2547ba377c",
+    "locator": "heading",
+    "quote": "Australia endorses India AI Impact Summit Declaration",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/official.html",
+    "sha256": "c5160e466bef9dfff52d050cf6c6715a0f7be78491660459c66065e7160bd5b7",
+    "locator": "page heading",
+    "quote": "AI Impact Summit Declaration, New Delhi (February 18 - 19, 2026)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/official.html",
+    "sha256": "c5160e466bef9dfff52d050cf6c6715a0f7be78491660459c66065e7160bd5b7",
+    "locator": "Preamble",
+    "quote": "We, the participants from countries and international organizations, gathered in New Delhi on 19 February 2026 to hold the AI Impact Summit.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-8fd55d93e1/2026-10-17/official.html",
+    "sha256": "d5e23fb184c2980073ff741ed6513b5362b3796c67dac0186db9f9c0d5a6e37d",
+    "locator": "press release, date",
+    "quote": "Publication 20 February 2026 The European Union will endorse the Leaders' Declaration at the AI Impact Summit 2026 in New Delhi",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-6a60cfdfb7/2026-10-17/official.html",
+    "sha256": "3b75d8c185bb5bdd40a944ee65636975a98d7ba86bf0c7dd95417f2547ba377c",
+    "locator": "news item",
+    "quote": "Australia joined over 100 countries at the India AI Impact Summit in New Delhi on 19 and 20 February 2026",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/official.html",
+    "sha256": "c5160e466bef9dfff52d050cf6c6715a0f7be78491660459c66065e7160bd5b7",
+    "locator": "Conclusion",
+    "quote": "voluntary and non-binding guidelines and principles, which can promote AI for ensuring a prosperous future for humanity",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/official.html",
+    "sha256": "c5160e466bef9dfff52d050cf6c6715a0f7be78491660459c66065e7160bd5b7",
+    "locator": "list of endorsers",
+    "quote": "Endorsing countries/international organizations:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-8fd55d93e1/2026-10-17/official.html",
+    "sha256": "d5e23fb184c2980073ff741ed6513b5362b3796c67dac0186db9f9c0d5a6e37d",
+    "locator": "press release",
+    "quote": "Henna Virkkunen will endorse the declaration on behalf of the EU",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-6a60cfdfb7/2026-10-17/official.html",
+    "sha256": "3b75d8c185bb5bdd40a944ee65636975a98d7ba86bf0c7dd95417f2547ba377c",
+    "locator": "news item",
+    "quote": "Australia joined others to endorse the India AI Impact Summit Declaration",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/official.html",
+    "sha256": "c5160e466bef9dfff52d050cf6c6715a0f7be78491660459c66065e7160bd5b7",
+    "locator": "Preamble",
+    "quote": "We, the participants from countries and international organizations, gathered in New Delhi on 19 February 2026 to hold the AI Impact Summit.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/official.html",
+    "sha256": "c5160e466bef9dfff52d050cf6c6715a0f7be78491660459c66065e7160bd5b7",
+    "locator": "Conclusion",
+    "quote": "the three Sutras of the India AI Impact Summit 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-6a60cfdfb7/2026-10-17/official.html",
+    "sha256": "3b75d8c185bb5bdd40a944ee65636975a98d7ba86bf0c7dd95417f2547ba377c",
+    "locator": "news item",
+    "quote": "Read the India AI Impact Summit Declaration on the Government of India's Ministry of External Affairs website",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/official.html",
+    "sha256": "c5160e466bef9dfff52d050cf6c6715a0f7be78491660459c66065e7160bd5b7",
+    "locator": "Conclusion",
+    "quote": "We acknowledge that the AI Impact Summit will contribute to strengthening international cooperation and multistakeholder approach to advance shared priorities as well as voluntary and non-binding guidelines and principles",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-6a60cfdfb7/2026-10-17/official.html",
+    "sha256": "3b75d8c185bb5bdd40a944ee65636975a98d7ba86bf0c7dd95417f2547ba377c",
+    "locator": "news item",
+    "quote": "Building on progress at the Bletchley, Seoul and Paris Summits",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/official.html",
+    "sha256": "c5160e466bef9dfff52d050cf6c6715a0f7be78491660459c66065e7160bd5b7",
+    "locator": "Preamble",
+    "quote": "centred around the principles of development of human capital; broadening access for social empowerment; trustworthiness of AI systems; energy efficiency of AI systems; use of AI in science; democratizing AI resources; and use of AI for economic growth and social good",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/official.html",
+    "sha256": "c5160e466bef9dfff52d050cf6c6715a0f7be78491660459c66065e7160bd5b7",
+    "locator": "Secure and Trusted AI",
+    "quote": "Advancing secure, trustworthy and robust AI is foundational to building trust and maximizing societal and economic benefits.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/official.html",
+    "sha256": "c5160e466bef9dfff52d050cf6c6715a0f7be78491660459c66065e7160bd5b7",
+    "locator": "Secure and Trusted AI",
+    "quote": "we recognize the importance of security in AI systems, industry-led voluntary measures, and the adoption of technical solutions, and appropriate policy frameworks that enable innovation while promoting the public interest throughout the AI's lifecycle",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/official.html",
+    "sha256": "c5160e466bef9dfff52d050cf6c6715a0f7be78491660459c66065e7160bd5b7",
+    "locator": "Secure and Trusted AI",
+    "quote": "We recognize the development of the voluntary and non-binding Trusted AI Commons, a collaborative platform consolidating technical resources, tools, benchmarks and best practices",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/official.html",
+    "sha256": "c5160e466bef9dfff52d050cf6c6715a0f7be78491660459c66065e7160bd5b7",
+    "locator": "list of endorsers",
+    "quote": "86. USA",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/official.html",
+    "sha256": "c5160e466bef9dfff52d050cf6c6715a0f7be78491660459c66065e7160bd5b7",
+    "locator": "list of endorsers",
+    "quote": "88. EU",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/official.html",
+    "sha256": "c5160e466bef9dfff52d050cf6c6715a0f7be78491660459c66065e7160bd5b7",
+    "locator": "list of endorsers",
+    "quote": "89. IFAD",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-8fd55d93e1/2026-10-17/official.html",
+    "sha256": "d5e23fb184c2980073ff741ed6513b5362b3796c67dac0186db9f9c0d5a6e37d",
+    "locator": "press release",
+    "quote": "The Leaders' Declaration at AI Impact Summit in India is available.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/official.html",
+    "sha256": "c5160e466bef9dfff52d050cf6c6715a0f7be78491660459c66065e7160bd5b7",
+    "locator": "Democratizing AI Resources",
+    "quote": "we take note of the Charter for the Democratic Diffusion of AI as a voluntary and non-binding framework",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/official.html",
+    "sha256": "c5160e466bef9dfff52d050cf6c6715a0f7be78491660459c66065e7160bd5b7",
+    "locator": "Economic Growth and Social Good",
+    "quote": "We take note of the Global AI Impact Commons as a voluntary initiative",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/official.html",
+    "sha256": "c5160e466bef9dfff52d050cf6c6715a0f7be78491660459c66065e7160bd5b7",
+    "locator": "Science",
+    "quote": "We take note of the voluntary and collaborative International Network of AI for Science Institutions",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/official.html",
+    "sha256": "c5160e466bef9dfff52d050cf6c6715a0f7be78491660459c66065e7160bd5b7",
+    "locator": "Resilience, Innovation, and Efficiency",
+    "quote": "We recognize that the Voluntary Guiding Principles on Resilient, Innovative, and Efficient Artificial Intelligence would guide us",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "title": "the declaration's own heading on the Government of India's published text is 'AI Impact Summit Declaration' (the EU and Australia name it after the summit too); version 1's 'New Delhi Declaration on AI Impact' came from the PIB release, which is not stored; 'New Delhi Declaration' stays as short_title",
+   "secondary_url": "the declaration's full text with its endorsement list, published by the Embassy of India in Belgrade (Government of India), stored in this run; the old secondary URL (impact.indiaai.gov.in outcome list) is a list page that does not resolve from the archiver's network",
+   "summary": "rewritten from the stored text: the three Sutras are not named in it, 'potential security risks' is 'potential security aspects' in the text, and the Trusted AI Commons is described as the text describes it (technical resources, tools, benchmarks and best practices, not 'safety tools'); the preceding summits from the Australian government's item",
+   "safety_topics": "'research priorities' dropped: the text's science pillar is about AI for science, not safety research; 'international cooperation' (preamble) and 'evaluation & testing' (benchmarks in the Trusted AI Commons) stay",
+   "notes": "rewritten from the stored text and the EU and Australian items: the dateline and dates, the other names, the 89 endorsers of the published list and the deliverables the text names; claims resting on the unstored PIB releases removed (see open_questions)",
+   "verification.note": "rewritten for the files stored in this run"
+  },
+  "confirmed": [
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "A summit declaration endorsed by participating governments: the text lists its endorsers, the EU announced its endorsement on 20 February 2026 and Australia its own on 23 February 2026. The text calls its outcomes voluntary and non-binding. Nothing stored shows a revision or later edition. 'Published (non-binding, current)' stands.",
+  "scope_reasoning": "An intergovernmental summit declaration in the series of AI safety summits, with a section on secure and trusted AI; in scope with no note.",
+  "date_reasoning": "The declaration's dateline gives 18-19 February 2026 and its preamble 19 February 2026, while the EU said on 20 February that it would endorse it and Australia gives the summit as 19 and 20 February; the adoption day is not settled by the stored sources, so date_published stays '2026-02'."
+ },
+ "extra_urls": [
+  {
+   "url": "https://eoibelgrade.gov.in/listview/Njk1",
+   "reason": "the declaration's full text, 'AI Impact Summit Declaration, New Delhi (February 18 - 19, 2026)', with its list of 89 endorsers, published by the Embassy of India in Belgrade (Government of India); pib.gov.in and impact.indiaai.gov.in do not resolve from the archiver's network; stored in this run and proposed as secondary_url"
+  },
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/news/european-union-endorses-leaders-declaration-ai-summit-india",
+   "reason": "European Commission press release of 20 Feb 2026 on the EU's endorsement (stored in this run): another official source for the date and status"
+  },
+  {
+   "url": "https://www.industry.gov.au/news/australia-endorses-india-ai-impact-summit-declaration",
+   "reason": "Australian Department of Industry, Science and Resources, 23 Feb 2026 (stored in this run): Australia's endorsement, the summit dates and the preceding summits; links the text on mea.gov.in"
+  }
+ ],
+ "leads": [],
+ "open_questions": [
+  "date_last_updated (2026-03-05) rests on version 1's reading of the PIB release, whose endorsement list was said to show 92 countries and organisations as of 5 March 2026; the PIB release could not be stored, and the list stored with the Embassy of India's text names 89. Is 5 March 2026 the date of the last change to the endorsement list?",
+  "The exact adoption day: the dateline says 18-19 February 2026, the preamble 19 February 2026, the EU announced on 20 February that it would endorse, and version 1 cited All India Radio for a close on 20 February; date_published stays '2026-02'.",
+  "Version 1's notes named companion outcome documents that the stored declaration does not name (a Guidance Note on AI Governance, 'AI and Child Safety', and the New Delhi Frontier AI Impact Commitments of 19 February 2026) and the three Sutras as People, Planet and Progress; these rest on PIB releases that could not be stored and were removed."
+ ]
+}

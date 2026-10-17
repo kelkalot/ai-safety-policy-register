@@ -788,6 +788,62 @@
       "G7-07"
      ],
      "history_events": 88
+    },
+    {
+     "date": "2026-10-17",
+     "agent": "Claude Code",
+     "model": "claude-opus-5-5",
+     "scope": "pipeline run 2026-10-17-recheck-international-2 (recheck: codes:INT)",
+     "run_id": "2026-10-17-recheck-international-2",
+     "stages": {
+      "collect": {
+       "tool": null,
+       "model": null,
+       "date": null
+      },
+      "extract": {
+       "tool": "Claude Code",
+       "model": "claude-opus-5-5",
+       "date": "2026-10-17",
+       "tokens": 904187
+      },
+      "blind": {
+       "tool": "Claude Code",
+       "model": "claude-sonnet-5-5",
+       "date": "2026-10-17",
+       "tokens": 77760
+      },
+      "check": {
+       "tool": "Claude Code",
+       "model": "claude-sonnet-5-5",
+       "date": "2026-10-17"
+      }
+     },
+     "records_added": 0,
+     "ids": [],
+     "ids_updated": [
+      "INT-01",
+      "INT-02",
+      "INT-03",
+      "INT-04",
+      "INT-05",
+      "INT-06",
+      "INT-07",
+      "INT-08",
+      "INT-09",
+      "INT-10",
+      "INT-11",
+      "INT-12",
+      "INT-13",
+      "INT-14",
+      "INT-15",
+      "INT-16",
+      "INT-18",
+      "INT-19",
+      "INT-20",
+      "INT-17"
+     ],
+     "history_events": 64
     }
    ]
   }
@@ -814,11 +870,10 @@
    "official_url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
    "secondary_url": "https://www.elysee.fr/emmanuel-macron/2025/02/11/declaration-sur-une-intelligence-artificielle-inclusive-et-durable-pour-les-peuples-et-la-planete",
    "language": "English, French",
-   "summary": "This summit outcome moves the emphasis from frontier safety to inclusion, sustainability, openness and the future of work. It still calls for AI that is 'human rights based, human-centric, ethical, safe, secure and trustworthy', credits the Bletchley and Seoul safety work, and commits to address AI risks to information integrity. It also backs a UN Global Dialogue on AI governance and an Independent International Scientific Panel on AI.",
+   "summary": "Statement of the AI Action Summit in Paris that sets six priorities: accessible AI to reduce digital divides; AI that is open, inclusive, transparent, ethical, safe, secure and trustworthy; innovation without market concentration; AI that shapes work and labour markets positively; sustainable AI; and international cooperation on governance. It commends the Bletchley and Seoul summits' work on AI safety and notes the voluntary commitments made there, says the signatories will keep addressing AI risks to information integrity and continue work on AI transparency, and reaffirms the commitment to a UN Global Dialogue on AI governance and an Independent International Scientific Panel on AI.",
    "safety_topics": [
     "international cooperation",
-    "transparency & labelling",
-    "accountability & liability"
+    "transparency & labelling"
    ],
    "related": [
     {
@@ -842,38 +897,39 @@
      "id": "INT-09"
     }
    ],
-   "notes": "Issued after the AI Action Summit, 10-11 Feb 2025. The United States and United Kingdom did not sign. The signatory list on the Élysée page shows 65 signatories (63 countries plus the AU Commission and the EU). The International AI Safety Report 2025 was published for this summit.",
+   "notes": "Published on 11 February 2025, the second day of the AI Action Summit, held in Paris on 10 and 11 February 2025. The signatory list names 63 countries, the African Union Commission and the EU; the United States and the United Kingdom are not on it. A footnote limits the statement to civil applications and use of AI. Founding members launched a Public Interest AI Platform and Incubator under it. The International AI Safety Report 2025 (INT-09) was published ahead of the summit.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-17",
     "method": "official-url-fetched",
-    "note": "Élysée English page fetched. Title, 11 Feb 2025 date, safety/trust language and the 65-signatory list (without the US or UK) confirmed.",
-    "second_check": null
+    "note": "Stored and read in this run: the Élysée English text (official; the snapshot of 17 Oct 2026 differs from that of 11 Oct 2026 only in the site's news links) and the French text (Élysée, alt-official), which confirm the title, the French title, the posting date of 11 February 2025, the six priorities, the paragraphs on safety, transparency and information integrity, the civil-use footnote and the signatory list of 63 countries, the African Union Commission and the EU; and DSIT's press release of 29 January 2025 (GOV.UK), which says the International AI Safety Report 2025 was published ahead of the summit hosted by France. Version 1's topic 'accountability & liability' has no support in the text and was dropped; the summary was rewritten from the text.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-17: 9 field(s) supported."
    },
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-11T13:56:42Z",
+    "last_attempt": "2026-10-17T16:29:29Z",
     "files": [
      {
       "role_key": "official",
       "role": "official",
       "label": "Official source",
-      "path": "archive/INT-01/2026-10-11/official.html",
+      "path": "archive/INT-01/2026-10-17/official.html",
       "url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
       "final_url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 184902,
-      "sha256": "055c8fe459d06cdf161eead997befc4ae3f94bc30bacea910abc090dd2a7557f",
-      "retrieved_at": "2026-10-11T13:56:46Z",
-      "last_checked": "2026-10-11T13:56:46Z",
+      "bytes": 184900,
+      "sha256": "09361fd47328a2f6d5071a8181d0142b52223a131e817510e8dd5ead1fd54a64",
+      "text_sha256": "db35e7e76ea77a2f10ebeb2ff865cc94ac3b964439bfd3c5ec4902f89d38a32a",
+      "retrieved_at": "2026-10-17T15:49:02Z",
+      "last_checked": "2026-10-17T16:29:31Z",
       "method": "http",
-      "last_modified": "Sun, 11 Oct 2026 13:56:46 GMT",
+      "last_modified": "Sat, 17 Oct 2026 15:49:02 GMT",
       "etag": null,
       "changed": false,
-      "previous_sha256": null,
-      "previous_path": null,
+      "previous_sha256": "055c8fe459d06cdf161eead997befc4ae3f94bc30bacea910abc090dd2a7557f",
+      "previous_path": "archive/INT-01/2026-10-11/official.html",
       "stale": false,
       "warning": null,
       "integrity": "ok"
@@ -882,21 +938,22 @@
       "role_key": "secondary",
       "role": "secondary",
       "label": "Secondary source",
-      "path": "archive/INT-01/2026-10-11/secondary.html",
+      "path": "archive/INT-01/2026-10-17/secondary.html",
       "url": "https://www.elysee.fr/emmanuel-macron/2025/02/11/declaration-sur-une-intelligence-artificielle-inclusive-et-durable-pour-les-peuples-et-la-planete",
       "final_url": "https://www.elysee.fr/emmanuel-macron/2025/02/11/declaration-sur-une-intelligence-artificielle-inclusive-et-durable-pour-les-peuples-et-la-planete",
       "http_status": 200,
       "content_type": "text/html",
-      "bytes": 209259,
-      "sha256": "2f2078b93fba213c32dfe4d51d154d952ca58318ad1a3c57c89bd24f8dec6dfe",
-      "retrieved_at": "2026-10-11T13:56:49Z",
-      "last_checked": "2026-10-11T13:56:49Z",
+      "bytes": 209285,
+      "sha256": "720d400921a832d0b5a396d9964df28620d995db6c47c43e64e5ad2a29c57814",
+      "text_sha256": "9f126d70323b7abf1934975885577d10a5366aa3adce8961be4b6bbe75fc42f7",
+      "retrieved_at": "2026-10-17T15:49:05Z",
+      "last_checked": "2026-10-17T16:29:33Z",
       "method": "http",
-      "last_modified": "Sun, 11 Oct 2026 13:56:49 GMT",
+      "last_modified": "Sat, 17 Oct 2026 15:49:05 GMT",
       "etag": null,
       "changed": false,
-      "previous_sha256": null,
-      "previous_path": null,
+      "previous_sha256": "2f2078b93fba213c32dfe4d51d154d952ca58318ad1a3c57c89bd24f8dec6dfe",
+      "previous_path": "archive/INT-01/2026-10-11/secondary.html",
       "stale": false,
       "warning": null,
       "integrity": "ok"
@@ -920,15 +977,50 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
+      "attempted_at": "2026-10-17T15:49:02Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.elysee.fr/emmanuel-macron/2025/02/11/declaration-sur-une-intelligence-artificielle-inclusive-et-durable-pour-les-peuples-et-la-planete",
+      "attempted_at": "2026-10-17T15:49:05Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
+      "attempted_at": "2026-10-17T16:29:31Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.elysee.fr/emmanuel-macron/2025/02/11/declaration-sur-une-intelligence-artificielle-inclusive-et-durable-pour-les-peuples-et-la-planete",
+      "attempted_at": "2026-10-17T16:29:33Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
    "id": "INT-02",
    "slug": "new-delhi-declaration-ai-impact",
-   "title": "New Delhi Declaration on AI Impact",
+   "title": "AI Impact Summit Declaration",
    "original_title": null,
    "short_title": "New Delhi Declaration",
    "jurisdiction": "AI Impact Summit (New Delhi, 2026)",
@@ -944,13 +1036,12 @@
    "date_last_updated": "2026-03-05",
    "official_identifier": null,
    "official_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231208",
-   "secondary_url": "https://impact.indiaai.gov.in/outcome-resources",
+   "secondary_url": "https://eoibelgrade.gov.in/listview/Njk1",
    "language": "English",
-   "summary": "This outcome of the fourth summit in the series is built on three 'Sutras' (People, Planet, Progress) and seven pillars, including 'secure and trusted AI'. That pillar treats security of AI systems as foundational to trust, says understanding of potential security risks needs to deepen, and notes voluntary industry measures and policy frameworks across the AI lifecycle. All deliverables are voluntary and non-binding, including a Trusted AI Commons platform for safety tools, benchmarks and best practices.",
+   "summary": "Declaration of the AI Impact Summit in New Delhi, held after the Bletchley, Seoul and Paris summits. It calls for international cooperation along seven pillars: human capital, access for social empowerment, trustworthiness of AI systems, energy efficiency, AI in science, democratising AI resources, and AI for economic growth and social good. Its secure and trusted AI section calls secure, trustworthy and robust AI foundational to trust and recognises security in AI systems, industry-led voluntary measures, technical solutions and policy frameworks across the AI lifecycle. It notes the voluntary Trusted AI Commons, a platform of technical resources, tools, benchmarks and best practices.",
    "safety_topics": [
     "international cooperation",
-    "evaluation & testing",
-    "research priorities"
+    "evaluation & testing"
    ],
    "related": [
     {
@@ -962,60 +1053,49 @@
      "id": "INT-10"
     }
    ],
-   "notes": "The summit's high-level segment was held in New Delhi in Feb 2026; PIB gives 18-19 Feb, while All India Radio reported on 21 Feb that it 'concluded yesterday'. The exact adoption day is unclear, so only the month is given. PIB's endorsement list, current to 5 Mar 2026, shows 92 countries and international organisations, including the USA, China and the EU; earlier reports said 88. Companion outcome documents include the Charter for the Democratic Diffusion of AI, the Framework for the Trusted AI Commons, a Guidance Note on AI Governance, 'AI and Child Safety', and the Guiding Principles on Resilient, Innovative and Efficient AI. The New Delhi Frontier AI Impact Commitments (19 Feb 2026) are voluntary company commitments on sharing anonymised AI-usage insights and on multilingual and contextual evaluations; they contain no explicit safety-testing commitments.",
+   "notes": "The declaration is headed 'AI Impact Summit Declaration, New Delhi (February 18 - 19, 2026)', and its preamble says the participants gathered in New Delhi on 19 February 2026; the European Commission announced on 20 February 2026 that the EU would endorse it, and the Australian government gives the summit as 19 and 20 February 2026, so only the month is given. The Commission calls it the Leaders' Declaration at the AI Impact Summit, the Australian government the India AI Impact Summit Declaration. The endorsement list published with the text names 89 endorsers: 87 countries, among them the USA, China, India, Russia and the UK, plus the EU and IFAD. Under its pillars the declaration takes note of voluntary deliverables, among them the Charter for the Democratic Diffusion of AI, the Global AI Impact Commons, the Trusted AI Commons and its guidance note, the International Network of AI for Science Institutions and the Voluntary Guiding Principles on Resilient, Innovative, and Efficient Artificial Intelligence.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-17",
     "method": "official-url-fetched",
-    "note": "PIB press release fetched: title, summit dates, 92 endorsers incl. US and China (as of 5 Mar 2026) and the secure-and-trusted-AI content confirmed. impact.indiaai.gov.in outcome list fetched. PIB release PRID=2230201 fetched for the Frontier AI Impact Commitments. The declaration's full text was not fetched directly.",
-    "second_check": null
+    "note": "pib.gov.in and impact.indiaai.gov.in, the record's sources, could not be reached from the archiver's network on 11, 16 and 17 Oct 2026 (robots.txt unreachable, then DNS failures), and other Indian government hosts (mea.gov.in, negd.gov.in) were unreachable or geo-blocked. Stored and read in this run: the declaration's full text with its endorsement list as published by the Embassy of India in Belgrade (eoibelgrade.gov.in, Government of India; proposed as secondary_url), which confirms the title, the dateline 18-19 February 2026, the pillars, the secure-and-trusted-AI section and the voluntary, non-binding character; the European Commission's press release of 20 February 2026 (digital-strategy.ec.europa.eu, alt-official) on the EU's endorsement; and the Australian Department of Industry, Science and Resources' news item of 23 February 2026 (industry.gov.au, alt-official), which links the text on the Ministry of External Affairs website (https://www.mea.gov.in/bilateral-documents.htm?dtl%2F40809%2F, unreachable from the archiver's network). Version 1's title, 'New Delhi Declaration on AI Impact', is not the heading of the stored text; the declaration's own heading is used now. Version 1's 92 endorsers as of 5 March 2026, the names of the three Sutras, and its companion documents (a Guidance Note on AI Governance, 'AI and Child Safety', the New Delhi Frontier AI Impact Commitments) rest on the PIB releases, which are not stored.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-17: 9 field(s) supported."
    },
    "local_copy": {
-    "status": "failed",
-    "flag": "The official source could not be downloaded: DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'. The secondary source could not be downloaded (DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl').",
-    "last_attempt": "2026-10-17T14:28:10Z",
-    "files": [],
+    "status": "partial",
+    "flag": "The official source could not be downloaded (DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'); only the secondary source was saved.",
+    "last_attempt": "2026-10-17T16:29:29Z",
+    "files": [
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/INT-02/2026-10-17/secondary.html",
+      "url": "https://eoibelgrade.gov.in/listview/Njk1",
+      "final_url": "https://eoibelgrade.gov.in/listview/Njk1",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 95828,
+      "sha256": "8108fc02abcb00b1824474abbecff0d6a5b11b60be2c4a0a05d5376b51e226cf",
+      "text_sha256": "b8c01f0ea3fc976c56271e3268992a01203e30d7ee54382f9e9ebfd5d6f046d2",
+      "retrieved_at": "2026-10-17T16:29:34Z",
+      "last_checked": "2026-10-17T16:29:34Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
     "attempts": [
      {
       "role": "official",
       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231208",
-      "attempted_at": "2026-10-11T13:56:44Z",
-      "ok": false,
-      "http_status": null,
-      "error": "robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'",
-      "method": "http"
-     },
-     {
-      "role": "secondary",
-      "url": "https://impact.indiaai.gov.in/outcome-resources",
-      "attempted_at": "2026-10-11T13:56:45Z",
-      "ok": false,
-      "http_status": null,
-      "error": "robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'",
-      "method": "http"
-     },
-     {
-      "role": "official",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231208",
-      "attempted_at": "2026-10-11T14:06:45Z",
-      "ok": false,
-      "http_status": null,
-      "error": "robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'",
-      "method": "http"
-     },
-     {
-      "role": "secondary",
-      "url": "https://impact.indiaai.gov.in/outcome-resources",
-      "attempted_at": "2026-10-11T14:06:45Z",
-      "ok": false,
-      "http_status": null,
-      "error": "robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'",
-      "method": "http"
-     },
-     {
-      "role": "official",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231208",
-      "attempted_at": "2026-10-16T11:38:57Z",
+      "attempted_at": "2026-10-17T16:29:29Z",
       "ok": false,
       "http_status": null,
       "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
@@ -1023,29 +1103,11 @@
      },
      {
       "role": "secondary",
-      "url": "https://impact.indiaai.gov.in/outcome-resources",
-      "attempted_at": "2026-10-16T11:38:57Z",
-      "ok": false,
-      "http_status": null,
-      "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
-      "method": "http"
-     },
-     {
-      "role": "official",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231208",
-      "attempted_at": "2026-10-17T14:28:11Z",
-      "ok": false,
-      "http_status": null,
-      "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
-      "method": "http"
-     },
-     {
-      "role": "secondary",
-      "url": "https://impact.indiaai.gov.in/outcome-resources",
-      "attempted_at": "2026-10-17T14:28:12Z",
-      "ok": false,
-      "http_status": null,
-      "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "url": "https://eoibelgrade.gov.in/listview/Njk1",
+      "attempted_at": "2026-10-17T16:29:34Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
       "method": "http"
      }
     ]
@@ -1070,9 +1132,9 @@
    "date_last_updated": "2025-02-13",
    "official_identifier": null,
    "official_url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023",
-   "secondary_url": null,
+   "secondary_url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration",
    "language": "English",
-   "summary": "First intergovernmental declaration focused on 'frontier AI' (highly capable general-purpose models). It warns of serious, even catastrophic, harm from misuse and loss of control, singles out cybersecurity, biotechnology and disinformation risks, and calls for shared scientific understanding, risk-based policies, safety testing and evaluation, and transparency from frontier developers.",
+   "summary": "Declaration by 28 countries and the EU on the risks of 'frontier' AI: highly capable general-purpose models, and narrow AI with harmful capabilities, that match or exceed today's most advanced models. It warns of substantial risks from intentional misuse or unintended issues of control, names cybersecurity, biotechnology and disinformation, and sees potential for serious, even catastrophic, harm. Its agenda is a shared scientific understanding of these risks and risk-based national policies, with safety testing, evaluations and transparency from developers of frontier AI, and an international network of scientific research on frontier AI safety.",
    "safety_topics": [
     "general-purpose / frontier AI",
     "catastrophic risk",
@@ -1095,35 +1157,60 @@
      "id": "INT-01"
     }
    ],
-   "notes": "Signed at the first AI Safety Summit, 1-2 Nov 2023. Signatories include the US, China and the EU. It launched the summit series: Seoul (May 2024), Paris (Feb 2025), New Delhi (Feb 2026). It also led to the International Scientific Report on the Safety of Advanced AI. GOV.UK shows the page as last updated 13 Feb 2025; the text itself is unchanged.",
+   "notes": "Agreed at the AI Safety Summit at Bletchley Park, 1-2 November 2023; the countries represented include the US, China and the EU. New Zealand joined the commitment on 23 October 2024, and GOV.UK updated the publication on 13 February 2025 to include it as a signatory. The participants said they would meet again in 2024. The International AI Safety Report (interim report INT-08, full report INT-09) was launched at this summit. GOV.UK also offers a Latin American Spanish version of the publication.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-17",
     "method": "official-url-fetched",
-    "note": "GOV.UK page fetched. Title confirmed; first published 1 Nov 2023, last updated 13 Feb 2025. Frontier-risk content confirmed. The signatory count (28 + EU) comes from the researcher's background knowledge and was not re-read on the page.",
-    "second_check": null
+    "note": "Stored and read: the declaration's HTML text on GOV.UK (official, stored 11 Oct 2026 and unchanged on 17 Oct 2026), which confirms the title, the text, the 28 countries and the EU represented and New Zealand's accession of 23 October 2024; and, in this run, the GOV.UK publication page (proposed as secondary_url), which gives the first publication on 1 November 2023 and the update of 13 February 2025 that added New Zealand, and DSIT's press release of 29 January 2025, which says the International AI Safety Report was launched at the summit. Version 1's claim that the text was unchanged by the 2025 update, and its description as the 'first' declaration of its kind, are not supported and were removed.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-17: 10 field(s) supported."
    },
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-11T13:56:42Z",
+    "last_attempt": "2026-10-17T16:29:29Z",
     "files": [
      {
       "role_key": "official",
       "role": "official",
       "label": "Official source",
-      "path": "archive/INT-03/2026-10-11/official.html",
+      "path": "archive/INT-03/2026-10-17/official.html",
       "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023",
       "final_url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023",
       "http_status": 200,
       "content_type": "text/html",
       "bytes": 86591,
-      "sha256": "413a95f75c30deec5911910e6e7a6851e871709d745a1ca599d08e5a2c21cd35",
-      "retrieved_at": "2026-10-11T13:56:48Z",
-      "last_checked": "2026-10-11T13:56:48Z",
+      "sha256": "dc20cd93d415b40e9ec33b4ad22532afe3fbc2557efc80ed27f8354f9ade8953",
+      "text_sha256": "dd46484f8ae3b664d6f02ee04d37b02348f06dde95628021f5917d768037c1f7",
+      "retrieved_at": "2026-10-17T16:29:35Z",
+      "last_checked": "2026-10-17T16:29:35Z",
       "method": "http",
       "last_modified": null,
-      "etag": "W/\"413a95f75c30deec5911910e6e7a6851\"",
+      "etag": "W/\"dc20cd93d415b40e9ec33b4ad22532af\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "secondary",
+      "role": "secondary",
+      "label": "Secondary source",
+      "path": "archive/INT-03/2026-10-17/secondary.html",
+      "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration",
+      "final_url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 69304,
+      "sha256": "5ee343f70f6641d37322dcb2a3d10450f46f567d5849ed0543753c46899c736e",
+      "text_sha256": "f4ee20c68270b33cf37ba18e46db56cc71f8f6e48abe91cdce8488ba6cb6e17a",
+      "retrieved_at": "2026-10-17T16:29:44Z",
+      "last_checked": "2026-10-17T16:29:44Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": "W/\"5ee343f70f6641d37322dcb2a3d10450\"",
       "changed": false,
       "previous_sha256": null,
       "previous_path": null,
@@ -1136,14 +1223,22 @@
      {
       "role": "official",
       "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023",
-      "attempted_at": "2026-10-11T13:56:48Z",
+      "attempted_at": "2026-10-17T16:29:35Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration",
+      "attempted_at": "2026-10-17T16:29:44Z",
       "ok": true,
       "http_status": 200,
       "error": null,
       "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -1167,7 +1262,7 @@
    "official_url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024",
    "secondary_url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024/seoul-declaration-for-safe-innovative-and-inclusive-ai-by-participants-attending-the-leaders-session-ai-seoul-summit-21-may-2024",
    "language": "English",
-   "summary": "Leaders treat AI safety, innovation and inclusivity as linked goals. They endorse risk-based governance across the AI lifecycle and back the creation or expansion of AI safety institutes and networks between them. They also point to the Hiroshima Code of Conduct and the Frontier AI Safety Commitments as ways to put interoperable governance into practice.",
+   "summary": "Leaders of ten countries and the EU treat AI safety, innovation and inclusivity as inter-related goals and call for interoperable AI governance frameworks, in line with a risk-based approach, for the safe, secure and trustworthy design, development, deployment and use of AI. They support creating or expanding AI safety institutes, research programmes and supervisory bodies and networks between them, welcome the annexed Seoul Statement of Intent on AI safety science, recognise the particular responsibility of organisations developing frontier AI, note the Frontier AI Safety Commitments and back the operationalisation of the Hiroshima Process Code of Conduct.",
    "safety_topics": [
     "safety institute",
     "general-purpose / frontier AI",
@@ -1196,18 +1291,18 @@
      "id": "G7-02"
     }
    ],
-   "notes": "Adopted at the virtual Leaders' Session on 21 May 2024. The Seoul Statement of Intent toward International Cooperation on AI Safety Science is annexed to it. It anticipated the AI Action Summit in France.",
+   "notes": "Agreed at the Leaders' Session of the AI Seoul Summit on 21 May 2024. The summit, co-hosted by the UK and the Republic of Korea on 21 and 22 May 2024, built on the AI Safety Summit at Bletchley Park (INT-03). The Seoul Statement of Intent toward International Cooperation on AI Safety Science (INT-05) is annexed to it. It looks forward to the third gathering, the AI Action Summit in France (INT-01).",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-17",
     "method": "official-url-fetched",
-    "note": "GOV.UK publication page and HTML text fetched. Title, 21 May 2024 date and the 10 countries + EU signatory list confirmed.",
-    "second_check": null
+    "note": "Stored and read: the GOV.UK publication page (official) and the declaration's HTML text (alt-official), both stored 11 Oct 2026 and unchanged on 17 Oct 2026, which confirm the title, the date of 21 May 2024, the ten countries and the EU and the text; and, in this run, the GOV.UK topical event page for the AI Seoul Summit 2024, which says the UK co-hosted the summit with the Republic of Korea on 21 and 22 May 2024. Version 1's description of the Leaders' Session as virtual is not in the stored files and was removed.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-17: 7 field(s) supported."
    },
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-11T13:56:42Z",
+    "last_attempt": "2026-10-17T16:29:29Z",
     "files": [
      {
       "role_key": "official",
@@ -1221,7 +1316,7 @@
       "bytes": 70646,
       "sha256": "070aa3dfbe56595765a7ca9f282e504f8007aea0df4fb550884a77b2cc65274f",
       "retrieved_at": "2026-10-11T13:56:52Z",
-      "last_checked": "2026-10-11T13:56:52Z",
+      "last_checked": "2026-10-17T16:29:33Z",
       "method": "http",
       "last_modified": null,
       "etag": "W/\"070aa3dfbe56595765a7ca9f282e504f\"",
@@ -1230,7 +1325,8 @@
       "previous_path": null,
       "stale": false,
       "warning": null,
-      "integrity": "ok"
+      "integrity": "ok",
+      "text_sha256": "e3a393f4dec31b1d5dba914cf7ef98b189542453e7188e65985dfda53482fc2b"
      },
      {
       "role_key": "secondary",
@@ -1244,7 +1340,7 @@
       "bytes": 78212,
       "sha256": "294434498d8216e502915e2a518a6f5d6965258ffedb0bdc83f4b5c68bcb9d23",
       "retrieved_at": "2026-10-11T13:57:01Z",
-      "last_checked": "2026-10-11T13:57:01Z",
+      "last_checked": "2026-10-17T16:29:38Z",
       "method": "http",
       "last_modified": null,
       "etag": "W/\"294434498d8216e502915e2a518a6f5d\"",
@@ -1253,7 +1349,8 @@
       "previous_path": null,
       "stale": false,
       "warning": null,
-      "integrity": "ok"
+      "integrity": "ok",
+      "text_sha256": "bef7cf34e93872e287582429b9afc4c27837c496f94e991e6c25974057d85c27"
      }
     ],
     "attempts": [
@@ -1274,9 +1371,44 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024",
+      "attempted_at": "2026-10-17T15:49:09Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024/seoul-declaration-for-safe-innovative-and-inclusive-ai-by-participants-attending-the-leaders-session-ai-seoul-summit-21-may-2024",
+      "attempted_at": "2026-10-17T15:49:18Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024",
+      "attempted_at": "2026-10-17T16:29:33Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024/seoul-declaration-for-safe-innovative-and-inclusive-ai-by-participants-attending-the-leaders-session-ai-seoul-summit-21-may-2024",
+      "attempted_at": "2026-10-17T16:29:38Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -1300,7 +1432,7 @@
    "official_url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024/seoul-statement-of-intent-toward-international-cooperation-on-ai-safety-science-ai-seoul-summit-2024-annex",
    "secondary_url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024",
    "language": "English",
-   "summary": "Signatories commit to work together on AI safety science through publicly backed bodies such as AI Safety Institutes. Planned work includes aligning technical methods, sharing information on model capabilities, limitations and risks, monitoring harms and safety incidents, and exchanging evaluations and datasets. They also state a shared aim to build an international network to speed up AI safety science.",
+   "summary": "Leaders of ten countries and the EU affirm international coordination, based on openness, transparency and reciprocity, to advance the science of AI safety, and commend the creation or expansion of publicly backed institutions such as AI Safety Institutes. They intend to foster common scientific understanding, including through assessments such as the International AI Safety Report. Possible steps include sharing information about models' capabilities, limitations and risks, monitoring AI harms and safety incidents, exchanging or jointly creating evaluations and data sets, and shared technical resources. They aim to develop an international network to accelerate AI safety science.",
    "safety_topics": [
     "safety institute",
     "evaluation & testing",
@@ -1322,18 +1454,18 @@
      "id": "INT-09"
     }
    ],
-   "notes": "Annex to the Seoul Declaration. It led to the International Network of AI Safety Institutes, launched in Nov 2024 and renamed in Dec 2025.",
+   "notes": "Annex to the Seoul Declaration (INT-04), agreed at the AI Seoul Summit on 21 May 2024. It follows on from the AI Safety Summit at Bletchley Park (INT-03) and acknowledges the Safety Testing Chair's Statement of Session Outcomes from the Bletchley Leaders' Session.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-17",
     "method": "official-url-fetched",
-    "note": "GOV.UK HTML annex fetched. Title, signatories and content confirmed; publication date 21 May 2024 confirmed on the parent publication page.",
-    "second_check": null
+    "note": "Stored and read: the annex's HTML text on GOV.UK (official) and the GOV.UK publication page of the Seoul Declaration and its annex (alt-official), both stored 11 Oct 2026 and unchanged on 17 Oct 2026, which confirm the title, the date of 21 May 2024, the ten countries and the EU, and the text. Version 1's note on the International Network of AI Safety Institutes (launched in November 2024, renamed in December 2025) is not in this record's stored files and was removed; the link stays in related (INT-11).",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-17: 7 field(s) supported."
    },
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-11T13:56:45Z",
+    "last_attempt": "2026-10-17T16:29:33Z",
     "files": [
      {
       "role_key": "official",
@@ -1347,7 +1479,7 @@
       "bytes": 72389,
       "sha256": "4f9bf25c7d9fa101ef26ea471d9140beacd4b5adb7bc4d62ba3fb6935c39fdeb",
       "retrieved_at": "2026-10-11T13:56:50Z",
-      "last_checked": "2026-10-11T13:56:50Z",
+      "last_checked": "2026-10-17T16:29:40Z",
       "method": "http",
       "last_modified": null,
       "etag": "W/\"4f9bf25c7d9fa101ef26ea471d9140be\"",
@@ -1356,7 +1488,8 @@
       "previous_path": null,
       "stale": false,
       "warning": null,
-      "integrity": "ok"
+      "integrity": "ok",
+      "text_sha256": "550137e010f2a906632af2f54817a6edbe5ab54facc15313dec5a0cfdeecf956"
      },
      {
       "role_key": "secondary",
@@ -1370,7 +1503,7 @@
       "bytes": 70646,
       "sha256": "070aa3dfbe56595765a7ca9f282e504f8007aea0df4fb550884a77b2cc65274f",
       "retrieved_at": "2026-10-11T13:56:59Z",
-      "last_checked": "2026-10-11T13:56:59Z",
+      "last_checked": "2026-10-17T16:29:49Z",
       "method": "http",
       "last_modified": null,
       "etag": "W/\"070aa3dfbe56595765a7ca9f282e504f\"",
@@ -1379,7 +1512,8 @@
       "previous_path": null,
       "stale": false,
       "warning": null,
-      "integrity": "ok"
+      "integrity": "ok",
+      "text_sha256": "e3a393f4dec31b1d5dba914cf7ef98b189542453e7188e65985dfda53482fc2b"
      }
     ],
     "attempts": [
@@ -1400,9 +1534,44 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024/seoul-statement-of-intent-toward-international-cooperation-on-ai-safety-science-ai-seoul-summit-2024-annex",
+      "attempted_at": "2026-10-17T15:49:07Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024",
+      "attempted_at": "2026-10-17T15:49:15Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024/seoul-statement-of-intent-toward-international-cooperation-on-ai-safety-science-ai-seoul-summit-2024-annex",
+      "attempted_at": "2026-10-17T16:29:40Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024",
+      "attempted_at": "2026-10-17T16:29:49Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -1415,7 +1584,7 @@
    "country": "International",
    "jurisdiction_level": "International",
    "region": "Global",
-   "issuing_body": "UK Department for Science, Innovation and Technology (published for the AI Seoul Summit co-hosts); commitments made by 20 AI organisations",
+   "issuing_body": "AI organisations that agreed to the commitments (20 by February 2025), announced by the UK and Republic of Korea governments at the AI Seoul Summit; published by the UK Department for Science, Innovation and Technology",
    "instrument_type": "Voluntary code / commitments",
    "legal_force": "Non-binding",
    "status": "Published (non-binding, current)",
@@ -1452,18 +1621,18 @@
      "id": "INT-01"
     }
    ],
-   "notes": "The original 16 signatories were Amazon, Anthropic, Cohere, Google, G42, IBM, Inflection AI, Meta, Microsoft, Mistral AI, Naver, OpenAI, Samsung Electronics, Technology Innovation Institute, xAI and Zhipu.ai. Magic, Minimax, 01.ai and NVIDIA were added on 7 Feb 2025, making 20. Signatories committed to publish safety frameworks before the Paris AI Action Summit (Feb 2025).",
+   "notes": "The UK and Republic of Korea governments announced the first 16 signatories: Amazon, Anthropic, Cohere, Google, G42, IBM, Inflection AI, Meta, Microsoft, Mistral AI, Naver, OpenAI, Samsung Electronics, Technology Innovation Institute, xAI and Zhipu.ai. Magic, Minimax, 01.ai and NVIDIA were added on 7 February 2025, making 20. Signatories undertook to publish a safety framework focused on severe risks by the next AI summit, in France (the AI Action Summit, INT-01), and to provide public updates if their approaches to the three outcomes change.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-17",
     "method": "official-url-fetched",
-    "note": "GOV.UK page fetched: published 21 May 2024, last updated 7 Feb 2025. HTML text fetched; 20 signatories and the three outcomes confirmed.",
-    "second_check": null
+    "note": "Stored and read: the GOV.UK publication page (official), which gives the first publication on 21 May 2024 and the update of 7 February 2025 that added organisations, and the commitments' HTML text (alt-official), which gives the 20 organisations, the eight commitments under three outcomes and the definitions; both stored 11 Oct 2026 and unchanged on 17 Oct 2026, with no update after 7 February 2025.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-17: 7 field(s) supported, fixes applied to scope_note."
    },
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-11T13:56:48Z",
+    "last_attempt": "2026-10-17T16:29:34Z",
     "files": [
      {
       "role_key": "official",
@@ -1477,7 +1646,7 @@
       "bytes": 68461,
       "sha256": "b1f8a2846196606a728e5e831a74ed36e275460a4bbcb68e43ca64f3e663d236",
       "retrieved_at": "2026-10-11T13:56:55Z",
-      "last_checked": "2026-10-11T13:56:55Z",
+      "last_checked": "2026-10-17T16:29:42Z",
       "method": "http",
       "last_modified": null,
       "etag": "W/\"b1f8a2846196606a728e5e831a74ed36\"",
@@ -1486,7 +1655,8 @@
       "previous_path": null,
       "stale": false,
       "warning": null,
-      "integrity": "ok"
+      "integrity": "ok",
+      "text_sha256": "2c084fe2fa6624eaa197840fb7a894fe21ffeeac9af55258948be0045cf7eb18"
      },
      {
       "role_key": "secondary",
@@ -1500,7 +1670,7 @@
       "bytes": 81551,
       "sha256": "4c9c5bc59457b52e34c80e2349ebc23b875e8e621c45719539e2be171cff81d4",
       "retrieved_at": "2026-10-11T13:57:03Z",
-      "last_checked": "2026-10-11T13:57:03Z",
+      "last_checked": "2026-10-17T16:29:51Z",
       "method": "http",
       "last_modified": null,
       "etag": "W/\"4c9c5bc59457b52e34c80e2349ebc23b\"",
@@ -1509,7 +1679,8 @@
       "previous_path": null,
       "stale": false,
       "warning": null,
-      "integrity": "ok"
+      "integrity": "ok",
+      "text_sha256": "70d5b702b1c166f1a2df693cf14f67c03c1f96beff245375a148d66e71afbe39"
      }
     ],
     "attempts": [
@@ -1530,11 +1701,46 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+      "attempted_at": "2026-10-17T15:49:11Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+      "attempted_at": "2026-10-17T15:49:20Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+      "attempted_at": "2026-10-17T16:29:42Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+      "attempted_at": "2026-10-17T16:29:51Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    },
-   "scope_note": "Commitments made by AI companies, not by governments; included because governments brokered and published them."
+   "scope_note": "Company commitments brokered and published by governments; existing scope_note kept."
   },
   {
    "id": "INT-07",
@@ -1557,7 +1763,7 @@
    "official_url": "https://www.gov.uk/government/publications/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024",
    "secondary_url": "https://www.gov.uk/government/publications/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024",
    "language": "English",
-   "summary": "Ministers commit to frameworks for managing frontier-model risks, including credible external evaluation, and to work with stakeholders on thresholds at which unmitigated risks would be severe. Named examples are models that meaningfully help non-state actors acquire chemical or biological weapons, and models that evade human oversight through deception or autonomous replication. They ask AI safety institutes to share evaluation practices and datasets.",
+   "summary": "Ministers of 27 countries and the EU recognise their role in establishing frameworks to manage risks from frontier AI models, in promoting credible external evaluations, and in identifying, with the private sector, civil society and academia, thresholds at which unmitigated risks would be severe. Their examples are capabilities that meaningfully assist non-state actors with chemical or biological weapons, and capabilities or propensities to evade human oversight through manipulation, deception or autonomous replication. Through their AI safety institutes they plan to share best practices and evaluation datasets and to collaborate on safety testing guidelines.",
    "safety_topics": [
     "general-purpose / frontier AI",
     "catastrophic risk",
@@ -1580,18 +1786,18 @@
      "id": "INT-01"
     }
    ],
-   "notes": "Signatories include the US, UK, India, Saudi Arabia, the UAE, Türkiye, Kenya, Nigeria, Rwanda and the EU. China is not on the list. Ministers planned to bring threshold proposals to the AI Action Summit in France.",
+   "notes": "Agreed at the Ministers' Session of the AI Seoul Summit on 22 May 2024; the Republic of Korea and the United Kingdom were the summit's co-chairs. Signatories include the US, UK, India, Saudi Arabia, the UAE, Türkiye, Kenya, Nigeria, Rwanda and the EU; China is not on the list. Ministers planned to develop proposals on thresholds and capabilities for consideration before the AI Action Summit in France (INT-01), and looked forward to the final International Scientific Report on the Safety of Advanced AI, whose interim report (INT-08) they noted.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-17",
     "method": "official-url-fetched",
-    "note": "GOV.UK publication page fetched (published 22 May 2024). HTML text fetched; the 27 countries + EU signatory list and severe-risk threshold content confirmed.",
-    "second_check": null
+    "note": "Stored and read: the GOV.UK publication page (official), published 22 May 2024, and the statement's HTML text (alt-official), both stored 11 Oct 2026 and unchanged on 17 Oct 2026, which confirm the title, the date, the 27 countries and the EU, the severe-risk thresholds and examples, the AI safety institutes paragraph and the co-chairs. The summary was corrected to the text's wording on the institutes.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-17: 7 field(s) supported."
    },
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-11T13:56:49Z",
+    "last_attempt": "2026-10-17T16:29:38Z",
     "files": [
      {
       "role_key": "official",
@@ -1605,7 +1811,7 @@
       "bytes": 68264,
       "sha256": "ab44aea3297590dacb17069d6c7172ae2f1eec365896ab31f3ba3458a4d8bbb6",
       "retrieved_at": "2026-10-11T13:56:57Z",
-      "last_checked": "2026-10-11T13:56:57Z",
+      "last_checked": "2026-10-17T16:29:47Z",
       "method": "http",
       "last_modified": null,
       "etag": "W/\"ab44aea3297590dacb17069d6c7172ae\"",
@@ -1614,7 +1820,8 @@
       "previous_path": null,
       "stale": false,
       "warning": null,
-      "integrity": "ok"
+      "integrity": "ok",
+      "text_sha256": "266389850be226d849a4e2b42caa1a31ada1dda51fddfe29d2fb37aaa2c552c4"
      },
      {
       "role_key": "secondary",
@@ -1628,7 +1835,7 @@
       "bytes": 103058,
       "sha256": "f72d6c7f78e7cad40f245dfa2076edbebfb16460b59e966e6bf8e9ee53b087ae",
       "retrieved_at": "2026-10-11T13:57:05Z",
-      "last_checked": "2026-10-11T13:57:05Z",
+      "last_checked": "2026-10-17T16:29:55Z",
       "method": "http",
       "last_modified": null,
       "etag": "W/\"f72d6c7f78e7cad40f245dfa2076edbe\"",
@@ -1637,7 +1844,8 @@
       "previous_path": null,
       "stale": false,
       "warning": null,
-      "integrity": "ok"
+      "integrity": "ok",
+      "text_sha256": "229db732c08107bee6192850ebaf566c4615508d955f0ee23b6df289c42a8775"
      }
     ],
     "attempts": [
@@ -1658,9 +1866,44 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gov.uk/government/publications/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024",
+      "attempted_at": "2026-10-17T15:49:13Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.uk/government/publications/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024",
+      "attempted_at": "2026-10-17T15:49:22Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gov.uk/government/publications/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024",
+      "attempted_at": "2026-10-17T16:29:46Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.uk/government/publications/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024",
+      "attempted_at": "2026-10-17T16:29:55Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -3061,12 +3304,12 @@
    "status": "Superseded",
    "date_published": "2024-05-17",
    "date_in_force": null,
-   "date_last_updated": "2025-10-22",
-   "official_identifier": null,
+   "date_last_updated": null,
+   "official_identifier": "DSIT 2024/009",
    "official_url": "https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai",
    "secondary_url": null,
    "language": "English",
-   "summary": "A science-based overview of general-purpose AI capabilities and risks. It covers malicious use, malfunctions (including disputed loss-of-control risk) and systemic risks such as labour-market disruption, and finds that mitigations such as benchmarking, red-teaming and auditing all have limits. It was commissioned under the Bletchley Declaration.",
+   "summary": "Interim edition of the first International Scientific Report on the Safety of Advanced AI, written by 75 AI experts with an Expert Advisory Panel nominated by 30 countries, the EU and the UN. It synthesises the evidence on the capabilities of general-purpose AI and sorts its risks into malicious use (fake content, disinformation, cyber offence, biological weapons), malfunctions (bias, loss of control) and systemic risks (labour markets, the AI divide, market concentration, privacy, copyright). It finds that technical methods such as benchmarking, red-teaming and auditing training data can help mitigate risks but all have limitations. It does not discuss policy interventions.",
    "safety_topics": [
     "general-purpose / frontier AI",
     "catastrophic risk",
@@ -3088,18 +3331,18 @@
      "id": "INT-10"
     }
    ],
-   "notes": "Published for the AI Seoul Summit. Superseded by the full International AI Safety Report 2025 (29 Jan 2025). The GOV.UK page was updated on 22 Oct 2025 to link to the report's external website.",
+   "notes": "Commissioned at the AI Safety Summit at Bletchley Park in November 2023 and chaired by Yoshua Bengio, with a UK Government secretariat hosted by the AI Safety Institute; published in May 2024 ahead of the AI Seoul Summit 2024. Executive summaries were published in Arabic, Chinese, French, Russian and Spanish. The interim report said the final version would be published ahead of the AI Action Summit in France; that full report, the International AI Safety Report 2025 (INT-09), followed in January 2025. On 22 October 2025 the GOV.UK page was updated only to add a link to the report's website, internationalaisafetyreport.org.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-17",
     "method": "official-url-fetched",
-    "note": "GOV.UK page fetched: title, published 17 May 2024 and last updated 22 Oct 2025 confirmed.",
-    "second_check": null
+    "note": "Stored: the GOV.UK publication page (from the Cabinet Office, the AI Security Institute and DSIT; published 17 May 2024, last updated 22 October 2025), the interim report PDF (132 pages, May 2024, research series number DSIT 2024/009) and its Arabic executive summary; in this run also the report website's About page. They confirm the title, date, chair, secretariat, research series number, that a final version was to follow and that the full report was published in January 2025. The publication ahead of the AI Seoul Summit 2024 rests on the About page.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-17: 8 field(s) supported."
    },
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-11T13:57:22Z",
+    "last_attempt": "2026-10-17T16:29:44Z",
     "files": [
      {
       "role_key": "official",
@@ -3113,7 +3356,7 @@
       "bytes": 101918,
       "sha256": "017f482de89ea041b01ddd42ab3d2eba24b216a1365d988c51136d0508f70237",
       "retrieved_at": "2026-10-11T13:57:23Z",
-      "last_checked": "2026-10-11T13:57:23Z",
+      "last_checked": "2026-10-17T16:29:53Z",
       "method": "http",
       "last_modified": null,
       "etag": "W/\"017f482de89ea041b01ddd42ab3d2eba\"",
@@ -3122,7 +3365,8 @@
       "previous_path": null,
       "stale": false,
       "warning": null,
-      "integrity": "ok"
+      "integrity": "ok",
+      "text_sha256": "fca8049ebe0aa5f1fa8ed6d6039bee8631bc09717b129efd98dbd53b4c5aba9a"
      },
      {
       "role_key": "document-1",
@@ -3136,7 +3380,7 @@
       "bytes": 2985312,
       "sha256": "ccc4f9c9dfe608d40bec7eff2167a780f2c2610391db815099be48e36d603196",
       "retrieved_at": "2026-10-11T13:57:25Z",
-      "last_checked": "2026-10-11T13:57:25Z",
+      "last_checked": "2026-10-17T16:29:55Z",
       "method": "http",
       "last_modified": "Mon, 21 Oct 2024 14:37:47 GMT",
       "etag": "\"6716673b-2d8d60\"",
@@ -3159,7 +3403,7 @@
       "bytes": 212325,
       "sha256": "10b5feff8b770616ee105c3113a4f8b6c8b0724a92020bf0f8d0807c81b6039f",
       "retrieved_at": "2026-10-11T13:57:28Z",
-      "last_checked": "2026-10-11T13:57:28Z",
+      "last_checked": "2026-10-17T16:29:57Z",
       "method": "http",
       "last_modified": "Thu, 13 Jun 2024 09:48:35 GMT",
       "etag": "\"666ac073-33d65\"",
@@ -3198,9 +3442,62 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai",
+      "attempted_at": "2026-10-17T15:49:24Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://assets.publishing.service.gov.uk/media/6716673b96def6d27a4c9b24/international_scientific_report_on_the_safety_of_advanced_ai_interim_report.pdf",
+      "attempted_at": "2026-10-17T15:49:27Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://assets.publishing.service.gov.uk/media/666ac0732f424458f904f308/international_scientific_report_on_the_safety_of_advanced_ai_executive_summary_arabic.pdf",
+      "attempted_at": "2026-10-17T15:49:30Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai",
+      "attempted_at": "2026-10-17T16:29:53Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://assets.publishing.service.gov.uk/media/6716673b96def6d27a4c9b24/international_scientific_report_on_the_safety_of_advanced_ai_interim_report.pdf",
+      "attempted_at": "2026-10-17T16:29:55Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://assets.publishing.service.gov.uk/media/666ac0732f424458f904f308/international_scientific_report_on_the_safety_of_advanced_ai_executive_summary_arabic.pdf",
+      "attempted_at": "2026-10-17T16:29:57Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -3213,18 +3510,18 @@
    "country": "International",
    "jurisdiction_level": "International",
    "region": "Global",
-   "issuing_body": "Independent expert panel chaired by Yoshua Bengio; secretariat in the UK AI Security Institute; published by UK DSIT",
+   "issuing_body": "Independent expert panel chaired by Yoshua Bengio, with a secretariat at the UK AI Safety Institute and Mila – Quebec AI Institute; published by the UK Government (DSIT)",
    "instrument_type": "Report (government-commissioned)",
    "legal_force": "Non-binding",
    "status": "Superseded",
    "date_published": "2025-01-29",
    "date_in_force": null,
-   "date_last_updated": "2025-11-25",
+   "date_last_updated": null,
    "official_identifier": "DSIT 2025/001",
    "official_url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2025",
    "secondary_url": "https://www.gov.uk/government/news/first-international-ai-safety-report-to-inform-discussions-at-ai-action-summit",
    "language": "English",
-   "summary": "The first full international scientific assessment of general-purpose AI capabilities and risks, written by about 100 experts. It covers malicious use, malfunctions and systemic risks, the rise of autonomous AI agents, and the state of risk-management techniques. It identifies key open research questions for policymakers, without making policy recommendations.",
+   "summary": "The first full International AI Safety Report, the work of 96 AI experts with an Expert Advisory Panel nominated by 30 countries, the OECD, the EU and the UN. It summarises the scientific evidence on the capabilities of general-purpose AI, including AI agents; on its risks from malicious use (fake content, manipulation, cyber offence, biological and chemical attacks), malfunctions (reliability, bias, loss of control) and systemic effects (labour markets, the AI R&D divide, market concentration, environment, privacy, copyright) and open-weight models; and on technical approaches to identifying, assessing, mitigating and monitoring risks. It does not recommend specific policies.",
    "safety_topics": [
     "general-purpose / frontier AI",
     "catastrophic risk",
@@ -3246,18 +3543,18 @@
      "id": "INT-01"
     }
    ],
-   "notes": "Published for the Paris AI Action Summit. Two interim 'Key Updates' followed: 'First Key Update: Capabilities and Risk Implications' (15 Oct 2025) and 'Second Key Update: Technical Safeguards and Risk Management' (25 Nov 2025). Succeeded by the International AI Safety Report 2026 (3 Feb 2026). The old GOV.UK publication URL now redirects to internationalaisafetyreport.org, the report's official site, run with the UK AISI secretariat.",
+   "notes": "Published ahead of the AI Action Summit in Paris in February 2025, following the interim report of May 2024 (INT-08), which was presented at the AI Seoul Summit. A Chair's note covers AI advances between the end of the writing period (5 December 2024) and publication, notably early test results of OpenAI's o3 model. The UK Government said it would keep providing the secretariat until a long-term international home was agreed, with Yoshua Bengio as chair for 2025. Two Key Updates followed as separate publications: 'First Key Update: Capabilities and Risk Implications' (15 October 2025) and 'Second Key Update: Technical Safeguards and Risk Management' (25 November 2025). The second edition, the International AI Safety Report 2026 (INT-10), followed on 3 February 2026. The PDF's back page prints the research series number as DSIT 2024/000; its front matter and the website give DSIT 2025/001.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-17",
     "method": "official-url-fetched",
-    "note": "internationalaisafetyreport.org publication page fetched: title, 29 Jan 2025, DSIT 2025/001 and Bengio as chair confirmed. GOV.UK news release (29 Jan 2025) fetched. Both Key Update pages fetched and their dates confirmed.",
-    "second_check": null
+    "note": "Stored: the report's publication page on internationalaisafetyreport.org (dated 29 January 2025, with the full text, the citation 'DSIT 2025/001' and the contributor lists), the English PDF (298 pages) and the Arabic executive summary from the same site, the GOV.UK press release of 29 January 2025 (DSIT and the AI Safety Institute), and in this run the site's Publications and About pages. They confirm the title, date, chair, secretariat, research series number and non-binding character, the two Key Updates with their dates (15 October and 25 November 2025) and the 2026 edition (3 February 2026). No stored file shows that the old GOV.UK publication URL redirects to the report site, so that sentence was dropped from the notes.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-17: 8 field(s) supported."
    },
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-11T13:57:26Z",
+    "last_attempt": "2026-10-17T16:29:49Z",
     "files": [
      {
       "role_key": "official",
@@ -3271,7 +3568,7 @@
       "bytes": 3963065,
       "sha256": "0fa3a9e56890013e95da8bb888d329c25a2554ed809e789b683af30f7067012b",
       "retrieved_at": "2026-10-11T13:57:29Z",
-      "last_checked": "2026-10-11T13:57:29Z",
+      "last_checked": "2026-10-17T16:29:51Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -3280,7 +3577,8 @@
       "previous_path": null,
       "stale": false,
       "warning": null,
-      "integrity": "ok"
+      "integrity": "ok",
+      "text_sha256": "d9856aa8d55004bb6c497e356759c8d01aee3d61a523e3b7040bb0353076c9f8"
      },
      {
       "role_key": "document-1",
@@ -3294,7 +3592,7 @@
       "bytes": 4662534,
       "sha256": "cd7a8f0c6abcfcc0175578e762eb8b6575e9263aa1c9accd37fa8b6facff828d",
       "retrieved_at": "2026-10-11T13:57:34Z",
-      "last_checked": "2026-10-11T13:57:34Z",
+      "last_checked": "2026-10-17T16:29:56Z",
       "method": "http",
       "last_modified": "Tue, 14 Oct 2025 13:59:20 GMT",
       "etag": "\"68ee5738-472506\"",
@@ -3317,7 +3615,7 @@
       "bytes": 970908,
       "sha256": "b92408de56ba133e285e3fd397716d6643ad037c377814da3b18f3a3157b6cfa",
       "retrieved_at": "2026-10-11T13:57:39Z",
-      "last_checked": "2026-10-11T13:57:39Z",
+      "last_checked": "2026-10-17T16:30:00Z",
       "method": "http",
       "last_modified": "Tue, 07 Oct 2025 11:04:52 GMT",
       "etag": "\"68e4f3d4-ed09c\"",
@@ -3340,7 +3638,7 @@
       "bytes": 82686,
       "sha256": "ae087aa8923488cd4e6540444ba5c2eea020bd3ddfa55656c397a0ba23a9146b",
       "retrieved_at": "2026-10-11T13:57:39Z",
-      "last_checked": "2026-10-11T13:57:39Z",
+      "last_checked": "2026-10-17T16:30:02Z",
       "method": "http",
       "last_modified": null,
       "etag": "W/\"ae087aa8923488cd4e6540444ba5c2ee\"",
@@ -3349,7 +3647,8 @@
       "previous_path": null,
       "stale": false,
       "warning": null,
-      "integrity": "ok"
+      "integrity": "ok",
+      "text_sha256": "b61155cad7a88f2f4a3a2b450b715ca437dc4a7279f462bc5eacada97aa360f6"
      }
     ],
     "attempts": [
@@ -3388,9 +3687,80 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2025",
+      "attempted_at": "2026-10-17T15:49:21Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://internationalaisafetyreport.org/sites/default/files/2025-10/international_ai_safety_report_2025_english.pdf",
+      "attempted_at": "2026-10-17T15:49:25Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://internationalaisafetyreport.org/sites/default/files/2025-10/international_ai_safety_report_2025_executive_summary_arabic_0.pdf",
+      "attempted_at": "2026-10-17T15:49:30Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.uk/government/news/first-international-ai-safety-report-to-inform-discussions-at-ai-action-summit",
+      "attempted_at": "2026-10-17T15:49:30Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2025",
+      "attempted_at": "2026-10-17T16:29:51Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://internationalaisafetyreport.org/sites/default/files/2025-10/international_ai_safety_report_2025_english.pdf",
+      "attempted_at": "2026-10-17T16:29:56Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://internationalaisafetyreport.org/sites/default/files/2025-10/international_ai_safety_report_2025_executive_summary_arabic_0.pdf",
+      "attempted_at": "2026-10-17T16:30:00Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.uk/government/news/first-international-ai-safety-report-to-inform-discussions-at-ai-action-summit",
+      "attempted_at": "2026-10-17T16:30:02Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -3403,7 +3773,7 @@
    "country": "International",
    "jurisdiction_level": "International",
    "region": "Global",
-   "issuing_body": "Independent expert panel chaired by Yoshua Bengio; secretariat UK AI Security Institute and Mila; published under UK DSIT",
+   "issuing_body": "Independent expert panel chaired by Yoshua Bengio, with a secretariat at the UK AI Security Institute and Mila – Quebec AI Institute; published by the UK Government (DSIT)",
    "instrument_type": "Report (government-commissioned)",
    "legal_force": "Non-binding",
    "status": "Published (non-binding, current)",
@@ -3414,7 +3784,7 @@
    "official_url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
    "secondary_url": "https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf",
    "language": "English",
-   "summary": "The second edition, written by over 100 experts, focuses on emerging risks at the frontier: malicious use (cyber, biological/chemical, manipulation), malfunctions including loss of control, and systemic risks. It highlights an 'evaluation gap': pre-deployment tests may not reflect real-world behaviour, and models increasingly detect when they are being tested. It describes layered safeguards and voluntary frontier safety frameworks as the main risk-management tools, with some jurisdictions starting to make them mandatory.",
+   "summary": "The second International AI Safety Report, guided by over 100 experts with nominees of over 30 countries and international bodies. It narrows its scope to emerging risks at the frontier of general-purpose AI: malicious use (AI-generated content and crime, manipulation, cyberattacks, biological and chemical weapons), malfunctions (reliability, loss of control) and systemic risks (labour markets, human autonomy). It describes an 'evaluation gap', as pre-deployment tests do not reliably predict real-world risk and models increasingly tell test settings from deployment, and covers defence-in-depth safeguards and Frontier AI Safety Frameworks. It makes no specific policy recommendations.",
    "safety_topics": [
     "general-purpose / frontier AI",
     "catastrophic risk",
@@ -3436,18 +3806,18 @@
      "id": "UN-08"
     }
    ],
-   "notes": "Published 3 Feb 2026, before the India AI Impact Summit. An Extended Summary for Policymakers was published alongside it. Bengio also co-chairs the UN Independent International Scientific Panel on AI, whose preliminary report followed on 1 Jul 2026.",
+   "notes": "Published on 3 February 2026 as the second edition of the report series created after the 2023 AI Safety Summit at Bletchley Park; the UK minister's foreword says it would be showcased at the India AI Impact Summit. Its scope is narrower than that of the 2025 report (INT-09), which also covered bias, environmental impacts, privacy and copyright, and it is meant to complement the UN's Independent International Scientific Panel on AI. It records that in 2025, 12 companies published or updated Frontier AI Safety Frameworks and that most risk-management initiatives remain voluntary, though a few jurisdictions are beginning to make some practices legal requirements. Translations were published in the other five official UN languages, and a 2026 Report: Extended Summary for Policymakers and an Executive Summary were published on the same day.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-17",
     "method": "official-url-fetched",
-    "note": "internationalaisafetyreport.org publication page fetched: title, 3 Feb 2026, chair, secretariat (UK AISI and Mila), DSIT 2026/001 and key findings confirmed. The PDF secondary URL was taken from search results and not fetched.",
-    "second_check": null
+    "note": "Stored: the report's publication page on internationalaisafetyreport.org (dated 3 February 2026, with the full text and the citation 'DSIT 2026/001'), the English PDF linked from it (220 pages, 'Published in February 2026 by the UK Government'), the French translation, an earlier English PDF from the same site (the record's secondary URL; its text is the same apart from an extra cover page), and in this run the site's Publications page. They confirm the title, date, chair, secretariat (UK AI Security Institute and Mila), research series number and content, the Extended Summary for Policymakers and the Executive Summary dated 3 February 2026, and that no later edition is listed. The earlier note that Yoshua Bengio co-chairs the UN Independent International Scientific Panel on AI rests on no stored file and was dropped.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-17: 8 field(s) supported."
    },
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-11T13:57:28Z",
+    "last_attempt": "2026-10-17T16:29:51Z",
     "files": [
      {
       "role_key": "official",
@@ -3461,7 +3831,7 @@
       "bytes": 3943774,
       "sha256": "ac6df460ac4e8ce14bc0fb6d45ed886c901ca45da93ad8190df6b2a7777e4d81",
       "retrieved_at": "2026-10-11T13:57:32Z",
-      "last_checked": "2026-10-11T13:57:32Z",
+      "last_checked": "2026-10-17T16:29:54Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -3470,7 +3840,8 @@
       "previous_path": null,
       "stale": false,
       "warning": null,
-      "integrity": "ok"
+      "integrity": "ok",
+      "text_sha256": "8693a198b93ab5031c22f5c2c52ab4fe2814fcba5de8a659c37cd01054587daa"
      },
      {
       "role_key": "document-1",
@@ -3484,7 +3855,7 @@
       "bytes": 6723470,
       "sha256": "e2a35f439cafade360e4df4a2f91f217a16174bd1231f97e64f7208ffa93e225",
       "retrieved_at": "2026-10-11T13:57:37Z",
-      "last_checked": "2026-10-11T13:57:37Z",
+      "last_checked": "2026-10-17T16:29:58Z",
       "method": "http",
       "last_modified": "Tue, 24 Feb 2026 14:53:30 GMT",
       "etag": "\"699dbb6a-66978e\"",
@@ -3507,7 +3878,7 @@
       "bytes": 9096604,
       "sha256": "765570f1e573e28a2cedbef5be4abe3f3edc4fe01c51578f81979dc0998e655b",
       "retrieved_at": "2026-10-11T13:57:42Z",
-      "last_checked": "2026-10-11T13:57:42Z",
+      "last_checked": "2026-10-17T16:30:02Z",
       "method": "http",
       "last_modified": "Tue, 17 Feb 2026 12:59:56 GMT",
       "etag": "\"6994664c-8acd9c\"",
@@ -3530,7 +3901,7 @@
       "bytes": 8533201,
       "sha256": "50b244ddf39fb9189d44ccd990ba423ebe8927d8ffdce0f5aac5882c74cbc790",
       "retrieved_at": "2026-10-11T13:57:44Z",
-      "last_checked": "2026-10-11T13:57:44Z",
+      "last_checked": "2026-10-17T16:30:04Z",
       "method": "http",
       "last_modified": "Wed, 11 Feb 2026 10:45:24 GMT",
       "etag": "\"698c5dc4-8234d1\"",
@@ -3578,9 +3949,80 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+      "attempted_at": "2026-10-17T15:49:23Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026_1.pdf",
+      "attempted_at": "2026-10-17T15:49:27Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://internationalaisafetyreport.org/sites/default/files/2026-02/rapport-international-sur-la-securite-de-l-ia-2026.pdf",
+      "attempted_at": "2026-10-17T15:49:32Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf",
+      "attempted_at": "2026-10-17T15:49:35Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+      "attempted_at": "2026-10-17T16:29:54Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026_1.pdf",
+      "attempted_at": "2026-10-17T16:29:58Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://internationalaisafetyreport.org/sites/default/files/2026-02/rapport-international-sur-la-securite-de-l-ia-2026.pdf",
+      "attempted_at": "2026-10-17T16:30:02Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf",
+      "attempted_at": "2026-10-17T16:30:04Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -3601,10 +4043,10 @@
    "date_in_force": null,
    "date_last_updated": "2025-12-09",
    "official_identifier": null,
-   "official_url": "https://www.commerce.gov/news/fact-sheets/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
+   "official_url": "https://www.nist.gov/document/international-network-ai-safety-institutes-mission-statement",
    "secondary_url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
    "language": "English",
-   "summary": "All 10 founding members agreed a joint mission statement. It sets the Network up as a forum to build a common technical understanding of AI safety risks and mitigations, to support interoperable principles and best practices, and to encourage a shared global approach to AI safety. Its work centres on the science of AI testing and evaluation.",
+   "summary": "Mission statement agreed by the ten initial members of the International Network of AI Safety Institutes: Australia, Canada, the EU, France, Japan, Kenya, the Republic of Korea, Singapore, the United Kingdom and the United States. It sets up the Network as a forum for a common technical understanding of AI safety risks and mitigations that supports interoperable principles and best practices, and names four priority areas: research on the risks and capabilities of advanced AI, common best practices for testing advanced AI systems, which may include joint testing exercises, shared approaches to interpreting tests, and inclusion of countries at all levels of development.",
    "safety_topics": [
     "safety institute",
     "evaluation & testing",
@@ -3625,103 +4067,82 @@
      "id": "US-15"
     }
    ],
-   "notes": "Launched 20 Nov 2024 in San Francisco with the US as inaugural chair. Renamed 'International Network for Advanced AI Measurement, Evaluation and Science', confirmed at the Network's meeting in San Diego alongside NeurIPS; the UK announced this on 9 Dec 2025 and took on a 'Network Coordinator' role. The US now takes part through NIST's Center for AI Standards and Innovation (CAISI), the renamed US AI Safety Institute. On 13 Feb 2026 NIST published the Network's consensus practices and open questions on automated AI evaluations. The G7 Digital & Technology Ministerial Declaration (May 2026) tasks France with working with the Network and the OECD on comparable risk-assessment frameworks.",
+   "notes": "Launched at the Network's inaugural convening in San Francisco, co-hosted by the US Departments of Commerce and State, with the United States as inaugural chair. The US fact sheet released on 20 November 2024 says the ten initial members agreed the joint mission statement ahead of the convening; the statement's own text dates the launch meeting 21 November 2024. The statement builds on the Seoul Statement of Intent of 21 May 2024 (INT-05). At a meeting in San Diego alongside NeurIPS in December 2025, hosted by NIST's Center for AI Standards and Innovation (CAISI), through which the US takes part, the Network was renamed the International Network for Advanced AI Measurement, Evaluation and Science, and the United Kingdom took on the role of Network Coordinator (announced 9 December 2025). On 13 February 2026 the Network published consensus areas and open questions on practices for automated evaluations. In July 2026, at a meeting in Seoul alongside ICML, it completed its first best-practice guidance document. At their meeting in Paris on 29 May 2026 the G7 digital ministers agreed to start discussions under France's G7 presidency, including members of the Network and the OECD, on the comparability of AI risk-assessment frameworks (G7-04).",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-17",
     "method": "official-url-fetched",
-    "note": "commerce.gov fact sheet (20 Nov 2024) fetched: launch, members and mission statement content confirmed. GOV.UK press release (9 Dec 2025) fetched: rename and UK coordinator role confirmed. NIST page (13 Feb 2026) fetched: new name and CAISI role confirmed.",
-    "second_check": null
+    "note": "Stored in this run: the mission statement itself on nist.gov (2 pages, the new official URL), NIST's copy of the US Commerce and State launch fact sheet ('Released November 20, 2024'), the NIST news item of 13 February 2026, the UK AI Security Institute post of 23 July 2026 and the G7 Digital and Technology Ministerial Declaration (soumu.go.jp). With the GOV.UK press release of 9 December 2025 stored earlier, they confirm the title, members, launch, date, priority areas, rename, UK coordinator role and later work. The previous official URL, the commerce.gov copy of the fact sheet, refuses the archiver (HTTP 403 on every attempt; the browser retry times out). The fact sheet is not the record's official or secondary URL, so after the merge the 20 November 2024 date rests on the copy stored in this run's folder; the mission statement in the local copy dates the launch 21 November 2024.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-17: 8 field(s) supported."
    },
    "local_copy": {
-    "status": "partial",
-    "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved.",
-    "last_attempt": "2026-10-16T11:38:55Z",
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:29:55Z",
     "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/INT-11/2026-10-17/official.pdf",
+      "url": "https://www.nist.gov/document/international-network-ai-safety-institutes-mission-statement",
+      "final_url": "https://www.nist.gov/system/files/documents/2024/11/20/Mission%20Statement%20-%20International%20Network%20of%20AISIs.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 491514,
+      "sha256": "7380c0ff55972c0c025266db9259ab8188d218784a78e52df4b81d438a2743fa",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-17T16:29:59Z",
+      "last_checked": "2026-10-17T16:29:59Z",
+      "method": "http",
+      "last_modified": "Wed, 20 Nov 2024 13:18:32 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
      {
       "role_key": "secondary",
       "role": "secondary",
       "label": "Secondary source",
-      "path": "archive/INT-11/2026-10-11/secondary-2.html",
+      "path": "archive/INT-11/2026-10-17/secondary.html",
       "url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
       "final_url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
       "http_status": 200,
       "content_type": "text/html",
       "bytes": 76412,
-      "sha256": "f02dcf866484029c511330b2be05d8beca8c46df8dde6509ba22188cc852a3c9",
-      "retrieved_at": "2026-10-11T14:06:54Z",
-      "last_checked": "2026-10-16T11:39:01Z",
+      "sha256": "ca9bed20bd9d8d24123d73eb5893520d7cd33cf7ce01774a5fd7cd72d0598d1e",
+      "text_sha256": "951e7c5467d624a87376755c05d2c4061f6da12f8bd72fda4a93eed54900cb6f",
+      "retrieved_at": "2026-10-17T16:29:59Z",
+      "last_checked": "2026-10-17T16:29:59Z",
       "method": "http",
       "last_modified": null,
-      "etag": "W/\"f02dcf866484029c511330b2be05d8be\"",
+      "etag": "W/\"ca9bed20bd9d8d24123d73eb5893520d\"",
       "changed": false,
-      "previous_sha256": "6ec8a0b7f9f1e72420b9b1a8843aa31855c6984c349942f5909c1f89c8afec86",
-      "previous_path": "archive/INT-11/2026-10-11/secondary.html",
+      "previous_sha256": null,
+      "previous_path": null,
       "stale": false,
       "warning": null,
-      "integrity": "ok",
-      "text_sha256": "951e7c5467d624a87376755c05d2c4061f6da12f8bd72fda4a93eed54900cb6f"
+      "integrity": "ok"
      }
     ],
     "attempts": [
      {
       "role": "official",
-      "url": "https://www.commerce.gov/news/fact-sheets/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
-      "attempted_at": "2026-10-11T13:57:35Z",
-      "ok": false,
-      "http_status": 403,
-      "error": "HTTP 403 Forbidden",
-      "method": "http"
-     },
-     {
-      "role": "secondary",
-      "url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
-      "attempted_at": "2026-10-11T13:57:35Z",
+      "url": "https://www.nist.gov/document/international-network-ai-safety-institutes-mission-statement",
+      "attempted_at": "2026-10-17T16:29:59Z",
       "ok": true,
       "http_status": 200,
       "error": null,
       "method": "http"
      },
      {
-      "role": "official",
-      "url": "https://www.commerce.gov/news/fact-sheets/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
-      "attempted_at": "2026-10-11T14:06:52Z",
-      "ok": false,
-      "http_status": 403,
-      "error": "HTTP 403 Forbidden",
-      "method": "http"
-     },
-     {
       "role": "secondary",
       "url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
-      "attempted_at": "2026-10-11T14:06:54Z",
-      "ok": true,
-      "http_status": 200,
-      "error": null,
-      "method": "http"
-     },
-     {
-      "role": "official-rendered",
-      "url": "https://www.commerce.gov/news/fact-sheets/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
-      "attempted_at": "2026-10-11T14:09:53Z",
-      "ok": false,
-      "http_status": null,
-      "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
-      "method": "browser"
-     },
-     {
-      "role": "official",
-      "url": "https://www.commerce.gov/news/fact-sheets/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
-      "attempted_at": "2026-10-16T11:38:58Z",
-      "ok": false,
-      "http_status": 403,
-      "error": "HTTP 403 Forbidden",
-      "method": "http"
-     },
-     {
-      "role": "secondary",
-      "url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
-      "attempted_at": "2026-10-16T11:39:01Z",
+      "attempted_at": "2026-10-17T16:29:59Z",
       "ok": true,
       "http_status": 200,
       "error": null,
@@ -3751,10 +4172,12 @@
    "official_url": "https://minciencia.gob.cl/uploads/filer_public/40/2a/402a35a0-1222-4dab-b090-5c81bbf34237/declaracion_de_santiago.pdf",
    "secondary_url": null,
    "language": "Spanish",
-   "summary": "Regional ministerial commitment to safe, ethical and responsible AI policies grounded in human rights and the UNESCO Recommendation on the Ethics of AI, including analysis of whether new legal and regulatory frameworks are needed, and a Chile-led working group towards an intergovernmental AI council for the region.",
+   "summary": "Declaration of ministers and high authorities of Latin America and the Caribbean that takes the UNESCO Recommendation on the Ethics of AI as its reference. It calls for policies, strategies and institutional frameworks for the safe, ethical and responsible design, development and use of AI with a human-rights approach, and the signatories agree to analyse whether new legal frameworks are needed, balancing ex ante regulation of AI risks with innovation. It cites due diligence and impact assessment, human oversight and determination, transparency, monitoring of effects on workers and data governance, and sets up a Chile-led working group towards a regional intergovernmental AI council.",
    "safety_topics": [
     "international cooperation",
-    "accountability & liability"
+    "accountability & liability",
+    "human oversight",
+    "transparency & labelling"
    ],
    "related": [
     {
@@ -3770,18 +4193,18 @@
      "id": "INT-17"
     }
    ],
-   "notes": "Adopted at the summit in Santiago, 23–24 Oct 2023. The text does not list signatory countries. A follow-up second summit (Montevideo, Oct 2024) reportedly adopted a 'Montevideo Declaration'.",
+   "notes": "Adopted by the ministers and high authorities meeting in Santiago on 23 and 24 October 2023, at the Forum on the Ethics of AI in Latin America and the Caribbean and the ministerial summit held with it; Chile's Ministry of Science and Ministry of Foreign Affairs prepared the meeting, with technical and financial support from UNESCO and CAF. The text does not list its signatories; InvestChile, Chile's public investment promotion agency, says 20 countries signed it at La Moneda Palace, naming Argentina, Brazil, Chile, Colombia, Costa Rica, Cuba, the Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Jamaica, Mexico, Peru, Paraguay, St. Lucia, St. Vincent and the Grenadines, Suriname, Uruguay and Venezuela. Chile was asked to convene the working group in the first half of 2024. The second summit, in Montevideo on 3 and 4 October 2024, adopted the Declaration of Montevideo (INT-17), which thanks Chile for leading the working group and entrusts Uruguay with continuing its work.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-17",
     "method": "official-url-fetched",
-    "note": "Chilean Ministry of Science PDF confirms title, date (23–24 Oct 2023) and commitments. Not confirmed on a fetched page: A follow-up second summit (Montevideo, Oct 2024) reportedly adopted a 'Montevideo Declaration'. (A follow-up second summit (Montevideo, Oct 2024) reportedly adopted a 'Montevideo Declaration'; it is not recorded separately because no official text could be fetched this session.)",
-    "second_check": null
+    "note": "Stored: the declaration's Spanish text (4 pages) on the Chilean Ministry of Science's site, headed with the summit, Santiago and 23–24 October 2023; in this run also InvestChile's post of 25 October 2023 and the English text of the Declaration of Montevideo on gub.uy (the source of INT-17). The text confirms the original title, the summit, the date range, the proclamations and the decisions, but names no signatories and no adoption day; date_published is the closing day of the two-day summit. The 20 signatory countries rest on InvestChile's post, and the follow-up at Montevideo on the Declaration of Montevideo. No English text of the declaration by the issuers or a government was found; the English title is a rendering, the same one InvestChile uses.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-17: 10 field(s) supported."
    },
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-11T13:57:33Z",
+    "last_attempt": "2026-10-17T16:29:57Z",
     "files": [
      {
       "role_key": "official",
@@ -3795,7 +4218,7 @@
       "bytes": 127887,
       "sha256": "b589e5c97527b23919b51c58dcb37bea3d3c7dcdcbe5f58bb43c7f2623f44a68",
       "retrieved_at": "2026-10-11T13:57:37Z",
-      "last_checked": "2026-10-11T13:57:37Z",
+      "last_checked": "2026-10-17T16:30:01Z",
       "method": "http",
       "last_modified": "Thu, 30 May 2024 19:41:04 GMT",
       "etag": "\"6658d650-1f38f\"",
@@ -3816,9 +4239,29 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://minciencia.gob.cl/uploads/filer_public/40/2a/402a35a0-1222-4dab-b090-5c81bbf34237/declaracion_de_santiago.pdf",
+      "attempted_at": "2026-10-17T15:49:30Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://minciencia.gob.cl/uploads/filer_public/40/2a/402a35a0-1222-4dab-b090-5c81bbf34237/declaracion_de_santiago.pdf",
+      "attempted_at": "2026-10-17T16:30:01Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
+   },
+   "english_version": {
+    "kind": "none found"
    }
   },
   {
@@ -4282,7 +4725,7 @@
    "official_url": "https://www.mofa.go.jp/mofaj/files/100580933.pdf",
    "secondary_url": "https://www.state.gov/political-declaration-on-responsible-military-use-of-artificial-intelligence-and-autonomy",
    "language": "English",
-   "summary": "Endorsing states commit to develop and use military AI, including autonomous systems, in line with international humanitarian law and within a responsible human chain of command. Ten measures cover legal reviews, senior-level oversight of high-consequence applications, minimising unintended bias, auditability, operator training against over-reliance, explicit intended uses, safety testing and assurance across the lifecycle, and safeguards to disengage or deactivate systems that behave unexpectedly.",
+   "summary": "Endorsing states set out measures for the responsible development, deployment and use of military AI, including autonomous functions and systems: use must comply with international law, notably international humanitarian law, and be accountable within a responsible human chain of command and control. Ten measures cover adoption by military organisations, legal reviews, senior-level oversight of high-consequence applications, minimising unintended bias, appropriate care, transparent and auditable methods, training against automation bias, well-defined uses, rigorous testing and assurance across the life cycle, and safeguards such as deactivating systems that behave unexpectedly.",
    "safety_topics": [
     "national security & military",
     "human oversight",
@@ -4307,18 +4750,18 @@
      "id": "INT-18"
     }
    ],
-   "notes": "First launched at the REAIM Summit in The Hague on 16 Feb 2023. The revised text was released in Nov 2023, and the State Department announced 47 endorsing states on 13 Nov 2023 (per a DoD news article of 22 Nov 2023). The exact release day of the revised text was not confirmed, so only the month is given. The current endorser count and the stance of the post-2025 US administration were not confirmed because state.gov did not load.",
+   "notes": "The text holds ten measures (A to J) for the development, deployment and use of military AI capabilities. Endorsing states undertake to implement the measures, make their commitment public and release information on implementation, support other efforts for responsible and lawful use, continue discussions among themselves, refine the measures or add new ones, and engage the rest of the international community, without prejudice to discussions in other fora. The declaration defines AI as the ability of machines to perform tasks that would otherwise require human intelligence, and autonomy as a spectrum involving a system operating without further human intervention after activation.",
    "verification": {
-    "level": "B",
-    "verified_on": "2026-10-11",
-    "method": "alternative-official-url-fetched",
-    "note": "state.gov and 2021-2025.state.gov returned errors. MOFA Japan's hosted copy of the text was fetched: title and the 10 measures confirmed (no date printed). The DoD-network article (jbsa.mil, 22 Nov 2023) was fetched for the Feb 2023 launch and the 47 endorsers announced 13 Nov 2023.",
-    "second_check": null
+    "level": "C",
+    "verified_on": "2026-10-17",
+    "method": "search-confirmed",
+    "note": "CAUTION: no official source confirms the title, date and status; the record rests on secondary sources. Stored: the declaration's English text as published by Japan's Ministry of Foreign Affairs (mofa.go.jp, 2 pages), an endorsing state's copy; it confirms the title, the ten measures and the endorsing states' undertakings but prints no date and does not name the state that launched it. The State Department page (the record's secondary URL) refuses the archiver (HTTP 403 on every attempt), and the White House fact sheet of 1 November 2023 requested in this run could not be stored (DNS lookup failed). So no stored file gives the date, the launch by the United States in February 2023, the endorsing states or their number; v1's claims about the February 2023 launch at REAIM, the November 2023 revised text and the 47 endorsing states announced on 13 November 2023 (from a DoD News article) were moved out of the notes. The current endorser count and the position of the US administration since 2025 are not confirmed.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-17: 5 field(s) supported."
    },
    "local_copy": {
     "status": "archived",
     "flag": "The secondary source could not be downloaded (HTTP 403 Forbidden).",
-    "last_attempt": "2026-10-11T13:57:39Z",
+    "last_attempt": "2026-10-17T16:29:59Z",
     "files": [
      {
       "role_key": "official",
@@ -4332,7 +4775,7 @@
       "bytes": 85250,
       "sha256": "541e1385019a6febfa63fc37705a2bb5ec207fe7d4626afbd1fcf1e770093121",
       "retrieved_at": "2026-10-11T13:57:40Z",
-      "last_checked": "2026-10-11T13:57:40Z",
+      "last_checked": "2026-10-17T16:30:03Z",
       "method": "http",
       "last_modified": "Tue, 16 Jun 2026 15:53:04 GMT",
       "etag": "\"33aaed51a89da2bcfc214bf6331d57ca\"",
@@ -4362,9 +4805,44 @@
       "http_status": 403,
       "error": "HTTP 403 Forbidden",
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.mofa.go.jp/mofaj/files/100580933.pdf",
+      "attempted_at": "2026-10-17T15:49:33Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.state.gov/political-declaration-on-responsible-military-use-of-artificial-intelligence-and-autonomy",
+      "attempted_at": "2026-10-17T15:49:36Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.mofa.go.jp/mofaj/files/100580933.pdf",
+      "attempted_at": "2026-10-17T16:30:03Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.state.gov/political-declaration-on-responsible-military-use-of-artificial-intelligence-and-autonomy",
+      "attempted_at": "2026-10-17T16:30:06Z",
+      "ok": false,
+      "http_status": 403,
+      "error": "HTTP 403 Forbidden",
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -4377,7 +4855,7 @@
    "country": "International",
    "jurisdiction_level": "International",
    "region": "Global",
-   "issuing_body": "Government representatives at the Summit on Responsible Artificial Intelligence in the Military Domain (REAIM), The Hague, co-hosted by the Netherlands and the Republic of Korea",
+   "issuing_body": "Government representatives at the 2023 REAIM summit on responsible AI in the military domain, The Hague, organised by the Netherlands' Ministry of Foreign Affairs and Ministry of Defence and co-hosted by the Republic of Korea",
    "instrument_type": "Declaration / statement",
    "legal_force": "Non-binding",
    "status": "Published (non-binding, current)",
@@ -4388,10 +4866,11 @@
    "official_url": "https://www.government.nl/documents/publications/2023/02/16/reaim-2023-call-to-action",
    "secondary_url": "https://www.government.nl/site/binaries/site-content/collections/documents/2023/02/16/reaim-2023-call-to-action/REAIM+2023+Call+to+Action.pdf",
    "language": "English",
-   "summary": "A joint call to action on developing, deploying and using AI responsibly in the military domain. It stresses compliance with international law, human responsibility and accountability, and the need for multi-stakeholder dialogue on the risks of military AI.",
+   "summary": "Joint call agreed by government representatives at the 2023 REAIM summit in The Hague on the responsible development, deployment and use of AI in the military domain. It names concerns about unreliable AI systems, human involvement, unclear liability and unintended escalation; commits to keeping humans responsible and accountable for decisions; stresses appropriate safeguards and human oversight, risk assessment and data governance consistent with international law; warns that adoption without sufficient research, testing and assurance may cause inadvertent harm; and invites states to develop national frameworks.",
    "safety_topics": [
     "national security & military",
     "human oversight",
+    "accountability & liability",
     "international cooperation"
    ],
    "related": [
@@ -4412,18 +4891,18 @@
      "id": "INT-18"
     }
    ],
-   "notes": "Agreed at the first REAIM summit, The Hague, 15-16 Feb 2023. It was followed by the REAIM 'Blueprint for Action', adopted at the second summit in Seoul in Sep 2024, and a third REAIM summit hosted by Spain. The Blueprint for Action is recorded as INT-16; the third summit's outcome, the Pathways to Action (A Coruña, Feb 2026), as INT-18.",
+   "notes": "Agreed at the first REAIM summit, held at the World Forum in The Hague on 15-16 February 2023, organised by the Dutch foreign and defence ministries and co-hosted by South Korea, with some 2,000 delegates. The text has 25 numbered paragraphs: sixteen on shared understandings of the opportunities and risks of military AI, followed by the call to action proper (paragraphs 17 to 25), which asks states, the private sector, academia and civil society to build knowledge, exchange good practices and continue a multi-stakeholder dialogue, and ends by inviting all stakeholders worldwide to join it. The government's list of endorsing countries and territories (published 4 April 2025) names 58, among them China, the United States, the Netherlands and the Republic of Korea. The summit also announced a Global Commission on AI in the military domain. Later REAIM summits produced the Blueprint for Action (Seoul, 2024; INT-16) and the 2026 Pathways to Action (INT-18), which builds on both.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-17",
     "method": "official-url-fetched",
-    "note": "government.nl page fetched: title and 16 Feb 2023 date confirmed, with a link to the 4-page PDF. The content summary is a general description; the PDF itself was not read in detail.",
-    "second_check": null
+    "note": "Stored and read in this run: the government.nl publication page of 16 February 2023 and the 4-page PDF of the Call to Action; the government.nl news item of 16 February 2023 on the agreement (organisers, co-host, some 2,000 delegates, the Global Commission); the announcement of 19 January 2023 (World Forum, The Hague, 15 and 16 February 2023); the 2-page list of endorsing countries and territories (58 names; its document page is dated 04-04-2025); and the REAIM 2026 Pathways to Action PDF, which names the 2023 Call to Action and the 2024 Blueprint. Together they confirm the title, the date, the issuing body and the full text summarised.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-17: 8 field(s) supported."
    },
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-11T13:57:39Z",
+    "last_attempt": "2026-10-17T16:30:01Z",
     "files": [
      {
       "role_key": "official",
@@ -4437,7 +4916,7 @@
       "bytes": 218825,
       "sha256": "67a6cab829d576aef916f822505b9264557b9c554cbf3f3613d82cff0d155b8b",
       "retrieved_at": "2026-10-11T13:57:42Z",
-      "last_checked": "2026-10-11T13:57:42Z",
+      "last_checked": "2026-10-17T16:30:04Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -4446,7 +4925,8 @@
       "previous_path": null,
       "stale": false,
       "warning": null,
-      "integrity": "ok"
+      "integrity": "ok",
+      "text_sha256": "75b0c3b8d2ea01d3fdc78f7202ca081cc9b8de9f8d07283055ba075fa3490bf3"
      },
      {
       "role_key": "document-1",
@@ -4460,7 +4940,7 @@
       "bytes": 188246,
       "sha256": "9bdfacd893b27fe5f97803debdea73f727e341b29c38fa081f9c2db7b4a5d5d3",
       "retrieved_at": "2026-10-11T13:57:44Z",
-      "last_checked": "2026-10-11T13:57:44Z",
+      "last_checked": "2026-10-17T16:30:06Z",
       "method": "http",
       "last_modified": "Thu, 16 Feb 2023 15:29:07 GMT",
       "etag": "\"1662659491180\"",
@@ -4483,7 +4963,7 @@
       "bytes": 188246,
       "sha256": "9bdfacd893b27fe5f97803debdea73f727e341b29c38fa081f9c2db7b4a5d5d3",
       "retrieved_at": "2026-10-11T13:57:46Z",
-      "last_checked": "2026-10-11T13:57:46Z",
+      "last_checked": "2026-10-17T16:30:08Z",
       "method": "http",
       "last_modified": "Thu, 16 Feb 2023 15:29:07 GMT",
       "etag": "\"1662659491180\"",
@@ -4522,9 +5002,62 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.government.nl/documents/publications/2023/02/16/reaim-2023-call-to-action",
+      "attempted_at": "2026-10-17T15:49:33Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.government.nl/site/binaries/site-content/collections/documents/2023/02/16/reaim-2023-call-to-action/REAIM+2023+Call+to+Action.pdf",
+      "attempted_at": "2026-10-17T15:49:35Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.government.nl/site/binaries/site-content/collections/documents/2023/02/16/reaim-2023-call-to-action/REAIM+2023+Call+to+Action.pdf",
+      "attempted_at": "2026-10-17T15:49:37Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.government.nl/documents/publications/2023/02/16/reaim-2023-call-to-action",
+      "attempted_at": "2026-10-17T16:30:04Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.government.nl/site/binaries/site-content/collections/documents/2023/02/16/reaim-2023-call-to-action/REAIM+2023+Call+to+Action.pdf",
+      "attempted_at": "2026-10-17T16:30:06Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.government.nl/site/binaries/site-content/collections/documents/2023/02/16/reaim-2023-call-to-action/REAIM+2023+Call+to+Action.pdf",
+      "attempted_at": "2026-10-17T16:30:08Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -6144,7 +6677,7 @@
    "official_url": "https://www.mfa.gov.cn/eng/wjbzhd/202607/t20260717_11984747.html",
    "secondary_url": "https://www.mfa.gov.cn/mfa_eng/xw/zyxw/202607/t20260717_11984715.html",
    "language": "Not confirmed (multilingual treaty text not reviewed)",
-   "summary": "Treaty creating WAICO, described by China as the first intergovernmental international organisation dedicated to AI, headquartered in Shanghai. Its stated aims are to promote international cooperation and global governance on AI, help ensure AI develops in a 'beneficial, safe and fair direction', and narrow the AI divide, especially for Global South countries.",
+   "summary": "Agreement signed in Shanghai on 16 July 2026 by representatives of 29 countries, which became its founding members, establishing the World Artificial Intelligence Cooperation Organization (WAICO) as an independent intergovernmental international organisation headquartered in Shanghai. WAICO follows the purposes of the UN Charter and aims to promote international cooperation and global governance on AI and to ensure the healthy, orderly development of AI in a beneficial, safe and fair direction. It is to help bridge the AI divide by supporting Global South countries and is open to all countries.",
    "safety_topics": [
     "international cooperation"
    ],
@@ -6158,18 +6691,18 @@
      "id": "CN-05"
     }
    ],
-   "notes": "First proposed by China at WAIC in July 2025. Signed in Shanghai on 16 Jul 2026 by representatives of 29 countries, who became founding members; Foreign Minister Wang Yi signed for China, and named signatories include Kazakhstan, Laos, Pakistan, Russia and Indonesia. The WAIC 2026 Chair's Statement (17 Jul 2026) reports the signing. Official sources do not state entry-into-force or ratification conditions, so the status shown is provisional and should be re-checked. Region set to 'Global' because this is a multilateral instrument, although it was initiated by China.",
+   "notes": "Foreign Minister Wang Yi signed for China; the named signatories include Kazakhstan, Laos, Pakistan, Russia and Indonesia, and UN Secretary-General António Guterres attended the ceremony. The agreement remained open for signature until 31 July 2026; Georgia's ambassador signed it in Beijing on that day. The Chair's Statement of the 2026 World Artificial Intelligence Conference (17 July 2026) reports the signing, calls WAICO the world's first intergovernmental international organisation on AI, lists its guiding principles (the UN Charter, sovereignty and the diversity of civilisations, equality, multilateralism) and says it will maintain communication with other international organisations. China's Premier Li Qiang had announced the proposal to establish WAICO in July 2025, on the day the Global AI Governance Action Plan (CN-11) was released, with headquarters in Shanghai then under consideration.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-17",
     "method": "official-url-fetched",
-    "note": "MFA page on the signing ceremony fetched: exact title, 16 Jul 2026 Shanghai signing, 29 signatories, Shanghai HQ and stated purposes confirmed. The WAIC 2026 Chair's Statement (17 Jul 2026) was also fetched. The treaty text itself was not reviewed.",
-    "second_check": "MFA page re-fetched: signing ceremony in Shanghai, 16 Jul 2026, 29 founding signatory countries."
+    "note": "Stored and read in this run: the Chinese Ministry of Foreign Affairs report on the signing ceremony (16 July 2026); the MFA's English text of the Chair's Statement of WAIC 2026 (17 July 2026); the MFA's text of Deputy Foreign Minister Ma Zhaoxu's remarks at the High-Level Meeting on Global AI Governance (page updated 30 July 2025), which reports Premier Li Qiang's announcement of the WAICO proposal that morning; and the Embassy of Georgia in China's report of 31 July 2026 on Georgia's signature. They confirm the title, the signing on 16 July 2026, the 29 founding signatories, the Shanghai headquarters, the purposes summarised and the close of signature on 31 July 2026. The text of the agreement itself, with its languages, its entry-into-force clause and its functions, is not stored; no official page seen in this run publishes it. The status rests on the signing as the latest event.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-17: 5 field(s) supported, fixes applied to scope_note."
    },
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-14T07:49:31Z",
+    "last_attempt": "2026-10-17T16:30:02Z",
     "files": [
      {
       "role_key": "official",
@@ -6183,7 +6716,7 @@
       "bytes": 22734,
       "sha256": "8d57123e9f85ed2705b364e57aa8d1f3c46c9d851ea5748bf0ef7fb6d68ef78c",
       "retrieved_at": "2026-10-11T13:58:01Z",
-      "last_checked": "2026-10-14T07:49:34Z",
+      "last_checked": "2026-10-17T16:30:06Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -6206,7 +6739,7 @@
       "bytes": 29770,
       "sha256": "c7a9044a12440bf652f44c6136810b51eeb2d018b0e19dca73b50b5ddc8d0c69",
       "retrieved_at": "2026-10-11T13:58:03Z",
-      "last_checked": "2026-10-14T07:49:37Z",
+      "last_checked": "2026-10-17T16:30:08Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -6272,9 +6805,46 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.mfa.gov.cn/eng/wjbzhd/202607/t20260717_11984747.html",
+      "attempted_at": "2026-10-17T15:49:35Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.mfa.gov.cn/mfa_eng/xw/zyxw/202607/t20260717_11984715.html",
+      "attempted_at": "2026-10-17T15:49:38Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.mfa.gov.cn/eng/wjbzhd/202607/t20260717_11984747.html",
+      "attempted_at": "2026-10-17T16:30:06Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.mfa.gov.cn/mfa_eng/xw/zyxw/202607/t20260717_11984715.html",
+      "attempted_at": "2026-10-17T16:30:08Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
     ]
-   }
+   },
+   "scope_note": "A treaty creating an international organisation for AI cooperation and governance; safety content is the stated aim of safe, fair development rather than any rule. Include with a scope note."
   },
   {
    "id": "EU-01",
@@ -31762,7 +32332,7 @@
    "official_url": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=322676",
    "secondary_url": "https://reaim2024.kr/home/reaimeng/board/bbsDetail.do?encMenuId=4e57325766362f626e5179454e6d6e4d4a4d33507a773d3d&encBbsMngNo=366e794c7a644d756342425668444f393053755142673d3d&encBbsNo=6f784e4542386f7735767465766a6531556f4b6149413d3d&ctlPageNow=1&schKind=bbsTtlCn&schWord=",
    "language": "English",
-   "summary": "Outcome document of the second Responsible AI in the Military Domain (REAIM) summit, held in Seoul on 9-10 September 2024 and endorsed at its closing session by 61 states. The declarative, non-binding Blueprint sets out a roadmap and principles for the governance of AI in the military domain: compliance with international law, human responsibility and accountability, reliable and trustworthy AI, appropriate human involvement, and improved explainability. It builds on the 2023 REAIM Call to Action from The Hague.",
+   "summary": "Outcome document of the second summit on Responsible AI in the Military Domain (REAIM), held in Seoul on 9-10 September 2024 and co-organised by the Republic of Korea's foreign and defence ministries. Endorsed at the closing session and supported by 61 states, the declarative Blueprint lays out a roadmap for establishing norms for AI in the military domain. It suggests principles and a framework for future governance, emphasising that being responsible entails complying with international law, holding humans responsible and accountable, ensuring reliable and trustworthy AI, maintaining appropriate human involvement and improving explainability.",
    "safety_topics": [
     "national security & military",
     "international cooperation",
@@ -31783,39 +32353,39 @@
      "id": "INT-18"
     }
    ],
-   "notes": "The official_url is the host ministry's press release on the summit outcome (dated 10 Sep 2024), which confirms the endorsement and the headline principles. Press reports state that China attended but did not endorse the document (not confirmed on an official page). The third summit's outcome, the Pathways to Action (A Coruña, Feb 2026), is recorded as INT-18.",
+   "notes": "The Blueprint was endorsed at the closing session that followed the ministerial roundtable of 10 September 2024, which brought together government representatives from over 90 states. The summit's plenary sessions covered the implications of AI for international peace and security, including conflict dynamics and the proliferation of weapons of mass destruction, the responsible application of AI in the military domain, and its future governance. The 2026 REAIM Pathways to Action (INT-18) builds on the Blueprint, 'advanced at the REAIM Summit 2024 in Seoul', and on the 2023 Call to Action (INT-14).",
    "verification": {
-    "level": "B",
-    "verified_on": "2026-10-11",
-    "method": "alternative-official-url-fetched",
-    "note": "Ministry of Foreign Affairs of the Republic of Korea press release fetched; the summit website could not be reached (TLS handshake rejected). The press release confirms the summit dates (9-10 Sep 2024), the co-organisers, that the Blueprint for Action was endorsed as the outcome document at the closing session, support by 61 states, and the five headline principles. The document text was not read. The Blueprint text itself is published on the summit website (secondary_url, post dated 11 Sep 2024, with an English PDF and an unofficial Korean translation), which current TLS clients could not connect to in this pass.",
-    "second_check": null
+    "level": "A",
+    "verified_on": "2026-10-17",
+    "method": "official-url-fetched",
+    "note": "Stored and read in this run: the press release of the Ministry of Foreign Affairs of the Republic of Korea on the summit outcome, dated 2024-09-10 (snapshots of 11 and 17 October 2026; only the page's view counter differs). It confirms the title, the summit dates, the co-organisers, the endorsement as outcome document at the closing session, the support of 61 states and the five headline principles. The Blueprint text itself is not stored: the summit website (secondary_url) refuses a TLS connection and the same address over plain HTTP returns 404, and no other official copy was found (the ministry's news item of 12 September 2024 and Singapore's MINDEF release of 10 September 2024 attach none). The summary rests on the press release's description of the document. The REAIM 2026 Pathways to Action PDF is also stored for this record; it names the Blueprint as advanced at the REAIM Summit 2024 in Seoul.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-17: 7 field(s) supported."
    },
    "local_copy": {
     "status": "archived",
-    "flag": "The secondary source could not be downloaded (Connection failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl').",
-    "last_attempt": "2026-10-11T15:42:22Z",
+    "flag": "The secondary source could not be downloaded (Connection failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'). A source changed since the previous snapshot; both versions are kept.",
+    "last_attempt": "2026-10-17T16:30:04Z",
     "files": [
      {
       "role_key": "official",
       "role": "official",
       "label": "Official source",
-      "path": "archive/INT-16/2026-10-11/official.html",
+      "path": "archive/INT-16/2026-10-17/official-2.html",
       "url": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=322676",
       "final_url": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=322676",
       "http_status": 200,
       "content_type": "text/html",
       "bytes": 47823,
-      "sha256": "e2bd703cc22c85f2669e77f2b23a8906b8dc9d75d70fcf9eeb85431afbedbd87",
-      "text_sha256": "51d51e992d3579ef8c1024b11f7fdf97c7908938dfb49c7f1a3a263a53eff2bd",
-      "retrieved_at": "2026-10-11T15:42:28Z",
-      "last_checked": "2026-10-11T15:42:28Z",
+      "sha256": "cb6e9dfa5cd19955749985a6c46bf7437faa45c8eef2ed617fe45545fd61ded9",
+      "text_sha256": "a80639f0455410a9b48a64453146fc6357f7ec1a751c2f68dcb6a7b2b919a512",
+      "retrieved_at": "2026-10-17T16:30:12Z",
+      "last_checked": "2026-10-17T16:30:12Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
-      "changed": false,
-      "previous_sha256": null,
-      "previous_path": null,
+      "changed": true,
+      "previous_sha256": "752942b73958e487cd57c001df04cbbb51f04027c7f08c6c6c80ebb4fbc79356",
+      "previous_path": "archive/INT-16/2026-10-17/official.html",
       "stale": false,
       "warning": null,
       "integrity": "ok"
@@ -31839,9 +32409,44 @@
       "http_status": null,
       "error": "Connection failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=322676",
+      "attempted_at": "2026-10-17T15:49:42Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://reaim2024.kr/home/reaimeng/board/bbsDetail.do?encMenuId=4e57325766362f626e5179454e6d6e4d4a4d33507a773d3d&encBbsMngNo=366e794c7a644d756342425668444f393053755142673d3d&encBbsNo=6f784e4542386f7735767465766a6531556f4b6149413d3d&ctlPageNow=1&schKind=bbsTtlCn&schWord=",
+      "attempted_at": "2026-10-17T15:49:42Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Connection failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=322676",
+      "attempted_at": "2026-10-17T16:30:12Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://reaim2024.kr/home/reaimeng/board/bbsDetail.do?encMenuId=4e57325766362f626e5179454e6d6e4d4a4d33507a773d3d&encBbsMngNo=366e794c7a644d756342425668444f393053755142673d3d&encBbsNo=6f784e4542386f7735767465766a6531556f4b6149413d3d&ctlPageNow=1&schKind=bbsTtlCn&schWord=",
+      "attempted_at": "2026-10-17T16:30:12Z",
+      "ok": false,
+      "http_status": null,
+      "error": "Connection failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -33694,7 +34299,7 @@
    "country": "International",
    "jurisdiction_level": "International",
    "region": "Global",
-   "issuing_body": "Participating states of the third Summit on Responsible Artificial Intelligence in the Military Domain (REAIM), hosted by Spain (Ministry of Foreign Affairs, European Union and Cooperation, and Ministry of Defence) in coordination with the Netherlands and the Republic of Korea; endorsed by 45 states according to the host ministry's page",
+   "issuing_body": "States adopting the outcome document of the third REAIM Summit (A Coruña, 4-5 February 2026), organised by Spain's Ministry of Foreign Affairs, European Union and Cooperation and Ministry of Defence; 45 states on the summit page's list",
    "instrument_type": "Declaration / statement",
    "legal_force": "Non-binding",
    "status": "Published (non-binding, current)",
@@ -33705,7 +34310,7 @@
    "official_url": "https://exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf",
    "secondary_url": "https://exteriores.gob.es/en/REAIM2026/Paginas/default.aspx",
    "language": "English",
-   "summary": "Outcome document of the third REAIM summit (A Coruña, 4-5 February 2026), building on the 2023 Call to Action and 2024 Blueprint. Its 28 paragraphs invite states and stakeholders to operationalise responsible military AI: compliance with humanitarian and human rights law, a 'responsible by design' approach, accountability of states and individuals with no 'accountability gaps', AI assurance for reliability, security and bias while anticipating AGI or ASI, and decision support that assists rather than replaces human judgement. National measures include pre-deployment risk assessments, TEVV, legal reviews, audit trails with incident reporting and a national focal point.",
+   "summary": "Outcome document of the third REAIM summit (A Coruña, 4-5 February 2026), building on the 2023 Call to Action and the 2024 Blueprint for Action. Its 28 paragraphs invite states and other stakeholders to operationalise responsible military AI: compliance with humanitarian and human rights law, 'responsible by design', accountability of states and individuals without 'accountability gaps', AI assurance for reliability and security while anticipating AGI or ASI, and decision support that does not replace human judgement. National measures include pre-deployment risk assessments, TEVV, legal reviews, audit trails with incident reporting and a national focal point.",
    "safety_topics": [
     "national security & military",
     "human oversight",
@@ -33740,18 +34345,18 @@
      "slug": "political-declaration-responsible-military-ai"
     }
    ],
-   "notes": "The Spanish host page presents the document as 'Declaración de A Coruña: REAIM 2026 - Camino para la acción' and lists 45 endorsing states 'as of today' (Albania, Armenia, Australia, Austria, Belgium, Bulgaria, Canada, Chile, Croatia, Cyprus, Czech Republic, Denmark, Ecuador, Finland, France, Georgia, Germany, Ghana, Greece, Hungary, Iceland, Ireland, Italy, Japan, Kenya, Luxembourg, Malta, Morocco, Netherlands, Norway, Pakistan, Panama, Philippines, Portugal, Republic of Korea, Romania, Senegal, Singapore, Slovenia, Spain, Sweden, Switzerland, Türkiye, Ukraine, United Kingdom); the United States and China are not on the list. The document remains open to further endorsement, so the count may change. Neither the PDF nor the host page prints an adoption date; the summit closed on 5 February 2026 and the PDF file was created on 28 January 2026, so the month is recorded rather than a day. The text notes UNGA resolutions 79/239 and 80/58, the Secretary-General's report A/80/78 and the Global Commission on REAIM's 'Responsible by Design' report. The 2024 Blueprint was supported by 61 states, so the endorsement base is narrower this time.",
+   "notes": "Known as the A Coruña Declaration; the Spanish summit page heads it 'Declaración de A Coruña: \"REAIM 2026 - Camino para la acción\"'. The summit was organised by Spain's foreign and defence ministries, with the Ministry for Digital Transformation and the city of A Coruña, and closed on 5 February 2026; more than 80 delegations of countries and international organisations took part. The summit page lists 45 endorsing states 'as of today' (Albania, Armenia, Australia, Austria, Belgium, Bulgaria, Canada, Chile, Croatia, Cyprus, Czech Republic, Denmark, Ecuador, Finland, France, Georgia, Germany, Ghana, Greece, Hungary, Iceland, Ireland, Italy, Japan, Kenya, Luxembourg, Malta, Morocco, Netherlands, Norway, Pakistan, Panama, Philippines, Portugal, Republic of Korea, Romania, Senegal, Singapore, Slovenia, Spain, Sweden, Switzerland, Türkiye, Ukraine, United Kingdom); the United States and China are not on the list, and the document remains open to approval by other countries. Neither the document nor the pages give a day of adoption. The text notes UNGA resolutions 79/239 and 80/58, the Secretary-General's report A/80/78, the work of the CCW Group of Governmental Experts on lethal autonomous weapons systems and the Global Commission on REAIM's 'Responsible by Design' report. At international level it recommends voluntary confidence-building measures, including information sharing on national policies and legal-review methods, table-top exercises and crisis-communication arrangements.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-17",
     "method": "official-url-fetched",
-    "note": "Official English PDF of the document fetched from the Spanish Ministry of Foreign Affairs site and read in full; the ministry's REAIM 2026 declaration page (Spanish and English) and its 5 February 2026 closing press release were also fetched. The PDF confirms the title and the full 28-paragraph text. The declaration page confirms the 45 endorsing states and that the document is open to accession; the press release confirms the summit dates (4-5 February 2026), the organisers and the co-host role of the Netherlands and the Republic of Korea. No official page gives the exact date of adoption or endorsement.",
-    "second_check": null
+    "note": "Stored and read in this run: the official English PDF of the document on the Spanish Ministry of Foreign Affairs site (8 pages, 28 paragraphs); the ministry's REAIM 2026 declaration page in English and in Spanish; the summit page (4 and 5 February 2026, PALEXCO, A Coruña); the summit programme; and the ministry's press note 013 of 5 February 2026 on the close of the summit. The PDF confirms the title and the full text; the declaration pages confirm the name 'A Coruña Declaration', the 45 endorsing states and that the document remains open to approval; the summit page and press note confirm the summit dates and the organisers. No stored source gives the day of adoption, so date_published is the month of the summit.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-17: 7 field(s) supported."
    },
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-11T19:18:32Z",
+    "last_attempt": "2026-10-17T16:30:06Z",
     "files": [
      {
       "role_key": "official",
@@ -33766,7 +34371,7 @@
       "sha256": "1c7d431a7e88c234f1a2cfdc0a6bc5682ed29871fcf0043b71de9009b4113dc0",
       "text_sha256": null,
       "retrieved_at": "2026-10-11T19:18:36Z",
-      "last_checked": "2026-10-11T19:18:36Z",
+      "last_checked": "2026-10-17T16:30:09Z",
       "method": "http",
       "last_modified": "Thu, 05 Feb 2026 13:20:43 GMT",
       "etag": "\"{DF17154E-4822-480A-953C-F6B80673EE13},1\"",
@@ -33790,7 +34395,7 @@
       "sha256": "277a37fd3f1287f6283b1fc85463e84adccd69464b766083e3b5025aa1a00a2b",
       "text_sha256": "65cc40ac34f58ffafd54d157af3652bc691f2ab0dabeba61e1f3a37c6f773cc0",
       "retrieved_at": "2026-10-11T19:18:39Z",
-      "last_checked": "2026-10-11T19:18:39Z",
+      "last_checked": "2026-10-17T16:30:12Z",
       "method": "http",
       "last_modified": "Sun, 11 Oct 2026 19:18:38 GMT",
       "etag": null,
@@ -33820,9 +34425,44 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf",
+      "attempted_at": "2026-10-17T15:49:40Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://exteriores.gob.es/en/REAIM2026/Paginas/default.aspx",
+      "attempted_at": "2026-10-17T15:49:43Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf",
+      "attempted_at": "2026-10-17T16:30:09Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://exteriores.gob.es/en/REAIM2026/Paginas/default.aspx",
+      "attempted_at": "2026-10-17T16:30:12Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {
@@ -35184,8 +35824,7 @@
    "safety_topics": [
     "national security & military",
     "general-purpose / frontier AI",
-    "international cooperation",
-    "child safety"
+    "international cooperation"
    ],
    "related": [
     {
@@ -35201,18 +35840,18 @@
      "slug": "international-network-ai-safety-institutes"
     }
    ],
-   "notes": "The communiqué is dated 26 August 2026, Sydney, and was published on GOV.UK on 28 August 2026. The criteria for models requiring 'additional government scrutiny' are not published; the communiqué complements the June 2026 US executive order on frontier AI and cybersecurity (US-23).",
+   "notes": "The communiqué is dated 26 August 2026, Sydney, and was published on GOV.UK by the Home Office on 28 August 2026. Outside its section on AI and national security, it notes that state threats are amplified by advanced technology including AI, that AI gives terrorists and violent extremists new tools for radicalisation, propaganda, attack planning and fundraising, and that the fast-growing threat of online and cyber-enabled scams is largely driven by AI-enabled technology. It does not set out which model characteristics may require additional government scrutiny.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-17",
     "method": "official-url-fetched",
-    "note": "GOV.UK publication page and full HTML communiqué fetched (Home Office policy paper, published 28 August 2026). The GOV.UK document confirms the title, the Sydney 25-26 August 2026 meeting, the 26 August dateline, the participating ministers and the full text of the AI and national security section. Other host-government copies were not checked. Not confirmed on a fetched page: It is a political statement of interior ministers rather than an AI instrument, and the criteria for models requiring 'additional government scrutiny' are not published. (It is a political statement of interior ministers rather than an AI instrument, and the criteria for models requiring 'additional government scrutiny' are not published; a commentary cited in search results reported that none of the five governments had released them.)",
-    "second_check": null
+    "note": "Stored and read in this run: the GOV.UK HTML communiqué and its publication page (Home Office policy paper, published 28 August 2026). They confirm the title, the Sydney meeting of 25-26 August 2026, the 26 August 2026 dateline, the participating ministers and the full text of the AI and national security section. Other host-government copies were not stored. The previous note's report, from a commentary seen in search results, that none of the five governments had released the scrutiny criteria rests on no stored source.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-17: 6 field(s) supported, fixes applied to scope_note."
    },
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-11T19:18:43Z",
+    "last_attempt": "2026-10-17T16:30:08Z",
     "files": [
      {
       "role_key": "official",
@@ -35227,7 +35866,7 @@
       "sha256": "b10ea8fb838845b3e30ad195982fa92119a582417c02e89fb9b084c576037a92",
       "text_sha256": "25f11e1250d759b209b6c413aebb0e5be959f406a2658087478abeafd8eee7fe",
       "retrieved_at": "2026-10-11T19:18:46Z",
-      "last_checked": "2026-10-11T19:18:46Z",
+      "last_checked": "2026-10-17T16:30:08Z",
       "method": "http",
       "last_modified": null,
       "etag": "W/\"b10ea8fb838845b3e30ad195982fa921\"",
@@ -35251,7 +35890,7 @@
       "sha256": "fc4978892ab84b5a8ee30cd7e3a209138ec2772599e18ef6c9241469032d9a42",
       "text_sha256": "2b09a9568fb30cccd664c8ff0537ba16ccf2dc83a6f9e0069d867a36466e2f04",
       "retrieved_at": "2026-10-11T19:18:48Z",
-      "last_checked": "2026-10-11T19:18:48Z",
+      "last_checked": "2026-10-17T16:30:10Z",
       "method": "http",
       "last_modified": null,
       "etag": "W/\"fc4978892ab84b5a8ee30cd7e3a20913\"",
@@ -35281,11 +35920,46 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gov.uk/government/publications/five-country-ministerial-communique-2026/five-country-ministerial-communique-2026",
+      "attempted_at": "2026-10-17T15:49:37Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.uk/government/publications/five-country-ministerial-communique-2026",
+      "attempted_at": "2026-10-17T15:49:39Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gov.uk/government/publications/five-country-ministerial-communique-2026/five-country-ministerial-communique-2026",
+      "attempted_at": "2026-10-17T16:30:08Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gov.uk/government/publications/five-country-ministerial-communique-2026",
+      "attempted_at": "2026-10-17T16:30:10Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    },
-   "scope_note": "A communiqué of interior ministers with one section on AI and national security, not an AI instrument; included as the first Five Eyes ministerial text on access to frontier models and their scrutiny."
+   "scope_note": "Interior-ministers' communiqué with one AI section; the existing scope_note is right."
   },
   {
    "id": "INT-20",
@@ -35336,18 +36010,18 @@
      "slug": "oecd-recommendation-ai"
     }
    ],
-   "notes": "The Friends Group was launched in May 2024 as a voluntary framework of countries supporting the HAIP; as of March 2026 it had 66 countries and regions and 38 Partners Community organisations. Thirty-four member countries and regions, Brazil as observer and 32 partner organisations attended the Tokyo meeting. The plan is explicitly voluntary and was 'shared in the coming international discussions', including the May 2026 G7 digital ministerial under the French presidency (G7-04). The meeting also launched an OECD pilot to revise the HAIP Reporting Framework (later released as version 2.0) and a World Bank AI Academy. Safety content is mostly procedural (reporting, transparency, interoperability) rather than new obligations.",
+   "notes": "The Friends Group was launched in May 2024 as a voluntary framework of countries supporting the spirit of the HAIP; as of March 2026 it had 66 countries and regions and 38 organisations in its Partners Community. The Tokyo meeting of 15-16 March 2026, hosted by Japan's Ministry of Internal Affairs and Communications with the OECD and the World Bank as co-hosts, was attended by 34 Friends Group countries and regions, Brazil as an observer and 32 partner organisations. The plan is to be shared in coming international discussions. At the meeting the OECD announced a pilot version aimed at revising the HAIP Reporting Framework (OECD-02), and the World Bank announced an AI Academy to support capacity building in the Global South. The G7 Digital and Technology Ministers, meeting in Paris on 29 May under France's presidency, welcomed the Friends Group's initiatives and 'the related Action Plan announced in March 2026' (G7-04).",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-17",
     "method": "official-url-fetched",
-    "note": "Action Plan PDF (8 pages) fetched from the MIC Japan site and read; the MIC press release of 16 March 2026 fetched. The PDF confirms the title, the 16 March 2026 date, the membership figures and the listed initiatives. The press release confirms the meeting dates, attendance and the OECD and World Bank announcements.",
-    "second_check": null
+    "note": "Stored and read in this run: the Action Plan PDF (8 pages) on the MIC Japan site, the MIC press release on the meeting, and the G7 Ministerial Declaration on Digital & Technology on MIC Japan's HAIP site. The PDF confirms the title, the 16 March 2026 date, the membership figures and the listed initiatives; the press release confirms the meeting dates, the hosts, attendance and the OECD and World Bank announcements; the G7 declaration confirms the ministers' welcome of the plan.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-17: 6 field(s) supported, fixes applied to scope_note."
    },
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-11T19:18:47Z",
+    "last_attempt": "2026-10-17T16:30:08Z",
     "files": [
      {
       "role_key": "official",
@@ -35362,7 +36036,7 @@
       "sha256": "4c324616e053f45786b3de1dd70976380d7df8667034b9445cc2f9d046cf75ac",
       "text_sha256": null,
       "retrieved_at": "2026-10-11T19:18:53Z",
-      "last_checked": "2026-10-11T19:18:53Z",
+      "last_checked": "2026-10-17T16:30:13Z",
       "method": "http",
       "last_modified": "Fri, 03 Apr 2026 06:00:02 GMT",
       "etag": "\"47081-64e880724525f\"",
@@ -35386,7 +36060,7 @@
       "sha256": "ac425431222f93436842005729989361d242d282a3a9dd2d838aae20b0b5321f",
       "text_sha256": "3595671cc3823c3e70ad9d34d5e1559ed495c64520d85ef60a6090e2f11e0c54",
       "retrieved_at": "2026-10-11T19:18:56Z",
-      "last_checked": "2026-10-11T19:18:56Z",
+      "last_checked": "2026-10-17T16:30:16Z",
       "method": "http",
       "last_modified": "Fri, 03 Apr 2026 06:00:03 GMT",
       "etag": "W/\"533b-64e880732cd69\"",
@@ -35416,10 +36090,46 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/pdf/image_20260316_2_2.pdf",
+      "attempted_at": "2026-10-17T15:49:42Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/3/16_2.html",
+      "attempted_at": "2026-10-17T15:49:45Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/pdf/image_20260316_2_2.pdf",
+      "attempted_at": "2026-10-17T16:30:13Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/3/16_2.html",
+      "attempted_at": "2026-10-17T16:30:16Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
-   }
+    ]
+   },
+   "scope_note": "Voluntary action plan of a government group; safety content is procedural (reporting, transparency, interoperability). Core enough under the HAIP precedents, but a scope note would be reasonable."
   },
   {
    "id": "MX-01",
@@ -35912,13 +36622,13 @@
    "id": "INT-17",
    "slug": "lac-montevideo-declaration-2024",
    "title": "Declaration of Montevideo: For the construction of a regional approach on the governance of Artificial Intelligence and its impacts on our society",
-   "original_title": "Declaración de Montevideo: Por la construcción de un enfoque regional sobre la gobernanza de la Inteligencia Artificial y sus impactos en nuestra sociedad",
+   "original_title": "Declaración de Montevideo: Para la construcción de un enfoque regional sobre la gobernanza de la Inteligencia Artificial y sus impactos en nuestra sociedad",
    "short_title": "Montevideo Declaration",
    "jurisdiction": "Montevideo ministerial summit on AI (2024)",
    "country": "International",
    "jurisdiction_level": "International",
    "region": "Latin America & Caribbean",
-   "issuing_body": "Second Ministerial and High-Level Authorities Summit on the Ethics of Artificial Intelligence in Latin America and the Caribbean (hosted by Uruguay/AGESIC, with UNESCO and CAF support)",
+   "issuing_body": "Ministers and high-level authorities of Latin American and Caribbean countries at the Second Ministerial and High-Level Authorities Summit on the Ethics of Artificial Intelligence in Latin America and the Caribbean, Montevideo (organised by Uruguay's AGESIC with UNESCO and CAF)",
    "instrument_type": "Declaration / statement",
    "legal_force": "Non-binding",
    "status": "Published (non-binding, current)",
@@ -35929,10 +36639,12 @@
    "official_url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/ENG_Montevideo%20Declaration%20approved_version%204.0.pdf",
    "secondary_url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/noticias/aprobacion-declaracion-montevideo",
    "language": "Spanish, English",
-   "summary": "Ministerial declaration adopted at the second regional AI-ethics summit (Montevideo, 3-4 Oct 2024) that reaffirms human-rights-centred AI governance, promotes international cooperation to maximise benefits and mitigate the risks of AI, and approves a Regional Roadmap for Ethical AI 2024-2025 with five priority areas: governance and regulation; talent and the future of work; protection of vulnerable groups; environment and climate; and infrastructure. It consolidates the regional Working Group on AI Ethics as a permanent dialogue body charged with implementing the roadmap and makes the ministerial summit an annual meeting.",
+   "summary": "Ministerial declaration adopted at the second regional summit on AI ethics (Montevideo, 3-4 October 2024) that reaffirms human-rights-centred AI governance, promotes international cooperation to maximise AI's benefits and mitigate its risks, and approves the Roadmap for Ethical AI for Latin America and the Caribbean 2024-2025. The roadmap's five areas are governance and regulation (including a mechanism against AI-amplified disinformation), talent and the future of work, protection of vulnerable groups, environment and climate change, and infrastructure. The declaration consolidates the regional Working Group on AI Ethics as a permanent dialogue body and makes the ministerial summit annual.",
    "safety_topics": [
     "international cooperation",
-    "accountability & liability"
+    "accountability & liability",
+    "general-purpose / frontier AI",
+    "deepfakes & synthetic media"
    ],
    "related": [
     {
@@ -35952,18 +36664,18 @@
      "slug": "unesco-recommendation-ethics-ai"
     }
    ],
-   "notes": "Follow-up to the 2023 Santiago Declaration (INT-12); builds on the UNESCO Recommendation on the Ethics of AI and the UNESCO Readiness Assessment Methodology. The text does not list signatory countries. Chile handed leadership of the Working Group to Uruguay, and the Dominican Republic was announced as host of the third summit in 2025. The roadmap had a 12-month implementation horizon with semi-annual reviews.",
+   "notes": "Follow-up to the Santiago Declaration of October 2023 (INT-12), in line with the UNESCO Recommendation on the Ethics of AI; it also highlights the UNESCO Readiness Assessment Methodology and CAF's practical guide on designing AI public policies. The declaration and its roadmap were approved at the summit's closed session on 4 October 2024 with representatives of Brazil, Chile, Colombia, Cuba, Curaçao, Ecuador, El Salvador, Honduras, Jamaica, Mexico, Panama, Paraguay, Peru, the Dominican Republic and Uruguay; Bolivia and Dominica adhered later (update as of 1 December 2024), and Antigua and Barbuda (update as of 1 September 2025). The roadmap (version of 2 October 2024) calls for clear responsibilities among actors in the AI ecosystem and plans a methodology for designing AI regulatory proposals, annual reports on the use of UNESCO's readiness and ethical impact assessment tools, a regional study on racism and discrimination in AI used for public security, and guidelines on data governance for algorithm training, over a 12-month horizon with half-yearly follow-up. Chile handed leadership of the Working Group to Uruguay. The third summit, held in Santo Domingo on 25-26 June 2026, approved the Declaration of Santo Domingo and a 2026-2027 roadmap.",
    "verification": {
     "level": "A",
-    "verified_on": "2026-10-11",
+    "verified_on": "2026-10-17",
     "method": "official-url-fetched",
-    "note": "Fetched the English and Spanish declaration PDFs and the AGESIC news item (4 Oct 2024) on the Uruguayan government portal gub.uy. The official PDF confirms the title, the summit dates (3-4 Oct 2024) and the resolutions; the AGESIC news page confirms approval at the summit, the roadmap's five areas, the working-group hand-over and the next host.",
-    "second_check": null
+    "note": "Stored and read in this run: the English and Spanish declaration PDFs ('version 4.0'), the English roadmap PDF, the AGESIC news item of 4 October 2024 and the AGESIC news item of 20 July 2026 on the third summit, all on gub.uy. The declaration PDFs confirm the title, the Spanish title, the summit dates, the resolutions, approval at the closed session of 4 October 2024, the countries present and the later adhesions; the roadmap gives the five areas and their products; the 2024 news item confirms the approval, the working-group hand-over and the next host; the 2026 news item reports the Santo Domingo summit and its declaration.",
+    "second_check": "Independent check by Claude Code (claude-sonnet-5-5), 2026-10-17: 8 field(s) supported."
    },
    "local_copy": {
     "status": "archived",
     "flag": null,
-    "last_attempt": "2026-10-11T19:38:27Z",
+    "last_attempt": "2026-10-17T16:30:10Z",
     "files": [
      {
       "role_key": "official",
@@ -35978,7 +36690,7 @@
       "sha256": "d7a6d38f6aed11aa91575132496f9f00ab836ac3ea29e6c6f762833ef0b30987",
       "text_sha256": null,
       "retrieved_at": "2026-10-11T19:38:34Z",
-      "last_checked": "2026-10-11T19:38:34Z",
+      "last_checked": "2026-10-17T16:30:16Z",
       "method": "http",
       "last_modified": "Mon, 01 Sep 2025 20:12:13 GMT",
       "etag": "\"3738f-63dc2fcb70ae7\"",
@@ -36002,7 +36714,7 @@
       "sha256": "91c7e85b3f7cd0d23091ed23634f5b943dc6d45ab08b9d1ed1d40765a2ecdf60",
       "text_sha256": "7e942ee5730848ba8ff9bdd78a89da1162265663a4ac02ed3ce99c6e47bc9441",
       "retrieved_at": "2026-10-11T19:38:38Z",
-      "last_checked": "2026-10-11T19:38:38Z",
+      "last_checked": "2026-10-17T16:30:22Z",
       "method": "http",
       "last_modified": null,
       "etag": null,
@@ -36032,9 +36744,44 @@
       "http_status": 200,
       "error": null,
       "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/ENG_Montevideo%20Declaration%20approved_version%204.0.pdf",
+      "attempted_at": "2026-10-17T15:49:45Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/noticias/aprobacion-declaracion-montevideo",
+      "attempted_at": "2026-10-17T15:49:51Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "official",
+      "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/ENG_Montevideo%20Declaration%20approved_version%204.0.pdf",
+      "attempted_at": "2026-10-17T16:30:16Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "secondary",
+      "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/noticias/aprobacion-declaracion-montevideo",
+      "attempted_at": "2026-10-17T16:30:22Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
      }
-    ],
-    "integrity_flag": null
+    ]
    }
   },
   {

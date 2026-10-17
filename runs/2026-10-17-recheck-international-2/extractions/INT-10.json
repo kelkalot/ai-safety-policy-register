@@ -1,0 +1,153 @@
+{
+ "cand_id": "INT-10",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "INT-10",
+ "record": {
+  "issuing_body": "Independent expert panel chaired by Yoshua Bengio, with a secretariat at the UK AI Security Institute and Mila – Quebec AI Institute; published by the UK Government (DSIT)",
+  "summary": "The second International AI Safety Report, guided by over 100 experts with nominees of over 30 countries and international bodies. It narrows its scope to emerging risks at the frontier of general-purpose AI: malicious use (AI-generated content and crime, manipulation, cyberattacks, biological and chemical weapons), malfunctions (reliability, loss of control) and systemic risks (labour markets, human autonomy). It describes an 'evaluation gap', as pre-deployment tests do not reliably predict real-world risk and models increasingly tell test settings from deployment, and covers defence-in-depth safeguards and Frontier AI Safety Frameworks. It makes no specific policy recommendations.",
+  "notes": "Published on 3 February 2026 as the second edition of the report series created after the 2023 AI Safety Summit at Bletchley Park; the UK minister's foreword says it would be showcased at the India AI Impact Summit. Its scope is narrower than that of the 2025 report (INT-09), which also covered bias, environmental impacts, privacy and copyright, and it is meant to complement the UN's Independent International Scientific Panel on AI. It records that in 2025, 12 companies published or updated Frontier AI Safety Frameworks and that most risk-management initiatives remain voluntary, though a few jurisdictions are beginning to make some practices legal requirements. Translations were published in the other five official UN languages, and a 2026 Report: Extended Summary for Policymakers and an Executive Summary were published on the same day.",
+  "verification": {
+   "note": "Stored: the report's publication page on internationalaisafetyreport.org (dated 3 February 2026, with the full text and the citation 'DSIT 2026/001'), the English PDF linked from it (220 pages, 'Published in February 2026 by the UK Government'), the French translation, an earlier English PDF from the same site (the record's secondary URL; its text is the same apart from an extra cover page), and in this run the site's Publications page. They confirm the title, date, chair, secretariat (UK AI Security Institute and Mila), research series number and content, the Extended Summary for Policymakers and the Executive Summary dated 3 February 2026, and that no later edition is listed. The earlier note that Yoshua Bengio co-chairs the UN Independent International Scientific Panel on AI rests on no stored file and was dropped."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/INT-10/2026-10-11/official.html",
+    "sha256": "ac6df460ac4e8ce14bc0fb6d45ed886c901ca45da93ad8190df6b2a7777e4d81",
+    "locator": "page title",
+    "quote": "International AI Safety Report 2026 | International AI Safety Report",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-10/2026-10-11/document-1.pdf",
+    "sha256": "e2a35f439cafade360e4df4a2f91f217a16174bd1231f97e64f7208ffa93e225",
+    "locator": "page 1, cover",
+    "quote": "February 2026 INTERNATIONAL AI SAFETY REPORT 2026",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/INT-10/2026-10-11/official.html",
+    "sha256": "ac6df460ac4e8ce14bc0fb6d45ed886c901ca45da93ad8190df6b2a7777e4d81",
+    "locator": "publication header",
+    "quote": "3 February 2026 — Annual Report International AI Safety Report 2026",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-10/2026-10-11/official.html",
+    "sha256": "ac6df460ac4e8ce14bc0fb6d45ed886c901ca45da93ad8190df6b2a7777e4d81",
+    "locator": "publication summary",
+    "quote": "The second International AI Safety Report, published in February 2026, is the next iteration of the comprehensive review of latest scientific research on the capabilities and risks of general-purpose AI systems.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-10/2026-10-11/official.html",
+    "sha256": "ac6df460ac4e8ce14bc0fb6d45ed886c901ca45da93ad8190df6b2a7777e4d81",
+    "locator": "About this Report",
+    "quote": "This is the second edition of the International AI Safety Report.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-10/extra-6fe393a193/2026-10-17/official.html",
+    "sha256": "889bf2e22db398a10a71e725e2f0f7c7f10ec3220bb2618b49d9684ed8b520a5",
+    "locator": "Publications page",
+    "quote": "3 February 2026 — Annual Report International AI Safety Report 2026",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/INT-10/2026-10-11/official.html",
+    "sha256": "ac6df460ac4e8ce14bc0fb6d45ed886c901ca45da93ad8190df6b2a7777e4d81",
+    "locator": "Contributors, Chair",
+    "quote": "Prof. Yoshua Bengio, Université de Montreal / LawZero / Mila – Quebec AI Institute",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-10/2026-10-11/official.html",
+    "sha256": "ac6df460ac4e8ce14bc0fb6d45ed886c901ca45da93ad8190df6b2a7777e4d81",
+    "locator": "Contributors, Secretariat",
+    "quote": "Secretariat AI Security Institute: Lambrini Das",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-10/2026-10-11/document-1.pdf",
+    "sha256": "e2a35f439cafade360e4df4a2f91f217a16174bd1231f97e64f7208ffa93e225",
+    "locator": "page 3, Secretariat",
+    "quote": "Mila - Quebec AI Institute: Jonathan Barry",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-10/2026-10-11/document-1.pdf",
+    "sha256": "e2a35f439cafade360e4df4a2f91f217a16174bd1231f97e64f7208ffa93e225",
+    "locator": "page 220, colophon",
+    "quote": "Published in February 2026 by the UK Government",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/INT-10/2026-10-11/official.html",
+    "sha256": "ac6df460ac4e8ce14bc0fb6d45ed886c901ca45da93ad8190df6b2a7777e4d81",
+    "locator": "Copyright and disclaimer",
+    "quote": "Research series number: DSIT 2026/001",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-10/2026-10-11/document-1.pdf",
+    "sha256": "e2a35f439cafade360e4df4a2f91f217a16174bd1231f97e64f7208ffa93e225",
+    "locator": "page 3",
+    "quote": "Research series number: DSIT 2026/001",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-10/2026-10-11/official.html",
+    "sha256": "ac6df460ac4e8ce14bc0fb6d45ed886c901ca45da93ad8190df6b2a7777e4d81",
+    "locator": "About this Report, Independence",
+    "quote": "It does not make specific policy recommendations.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-10/2026-10-11/official.html",
+    "sha256": "ac6df460ac4e8ce14bc0fb6d45ed886c901ca45da93ad8190df6b2a7777e4d81",
+    "locator": "Contributors, Expert Advisory Panel",
+    "quote": "The Report – and its Expert Advisory Panel – does not endorse any particular policy or regulatory approach.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "issuing_body": "same wording as INT-09: the secretariat names (AI Security Institute and Mila) from the contributor list, and the publisher from the colophon 'Published in February 2026 by the UK Government'",
+   "summary": "checked against the key developments, the executive summary and 'About this Report': 'guided by' over 100 experts (the report's wording), the risk sub-sections named, 'models increasingly detect when they are being tested' replaced by the report's 'distinguish between test settings and real-world deployment', the claim about jurisdictions moved to the notes in the report's own terms",
+   "notes": "rewritten from the stored text: Bletchley mandate, India AI Impact Summit, narrower scope than 2025, complementarity with the UN Scientific Panel, Frontier AI Safety Frameworks, translations; the Extended Summary and Executive Summary from the Publications page stored in this run; 'Bengio also co-chairs the UN Independent International Scientific Panel on AI' and the date of that panel's report removed, since no stored file of this record supports them",
+   "verification.note": "rewritten: the secondary PDF is now stored, and the sources are described as stored"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "official_identifier",
+   "legal_force"
+  ],
+  "status_reasoning": "The publication page, dated 3 February 2026, presents the report as 'the second International AI Safety Report', and the site's Publications page, stored in this run, lists it as the latest Annual Report with nothing published after 3 February 2026. A non-binding scientific report that is the current edition stays 'Published (non-binding, current)'.",
+  "scope_reasoning": "A government-commissioned international scientific report on AI safety, in scope with no note (AGENTS.md section 10).",
+  "summary_check": "Executive Summary: 'over 100 independent experts, including nominees from more than 30 countries and international organisations'; malicious use (AI-generated content and criminal activity, influence and manipulation, cyberattacks, biological and chemical risks), malfunctions (reliability challenges, loss of control) and systemic risks (labour market impacts, risks to human autonomy) from the chapter 2 overview; 'evaluation gap'; 'It has become more common for models to distinguish between test settings and real-world deployment'; 'defence-in-depth'; 'Frontier AI Safety Frameworks'; 'It does not make specific policy recommendations.'"
+ },
+ "extra_urls": [
+  {
+   "url": "https://internationalaisafetyreport.org/publications",
+   "reason": "the report site's Publications page: lists the 2026 Report: Extended Summary for Policymakers and the 2026 Report: Executive Summary, both dated 3 February 2026, and shows no edition after the 2026 report; supports the notes and the current status"
+  }
+ ],
+ "leads": [],
+ "open_questions": []
+}

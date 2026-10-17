@@ -1,0 +1,65 @@
+{
+ "cand_id": "INT-09",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "judgment-differs",
+   "why": "the previous value (2025-11-25) was the date of a Key Update, a separate publication; null is defensible, though the date would also be defensible"
+  },
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Superseded by the 2026 edition, per the Publications page"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "96 experts, panel from 30 countries, OECD, EU and UN",
+   "verdict": "supported",
+   "locator": "PDF executive summary"
+  },
+  {
+   "claim": "chair's note on o3, writing period ended 5 December 2024",
+   "verdict": "supported",
+   "locator": "PDF"
+  },
+  {
+   "claim": "back page prints DSIT 2024/000",
+   "verdict": "supported",
+   "locator": "PDF back page"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "INT-03"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Confirmed. Web search found no edition or key update newer than those stored."
+}

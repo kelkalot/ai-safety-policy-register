@@ -1,0 +1,52 @@
+{
+ "cand_id": "INT-05",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "steps include info sharing, incident monitoring, shared evaluations, shared technical resources",
+   "verdict": "supported",
+   "locator": "paragraph 2.4"
+  },
+  {
+   "claim": "shared ambition to develop an international network",
+   "verdict": "supported",
+   "locator": "paragraph 3"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "INT-03"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Confirmed. Removal of the claim about the later network from notes is right; relation stays in related."
+}

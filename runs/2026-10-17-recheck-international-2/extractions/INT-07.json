@@ -1,0 +1,161 @@
+{
+ "cand_id": "INT-07",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "INT-07",
+ "record": {
+  "summary": "Ministers of 27 countries and the EU recognise their role in establishing frameworks to manage risks from frontier AI models, in promoting credible external evaluations, and in identifying, with the private sector, civil society and academia, thresholds at which unmitigated risks would be severe. Their examples are capabilities that meaningfully assist non-state actors with chemical or biological weapons, and capabilities or propensities to evade human oversight through manipulation, deception or autonomous replication. Through their AI safety institutes they plan to share best practices and evaluation datasets and to collaborate on safety testing guidelines.",
+  "notes": "Agreed at the Ministers' Session of the AI Seoul Summit on 22 May 2024; the Republic of Korea and the United Kingdom were the summit's co-chairs. Signatories include the US, UK, India, Saudi Arabia, the UAE, Türkiye, Kenya, Nigeria, Rwanda and the EU; China is not on the list. Ministers planned to develop proposals on thresholds and capabilities for consideration before the AI Action Summit in France (INT-01), and looked forward to the final International Scientific Report on the Safety of Advanced AI, whose interim report (INT-08) they noted.",
+  "verification": {
+   "note": "Stored and read: the GOV.UK publication page (official), published 22 May 2024, and the statement's HTML text (alt-official), both stored 11 Oct 2026 and unchanged on 17 Oct 2026, which confirm the title, the date, the 27 countries and the EU, the severe-risk thresholds and examples, the AI safety institutes paragraph and the co-chairs. The summary was corrected to the text's wording on the institutes."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/INT-07/2026-10-11/official.html",
+    "sha256": "ab44aea3297590dacb17069d6c7172ae2f1eec365896ab31f3ba3458a4d8bbb6",
+    "locator": "heading",
+    "quote": "Seoul Ministerial Statement for advancing AI safety, innovation and inclusivity: AI Seoul Summit 2024 Statement agreed by countries",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-07/2026-10-11/secondary.html",
+    "sha256": "f72d6c7f78e7cad40f245dfa2076edbebfb16460b59e966e6bf8e9ee53b087ae",
+    "locator": "heading",
+    "quote": "Seoul Ministerial Statement for advancing AI safety, innovation and inclusivity: AI Seoul Summit 2024 Published 22 May 2024",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/INT-07/2026-10-11/official.html",
+    "sha256": "ab44aea3297590dacb17069d6c7172ae2f1eec365896ab31f3ba3458a4d8bbb6",
+    "locator": "Published",
+    "quote": "Published: 22 May 2024",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-07/2026-10-11/official.html",
+    "sha256": "ab44aea3297590dacb17069d6c7172ae2f1eec365896ab31f3ba3458a4d8bbb6",
+    "locator": "summary",
+    "quote": "Statement agreed by countries at the AI Seoul Summit in Seoul, Republic of Korea, 22 May 2024.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-07/2026-10-11/official.html",
+    "sha256": "ab44aea3297590dacb17069d6c7172ae2f1eec365896ab31f3ba3458a4d8bbb6",
+    "locator": "summary",
+    "quote": "Statement agreed by countries at the AI Seoul Summit in Seoul, Republic of Korea, 22 May 2024.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/INT-07/2026-10-11/secondary.html",
+    "sha256": "f72d6c7f78e7cad40f245dfa2076edbebfb16460b59e966e6bf8e9ee53b087ae",
+    "locator": "Preamble P1",
+    "quote": "We, the Ministers of Australia, Canada, Chile, France, Germany, India, Indonesia, Israel, Italy, Japan, Kenya, Mexico, the Netherlands, Nigeria, New Zealand, the Philippines, the Republic of Korea, Rwanda",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/INT-07/2026-10-11/secondary.html",
+    "sha256": "f72d6c7f78e7cad40f245dfa2076edbebfb16460b59e966e6bf8e9ee53b087ae",
+    "locator": "Preamble P1",
+    "quote": "the United Arab Emirates, the United Kingdom, the United States of America, and the representative of the European Union, based on the discussion at the AI Seoul Summit Ministers' Session on 22 May 2024",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-07/2026-10-11/secondary.html",
+    "sha256": "f72d6c7f78e7cad40f245dfa2076edbebfb16460b59e966e6bf8e9ee53b087ae",
+    "locator": "Preamble P2",
+    "quote": "we affirm our shared intent to take meaningful steps to unlock the benefits of AI for all while addressing its risks",
+    "source_kind": "alt-official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/INT-07/2026-10-11/secondary.html",
+    "sha256": "f72d6c7f78e7cad40f245dfa2076edbebfb16460b59e966e6bf8e9ee53b087ae",
+    "locator": "Safety 1.2",
+    "quote": "We recognise our role to establish frameworks for managing risks posed by the design, development, deployment and use of commercially or publicly available frontier AI models or systems in our respective jurisdictions.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/INT-07/2026-10-11/secondary.html",
+    "sha256": "f72d6c7f78e7cad40f245dfa2076edbebfb16460b59e966e6bf8e9ee53b087ae",
+    "locator": "Safety 1.2",
+    "quote": "We recognise our increasing role in promoting credible external evaluations for frontier AI models or systems developed in our jurisdictions",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/INT-07/2026-10-11/secondary.html",
+    "sha256": "f72d6c7f78e7cad40f245dfa2076edbebfb16460b59e966e6bf8e9ee53b087ae",
+    "locator": "Safety 1.3",
+    "quote": "the potential model or system capability to meaningfully assist non-state actors in advancing the development, production, acquisition or use of chemical or biological weapons",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/INT-07/2026-10-11/secondary.html",
+    "sha256": "f72d6c7f78e7cad40f245dfa2076edbebfb16460b59e966e6bf8e9ee53b087ae",
+    "locator": "Safety 1.4",
+    "quote": "the potential model or system capability or propensity to evade human oversight, including through safeguard circumvention, manipulation and deception, or autonomous replication and adaptation",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/INT-07/2026-10-11/secondary.html",
+    "sha256": "f72d6c7f78e7cad40f245dfa2076edbebfb16460b59e966e6bf8e9ee53b087ae",
+    "locator": "Safety 1.6",
+    "quote": "Through our AI safety institutes or other relevant institutions, we plan to share best practices and evaluation datasets, as appropriate, and collaborate in establishing safety testing guidelines.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/INT-07/2026-10-11/secondary.html",
+    "sha256": "f72d6c7f78e7cad40f245dfa2076edbebfb16460b59e966e6bf8e9ee53b087ae",
+    "locator": "Way forward W1",
+    "quote": "We commend the efforts undertaken by the Republic of Korea and the United Kingdom as the two co-chairs of the AI Seoul Summit",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/INT-07/2026-10-11/secondary.html",
+    "sha256": "f72d6c7f78e7cad40f245dfa2076edbebfb16460b59e966e6bf8e9ee53b087ae",
+    "locator": "Way forward W2",
+    "quote": "look forward to the final publication of the International Scientific Report on the Safety of Advanced AI ahead of the AI Action Summit in France",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/INT-07/2026-10-11/secondary.html",
+    "sha256": "f72d6c7f78e7cad40f245dfa2076edbebfb16460b59e966e6bf8e9ee53b087ae",
+    "locator": "Way forward W3",
+    "quote": "with the ambition of developing proposals for consideration in advance of the AI Action Summit in France",
+    "source_kind": "alt-official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "the ministers do not 'ask' AI safety institutes to share evaluation practices; they plan to share best practices and evaluation datasets through their institutes and to collaborate on safety testing guidelines (paragraph 1.6); the severe-risk examples are worded as in paragraphs 1.3 and 1.4",
+   "notes": "co-chairs (W1) and the International Scientific Report (W2) added; the proposals of W3 worded as in the text",
+   "verification.note": "rewritten for the files stored and read"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "Agreed by ministers on 22 May 2024 and published on GOV.UK the same day; the publication page shows no update, and nothing stored shows a revision or replacement. 'Published (non-binding, current)' stands; the ministers recognise roles and state shared intent.",
+  "scope_reasoning": "An intergovernmental ministerial statement on frontier AI risk thresholds, evaluations and AI safety institutes; in scope with no note."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

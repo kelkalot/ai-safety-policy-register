@@ -1,0 +1,120 @@
+{
+ "cand_id": "INT-16",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "INT-16",
+ "record": {
+  "summary": "Outcome document of the second summit on Responsible AI in the Military Domain (REAIM), held in Seoul on 9-10 September 2024 and co-organised by the Republic of Korea's foreign and defence ministries. Endorsed at the closing session and supported by 61 states, the declarative Blueprint lays out a roadmap for establishing norms for AI in the military domain. It suggests principles and a framework for future governance, emphasising that being responsible entails complying with international law, holding humans responsible and accountable, ensuring reliable and trustworthy AI, maintaining appropriate human involvement and improving explainability.",
+  "notes": "The Blueprint was endorsed at the closing session that followed the ministerial roundtable of 10 September 2024, which brought together government representatives from over 90 states. The summit's plenary sessions covered the implications of AI for international peace and security, including conflict dynamics and the proliferation of weapons of mass destruction, the responsible application of AI in the military domain, and its future governance. The 2026 REAIM Pathways to Action (INT-18) builds on the Blueprint, 'advanced at the REAIM Summit 2024 in Seoul', and on the 2023 Call to Action (INT-14).",
+  "verification": {
+   "note": "Stored and read in this run: the press release of the Ministry of Foreign Affairs of the Republic of Korea on the summit outcome, dated 2024-09-10 (snapshots of 11 and 17 October 2026; only the page's view counter differs). It confirms the title, the summit dates, the co-organisers, the endorsement as outcome document at the closing session, the support of 61 states and the five headline principles. The Blueprint text itself is not stored: the summit website (secondary_url) refuses a TLS connection and the same address over plain HTTP returns 404, and no other official copy was found (the ministry's news item of 12 September 2024 and Singapore's MINDEF release of 10 September 2024 attach none). The summary rests on the press release's description of the document. The REAIM 2026 Pathways to Action PDF is also stored for this record; it names the Blueprint as advanced at the REAIM Summit 2024 in Seoul."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/INT-16/2026-10-17/official.html",
+    "sha256": "752942b73958e487cd57c001df04cbbb51f04027c7f08c6c6c80ebb4fbc79356",
+    "locator": "press release, closing-session paragraph",
+    "quote": "At the closing session that followed the ministerial roundtable, “Blueprint for Action” was officially endorsed as the outcome document of the REAIM Summit 2024.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-16/extra-ede5a0863c/2026-10-17/official.pdf",
+    "sha256": "1c7d431a7e88c234f1a2cfdc0a6bc5682ed29871fcf0043b71de9009b4113dc0",
+    "locator": "page 7, paragraph 26",
+    "quote": "the 2024 REAIM Blueprint for Action",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/INT-16/2026-10-17/official.html",
+    "sha256": "752942b73958e487cd57c001df04cbbb51f04027c7f08c6c6c80ebb4fbc79356",
+    "locator": "press release header",
+    "quote": "Date 2024-09-10",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-16/2026-10-17/official.html",
+    "sha256": "752942b73958e487cd57c001df04cbbb51f04027c7f08c6c6c80ebb4fbc79356",
+    "locator": "press release, first paragraph",
+    "quote": "ended in a success after a two-day run from September 9 to 10, 2024.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-16/2026-10-17/official.html",
+    "sha256": "752942b73958e487cd57c001df04cbbb51f04027c7f08c6c6c80ebb4fbc79356",
+    "locator": "press release, closing-session paragraph",
+    "quote": "This declarative document, supported by 61 states, lays out a roadmap for establishing norms of AI in the military domain",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/INT-16/2026-10-17/official.html",
+    "sha256": "752942b73958e487cd57c001df04cbbb51f04027c7f08c6c6c80ebb4fbc79356",
+    "locator": "press release, first paragraph",
+    "quote": "The REAIM Summit 2024, co-organized by the Republic of Korea Ministry of Foreign Affairs (MOFA) and Ministry of National Defense (MND)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-16/2026-10-17/official.html",
+    "sha256": "752942b73958e487cd57c001df04cbbb51f04027c7f08c6c6c80ebb4fbc79356",
+    "locator": "press release, closing-session paragraph",
+    "quote": "This declarative document, supported by 61 states",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-16/2026-10-17/official.html",
+    "sha256": "752942b73958e487cd57c001df04cbbb51f04027c7f08c6c6c80ebb4fbc79356",
+    "locator": "press release, closing-session paragraph",
+    "quote": "This declarative document, supported by 61 states, lays out a roadmap for establishing norms of AI in the military domain",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-16/extra-ede5a0863c/2026-10-17/official.pdf",
+    "sha256": "1c7d431a7e88c234f1a2cfdc0a6bc5682ed29871fcf0043b71de9009b4113dc0",
+    "locator": "page 3, paragraph 7",
+    "quote": "Building on the Call to Action advanced at the REAIM Summit 2023 in The Hague and the Blueprint for Action advanced at the REAIM Summit 2024 in Seoul",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-16/2026-10-17/official.html",
+    "sha256": "752942b73958e487cd57c001df04cbbb51f04027c7f08c6c6c80ebb4fbc79356",
+    "locator": "press release, second paragraph",
+    "quote": "brought together government representatives from over 90 states",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "'non-binding' restated as the press release has it ('declarative'); 'builds on the 2023 Call to Action from The Hague' removed, as no stored source says so",
+   "notes": "the sentences about the official_url and about China's position (press reports only) moved out of the notes; the summit's ministerial roundtable and plenary themes added from the press release; the link to the 2026 Pathways to Action rests on the stored PDF",
+   "verification.note": "rewritten for the sources stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "A declarative outcome document endorsed on 10 September 2024; nothing stored withdraws it, and the 2026 REAIM outcome builds on it. 'Published (non-binding, current)' stands.",
+  "date_reasoning": "The closing session that endorsed the Blueprint followed the ministerial roundtable of Tuesday 10 September 2024; the press release is dated 2024-09-10."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The Blueprint text is not stored: the summit website reaim2024.kr (secondary_url) fails the TLS handshake and its address over HTTP returns 404, and no official mirror was found. The summary and topics rest on the host ministry's press release; a person who has the PDF could provide it.",
+  "The previous notes said that China attended but did not endorse the Blueprint; no stored or official source says so, and the claim was removed."
+ ]
+}

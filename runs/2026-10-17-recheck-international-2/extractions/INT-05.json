@@ -1,0 +1,163 @@
+{
+ "cand_id": "INT-05",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "INT-05",
+ "record": {
+  "summary": "Leaders of ten countries and the EU affirm international coordination, based on openness, transparency and reciprocity, to advance the science of AI safety, and commend the creation or expansion of publicly backed institutions such as AI Safety Institutes. They intend to foster common scientific understanding, including through assessments such as the International AI Safety Report. Possible steps include sharing information about models' capabilities, limitations and risks, monitoring AI harms and safety incidents, exchanging or jointly creating evaluations and data sets, and shared technical resources. They aim to develop an international network to accelerate AI safety science.",
+  "notes": "Annex to the Seoul Declaration (INT-04), agreed at the AI Seoul Summit on 21 May 2024. It follows on from the AI Safety Summit at Bletchley Park (INT-03) and acknowledges the Safety Testing Chair's Statement of Session Outcomes from the Bletchley Leaders' Session.",
+  "verification": {
+   "note": "Stored and read: the annex's HTML text on GOV.UK (official) and the GOV.UK publication page of the Seoul Declaration and its annex (alt-official), both stored 11 Oct 2026 and unchanged on 17 Oct 2026, which confirm the title, the date of 21 May 2024, the ten countries and the EU, and the text. Version 1's note on the International Network of AI Safety Institutes (launched in November 2024, renamed in December 2025) is not in this record's stored files and was removed; the link stays in related (INT-11)."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/INT-05/2026-10-11/official.html",
+    "sha256": "4f9bf25c7d9fa101ef26ea471d9140beacd4b5adb7bc4d62ba3fb6935c39fdeb",
+    "locator": "heading",
+    "quote": "Seoul Statement of Intent toward International Cooperation on AI Safety Science, AI Seoul Summit 2024 (Annex)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-05/2026-10-11/secondary.html",
+    "sha256": "070aa3dfbe56595765a7ca9f282e504f8007aea0df4fb550884a77b2cc65274f",
+    "locator": "Documents",
+    "quote": "Seoul Statement of Intent toward International Cooperation on AI Safety Science, AI Seoul Summit 2024 (Annex) HTML",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/INT-05/2026-10-11/official.html",
+    "sha256": "4f9bf25c7d9fa101ef26ea471d9140beacd4b5adb7bc4d62ba3fb6935c39fdeb",
+    "locator": "below the heading",
+    "quote": "Published 21 May 2024",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-05/2026-10-11/official.html",
+    "sha256": "4f9bf25c7d9fa101ef26ea471d9140beacd4b5adb7bc4d62ba3fb6935c39fdeb",
+    "locator": "paragraph 1",
+    "quote": "Gathered at the AI Seoul Summit on 21 May 2024",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-05/2026-10-11/secondary.html",
+    "sha256": "070aa3dfbe56595765a7ca9f282e504f8007aea0df4fb550884a77b2cc65274f",
+    "locator": "Published",
+    "quote": "Published: 21 May 2024",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-05/2026-10-11/secondary.html",
+    "sha256": "070aa3dfbe56595765a7ca9f282e504f8007aea0df4fb550884a77b2cc65274f",
+    "locator": "summary",
+    "quote": "Seoul Declaration and Statement of Intent toward International Cooperation on AI Safety Science, agreed by world leaders represented at the AI Seoul Summit, 21 May 2024.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/INT-05/2026-10-11/official.html",
+    "sha256": "4f9bf25c7d9fa101ef26ea471d9140beacd4b5adb7bc4d62ba3fb6935c39fdeb",
+    "locator": "below the heading",
+    "quote": "Published 21 May 2024",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/INT-05/2026-10-11/official.html",
+    "sha256": "4f9bf25c7d9fa101ef26ea471d9140beacd4b5adb7bc4d62ba3fb6935c39fdeb",
+    "locator": "paragraph 1",
+    "quote": "world leaders representing Australia, Canada, the European Union, France, Germany, Italy, Japan, the Republic of Korea, the Republic of Singapore, the United Kingdom, and the United States of America affirm the importance of international coordination",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-05/2026-10-11/official.html",
+    "sha256": "4f9bf25c7d9fa101ef26ea471d9140beacd4b5adb7bc4d62ba3fb6935c39fdeb",
+    "locator": "paragraph 2.3",
+    "quote": "We express our shared intent to take steps toward fostering common international scientific understanding on aspects of AI safety",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/INT-05/2026-10-11/official.html",
+    "sha256": "4f9bf25c7d9fa101ef26ea471d9140beacd4b5adb7bc4d62ba3fb6935c39fdeb",
+    "locator": "paragraph 1",
+    "quote": "based in openness, transparency, and reciprocity, to advance the science of AI safety",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-05/2026-10-11/official.html",
+    "sha256": "4f9bf25c7d9fa101ef26ea471d9140beacd4b5adb7bc4d62ba3fb6935c39fdeb",
+    "locator": "paragraph 2",
+    "quote": "We commend the collective work to create or expand public and/or government-backed institutions, including AI Safety Institutes",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-05/2026-10-11/official.html",
+    "sha256": "4f9bf25c7d9fa101ef26ea471d9140beacd4b5adb7bc4d62ba3fb6935c39fdeb",
+    "locator": "paragraph 2.2",
+    "quote": "We affirm our intention to leverage and promote common scientific understandings through assessments such as the International AI Safety Report",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-05/2026-10-11/official.html",
+    "sha256": "4f9bf25c7d9fa101ef26ea471d9140beacd4b5adb7bc4d62ba3fb6935c39fdeb",
+    "locator": "paragraph 2.4",
+    "quote": "the sharing of information about models, including their capabilities, limitations, and risks as appropriate; the monitoring of AI harms and safety incidents; the exchange or joint creation of evaluations, data sets and associated criteria",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-05/2026-10-11/official.html",
+    "sha256": "4f9bf25c7d9fa101ef26ea471d9140beacd4b5adb7bc4d62ba3fb6935c39fdeb",
+    "locator": "paragraph 3",
+    "quote": "We articulate our shared ambition to develop an international network among key partners to accelerate the advancement of the science of AI safety.",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/INT-05/2026-10-11/secondary.html",
+    "sha256": "070aa3dfbe56595765a7ca9f282e504f8007aea0df4fb550884a77b2cc65274f",
+    "locator": "Documents",
+    "quote": "Seoul Declaration for safe, innovative and inclusive AI by participants attending the Leaders' Session: AI Seoul Summit, 21 May 2024 HTML Seoul Statement of Intent",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/INT-05/2026-10-11/official.html",
+    "sha256": "4f9bf25c7d9fa101ef26ea471d9140beacd4b5adb7bc4d62ba3fb6935c39fdeb",
+    "locator": "paragraph 1",
+    "quote": "following on from the AI Safety Summit in Bletchley Park on 2nd November 2023 and acknowledging the Safety Testing Chair's Statement of Session Outcomes from the Bletchley Leaders' Session",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "corrected to the text: the leaders 'commend' institutes and 'express their shared intent' (they do not 'commit to work through' them); the listed steps are steps that 'may' be taken; the International AI Safety Report (paragraph 2.2) added",
+   "notes": "the note on the International Network of AI Safety Institutes is not supported by this record's stored files and was removed; the Bletchley link from paragraph 1 added",
+   "verification.note": "rewritten for the files stored and read"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "Agreed by the leaders on 21 May 2024 as the annex to the Seoul Declaration and published on GOV.UK the same day; nothing stored shows a revision or replacement. 'Published (non-binding, current)' stands; it states intentions and ambitions only.",
+  "scope_reasoning": "An intergovernmental statement on cooperation between AI safety institutes on AI safety science; in scope with no note."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "Version 1's notes said this statement led to the International Network of AI Safety Institutes, launched in November 2024 and renamed in December 2025; no stored file of this record says so. The relation stays in related (INT-11), whose sources cover the network's launch and renaming."
+ ]
+}

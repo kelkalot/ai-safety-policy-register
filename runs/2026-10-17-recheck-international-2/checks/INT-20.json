@@ -1,0 +1,57 @@
+{
+ "cand_id": "INT-20",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Friends Group launched May 2024; 66 countries and regions, 38 Partners Community organisations",
+   "verdict": "supported",
+   "locator": "Action Plan PDF page 1; MIC press release"
+  },
+  {
+   "claim": "34 Friends Group members, Brazil as observer, 32 partner organisations at the meeting",
+   "verdict": "supported",
+   "locator": "MIC press release participants list"
+  },
+  {
+   "claim": "G7 digital ministers (Paris, 29 May) welcomed 'the related Action Plan announced in March 2026'",
+   "verdict": "supported",
+   "locator": "G7 declaration, page 1"
+  },
+  {
+   "claim": "annex includes a Singapore IMDA workshop on transparency",
+   "verdict": "supported",
+   "locator": "Action Plan PDF annex, IMDA entry"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Voluntary action plan of a government group; safety content is procedural (reporting, transparency, interoperability). Core enough under the HAIP precedents, but a scope note would be reasonable."
+ },
+ "overall": "accept",
+ "note": "The notes' new claims all match stored official texts. The 'later released as version 2.0' remark in the current record is not touched by the extraction and I did not verify it."
+}

@@ -1,0 +1,71 @@
+{
+ "cand_id": "INT-12",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "The English title is a rendering (no English text from the issuer found); InvestChile, a government agency, uses the same wording. english_version 'none found' is consistent with that."
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Text gives 23-24 Oct 2023, no adoption day; 2023-10-24 is the closing day of the summit as the verification note says."
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "english_version": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "signatories agree to analyse whether new legal frameworks are needed, balancing ex ante regulation of AI risks with innovation",
+   "verdict": "supported",
+   "locator": "page 3, Proclamamos 2: 'acuerdan iniciar un análisis frente a la necesidad de elaborar y adoptar nuevos marcos jurídicos... equilibrio entre la necesidad de mitigar y controlar los riesgos que plantea la IA a través de la intervención regulatoria ex ante'"
+  },
+  {
+   "claim": "monitoring of effects on workers and data governance",
+   "verdict": "supported",
+   "locator": "page 4, points 5 and 10: 'es prioritario monitorear el impacto de la IA en los trabajadores'; 'fortalecer la gobernanza, representatividad y calidad de los datos'"
+  },
+  {
+   "claim": "Chile-led working group towards a regional intergovernmental AI council",
+   "verdict": "supported",
+   "locator": "page 4, decisions: 'Grupo de Trabajo con miras a la constitución de un Consejo intergubernamental de Inteligencia Artificial'; 'Elegir a la República de Chile para encabezar el Grupo de Trabajo'"
+  },
+  {
+   "claim": "20 signatory countries listed",
+   "verdict": "supported",
+   "locator": "InvestChile post (stored), list of 20 countries matches the notes"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Regional ministerial declaration on safe, ethical AI and regulatory needs."
+ },
+ "overall": "accept",
+ "note": "All claims checked against the Spanish original; my literal rendering of the key passage: 'the signatory countries agree to begin an analysis of the need to draw up and adopt new legal frameworks and regulatory agendas for the responsible design, development and use of AI'. Notes now correctly state that the text lists no signatories and that the 20 countries rest on InvestChile (a government agency)."
+}

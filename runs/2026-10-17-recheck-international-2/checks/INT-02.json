@@ -1,0 +1,69 @@
+{
+ "cand_id": "INT-02",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "heading of the declaration text as published by the Embassy of India (Government of India)"
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "2026-02 is conservative; dateline 18-19 Feb and preamble 19 Feb. Month-only accepted"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "secondary_url": {
+   "verdict": "supported",
+   "why": "stored source in this run"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "seven pillars listed",
+   "verdict": "supported",
+   "locator": "Preamble"
+  },
+  {
+   "claim": "secure and trusted AI section wording",
+   "verdict": "supported",
+   "locator": "Secure and Trusted AI"
+  },
+  {
+   "claim": "89 endorsers incl. 87 countries, EU and IFAD",
+   "verdict": "supported",
+   "locator": "list of endorsers"
+  },
+  {
+   "claim": "held after Bletchley, Seoul and Paris summits",
+   "verdict": "supported",
+   "locator": "Australian DISR news item"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Rewritten from the stored full declaration text. date_last_updated (2026-03-05) is left as published by the run and rests on an unstored PIB release; the extractor raised it as an open question, and it is not changed by this run."
+}

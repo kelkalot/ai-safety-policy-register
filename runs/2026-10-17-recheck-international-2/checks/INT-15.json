@@ -1,0 +1,70 @@
+{
+ "cand_id": "INT-15",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "judgment-differs",
+   "why": "Rests on the signing as the latest event; the agreement text and any entry-into-force clause are not stored. 'Adopted, not yet in force' is defensible but unconfirmed; the notes say the signing remained open until 31 July 2026."
+  },
+  "legal_force": {
+   "verdict": "judgment-differs",
+   "why": "Quote says the agreement establishes an independent intergovernmental organisation; 'Binding' follows from it being a treaty-type agreement but the text itself is not stored."
+  },
+  "language": {
+   "verdict": "unsupported",
+   "why": "The value 'Not confirmed (multilingual treaty text not reviewed)' is a remark, not a language name, and no stored source gives the agreement's languages. Not changed by the run; no fix is possible without the text."
+  },
+  "safety_topics": {
+   "verdict": "judgment-differs",
+   "why": "Only one topic against the minimum of two; the stored texts give 'international cooperation' and arguably 'research priorities'/'general-purpose' have no support. No evidence-backed second topic."
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "follows the purposes of the UN Charter; independent intergovernmental international organisation",
+   "verdict": "supported",
+   "locator": "MFA signing report, second paragraph"
+  },
+  {
+   "claim": "aims to ensure healthy, orderly development of AI in a beneficial, safe and fair direction; HQ Shanghai; 29 countries",
+   "verdict": "supported",
+   "locator": "MFA signing report, paragraphs 2-3"
+  },
+  {
+   "claim": "helps bridge the AI divide, supports Global South",
+   "verdict": "supported",
+   "locator": "MFA remarks of 30 July 2025 (stored): 'respond to the calls of the Global South, help bridge digital and AI divides'"
+  },
+  {
+   "claim": "open to all countries",
+   "verdict": "supported",
+   "locator": "agreement open for signature to 31 July 2026 per Georgia embassy report; the stored text of the MFA report was not rechecked for the exact words 'open to all'"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "A treaty creating an international organisation for AI cooperation and governance; safety content is the stated aim of safe, fair development rather than any rule. Include with a scope note."
+ },
+ "overall": "accept-with-fixes",
+ "note": "Title, signing date, 29 signatories, HQ and purposes are confirmed by official Chinese MFA texts. Open items not changed by this run: the language field holds a remark and english_version is not recorded (the text is not stored), the entry-into-force terms are unknown, and only one topic is set. These should become questions rather than hold the corrections. The scope is borderline: no safety rules, organisation-building treaty."
+}
