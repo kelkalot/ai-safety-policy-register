@@ -1,0 +1,100 @@
+{
+ "cand_id": "G7-06",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "G7-06",
+ "record": {
+  "summary": "Call adopted by the G7 Leaders at the Evian summit and supported by Brazil, Egypt, India, Kenya and the Republic of Korea. The leaders recognise risks from children's use of conversational AI systems and ask providers to apply safety settings by default, parental controls and age assurance; remain committed to prohibiting the generation, manipulation and distribution of child sexual abuse material, including deepfakes involving minors, with detection and removal measures by platforms; ask for age-appropriate recommender systems; and call for shared data, impartial evaluations and common assessment standards for AI models and algorithmic systems to evaluate their impact on minors' safety.",
+  "notes": "Posted on 17 June 2026, the last day of the Evian summit (15 to 17 June 2026). The call welcomes the G7 Common Set of Principles defining a safer and more secure digital space for minors adopted by G7 ministers (supported by the digital ministers on 29 May 2026, G7-04) and asks ministers to meet regularly and assess progress by the end of 2026. It is one of nine statements the Leaders adopted unanimously at Evian; none of the others is on AI: they concern geopolitical issues, cancer, the Bundibugyo Ebola outbreak, international partnerships, critical materials supply chains, growth, migrant smuggling and drug trafficking. A working lunch on 'Ensuring the safe, rapid and effective deployment of artificial intelligence' with partner countries and business leaders took place on 17 June 2026; at the closing press conference President Macron announced work over the following months on a platform for cooperation among democracies on the risks of frontier AI and common standards, with a ministerial meeting planned for September.",
+  "verification": {
+   "note": "Stored and read in this run: the call on the Élysée G7 Evian site (elysee.fr, official), which confirms the title, the posting date 17 June 2026, the Leaders as issuing body, the partner countries' support and the provisions summarised; and the Élysée day-three page with the President's closing press conference (new snapshot of 17 Oct 2026; the change since 11 Oct is in the page's list of latest news, not in the text), which confirms the nine unanimous statements, the AI working lunch and the announced cooperation platform and September ministerial meeting. No stored source shows the outcome of that meeting."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/G7-06/2026-10-11/official.html",
+    "sha256": "8ed45e47dcfe4e4439cbe5ff572c3f6b47909984ecd3274289b6a8753abecba0",
+    "locator": "page heading",
+    "quote": "Leaders' call on a safer digital space for minors.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/G7-06/2026-10-17/secondary.html",
+    "sha256": "325f529baaf9f172780bb7c743e656b0b0526daec7afb66de50d5585125e10d1",
+    "locator": "statements adopted on 17 June",
+    "quote": "Leaders'call on a safer digital space for minors.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/G7-06/2026-10-11/official.html",
+    "sha256": "8ed45e47dcfe4e4439cbe5ff572c3f6b47909984ecd3274289b6a8753abecba0",
+    "locator": "page heading",
+    "quote": "Posted on 17 June 2026",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/G7-06/2026-10-11/official.html",
+    "sha256": "8ed45e47dcfe4e4439cbe5ff572c3f6b47909984ecd3274289b6a8753abecba0",
+    "locator": "last paragraph",
+    "quote": "This call reflects the outcome of the discussion between G7 members, benefiting from productive exchanges of views with partner countries",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/G7-06/2026-10-17/secondary.html",
+    "sha256": "325f529baaf9f172780bb7c743e656b0b0526daec7afb66de50d5585125e10d1",
+    "locator": "press conference",
+    "quote": "Nine statements were adopted unanimously by the G7 leaders, and many received support from the G7+.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/G7-06/2026-10-11/official.html",
+    "sha256": "8ed45e47dcfe4e4439cbe5ff572c3f6b47909984ecd3274289b6a8753abecba0",
+    "locator": "first paragraph",
+    "quote": "We, the Leaders of the G7, are committed to providing a safe digital space for our minors",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/G7-06/2026-10-11/official.html",
+    "sha256": "8ed45e47dcfe4e4439cbe5ff572c3f6b47909984ecd3274289b6a8753abecba0",
+    "locator": "call",
+    "quote": "We therefore call on all governments, digital service providers, public authorities where applicable and relevant stakeholders to prioritize the protection of children and youth's physical and mental health, privacy and safety online.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "'the only one with AI provisions' removed (the stored sources do not show the other texts' content); the partner countries' support and the summit dates moved or added",
+   "notes": "the dangling sentence 'No official outcome of that follow-up had been published by October 2026' removed; the welcome of the ministers' Common Set of Principles, the end-2026 review, the nine-statement list and the President's announced cooperation platform added from the stored pages",
+   "verification.note": "rewritten; the duplicated text removed and the new snapshot of the day-three page described"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "A leaders' call without binding force, adopted on 17 June 2026; it asks ministers to assess progress by the end of 2026, and nothing stored replaces it. 'Published (non-binding, current)' stands."
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "G7 ministerial meeting on a cooperation platform among democracies on frontier-AI risks and common standards (announced for September 2026)",
+   "url": null,
+   "seen_in": "archive/G7-06/2026-10-17/secondary.html (President Macron's press conference at the close of the Evian summit)",
+   "why": "Announced follow-up on frontier AI under the French presidency; no outcome document found in the stored sources."
+  }
+ ],
+ "open_questions": []
+}

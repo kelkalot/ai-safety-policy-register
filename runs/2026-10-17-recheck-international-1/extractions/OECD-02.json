@@ -1,0 +1,147 @@
+{
+ "cand_id": "OECD-02",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "OECD-02",
+ "record": {
+  "official_url": "https://oecd.ai/en/transparency/overview",
+  "date_last_updated": "2026-05-28",
+  "summary": "The OECD's framework for organisations developing, deploying or providing advanced AI systems to report publicly on their alignment with the G7 Hiroshima AI Process International Code of Conduct. Built around the Code's 11 actions, its questionnaire covers risk identification and evaluation, risk management and information security, transparency on advanced AI systems, governance and incident management, content authentication and provenance, and research on AI safety. Participation is voluntary and reports are published in full on OECD.AI.",
+  "safety_topics": [
+   "transparency & labelling",
+   "general-purpose / frontier AI",
+   "accountability & liability",
+   "incident reporting",
+   "international cooperation"
+  ],
+  "notes": "Launched on 7 February 2025 as an outcome of the G7 Hiroshima AI Process, after the G7 Digital and Tech Working Group under the Italian Presidency, following the Trento Declaration, asked the OECD to develop mechanisms for monitoring voluntary adoption of the Code. The OECD counts 25 reports in the first round, analysed in its 2025 report 'How are AI developers managing risks?'; MIC Japan's HAIP site says the first responses, from 19 companies, were published in April 2025. Version 2.0, launched on 28 May 2026 at a Tech7 event in Paris on the margins of the G7 Digital and Tech Ministerial under the French Presidency, distinguishes model developers, application developers and deployers and is simplified for small and medium enterprises; 31 reports under it were published on 2 October 2026. Organisations must be based in an OECD member, a GPAI member or an Adherent to the OECD Recommendation on AI.",
+  "verification": {
+   "note": "Stored: the OECD's Reporting Framework pages on OECD.AI (overview, about, list of reports with two of the reports published on 2 Oct 2026) and its announcement of version 2.0, all on 17 Oct 2026, and MIC Japan's Hiroshima AI Process page on the framework (11 Oct 2026). They give the launch on 7 February 2025, the G7 mandate, the framework's structure, the voluntary nature of reporting, the version 2.0 launch on 28 May 2026 (the announcement is dated 29 May 2026; the sentence on the launch gives the day without the year) and the 31 reports published on 2 October 2026. The February 2025 OECD press release on oecd.org refuses the archiver (HTTP 403), so the record's official URL is now the OECD.AI overview. The first-round count differs between the OECD (25 reports) and MIC (19 companies); both are in the notes. The blank questionnaire is a Word file and was not stored; its sections are taken from a published report."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/OECD-02/extra-cdcdecff5d/2026-10-17/official.html",
+    "sha256": "46d38f702a5553d84e2db9b78460ede78b258752faaa28ac3c1f10ddd9fe7197",
+    "locator": "Overview",
+    "quote": "The Hiroshima AI Process Reporting Framework, launched in February 2025, provides a standardised structure for organisations to report on their alignment with the Hiroshima AI Process International Code of Conduct for Organisations Developing Advanced AI Systems.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/OECD-02/2026-10-11/secondary.html",
+    "sha256": "348bf2a18e4c8f013bb6cb7d44954aa55e2b1bce00968e7aac6efabeedb56bc4",
+    "locator": "Reporting Framework",
+    "quote": "It builds on the Hiroshima AI Process International Code of Conduct for Organizations Developing Advanced AI Systems",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/OECD-02/extra-cdcdecff5d/2026-10-17/official.html",
+    "sha256": "46d38f702a5553d84e2db9b78460ede78b258752faaa28ac3c1f10ddd9fe7197",
+    "locator": "Overview, background",
+    "quote": "The Reporting Framework, launched on February 7 2025, is a direct outcome of the G7 Hiroshima AI Process",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/OECD-02/2026-10-11/secondary.html",
+    "sha256": "348bf2a18e4c8f013bb6cb7d44954aa55e2b1bce00968e7aac6efabeedb56bc4",
+    "locator": "Reporting Framework",
+    "quote": "The Reporting Framework, launched on February 7, 2025, is a direct outcome of the G7 Hiroshima AI Process",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/OECD-02/extra-bbca29e5fe/2026-10-17/official.html",
+    "sha256": "ea921bda89c905781125abafe61d4cbb68f717ceb3fa0b33f9610c1470f89ff5",
+    "locator": "OECD launches Hiroshima AI Process Reporting Framework 2.0, first paragraph",
+    "quote": "On 28 May, the OECD launched version 2.0 of the Hiroshima AI Process (HAIP) Reporting Framework at an event organised by Tech7, on the margins of the G7 Digital and Tech Ministerial Meeting under the French G7 Presidency in Paris.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/OECD-02/extra-bbca29e5fe/2026-10-17/official.html",
+    "sha256": "ea921bda89c905781125abafe61d4cbb68f717ceb3fa0b33f9610c1470f89ff5",
+    "locator": "How to participate",
+    "quote": "Submissions are accepted on a rolling basis, and organisations are invited to update their reports annually.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/OECD-02/2026-10-11/secondary.html",
+    "sha256": "348bf2a18e4c8f013bb6cb7d44954aa55e2b1bce00968e7aac6efabeedb56bc4",
+    "locator": "Reporting Framework",
+    "quote": "The responses to the \"Reporting Framework 2.0\" were published on October 2, 2026, with submissions from 31 companies.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/OECD-02/extra-cdcdecff5d/2026-10-17/official.html",
+    "sha256": "46d38f702a5553d84e2db9b78460ede78b258752faaa28ac3c1f10ddd9fe7197",
+    "locator": "Overview, background",
+    "quote": "At the G7's request and in line with the Trento Declaration, the OECD was tasked with identifying mechanisms to monitor the voluntary adoption of the Code.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/OECD-02/extra-bbca29e5fe/2026-10-17/official.html",
+    "sha256": "ea921bda89c905781125abafe61d4cbb68f717ceb3fa0b33f9610c1470f89ff5",
+    "locator": "first paragraph",
+    "quote": "On 28 May, the OECD launched Version 2.0 of the Hiroshima AI Process (HAIP) Reporting Framework.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/OECD-02/extra-b223e02fce/2026-10-17/official.html",
+    "sha256": "220a3832bd83bada72b8b91a51565cf931b25f2e8e83a97d67037cc4fff90e14",
+    "locator": "Browse Reports, Disclaimer",
+    "quote": "Participation in this Reporting Framework is voluntary and does not constitute compliance with, or equivalence to, other frameworks",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "official_url": "the OECD's own page of the framework on OECD.AI, stored in this run; the February 2025 press release on oecd.org has refused the archiver in every attempt since 11 Oct 2026",
+   "date_last_updated": "2026-10-02 was the publication of version 2.0 reports, not a new version; version 2.0 itself was launched on 28 May 2026 (OECD.AI announcement published 29 May 2026)",
+   "summary": "rewritten from the OECD's own description: organisations rather than companies, the Code's 11 actions and the questionnaire's sections; 'first global framework' dropped (the OECD says 'the only international framework', a claim about itself)",
+   "safety_topics": "'incident reporting' added: the framework asks about incident reporting and incident management (about page; Section 4 of the questionnaire)",
+   "notes": "the G7 mandate, both first-round counts (OECD 25 reports, MIC 19 companies), the version 2.0 launch date and content and the eligibility rule now rest on stored OECD.AI pages",
+   "verification.note": "rewritten for the files stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "OECD.AI says submissions are accepted on a rolling basis and reports are updated annually; its list shows 31 reports published on 2 October 2026 under version 2.0. The framework is current and voluntary: 'Published (non-binding, current)' stands. date_last_updated: the announcement 'OECD launches Hiroshima AI Process Reporting Framework 2.0' is 'Published: 29 May 2026' and says 'On 28 May, the OECD launched version 2.0', so 2026-05-28. Its quote has no year; the year is the announcement's.",
+  "scope_reasoning": "Intergovernmental (OECD for the G7) monitoring framework for the Hiroshima Code of Conduct on advanced AI; in scope with no note.",
+  "summary_check": "About page: 'Built around the Code's 11 actions, it offers structured questions ... risk management, risk assessment, incident reporting, and information sharing'. The questionnaire's sections are those of the Microsoft report published on 2 Oct 2026 (stored): Section 1 Risk Identification and Evaluation to Section 7 Advancing Human and Global Interests. Reports page: participation voluntary, responses 'published in full on the OECD.AI website'. Overview: open to developers, deployers and providers of advanced AI systems."
+ },
+ "extra_urls": [
+  {
+   "url": "https://oecd.ai/en/transparency/overview",
+   "reason": "the OECD's own page of the Reporting Framework (official host for OECD); gives the launch on 7 February 2025, the G7 mandate under the Trento Declaration, the 25 reports of the first round and version 2.0; proposed as official_url because the February 2025 press release on oecd.org refuses the archiver (HTTP 403)"
+  },
+  {
+   "url": "https://oecd.ai/en/transparency/about",
+   "reason": "the OECD's description of the framework (built around the Code's 11 actions, questions on risk management, risk assessment, incident reporting and information sharing), needed for issuing_body and to check the summary"
+  },
+  {
+   "url": "https://oecd.ai/en/haip-2-launch",
+   "reason": "OECD.AI announcement of version 2.0, launched on 28 May 2026 at a Tech7 event in Paris on the margins of the G7 Digital and Tech Ministerial under the French Presidency; needed for date_last_updated, which now holds 2 Oct 2026 (the publication of reports, not a new version)"
+  },
+  {
+   "url": "https://oecd.ai/en/transparency/reports",
+   "reason": "the OECD's list of submitted reports with publication dates (31 published on 2 Oct 2026) and its statement that participation is voluntary; needed for legal_force and the notes"
+  }
+ ],
+ "leads": [],
+ "open_questions": []
+}

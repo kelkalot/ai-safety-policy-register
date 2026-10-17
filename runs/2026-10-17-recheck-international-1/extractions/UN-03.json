@@ -1,0 +1,113 @@
+{
+ "cand_id": "UN-03",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "UN-03",
+ "record": {
+  "summary": "A General Assembly resolution of 1 July 2024 on enhancing international cooperation on capacity-building in artificial intelligence. With resolution 78/265 on safe, secure and trustworthy AI, it is one of the two resolutions on AI that the Assembly adopted in 2024; the Secretary-General's High-level Advisory Body on AI read the two as acknowledgement among leading AI nations that representation gaps in international AI governance need to be addressed.",
+  "notes": "Adopted on 1 July 2024. It and resolution 78/265 (UN-02) are recalled in resolution 79/325 of 26 August 2025 (UN-07), which establishes the Independent International Scientific Panel on AI and the Global Dialogue on AI Governance and lists AI capacity gaps among the Dialogue's topics.",
+  "verification": {
+   "note": "The resolution's own text could not be stored: the UN Digital Library record (official_url) returns a bot-check page, documents.un.org is closed to automated downloads by robots.txt, and the press.un.org meeting coverage requested in this run returned a JavaScript 'Client Challenge' page also in a browser. Stored in this run: A/RES/79/325 (un.org PDF), which recalls '78/311 of 1 July 2024', and the High-level Advisory Body's final report (un.org PDF), which gives the title with '(78/311)' and its reading of the two 2024 resolutions (paragraph 70). No stored file describes the resolution's operative content, so the summary is limited to what these files show; version 1's 'China-led', its account of the content, the evaluative sentence, the 97th plenary meeting, the document date of 5 July 2024 and the Group of Friends were removed."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-03/extra-5b0fdfb5ea/2026-10-17/official.pdf",
+    "sha256": "fed5408c25b61745e6dae2e570d05528aef6b7301436d3311dc6382ee319249b",
+    "locator": "page 8, footnote 3",
+    "quote": "“Enhancing international cooperation on capacity-building of artificial intelligence” (78/311)",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-03/extra-b7f01f7b52/2026-10-17/official.pdf",
+    "sha256": "99f17e7202d3692d107a8c979660e8db2af7107937ca583199d84a8325c56e5c",
+    "locator": "page 1, second preambular paragraph",
+    "quote": "78/265 of 21 March 2024, 78/311 of 1 July 2024",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-03/extra-b7f01f7b52/2026-10-17/official.pdf",
+    "sha256": "99f17e7202d3692d107a8c979660e8db2af7107937ca583199d84a8325c56e5c",
+    "locator": "page 1, second preambular paragraph",
+    "quote": "78/311 of 1 July 2024",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-03/extra-b7f01f7b52/2026-10-17/official.pdf",
+    "sha256": "99f17e7202d3692d107a8c979660e8db2af7107937ca583199d84a8325c56e5c",
+    "locator": "page 1, second preambular paragraph",
+    "quote": "Recalling also its resolutions 77/320 of 25 July 2023, 78/213 of 19 December 2023, 78/265 of 21 March 2024, 78/311 of 1 July 2024",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-03/extra-5b0fdfb5ea/2026-10-17/official.pdf",
+    "sha256": "fed5408c25b61745e6dae2e570d05528aef6b7301436d3311dc6382ee319249b",
+    "locator": "page 43, paragraph 70",
+    "quote": "The two General Assembly resolutions on AI adopted in 2024 so far",
+    "source_kind": "alt-official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-03/extra-b7f01f7b52/2026-10-17/official.pdf",
+    "sha256": "99f17e7202d3692d107a8c979660e8db2af7107937ca583199d84a8325c56e5c",
+    "locator": "page 1, second preambular paragraph",
+    "quote": "78/311 of 1 July 2024",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-03/extra-5b0fdfb5ea/2026-10-17/official.pdf",
+    "sha256": "fed5408c25b61745e6dae2e570d05528aef6b7301436d3311dc6382ee319249b",
+    "locator": "page 43, footnote 15",
+    "quote": "78/311 (enhancing international cooperation on capacity-building of artificial intelligence)",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-03/extra-5b0fdfb5ea/2026-10-17/official.pdf",
+    "sha256": "fed5408c25b61745e6dae2e570d05528aef6b7301436d3311dc6382ee319249b",
+    "locator": "page 8, footnote 3",
+    "quote": "the two General Assembly resolutions on AI in 2024",
+    "source_kind": "alt-official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "rewritten from the stored files only: the title, the date and the Advisory Body's reading of the two 2024 resolutions; version 1's 'China-led', its account of the content and the evaluative 'Its safety content is limited' are not shown by any stored file",
+   "notes": "the 97th plenary meeting, the document date and the Group of Friends removed (no stored file shows them); the recall in resolution 79/325 and its capacity-gaps topic added",
+   "verification.note": "rewritten for the files stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "official_identifier",
+   "issuing_body"
+  ],
+  "status_reasoning": "Resolution 79/325 of 26 August 2025 recalls '78/311 of 1 July 2024' among the Assembly's resolutions, and no stored file shows a later resolution replacing it; 'Published (non-binding, current)' stands.",
+  "scope_reasoning": "A General Assembly resolution on international cooperation in AI capacity-building; in scope with no note as an intergovernmental resolution on AI."
+ },
+ "extra_urls": [
+  {
+   "url": "https://www.un.org/sites/un2.un.org/files/governing_ai_for_humanity_final_report_en.pdf",
+   "reason": "High-level Advisory Body final report (stored in this run): title with '(78/311)'."
+  },
+  {
+   "url": "https://www.un.org/pga/wp-content/uploads/sites/110/2025/12/A_RES_79_325-EN.pdf",
+   "reason": "A/RES/79/325 (stored in this run): '78/311 of 1 July 2024'."
+  }
+ ],
+ "leads": [],
+ "open_questions": [
+  "No stored file shows the resolution's operative content: its text is on documents.un.org and the Digital Library, both closed to the archiver, and the press.un.org meeting coverage returns a Client Challenge page. The summary therefore says only what the instrument is; its provisions, who introduced it and how it was adopted need the text, which a person can provide (AGENTS.md section 7.8).",
+  "safety_topics has one value, 'international cooperation' (the title), below the minimum of two; no stored file shows a provision that would support a second topic, so none was added. It needs the resolution's text."
+ ]
+}

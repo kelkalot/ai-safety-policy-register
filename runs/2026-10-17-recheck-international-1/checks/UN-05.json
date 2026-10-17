@@ -1,0 +1,66 @@
+{
+ "cand_id": "UN-05",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "un.org Pact page and A/RES/79/325 name the Global Digital Compact as annex I of 'The Pact for the Future' (79/1)."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Resolution 79/1 of the General Assembly (A/RES/79/325 preamble)."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "Summit page: 'Pact for the Future (A/RES/79/1)'; A/RES/79/325 footnote 'Resolution 79/1, annex I'."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Summit page: adopted 22 September 2024; A/RES/79/325 confirms."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Adopted; recalled in 2025 by A/RES/79/325; not superseded."
+  },
+  "legal_force": {
+   "verdict": "judgment-differs",
+   "why": "The quote is a commitment from objective 5, not a statement of force; a General Assembly resolution annex is non-binding, as for the other UN records. Defensible."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "fifth objective calls for a balanced, inclusive and risk-based approach and for transparency, accountability and robust human oversight",
+   "verdict": "supported",
+   "locator": "A/79/L.2 text, paragraphs 50 and 55(d) (page 13)"
+  },
+  {
+   "claim": "commit to establish an Independent International Scientific Panel on AI and initiate a Global Dialogue on AI Governance",
+   "verdict": "supported",
+   "locator": "paragraph 56(a), (b)"
+  },
+  {
+   "claim": "standards bodies are asked for interoperable AI standards that uphold safety, reliability and human rights",
+   "verdict": "supported",
+   "locator": "paragraph 58"
+  },
+  {
+   "claim": "high-level review during the General Assembly's 82nd session",
+   "verdict": "supported",
+   "locator": "follow-up section: 'eighty-second session'"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "UN-02",
+  "UN-03"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": "Not AI-specific as a whole, but its AI objective is the operative text for the later Panel and Dialogue; version 1 had it with no note. Core is defensible."
+ },
+ "overall": "accept",
+ "note": "The summary is written from objective 5 of the Compact as circulated in A/79/L.2 and each claim checked matches. The new official_url (un.org Pact page) is a stored un.org page. Removal of the meeting number and manner of adoption from the notes is right, since no stored file shows them. Title, date, status and identifier are supported at official level."
+}

@@ -1,0 +1,65 @@
+{
+ "cand_id": "G20-02",
+ "decision": "update",
+ "target_id": "G20-02",
+ "record": {
+  "official_url": "https://assets.publishing.service.gov.uk/media/6a996786f5b35599aec19180/g20-innovation-ministerial-statement.pdf",
+  "secondary_url": "https://www.whitehouse.gov/releases/2026/09/g20-innovation-ministerial-concludes-with-consensus-statement/"
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G20-02/extra-5fe799c7d8/2026-10-17/official.pdf",
+    "sha256": "3c7a87070da448a74fb7456cd0d4fda3b815562744ad0fc006505ec58e23c997",
+    "locator": "page 1",
+    "quote": "G20 INNOVATION MINISTERIAL STATEMENT",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G20-02/extra-0a99046693/2026-10-17/official.html",
+    "sha256": "4d426b39626d078d322178787531451071480d82ff221fe773f0bb8772df80f4",
+    "locator": "heading: G20 Innovation Ministerial Concludes with Consensus Statement",
+    "quote": "September 2, 2026",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G20-02/extra-0a99046693/2026-10-17/official.html",
+    "sha256": "4d426b39626d078d322178787531451071480d82ff221fe773f0bb8772df80f4",
+    "locator": "body",
+    "quote": "At the conclusion of the Ministerial, G20 Ministers released a consensus statement",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G20-02/extra-0a99046693/2026-10-17/official.html",
+    "sha256": "4d426b39626d078d322178787531451071480d82ff221fe773f0bb8772df80f4",
+    "locator": "body",
+    "quote": "The Ministerial was hosted by the Department of Commerce and the White House Office of Science and Technology Policy (OSTP).",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "official_url": "the statement's own text (PDF on the UK government publishing host) is stored; the Commerce press-release URL was not stored in this run",
+   "secondary_url": "White House release of 2 September 2026 is stored and confirms date, venue and the six pillars"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body"
+  ],
+  "status_reasoning": "Statement released 2 September 2026; no later amendment or withdrawal in stored texts."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}

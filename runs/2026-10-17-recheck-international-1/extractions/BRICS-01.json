@@ -1,0 +1,132 @@
+{
+ "cand_id": "BRICS-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "BRICS-01",
+ "record": {
+  "official_url": "http://static.kremlin.ru/media/events/files/en/PRYUmwJ4A1XAvTILFOjFtl869IQDyOLl.pdf",
+  "verification": {
+   "note": "Stored: the Kremlin's readout of the plenary session of the 17th BRICS Summit (6 July 2025, en.kremlin.ru), which names the statement among the documents adopted after the summit; the statement's English text (7 pages) on the Kremlin's file server static.kremlin.ru, linked as 'Statement' from that readout; and the Chinese Foreign Ministry's Chinese text (mfa.gov.cn, posted 9 July 2025). static.kremlin.ru is not yet listed as an official host, so the English text counts as secondary evidence until a person records it. The Brazilian chairship's own copy (brics.br) fails DNS lookup and the Brazilian Foreign Ministry's press note on gov.br answers with a human-verification page, so the Portuguese title in original_title and the existence of a Portuguese version rest on no stored file."
+  },
+  "summary": "Statement adopted with the final declaration of the 17th BRICS Summit in Rio de Janeiro. It sets guidelines for AI in the non-military domain: the United Nations at the core of global AI governance, digital sovereignty and each country's right to its own regulatory framework, fair competition, data governance, fair access to AI technology and critical components, copyright protection with transparency over model inputs and outputs, open-source development and inclusive standard-setting. It calls for human oversight, bias mitigation and action against realistic fake content, commits to addressing immediate and long-term risks and malicious use, and calls for a 'prudent approach' to AGI.",
+  "safety_topics": [
+   "international cooperation",
+   "general-purpose / frontier AI",
+   "human oversight",
+   "deepfakes & synthetic media",
+   "accountability & liability",
+   "transparency & labelling"
+  ],
+  "notes": "Adopted on 6 July 2025; the Kremlin's summit readout lists it with the final Declaration and the Leaders' Framework Declaration on Climate Finance as the documents adopted after the summit. The statement says the guidelines 'strictly refer to the use of AI in the non-military domain' and that BRICS 'will remain open to revisiting them', welcoming contributions from other developing countries. It calls for operationalising the UN Global Dialogue on AI Governance and the International Independent Scientific Panel on AI. The 2026 New Delhi Declaration (BRICS-02, paragraph 81) commits members to implement it. China's Foreign Ministry published a Chinese text on 9 July 2025."
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/BRICS-01/extra-dd696a6d00/2026-10-17/official.pdf",
+    "sha256": "7b00730021709f6b144cd3ddb1a6a6b19971acb0cde7ff2a7cf51ccd4a52b829",
+    "locator": "page 1, title",
+    "quote": "BRICS LEADERS’ STATEMENT ON THE GLOBAL GOVERNANCE OF ARTIFICIAL INTELLIGENCE",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/BRICS-01/2026-10-11/secondary.html",
+    "sha256": "345d8f9001f060d678d126165b4d79ad304a593408b1f792492d7f0e63d0dce4",
+    "locator": "news item, second paragraph",
+    "quote": "BRICS Leaders’ Statement on the Global Governance of Artificial Intelligence",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/BRICS-01/extra-501ba91120/2026-10-17/official.html",
+    "sha256": "ef156b2398ef6dc19d9cfc5e32d3365af7ae2492651dcf58b0edc5f2e4fc9fce",
+    "locator": "document heading (Chinese text)",
+    "quote": "金砖国家领导人关于人工智能全球治理的声明",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/BRICS-01/2026-10-11/secondary.html",
+    "sha256": "345d8f9001f060d678d126165b4d79ad304a593408b1f792492d7f0e63d0dce4",
+    "locator": "news item, dateline",
+    "quote": "July 6, 2025",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/BRICS-01/2026-10-11/secondary.html",
+    "sha256": "345d8f9001f060d678d126165b4d79ad304a593408b1f792492d7f0e63d0dce4",
+    "locator": "Publication status",
+    "quote": "Publication date: July 6, 2025, 18:15",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/BRICS-01/2026-10-11/secondary.html",
+    "sha256": "345d8f9001f060d678d126165b4d79ad304a593408b1f792492d7f0e63d0dce4",
+    "locator": "news item, second paragraph",
+    "quote": "After the 17th BRICS Summit the final Declaration, BRICS Leaders’ Statement on the Global Governance of Artificial Intelligence and Leaders’ Framework Declaration on Climate Finance have been adopted.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/BRICS-01/extra-dd696a6d00/2026-10-17/official.pdf",
+    "sha256": "7b00730021709f6b144cd3ddb1a6a6b19971acb0cde7ff2a7cf51ccd4a52b829",
+    "locator": "page 1",
+    "quote": "we, the BRICS Leaders, have agreed on a set of guidelines to foster responsible development, deployment, and use of AI technologies",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/BRICS-01/2026-10-11/secondary.html",
+    "sha256": "345d8f9001f060d678d126165b4d79ad304a593408b1f792492d7f0e63d0dce4",
+    "locator": "news item, first paragraph",
+    "quote": "in the main plenary session of the 17th BRICS Summit in Rio de Janeiro, under Brazilian Chairmanship",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/BRICS-01/extra-dd696a6d00/2026-10-17/official.pdf",
+    "sha256": "7b00730021709f6b144cd3ddb1a6a6b19971acb0cde7ff2a7cf51ccd4a52b829",
+    "locator": "page 1",
+    "quote": "should be applied through either domestic or applicable international frameworks, as well as through the development of interoperable standards and protocols",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "official_url": "the statement's English text as published by a BRICS member government (Russia's Presidential Executive Office), linked as 'Statement' from the stored Kremlin readout and stored in this run; the chairship's brics.br host does not resolve",
+   "summary": "checked against the stored English text: 'First standalone BRICS leaders' text' removed (no stored file says so); 'compute' replaced by the text's 'AI technology and critical components'; human oversight ('ultimate authority and oversight from humans'), bias mitigation and fake content ('Stick to the Facts') added",
+   "safety_topics": "'human oversight' and 'deepfakes & synthetic media' added for the sections 'Public Interest Comes First' and 'Stick to the Facts'",
+   "notes": "the call to operationalise the UN Global Dialogue and the Scientific Panel and the Chinese Foreign Ministry's text added; 'A Portuguese version was published by Brazil' removed, since it rests on no stored file (open question)",
+   "verification.note": "rewritten for the files stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "The Kremlin readout, dated 6 July 2025, says the statement was adopted after the 17th summit. A leaders' statement is non-binding and stays current; nothing stored or seen suggests it was replaced (the 2026 New Delhi Declaration, BRICS-02 paragraph 81, commits members to implement it). 'Published (non-binding, current)' stands.",
+  "scope_reasoning": "AI-specific intergovernmental statement; in scope with no note.",
+  "summary_check": "Against the stored English text: 'The United Nations is Central to Global AI Governance'; 'Digital Sovereignty and the Right to Development' (own regulatory frameworks); 'Fair Competition and Market Regulation'; 'Data Governance is Key'; 'access to AI technology and critical components'; copyright and 'transparency over AI model inputs and outputs'; 'opensource development'; 'International Standards Should Lead to Inclusive, Representative and Accessible AI'; 'ultimate authority and oversight from humans'; 'Discriminatory Bias must be Mitigated'; 'realistic fake text, images, audio, and video content'; 'immediate and long-term risks' and 'malicious uses'; 'A Prudent Approach is Needed Towards AGI'. The Chinese page was used only for the title in Chinese."
+ },
+ "extra_urls": [
+  {
+   "url": "http://static.kremlin.ru/media/events/files/en/PRYUmwJ4A1XAvTILFOjFtl869IQDyOLl.pdf",
+   "reason": "the statement's English text (7 pages), linked as 'Statement' from the stored Kremlin readout of 6 July 2025; the only reachable copy of the text (brics.br does not resolve; gov.br answers with a human-verification page); needed to check the summary and notes; proposed as official_url"
+  },
+  {
+   "url": "https://www.mfa.gov.cn/web/gjhdq_676201/gjhdqzz_681964/jzgj_682158/zywj_682170/202507/t20250709_11668022.shtml",
+   "reason": "the Chinese Foreign Ministry's publication of the statement (Chinese text, 9 July 2025) on an official host: a member government's official text, corroborating the title and content"
+  }
+ ],
+ "leads": [],
+ "open_questions": [
+  "static.kremlin.ru, the Kremlin's file server that the official en.kremlin.ru page links to for the statement's text, is not in pipeline/official-sites.json, so quotes from the stored PDF count as secondary until a person records the host (operator: Presidential Executive Office of the President of Russia). With it recorded, title and status would rest on official evidence; date_published would still rest on the readout, stored as the record's secondary source.",
+  "original_title holds a Portuguese title ('Declaração dos Líderes do BRICS sobre Governança Global da Inteligência Artificial') that no stored file supports, and language is English; the Brazilian versions (brics.br, which does not resolve, and the gov.br press note, which answers with a human-verification page) cannot be stored. A person could provide the Portuguese text (archive.py --provide) or decide to clear the field."
+ ]
+}

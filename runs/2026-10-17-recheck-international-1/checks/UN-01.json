@@ -1,0 +1,53 @@
+{
+ "cand_id": "UN-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "unsupported",
+   "why": "No file stored for this candidate shows the title. The text of A/RES/79/239 (stored under UN-10, unidir.org, a host not listed as official) cites 'resolution 78/241 of 22 December 2023 on lethal autonomous weapons systems', which fits; the extractor's request to store it under UN-01 was not yet run."
+  },
+  "date_published": {
+   "verdict": "unsupported",
+   "why": "No stored file for UN-01 shows 2023-12-22. The UN-10 copy of A/RES/79/239 (page 3) gives 'resolution 78/241 of 22 December 2023', which fits the value; it needs storing under UN-01 (extra_urls) and counts as secondary."
+  },
+  "status": {
+   "verdict": "unsupported",
+   "why": "No stored file for UN-01 shows the status. A/RES/79/239 notes the report submitted under 78/241, so it is not withdrawn; the value is unchanged by this run."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "A General Assembly resolution; the 'on recommendation of the First Committee' wording is unchanged and not shown by a stored file."
+  },
+  "official_identifier": {
+   "verdict": "unsupported",
+   "why": "A/RES/78/241 is cited by symbol in the UN-10 copy of A/RES/79/239 but no file stored for UN-01 shows it."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "UN General Assembly resolution; recommendatory by nature ('calls on', 'encourages'), consistent with the other UN resolution records."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "asks the Secretary-General for a report gathering the views of States and other stakeholders",
+   "verdict": "supported",
+   "locator": "UN-10 copy of A/RES/79/239, page 3: 'the report of the Secretary-General submitted pursuant to ... resolution 78/241 of 22 December 2023 on lethal autonomous weapons systems' (A/79/88); the request itself is not shown"
+  },
+  {
+   "claim": "the first UNGA resolution on lethal autonomous weapons systems",
+   "verdict": "unsupported",
+   "locator": "no stored file says it was the first"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "UN General Assembly resolution on lethal autonomous weapons, a government safety instrument at intergovernmental level."
+ },
+ "overall": "accept-with-fixes",
+ "note": "The run's changes (notes and verification note) are supported: the notes on the Group of Governmental Experts and the New Agenda for Peace match the stored UNODA page, and removing 'Austria-led' and the A/79/88 remark is right because no stored file shows them. Title, date, status and identifier have no stored evidence for this candidate; they are unchanged and should become open questions. A/RES/79/239 (stored under UN-10) cites 78/241 of 22 December 2023 and would support them if stored under UN-01. The summary claim that it is the first resolution on the topic is not found in any stored text. A later LAWS resolution (80/57) is not in the register (collector lead)."
+}

@@ -1,0 +1,44 @@
+{
+ "cand_id": "G7-02",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "testing/red-teaming and attention to CBRN, self-replicating models, chain-reaction events",
+   "verdict": "supported",
+   "locator": "page 3"
+  },
+  {
+   "claim": "watermarking, insider threat, transparency reports",
+   "verdict": "supported",
+   "locator": "pages 3-5"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Date rests on the Leaders statement of 30 Oct 2023 that attaches the Code; summary claims found in the Code text. No revised Code found."
+}

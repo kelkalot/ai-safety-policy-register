@@ -1,0 +1,126 @@
+{
+ "cand_id": "G20-02",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "G20-02",
+ "record": {
+  "official_url": "https://assets.publishing.service.gov.uk/media/6a996786f5b35599aec19180/g20-innovation-ministerial-statement.pdf",
+  "secondary_url": "https://www.whitehouse.gov/releases/2026/09/g20-innovation-ministerial-concludes-with-consensus-statement/",
+  "summary": "Consensus statement of G20 ministers at the Innovation Ministerial in Chapel Hill, North Carolina, ending 2 September 2026. It presents emerging technologies as drivers of prosperity when 'deployed in a secure and reliable manner', supports sector-specific, risk-based approaches where appropriate and calls on members to preserve national sovereignty in technology governance. Six pillars cover pro-innovation policy, AI in public services, workforce skills, intellectual property policies for AI, 'AI for standards and standards for AI' and supply chains. The Carolina Principles favour secure real-world testing and existing sector-specific regulation, with new rules only for novel issues.",
+  "notes": "The White House lists the African Union, Argentina, Australia, Brazil, Canada, China, the European Union, France, Germany, India, Indonesia, Italy, Japan, Mexico, Poland, Russia, Saudi Arabia, South Korea, Türkiye and the United Kingdom as present at the two-day ministerial, which the Department of Commerce and the White House Office of Science and Technology Policy hosted. The other deliverables were the G20 AI Prosperity Objectives and the AI Prosperity Compact, on technical workforce development through voluntary partnerships. The UK government published the statement on 4 September 2026. It contains no provisions on frontier-model risks or AI safety institutes.",
+  "verification": {
+   "note": "Stored: the statement's text (7 pages) as published by the UK government (assets.publishing.service.gov.uk), with the title, the Chapel Hill meeting, the preamble, the six pillars and the Carolina Principles but no date; the UK publication page (gov.uk), 'agreed by the G20 ministers who met in North Carolina, United States on 2 September 2026', published 4 September 2026; and the White House release of 2 September 2026, which gives the two-day ministerial, its hosts, the consensus, the other deliverables and the delegations present. The Commerce Department's press release refuses the archiver (HTTP 403; the browser retry times out) and its links to the documents are tracking redirects, so the US presidency's own copy of the text was not stored. The texts of the AI Prosperity Objectives and the AI Prosperity Compact were not stored."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G20-02/extra-5fe799c7d8/2026-10-17/official.pdf",
+    "sha256": "3c7a87070da448a74fb7456cd0d4fda3b815562744ad0fc006505ec58e23c997",
+    "locator": "page 1, title",
+    "quote": "G20 INNOVATION MINISTERIAL STATEMENT",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G20-02/extra-db7a16ff49/2026-10-17/official.html",
+    "sha256": "84adfce341246ed1500a3f1d0269e88a6a82336ad77c05376f4476373d2b0b53",
+    "locator": "page heading",
+    "quote": "G20 Innovation Ministerial Statement: 2 September 2026",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G20-02/extra-0a99046693/2026-10-17/official.html",
+    "sha256": "4d426b39626d078d322178787531451071480d82ff221fe773f0bb8772df80f4",
+    "locator": "release, dateline and first paragraph",
+    "quote": "September 2, 2026 Today, G20 member ministers concluded a two-day Innovation Ministerial in Chapel Hill, North Carolina.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G20-02/extra-db7a16ff49/2026-10-17/official.html",
+    "sha256": "84adfce341246ed1500a3f1d0269e88a6a82336ad77c05376f4476373d2b0b53",
+    "locator": "summary",
+    "quote": "G20 Innovation Ministerial Statement agreed by the G20 ministers who met in North Carolina, United States on 2 September 2026.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G20-02/extra-0a99046693/2026-10-17/official.html",
+    "sha256": "4d426b39626d078d322178787531451071480d82ff221fe773f0bb8772df80f4",
+    "locator": "release",
+    "quote": "At the conclusion of the Ministerial, G20 Ministers released a consensus statement",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G20-02/extra-5fe799c7d8/2026-10-17/official.pdf",
+    "sha256": "3c7a87070da448a74fb7456cd0d4fda3b815562744ad0fc006505ec58e23c997",
+    "locator": "page 1, preamble",
+    "quote": "We, Ministers of the G20 who assembled in Chapel Hill, recognize that emerging technologies",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G20-02/extra-0a99046693/2026-10-17/official.html",
+    "sha256": "4d426b39626d078d322178787531451071480d82ff221fe773f0bb8772df80f4",
+    "locator": "release, first paragraph",
+    "quote": "The Ministerial was hosted by the Department of Commerce and the White House Office of Science and Technology Policy (OSTP).",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G20-02/extra-5fe799c7d8/2026-10-17/official.pdf",
+    "sha256": "3c7a87070da448a74fb7456cd0d4fda3b815562744ad0fc006505ec58e23c997",
+    "locator": "page 1, preamble",
+    "quote": "We, Ministers of the G20 who assembled in Chapel Hill",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G20-02/extra-5fe799c7d8/2026-10-17/official.pdf",
+    "sha256": "3c7a87070da448a74fb7456cd0d4fda3b815562744ad0fc006505ec58e23c997",
+    "locator": "page 1, preamble",
+    "quote": "We call on members to develop their own policies and preserve national sovereignty in the governance of emerging technologies",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "official_url": "the statement's own text, as published by a G20 member government (UK); the Commerce Department's press release is not the text and refuses the archiver",
+   "secondary_url": "the White House release of 2 September 2026 (US presidency), which gives the date, the hosts and the delegations present, in place of the PDF now proposed as official_url",
+   "summary": "rewritten from the stored text and the White House release: 'the first AI-related outcome of the US presidency' removed (no stored file says so); the consensus and the end date of the ministerial now rest on the release",
+   "notes": "the delegations list and the hosts now rest on the White House release (the Commerce release is not stored); the Leaders' Summit date and the soumu.go.jp copy, which rested on unstored pages, removed; the UK publication date added; the comparison with the Johannesburg declaration reduced to what the text lacks",
+   "verification.note": "rewritten for the files stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "The White House release dated 2 September 2026 says the ministers concluded the two-day ministerial that day and released a consensus statement; the UK page says the statement was agreed on 2 September 2026. A ministerial statement is non-binding and stays current: 'Published (non-binding, current)', date_published 2026-09-02.",
+  "scope_reasoning": "Intergovernmental ministerial statement mainly about AI and emerging-technology governance; in scope with no note.",
+  "summary_check": "Preamble (page 1), Pillar 1 and the Carolina Principles (pages 1-2), Pillars 2-6 (pages 3-7) of the stored PDF; 'consensus statement' and the end of the two-day ministerial on 2 September 2026 from the White House release."
+ },
+ "extra_urls": [
+  {
+   "url": "https://www.whitehouse.gov/releases/2026/09/g20-innovation-ministerial-concludes-with-consensus-statement/",
+   "reason": "the US presidency's release dated 2 September 2026: two-day ministerial in Chapel Hill hosted by Commerce and OSTP, consensus statement, six pillars, Carolina Principles, other deliverables and the delegations present; evidence for date_published, issuing_body and the notes, in place of the Commerce release that refuses the archiver (HTTP 403); proposed as secondary_url"
+  },
+  {
+   "url": "https://www.gov.uk/government/publications/g20-innovation-ministerial-statement-2-september-2026",
+   "reason": "UK government publication page of the statement: 'agreed by the G20 ministers who met in North Carolina, United States on 2 September 2026', with the link to the PDF; evidence for date_published"
+  },
+  {
+   "url": "https://assets.publishing.service.gov.uk/media/6a996786f5b35599aec19180/g20-innovation-ministerial-statement.pdf",
+   "reason": "the statement's own text, linked from the UK publication page, stored in its role as the proposed official_url (it is now stored only as the record's secondary source)"
+  }
+ ],
+ "leads": [],
+ "open_questions": []
+}

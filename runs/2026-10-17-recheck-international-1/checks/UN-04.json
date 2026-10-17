@@ -1,0 +1,57 @@
+{
+ "cand_id": "UN-04",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Copyright page: 'Governing AI for Humanity: Final Report'."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Annex B and 'About' page: convened by the UN Secretary-General, formed October 2023."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Cover shows 'September 2024' with no day, so YYYY-MM is right."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "The report is the final of the body's two reports (Annex B), and the Scientific Panel FAQ says the body concluded its work in 2024."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "Report of an advisory body, 'majority consensus'; recommendations only."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "None: the report has no document symbol on the stored copy."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "seven recommendations: scientific panel, policy dialogue, AI standards exchange, capacity development network, global fund for AI, global AI data framework, AI office",
+   "verdict": "supported",
+   "locator": "contents list, page 3 to 4; sections pages 40 to 70"
+  },
+  {
+   "claim": "does not currently recommend an international AI agency",
+   "verdict": "supported",
+   "locator": "page 73: 'we do not currently recommend establishing such an agency.'"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "UN-02",
+  "UN-03",
+  "UN-07"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "All values are supported by the stored report and by the Scientific Panel FAQ on un.org. The note that recommendations 1 and 2 were taken up in the Global Digital Compact and established by resolution 79/325 is backed by the FAQ page. No newer edition found."
+}

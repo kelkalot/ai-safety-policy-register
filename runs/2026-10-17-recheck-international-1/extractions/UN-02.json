@@ -1,0 +1,155 @@
+{
+ "cand_id": "UN-02",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "UN-02",
+ "record": {
+  "secondary_url": "https://news.un.org/en/story/2024/03/1147831",
+  "summary": "The first General Assembly resolution on regulating artificial intelligence. It calls on Member States and stakeholders to refrain from or cease using AI systems that cannot be operated in compliance with international human rights law or that pose undue risks to human rights, and affirms that the rights people have offline must also be protected online throughout the life cycle of AI systems. It urges States, the private sector, civil society, research organisations and the media to develop and support regulatory and governance approaches for safe, secure and trustworthy AI, and to help developing countries close the digital divide.",
+  "safety_topics": [
+   "international cooperation",
+   "prohibited practices"
+  ],
+  "notes": "Introduced by the United States and co-sponsored by more than 120 Member States; adopted without a vote on 21 March 2024. The second General Assembly resolution on AI that year, 78/311 of 1 July 2024 on capacity-building, is UN-03; both are recalled in resolution 79/325 of 26 August 2025 (UN-07).",
+  "verification": {
+   "note": "The resolution's own text could not be stored: the UN Digital Library record (official_url) returns a bot-check page, the press.un.org meeting coverage GA/12588 (the previous secondary_url) returns a JavaScript 'Client Challenge' page also in a browser, and documents.un.org is closed to automated downloads by robots.txt. Stored in this run instead, all from un.org hosts: the spokesperson's briefing of the President of the General Assembly of 21 March 2024 (title, adoption that morning, introduced by the United States, co-sponsored by over 120 Member States); the UN News article of 21 March 2024 (date, adoption without a vote, quotations of the operative text); the UN Photo caption of the adoption; A/RES/79/325, which recalls '78/265 of 21 March 2024'; and the High-level Advisory Body's final report, which names the resolution with its number. The summary is written from the operative text that UN News quotes. Version 1's meeting number, document date and the topics 'transparency & labelling' and 'accountability & liability' are not shown by any stored file and were removed; the UN News article is proposed as secondary_url because it can be stored and carries the content."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-02/extra-e0b7fda5d4/2026-10-17/official.html",
+    "sha256": "7cbf77b218ef4bce402d0df34cc3baebe403d7f9c3f0a38a75b4844c7373552c",
+    "locator": "GA ADOPTS RESOLUTION ON ARTIFICIAL INTELLIGENCE FOR SUSTAINABLE DEVELOPMENT",
+    "quote": "This morning, the General Assembly adopted the draft resolution “Seizing the opportunities of safe, secure and trustworthy artificial intelligence systems for sustainable development”.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-02/extra-5b0fdfb5ea/2026-10-17/official.pdf",
+    "sha256": "fed5408c25b61745e6dae2e570d05528aef6b7301436d3311dc6382ee319249b",
+    "locator": "page 8, footnote 3",
+    "quote": "“Seizing the opportunities of safe, secure and trustworthy artificial intelligence systems for sustainable development” (78/265)",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-02/extra-b7f01f7b52/2026-10-17/official.pdf",
+    "sha256": "99f17e7202d3692d107a8c979660e8db2af7107937ca583199d84a8325c56e5c",
+    "locator": "page 1, second preambular paragraph",
+    "quote": "78/265 of 21 March 2024",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-02/extra-ff9f94045b/2026-10-17/official.html",
+    "sha256": "1dade5416724fb5ba5274d74f86fa927272b374babd538b616c23c23cc4b7be8",
+    "locator": "General Assembly adopts landmark resolution on artificial intelligence",
+    "quote": "21 March 2024 SDGs The UN General Assembly on Thursday adopted a landmark resolution",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-02/extra-efa535474c/2026-10-17/official.html",
+    "sha256": "0072a28b85c1f5f9af43cec2a2bf10bb1f9a86e870157471d7be6febc7c1aac2",
+    "locator": "UN Photo caption",
+    "quote": "General Assembly Adopts Resolution on Safe, Secure and Trustworthy Artificial Intelligence Systems for Sustainable Development 21 March 2024",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-02/extra-ff9f94045b/2026-10-17/official.html",
+    "sha256": "1dade5416724fb5ba5274d74f86fa927272b374babd538b616c23c23cc4b7be8",
+    "locator": "General Assembly adopts landmark resolution on artificial intelligence",
+    "quote": "Adopting a United States-led draft resolution without a vote",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-02/extra-b7f01f7b52/2026-10-17/official.pdf",
+    "sha256": "99f17e7202d3692d107a8c979660e8db2af7107937ca583199d84a8325c56e5c",
+    "locator": "page 1, second preambular paragraph",
+    "quote": "Recalling also its resolutions 77/320 of 25 July 2023, 78/213 of 19 December 2023, 78/265 of 21 March 2024",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-02/extra-b7f01f7b52/2026-10-17/official.pdf",
+    "sha256": "99f17e7202d3692d107a8c979660e8db2af7107937ca583199d84a8325c56e5c",
+    "locator": "page 1, second preambular paragraph",
+    "quote": "78/265 of 21 March 2024",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-02/extra-5b0fdfb5ea/2026-10-17/official.pdf",
+    "sha256": "fed5408c25b61745e6dae2e570d05528aef6b7301436d3311dc6382ee319249b",
+    "locator": "page 39",
+    "quote": "General Assembly resolution 78/265 on seizing the opportunities of safe, secure and trustworthy AI systems for sustainable development, unanimously adopted in March 2024.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-02/extra-e0b7fda5d4/2026-10-17/official.html",
+    "sha256": "7cbf77b218ef4bce402d0df34cc3baebe403d7f9c3f0a38a75b4844c7373552c",
+    "locator": "GA ADOPTS RESOLUTION ON ARTIFICIAL INTELLIGENCE FOR SUSTAINABLE DEVELOPMENT",
+    "quote": "This morning, the General Assembly adopted the draft resolution",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-02/extra-ff9f94045b/2026-10-17/official.html",
+    "sha256": "1dade5416724fb5ba5274d74f86fa927272b374babd538b616c23c23cc4b7be8",
+    "locator": "Same rights, online and offline",
+    "quote": "The Assembly called on all Member States and stakeholders “to refrain from or cease the use of artificial intelligence systems that are impossible to operate in compliance with international human rights law",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "secondary_url": "the UN News article of 21 March 2024, which the archiver can store and which carries the date, the manner of adoption and the operative text; press.un.org GA/12588 returns a Client Challenge page even in a browser",
+   "summary": "rewritten from the operative text that UN News quotes; version 1's 'risk management' and 'content-provenance tools' are not shown by any stored file",
+   "safety_topics": "'transparency & labelling' and 'accountability & liability' removed, because no stored file shows a provision on them; 'prohibited practices' added for the call to refrain from or cease using AI systems that cannot be operated in compliance with international human rights law",
+   "notes": "'63rd plenary meeting' and 'document dated 1 Apr 2024' removed (no stored file shows them); introduction by the United States and co-sponsorship from the President's briefing; the link to UN-03 and UN-07 added",
+   "verification.note": "rewritten for the files stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "official_identifier",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "Adopted without a vote on 21 March 2024 (UN News; the President's briefing says 'this morning' on 21 March 2024). Resolution 79/325 of 26 August 2025 recalls it among the Assembly's resolutions in effect, and no stored file shows a later resolution replacing it. A General Assembly resolution of this kind calls on States and does not bind them, so 'Published (non-binding, current)' and 'Non-binding' stand.",
+  "scope_reasoning": "A General Assembly resolution on safe, secure and trustworthy AI; in scope with no note."
+ },
+ "extra_urls": [
+  {
+   "url": "https://news.un.org/en/story/2024/03/1147831",
+   "reason": "UN News, 21 March 2024 (stored in this run); proposed as secondary_url."
+  },
+  {
+   "url": "https://www.un.org/pga/78/2024/03/21/spokespersons-briefing-21-march-2024/",
+   "reason": "Spokesperson's briefing of the President of the General Assembly, 21 March 2024 (stored in this run): title, adoption, introduced by the United States."
+  },
+  {
+   "url": "https://www.un.org/sites/un2.un.org/files/governing_ai_for_humanity_final_report_en.pdf",
+   "reason": "High-level Advisory Body final report (stored in this run): the resolution's title with '(78/265)'."
+  },
+  {
+   "url": "https://www.un.org/pga/wp-content/uploads/sites/110/2025/12/A_RES_79_325-EN.pdf",
+   "reason": "A/RES/79/325 (stored in this run): '78/265 of 21 March 2024'."
+  },
+  {
+   "url": "https://media.un.org/photo/en/asset/oun7/oun71030611",
+   "reason": "UN Photo caption of 21 March 2024 (stored in this run)."
+  }
+ ],
+ "leads": [],
+ "open_questions": [
+  "The resolution's own text cannot be stored by the archiver (Digital Library bot-check, documents.un.org robots.txt, press.un.org Client Challenge). Whether it has provisions on transparency, labelling or accountability, which version 1 tagged ('transparency & labelling', 'accountability & liability') and its summary mentioned ('content-provenance tools', 'risk management'), cannot be checked until a person provides the text (AGENTS.md section 7.8, 'Provide a document'); the topics are limited to what the stored UN News quotations show."
+ ]
+}

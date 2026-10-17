@@ -1,0 +1,145 @@
+{
+ "cand_id": "UN-10",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "UN-10",
+ "record": {
+  "secondary_url": "https://unidir.org/wp-content/uploads/2025/03/UN_General_Assembly_A_RES_79_239-EN.pdf",
+  "notes": "Adopted on 24 December 2024 at the 55th (resumed) plenary meeting, on the report of the First Committee (A/79/408, para. 114), under agenda item 98, General and complete disarmament; the document is dated 31 December 2024. The resolution does not cover AI in the civilian domain. It notes the need for complementarity with the discussions on lethal autonomous weapons systems in the Group of Governmental Experts under the Convention on Certain Conventional Weapons and under resolution 78/241. The requested Secretary-General's report was issued as A/80/78 for the eightieth session.",
+  "verification": {
+   "note": "The official text on documents.un.org cannot be stored: the site's robots.txt closes it to the archiver (attempts on 11, 16 and 17 Oct 2026). Stored copies: the UNODA page on AI in the military domain (disarmament.unoda.org, 11 Oct 2026, the record's secondary source until now), which confirms the title, the adoption on 24 December 2024 on the recommendation of the First Committee, that it was the Assembly's first resolution on the topic and the follow-up report A/80/78; and the text of the resolution itself, the UN document A/RES/79/239 (4 pages, Distr.: General 31 December 2024), as published by UNIDIR (unidir.org, stored 17 Oct 2026), which confirms the title, symbol, adoption on 24 December 2024 at the 55th (resumed) plenary meeting on the report of the First Committee, the operative paragraphs in the summary and the exclusion of civilian AI. unidir.org is not yet recorded as an official host, so its quotes count as secondary; the level rests on the UNODA page (alt-official). The UNIDIR copy is now the secondary_url, so that the record's local copy holds the resolution's text. The UN meeting coverage of 24 December 2024 (press.un.org, GA/12671) returned only a client-challenge page, also in the browser. The UN Digital Library voting record, which returns a bot-check page to the archiver, reports the recorded vote as 159 in favour, 2 against and 5 abstentions."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-10/extra-d166e4a6c7/2026-10-17/official.pdf",
+    "sha256": "fd9e337b3779af4105fd4070180983ae17afae9f02e2dd33a75937d11f2432ca",
+    "locator": "page 1",
+    "quote": "79/239. Artificial intelligence in the military domain and its implications for international peace and security",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/UN-10/2026-10-11/secondary.html",
+    "sha256": "1dca333102c9925e1a7bc3f2d109e47eeb8bd180b4ba79622263c5b0665abb2d",
+    "locator": "Artificial intelligence in the military domain in the General Assembly",
+    "quote": "the General Assembly adopted resolution 79/239 entitled \"Artificial intelligence in the military domain and its implications for international peace and security\" – its first-ever resolution on this topic.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-10/extra-d166e4a6c7/2026-10-17/official.pdf",
+    "sha256": "fd9e337b3779af4105fd4070180983ae17afae9f02e2dd33a75937d11f2432ca",
+    "locator": "page 1",
+    "quote": "Resolution adopted by the General Assembly on 24 December 2024",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-10/extra-d166e4a6c7/2026-10-17/official.pdf",
+    "sha256": "fd9e337b3779af4105fd4070180983ae17afae9f02e2dd33a75937d11f2432ca",
+    "locator": "page 4",
+    "quote": "55th (resumed) plenary meeting 24 December 2024",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/UN-10/2026-10-11/secondary.html",
+    "sha256": "1dca333102c9925e1a7bc3f2d109e47eeb8bd180b4ba79622263c5b0665abb2d",
+    "locator": "Artificial intelligence in the military domain in the General Assembly",
+    "quote": "On 24 December 2024, on the recommendation of the First Committee, the General Assembly adopted resolution 79/239",
+    "source_kind": "alt-official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-10/extra-d166e4a6c7/2026-10-17/official.pdf",
+    "sha256": "fd9e337b3779af4105fd4070180983ae17afae9f02e2dd33a75937d11f2432ca",
+    "locator": "page 1",
+    "quote": "United Nations A/RES/79/239 General Assembly Distr.: General",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/UN-10/2026-10-11/secondary.html",
+    "sha256": "1dca333102c9925e1a7bc3f2d109e47eeb8bd180b4ba79622263c5b0665abb2d",
+    "locator": "Artificial intelligence in the military domain in the General Assembly",
+    "quote": "the General Assembly adopted resolution 79/239 entitled",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-10/extra-d166e4a6c7/2026-10-17/official.pdf",
+    "sha256": "fd9e337b3779af4105fd4070180983ae17afae9f02e2dd33a75937d11f2432ca",
+    "locator": "page 1",
+    "quote": "Resolution adopted by the General Assembly on 24 December 2024 [on the report of the First Committee (A/79/408 , para. 114 )]",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/UN-10/2026-10-11/secondary.html",
+    "sha256": "1dca333102c9925e1a7bc3f2d109e47eeb8bd180b4ba79622263c5b0665abb2d",
+    "locator": "Artificial intelligence in the military domain in the General Assembly",
+    "quote": "on the recommendation of the First Committee, the General Assembly adopted resolution 79/239",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-10/extra-d166e4a6c7/2026-10-17/official.pdf",
+    "sha256": "fd9e337b3779af4105fd4070180983ae17afae9f02e2dd33a75937d11f2432ca",
+    "locator": "page 3",
+    "quote": "Affirms that international law, including the Charter of the United Nations, international humanitarian law and international human rights law, applies to matters governed by it that occur throughout all stages of the life cycle of artificial intelligence",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/UN-10/2026-10-11/secondary.html",
+    "sha256": "1dca333102c9925e1a7bc3f2d109e47eeb8bd180b4ba79622263c5b0665abb2d",
+    "locator": "Artificial intelligence in the military domain in the General Assembly",
+    "quote": "In the resolution, the General Assembly, inter alia, affirms the applicability of international law throughout all stages of the lifecycle of AI and encourages States to address the opportunities and challenges related to AI in the military domain.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-10/extra-d166e4a6c7/2026-10-17/official.pdf",
+    "sha256": "fd9e337b3779af4105fd4070180983ae17afae9f02e2dd33a75937d11f2432ca",
+    "locator": "page 3",
+    "quote": "2. Encourages States to pursue national, regional, subregional and global efforts to address the opportunities and challenges",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/UN-10/2026-10-11/secondary.html",
+    "sha256": "1dca333102c9925e1a7bc3f2d109e47eeb8bd180b4ba79622263c5b0665abb2d",
+    "locator": "Artificial intelligence in the military domain in the General Assembly",
+    "quote": "encourages States to address the opportunities and challenges related to AI in the military domain",
+    "source_kind": "alt-official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "A General Assembly resolution adopted on 24 December 2024 at the 55th (resumed) plenary meeting (resolution text and UNODA page). It affirms, encourages, requests and decides on the Assembly's agenda, so it is non-binding. The follow-up resolution 80/58 (UN-11) builds on it and does not revoke it; it stays 'Published (non-binding, current)'.",
+  "scope_reasoning": "In scope without a note: an intergovernmental resolution on AI in the military domain (AGENTS.md section 10).",
+  "host_decision": "The proposed secondary_url is on unidir.org, the site of the UN Institute for Disarmament Research, which is not yet in pipeline/official-sites.json. It waits for a human decision (tools/pipeline.py hosts --add); until then its quotes count as secondary, and once the record's local copy is rebuilt from it the level can rest only on it and on the UNODA page if that page is requested again.",
+  "changes": {
+   "secondary_url": "The UNIDIR PDF is the UN document A/RES/79/239 itself (UN header, symbol, Distr.: General 31 December 2024, job number 24-24617, operative paragraphs 1-9, 55th (resumed) plenary meeting); neither official_url (documents.un.org, closed by robots.txt) nor the UNODA topic page gave the record a stored copy of its text.",
+   "notes": "Checked against the resolution text: added the 55th (resumed) plenary meeting and agenda item 98; 'explicitly excludes civilian AI' rendered as the text says it; the lethal autonomous weapons sentence now names what the text cites (the CCW Group of Governmental Experts and resolution 78/241) instead of 79/62, which the text does not mention; the vote figures ('not fetched') moved to verification.note.",
+   "verification.note": "Rewritten: the old note said the documents.un.org PDF was fetched and read, but no copy of it is stored; it now names the stored UNODA page and the UNIDIR copy of the resolution and what each confirms."
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "official_identifier",
+   "issuing_body",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "notes: the earlier notes named resolution 79/62 as part of the separate track on lethal autonomous weapons systems; the text of 79/239 cites only resolution 78/241 and the CCW Group of Governmental Experts, so 79/62 was taken out of the sentence (UN-06 stays a related record).",
+  "The recorded plenary vote (159-2-5) rests on the UN Digital Library voting record, which returns a bot-check page; press.un.org (GA/12671) returned only a client-challenge page. It is kept in verification.note, not in the record.",
+  "Host decision: unidir.org (UN Institute for Disarmament Research), now the secondary_url, waits for a human decision on whether it counts as an official host.",
+  "With the UNIDIR copy as secondary_url, the UNODA topic page leaves the record's local copy after the merge; it is the only stored source that the resolution was the Assembly's first on the topic (summary, first sentence). A later run can request it again as an extra source."
+ ]
+}

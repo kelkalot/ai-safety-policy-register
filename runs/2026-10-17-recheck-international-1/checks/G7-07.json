@@ -1,0 +1,44 @@
+{
+ "cand_id": "G7-07",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "twelve commitments by the Leaders of the G7",
+   "verdict": "supported",
+   "locator": "text"
+  },
+  {
+   "claim": "one of eight declarations issued 9 June 2018 at Charlevoix",
+   "verdict": "supported",
+   "locator": "catalogue record"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Date comes from the Government of Canada publications catalogue, which is official; the text page is undated."
+}

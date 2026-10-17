@@ -1437,6 +1437,134 @@
    "closed": null,
    "resolution": null,
    "title": "Human sample of run 2026-10-16-refresh-ids-br-01-us-il-01 (2 records)"
+  },
+  {
+   "key": "record:UN-01@2026-10-17-recheck-international-1",
+   "kind": "record",
+   "subject": "UN-01",
+   "run_id": "2026-10-17-recheck-international-1",
+   "held_back": false,
+   "why": "title is unsupported and the checker gave no evidence-backed fix; date_published is unsupported and the checker gave no evidence-backed fix; status is unsupported and the checker gave no evidence-backed fix; official_identifier is unsupported and the checker gave no evidence-backed fix; summary claim unsupported: 'the first UNGA resolution on lethal autonomous weapons systems'; title has no evidence; date_published has no evidence; status has no evidence",
+   "records": [
+    "UN-01"
+   ],
+   "title": "UN-01 UNGA resolution 78/241 on LAWS: open question from run 2026-10-17-recheck-international-1",
+   "state": "open",
+   "issue": 99,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/99",
+   "opened": "2026-10-17",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "record:UN-06@2026-10-17-recheck-international-1",
+   "kind": "record",
+   "subject": "UN-06",
+   "run_id": "2026-10-17-recheck-international-1",
+   "held_back": false,
+   "why": "title is unsupported and the checker gave no evidence-backed fix; date_published is unsupported and the checker gave no evidence-backed fix; status is unsupported and the checker gave no evidence-backed fix; official_identifier is unsupported and the checker gave no evidence-backed fix; summary claim unsupported: 'decides to hold open informal consultations in New York in 2025 on the Secretary'; title has no evidence; date_published has no evidence; status has no evidence",
+   "records": [
+    "UN-06"
+   ],
+   "title": "UN-06 UNGA resolution 79/62 on LAWS: open question from run 2026-10-17-recheck-international-1",
+   "state": "open",
+   "issue": 100,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/100",
+   "opened": "2026-10-17",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "record:UN-11@2026-10-17-recheck-international-1",
+   "kind": "record",
+   "subject": "UN-11",
+   "run_id": "2026-10-17-recheck-international-1",
+   "held_back": false,
+   "why": "date_published is unsupported and the checker gave no evidence-backed fix",
+   "records": [
+    "UN-11"
+   ],
+   "title": "UN-11 UNGA resolution 80/58 on AI in the military domain: open question from run 2026-10-17-recheck-international-1",
+   "state": "open",
+   "issue": 101,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/101",
+   "opened": "2026-10-17",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "record:UN-12@2026-10-17-recheck-international-1",
+   "kind": "record",
+   "subject": "UN-12",
+   "run_id": "2026-10-17-recheck-international-1",
+   "held_back": false,
+   "why": "date_published is unsupported and the checker gave no evidence-backed fix; date_last_updated is unsupported and the checker gave no evidence-backed fix; date_published has no evidence",
+   "records": [
+    "UN-12"
+   ],
+   "title": "UN-12 UN SG report A/80/78 on AI in the military domain: open question from run 2026-10-17-recheck-international-1",
+   "state": "open",
+   "issue": 102,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/102",
+   "opened": "2026-10-17",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "record:BRICS-01@2026-10-17-recheck-international-1",
+   "kind": "record",
+   "subject": "BRICS-01",
+   "run_id": "2026-10-17-recheck-international-1",
+   "held_back": false,
+   "why": "original_title is unsupported and the checker gave no evidence-backed fix",
+   "records": [
+    "BRICS-01"
+   ],
+   "title": "BRICS-01 BRICS AI Governance Statement (Rio, 2025): open question from run 2026-10-17-recheck-international-1",
+   "state": "open",
+   "issue": 103,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/103",
+   "opened": "2026-10-17",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "host:static.kremlin.ru",
+   "kind": "host",
+   "subject": "static.kremlin.ru",
+   "code": "BRICS",
+   "records": [
+    "BRICS-01"
+   ],
+   "why": "Quotes from this host counted as secondary because it is neither a government domain nor in pipeline/official-sites.json.",
+   "state": "open",
+   "issue": 104,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/104",
+   "opened": "2026-10-17",
+   "closed": null,
+   "resolution": null,
+   "title": "Is static.kremlin.ru an official site for BRICS?"
+  },
+  {
+   "key": "sample:2026-10-17-recheck-international-1",
+   "kind": "sample",
+   "subject": "2026-10-17-recheck-international-1",
+   "run_id": "2026-10-17-recheck-international-1",
+   "records": [
+    "BRICS-02",
+    "G7-02",
+    "UN-01",
+    "UN-04",
+    "UN-05"
+   ],
+   "why": "Human sample of run 2026-10-17-recheck-international-1: check each record against its stored sources.",
+   "state": "open",
+   "issue": 105,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/105",
+   "opened": "2026-10-17",
+   "closed": null,
+   "resolution": null,
+   "title": "Human sample of run 2026-10-17-recheck-international-1 (5 records)"
   }
  ],
  "repo": "kelkalot/every-ai-policy-ever"

@@ -1,0 +1,128 @@
+{
+ "cand_id": "G7-07",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "G7-07",
+ "record": {
+  "secondary_url": "https://publications.gc.ca/site/eng/9.859270/publication.html",
+  "verification": {
+   "note": "Stored and read in this run: Global Affairs Canada's page with the full English text and its PDF version (international.gc.ca, official), which confirm the title and the twelve commitments by 'the Leaders of the G7' but are undated; and the Government of Canada Publications catalogue record FR5-144/2018-27E-PDF (publications.gc.ca, official), which confirms the issue on 9 June 2018 as one of eight declarations of the Charlevoix summit (44th G7 summit, La Malbaie), Global Affairs Canada as publisher and the French edition's title; it is proposed as secondary_url so that the dated source stays in the record's local copy. The candidate's earlier publications.gc.ca PDF link leads to an archived-content notice with no text."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/G7-07/2026-10-16/official.html",
+    "sha256": "f0c740d427bc18f074e9aab4785f8b6a93cbda5f216e0fdb5836da53fee7effa",
+    "locator": "page heading",
+    "quote": "Charlevoix common vision for the future of artificial intelligence",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/G7-07/2026-10-16/document-1.pdf",
+    "sha256": "4945f65b4f9ecda7b4505ff0659d07270921e766025ed5632c02ee7a3b557291",
+    "locator": "page 2",
+    "quote": "CHARLEVOIX COMMON VISION FOR THE FUTURE OF ARTIFICIAL INTELLIGENCE",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/G7-07/2026-10-16/official.html",
+    "sha256": "f0c740d427bc18f074e9aab4785f8b6a93cbda5f216e0fdb5836da53fee7effa",
+    "locator": "commitments",
+    "quote": "We, the Leaders of the G7, commit to:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/G7-07/2026-10-16/document-1.pdf",
+    "sha256": "4945f65b4f9ecda7b4505ff0659d07270921e766025ed5632c02ee7a3b557291",
+    "locator": "page 2",
+    "quote": "WE, THE LEADERS OF THE G7, COMMIT TO:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-07/extra-10453fb8c9/2026-10-17/official.html",
+    "sha256": "b5fe206e8de5803f8c5cb3489b79eef2b3f6c2efad2fb021a069337df64c1b39",
+    "locator": "catalogue record, title",
+    "quote": "Charlevoix common vision for the future of artificial intelligence",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/G7-07/2026-10-16/official.html",
+    "sha256": "f0c740d427bc18f074e9aab4785f8b6a93cbda5f216e0fdb5836da53fee7effa",
+    "locator": "commitments",
+    "quote": "We, the Leaders of the G7, commit to:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-07/extra-10453fb8c9/2026-10-17/official.html",
+    "sha256": "b5fe206e8de5803f8c5cb3489b79eef2b3f6c2efad2fb021a069337df64c1b39",
+    "locator": "catalogue record, publication information",
+    "quote": "G7 Summit (44th : 2018 : La Malbaie, Qué.)",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/G7-07/2026-10-16/official.html",
+    "sha256": "f0c740d427bc18f074e9aab4785f8b6a93cbda5f216e0fdb5836da53fee7effa",
+    "locator": "commitments",
+    "quote": "Endeavour to promote human-centric AI and commercial adoption of AI",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-07/extra-10453fb8c9/2026-10-17/official.html",
+    "sha256": "b5fe206e8de5803f8c5cb3489b79eef2b3f6c2efad2fb021a069337df64c1b39",
+    "locator": "catalogue record, description",
+    "quote": "This document is one of eight declarations (statements of commitment) issued by the G7 leaders on June 9, 2018, during their summit in Charlevoix, Quebec",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-07/extra-10453fb8c9/2026-10-17/official.html",
+    "sha256": "b5fe206e8de5803f8c5cb3489b79eef2b3f6c2efad2fb021a069337df64c1b39",
+    "locator": "catalogue record, notes",
+    "quote": "Issued also in French under title: Vision commune de Charlevoix sur l'avenir de l'intelligence artificielle.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-07/extra-10453fb8c9/2026-10-17/official.html",
+    "sha256": "b5fe206e8de5803f8c5cb3489b79eef2b3f6c2efad2fb021a069337df64c1b39",
+    "locator": "catalogue record, publication information",
+    "quote": "Canada. Global Affairs Canada.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "secondary_url": "the Government of Canada Publications catalogue record, the official source for the date of issue, the summit and the French edition; the record had no secondary URL, so after a merge its local copy would have no dated source",
+   "verification.note": "rewritten for the sources stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "A leaders' declaration of commitments without binding force. Nothing stored withdraws or replaces it; later G7 AI texts (G7-01 to G7-06) do not refer to it as superseded. 'Published (non-binding, current)' stands.",
+  "summary_check": "The summary matches the twelve commitments on the stored page and PDF.",
+  "notes_check": "The references to the 2018 Montreal ministerial statement and the 2017 Torino Declaration and the list of other commitments match the stored text; the eight declarations, La Malbaie and the French title match the catalogue record."
+ },
+ "extra_urls": [
+  {
+   "url": "https://publications.gc.ca/site/eng/9.859270/publication.html",
+   "reason": "Government of Canada Publications catalogue record FR5-144/2018-27E-PDF: 'one of eight declarations ... issued by the G7 leaders on June 9, 2018, during their summit in Charlevoix', the 44th G7 summit (La Malbaie) and the French edition's title; the date of issue is not in the stored text; proposed as secondary_url"
+  }
+ ],
+ "leads": [],
+ "open_questions": []
+}

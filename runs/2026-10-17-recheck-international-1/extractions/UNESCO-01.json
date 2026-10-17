@@ -1,0 +1,119 @@
+{
+ "cand_id": "UNESCO-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "UNESCO-01",
+ "record": {
+  "summary": "UNESCO's global standard-setting instrument on the ethics of AI, which Member States are to apply on a voluntary basis. It says that unwanted harms (safety risks) and vulnerabilities to attack (security risks) should be avoided and addressed throughout the life cycle of AI systems, that an AI system can never replace ultimate human responsibility and accountability, and that, as a rule, life and death decisions should not be ceded to AI systems. AI should not be used for social scoring or mass surveillance. Member States are asked to introduce ethical impact assessment and liability frameworks and to develop standards with measurable, testable levels of safety and transparency.",
+  "safety_topics": [
+   "human oversight",
+   "accountability & liability",
+   "transparency & labelling",
+   "prohibited practices",
+   "evaluation & testing",
+   "public-sector use"
+  ],
+  "notes": "Adopted on 23 Nov 2021 at the 41st session of the General Conference, meeting in Paris from 9 to 24 Nov 2021; UNESCO says its 193 Member States adopted it. The General Conference mandated its preparation in November 2019 by 40 C/Resolution 37. To support implementation, the Recommendation commits UNESCO to develop a readiness assessment methodology and a methodology for ethical impact assessment of AI technologies.",
+  "verification": {
+   "note": "Stored copies (unesco.org, 11 Oct 2026; the archiver found them unchanged on 17 Oct 2026): UNESCO's legal-affairs page for the instrument, which carries the full text of the Recommendation, and UNESCO's AI ethics page, the record's secondary source. The legal-affairs page confirms the title, the adoption on 23 November 2021 in Paris at the 41st session of the General Conference, the voluntary application by Member States, the six language versions and the provisions in the summary. The PDF on unesdoc.unesco.org could not be stored (robots.txt on 11 Oct 2026, HTTP 403 on 17 Oct 2026); the page's text was used instead. The secondary page states that UNESCO's 193 Member States adopted it. The earlier summary's 'testing before market release of high-risk systems' is not in the text and was removed, as was the topic 'risk-based classification'."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/UNESCO-01/2026-10-11/official.html",
+    "sha256": "850609fd45e77fbf462813953083a42309dddbd4cc078acd5e6e3b79768e3dc0",
+    "locator": "Text, preamble",
+    "quote": "1. Adopts the present Recommendation on the Ethics of Artificial Intelligence on this twenty-third day of November 2021;",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/UNESCO-01/2026-10-11/official.html",
+    "sha256": "850609fd45e77fbf462813953083a42309dddbd4cc078acd5e6e3b79768e3dc0",
+    "locator": "page heading",
+    "quote": "Back to all instruments Recommendation Recommendation on the Ethics of Artificial Intelligence Date and place of adoption",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/UNESCO-01/2026-10-11/official.html",
+    "sha256": "850609fd45e77fbf462813953083a42309dddbd4cc078acd5e6e3b79768e3dc0",
+    "locator": "Text, preamble",
+    "quote": "The General Conference of the United Nations Educational, Scientific and Cultural Organization (UNESCO), meeting in Paris from 9 to 24 November 2021, at its 41st session,",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/UNESCO-01/2026-10-11/official.html",
+    "sha256": "850609fd45e77fbf462813953083a42309dddbd4cc078acd5e6e3b79768e3dc0",
+    "locator": "page heading",
+    "quote": "Recommendation on the Ethics of Artificial Intelligence Date and place of adoption 23 November 2021 Paris, France",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/UNESCO-01/2026-10-11/official.html",
+    "sha256": "850609fd45e77fbf462813953083a42309dddbd4cc078acd5e6e3b79768e3dc0",
+    "locator": "Text",
+    "quote": "Paris, France - 23 November 2021",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/UNESCO-01/2026-10-11/official.html",
+    "sha256": "850609fd45e77fbf462813953083a42309dddbd4cc078acd5e6e3b79768e3dc0",
+    "locator": "Text, preamble",
+    "quote": "2. Recommends that Member States apply on a voluntary basis the provisions of this Recommendation by taking appropriate steps",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/UNESCO-01/2026-10-11/secondary.html",
+    "sha256": "8b93490f1db4887ce7f102d1bf4ad428c353ee6c5543f3f2bfecfae14ec4efda",
+    "locator": "Recommendation on the Ethics of Artificial Intelligence",
+    "quote": "In November 2021, UNESCO's 193 Member States adopted the first global standard on AI ethics: the Recommendation on the Ethics of Artificial Intelligence.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/UNESCO-01/2026-10-11/official.html",
+    "sha256": "850609fd45e77fbf462813953083a42309dddbd4cc078acd5e6e3b79768e3dc0",
+    "locator": "Text, preamble",
+    "quote": "Recommends that Member States apply on a voluntary basis the provisions of this Recommendation",
+    "source_kind": "official"
+   }
+  ],
+  "language": [
+   {
+    "file": "archive/UNESCO-01/2026-10-11/official.html",
+    "sha256": "850609fd45e77fbf462813953083a42309dddbd4cc078acd5e6e3b79768e3dc0",
+    "locator": "page heading",
+    "quote": "Download PDF Arabic Chinese English French Russian Spanish",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Adopted by the General Conference on 23 November 2021 and to be applied by Member States 'on a voluntary basis'. UNESCO's legal-affairs page still lists it as a current instrument with its reporting page, and no revision or replacement appears on either stored page; it stays 'Published (non-binding, current)'.",
+  "scope_reasoning": "In scope without a note: an intergovernmental standard-setting instrument on AI ethics with safety, human-oversight and impact-assessment provisions (AGENTS.md section 10).",
+  "changes": {
+   "summary": "The old summary's 'testing before market release of high-risk systems' is not in the Recommendation; rewritten from the stored text (paras. 26, 27, 36, 50, 53, 64, 68 and the preamble's voluntary-basis clause).",
+   "safety_topics": "'risk-based classification' replaced by 'evaluation & testing': the Recommendation has no risk tiers but asks for ethical impact assessment, auditing and standards with testable levels of safety.",
+   "notes": "Reworded to the text: 40 C/Resolution 37 mandate, the 193 Member States from UNESCO's page, and the readiness and ethical impact assessment methodologies as commitments in para. 49.",
+   "verification.note": "Rewritten to say what the stored copies confirm and that the PDF could not be stored."
+  },
+  "confirmed": [
+   "title",
+   "issuing_body",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

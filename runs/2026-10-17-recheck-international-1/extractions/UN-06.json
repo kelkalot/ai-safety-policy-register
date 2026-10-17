@@ -1,0 +1,48 @@
+{
+ "cand_id": "UN-06",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "UN-06",
+ "record": {
+  "verification": {
+   "note": "PARTIAL. No stored file shows this resolution's title, date or text. The official_url (docs.un.org) is a JavaScript document viewer whose stored copies hold only the language menu; the resolution's PDF on documents.un.org is closed to automated downloads by robots.txt; the UN Digital Library returns a bot-check page; and the press.un.org meeting coverage of the plenary of 2 December 2024 (GA/12660) and of December 2025 (GA/12736), requested in this run, returned a JavaScript 'Client Challenge' page also in a browser. Stored in this run: a UN News article of 14 May 2025 on the two-day informal UN meeting on lethal autonomous weapon systems in New York, and UNODA's page on these systems, which supports the New Agenda for Peace recommendation in the notes. Title, date, status, the summary and the vote rest on version 1 and need the resolution's text."
+  }
+ },
+ "evidence": {},
+ "judgment": {
+  "changes": {
+   "verification.note": "rewritten for what this run could and could not store"
+  },
+  "confirmed": [],
+  "status_reasoning": "Not settled by any stored file. Nothing stored shows the resolution replaced or withdrawn; the published status 'Published (non-binding, current)' is left as it is.",
+  "scope_reasoning": "A General Assembly resolution on lethal autonomous weapons systems; in scope with no note.",
+  "notes_check": "The notes are supported where they speak of this record's own subject: UN News of 14 May 2025 reports the 'two-day meeting in New York' ('an informal UN meeting in New York focused on the use and impact of such weapons'), and UNODA's page gives the New Agenda for Peace recommendation 'that States conclude, by 2026, a legally binding instrument'. The sentences on A/RES/79/239 and 80/58 refer to records UN-10 and UN-11."
+ },
+ "extra_urls": [
+  {
+   "url": "https://news.un.org/en/story/2025/05/1163256",
+   "reason": "UN News, 14 May 2025 (stored in this run): the two-day informal meeting in New York; backs the notes."
+  },
+  {
+   "url": "https://disarmament.unoda.org/en/our-work/emerging-challenges/lethal-autonomous-weapon-systems",
+   "reason": "UNODA's page on lethal autonomous weapon systems (stored in this run): the New Agenda for Peace recommendation in the notes."
+  },
+  {
+   "url": "https://unodaweb-meetings.unoda.org/public/2025-05/Programme%20ver.%202025-05-02.pdf",
+   "reason": "UNODA's programme of the 'Open informal consultations on lethal autonomous weapons systems held in accordance with General Assembly resolution 79/62, 12-13 May 2025' (updated 2 May 2025), on UNODA's meetings host, found by a web search and opened (plain PDF). It cites the resolution by symbol and gives the consultations' dates and the report of the Secretary-General (A/79/88) they discussed; it does not give the resolution's adoption date. The host is not listed in pipeline/official-sites.json, so it would count as secondary until a person records it."
+  }
+ ],
+ "leads": [
+  {
+   "title": "Lethal autonomous weapons systems, General Assembly resolution 80/57 (1 December 2025)",
+   "url": "https://press.un.org/en/2025/ga12736.doc.htm",
+   "note": "The follow-up to 78/241 (UN-01) and 79/62; not in the register."
+  }
+ ],
+ "open_questions": [
+  "title, date_published and status have no stored evidence, and no reachable official document gives the resolution's adoption date: the docs.un.org viewer stores no text, documents.un.org is closed by robots.txt, the Digital Library returns a bot-check page and press.un.org a Client Challenge page. The UNODA programme requested above would support the symbol and the consultations, not the date. The resolution's text needs to be provided by a person (AGENTS.md section 7.8).",
+  "The summary (open informal consultations in New York in 2025 to complement the CCW Group of Governmental Experts, 'whose mandate runs to 2026') and the vote rest on version 1 and on no stored file; they are left as published until the text can be read.",
+  "A follow-up resolution on the item, 80/57 of December 2025 (lead), could not be stored; it is not added to the notes."
+ ]
+}

@@ -1,0 +1,194 @@
+{
+ "cand_id": "G7-04",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "G7-04",
+ "record": {
+  "secondary_url": "https://www.gov.uk/government/publications/g7-digital-and-technology-ministerial-declaration-29-may-2026/g7-digital-and-technology-ministerial-declaration-29-may-2026",
+  "summary": "Ministers make secure AI the first of four priorities, recognising risks from design flaws, cybersecurity vulnerabilities and misuse by malicious actors, including in cyber activities and chemical, biological and radiological capabilities. They commend the revised HAIP Reporting Framework, welcome the HAIP Friends Group's March 2026 action plan, and plan discussions with members of the International Network for Advanced AI Measurement, Evaluation and Science and the OECD on comparing AI risk-assessment frameworks. The declaration also covers synthetic-content detection and risks to minors from generative AI and chatbots, including AI-generated child sexual abuse material and deepfakes.",
+  "safety_topics": [
+   "general-purpose / frontier AI",
+   "catastrophic risk",
+   "evaluation & testing",
+   "deepfakes & synthetic media",
+   "child safety",
+   "international cooperation"
+  ],
+  "notes": "Adopted at the meeting of G7 Digital and Technology Ministers in Paris on 29 May 2026 under the French G7 Presidency; the text itself gives the date as 'May 29' without the year. The meeting also adopted a G7 Vision on AI openness opportunities and shared language and a G7 Common Set of Principles defining a safer and more secure digital space for minors, which the G7 Leaders welcomed at Evian in June 2026 (G7-06). The declaration also encourages AI procurement guidelines for the public sector, plans continued expert discussions on synthetic-content detection that may contribute to the French Presidency's open-source Meta-detector, and notes a French-presidency policy paper on agentic AI led by Inria.",
+  "related": [
+   "OECD-02",
+   "INT-11",
+   "G7-03",
+   "G7-05",
+   "G7-06",
+   "INT-20"
+  ],
+  "verification": {
+   "note": "Stored and read in this run: the declaration's text on MIC Japan's HAIP site and as the attachment to MIC's press release (soumu.go.jp, official; the two texts are identical), which confirm the title, the ministers as issuing body, 'May 29' in Paris under France's presidency and the AI content summarised, without the year; MIC Japan's press release of 1 June 2026, which gives 'Friday, May 29, 2026' and lists the Vision on AI openness and the Common Set of Principles on minors as further outcome documents; the Vision itself; and the UK government's publication of the declaration (DSIT, gov.uk), dated 29 May 2026 in its title, proposed as secondary_url because the OECD press release, the previous secondary source, refuses the archiver (HTTP 403)."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/G7-04/2026-10-11/official.pdf",
+    "sha256": "101316653594a6c0711dca2672308f63f808b6699f9a2c0b67f9441f831488b3",
+    "locator": "page 1",
+    "quote": "G7 Ministerial Declaration on Digital & Technology",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-04/extra-c193312eec/2026-10-17/document-1.pdf",
+    "sha256": "36411c409a45c3d636b44102fcf8423dd73cc9e8ef6f4ff34642d78c6a66f1ae",
+    "locator": "page 1",
+    "quote": "G7 Ministerial Declaration on Digital & Technology",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-04/extra-c65c46dbd6/2026-10-17/official.html",
+    "sha256": "a0a30a6237f85e08a731405e4e9da02bc12d5d32df0b07662eed3f48c0719227",
+    "locator": "page heading",
+    "quote": "G7 Digital and Technology Ministerial Declaration: 29 May 2026",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/G7-04/2026-10-11/official.pdf",
+    "sha256": "101316653594a6c0711dca2672308f63f808b6699f9a2c0b67f9441f831488b3",
+    "locator": "page 1",
+    "quote": "We, the G7 Digital and Technology Ministers, met on May 29 in Paris, under France's presidency.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/G7-04/2026-10-11/official.pdf",
+    "sha256": "101316653594a6c0711dca2672308f63f808b6699f9a2c0b67f9441f831488b3",
+    "locator": "page 1",
+    "quote": "the related Action Plan announced in March 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-04/extra-c193312eec/2026-10-17/official.html",
+    "sha256": "b8ed0daad0bcbbe88d9ddeaac0ea661b5898034b5fb6efaf79b54b8212e3379b",
+    "locator": "press release, first paragraph",
+    "quote": "On Friday, May 29, 2026, the G7 Digital and Tech Ministerial Meeting was held in Paris, France.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-04/extra-c65c46dbd6/2026-10-17/official.html",
+    "sha256": "a0a30a6237f85e08a731405e4e9da02bc12d5d32df0b07662eed3f48c0719227",
+    "locator": "page heading",
+    "quote": "G7 Digital and Technology Ministerial Declaration: 29 May 2026",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/G7-04/2026-10-11/official.pdf",
+    "sha256": "101316653594a6c0711dca2672308f63f808b6699f9a2c0b67f9441f831488b3",
+    "locator": "page 4",
+    "quote": "Looking ahead, we welcome the US presidency of the G7 in 2027 and look forward to our continued cooperation.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-04/extra-c193312eec/2026-10-17/official.html",
+    "sha256": "b8ed0daad0bcbbe88d9ddeaac0ea661b5898034b5fb6efaf79b54b8212e3379b",
+    "locator": "press release, first paragraph",
+    "quote": "The Ministerial Declaration was adopted as the outcome document.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/G7-04/2026-10-11/official.pdf",
+    "sha256": "101316653594a6c0711dca2672308f63f808b6699f9a2c0b67f9441f831488b3",
+    "locator": "page 1",
+    "quote": "We, the G7 Digital and Technology Ministers, met on May 29 in Paris, under France's presidency.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-04/extra-c65c46dbd6/2026-10-17/official.html",
+    "sha256": "a0a30a6237f85e08a731405e4e9da02bc12d5d32df0b07662eed3f48c0719227",
+    "locator": "declaration, first paragraph",
+    "quote": "We, the G7 Digital and Technology Ministers, met on May 29 in Paris, under France's presidency.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/G7-04/2026-10-11/official.pdf",
+    "sha256": "101316653594a6c0711dca2672308f63f808b6699f9a2c0b67f9441f831488b3",
+    "locator": "page 1",
+    "quote": "We committed to a comprehensive and responsible approach that embraces all digital technologies",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-04/extra-c193312eec/2026-10-17/official.html",
+    "sha256": "b8ed0daad0bcbbe88d9ddeaac0ea661b5898034b5fb6efaf79b54b8212e3379b",
+    "locator": "Attachments",
+    "quote": "G7 Vision on AI openness opportunities and shared language",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-04/extra-c193312eec/2026-10-17/official.html",
+    "sha256": "b8ed0daad0bcbbe88d9ddeaac0ea661b5898034b5fb6efaf79b54b8212e3379b",
+    "locator": "Attachments",
+    "quote": "G7 Common Set of Principles defining a safer and more secure digital space for minors",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-04/extra-c193312eec/2026-10-17/document-2.pdf",
+    "sha256": "9fcc389651e88c684511f058d748c1e38b91d87d9ebaa02725bcb91e4977af6f",
+    "locator": "page 1",
+    "quote": "G7 Vision on AI openness opportunities and shared language",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "secondary_url": "the UK government's publication of the declaration (DSIT, gov.uk), with the full text and the date 29 May 2026 in its title; the OECD press release refuses the archiver",
+   "summary": "'France will work with' the Network and the OECD restated as the text has it (discussions under France's presidency including members of the Network and the OECD); misuse 'in malicious cyber activities' added; 'welcome' the revised Reporting Framework corrected to 'commend'",
+   "safety_topics": "seven values, above the limit of six; 'public-sector use' dropped (one sentence on procurement guidelines)",
+   "notes": "the process sentences ('was not checked', the OECD press release) removed; the meeting's two companion documents and the Leaders' welcome of the minors principles added; the agentic-AI policy paper added",
+   "related": "INT-20 (HAIP Friends Group Action Plan 2026), named in the declaration as the action plan announced in March 2026",
+   "verification.note": "rewritten for the sources stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "A ministerial declaration with no binding force, adopted on 29 May 2026; the French presidency runs to the end of 2026 and nothing stored replaces the declaration. 'Published (non-binding, current)' stands.",
+  "date_reasoning": "The declaration gives 'May 29'; MIC Japan's press release states 'On Friday, May 29, 2026' and the gov.uk publication is titled '29 May 2026', so date_published 2026-05-29 rests on official evidence."
+ },
+ "extra_urls": [
+  {
+   "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/6/1_1.html",
+   "reason": "MIC Japan press release 'Results of the G7 Digital and Technology Ministerial Meeting' (1 June 2026): states 'On Friday, May 29, 2026' and lists the declaration, the Vision on AI openness and the Common Set of Principles on minors as outcome documents; gives the year the declaration omits"
+  },
+  {
+   "url": "https://www.gov.uk/government/publications/g7-digital-and-technology-ministerial-declaration-29-may-2026/g7-digital-and-technology-ministerial-declaration-29-may-2026",
+   "reason": "UK DSIT publication 'G7 Digital and Technology Ministerial Declaration: 29 May 2026' with the full text; official evidence for the full date and proposed as secondary_url in place of the OECD press release that refuses the archiver"
+  }
+ ],
+ "leads": [
+  {
+   "title": "G7 Common Set of Principles defining a safer and more secure digital space for minors (G7 Digital and Technology Ministers, 29 May 2026)",
+   "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/pdf/20260601_1_3.pdf",
+   "seen_in": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/6/1_1.html",
+   "why": "Seven principles adopted with this declaration and welcomed by the Leaders at Evian (G7-06); covers AI-generated child sexual abuse material and risk management for minors; no record in the register."
+  },
+  {
+   "title": "G7 Vision on AI openness opportunities and shared language (29 May 2026)",
+   "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/pdf/20260601_1_2.pdf",
+   "seen_in": "archive/_runs/2026-10-17-recheck-international-1/G7-04/extra-c193312eec/2026-10-17/document-2.pdf (stored in this run as an attachment of the MIC press release)",
+   "why": "G7 typology of AI openness adopted with this declaration, including the management of possible risks; probably a scope_note case; no record in the register."
+  }
+ ],
+ "open_questions": []
+}

@@ -1,0 +1,49 @@
+{
+ "cand_id": "G20-02",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "six pillars incl. AI for standards and standards for AI",
+   "verdict": "supported",
+   "locator": "page 6, White House release"
+  },
+  {
+   "claim": "Carolina Principles: secure real-world testing, existing sector-specific regulation",
+   "verdict": "supported",
+   "locator": "pages 1-2"
+  },
+  {
+   "claim": "no frontier-model risk or safety institute provisions",
+   "verdict": "supported",
+   "locator": "whole text (searched, none found)"
+  }
+ ],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Innovation-led statement with risk-based and standards content; little safety content. Needs a scope_note."
+ },
+ "overall": "accept-with-fixes",
+ "note": "Supported. The proposed official_url is the UK government copy of a US-presidency text; the US Commerce release refuses the archiver. Extractor gave no scope_note, so one is added. Blind sample not weighed."
+}

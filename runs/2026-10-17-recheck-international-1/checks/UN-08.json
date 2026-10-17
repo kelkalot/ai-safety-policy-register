@@ -1,0 +1,63 @@
+{
+ "cand_id": "UN-08",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Page and PDF copyright page give the title."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "PDF: 'authored by the Independent International Scientific Panel on Artificial Intelligence'; Bengio and Ressa as Co-Chairs."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Co-Chairs' message dated 1 July 2026; page lists release materials dated 01 July 2026. Search found a UN Moldova copy dated 8 July, a country-office repost, not the release."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Published preliminary report; no updated version on the page."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "Report states it is 'not policy-prescriptive' and does not represent the UN's views."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "None; the report has no symbol."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "central warning: current safeguards cannot keep pace with the growth of AI capabilities",
+   "verdict": "supported",
+   "locator": "Panel page, Preliminary Report"
+  },
+  {
+   "claim": "evidence dilemma: by the time the evidence exists, it might be too late",
+   "verdict": "supported",
+   "locator": "report executive summary, 'evidence dilemma'"
+  },
+  {
+   "claim": "findings in seven domains",
+   "verdict": "supported",
+   "locator": "Panel page lists seven domains"
+  },
+  {
+   "claim": "reliable methods for retaining control over highly autonomous AI systems are lacking; evaluation methods underdeveloped",
+   "verdict": "supported",
+   "locator": "report summary: 'are lacking'; 'Evaluation methods themselves are underdeveloped'"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "All checks pass against the stored un.org page and PDFs. The old 'evidence timing problem' wording is correctly replaced by the report's own 'evidence dilemma'. The new language list matches the six versions on the page. The blind extraction made no change to topics or title; the topic additions (catastrophic risk, evaluation and testing) are supported by the executive summary. No newer version found."
+}

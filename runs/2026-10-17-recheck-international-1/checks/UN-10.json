@@ -1,0 +1,60 @@
+{
+ "cand_id": "UN-10",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "A/RES/79/239 heading (unidir copy) and the UNODA page give the title."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "'adopted by the General Assembly ... on the report of the First Committee (A/79/408, para. 114)'."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "'A/RES/79/239'."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "'Resolution adopted by the General Assembly on 24 December 2024'; UNODA page agrees."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Adopted; the UNODA page and A/RES/79/239 give no sign of withdrawal."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "UN General Assembly resolution; recommendatory by nature ('calls on', 'encourages'), consistent with the other UN resolution records."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "affirms that international law applies throughout the life cycle of military AI",
+   "verdict": "supported",
+   "locator": "A/RES/79/239 paragraph 1"
+  },
+  {
+   "claim": "requests the Secretary-General to collect views of States, organisations, ICRC, civil society, science and industry, with a focus on areas other than LAWS, and to report to the eightieth session",
+   "verdict": "supported",
+   "locator": "paragraphs 7 and 8"
+  },
+  {
+   "claim": "first General Assembly resolution devoted to AI in the military domain",
+   "verdict": "supported",
+   "locator": "UNODA page: 'its first-ever resolution on this topic'"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "UN-12"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "The resolution's text is stored from UNIDIR's copy (secondary host, pending a host decision), and the UNODA page keeps the level at B. Every checked claim matches. Taking 79/62 out of the sentence in the notes is right, since the text names only 78/241. The recorded vote of 159-2-5 sits in the verification note, not in the record."
+}

@@ -1,0 +1,2514 @@
+{
+ "run_id": "2026-10-17-recheck-international-1",
+ "generated": "2026-10-17",
+ "extractions": {
+  "BRICS-01": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [
+    "title: host static.kremlin.ru is not recognised as official, so this quote counts as secondary; if the host is official, a human records it with tools/pipeline.py hosts --add",
+    "status: host static.kremlin.ru is not recognised as official, so this quote counts as secondary; if the host is official, a human records it with tools/pipeline.py hosts --add",
+    "legal_force: host static.kremlin.ru is not recognised as official, so this quote counts as secondary; if the host is official, a human records it with tools/pipeline.py hosts --add"
+   ],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": [
+        "host static.kremlin.ru is not recognised as official, so this quote counts as secondary; if the host is official, a human records it with tools/pipeline.py hosts --add"
+       ]
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "alt-official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "alt-official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "alt-official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": [
+        "host static.kremlin.ru is not recognised as official, so this quote counts as secondary; if the host is official, a human records it with tools/pipeline.py hosts --add"
+       ]
+      }
+     ],
+     "supported": true,
+     "best_kind": "alt-official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": [
+        "host static.kremlin.ru is not recognised as official, so this quote counts as secondary; if the host is official, a human records it with tools/pipeline.py hosts --add"
+       ]
+      }
+     ],
+     "supported": true,
+     "best_kind": "secondary"
+    }
+   },
+   "level": "B"
+  },
+  "BRICS-02": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "G20-01": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "G20-02": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "G7-01": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "G7-02": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "G7-03": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "G7-04": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "G7-05": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "G7-06": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "G7-07": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "OECD-01": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "official_identifier": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_last_updated": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "OECD-02": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [
+    "no quote for date_last_updated shows the year 2026"
+   ],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_last_updated": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "UN-01": {
+   "decision": "update",
+   "errors": [
+    "title has no evidence",
+    "date_published has no evidence",
+    "status has no evidence"
+   ],
+   "warnings": [
+    "no quote for date_published shows the year 2023"
+   ],
+   "fields": {
+    "title": {
+     "items": [],
+     "supported": false,
+     "best_kind": null
+    },
+    "date_published": {
+     "items": [],
+     "supported": false,
+     "best_kind": null
+    },
+    "status": {
+     "items": [],
+     "supported": false,
+     "best_kind": null
+    }
+   },
+   "level": "C"
+  },
+  "UN-02": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "official_identifier": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "UN-03": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "alt-official"
+    },
+    "official_identifier": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "UN-04": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "UN-05": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "official_identifier": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "UN-06": {
+   "decision": "update",
+   "errors": [
+    "title has no evidence",
+    "date_published has no evidence",
+    "status has no evidence"
+   ],
+   "warnings": [
+    "no quote for date_published shows the year 2024"
+   ],
+   "fields": {
+    "title": {
+     "items": [],
+     "supported": false,
+     "best_kind": null
+    },
+    "date_published": {
+     "items": [],
+     "supported": false,
+     "best_kind": null
+    },
+    "status": {
+     "items": [],
+     "supported": false,
+     "best_kind": null
+    }
+   },
+   "level": "C"
+  },
+  "UN-07": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "official_identifier": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "UN-08": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "UN-09": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "UN-10": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "alt-official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "alt-official"
+    },
+    "official_identifier": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "alt-official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "alt-official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "alt-official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "alt-official"
+    }
+   },
+   "level": "B"
+  },
+  "UN-11": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "secondary"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "secondary"
+    },
+    "official_identifier": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "secondary"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "secondary"
+    }
+   },
+   "level": "C"
+  },
+  "UN-12": {
+   "decision": "update",
+   "errors": [
+    "date_published has no evidence"
+   ],
+   "warnings": [
+    "no quote for date_published shows the year 2025"
+   ],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "alt-official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "alt-official"
+    },
+    "official_identifier": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "alt-official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "alt-official"
+    },
+    "date_published": {
+     "items": [],
+     "supported": false,
+     "best_kind": null
+    }
+   },
+   "level": "C"
+  },
+  "UN-13": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "alt-official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "B"
+  },
+  "UNESCO-01": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "legal_force": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  }
+ },
+ "blind": {
+  "G20-02": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "G7-04": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      },
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "OECD-01": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "official_identifier": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_last_updated": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "UN-08": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  },
+  "UN-09": {
+   "decision": "update",
+   "errors": [],
+   "warnings": [],
+   "fields": {
+    "title": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "issuing_body": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "date_published": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    },
+    "status": {
+     "items": [
+      {
+       "ok": true,
+       "problems": [],
+       "warnings": []
+      }
+     ],
+     "supported": true,
+     "best_kind": "official"
+    }
+   },
+   "level": "A"
+  }
+ }
+}

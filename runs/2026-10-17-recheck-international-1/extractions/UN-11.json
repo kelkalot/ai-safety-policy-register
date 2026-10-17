@@ -1,0 +1,125 @@
+{
+ "cand_id": "UN-11",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "UN-11",
+ "record": {
+  "summary": "General Assembly resolution on AI in the military domain that takes up the Secretary-General's report A/80/78. In operative paragraphs 9 and 10 it decides to convene informal exchanges in Geneva, as a three-day meeting in 2026, for States to share perspectives on the report's observations and conclusions, including opportunities and challenges, normative proposals and next steps. The exchanges are open to all Member and observer States, international and regional organizations, the ICRC, academia and civil society, including the scientific and technical community and industry; UNODA supports them and gives a written factual summary to the First Committee at its eighty-first session.",
+  "safety_topics": [
+   "national security & military",
+   "international cooperation"
+  ],
+  "notes": "UNODA's note verbale of 2 April 2026 gives 5 December 2025 as the date of adoption; the General Assembly's 52nd plenary meeting of the eightieth session, at which it adopted more than 60 resolutions and decisions of its First Committee (report A/80/534), was held on 1 December 2025. UNODA scheduled the informal exchanges mandated by paragraphs 9 and 10 for 15-17 June 2026 at the United Nations Office at Geneva; the agenda opened with an introduction of the resolution and an overview of the Secretary-General's report A/80/78 and closed with a session on next steps for multilateral dialogue.",
+  "verification": {
+   "note": "The resolution's own text cannot be stored: documents.un.org is closed to the archiver by robots.txt (attempts on 11, 16 and 17 Oct 2026), the record's secondary source (the docs.un.org viewer) is a JavaScript page with no readable text, and the UN meeting coverage of the plenary (press.un.org, GA/12736) returned only a client-challenge page, also in the browser. Stored on 17 Oct 2026: UNODA's note verbale ODA-2026-00045 of 2 April 2026 and the agenda of the June 2026 informal exchanges (unodaweb-meetings.unoda.org, a UNODA host not yet recorded as official, so their quotes count as secondary), and the UN Audiovisual Library page of the 52nd plenary meeting (media.un.org). The note verbale confirms the symbol, the title and the text of operative paragraphs 9 and 10, and gives 5 December 2025 as the adoption date; the agenda confirms the meeting dates and the link to report A/80/78; the Audiovisual Library page dates the 52nd plenary meeting, at which the First Committee's texts were adopted, to 1 December 2025 but does not name 80/58. The adoption date of 1 December 2025, the First Committee references (A/80/534, para. 7; A/C.1/80/L.46), the preamble and the other operative paragraphs were read in version 1 from the documents.un.org PDF, which was never stored; they are left out of the summary and notes until it is. Reported in sources that are not stored: a plenary vote of 167 in favour, 5 against (Burundi, DPRK, Israel, Russian Federation, United States) and 5 abstentions (Argentina, Belarus, Iran, Nicaragua, Saudi Arabia), from GA/12736 as shown in search results and from un-project.org; a First Committee vote of 166-5-5 on 6 November 2025; and, from the Arms Control Association, that the United States, which voted for resolution 79/239, objected to this text as risking a centralised global governance regime."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-11/extra-2fe9cee5ab/2026-10-17/official.pdf",
+    "sha256": "64838b081f9de8ffd98f5af5ad18b381f4b551040d0859b228015bf6b3983956",
+    "locator": "page 1",
+    "quote": "has the honour to refer to resolution 80/58 \"Artificial intelligence in the military domain and its implications for international peace and security\"",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-11/extra-b4fee462fc/2026-10-17/official.pdf",
+    "sha256": "3a7dd7f7e56add7c73bae6917e3d674560f8db3db586798f1eb7ecad96800d8a",
+    "locator": "page 1",
+    "quote": "General Assembly Resolution 80/58, entitled \"Artificial intelligence in the military domain and its implications for international peace and security\"",
+    "source_kind": "secondary"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-11/extra-2fe9cee5ab/2026-10-17/official.pdf",
+    "sha256": "64838b081f9de8ffd98f5af5ad18b381f4b551040d0859b228015bf6b3983956",
+    "locator": "page 1",
+    "quote": "has the honour to refer to resolution 80/58",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-11/extra-b4fee462fc/2026-10-17/official.pdf",
+    "sha256": "3a7dd7f7e56add7c73bae6917e3d674560f8db3db586798f1eb7ecad96800d8a",
+    "locator": "page 3",
+    "quote": "United Nations General Assembly resolutions (79/239; 80/58)",
+    "source_kind": "secondary"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-11/extra-2fe9cee5ab/2026-10-17/official.pdf",
+    "sha256": "64838b081f9de8ffd98f5af5ad18b381f4b551040d0859b228015bf6b3983956",
+    "locator": "page 1",
+    "quote": "\"Artificial intelligence in the military domain and its implications for international peace and security\" adopted by the General Assembly",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-11/extra-7927d801a4/2026-10-17/official.html",
+    "sha256": "a305ef984748125af7e673b7f0b41bc8912145af380482ed1856d9bb237cf38e",
+    "locator": "page heading",
+    "quote": "General Assembly: 52nd plenary meeting, 80th session 1 December 2025 General Assembly adopts more than 60 resolutions, decisions of its First Committee (Disarmament and International Security).",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-11/extra-2fe9cee5ab/2026-10-17/official.pdf",
+    "sha256": "64838b081f9de8ffd98f5af5ad18b381f4b551040d0859b228015bf6b3983956",
+    "locator": "page 1",
+    "quote": "The informal exchanges mandated pursuant to resolution 80/58 will take place from 15 to 17 June 2026 in Tempus at United Nations Office in Geneva.",
+    "source_kind": "secondary"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "UNODA's note verbale of 2 April 2026 refers to resolution 80/58 as adopted by the General Assembly and implements its paragraphs 9 and 10. A General Assembly resolution is non-binding, and nothing stored replaces it; the 2026 informal exchanges it mandated do not end it. It stays 'Published (non-binding, current)'.",
+  "date_reasoning": "Not settled by the stored files. The only stored file that names 80/58 with a date, UNODA's note verbale, says 'adopted by the General Assembly on 5 December 2025'. The UN Audiovisual Library page dates the 52nd plenary meeting, which adopted more than 60 resolutions and decisions of the First Committee, to 1 December 2025, but it does not name 80/58; the link between 80/58 and that meeting comes from the version 1 reading of the unstored resolution ('52nd plenary meeting, 1 December 2025') and from search results. Following the coordinator's rule, the published value 2025-12-01 is kept, the Audiovisual Library quote is attached as the closest official support, and the conflict stays in open_questions and in the notes.",
+  "scope_reasoning": "In scope without a note: an intergovernmental resolution on AI in the military domain (AGENTS.md section 10).",
+  "changes": {
+   "summary": "Cut to what the stored files support: paragraphs 9 and 10 as quoted in UNODA's note verbale and the link to report A/80/78 from the agenda. The claims that it is the second such resolution, reaffirms the application of international law throughout the AI life cycle, encourages national, regional and global efforts and UN knowledge exchanges, resolves to bridge divides and excludes civilian AI rest on the unstored resolution text and went out (open_questions).",
+   "safety_topics": "'human oversight' and 'accountability & liability' dropped: no stored file supports them for this resolution.",
+   "notes": "Rewritten from the stored files: the 5 versus 1 December 2025 dates as each source gives them, and the scheduled June 2026 exchanges and their agenda. The 52nd-plenary and First Committee references, the document date, the preamble's Security Council meetings, the vote figures and the United States' reported objection rest on unstored sources and went out (open_questions; the votes are in verification.note).",
+   "verification.note": "Rewritten to say what each stored file confirms and what still rests on the version 1 reading."
+  },
+  "confirmed": [
+   "title",
+   "official_identifier",
+   "issuing_body",
+   "date_published",
+   "status"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "General Assembly resolution 80/57, Lethal autonomous weapons systems (eightieth session, December 2025)",
+   "url": null,
+   "seen_in": "web search results (un-project.org vote page A/RES/80/57); not opened on an official page",
+   "why": "The eightieth-session successor to UN-01 (78/241) and UN-06 (79/62) on lethal autonomous weapons systems; not in the register."
+  },
+  {
+   "title": "General Assembly resolution 80/23 (eightieth session) on the risks of integrating AI into the command, control and communications systems of nuclear weapons",
+   "url": null,
+   "seen_in": "UN Audiovisual Library page of the 52nd plenary meeting, 1 December 2025 (https://media.un.org/avlibrary/en/asset/d350/d3509346, stored in this run under UN-11), which mentions 'a new text addressing the risks of integrating artificial intelligence (AI) into the command, control and communications systems of nuclear weapons'; the number 80/23 and a vote of 118-9-44 from search results",
+   "why": "An intergovernmental resolution on human control over AI in nuclear command and control; not in the register."
+  },
+  {
+   "title": "UNODA written factual summary of the informal exchanges on AI in the military domain (Geneva, 15-17 June 2026), for the First Committee at its eighty-first session",
+   "url": null,
+   "seen_in": "mandated by A/RES/80/58 paras. 9-10 as quoted in UNODA's note verbale of 2 April 2026 (stored in this run)",
+   "why": "A follow-up document of UN-11 that may have been issued for the First Committee in October 2026; possibly a new record or a later instrument for UN-11's notes."
+  }
+ ],
+ "open_questions": [
+  "date_published: kept at 2025-12-01 as published. UNODA's note verbale of 2 April 2026 says the resolution was 'adopted by the General Assembly on 5 December 2025'; the UN Audiovisual Library dates the 52nd plenary meeting, which adopted the First Committee's texts, to 1 December 2025 but does not name 80/58. 5 December 2025 is probably the document's issue date; the resolution text or GA/12736 would settle it, and neither can be stored.",
+  "issuing_body: 'on the report of the First Committee' rests on the unstored resolution text; the stored note verbale says only 'adopted by the General Assembly'.",
+  "summary: taken out because no stored file supports them: that it is the second Assembly resolution on the topic following 79/239; that it reaffirms that international law, including the UN Charter, humanitarian law and human rights law, applies throughout the AI life cycle; that it encourages national, regional and global efforts and UN-facilitated knowledge exchanges; that it resolves to bridge divides between countries; that civilian AI is excluded.",
+  "notes: taken out because no stored file supports them: adoption at the 52nd plenary meeting on 1 December 2025 on the recommendation of the First Committee (A/80/534, para. 7; draft A/C.1/80/L.46); the document date of 5 December 2025; the preamble's mention of Security Council meetings on AI on 18 July 2023, 19 December 2024, 4 April 2025 and 24 September 2025. Earlier taken out: the plenary and First Committee votes and the United States' reported objection.",
+  "URLs: secondary_url (the docs.un.org viewer) is a JavaScript shell that never yields text, and no storable UN host with the resolution's own text was found (documents.un.org robots.txt, docs.un.org redirects there, UN Digital Library bot-check, press.un.org client challenge). A human may want to provide the PDF (archive.py --provide). Host decision: unodaweb-meetings.unoda.org (UNODA's meetings file server) is not yet recorded as official."
+ ]
+}

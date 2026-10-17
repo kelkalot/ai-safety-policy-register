@@ -1,0 +1,72 @@
+{
+ "cand_id": "OECD-02",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported",
+   "why": "the OECD page gives 28 May for version 2.0 without the year; the year follows from the Ministerial in Paris dated 29 May 2026 in G7-04 sources. Evidence added so the year is quoted.",
+   "fix": {
+    "value": "2026-05-28",
+    "evidence": [
+     {
+      "file": "archive/_runs/2026-10-17-recheck-international-1/OECD-02/extra-bbca29e5fe/2026-10-17/official.html",
+      "sha256": "ea921bda89c905781125abafe61d4cbb68f717ceb3fa0b33f9610c1470f89ff5",
+      "locator": "first paragraph",
+      "quote": "On 28 May, the OECD launched version 2.0 of the Hiroshima AI Process (HAIP) Reporting Framework at an event organised by Tech7, on the margins of the G7 Digital and Tech Ministerial Meeting under the French G7 Presidency in Paris.",
+      "source_kind": "official"
+     },
+     {
+      "file": "archive/_runs/2026-10-17-recheck-international-1/G7-04/extra-c193312eec/2026-10-17/official.html",
+      "sha256": "b8ed0daad0bcbbe88d9ddeaac0ea661b5898034b5fb6efaf79b54b8212e3379b",
+      "locator": "press release, first paragraph",
+      "quote": "On Friday, May 29, 2026, the G7 Digital and Tech Ministerial Meeting was held in Paris, France.",
+      "source_kind": "official"
+     }
+    ]
+   }
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "built around the Code 11 actions",
+   "verdict": "supported",
+   "locator": "About page"
+  },
+  {
+   "claim": "first round 25 reports; eligibility OECD, GPAI or Adherent",
+   "verdict": "supported",
+   "locator": "overview page"
+  },
+  {
+   "claim": "19 companies in April 2025 (MIC) and 31 reports 2 Oct 2026",
+   "verdict": "supported",
+   "locator": "MIC page"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept-with-fixes",
+ "note": "Replaces the earlier 2 Oct 2026 value for date_last_updated (publication of reports, not a new version) with the 28 May 2026 launch of version 2.0. The year is inferred from G7-04 sources, so the fix carries both quotes. official_url moves to oecd.ai because the oecd.org press release refuses the archiver. Blind sample not weighed."
+}

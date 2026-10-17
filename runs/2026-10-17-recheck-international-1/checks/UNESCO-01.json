@@ -1,0 +1,47 @@
+{
+ "cand_id": "UNESCO-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "language": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "life and death decisions should not be ceded to AI systems; no social scoring or mass surveillance",
+   "verdict": "supported",
+   "locator": "paragraphs 35-36"
+  },
+  {
+   "claim": "standards with measurable, testable levels of safety and transparency; liability frameworks",
+   "verdict": "supported",
+   "locator": "policy actions"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Supported by the legal-affairs page text; the removal of the unsupported market-release claim and the risk-based classification topic is correct."
+}

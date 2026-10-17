@@ -1,0 +1,55 @@
+{
+ "cand_id": "OECD-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Principle 1.4 robust, secure and safe throughout lifecycle",
+   "verdict": "supported",
+   "locator": "text 1.4"
+  },
+  {
+   "claim": "first intergovernmental standard on AI",
+   "verdict": "supported",
+   "locator": "page 5"
+  },
+  {
+   "claim": "12 non-members incl. Cambodia and Croatia 15/05/2026; 47 adherents on OECD.AI",
+   "verdict": "supported",
+   "locator": "page 9 and oecd.ai page"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "All supported by the printed Compendium page. Search found no 2026 amendment to the text."
+}

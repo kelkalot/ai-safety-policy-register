@@ -1,0 +1,55 @@
+{
+ "cand_id": "UN-06",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "unsupported",
+   "why": "No stored file shows the title; the docs.un.org viewer stored only a language menu. The title is unchanged."
+  },
+  "date_published": {
+   "verdict": "unsupported",
+   "why": "No stored file gives the adoption date of 79/62. Unchanged."
+  },
+  "status": {
+   "verdict": "unsupported",
+   "why": "No stored file shows the status; nothing found that supersedes it (80/57 is a later resolution on the same item, not a replacement)."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "A General Assembly resolution; unchanged."
+  },
+  "official_identifier": {
+   "verdict": "unsupported",
+   "why": "A/RES/79/62 is not shown in any stored file for this candidate."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "UN General Assembly resolution; recommendatory by nature ('calls on', 'encourages'), consistent with the other UN resolution records."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "informal consultations held in New York in 2025",
+   "verdict": "supported",
+   "locator": "UN News 14 May 2025: 'informal UN meeting in New York' on lethal autonomous weapon systems; two-day meeting"
+  },
+  {
+   "claim": "decides to hold open informal consultations in New York in 2025 on the Secretary-General's report, complementing the CCW GGE whose mandate runs to 2026",
+   "verdict": "unsupported",
+   "locator": "no stored file shows the resolution's operative text or the GGE mandate"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "UN-10"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "The run changes only the verification note, which accurately says that nothing stored shows the resolution's title, date or text. The stored UN News article and UNODA page support the notes (informal meeting in New York, New Agenda for Peace call for a treaty by 2026). Title, date, status and identifier stay unsupported and should be open questions until a person provides the text. The follow-up resolution 80/57 is a lead, not in the register."
+}

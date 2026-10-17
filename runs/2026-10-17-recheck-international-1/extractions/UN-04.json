@@ -1,0 +1,105 @@
+{
+ "cand_id": "UN-04",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "UN-04",
+ "record": {
+  "notes": "The Advisory Body was convened by the UN Secretary-General and formed in October 2023; its members took part in their personal capacity, and the report represents a majority consensus of them. Its terms of reference asked for a first report by 31 December 2023 and a second by 31 August 2024; this final report is the second. Recommendations 1 and 2, an international scientific panel on AI and a policy dialogue on AI governance, were taken up in the Global Digital Compact (UN-05) and established, as the Independent International Scientific Panel on AI and the Global Dialogue on AI Governance, by General Assembly resolution 79/325 of 26 August 2025 (UN-07).",
+  "verification": {
+   "note": "Stored: the final report itself (un.org PDF, 101 pages). It gives the title, 'September 2024' on its cover (no day), the Advisory Body's formation in October 2023, its terms of reference (Annex B: convened by the Secretary-General) and the seven recommendations quoted in the summary. The report gives only the month of publication, so date_published stays 2024-09. The sentence in the notes on the later panel and dialogue rests on records UN-05 and UN-07 and on the Scientific Panel's FAQ page, requested in extra_urls."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/UN-04/2026-10-11/official.pdf",
+    "sha256": "fed5408c25b61745e6dae2e570d05528aef6b7301436d3311dc6382ee319249b",
+    "locator": "page 2, copyright page",
+    "quote": "Governing AI for Humanity: Final Report",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/UN-04/2026-10-11/official.pdf",
+    "sha256": "fed5408c25b61745e6dae2e570d05528aef6b7301436d3311dc6382ee319249b",
+    "locator": "page 1, cover",
+    "quote": "GOVERNING AI FOR HUMANITY September 2024",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/UN-04/2026-10-11/official.pdf",
+    "sha256": "fed5408c25b61745e6dae2e570d05528aef6b7301436d3311dc6382ee319249b",
+    "locator": "page 2, copyright page",
+    "quote": "Governing AI for Humanity: Final Report Copyright © 2024 United Nations",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/UN-04/2026-10-11/official.pdf",
+    "sha256": "fed5408c25b61745e6dae2e570d05528aef6b7301436d3311dc6382ee319249b",
+    "locator": "page 80, Annex B: Terms of reference",
+    "quote": "Based on feedback to the first report, the Body will submit a second report by 31 August 2024",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/UN-04/2026-10-11/official.pdf",
+    "sha256": "fed5408c25b61745e6dae2e570d05528aef6b7301436d3311dc6382ee319249b",
+    "locator": "page 80, Annex B: Terms of reference",
+    "quote": "The High-level Advisory Body on Artificial Intelligence, convened by the United Nations Secretary-General, will undertake analysis and advance recommendations for the international governance of artificial intelligence.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/UN-04/2026-10-11/official.pdf",
+    "sha256": "fed5408c25b61745e6dae2e570d05528aef6b7301436d3311dc6382ee319249b",
+    "locator": "page 4, About the High-level Advisory Body on Artificial Intelligence",
+    "quote": "was formed in October 2023 to undertake analysis and advance recommendations for the international governance of artificial intelligence.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/UN-04/2026-10-11/official.pdf",
+    "sha256": "fed5408c25b61745e6dae2e570d05528aef6b7301436d3311dc6382ee319249b",
+    "locator": "page 4, About the High-level Advisory Body on Artificial Intelligence",
+    "quote": "This report represents a majority consensus; no member is expected to endorse every single point contained in this document.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/UN-04/2026-10-11/official.pdf",
+    "sha256": "fed5408c25b61745e6dae2e570d05528aef6b7301436d3311dc6382ee319249b",
+    "locator": "page 73, An international AI agency?",
+    "quote": "we do not currently recommend establishing such an agency.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "notes": "rewritten from the report: who convened the body, its personal-capacity membership and majority consensus, the two reports its terms of reference required; the later panel and dialogue linked to UN-05 and UN-07; the remark on the missing release day moved to verification.note",
+   "verification.note": "rewritten for the file stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "The report is the Advisory Body's final report, published by the United Nations in September 2024 (cover and copyright page). Annex B shows it is the second and last report the terms of reference asked for, so there is no later version to supersede it; a report of this kind has no legal force and stays 'Published (non-binding, current)'.",
+  "summary_check": "The summary matches the report: the three gaps are sections 3.A to 3.C (representation, coordination, implementation); recommendations 1 to 7 are on pages 48 (scientific panel), 52 (policy dialogue, which is to 'share voluntarily significant AI incidents'), 55 (standards exchange), 64 (capacity development network), 65 (global fund), 67 (data framework) and 70 (AI office); page 73 says 'we do not currently recommend establishing such an agency'.",
+  "scope_reasoning": "A report commissioned by the UN Secretary-General on the international governance of AI, with risk assessment, incident sharing and a scientific panel at its core; in scope as a government-commissioned report under AGENTS.md section 10."
+ },
+ "extra_urls": [
+  {
+   "url": "https://www.un.org/independent-international-scientific-panel-ai/en/faq",
+   "reason": "The Scientific Panel's FAQ page (un.org, plain HTML) says the Advisory Body concluded its work in 2024 with Governing AI for Humanity, which proposed the scientific panel and the global dialogue, and that both were established by A/RES/79/325 on 26 August 2025. It backs the sentence in the notes on the later instruments."
+  }
+ ],
+ "leads": [],
+ "open_questions": []
+}
