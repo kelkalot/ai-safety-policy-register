@@ -1,0 +1,211 @@
+{
+ "cand_id": "EU-06",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "EU-06",
+ "record": {
+  "safety_topics": [
+   "prohibited practices",
+   "public-sector use"
+  ],
+  "notes": "Published on 4 February 2025. Chapter II of the AI Act, on prohibited practices, has applied since 2 February 2025; the rules on its enforcement apply from 2 August 2026. The Commission approved the content of the draft guidelines by a Communication. The guidelines are available in the 24 official EU languages, and their page shows a last update of 31 July 2025. In its first review report under Article 112(1) of the AI Act, COM(2026) 234 of 20 May 2026 (EU-15), the Commission referred to the guidelines and noted a potential regulatory gap for AI systems generating child sexual abuse material and non-consensual intimate content, which Article 5 did not prohibit. The AI Omnibus (EU-18) added a ninth prohibition, of AI systems that generate non-consensual sexually explicit and intimate content or child sexual abuse material, which applies from December 2026; the guidelines' page shows no update since 31 July 2025.",
+  "verification": {
+   "note": "Stored and read in this run: the Commission's library page for the guidelines (snapshot of 11 Oct 2026, unchanged on 17 Oct), which gives the title, publication on 4 February 2025, the non-binding nature, the 24 language versions and a last update of 31 July 2025; its printable PDF; COM(2026) 234 (EUR-Lex, alt-official), which says the guidelines were published in February 2025 and that enforcement of Chapter II applies from 2 August 2026; and the Commission's AI Act page (17 Oct 2026), which lists the prohibitions, says prohibitions 1 to 8 became effective in February 2025 with these guidelines supporting their application, and says the ninth prohibition, added by the AI Omnibus, comes into effect in December 2026. The guidelines themselves and the approving Communication are not stored, because the site's robots.txt does not allow automated downloads of them; the summary's list of prohibitions rests on the guidelines page and the AI Act page, and official_identifier (the Communication's C(2025) number) stays null. 'Human oversight' was dropped: no stored file supports it. Version 1's notes held remarks on what the fetched page showed; they are now here."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/EU-06/2026-10-11/official.html",
+    "sha256": "e7688ed3cf2f4cf7c60a0216db8574bbe5a79527bdd7d6edabaa1b787cf18a81",
+    "locator": "Downloads",
+    "quote": "Approval of the content of the draft Communication from the Commission - Commission Guidelines on prohibited artificial intelligence practices established by Regulation (EU) 2024/1689 (AI Act)",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/EU-06/2026-10-11/official.html",
+    "sha256": "e7688ed3cf2f4cf7c60a0216db8574bbe5a79527bdd7d6edabaa1b787cf18a81",
+    "locator": "below the heading",
+    "quote": "Publication 04 February 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-06/2026-10-17/secondary.html",
+    "sha256": "09f8912d827f690fcd438b112b3784977b34c047bfbd0bc2bed2f1d8aae24d7a",
+    "locator": "paragraph 7",
+    "quote": "Moreover, while Commission guidelines on prohibited AI practices were published in February 2025",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/EU-06/2026-10-11/official.html",
+    "sha256": "e7688ed3cf2f4cf7c60a0216db8574bbe5a79527bdd7d6edabaa1b787cf18a81",
+    "locator": "page footer",
+    "quote": "Last update 31 July 2025",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/EU-06/2026-10-11/official.html",
+    "sha256": "e7688ed3cf2f4cf7c60a0216db8574bbe5a79527bdd7d6edabaa1b787cf18a81",
+    "locator": "page text",
+    "quote": "While they offer valuable insights into the Commission's interpretation of the prohibitions, they are non-binding, with authoritative interpretations reserved for the Court of Justice of the European Union (CJEU).",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/EU-06/2026-10-11/official.html",
+    "sha256": "e7688ed3cf2f4cf7c60a0216db8574bbe5a79527bdd7d6edabaa1b787cf18a81",
+    "locator": "heading",
+    "quote": "Commission publishes the Guidelines on prohibited artificial intelligence (AI) practices, as defined by the AI Act.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/EU-06/2026-10-17/document-1.pdf",
+    "sha256": "8ae48bc505fe8812ed34a4b5f8374f7a721a880f367788ef85a106a27a91efd2",
+    "locator": "page 1",
+    "quote": "they are non-binding, with authoritative interpretations reserved for the Court of Justice of the European Union (CJEU)",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/EU-06/2026-10-11/official.html",
+    "sha256": "e7688ed3cf2f4cf7c60a0216db8574bbe5a79527bdd7d6edabaa1b787cf18a81",
+    "locator": "page text",
+    "quote": "The guidelines specifically address practices such as harmful manipulation, social scoring, and real-time remote biometric identification, among others.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-06/2026-10-11/official.html",
+    "sha256": "e7688ed3cf2f4cf7c60a0216db8574bbe5a79527bdd7d6edabaa1b787cf18a81",
+    "locator": "page text",
+    "quote": "The guidelines provide legal explanations and practical examples to help stakeholders understand and comply with the AI Act's requirements.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-06/extra-acc5ad4063/2026-10-17/official.html",
+    "sha256": "f51fa439c0bea211d93f75f8f029fba7ef4f9ada57fd32f855783b18bc327a42",
+    "locator": "A Risk-based Approach, Unacceptable risk",
+    "quote": "Prohibitions 1-8 became effective in February 2025. The Commission published 2 key documents to support the practical application of the prohibited practices:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-06/extra-acc5ad4063/2026-10-17/official.html",
+    "sha256": "f51fa439c0bea211d93f75f8f029fba7ef4f9ada57fd32f855783b18bc327a42",
+    "locator": "Unacceptable risk",
+    "quote": "Individual criminal offence risk assessment or prediction",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-06/extra-acc5ad4063/2026-10-17/official.html",
+    "sha256": "f51fa439c0bea211d93f75f8f029fba7ef4f9ada57fd32f855783b18bc327a42",
+    "locator": "Unacceptable risk",
+    "quote": "untargeted scraping of the internet or CCTV material to create or expand facial recognition databases",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-06/extra-acc5ad4063/2026-10-17/official.html",
+    "sha256": "f51fa439c0bea211d93f75f8f029fba7ef4f9ada57fd32f855783b18bc327a42",
+    "locator": "Unacceptable risk",
+    "quote": "emotion recognition in workplaces and education institutions",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-06/extra-acc5ad4063/2026-10-17/official.html",
+    "sha256": "f51fa439c0bea211d93f75f8f029fba7ef4f9ada57fd32f855783b18bc327a42",
+    "locator": "Unacceptable risk",
+    "quote": "biometric categorisation to deduce certain protected characteristics",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-06/extra-acc5ad4063/2026-10-17/official.html",
+    "sha256": "f51fa439c0bea211d93f75f8f029fba7ef4f9ada57fd32f855783b18bc327a42",
+    "locator": "Unacceptable risk",
+    "quote": "real-time remote biometric identification for law enforcement purposes in publicly accessible spaces",
+    "source_kind": "official"
+   }
+  ],
+  "safety_topics": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-06/extra-acc5ad4063/2026-10-17/official.html",
+    "sha256": "f51fa439c0bea211d93f75f8f029fba7ef4f9ada57fd32f855783b18bc327a42",
+    "locator": "Unacceptable risk",
+    "quote": "real-time remote biometric identification for law enforcement purposes in publicly accessible spaces",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/EU-06/2026-10-17/secondary.html",
+    "sha256": "09f8912d827f690fcd438b112b3784977b34c047bfbd0bc2bed2f1d8aae24d7a",
+    "locator": "paragraph 7",
+    "quote": "Chapter II of the AI Act (Prohibited practices) entered into application on 2 February 2025. However, the rules on the enforcement of that chapter will only apply as from 2 August 2026",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-06/2026-10-11/official.html",
+    "sha256": "e7688ed3cf2f4cf7c60a0216db8574bbe5a79527bdd7d6edabaa1b787cf18a81",
+    "locator": "Downloads",
+    "quote": "Guidelines on prohibited artificial intelligence practices established by Regulation (EU) 20241689 (AI Act) (Swedish)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-06/2026-10-17/secondary.html",
+    "sha256": "09f8912d827f690fcd438b112b3784977b34c047bfbd0bc2bed2f1d8aae24d7a",
+    "locator": "paragraph 61",
+    "quote": "the Commission notes and further analyse a potential regulatory gap regarding AI systems generating CSAM and non-consensual intimate content, which are not prohibited by Article 5 AI Act",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-06/extra-acc5ad4063/2026-10-17/official.html",
+    "sha256": "f51fa439c0bea211d93f75f8f029fba7ef4f9ada57fd32f855783b18bc327a42",
+    "locator": "Unacceptable risk",
+    "quote": "Prohibition 9 comes into effect in December 2026 and was introduced as a part of the AI Omnibus.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-06/extra-acc5ad4063/2026-10-17/official.html",
+    "sha256": "f51fa439c0bea211d93f75f8f029fba7ef4f9ada57fd32f855783b18bc327a42",
+    "locator": "Unacceptable risk",
+    "quote": "AI systems that generate non-consensual sexually explicit and intimate content or child sexual abuse (CSAM) material, such as AI ‘nudification' apps",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "notes": "research remarks ('not shown on the fetched page', 'no update was found') moved to verification.note; Chapter II and enforcement dates and the COM(2026) 234 findings now quoted from the stored report; the ninth prohibition added from the Commission's AI Act page",
+   "safety_topics": "'human oversight' dropped: no stored file supports it; 'prohibited practices' and 'public-sector use' (real-time remote biometric identification for law enforcement, individual criminal offence risk prediction) stay",
+   "verification.note": "rewritten for the files stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "date_last_updated",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "Non-binding guidelines published on 4 February 2025; the page (unchanged between 11 and 17 Oct 2026) shows no withdrawal or replacement and a last update of 31 July 2025. 'Published (non-binding, current)' stands.",
+  "scope_reasoning": "Commission guidelines implementing the AI Act's prohibitions; in scope with no note."
+ },
+ "extra_urls": [
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+   "reason": "the Commission's AI Act page (EU-03's secondary source), which says the AI Omnibus added a ninth prohibition applying from December 2026 and refers to these guidelines; supports the summary's list of prohibitions and the note that the guidelines predate the ninth prohibition"
+  }
+ ],
+ "leads": [],
+ "open_questions": [
+  "The guidelines' own text and the approving Communication are not stored, so the summary's list of prohibitions rests on the guidelines page and the Commission's AI Act page, and official_identifier (the Communication's C(2025) number) stays null."
+ ]
+}

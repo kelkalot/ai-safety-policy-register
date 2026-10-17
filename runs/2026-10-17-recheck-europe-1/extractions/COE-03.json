@@ -1,0 +1,121 @@
+{
+ "cand_id": "COE-03",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "COE-03",
+ "record": {},
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/COE-03/2026-10-16/official.html",
+    "sha256": "cf07295d632a83937951e39a357f1bc43b56de61a6de98c138e13dd0c5cd3df2",
+    "locator": "publication heading",
+    "quote": "European Ethical Charter on the use of artificial intelligence in judicial systems and their environment (2019)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/COE-03/2026-10-16/secondary.pdf",
+    "sha256": "31401e6f2eb31c829925c49c4d9a370fa4ce96223ada9fca92c7f30354425ff6",
+    "locator": "page 1",
+    "quote": "European Ethical Charter on the Use of Artificial Intelligence in Judicial Systems and their environment",
+    "source_kind": "secondary"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/COE-03/2026-10-16/official.html",
+    "sha256": "cf07295d632a83937951e39a357f1bc43b56de61a6de98c138e13dd0c5cd3df2",
+    "locator": "Summary",
+    "quote": "The European Commission for the Efficiency of Justice (Cepej) of the Council of Europe has adopted on 4th December 2018 the first European text setting out ethical principles relating to the use of artificial intelligence (AI) in judicial systems.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/COE-03/2026-10-16/official.html",
+    "sha256": "cf07295d632a83937951e39a357f1bc43b56de61a6de98c138e13dd0c5cd3df2",
+    "locator": "Summary",
+    "quote": "The European Commission for the Efficiency of Justice (Cepej) of the Council of Europe has adopted on 4th December 2018 the first European text setting out ethical principles relating to the use of artificial intelligence (AI) in judicial systems.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/COE-03/2026-10-16/official.html",
+    "sha256": "cf07295d632a83937951e39a357f1bc43b56de61a6de98c138e13dd0c5cd3df2",
+    "locator": "Summary",
+    "quote": "The Charter provides a framework of principles that can guide policy makers, legislators and justice professionals",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/COE-03/2026-10-16/official.html",
+    "sha256": "cf07295d632a83937951e39a357f1bc43b56de61a6de98c138e13dd0c5cd3df2",
+    "locator": "publication details",
+    "quote": "Author(s) : European Commission for the Efficiency of Justice (Cepej)",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/COE-03/2026-10-16/secondary.pdf",
+    "sha256": "31401e6f2eb31c829925c49c4d9a370fa4ce96223ada9fca92c7f30354425ff6",
+    "locator": "page 1",
+    "quote": "Strasbourg, 3 December 2018 CEPEJ(2018)14",
+    "source_kind": "secondary"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/COE-03/2026-10-16/official.html",
+    "sha256": "cf07295d632a83937951e39a357f1bc43b56de61a6de98c138e13dd0c5cd3df2",
+    "locator": "Summary",
+    "quote": "The Charter provides a framework of principles that can guide policy makers, legislators and justice professionals",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/COE-03/2026-10-16/official.html",
+    "sha256": "cf07295d632a83937951e39a357f1bc43b56de61a6de98c138e13dd0c5cd3df2",
+    "locator": "Summary",
+    "quote": "The Charter defines five core principles to be respected in the field of Artificial Intelligence and justice: respect of fundamental rights; non-discrimination; quality and security; transparency, impartiality and fairness; \"under user control\".",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/COE-03/2026-10-16/official.html",
+    "sha256": "cf07295d632a83937951e39a357f1bc43b56de61a6de98c138e13dd0c5cd3df2",
+    "locator": "Table of contents, principle 4",
+    "quote": "Principle of transparency, impartiality and fairness: Make data processing methods accessible and understandable, authorise external audits",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/COE-03/2026-10-16/secondary.pdf",
+    "sha256": "31401e6f2eb31c829925c49c4d9a370fa4ce96223ada9fca92c7f30354425ff6",
+    "locator": "page 1",
+    "quote": "adopted by the CEPEJ during its 31st Plenary meeting (Strasbourg, 3-4 December 2018)",
+    "source_kind": "secondary"
+   },
+   {
+    "file": "archive/COE-03/2026-10-16/official.html",
+    "sha256": "cf07295d632a83937951e39a357f1bc43b56de61a6de98c138e13dd0c5cd3df2",
+    "locator": "publication details",
+    "quote": "Number of pages : 79",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "A non-binding charter adopted by the CEPEJ on 4 December 2018. The Council of Europe Publishing page still offers it on 16 Oct 2026, and a web search found no revised or replacement charter (the CEPEJ's later work on AI, such as assessment tools, operationalises it), so 'Published (non-binding, current)' stands.",
+  "scope_reasoning": "Ethical guidelines of a Council of Europe body on AI in judicial systems; in scope without a note.",
+  "changes": {},
+  "confirmed": ["title", "date_published", "status", "issuing_body", "official_identifier", "legal_force"]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The charter document itself (CEPEJ(2018)14) is stored only from questionegiustizia.it, a third-party site; the official PDF on rm.coe.int answers HTTP 403 to the archiver. official_identifier and the detailed wording behind the summary and notes rest on that copy until the official PDF is provided as a document."
+ ]
+}

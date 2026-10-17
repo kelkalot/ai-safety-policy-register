@@ -1,0 +1,60 @@
+{
+ "cand_id": "EU-14",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "title": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "judgment-differs",
+   "why": "evaluation & testing is not supported by the stored text; risk-based classification is"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Guidelines contain practical examples of systems that should or should not be high-risk (Art 6(5))",
+   "verdict": "supported",
+   "locator": "main text"
+  },
+  {
+   "claim": "Final guidelines to be adopted by end of 2026",
+   "verdict": "supported",
+   "locator": "consultation page, extension of the deadline"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "EU-13",
+  "EU-15"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Quotes pass. Draft status, 19 May 2026 publication, three parts, consultation extended to 23 July 2026, final guidelines by end of 2026, Art 6(5) purpose and the Annex I / Annex III sections are supported by the stored Commission pages. The topic evaluation & testing has no clear support in the stored text (judgment-differs; risk-based classification is the supported topic). Search found no final version."
+}

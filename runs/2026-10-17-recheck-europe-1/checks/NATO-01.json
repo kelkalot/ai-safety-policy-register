@@ -1,0 +1,56 @@
+{
+ "cand_id": "NATO-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "The quote shows a strategy that provides a 'foundation' for responsible use; nothing in the text makes it binding. Non-binding is the plain reading of a published strategy summary."
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "judgment-differs",
+   "why": "The last sentence about the 'record's region' describes the record, not the instrument; it belongs in neither notes nor summary."
+  },
+  "safety_topics": {
+   "verdict": "judgment-differs",
+   "why": "'international cooperation' is thinly supported (cooperation with industry and Allies in passing); 'human oversight' was dropped, as the text names only the governability principle. Defensible."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Alliance-wide AI Testing, Evaluation, Verification & Validation (TEV&V) landscape",
+   "verdict": "supported",
+   "locator": "Desired outcomes"
+  },
+  {
+   "claim": "AI-enabled information operations might affect elections, sow division and lower trust in institutions",
+   "verdict": "supported",
+   "locator": "Minimising adversarial interference"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Government/alliance AI risk-governance strategy for defence; in scope, topic is military AI governance."
+ },
+ "overall": "accept",
+ "note": "Page snapshot of 17 Oct 2026 matches that of 11 Oct 2026. Title, date, issuing body ('NATO', since the page does not say who agreed it), aims, TEV&V outcomes and principles are supported. One targeted search found no newer NATO AI strategy. Only the notes' last sentence is a wording point."
+}

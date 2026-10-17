@@ -1,0 +1,58 @@
+{
+ "cand_id": "EU-06",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "judgment-differs",
+   "why": "'human oversight' dropped, defensible."
+  },
+  "notes": {
+   "verdict": "judgment-differs",
+   "why": "Phrases such as 'their page shows a last update of 31 July 2025' and 'the guidelines' page shows no update since 31 July 2025' describe what a source page displayed, which belongs in verification.note; the facts are supported."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "The guidelines address practices such as harmful manipulation, social scoring and real-time remote biometric identification",
+   "verdict": "supported",
+   "locator": "guidelines page"
+  },
+  {
+   "claim": "Untargeted scraping of facial images and emotion recognition in workplaces and education are among the prohibitions",
+   "verdict": "supported",
+   "locator": "AI Act page, Unacceptable risk"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Commission guidelines on AI Act prohibitions."
+ },
+ "overall": "accept",
+ "note": "Library page (publication 4 February 2025, last update 31 July 2025, non-binding) and COM(2026) 234 support the record. The guidelines text itself is not stored (robots.txt), so the summary's list rests on the page and the AI Act page. One targeted search found no revised version. Wording point only: the notes describe what pages show."
+}

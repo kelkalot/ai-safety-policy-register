@@ -1,0 +1,75 @@
+{
+ "cand_id": "COE-02",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "judgment-differs",
+   "why": "The title is not verbatim in any stored file; the Council of the EU text calls it 'methodology for the Risk and Impact Assessment of AI Systems from the point of view of Human Rights, Democracy and Rule of Law (HUDERIA methodology)' and the publisher 'HUDERIA - Methodology and Model'. The record's longer title is an accurate rendering of the Methodology's name plus the Model."
+  },
+  "date_published": {
+   "verdict": "judgment-differs",
+   "why": "The stored Council documents give the CAI's 12th plenary of 26-28 November 2024 as the occasion of adoption, not a single day; the day 28 November rests on version 1 only. Month precision is what the sources support.",
+   "fix": {
+    "value": "2024-11",
+    "evidence": [
+     {
+      "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-838bc4ab89/2026-10-17/official.pdf",
+      "sha256": "b4af06ec15f5eff53ac37d0268bdd29042e9d8a165de5e347e9597782c50db73",
+      "locator": "page 2, paragraph 3",
+      "quote": "The HUDERIA methodology was finalised and adopted by the CAI at the occasion of its 12th plenary meeting on 26 - 28 November 2024.",
+      "source_kind": "official"
+     }
+    ]
+   }
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "judgment-differs",
+   "why": "'human oversight' is supported only by a passing mention of oversight as a compensating control; 'public-sector use' was dropped though the guidance addresses public and private actors. Defensible."
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "secondary_url": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "unsupported",
+   "why": "2026-02-25 (Committee of Ministers approval of the Model) is in no stored file; the run leaves it unchanged. The stored files give only the CAI's adoption of the Model in November 2025 and the 2026 publication."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "The Model's COBRA Resources include illustrative areas of concern and a list of sectors/domains",
+   "verdict": "supported",
+   "locator": "book.coe.int table of contents; CAI(2025)6rev2 contents"
+  },
+  {
+   "claim": "HUDERIA is non-binding and Parties may use or adapt it but it is not a means to implement the Convention",
+   "verdict": "supported",
+   "locator": "CAI(2025)6rev2 p. 4"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Official risk and impact assessment guidance tied to the Framework Convention."
+ },
+ "overall": "accept-with-fixes",
+ "note": "Title, adoption by the CAI, issuing body, legal force and the summary claims are supported by the book.coe.int page and the Council of the EU documents (including the OCR text of the Model). Fixes: date_published to 2024-11 because the sources give a three-day plenary, not a day. Unsupported: date_last_updated 2026-02-25, which rests on a coe.int page that cannot be stored; the run does not change it. The title is not verbatim in any stored file. No newer version found."
+}

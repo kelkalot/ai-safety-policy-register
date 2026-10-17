@@ -1,0 +1,284 @@
+{
+ "cand_id": "EU-11",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "EU-11",
+ "record": {
+  "summary": "Commission guidelines setting out its interpretation of the AI Act's obligations for providers of general-purpose AI models, which apply from 2 August 2025. A model counts as general-purpose if it was trained with compute exceeding 10^23 floating point operations and can generate language, text-to-image or text-to-video. Only an actor making significant modifications to a model, not minor changes, becomes its provider; the guidelines also set out when providers of free and open-source models are exempt from certain obligations and what adhering to the General-Purpose AI Code of Practice means for enforcement. They are not legally binding but will guide enforcement.",
+  "safety_topics": [
+   "general-purpose / frontier AI",
+   "catastrophic risk"
+  ],
+  "notes": "Published on 18 July 2025, ahead of the entry into application of the obligations for providers of general-purpose AI models on 2 August 2025. A Commission Communication, available only in English, approved the content of the guidelines, which are available in all 24 official EU languages. Providers of models with systemic risk, which include risks to fundamental rights and safety and risks related to loss of control over the model, must assess and mitigate these risks and notify the AI Office without delay. The Commission's enforcement powers, including fines, apply from 2 August 2026, and providers of models placed on the market before 2 August 2025 must comply by 2 August 2027. The guidelines were developed through a public consultation and reflect input from an expert pool set up by the Commission's Joint Research Centre. The Commission's page for the guidelines shows a last update of 20 April 2026.",
+  "verification": {
+   "note": "Re-read in the recheck of 17 Oct 2026: the Commission library page (official, stored 11 Oct 2026) confirms the title, publication on 18 July 2025, the 24 language versions, the approving Communication and a last update of 20 April 2026; the Commission's overview page of the guidelines (stored 11 Oct 2026, last update 28 April 2026) confirms their key points, their non-binding character and the application and enforcement timeline; the Commission's explanatory item of 18 July 2025 (stored in this run) gives the indicative compute criterion, the four key topics, the systemic-risk obligations and the consultation. The guidelines' text and the approving Communication are offered only through ec.europa.eu/newsroom/dae/, which ec.europa.eu's robots.txt disallows, so neither is stored. Secondary sources give the Communication's number as C(2025) 5045 final; it is not shown in a stored official file, so official_identifier stays empty. Version 1's remark that the technical thresholds were not checked moved here from notes."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/EU-11/2026-10-11/official.html",
+    "sha256": "daca7f4eeb4b7425ee618eb723a9dd990866f9912a565a37147970a64ab46517",
+    "locator": "page heading",
+    "quote": "Guidelines on the scope of obligations for providers of general-purpose AI models under the AI Act",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-11/2026-10-11/official.html",
+    "sha256": "daca7f4eeb4b7425ee618eb723a9dd990866f9912a565a37147970a64ab46517",
+    "locator": "Downloads",
+    "quote": "Guidelines on the scope of the obligations for general-purpose AI models established by AI Act (English)",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/EU-11/2026-10-11/official.html",
+    "sha256": "daca7f4eeb4b7425ee618eb723a9dd990866f9912a565a37147970a64ab46517",
+    "locator": "page header",
+    "quote": "POLICY AND LEGISLATION Publication 18 July 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-11/extra-ae3feeba99/2026-10-17/official.html",
+    "sha256": "20ebbf82deea9576faec4d3774f256e9cee2182ff9f53809ec2f78f158936416",
+    "locator": "header",
+    "quote": "Learn more about the guidelines for providers of general-purpose AI models DIGIBYTE Publication 18 July 2025",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/EU-11/2026-10-11/secondary.html",
+    "sha256": "f5296983ac5ad517740fe8cb35333197ad4b9b05dd1ddc5e585a1987d2c0b95c",
+    "locator": "Application and enforcement timeline",
+    "quote": "these guidelines, though not legally binding, reflect the Commission's interpretation and will guide enforcement",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-11/2026-10-11/official.html",
+    "sha256": "daca7f4eeb4b7425ee618eb723a9dd990866f9912a565a37147970a64ab46517",
+    "locator": "introduction",
+    "quote": "Below you can download the guidelines in all 24 EU official languages and the Communication approving the content of the guidelines (only in English).",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-11/extra-ae3feeba99/2026-10-17/official.html",
+    "sha256": "20ebbf82deea9576faec4d3774f256e9cee2182ff9f53809ec2f78f158936416",
+    "locator": "Background",
+    "quote": "While not legally binding, these guidelines set out the Commission’s interpretation and application of the AI Act, which will guide its enforcement actions.",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/EU-11/2026-10-11/official.html",
+    "sha256": "daca7f4eeb4b7425ee618eb723a9dd990866f9912a565a37147970a64ab46517",
+    "locator": "page footer",
+    "quote": "Last update 20 April 2026",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/EU-11/2026-10-11/secondary.html",
+    "sha256": "f5296983ac5ad517740fe8cb35333197ad4b9b05dd1ddc5e585a1987d2c0b95c",
+    "locator": "introduction",
+    "quote": "The Commission has issued guidelines to clarify the scope of the obligations for providers of general-purpose AI models under the AI Act.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-11/2026-10-11/official.html",
+    "sha256": "daca7f4eeb4b7425ee618eb723a9dd990866f9912a565a37147970a64ab46517",
+    "locator": "Downloads",
+    "quote": "Communication - Approval of the content of the draft Guidelines on the scope of the obligations for general-purpose AI models (English)",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/EU-11/2026-10-11/secondary.html",
+    "sha256": "f5296983ac5ad517740fe8cb35333197ad4b9b05dd1ddc5e585a1987d2c0b95c",
+    "locator": "Application and enforcement timeline",
+    "quote": "these guidelines, though not legally binding, reflect the Commission's interpretation and will guide enforcement",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-11/extra-ae3feeba99/2026-10-17/official.html",
+    "sha256": "20ebbf82deea9576faec4d3774f256e9cee2182ff9f53809ec2f78f158936416",
+    "locator": "Background",
+    "quote": "While not legally binding, these guidelines set out the Commission’s interpretation and application of the AI Act, which will guide its enforcement actions.",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/EU-11/2026-10-11/official.html",
+    "sha256": "daca7f4eeb4b7425ee618eb723a9dd990866f9912a565a37147970a64ab46517",
+    "locator": "introduction",
+    "quote": "These guidelines focus on the scope of the obligations for providers of general-purpose AI models laid down in the AI Act, in light of their imminent entry into application on 2 August 2025.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-11/2026-10-11/secondary.html",
+    "sha256": "f5296983ac5ad517740fe8cb35333197ad4b9b05dd1ddc5e585a1987d2c0b95c",
+    "locator": "Key points of the guidelines",
+    "quote": "The guidelines introduce straightforward technical criteria, for instance for when an AI model is considered \"general-purpose.\"",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-11/2026-10-11/secondary.html",
+    "sha256": "f5296983ac5ad517740fe8cb35333197ad4b9b05dd1ddc5e585a1987d2c0b95c",
+    "locator": "Key points of the guidelines",
+    "quote": "they clarify that only those making significant modifications to AI models need to comply with the obligations for providers of GPAI models, not those making minor changes",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-11/2026-10-11/secondary.html",
+    "sha256": "f5296983ac5ad517740fe8cb35333197ad4b9b05dd1ddc5e585a1987d2c0b95c",
+    "locator": "Key points of the guidelines",
+    "quote": "The guidelines also clarify under what conditions providers of open-source AI models are exempt from certain obligations",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-11/2026-10-11/secondary.html",
+    "sha256": "f5296983ac5ad517740fe8cb35333197ad4b9b05dd1ddc5e585a1987d2c0b95c",
+    "locator": "Why are these guidelines important?",
+    "quote": "The guidelines explain how the Commission interprets key terms in the AI Act.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-11/2026-10-11/secondary.html",
+    "sha256": "f5296983ac5ad517740fe8cb35333197ad4b9b05dd1ddc5e585a1987d2c0b95c",
+    "locator": "Why are these guidelines important?",
+    "quote": "the guidelines complement the General-Purpose AI Code of Practice",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-11/extra-ae3feeba99/2026-10-17/official.html",
+    "sha256": "20ebbf82deea9576faec4d3774f256e9cee2182ff9f53809ec2f78f158936416",
+    "locator": "General-purpose AI models",
+    "quote": "An AI model is considered to be a general-purpose AI model if it was trained using an amount of computational resources (‘compute’) that exceeds 10^23 floating point operations and if it can generate language (whether in the form of text or audio), text-to-image or text-to-video.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-11/extra-ae3feeba99/2026-10-17/official.html",
+    "sha256": "20ebbf82deea9576faec4d3774f256e9cee2182ff9f53809ec2f78f158936416",
+    "locator": "Providers of general-purpose AI models",
+    "quote": "clarify when an actor modifying a general-purpose AI model is considered to become a provider",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-11/extra-ae3feeba99/2026-10-17/official.html",
+    "sha256": "20ebbf82deea9576faec4d3774f256e9cee2182ff9f53809ec2f78f158936416",
+    "locator": "Exemptions from certain obligations",
+    "quote": "providers of general-purpose AI models released under a free and open-source license and satisfying certain transparency conditions may be exempt from certain obligations under the AI Act",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-11/extra-ae3feeba99/2026-10-17/official.html",
+    "sha256": "20ebbf82deea9576faec4d3774f256e9cee2182ff9f53809ec2f78f158936416",
+    "locator": "Enforcement of obligations",
+    "quote": "The guidelines explain the implications for providers of general-purpose AI models that choose to adhere and implement the General-Purpose AI Code of Practice",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/EU-11/2026-10-11/secondary.html",
+    "sha256": "f5296983ac5ad517740fe8cb35333197ad4b9b05dd1ddc5e585a1987d2c0b95c",
+    "locator": "Application and enforcement timeline",
+    "quote": "providers of the most advanced models, i.e. those that pose systemic risks, are legally obliged to notify the AI Office of these models",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-11/2026-10-11/secondary.html",
+    "sha256": "f5296983ac5ad517740fe8cb35333197ad4b9b05dd1ddc5e585a1987d2c0b95c",
+    "locator": "Application and enforcement timeline",
+    "quote": "From 2 August 2026, the Commission’s enforcement powers enter into application. The Commission will enforce compliance with the obligations for providers of GPAI models, including with fines.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-11/2026-10-11/secondary.html",
+    "sha256": "f5296983ac5ad517740fe8cb35333197ad4b9b05dd1ddc5e585a1987d2c0b95c",
+    "locator": "Application and enforcement timeline",
+    "quote": "By 2 August 2027, providers of GPAI models placed on the market before 2 August 2025 must comply.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-11/2026-10-11/official.html",
+    "sha256": "daca7f4eeb4b7425ee618eb723a9dd990866f9912a565a37147970a64ab46517",
+    "locator": "introduction",
+    "quote": "Below you can download the guidelines in all 24 EU official languages and the Communication approving the content of the guidelines (only in English).",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-11/2026-10-11/official.html",
+    "sha256": "daca7f4eeb4b7425ee618eb723a9dd990866f9912a565a37147970a64ab46517",
+    "locator": "page footer",
+    "quote": "Last update 20 April 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-11/extra-ae3feeba99/2026-10-17/official.html",
+    "sha256": "20ebbf82deea9576faec4d3774f256e9cee2182ff9f53809ec2f78f158936416",
+    "locator": "main text",
+    "quote": "Systemic risks include risks to fundamental rights and safety, and risks related to loss of control over the model.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-11/extra-ae3feeba99/2026-10-17/official.html",
+    "sha256": "20ebbf82deea9576faec4d3774f256e9cee2182ff9f53809ec2f78f158936416",
+    "locator": "Next steps",
+    "quote": "Providers of general-purpose AI models that will be classified as general-purpose AI models with systemic risk must notify the AI Office without delay.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-11/extra-ae3feeba99/2026-10-17/official.html",
+    "sha256": "20ebbf82deea9576faec4d3774f256e9cee2182ff9f53809ec2f78f158936416",
+    "locator": "Background",
+    "quote": "The guidelines were developed through a public consultation, during which the Commission gathered input from hundreds of stakeholders.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-11/extra-ae3feeba99/2026-10-17/official.html",
+    "sha256": "20ebbf82deea9576faec4d3774f256e9cee2182ff9f53809ec2f78f158936416",
+    "locator": "Background",
+    "quote": "the expert pool set up by the Commission’s Joint Research Centre to advise the AI Office on the classification of AI models",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "rewritten from the stored library and overview pages and the Commission's explanatory item: the indicative 10^23 FLOP criterion, modifications, the open-source exemption and the link to the Code of Practice",
+   "safety_topics": "'evaluation & testing' dropped: no stored text of this record shows evaluation or testing content; 'catastrophic risk' kept for models with systemic risk, which include risks of loss of control",
+   "notes": "rewritten from the stored files; systemic-risk duties, the consultation and the JRC expert pool added; the process remarks (C number not shown, thresholds not checked) moved to verification.note and open_questions",
+   "verification.note": "rewritten for this recheck"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force",
+   "date_last_updated"
+  ],
+  "status_reasoning": "Non-binding Commission guidelines published on 18 July 2025, offered for download in 24 languages, and described on the Commission's overview page (last update 28 April 2026) as guiding enforcement; no replacement or withdrawal is shown. 'Published (non-binding, current)' stands.",
+  "scope_reasoning": "Commission guidelines implementing the AI Act's obligations for general-purpose AI models; in scope with no note.",
+  "date_reasoning": "date_last_updated (2026-04-20) is the library page's last update, which may reflect added language versions rather than a revised text; kept as published and raised in open_questions."
+ },
+ "extra_urls": [
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/news/learn-more-about-guidelines-providers-general-purpose-ai-models",
+   "reason": "Commission news item of 18 July 2025 explaining the guidelines (linked from the stored library page): gives the indicative compute criterion for a general-purpose AI model, the systemic-risk obligations and notification, modifications, the open-source exemption and the enforcement timeline; the guidelines' own text is offered only via ec.europa.eu/newsroom/dae/, which robots.txt disallows"
+  }
+ ],
+ "leads": [],
+ "open_questions": [
+  "official_identifier: secondary sources give the approving Communication as C(2025) 5045 final; the Communication is offered only through ec.europa.eu/newsroom/dae/, which robots.txt disallows, so the number is not in a stored official file and the field stays empty.",
+  "date_last_updated (2026-04-20) is the Commission library page's last update; it may mark added language versions (the 23 non-English versions have later document numbers than the English text) rather than a revision of the guidelines. Has the guidelines' text changed since 18 July 2025?",
+  "The guidelines' own text is not stored, so their specific thresholds and criteria rest on the Commission's overview pages."
+ ]
+}

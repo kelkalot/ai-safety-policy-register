@@ -1,0 +1,54 @@
+{
+ "cand_id": "EU-15",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "title": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "judgment-differs",
+   "why": "final sentence is a hedged attribution to a Portuguese agency summary and the agreement is not in the stored report; belongs in verification.note, not notes"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Identifies a potential regulatory gap for CSAM and non-consensual intimate content not prohibited by Art 5",
+   "verdict": "supported",
+   "locator": "Conclusion, paragraph 61"
+  },
+  {
+   "claim": "Flags emotion recognition, AI companions and mental-health chatbots, and political disinformation for monitoring",
+   "verdict": "supported",
+   "locator": "sections 3.2 and 3.3"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Quotes pass against the EUR-Lex text. Title, 20.5.2026, COM(2026) 234 final, methodology, CSAM/NCII gap, emotion recognition, AI companions and disinformation as monitoring areas, and the Art 112(2) 2028 point are in the report. The last sentence of notes attributes the Omnibus agreement to a Portuguese agency summary; that is a hedged attribution and a source remark that belongs in verification.note, and the stored report does not itself mention the agreement. I flag it as judgment-differs; it does not change a factual field."
+}

@@ -1,0 +1,238 @@
+{
+ "cand_id": "EU-08",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "EU-08",
+ "record": {
+  "title": "Commission Implementing Regulation (EU) 2025/454 of 7 March 2025 laying down the rules for the application of Regulation (EU) 2024/1689 of the European Parliament and of the Council as regards the establishment of a scientific panel of independent experts in the field of artificial intelligence",
+  "date_last_updated": null,
+  "summary": "Establishes, under Article 68(1) of the AI Act, a scientific panel of independent experts in AI to support enforcement and advise the AI Office. The panel has at most 60 experts, appointed for two-year terms after a public call, with one to three nationals of each EU and EEA-EFTA state where qualified applicants exist; they must be independent of providers of AI systems and general-purpose AI models, declare their interests and work transparently. Market surveillance authorities can request the panel's support, and the Regulation sets the procedures for the panel to issue qualified alerts to the AI Office and to request information from providers of general-purpose AI models.",
+  "safety_topics": [
+   "general-purpose / frontier AI",
+   "evaluation & testing"
+  ],
+  "notes": "Adopted on 7 March 2025 (Commission document C/2025/1377) and published in the Official Journal (OJ L, 2025/454) on 10 March 2025; it entered into force on 30 March 2025, the twentieth day after publication. The AI Office and the Joint Research Centre jointly provide the panel's secretariat. On 1 June 2026 the Commission appointed the Scientific Panel, with 60 independent experts, and the Advisory Forum, for two-year terms; the Panel focuses on general-purpose AI models and systems, systemic risks, model classification, evaluation methodologies and cross-border market surveillance. On 9 October 2026 the Commission held a special meeting of the Scientific Panel on frontier AI safety and risks, at which the panel was to present recommendations on frontier AI safety and security risks; the panel had been investigating recent loss-of-control incidents and, with the AI Office, had worked on a set of questions for the companies that developed the models involved.",
+  "verification": {
+   "note": "Stored and read in this run: the EUR-Lex page with the Official Journal text (snapshot of 11 Oct 2026, unchanged on 17 Oct), which gives the full title, the document number C/2025/1377, publication in OJ L 2025/454 of 10 March 2025, adoption at Brussels on 7 March 2025, Article 20 (entry into force on the twentieth day after publication) and the legal status 'In force' with no notice of changes; the Commission's press release of 1 June 2026 (alt-official) on the appointment of the Scientific Panel and the Advisory Forum; and the Commission's press release on the special meeting of the Scientific Panel (17 Oct 2026 copy), published 9 October 2026, with a related item saying the meeting was convened on 9 October 2026. That press release confirms version 1's date of 9 Oct 2026 and its account of the loss-of-control incidents and the questions for developers; the first pass of this run had wrongly redated the meeting to 5 October 2026, the date the news list of the Commission's AI Act page gives the item. Version 1's date_last_updated of 1 June 2026 was the date of the appointments, not an amendment of the Regulation; EUR-Lex shows no amendment, so the field is now null. 'Catastrophic risk' and 'safety institute' were dropped: the Regulation does not mention catastrophic risks, and the panel is an advisory expert body for enforcement, not an AI safety institute."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/EU-08/2026-10-11/official-2.html",
+    "sha256": "5035630c71e4303e9002ce2c58de9237ffb4843cbc25b8552165fb5305229d7b",
+    "locator": "document title",
+    "quote": "Commission Implementing Regulation (EU) 2025/454 of 7 March 2025 laying down the rules for the application of Regulation (EU) 2024/1689 of the European Parliament and of the Council as regards the establishment of a scientific panel of independent experts in the field of artificial intelligence",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/EU-08/2026-10-11/official-2.html",
+    "sha256": "5035630c71e4303e9002ce2c58de9237ffb4843cbc25b8552165fb5305229d7b",
+    "locator": "signature, after Article 20",
+    "quote": "Done at Brussels, 7 March 2025.",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/EU-08/2026-10-11/official-2.html",
+    "sha256": "5035630c71e4303e9002ce2c58de9237ffb4843cbc25b8552165fb5305229d7b",
+    "locator": "Article 20",
+    "quote": "This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-08/2026-10-11/official-2.html",
+    "sha256": "5035630c71e4303e9002ce2c58de9237ffb4843cbc25b8552165fb5305229d7b",
+    "locator": "document information",
+    "quote": "ELI: http://data.europa.eu/eli/reg_impl/2025/454/oj",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/EU-08/2026-10-11/official-2.html",
+    "sha256": "5035630c71e4303e9002ce2c58de9237ffb4843cbc25b8552165fb5305229d7b",
+    "locator": "document information, legal status",
+    "quote": "(BG, ES, CS, DA, DE, ET, EL, EN, FR, GA, HR, IT, LV, LT, HU, MT, NL, PL, PT, RO, SK, SL, FI, SV) In force ELI: http://data.europa.eu/eli/reg_impl/2025/454/oj",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/EU-08/2026-10-11/official-2.html",
+    "sha256": "5035630c71e4303e9002ce2c58de9237ffb4843cbc25b8552165fb5305229d7b",
+    "locator": "preamble",
+    "quote": "THE EUROPEAN COMMISSION, Having regard to the Treaty on the Functioning of the European Union,",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/EU-08/2026-10-11/official-2.html",
+    "sha256": "5035630c71e4303e9002ce2c58de9237ffb4843cbc25b8552165fb5305229d7b",
+    "locator": "Article 20",
+    "quote": "This Regulation shall be binding in its entirety and directly applicable in all Member States.",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/EU-08/2026-10-11/official-2.html",
+    "sha256": "5035630c71e4303e9002ce2c58de9237ffb4843cbc25b8552165fb5305229d7b",
+    "locator": "OJ heading",
+    "quote": "COMMISSION IMPLEMENTING REGULATION (EU) 2025/454",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/EU-08/2026-10-11/official-2.html",
+    "sha256": "5035630c71e4303e9002ce2c58de9237ffb4843cbc25b8552165fb5305229d7b",
+    "locator": "recital 1",
+    "quote": "should be established to support enforcement activities under Regulation (EU) 2024/1689 and to advise and support the European Artificial Intelligence Office (the ‘AI Office’) in the performance of its tasks",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-08/2026-10-11/official-2.html",
+    "sha256": "5035630c71e4303e9002ce2c58de9237ffb4843cbc25b8552165fb5305229d7b",
+    "locator": "Article 3(2)",
+    "quote": "The number of experts on the scientific panel shall in no case exceed 60.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-08/2026-10-11/official-2.html",
+    "sha256": "5035630c71e4303e9002ce2c58de9237ffb4843cbc25b8552165fb5305229d7b",
+    "locator": "Article 4(1)",
+    "quote": "Experts shall be appointed as members of the scientific panel for a limited term of two years, with the possibility of renewals.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-08/2026-10-11/official-2.html",
+    "sha256": "5035630c71e4303e9002ce2c58de9237ffb4843cbc25b8552165fb5305229d7b",
+    "locator": "Article 14(1)",
+    "quote": "The AI Office shall provide for practical means for market surveillance authorities to request assistance from the scientific panel for their market surveillance activities under Regulation (EU) 2024/1689.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-08/2026-10-11/official-2.html",
+    "sha256": "5035630c71e4303e9002ce2c58de9237ffb4843cbc25b8552165fb5305229d7b",
+    "locator": "Article 18(1)",
+    "quote": "A decision by at least a simple majority of the members of the scientific panel shall be necessary to issue a qualified alert to the AI Office pursuant to Article 90(1) of Regulation (EU) 2024/1689.",
+    "source_kind": "official"
+   }
+  ],
+  "safety_topics": [
+   {
+    "file": "archive/EU-08/2026-10-11/official-2.html",
+    "sha256": "5035630c71e4303e9002ce2c58de9237ffb4843cbc25b8552165fb5305229d7b",
+    "locator": "Article 7(4)",
+    "quote": "Where the Commission appoints an expert from the scientific panel to carry out evaluations on its behalf pursuant to Article 92(2) of Regulation (EU) 2024/1689",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-08/2026-10-11/secondary-2.html",
+    "sha256": "92f12b0b8692e622389e2f5489bfa63145b52ba51d2795b55e629f6fbd24127a",
+    "locator": "press release",
+    "quote": "It will focus on general-purpose AI (GPAI) models and systems, systemic risks, model classification, evaluation methodologies and cross-border market surveillance.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/EU-08/2026-10-11/official-2.html",
+    "sha256": "5035630c71e4303e9002ce2c58de9237ffb4843cbc25b8552165fb5305229d7b",
+    "locator": "document information",
+    "quote": "C/2025/1377 OJ L, 2025/454, 10.3.2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-08/2026-10-11/official-2.html",
+    "sha256": "5035630c71e4303e9002ce2c58de9237ffb4843cbc25b8552165fb5305229d7b",
+    "locator": "Article 6(1)",
+    "quote": "The AI Office and the Joint Research Centre shall jointly provide the secretariat (the ‘Secretariat’) for the scientific panel.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-08/2026-10-11/secondary-2.html",
+    "sha256": "92f12b0b8692e622389e2f5489bfa63145b52ba51d2795b55e629f6fbd24127a",
+    "locator": "press release",
+    "quote": "The European Commission has appointed a Scientific Panel and an Advisory Forum to support enforcement of the Artificial Intelligence (AI) Act.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-08/2026-10-11/secondary-2.html",
+    "sha256": "92f12b0b8692e622389e2f5489bfa63145b52ba51d2795b55e629f6fbd24127a",
+    "locator": "press release",
+    "quote": "Publication 01 June 2026",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-08/2026-10-11/secondary-2.html",
+    "sha256": "92f12b0b8692e622389e2f5489bfa63145b52ba51d2795b55e629f6fbd24127a",
+    "locator": "press release",
+    "quote": "The Scientific Panel brings together 60 world-leading independent experts with experience in frontier AI, engineering, technical auditing, industry and societal impact.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-08/extra-6d72238cf5/2026-10-17/official.html",
+    "sha256": "838ce65da88d29643fb50e513e3163a7fd3f9deb22644e19001fe2a3d2517252",
+    "locator": "press release, below the heading",
+    "quote": "Publication 09 October 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-08/extra-6d72238cf5/2026-10-17/official.html",
+    "sha256": "838ce65da88d29643fb50e513e3163a7fd3f9deb22644e19001fe2a3d2517252",
+    "locator": "Related content",
+    "quote": "On 9 October 2026, Henna Virkkunen, Executive Vice-President for Tech Sovereignty, Security and Democracy, and Seán Ó hÉigeartaigh, Chair of the AI Scientific Panel, convened a special meeting.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-08/extra-6d72238cf5/2026-10-17/official.html",
+    "sha256": "838ce65da88d29643fb50e513e3163a7fd3f9deb22644e19001fe2a3d2517252",
+    "locator": "press release, paragraph 1",
+    "quote": "The panel has been investigating recent loss-of-control incidents, and together with the Commission’s AI Office, has worked on a set of questions for the companies that developed the models involved.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-08/extra-6d72238cf5/2026-10-17/official.html",
+    "sha256": "838ce65da88d29643fb50e513e3163a7fd3f9deb22644e19001fe2a3d2517252",
+    "locator": "press release, paragraph 2",
+    "quote": "During the meeting, the panel will present recommendations to the Commission on frontier AI safety and security risks.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "title": "the verbatim title from the Official Journal text, which names the AI Act 'Regulation (EU) 2024/1689 of the European Parliament and of the Council'",
+   "date_last_updated": "set to null: version 1's 1 June 2026 is the date the panel was appointed, not an amendment or new version; EUR-Lex shows the Regulation 'In force' without the 'This act has been changed' notice it shows for amended acts",
+   "summary": "rewritten from recital 1 and Articles 3, 4, 10, 12, 14, 15 and 18",
+   "safety_topics": "'catastrophic risk' dropped (the Regulation does not deal with it) and 'safety institute' dropped (the panel is an advisory expert body for enforcement, not an AI safety institute); 'general-purpose / frontier AI' (Arts 15 to 18) and 'evaluation & testing' (Art. 7(4), evaluations under Art. 92(2) of the AI Act) stay",
+   "notes": "document number, OJ reference and secretariat added; the special meeting of 9 October 2026, the loss-of-control investigation and the questions for developers are now quoted from the stored press release",
+   "verification.note": "rewritten for the files stored in this run"
+  },
+  "confirmed": [
+   "date_published",
+   "date_in_force",
+   "status",
+   "issuing_body",
+   "legal_force",
+   "official_identifier"
+  ],
+  "status_reasoning": "Published in OJ L 2025/454 on 10 March 2025; Article 20 puts entry into force on the twentieth day after publication, 30 March 2025, before 17 October 2026. EUR-Lex marks it 'In force'. 'In force' stands.",
+  "scope_reasoning": "An implementing regulation of the AI Act establishing an AI expert body for enforcement; in scope with no note."
+ },
+ "extra_urls": [
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/news/commission-holds-special-meeting-scientific-panel-frontier-ai-safety-and-risks",
+   "reason": "the Commission's press release 'Commission holds special meeting of Scientific panel on frontier AI safety and risks', linked from the news list of the Commission's AI Act page; supports the date (9 October 2026) and subject of the meeting in the notes"
+  }
+ ],
+ "leads": [],
+ "open_questions": []
+}

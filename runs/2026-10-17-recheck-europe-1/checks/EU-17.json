@@ -1,0 +1,55 @@
+{
+ "cand_id": "EU-17",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "title": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "EU evaluation capacity for AI models (2027); Blueprint for structured access (Q4 2026); testing platform by ENISA and JRC",
+   "verdict": "supported",
+   "locator": "page 7, key actions 1-3"
+  },
+  {
+   "claim": "ENISA guidance on AI-powered threats as of Q3 2026; Grand Challenge Q4 2026",
+   "verdict": "supported",
+   "locator": "pages 10 and 13"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "EU-10"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Quotes pass, now against the full text COM(2026) 577 final (Council register copy) and the Commission pages. Date 7.7.2026, three objectives, key actions with their timing, no new obligations for providers, the EDA working group and NATO/G7/UN cooperation are in the text. Scope: AI cybersecurity plan whose main focus is frontier AI risks and evaluation; core."
+}

@@ -1,0 +1,192 @@
+{
+ "cand_id": "EU-13",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "EU-13",
+ "record": {
+  "summary": "Draft Commission guidance and a reporting template for the obligation of providers of high-risk AI systems, set out in Article 73 of the AI Act, to report serious incidents to national authorities. The obligation aims to detect risks early, ensure accountability, enable quick action and build public trust in AI. The draft guidance clarifies definitions, offers practical examples and explains how the rules relate to other legal obligations, and the approach seeks alignment with international initiatives such as the OECD AI Incidents Monitor and Common Reporting Framework. Both were published for stakeholder consultation.",
+  "safety_topics": [
+   "incident reporting",
+   "accountability & liability"
+  ],
+  "notes": "Published for consultation on 26 September 2025; the consultation, which sought feedback and examples on the interplay with other reporting regimes, closed on 7 November 2025. The consultation page gave August 2026 as the date from which the rules apply; following the political agreement on the AI Omnibus, the Commission states that the application of the high-risk rules was postponed to December 2027 for stand-alone AI systems and to August 2028 for AI embedded in products. Separately, on 4 November 2025 the Commission published a reporting template for serious incidents involving general-purpose AI models with systemic risk, which these providers must report to the AI Office under Article 55 of the AI Act; it supports Commitment 9 of the General-Purpose AI Code of Practice.",
+  "verification": {
+   "note": "Re-read in the recheck of 17 Oct 2026: the Commission consultation page (official, stored 11 Oct 2026, last update 4 Nov 2025) confirms the draft status, publication on 26 Sept 2025, the closing date of 7 Nov 2025 and the content of the draft; the Commission library page of 4 Nov 2025 (stored 11 Oct 2026) confirms the GPAI serious-incident template. Stored in this run: the Commission's page on the targeted consultation on the high-risk classification guidelines (last update 16 June 2026), which concerns another instrument (EU-14) and is quoted here only for the postponed application of the high-risk rules. The draft guidance and the reporting template are offered only through ec.europa.eu/newsroom/dae/, which ec.europa.eu's robots.txt disallows, so they are not stored. No final version of the high-risk guidance was found on the Commission's pages or in a web search on 17 Oct 2026. Version 1's statements that Article 73(7) required the guidance by 2 Aug 2025 and that a Commission page lists a final high-risk template without a date are not shown in the stored files and were removed; version 1's statement that Article 73 follows the high-risk dates as revised by the Digital Omnibus is replaced in notes by the Commission's statement on the postponed high-risk rules."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/EU-13/2026-10-11/official.html",
+    "sha256": "223edcf13d906c11b34e5b80e3c6266ec8aca318bad4de6282aeeeb0cf054a68",
+    "locator": "page heading",
+    "quote": "AI Act: Commission issues draft guidance and reporting template on serious AI incidents, and seeks stakeholders' feedback",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-13/2026-10-11/official.html",
+    "sha256": "223edcf13d906c11b34e5b80e3c6266ec8aca318bad4de6282aeeeb0cf054a68",
+    "locator": "Downloads",
+    "quote": "Draft Guidance article 73 AI Act - incident reporting",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/EU-13/2026-10-11/official.html",
+    "sha256": "223edcf13d906c11b34e5b80e3c6266ec8aca318bad4de6282aeeeb0cf054a68",
+    "locator": "page header",
+    "quote": "Publication 26 September 2025 Opening: 26 September 2025 Closing: 07 November 2025",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/EU-13/2026-10-11/official.html",
+    "sha256": "223edcf13d906c11b34e5b80e3c6266ec8aca318bad4de6282aeeeb0cf054a68",
+    "locator": "main text",
+    "quote": "you can already download the draft guidance and reporting template below",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-13/2026-10-11/official.html",
+    "sha256": "223edcf13d906c11b34e5b80e3c6266ec8aca318bad4de6282aeeeb0cf054a68",
+    "locator": "page header",
+    "quote": "Publication 26 September 2025 Opening: 26 September 2025 Closing: 07 November 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-13/2026-10-11/secondary.html",
+    "sha256": "8956b635ff3676a395a0828387451a809d97d9a53a33b498f1bdef77062d6e0e",
+    "locator": "main text",
+    "quote": "Regarding high-risk AI systems, the Commission has already published draft guidance and a reporting template on serious AI incidents and is seeking stakeholders’ feedback until 7 November.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/EU-13/2026-10-11/official.html",
+    "sha256": "223edcf13d906c11b34e5b80e3c6266ec8aca318bad4de6282aeeeb0cf054a68",
+    "locator": "page footer",
+    "quote": "Last update 4 November 2025",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/EU-13/2026-10-11/official.html",
+    "sha256": "223edcf13d906c11b34e5b80e3c6266ec8aca318bad4de6282aeeeb0cf054a68",
+    "locator": "page heading",
+    "quote": "AI Act: Commission issues draft guidance and reporting template on serious AI incidents",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/EU-13/2026-10-11/official.html",
+    "sha256": "223edcf13d906c11b34e5b80e3c6266ec8aca318bad4de6282aeeeb0cf054a68",
+    "locator": "main text",
+    "quote": "The draft guidance clarifies definitions, offers practical examples, and explains how the new rules relate to other legal obligations.",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/EU-13/2026-10-11/official.html",
+    "sha256": "223edcf13d906c11b34e5b80e3c6266ec8aca318bad4de6282aeeeb0cf054a68",
+    "locator": "main text",
+    "quote": "Under the EU AI Act, providers of high-risk AI systems will be required to report serious incidents to national authorities. This new obligation, set out in Article 73, aims to detect risks early, ensure accountability, enable quick action, and build public trust in AI technologies.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-13/2026-10-11/official.html",
+    "sha256": "223edcf13d906c11b34e5b80e3c6266ec8aca318bad4de6282aeeeb0cf054a68",
+    "locator": "main text",
+    "quote": "The draft guidance clarifies definitions, offers practical examples, and explains how the new rules relate to other legal obligations.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-13/2026-10-11/official.html",
+    "sha256": "223edcf13d906c11b34e5b80e3c6266ec8aca318bad4de6282aeeeb0cf054a68",
+    "locator": "main text",
+    "quote": "The EU’s approach also seeks alignment with international initiatives, such as the OECD’s AI Incidents Monitor and Common Reporting Framework.",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/EU-13/2026-10-11/official.html",
+    "sha256": "223edcf13d906c11b34e5b80e3c6266ec8aca318bad4de6282aeeeb0cf054a68",
+    "locator": "introduction",
+    "quote": "Stakeholders are encouraged to provide feedback and examples on the interplay with other reporting regimes in this public consultation.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-13/2026-10-11/secondary.html",
+    "sha256": "8956b635ff3676a395a0828387451a809d97d9a53a33b498f1bdef77062d6e0e",
+    "locator": "page header",
+    "quote": "AI Act: Commission publishes a reporting template for serious incidents involving general-purpose AI models with systemic risk POLICY AND LEGISLATION Publication 04 November 2025",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-13/2026-10-11/secondary.html",
+    "sha256": "8956b635ff3676a395a0828387451a809d97d9a53a33b498f1bdef77062d6e0e",
+    "locator": "main text",
+    "quote": "Under Article 55 of the EU AI Act, these providers are required to report relevant information on serious incidents to the AI Office",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-13/2026-10-11/secondary.html",
+    "sha256": "8956b635ff3676a395a0828387451a809d97d9a53a33b498f1bdef77062d6e0e",
+    "locator": "introduction",
+    "quote": "helps providers demonstrate compliance with the commitments set out in Commitment 9 of the GPAI Code of Practice",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-13/2026-10-11/official.html",
+    "sha256": "223edcf13d906c11b34e5b80e3c6266ec8aca318bad4de6282aeeeb0cf054a68",
+    "locator": "main text",
+    "quote": "While the rules will only become applicable from August 2026, you can already download the draft guidance and reporting template below.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-13/extra-93ea94c94c/2026-10-17/official.html",
+    "sha256": "16a90e5b9d1f23d9ec8ca8ce2a7fe968031cf50b740992dc47b71c93db000de2",
+    "locator": "Extension of the deadline",
+    "quote": "Following the political agreement on the AI Omnibus, the application of the high-risk rules was postponded: to December 2027 for stand-alone AI systems to August 2028 for AI embedded in products.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "'national market-surveillance authorities' corrected to 'national authorities' as the stored page says; the aims of the obligation added from the page",
+   "safety_topics": "'general-purpose / frontier AI' dropped: the instrument is the high-risk Article 73 guidance; the separate GPAI template is mentioned in notes only",
+   "notes": "rewritten from the stored files; unsupported statements on the Article 73(7) deadline and an undated final high-risk template removed; the postponement of the high-risk rules after the AI Omnibus agreement added from the Commission's consultation page",
+   "verification.note": "rewritten for this recheck"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force",
+   "date_last_updated"
+  ],
+  "status_reasoning": "The consultation page offers the draft guidance and template and closed for feedback on 7 Nov 2025; the page was last updated on 4 Nov 2025 and shows no final version, and none was found on the Commission's pages on 17 Oct 2026. 'Draft / proposed' stands.",
+  "scope_reasoning": "Draft Commission guidance implementing the AI Act's serious-incident reporting duty; in scope with no note.",
+  "date_reasoning": "date_last_updated (2025-11-04) is the consultation page's last update, the day the related GPAI template was published; kept as published."
+ },
+ "extra_urls": [
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/news/consultation-guidelines-high-risk",
+   "reason": "Commission page on the consultation on the high-risk classification guidelines, which states that, following the political agreement on the AI Omnibus, the high-risk rules were postponed to December 2027 for stand-alone AI systems and to August 2028 for AI embedded in products; needed to replace the consultation page's outdated 'applicable from August 2026' in notes"
+  }
+ ],
+ "leads": [],
+ "open_questions": [
+  "The draft guidance and the high-risk reporting template are offered only through ec.europa.eu/newsroom/dae/, which ec.europa.eu's robots.txt disallows; they cannot be stored by the archiver, so the summary rests on the Commission's consultation page.",
+  "No final version of the Article 73 guidance for high-risk AI systems was found; a later run should check whether the Commission has adopted it."
+ ]
+}

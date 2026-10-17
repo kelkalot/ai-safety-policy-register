@@ -1,0 +1,273 @@
+{
+ "cand_id": "EU-09",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "EU-09",
+ "record": {
+  "title": "Commission Implementing Decision of 23.6.2025 on a standardisation request to the European Committee for Standardisation and the European Committee for Electrotechnical Standardisation as regards high-risk AI-systems in support of Regulation (EU) 2024/1689 of the European Parliament and of the Council and repealing Implementing Decision C(2023)3215",
+  "official_identifier": "C(2025) 3871 final",
+  "language": "English, French, German",
+  "summary": "A Commission implementing decision requesting CEN and Cenelec to draft harmonised standards and European standardisation deliverables supporting the AI Act's requirements for high-risk AI systems in Articles 9 to 15, 17 and 43. The standards cover ten areas: risk management, governance and quality of datasets, record keeping, transparency, human oversight, accuracy, robustness, cybersecurity, quality management and conformity assessment. High-risk AI systems that conform to harmonised standards referenced in the Official Journal are presumed to meet the requirements those standards cover. The standards must conform with Union law on fundamental rights and data protection.",
+  "notes": "It repeals and replaces Implementing Decision C(2023) 3215 of 22 May 2023, which was based on the Commission's proposal for the AI Act: the new request reflects the final text of Regulation (EU) 2024/1689 and sets a new deadline because CEN and Cenelec reported significant delays in September 2024, while the scope and technical content of the requested standards stay as in the 2023 request. CEN and Cenelec were to draft the standards and deliver their final report by 31 August 2025, update their work programme and report to the Commission every three months. The decision is addressed to CEN and Cenelec, ceases to apply if they do not accept the request, and expires on 28 February 2027. Applying the resulting standards remains voluntary. CEN and Cenelec work on them in Joint Technical Committee JTC 21; prEN 18286, a quality management system standard for AI Act purposes supporting Article 17, became the first harmonised standard for AI to enter public enquiry, on 30 October 2025. Under the request CEN and Cenelec completed the harmonised standard on quality management systems for providers of AI systems, including post-market monitoring (point 9 of Annex I), as EN 18286:2026; Commission Implementing Decision (EU) 2026/2274 of 12 October 2026 published its reference in the Official Journal on 14 October 2026, from when compliance with it gives a presumption of conformity.",
+  "verification": {
+   "note": "Re-read in the recheck of 17 Oct 2026: the Commission document-register PDF of C(2025) 3871 final (official, stored 11 Oct 2026; the decision's body without its annexes) confirms the title, the date 23.6.2025, the authentic languages, the repeal of C(2023) 3215, the 31 Aug 2025 deadline, three-monthly reporting and expiry on 28 Feb 2027. The Commission's AI Act standardisation page (stored 17 Oct 2026; its last update 3 Aug 2026) confirms the ten standardisation areas, JTC 21, the voluntary use of standards and prEN 18286 entering public enquiry on 30 Oct 2025. Commission Implementing Decision (EU) 2026/2274 of 12 Oct 2026 on EUR-Lex (stored 17 Oct 2026 with the browser retry) confirms that EN 18286:2026 was completed under this request and its reference published in OJ L of 14.10.2026. No amendment of the decision was found. The entry-into-force date (taken in version 1 as the adoption date) is not shown in the stored files; a decision addressed to its recipients takes effect on notification, whose date is not stored. Version 1's statements that EN 18286 was approved in June 2026 with its OJ citation pending, and that delays in standards justified the Digital Omnibus postponement, are not supported by the stored files and were removed."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/EU-09/2026-10-11/official.pdf",
+    "sha256": "617f68127736552ac968804dc2e7dd2293b0bb569fa38ab65cb5b3a0c5178384",
+    "locator": "page 1",
+    "quote": "COMMISSION IMPLEMENTING DECISION of 23.6.2025 on a standardisation request to the European Committee for Standardisation and the European Committee for Electrotechnical Standardisation",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-09/2026-10-11/official.pdf",
+    "sha256": "617f68127736552ac968804dc2e7dd2293b0bb569fa38ab65cb5b3a0c5178384",
+    "locator": "page 1",
+    "quote": "as regards high-risk AI-systems in support of Regulation (EU) 2024/1689 of the European Parliament and of the Council and repealing Implementing Decision C(2023)3215",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/EU-09/2026-10-11/official.pdf",
+    "sha256": "617f68127736552ac968804dc2e7dd2293b0bb569fa38ab65cb5b3a0c5178384",
+    "locator": "page 1",
+    "quote": "Brussels, 23.6.2025 C(2025) 3871 final",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/EU-09/2026-10-11/official.pdf",
+    "sha256": "617f68127736552ac968804dc2e7dd2293b0bb569fa38ab65cb5b3a0c5178384",
+    "locator": "page 1",
+    "quote": "Brussels, 23.6.2025 C(2025) 3871 final",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-09/2026-10-11/official.pdf",
+    "sha256": "617f68127736552ac968804dc2e7dd2293b0bb569fa38ab65cb5b3a0c5178384",
+    "locator": "page 7, Article 6",
+    "quote": "Done at Brussels, 23.6.2025",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/EU-09/2026-10-11/official.pdf",
+    "sha256": "617f68127736552ac968804dc2e7dd2293b0bb569fa38ab65cb5b3a0c5178384",
+    "locator": "page 7, Article 5",
+    "quote": "This Decision shall expire on 28 February 2027.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-09/2026-10-11/official.pdf",
+    "sha256": "617f68127736552ac968804dc2e7dd2293b0bb569fa38ab65cb5b3a0c5178384",
+    "locator": "page 6",
+    "quote": "HAS ADOPTED THIS DECISION",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-09/2026-10-17/secondary.html",
+    "sha256": "7888aa74b253b5c30b775e7ecb94f6ce7d8a973189462555d621be05e5765e8b",
+    "locator": "How are standards developed and what are the current standards?",
+    "quote": "The European Commission has requested that CEN and CENELEC develop standards in ten key areas",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-09/extra-03c9c58a5f/2026-10-17/official-print.pdf",
+    "sha256": "824a6c8c5d97edc145c1fa03fa8ac9a848c0af8dd1d5343a001e872c73e59404",
+    "locator": "page 2, recital 3",
+    "quote": "On the basis of the request set out in Implementing Decision C(2025) 3871, CEN and Cenelec completed the work on the harmonised standard requested corresponding to point 9 of Annex I to that Decision",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/EU-09/2026-10-11/official.pdf",
+    "sha256": "617f68127736552ac968804dc2e7dd2293b0bb569fa38ab65cb5b3a0c5178384",
+    "locator": "page 7",
+    "quote": "For the Commission Henna VIRKKUNEN Executive Vice-President",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/EU-09/2026-10-11/official.pdf",
+    "sha256": "617f68127736552ac968804dc2e7dd2293b0bb569fa38ab65cb5b3a0c5178384",
+    "locator": "page 7, Article 6",
+    "quote": "This Decision is addressed to the European Committee for Standardisation and the European Committee for Electrotechnical Standardisation.",
+    "source_kind": "official"
+   }
+  ],
+  "language": [
+   {
+    "file": "archive/EU-09/2026-10-11/official.pdf",
+    "sha256": "617f68127736552ac968804dc2e7dd2293b0bb569fa38ab65cb5b3a0c5178384",
+    "locator": "page 1",
+    "quote": "(Only the English, French and German texts are authentic)",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/EU-09/2026-10-11/official.pdf",
+    "sha256": "617f68127736552ac968804dc2e7dd2293b0bb569fa38ab65cb5b3a0c5178384",
+    "locator": "page 6, Article 1",
+    "quote": "are requested to draft the [new] harmonised standards and European standardisation deliverables listed in Annex I to this Decision, in support of Regulation (EU) 2024/1689",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-09/2026-10-11/official.pdf",
+    "sha256": "617f68127736552ac968804dc2e7dd2293b0bb569fa38ab65cb5b3a0c5178384",
+    "locator": "page 4, recital 11",
+    "quote": "the essential requirements covered in Articles 9 to 15, and the requirements set out in Articles 17 and 43 of Regulation (EU) 2024/1689",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-09/2026-10-11/official.pdf",
+    "sha256": "617f68127736552ac968804dc2e7dd2293b0bb569fa38ab65cb5b3a0c5178384",
+    "locator": "page 3, recital 4",
+    "quote": "are to be presumed to be in conformity with the essential requirements set out in Articles 9 to 15 of that Regulation, covered by those standards or parts thereof",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-09/2026-10-11/official.pdf",
+    "sha256": "617f68127736552ac968804dc2e7dd2293b0bb569fa38ab65cb5b3a0c5178384",
+    "locator": "page 7, Article 3(4)(b)",
+    "quote": "ensured that the harmonised standards and European standardisation deliverables are in conformity with Union law on fundamental rights and data protection",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-09/2026-10-17/secondary.html",
+    "sha256": "7888aa74b253b5c30b775e7ecb94f6ce7d8a973189462555d621be05e5765e8b",
+    "locator": "How are standards developed and what are the current standards?",
+    "quote": "risk management governance and quality of datasets record keeping transparency human oversight accuracy robustness cybersecurity quality management conformity assessment",
+    "source_kind": "alt-official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/EU-09/2026-10-11/official.pdf",
+    "sha256": "617f68127736552ac968804dc2e7dd2293b0bb569fa38ab65cb5b3a0c5178384",
+    "locator": "page 3, recital 6",
+    "quote": "CEN and Cenelec have, in their joint semestrial report of September 2024, informed the Commission about significant delays in the standardisation activities",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-09/2026-10-11/official.pdf",
+    "sha256": "617f68127736552ac968804dc2e7dd2293b0bb569fa38ab65cb5b3a0c5178384",
+    "locator": "page 3, recital 6",
+    "quote": "the scope of the standards, the deliverables requested and the technical content of the standards should be the same as indicated in Annex I to Implementing Decision C(2023)3215",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-09/2026-10-11/official.pdf",
+    "sha256": "617f68127736552ac968804dc2e7dd2293b0bb569fa38ab65cb5b3a0c5178384",
+    "locator": "page 6, Article 3",
+    "quote": "CEN and Cenelec shall every three months report to the Commission on the execution of the request",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-09/2026-10-11/official.pdf",
+    "sha256": "617f68127736552ac968804dc2e7dd2293b0bb569fa38ab65cb5b3a0c5178384",
+    "locator": "page 6, Article 3(2)",
+    "quote": "CEN and Cenelec shall provide the Commission with the final report by 3 1 August 2025.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-09/2026-10-11/official.pdf",
+    "sha256": "617f68127736552ac968804dc2e7dd2293b0bb569fa38ab65cb5b3a0c5178384",
+    "locator": "page 7, Article 4",
+    "quote": "Implementing Decision C(2023)3215 is repealed.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-09/2026-10-17/secondary.html",
+    "sha256": "7888aa74b253b5c30b775e7ecb94f6ce7d8a973189462555d621be05e5765e8b",
+    "locator": "How are standards developed and what are the current standards?",
+    "quote": "The application of standards remains voluntary.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-09/2026-10-17/secondary.html",
+    "sha256": "7888aa74b253b5c30b775e7ecb94f6ce7d8a973189462555d621be05e5765e8b",
+    "locator": "How are standards developed and what are the current standards?",
+    "quote": "They work together in a Joint Technical Committee called JTC 21.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-09/2026-10-17/secondary.html",
+    "sha256": "7888aa74b253b5c30b775e7ecb94f6ce7d8a973189462555d621be05e5765e8b",
+    "locator": "How are standards developed and what are the current standards?",
+    "quote": "On 30 October 2025, prEN 18286: Artificial Intelligence - Quality Management System for EU AI Act Regulatory Purposes became the first harmonised standard for AI to enter public enquiry",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-09/extra-03c9c58a5f/2026-10-17/official-print.pdf",
+    "sha256": "824a6c8c5d97edc145c1fa03fa8ac9a848c0af8dd1d5343a001e872c73e59404",
+    "locator": "page 1",
+    "quote": "Commission Implementing Decision (EU) 2026/2274 of 12 October 2026 on the harmonised standards for high-risk AI systems drafted in support of Regulation (EU) 2024/1689",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-09/extra-03c9c58a5f/2026-10-17/official-print.pdf",
+    "sha256": "824a6c8c5d97edc145c1fa03fa8ac9a848c0af8dd1d5343a001e872c73e59404",
+    "locator": "page 1",
+    "quote": "OJ L, 2026/2274, 14.10.2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-09/extra-03c9c58a5f/2026-10-17/official-print.pdf",
+    "sha256": "824a6c8c5d97edc145c1fa03fa8ac9a848c0af8dd1d5343a001e872c73e59404",
+    "locator": "page 2, recital 3",
+    "quote": "on quality management systems for providers of AI systems, including post-market monitoring processes. This resulted in the adoption of the new harmonised standard EN 18286:2026.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-09/extra-03c9c58a5f/2026-10-17/official-print.pdf",
+    "sha256": "824a6c8c5d97edc145c1fa03fa8ac9a848c0af8dd1d5343a001e872c73e59404",
+    "locator": "page 2, recital 6",
+    "quote": "Compliance with a harmonised standard confers a presumption of conformity with the corresponding essential requirements set out in Union harmonisation legislation from the date of publication of the reference of such standard in the Official Journal",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "title": "the decision's own title, verbatim from the stored PDF; version 1 dropped 'of the European Parliament and of the Council' and wrote 'AI systems' for 'AI-systems'",
+   "official_identifier": "the citable number only; version 1 added a parenthetical description of the repeal, which now stays in notes",
+   "language": "the decision says only the English, French and German texts are authentic",
+   "summary": "rewritten from the stored decision and the Commission page: adds the AI Act articles the standards support, the presumption of conformity as recital 4 states it, and the fundamental-rights and data-protection conformity of Article 3(4)(b)",
+   "notes": "rewritten from the stored files; removed the unsupported claims that EN 18286 was approved in June 2026, that its OJ citation was pending, and that delays in standards were a main justification for the Digital Omnibus postponement; added the publication of EN 18286:2026 by Implementing Decision (EU) 2026/2274; the remark about the entry-into-force date moved to verification.note",
+   "verification.note": "rewritten for this recheck"
+  },
+  "confirmed": [
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "Adopted on 23.6.2025 and addressed to CEN and Cenelec (Article 6); Article 5 makes it expire on 28 February 2027, which is after today (17 Oct 2026). Implementing Decision (EU) 2026/2274 of 12 Oct 2026 publishes EN 18286:2026, completed on the basis of this request, so the request was accepted and is being executed; the Commission's standardisation page (last update 3 Aug 2026) still describes it as current. No amendment or repeal was found. 'In force' stands.",
+  "scope_reasoning": "A binding Commission implementing decision requesting the harmonised standards for the AI Act's high-risk requirements; in scope with no note.",
+  "date_reasoning": "The decision is dated 23.6.2025 on its cover page and in its closing formula."
+ },
+ "extra_urls": [
+  {
+   "url": "https://eur-lex.europa.eu/eli/dec_impl/2026/2274/oj",
+   "reason": "Commission Implementing Decision (EU) 2026/2274 of 12 Oct 2026 on the harmonised standards for high-risk AI systems (OJ L, 14.10.2026), which refers to C(2025) 3871 and publishes EN 18286:2026, drafted under this request, as a harmonised standard; needed for the notes on the request's first deliverable"
+  }
+ ],
+ "leads": [
+  "Commission Implementing Decision (EU) 2026/2274 of 12 October 2026 on the harmonised standards for high-risk AI systems drafted in support of Regulation (EU) 2024/1689 (OJ L, 2026/2274, 14.10.2026), https://eur-lex.europa.eu/eli/dec_impl/2026/2274/oj: publishes the reference of EN 18286:2026; not in the register",
+  "EN 18286:2026, Artificial intelligence - Quality management system for EU AI Act regulatory purposes (CEN-CENELEC JTC 21), the first harmonised standard under the AI Act standardisation request; not in the register"
+ ],
+ "open_questions": [
+  "date_in_force (2025-06-23) is not supported by the stored files: version 1 took the adoption date, but a decision addressed to CEN and Cenelec takes effect on notification, and the notification date is not stored. The field is left as published.",
+  "Annex I and Annex II of the decision (the list of requested standards and their requirements) are not in the stored PDF, which holds only the decision's body; the ten areas rest on the Commission's standardisation page."
+ ]
+}

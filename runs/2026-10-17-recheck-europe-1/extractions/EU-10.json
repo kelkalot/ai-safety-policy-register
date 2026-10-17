@@ -1,0 +1,301 @@
+{
+ "cand_id": "EU-10",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "EU-10",
+ "record": {
+  "summary": "A voluntary code, prepared by independent experts, that providers of general-purpose AI models can sign to demonstrate compliance with Articles 53 and 55 of the AI Act. In its Transparency and Copyright chapters, which address all providers, signatories commit to keep model documentation up to date, give relevant information to downstream providers and, on request, the AI Office, and put in place a policy to comply with EU copyright law. The Safety and Security chapter, for providers of models with systemic risk only, sets out state-of-the-art practices for managing those risks, including a Safety and Security Framework, Model Reports and serious-incident reporting.",
+  "safety_topics": [
+   "general-purpose / frontier AI",
+   "transparency & labelling",
+   "catastrophic risk",
+   "incident reporting"
+  ],
+  "notes": "Published on 10 July 2025, when the Commission received the final version, developed by 13 independent experts with input from over 1,000 stakeholders, and complemented by Commission guidelines on key concepts for general-purpose AI models. The AI Act rules it supports apply from 2 August 2025 and become enforceable by the AI Office one year later for new models and two years later for existing models. On 1 August 2025 the Commission, in an opinion, and the AI Board confirmed that the code is an adequate voluntary tool for providers to demonstrate compliance with the AI Act; adherence does not constitute conclusive evidence of compliance. The three chapters were authored separately, and the Transparency chapter includes a Model Documentation Form. Serious-incident reporting is Commitment 9 of the code, supported by a Commission reporting template of 4 November 2025. Signatories include Aleph Alpha, Amazon, Anthropic, Google, IBM, Microsoft, Mistral AI and OpenAI; xAI signed only the Safety and Security chapter and has to demonstrate compliance with the transparency and copyright obligations by other adequate means. Signatories have set up a Signatory Taskforce, chaired by the AI Office, for a coherent application of the code.",
+  "verification": {
+   "note": "Re-read in the recheck of 17 Oct 2026: the Commission's code page (official, stored 11 Oct 2026, last update 7 Oct 2026) confirms the title, publication on 10 July 2025, the voluntary character, the three chapters, the adequacy confirmation and the signatory list; the Transparency chapter PDF (stored 11 Oct 2026) gives the code's objectives and the documentation commitments; the Commission Opinion page (stored 11 Oct 2026) is dated 1 Aug 2025. Stored in this run: the Commission's press release of 10 July 2025 (publication, the experts and stakeholders, the application and enforcement dates), its overview page of the GPAI guidelines (the Safety and Security Framework and Model Report under Measures 1.4 and 7.7) and its page of 4 Nov 2025 on the GPAI serious-incident template (Commitment 9). The Copyright and Safety and Security chapters and the Commission Opinion itself are offered only through ec.europa.eu/newsroom/dae/, which ec.europa.eu's robots.txt disallows, so they are not stored and were not requested; the chapter's other commitments listed in version 1 (systemic-risk identification and analysis, evaluations, risk acceptance, mitigations, security) rest on no stored text and were removed. Version 1's statements that Meta is not a signatory and on 'GPAI CoP Appendixes' of Feb 2026 were removed. The Commission's Dutch machine-translated print of the page generated on 17 Oct 2026 lists Accexible and Lawise and omits Reflection AI, unlike the English page stored on 11 Oct 2026, so the notes give no count of signatories."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/EU-10/2026-10-11/official.html",
+    "sha256": "ebf9499d6044846160b2ab924c109e0b00d59cd0cd5cb516028ae00bba201fcc",
+    "locator": "page heading",
+    "quote": "The General-Purpose AI Code of Practice",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-10/2026-10-11/document-2.pdf",
+    "sha256": "407e3a0a66327847a4bddb811fe619c8a588892ec451d23435d06485c20a4cf8",
+    "locator": "page 1",
+    "quote": "Code of Practice for General-Purpose AI Models Transparency Chapter",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/EU-10/2026-10-11/official.html",
+    "sha256": "ebf9499d6044846160b2ab924c109e0b00d59cd0cd5cb516028ae00bba201fcc",
+    "locator": "introduction",
+    "quote": "The code was published on July 10, 2025.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-10/extra-761557d21c/2026-10-17/official.html",
+    "sha256": "8bda3687b0bf59eae99fa9e72c165d6ca47cc680535d4b8670c38569d4fb6135",
+    "locator": "press release header",
+    "quote": "General-Purpose AI Code of Practice now available PRESS RELEASE Publication 10 July 2025",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/EU-10/2026-10-11/official.html",
+    "sha256": "ebf9499d6044846160b2ab924c109e0b00d59cd0cd5cb516028ae00bba201fcc",
+    "locator": "introduction",
+    "quote": "The General-Purpose AI (GPAI) code of practice is a voluntary tool, prepared by independent experts in a multi-stakeholder process",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-10/2026-10-11/official.html",
+    "sha256": "ebf9499d6044846160b2ab924c109e0b00d59cd0cd5cb516028ae00bba201fcc",
+    "locator": "introduction",
+    "quote": "The Commission and the AI Board have confirmed that the code is an adequate voluntary tool for providers of GPAI models to demonstrate compliance with the AI Act.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-10/2026-10-11/official.html",
+    "sha256": "ebf9499d6044846160b2ab924c109e0b00d59cd0cd5cb516028ae00bba201fcc",
+    "locator": "Signatories of the code of practice",
+    "quote": "Some signatories may not appear immediately, but we are making sure to continuously update the list as signatures are confirmed.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-10/extra-761557d21c/2026-10-17/official.html",
+    "sha256": "8bda3687b0bf59eae99fa9e72c165d6ca47cc680535d4b8670c38569d4fb6135",
+    "locator": "press release",
+    "quote": "The European Commission has received the final version of the General-Purpose AI Code of Practice, a voluntary tool developed by 13 independent experts",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/EU-10/2026-10-11/secondary.html",
+    "sha256": "dc3591f630c73ceab19c587fcbf8e5e4eff8395ce1c1dd20dcab9a5a43129006",
+    "locator": "page header",
+    "quote": "Commission Opinion on the assessment of the General-Purpose AI Code of Practice POLICY AND LEGISLATION Publication 01 August 2025",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/EU-10/2026-10-11/official.html",
+    "sha256": "ebf9499d6044846160b2ab924c109e0b00d59cd0cd5cb516028ae00bba201fcc",
+    "locator": "introduction",
+    "quote": "prepared by independent experts in a multi-stakeholder process, designed to help industry comply with the AI Act’s obligations for providers of general-purpose AI models",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-10/2026-10-11/official.html",
+    "sha256": "ebf9499d6044846160b2ab924c109e0b00d59cd0cd5cb516028ae00bba201fcc",
+    "locator": "introduction",
+    "quote": "Signatories of the Code have established the Signatory Taskforce, chaired by the AI Office",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-10/2026-10-11/secondary.html",
+    "sha256": "dc3591f630c73ceab19c587fcbf8e5e4eff8395ce1c1dd20dcab9a5a43129006",
+    "locator": "summary",
+    "quote": "The Commission and the AI Board have confirmed that the GPAI Code of Practice, developed by independent experts, is an adequate voluntary tool",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/EU-10/2026-10-11/official.html",
+    "sha256": "ebf9499d6044846160b2ab924c109e0b00d59cd0cd5cb516028ae00bba201fcc",
+    "locator": "introduction",
+    "quote": "AI model providers who voluntarily sign it can show they comply with the AI Act by adhering to the code",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-10/2026-10-11/document-2.pdf",
+    "sha256": "407e3a0a66327847a4bddb811fe619c8a588892ec451d23435d06485c20a4cf8",
+    "locator": "page 3, Objectives",
+    "quote": "while recognising that adherence to the Code does not constitute conclusive evidence of compliance with these obligations under the AI Act",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/EU-10/2026-10-11/document-2.pdf",
+    "sha256": "407e3a0a66327847a4bddb811fe619c8a588892ec451d23435d06485c20a4cf8",
+    "locator": "page 3, Objectives",
+    "quote": "To serve as a guiding document for demonstrating compliance with the obligations provided for in Articles 53 and 55 AI Act",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-10/2026-10-11/official.html",
+    "sha256": "ebf9499d6044846160b2ab924c109e0b00d59cd0cd5cb516028ae00bba201fcc",
+    "locator": "The 3 chapters of the code",
+    "quote": "The Chapters on Transparency and Copyright offer all providers of general-purpose AI models a way to demonstrate compliance with their obligations under Article 53 AI Act.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-10/2026-10-11/document-2.pdf",
+    "sha256": "407e3a0a66327847a4bddb811fe619c8a588892ec451d23435d06485c20a4cf8",
+    "locator": "page 5, Commitment 1",
+    "quote": "Signatories commit to drawing up and keeping up-to-date model documentation in accordance with Measure 1.1, providing relevant information to providers of AI systems who intend to integrate the general-purpose AI model into their AI systems",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-10/2026-10-11/document-2.pdf",
+    "sha256": "407e3a0a66327847a4bddb811fe619c8a588892ec451d23435d06485c20a4cf8",
+    "locator": "page 5, Commitment 1",
+    "quote": "and to the AI Office upon request",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-10/2026-10-11/official.html",
+    "sha256": "ebf9499d6044846160b2ab924c109e0b00d59cd0cd5cb516028ae00bba201fcc",
+    "locator": "Copyright",
+    "quote": "The Copyright chapter (PDF) offers providers practical solutions to meet the AI Act's obligation to put in place a policy to comply with EU copyright law.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-10/2026-10-11/official.html",
+    "sha256": "ebf9499d6044846160b2ab924c109e0b00d59cd0cd5cb516028ae00bba201fcc",
+    "locator": "The 3 chapters of the code",
+    "quote": "only relevant to the small number of providers of the most advanced models, those that are subject to the AI Act's obligations for providers of general-purpose AI models with systemic risk under Article 55 AI Act",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-10/2026-10-11/official.html",
+    "sha256": "ebf9499d6044846160b2ab924c109e0b00d59cd0cd5cb516028ae00bba201fcc",
+    "locator": "Safety and Security",
+    "quote": "outlines concrete state-of-the-art practices for managing systemic risks, i.e. risks from the most advanced models",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-10/extra-8754448609/2026-10-17/official.html",
+    "sha256": "b5397978f39ac128bad3a776777bc1b08c88b61b775cf9bd22e3ae461d28dfc2",
+    "locator": "Submitting documents",
+    "quote": "Safety and Security Framework and Model Report pursuant to Measures 1.4 and 7.7 of the Safety and Security Chapter of the GPAI Code of Practice",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-10/extra-ae46f5983d/2026-10-17/official.html",
+    "sha256": "51972d21b95b87b18a0f9d9373aff6eaa3b3137138d13ef10d16126ea6797f29",
+    "locator": "introduction",
+    "quote": "helps providers demonstrate compliance with the commitments set out in Commitment 9 of the GPAI Code of Practice",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-10/extra-ae46f5983d/2026-10-17/official.html",
+    "sha256": "51972d21b95b87b18a0f9d9373aff6eaa3b3137138d13ef10d16126ea6797f29",
+    "locator": "main text",
+    "quote": "The Code of Practice for general-purpose AI (GPAI) further operationalises this obligation by specifying the information to be included in such reports",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/EU-10/2026-10-11/official.html",
+    "sha256": "ebf9499d6044846160b2ab924c109e0b00d59cd0cd5cb516028ae00bba201fcc",
+    "locator": "introduction",
+    "quote": "It is complemented by Commission guidelines on key concepts related to general-purpose AI models.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-10/2026-10-11/official.html",
+    "sha256": "ebf9499d6044846160b2ab924c109e0b00d59cd0cd5cb516028ae00bba201fcc",
+    "locator": "The 3 chapters of the code",
+    "quote": "consisting of three separately authored chapters: Transparency, Copyright, and Safety and Security",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-10/2026-10-11/document-2.pdf",
+    "sha256": "407e3a0a66327847a4bddb811fe619c8a588892ec451d23435d06485c20a4cf8",
+    "locator": "page 5, Measure 1.1",
+    "quote": "Signatories may choose to complete the Model Documentation Form provided in the Appendix to comply with this commitment.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-10/2026-10-11/official.html",
+    "sha256": "ebf9499d6044846160b2ab924c109e0b00d59cd0cd5cb516028ae00bba201fcc",
+    "locator": "Signatories of the code of practice",
+    "quote": "In addition, xAI signed up to the Safety and Security Chapter; this means that it will have to demonstrate compliance with the AI Act’s obligations concerning transparency and copyright via alternative adequate means.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-10/2026-10-11/official.html",
+    "sha256": "ebf9499d6044846160b2ab924c109e0b00d59cd0cd5cb516028ae00bba201fcc",
+    "locator": "introduction",
+    "quote": "to facilitate a coherent application of the Code",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-10/extra-761557d21c/2026-10-17/official.html",
+    "sha256": "8bda3687b0bf59eae99fa9e72c165d6ca47cc680535d4b8670c38569d4fb6135",
+    "locator": "press release",
+    "quote": "a voluntary tool developed by 13 independent experts, with input from over 1,000 stakeholders",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-10/extra-761557d21c/2026-10-17/official.html",
+    "sha256": "8bda3687b0bf59eae99fa9e72c165d6ca47cc680535d4b8670c38569d4fb6135",
+    "locator": "press release",
+    "quote": "The Code is designed to help industry comply with the AI Act's rules on general-purpose AI, which will enter into application on 2 August 2025. The rules become enforceable by the AI Office of the Commission one year later as regards new models and two years later as regards existing models.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-10/extra-ae46f5983d/2026-10-17/official.html",
+    "sha256": "51972d21b95b87b18a0f9d9373aff6eaa3b3137138d13ef10d16126ea6797f29",
+    "locator": "page header",
+    "quote": "AI Act: Commission publishes a reporting template for serious incidents involving general-purpose AI models with systemic risk POLICY AND LEGISLATION Publication 04 November 2025",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "rewritten from the stored code page, Transparency chapter and Commission pages: the Copyright chapter and documentation commitments added; of the Safety and Security chapter's contents only the framework, model reports and serious-incident reporting are shown in stored files",
+   "safety_topics": "'evaluation & testing' and 'accountability & liability' dropped because no stored text of this record shows them; 'incident reporting' kept for Commitment 9; 'catastrophic risk' kept for the chapter on systemic risks from the most advanced models",
+   "notes": "rewritten from the stored files; added the experts and stakeholders and the application and enforcement dates from the press release; removed the count of 22 signatories (the English and Dutch versions of the list differ), the statement that Meta is not on the list and the 'GPAI CoP Appendixes' of Feb 2026",
+   "verification.note": "rewritten for this recheck"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force",
+   "date_last_updated"
+  ],
+  "status_reasoning": "A voluntary code published on 10 July 2025, confirmed as adequate by the Commission and the AI Board on 1 Aug 2025, with a signatory list the Commission keeps updating (page last updated 7 Oct 2026). No replacement or new version is shown. 'Published (non-binding, current)' stands.",
+  "scope_reasoning": "A code of practice under the AI Act for general-purpose AI models, published by the Commission's AI Office; in scope with no note.",
+  "date_reasoning": "date_last_updated (2025-08-01) is the date of the Commission Opinion confirming adequacy, not a revision of the text; it is kept as published and raised in open_questions."
+ },
+ "extra_urls": [
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/news/general-purpose-ai-code-practice-now-available",
+   "reason": "Commission news item of 10 July 2025 announcing the final code (linked from the stored code page): a second official source for the publication date and for when the GPAI rules apply and become enforceable by the AI Office"
+  },
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers",
+   "reason": "Commission page that names the Safety and Security Framework and Model Report under Measures 1.4 and 7.7 of the code's Safety and Security chapter; the chapter itself is offered only via ec.europa.eu/newsroom/dae/, which robots.txt disallows"
+  },
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/library/ai-act-commission-publishes-reporting-template-serious-incidents-involving-general-purpose-ai",
+   "reason": "Commission page of 4 Nov 2025 stating that serious-incident reporting is Commitment 9 of the code and that the code specifies the information to be reported; supports the incident-reporting content of the Safety and Security chapter"
+  }
+ ],
+ "leads": [],
+ "open_questions": [
+  "The Safety and Security chapter, the Copyright chapter and the Commission Opinion of 1 Aug 2025 are offered only through ec.europa.eu/newsroom/dae/redirection/document/..., which ec.europa.eu's robots.txt disallows; their content (the chapter's commitments, the Opinion's C number) cannot be stored by the archiver. A person could provide them with the 'Provide a document' form.",
+  "date_last_updated (2025-08-01) is the date of the Commission Opinion on the code's adequacy, not of a new version of the code's text; the code page itself was last updated on 7 Oct 2026, when the signatory list changed. Should the field hold the adequacy date, or stay empty until the code is revised?",
+  "The signatory list differs between the English page stored on 11 Oct 2026 (22 providers, including Reflection AI) and the Commission's Dutch machine-translated print generated on 17 Oct 2026 (23 providers, adding Accexible and Lawise and omitting Reflection AI). Which is current?"
+ ]
+}

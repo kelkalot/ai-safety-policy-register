@@ -1,0 +1,61 @@
+{
+ "cand_id": "EU-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "judgment-differs",
+   "why": "The sentence 'this proposal national claims based on fault, the Product Liability Directive producers' no-fault liability' lacks a verb ('covers'); the facts are supported."
+  },
+  "safety_topics": {
+   "verdict": "judgment-differs",
+   "why": "'risk-based classification' added; the proposal ties presumptions to high-risk AI systems, so defensible."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Article 4(7): the defendant has the right to rebut the presumption",
+   "verdict": "supported",
+   "locator": "Article 4(7)"
+  },
+  {
+   "claim": "Article 4(2)(a)-(c): fault where training data, transparency, human oversight, accuracy, robustness or cybersecurity requirements are not met",
+   "verdict": "supported",
+   "locator": "Article 4(2)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "AI-specific civil liability proposal, kept as a withdrawn instrument."
+ },
+ "overall": "accept",
+ "note": "Proposal text (EUR-Lex), the OJ C notice C/2025/5423 and the Parliament's Legislative Observatory file support the title, date, identifier and withdrawal (status 'Revoked / withdrawn', 6 October 2025). No new Commission proposal on AI civil liability found. Only wording point: a missing verb in the notes."
+}

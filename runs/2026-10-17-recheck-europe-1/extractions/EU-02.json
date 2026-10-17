@@ -1,0 +1,244 @@
+{
+ "cand_id": "EU-02",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "EU-02",
+ "record": {
+  "official_identifier": "C/2024/1459 (OJ C series); Commission document C/2024/390",
+  "summary": "Establishes the European Artificial Intelligence Office within the Commission's Directorate-General for Communication Networks, Content and Technology to implement and enforce the AI Act. Its tasks include developing tools, methodologies and benchmarks to evaluate general-purpose AI models, in particular very large models with systemic risks; monitoring unforeseen risks from such models, including alerts from the scientific panel; investigating possible infringements; supporting the rules on prohibited practices and high-risk systems; providing the AI Board's secretariat and facilitating codes of practice; and contributing to international cooperation on AI.",
+  "notes": "Adopted on 24 January 2024 and published in the Official Journal C series on 14 February 2024; it entered into force on 21 February 2024 (Article 9). It was adopted ahead of the AI Act, after the co-legislators' political agreement of 8 December 2023, so that preparation of the Act's implementation could start, and it says it may be revised once the Regulation is adopted. The Office's officials come from the Directorate-General's staff and its operational expenditure from the Digital Europe Programme's specific objective on AI. It is not a European Office within the meaning of the Financial Regulation. As of September 2026 the Office has more than 125 staff in six units, among them unit A3 'AI Safety', and two advisers, a Lead Scientific Adviser and an International Affairs Adviser. Under the powers the AI Act gives the Commission it enforces the rules for general-purpose AI models: it can evaluate models, request information and measures from providers and, in case of infringement, restrict a model's public availability and issue direct fines.",
+  "verification": {
+   "note": "Stored and read in this run: the EUR-Lex text of the Decision (HTML and PDF of the OJ C publication), which confirms the title, the date of 24 January 2024, the OJ C reference C/2024/1459 of 14 Feb 2024, the document number C/2024/390, the EUR-Lex status 'In force', entry into force on 21 Feb 2024 (Article 9) and the tasks in the summary; and the Commission's library page for the Decision (digital-strategy.ec.europa.eu, secondary source), which gives the publication date of 24 January 2024 and the placement within DG CONNECT. Also stored: the Commission's AI Office page (digital-strategy.ec.europa.eu, last updated 8 September 2026), which gives the Office's staff, units and advisers and its enforcement of the AI Act's rules for general-purpose AI models, including fines; the notes on these points rest on it, not on the Decision. The page's printable PDF version is not stored, because the site's robots.txt does not allow automated downloads of it. Version 1's statements on the enforceability date of 2 Aug 2026 and on the Digital Omnibus widening the Office's remit are in neither stored text and were removed from the notes."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/EU-02/2026-10-11/official-2.html",
+    "sha256": "e7c49d21b028b8fdb6f07e18e49ec8eb0854d03db49af0ee0b8fa05813f26800",
+    "locator": "EUR-Lex document title",
+    "quote": "Commission Decision of 24 January 2024 establishing the European Artificial Intelligence Office",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/EU-02/2026-10-11/official-2.html",
+    "sha256": "e7c49d21b028b8fdb6f07e18e49ec8eb0854d03db49af0ee0b8fa05813f26800",
+    "locator": "closing formula",
+    "quote": "Done at Brussels, 24 January 2024.",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/EU-02/2026-10-11/official-2.html",
+    "sha256": "e7c49d21b028b8fdb6f07e18e49ec8eb0854d03db49af0ee0b8fa05813f26800",
+    "locator": "Article 9",
+    "quote": "This Decision shall enter into force on 21 February 2024.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/EU-02/2026-10-11/official-2.html",
+    "sha256": "e7c49d21b028b8fdb6f07e18e49ec8eb0854d03db49af0ee0b8fa05813f26800",
+    "locator": "EUR-Lex document information",
+    "quote": "(BG, ES, CS, DA, DE, ET, EL, EN, FR, GA, HR, IT, LV, LT, HU, MT, NL, PL, PT, RO, SK, SL, FI, SV) In force",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-02/2026-10-11/official-2.html",
+    "sha256": "e7c49d21b028b8fdb6f07e18e49ec8eb0854d03db49af0ee0b8fa05813f26800",
+    "locator": "Article 9",
+    "quote": "This Decision shall enter into force on 21 February 2024.",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/EU-02/2026-10-11/official-2.html",
+    "sha256": "e7c49d21b028b8fdb6f07e18e49ec8eb0854d03db49af0ee0b8fa05813f26800",
+    "locator": "EUR-Lex document information",
+    "quote": "C/2024/390 OJ C, C/2024/1459, 14.2.2024",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/EU-02/2026-10-11/official-2.html",
+    "sha256": "e7c49d21b028b8fdb6f07e18e49ec8eb0854d03db49af0ee0b8fa05813f26800",
+    "locator": "preamble",
+    "quote": "THE EUROPEAN COMMISSION, Having regard to the Treaty on the Functioning of the European Union",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/EU-02/2026-10-11/official-2.html",
+    "sha256": "e7c49d21b028b8fdb6f07e18e49ec8eb0854d03db49af0ee0b8fa05813f26800",
+    "locator": "Article 1",
+    "quote": "The European Artificial Intelligence Office (the 'Office') is established.",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/EU-02/2026-10-11/official-2.html",
+    "sha256": "e7c49d21b028b8fdb6f07e18e49ec8eb0854d03db49af0ee0b8fa05813f26800",
+    "locator": "recital 6",
+    "quote": "a European Artificial Intelligence Office should be established within the Commission as part of the administrative structure of the Directorate-General for Communication Networks, Content and Technology",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-02/2026-10-11/official-2.html",
+    "sha256": "e7c49d21b028b8fdb6f07e18e49ec8eb0854d03db49af0ee0b8fa05813f26800",
+    "locator": "Article 3(1)(a)",
+    "quote": "developing tools, methodologies and benchmarks for evaluating capabilities of general-purpose AI models, in particular for very large general purpose AI models with systemic risks",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-02/2026-10-11/official-2.html",
+    "sha256": "e7c49d21b028b8fdb6f07e18e49ec8eb0854d03db49af0ee0b8fa05813f26800",
+    "locator": "Article 3(1)(c)",
+    "quote": "monitoring the emergence of unforeseen risks stemming from general-purpose AI models, including by responding to alerts from the scientific panel",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-02/2026-10-11/official-2.html",
+    "sha256": "e7c49d21b028b8fdb6f07e18e49ec8eb0854d03db49af0ee0b8fa05813f26800",
+    "locator": "Article 3(1)(d)",
+    "quote": "investigating possible infringements of rules on general-purpose AI models and systems",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-02/2026-10-11/official-2.html",
+    "sha256": "e7c49d21b028b8fdb6f07e18e49ec8eb0854d03db49af0ee0b8fa05813f26800",
+    "locator": "Article 3(1)(f)",
+    "quote": "supporting the implementation of rules on prohibited AI practices and high-risk AI systems",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-02/2026-10-11/official-2.html",
+    "sha256": "e7c49d21b028b8fdb6f07e18e49ec8eb0854d03db49af0ee0b8fa05813f26800",
+    "locator": "Article 3(2)(h)",
+    "quote": "providing the Secretariat for the AI Board and its subgroups",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-02/2026-10-11/official-2.html",
+    "sha256": "e7c49d21b028b8fdb6f07e18e49ec8eb0854d03db49af0ee0b8fa05813f26800",
+    "locator": "Article 3(2)(i)",
+    "quote": "encouraging and facilitating the drawing up of codes of practices and codes of conducts at Union level",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-02/2026-10-11/official-2.html",
+    "sha256": "e7c49d21b028b8fdb6f07e18e49ec8eb0854d03db49af0ee0b8fa05813f26800",
+    "locator": "Article 7(1)",
+    "quote": "The Office shall contribute to international cooperation on AI by the Commission",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/EU-02/2026-10-11/official-2.html",
+    "sha256": "e7c49d21b028b8fdb6f07e18e49ec8eb0854d03db49af0ee0b8fa05813f26800",
+    "locator": "recital 8",
+    "quote": "this Decision should enter into force as a matter of urgency, ahead of the adoption of that Regulation, following the political agreement of the co-legislators achieved on 8 December 2023. Once the Regulation is adopted, this decision may be revised.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-02/2026-10-11/official-2.html",
+    "sha256": "e7c49d21b028b8fdb6f07e18e49ec8eb0854d03db49af0ee0b8fa05813f26800",
+    "locator": "Article 8(1)",
+    "quote": "For officials working in the Office, the human resources required shall be met by staff from the Directorate-General who are already assigned to management of the action or have been redeployed within the Directorate-General",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-02/2026-10-11/official-2.html",
+    "sha256": "e7c49d21b028b8fdb6f07e18e49ec8eb0854d03db49af0ee0b8fa05813f26800",
+    "locator": "Article 8(3)",
+    "quote": "Operational expenditure of the Office shall be covered by the financial resources allocated to Specific Objective 2 'Artificial Intelligence' of the Digital Europe Programme.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-02/2026-10-11/official-2.html",
+    "sha256": "e7c49d21b028b8fdb6f07e18e49ec8eb0854d03db49af0ee0b8fa05813f26800",
+    "locator": "footnote 6",
+    "quote": "It is not a European Office within the meaning of the Financial Regulation",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-02/extra-f37ebc766a/2026-10-17/official.html",
+    "sha256": "c91ea518f846ed1329edacc9c829e2f6dac259a5081a4a50ad5d6e93a6df3ca3",
+    "locator": "The Structure of the AI Office",
+    "quote": "The AI Office employs more than 125 staff, including technology specialists, administrative assistants, lawyers, policy specialists, and economists. It has 6 units and 2 advisers",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-02/extra-f37ebc766a/2026-10-17/official.html",
+    "sha256": "c91ea518f846ed1329edacc9c829e2f6dac259a5081a4a50ad5d6e93a6df3ca3",
+    "locator": "The Structure of the AI Office",
+    "quote": "\"AI Safety\" - unit A3",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-02/extra-f37ebc766a/2026-10-17/official.html",
+    "sha256": "c91ea518f846ed1329edacc9c829e2f6dac259a5081a4a50ad5d6e93a6df3ca3",
+    "locator": "The Structure of the AI Office",
+    "quote": "Lead Scientific Adviser International Affairs Adviser",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-02/extra-f37ebc766a/2026-10-17/official.html",
+    "sha256": "c91ea518f846ed1329edacc9c829e2f6dac259a5081a4a50ad5d6e93a6df3ca3",
+    "locator": "introduction",
+    "quote": "This is underpinned by the powers given to the Commission by the AI Act, including the ability to conduct evaluations of GPAI models, request information and measures from model providers, and apply sanctions.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-02/extra-f37ebc766a/2026-10-17/official.html",
+    "sha256": "c91ea518f846ed1329edacc9c829e2f6dac259a5081a4a50ad5d6e93a6df3ca3",
+    "locator": "Tasks of the AI Office",
+    "quote": "Requesting providers to take corrective action and, in case of infringement, restrict the public availability of a model and issue direct fines for non-compliance",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-02/extra-f37ebc766a/2026-10-17/official.html",
+    "sha256": "c91ea518f846ed1329edacc9c829e2f6dac259a5081a4a50ad5d6e93a6df3ca3",
+    "locator": "page footer",
+    "quote": "Last update 8 September 2026",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Article 9 brought the Decision into force on 21 Feb 2024, and EUR-Lex marks it 'In force'. The Decision says it may be revised after the AI Act's adoption; the stored EUR-Lex page shows no amending act, and a web search found none, so 'In force' stands.",
+  "scope_reasoning": "Mandate of the EU's AI supervisory body; in scope without a note.",
+  "changes": {
+   "official_identifier": "EUR-Lex gives the Commission document number as C/2024/390; the hedge 'reported as C(2024) 390' is replaced by the stored value",
+   "summary": "rewritten from Articles 1, 3 and 7 and recital 6; version 1's claims that the Decision lets the Office request corrective measures and impose fines, coordinate the Scientific Panel and Advisory Forum, and lead EU international engagement, and that it has an AI Safety unit (A3), are not in the Decision",
+   "notes": "rewritten from the Decision; the staff, units, advisers and enforcement powers now rest on the stored AI Office page; the 2 Aug 2026 date and the Digital Omnibus remit removed"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "date_in_force",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+   "reason": "The Commission's AI Office page (updated 8 Sept 2026): gives the Office's more than 125 staff, its six units including A3 'AI Safety', the Lead Scientific Adviser and International Affairs Adviser, its enforcement of the AI Act's rules for general-purpose AI models with the power to restrict a model and issue fines, and the 'AI omnibus' of June 2026; these are version 1's notes, which the Decision itself does not support."
+  }
+ ],
+ "leads": [],
+ "open_questions": [
+  "Version 1's notes said the Digital Omnibus on AI (Regulation (EU) 2026/1744) widened the Office's supervisory remit over AI systems based on general-purpose AI models and over AI embedded in very large online platforms and search engines, and that its enforcement powers became enforceable on 2 Aug 2026. Neither is in the stored Decision; the Omnibus and the AI Act are separate records (EU-18, EU-03). The stored AI Office page mentions the 'AI omnibus' of June 2026 (in force on 27 July) only as amendments to the AI Act, not as a change to the Office's remit."
+ ]
+}

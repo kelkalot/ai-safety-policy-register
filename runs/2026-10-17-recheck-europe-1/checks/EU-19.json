@@ -1,0 +1,53 @@
+{
+ "cand_id": "EU-19",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "title": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Non-binding; issued under Article 96(1)(d)",
+   "verdict": "supported",
+   "locator": "page 4, paragraphs 3 and 5"
+  },
+  {
+   "claim": "Existing generative systems have until 2 December 2026 for Art 50(2) marking",
+   "verdict": "supported",
+   "locator": "page 51, paragraph 153"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Quotes pass. Title, 20.7.2026, C(2026) 5054 final, non-binding (para 5), Art 96(1)(d) basis, 8 May 2026 draft, 2 Dec 2026 transition and no retroactive marking are in the stored 51-page text and Commission pages. New official_url is a stored official library page."
+}

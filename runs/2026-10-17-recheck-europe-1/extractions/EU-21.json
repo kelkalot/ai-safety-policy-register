@@ -1,0 +1,284 @@
+{
+ "cand_id": "EU-21",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "EU-21",
+ "record": {
+  "secondary_url": "https://data.consilium.europa.eu/doc/document/ST-8507-2018-INIT/en/pdf",
+  "verification": {
+   "note": "Stored and read for this record: the Commission's library page on digital-strategy.ec.europa.eu (HTML and printable PDF, about 1,700 characters), which gives the title, the addressees and publication on 25 April 2018 and links to the text on EUR-Lex. Stored in this run: the communication's full text, COM(2018) 237 final, in the Council register copy (document 8507/18, cover note of 30 April 2018, 21 pages), proposed as secondary_url, and on EUR-Lex (document 52018DC0237); they give the title, the number, 'Brussels, 25.4.2018' and the content, against which the summary and notes were checked. No stored source says the communication was withdrawn or replaced."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/EU-21/2026-10-16/official.html",
+    "sha256": "095fc4f3f774991822b750acf99aaabc6b97159681eb2cea14d93975226bead0",
+    "locator": "page heading",
+    "quote": "Communication Artificial Intelligence for Europe",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-21/2026-10-16/official.html",
+    "sha256": "095fc4f3f774991822b750acf99aaabc6b97159681eb2cea14d93975226bead0",
+    "locator": "description",
+    "quote": "Communication from the Commission to the European Parliament, the European Council, the Council, the European Economic and Social Committee and the Committee of the Regions on Artificial Intelligence for Europe.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 2",
+    "quote": "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE EUROPEAN COUNCIL, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS Artificial Intelligence for Europe",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-b124e1398f/2026-10-17/official.html",
+    "sha256": "b744894dc533a8a1b92226729facd4171bfbe628c28139f3e34a08fa39f1241b",
+    "locator": "document title",
+    "quote": "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE EUROPEAN COUNCIL, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS Artificial Intelligence for Europe",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/EU-21/2026-10-16/official.html",
+    "sha256": "095fc4f3f774991822b750acf99aaabc6b97159681eb2cea14d93975226bead0",
+    "locator": "publication line",
+    "quote": "Publication 25 April 2018",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 2",
+    "quote": "Brussels, 25.4.2018 COM(2018) 237 final",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-b124e1398f/2026-10-17/official.html",
+    "sha256": "b744894dc533a8a1b92226729facd4171bfbe628c28139f3e34a08fa39f1241b",
+    "locator": "document",
+    "quote": "Brussels, 25.4.2018 COM(2018) 237 final",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/EU-21/2026-10-16/official.html",
+    "sha256": "095fc4f3f774991822b750acf99aaabc6b97159681eb2cea14d93975226bead0",
+    "locator": "description",
+    "quote": "Access the text of the Communication in all languages",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-21/2026-10-16/official.html",
+    "sha256": "095fc4f3f774991822b750acf99aaabc6b97159681eb2cea14d93975226bead0",
+    "locator": "Last update",
+    "quote": "Last update 11 October 2021",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/EU-21/2026-10-16/official.html",
+    "sha256": "095fc4f3f774991822b750acf99aaabc6b97159681eb2cea14d93975226bead0",
+    "locator": "description",
+    "quote": "Communication from the Commission to the European Parliament, the European Council, the Council",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-b124e1398f/2026-10-17/official.html",
+    "sha256": "b744894dc533a8a1b92226729facd4171bfbe628c28139f3e34a08fa39f1241b",
+    "locator": "document",
+    "quote": "Brussels, 25.4.2018 COM(2018) 237 final",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 1 (cover note)",
+    "quote": "Delegations will find attached document COM(2018) 237 final.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 5",
+    "quote": "This Communication sets out a European initiative on AI, which aims to:",
+    "source_kind": "alt-official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 5",
+    "quote": "Boost the EU's technological a nd industrial capacity and AI uptake across the economy, both by the private and public sectors",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 8",
+    "quote": "should aim to increase this investment to at least EUR 20 billion by the end of 2020.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 5",
+    "quote": "Prepare for socio -economic changes brought about by AI",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 5",
+    "quote": "Ensure an appropriate ethical and legal framework, based on the Union's values and in line with the Charter of Fundamental Rights of the EU.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 18",
+    "quote": "set a framework for stakeholders and experts – the European AI Alliance – to develop draft AI ethics guidelines, with due regard to fundamental rights, by the end of the year",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 18",
+    "quote": "issue a guidance document on the interpretation of the Product Liability Directive in light of technological developments by mid-2019.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 18",
+    "quote": "publish, by mid -2019, a report on the broader implications for, potential gaps in and orientations for, the liability and safety frameworks for AI, Internet of Things and robotics;",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 18",
+    "quote": "support resea rch in the development of explainable AI",
+    "source_kind": "alt-official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 2",
+    "quote": "{SWD(2018) 137 final}",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 4",
+    "quote": "On 10 April 2018, 24 Member States",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 4",
+    "quote": "and Norway committed to working together on AI.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 19",
+    "quote": "Every Member State is encouraged to have an AI strategy, including on investment.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 5",
+    "quote": "the Commission will work with Member States on a coordinated plan on AI",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 5",
+    "quote": "with the view to agree this plan by the end of 2018.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 20",
+    "quote": "By July 2018 , the European AI Alliance will be set up.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 8",
+    "quote": "the Commission is increasing investments in AI under the research and innovation framework programme Horizon 2020 to around EUR 1.5 billion by the end of 2020",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 16",
+    "quote": "it also poses challenges and risks, for example in the areas of safety and liability, security (criminal use or attacks), bias",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 18",
+    "quote": "should know whether they are communicating with a machine or another human.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-21/extra-8d84f42a1b/2026-10-17/official.pdf",
+    "sha256": "696047d4478497a298b5470318314021e161c771e25d277e0f4df00bc2b761b6",
+    "locator": "page 17",
+    "quote": "The Commission will monit or developments and, if necessary, review existing legal frameworks to better adapt them to specific challenges",
+    "source_kind": "alt-official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "secondary_url": "the Council register copy of COM(2018) 237 final (document 8507/18, cover note of 30 April 2018), the communication's full text on an official host, stored in this run; the record had no secondary_url, and its official_url is a short library page, so after a merge its local copy would hold no text of the instrument",
+   "verification.note": "rewritten for the files stored for this record"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "official_identifier",
+   "legal_force"
+  ],
+  "status_reasoning": "A Commission communication dated 'Brussels, 25.4.2018' and sent to the Council on 26 April 2018. The library page, last updated on 11 October 2021, still lists it and links to its text; no stored source shows a withdrawal or replacement. 'Published (non-binding, current)' stands.",
+  "scope_reasoning": "Strategy with an ethical and legal framework as one of its three parts; the existing scope_note applies (strategy whose main focus is not safety).",
+  "checked_unchanged": "summary and notes checked against the stored text and left as published: the three parts, the EUR 20 billion target, the ethics-guidelines, Product Liability Directive and liability-report commitments, explainable AI, SWD(2018) 137, the 10 April 2018 declaration, the coordinated plan, the AI Alliance, Horizon 2020 investment, the risks named and the review of legal frameworks"
+ },
+ "extra_urls": [
+  {
+   "url": "https://data.consilium.europa.eu/doc/document/ST-8507-2018-INIT/en/pdf",
+   "reason": "Council register copy of the communication COM(2018) 237 final (cover note 8507/18 of 30 April 2018, title page 'Brussels, 25.4.2018'), the full text on an official host: needed to check the identifier, the summary and the notes, which rest on the text; proposed as secondary_url. The Commission's own PDF (ec.europa.eu/newsroom/dae/document.cfm?doc_id=51625, stored in run 2026-10-16-discover-leads-2018) is under a robots.txt Disallow (/newsroom/dae/) and is not requested (stored in this run)"
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2018%3A237%3AFIN",
+   "reason": "the EUR-Lex text linked from the Commission's library page ('Access the text of the Communication in all languages'); a second official copy of COM(2018) 237 final, in case the Council register copy cannot be stored (EUR-Lex has returned bot-check pages for this document before) (stored in this run)"
+  }
+ ],
+ "leads": [],
+ "open_questions": []
+}

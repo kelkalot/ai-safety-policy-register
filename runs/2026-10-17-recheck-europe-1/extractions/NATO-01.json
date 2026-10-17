@@ -1,0 +1,174 @@
+{
+ "cand_id": "NATO-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "NATO-01",
+ "record": {
+  "issuing_body": "NATO",
+  "summary": "Public summary of NATO's revised AI strategy, which updates the 2021 strategy as generative AI and frontier or foundation models spread. It aims to have NATO and Allies lead by example in the responsible use of AI for defence and security, to accelerate AI adoption, to protect NATO's AI technologies and manage related risks by operationalising the six Principles of Responsible Use, and to safeguard against adversarial use of AI. It calls for an Alliance-wide AI testing, evaluation, verification and validation (TEV&V) landscape, standards and review tools for responsible adoption, and testing facilities that check whether AI applications can be used safely.",
+  "safety_topics": [
+   "national security & military",
+   "evaluation & testing",
+   "accountability & liability",
+   "general-purpose / frontier AI",
+   "deepfakes & synthetic media",
+   "international cooperation"
+  ],
+  "notes": "Dated 10 July 2024; NATO lists it with the Washington Summit of 8-11 July 2024. The revised strategy updates the Outcomes of NATO's 2021 AI Strategy and adds new ones. The six Principles of Responsible Use (lawfulness, responsibility and accountability, explainability and traceability, reliability, governability, bias mitigation) were endorsed by Allies in the 2021 strategy. It also names AI-enabled disinformation and information operations, which could affect elections and lower trust in institutions, as concerns for the Alliance. The published text is a summary of the strategy. NATO's members include the United States and Canada, although the record's region is Europe.",
+  "verification": {
+   "note": "Stored and read in this run: the nato.int official text (snapshot of 17 Oct 2026, whose strategy text matches the snapshot of 11 Oct 2026), which confirms the title, the date of 10 July 2024, the aims, the outcomes including the TEV&V landscape, the Principles of Responsible Use and the passages on testing facilities, adversarial use and AI-enabled information operations. The page does not say who agreed the revised strategy, so the issuing body is given as NATO. Version 1's claim that the full strategy is not public, and the date of the 2021 strategy, are not in the stored text and were removed from the notes; 'human oversight' was dropped from the topics because the text only names the principle of governability."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/NATO-01/2026-10-17/official.html",
+    "sha256": "4af24db7a1683c317c4becb9876b111509c55f3b73e28d822d91e77c3e8bd826",
+    "locator": "page heading",
+    "quote": "Summary of NATO's revised Artificial Intelligence (AI) strategy | NATO Official text",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/NATO-01/2026-10-17/official.html",
+    "sha256": "4af24db7a1683c317c4becb9876b111509c55f3b73e28d822d91e77c3e8bd826",
+    "locator": "below the heading",
+    "quote": "Summary of NATO's revised Artificial Intelligence (AI) strategy 10 July 2024 6 MIN READ",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/NATO-01/2026-10-17/official.html",
+    "sha256": "4af24db7a1683c317c4becb9876b111509c55f3b73e28d822d91e77c3e8bd826",
+    "locator": "below the heading",
+    "quote": "Summary of NATO's revised Artificial Intelligence (AI) strategy 10 July 2024 6 MIN READ",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/NATO-01/2026-10-17/official.html",
+    "sha256": "4af24db7a1683c317c4becb9876b111509c55f3b73e28d822d91e77c3e8bd826",
+    "locator": "Desired outcomes",
+    "quote": "The Revised AI Strategy updates the Outcomes identified in NATO's 2021 AI Strategy, taking into consideration the progress made, and adds new Outcomes to significantly improve NATO's AI readiness.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/NATO-01/2026-10-17/official.html",
+    "sha256": "4af24db7a1683c317c4becb9876b111509c55f3b73e28d822d91e77c3e8bd826",
+    "locator": "page heading",
+    "quote": "Summary of NATO's revised Artificial Intelligence (AI) strategy | NATO Official text",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/NATO-01/2026-10-17/official.html",
+    "sha256": "4af24db7a1683c317c4becb9876b111509c55f3b73e28d822d91e77c3e8bd826",
+    "locator": "Aims & Goals",
+    "quote": "Provide a foundation for NATO and Allies to lead by example and encourage the development and use of AI in a responsible manner for Allied defence and security purposes",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/NATO-01/2026-10-17/official.html",
+    "sha256": "4af24db7a1683c317c4becb9876b111509c55f3b73e28d822d91e77c3e8bd826",
+    "locator": "Strategic context",
+    "quote": "emerging AI technologies, such as frontier or foundation AI models, which are multi-purpose and capable of performing complex tasks",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/NATO-01/2026-10-17/official.html",
+    "sha256": "4af24db7a1683c317c4becb9876b111509c55f3b73e28d822d91e77c3e8bd826",
+    "locator": "Aims & Goals",
+    "quote": "Accelerate and mainstream AI adoption in capability development and delivery",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/NATO-01/2026-10-17/official.html",
+    "sha256": "4af24db7a1683c317c4becb9876b111509c55f3b73e28d822d91e77c3e8bd826",
+    "locator": "Aims & Goals",
+    "quote": "Protect and monitor our AI technologies, manage related risks, and protect our ability to innovate, addressing security policy considerations such as the operationalization of our PRUs",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/NATO-01/2026-10-17/official.html",
+    "sha256": "4af24db7a1683c317c4becb9876b111509c55f3b73e28d822d91e77c3e8bd826",
+    "locator": "Aims & Goals",
+    "quote": "Identify and safeguard against the threats from adversarial use of AI.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/NATO-01/2026-10-17/official.html",
+    "sha256": "4af24db7a1683c317c4becb9876b111509c55f3b73e28d822d91e77c3e8bd826",
+    "locator": "Desired outcomes",
+    "quote": "Key elements of an Alliance-wide AI Testing, Evaluation, Verification & Validation (TEV&V) landscape able to support the adoption of responsible AI.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/NATO-01/2026-10-17/official.html",
+    "sha256": "4af24db7a1683c317c4becb9876b111509c55f3b73e28d822d91e77c3e8bd826",
+    "locator": "Desired outcomes",
+    "quote": "A growing range of standards, assessment templates, review processes, and other tools and good practices to operationalise the responsible adoption of AI across the Alliance",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/NATO-01/2026-10-17/official.html",
+    "sha256": "4af24db7a1683c317c4becb9876b111509c55f3b73e28d822d91e77c3e8bd826",
+    "locator": "Integrating responsible AI into NATO",
+    "quote": "Allied testing facilities need to be able to determine if AI applications can be used safely and in accordance with NATO's PRUs.",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/NATO-01/2026-10-17/official.html",
+    "sha256": "4af24db7a1683c317c4becb9876b111509c55f3b73e28d822d91e77c3e8bd826",
+    "locator": "Event programme and assets",
+    "quote": "NATO Summit Washington 2024",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/NATO-01/2026-10-17/official.html",
+    "sha256": "4af24db7a1683c317c4becb9876b111509c55f3b73e28d822d91e77c3e8bd826",
+    "locator": "Strategic context",
+    "quote": "Within the AI Strategy, Allies endorsed six Principles of Responsible Use (PRUs) for AI in Defence, i.e. Lawfulness, Responsibility and Accountability, Explainability and Traceability, Reliability, Governability and Bias Mitigation.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/NATO-01/2026-10-17/official.html",
+    "sha256": "4af24db7a1683c317c4becb9876b111509c55f3b73e28d822d91e77c3e8bd826",
+    "locator": "Minimising adversarial interference and protecting against the adversarial use of AI",
+    "quote": "AI-enabled information operations might affect the outcome of elections, sow division and confusion across the Alliance",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/NATO-01/2026-10-17/official.html",
+    "sha256": "4af24db7a1683c317c4becb9876b111509c55f3b73e28d822d91e77c3e8bd826",
+    "locator": "Strategic context",
+    "quote": "realistic images and audio, at near-limitless volume, that are increasingly indistinguishable from human-produced content",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "A non-binding strategy summary dated 10 July 2024. The stored page is still online on 17 Oct 2026 under NATO's official texts, and a web search found no later revision of NATO's AI strategy, so 'Published (non-binding, current)' stands.",
+  "scope_reasoning": "AI strategy of an intergovernmental body whose main content is responsible use, risk management, testing and safeguards against adversarial AI; in scope without a note.",
+  "changes": {
+   "issuing_body": "the stored page does not say who agreed the revised strategy; 'agreed by Allies' is unsupported, so the body is given as NATO",
+   "summary": "rewritten from the stored text; the aims, TEV&V landscape, standards and testing facilities are quoted",
+   "safety_topics": "'human oversight' dropped (the text only names governability as a principle); 'general-purpose / frontier AI' (frontier or foundation models) and 'international cooperation' (partners, norms and standards) added",
+   "notes": "trimmed to the stored text: the claim that the full strategy is not public and the October 2021 date of the first strategy are not in it; the Washington Summit link and the information-operations passage added"
+  },
+  "confirmed": ["title", "date_published", "status", "legal_force"]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "Version 1's notes said the full revised strategy is not public and that the first strategy dates from October 2021. Neither fact is in the stored page; they were removed."
+ ]
+}

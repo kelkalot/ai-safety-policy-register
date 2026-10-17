@@ -1,0 +1,215 @@
+{
+ "cand_id": "EU-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "EU-01",
+ "record": {
+  "summary": "Proposed directive that would have set common rules for non-contractual, fault-based civil claims for damage caused by AI systems. National courts could order providers or users of a high-risk AI system suspected of causing damage to disclose evidence, and would presume non-compliance with a duty of care where a defendant failed to do so. Courts would also presume a causal link between the defendant's fault and the AI system's output under set conditions; for providers of high-risk systems, fault meant breaching AI Act requirements on training data, transparency, human oversight, accuracy, robustness or cybersecurity. Both presumptions were rebuttable.",
+  "safety_topics": [
+   "accountability & liability",
+   "risk-based classification"
+  ],
+  "notes": "Proposed on 28 September 2022 (COM(2022) 496 final, procedure 2022/0303(COD)). With the revision of the Product Liability Directive it formed a package covering different types of liability: this proposal national claims based on fault, the Product Liability Directive producers' no-fault liability for defective products. Article 5 would have required the Commission to review the directive and to evaluate whether no-fault liability rules and insurance cover are needed for certain AI systems. Annex IV of the Commission's 2025 work programme (COM(2025)45 final of 11 February 2025) listed it for withdrawal, giving the reason 'No foreseeable agreement' and adding that the Commission would assess whether another proposal should be tabled or another type of approach chosen. The Commission approved the withdrawal at its meeting of 16 July 2025, and the withdrawal was published in the Official Journal C series on 6 October 2025 (C/2025/5423); the European Parliament's procedure file records the proposal as withdrawn by the Commission on that date.",
+  "verification": {
+   "note": "Stored and read in this run: the EUR-Lex text of the proposal COM(2022) 496 (HTML of 17 Oct 2026, identical in text to that of 11 Oct 2026, and the PDF), which confirms the title, the date of 28 Sept 2022, the procedure number and the provisions in the summary; and the EUR-Lex notice C/2025/5423 'Withdrawal of Commission proposals' (OJ C, 6 Oct 2025), which lists COM(2022)496 final, 2022/0303 (COD) and says the Commission approved the withdrawals on 16 July 2025, with reasons in COM(2025)45 final (Annex IV). Also stored: the European Parliament's Legislative Observatory procedure file for 2022/0303(COD) (oeil.europarl.europa.eu, HTML and its PDF export), which gives the status 'Procedure lapsed or withdrawn' and the event '06/10/2025 Proposal withdrawn by Commission'; and the EUR-Lex text of the Commission Work Programme 2025 (COM(2025) 45 final), whose Annex IV, entry 32, gives the reason for the withdrawal. Version 1's claims from the EP Legislative Train were not used. The stored PDF of the 2019 political guidelines (document-1) is not about this proposal."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/EU-01/2026-10-17/official.html",
+    "sha256": "c88614d081cdd9c6eeb29aca83c54295f11a2c11b331061bc505abc892860f8f",
+    "locator": "document heading",
+    "quote": "Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on adapting non-contractual civil liability rules to artificial intelligence (AI Liability Directive)",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/EU-01/2026-10-17/official.html",
+    "sha256": "c88614d081cdd9c6eeb29aca83c54295f11a2c11b331061bc505abc892860f8f",
+    "locator": "cover page of the proposal",
+    "quote": "EUROPEAN COMMISSION Brussels, 28.9.2022 COM(2022) 496 final",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/EU-01/2026-10-17/official.html",
+    "sha256": "c88614d081cdd9c6eeb29aca83c54295f11a2c11b331061bc505abc892860f8f",
+    "locator": "cover page of the proposal",
+    "quote": "COM(2022) 496 final 2022/0303(COD)",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/EU-01/2026-10-17/official.html",
+    "sha256": "c88614d081cdd9c6eeb29aca83c54295f11a2c11b331061bc505abc892860f8f",
+    "locator": "cover page of the proposal",
+    "quote": "EUROPEAN COMMISSION Brussels, 28.9.2022 COM(2022) 496 final",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/EU-01/2026-10-17/official.html",
+    "sha256": "c88614d081cdd9c6eeb29aca83c54295f11a2c11b331061bc505abc892860f8f",
+    "locator": "cover page of the proposal",
+    "quote": "Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on adapting non-contractual civil liability rules to artificial intelligence (AI Liability Directive)",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-01/extra-f66bacb53a/2026-10-17/official.html",
+    "sha256": "54671377b41babc2df11aeaea987039b888075f5bdc1b9fe23412748adae37d9",
+    "locator": "Basic information, Status",
+    "quote": "Status Procedure lapsed or withdrawn",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-01/extra-f66bacb53a/2026-10-17/official.html",
+    "sha256": "54671377b41babc2df11aeaea987039b888075f5bdc1b9fe23412748adae37d9",
+    "locator": "Key events",
+    "quote": "06/10/2025 Proposal withdrawn by Commission",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-01/2026-10-11/secondary-2.html",
+    "sha256": "d1c6255015c67d8915af1b80116a55ddb297c12b0353383e9be39c0f08c122b8",
+    "locator": "List of withdrawn proposals",
+    "quote": "COM(2022)496 final 2022/0303 (COD) Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on adapting non-contractual civil liability rules to artificial intelligence (AI Liability)",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-01/2026-10-11/secondary-2.html",
+    "sha256": "d1c6255015c67d8915af1b80116a55ddb297c12b0353383e9be39c0f08c122b8",
+    "locator": "after the list",
+    "quote": "The Commission has approved the withdrawal of those pending proposals during its 2533th meeting (16 July 2025).",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-01/extra-f66bacb53a/2026-10-17/official.html",
+    "sha256": "54671377b41babc2df11aeaea987039b888075f5bdc1b9fe23412748adae37d9",
+    "locator": "Key events",
+    "quote": "06/10/2025 Proposal withdrawn by Commission",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-01/2026-10-11/secondary-2.html",
+    "sha256": "d1c6255015c67d8915af1b80116a55ddb297c12b0353383e9be39c0f08c122b8",
+    "locator": "notice heading",
+    "quote": "C/2025/5423 6.10.2025 WITHDRAWAL OF COMMISSION PROPOSALS",
+    "source_kind": "alt-official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/EU-01/2026-10-17/official.html",
+    "sha256": "c88614d081cdd9c6eeb29aca83c54295f11a2c11b331061bc505abc892860f8f",
+    "locator": "Article 1(1)",
+    "quote": "the disclosure of evidence on high-risk artificial intelligence (AI) systems to enable a claimant to substantiate a non-contractual fault-based civil law claim for damages",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-01/2026-10-17/official.html",
+    "sha256": "c88614d081cdd9c6eeb29aca83c54295f11a2c11b331061bc505abc892860f8f",
+    "locator": "Article 3(5)",
+    "quote": "a national court shall presume the defendant's non-compliance with a relevant duty of care",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-01/2026-10-17/official.html",
+    "sha256": "c88614d081cdd9c6eeb29aca83c54295f11a2c11b331061bc505abc892860f8f",
+    "locator": "Article 4(1)",
+    "quote": "national courts shall presume, for the purposes of applying liability rules to a claim for damages, the causal link between the fault of the defendant and the output produced by the AI system",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-01/2026-10-17/official.html",
+    "sha256": "c88614d081cdd9c6eeb29aca83c54295f11a2c11b331061bc505abc892860f8f",
+    "locator": "Article 4(2)(c)",
+    "quote": "the AI system was not designed and developed in a way that allows for an effective oversight by natural persons during the period in which the AI system is in use",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-01/2026-10-17/official.html",
+    "sha256": "c88614d081cdd9c6eeb29aca83c54295f11a2c11b331061bc505abc892860f8f",
+    "locator": "Article 4(7)",
+    "quote": "The defendant shall have the right to rebut the presumption laid down in paragraph 1.",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/EU-01/2026-10-17/official.html",
+    "sha256": "c88614d081cdd9c6eeb29aca83c54295f11a2c11b331061bc505abc892860f8f",
+    "locator": "Explanatory memorandum, consistency with other Union policies",
+    "quote": "These two policy initiatives are closely linked and form a package, as claims falling within their scope deal with different types of liability.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-01/2026-10-17/official.html",
+    "sha256": "c88614d081cdd9c6eeb29aca83c54295f11a2c11b331061bc505abc892860f8f",
+    "locator": "Article 5(2)",
+    "quote": "it should evaluate the appropriateness of no-fault liability rules for claims against the operators of certain AI systems, as long as not already covered by other Union liability rules, and the need for insurance coverage",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-01/2026-10-11/secondary-2.html",
+    "sha256": "d1c6255015c67d8915af1b80116a55ddb297c12b0353383e9be39c0f08c122b8",
+    "locator": "after the list",
+    "quote": "Reasons for withdrawing the listed proposals are provided in COM(2025)45 final of 11 February 2025 (Annex IV).",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-01/extra-c202395653/2026-10-17/official-rendered.html",
+    "sha256": "9822ae76e929548d2c998b49b3c3d91305a8289783f534ec4202b816892db272",
+    "locator": "Annex IV: Withdrawals, entry 32",
+    "quote": "(AI Liability) No foreseeable agreement - the Commission will assess whether another proposal should be tabled or another type of approach should be chosen.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-01/extra-f66bacb53a/2026-10-17/official.html",
+    "sha256": "54671377b41babc2df11aeaea987039b888075f5bdc1b9fe23412748adae37d9",
+    "locator": "Key events",
+    "quote": "06/10/2025 Proposal withdrawn by Commission",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The European Parliament's procedure file for 2022/0303(COD) gives the status 'Procedure lapsed or withdrawn' and records '06/10/2025 Proposal withdrawn by Commission'; the OJ C notice C/2025/5423 of 6 Oct 2025 lists COM(2022)496 final among the withdrawn proposals, approved by the Commission on 16 July 2025. A withdrawn proposal keeps the status 'Revoked / withdrawn' and legal force 'Proposed'. The withdrawal is the latest event; nothing re-tables the proposal.",
+  "scope_reasoning": "AI-specific EU legislative proposal on civil liability for AI, kept after withdrawal for context; in scope without a note.",
+  "changes": {
+   "summary": "rewritten from Articles 1, 3 and 4 of the stored proposal; the version-1 sentence on complementing the AI Act and the PLD moved to the notes with its quote",
+   "safety_topics": "one topic is below the minimum of two; 'risk-based classification' added because the disclosure rules and the presumption conditions differ for high-risk and other AI systems (Articles 3 and 4)",
+   "notes": "rewritten from the stored texts; the withdrawal approval of 16 July 2025, the work programme's reason (Annex IV, entry 32), the Parliament's record of the withdrawal and Article 5's review clause added; 'Kept for historical context' dropped as a remark about the register"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "official_identifier",
+   "issuing_body",
+   "legal_force",
+   "date_last_updated"
+  ]
+ },
+ "extra_urls": [
+  {
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2022/0303(COD)",
+   "reason": "European Parliament Legislative Observatory procedure file for 2022/0303(COD): gives the procedure status 'Procedure lapsed or withdrawn' and the key event '06/10/2025 Proposal withdrawn by Commission', so the status rests on an official source of the record's own procedure."
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0045",
+   "reason": "Commission Work Programme 2025, COM(2025) 45 final, which the withdrawal notice cites for the reasons: its Annex IV (entry 32) gives the reason for withdrawing COM(2022)496, which version 1's notes state as 'no foreseeable agreement'."
+  }
+ ],
+ "leads": [],
+ "open_questions": []
+}

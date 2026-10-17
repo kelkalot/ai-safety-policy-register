@@ -1,0 +1,54 @@
+{
+ "cand_id": "EU-10",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "title": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "judgment-differs",
+   "why": "2025-08-01 is the date of the Commission Opinion, not of a revised code text; defensible, left as published"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Transparency and Copyright chapters address all providers; Safety and Security only systemic-risk providers",
+   "verdict": "supported",
+   "locator": "official page, 3 chapters"
+  },
+  {
+   "claim": "Safety and Security Framework, Model Reports and serious-incident reporting (Commitment 9)",
+   "verdict": "supported",
+   "locator": "extra guidelines page; extra incident template page"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Quotes pass. Publication 10 July 2025, voluntary character, three chapters, adequacy confirmation, xAI chapter-only signature and 13 experts/1,000 stakeholders are in stored official pages. Removed v1 claims are correctly gone. date_last_updated 2025-08-01 is the opinion date, not a new text version; defensible but I would have left it empty. Search found no revised code."
+}

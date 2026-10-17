@@ -1,0 +1,270 @@
+{
+ "cand_id": "COE-02",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "COE-02",
+ "record": {
+  "issuing_body": "Council of Europe Committee on Artificial Intelligence (CAI)",
+  "secondary_url": "https://book.coe.int/en/artificial-intelligence/12519-huderia-methodology-and-model.html",
+  "summary": "Non-binding Council of Europe guidance for assessing the risks and impacts of AI systems on human rights, democracy and the rule of law across their lifecycle, for public and private actors. The Methodology sets out a context-based risk analysis (COBRA) with scoping, risk factors, impact mapping and triage; a stakeholder engagement process; a risk and impact assessment; and a mitigation plan, with iterative review. The Model's COBRA Resources list risk factors in an AI system's application, design and development, and deployment contexts, and illustrative areas of concern and sectors. Parties to the Framework Convention may use or adapt it; it is not a means of implementing the Convention.",
+  "safety_topics": [
+   "risk-based classification",
+   "human oversight",
+   "accountability & liability"
+  ],
+  "notes": "The CAI adopted the HUDERIA Methodology at its 12th plenary meeting on 26-28 November 2024, and the HUDERIA Model's Context Based Risk Analysis (COBRA) Resources (CAI(2025)6rev2, dated 5 November 2025) at its 14th plenary meeting on 3-5 November 2025; the Commission's note forwarding the Model to the Council gives 6 November 2025 as the date of that adoption. The Methodology was adopted first, and the detailed supporting material (questionnaires, problematic uses, methodological guidance) was postponed to 2025 as the Model. Council of Europe Publishing issued both parts together in 2026 as 'HUDERIA - Methodology and Model', in English and French. The CAI's work on HUDERIA was to continue in its successor committee, the Steering Committee on New and Emerging Technologies (CDNET).",
+  "verification": {
+   "note": "Stored and read in this run: the Council of Europe Publishing page 'HUDERIA - Methodology and Model (2026)' (book.coe.int), which confirms the title of the combined publication, its development by the CAI, its description as a non-legally binding instrument and the table of contents behind the summary; Council of the EU documents 16566/25 and 16537/25 (data.consilium.europa.eu), which give the CAI's adoption of the Methodology at its 12th plenary (26-28 November 2024) and of the COBRA Resources at its 14th plenary (3-5 November 2025), the non-binding character and the document reference CAI(2025)6rev2; and the addendum 16537/25 ADD 1, a scan read through its OCR text layer, which reproduces the HUDERIA Model: COBRA Resources (CAI(2025)6rev2) with its statement that HUDERIA is non-legally binding guidance without legal effect. The record's own sources, the coe.int HUDERIA page and the rm.coe.int PDF of the combined text, are not stored: the sites answered HTTP 403 to the archiver, in the plain download and in the browser retry. The Committee of Ministers' approvals are therefore not confirmed."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-838bc4ab89/2026-10-17/official.pdf",
+    "sha256": "b4af06ec15f5eff53ac37d0268bdd29042e9d8a165de5e347e9597782c50db73",
+    "locator": "page 1, paragraph 1",
+    "quote": "methodology for the Risk and Impact Assessment of AI Systems from the point of view of Human Rights, Democracy and Rule of Law (HUDERIA methodology)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-7923ee5326/2026-10-17/official.html",
+    "sha256": "cafb79754a196e3072f1094e91560e39a648c661467644080f2cce83b2d94475",
+    "locator": "publication heading",
+    "quote": "HUDERIA - Methodology and Model (2026)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-e261220e94/2026-10-17/official.pdf",
+    "sha256": "95251dd1d96bdd2e3532496dc1a88b8d05220bdf0ea6fe2d47fdeb68a38a79b6",
+    "locator": "page 2, cover of CAI(2025)6rev2",
+    "quote": "HUDERIA MODEL: CONTEXT BASED RISK ANALYSIS (COBRA) RESOURCES",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-838bc4ab89/2026-10-17/official.pdf",
+    "sha256": "b4af06ec15f5eff53ac37d0268bdd29042e9d8a165de5e347e9597782c50db73",
+    "locator": "page 2, paragraph 3",
+    "quote": "The HUDERIA methodology was finalised and adopted by the CAI at the occasion of its 12th plenary meeting on 26 - 28 November 2024.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-b360a63d37/2026-10-17/official.pdf",
+    "sha256": "a23ba4b55a4920fdd0dde095cd1d440fc539ae1c8a8b98634121e1d669c51fab",
+    "locator": "page 3",
+    "quote": "of the Council of Europe on the occasion of its 12th plenary meeting on 26 - 28 November 2024 in Strasbourg",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-7923ee5326/2026-10-17/official.html",
+    "sha256": "cafb79754a196e3072f1094e91560e39a648c661467644080f2cce83b2d94475",
+    "locator": "Summary",
+    "quote": "As a non-legally binding instrument, HUDERIA can also support Parties to the Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law in developing risk and impact assessment approaches aligned with the Framework Convention.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-7923ee5326/2026-10-17/official.html",
+    "sha256": "cafb79754a196e3072f1094e91560e39a648c661467644080f2cce83b2d94475",
+    "locator": "publication heading",
+    "quote": "HUDERIA - Methodology and Model (2026)",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-7923ee5326/2026-10-17/official.html",
+    "sha256": "cafb79754a196e3072f1094e91560e39a648c661467644080f2cce83b2d94475",
+    "locator": "Summary",
+    "quote": "Developed by the Council of Europe's Committee on Artificial Intelligence (CAI), this publication brings together the HUDERIA Methodology and the HUDERIA Model",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-b360a63d37/2026-10-17/official.pdf",
+    "sha256": "a23ba4b55a4920fdd0dde095cd1d440fc539ae1c8a8b98634121e1d669c51fab",
+    "locator": "page 3",
+    "quote": "The COBRA Resources of the HUDERIA model were finalised and adopted by the Committee on Artificial Intelligence of the Council of Europe at its 14th plenary meeting",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-e261220e94/2026-10-17/official.pdf",
+    "sha256": "95251dd1d96bdd2e3532496dc1a88b8d05220bdf0ea6fe2d47fdeb68a38a79b6",
+    "locator": "page 4, Relationship to the Framework Convention",
+    "quote": "The HUDERIA is a stand-alone, non-legally binding guidance that does not have legal effect.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-b360a63d37/2026-10-17/official.pdf",
+    "sha256": "a23ba4b55a4920fdd0dde095cd1d440fc539ae1c8a8b98634121e1d669c51fab",
+    "locator": "page 3",
+    "quote": "Both the methodology and the model are meant to be non - binding",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-e261220e94/2026-10-17/official.pdf",
+    "sha256": "95251dd1d96bdd2e3532496dc1a88b8d05220bdf0ea6fe2d47fdeb68a38a79b6",
+    "locator": "page 4, What is HUDERIA?",
+    "quote": "can be used by both public and private actors to aid in identifying and addressing risks and impacts to human rights, democracy and the rule of law throughout the lifecycle",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-7923ee5326/2026-10-17/official.html",
+    "sha256": "cafb79754a196e3072f1094e91560e39a648c661467644080f2cce83b2d94475",
+    "locator": "Table of contents, Part I",
+    "quote": "OUTLINE OF HUDERIA 1. CONTEXT-BASED RISK ANALYSIS (COBRA) Introduction Preliminary scoping Analysis of risk factors Mapping of potential impacts on human rights, democracy and the rule of law Triage 2. STAKEHOLDER ENGAGEMENT PROCESS (SEP)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-7923ee5326/2026-10-17/official.html",
+    "sha256": "cafb79754a196e3072f1094e91560e39a648c661467644080f2cce83b2d94475",
+    "locator": "Table of contents, Part I",
+    "quote": "3. RISK AND IMPACT ASSESSMENT",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-7923ee5326/2026-10-17/official.html",
+    "sha256": "cafb79754a196e3072f1094e91560e39a648c661467644080f2cce83b2d94475",
+    "locator": "Table of contents, Part I",
+    "quote": "4. MITIGATION PLAN Introduction Explanations ITERATIVE REVIEW",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-e261220e94/2026-10-17/official.pdf",
+    "sha256": "95251dd1d96bdd2e3532496dc1a88b8d05220bdf0ea6fe2d47fdeb68a38a79b6",
+    "locator": "page 5, Introduction",
+    "quote": "the Al system's design and development contexts (COBRA Resources B) and the Al system's deployment context (COBRA Resources C)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-e261220e94/2026-10-17/official.pdf",
+    "sha256": "95251dd1d96bdd2e3532496dc1a88b8d05220bdf0ea6fe2d47fdeb68a38a79b6",
+    "locator": "page 4, Relationship to the Framework Convention",
+    "quote": "Parties to the Framework Convention have the flexibility to use or adapt the guidance, in whole or in part",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-e261220e94/2026-10-17/official.pdf",
+    "sha256": "95251dd1d96bdd2e3532496dc1a88b8d05220bdf0ea6fe2d47fdeb68a38a79b6",
+    "locator": "page 4, Relationship to the Framework Convention",
+    "quote": "whilst the HUDERIA has a facilitative role, it is not a means to implement the Framework Convention",
+    "source_kind": "official"
+   }
+  ],
+  "safety_topics": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-e261220e94/2026-10-17/official.pdf",
+    "sha256": "95251dd1d96bdd2e3532496dc1a88b8d05220bdf0ea6fe2d47fdeb68a38a79b6",
+    "locator": "page 8, COBRA Resources B",
+    "quote": "the absence of sectoral precedent should be recognised as a heightened risk factor requiring compensating control measures — such as enhanced human oversight, independent expert review, or carefully supervised pilot deployments",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-e261220e94/2026-10-17/official.pdf",
+    "sha256": "95251dd1d96bdd2e3532496dc1a88b8d05220bdf0ea6fe2d47fdeb68a38a79b6",
+    "locator": "page 5, Overview of COBRA Resources A, B and C",
+    "quote": "guard against unintended uses, and ensure accountability and legal compliance",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-e261220e94/2026-10-17/official.pdf",
+    "sha256": "95251dd1d96bdd2e3532496dc1a88b8d05220bdf0ea6fe2d47fdeb68a38a79b6",
+    "locator": "page 6, COBRA Resources A",
+    "quote": "Legal or regulatory oversight in ftself may be a signal of high-impact contexts.",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-b360a63d37/2026-10-17/official.pdf",
+    "sha256": "a23ba4b55a4920fdd0dde095cd1d440fc539ae1c8a8b98634121e1d669c51fab",
+    "locator": "page 3",
+    "quote": "at its 14th plenary meeting on 3 - 5 November 2025 in Strasbourg",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-e261220e94/2026-10-17/official.pdf",
+    "sha256": "95251dd1d96bdd2e3532496dc1a88b8d05220bdf0ea6fe2d47fdeb68a38a79b6",
+    "locator": "page 2, cover",
+    "quote": "Strasbourg, 5 November 2025 CAI(2025)6rev2",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-b360a63d37/2026-10-17/official.pdf",
+    "sha256": "a23ba4b55a4920fdd0dde095cd1d440fc539ae1c8a8b98634121e1d669c51fab",
+    "locator": "page 4, Attachments",
+    "quote": "as adopted by the Council of Europe Committee on Artificial Intelligence (CAI) on 6 November 2025 in Strasbourg",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-838bc4ab89/2026-10-17/official.pdf",
+    "sha256": "b4af06ec15f5eff53ac37d0268bdd29042e9d8a165de5e347e9597782c50db73",
+    "locator": "page 2, paragraph 4",
+    "quote": "it was decided to finalise and adopt only the main document and to postpone to 2025 the work on the document gathering different detailed elements",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-7923ee5326/2026-10-17/official.html",
+    "sha256": "cafb79754a196e3072f1094e91560e39a648c661467644080f2cce83b2d94475",
+    "locator": "publication details",
+    "quote": "HUDERIA - Methodology and Model (2026) Artificial intelligence English French",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-02/extra-b360a63d37/2026-10-17/official.pdf",
+    "sha256": "a23ba4b55a4920fdd0dde095cd1d440fc539ae1c8a8b98634121e1d669c51fab",
+    "locator": "page 3",
+    "quote": "the work of the CA I will continue in its successor committee, the yet to be established new Steering Committee on New and Emerging Technologies (CDNET)",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Non-binding guidance: the Model states it is 'non-legally binding guidance that does not have legal effect', and Council of Europe Publishing issues the Methodology and Model together as a 2026 publication. No later version or withdrawal appears in the stored files, so 'Published (non-binding, current)' stands.",
+  "scope_reasoning": "Non-binding risk and impact assessment methodology of a Council of Europe committee for AI systems; in scope without a note.",
+  "changes": {
+   "issuing_body": "'approved by the Committee of Ministers' removed: no stored file records an approval by the Committee of Ministers; the CAI as author is supported",
+   "secondary_url": "the rm.coe.int PDF is not stored; the Council of Europe Publishing page is, so the record's local copy can hold an official page of the issuer",
+   "summary": "rewritten from the publication's table of contents and the Model's preface; version 1's 'mitigation plan including remedies' and 'It supports implementation of the CoE Framework Convention' are not in the stored text, and the Model says HUDERIA 'is not a means to implement the Framework Convention'",
+   "safety_topics": "'public-sector use' dropped (the guidance is for public and private actors alike); 'human oversight' added (enhanced human oversight as a compensating control in COBRA Resources A)",
+   "notes": "rewritten from the stored texts; the plenary dates, CAI(2025)6rev2 and the 5 vs 6 November 2025 discrepancy added; the Committee of Ministers' approvals and the 2026 pilots moved to open_questions"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [
+  {
+   "url": "https://book.coe.int/en/artificial-intelligence/12519-huderia-methodology-and-model.html",
+   "reason": "Council of Europe Publishing page for 'HUDERIA - Methodology and Model (2026)' (book.coe.int answers the archiver): the publication's title, its development by the CAI, the description as a non-legally binding instrument that can support Parties to the Framework Convention, and the table of contents with the four elements (COBRA, stakeholder engagement process, risk and impact assessment, mitigation plan) and the iterative review. Proposed as secondary_url, in place of the rm.coe.int PDF that answers 403, so that the record's local copy holds an official CoE page."
+  },
+  {
+   "url": "https://data.consilium.europa.eu/doc/document/ST-16566-2025-INIT/en/pdf",
+   "reason": "Council of the EU 'I/A' item note 16566/25 of 12 Dec 2025 on the EU's endorsement of the HUDERIA Model: the HUDERIA Methodology was adopted by the CAI at its 12th plenary on 26-28 November 2024 and the COBRA Resources model at its 14th plenary on 3-5 November 2025; the methodology supports Parties' risk and impact management under the Convention (CETS 225); supports date_published, issuing_body and the notes."
+  },
+  {
+   "url": "https://data.consilium.europa.eu/doc/document/ST-16537-2025-INIT/en/pdf",
+   "reason": "Council of the EU note 16537/25 of 8 Dec 2025 forwarding the Commission's request: both the methodology and the model are non-binding guidance that Parties may use voluntarily; the final model is CAI(2025)6rev2; the CAI's work continues in the CDNET; supports legal_force and the notes."
+  },
+  {
+   "url": "https://data.consilium.europa.eu/doc/document/ST-16537-2025-ADD-1/en/pdf",
+   "reason": "Addendum 16537/25 ADD 1: the text of the HUDERIA Model, Context Based Risk Analysis (COBRA) Resources, as adopted by the CAI. A scanned PDF that needs OCR; it is the only storable copy of the instrument's own text found."
+  }
+ ],
+ "leads": [],
+ "open_questions": [
+  "The coordinator's note describes COE-02 as the Convention's explanatory report; the record COE-02 is the HUDERIA Methodology and Model, and it was extracted as such.",
+  "The Committee of Ministers' approval of the Methodology on 26 Feb 2025 and of the Model on 25 Feb 2026 (date_last_updated), and the 2026 pilots in Ukraine and the CoE-OECD HUDERIA Health Academy in Sep 2026, are not in any stored file: they rest on coe.int pages, which answered HTTP 403 to the archiver, and no other official host publishing them was found. date_last_updated is left at 2026-02-25; the stored files give only the CAI's adoption of the Model (3-5 or 6 November 2025) and the 2026 publication.",
+  "date_published 2024-11-28: the stored Council documents give the CAI's 12th plenary of 26-28 November 2024 as the occasion of adoption, not a single day. The day 28 November rests on version 1.",
+  "The title, as worded in the record, is not verbatim in any stored file. The stored sources give 'HUDERIA - Methodology and Model' (Council of Europe Publishing, 2026), 'HUDERIA MODEL: CONTEXT BASED RISK ANALYSIS (COBRA) RESOURCES' (CAI(2025)6rev2) and, in the Council of the EU's wording, 'methodology for the Risk and Impact Assessment of AI Systems from the point of view of Human Rights, Democracy and Rule of Law (HUDERIA methodology)'. The Methodology document itself (CAI(2024)16rev2) is not stored."
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "cand_id": "EU-03",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "EUR-Lex: 'In force: This act has been changed', consolidated version of 27/07/2026; general application since 2 August 2026 but high-risk rules now from 2 December 2027 and 2 August 2028 (Regulation 2026/1744), so 'Partially in force' holds as of today."
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "judgment-differs",
+   "why": "Six topics kept of twelve. 'evaluation & testing' (Article 55(1)(a) adversarial testing, cited in the summary) and 'deepfakes & synthetic media' (Article 50(4), cited in the summary) are supported by the stored text and would fit the summary; dropping them is defensible but not required."
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Article 55(1)(a): model evaluation including adversarial testing for providers of models with systemic risk",
+   "verdict": "supported",
+   "locator": "Article 55(1)(a)"
+  },
+  {
+   "claim": "Article 50(2): machine-readable marking of AI-generated outputs",
+   "verdict": "supported",
+   "locator": "Article 50(2)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "EU-01",
+  "EU-04",
+  "EU-05"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": "The AI Act."
+ },
+ "overall": "accept",
+ "note": "Title (full official title with the amended acts), dates, identifier, status after the AI Omnibus (Regulation (EU) 2026/1744, in force 27 July 2026) and the summary claims are supported by the OJ text, the Commission's AI Act page and the Omnibus text. The notes' detail on the Omnibus is quoted from the stored Omnibus text. Only the reduced topic list differs from what the summary would suggest. No newer act found than the Omnibus."
+}

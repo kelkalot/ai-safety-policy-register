@@ -1,0 +1,376 @@
+{
+ "cand_id": "EU-03",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "EU-03",
+ "record": {
+  "title": "Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations (EC) No 300/2008, (EU) No 167/2013, (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1139 and (EU) 2019/2144 and Directives 2014/90/EU, (EU) 2016/797 and (EU) 2020/1828 (Artificial Intelligence Act)",
+  "summary": "Lays down harmonised rules for placing on the market, putting into service and using AI systems in the EU, to protect health, safety and fundamental rights. It prohibits certain AI practices; sets requirements for high-risk AI systems, among them risk management, data governance, record-keeping, human oversight, accuracy and robustness; and imposes transparency duties for chatbots, deepfakes and machine-readable marking of AI-generated content. Providers of general-purpose AI models must document them; providers of models with systemic risk must also evaluate them, including adversarial testing, mitigate systemic risks and report serious incidents.",
+  "safety_topics": [
+   "risk-based classification",
+   "prohibited practices",
+   "general-purpose / frontier AI",
+   "transparency & labelling",
+   "human oversight",
+   "incident reporting"
+  ],
+  "notes": "Adopted on 13 June 2024 and published in the Official Journal (OJ L, 2024/1689) on 12 July 2024; it entered into force on 1 August 2024, the twentieth day after publication. Article 113 as adopted set the application dates: 2 February 2025 for Chapters I and II (general provisions, including AI literacy, and the prohibited practices); 2 August 2025 for notified bodies, general-purpose AI models, governance and penalties, except the fines on providers of general-purpose AI models (Article 101); 2 August 2026 for the rest; and 2 August 2027 for Article 6(1) high-risk systems. Under Article 111, general-purpose AI models placed on the market before 2 August 2025 must comply by 2 August 2027, and AI systems in the large-scale IT systems of Annex X by 31 December 2030. Since 2 August 2026 the AI Office and national authorities enforce the Act; the AI Office holds the enforcement powers over general-purpose AI models. The AI Omnibus, Regulation (EU) 2026/1744 of 8 July 2026 (EU-18), published in the Official Journal on 24 July 2026 and in force since 27 July 2026, amended the Act: the high-risk rules now apply from 2 December 2027 for the Annex III use cases and from 2 August 2028 for AI systems in products covered by Annex I; a ninth prohibition, in Article 5(1)(ba) and (bb), of AI systems that generate non-consensual sexually explicit and intimate content or child sexual abuse material, applies from 2 December 2026; generative AI systems placed on the market before 2 August 2026 must meet the Article 50(2) marking duty by 2 December 2026; each Member State must have a national AI regulatory sandbox operational by 2 August 2027; Article 4 now requires providers and deployers to take measures to support AI literacy; the AI Office's oversight of AI systems built on general-purpose AI models is centralised; simplified requirements for SMEs are extended to small mid-cap companies; and access to regulatory sandboxes, including an EU-level sandbox, is widened. EUR-Lex holds a consolidated version of 27 July 2026.",
+  "verification": {
+   "note": "Stored and read in this run: the EUR-Lex page with the Official Journal text (snapshot of 17 Oct 2026), which gives the full title, adoption at Brussels on 13 June 2024, publication in OJ L 2024/1689 of 12 July 2024, Articles 1, 5, 14, 50, 53, 55, 73, 111 and 113, and the notice 'In force: This act has been changed' with a current consolidated version of 27/07/2026; and the Commission's AI Act page (17 Oct 2026, alt-official), which gives entry into force on 1 August 2024, general application from 2 August 2026, enforcement by the AI Office and national authorities from that date, and the AI Omnibus changes: entry into force on 27 July 2026, Annex III high-risk rules from 2 December 2027, Annex I from 2 August 2028, the ninth prohibition from December 2026; and the EUR-Lex page with the Official Journal text of Regulation (EU) 2026/1744 (17 Oct 2026, browser copy), which gives its date of 8 July 2026, publication in OJ L 2026/1744 of 24 July 2026, entry into force on the third day after publication, and the amended Articles 4, 5, 57, 111 and 113. The title now gives the full official title, with the amended acts. Version 1 had twelve topics; six are kept, each backed by an article. Version 1's notes on the Article 50(2) grace period, the sandbox deadline and the AI literacy change are now quoted from the stored text of Regulation (EU) 2026/1744; its notes on the CELEX number of the consolidated text, COM(2026) 234 and a Scientific Panel meeting of 9 Oct 2026 had no support in this record's stored files and were removed (the meeting is in EU-08's notes)."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "document title (OJ L series, 12.7.2024)",
+    "quote": "Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations (EC) No 300/2008, (EU) No 167/2013, (EU) No 168/2013",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "document title, continued",
+    "quote": "(EU) 2018/858, (EU) 2018/1139 and (EU) 2019/2144 and Directives 2014/90/EU, (EU) 2016/797 and (EU) 2020/1828 (Artificial Intelligence Act) (Text with EEA relevance)",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "signature, after Article 113",
+    "quote": "Done at Brussels, 13 June 2024.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "OJ heading",
+    "quote": "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 13 June 2024",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/EU-03/2026-10-17/secondary.html",
+    "sha256": "264c36245a9715bcba89457ccb28c807a21d32af31a32424272d06bb018a5703",
+    "locator": "Application timeline",
+    "quote": "The AI Act entered into force on 1 August 2024 and became applicable on 2 August 2026, with some exceptions",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "Article 113",
+    "quote": "This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "document information, legal status",
+    "quote": "In force: This act has been changed. Current consolidated version: 27/07/2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/secondary.html",
+    "sha256": "264c36245a9715bcba89457ccb28c807a21d32af31a32424272d06bb018a5703",
+    "locator": "How has the Commission simplified the implementation of the AI Act?",
+    "quote": "a political agreement was reached on 7 May 2026 and entered into force on 27 July 2026",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "document information, legal status",
+    "quote": "In force: This act has been changed. Current consolidated version: 27/07/2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "Article 113",
+    "quote": "It shall apply from 2 August 2026.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/secondary.html",
+    "sha256": "264c36245a9715bcba89457ccb28c807a21d32af31a32424272d06bb018a5703",
+    "locator": "Application timeline",
+    "quote": "the rules for high-risk AI systems embedded into regulated products (Annex I) have an extended transition period until 2 August 2028 and the rules for high-risk use cases in certain sensitive areas (Annex III) have been extended to 2 December 2027",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "preamble",
+    "quote": "THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "Article 113, final sentence",
+    "quote": "This Regulation shall be binding in its entirety and directly applicable in all Member States.",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "document information",
+    "quote": "OJ L, 2024/1689, 12.7.2024, ELI: http://data.europa.eu/eli/reg/2024/1689/oj",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "Article 1(2)",
+    "quote": "harmonised rules for the placing on the market, the putting into service, and the use of AI systems in the Union;",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "Article 50(2)",
+    "quote": "shall ensure that the outputs of the AI system are marked in a machine-readable format and detectable as artificially generated or manipulated",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "Article 50(4)",
+    "quote": "Deployers of an AI system that generates or manipulates image, audio or video content constituting a deep fake, shall disclose that the content has been artificially generated or manipulated.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "Article 55(1)(a)",
+    "quote": "perform model evaluation in accordance with standardised protocols and tools reflecting the state of the art, including conducting and documenting adversarial testing of the model with a view to identifying and mitigating systemic risks;",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "Article 55(1)(c)",
+    "quote": "keep track of, document, and report, without undue delay, to the AI Office and, as appropriate, to national competent authorities, relevant information about serious incidents",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "Article 53(1)(a)",
+    "quote": "draw up and keep up-to-date the technical documentation of the model, including its training and testing process and the results of its evaluation",
+    "source_kind": "official"
+   }
+  ],
+  "safety_topics": [
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "Article 14",
+    "quote": "High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "Article 73(1)",
+    "quote": "Providers of high-risk AI systems placed on the Union market shall report any serious incident to the market surveillance authorities of the Member States where that incident occurred.",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "Article 113(a) to (c)",
+    "quote": "Chapter III Section 4, Chapter V, Chapter VII and Chapter XII and Article 78 shall apply from 2 August 2025, with the exception of Article 101;",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "Article 113(c)",
+    "quote": "Article 6(1) and the corresponding obligations in this Regulation shall apply from 2 August 2027.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "Article 111(3)",
+    "quote": "Providers of general-purpose AI models that have been placed on the market before 2 August 2025 shall take the necessary steps in order to comply with the obligations laid down in this Regulation by 2 August 2027.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/official.html",
+    "sha256": "f0ae1c2b11e7d14ece8c408441565e9b89444506dbad0a4a429bf8c31b72f247",
+    "locator": "Article 111(1)",
+    "quote": "shall be brought into compliance with this Regulation by 31 December 2030",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/secondary.html",
+    "sha256": "264c36245a9715bcba89457ccb28c807a21d32af31a32424272d06bb018a5703",
+    "locator": "Governance and enforcement",
+    "quote": "From 2 August 2026, the AI Office and authorities of the Member States are responsible for implementing, supervising and enforcing the AI Act. The AI Office holds enforcement powers over GPAI models.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/secondary.html",
+    "sha256": "264c36245a9715bcba89457ccb28c807a21d32af31a32424272d06bb018a5703",
+    "locator": "Unacceptable risk",
+    "quote": "Prohibition 9 comes into effect in December 2026 and was introduced as a part of the AI Omnibus.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/secondary.html",
+    "sha256": "264c36245a9715bcba89457ccb28c807a21d32af31a32424272d06bb018a5703",
+    "locator": "Unacceptable risk",
+    "quote": "AI systems that generate non-consensual sexually explicit and intimate content or child sexual abuse (CSAM) material, such as AI ‘nudification' apps",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/secondary.html",
+    "sha256": "264c36245a9715bcba89457ccb28c807a21d32af31a32424272d06bb018a5703",
+    "locator": "How has the Commission simplified the implementation of the AI Act?",
+    "quote": "Reinforce the AI Office’s powers and centralise oversight of AI systems built on GPAI models, reducing governance fragmentation",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/secondary.html",
+    "sha256": "264c36245a9715bcba89457ccb28c807a21d32af31a32424272d06bb018a5703",
+    "locator": "How has the Commission simplified the implementation of the AI Act?",
+    "quote": "Certain simplified requirements granted to small and medium-sized enterprises are extended to small mid-cap companies (SMEs and SMCs)",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-03/2026-10-17/secondary.html",
+    "sha256": "264c36245a9715bcba89457ccb28c807a21d32af31a32424272d06bb018a5703",
+    "locator": "How has the Commission simplified the implementation of the AI Act?",
+    "quote": "More innovators will gain access to regulatory sandboxes, including an EU-level sandbox, to test their AI solutions in real-world conditions",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-03/extra-ad24ba38c4/2026-10-17/official-rendered.html",
+    "sha256": "c3b9a1d91a90370fe47b0ed37279dc9dff3e8cb4422a47f2572dadb02a5ac0e1",
+    "locator": "document title",
+    "quote": "Regulation (EU) 2026/1744 of the European Parliament and of the Council of 8 July 2026 amending Regulations (EU) 2024/1689, (EU) 2018/1139 and (EU) 2023/1230 as regards the simplification of the implementation of harmonised rules on artificial intelligence (Digital Omnibus on AI)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-03/extra-ad24ba38c4/2026-10-17/official-rendered.html",
+    "sha256": "c3b9a1d91a90370fe47b0ed37279dc9dff3e8cb4422a47f2572dadb02a5ac0e1",
+    "locator": "document information",
+    "quote": "OJ L, 2026/1744, 24.7.2026, ELI: http://data.europa.eu/eli/reg/2026/1744/oj",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-03/extra-ad24ba38c4/2026-10-17/official-rendered.html",
+    "sha256": "c3b9a1d91a90370fe47b0ed37279dc9dff3e8cb4422a47f2572dadb02a5ac0e1",
+    "locator": "Article 4 (Entry into force and application)",
+    "quote": "This Regulation shall enter into force on the third day following that of its publication in the Official Journal of the European Union.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-03/extra-ad24ba38c4/2026-10-17/official-rendered.html",
+    "sha256": "c3b9a1d91a90370fe47b0ed37279dc9dff3e8cb4422a47f2572dadb02a5ac0e1",
+    "locator": "Article 1, point (40), amended Article 113(a)",
+    "quote": "Chapters I and II shall apply from 2 February 2025, with the exception of Article 5(1), first subparagraph, points (ba) and (bb), and Article 5(1a) and (1b) which shall apply from 2 December 2026;",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-03/extra-ad24ba38c4/2026-10-17/official-rendered.html",
+    "sha256": "c3b9a1d91a90370fe47b0ed37279dc9dff3e8cb4422a47f2572dadb02a5ac0e1",
+    "locator": "Article 1, point (40), amended Article 113(c)",
+    "quote": "2 December 2027 as regards AI systems classified as high-risk pursuant to Article 6(2) and Annex III; and",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-03/extra-ad24ba38c4/2026-10-17/official-rendered.html",
+    "sha256": "c3b9a1d91a90370fe47b0ed37279dc9dff3e8cb4422a47f2572dadb02a5ac0e1",
+    "locator": "Article 1, point (40), amended Article 113(c)",
+    "quote": "2 August 2028 as regards AI systems classified as high-risk pursuant to Article 6(1) and Annex I;",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-03/extra-ad24ba38c4/2026-10-17/official-rendered.html",
+    "sha256": "c3b9a1d91a90370fe47b0ed37279dc9dff3e8cb4422a47f2572dadb02a5ac0e1",
+    "locator": "Article 1, point (7), new Article 5(1)(ba)",
+    "quote": "the placing on the market, the putting into service or the use of an AI system that generates or manipulates realistic images, videos, audio or similar material of an identifiable natural person’s intimate parts",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-03/extra-ad24ba38c4/2026-10-17/official-rendered.html",
+    "sha256": "c3b9a1d91a90370fe47b0ed37279dc9dff3e8cb4422a47f2572dadb02a5ac0e1",
+    "locator": "recitals",
+    "quote": "The prohibition on child sexual abuse material should not prevent the placing on the market",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-03/extra-ad24ba38c4/2026-10-17/official-rendered.html",
+    "sha256": "c3b9a1d91a90370fe47b0ed37279dc9dff3e8cb4422a47f2572dadb02a5ac0e1",
+    "locator": "Article 1, point (39), new Article 111(4)",
+    "quote": "that have been placed on the market before 2 August 2026 shall take the necessary steps in order to comply with Article 50(2) by 2 December 2026.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-03/extra-ad24ba38c4/2026-10-17/official-rendered.html",
+    "sha256": "c3b9a1d91a90370fe47b0ed37279dc9dff3e8cb4422a47f2572dadb02a5ac0e1",
+    "locator": "Article 1, point (22), amended Article 57(1)",
+    "quote": "establish at least one AI regulatory sandbox at national level, which shall be operational by 2 August 2027.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-03/extra-ad24ba38c4/2026-10-17/official-rendered.html",
+    "sha256": "c3b9a1d91a90370fe47b0ed37279dc9dff3e8cb4422a47f2572dadb02a5ac0e1",
+    "locator": "Article 1, point (5), new Article 4",
+    "quote": "Providers and deployers of AI systems shall take measures to support the development of AI literacy of their staff",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "title": "the full official title from the Official Journal text, including the acts it amends; version 1 had shortened it",
+   "summary": "rewritten from Articles 1, 9 to 15, 50, 53 and 55; version 1 opened with an evaluation ('the world's first comprehensive horizontal AI law')",
+   "safety_topics": "twelve values cut to the six allowed: risk-based classification (Art. 6 and Annex III), prohibited practices (Art. 5), general-purpose / frontier AI (Arts 53 and 55), transparency & labelling (Art. 50), human oversight (Art. 14), incident reporting (Arts 55(1)(c) and 73). Dropped evaluation & testing, accountability & liability, deepfakes & synthetic media, critical infrastructure, public-sector use and catastrophic risk as the least central of those the text supports",
+   "notes": "rewritten from Articles 111 and 113, the Commission's AI Act page and the stored text of Regulation (EU) 2026/1744 (number, date, publication, and the amended Articles 4, 5, 57, 111 and 113); the CELEX number, COM(2026) 234 and the Scientific Panel meeting removed (see verification.note)",
+   "verification.note": "rewritten for the files stored in this run"
+  },
+  "confirmed": [
+   "date_published",
+   "date_in_force",
+   "date_last_updated",
+   "status",
+   "issuing_body",
+   "legal_force",
+   "official_identifier"
+  ],
+  "status_reasoning": "In force since 1 August 2024 (Art. 113: twentieth day after publication on 12 July 2024). Generally applicable since 2 August 2026, but on 17 October 2026 parts still do not apply: the ninth prohibition (December 2026), the Annex III high-risk rules (2 December 2027 after the AI Omnibus), the Annex I high-risk rules (2 August 2028) and the Annex X large-scale IT systems (31 December 2030). EUR-Lex shows 'In force: This act has been changed', with a consolidated version of 27 July 2026. 'Partially in force' stands.",
+  "scope_reasoning": "The EU's AI-specific horizontal law; in scope with no note."
+ },
+ "extra_urls": [
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202601744",
+   "reason": "the AI Omnibus Regulation's Official Journal text, linked from the Commission's AI Act page ('Find the final text of the AI Omnibus Regulation'); needed to quote the amending act's number and date, the amended Article 113 (Annex III 2 Dec 2027, Annex I 2 Aug 2028, new Article 5 prohibitions from 2 Dec 2026), the Article 50(2) grace period, the national sandbox deadline and the new Article 4 on AI literacy in the notes"
+  }
+ ],
+ "leads": [],
+ "open_questions": []
+}

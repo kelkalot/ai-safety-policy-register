@@ -1,0 +1,58 @@
+{
+ "cand_id": "EU-07",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "judgment-differs",
+   "why": "'the page shows a last update of 8 April 2026 without saying what changed' describes a source page; it belongs in verification.note."
+  },
+  "safety_topics": {
+   "verdict": "judgment-differs",
+   "why": "'prohibited practices' was added because the page mentions the prohibitions among the first rules to apply; the guidelines are about the AI system definition, so I would have kept only 'risk-based classification'."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "The guidelines will be updated in light of practical experience, new questions and use cases",
+   "verdict": "supported",
+   "locator": "library page"
+  },
+  {
+   "claim": "The AI Act classifies AI systems into prohibited, high-risk and transparency-obligation categories",
+   "verdict": "supported",
+   "locator": "library page"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Commission guidelines on the AI system definition."
+ },
+ "overall": "accept",
+ "note": "Library page (publication 6 February 2025, last update 8 April 2026, non-binding) supports the record; the guidelines text is not stored (robots.txt) and the identifier stays null. A law-firm blog gives C(2025) 5053 of 29 July 2025 for the Communication; this is unverified and was not used. No revised version found on an official site. Wording and topic points only."
+}

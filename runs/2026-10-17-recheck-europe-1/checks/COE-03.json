@@ -1,0 +1,57 @@
+{
+ "cand_id": "COE-03",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Published, non-binding; no withdrawal or newer edition found."
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "Shown only on the questionegiustizia.it copy of the charter ('Strasbourg, 3 December 2018 CEPEJ(2018)14'); the official rm.coe.int PDF answers 403. Level stays computed by script."
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Principle 3: use certified sources and intangible data with models conceived in a multi-disciplinary manner, in a secure technological environment",
+   "verdict": "supported",
+   "locator": "Table of contents, principle 3"
+  },
+  {
+   "claim": "In criminal matters use must be considered with the greatest reservations to prevent discrimination based on sensitive data",
+   "verdict": "supported",
+   "locator": "secondary.pdf"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "COE-01"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": "Council of Europe ethical charter on AI in judicial systems; in scope with no note."
+ },
+ "overall": "accept",
+ "note": "Re-verification with no changes. Title, CEPEJ authorship, adoption on 4 December 2018 and the five principles are supported by the book.coe.int page; the identifier, plenary, criminal-matters remark and principle details by the third-party copy of the charter text, which matches the official summary. The official PDF is not stored."
+}

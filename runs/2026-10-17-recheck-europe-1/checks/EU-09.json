@@ -1,0 +1,63 @@
+{
+ "cand_id": "EU-09",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "title": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "language": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Addressed to CEN and Cenelec; ceases to apply if they do not accept the request",
+   "verdict": "supported",
+   "locator": "page 7 Article 5"
+  },
+  {
+   "claim": "Standards cover ten areas (Arts 9-15, 17, 43)",
+   "verdict": "supported",
+   "locator": "recital 11; standardisation page"
+  },
+  {
+   "claim": "Final report by 31 August 2025, three-monthly reporting",
+   "verdict": "supported",
+   "locator": "page 6 Article 3"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "EU-03"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "All quotes pass the script; title, date 23.6.2025, identifier C(2025) 3871 final, authentic languages, repeal of C(2023) 3215, 31 Aug 2025 deadline and expiry on 28 Feb 2027 match the stored Commission PDF; status In force is right as the decision has not expired. The EN 18286 / Implementing Decision (EU) 2026/2274 notes rest on the stored EUR-Lex print. date_in_force stays as published (extractor question open). No amendment found."
+}

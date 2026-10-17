@@ -1,0 +1,268 @@
+{
+ "cand_id": "EU-14",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "EU-14",
+ "record": {
+  "summary": "Draft Commission guidelines setting out the Commission's interpretation of concepts relevant to classifying AI systems as high-risk under Article 6 of the AI Act, with practical examples of systems that should or should not be classified as high-risk, as Article 6(5) requires. They aim to help providers, deployers and market surveillance authorities apply Article 6 uniformly. One section covers AI systems that are safety components of products, or products, under the Union harmonisation legislation in Annex I that require third-party conformity assessment; another covers the use cases in Annex III. The draft was published for targeted stakeholder consultation.",
+  "safety_topics": [
+   "risk-based classification",
+   "evaluation & testing"
+  ],
+  "secondary_url": "https://digital-strategy.ec.europa.eu/en/news/consultation-guidelines-high-risk",
+  "notes": "Published on 19 May 2026 in three parts, on general principles, on Annex I and on Annex III, so that each can be consulted and commented on separately; the content is also presented on the AI Act Single Information Platform. The examples are not exhaustive and may be updated over time. The targeted consultation was first open until 23 June 2026 and was extended by four weeks to 23 July 2026 at the request of several associations and other stakeholders; the Commission says the final guidelines will be adopted by the end of 2026. Following the political agreement on the AI Omnibus, the high-risk rules apply from December 2027 for stand-alone AI systems and from August 2028 for AI embedded in products. The guidelines will be complemented by other Commission guidelines on the obligations for high-risk AI systems. The Commission's report of 20 May 2026 under Article 112(1) of the AI Act noted that the classification guidelines were still in preparation. The Commission's page for the draft shows a last update of 23 July 2026.",
+  "verification": {
+   "note": "Re-read in the recheck of 17 Oct 2026: the Commission library page (official, stored 11 Oct 2026, last update 23 July 2026) confirms the title, draft status, publication on 19 May 2026, the purpose, the structure and the targeted consultation. Stored in this run: the Commission's consultation page (last update 16 June 2026; proposed as secondary_url), which gives the extended deadline of 23 July 2026, the adoption of the final guidelines by the end of 2026 and the postponed high-risk dates, and its press release of 19 May 2026. Version 1's secondary_url was the Commission's report COM(2026) 234 on EUR-Lex (also a source of EU-15 and EU-06), which is not this instrument's page; it confirms only that the guidelines were still in preparation on 20 May 2026. The three draft parts are offered only through ec.europa.eu/newsroom/dae/, which ec.europa.eu's robots.txt disallows, so they are not stored. No final version was found on the Commission's pages or in a web search on 17 Oct 2026. Version 1's statements that the AI Act required the guidelines by 2 Feb 2026, that they cover the Article 6(3) filter, and the topics 'critical infrastructure' and 'public-sector use' are not shown in the stored files and were removed."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/EU-14/2026-10-11/official.html",
+    "sha256": "bc87eb11ac91c557972e028386b69fdd6885d5f77ab4d15277740b9141ec9eb3",
+    "locator": "page heading",
+    "quote": "Draft Commission guidelines on the classification of high-risk AI systems",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/EU-14/2026-10-11/official.html",
+    "sha256": "bc87eb11ac91c557972e028386b69fdd6885d5f77ab4d15277740b9141ec9eb3",
+    "locator": "page header",
+    "quote": "POLICY AND LEGISLATION Publication 19 May 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-14/extra-1b612a98c2/2026-10-17/official.html",
+    "sha256": "b5624510390a7ebeece57d37e0be48b8e15aed2677702de4c323644ad3046f06",
+    "locator": "press release header",
+    "quote": "PRESS RELEASE Publication 19 May 2026 The European Commission has issued draft guidelines clarifying the classification of artificial intelligence (AI) high-risk systems",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/EU-14/2026-10-11/official.html",
+    "sha256": "bc87eb11ac91c557972e028386b69fdd6885d5f77ab4d15277740b9141ec9eb3",
+    "locator": "main text",
+    "quote": "This is intended to make the draft guidelines easier to access, share and use for feedback.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-14/2026-10-11/official.html",
+    "sha256": "bc87eb11ac91c557972e028386b69fdd6885d5f77ab4d15277740b9141ec9eb3",
+    "locator": "main text",
+    "quote": "Find more information about the targeted stakeholder consultation on these guidelines.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-14/2026-10-11/secondary.html",
+    "sha256": "dffaf001771fedb963ff3490efa89e00ac3ab956a9902efe951bb5384744e76c",
+    "locator": "section 1, paragraph 7",
+    "quote": "guidelines on the classification of high-risk AI systems are still under preparation",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-14/extra-93ea94c94c/2026-10-17/official.html",
+    "sha256": "16a90e5b9d1f23d9ec8ca8ce2a7fe968031cf50b740992dc47b71c93db000de2",
+    "locator": "header",
+    "quote": "Publication 19 May 2026 Opening: 19 May 2026 Closing: 23 July 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-14/extra-93ea94c94c/2026-10-17/official.html",
+    "sha256": "16a90e5b9d1f23d9ec8ca8ce2a7fe968031cf50b740992dc47b71c93db000de2",
+    "locator": "Extension of the deadline",
+    "quote": "The final guidelines will be adopted by the end of 2026.",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/EU-14/2026-10-11/official.html",
+    "sha256": "bc87eb11ac91c557972e028386b69fdd6885d5f77ab4d15277740b9141ec9eb3",
+    "locator": "page footer",
+    "quote": "Last update 23 July 2026",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/EU-14/2026-10-11/official.html",
+    "sha256": "bc87eb11ac91c557972e028386b69fdd6885d5f77ab4d15277740b9141ec9eb3",
+    "locator": "main text",
+    "quote": "The Guidelines set out the Commission’s interpretation of certain concepts that are relevant for classification purposes",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/EU-14/2026-10-11/official.html",
+    "sha256": "bc87eb11ac91c557972e028386b69fdd6885d5f77ab4d15277740b9141ec9eb3",
+    "locator": "Downloads",
+    "quote": "1- Draft Guidelines on the classification on high-risk AI: General principles",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-14/2026-10-11/official.html",
+    "sha256": "bc87eb11ac91c557972e028386b69fdd6885d5f77ab4d15277740b9141ec9eb3",
+    "locator": "main text",
+    "quote": "This is intended to make the draft guidelines easier to access, share and use for feedback.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-14/extra-93ea94c94c/2026-10-17/official.html",
+    "sha256": "16a90e5b9d1f23d9ec8ca8ce2a7fe968031cf50b740992dc47b71c93db000de2",
+    "locator": "How to submit your input?",
+    "quote": "Feedback received will be considered by the Commission in the final version of the guidelines.",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/EU-14/2026-10-11/official.html",
+    "sha256": "bc87eb11ac91c557972e028386b69fdd6885d5f77ab4d15277740b9141ec9eb3",
+    "locator": "main text",
+    "quote": "The Guidelines set out the Commission’s interpretation of certain concepts that are relevant for classification purposes and, in accordance with Article 6(5) AI Act, contain practical examples of AI systems that should or should not be classified as high-risk.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-14/2026-10-11/official.html",
+    "sha256": "bc87eb11ac91c557972e028386b69fdd6885d5f77ab4d15277740b9141ec9eb3",
+    "locator": "main text",
+    "quote": "These Guidelines aim to support providers and deployers of AI systems, as well as competent market surveillance authorities, in assessing whether an AI system should be classified as high-risk, thereby facilitating the uniform application and effective enforcement of Article 6 AI Act.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-14/2026-10-11/official.html",
+    "sha256": "bc87eb11ac91c557972e028386b69fdd6885d5f77ab4d15277740b9141ec9eb3",
+    "locator": "main text",
+    "quote": "covered by the EU harmonisation legislation listed in Annex I, and the product whose safety component is the AI system or the AI system itself is required to undergo a third-party conformity assessment",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-14/2026-10-11/official.html",
+    "sha256": "bc87eb11ac91c557972e028386b69fdd6885d5f77ab4d15277740b9141ec9eb3",
+    "locator": "main text",
+    "quote": "Section III of the guidelines addresses the first category of high-risk AI systems, while section IV addresses the second category.",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/EU-14/2026-10-11/official.html",
+    "sha256": "bc87eb11ac91c557972e028386b69fdd6885d5f77ab4d15277740b9141ec9eb3",
+    "locator": "main text",
+    "quote": "The examples listed in these Guidelines strive to cover all areas and use cases, but they are not to be considered as exhaustive and may be updated over time.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-14/2026-10-11/official.html",
+    "sha256": "bc87eb11ac91c557972e028386b69fdd6885d5f77ab4d15277740b9141ec9eb3",
+    "locator": "Downloads",
+    "quote": "2 - Draft Guidelines on the classification of high risk AI systems: Annex I of AI Act",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-14/2026-10-11/official.html",
+    "sha256": "bc87eb11ac91c557972e028386b69fdd6885d5f77ab4d15277740b9141ec9eb3",
+    "locator": "Downloads",
+    "quote": "3 - Draft Guidelines on the classification of high risk AI systems: Annex III of AI Act",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-14/2026-10-11/secondary.html",
+    "sha256": "dffaf001771fedb963ff3490efa89e00ac3ab956a9902efe951bb5384744e76c",
+    "locator": "header",
+    "quote": "Brussels, 20.5.2026 COM(2026) 234 final",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-14/2026-10-11/official.html",
+    "sha256": "bc87eb11ac91c557972e028386b69fdd6885d5f77ab4d15277740b9141ec9eb3",
+    "locator": "page footer",
+    "quote": "Last update 23 July 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-14/extra-93ea94c94c/2026-10-17/official.html",
+    "sha256": "16a90e5b9d1f23d9ec8ca8ce2a7fe968031cf50b740992dc47b71c93db000de2",
+    "locator": "header",
+    "quote": "To make the draft guidelines easier to consult, their content is also presented in a user-friendly format on the AI Act Single Information Platform.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-14/extra-93ea94c94c/2026-10-17/official.html",
+    "sha256": "16a90e5b9d1f23d9ec8ca8ce2a7fe968031cf50b740992dc47b71c93db000de2",
+    "locator": "Extension of the deadline",
+    "quote": "The consultation was originally open for 6 weeks until 23 June. However, the Commission has received requests from several associations and other stakeholders to extend it further by 4 weeks.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-14/extra-93ea94c94c/2026-10-17/official.html",
+    "sha256": "16a90e5b9d1f23d9ec8ca8ce2a7fe968031cf50b740992dc47b71c93db000de2",
+    "locator": "Extension of the deadline",
+    "quote": "the deadline was extended to 23 July 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-14/extra-93ea94c94c/2026-10-17/official.html",
+    "sha256": "16a90e5b9d1f23d9ec8ca8ce2a7fe968031cf50b740992dc47b71c93db000de2",
+    "locator": "Extension of the deadline",
+    "quote": "The final guidelines will be adopted by the end of 2026.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-14/extra-93ea94c94c/2026-10-17/official.html",
+    "sha256": "16a90e5b9d1f23d9ec8ca8ce2a7fe968031cf50b740992dc47b71c93db000de2",
+    "locator": "Extension of the deadline",
+    "quote": "Following the political agreement on the AI Omnibus, the application of the high-risk rules was postponded: to December 2027 for stand-alone AI systems to August 2028 for AI embedded in products.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-14/extra-1b612a98c2/2026-10-17/official.html",
+    "sha256": "b5624510390a7ebeece57d37e0be48b8e15aed2677702de4c323644ad3046f06",
+    "locator": "press release",
+    "quote": "These guidelines will be complemented by other Commission guidelines to facilitate compliance with the obligations for high-risk AI systems.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "rewritten from the stored library page; the Article 6(3) filter is not shown in it and was removed",
+   "safety_topics": "'critical infrastructure' and 'public-sector use' dropped: no stored text of this record names Annex III areas; 'evaluation & testing' added for the third-party conformity assessment that the Annex I route turns on",
+   "secondary_url": "COM(2026) 234 is not this instrument's page (it is the Article 112 report, EU-15); the Commission's consultation page on these draft guidelines, stored in this run, is proposed instead",
+   "notes": "rewritten from the stored files; the consultation extension, the planned adoption by end 2026 and the postponed high-risk dates added from the Commission's consultation page; the 2 Feb 2026 deadline removed",
+   "verification.note": "rewritten for this recheck"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force",
+   "date_last_updated"
+  ],
+  "status_reasoning": "The stored library page offers the draft for feedback; the Commission's consultation page says the targeted consultation closed on 23 July 2026 and that the final guidelines will be adopted by the end of 2026. No final version was found on 17 Oct 2026. 'Draft / proposed' stands.",
+  "scope_reasoning": "Draft Commission guidelines under Article 6(5) of the AI Act; in scope with no note.",
+  "date_reasoning": "date_last_updated (2026-07-23) is the library page's last update, the day the extended consultation closed; kept as published."
+ },
+ "extra_urls": [
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/news/consultation-guidelines-high-risk",
+   "reason": "Commission page on the targeted consultation on these draft guidelines (linked from the stored library page): consultation from 19 May to 23 July 2026 after a four-week extension, final guidelines to be adopted by the end of 2026, high-risk rules postponed to December 2027 and August 2028 after the AI Omnibus agreement; proposed as secondary_url"
+  },
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/news/commission-seeks-feedback-draft-guidelines-classification-high-risk-artificial-intelligence-systems",
+   "reason": "Commission news item of 19 May 2026 announcing the draft guidelines (linked from the stored library page): a second official source for the date and draft status"
+  }
+ ],
+ "leads": [],
+ "open_questions": [
+  "The three draft parts are offered only through ec.europa.eu/newsroom/dae/, which ec.europa.eu's robots.txt disallows; their content (the Annex III areas covered, the Article 6(3) derogation) cannot be stored by the archiver. The topics 'critical infrastructure' and 'public-sector use' stay out unless the draft parts are stored, for example from a document a person provides.",
+  "Version 1 said the AI Act required these guidelines by 2 February 2026; no stored file shows that deadline."
+ ]
+}

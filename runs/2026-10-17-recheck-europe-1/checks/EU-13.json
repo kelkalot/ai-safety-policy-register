@@ -1,0 +1,56 @@
+{
+ "cand_id": "EU-13",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "title": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Obligation aims to detect risks early, ensure accountability, enable quick action, build public trust",
+   "verdict": "supported",
+   "locator": "main text"
+  },
+  {
+   "claim": "Alignment with OECD AI Incidents Monitor and Common Reporting Framework",
+   "verdict": "supported",
+   "locator": "main text"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "EU-14",
+  "EU-18"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Quotes pass. Draft status, 26 Sept 2025 publication, 7 Nov 2025 close, Art 73 purpose, OECD alignment, GPAI template of 4 Nov 2025 and the Omnibus postponement (from the stored consultation page for EU-14) are supported. v1 claims without stored support were removed. Web search found no final Article 73 guidance for high-risk systems; the draft itself cannot be stored (robots.txt)."
+}

@@ -1,0 +1,57 @@
+{
+ "cand_id": "EU-04",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported",
+   "why": "The count of 300 signatories was checked by counting the names in the stored page of 17 Oct 2026 (300; the 11 Oct page lists 298)."
+  },
+  "safety_topics": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Signatories agree to report on the outcome twelve months after publication of their commitments",
+   "verdict": "supported",
+   "locator": "pledges text p. 3"
+  },
+  {
+   "claim": "Pledges include marking AI-generated content and labelling deepfakes",
+   "verdict": "supported",
+   "locator": "pledges text p. 2"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Voluntary Commission pledges to prepare for AI Act compliance; in scope with no note."
+ },
+ "overall": "accept",
+ "note": "The Commission's AI Pact page (17 Oct 2026, last update 16 Oct 2026), the pledges text and the press release support title, date, status, non-binding force and the summary. The count of 300 signatories matches the page. No successor to the Pact found."
+}

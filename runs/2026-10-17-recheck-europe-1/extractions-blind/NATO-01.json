@@ -1,0 +1,49 @@
+{
+ "cand_id": "NATO-01",
+ "decision": "update",
+ "target_id": "NATO-01",
+ "record": {},
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/NATO-01/2026-10-17/official.html",
+    "sha256": "4af24db7a1683c317c4becb9876b111509c55f3b73e28d822d91e77c3e8bd826",
+    "locator": "heading",
+    "quote": "Summary of NATO's revised Artificial Intelligence (AI) strategy",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/NATO-01/2026-10-17/official.html",
+    "sha256": "4af24db7a1683c317c4becb9876b111509c55f3b73e28d822d91e77c3e8bd826",
+    "locator": "page header",
+    "quote": "10 July 2024",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/NATO-01/2026-10-17/official.html",
+    "sha256": "4af24db7a1683c317c4becb9876b111509c55f3b73e28d822d91e77c3e8bd826",
+    "locator": "Strategic context",
+    "quote": "NATO’s 2021 AI Strategy set out a Strategic Vision, with four Aims and six Outcomes.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {},
+  "confirmed": [
+   "title",
+   "date_published",
+   "status"
+  ],
+  "status_reasoning": "The 17 Oct copy matches the 11 Oct copy apart from an unrelated news link; no later strategy is stated on the page, so status stays current."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}
