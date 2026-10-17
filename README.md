@@ -185,6 +185,8 @@ For each record the archiver:
 
 It saves progress every 10 records, so an interrupted run (Ctrl+C) loses nothing.
 
+`robots.txt` decides only what the archiver downloads, never what the register keeps. When it refuses a page that was stored earlier, or cannot be read (RFC 9309 then says not to crawl), the archiver does not try the page, and the stored copy stays current as it was: it is not removed, not marked stale and not flagged. Only a download that was tried and failed marks an earlier copy as possibly gone.
+
 ### What the flags mean
 
 | Status | Meaning |
