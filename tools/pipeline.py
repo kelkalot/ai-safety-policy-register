@@ -805,15 +805,23 @@ def board_markdown(priorities=None, live=True):
         return (x[0], x[4]) if x else (None, None)
     archived = max((x.get("retrieved_at") or "" for r in recs for x in (r.get("local_copy") or {}).get("files") or []), default="")[:10]
     rows = [("Archiver (stores changed sources)", "weekly", archived or None, None, 7),
-            ("Full recheck of the register", "monthly", *last_of("recheck"), 31),
+            ("Full recheck of the register", "monthly", *last_of("recheck"), None),
             ("Refresh run", "between rechecks", *last_of("refresh"), 14),
             ("Discover run", "quarterly", *last_of("discover"), 92),
             ("Compare run", "as the queue allows", *last_of("compare"), 31),
             ("Release", "after merged runs", last_date, last, 31)]
     L += ["## Rhythm", "", "| What | How often | Last | |", "|---|---|---|---|"]
+    # the monthly recheck covers the register only when every record was checked by a run in the last 31 days
+    kinds = {d.name: (read_json(d / "run.json", {}) or {}).get("type") for d in RUNS.iterdir() if d.is_dir()}
+    fresh = {e["record_id"] for e in history.load()
+             if kinds.get(e.get("run_id")) in ("recheck", "refresh") and e.get("event") in ("changed", "re-verified")
+             and (days_ago(e.get("date")) or 99) <= 31}
     for what, often, date, rid, limit in rows:
         n = days_ago(date) if date else None
-        state = "never" if date is None else ("due" if n is not None and n > limit else "ok")
+        state = "never" if date is None else ("due" if n is not None and limit and n > limit else "ok")
+        if limit is None:  # the full recheck: how much of the register a run checked in the last 31 days
+            done = len(fresh & {r["id"] for r in recs})
+            state = "ok" if done == len(recs) else "%d of %d records checked in the last 31 days" % (done, len(recs))
         if what == "Release" and since:
             state = "%d change(s) not released yet" % len(since)
         L.append("| %s | %s | %s%s | %s |" % (what, often, date or "-", (" (%s)" % rid) if rid else "", state))
