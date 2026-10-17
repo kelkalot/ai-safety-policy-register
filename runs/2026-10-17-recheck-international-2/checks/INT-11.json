@@ -1,0 +1,57 @@
+{
+ "cand_id": "INT-11",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "judgment-differs",
+   "why": "The stored mission statement itself says the members 'gathered today in San Francisco on November 21, 2024'; the stored US fact sheet is dated and 'Released November 20, 2024' and says the statement was agreed ahead of the convening. The extractor kept 2024-11-20 (the fact sheet's release date) and says so in the notes; 2024-11-21 is the statement's own date. Defensible either way; both dates appear in the notes."
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "official_url": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "four priority areas: research, testing (joint testing exercises), shared approaches to interpreting tests, inclusion",
+   "verdict": "supported",
+   "locator": "mission statement PDF, page 2"
+  },
+  {
+   "claim": "ten initial members: Australia, Canada, the European Commission, France, Japan, Kenya, Republic of Korea, Singapore, UK, US",
+   "verdict": "supported",
+   "locator": "mission statement PDF, page 1"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Mandate-type text of a network of government AI safety institutes."
+ },
+ "overall": "accept",
+ "note": "Mission statement itself is now stored and confirms title, members, priority areas. Rename, UK coordinator role, 13 Feb 2026 publication, July 2026 Seoul meeting (first best-practice guidance completed) and the G7 comparability sentence are in stored official texts. Date: the statement says 21 Nov 2024, the fact sheet 20 Nov; the record keeps 20 Nov and notes both. The July 2026 best-practice guidance and the Feb 2026 consensus paper are leads the extractor already lists; they are not stored, so no verdict on them."
+}

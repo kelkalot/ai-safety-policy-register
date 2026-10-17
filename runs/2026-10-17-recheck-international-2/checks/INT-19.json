@@ -1,0 +1,51 @@
+{
+ "cand_id": "INT-19",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "judgment-differs",
+   "why": "The extractor drops 'child safety' from v1, which the stored text does not support; the new set of three is supported."
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "discussed 'characteristics of an artificial intelligence model that may require additional government scrutiny' and shared lessons from national AI tabletop exercises",
+   "verdict": "supported",
+   "locator": "GOV.UK communiqué, AI and national security section"
+  },
+  {
+   "claim": "AI gives terrorists new tools for radicalisation, propaganda, attack planning, fundraising; state threats amplified by advanced technology including AI",
+   "verdict": "supported",
+   "locator": "Counter terrorism and State threats sections"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Interior-ministers' communiqué with one AI section; the existing scope_note is right."
+ },
+ "overall": "accept",
+ "note": "Official GOV.UK text confirms everything. The new note that the communiqué does not publish the scrutiny criteria is stated as a fact about the communiqué and is true of the stored text. 'Scams driven by AI' claim in the notes: the stored text says the threat is growing fast and criminals use new technology; I saw the scam section but did not locate the exact words 'AI-enabled technology' in my search, so I treat that one sentence as probable rather than confirmed."
+}

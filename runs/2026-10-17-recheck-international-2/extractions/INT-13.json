@@ -1,0 +1,93 @@
+{
+ "cand_id": "INT-13",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "INT-13",
+ "record": {
+  "summary": "Endorsing states set out measures for the responsible development, deployment and use of military AI, including autonomous functions and systems: use must comply with international law, notably international humanitarian law, and be accountable within a responsible human chain of command and control. Ten measures cover adoption by military organisations, legal reviews, senior-level oversight of high-consequence applications, minimising unintended bias, appropriate care, transparent and auditable methods, training against automation bias, well-defined uses, rigorous testing and assurance across the life cycle, and safeguards such as deactivating systems that behave unexpectedly.",
+  "notes": "The text holds ten measures (A to J) for the development, deployment and use of military AI capabilities. Endorsing states undertake to implement the measures, make their commitment public and release information on implementation, support other efforts for responsible and lawful use, continue discussions among themselves, refine the measures or add new ones, and engage the rest of the international community, without prejudice to discussions in other fora. The declaration defines AI as the ability of machines to perform tasks that would otherwise require human intelligence, and autonomy as a spectrum involving a system operating without further human intervention after activation.",
+  "verification": {
+   "note": "Stored: the declaration's English text as published by Japan's Ministry of Foreign Affairs (mofa.go.jp, 2 pages), an endorsing state's copy; it confirms the title, the ten measures and the endorsing states' undertakings but prints no date and does not name the state that launched it. The State Department page (the record's secondary URL) refuses the archiver (HTTP 403 on every attempt), and the White House fact sheet of 1 November 2023 requested in this run could not be stored (DNS lookup failed). So no stored file gives the date, the launch by the United States in February 2023, the endorsing states or their number; v1's claims about the February 2023 launch at REAIM, the November 2023 revised text and the 47 endorsing states announced on 13 November 2023 (from a DoD News article) were moved out of the notes. The current endorser count and the position of the US administration since 2025 are not confirmed."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/INT-13/2026-10-11/official.pdf",
+    "sha256": "541e1385019a6febfa63fc37705a2bb5ec207fe7d4626afbd1fcf1e770093121",
+    "locator": "page 1, title",
+    "quote": "Political Declaration on Responsible Military Use of Artificial Intelligence and Autonomy",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-13/2026-10-11/official.pdf",
+    "sha256": "541e1385019a6febfa63fc37705a2bb5ec207fe7d4626afbd1fcf1e770093121",
+    "locator": "page 2",
+    "quote": "In order to further the objectives of this Declaration, the endorsing States will:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-13/2026-10-11/official.pdf",
+    "sha256": "541e1385019a6febfa63fc37705a2bb5ec207fe7d4626afbd1fcf1e770093121",
+    "locator": "page 2",
+    "quote": "make public their commitment to this Declaration and release appropriate information regarding their implementation of these measures",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/INT-13/2026-10-11/official.pdf",
+    "sha256": "541e1385019a6febfa63fc37705a2bb5ec207fe7d4626afbd1fcf1e770093121",
+    "locator": "page 1",
+    "quote": "The endorsing States believe that the following measures should be implemented in the development, deployment, or use of military AI capabilities, including those enabling autonomous functions and systems:",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-13/2026-10-11/official.pdf",
+    "sha256": "541e1385019a6febfa63fc37705a2bb5ec207fe7d4626afbd1fcf1e770093121",
+    "locator": "page 1",
+    "quote": "The endorsing States believe that the following measures should be implemented in the development, deployment, or use of military AI capabilities, including those enabling autonomous functions and systems:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-13/2026-10-11/official.pdf",
+    "sha256": "541e1385019a6febfa63fc37705a2bb5ec207fe7d4626afbd1fcf1e770093121",
+    "locator": "page 1, title",
+    "quote": "Political Declaration on Responsible Military Use of Artificial Intelligence and Autonomy",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "checked against the stored text: framed as the endorsing states' measures ('should be implemented') rather than a commitment, measures A (adoption by military organisations), E (appropriate care) and F ('transparent to and auditable') added, 'operator training against over-reliance' replaced by the text's 'automation bias'",
+   "notes": "rewritten from the stored text only: the ten measures, the endorsing states' undertakings and the definitions; the February 2023 launch, the November 2023 revision and the endorser counts removed, since the only official sources for them (state.gov, the White House fact sheet) could not be stored",
+   "verification.note": "rewritten for the files stored and requested in this run"
+  },
+  "confirmed": [
+   "title",
+   "status",
+   "legal_force"
+  ],
+  "status_reasoning": "A political declaration that endorsing states undertake to implement ('the endorsing States will: implement these measures'). Nothing stored shows it withdrawn or replaced, so 'Published (non-binding, current)' stands; whether the United States still promotes it after the change of administration in 2025 rests on no stored file (open question).",
+  "date_reasoning": "The stored text prints no date and the White House fact sheet requested in extra_urls could not be stored, so date_published keeps v1's 2023-11 without evidence (open question).",
+  "issuing_body_reasoning": "The stored text supports 'endorsing States' as the issuers but does not name the United States or its Department of State as the initiator; the value is kept unchanged and listed in open_questions."
+ },
+ "extra_urls": [
+  {
+   "url": "https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/11/01/fact-sheet-vice-president-harris-announces-new-u-s-initiatives-to-advance-the-safe-and-responsible-use-of-artificial-intelligence/",
+   "reason": "White House fact sheet of 1 November 2023 (Biden White House archive, archives.gov): 'In February, the United States made a Political Declaration', 31 nations joined the United States in endorsing it, with their names, and the norms it sets; for the notes, the issuing body and the date"
+  }
+ ],
+ "leads": [],
+ "open_questions": [
+  "date_published (2023-11, kept from v1) has no stored evidence: the MOFA copy of the text prints no date, the State Department page refuses the archiver and the White House fact sheet of 1 November 2023 could not be stored (DNS lookup failed). Official pages that may date this ten-measure text appeared in search results but could not be opened here (HTTP 403 to the web fetch): Japan's UN mission, statement of 13 November 2023 at the event for the declaration (https://www.un.emb-japan.go.jp/itpr_en/ishikane111323.html); the DoD News article 'U.S. Endorses Responsible AI Measures for Global Militaries' (https://www.dodmantech.mil/News/News-Display/Article/3597093/us-endorses-responsible-ai-measures-for-global-militaries/); the State Department fact sheet (https://2021-2025.state.gov/political-declaration-on-the-responsible-military-use-of-artificial-intelligence-and-autonomy/). A person could provide one of them (archive.py --provide).",
+  "issuing_body says 'initiative of the United States Department of State'; no stored file names the initiator (the MOFA text speaks only of 'the endorsing States').",
+  "The record's secondary URL, the State Department page, refuses the archiver on every attempt, so the issuer's own page and its current list of endorsing states are not stored. The current endorser count and the position of the US administration since 2025 rest on no stored file."
+ ]
+}

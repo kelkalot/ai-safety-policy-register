@@ -1,0 +1,125 @@
+{
+ "run_id": "2026-10-17-recheck-international-2",
+ "type": "recheck",
+ "scope": "codes:INT",
+ "started": "2026-10-17",
+ "coordinator": {
+  "tool": "Claude Code",
+  "model": "claude-opus-5-5"
+ },
+ "stages": {
+  "collect": {
+   "tool": null,
+   "model": null,
+   "date": null
+  },
+  "extract": {
+   "tool": "Claude Code",
+   "model": "claude-opus-5-5",
+   "date": "2026-10-17",
+   "tokens": 904187
+  },
+  "blind": {
+   "tool": "Claude Code",
+   "model": "claude-sonnet-5-5",
+   "date": "2026-10-17",
+   "tokens": 77760
+  },
+  "check": {
+   "tool": "Claude Code",
+   "model": "claude-sonnet-5-5",
+   "date": "2026-10-17",
+   "tokens": 268044
+  }
+ },
+ "status": "merged",
+ "record_ids": [
+  "INT-01",
+  "INT-02",
+  "INT-03",
+  "INT-04",
+  "INT-05",
+  "INT-06",
+  "INT-07",
+  "INT-08",
+  "INT-09",
+  "INT-10",
+  "INT-11",
+  "INT-12",
+  "INT-13",
+  "INT-14",
+  "INT-15",
+  "INT-16",
+  "INT-18",
+  "INT-19",
+  "INT-20",
+  "INT-17"
+ ],
+ "steps": [
+  {
+   "step": "archive",
+   "who": "script",
+   "do": "python3 tools/archive.py --run 2026-10-17-recheck-international-2 --browser"
+  },
+  {
+   "step": "textify",
+   "who": "script",
+   "do": "python3 tools/pipeline.py textify --run 2026-10-17-recheck-international-2"
+  },
+  {
+   "step": "extract",
+   "who": "extractors, about 8 candidates each",
+   "do": "pipeline/roles/extract.md -> extractions/<ID>.json; archive and textify again for extra_urls"
+  },
+  {
+   "step": "evidence",
+   "who": "script",
+   "do": "python3 tools/pipeline.py evidence --run 2026-10-17-recheck-international-2"
+  },
+  {
+   "step": "sample",
+   "who": "script",
+   "do": "python3 tools/pipeline.py sample --run 2026-10-17-recheck-international-2"
+  },
+  {
+   "step": "blind",
+   "who": "a fresh extractor",
+   "do": "pipeline/roles/extract.md -> extractions-blind/<ID>.json; never opens extractions/"
+  },
+  {
+   "step": "agreement",
+   "who": "script",
+   "do": "python3 tools/pipeline.py compare --run 2026-10-17-recheck-international-2"
+  },
+  {
+   "step": "check",
+   "who": "the checker, in a fresh context",
+   "do": "pipeline/roles/check.md -> checks/<ID>.json"
+  },
+  {
+   "step": "assemble",
+   "who": "script",
+   "do": "python3 tools/pipeline.py assemble --run 2026-10-17-recheck-international-2"
+  },
+  {
+   "step": "merge",
+   "who": "script",
+   "do": "python3 tools/merge.py runs/2026-10-17-recheck-international-2/pass.json --dry-run, then without --dry-run; python3 tools/build.py"
+  },
+  {
+   "step": "report",
+   "who": "script",
+   "do": "python3 tools/pipeline.py report --run 2026-10-17-recheck-international-2; frame --report; questions --sync; intake"
+  },
+  {
+   "step": "gate",
+   "who": "script",
+   "do": "python3 tools/gate.py: every change against the rules; fix what fails, never skip it"
+  },
+  {
+   "step": "commit",
+   "who": "coordinator",
+   "do": "one commit on the branch run/2026-10-17-recheck-international-2"
+  }
+ ]
+}

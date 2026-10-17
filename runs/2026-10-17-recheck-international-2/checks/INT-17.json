@@ -1,0 +1,58 @@
+{
+ "cand_id": "INT-17",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported",
+   "why": "Spanish PDF title 'Para la construcción de un enfoque regional...' differs from v1's 'Por la construcción'; the new value matches the stored original."
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "judgment-differs",
+   "why": "'general-purpose / frontier AI' rests on a sentence about generative AI challenges and 'deepfakes & synthetic media' on a roadmap item against AI-amplified disinformation; defensible but thin. A narrower set would be international cooperation and accountability & liability."
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "consolidates the Working Group as a space for permanent dialogue and makes the summit an annual meeting",
+   "verdict": "supported",
+   "locator": "declaration PDF, page 3 'To consolidate the creation of the Working Group... permanent dialogue'; 'To establish the Ministerial and High-Level Authorities Summit... as an annual meeting'"
+  },
+  {
+   "claim": "countries present at the closed session and later adhesions (Bolivia, Dominica, Antigua and Barbuda)",
+   "verdict": "supported",
+   "locator": "declaration PDF, page 4 footnotes"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Regional ministerial declaration with roadmap on AI governance and ethics."
+ },
+ "overall": "accept",
+ "note": "Both language versions and the roadmap were read; the summary and notes match. Santo Domingo declaration of June 2026 (third summit) is a lead not stored and not in the register; it is a newer related instrument, not a replacement, so INT-17's status stays current."
+}

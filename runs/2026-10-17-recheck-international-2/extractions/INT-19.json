@@ -1,0 +1,90 @@
+{
+ "cand_id": "INT-19",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "INT-19",
+ "record": {
+  "safety_topics": [
+   "national security & military",
+   "general-purpose / frontier AI",
+   "international cooperation"
+  ],
+  "notes": "The communiqué is dated 26 August 2026, Sydney, and was published on GOV.UK by the Home Office on 28 August 2026. Outside its section on AI and national security, it notes that state threats are amplified by advanced technology including AI, that AI gives terrorists and violent extremists new tools for radicalisation, propaganda, attack planning and fundraising, and that the fast-growing threat of online and cyber-enabled scams is largely driven by AI-enabled technology. It does not set out which model characteristics may require additional government scrutiny.",
+  "verification": {
+   "note": "Stored and read in this run: the GOV.UK HTML communiqué and its publication page (Home Office policy paper, published 28 August 2026). They confirm the title, the Sydney meeting of 25-26 August 2026, the 26 August 2026 dateline, the participating ministers and the full text of the AI and national security section. Other host-government copies were not stored. The previous note's report, from a commentary seen in search results, that none of the five governments had released the scrutiny criteria rests on no stored source."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/INT-19/2026-10-11/official.html",
+    "sha256": "b10ea8fb838845b3e30ad195982fa92119a582417c02e89fb9b084c576037a92",
+    "locator": "page heading",
+    "quote": "Five Country Ministerial Communiqué 2026",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/INT-19/2026-10-11/official.html",
+    "sha256": "b10ea8fb838845b3e30ad195982fa92119a582417c02e89fb9b084c576037a92",
+    "locator": "dateline",
+    "quote": "26 August 2026, Sydney, Australia",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-19/2026-10-11/secondary.html",
+    "sha256": "fc4978892ab84b5a8ee30cd7e3a209138ec2772599e18ef6c9241469032d9a42",
+    "locator": "publication page",
+    "quote": "Published: 28 August 2026",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-19/2026-10-11/official.html",
+    "sha256": "b10ea8fb838845b3e30ad195982fa92119a582417c02e89fb9b084c576037a92",
+    "locator": "Introduction",
+    "quote": "We, the Home Affairs, Interior and Security Ministers of Australia, Canada, New Zealand, the United Kingdom, and the United States (the ‘Five Countries’) convened under Australia’s Chairmanship, in Sydney on 25-26 August 2026, for the Five Country Ministerial (FCM).",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/INT-19/2026-10-11/official.html",
+    "sha256": "b10ea8fb838845b3e30ad195982fa92119a582417c02e89fb9b084c576037a92",
+    "locator": "Introduction",
+    "quote": "We, the Home Affairs, Interior and Security Ministers of Australia, Canada, New Zealand, the United Kingdom, and the United States (the ‘Five Countries’) convened under Australia’s Chairmanship, in Sydney on 25-26 August 2026",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-19/2026-10-11/official.html",
+    "sha256": "b10ea8fb838845b3e30ad195982fa92119a582417c02e89fb9b084c576037a92",
+    "locator": "Artificial intelligence and national security",
+    "quote": "We have committed to deepen collaboration with industry on shared national security priorities and public safety",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "safety_topics": "'child safety' dropped: the communiqué's passage on protecting children concerns online harms in general and does not mention AI",
+   "notes": "'complements the June 2026 US executive order (US-23)' and 'the criteria are not published' are not supported by the stored text; replaced by what the text says about AI outside its AI section",
+   "verification.note": "rewritten; the duplicated sentence and the scope remark removed (the scope remark stays in scope_note)"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "A ministerial communiqué of 26 August 2026 stating political commitments; nothing stored replaces it. 'Published (non-binding, current)' stands."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

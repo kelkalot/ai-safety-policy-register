@@ -1,0 +1,58 @@
+{
+ "cand_id": "INT-07",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "27 countries counted plus the EU representative"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "chemical or biological weapons assistance to non-state actors as threshold example",
+   "verdict": "supported",
+   "locator": "Safety 1.3"
+  },
+  {
+   "claim": "AI safety institutes to share best practices and evaluation datasets",
+   "verdict": "supported",
+   "locator": "Safety 1.6"
+  },
+  {
+   "claim": "interim report noted, final report expected before Paris",
+   "verdict": "supported",
+   "locator": "Way forward W2"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "INT-08"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Confirmed; countries counted from the preamble."
+}

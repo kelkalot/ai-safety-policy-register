@@ -1,0 +1,51 @@
+{
+ "cand_id": "INT-06",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "text says voluntary commitments"
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "16 original signatories listed, four added 7 Feb 2025",
+   "verdict": "supported",
+   "locator": "list of organisations"
+  },
+  {
+   "claim": "publish safety framework by the Paris summit; public updates if approaches change",
+   "verdict": "supported",
+   "locator": "text, Outcomes 1-3"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Company commitments brokered and published by governments; existing scope_note kept."
+ },
+ "overall": "accept",
+ "note": "Issuing body and notes confirmed; the count of 20 matches 16 plus 4."
+}

@@ -1,0 +1,58 @@
+{
+ "cand_id": "INT-10",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "12 companies published or updated Frontier AI Safety Frameworks in 2025",
+   "verdict": "supported",
+   "locator": "executive summary"
+  },
+  {
+   "claim": "evaluation gap",
+   "verdict": "supported",
+   "locator": "key findings"
+  },
+  {
+   "claim": "translations in other five UN languages",
+   "verdict": "supported",
+   "locator": "publication page"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Confirmed. Dropping the unstored claim that Bengio co-chairs the UN panel is right; related link to UN-08 remains."
+}

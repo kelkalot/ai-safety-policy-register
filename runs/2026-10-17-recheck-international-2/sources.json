@@ -1,0 +1,3791 @@
+{
+ "INT-01": {
+  "main": {
+   "status": "archived",
+   "flag": "A source changed since the previous snapshot; both versions are kept.",
+   "last_attempt": "2026-10-17T15:49:00Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/INT-01/2026-10-17/official.html",
+     "url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
+     "final_url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 184900,
+     "sha256": "09361fd47328a2f6d5071a8181d0142b52223a131e817510e8dd5ead1fd54a64",
+     "text_sha256": "db35e7e76ea77a2f10ebeb2ff865cc94ac3b964439bfd3c5ec4902f89d38a32a",
+     "retrieved_at": "2026-10-17T15:49:02Z",
+     "last_checked": "2026-10-17T15:49:02Z",
+     "method": "http",
+     "last_modified": "Sat, 17 Oct 2026 15:49:02 GMT",
+     "etag": null,
+     "changed": true,
+     "previous_sha256": "055c8fe459d06cdf161eead997befc4ae3f94bc30bacea910abc090dd2a7557f",
+     "previous_path": "archive/INT-01/2026-10-11/official.html",
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/INT-01/2026-10-17/secondary.html",
+     "url": "https://www.elysee.fr/emmanuel-macron/2025/02/11/declaration-sur-une-intelligence-artificielle-inclusive-et-durable-pour-les-peuples-et-la-planete",
+     "final_url": "https://www.elysee.fr/emmanuel-macron/2025/02/11/declaration-sur-une-intelligence-artificielle-inclusive-et-durable-pour-les-peuples-et-la-planete",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 209285,
+     "sha256": "720d400921a832d0b5a396d9964df28620d995db6c47c43e64e5ad2a29c57814",
+     "text_sha256": "9f126d70323b7abf1934975885577d10a5366aa3adce8961be4b6bbe75fc42f7",
+     "retrieved_at": "2026-10-17T15:49:05Z",
+     "last_checked": "2026-10-17T15:49:05Z",
+     "method": "http",
+     "last_modified": "Sat, 17 Oct 2026 15:49:05 GMT",
+     "etag": null,
+     "changed": true,
+     "previous_sha256": "2f2078b93fba213c32dfe4d51d154d952ca58318ad1a3c57c89bd24f8dec6dfe",
+     "previous_path": "archive/INT-01/2026-10-11/secondary.html",
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
+     "attempted_at": "2026-10-11T13:56:46Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.elysee.fr/emmanuel-macron/2025/02/11/declaration-sur-une-intelligence-artificielle-inclusive-et-durable-pour-les-peuples-et-la-planete",
+     "attempted_at": "2026-10-11T13:56:49Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
+     "attempted_at": "2026-10-17T15:49:02Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.elysee.fr/emmanuel-macron/2025/02/11/declaration-sur-une-intelligence-artificielle-inclusive-et-durable-pour-les-peuples-et-la-planete",
+     "attempted_at": "2026-10-17T15:49:05Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.gov.uk/government/news/first-international-ai-safety-report-to-inform-discussions-at-ai-action-summit": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:00:58Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-01/extra-4851ff791c/2026-10-17/official.html",
+      "url": "https://www.gov.uk/government/news/first-international-ai-safety-report-to-inform-discussions-at-ai-action-summit",
+      "final_url": "https://www.gov.uk/government/news/first-international-ai-safety-report-to-inform-discussions-at-ai-action-summit",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 82686,
+      "sha256": "4d9af45900c07aac4eec08f36ad15762912e0145ebf4e5b9e17ff4eeeb3dea73",
+      "text_sha256": "b61155cad7a88f2f4a3a2b450b715ca437dc4a7279f462bc5eacada97aa360f6",
+      "retrieved_at": "2026-10-17T16:01:02Z",
+      "last_checked": "2026-10-17T16:01:02Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": "W/\"4d9af45900c07aac4eec08f36ad15762\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.gov.uk/government/news/first-international-ai-safety-report-to-inform-discussions-at-ai-action-summit",
+      "attempted_at": "2026-10-17T16:01:02Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "INT-01"
+ },
+ "INT-02": {
+  "main": {
+   "status": "failed",
+   "flag": "The official source could not be downloaded: DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'. The secondary source could not be downloaded (DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl').",
+   "last_attempt": "2026-10-17T16:17:49Z",
+   "files": [],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231208",
+     "attempted_at": "2026-10-11T13:56:44Z",
+     "ok": false,
+     "http_status": null,
+     "error": "robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://impact.indiaai.gov.in/outcome-resources",
+     "attempted_at": "2026-10-11T13:56:45Z",
+     "ok": false,
+     "http_status": null,
+     "error": "robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231208",
+     "attempted_at": "2026-10-11T14:06:45Z",
+     "ok": false,
+     "http_status": null,
+     "error": "robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://impact.indiaai.gov.in/outcome-resources",
+     "attempted_at": "2026-10-11T14:06:45Z",
+     "ok": false,
+     "http_status": null,
+     "error": "robots.txt could not be reached (URLError), which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231208",
+     "attempted_at": "2026-10-16T11:38:57Z",
+     "ok": false,
+     "http_status": null,
+     "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://impact.indiaai.gov.in/outcome-resources",
+     "attempted_at": "2026-10-16T11:38:57Z",
+     "ok": false,
+     "http_status": null,
+     "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231208",
+     "attempted_at": "2026-10-17T14:28:11Z",
+     "ok": false,
+     "http_status": null,
+     "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://impact.indiaai.gov.in/outcome-resources",
+     "attempted_at": "2026-10-17T14:28:12Z",
+     "ok": false,
+     "http_status": null,
+     "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231208",
+     "attempted_at": "2026-10-17T15:49:01Z",
+     "ok": false,
+     "http_status": null,
+     "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://impact.indiaai.gov.in/outcome-resources",
+     "attempted_at": "2026-10-17T15:49:01Z",
+     "ok": false,
+     "http_status": null,
+     "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231208",
+     "attempted_at": "2026-10-17T16:01:00Z",
+     "ok": false,
+     "http_status": null,
+     "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://impact.indiaai.gov.in/outcome-resources",
+     "attempted_at": "2026-10-17T16:01:01Z",
+     "ok": false,
+     "http_status": null,
+     "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231208",
+     "attempted_at": "2026-10-17T16:17:50Z",
+     "ok": false,
+     "http_status": null,
+     "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://impact.indiaai.gov.in/outcome-resources",
+     "attempted_at": "2026-10-17T16:17:51Z",
+     "ok": false,
+     "http_status": null,
+     "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://eoibelgrade.gov.in/listview/Njk1": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:00:58Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/official.html",
+      "url": "https://eoibelgrade.gov.in/listview/Njk1",
+      "final_url": "https://eoibelgrade.gov.in/listview/Njk1",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 95828,
+      "sha256": "c5160e466bef9dfff52d050cf6c6715a0f7be78491660459c66065e7160bd5b7",
+      "text_sha256": "7ba7bd4147742536007fb5239a14e9ea0fbc406cb670ec22552f7b90dcc53130",
+      "retrieved_at": "2026-10-17T16:01:04Z",
+      "last_checked": "2026-10-17T16:01:04Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/document-1.pdf",
+      "url": "https://eoibelgrade.gov.in/public_files/assets/pdf/Overseas_Mobility_Facilitation_and_Welfare_Bill_2025.pdf",
+      "final_url": "https://eoibelgrade.gov.in/public_files/assets/pdf/Overseas_Mobility_Facilitation_and_Welfare_Bill_2025.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 112762,
+      "sha256": "6ea4e67c84bc4ca1d76e842acabd177008d4d79fa70dca4c70487c3dc2300f85",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-17T16:01:08Z",
+      "last_checked": "2026-10-17T16:01:08Z",
+      "method": "http",
+      "last_modified": "Fri, 24 Oct 2025 07:45:49 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-7d1d6df641/2026-10-17/document-2.pdf",
+      "url": "https://eoibelgrade.gov.in/public_files/assets/pdf/EoI_Serbia.pdf",
+      "final_url": "https://eoibelgrade.gov.in/public_files/assets/pdf/EoI_Serbia.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 199476,
+      "sha256": "bb6c116031ec99845d42c20e0a795c7a64030b87de0fa2dc805663c335ae7c02",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-17T16:01:13Z",
+      "last_checked": "2026-10-17T16:01:13Z",
+      "method": "http",
+      "last_modified": "Wed, 25 Jun 2025 12:18:08 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://eoibelgrade.gov.in/listview/Njk1",
+      "attempted_at": "2026-10-17T16:01:04Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://eoibelgrade.gov.in/public_files/assets/pdf/Overseas_Mobility_Facilitation_and_Welfare_Bill_2025.pdf",
+      "attempted_at": "2026-10-17T16:01:08Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://eoibelgrade.gov.in/public_files/assets/pdf/EoI_Serbia.pdf",
+      "attempted_at": "2026-10-17T16:01:13Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://digital-strategy.ec.europa.eu/en/news/european-union-endorses-leaders-declaration-ai-summit-india": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:00:58Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-8fd55d93e1/2026-10-17/official.html",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/european-union-endorses-leaders-declaration-ai-summit-india",
+      "final_url": "https://digital-strategy.ec.europa.eu/en/news/european-union-endorses-leaders-declaration-ai-summit-india",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 50775,
+      "sha256": "d5e23fb184c2980073ff741ed6513b5362b3796c67dac0186db9f9c0d5a6e37d",
+      "text_sha256": "aafdef204d9d494381bd085c8459ec13318a5df3d972ecccd93d69570568c276",
+      "retrieved_at": "2026-10-17T16:01:07Z",
+      "last_checked": "2026-10-17T16:01:07Z",
+      "method": "http",
+      "last_modified": "Sat, 17 Oct 2026 16:01:02 GMT",
+      "etag": "\"1792252862-gzip\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-8fd55d93e1/2026-10-17/document-1.pdf",
+      "url": "https://digital-strategy.ec.europa.eu/en/node/16102/printable/pdf",
+      "final_url": "https://digital-strategy.ec.europa.eu/en/node/16102/printable/pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 108482,
+      "sha256": "de89b943c7794cc96403a80e4a2c6583844bcb8ed8bd6909f6a875e498ca3d22",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-17T16:01:11Z",
+      "last_checked": "2026-10-17T16:01:11Z",
+      "method": "http",
+      "last_modified": "Sat, 17 Oct 2026 16:01:11 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/european-union-endorses-leaders-declaration-ai-summit-india",
+      "attempted_at": "2026-10-17T16:01:06Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://digital-strategy.ec.europa.eu/en/node/16102/printable/pdf",
+      "attempted_at": "2026-10-17T16:01:11Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.industry.gov.au/news/australia-endorses-india-ai-impact-summit-declaration": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:01:01Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-02/extra-6a60cfdfb7/2026-10-17/official.html",
+      "url": "https://www.industry.gov.au/news/australia-endorses-india-ai-impact-summit-declaration",
+      "final_url": "https://www.industry.gov.au/news/australia-endorses-india-ai-impact-summit-declaration",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 132690,
+      "sha256": "3b75d8c185bb5bdd40a944ee65636975a98d7ba86bf0c7dd95417f2547ba377c",
+      "text_sha256": "3f76f21e55953100246b4476a33f5f9afc1778e78524388c2a0a4dcea8f0ca44",
+      "retrieved_at": "2026-10-17T16:01:06Z",
+      "last_checked": "2026-10-17T16:01:06Z",
+      "method": "http",
+      "last_modified": "Sat, 17 Oct 2026 16:01:04 GMT",
+      "etag": "\"1792252864\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.industry.gov.au/news/australia-endorses-india-ai-impact-summit-declaration",
+      "attempted_at": "2026-10-17T16:01:05Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "INT-02"
+ },
+ "INT-03": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-17T15:49:00Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/INT-03/2026-10-11/official.html",
+     "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023",
+     "final_url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 86591,
+     "sha256": "413a95f75c30deec5911910e6e7a6851e871709d745a1ca599d08e5a2c21cd35",
+     "retrieved_at": "2026-10-11T13:56:48Z",
+     "last_checked": "2026-10-17T15:49:04Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": "W/\"413a95f75c30deec5911910e6e7a6851\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok",
+     "text_sha256": "dd46484f8ae3b664d6f02ee04d37b02348f06dde95628021f5917d768037c1f7"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023",
+     "attempted_at": "2026-10-11T13:56:48Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023",
+     "attempted_at": "2026-10-17T15:49:04Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:01:02Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-03/extra-243fa770c1/2026-10-17/official.html",
+      "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration",
+      "final_url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 69304,
+      "sha256": "9d7d8fefc27aeed6be7e1baee3a604e7e4259e40fb813d2785e16298b824c5b5",
+      "text_sha256": "f4ee20c68270b33cf37ba18e46db56cc71f8f6e48abe91cdce8488ba6cb6e17a",
+      "retrieved_at": "2026-10-17T16:01:04Z",
+      "last_checked": "2026-10-17T16:01:04Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": "W/\"9d7d8fefc27aeed6be7e1baee3a604e7\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration",
+      "attempted_at": "2026-10-17T16:01:04Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.gov.uk/government/news/first-international-ai-safety-report-to-inform-discussions-at-ai-action-summit": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:01:04Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-03/extra-4851ff791c/2026-10-17/official.html",
+      "url": "https://www.gov.uk/government/news/first-international-ai-safety-report-to-inform-discussions-at-ai-action-summit",
+      "final_url": "https://www.gov.uk/government/news/first-international-ai-safety-report-to-inform-discussions-at-ai-action-summit",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 82686,
+      "sha256": "4d9af45900c07aac4eec08f36ad15762912e0145ebf4e5b9e17ff4eeeb3dea73",
+      "text_sha256": "b61155cad7a88f2f4a3a2b450b715ca437dc4a7279f462bc5eacada97aa360f6",
+      "retrieved_at": "2026-10-17T16:01:06Z",
+      "last_checked": "2026-10-17T16:01:06Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": "W/\"4d9af45900c07aac4eec08f36ad15762\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.gov.uk/government/news/first-international-ai-safety-report-to-inform-discussions-at-ai-action-summit",
+      "attempted_at": "2026-10-17T16:01:06Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "INT-03"
+ },
+ "INT-04": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-17T15:49:00Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/INT-04/2026-10-11/official.html",
+     "url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024",
+     "final_url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 70646,
+     "sha256": "070aa3dfbe56595765a7ca9f282e504f8007aea0df4fb550884a77b2cc65274f",
+     "retrieved_at": "2026-10-11T13:56:52Z",
+     "last_checked": "2026-10-17T15:49:09Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": "W/\"070aa3dfbe56595765a7ca9f282e504f\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok",
+     "text_sha256": "e3a393f4dec31b1d5dba914cf7ef98b189542453e7188e65985dfda53482fc2b"
+    },
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/INT-04/2026-10-11/secondary.html",
+     "url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024/seoul-declaration-for-safe-innovative-and-inclusive-ai-by-participants-attending-the-leaders-session-ai-seoul-summit-21-may-2024",
+     "final_url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024/seoul-declaration-for-safe-innovative-and-inclusive-ai-by-participants-attending-the-leaders-session-ai-seoul-summit-21-may-2024",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 78212,
+     "sha256": "294434498d8216e502915e2a518a6f5d6965258ffedb0bdc83f4b5c68bcb9d23",
+     "retrieved_at": "2026-10-11T13:57:01Z",
+     "last_checked": "2026-10-17T15:49:18Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": "W/\"294434498d8216e502915e2a518a6f5d\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok",
+     "text_sha256": "bef7cf34e93872e287582429b9afc4c27837c496f94e991e6c25974057d85c27"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024",
+     "attempted_at": "2026-10-11T13:56:52Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024/seoul-declaration-for-safe-innovative-and-inclusive-ai-by-participants-attending-the-leaders-session-ai-seoul-summit-21-may-2024",
+     "attempted_at": "2026-10-11T13:57:01Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024",
+     "attempted_at": "2026-10-17T15:49:09Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024/seoul-declaration-for-safe-innovative-and-inclusive-ai-by-participants-attending-the-leaders-session-ai-seoul-summit-21-may-2024",
+     "attempted_at": "2026-10-17T15:49:18Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.gov.uk/government/topical-events/ai-seoul-summit-2024": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:01:06Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-04/extra-1b4616cecf/2026-10-17/official.html",
+      "url": "https://www.gov.uk/government/topical-events/ai-seoul-summit-2024",
+      "final_url": "https://www.gov.uk/government/topical-events/ai-seoul-summit-2024",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 70681,
+      "sha256": "ec2c949776256c4b82ada1c071263345fb8b9064dcb0bbb926b629b1f6af8d62",
+      "text_sha256": "dee6954e99f6d057fe922e3d072bf10df38ac06baea8008ba1cd687bba47a99e",
+      "retrieved_at": "2026-10-17T16:01:09Z",
+      "last_checked": "2026-10-17T16:01:09Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": "W/\"ec2c949776256c4b82ada1c071263345\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.gov.uk/government/topical-events/ai-seoul-summit-2024",
+      "attempted_at": "2026-10-17T16:01:09Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "INT-04"
+ },
+ "INT-05": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-17T15:49:01Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/INT-05/2026-10-11/official.html",
+     "url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024/seoul-statement-of-intent-toward-international-cooperation-on-ai-safety-science-ai-seoul-summit-2024-annex",
+     "final_url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024/seoul-statement-of-intent-toward-international-cooperation-on-ai-safety-science-ai-seoul-summit-2024-annex",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 72389,
+     "sha256": "4f9bf25c7d9fa101ef26ea471d9140beacd4b5adb7bc4d62ba3fb6935c39fdeb",
+     "retrieved_at": "2026-10-11T13:56:50Z",
+     "last_checked": "2026-10-17T15:49:07Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": "W/\"4f9bf25c7d9fa101ef26ea471d9140be\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok",
+     "text_sha256": "550137e010f2a906632af2f54817a6edbe5ab54facc15313dec5a0cfdeecf956"
+    },
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/INT-05/2026-10-11/secondary.html",
+     "url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024",
+     "final_url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 70646,
+     "sha256": "070aa3dfbe56595765a7ca9f282e504f8007aea0df4fb550884a77b2cc65274f",
+     "retrieved_at": "2026-10-11T13:56:59Z",
+     "last_checked": "2026-10-17T15:49:15Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": "W/\"070aa3dfbe56595765a7ca9f282e504f\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok",
+     "text_sha256": "e3a393f4dec31b1d5dba914cf7ef98b189542453e7188e65985dfda53482fc2b"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024/seoul-statement-of-intent-toward-international-cooperation-on-ai-safety-science-ai-seoul-summit-2024-annex",
+     "attempted_at": "2026-10-11T13:56:50Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024",
+     "attempted_at": "2026-10-11T13:56:59Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024/seoul-statement-of-intent-toward-international-cooperation-on-ai-safety-science-ai-seoul-summit-2024-annex",
+     "attempted_at": "2026-10-17T15:49:07Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024",
+     "attempted_at": "2026-10-17T15:49:15Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {},
+  "record_id": "INT-05"
+ },
+ "INT-06": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-17T15:49:04Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/INT-06/2026-10-11/official.html",
+     "url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+     "final_url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 68461,
+     "sha256": "b1f8a2846196606a728e5e831a74ed36e275460a4bbcb68e43ca64f3e663d236",
+     "retrieved_at": "2026-10-11T13:56:55Z",
+     "last_checked": "2026-10-17T15:49:11Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": "W/\"b1f8a2846196606a728e5e831a74ed36\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok",
+     "text_sha256": "2c084fe2fa6624eaa197840fb7a894fe21ffeeac9af55258948be0045cf7eb18"
+    },
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/INT-06/2026-10-11/secondary.html",
+     "url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+     "final_url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 81551,
+     "sha256": "4c9c5bc59457b52e34c80e2349ebc23b875e8e621c45719539e2be171cff81d4",
+     "retrieved_at": "2026-10-11T13:57:03Z",
+     "last_checked": "2026-10-17T15:49:20Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": "W/\"4c9c5bc59457b52e34c80e2349ebc23b\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok",
+     "text_sha256": "70d5b702b1c166f1a2df693cf14f67c03c1f96beff245375a148d66e71afbe39"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+     "attempted_at": "2026-10-11T13:56:55Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+     "attempted_at": "2026-10-11T13:57:03Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+     "attempted_at": "2026-10-17T15:49:11Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+     "attempted_at": "2026-10-17T15:49:20Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {},
+  "record_id": "INT-06"
+ },
+ "INT-07": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-17T15:49:05Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/INT-07/2026-10-11/official.html",
+     "url": "https://www.gov.uk/government/publications/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024",
+     "final_url": "https://www.gov.uk/government/publications/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 68264,
+     "sha256": "ab44aea3297590dacb17069d6c7172ae2f1eec365896ab31f3ba3458a4d8bbb6",
+     "retrieved_at": "2026-10-11T13:56:57Z",
+     "last_checked": "2026-10-17T15:49:13Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": "W/\"ab44aea3297590dacb17069d6c7172ae\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok",
+     "text_sha256": "266389850be226d849a4e2b42caa1a31ada1dda51fddfe29d2fb37aaa2c552c4"
+    },
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/INT-07/2026-10-11/secondary.html",
+     "url": "https://www.gov.uk/government/publications/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024",
+     "final_url": "https://www.gov.uk/government/publications/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 103058,
+     "sha256": "f72d6c7f78e7cad40f245dfa2076edbebfb16460b59e966e6bf8e9ee53b087ae",
+     "retrieved_at": "2026-10-11T13:57:05Z",
+     "last_checked": "2026-10-17T15:49:22Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": "W/\"f72d6c7f78e7cad40f245dfa2076edbe\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok",
+     "text_sha256": "229db732c08107bee6192850ebaf566c4615508d955f0ee23b6df289c42a8775"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.gov.uk/government/publications/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024",
+     "attempted_at": "2026-10-11T13:56:57Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gov.uk/government/publications/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024",
+     "attempted_at": "2026-10-11T13:57:05Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.gov.uk/government/publications/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024",
+     "attempted_at": "2026-10-17T15:49:13Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gov.uk/government/publications/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024",
+     "attempted_at": "2026-10-17T15:49:22Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {},
+  "record_id": "INT-07"
+ },
+ "INT-08": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-17T15:49:15Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/INT-08/2026-10-11/official.html",
+     "url": "https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai",
+     "final_url": "https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 101918,
+     "sha256": "017f482de89ea041b01ddd42ab3d2eba24b216a1365d988c51136d0508f70237",
+     "retrieved_at": "2026-10-11T13:57:23Z",
+     "last_checked": "2026-10-17T15:49:24Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": "W/\"017f482de89ea041b01ddd42ab3d2eba\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok",
+     "text_sha256": "fca8049ebe0aa5f1fa8ed6d6039bee8631bc09717b129efd98dbd53b4c5aba9a"
+    },
+    {
+     "role_key": "document-1",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/INT-08/2026-10-11/document-1.pdf",
+     "url": "https://assets.publishing.service.gov.uk/media/6716673b96def6d27a4c9b24/international_scientific_report_on_the_safety_of_advanced_ai_interim_report.pdf",
+     "final_url": "https://assets.publishing.service.gov.uk/media/6716673b96def6d27a4c9b24/international_scientific_report_on_the_safety_of_advanced_ai_interim_report.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 2985312,
+     "sha256": "ccc4f9c9dfe608d40bec7eff2167a780f2c2610391db815099be48e36d603196",
+     "retrieved_at": "2026-10-11T13:57:25Z",
+     "last_checked": "2026-10-17T15:49:27Z",
+     "method": "http",
+     "last_modified": "Mon, 21 Oct 2024 14:37:47 GMT",
+     "etag": "\"6716673b-2d8d60\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-2",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/INT-08/2026-10-11/document-2.pdf",
+     "url": "https://assets.publishing.service.gov.uk/media/666ac0732f424458f904f308/international_scientific_report_on_the_safety_of_advanced_ai_executive_summary_arabic.pdf",
+     "final_url": "https://assets.publishing.service.gov.uk/media/666ac0732f424458f904f308/international_scientific_report_on_the_safety_of_advanced_ai_executive_summary_arabic.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 212325,
+     "sha256": "10b5feff8b770616ee105c3113a4f8b6c8b0724a92020bf0f8d0807c81b6039f",
+     "retrieved_at": "2026-10-11T13:57:28Z",
+     "last_checked": "2026-10-17T15:49:30Z",
+     "method": "http",
+     "last_modified": "Thu, 13 Jun 2024 09:48:35 GMT",
+     "etag": "\"666ac073-33d65\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai",
+     "attempted_at": "2026-10-11T13:57:23Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://assets.publishing.service.gov.uk/media/6716673b96def6d27a4c9b24/international_scientific_report_on_the_safety_of_advanced_ai_interim_report.pdf",
+     "attempted_at": "2026-10-11T13:57:25Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://assets.publishing.service.gov.uk/media/666ac0732f424458f904f308/international_scientific_report_on_the_safety_of_advanced_ai_executive_summary_arabic.pdf",
+     "attempted_at": "2026-10-11T13:57:28Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai",
+     "attempted_at": "2026-10-17T15:49:24Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://assets.publishing.service.gov.uk/media/6716673b96def6d27a4c9b24/international_scientific_report_on_the_safety_of_advanced_ai_interim_report.pdf",
+     "attempted_at": "2026-10-17T15:49:27Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://assets.publishing.service.gov.uk/media/666ac0732f424458f904f308/international_scientific_report_on_the_safety_of_advanced_ai_executive_summary_arabic.pdf",
+     "attempted_at": "2026-10-17T15:49:30Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://internationalaisafetyreport.org/about": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:17:49Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-08/extra-c06ca24796/2026-10-17/official.html",
+      "url": "https://internationalaisafetyreport.org/about",
+      "final_url": "https://internationalaisafetyreport.org/about",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 28718,
+      "sha256": "fb541394cdc267335fbdd8d5d67ad163db49762dbeb265a2058bdce8fe93f2a2",
+      "text_sha256": "4e0ba42d00a3e5ff01d3abcf8fbfe1e7c5192a0a5211fd66415b3c4d60dfd35e",
+      "retrieved_at": "2026-10-17T16:18:00Z",
+      "last_checked": "2026-10-17T16:18:00Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://internationalaisafetyreport.org/about",
+      "attempted_at": "2026-10-17T16:18:00Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "INT-08"
+ },
+ "INT-09": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-17T15:49:18Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/INT-09/2026-10-11/official.html",
+     "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2025",
+     "final_url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2025",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 3963065,
+     "sha256": "0fa3a9e56890013e95da8bb888d329c25a2554ed809e789b683af30f7067012b",
+     "retrieved_at": "2026-10-11T13:57:29Z",
+     "last_checked": "2026-10-17T15:49:21Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok",
+     "text_sha256": "d9856aa8d55004bb6c497e356759c8d01aee3d61a523e3b7040bb0353076c9f8"
+    },
+    {
+     "role_key": "document-1",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/INT-09/2026-10-11/document-1.pdf",
+     "url": "https://internationalaisafetyreport.org/sites/default/files/2025-10/international_ai_safety_report_2025_english.pdf",
+     "final_url": "https://internationalaisafetyreport.org/sites/default/files/2025-10/international_ai_safety_report_2025_english.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 4662534,
+     "sha256": "cd7a8f0c6abcfcc0175578e762eb8b6575e9263aa1c9accd37fa8b6facff828d",
+     "retrieved_at": "2026-10-11T13:57:34Z",
+     "last_checked": "2026-10-17T15:49:25Z",
+     "method": "http",
+     "last_modified": "Tue, 14 Oct 2025 13:59:20 GMT",
+     "etag": "\"68ee5738-472506\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-2",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/INT-09/2026-10-11/document-2.pdf",
+     "url": "https://internationalaisafetyreport.org/sites/default/files/2025-10/international_ai_safety_report_2025_executive_summary_arabic_0.pdf",
+     "final_url": "https://internationalaisafetyreport.org/sites/default/files/2025-10/international_ai_safety_report_2025_executive_summary_arabic_0.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 970908,
+     "sha256": "b92408de56ba133e285e3fd397716d6643ad037c377814da3b18f3a3157b6cfa",
+     "retrieved_at": "2026-10-11T13:57:39Z",
+     "last_checked": "2026-10-17T15:49:30Z",
+     "method": "http",
+     "last_modified": "Tue, 07 Oct 2025 11:04:52 GMT",
+     "etag": "\"68e4f3d4-ed09c\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/INT-09/2026-10-11/secondary.html",
+     "url": "https://www.gov.uk/government/news/first-international-ai-safety-report-to-inform-discussions-at-ai-action-summit",
+     "final_url": "https://www.gov.uk/government/news/first-international-ai-safety-report-to-inform-discussions-at-ai-action-summit",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 82686,
+     "sha256": "ae087aa8923488cd4e6540444ba5c2eea020bd3ddfa55656c397a0ba23a9146b",
+     "retrieved_at": "2026-10-11T13:57:39Z",
+     "last_checked": "2026-10-17T15:49:30Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": "W/\"ae087aa8923488cd4e6540444ba5c2ee\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok",
+     "text_sha256": "b61155cad7a88f2f4a3a2b450b715ca437dc4a7279f462bc5eacada97aa360f6"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2025",
+     "attempted_at": "2026-10-11T13:57:29Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://internationalaisafetyreport.org/sites/default/files/2025-10/international_ai_safety_report_2025_english.pdf",
+     "attempted_at": "2026-10-11T13:57:34Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://internationalaisafetyreport.org/sites/default/files/2025-10/international_ai_safety_report_2025_executive_summary_arabic_0.pdf",
+     "attempted_at": "2026-10-11T13:57:39Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gov.uk/government/news/first-international-ai-safety-report-to-inform-discussions-at-ai-action-summit",
+     "attempted_at": "2026-10-11T13:57:39Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2025",
+     "attempted_at": "2026-10-17T15:49:21Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://internationalaisafetyreport.org/sites/default/files/2025-10/international_ai_safety_report_2025_english.pdf",
+     "attempted_at": "2026-10-17T15:49:25Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://internationalaisafetyreport.org/sites/default/files/2025-10/international_ai_safety_report_2025_executive_summary_arabic_0.pdf",
+     "attempted_at": "2026-10-17T15:49:30Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gov.uk/government/news/first-international-ai-safety-report-to-inform-discussions-at-ai-action-summit",
+     "attempted_at": "2026-10-17T15:49:30Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://internationalaisafetyreport.org/publications": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:17:49Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-09/extra-6fe393a193/2026-10-17/official.html",
+      "url": "https://internationalaisafetyreport.org/publications",
+      "final_url": "https://internationalaisafetyreport.org/publications",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 48618,
+      "sha256": "28485b003e617067d609cd5117de93b4ff71d6008369332cfac60c5be7bd4ee0",
+      "text_sha256": "209a1c5b734c7a2277b74589c0c23e37129d0a91beec495d7997f12ece0a9b74",
+      "retrieved_at": "2026-10-17T16:18:02Z",
+      "last_checked": "2026-10-17T16:18:02Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://internationalaisafetyreport.org/publications",
+      "attempted_at": "2026-10-17T16:18:02Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://internationalaisafetyreport.org/about": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:17:49Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-09/extra-c06ca24796/2026-10-17/official.html",
+      "url": "https://internationalaisafetyreport.org/about",
+      "final_url": "https://internationalaisafetyreport.org/about",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 28718,
+      "sha256": "324eae8871074fb7ffd05809a8e29f5e39b501d996860d90bc2ed480e7bde69f",
+      "text_sha256": "4e0ba42d00a3e5ff01d3abcf8fbfe1e7c5192a0a5211fd66415b3c4d60dfd35e",
+      "retrieved_at": "2026-10-17T16:17:55Z",
+      "last_checked": "2026-10-17T16:17:55Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://internationalaisafetyreport.org/about",
+      "attempted_at": "2026-10-17T16:17:55Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "INT-09"
+ },
+ "INT-10": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-17T15:49:20Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/INT-10/2026-10-11/official.html",
+     "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+     "final_url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 3943774,
+     "sha256": "ac6df460ac4e8ce14bc0fb6d45ed886c901ca45da93ad8190df6b2a7777e4d81",
+     "retrieved_at": "2026-10-11T13:57:32Z",
+     "last_checked": "2026-10-17T15:49:23Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok",
+     "text_sha256": "8693a198b93ab5031c22f5c2c52ab4fe2814fcba5de8a659c37cd01054587daa"
+    },
+    {
+     "role_key": "document-1",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/INT-10/2026-10-11/document-1.pdf",
+     "url": "https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026_1.pdf",
+     "final_url": "https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026_1.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 6723470,
+     "sha256": "e2a35f439cafade360e4df4a2f91f217a16174bd1231f97e64f7208ffa93e225",
+     "retrieved_at": "2026-10-11T13:57:37Z",
+     "last_checked": "2026-10-17T15:49:27Z",
+     "method": "http",
+     "last_modified": "Tue, 24 Feb 2026 14:53:30 GMT",
+     "etag": "\"699dbb6a-66978e\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "document-2",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/INT-10/2026-10-11/document-2.pdf",
+     "url": "https://internationalaisafetyreport.org/sites/default/files/2026-02/rapport-international-sur-la-securite-de-l-ia-2026.pdf",
+     "final_url": "https://internationalaisafetyreport.org/sites/default/files/2026-02/rapport-international-sur-la-securite-de-l-ia-2026.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 9096604,
+     "sha256": "765570f1e573e28a2cedbef5be4abe3f3edc4fe01c51578f81979dc0998e655b",
+     "retrieved_at": "2026-10-11T13:57:42Z",
+     "last_checked": "2026-10-17T15:49:32Z",
+     "method": "http",
+     "last_modified": "Tue, 17 Feb 2026 12:59:56 GMT",
+     "etag": "\"6994664c-8acd9c\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/INT-10/2026-10-11/secondary.pdf",
+     "url": "https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf",
+     "final_url": "https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 8533201,
+     "sha256": "50b244ddf39fb9189d44ccd990ba423ebe8927d8ffdce0f5aac5882c74cbc790",
+     "retrieved_at": "2026-10-11T13:57:44Z",
+     "last_checked": "2026-10-17T15:49:35Z",
+     "method": "http",
+     "last_modified": "Wed, 11 Feb 2026 10:45:24 GMT",
+     "etag": "\"698c5dc4-8234d1\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+     "attempted_at": "2026-10-11T13:57:31Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026_1.pdf",
+     "attempted_at": "2026-10-11T13:57:37Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://internationalaisafetyreport.org/sites/default/files/2026-02/rapport-international-sur-la-securite-de-l-ia-2026.pdf",
+     "attempted_at": "2026-10-11T13:57:42Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf",
+     "attempted_at": "2026-10-11T13:57:44Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+     "attempted_at": "2026-10-17T15:49:23Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026_1.pdf",
+     "attempted_at": "2026-10-17T15:49:27Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://internationalaisafetyreport.org/sites/default/files/2026-02/rapport-international-sur-la-securite-de-l-ia-2026.pdf",
+     "attempted_at": "2026-10-17T15:49:32Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf",
+     "attempted_at": "2026-10-17T15:49:35Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://internationalaisafetyreport.org/publications": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:17:51Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-10/extra-6fe393a193/2026-10-17/official.html",
+      "url": "https://internationalaisafetyreport.org/publications",
+      "final_url": "https://internationalaisafetyreport.org/publications",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 48618,
+      "sha256": "889bf2e22db398a10a71e725e2f0f7c7f10ec3220bb2618b49d9684ed8b520a5",
+      "text_sha256": "209a1c5b734c7a2277b74589c0c23e37129d0a91beec495d7997f12ece0a9b74",
+      "retrieved_at": "2026-10-17T16:17:57Z",
+      "last_checked": "2026-10-17T16:17:57Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://internationalaisafetyreport.org/publications",
+      "attempted_at": "2026-10-17T16:17:57Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "INT-10"
+ },
+ "INT-11": {
+  "main": {
+   "status": "partial",
+   "flag": "The official source could not be downloaded (HTTP 403 Forbidden); only the secondary source was saved. The browser retry also failed (Browser could not load the page: Page.goto: Timeout 45000ms exceeded.).",
+   "last_attempt": "2026-10-17T16:17:55Z",
+   "files": [
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/INT-11/2026-10-11/secondary-2.html",
+     "url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+     "final_url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 76412,
+     "sha256": "f02dcf866484029c511330b2be05d8beca8c46df8dde6509ba22188cc852a3c9",
+     "retrieved_at": "2026-10-11T14:06:54Z",
+     "last_checked": "2026-10-17T16:18:01Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": "W/\"f02dcf866484029c511330b2be05d8be\"",
+     "changed": false,
+     "previous_sha256": "6ec8a0b7f9f1e72420b9b1a8843aa31855c6984c349942f5909c1f89c8afec86",
+     "previous_path": "archive/INT-11/2026-10-11/secondary.html",
+     "stale": false,
+     "warning": null,
+     "integrity": "ok",
+     "text_sha256": "951e7c5467d624a87376755c05d2c4061f6da12f8bd72fda4a93eed54900cb6f"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.commerce.gov/news/fact-sheets/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
+     "attempted_at": "2026-10-11T13:57:35Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+     "attempted_at": "2026-10-11T13:57:35Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.commerce.gov/news/fact-sheets/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
+     "attempted_at": "2026-10-11T14:06:52Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+     "attempted_at": "2026-10-11T14:06:54Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official-rendered",
+     "url": "https://www.commerce.gov/news/fact-sheets/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
+     "attempted_at": "2026-10-11T14:09:53Z",
+     "ok": false,
+     "http_status": null,
+     "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
+     "method": "browser"
+    },
+    {
+     "role": "official",
+     "url": "https://www.commerce.gov/news/fact-sheets/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
+     "attempted_at": "2026-10-16T11:38:58Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+     "attempted_at": "2026-10-16T11:39:01Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.commerce.gov/news/fact-sheets/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
+     "attempted_at": "2026-10-17T15:49:25Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+     "attempted_at": "2026-10-17T15:49:27Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official-rendered",
+     "url": "https://www.commerce.gov/news/fact-sheets/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
+     "attempted_at": "2026-10-17T15:50:37Z",
+     "ok": false,
+     "http_status": null,
+     "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
+     "method": "browser"
+    },
+    {
+     "role": "official",
+     "url": "https://www.commerce.gov/news/fact-sheets/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
+     "attempted_at": "2026-10-17T16:17:58Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+     "attempted_at": "2026-10-17T16:18:01Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official-rendered",
+     "url": "https://www.commerce.gov/news/fact-sheets/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
+     "attempted_at": "2026-10-17T16:19:19Z",
+     "ok": false,
+     "http_status": null,
+     "error": "Browser could not load the page: Page.goto: Timeout 45000ms exceeded.",
+     "method": "browser"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.nist.gov/document/international-network-ai-safety-institutes-mission-statement": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:17:57Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-11/extra-cababf5f3d/2026-10-17/official.pdf",
+      "url": "https://www.nist.gov/document/international-network-ai-safety-institutes-mission-statement",
+      "final_url": "https://www.nist.gov/system/files/documents/2024/11/20/Mission%20Statement%20-%20International%20Network%20of%20AISIs.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 491514,
+      "sha256": "7380c0ff55972c0c025266db9259ab8188d218784a78e52df4b81d438a2743fa",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-17T16:18:01Z",
+      "last_checked": "2026-10-17T16:18:01Z",
+      "method": "http",
+      "last_modified": "Wed, 20 Nov 2024 13:18:32 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.nist.gov/document/international-network-ai-safety-institutes-mission-statement",
+      "attempted_at": "2026-10-17T16:18:01Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.nist.gov/news-events/news/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:18:00Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-11/extra-a65ad4f1a3/2026-10-17/official.html",
+      "url": "https://www.nist.gov/news-events/news/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
+      "final_url": "https://www.nist.gov/news-events/news/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 101430,
+      "sha256": "9abc5a7f9cda4363094904d847a4dadb4a4efbe6be7d66d6ef9e941306c792a5",
+      "text_sha256": "2aeca76957de7ef18745e57a76d6481be23ec9543438c060c1ecfb4d387e8edd",
+      "retrieved_at": "2026-10-17T16:18:04Z",
+      "last_checked": "2026-10-17T16:18:04Z",
+      "method": "http",
+      "last_modified": "Sat, 17 Oct 2026 10:07:42 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.nist.gov/news-events/news/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
+      "attempted_at": "2026-10-17T16:18:04Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:18:01Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-11/extra-b71b9b8aef/2026-10-17/official.html",
+      "url": "https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+      "final_url": "https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 85554,
+      "sha256": "1051528a0661210de196a396b4b270d8a0b1762ac81167fe0815bd8cf6dfed6c",
+      "text_sha256": "b48bd5f9c070bc92d47b9c4a9234b6fe60060227db13585bde9df6ed3cd42820",
+      "retrieved_at": "2026-10-17T16:18:06Z",
+      "last_checked": "2026-10-17T16:18:06Z",
+      "method": "http",
+      "last_modified": "Sat, 17 Oct 2026 10:01:43 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+      "attempted_at": "2026-10-17T16:18:06Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.aisi.gov.uk/blog/international-evaluation-best-practice-and-open-questions-in-ai-measurement": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:18:01Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-11/extra-a4b9fb821d/2026-10-17/official.html",
+      "url": "https://www.aisi.gov.uk/blog/international-evaluation-best-practice-and-open-questions-in-ai-measurement",
+      "final_url": "https://www.aisi.gov.uk/blog/international-evaluation-best-practice-and-open-questions-in-ai-measurement",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 27997,
+      "sha256": "aa70d8122c3115bd3e39052824e3f2f84fd5cde7ac1537fcf4ebb9cf25fa44fc",
+      "text_sha256": "462e0e5683c2472f125613fb2f6b76678732f7516cb6121700b413697d94d5c0",
+      "retrieved_at": "2026-10-17T16:18:03Z",
+      "last_checked": "2026-10-17T16:18:03Z",
+      "method": "http",
+      "last_modified": "Sat, 17 Oct 2026 16:01:14 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.aisi.gov.uk/blog/international-evaluation-best-practice-and-open-questions-in-ai-measurement",
+      "attempted_at": "2026-10-17T16:18:03Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document12_en.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:18:02Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-11/extra-63bd12e21b/2026-10-17/official.pdf",
+      "url": "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document12_en.pdf",
+      "final_url": "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document12_en.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 157236,
+      "sha256": "101316653594a6c0711dca2672308f63f808b6699f9a2c0b67f9441f831488b3",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-17T16:18:07Z",
+      "last_checked": "2026-10-17T16:18:07Z",
+      "method": "http",
+      "last_modified": "Thu, 25 Jun 2026 02:23:03 GMT",
+      "etag": "\"26634-6550aabf7b840\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document12_en.pdf",
+      "attempted_at": "2026-10-17T16:18:07Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "INT-11"
+ },
+ "INT-12": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-17T15:49:27Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/INT-12/2026-10-11/official.pdf",
+     "url": "https://minciencia.gob.cl/uploads/filer_public/40/2a/402a35a0-1222-4dab-b090-5c81bbf34237/declaracion_de_santiago.pdf",
+     "final_url": "https://minciencia.gob.cl/uploads/filer_public/40/2a/402a35a0-1222-4dab-b090-5c81bbf34237/declaracion_de_santiago.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 127887,
+     "sha256": "b589e5c97527b23919b51c58dcb37bea3d3c7dcdcbe5f58bb43c7f2623f44a68",
+     "retrieved_at": "2026-10-11T13:57:37Z",
+     "last_checked": "2026-10-17T15:49:30Z",
+     "method": "http",
+     "last_modified": "Thu, 30 May 2024 19:41:04 GMT",
+     "etag": "\"6658d650-1f38f\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://minciencia.gob.cl/uploads/filer_public/40/2a/402a35a0-1222-4dab-b090-5c81bbf34237/declaracion_de_santiago.pdf",
+     "attempted_at": "2026-10-11T13:57:37Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://minciencia.gob.cl/uploads/filer_public/40/2a/402a35a0-1222-4dab-b090-5c81bbf34237/declaracion_de_santiago.pdf",
+     "attempted_at": "2026-10-17T15:49:30Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://blog.investchile.gob.cl/chile-ethical-artificial-intelligence": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:18:03Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-12/extra-6d3af4075e/2026-10-17/official.html",
+      "url": "https://blog.investchile.gob.cl/chile-ethical-artificial-intelligence",
+      "final_url": "https://blog.investchile.gob.cl/en/chile-ethical-artificial-intelligence",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 80870,
+      "sha256": "dd913a8113aa893b9a15323bf9861406ce8fc507da4d7cf273e4017dc475ee2c",
+      "text_sha256": "2e52127c250683a697d595224fe3e6c374f158331f3408ca45834a608426f95b",
+      "retrieved_at": "2026-10-17T16:18:06Z",
+      "last_checked": "2026-10-17T16:18:06Z",
+      "method": "http",
+      "last_modified": "Tue, 13 Oct 2026 15:42:39 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://blog.investchile.gob.cl/chile-ethical-artificial-intelligence",
+      "attempted_at": "2026-10-17T16:18:06Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/ENG_Montevideo%20Declaration%20approved_version%204.0.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:18:04Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-12/extra-64803d61fe/2026-10-17/official.pdf",
+      "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/ENG_Montevideo%20Declaration%20approved_version%204.0.pdf",
+      "final_url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/ENG_Montevideo%20Declaration%20approved_version%204.0.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 226191,
+      "sha256": "d7a6d38f6aed11aa91575132496f9f00ab836ac3ea29e6c6f762833ef0b30987",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-17T16:18:11Z",
+      "last_checked": "2026-10-17T16:18:11Z",
+      "method": "http",
+      "last_modified": "Mon, 01 Sep 2025 20:12:13 GMT",
+      "etag": "\"3738f-63dc2fcb60140\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/ENG_Montevideo%20Declaration%20approved_version%204.0.pdf",
+      "attempted_at": "2026-10-17T16:18:11Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "INT-12"
+ },
+ "INT-13": {
+  "main": {
+   "status": "archived",
+   "flag": "The secondary source could not be downloaded (HTTP 403 Forbidden).",
+   "last_attempt": "2026-10-17T15:49:30Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/INT-13/2026-10-11/official.pdf",
+     "url": "https://www.mofa.go.jp/mofaj/files/100580933.pdf",
+     "final_url": "https://www.mofa.go.jp/mofaj/files/100580933.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 85250,
+     "sha256": "541e1385019a6febfa63fc37705a2bb5ec207fe7d4626afbd1fcf1e770093121",
+     "retrieved_at": "2026-10-11T13:57:40Z",
+     "last_checked": "2026-10-17T15:49:33Z",
+     "method": "http",
+     "last_modified": "Tue, 16 Jun 2026 15:53:04 GMT",
+     "etag": "\"33aaed51a89da2bcfc214bf6331d57ca\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.mofa.go.jp/mofaj/files/100580933.pdf",
+     "attempted_at": "2026-10-11T13:57:40Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.state.gov/political-declaration-on-responsible-military-use-of-artificial-intelligence-and-autonomy",
+     "attempted_at": "2026-10-11T13:57:42Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.mofa.go.jp/mofaj/files/100580933.pdf",
+     "attempted_at": "2026-10-17T15:49:33Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.state.gov/political-declaration-on-responsible-military-use-of-artificial-intelligence-and-autonomy",
+     "attempted_at": "2026-10-17T15:49:36Z",
+     "ok": false,
+     "http_status": 403,
+     "error": "HTTP 403 Forbidden",
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/11/01/fact-sheet-vice-president-harris-announces-new-u-s-initiatives-to-advance-the-safe-and-responsible-use-of-artificial-intelligence/": {
+    "status": "failed",
+    "flag": "The official source could not be downloaded: DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'.",
+    "last_attempt": "2026-10-17T16:18:06Z",
+    "files": [],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/11/01/fact-sheet-vice-president-harris-announces-new-u-s-initiatives-to-advance-the-safe-and-responsible-use-of-artificial-intelligence/",
+      "attempted_at": "2026-10-17T16:18:07Z",
+      "ok": false,
+      "http_status": null,
+      "error": "DNS lookup failed, so the site could not be reached from this machine (try another network, or save the document by hand). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "INT-13"
+ },
+ "INT-14": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-17T15:49:30Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/INT-14/2026-10-11/official.html",
+     "url": "https://www.government.nl/documents/publications/2023/02/16/reaim-2023-call-to-action",
+     "final_url": "https://www.government.nl/documents/2023/02/16/reaim-2023-call-to-action",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 218825,
+     "sha256": "67a6cab829d576aef916f822505b9264557b9c554cbf3f3613d82cff0d155b8b",
+     "retrieved_at": "2026-10-11T13:57:42Z",
+     "last_checked": "2026-10-17T15:49:33Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok",
+     "text_sha256": "75b0c3b8d2ea01d3fdc78f7202ca081cc9b8de9f8d07283055ba075fa3490bf3"
+    },
+    {
+     "role_key": "document-1",
+     "role": "document",
+     "label": "Linked document (PDF)",
+     "path": "archive/INT-14/2026-10-11/document-1.pdf",
+     "url": "https://www.government.nl/site/binaries/site-content/collections/documents/2023/02/16/reaim-2023-call-to-action/REAIM+2023+Call+to+Action.pdf",
+     "final_url": "https://www.government.nl/site/binaries/site-content/collections/documents/2023/02/16/reaim-2023-call-to-action/REAIM+2023+Call+to+Action.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 188246,
+     "sha256": "9bdfacd893b27fe5f97803debdea73f727e341b29c38fa081f9c2db7b4a5d5d3",
+     "retrieved_at": "2026-10-11T13:57:44Z",
+     "last_checked": "2026-10-17T15:49:35Z",
+     "method": "http",
+     "last_modified": "Thu, 16 Feb 2023 15:29:07 GMT",
+     "etag": "\"1662659491180\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/INT-14/2026-10-11/secondary.pdf",
+     "url": "https://www.government.nl/site/binaries/site-content/collections/documents/2023/02/16/reaim-2023-call-to-action/REAIM+2023+Call+to+Action.pdf",
+     "final_url": "https://www.government.nl/site/binaries/site-content/collections/documents/2023/02/16/reaim-2023-call-to-action/REAIM+2023+Call+to+Action.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 188246,
+     "sha256": "9bdfacd893b27fe5f97803debdea73f727e341b29c38fa081f9c2db7b4a5d5d3",
+     "retrieved_at": "2026-10-11T13:57:46Z",
+     "last_checked": "2026-10-17T15:49:37Z",
+     "method": "http",
+     "last_modified": "Thu, 16 Feb 2023 15:29:07 GMT",
+     "etag": "\"1662659491180\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.government.nl/documents/publications/2023/02/16/reaim-2023-call-to-action",
+     "attempted_at": "2026-10-11T13:57:42Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.government.nl/site/binaries/site-content/collections/documents/2023/02/16/reaim-2023-call-to-action/REAIM+2023+Call+to+Action.pdf",
+     "attempted_at": "2026-10-11T13:57:44Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.government.nl/site/binaries/site-content/collections/documents/2023/02/16/reaim-2023-call-to-action/REAIM+2023+Call+to+Action.pdf",
+     "attempted_at": "2026-10-11T13:57:46Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.government.nl/documents/publications/2023/02/16/reaim-2023-call-to-action",
+     "attempted_at": "2026-10-17T15:49:33Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "document",
+     "url": "https://www.government.nl/site/binaries/site-content/collections/documents/2023/02/16/reaim-2023-call-to-action/REAIM+2023+Call+to+Action.pdf",
+     "attempted_at": "2026-10-17T15:49:35Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.government.nl/site/binaries/site-content/collections/documents/2023/02/16/reaim-2023-call-to-action/REAIM+2023+Call+to+Action.pdf",
+     "attempted_at": "2026-10-17T15:49:37Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.government.nl/latest/news/2023/02/16/reaim-2023-call-to-action": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:18:06Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-14/extra-d24343765c/2026-10-17/official.html",
+      "url": "https://www.government.nl/latest/news/2023/02/16/reaim-2023-call-to-action",
+      "final_url": "https://www.government.nl/latest/news/2023/02/16/reaim-2023-call-to-action",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 233120,
+      "sha256": "dd5854ddeaa00cb86907daeb60052628767e5f451bd95ec0c35005f8c3ff8273",
+      "text_sha256": "9618eaa1ce0483c5da0d70eda8530a2a557ca145a295806b95b3fd81a00283aa",
+      "retrieved_at": "2026-10-17T16:18:09Z",
+      "last_checked": "2026-10-17T16:18:09Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.government.nl/latest/news/2023/02/16/reaim-2023-call-to-action",
+      "attempted_at": "2026-10-17T16:18:09Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.government.nl/latest/news/2023/01/19/diverse-programme-international-summit-on-artificial-intelligence": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:18:07Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-14/extra-182e15b00a/2026-10-17/official.html",
+      "url": "https://www.government.nl/latest/news/2023/01/19/diverse-programme-international-summit-on-artificial-intelligence",
+      "final_url": "https://www.government.nl/latest/news/2023/01/19/diverse-programme-international-summit-on-artificial-intelligence",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 228721,
+      "sha256": "b99243ed23f96d02900a50288942a25e06cb9752a35dc545e3bd8ebbe2ca6dd7",
+      "text_sha256": "bdc0d87c60b4558c92a71e07e87c393684d54b98cbcd1132f1b1d34853a4b7d9",
+      "retrieved_at": "2026-10-17T16:18:11Z",
+      "last_checked": "2026-10-17T16:18:11Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.government.nl/latest/news/2023/01/19/diverse-programme-international-summit-on-artificial-intelligence",
+      "attempted_at": "2026-10-17T16:18:11Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.government.nl/site/binaries/site-content/collections/documents/2023/02/16/reaim-2023-endorsing-countries/Endorsing+Countries+and+Territories+REAIM+Call+to+Action.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:18:07Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-14/extra-506b0e3c51/2026-10-17/official.pdf",
+      "url": "https://www.government.nl/site/binaries/site-content/collections/documents/2023/02/16/reaim-2023-endorsing-countries/Endorsing+Countries+and+Territories+REAIM+Call+to+Action.pdf",
+      "final_url": "https://www.government.nl/site/binaries/site-content/collections/documents/2023/02/16/reaim-2023-endorsing-countries/Endorsing+Countries+and+Territories+REAIM+Call+to+Action.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 336436,
+      "sha256": "8a3ecde1daf9c3a6382c1b72f79002a94680bc626d7c7dc438964178d7870e7e",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-17T16:18:13Z",
+      "last_checked": "2026-10-17T16:18:13Z",
+      "method": "http",
+      "last_modified": "Fri, 04 Apr 2025 13:26:47 GMT",
+      "etag": "\"1779565412928\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.government.nl/site/binaries/site-content/collections/documents/2023/02/16/reaim-2023-endorsing-countries/Endorsing+Countries+and+Territories+REAIM+Call+to+Action.pdf",
+      "attempted_at": "2026-10-17T16:18:13Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:18:09Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-14/extra-ede5a0863c/2026-10-17/official.pdf",
+      "url": "https://exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf",
+      "final_url": "https://exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 262210,
+      "sha256": "1c7d431a7e88c234f1a2cfdc0a6bc5682ed29871fcf0043b71de9009b4113dc0",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-17T16:18:13Z",
+      "last_checked": "2026-10-17T16:18:13Z",
+      "method": "http",
+      "last_modified": "Thu, 05 Feb 2026 13:20:43 GMT",
+      "etag": "\"{DF17154E-4822-480A-953C-F6B80673EE13},1\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf",
+      "attempted_at": "2026-10-17T16:18:13Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "INT-14"
+ },
+ "INT-15": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-17T15:49:30Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/INT-15/2026-10-11/official.html",
+     "url": "https://www.mfa.gov.cn/eng/wjbzhd/202607/t20260717_11984747.html",
+     "final_url": "https://www.mfa.gov.cn/eng/wjbzhd/202607/t20260717_11984747.html",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 22734,
+     "sha256": "8d57123e9f85ed2705b364e57aa8d1f3c46c9d851ea5748bf0ef7fb6d68ef78c",
+     "retrieved_at": "2026-10-11T13:58:01Z",
+     "last_checked": "2026-10-17T15:49:35Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/INT-15/2026-10-11/secondary.html",
+     "url": "https://www.mfa.gov.cn/mfa_eng/xw/zyxw/202607/t20260717_11984715.html",
+     "final_url": "https://www.mfa.gov.cn/mfa_eng/xw/zyxw/202607/t20260717_11984715.html",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 29770,
+     "sha256": "c7a9044a12440bf652f44c6136810b51eeb2d018b0e19dca73b50b5ddc8d0c69",
+     "retrieved_at": "2026-10-11T13:58:03Z",
+     "last_checked": "2026-10-17T15:49:38Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.mfa.gov.cn/eng/wjbzhd/202607/t20260717_11984747.html",
+     "attempted_at": "2026-10-11T13:58:01Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.mfa.gov.cn/mfa_eng/xw/zyxw/202607/t20260717_11984715.html",
+     "attempted_at": "2026-10-11T13:58:03Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.mfa.gov.cn/eng/wjbzhd/202607/t20260717_11984747.html",
+     "attempted_at": "2026-10-14T07:25:14Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.mfa.gov.cn/mfa_eng/xw/zyxw/202607/t20260717_11984715.html",
+     "attempted_at": "2026-10-14T07:25:16Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.mfa.gov.cn/eng/wjbzhd/202607/t20260717_11984747.html",
+     "attempted_at": "2026-10-14T07:49:34Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.mfa.gov.cn/mfa_eng/xw/zyxw/202607/t20260717_11984715.html",
+     "attempted_at": "2026-10-14T07:49:37Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.mfa.gov.cn/eng/wjbzhd/202607/t20260717_11984747.html",
+     "attempted_at": "2026-10-17T15:49:35Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.mfa.gov.cn/mfa_eng/xw/zyxw/202607/t20260717_11984715.html",
+     "attempted_at": "2026-10-17T15:49:38Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.mfa.gov.cn/eng/xw/wjbxw/202507/t20250730_11679453.html": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:18:11Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-15/extra-9e4191a14b/2026-10-17/official.html",
+      "url": "https://www.mfa.gov.cn/eng/xw/wjbxw/202507/t20250730_11679453.html",
+      "final_url": "https://www.mfa.gov.cn/eng/xw/wjbxw/202507/t20250730_11679453.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 26030,
+      "sha256": "0a57894cebdca81905eacbfe40927e138a2f8e8e1f2009196c4ec40785b3ee39",
+      "text_sha256": "5991bffdb03f1eb9c2b9349e86b6fae00e0dddd5aeb9048171f497179b5dc2ca",
+      "retrieved_at": "2026-10-17T16:18:15Z",
+      "last_checked": "2026-10-17T16:18:15Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.mfa.gov.cn/eng/xw/wjbxw/202507/t20250730_11679453.html",
+      "attempted_at": "2026-10-17T16:18:15Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://china.mfa.gov.ge/en/news/698378-saqartvelos-elchma-kheli-moatsera-ai-is-tanamshromlobis-msophlio-organizatsiis-shetankhmebas": {
+    "status": "archived",
+    "flag": "Saved with a headless browser because the plain download failed.",
+    "last_attempt": "2026-10-17T16:18:11Z",
+    "files": [
+     {
+      "role_key": "official-rendered",
+      "role": "official-rendered",
+      "label": "Official source, rendered in a browser",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-15/extra-8b0aeeef23/2026-10-17/official-rendered.html",
+      "url": "https://china.mfa.gov.ge/en/news/698378-saqartvelos-elchma-kheli-moatsera-ai-is-tanamshromlobis-msophlio-organizatsiis-shetankhmebas",
+      "final_url": "https://china.mfa.gov.ge/en/news/698378-saqartvelos-elchma-kheli-moatsera-ai-is-tanamshromlobis-msophlio-organizatsiis-shetankhmebas",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 78874,
+      "sha256": "35b9754e2358ec9e010066bc71fd7fb2f92599e2c151ecc466d4a2134fff19e8",
+      "text_sha256": "86c0ec254da99a801dce5b023793f7a6582175b8e660a51710d4196d6aa341e4",
+      "retrieved_at": "2026-10-17T16:19:26Z",
+      "last_checked": "2026-10-17T16:19:26Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "official-print",
+      "role": "official-print",
+      "label": "Official source, printed to PDF by a browser",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-15/extra-8b0aeeef23/2026-10-17/official-print.pdf",
+      "url": "https://china.mfa.gov.ge/en/news/698378-saqartvelos-elchma-kheli-moatsera-ai-is-tanamshromlobis-msophlio-organizatsiis-shetankhmebas",
+      "final_url": "https://china.mfa.gov.ge/en/news/698378-saqartvelos-elchma-kheli-moatsera-ai-is-tanamshromlobis-msophlio-organizatsiis-shetankhmebas",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 1695924,
+      "sha256": "30d51aa7eac2cf9f4329433f214104b26e33906cb1a859aeef59709083da2c2e",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-17T16:19:26Z",
+      "last_checked": "2026-10-17T16:19:26Z",
+      "method": "browser",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://china.mfa.gov.ge/en/news/698378-saqartvelos-elchma-kheli-moatsera-ai-is-tanamshromlobis-msophlio-organizatsiis-shetankhmebas",
+      "attempted_at": "2026-10-17T16:18:34Z",
+      "ok": false,
+      "http_status": 522,
+      "error": "HTTP 522 <none>",
+      "method": "http"
+     },
+     {
+      "role": "official-rendered",
+      "url": "https://china.mfa.gov.ge/en/news/698378-saqartvelos-elchma-kheli-moatsera-ai-is-tanamshromlobis-msophlio-organizatsiis-shetankhmebas",
+      "attempted_at": "2026-10-17T16:19:26Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "browser"
+     }
+    ]
+   }
+  },
+  "record_id": "INT-15"
+ },
+ "INT-16": {
+  "main": {
+   "status": "archived",
+   "flag": "The secondary source could not be downloaded (Connection failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'). A source changed since the previous snapshot; both versions are kept.",
+   "last_attempt": "2026-10-17T15:49:35Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/INT-16/2026-10-17/official.html",
+     "url": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=322676",
+     "final_url": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=322676",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 47823,
+     "sha256": "752942b73958e487cd57c001df04cbbb51f04027c7f08c6c6c80ebb4fbc79356",
+     "text_sha256": "d2a2a79164791a6b36cc08ebc1ceea19e0cb2d1db5b4c8b63ae4184de6efbe83",
+     "retrieved_at": "2026-10-17T15:49:42Z",
+     "last_checked": "2026-10-17T15:49:42Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": true,
+     "previous_sha256": "e2bd703cc22c85f2669e77f2b23a8906b8dc9d75d70fcf9eeb85431afbedbd87",
+     "previous_path": "archive/INT-16/2026-10-11/official.html",
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=322676",
+     "attempted_at": "2026-10-11T15:42:28Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://reaim2024.kr/home/reaimeng/board/bbsDetail.do?encMenuId=4e57325766362f626e5179454e6d6e4d4a4d33507a773d3d&encBbsMngNo=366e794c7a644d756342425668444f393053755142673d3d&encBbsNo=6f784e4542386f7735767465766a6531556f4b6149413d3d&ctlPageNow=1&schKind=bbsTtlCn&schWord=",
+     "attempted_at": "2026-10-11T15:42:28Z",
+     "ok": false,
+     "http_status": null,
+     "error": "Connection failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=322676",
+     "attempted_at": "2026-10-17T15:49:42Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://reaim2024.kr/home/reaimeng/board/bbsDetail.do?encMenuId=4e57325766362f626e5179454e6d6e4d4a4d33507a773d3d&encBbsMngNo=366e794c7a644d756342425668444f393053755142673d3d&encBbsNo=6f784e4542386f7735767465766a6531556f4b6149413d3d&ctlPageNow=1&schKind=bbsTtlCn&schWord=",
+     "attempted_at": "2026-10-17T15:49:42Z",
+     "ok": false,
+     "http_status": null,
+     "error": "Connection failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028). robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'",
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:18:13Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-16/extra-ede5a0863c/2026-10-17/official.pdf",
+      "url": "https://exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf",
+      "final_url": "https://exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 262210,
+      "sha256": "1c7d431a7e88c234f1a2cfdc0a6bc5682ed29871fcf0043b71de9009b4113dc0",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-17T16:18:15Z",
+      "last_checked": "2026-10-17T16:18:15Z",
+      "method": "http",
+      "last_modified": "Thu, 05 Feb 2026 13:20:43 GMT",
+      "etag": "\"{DF17154E-4822-480A-953C-F6B80673EE13},1\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf",
+      "attempted_at": "2026-10-17T16:18:15Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "INT-16"
+ },
+ "INT-18": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-17T15:49:36Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/INT-18/2026-10-11/official.pdf",
+     "url": "https://exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf",
+     "final_url": "https://exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 262210,
+     "sha256": "1c7d431a7e88c234f1a2cfdc0a6bc5682ed29871fcf0043b71de9009b4113dc0",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-11T19:18:36Z",
+     "last_checked": "2026-10-17T15:49:40Z",
+     "method": "http",
+     "last_modified": "Thu, 05 Feb 2026 13:20:43 GMT",
+     "etag": "\"{DF17154E-4822-480A-953C-F6B80673EE13},1\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/INT-18/2026-10-11/secondary.html",
+     "url": "https://exteriores.gob.es/en/REAIM2026/Paginas/default.aspx",
+     "final_url": "https://exteriores.gob.es/en/REAIM2026/Paginas/default.aspx",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 36974,
+     "sha256": "277a37fd3f1287f6283b1fc85463e84adccd69464b766083e3b5025aa1a00a2b",
+     "text_sha256": "65cc40ac34f58ffafd54d157af3652bc691f2ab0dabeba61e1f3a37c6f773cc0",
+     "retrieved_at": "2026-10-11T19:18:39Z",
+     "last_checked": "2026-10-17T15:49:43Z",
+     "method": "http",
+     "last_modified": "Sun, 11 Oct 2026 19:18:38 GMT",
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf",
+     "attempted_at": "2026-10-11T19:18:36Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://exteriores.gob.es/en/REAIM2026/Paginas/default.aspx",
+     "attempted_at": "2026-10-11T19:18:39Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf",
+     "attempted_at": "2026-10-17T15:49:40Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://exteriores.gob.es/en/REAIM2026/Paginas/default.aspx",
+     "attempted_at": "2026-10-17T15:49:43Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.exteriores.gob.es/en/REAIM2026/Paginas/Cumbre26.aspx": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:18:13Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-18/extra-8689723149/2026-10-17/official.html",
+      "url": "https://www.exteriores.gob.es/en/REAIM2026/Paginas/Cumbre26.aspx",
+      "final_url": "https://www.exteriores.gob.es/en/REAIM2026/Paginas/Cumbre26.aspx",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 28439,
+      "sha256": "f0c319869855f7982d65458743bfcd0e5e40ff3827850335080bb696e30f0c6f",
+      "text_sha256": "2ba9822ed9d0f6fc0d08f4da88a7c288e56c22e43d2f165615c4908136a11e70",
+      "retrieved_at": "2026-10-17T16:18:17Z",
+      "last_checked": "2026-10-17T16:18:17Z",
+      "method": "http",
+      "last_modified": "Sat, 17 Oct 2026 16:18:16 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.exteriores.gob.es/en/REAIM2026/Paginas/Cumbre26.aspx",
+      "attempted_at": "2026-10-17T16:18:17Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.exteriores.gob.es/es/Comunicacion/NotasPrensa/Paginas/2026_NOTAS_P/Exteriores-clausura-en-A-Coruna-el-mayor-debate-mundial-sobre-el-uso-responsable-de-la-IA-militar.aspx": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:18:15Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-18/extra-180d530580/2026-10-17/official.html",
+      "url": "https://www.exteriores.gob.es/es/Comunicacion/NotasPrensa/Paginas/2026_NOTAS_P/Exteriores-clausura-en-A-Coruna-el-mayor-debate-mundial-sobre-el-uso-responsable-de-la-IA-militar.aspx",
+      "final_url": "https://www.exteriores.gob.es/es/Comunicacion/NotasPrensa/Paginas/2026_NOTAS_P/Exteriores-clausura-en-A-Coruna-el-mayor-debate-mundial-sobre-el-uso-responsable-de-la-IA-militar.aspx",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 48112,
+      "sha256": "7f7a0aabf13ca2a8b9f40ed54005e7f332e83ffb44f6feb5e2a4b52d44b89a38",
+      "text_sha256": "cb7cc44e81638753c81456044625dacd8ba5918abc76db9e2598a08faa45d694",
+      "retrieved_at": "2026-10-17T16:18:20Z",
+      "last_checked": "2026-10-17T16:18:20Z",
+      "method": "http",
+      "last_modified": "Sat, 17 Oct 2026 16:18:19 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-18/extra-180d530580/2026-10-17/document-1.pdf",
+      "url": "https://www.exteriores.gob.es/es/Documents/Resoluci%C3%B3n%20protocolo%20actuaci%C3%B3n%20acoso%20sexual%20y%20raz%C3%B3n%20de%20sexo.pdf",
+      "final_url": "https://www.exteriores.gob.es/es/Documents/Resoluci%C3%B3n%20protocolo%20actuaci%C3%B3n%20acoso%20sexual%20y%20raz%C3%B3n%20de%20sexo.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 529776,
+      "sha256": "6c6a66326d05c35b7f4c796a4546b1a0972aaa61d29db041132642bde69ddc5e",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-17T16:18:25Z",
+      "last_checked": "2026-10-17T16:18:25Z",
+      "method": "http",
+      "last_modified": "Mon, 13 Jan 2025 16:24:34 GMT",
+      "etag": "\"{E448B0C1-B121-43D8-9B6B-AA5FC2C2F6C0},3\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.exteriores.gob.es/es/Comunicacion/NotasPrensa/Paginas/2026_NOTAS_P/Exteriores-clausura-en-A-Coruna-el-mayor-debate-mundial-sobre-el-uso-responsable-de-la-IA-militar.aspx",
+      "attempted_at": "2026-10-17T16:18:20Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.exteriores.gob.es/es/Documents/Resoluci%C3%B3n%20protocolo%20actuaci%C3%B3n%20acoso%20sexual%20y%20raz%C3%B3n%20de%20sexo.pdf",
+      "attempted_at": "2026-10-17T16:18:25Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.exteriores.gob.es/es/REAIM2026/Paginas/default.aspx": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:18:15Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-18/extra-ecdd0af024/2026-10-17/official.html",
+      "url": "https://www.exteriores.gob.es/es/REAIM2026/Paginas/default.aspx",
+      "final_url": "https://www.exteriores.gob.es/es/REAIM2026/Paginas/default.aspx",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 37145,
+      "sha256": "d4c4a28a2f64879055af758123b608571b375dd9b2cc34d42b9e8e081c4d932e",
+      "text_sha256": "090e9088c6e96cfa234324744b5037789639a02b7095dd3ee34b4de17c27c28a",
+      "retrieved_at": "2026-10-17T16:18:22Z",
+      "last_checked": "2026-10-17T16:18:22Z",
+      "method": "http",
+      "last_modified": "Sat, 17 Oct 2026 16:18:22 GMT",
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-1",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-18/extra-ecdd0af024/2026-10-17/document-1.pdf",
+      "url": "https://www.exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf",
+      "final_url": "https://www.exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 262210,
+      "sha256": "1c7d431a7e88c234f1a2cfdc0a6bc5682ed29871fcf0043b71de9009b4113dc0",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-17T16:18:27Z",
+      "last_checked": "2026-10-17T16:18:27Z",
+      "method": "http",
+      "last_modified": "Thu, 05 Feb 2026 13:20:43 GMT",
+      "etag": "\"{DF17154E-4822-480A-953C-F6B80673EE13},1\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     },
+     {
+      "role_key": "document-2",
+      "role": "document",
+      "label": "Linked document (PDF)",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-18/extra-ecdd0af024/2026-10-17/document-2.pdf",
+      "url": "https://www.exteriores.gob.es/es/REAIM2026/Documents/Program%20REAIM%202026_03022026.v2.pdf",
+      "final_url": "https://www.exteriores.gob.es/es/REAIM2026/Documents/Program%20REAIM%202026_03022026.v2.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 396674,
+      "sha256": "2decf80a48f8f01e340e39c4be7bb899b795d5a418a421367cd884460d46111e",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-17T16:18:30Z",
+      "last_checked": "2026-10-17T16:18:30Z",
+      "method": "http",
+      "last_modified": "Wed, 04 Feb 2026 10:49:42 GMT",
+      "etag": "\"{414858DE-A1F5-47CE-A326-D5DE785CE093},1\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.exteriores.gob.es/es/REAIM2026/Paginas/default.aspx",
+      "attempted_at": "2026-10-17T16:18:22Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.exteriores.gob.es/en/REAIM2026/Documents/REAIM%202026%20Pathways%20to%20Action.pdf",
+      "attempted_at": "2026-10-17T16:18:27Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     },
+     {
+      "role": "document",
+      "url": "https://www.exteriores.gob.es/es/REAIM2026/Documents/Program%20REAIM%202026_03022026.v2.pdf",
+      "attempted_at": "2026-10-17T16:18:30Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "INT-18"
+ },
+ "INT-19": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-17T15:49:37Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/INT-19/2026-10-11/official.html",
+     "url": "https://www.gov.uk/government/publications/five-country-ministerial-communique-2026/five-country-ministerial-communique-2026",
+     "final_url": "https://www.gov.uk/government/publications/five-country-ministerial-communique-2026/five-country-ministerial-communique-2026",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 88051,
+     "sha256": "b10ea8fb838845b3e30ad195982fa92119a582417c02e89fb9b084c576037a92",
+     "text_sha256": "25f11e1250d759b209b6c413aebb0e5be959f406a2658087478abeafd8eee7fe",
+     "retrieved_at": "2026-10-11T19:18:46Z",
+     "last_checked": "2026-10-17T15:49:37Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": "W/\"b10ea8fb838845b3e30ad195982fa921\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/INT-19/2026-10-11/secondary.html",
+     "url": "https://www.gov.uk/government/publications/five-country-ministerial-communique-2026",
+     "final_url": "https://www.gov.uk/government/publications/five-country-ministerial-communique-2026",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 65684,
+     "sha256": "fc4978892ab84b5a8ee30cd7e3a209138ec2772599e18ef6c9241469032d9a42",
+     "text_sha256": "2b09a9568fb30cccd664c8ff0537ba16ccf2dc83a6f9e0069d867a36466e2f04",
+     "retrieved_at": "2026-10-11T19:18:48Z",
+     "last_checked": "2026-10-17T15:49:39Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": "W/\"fc4978892ab84b5a8ee30cd7e3a20913\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.gov.uk/government/publications/five-country-ministerial-communique-2026/five-country-ministerial-communique-2026",
+     "attempted_at": "2026-10-11T19:18:46Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gov.uk/government/publications/five-country-ministerial-communique-2026",
+     "attempted_at": "2026-10-11T19:18:48Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.gov.uk/government/publications/five-country-ministerial-communique-2026/five-country-ministerial-communique-2026",
+     "attempted_at": "2026-10-17T15:49:37Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gov.uk/government/publications/five-country-ministerial-communique-2026",
+     "attempted_at": "2026-10-17T15:49:39Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {},
+  "record_id": "INT-19"
+ },
+ "INT-20": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-17T15:49:38Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/INT-20/2026-10-11/official.pdf",
+     "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/pdf/image_20260316_2_2.pdf",
+     "final_url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/pdf/image_20260316_2_2.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 290945,
+     "sha256": "4c324616e053f45786b3de1dd70976380d7df8667034b9445cc2f9d046cf75ac",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-11T19:18:53Z",
+     "last_checked": "2026-10-17T15:49:42Z",
+     "method": "http",
+     "last_modified": "Fri, 03 Apr 2026 06:00:02 GMT",
+     "etag": "\"47081-64e880724525f\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/INT-20/2026-10-11/secondary.html",
+     "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/3/16_2.html",
+     "final_url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/3/16_2.html",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 21307,
+     "sha256": "ac425431222f93436842005729989361d242d282a3a9dd2d838aae20b0b5321f",
+     "text_sha256": "3595671cc3823c3e70ad9d34d5e1559ed495c64520d85ef60a6090e2f11e0c54",
+     "retrieved_at": "2026-10-11T19:18:56Z",
+     "last_checked": "2026-10-17T15:49:45Z",
+     "method": "http",
+     "last_modified": "Fri, 03 Apr 2026 06:00:03 GMT",
+     "etag": "W/\"533b-64e880732cd69\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/pdf/image_20260316_2_2.pdf",
+     "attempted_at": "2026-10-11T19:18:53Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/3/16_2.html",
+     "attempted_at": "2026-10-11T19:18:56Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/pdf/image_20260316_2_2.pdf",
+     "attempted_at": "2026-10-17T15:49:42Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/3/16_2.html",
+     "attempted_at": "2026-10-17T15:49:45Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document12_en.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:18:17Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-20/extra-63bd12e21b/2026-10-17/official.pdf",
+      "url": "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document12_en.pdf",
+      "final_url": "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document12_en.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 157236,
+      "sha256": "101316653594a6c0711dca2672308f63f808b6699f9a2c0b67f9441f831488b3",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-17T16:18:18Z",
+      "last_checked": "2026-10-17T16:18:18Z",
+      "method": "http",
+      "last_modified": "Thu, 25 Jun 2026 02:23:03 GMT",
+      "etag": "\"26634-6550aabf7b840\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document12_en.pdf",
+      "attempted_at": "2026-10-17T16:18:18Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "INT-20"
+ },
+ "INT-17": {
+  "main": {
+   "status": "archived",
+   "flag": null,
+   "last_attempt": "2026-10-17T15:49:39Z",
+   "files": [
+    {
+     "role_key": "official",
+     "role": "official",
+     "label": "Official source",
+     "path": "archive/INT-17/2026-10-11/official.pdf",
+     "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/ENG_Montevideo%20Declaration%20approved_version%204.0.pdf",
+     "final_url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/ENG_Montevideo%20Declaration%20approved_version%204.0.pdf",
+     "http_status": 200,
+     "content_type": "application/pdf",
+     "bytes": 226191,
+     "sha256": "d7a6d38f6aed11aa91575132496f9f00ab836ac3ea29e6c6f762833ef0b30987",
+     "text_sha256": null,
+     "retrieved_at": "2026-10-11T19:38:34Z",
+     "last_checked": "2026-10-17T15:49:45Z",
+     "method": "http",
+     "last_modified": "Mon, 01 Sep 2025 20:12:13 GMT",
+     "etag": "\"3738f-63dc2fcb70ae7\"",
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    },
+    {
+     "role_key": "secondary",
+     "role": "secondary",
+     "label": "Secondary source",
+     "path": "archive/INT-17/2026-10-11/secondary.html",
+     "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/noticias/aprobacion-declaracion-montevideo",
+     "final_url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/noticias/aprobacion-declaracion-montevideo",
+     "http_status": 200,
+     "content_type": "text/html",
+     "bytes": 64952,
+     "sha256": "91c7e85b3f7cd0d23091ed23634f5b943dc6d45ab08b9d1ed1d40765a2ecdf60",
+     "text_sha256": "7e942ee5730848ba8ff9bdd78a89da1162265663a4ac02ed3ce99c6e47bc9441",
+     "retrieved_at": "2026-10-11T19:38:38Z",
+     "last_checked": "2026-10-17T15:49:51Z",
+     "method": "http",
+     "last_modified": null,
+     "etag": null,
+     "changed": false,
+     "previous_sha256": null,
+     "previous_path": null,
+     "stale": false,
+     "warning": null,
+     "integrity": "ok"
+    }
+   ],
+   "attempts": [
+    {
+     "role": "official",
+     "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/ENG_Montevideo%20Declaration%20approved_version%204.0.pdf",
+     "attempted_at": "2026-10-11T19:38:34Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/noticias/aprobacion-declaracion-montevideo",
+     "attempted_at": "2026-10-11T19:38:38Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "official",
+     "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/ENG_Montevideo%20Declaration%20approved_version%204.0.pdf",
+     "attempted_at": "2026-10-17T15:49:45Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    },
+    {
+     "role": "secondary",
+     "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/noticias/aprobacion-declaracion-montevideo",
+     "attempted_at": "2026-10-17T15:49:51Z",
+     "ok": true,
+     "http_status": 200,
+     "error": null,
+     "method": "http"
+    }
+   ]
+  },
+  "extras": {
+   "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/ESP_Declaraci%C3%B3n%20de%20Montevideo%20aprobada_versi%C3%B3n%204.0.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:18:18Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-17/extra-89268a0a8d/2026-10-17/official.pdf",
+      "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/ESP_Declaraci%C3%B3n%20de%20Montevideo%20aprobada_versi%C3%B3n%204.0.pdf",
+      "final_url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/ESP_Declaraci%C3%B3n%20de%20Montevideo%20aprobada_versi%C3%B3n%204.0.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 78085,
+      "sha256": "755e6083114485cfe31984b8871abe9582e233ce60c3c5e58f76d06910831c49",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-17T16:18:20Z",
+      "last_checked": "2026-10-17T16:18:20Z",
+      "method": "http",
+      "last_modified": "Mon, 01 Sep 2025 20:11:43 GMT",
+      "etag": "\"13105-63dc2faec3dc0\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/ESP_Declaraci%C3%B3n%20de%20Montevideo%20aprobada_versi%C3%B3n%204.0.pdf",
+      "attempted_at": "2026-10-17T16:18:20Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/ENG_IA%20Roadmap%20approved_version%204.0.pdf": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:18:20Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-17/extra-b3bc1296ec/2026-10-17/official.pdf",
+      "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/ENG_IA%20Roadmap%20approved_version%204.0.pdf",
+      "final_url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/ENG_IA%20Roadmap%20approved_version%204.0.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 419333,
+      "sha256": "99cc47bc9708b04c96eeb9067030b84182f967991887489f71316d6a92f0d37c",
+      "text_sha256": null,
+      "retrieved_at": "2026-10-17T16:18:24Z",
+      "last_checked": "2026-10-17T16:18:24Z",
+      "method": "http",
+      "last_modified": "Mon, 01 Sep 2025 20:12:50 GMT",
+      "etag": "\"66605-63dc2feea9480\"",
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/ENG_IA%20Roadmap%20approved_version%204.0.pdf",
+      "attempted_at": "2026-10-17T16:18:24Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   },
+   "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/noticias/america-latina-caribe-aprueban-hoja-ruta-para-ia-etica-region": {
+    "status": "archived",
+    "flag": null,
+    "last_attempt": "2026-10-17T16:18:24Z",
+    "files": [
+     {
+      "role_key": "official",
+      "role": "official",
+      "label": "Official source",
+      "path": "archive/_runs/2026-10-17-recheck-international-2/INT-17/extra-deec9800ba/2026-10-17/official.html",
+      "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/noticias/america-latina-caribe-aprueban-hoja-ruta-para-ia-etica-region",
+      "final_url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/noticias/america-latina-caribe-aprueban-hoja-ruta-para-ia-etica-region",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 59892,
+      "sha256": "78573e992a843734cc100c41a7583aab5512a19bae2343080b2f45bdac092472",
+      "text_sha256": "bbc2f7b458e786993610e54ca7cda7ce2922d46a6229a678ad748d7aabc202e7",
+      "retrieved_at": "2026-10-17T16:18:29Z",
+      "last_checked": "2026-10-17T16:18:29Z",
+      "method": "http",
+      "last_modified": null,
+      "etag": null,
+      "changed": false,
+      "previous_sha256": null,
+      "previous_path": null,
+      "stale": false,
+      "warning": null,
+      "integrity": "ok"
+     }
+    ],
+    "attempts": [
+     {
+      "role": "official",
+      "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/noticias/america-latina-caribe-aprueban-hoja-ruta-para-ia-etica-region",
+      "attempted_at": "2026-10-17T16:18:29Z",
+      "ok": true,
+      "http_status": 200,
+      "error": null,
+      "method": "http"
+     }
+    ]
+   }
+  },
+  "record_id": "INT-17"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "cand_id": "INT-18",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Month only; no stored source gives the adoption day, so 2026-02 is right."
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "anticipating AGI or ASI in AI assurance; decision support that supports, not replaces, human judgement",
+   "verdict": "supported",
+   "locator": "PDF page 3-4, paragraphs 11-12"
+  },
+  {
+   "claim": "notes UNGA resolutions 79/239 and 80/58, report A/80/78, Global Commission 'Responsible by Design' report",
+   "verdict": "supported",
+   "locator": "PDF page 1-2, paragraphs 3-4"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Intergovernmental outcome document on military AI."
+ },
+ "overall": "accept",
+ "note": "The PDF and Spanish ministry pages confirm title, the 45-state list and open status. The statement that the PDF file was created on 28 January 2026 was dropped from the notes; fine. The 28-paragraph count was not independently recounted."
+}

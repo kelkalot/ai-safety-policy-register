@@ -1,0 +1,76 @@
+{
+ "cand_id": "INT-04",
+ "decision": "update",
+ "target_id": "INT-04",
+ "record": {},
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/INT-04/2026-10-11/secondary.html",
+    "sha256": "294434498d8216e502915e2a518a6f5d6965258ffedb0bdc83f4b5c68bcb9d23",
+    "locator": "heading",
+    "quote": "Seoul Declaration for safe, innovative and inclusive AI by participants attending the Leaders' Session: AI Seoul Summit, 21 May 2024",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/INT-04/2026-10-11/secondary.html",
+    "sha256": "294434498d8216e502915e2a518a6f5d6965258ffedb0bdc83f4b5c68bcb9d23",
+    "locator": "heading",
+    "quote": "Published 21 May 2024",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-04/2026-10-11/secondary.html",
+    "sha256": "294434498d8216e502915e2a518a6f5d6965258ffedb0bdc83f4b5c68bcb9d23",
+    "locator": "para 1",
+    "quote": "gathered at the AI Seoul Summit on 21st May 2024",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-04/2026-10-11/official.html",
+    "sha256": "070aa3dfbe56595765a7ca9f282e504f8007aea0df4fb550884a77b2cc65274f",
+    "locator": "Details",
+    "quote": "Agreed at the AI Seoul Summit 2024 in Seoul:",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-04/2026-10-11/secondary.html",
+    "sha256": "294434498d8216e502915e2a518a6f5d6965258ffedb0bdc83f4b5c68bcb9d23",
+    "locator": "para 1",
+    "quote": "affirm our common dedication to fostering international cooperation and dialogue on artificial intelligence",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/INT-04/2026-10-11/secondary.html",
+    "sha256": "294434498d8216e502915e2a518a6f5d6965258ffedb0bdc83f4b5c68bcb9d23",
+    "locator": "para 1",
+    "quote": "world leaders representing Australia, Canada, the European Union, France, Germany, Italy, Japan, the Republic of Korea, the Republic of Singapore, the United Kingdom, and the United States of America",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "legal_force",
+   "issuing_body"
+  ],
+  "changes": {},
+  "status_reasoning": "Agreed 21 May 2024; no amendment seen. official_url is the publication page; secondary_url is the declaration text itself, so no URL change needed."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}

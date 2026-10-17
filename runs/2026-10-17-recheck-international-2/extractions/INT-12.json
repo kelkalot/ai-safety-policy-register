@@ -1,0 +1,168 @@
+{
+ "cand_id": "INT-12",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "INT-12",
+ "record": {
+  "english_version": {
+   "kind": "none found"
+  },
+  "summary": "Declaration of ministers and high authorities of Latin America and the Caribbean that takes the UNESCO Recommendation on the Ethics of AI as its reference. It calls for policies, strategies and institutional frameworks for the safe, ethical and responsible design, development and use of AI with a human-rights approach, and the signatories agree to analyse whether new legal frameworks are needed, balancing ex ante regulation of AI risks with innovation. It cites due diligence and impact assessment, human oversight and determination, transparency, monitoring of effects on workers and data governance, and sets up a Chile-led working group towards a regional intergovernmental AI council.",
+  "safety_topics": [
+   "international cooperation",
+   "accountability & liability",
+   "human oversight",
+   "transparency & labelling"
+  ],
+  "notes": "Adopted by the ministers and high authorities meeting in Santiago on 23 and 24 October 2023, at the Forum on the Ethics of AI in Latin America and the Caribbean and the ministerial summit held with it; Chile's Ministry of Science and Ministry of Foreign Affairs prepared the meeting, with technical and financial support from UNESCO and CAF. The text does not list its signatories; InvestChile, Chile's public investment promotion agency, says 20 countries signed it at La Moneda Palace, naming Argentina, Brazil, Chile, Colombia, Costa Rica, Cuba, the Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Jamaica, Mexico, Peru, Paraguay, St. Lucia, St. Vincent and the Grenadines, Suriname, Uruguay and Venezuela. Chile was asked to convene the working group in the first half of 2024. The second summit, in Montevideo on 3 and 4 October 2024, adopted the Declaration of Montevideo (INT-17), which thanks Chile for leading the working group and entrusts Uruguay with continuing its work.",
+  "verification": {
+   "note": "Stored: the declaration's Spanish text (4 pages) on the Chilean Ministry of Science's site, headed with the summit, Santiago and 23–24 October 2023; in this run also InvestChile's post of 25 October 2023 and the English text of the Declaration of Montevideo on gub.uy (the source of INT-17). The text confirms the original title, the summit, the date range, the proclamations and the decisions, but names no signatories and no adoption day; date_published is the closing day of the two-day summit. The 20 signatory countries rest on InvestChile's post, and the follow-up at Montevideo on the Declaration of Montevideo. No English text of the declaration by the issuers or a government was found; the English title is a rendering, the same one InvestChile uses."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/INT-12/2026-10-11/official.pdf",
+    "sha256": "b589e5c97527b23919b51c58dcb37bea3d3c7dcdcbe5f58bb43c7f2623f44a68",
+    "locator": "page 1, title",
+    "quote": "DECLARACIÓN DE SANTIAGO “Para promover una inteligencia artificial ética en América Latina y el Caribe”",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-12/extra-6d3af4075e/2026-10-17/official.html",
+    "sha256": "dd913a8113aa893b9a15323bf9861406ce8fc507da4d7cf273e4017dc475ee2c",
+    "locator": "InvestChile post, lead",
+    "quote": "The South American country is leading the Santiago Declaration to Promote Ethical Artificial Intelligence in Latin America and the Caribbean",
+    "source_kind": "alt-official"
+   }
+  ],
+  "original_title": [
+   {
+    "file": "archive/INT-12/2026-10-11/official.pdf",
+    "sha256": "b589e5c97527b23919b51c58dcb37bea3d3c7dcdcbe5f58bb43c7f2623f44a68",
+    "locator": "page 1, title",
+    "quote": "DECLARACIÓN DE SANTIAGO “Para promover una inteligencia artificial ética en América Latina y el Caribe”",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/INT-12/2026-10-11/official.pdf",
+    "sha256": "b589e5c97527b23919b51c58dcb37bea3d3c7dcdcbe5f58bb43c7f2623f44a68",
+    "locator": "page 1, heading",
+    "quote": "Cumbre Ministerial y de Altas Autoridades de América Latina y el Caribe Santiago de Chile, 23-24 de octubre de 2023",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-12/2026-10-11/official.pdf",
+    "sha256": "b589e5c97527b23919b51c58dcb37bea3d3c7dcdcbe5f58bb43c7f2623f44a68",
+    "locator": "page 1, preamble",
+    "quote": "reunidos y reunidas en Santiago de Chile los días 23 y 24 de octubre d e 2023, con ocasión del Foro sobre la Ética de la Inteligencia Artificial en América Latina y el Caribe",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-12/extra-64803d61fe/2026-10-17/official.pdf",
+    "sha256": "d7a6d38f6aed11aa91575132496f9f00ab836ac3ea29e6c6f762833ef0b30987",
+    "locator": "Declaration of Montevideo, page 1",
+    "quote": "RECOGNIZING the milestone constituted by the first Ministerial and High -Level Authorities Summit on the Ethics of Artificial Intelligence in Latin America and the Caribbean in Santiago, Chile, on October 23rd and 24th, 2023",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-12/2026-10-11/official.pdf",
+    "sha256": "b589e5c97527b23919b51c58dcb37bea3d3c7dcdcbe5f58bb43c7f2623f44a68",
+    "locator": "page 4, decisions",
+    "quote": "Aprobar el establecimiento de un Grupo de Trabajo con miras a la constitución de un Consejo intergubernamental de Inteligencia Artificial para América Latina y el Caribe",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-12/2026-10-11/official.pdf",
+    "sha256": "b589e5c97527b23919b51c58dcb37bea3d3c7dcdcbe5f58bb43c7f2623f44a68",
+    "locator": "page 4, decisions",
+    "quote": "Por lo anterior, HEMOS DECIDIDO:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-12/extra-6d3af4075e/2026-10-17/official.html",
+    "sha256": "dd913a8113aa893b9a15323bf9861406ce8fc507da4d7cf273e4017dc475ee2c",
+    "locator": "InvestChile post",
+    "quote": "In a historic meeting at La Moneda Palace, 20 Latin American and Caribbean nations came together to sign the Santiago Declaration to Promote Ethical Artificial Intelligence.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/INT-12/2026-10-11/official.pdf",
+    "sha256": "b589e5c97527b23919b51c58dcb37bea3d3c7dcdcbe5f58bb43c7f2623f44a68",
+    "locator": "page 1, heading",
+    "quote": "Cumbre Ministerial y de Altas Autoridades de América Latina y el Caribe Santiago de Chile, 23-24 de octubre de 2023",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-12/2026-10-11/official.pdf",
+    "sha256": "b589e5c97527b23919b51c58dcb37bea3d3c7dcdcbe5f58bb43c7f2623f44a68",
+    "locator": "page 4, decisions",
+    "quote": "Agradecer al Gobierno de Chile, en especial al Ministerio de Ciencia, Tecnología, Conocimiento e Innovación y al Ministerio de Relaciones Exteriores",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-12/2026-10-11/official.pdf",
+    "sha256": "b589e5c97527b23919b51c58dcb37bea3d3c7dcdcbe5f58bb43c7f2623f44a68",
+    "locator": "page 4, decisions",
+    "quote": "Reconocer a la UNESCO y a CAF -banco de desarrollo de América Latina y el Caribe- por el apoyo técnico y financiero para la realización de esta reunión",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-12/extra-64803d61fe/2026-10-17/official.pdf",
+    "sha256": "d7a6d38f6aed11aa91575132496f9f00ab836ac3ea29e6c6f762833ef0b30987",
+    "locator": "Declaration of Montevideo, page 1",
+    "quote": "RECOGNIZING the milestone constituted by the first Ministerial and High -Level Authorities Summit on the Ethics of Artificial Intelligence in Latin America and the Caribbean in Santiago, Chile, on October 23rd and 24th, 2023",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-12/2026-10-11/official.pdf",
+    "sha256": "b589e5c97527b23919b51c58dcb37bea3d3c7dcdcbe5f58bb43c7f2623f44a68",
+    "locator": "page 3, Proclamamos, point 2",
+    "quote": "Que los países aquí firmantes acuerdan iniciar un análisis frente a la necesidad de elaborar y adoptar nuevos marcos jurídicos y agendas regulatorias para el diseño, desarrollo y uso responsable de la IA.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "english_version": "the official text is Spanish and the record had no english_version; no English text of the declaration by the issuers or a government was found (InvestChile's post gives only an English title), so 'none found'",
+   "summary": "rewritten from the Spanish text: Proclamamos 1 (policies, strategies and institutional frameworks with a human-rights approach), 2 (analysis of new legal frameworks, principles including 'la supervisión y decisión humana' and 'la transparencia y la explicabilidad', and the balance between ex ante regulatory intervention on AI risks and innovation), 5 (monitoring the impact on workers), 7 (transparency in AI operations), 10 (data governance), preamble point 11 (due diligence and assessment) and the decisions (working group led by Chile)",
+   "safety_topics": "'human oversight' added for 'la supervisión y decisión humana' (Proclamamos 2 and preamble 9) and 'transparency & labelling' for 'la transparencia y la explicabilidad' and 'promover la transparencia en las operaciones de IA' (Proclamamos 2 and 7)",
+   "notes": "rewritten: the forum, the preparing ministries and the UNESCO and CAF support from the text; the 20 signatory countries from InvestChile and the Montevideo follow-up from the Declaration of Montevideo (both stored in this run); the hedged sentence 'reportedly adopted a Montevideo Declaration' replaced, now that INT-17 holds that declaration",
+   "verification.note": "rewritten for the files stored and requested in this run"
+  },
+  "confirmed": [
+   "title",
+   "original_title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "The declaration was adopted at the Santiago summit of 23 and 24 October 2023 ('HEMOS DECIDIDO', with a working group approved). It is a non-binding ministerial declaration; the Declaration of Montevideo of October 2024 (INT-17) builds on it and continues its working group rather than replacing it. 'Published (non-binding, current)' stands.",
+  "date_reasoning": "The text is headed 'Santiago de Chile, 23-24 de octubre de 2023' and says the ministers met 'los días 23 y 24 de octubre'; it gives no adoption day. The record keeps 24 October 2023, the closing day of the summit at which it was adopted, as in v1; the Declaration of Montevideo dates the Santiago summit to 'October 23rd and 24th, 2023'.",
+  "scope_reasoning": "An AI-specific intergovernmental declaration on the ethics and governance of AI, in scope with no note (AGENTS.md section 10).",
+  "translation_check": "Terms rendered as UNESCO's Recommendation renders them in English: 'supervisión y decisión humana' as 'human oversight and determination', 'debida diligencia y evaluación' as 'due diligence and impact assessment' (the text asks for due diligence and assessment aimed at identifying adverse effects of AI)."
+ },
+ "extra_urls": [
+  {
+   "url": "https://blog.investchile.gob.cl/chile-ethical-artificial-intelligence",
+   "reason": "InvestChile (Chile's government investment promotion agency) post of 25 October 2023 on the signing at La Moneda Palace: lists the 20 signatory countries and uses the English title 'Santiago Declaration to Promote Ethical Artificial Intelligence in Latin America and the Caribbean'; for the notes (signatories) and the English title"
+  },
+  {
+   "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/ENG_Montevideo%20Declaration%20approved_version%204.0.pdf",
+   "reason": "the English text of the Declaration of Montevideo (official_url of INT-17, AGESIC Uruguay): names the Santiago meeting the 'first Ministerial and High-Level Authorities Summit on the Ethics of Artificial Intelligence in Latin America and the Caribbean' of 23 and 24 October 2023, thanks Chile for leading the working group and entrusts Uruguay with continuing it; for the notes and the issuing body"
+  }
+ ],
+ "leads": [],
+ "open_questions": []
+}

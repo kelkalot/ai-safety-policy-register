@@ -1,0 +1,86 @@
+{
+ "cand_id": "INT-06",
+ "decision": "update",
+ "target_id": "INT-06",
+ "record": {},
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/INT-06/2026-10-11/official.html",
+    "sha256": "b1f8a2846196606a728e5e831a74ed36e275460a4bbcb68e43ca64f3e663d236",
+    "locator": "heading",
+    "quote": "Frontier AI Safety Commitments, AI Seoul Summit 2024",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/INT-06/2026-10-11/official.html",
+    "sha256": "b1f8a2846196606a728e5e831a74ed36e275460a4bbcb68e43ca64f3e663d236",
+    "locator": "page header",
+    "quote": "21 May 2024",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/INT-06/2026-10-11/official.html",
+    "sha256": "b1f8a2846196606a728e5e831a74ed36e275460a4bbcb68e43ca64f3e663d236",
+    "locator": "Updates to this page",
+    "quote": "7 February 2025",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-06/2026-10-11/official.html",
+    "sha256": "b1f8a2846196606a728e5e831a74ed36e275460a4bbcb68e43ca64f3e663d236",
+    "locator": "Details",
+    "quote": "Leading AI organisations agree to the Frontier AI Safety Commitments in furtherance of safe and trustworthy AI.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-06/2026-10-11/secondary.html",
+    "sha256": "4c9c5bc59457b52e34c80e2349ebc23b875e8e621c45719539e2be171cff81d4",
+    "locator": "intro",
+    "quote": "undertake to develop and deploy their frontier AI models and systems[footnote 1] responsibly, in accordance with the following voluntary commitments",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/INT-06/2026-10-11/official.html",
+    "sha256": "b1f8a2846196606a728e5e831a74ed36e275460a4bbcb68e43ca64f3e663d236",
+    "locator": "header",
+    "quote": "Department for Science, Innovation and Technology",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-06/2026-10-11/secondary.html",
+    "sha256": "4c9c5bc59457b52e34c80e2349ebc23b875e8e621c45719539e2be171cff81d4",
+    "locator": "intro",
+    "quote": "The UK and Republic of Korea governments announced that the following organisations have agreed to the Frontier AI Safety Commitments",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "confirmed": [
+   "title",
+   "date_published",
+   "date_last_updated",
+   "status",
+   "legal_force",
+   "issuing_body"
+  ],
+  "changes": {},
+  "status_reasoning": "Last updated 7 Feb 2025 with four added signatories; no later change."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}

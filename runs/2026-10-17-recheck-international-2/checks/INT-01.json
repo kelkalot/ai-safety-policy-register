@@ -1,0 +1,65 @@
+{
+ "cand_id": "INT-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "list counts 63 countries plus AU Commission and EU (65 entries), no US or UK"
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "quotes show voluntary commitments noted; non-binding character is the nature of the declaration"
+  },
+  "safety_topics": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "six priorities listed",
+   "verdict": "supported",
+   "locator": "paragraph 3"
+  },
+  {
+   "claim": "commends Bletchley and Seoul summits, notes voluntary commitments",
+   "verdict": "supported",
+   "locator": "paragraph 5"
+  },
+  {
+   "claim": "reaffirms Global Dialogue and Scientific Panel",
+   "verdict": "supported",
+   "locator": "paragraph 4"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "INT-04"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Update of summary, topics and notes. All claims found in the stored Elysee text; the 63+2 signatory count checked by counting the list. No newer version found."
+}

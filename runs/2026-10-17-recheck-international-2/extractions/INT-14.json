@@ -1,0 +1,161 @@
+{
+ "cand_id": "INT-14",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "INT-14",
+ "record": {
+  "issuing_body": "Government representatives at the 2023 REAIM summit on responsible AI in the military domain, The Hague, organised by the Netherlands' Ministry of Foreign Affairs and Ministry of Defence and co-hosted by the Republic of Korea",
+  "summary": "Joint call agreed by government representatives at the 2023 REAIM summit in The Hague on the responsible development, deployment and use of AI in the military domain. It names concerns about unreliable AI systems, human involvement, unclear liability and unintended escalation; commits to keeping humans responsible and accountable for decisions; stresses appropriate safeguards and human oversight, risk assessment and data governance consistent with international law; warns that adoption without sufficient research, testing and assurance may cause inadvertent harm; and invites states to develop national frameworks.",
+  "safety_topics": [
+   "national security & military",
+   "human oversight",
+   "accountability & liability",
+   "international cooperation"
+  ],
+  "notes": "Agreed at the first REAIM summit, held at the World Forum in The Hague on 15-16 February 2023, organised by the Dutch foreign and defence ministries and co-hosted by South Korea, with some 2,000 delegates. The text has 25 numbered paragraphs: sixteen on shared understandings of the opportunities and risks of military AI, followed by the call to action proper (paragraphs 17 to 25), which asks states, the private sector, academia and civil society to build knowledge, exchange good practices and continue a multi-stakeholder dialogue, and ends by inviting all stakeholders worldwide to join it. The government's list of endorsing countries and territories (published 4 April 2025) names 58, among them China, the United States, the Netherlands and the Republic of Korea. The summit also announced a Global Commission on AI in the military domain. Later REAIM summits produced the Blueprint for Action (Seoul, 2024; INT-16) and the 2026 Pathways to Action (INT-18), which builds on both.",
+  "verification": {
+   "note": "Stored and read in this run: the government.nl publication page of 16 February 2023 and the 4-page PDF of the Call to Action; the government.nl news item of 16 February 2023 on the agreement (organisers, co-host, some 2,000 delegates, the Global Commission); the announcement of 19 January 2023 (World Forum, The Hague, 15 and 16 February 2023); the 2-page list of endorsing countries and territories (58 names; its document page is dated 04-04-2025); and the REAIM 2026 Pathways to Action PDF, which names the 2023 Call to Action and the 2024 Blueprint. Together they confirm the title, the date, the issuing body and the full text summarised."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/INT-14/2026-10-11/official.html",
+    "sha256": "67a6cab829d576aef916f822505b9264557b9c554cbf3f3613d82cff0d155b8b",
+    "locator": "page heading",
+    "quote": "REAIM 2023 Call to Action",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-14/2026-10-11/document-1.pdf",
+    "sha256": "9bdfacd893b27fe5f97803debdea73f727e341b29c38fa081f9c2db7b4a5d5d3",
+    "locator": "page 1",
+    "quote": "REAIM Call to Action",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/INT-14/2026-10-11/official.html",
+    "sha256": "67a6cab829d576aef916f822505b9264557b9c554cbf3f3613d82cff0d155b8b",
+    "locator": "document details",
+    "quote": "Publication16-02-2023PDF document183.83 KB4 pages",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-14/extra-d24343765c/2026-10-17/official.html",
+    "sha256": "dd5854ddeaa00cb86907daeb60052628767e5f451bd95ec0c35005f8c3ff8273",
+    "locator": "news item header",
+    "quote": "News item16-02-2023 | 16:38",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-14/2026-10-11/official.html",
+    "sha256": "67a6cab829d576aef916f822505b9264557b9c554cbf3f3613d82cff0d155b8b",
+    "locator": "page introduction",
+    "quote": "Government representatives meeting at the REAIM summit have agreed a joint call to action on the responsible development, deployment and use of artificial intelligence (AI) in the military domain.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-14/2026-10-11/document-1.pdf",
+    "sha256": "9bdfacd893b27fe5f97803debdea73f727e341b29c38fa081f9c2db7b4a5d5d3",
+    "locator": "page 4, paragraph 25",
+    "quote": "We invite all stakeholders worldwide to join this Call to Action.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-14/extra-d24343765c/2026-10-17/official.html",
+    "sha256": "dd5854ddeaa00cb86907daeb60052628767e5f451bd95ec0c35005f8c3ff8273",
+    "locator": "news item, first paragraph",
+    "quote": "The two-day summit was organised by the Dutch Ministry of Foreign Affairs and Ministry of Defence. South Korea was the co-host.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-14/extra-182e15b00a/2026-10-17/official.html",
+    "sha256": "b99243ed23f96d02900a50288942a25e06cb9752a35dc545e3bd8ebbe2ca6dd7",
+    "locator": "announcement, second paragraph",
+    "quote": "The international meeting, the REAIM Summit, will be held at the World Forum in The Hague on 15 and 16 February 2023.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-14/2026-10-11/official.html",
+    "sha256": "67a6cab829d576aef916f822505b9264557b9c554cbf3f3613d82cff0d155b8b",
+    "locator": "page introduction",
+    "quote": "Government representatives meeting at the REAIM summit have agreed a joint call to action",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/INT-14/2026-10-11/document-1.pdf",
+    "sha256": "9bdfacd893b27fe5f97803debdea73f727e341b29c38fa081f9c2db7b4a5d5d3",
+    "locator": "page 1",
+    "quote": "With this Call to Action we invite governments, industry, knowledge institutions, international organisations and others to support the following:",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-14/extra-d24343765c/2026-10-17/official.html",
+    "sha256": "dd5854ddeaa00cb86907daeb60052628767e5f451bd95ec0c35005f8c3ff8273",
+    "locator": "news item, second paragraph",
+    "quote": "The summit brought together some 2000 delegates from governments, businesses, civil society organisations, academia and thinktanks from all over the world.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-14/extra-d24343765c/2026-10-17/official.html",
+    "sha256": "dd5854ddeaa00cb86907daeb60052628767e5f451bd95ec0c35005f8c3ff8273",
+    "locator": "Establishment of Global Commission on AI",
+    "quote": "A Global Commission on AI is to be established to raise all-round awareness, clarify how to define AI in the military domain",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-14/extra-d24343765c/2026-10-17/official.html",
+    "sha256": "dd5854ddeaa00cb86907daeb60052628767e5f451bd95ec0c35005f8c3ff8273",
+    "locator": "documents",
+    "quote": "REAIM 2023 Endorsing Countries and Territories Publication04-04-2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-14/extra-506b0e3c51/2026-10-17/official.pdf",
+    "sha256": "8a3ecde1daf9c3a6382c1b72f79002a94680bc626d7c7dc438964178d7870e7e",
+    "locator": "page 2",
+    "quote": "Republic of Korea",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-14/extra-ede5a0863c/2026-10-17/official.pdf",
+    "sha256": "1c7d431a7e88c234f1a2cfdc0a6bc5682ed29871fcf0043b71de9009b4113dc0",
+    "locator": "page 3, paragraph 7",
+    "quote": "Building on the Call to Action advanced at the REAIM Summit 2023 in The Hague and the Blueprint for Action advanced at the REAIM Summit 2024 in Seoul",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "issuing_body": "venue, organisers and co-host added from the government.nl news item of 16 February 2023 and the announcement of 19 January 2023",
+   "summary": "rewritten from the full PDF text, which the previous summary described only in general terms; the venue added",
+   "safety_topics": "'accountability & liability' added: the text commits to humans remaining responsible and accountable and names unclear liability as a concern",
+   "notes": "rewritten: summit dates, venue, organisers and attendance from the stored news items; the list of 58 endorsing countries and territories; the structure of the text; the later REAIM documents from the stored 2026 Pathways to Action",
+   "verification.note": "rewritten for the sources stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "legal_force"
+  ],
+  "status_reasoning": "A political call to action agreed on 16 February 2023 and open to further endorsement ('We invite all stakeholders worldwide to join this Call to Action'); nothing stored withdraws or replaces it, and the later REAIM documents build on it. 'Published (non-binding, current)' stands.",
+  "date_reasoning": "government.nl gives the publication date 16-02-2023 for the Call to Action; the PDF itself carries no date.",
+  "notes_reasoning": "The endorsing list has 35 names on page 1 and 23 on page 2 (58 in all), including China, US, The Netherlands, Republic of Korea and Palestine."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

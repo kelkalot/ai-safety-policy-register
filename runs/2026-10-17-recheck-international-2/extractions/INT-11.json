@@ -1,0 +1,180 @@
+{
+ "cand_id": "INT-11",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "INT-11",
+ "record": {
+  "official_url": "https://www.nist.gov/document/international-network-ai-safety-institutes-mission-statement",
+  "summary": "Mission statement agreed by the ten initial members of the International Network of AI Safety Institutes: Australia, Canada, the EU, France, Japan, Kenya, the Republic of Korea, Singapore, the United Kingdom and the United States. It sets up the Network as a forum for a common technical understanding of AI safety risks and mitigations that supports interoperable principles and best practices, and names four priority areas: research on the risks and capabilities of advanced AI, common best practices for testing advanced AI systems, which may include joint testing exercises, shared approaches to interpreting tests, and inclusion of countries at all levels of development.",
+  "notes": "Launched at the Network's inaugural convening in San Francisco, co-hosted by the US Departments of Commerce and State, with the United States as inaugural chair. The US fact sheet released on 20 November 2024 says the ten initial members agreed the joint mission statement ahead of the convening; the statement's own text dates the launch meeting 21 November 2024. The statement builds on the Seoul Statement of Intent of 21 May 2024 (INT-05). At a meeting in San Diego alongside NeurIPS in December 2025, hosted by NIST's Center for AI Standards and Innovation (CAISI), through which the US takes part, the Network was renamed the International Network for Advanced AI Measurement, Evaluation and Science, and the United Kingdom took on the role of Network Coordinator (announced 9 December 2025). On 13 February 2026 the Network published consensus areas and open questions on practices for automated evaluations. In July 2026, at a meeting in Seoul alongside ICML, it completed its first best-practice guidance document. At their meeting in Paris on 29 May 2026 the G7 digital ministers agreed to start discussions under France's G7 presidency, including members of the Network and the OECD, on the comparability of AI risk-assessment frameworks (G7-04).",
+  "verification": {
+   "note": "Stored in this run: the mission statement itself on nist.gov (2 pages, the new official URL), NIST's copy of the US Commerce and State launch fact sheet ('Released November 20, 2024'), the NIST news item of 13 February 2026, the UK AI Security Institute post of 23 July 2026 and the G7 Digital and Technology Ministerial Declaration (soumu.go.jp). With the GOV.UK press release of 9 December 2025 stored earlier, they confirm the title, members, launch, date, priority areas, rename, UK coordinator role and later work. The previous official URL, the commerce.gov copy of the fact sheet, refuses the archiver (HTTP 403 on every attempt; the browser retry times out). The fact sheet is not the record's official or secondary URL, so after the merge the 20 November 2024 date rests on the copy stored in this run's folder; the mission statement in the local copy dates the launch 21 November 2024."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-11/extra-cababf5f3d/2026-10-17/official.pdf",
+    "sha256": "7380c0ff55972c0c025266db9259ab8188d218784a78e52df4b81d438a2743fa",
+    "locator": "page 1, title",
+    "quote": "International Network of AI Safety Institutes Mission Statement",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-11/extra-a65ad4f1a3/2026-10-17/official.html",
+    "sha256": "9abc5a7f9cda4363094904d847a4dadb4a4efbe6be7d66d6ef9e941306c792a5",
+    "locator": "fact sheet, section 1",
+    "quote": "Ahead of the inaugural convening of the Network, all 10 initial members have agreed to a joint mission statement that reads in part:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/INT-11/2026-10-11/secondary-2.html",
+    "sha256": "f02dcf866484029c511330b2be05d8beca8c46df8dde6509ba22188cc852a3c9",
+    "locator": "GOV.UK press release, summary",
+    "quote": "The International Network of AI Safety Institutes becomes the International Network for Advanced AI Measurement, Evaluation and Science",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-11/extra-a65ad4f1a3/2026-10-17/official.html",
+    "sha256": "9abc5a7f9cda4363094904d847a4dadb4a4efbe6be7d66d6ef9e941306c792a5",
+    "locator": "fact sheet, footer",
+    "quote": "Released November 20, 2024, Updated February 4, 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-11/extra-a65ad4f1a3/2026-10-17/official.html",
+    "sha256": "9abc5a7f9cda4363094904d847a4dadb4a4efbe6be7d66d6ef9e941306c792a5",
+    "locator": "fact sheet, heading and date",
+    "quote": "FACT SHEET: U.S. Department of Commerce & U.S. Department of State Launch the International Network of AI Safety Institutes at Inaugural Convening in San Francisco November 20, 2024",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/INT-11/2026-10-11/secondary-2.html",
+    "sha256": "f02dcf866484029c511330b2be05d8beca8c46df8dde6509ba22188cc852a3c9",
+    "locator": "GOV.UK press release, body",
+    "quote": "The meeting confirmed the International Network of AI Safety Institutes’ transition into the International Network for Advanced AI Measurement Evaluation and Science",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-11/extra-b71b9b8aef/2026-10-17/official.html",
+    "sha256": "1051528a0661210de196a396b4b270d8a0b1762ac81167fe0815bd8cf6dfed6c",
+    "locator": "NIST news, 13 February 2026",
+    "quote": "Today, the International Network for Advanced AI Measurement, Evaluation, and Science published a list of key practices and open questions for measuring and evaluating AI capabilities.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-11/extra-a4b9fb821d/2026-10-17/official.html",
+    "sha256": "aa70d8122c3115bd3e39052824e3f2f84fd5cde7ac1537fcf4ebb9cf25fa44fc",
+    "locator": "AISI blog, 23 July 2026",
+    "quote": "The International Network for Advanced AI Measurement, Evaluation and Science (NAAIMES) – formerly the International Network of AI Safety Institutes – continues to drive forward the science of AI evaluation.",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/INT-11/2026-10-11/secondary-2.html",
+    "sha256": "f02dcf866484029c511330b2be05d8beca8c46df8dde6509ba22188cc852a3c9",
+    "locator": "GOV.UK press release, Published",
+    "quote": "Published: 9 December 2025",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/INT-11/2026-10-11/secondary-2.html",
+    "sha256": "f02dcf866484029c511330b2be05d8beca8c46df8dde6509ba22188cc852a3c9",
+    "locator": "GOV.UK press release, summary",
+    "quote": "Group’s re-focus reflects long-term priorities and pace of AI development, with the UK taking on the role of Network Coordinator",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-11/extra-cababf5f3d/2026-10-17/official.pdf",
+    "sha256": "7380c0ff55972c0c025266db9259ab8188d218784a78e52df4b81d438a2743fa",
+    "locator": "page 1",
+    "quote": "The AI safety institutes and government mandated offices that facilitate AI safety and evaluation from Australia, Canada, the European Commission, France, Japan, Kenya, the Republic of Korea, Singapore, the United Kingdom, and the United States",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-11/extra-a65ad4f1a3/2026-10-17/official.html",
+    "sha256": "9abc5a7f9cda4363094904d847a4dadb4a4efbe6be7d66d6ef9e941306c792a5",
+    "locator": "fact sheet, opening",
+    "quote": "Today the U.S. Department of Commerce and U.S. Department of State are co-hosting the inaugural convening of the International Network of AI Safety Institutes",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-11/extra-a65ad4f1a3/2026-10-17/official.html",
+    "sha256": "9abc5a7f9cda4363094904d847a4dadb4a4efbe6be7d66d6ef9e941306c792a5",
+    "locator": "fact sheet, opening",
+    "quote": "The United States will serve as the inaugural chair of the International Network of AI Safety Institutes",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-11/extra-cababf5f3d/2026-10-17/official.pdf",
+    "sha256": "7380c0ff55972c0c025266db9259ab8188d218784a78e52df4b81d438a2743fa",
+    "locator": "page 1",
+    "quote": "The International Network of AI Safety Institutes is intended to be a forum that brings together technical expertise from around the world.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-2/INT-11/extra-cababf5f3d/2026-10-17/official.pdf",
+    "sha256": "7380c0ff55972c0c025266db9259ab8188d218784a78e52df4b81d438a2743fa",
+    "locator": "page 2",
+    "quote": "As a first step, we intend to prioritize our collective efforts, in line with our mandates, in the following four areas crucial to international AI safety",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "official_url": "the commerce.gov fact sheet refuses the archiver on every attempt; the mission statement itself, the instrument's own text, is now stored from nist.gov, where NIST's copy of the same fact sheet links it as the 'joint mission statement'",
+   "summary": "rewritten from the mission statement (extra_urls): the ten members, the forum and its common technical understanding, and the four priority areas (research, testing, guidance, inclusion); 'Its work centres on the science of AI testing and evaluation' dropped as a description of the later Network",
+   "notes": "rewritten from the stored files: the launch, co-hosts and inaugural chair (NIST fact sheet), the two dates (fact sheet 'Released November 20, 2024', statement text 'November 21, 2024'), the Seoul Statement of Intent (statement), the rename and UK coordinator role (GOV.UK), the San Diego meeting hosted by CAISI and the 13 February 2026 publication (NIST news), the July 2026 best-practice document (AISI post), and the G7 sentence corrected to the declaration's words ('we will initiate discussions under France's G7 presidency ... including members of the International Network ..., and the OECD, with a view to improving mutual understanding and comparability of AI risk assessment frameworks'), not a task for France to work with the Network",
+   "verification.note": "rewritten for the files stored and requested in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "date_last_updated",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "The GOV.UK release of 9 December 2025 says the San Diego meeting 'confirmed the International Network of AI Safety Institutes' transition into the International Network for Advanced AI Measurement Evaluation and Science'; NIST (13 February 2026) and the UK AI Security Institute (23 July 2026) show the renamed Network publishing and meeting, the latter calling it 'formerly the International Network of AI Safety Institutes'. The mission statement remains the Network's founding text, so 'Published (non-binding, current)' stands. date_last_updated stays 2025-12-09, the announcement of the rename and refocus, the last change to the Network's mandate.",
+  "scope_reasoning": "The founding mission statement of an international network of AI safety institutes: a mandate of AI safety bodies, in scope with no note (AGENTS.md section 10).",
+  "date_reasoning": "The NIST fact sheet is 'Released November 20, 2024' and says that 'Ahead of the inaugural convening of the Network, all 10 initial members have agreed to a joint mission statement'; the convening opened that day ('Today ... co-hosting the inaugural convening', 'Over the next two days'). The statement's own text says the members 'have gathered today in San Francisco on November 21, 2024 to launch' the Network. The statement was agreed and released on 20 November 2024, so date_published stays 2024-11-20, the adoption and issue date; the notes give the statement's own date."
+ },
+ "extra_urls": [
+  {
+   "url": "https://www.nist.gov/document/international-network-ai-safety-institutes-mission-statement",
+   "reason": "the mission statement itself (a PDF), linked as the 'joint mission statement' from NIST's copy of the launch fact sheet; the instrument's own text, for the title, the members, the four priority areas and the summary; proposed as official_url"
+  },
+  {
+   "url": "https://www.nist.gov/news-events/news/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
+   "reason": "NIST's copy of the US Commerce and State fact sheet 'Released November 20, 2024' that the record's commerce.gov official URL holds (which refuses the archiver): launch at the inaugural convening, the ten members, the joint mission statement and the US as inaugural chair; for date_published, issuing_body and the notes"
+  },
+  {
+   "url": "https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+   "reason": "NIST news item of 13 February 2026: the renamed Network published consensus areas and open questions on practices for automated evaluations; CAISI's participation; supports the notes and the current status"
+  },
+  {
+   "url": "https://www.aisi.gov.uk/blog/international-evaluation-best-practice-and-open-questions-in-ai-measurement",
+   "reason": "UK AI Security Institute post of 23 July 2026: the Network met in Seoul alongside ICML 2026 and completed its first best-practice guidance document; supports the notes and the current status"
+  },
+  {
+   "url": "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document12_en.pdf",
+   "reason": "the G7 Digital and Technology Ministerial Declaration of May 2026 (official_url of G7-04), which says the G7 'will initiate discussions under France's G7 presidency' including members of the Network and the OECD on the comparability of AI risk assessment frameworks; supports the corrected G7 sentence in the notes"
+  }
+ ],
+ "leads": [
+  "Best Practice: Automated Evaluation of Large Language Models, the first best-practice guidance document of the International Network for Advanced AI Measurement, Evaluation and Science (July 2026). The UK AI Security Institute post of 23 July 2026 links it as 'Network Best Practice' (https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a61e3fdec2b87a8f5658105_Network%20Best%20Practice.pdf); search results also show copies on industry.gov.au (Australian Department of Industry, Science and Resources, 24 July 2026) and sgaisi.sg. Not in the register; a guideline by a network of government AI safety bodies, likely in scope.",
+  "Consensus areas and open questions on practices for automated evaluations, International Network for Advanced AI Measurement, Evaluation and Science, 13 February 2026, published on the UK AI Security Institute's blog (https://www.aisi.gov.uk/blog/international-ai-network-consensus-and-open-questions) and announced by NIST. Not in the register."
+ ],
+ "open_questions": []
+}
