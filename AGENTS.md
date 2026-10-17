@@ -104,6 +104,7 @@ python3 tools/pipeline.py leads --add ... --provided FILE   # the same for an in
 python3 tools/build.py                               # validate and regenerate data files and HISTORY.md
 python3 tools/gate.py                                # every change against the rules, before a commit, merge or release
 python3 tools/archive.py --verify                    # re-hash every stored file; flags missing or changed copies
+python3 tools/archive.py --audit-robots              # stored files whose URL robots.txt disallows (RFC 9309); read-only
 ```
 
 Not part of a pipeline run: `python3 tools/package.py` (the zip in `dist/`, human only) and `python3 tools/publish_hf.py --release` (Hugging Face; README section 9), which an agent may run only when a maintainer asks and confirms it.
@@ -121,7 +122,7 @@ Python 3.8 or later and the standard library are enough for the core; `pypdf` re
 5. **Keep the public text clean.** `summary` and `notes` describe the instrument only. Fetch problems, blocked sites, hedges such as "as reported" or "as summarised by counsel", and anything about how the research was done go into `verification.note`.
 6. **Keep the controlled vocabularies** in `tools/validate.py`. A new topic or status value is added there and in the app's field reference in the same commit, never ad hoc.
 7. **Never delete a record.** An instrument that is withdrawn, replaced or expired keeps its record with status `Revoked / withdrawn`, `Superseded` or `Lapsed` and a note saying what happened.
-8. **Never contact anyone.** No e-mail, no web forms, no identification strings in requests beyond the archiver's own user agent. The archiver respects `robots.txt`; do not work around site blocks other than the documented `--browser` retry.
+8. **Never contact anyone.** No e-mail, no web forms, no identification strings in requests beyond the archiver's own user agent. The archiver respects `robots.txt` as RFC 9309 reads it (blank lines do not end a group, `*` and `$` are wildcards), and `archive.py --audit-robots` lists stored files it would not fetch today; do not work around site blocks other than the documented `--browser` retry.
 9. **Inclusive scope, flagged.** Scope is section 10. A borderline instrument is included with a `scope_note` saying why, not left out and not sent to a human; `pipeline/scope-decisions.md` keeps the precedents. Only the clear exclusions in section 10 stay out.
 10. **Commit on a branch, never push.** A run ends with one commit on the branch `run/<run-id>` containing the run folder and the merged data. The human reviews, merges and publishes.
 11. **Decisions are the maintainers' own.** Agents open issues, comment on them and close them, through the scripts and directly; the pipeline depends on it. An agent never writes a decision: no line starting with `decide:` and no sample line `ok <ID>` or `problem <ID>`, in any issue, comment or pull request, even when it posts with a maintainer's login. Everything an agent posts on GitHub carries the line `<!-- every-ai-policy-ever:agent -->`; `tools/pipeline.py` adds it to its own posts and never reads a marked comment, or one from a bot account, as a decision. In Claude Code the hook `.claude/hooks/github_guard.py` stops a `gh` command that would post a decision line or lacks the marker; Codex has no such hook and relies on this rule.
