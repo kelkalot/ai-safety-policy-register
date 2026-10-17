@@ -816,7 +816,7 @@ def board_markdown(priorities=None, live=True):
     kinds = {d.name: (read_json(d / "run.json", {}) or {}).get("type") for d in RUNS.iterdir() if d.is_dir()}
     fresh = {e["record_id"] for e in history.load()
              if kinds.get(e.get("run_id")) in ("recheck", "refresh") and e.get("event") in ("changed", "re-verified")
-             and (days_ago(e.get("date")) or 99) <= 31}
+             and (days_ago(e.get("date")) if days_ago(e.get("date")) is not None else 99) <= 31}  # today is 0 days ago
     for what, often, date, rid, limit in rows:
         n = days_ago(date) if date else None
         state = "never" if date is None else ("due" if n is not None and limit and n > limit else "ok")
