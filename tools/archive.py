@@ -120,14 +120,110 @@ def iso(t):
     return t.strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
+def rfc9309_rules(lines, agent):
+    """The (allow, pattern) rules of robots.txt that apply to agent, read as RFC 9309 says: a group is the
+    user-agent lines and the rules after them up to the next user-agent line (blank lines do not end it); the
+    groups that name the agent's product token apply, or else the groups for '*'."""
+    groups, agents, rules, in_rules = [], [], [], False
+    for raw in lines:
+        line = raw.split("#", 1)[0].strip()
+        if ":" not in line:
+            continue
+        key, val = (x.strip() for x in line.split(":", 1))
+        key = key.lower()
+        if key == "user-agent":
+            if in_rules:
+                groups.append((agents, rules))
+                agents, rules, in_rules = [], [], False
+            agents.append(val.lower())
+        elif key in ("allow", "disallow") and agents:
+            in_rules = True
+            rules.append((key == "allow", val))
+    if agents:
+        groups.append((agents, rules))
+    token = agent.lower()
+    mine = [r for a, r in groups if any(x != "*" and token.startswith(x) for x in a)]
+    return [rule for r in (mine or [r for a, r in groups if "*" in a]) for rule in r]
+
+
+def rfc9309_allow(lines, agent, url):
+    """RFC 9309 matching: the longest matching rule wins, Allow wins a tie, '*' matches any characters and a
+    final '$' anchors the end; the path is matched with its query."""
+    u = urllib.parse.urlsplit(url)
+    path = (u.path or "/") + ("?" + u.query if u.query else "")
+    best = None
+    for allow, pat in rfc9309_rules(lines, agent):
+        if not pat:
+            continue  # an empty Disallow allows everything
+        rx = "".join(".*" if c == "*" else re.escape(c) for c in (pat[:-1] if pat.endswith("$") else pat))
+        if re.match(rx + ("$" if pat.endswith("$") else ""), path):
+            if best is None or len(pat) > best[0] or (len(pat) == best[0] and allow):
+                best = (len(pat), allow)
+    return best is None or best[1]
+
+
 def robots_allow(rp, url):
     """robots.txt allows the URL, and allows it when rules and path are compared without letter case. Many servers
     ignore case, so a rule for /TLODOCS/ also means /tlodocs/; this never allows more than the plain check."""
     if not rp.can_fetch(AGENT_TOKEN, url):
         return False
+    lines = getattr(rp, "lines", None)
+    if lines is not None and not (rfc9309_allow(lines, AGENT_TOKEN, url) and
+                                  rfc9309_allow([x.lower() for x in lines], AGENT_TOKEN, url.lower())):
+        return False  # robotparser ends a group at a blank line and ignores '*' and '$'; RFC 9309 does neither
     folded = getattr(rp, "folded", None)
     u = urllib.parse.urlsplit(url)
     return folded is None or folded.can_fetch(AGENT_TOKEN.lower(), urllib.parse.urlunsplit(u._replace(path=u.path.lower())))
+
+
+def audit_robots(root=ROOT, out=None):
+    """Read-only: every stored file (records' local copies and runs' sources) whose URL its site's robots.txt
+    disallows when read as RFC 9309 says. Files stored before the archiver read robots.txt that way can be among
+    them; nothing is changed or deleted, the list is for a person to decide about."""
+    import glob
+    import concurrent.futures as cf
+    items = []
+    for r in json.loads((root / "data" / "records.json").read_text(encoding="utf-8"))["records"]:
+        for f in (r.get("local_copy") or {}).get("files") or []:
+            for path in (f.get("path"), f.get("previous_path")):  # the earlier snapshot is kept and may be quoted
+                if f.get("url") and path and (root / path).is_file():
+                    items.append(("record", r["id"], path, f["url"]))
+    for sj in sorted(glob.glob(str(root / "runs" / "*" / "sources.json"))):
+        src = json.loads(Path(sj).read_text(encoding="utf-8"))
+        for cid, e in src.items():
+            lcs = [(e or {}).get("main")] + list(((e or {}).get("extras") or {}).values())
+            for lc in lcs:
+                for f in (lc or {}).get("files") or []:
+                    for path in (f.get("path"), f.get("previous_path")):
+                        if f.get("url") and path and (root / path).is_file():
+                            items.append(("run " + Path(sj).parent.name, cid, path, f["url"]))
+    hosts = sorted({urllib.parse.urlsplit(u).netloc for _, _, _, u in items})
+    ua = "%s/%s" % (AGENT_TOKEN, TOOL_VERSION)
+
+    def fetch(h):
+        try:
+            req = urllib.request.Request("https://%s/robots.txt" % h, headers={"User-Agent": ua})
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                return h, resp.read().decode("utf-8", "replace").splitlines()
+        except urllib.error.HTTPError as e:
+            return h, [] if 400 <= e.code < 500 else None
+        except Exception:
+            return h, None
+    with cf.ThreadPoolExecutor(8) as ex:
+        robots = dict(ex.map(fetch, hosts))
+    bad = [dict(zip(("where", "id", "path", "url"), it)) for it in items
+           if robots.get(urllib.parse.urlsplit(it[3]).netloc) is not None
+           and not (rfc9309_allow(robots[urllib.parse.urlsplit(it[3]).netloc], AGENT_TOKEN, it[3]) and
+                    rfc9309_allow([x.lower() for x in robots[urllib.parse.urlsplit(it[3]).netloc]], AGENT_TOKEN, it[3].lower()))]
+    unknown = sorted(h for h in hosts if robots.get(h) is None)
+    for b in bad:
+        print("%-28s %-10s %s" % (b["where"][:28], b["id"], b["url"]))
+    print("%d stored file(s) checked on %d sites; %d entr%s disallowed by robots.txt (RFC 9309), %d distinct files; "
+          "robots.txt not reachable now for %d site(s)." % (len(items), len(hosts), len(bad), "y" if len(bad) == 1 else "ies",
+                                                            len({b["path"] for b in bad}), len(unknown)))
+    if out:
+        Path(out).write_text(json.dumps({"disallowed": bad, "robots_unreachable": unknown}, indent=1), encoding="utf-8")
+    return 0
 
 
 def iri_to_uri(url):
@@ -393,16 +489,20 @@ class Fetcher:
                 status, _, _, body = self._raw(base + "/robots.txt")
                 lines = body.decode("utf-8", errors="replace").splitlines() if status == 200 else []
                 rp.parse(lines)
+                rp.lines = lines  # read again by rfc9309_allow, which follows the standard where robotparser does not
                 rp.folded = urllib.robotparser.RobotFileParser()  # the same rules in lower case (robots_allow)
                 rp.folded.parse([x.lower() for x in lines])
             except urllib.error.HTTPError as e:
                 if 400 <= e.code < 500:
                     rp.parse([])  # RFC 9309: robots.txt unavailable (4xx) means no restrictions
+                    rp.lines = []
                 else:
                     rp.parse(["User-agent: *", "Disallow: /"])
+                    rp.lines = ["User-agent: *", "Disallow: /"]
                     note = "robots.txt returned HTTP %d, which RFC 9309 treats as 'do not crawl'" % e.code
             except Exception as e:  # unreachable
                 rp.parse(["User-agent: *", "Disallow: /"])
+                rp.lines = ["User-agent: *", "Disallow: /"]
                 msg, code = describe_network_error(e)
                 note = "%s. robots.txt could not be checked, which RFC 9309 treats as 'do not crawl'" % msg
             finally:
@@ -1216,6 +1316,8 @@ def main(argv=None):
     ap.add_argument("--issue", type=int, help="with --provide: the GitHub issue it was provided in")
     ap.add_argument("--note", help="with --provide: a short note, e.g. how it was obtained")
     ap.add_argument("--verify", action="store_true", help="re-hash local files, flag missing/modified ones, and exit")
+    ap.add_argument("--audit-robots", metavar="OUT.json", nargs="?", const="",
+                    help="list stored files whose URL robots.txt disallows (RFC 9309); read-only")
     args = ap.parse_args(argv)
 
     db = build.normalise(build.load())
@@ -1234,6 +1336,8 @@ def main(argv=None):
         print("Next: python3 tools/build.py; a refresh run of %s reads it as the official text." % args.id)
         return 0
 
+    if args.audit_robots is not None:
+        return audit_robots(ROOT, args.audit_robots or None)
     if args.verify:
         print("Verifying local files against their recorded SHA-256 hashes ...")
         n = verify(db)
