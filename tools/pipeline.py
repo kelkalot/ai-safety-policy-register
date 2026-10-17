@@ -118,8 +118,9 @@ STAGES = ["collect", "extract", "blind", "check"]
 
 # What a run kicks off, in order: (step, who does it, what to run or which role to follow). `new` writes the list into
 # run.json and prints it; `status` shows which steps are done. Agents work through the steps of their run only.
-_FIND = [("extract", "extractors, about 8 candidates each", "pipeline/roles/extract.md -> extractions/<ID>.json; "
-                                                                      "archive and textify again for extra_urls"),
+_FIND = [("extract", "extractors, about 8 candidates each", "pipeline/roles/extract.md -> extractions/<ID>.json; for "
+                                                          "extra_urls the coordinator (not the extractor) archives and "
+                                                          "textifies again, then sends the candidates back once"),
          ("evidence", "script", "python3 tools/pipeline.py evidence --run {run}"),
          ("sample", "script", "python3 tools/pipeline.py sample --run {run}"),
          ("blind", "a fresh extractor", "pipeline/roles/extract.md -> extractions-blind/<ID>.json; never opens extractions/"),
