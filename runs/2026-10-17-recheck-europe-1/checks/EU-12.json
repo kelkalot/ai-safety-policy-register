@@ -1,0 +1,54 @@
+{
+ "cand_id": "EU-12",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "judgment-differs",
+   "why": "Q&A says use of the template is mandatory; Non-binding is the published value and the extractor raised it as a question"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Using the template is mandatory under Article 53(1)(d)",
+   "verdict": "supported",
+   "locator": "Q&A, how do these guidelines and the template support providers"
+  },
+  {
+   "claim": "Three main sections: general info, data sources, data processing aspects",
+   "verdict": "supported",
+   "locator": "Q&A, what type of information"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Quotes pass. Title, date 24 July 2025, three sections of the template, six-monthly update, top 10% domains, 2 Aug 2025/2027/2026 dates and fines come from stored Commission Q&A, press release and library page. legal_force stays Non-binding as published although the Q&A says using the template is mandatory under Art 53(1)(d); I would consider Binding, but the run does not change it, so it is left to the open question."
+}

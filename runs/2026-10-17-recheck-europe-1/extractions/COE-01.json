@@ -1,0 +1,276 @@
+{
+ "cand_id": "COE-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "COE-01",
+ "record": {
+  "date_last_updated": null,
+  "secondary_url": "https://eur-lex.europa.eu/eli/agree_internation/2026/1081/oj/eng",
+  "summary": "A binding treaty under which Parties must ensure that activities within the lifecycle of AI systems are consistent with human rights, democracy and the rule of law. It requires measures on transparency and oversight, including identification of AI-generated content, accountability, equality, privacy, reliability and safe innovation; remedies, procedural safeguards and notice of interacting with an AI system; and a graduated framework to identify, assess and mitigate risks, with testing where appropriate and possible bans or moratoria. It applies to public authorities; for private actors, each Party declares how it addresses risks. National defence is excluded.",
+  "notes": "Adopted by the Council of Europe Committee of Ministers on 17 May 2024 and opened for signature in Vilnius on 5 September 2024; the English and French texts are equally authentic. Under Article 30 it enters into force on the first day of the month after a three-month period following the date on which five signatories, at least three of them Council of Europe member States, have consented to be bound. The EU signed on 5 September 2024 and approved the Convention by Council Decision (EU) 2026/1080 of 21 April 2026, after the European Parliament's consent of 11 March 2026; the text was published in the EU Official Journal on 13 May 2026 (OJ L, 2026/1081), and the EU declared that it applies the Convention to private actors through the AI Act. EUR-Lex gives the date of entry into force as unknown (pending notification) or not yet in force. Parties need not apply it to activities protecting their national security interests. A Conference of the Parties follows its implementation, and each Party reports to it within two years of becoming a Party.",
+  "verification": {
+   "note": "Stored and read in this run: the Convention's text as published in the EU Official Journal (OJ L, 2026/1081, EUR-Lex HTML and PDF), which confirms the title, the closing formula 'Done in Vilnius, this 5th day of September 2024', the authentic languages, the provisions in the summary and the Article 30 entry-into-force rule, and whose EUR-Lex page gives the date of entry into force as unknown (pending notification) or not yet in force; Council Decision (EU) 2024/2218 (EUR-Lex), which records the adoption by the Committee of Ministers on 17 May 2024; Council Decision (EU) 2026/1080 (EUR-Lex), which records the EU's signature, its approval on 21 April 2026, the Parliament's consent of 11 March 2026 and the EU's declarations; and the Council of Europe Publishing page for the treaty text (book.coe.int), which gives the identifier CETS No. 225 and the opening for signature on 5 September 2024. The record's own pages on www.coe.int (the Convention page and the press release on its opening for signature) are not stored: the site answered HTTP 403 to the archiver, in the plain download and in the browser retry. No Council of Europe Treaty Office page is stored either, so ratifications by states and the current number of signatories are not confirmed; the status rests on the EU's metadata and the Article 30 rule."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-593728583b/2026-10-17/official-rendered.html",
+    "sha256": "e84eecbe9d6c1c38cceac919946a198794e358dd18f4cb0c8fe14814b922be5d",
+    "locator": "OJ L 2026/1081, heading",
+    "quote": "L series 2026/1081 13.5.2026 Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-0bfc6e1032/2026-10-17/official.html",
+    "sha256": "e717105319e9a8a473e4a7e71c5ffd8fc64f173b616efc1185875d030e9218df",
+    "locator": "publication heading",
+    "quote": "Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No. 225)",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-593728583b/2026-10-17/official-rendered.html",
+    "sha256": "e84eecbe9d6c1c38cceac919946a198794e358dd18f4cb0c8fe14814b922be5d",
+    "locator": "closing formula",
+    "quote": "Done in Vilnius, this 5th day of September 2024, in English and in French, both texts being equally authentic",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-0bfc6e1032/2026-10-17/official.html",
+    "sha256": "e717105319e9a8a473e4a7e71c5ffd8fc64f173b616efc1185875d030e9218df",
+    "locator": "Summary",
+    "quote": "Opened for signature on 5 September 2024, it aims to ensure that activities within the lifecycle of artificial intelligence systems are fully consistent with human rights, democracy and the rule of law",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-593728583b/2026-10-17/official-rendered.html",
+    "sha256": "e84eecbe9d6c1c38cceac919946a198794e358dd18f4cb0c8fe14814b922be5d",
+    "locator": "EUR-Lex document information",
+    "quote": "Date of entry into force unknown (pending notification) or not yet in force.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-593728583b/2026-10-17/official-rendered.html",
+    "sha256": "e84eecbe9d6c1c38cceac919946a198794e358dd18f4cb0c8fe14814b922be5d",
+    "locator": "Article 30(3)",
+    "quote": "This Convention shall enter into force on the first day of the month following the expiration of a period of three months after the date on which five signatories, including at least three member States of the Council of Europe, have expressed their consent to be bound",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-9db8271940/2026-10-17/official-rendered.html",
+    "sha256": "e0c707bda6dfdb2c2df4dbc520530dd34d752dde1ab3e7bdb534dde061be73b5",
+    "locator": "Decision (EU) 2026/1080, Article 1",
+    "quote": "The Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (the 'Convention') is hereby approved on behalf of the European Union",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-0bfc6e1032/2026-10-17/official.html",
+    "sha256": "e717105319e9a8a473e4a7e71c5ffd8fc64f173b616efc1185875d030e9218df",
+    "locator": "publication heading",
+    "quote": "Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No. 225)",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-0cd098c0a3/2026-10-17/official-rendered.html",
+    "sha256": "d26da8b0a90ad9bca08ecdf0382f74c38f9d42962354ec160a16601ca6966cc2",
+    "locator": "Decision (EU) 2024/2218, recital 1",
+    "quote": "On 17 May 2024, the negotiations were successfully concluded with the initialling of the Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law ('the Convention') and its adoption by the Council of Europe Committee of Ministers.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-0bfc6e1032/2026-10-17/official.html",
+    "sha256": "e717105319e9a8a473e4a7e71c5ffd8fc64f173b616efc1185875d030e9218df",
+    "locator": "Summary",
+    "quote": "is the first-ever international legally binding treaty in this field",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-593728583b/2026-10-17/official-rendered.html",
+    "sha256": "e84eecbe9d6c1c38cceac919946a198794e358dd18f4cb0c8fe14814b922be5d",
+    "locator": "Article 30(2)",
+    "quote": "This Convention is subject to ratification, acceptance or approval.",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-593728583b/2026-10-17/official-rendered.html",
+    "sha256": "e84eecbe9d6c1c38cceac919946a198794e358dd18f4cb0c8fe14814b922be5d",
+    "locator": "Article 1(1)",
+    "quote": "The provisions of this Convention aim to ensure that activities within the lifecycle of artificial intelligence systems are fully consistent with human rights, democracy and the rule of law.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-593728583b/2026-10-17/official-rendered.html",
+    "sha256": "e84eecbe9d6c1c38cceac919946a198794e358dd18f4cb0c8fe14814b922be5d",
+    "locator": "Article 8",
+    "quote": "adequate transparency and oversight requirements tailored to the specific contexts and risks are in place in respect of activities within the lifecycle of artificial intelligence systems, including with regard to the identification of content generated by artificial intelligence systems",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-593728583b/2026-10-17/official-rendered.html",
+    "sha256": "e84eecbe9d6c1c38cceac919946a198794e358dd18f4cb0c8fe14814b922be5d",
+    "locator": "Article 9",
+    "quote": "Each Party shall adopt or maintain measures to ensure accountability and responsibility for adverse impacts on human rights, democracy and the rule of law",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-593728583b/2026-10-17/official-rendered.html",
+    "sha256": "e84eecbe9d6c1c38cceac919946a198794e358dd18f4cb0c8fe14814b922be5d",
+    "locator": "Article 15(2)",
+    "quote": "persons interacting with artificial intelligence systems are notified that they are interacting with such systems rather than with a human",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-593728583b/2026-10-17/official-rendered.html",
+    "sha256": "e84eecbe9d6c1c38cceac919946a198794e358dd18f4cb0c8fe14814b922be5d",
+    "locator": "Article 16(1)",
+    "quote": "adopt or maintain measures for the identification, assessment, prevention and mitigation of risks posed by artificial intelligence systems",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-593728583b/2026-10-17/official-rendered.html",
+    "sha256": "e84eecbe9d6c1c38cceac919946a198794e358dd18f4cb0c8fe14814b922be5d",
+    "locator": "Article 16(2)(g)",
+    "quote": "require, where appropriate, testing of artificial intelligence systems before making them available for first use and when they are significantly modified",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-593728583b/2026-10-17/official-rendered.html",
+    "sha256": "e84eecbe9d6c1c38cceac919946a198794e358dd18f4cb0c8fe14814b922be5d",
+    "locator": "Article 16(4)",
+    "quote": "Each Party shall assess the need for a moratorium or ban or other appropriate measures in respect of certain uses of artificial intelligence systems",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-593728583b/2026-10-17/official-rendered.html",
+    "sha256": "e84eecbe9d6c1c38cceac919946a198794e358dd18f4cb0c8fe14814b922be5d",
+    "locator": "Article 3(1)(a)",
+    "quote": "Each Party shall apply this Convention to the activities within the lifecycle of artificial intelligence systems undertaken by public authorities, or private actors acting on their behalf.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-593728583b/2026-10-17/official-rendered.html",
+    "sha256": "e84eecbe9d6c1c38cceac919946a198794e358dd18f4cb0c8fe14814b922be5d",
+    "locator": "Article 3(1)(b)",
+    "quote": "Each Party shall specify in a declaration submitted to the Secretary-General of the Council of Europe at the time of signature, or when depositing its instrument of ratification, acceptance, approval or accession, how it intends to implement this obligation",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-593728583b/2026-10-17/official-rendered.html",
+    "sha256": "e84eecbe9d6c1c38cceac919946a198794e358dd18f4cb0c8fe14814b922be5d",
+    "locator": "Article 3(4)",
+    "quote": "Matters relating to national defence do not fall within the scope of this Convention.",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-9db8271940/2026-10-17/official-rendered.html",
+    "sha256": "e0c707bda6dfdb2c2df4dbc520530dd34d752dde1ab3e7bdb534dde061be73b5",
+    "locator": "Decision (EU) 2026/1080, recital 1",
+    "quote": "was signed on 5 September 2024 on behalf of the European Union, subject to its conclusion at a later date",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-9db8271940/2026-10-17/official-rendered.html",
+    "sha256": "e0c707bda6dfdb2c2df4dbc520530dd34d752dde1ab3e7bdb534dde061be73b5",
+    "locator": "Decision (EU) 2026/1080, closing formula",
+    "quote": "Done at Luxembourg, 21 April 2026.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-9db8271940/2026-10-17/official-rendered.html",
+    "sha256": "e0c707bda6dfdb2c2df4dbc520530dd34d752dde1ab3e7bdb534dde061be73b5",
+    "locator": "Decision (EU) 2026/1080, footnote 1",
+    "quote": "Consent of 11 March 2026 (not yet published in the Official Journal).",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-9db8271940/2026-10-17/official-rendered.html",
+    "sha256": "e0c707bda6dfdb2c2df4dbc520530dd34d752dde1ab3e7bdb534dde061be73b5",
+    "locator": "Decision (EU) 2026/1080, footnote 10",
+    "quote": "The text of the Convention is published in OJ L, 2026/1081, 13.5.2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-9db8271940/2026-10-17/official-rendered.html",
+    "sha256": "e0c707bda6dfdb2c2df4dbc520530dd34d752dde1ab3e7bdb534dde061be73b5",
+    "locator": "Annex, Declaration 1",
+    "quote": "the Union declares that it will apply the principles and obligations set forth in Chapters II to VI of the Convention to activities of private actors placing on the market, making available and using artificial intelligence systems in the European Union through the implementation of Regulation (EU) 2024/1689",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-593728583b/2026-10-17/official-rendered.html",
+    "sha256": "e84eecbe9d6c1c38cceac919946a198794e358dd18f4cb0c8fe14814b922be5d",
+    "locator": "Article 3(2)",
+    "quote": "A Party shall not be required to apply this Convention to activities within the lifecycle of artificial intelligence systems related to the protection of its national security interests",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/COE-01/extra-593728583b/2026-10-17/official-rendered.html",
+    "sha256": "e84eecbe9d6c1c38cceac919946a198794e358dd18f4cb0c8fe14814b922be5d",
+    "locator": "Article 24(1)",
+    "quote": "Each Party shall provide a report to the Conference of the Parties within the first two years after becoming a Party",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "Article 30(3): the Convention enters into force on the first day of the month after three months following the fifth consent to be bound, given by signatories including at least three CoE member States. For it to be in force on 17 Oct 2026, five such consents would have been needed by 30 June 2026. The stored files record one consent: the EU's approval by Council Decision (EU) 2026/1080 of 21 April 2026. EUR-Lex, which records the EU's agreements, gives the date of entry into force as unknown (pending notification) or not yet in force. 'Adopted, not yet in force' is consistent with every stored file. Ratifications by states are recorded by the CoE Treaty Office, which is not stored, so a state ratification count cannot be ruled out; this is an open question, not a contradiction. date_in_force stays null.",
+  "scope_reasoning": "Binding AI treaty; in scope without a note.",
+  "changes": {
+   "date_last_updated": "set to null: the field is for the last amendment or new version, and the Convention has not been amended (Article 28 procedure); the 2026-05-15 value was the EU's deposit, an act of one Party that no stored file shows",
+   "secondary_url": "the coe.int press release is not stored; the Convention's own text in OJ L 2026/1081 (EUR-Lex) is, so the record's local copy can hold the instrument's text",
+   "summary": "rewritten from Articles 1, 3, 8, 9, 14 to 16 of the stored text; version 1's 'applies fully to the public sector' made precise (public authorities and private actors acting on their behalf)",
+   "notes": "rewritten from the stored texts; the signatory list, the EU's deposit of 15 May 2026, the CDNET and the June 2026 CDNET report are not in any stored file and moved to open_questions"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "official_identifier",
+   "issuing_body",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [
+  {
+   "url": "https://eur-lex.europa.eu/eli/agree_internation/2026/1081/oj/eng",
+   "reason": "The Convention's full text as published in the Official Journal of the EU (OJ L, 2026/1081, 13.5.2026), cited by Council Decision (EU) 2026/1080: title, 'Done in Vilnius, this 5th day of September 2024, in English and in French', Article 30 (entry into force after five consents, three of them CoE member States), the provisions behind the summary; the EUR-Lex page also shows the EU's status metadata ('Date of entry into force unknown (pending notification) or not yet in force'). Proposed as secondary_url, in place of the coe.int press release that answers 403, so that the record's local copy holds the instrument's own text."
+  },
+  {
+   "url": "https://eur-lex.europa.eu/eli/agree_internation/2026/1081/oj/eng/pdf",
+   "reason": "PDF of the same OJ L 2026/1081 publication, as a fallback with page markers if the EUR-Lex HTML is stored only as a script shell."
+  },
+  {
+   "url": "https://eur-lex.europa.eu/eli/dec/2026/1080/oj/eng",
+   "reason": "Council Decision (EU) 2026/1080 of 21 April 2026 on the conclusion of the Convention on behalf of the EU: the EU's approval (Article 1), the European Parliament's consent of 11 March 2026, the EU's declarations on private actors (through the AI Act) and territorial scope, and the reference to the OJ text."
+  },
+  {
+   "url": "https://eur-lex.europa.eu/eli/dec/2024/2218/oj/eng",
+   "reason": "Council Decision (EU) 2024/2218 of 28 August 2024 on the signing of the Convention: its adoption by the CoE Committee of Ministers on 17 May 2024 (recital 1); supports issuing_body and the adoption date in the notes."
+  },
+  {
+   "url": "https://book.coe.int/en/texts-of-council-of-europe-treaties/12225-council-of-europe-framework-convention-on-artificial-intelligence-and-human-rights-democracy-and-the-rule-of-law-cets-no-225.html",
+   "reason": "Council of Europe Publishing page for the bilingual treaty text (book.coe.int answers the archiver; the COE-03 record is stored from it): gives the title with the identifier 'CETS No. 225', which no stored file shows yet, and 'Opened for signature on 5 September 2024'. The issuer's own host, so title, date and identifier can rest on an official CoE source."
+  }
+ ],
+ "leads": [],
+ "open_questions": [
+  "Ratifications and entry into force: the stored files record only the EU's approval (Council Decision (EU) 2026/1080 of 21 April 2026) and the EU's own metadata ('Date of entry into force unknown (pending notification) or not yet in force'). Whether five signatories, at least three of them CoE member States, had consented by 30 June 2026 (needed for entry into force by 17 Oct 2026) is recorded only by the CoE Treaty Office, whose pages are on coe.int and are not stored (www.coe.int answered HTTP 403 to the archiver). A human should check the Treaty Office chart of signatures and ratifications for CETS No. 225.",
+  "Version 1's notes listed 21 signatories (Albania, Andorra, Armenia, Bosnia and Herzegovina, Georgia, Iceland, Liechtenstein, Montenegro, North Macedonia, Norway, Republic of Moldova, San Marino, Switzerland, Ukraine, UK, Canada, EU, Israel, Japan, USA, Uruguay), the EU's deposit on 15 May 2026 at the 135th Committee of Ministers session in Chisinau, the CDNET as custodian with plenaries on 15-17 Apr and 21-23 Oct 2026, and a June 2026 CDNET report. None is in a stored file: they rest on coe.int pages, which answered HTTP 403 to the archiver, and no other official host publishing them was found. They were removed from the notes.",
+  "date_last_updated was 2026-05-15 (the EU's deposit); it is set to null because the Convention has not been amended. If the maintainers prefer to record the latest ratification there, the EU deposit date needs a stored source first."
+ ]
+}

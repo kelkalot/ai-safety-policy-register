@@ -11,13 +11,14 @@
    "records": [
     "COE-01"
    ],
-   "state": "open",
+   "state": "settled",
    "issue": 6,
    "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/6",
    "opened": "2026-10-14",
-   "closed": null,
-   "resolution": null,
-   "title": null
+   "closed": "2026-10-17",
+   "resolution": "settled by a later run or decision",
+   "title": null,
+   "closed_on_github": true
   },
   {
    "key": "record:INT-15@2026-10-14-refresh-ids-ca-on-01-coe-01-int-15-us-ca",
@@ -1623,6 +1624,63 @@
    "closed": null,
    "resolution": null,
    "title": "Human sample of run 2026-10-17-recheck-international-2 (5 records)"
+  },
+  {
+   "key": "record:COE-02@2026-10-17-recheck-europe-1",
+   "kind": "record",
+   "subject": "COE-02",
+   "run_id": "2026-10-17-recheck-europe-1",
+   "held_back": false,
+   "why": "date_last_updated is unsupported and the checker gave no evidence-backed fix",
+   "records": [
+    "COE-02"
+   ],
+   "title": "COE-02 HUDERIA: open question from run 2026-10-17-recheck-europe-1",
+   "state": "open",
+   "issue": 115,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/115",
+   "opened": "2026-10-17",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "record:EU-05@2026-10-17-recheck-europe-1",
+   "kind": "record",
+   "subject": "EU-05",
+   "run_id": "2026-10-17-recheck-europe-1",
+   "held_back": false,
+   "why": "scope_note contains research-process language (scope-decisions); move it to verification.note",
+   "records": [
+    "EU-05"
+   ],
+   "title": "EU-05 New Product Liability Directive: open question from run 2026-10-17-recheck-europe-1",
+   "state": "open",
+   "issue": 116,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/116",
+   "opened": "2026-10-17",
+   "closed": null,
+   "resolution": null
+  },
+  {
+   "key": "sample:2026-10-17-recheck-europe-1",
+   "kind": "sample",
+   "subject": "2026-10-17-recheck-europe-1",
+   "run_id": "2026-10-17-recheck-europe-1",
+   "records": [
+    "COE-01",
+    "EU-04",
+    "EU-11",
+    "EU-19",
+    "NATO-01"
+   ],
+   "why": "Human sample of run 2026-10-17-recheck-europe-1: check each record against its stored sources.",
+   "state": "open",
+   "issue": 117,
+   "url": "https://github.com/kelkalot/every-ai-policy-ever/issues/117",
+   "opened": "2026-10-17",
+   "closed": null,
+   "resolution": null,
+   "title": "Human sample of run 2026-10-17-recheck-europe-1 (5 records)"
   }
  ],
  "repo": "kelkalot/every-ai-policy-ever"

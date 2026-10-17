@@ -1,0 +1,76 @@
+{
+ "cand_id": "EU-06",
+ "decision": "update",
+ "target_id": "EU-06",
+ "record": {},
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/EU-06/2026-10-11/official.html",
+    "sha256": "e7688ed3cf2f4cf7c60a0216db8574bbe5a79527bdd7d6edabaa1b787cf18a81",
+    "locator": "Downloads",
+    "quote": "Guidelines on prohibited artificial intelligence practices established by Regulation (EU) 2024/1689 (AI Act) (English)",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/EU-06/2026-10-11/official.html",
+    "sha256": "e7688ed3cf2f4cf7c60a0216db8574bbe5a79527bdd7d6edabaa1b787cf18a81",
+    "locator": "page header",
+    "quote": "Publication 04 February 2025",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/EU-06/2026-10-11/official.html",
+    "sha256": "e7688ed3cf2f4cf7c60a0216db8574bbe5a79527bdd7d6edabaa1b787cf18a81",
+    "locator": "page footer",
+    "quote": "31 July 2025",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/EU-06/2026-10-11/official.html",
+    "sha256": "e7688ed3cf2f4cf7c60a0216db8574bbe5a79527bdd7d6edabaa1b787cf18a81",
+    "locator": "body",
+    "quote": "they are non-binding, with authoritative interpretations reserved for the Court of Justice of the European Union (CJEU)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-06/extra-acc5ad4063/2026-10-17/official.html",
+    "sha256": "f51fa439c0bea211d93f75f8f029fba7ef4f9ada57fd32f855783b18bc327a42",
+    "locator": "Prohibited practices section",
+    "quote": "The guidelines on prohibited AI practices under the AI Act, which offer legal explanations and practical examples",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/EU-06/2026-10-11/official.html",
+    "sha256": "e7688ed3cf2f4cf7c60a0216db8574bbe5a79527bdd7d6edabaa1b787cf18a81",
+    "locator": "body",
+    "quote": "they are non-binding",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {},
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "date_last_updated",
+   "legal_force"
+  ],
+  "status_reasoning": "Library page still shows publication 4 Feb 2025 and last update 31 July 2025; the AI Act page (stored 17 Oct 2026) still presents the guidelines as current support and mentions no replacement. Status unchanged. secondary_url is COM(2026) 234, a report, not the guidelines text; the guidelines PDF itself is not stored, so no URL change is proposed."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}

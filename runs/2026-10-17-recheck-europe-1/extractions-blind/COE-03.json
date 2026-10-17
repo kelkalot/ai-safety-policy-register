@@ -1,0 +1,69 @@
+{
+ "cand_id": "COE-03",
+ "decision": "update",
+ "target_id": "COE-03",
+ "record": {},
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/COE-03/2026-10-16/official.html",
+    "sha256": "cf07295d632a83937951e39a357f1bc43b56de61a6de98c138e13dd0c5cd3df2",
+    "locator": "heading",
+    "quote": "European Ethical Charter on the use of artificial intelligence in judicial systems and their environment (2019)",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/COE-03/2026-10-16/official.html",
+    "sha256": "cf07295d632a83937951e39a357f1bc43b56de61a6de98c138e13dd0c5cd3df2",
+    "locator": "Extract",
+    "quote": "has adopted on 4th December 2018 the first European text setting out ethical principles",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/COE-03/2026-10-16/official.html",
+    "sha256": "cf07295d632a83937951e39a357f1bc43b56de61a6de98c138e13dd0c5cd3df2",
+    "locator": "Extract",
+    "quote": "The European Commission for the Efficiency of Justice (Cepej) of the Council of Europe has adopted",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/COE-03/2026-10-16/secondary.pdf",
+    "sha256": "31401e6f2eb31c829925c49c4d9a370fa4ce96223ada9fca92c7f30354425ff6",
+    "locator": "page 1",
+    "quote": "CEPEJ(2018)14",
+    "source_kind": "secondary"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/COE-03/2026-10-16/official.html",
+    "sha256": "cf07295d632a83937951e39a357f1bc43b56de61a6de98c138e13dd0c5cd3df2",
+    "locator": "Extract",
+    "quote": "the first European text setting out ethical principles relating to the use of artificial intelligence (AI) in judicial systems",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {},
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "official_identifier"
+  ],
+  "status_reasoning": "A non-binding charter adopted in 2018; nothing stored shows it withdrawn or replaced, so status stays Published (non-binding, current). The official rm.coe.int PDF is not stored; secondary_url is a full copy of the charter text, so no URL change is proposed."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}

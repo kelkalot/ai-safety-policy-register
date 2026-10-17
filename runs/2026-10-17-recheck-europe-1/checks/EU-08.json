@@ -1,0 +1,63 @@
+{
+ "cand_id": "EU-08",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported",
+   "why": "null: the earlier 2026-06-01 was the appointment date, not an amendment; EUR-Lex shows none."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Article 3(2): the number of experts shall in no case exceed 60",
+   "verdict": "supported",
+   "locator": "Article 3(2)"
+  },
+  {
+   "claim": "Article 18(1): a majority decision of the panel is needed to issue a qualified alert to the AI Office",
+   "verdict": "supported",
+   "locator": "Article 18(1)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "AI Act implementing regulation on the scientific panel."
+ },
+ "overall": "accept",
+ "note": "OJ text supports title, dates, identifiers, binding force and the summary; the Commission press releases support the 1 June 2026 appointment and the 9 October 2026 special meeting. Dropping 'catastrophic risk' and 'safety institute' is sound. No amendment found."
+}

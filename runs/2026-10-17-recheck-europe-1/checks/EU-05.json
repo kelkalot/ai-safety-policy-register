@@ -1,0 +1,59 @@
+{
+ "cand_id": "EU-05",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "safety_topics": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Article 4(1): 'product' includes software",
+   "verdict": "supported",
+   "locator": "Article 4(1)"
+  },
+  {
+   "claim": "Article 10(4)(a): presumption where the claimant faces excessive difficulties due to technical or scientific complexity",
+   "verdict": "supported",
+   "locator": "Article 10(4)(a)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Not AI-specific; the existing scope_note (operative AI liability instrument) stands and matches the precedent in scope-decisions.md."
+ },
+ "overall": "accept",
+ "note": "OJ text and the Commission's product liability page support title, dates (adopted 23 October 2024; in force 8 December 2024; application to products placed on the market after 9 December 2026), identifier, legal force and the summary. 'In force' is correct today. EUR-Lex lists no amendment. The existing scope_note stays."
+}

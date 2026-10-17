@@ -1,0 +1,262 @@
+{
+ "cand_id": "EU-16",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "EU-16",
+ "record": {
+  "issuing_body": "European Commission (AI Office)",
+  "date_last_updated": null,
+  "summary": "A voluntary code that helps providers and deployers of generative AI systems comply with Article 50(2), (4) and (5) of the AI Act. Section 1 sets rules for providers on machine-readable marking of AI-generated or manipulated content, with digitally signed metadata and imperceptible watermarking, on detection mechanisms, and on testing and compliance processes. Section 2 sets rules for deployers on labelling deepfakes and AI-generated or manipulated text published on matters of public interest, with EU icons for labelling. Signatories can rely on the code to demonstrate compliance.",
+  "notes": "Drawn up by independent experts in a multi-stakeholder process facilitated by the AI Office, in two working groups (providers and deployers) led by independent chairs and vice-chairs. Drafting began with a kick-off plenary on 5 November 2025; the first draft was published on 17 December 2025 and the second on 3 March 2026, and the final code was published at the closing plenary on 10 June 2026. On 8 July 2026 the Commission concluded that the code adequately covers the obligations in Article 50(2), (4) and (5) of the AI Act, and the following day the AI Board adopted its adequacy assessment; the Commission's opinion was published on 9 July 2026. Adherence to the code does not constitute conclusive evidence of compliance, and providers and deployers that comply by other means must show that their measures are adequate. By the end of July 2026 about 190 organisations had signed the code. Signatories work together in two signatory task forces, on marking and detection and on labelling. The AI Office will consider facilitating formal updates of the code at least every two years. The code is complemented by the Commission's guidelines on Article 50 (EU-19).",
+  "verification": {
+   "note": "Stored and read: the Commission's policy page for the code on digital-strategy.ec.europa.eu (snapshots of 11 and 17 October 2026; last updated 12 October 2026), which gives the title, the drafting timeline with publication of the final code on 10 June 2026, its voluntary character, the adequacy confirmation by the Commission and the AI Board, about 190 signatories by the end of July 2026 and the signatory task forces; the code's own text (38-page PDF), which gives the two sections and their commitments and measures; and the Commission's library page for its opinion (published 9 July 2026), which gives the conclusion of 8 July 2026 and the AI Board's adequacy assessment the following day. No stored source shows a revised version of the code."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/EU-16/2026-10-17/official.html",
+    "sha256": "2e9d3af6eebbe314184572cbd04644c9ce149e9ee1b95465a288e0eeb3ccebab",
+    "locator": "page heading and introduction",
+    "quote": "The Code of Practice on Transparency of AI-generated Content was drawn up by independent experts in a multi-stakeholder process facilitated by the AI Office.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-11/document-1.pdf",
+    "sha256": "7bd22c5a3c56eaefda27a5bf7a6118198ef2a9c9255241bd97abf7cdedf9bc28",
+    "locator": "page 1",
+    "quote": "Code of Practice on Transparency of AI-Generated Content",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/EU-16/2026-10-17/official.html",
+    "sha256": "2e9d3af6eebbe314184572cbd04644c9ce149e9ee1b95465a288e0eeb3ccebab",
+    "locator": "Timeline",
+    "quote": "10 June 2026 Closing Plenary Publication of the final code of practice",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/EU-16/2026-10-17/official.html",
+    "sha256": "2e9d3af6eebbe314184572cbd04644c9ce149e9ee1b95465a288e0eeb3ccebab",
+    "locator": "introduction",
+    "quote": "Even though adherence to the code is voluntary, the transparency requirements under article 50 of the AI Act are legal obligations.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-17/official.html",
+    "sha256": "2e9d3af6eebbe314184572cbd04644c9ce149e9ee1b95465a288e0eeb3ccebab",
+    "locator": "introduction",
+    "quote": "The Commission and the AI Board have confirmed that the code is an adequate voluntary tool to demonstrate compliance with the AI Act transparency obligations.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-17/official.html",
+    "sha256": "2e9d3af6eebbe314184572cbd04644c9ce149e9ee1b95465a288e0eeb3ccebab",
+    "locator": "Last update",
+    "quote": "Last update 12 October 2026",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/EU-16/2026-10-17/official.html",
+    "sha256": "2e9d3af6eebbe314184572cbd04644c9ce149e9ee1b95465a288e0eeb3ccebab",
+    "locator": "introduction",
+    "quote": "Even though adherence to the code is voluntary, the transparency requirements under article 50 of the AI Act are legal obligations.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-11/secondary.html",
+    "sha256": "9ae1bf6c83a424d8964bfcd3731eadf13b570368a9cfb62ca2b93d6ec9392281",
+    "locator": "opinion page",
+    "quote": "Adherence to the code does not constitute conclusive evidence of compliance with these obligations.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/EU-16/2026-10-17/official.html",
+    "sha256": "2e9d3af6eebbe314184572cbd04644c9ce149e9ee1b95465a288e0eeb3ccebab",
+    "locator": "introduction",
+    "quote": "drawn up by independent experts in a multi-stakeholder process facilitated by the AI Office",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-11/secondary.html",
+    "sha256": "9ae1bf6c83a424d8964bfcd3731eadf13b570368a9cfb62ca2b93d6ec9392281",
+    "locator": "opinion page",
+    "quote": "On July 8, the Commission concluded that the Code of Practice on Transparency of AI-generated Content adequately covers the obligations provided for in Articles 50(2), (4) and (5) AI Act",
+    "source_kind": "alt-official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/EU-16/2026-10-11/document-1.pdf",
+    "sha256": "7bd22c5a3c56eaefda27a5bf7a6118198ef2a9c9255241bd97abf7cdedf9bc28",
+    "locator": "page 2 (table of contents)",
+    "quote": "Section 1: Rules for marking and detection of AI-generated and manipulated content applicable to providers of generative AI systems (Article 50(2) and (5) AI Act)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-11/document-1.pdf",
+    "sha256": "7bd22c5a3c56eaefda27a5bf7a6118198ef2a9c9255241bd97abf7cdedf9bc28",
+    "locator": "page 9, Measure 1.1",
+    "quote": "Sub-measure 1.1.1: Digitally signed metadata",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-11/document-1.pdf",
+    "sha256": "7bd22c5a3c56eaefda27a5bf7a6118198ef2a9c9255241bd97abf7cdedf9bc28",
+    "locator": "page 9, Measure 1.1",
+    "quote": "Sub-measure 1.1.2: Imperceptible watermarking",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-11/document-1.pdf",
+    "sha256": "7bd22c5a3c56eaefda27a5bf7a6118198ef2a9c9255241bd97abf7cdedf9bc28",
+    "locator": "page 2 (table of contents)",
+    "quote": "Commitment 2: Detection of Markings of AI-generated or Manipulated Content",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-11/document-1.pdf",
+    "sha256": "7bd22c5a3c56eaefda27a5bf7a6118198ef2a9c9255241bd97abf7cdedf9bc28",
+    "locator": "page 2 (table of contents)",
+    "quote": "Commitment 4: Testing, Verification, and Compliance",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-11/document-1.pdf",
+    "sha256": "7bd22c5a3c56eaefda27a5bf7a6118198ef2a9c9255241bd97abf7cdedf9bc28",
+    "locator": "page 2 (table of contents)",
+    "quote": "Section 2: Rules for labelling deep fakes and AI -generated and manipulated published text applicable to deployers of AI systems (Article 50(4) and (5) AI Act)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-17/official.html",
+    "sha256": "2e9d3af6eebbe314184572cbd04644c9ce149e9ee1b95465a288e0eeb3ccebab",
+    "locator": "Working group 2: Deployers",
+    "quote": "AI generated/manipulated text publications informing the public on matters of public interest, unless the publication has undergone a process of human review and is subject to editorial responsibility.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-17/official.html",
+    "sha256": "2e9d3af6eebbe314184572cbd04644c9ce149e9ee1b95465a288e0eeb3ccebab",
+    "locator": "Code of Practice",
+    "quote": "The EU has also created a set of icons that deployers of generative AI systems may use to label their AI-generated content.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-17/official.html",
+    "sha256": "2e9d3af6eebbe314184572cbd04644c9ce149e9ee1b95465a288e0eeb3ccebab",
+    "locator": "Code of Practice",
+    "quote": "Following a positive assessment of the code, all providers and deployers who sign it can rely on its measures to demonstrate compliance",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/EU-16/2026-10-17/official.html",
+    "sha256": "2e9d3af6eebbe314184572cbd04644c9ce149e9ee1b95465a288e0eeb3ccebab",
+    "locator": "Working groups",
+    "quote": "Each working group was led by independent chairs and vice-chairs.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-17/official.html",
+    "sha256": "2e9d3af6eebbe314184572cbd04644c9ce149e9ee1b95465a288e0eeb3ccebab",
+    "locator": "Timeline",
+    "quote": "5 November 2025 Kick-off Plenary Start of the first drafting round",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-17/official.html",
+    "sha256": "2e9d3af6eebbe314184572cbd04644c9ce149e9ee1b95465a288e0eeb3ccebab",
+    "locator": "Timeline",
+    "quote": "17 December 2025 Publication of the first draft",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-17/official.html",
+    "sha256": "2e9d3af6eebbe314184572cbd04644c9ce149e9ee1b95465a288e0eeb3ccebab",
+    "locator": "Timeline",
+    "quote": "3 March 2026 Publication of the second draft",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-11/secondary.html",
+    "sha256": "9ae1bf6c83a424d8964bfcd3731eadf13b570368a9cfb62ca2b93d6ec9392281",
+    "locator": "opinion page",
+    "quote": "Publication 09 July 2026",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-11/secondary.html",
+    "sha256": "9ae1bf6c83a424d8964bfcd3731eadf13b570368a9cfb62ca2b93d6ec9392281",
+    "locator": "opinion page",
+    "quote": "The following day, the AI Board adopted its Adequacy Assessment code.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-17/official.html",
+    "sha256": "2e9d3af6eebbe314184572cbd04644c9ce149e9ee1b95465a288e0eeb3ccebab",
+    "locator": "Code of Practice",
+    "quote": "By contrast, providers and deployers that decide to comply through other means will have to demonstrate that those measures are adequate.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-17/official.html",
+    "sha256": "2e9d3af6eebbe314184572cbd04644c9ce149e9ee1b95465a288e0eeb3ccebab",
+    "locator": "Code of Practice",
+    "quote": "By the end of July 2026, about 190 companies organisations have signed the code.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-17/official.html",
+    "sha256": "2e9d3af6eebbe314184572cbd04644c9ce149e9ee1b95465a288e0eeb3ccebab",
+    "locator": "Dig deeper",
+    "quote": "Two signatory task forces on Marking & Detection and Labelling ensure the application of the Code of",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-11/secondary.html",
+    "sha256": "9ae1bf6c83a424d8964bfcd3731eadf13b570368a9cfb62ca2b93d6ec9392281",
+    "locator": "opinion page",
+    "quote": "The AI Office will consider facilitating formal updates to the code at least every two years",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-16/2026-10-17/official.html",
+    "sha256": "2e9d3af6eebbe314184572cbd04644c9ce149e9ee1b95465a288e0eeb3ccebab",
+    "locator": "Code of Practice",
+    "quote": "The code is complemented by the guidelines on the scope of the transparency obligations laid down in Article 50 of the AI Act.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "issuing_body": "the field names the institution that issued the code, the Commission's AI Office, which facilitated it; who drafted it and the adequacy assessment are facts for the notes",
+   "date_last_updated": "8 July 2026 is the Commission's adequacy conclusion, not a new version of the code; no stored source shows a revised code, so the field is cleared and the assessment stays in the notes",
+   "summary": "the marking techniques (signed metadata, watermarking), the detection and compliance commitments and the deployers' rules now come from the code's own text; reliance on the code to demonstrate compliance added from the policy page",
+   "notes": "the AI Board's adequacy assessment is dated to the day after the Commission's 8 July 2026 conclusion, as the opinion page says (version 1 put it after the 9 July publication); working groups, the duty of non-signatories, the signatory task forces and the update cycle added from the stored pages",
+   "verification.note": "rewritten for the files stored and read"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "legal_force"
+  ],
+  "status_reasoning": "The final code was published on 10 June 2026 and assessed as adequate on 8 and 9 July 2026. The policy page, last updated on 12 October 2026, presents it as the current voluntary code with signatories and task forces; no withdrawal or replacement is shown. 'Published (non-binding, current)' stands.",
+  "scope_reasoning": "A voluntary code of practice under the AI Act, assessed as adequate by the Commission; in scope with no note."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

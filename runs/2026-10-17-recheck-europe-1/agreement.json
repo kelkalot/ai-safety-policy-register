@@ -1,0 +1,129 @@
+{
+ "run_id": "2026-10-17-recheck-europe-1",
+ "generated": "2026-10-17",
+ "compared": 5,
+ "pending": [],
+ "overall_field_agreement": 0.0,
+ "fields": {
+  "decision": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "title": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "original_title": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "issuing_body": {
+   "compared": 1,
+   "agree": 0,
+   "rate": 0.0
+  },
+  "official_identifier": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_published": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_in_force": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_last_updated": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "status": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "legal_force": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "instrument_type": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "jurisdiction_level": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "region": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "country": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "safety_topics": {
+   "compared": 3,
+   "agree": 0,
+   "rate": 0.0
+  }
+ },
+ "disagreements": {
+  "COE-03": [],
+  "EU-06": [
+   {
+    "field": "safety_topics",
+    "first": [
+     "prohibited practices",
+     "public-sector use"
+    ],
+    "blind": null
+   }
+  ],
+  "EU-07": [
+   {
+    "field": "safety_topics",
+    "first": [
+     "risk-based classification",
+     "prohibited practices"
+    ],
+    "blind": null
+   }
+  ],
+  "EU-20": [],
+  "NATO-01": [
+   {
+    "field": "issuing_body",
+    "first": "NATO",
+    "blind": null
+   },
+   {
+    "field": "safety_topics",
+    "first": [
+     "national security & military",
+     "evaluation & testing",
+     "accountability & liability",
+     "general-purpose / frontier AI",
+     "deepfakes & synthetic media",
+     "international cooperation"
+    ],
+    "blind": null
+   }
+  ]
+ },
+ "resulting_record_agreement": 0.981,
+ "resulting_record_fields": 53
+}

@@ -1,0 +1,61 @@
+{
+ "cand_id": "EU-02",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "EUR-Lex document information gives 'C/2024/390 OJ C, C/2024/1459, 14.2.2024'; replaces the earlier 'reported as C(2024) 390'."
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported",
+   "why": "null; EUR-Lex shows no amendment."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Article 3(1)(a): tools, methodologies and benchmarks for evaluating general-purpose AI models with systemic risks",
+   "verdict": "supported",
+   "locator": "Article 3(1)(a)"
+  },
+  {
+   "claim": "Article 3(2)(h): secretariat for the AI Board and its subgroups",
+   "verdict": "supported",
+   "locator": "Article 3(2)(h)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": "Mandate of the AI Office, the EU body that enforces the AI Act."
+ },
+ "overall": "accept",
+ "note": "Decision text (EUR-Lex) supports title, date, entry into force on 21 February 2024, identifiers, legal force and the summary. The notes' staffing and enforcement-powers statements rest on the Commission's AI Office page of 8 September 2026 (official). Version 1's remarks on the Digital Omnibus were rightly removed. No amendment or replacement found."
+}

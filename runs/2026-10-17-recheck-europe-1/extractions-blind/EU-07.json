@@ -1,0 +1,69 @@
+{
+ "cand_id": "EU-07",
+ "decision": "update",
+ "target_id": "EU-07",
+ "record": {},
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/EU-07/2026-10-11/official.html",
+    "sha256": "b9e8cf5f88adfb3ae501728a1c9d732f730f5d5037820305d13eb25e49572795",
+    "locator": "Downloads",
+    "quote": "Guidelines on the definition of an artificial intelligence system established by Regulation (EU) 20241689 (AI Act) (English)",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/EU-07/2026-10-11/official.html",
+    "sha256": "b9e8cf5f88adfb3ae501728a1c9d732f730f5d5037820305d13eb25e49572795",
+    "locator": "page header",
+    "quote": "Publication 06 February 2025",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/EU-07/2026-10-11/official.html",
+    "sha256": "b9e8cf5f88adfb3ae501728a1c9d732f730f5d5037820305d13eb25e49572795",
+    "locator": "page footer",
+    "quote": "8 April 2026",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/EU-07/2026-10-11/official.html",
+    "sha256": "b9e8cf5f88adfb3ae501728a1c9d732f730f5d5037820305d13eb25e49572795",
+    "locator": "body",
+    "quote": "The guidelines on the AI system definition are not binding.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/EU-07/2026-10-11/official.html",
+    "sha256": "b9e8cf5f88adfb3ae501728a1c9d732f730f5d5037820305d13eb25e49572795",
+    "locator": "body",
+    "quote": "The guidelines on the AI system definition are not binding.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {},
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "date_last_updated",
+   "legal_force"
+  ],
+  "status_reasoning": "Page of 11 Oct and its 17 Oct PDF copy are identical in text; guidelines still offered as current, with a last-update date of 8 April 2026 and no stated replacement."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}

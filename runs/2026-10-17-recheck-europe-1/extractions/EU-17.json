@@ -1,0 +1,433 @@
+{
+ "cand_id": "EU-17",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "EU-17",
+ "record": {
+  "secondary_url": "https://data.consilium.europa.eu/doc/document/ST-11711-2026-INIT/en/pdf",
+  "date_last_updated": null,
+  "summary": "A Commission communication on the risks and opportunities of advanced AI for cybersecurity: AI can help detect vulnerabilities and prevent attacks, but it can be misused to automate attacks and find weaknesses at unprecedented speed and scale. To promote the safe use of advanced AI, the Commission will strengthen EU capacity to evaluate AI models before they are placed on the market, in line with the AI Act, with third-party assessment of capabilities and risks that supports the AI Office; define with ENISA a European blueprint for structured access to advanced AI for cybersecurity; and create with ENISA and the JRC a secure platform to test AI for critical sectors.",
+  "safety_topics": [
+   "general-purpose / frontier AI",
+   "evaluation & testing",
+   "critical infrastructure",
+   "national security & military",
+   "international cooperation"
+  ],
+  "notes": "Adopted at Strasbourg on 7 July 2026 and sent to the Council on 8 July 2026 (Council document 11711/26). The plan has three objectives: promoting the safe and responsible use of advanced AI, reinforcing the EU's cybersecurity and resilience, and scaling up Europe's AI capabilities for cybersecurity; the communication sets them out as three pillars, followed by work with like-minded partners. It promotes the implementation of the NIS2 Directive and the Cyber Resilience Act, encourages organisations to use AI, including open-source models, to find and fix vulnerabilities, and has ENISA provide guidance and a campaign to secure critical open source software. The Commission will launch an EU Grand Challenge on AI for cybersecurity. Its nine key actions include the EU evaluation capacity for AI models (2027), the access Blueprint and the testing platform (Q4 2026), ENISA guidance on protection against AI-powered threats (from Q3 2026), a pilot Critical Open Source Resilience Campaign (Q4 2026), the Grand Challenge (Q4 2026) and training modules for cybersecurity professionals (Q4 2026). The Blueprint will not introduce new obligations for providers, the evaluation capacity will not be a conformity assessment body, and the testing platform is for testing AI for cyber resilience, not for evaluating general-purpose AI models for compliance with the AI Act. The Commission will set up a working group with ENISA, the European Defence Agency and the Member States on the security risks of frontier AI in defence and dual-use critical systems. Internationally, it will work in the G7 and the UN, with the Network of Advanced AI Measurement, Evaluation and Science, and with NATO, and it will regularly assess the plan's implementation. The plan builds on the AI Act, the Cyber Resilience Act, the NIS2 Directive, the Digital Operational Resilience Act and the Cyber Solidarity Act.",
+  "verification": {
+   "note": "Stored and read: the Commission's library page for the action plan on digital-strategy.ec.europa.eu (and its printable version), which gives the title, publication on 7 July 2026, the three objectives and the main actions; the Commission's news article of 7 July 2026, which gives the key actions; and, stored in this run, the communication's full text, COM(2026) 577 final, in the Council register copy (document 11711/26, cover note of 9 July 2026, 14 pages), proposed as secondary_url, which gives the title, 'Strasbourg, 7.7.2026', the number and the content. No stored source shows a withdrawal or replacement."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/EU-17/2026-10-11/official.html",
+    "sha256": "3210b734a5abc2fb65a64c7c314aaf8a8d2c043eaf7966228d95451685defa7c",
+    "locator": "page heading",
+    "quote": "EU Action Plan on Cybersecurity and Artificial Intelligence",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-17/2026-10-11/official.html",
+    "sha256": "3210b734a5abc2fb65a64c7c314aaf8a8d2c043eaf7966228d95451685defa7c",
+    "locator": "introduction",
+    "quote": "The European Commission has presented an Action Plan on Cybersecurity and Artificial Intelligence to support the safe and responsible use of AI while strengthening Europe's cybersecurity.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 2",
+    "quote": "Action Plan on Cybersecurity and Artificial Intelligence",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/EU-17/2026-10-11/official.html",
+    "sha256": "3210b734a5abc2fb65a64c7c314aaf8a8d2c043eaf7966228d95451685defa7c",
+    "locator": "publication line",
+    "quote": "Publication 07 July 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-17/2026-10-11/secondary.html",
+    "sha256": "746fa0128a52d133029bddc0662181b5f9b3c3a597ea331a06f5163a7880c67b",
+    "locator": "news article",
+    "quote": "Publication date 7 July 2026",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 2",
+    "quote": "Strasbourg, 7.7.2026 COM(2026) 577 final",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/EU-17/2026-10-11/official.html",
+    "sha256": "3210b734a5abc2fb65a64c7c314aaf8a8d2c043eaf7966228d95451685defa7c",
+    "locator": "introduction",
+    "quote": "The European Commission has presented an Action Plan on Cybersecurity and Artificial Intelligence",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-17/2026-10-11/official.html",
+    "sha256": "3210b734a5abc2fb65a64c7c314aaf8a8d2c043eaf7966228d95451685defa7c",
+    "locator": "Downloads",
+    "quote": "You can download the Action Plan below.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 14, Conclusion",
+    "quote": "the Commission will regularly assess the impleme ntation of the Action Plan and adapt actions where necessary",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/EU-17/2026-10-11/official.html",
+    "sha256": "3210b734a5abc2fb65a64c7c314aaf8a8d2c043eaf7966228d95451685defa7c",
+    "locator": "introduction",
+    "quote": "The European Commission has presented an Action Plan on Cybersecurity and Artificial Intelligence",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 2",
+    "quote": "EUROPEAN COMMISSION Strasbourg, 7.7.2026 COM(2026) 577 final COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/EU-17/2026-10-11/official.html",
+    "sha256": "3210b734a5abc2fb65a64c7c314aaf8a8d2c043eaf7966228d95451685defa7c",
+    "locator": "body",
+    "quote": "Building on the EU's existing legal framework on AI and cybersecurity, the Action Plan sets out a coordinated approach",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 4",
+    "quote": "This Action Plan provides an initial and targeted response to support Member States and organisations in the Union to address this new reality.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/EU-17/2026-10-11/official.html",
+    "sha256": "3210b734a5abc2fb65a64c7c314aaf8a8d2c043eaf7966228d95451685defa7c",
+    "locator": "body",
+    "quote": "At the same time, it can also be exploited by malicious actors to automate attacks, identify weaknesses and carry out cyber operations at unprecedented speed and scale.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-17/2026-10-11/official.html",
+    "sha256": "3210b734a5abc2fb65a64c7c314aaf8a8d2c043eaf7966228d95451685defa7c",
+    "locator": "body",
+    "quote": "To promote the safe use of advanced AI, the Commission will strengthen Europe's capacity to evaluate AI models before they are placed on the EU market, in line with the AI Act.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-17/2026-10-11/secondary.html",
+    "sha256": "746fa0128a52d133029bddc0662181b5f9b3c3a597ea331a06f5163a7880c67b",
+    "locator": "Key actions",
+    "quote": "The Commission will help establish an EU evaluation capacity to strengthen third-party assessment of AI capabilities and risks globally, supporting the regulatory function of the AI Office.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-17/2026-10-11/secondary.html",
+    "sha256": "746fa0128a52d133029bddc0662181b5f9b3c3a597ea331a06f5163a7880c67b",
+    "locator": "Key actions",
+    "quote": "The Commission will work with the EU Agency for Cybersecurity to define a European blueprint for structured access to advanced AI capabilities for cybersecurity",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-17/2026-10-11/secondary.html",
+    "sha256": "746fa0128a52d133029bddc0662181b5f9b3c3a597ea331a06f5163a7880c67b",
+    "locator": "Key actions",
+    "quote": "The EU Agency for Cybersecurity and the Commission’s Joint Research Centre will create a secure platform to test AI for cybersecurity, including using simulated environments.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-17/2026-10-11/official.html",
+    "sha256": "3210b734a5abc2fb65a64c7c314aaf8a8d2c043eaf7966228d95451685defa7c",
+    "locator": "body",
+    "quote": "establish a secure testing platform to help organisations in critical sectors, such as energy, transport, health, finance and public administration, safely test and deploy AI solutions.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 7, key actions",
+    "quote": "Key Action 1 – The Commission will support the establishment of an EU evaluation capacity for AI models that must include cybersecurity (2027).",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 5",
+    "quote": "by providing a European choice for third-party evaluations of AI models and their mitigation measures",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 7, key actions",
+    "quote": "Key Action 2 – The Commission in coordination with ENISA will define a European Blueprint for structured access to advanced AI capabilities for cybersecurity purposes",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 7, key actions",
+    "quote": "Key Action 3 - ENISA and the Joint Research Centre of the European Commission (JRC) will develop a secure testing platform for AI with advanced cyber capabilities",
+    "source_kind": "alt-official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 2",
+    "quote": "Strasbourg, 7.7.2026 COM(2026) 577 final",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 1 (cover note)",
+    "quote": "date of receipt: 8 July 2026",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-17/2026-10-11/official.html",
+    "sha256": "3210b734a5abc2fb65a64c7c314aaf8a8d2c043eaf7966228d95451685defa7c",
+    "locator": "objectives",
+    "quote": "Promoting the safe and responsible use of advanced AI",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-17/2026-10-11/official.html",
+    "sha256": "3210b734a5abc2fb65a64c7c314aaf8a8d2c043eaf7966228d95451685defa7c",
+    "locator": "objectives",
+    "quote": "Reinforcing the EU's cybersecurity and resilience",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-17/2026-10-11/official.html",
+    "sha256": "3210b734a5abc2fb65a64c7c314aaf8a8d2c043eaf7966228d95451685defa7c",
+    "locator": "objectives",
+    "quote": "Scaling up Europe's AI capabilities for cybersecurity",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-17/2026-10-11/official.html",
+    "sha256": "3210b734a5abc2fb65a64c7c314aaf8a8d2c043eaf7966228d95451685defa7c",
+    "locator": "body",
+    "quote": "The Action Plan also reinforces the EU's cybersecurity by promoting the implementation of existing EU cybersecurity legislation, including the NIS2 Directive and the Cyber Resilience Act.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-17/2026-10-11/secondary.html",
+    "sha256": "746fa0128a52d133029bddc0662181b5f9b3c3a597ea331a06f5163a7880c67b",
+    "locator": "Key actions",
+    "quote": "EU Agency for Cybersecurity will assist them in this transition, including guidance, recommendations, and best practices, as well as a campaign to secure critical open source software.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-17/2026-10-11/official.html",
+    "sha256": "3210b734a5abc2fb65a64c7c314aaf8a8d2c043eaf7966228d95451685defa7c",
+    "locator": "body",
+    "quote": "the Commission will launch an EU Grand Challenge on AI for cybersecurity",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-17/2026-10-11/official.html",
+    "sha256": "3210b734a5abc2fb65a64c7c314aaf8a8d2c043eaf7966228d95451685defa7c",
+    "locator": "body",
+    "quote": "including the AI Act, the Cyber Resilience Act, the NIS2 Directive, the Digital Operational Resilience Act (DORA) and the Cyber Solidarity Act.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 4",
+    "quote": "Pillar 1: M aking frontier AI safe, accessible and deployable for European cybersecurity",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 8",
+    "quote": "Pillar 2: Preparing the EU’s cyber ecosystem for the age of AI",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 11",
+    "quote": "Pillar 3: Scaling European AI capabilities for cyber",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 13",
+    "quote": "Working with like-minded partners towards a global approach to cybersecurity",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 10, key actions",
+    "quote": "Key Action 4 – ENISA in cooperation with relevant Union entities will issue guidance, recommendations, advisories and best practices on the protection against AI - powered threats",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 10, key actions",
+    "quote": "will launch a first pilot of a Critical Open Source Resilience Campaign to accelerate patching including by leveraging AI (Q4 2026)",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 13, key actions",
+    "quote": "will launch an EU Grand Challenge to help scale European AI-powered cybersecurity solutions (Q4 2026)",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 13, key actions",
+    "quote": "to develop training modules for cybersecurity professionals on the use of AI for cybersecurity (Q4 2026).",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 6",
+    "quote": "While it will not introduce new obligations for providers",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 6, footnote 20",
+    "quote": "The capacity will not be a conformity assessment body and it will only support compliance through its evaluations.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 7",
+    "quote": "not aimed to evaluate general-purpose AI models for compliance with the AI Act",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 12",
+    "quote": "the Commission will establish a dedicated working group with relevant agencies, including ENISA and the European Defence Agency (EDA), and the Member States to address the security risks",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 13",
+    "quote": "linked to the deployment of frontier AI models in defence and dual-use critical systems.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 14",
+    "quote": "It will continue to actively engage in the G7 to promote its approach",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 14",
+    "quote": "The EU will also continue engaging in the UN.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 14",
+    "quote": "the Network of Advanced AI Measurement, Evaluation and Science, coordinated by the UK AISI",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 14",
+    "quote": "the EU will strengthen existing exchanges with NATO on opportunities and risks associated with frontier AI capabilities in the cyber domain",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 14",
+    "quote": "Finally, given the mentioned implications for European and national security",
+    "source_kind": "alt-official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 2",
+    "quote": "Strasbourg, 7.7.2026 COM(2026) 577 final",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-17/extra-f83a23cf94/2026-10-17/official.pdf",
+    "sha256": "e71d04fcb48be9ef30b5e103432d5b31b350404380b094f5defd8a0f5f836838",
+    "locator": "page 1 (cover note)",
+    "quote": "Delegations will find attached document COM(2026) 577 final.",
+    "source_kind": "alt-official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "secondary_url": "the Council register copy of COM(2026) 577 final (document 11711/26, cover note of 9 July 2026), the communication's full text on an official host, stored in this run; the news article is not the text, and the action plan's download link on the library page is under ec.europa.eu/newsroom/dae/, which robots.txt disallows",
+   "date_last_updated": "10 July 2026 is the library page's 'Last update', a web page edit, not a new version of the communication",
+   "summary": "rewritten from the stored pages: the risk framing, pre-market evaluation in line with the AI Act and its third-party evaluation capacity, the access blueprint 'for cybersecurity' (version 1 said 'for cyber defence') and the testing platform for critical sectors",
+   "safety_topics": "'international cooperation' added (section 5 of the communication: the G7, the UN, the Network of Advanced AI Measurement, Evaluation and Science, NATO); 'national security & military' kept: the communication, now stored, names 'implications for European and national security' and a working group with the European Defence Agency on frontier AI in defence (pass 1 had dropped it on the strength of the web pages alone)",
+   "notes": "the reasons for including the plan and for excluding two other Commission strategies are the register's scope decisions (pipeline/scope-decisions.md), not facts about the instrument, and are removed; 'Strasbourg' now comes from the communication's title page ('Strasbourg, 7.7.2026'); objectives and other actions added from the stored pages; transmission to the Council, the pillars, the dated key actions, what the Blueprint, the evaluation capacity and the testing platform are not, the defence working group and the international work added from the communication's text",
+   "verification.note": "rewritten for the files stored and read"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force",
+   "official_identifier"
+  ],
+  "status_reasoning": "A Commission communication adopted at Strasbourg on 7 July 2026 and sent to the Council on 8 July 2026. It says the Commission will regularly assess its implementation; the library page still offers it, and no stored source shows a withdrawal or replacement. 'Published (non-binding, current)' stands.",
+  "scope_reasoning": "Recorded precedent in pipeline/scope-decisions.md: in, because its main focus is risks from advanced AI and pre-market model evaluation; no scope_note."
+ },
+ "extra_urls": [
+  {
+   "url": "https://data.consilium.europa.eu/doc/document/ST-11711-2026-INIT/en/pdf",
+   "reason": "Council register copy of the communication COM(2026) 577 final (cover note 11711/26 of 9 July 2026, title page 'Strasbourg, 7.7.2026'), the full text on an official host: confirms the identifier, the date and place, and the content; proposed as secondary_url. The download link on the Commission's library page (ec.europa.eu/newsroom/dae/redirection/document/130848) is under a robots.txt Disallow (/newsroom/dae/) and is not requested (stored in this run)"
+  }
+ ],
+ "leads": [],
+ "open_questions": []
+}

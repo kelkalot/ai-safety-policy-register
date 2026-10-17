@@ -1,0 +1,238 @@
+{
+ "cand_id": "EU-15",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "EU-15",
+ "record": {
+  "title": "Report from the Commission to the European Parliament and the Council: Report adopted pursuant to Article 112(1) of Regulation (EU) 2024/1689 on the need to review the list of prohibited AI practices and of high-risk AI systems listed in Annex III",
+  "summary": "The Commission's first report under Article 112(1) of the AI Act on whether the list of prohibited AI practices in Article 5 and the high-risk use cases in Annex III need to be amended. Drawing on consultation of Member States through the AI Board, a multi-stakeholder consultation and an analysis of AI incident databases, it identifies a potential regulatory gap for AI systems generating child sexual abuse material and non-consensual intimate content, which Article 5 does not prohibit. It flags other systems for monitoring, among them emotion recognition, AI companions and mental-health chatbots, and political disinformation.",
+  "notes": "Adopted on 20 May 2026 and addressed to the European Parliament and the Council. It does not review the list of areas in Annex III, which Article 112(2) requires by 2 August 2028. The report finds its assessment limited: when it was adopted, the rules on enforcing the prohibitions applied only from 2 August 2026, national competent authorities were still being designated and the Commission's guidelines on the classification of high-risk AI systems were still in preparation. It refers to the Commission's proposal for a Digital Omnibus on AI, which would tie the start of the high-risk rules to the availability of standards and support tools, no later than 2 December 2027 for Annex III systems. The next assessment under Article 112 is due in 2026. A summary of the report by Portugal's Agency for Technological Reform of the State says that the political agreement of 7 May 2026 between the Commission and the European Parliament on the AI Omnibus introduced a specific prohibition of AI systems generating non-consensual intimate content or child sexual abuse material into the AI Act.",
+  "related": [
+   "EU-03",
+   "EU-18",
+   "EU-06",
+   "EU-14"
+  ],
+  "verification": {
+   "note": "Re-read in the recheck of 17 Oct 2026: the EUR-Lex HTML of COM(2026) 234 final (official, stored 11 Oct 2026) is the report's own full text; it confirms the title, the date (Brussels, 20.5.2026), the Article 112(1) basis, the methodology and the findings. The same EUR-Lex file is also stored as a source of EU-14 and EU-06. Stored in this run: a news item of 5 June 2026 by ARTE, the Portuguese Agency for Technological Reform of the State (digital.gov.pt), which summarises the report and reports the 7 May 2026 AI Omnibus agreement adding a prohibition of systems generating non-consensual intimate content or CSAM. That item says the report refers to the agreement, but the stored EUR-Lex text mentions the Digital Omnibus only as a proposal still under negotiation. Version 1's summary said the report concludes there is no immediate need to amend Article 5 or Annex III; the report uses that wording only for emotion recognition, and the summary now follows its conclusions. Version 1's date of 2 Dec 2026 for the new prohibition is not in this record's stored files and was removed."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "cover page",
+    "quote": "REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL REPORT ADOPTED PURSUANT TO ARTICLE 112(1) OF REGULATION (EU) 2024/1689 ON THE NEED TO REVIEW THE LIST OF PROHIBITED AI PRACTICES AND OF HIGH-RISK AI SYSTEMS LISTED IN ANNEX III",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "cover page",
+    "quote": "Brussels, 20.5.2026 COM(2026) 234 final",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "cover page",
+    "quote": "Brussels, 20.5.2026 COM(2026) 234 final",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "Conclusion, paragraph 60",
+    "quote": "This report is prepared by the Commission and addressed to the European Parliament and the Council to fulfil the Commission’s obligations as set out in the Article 112(1) AI Act.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "section 1, paragraph 5",
+    "quote": "This is the first report adopted under that provision.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-15/extra-62276442b7/2026-10-17/official.html",
+    "sha256": "2d290c0a7d39fbecdf2b6b6364e7406d9c85f1f858a5a5f4789437c7a128ee49",
+    "locator": "In Detail",
+    "quote": "The European Commission has published the annual report required by Article 112(1) of the AI Act.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "cover page",
+    "quote": "EUROPEAN COMMISSION Brussels, 20.5.2026",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "Conclusion, paragraph 60",
+    "quote": "The findings set out in this report are submitted for the consideration of these institutions.",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "section 1, paragraph 5",
+    "quote": "Its objective is to assess whether there is a need to amend the list of use cases set out in Annex III and the list of prohibited AI practices laid down in Article 5 AI Act",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "section 2.2, paragraph 24",
+    "quote": "Engagement with the AI Board and consultation with Member States and national competent authorities",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "section 2.2, paragraph 24",
+    "quote": "A multi-stakeholder consultation was conducted to collect feedback and perspectives from a broad range of stakeholders",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "section 2.2, paragraph 24",
+    "quote": "Empirical research: analysing AI incident databases",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "Conclusion, paragraph 61",
+    "quote": "the Commission notes and further analyse a potential regulatory gap regarding AI systems generating CSAM and non-consensual intimate content, which are not prohibited by Article 5 AI Act",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "section 3.2, paragraph 43",
+    "quote": "However, this area is flagged for further consideration.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "section 3.2, paragraph 46",
+    "quote": "in light of the increasing proliferation of AI companions and AI mental support chatbots, the Commission considers it important to closely monitor their development",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "section 3.3, paragraph 59",
+    "quote": "The analysis led to the identification of the following areas flagged for further monitoring and data collection: A significant number of incidents involved political disinformation campaigns",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "section 1, paragraph 5",
+    "quote": "The review of the list of areas covered by Annex III falls outside the scope of this report, as the Commission is only required to conduct that review by 2 August 2028, in accordance with Article 112(2) AI Act.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "section 1, paragraph 7",
+    "quote": "the rules on the enforcement of that chapter will only apply as from 2 August 2026 and the national competent authorities are still in the process of being designated",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "section 1, paragraph 7",
+    "quote": "guidelines on the classification of high-risk AI systems are still under preparation",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "footnote 2",
+    "quote": "The Commission proposed in the Digital Omnibus on AI to align the timeline for the high-risk AI rules to the availability of standards and other support tools.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "footnote 2",
+    "quote": "the rules will start to apply after a 6-month transition period for high-risk AI systems in Annex III and in any case no later than 2 December 2027",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-15/2026-10-11/official.html",
+    "sha256": "ed28717485c2ffa078c6cd7688bd24231f54456cb4dac5f9af8ad125e76e93c9",
+    "locator": "Conclusion, paragraph 63",
+    "quote": "The next assessment of the Commission pursuant to Article 112 AI Act is therefore due in 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-15/extra-62276442b7/2026-10-17/official.html",
+    "sha256": "2d290c0a7d39fbecdf2b6b6364e7406d9c85f1f858a5a5f4789437c7a128ee49",
+    "locator": "In Detail",
+    "quote": "the political agreement reached on 7 May 2026 between the Commission and the European Parliament as part of the simplified 'AI Omnibus' legislative package, which introduced a specific prohibition on these systems into the text of the Regulation",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-15/extra-62276442b7/2026-10-17/official.html",
+    "sha256": "2d290c0a7d39fbecdf2b6b6364e7406d9c85f1f858a5a5f4789437c7a128ee49",
+    "locator": "In Detail",
+    "quote": "The report identifies a potential regulatory gap concerning AI systems that generate non-consensual intimate content or child sexual abuse material.",
+    "source_kind": "alt-official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "title": "the report's own title from its cover page: version 1 left out 'Report adopted pursuant to Article 112(1) of Regulation (EU) 2024/1689'",
+   "summary": "rewritten to follow the report's conclusions: it notes a potential gap for CSAM and non-consensual intimate content and flags other systems for monitoring; 'no immediate need to amend' is the report's wording for emotion recognition only; the methodology added",
+   "notes": "rewritten from the report; the Digital Omnibus prohibition date (2 Dec 2026) removed; the report's own account of the Omnibus proposal added, and the 7 May 2026 agreement adding the prohibition from the Portuguese government agency's summary",
+   "related": "EU-14 added: the report refers to the forthcoming high-risk classification guidelines",
+   "verification.note": "rewritten for this recheck"
+  },
+  "confirmed": [
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force",
+   "official_identifier"
+  ],
+  "status_reasoning": "A Commission report adopted on 20 May 2026 and submitted to the European Parliament and the Council; a report does not lapse, and no corrigendum or replacement is shown. The next annual report under Article 112(1) would be a separate instrument. 'Published (non-binding, current)' stands.",
+  "scope_reasoning": "A Commission report required by the AI Act on prohibited practices and high-risk use cases; in scope with no note.",
+  "date_reasoning": "The cover page gives Brussels, 20.5.2026."
+ },
+ "extra_urls": [
+  {
+   "url": "https://digital.gov.pt/en/noticias/comissao-europeia-publica-relatorio-anual-sobre-a-revisao-das-proibicoes-e-dos-sistemas-de-ia-de-risco-elevado",
+   "reason": "news item of 5 June 2026 by ARTE, the Portuguese Agency for Technological Reform of the State (digitalGOV portal), on this report: it reports that the political agreement of 7 May 2026 on the AI Omnibus introduced a specific prohibition of AI systems generating non-consensual intimate content or CSAM, the gap the report identified; another official source for the follow-up in notes"
+  }
+ ],
+ "leads": [],
+ "open_questions": [
+  "The Portuguese agency's summary says the report refers to the 7 May 2026 AI Omnibus agreement, but the stored EUR-Lex text (generated 20 May 2026) mentions the Omnibus only as a proposal under negotiation; is there a later version of the report's text?",
+  "The same summary gives a Commission page for the report, https://digital-strategy.ec.europa.eu/en/policies/report-review-prohibitions-and-high-risk-ai, which is not stored; a later run could store it as secondary_url.",
+  "Version 1's notes said the new Article 5 prohibition from the Digital Omnibus applies from 2 Dec 2026; that date is in EU-18's sources, not in this record's stored files."
+ ]
+}

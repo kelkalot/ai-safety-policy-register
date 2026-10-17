@@ -1,0 +1,247 @@
+{
+ "cand_id": "EU-12",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "EU-12",
+ "record": {
+  "summary": "An explanatory notice and template adopted by the Commission for the public summary of training content that providers of general-purpose AI models must publish under Article 53(1)(d) of the AI Act, where using the template is mandatory. It sets a common minimal baseline in three sections: general information on the model and its training content, a list of data sources such as public and private datasets, scraped online data, user data and synthetic data, and data processing aspects relevant to rights such as copyright. The summary helps parties with legitimate interests, including copyright holders, exercise their rights under Union law.",
+  "secondary_url": "https://digital-strategy.ec.europa.eu/en/faqs/template-general-purpose-ai-model-providers-summarise-their-training-content",
+  "notes": "Published on 24 July 2025. The notice and template are published in all 24 official EU languages, and the template is also offered in English as an editable document for providers to complete. Providers must also disclose, among other things, the top 10% of internet domains scraped (top 5% or 1,000 domains for SMEs), and update the summary every six months or sooner when further training requires a materially significant update. The obligation applies from 2 August 2025, and by 2 August 2027 for models placed on the market before that date; failure to publish can lead to enforcement by the AI Office from 2 August 2026, with fines of up to 3% of annual worldwide turnover or EUR 15 million, whichever is higher. The template complements the guidelines for providers of general-purpose AI models and the General-Purpose AI Code of Practice. The Commission's page for the notice and template shows a last update of 26 March 2026.",
+  "verification": {
+   "note": "Re-read in the recheck of 17 Oct 2026: the Commission library page (official, stored 11 Oct 2026) confirms the title, publication on 24 July 2025, the template's aim, the 24 language versions and a last update of 26 March 2026. Stored in this run: the Commission's Q&A on the template (last update 26 March 2026; proposed as secondary_url), which states that using the template is mandatory under Article 53(1)(d) and describes its sections, the copyright purpose, updating and enforcement; and the Commission's press release of 24 July 2025, which says the Commission adopted the template and that it assists copyright holders. The notice and template themselves are offered only through ec.europa.eu/newsroom/dae/, which ec.europa.eu's robots.txt disallows, so they are not stored. Version 1's statements that the template is required under Article 53(1)(d) of the AI Act and supports the exercise of copyright and other rights are not shown in the library page; the Q&A and the press release state them."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/EU-12/2026-10-11/official.html",
+    "sha256": "9de1c6a5f64bc28fcf6596d73373ce39ef116b9382802d789f3779b328173c97",
+    "locator": "page heading",
+    "quote": "Explanatory Notice and Template for the Public Summary of Training Content for general-purpose AI models",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-12/2026-10-11/official.html",
+    "sha256": "9de1c6a5f64bc28fcf6596d73373ce39ef116b9382802d789f3779b328173c97",
+    "locator": "Downloads",
+    "quote": "1 - Explanatory Notice and Template for the Public Summary of Training Content for general-purpose AI models - English (PDF)",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/EU-12/2026-10-11/official.html",
+    "sha256": "9de1c6a5f64bc28fcf6596d73373ce39ef116b9382802d789f3779b328173c97",
+    "locator": "page header",
+    "quote": "POLICY AND LEGISLATION Publication 24 July 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-12/extra-17dbdecb4a/2026-10-17/official.html",
+    "sha256": "7c3880ca8ed07ff6ca65f46cf76ee0d0778d83372cf9e2ff389b0c608e48a50b",
+    "locator": "press release header",
+    "quote": "PRESS RELEASE Publication 24 July 2025 The Commission has published a template to help General-Purpose AI (GPAI) providers summarise the content used to train their model.",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/EU-12/2026-10-11/official.html",
+    "sha256": "9de1c6a5f64bc28fcf6596d73373ce39ef116b9382802d789f3779b328173c97",
+    "locator": "introduction",
+    "quote": "The Template annexed to this Explanatory Notice aims to provide a common minimal baseline for the information to be made publicly available in the Summary of Training Content for general-purpose AI models.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-12/2026-10-11/official.html",
+    "sha256": "9de1c6a5f64bc28fcf6596d73373ce39ef116b9382802d789f3779b328173c97",
+    "locator": "introduction",
+    "quote": "Below, you can download the template and the explanatory note in all EU 24 official languages.",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/EU-12/2026-10-11/official.html",
+    "sha256": "9de1c6a5f64bc28fcf6596d73373ce39ef116b9382802d789f3779b328173c97",
+    "locator": "page footer",
+    "quote": "Last update 26 March 2026",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-12/extra-17dbdecb4a/2026-10-17/official.html",
+    "sha256": "7c3880ca8ed07ff6ca65f46cf76ee0d0778d83372cf9e2ff389b0c608e48a50b",
+    "locator": "press release",
+    "quote": "“Today’s template adopted by the Commission is another important step towards trustworthy and transparent AI.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-12/extra-a2245ee94f/2026-10-17/official.html",
+    "sha256": "75761e4077f9fc32dafe349eab3687010d4e31880e57f0d96ac60b7a1a3d51f7",
+    "locator": "How do these guidelines and the template support providers",
+    "quote": "Under Article 53(1)(d) of the AI Act, using the Template is mandatory.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-12/extra-a2245ee94f/2026-10-17/official.html",
+    "sha256": "75761e4077f9fc32dafe349eab3687010d4e31880e57f0d96ac60b7a1a3d51f7",
+    "locator": "Who is expected to publish a summary",
+    "quote": "Any provider of general-purpose AI models, including those with systemic risks, that places such models on the Union market is required to publish respective summaries.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-12/2026-10-11/official.html",
+    "sha256": "9de1c6a5f64bc28fcf6596d73373ce39ef116b9382802d789f3779b328173c97",
+    "locator": "introduction",
+    "quote": "The Template annexed to this Explanatory Notice aims to provide a common minimal baseline for the information to be made publicly available in the Summary of Training Content for general-purpose AI models.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-12/extra-a2245ee94f/2026-10-17/official.html",
+    "sha256": "75761e4077f9fc32dafe349eab3687010d4e31880e57f0d96ac60b7a1a3d51f7",
+    "locator": "What type of information should the summary contain?",
+    "quote": "The Template provides a uniform baseline for information to be publicly disclosed in the Summary, consisting of three main sections:",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-12/extra-a2245ee94f/2026-10-17/official.html",
+    "sha256": "75761e4077f9fc32dafe349eab3687010d4e31880e57f0d96ac60b7a1a3d51f7",
+    "locator": "What type of information should the summary contain?",
+    "quote": "such as publicly available datasets, private datasets, data scraped from online sources, user data and synthetic data",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-12/extra-a2245ee94f/2026-10-17/official.html",
+    "sha256": "75761e4077f9fc32dafe349eab3687010d4e31880e57f0d96ac60b7a1a3d51f7",
+    "locator": "What type of information should the summary contain?",
+    "quote": "This section requires information on certain data processing aspects important for exercising the rights of parties with legitimate interests under Union law, such as copyright",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-12/extra-17dbdecb4a/2026-10-17/official.html",
+    "sha256": "7c3880ca8ed07ff6ca65f46cf76ee0d0778d83372cf9e2ff389b0c608e48a50b",
+    "locator": "press release",
+    "quote": "This template will also assist parties with legitimate interests, such as copyright holders, in exercising their rights under Union law.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-12/2026-10-11/official.html",
+    "sha256": "9de1c6a5f64bc28fcf6596d73373ce39ef116b9382802d789f3779b328173c97",
+    "locator": "Downloads",
+    "quote": "2 - Template for the Public Summary of Training Content for General-Purpose AI models - English (DOC)",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/EU-12/2026-10-11/official.html",
+    "sha256": "9de1c6a5f64bc28fcf6596d73373ce39ef116b9382802d789f3779b328173c97",
+    "locator": "introduction",
+    "quote": "Below, you can download the template and the explanatory note in all EU 24 official languages.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-12/2026-10-11/official.html",
+    "sha256": "9de1c6a5f64bc28fcf6596d73373ce39ef116b9382802d789f3779b328173c97",
+    "locator": "Downloads",
+    "quote": "2 - Template for the Public Summary of Training Content for General-Purpose AI models - English (DOC)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-12/extra-a2245ee94f/2026-10-17/official.html",
+    "sha256": "75761e4077f9fc32dafe349eab3687010d4e31880e57f0d96ac60b7a1a3d51f7",
+    "locator": "How are copyright and intellectual property rights addressed?",
+    "quote": "a list the top 10% of all domains that have been scraped from the internet (for SMEs top 5% or 1000, whichever is lower)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-12/extra-a2245ee94f/2026-10-17/official.html",
+    "sha256": "75761e4077f9fc32dafe349eab3687010d4e31880e57f0d96ac60b7a1a3d51f7",
+    "locator": "Should the Summary be updated?",
+    "quote": "The Summary should be updated at six-month intervals, or sooner if the new data used for further training requires a materially significant update of the content of the Summary",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-12/extra-a2245ee94f/2026-10-17/official.html",
+    "sha256": "75761e4077f9fc32dafe349eab3687010d4e31880e57f0d96ac60b7a1a3d51f7",
+    "locator": "When will the obligation for the public summary start to apply?",
+    "quote": "The obligation to publish the summary becomes applicable as of 2 August 2025. For models placed on the market before this date, providers should take the necessary steps to make the corresponding summaries available no later than 2 August 2027.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-12/extra-a2245ee94f/2026-10-17/official.html",
+    "sha256": "75761e4077f9fc32dafe349eab3687010d4e31880e57f0d96ac60b7a1a3d51f7",
+    "locator": "What are the consequences if a provider fails to publish a summary?",
+    "quote": "Failure to provide this summary can lead to enforcement actions by the AI Office as of 2 August 2026. Non-compliance may result in fines of up to 3% of the provider's annual total worldwide turnover in the preceding financial year, or 15 000 000 Euros, whichever is higher.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-12/extra-17dbdecb4a/2026-10-17/official.html",
+    "sha256": "7c3880ca8ed07ff6ca65f46cf76ee0d0778d83372cf9e2ff389b0c608e48a50b",
+    "locator": "press release",
+    "quote": "It complements the guidelines on the scope of the rules for general-purpose AI models, published 18 July, and the General-Purpose AI Code of Practice released on 10 July.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-12/2026-10-11/official.html",
+    "sha256": "9de1c6a5f64bc28fcf6596d73373ce39ef116b9382802d789f3779b328173c97",
+    "locator": "page footer",
+    "quote": "Last update 26 March 2026",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-12/extra-17dbdecb4a/2026-10-17/official.html",
+    "sha256": "7c3880ca8ed07ff6ca65f46cf76ee0d0778d83372cf9e2ff389b0c608e48a50b",
+    "locator": "press release",
+    "quote": "The Commission has published a template to help General-Purpose AI (GPAI) providers summarise the content used to train their model.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-12/extra-a2245ee94f/2026-10-17/official.html",
+    "sha256": "75761e4077f9fc32dafe349eab3687010d4e31880e57f0d96ac60b7a1a3d51f7",
+    "locator": "consultation",
+    "quote": "Using this input, the AI Office drafted its preliminary approach to the Template",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "rewritten from the stored library page, the Commission's Q&A and press release: Article 53(1)(d) and the mandatory use of the template, its three sections and its purpose for rights holders",
+   "secondary_url": "version 1 had none; the Commission's Q&A on this template, which states its Article 53(1)(d) basis and contents, is proposed so that the local copy holds more than the download page (the notice itself cannot be stored)",
+   "notes": "rewritten from the stored Q&A and press release: domain disclosure, updating, application and enforcement dates, fines and the related instruments; version 1's sentence on the mandatory template moved into the summary with its source",
+   "verification.note": "rewritten for this recheck"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "date_last_updated"
+  ],
+  "status_reasoning": "Published on 24 July 2025 and still offered for download in 24 languages; no replacement or new version is shown. 'Published (non-binding, current)' stands.",
+  "scope_reasoning": "A Commission template and notice implementing a transparency obligation of the AI Act for general-purpose AI models; in scope with no note.",
+  "date_reasoning": "date_last_updated (2026-03-26) is the library page's last update; kept as published and raised in open_questions."
+ },
+ "extra_urls": [
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/faqs/template-general-purpose-ai-model-providers-summarise-their-training-content",
+   "reason": "the Commission's Q&A on the template (linked from the stored library page): states that using the template is mandatory under Article 53(1)(d) of the AI Act, its purpose for rights holders, and what the summary must contain; proposed as secondary_url, since the notice itself is offered only via ec.europa.eu/newsroom/dae/, which robots.txt disallows"
+  },
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/news/commission-presents-template-general-purpose-ai-model-providers-summarise-data-used-train-their",
+   "reason": "the Commission's news item of 24 July 2025 presenting the template (linked from the stored library page): a second official source for the date and for the template's purpose, including copyright holders' rights"
+  }
+ ],
+ "leads": [],
+ "open_questions": [
+  "legal_force is 'Non-binding' as in version 1 (instrument type 'Guidelines / framework'), but the Commission's Q&A says that using the template is mandatory under Article 53(1)(d) of the AI Act; should legal_force be 'Binding'?",
+  "date_last_updated (2026-03-26) is the last update of the Commission's library page and Q&A; it may mark added language versions or Q&A changes rather than a revised template. Has the template changed since 24 July 2025?",
+  "The notice and template are offered only through ec.europa.eu/newsroom/dae/, which ec.europa.eu's robots.txt disallows; they cannot be stored by the archiver, so the summary rests on the Commission's library page, Q&A and press release."
+ ]
+}

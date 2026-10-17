@@ -1,0 +1,49 @@
+{
+ "cand_id": "EU-20",
+ "decision": "update",
+ "target_id": "EU-20",
+ "record": {},
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/official.html",
+    "sha256": "f54a63e0a739de2f551a2974762e492852b85453c5c28b0282cc79928e19756e",
+    "locator": "heading",
+    "quote": "Ethics guidelines for trustworthy AI",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/official.html",
+    "sha256": "f54a63e0a739de2f551a2974762e492852b85453c5c28b0282cc79928e19756e",
+    "locator": "page header",
+    "quote": "Publication 08 April 2019",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-16-discover-leads/C002/2026-10-16/official.html",
+    "sha256": "f54a63e0a739de2f551a2974762e492852b85453c5c28b0282cc79928e19756e",
+    "locator": "body",
+    "quote": "On 8 April 2019, the High-Level Expert Group on AI presented Ethics Guidelines for Trustworthy Artificial Intelligence.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {},
+  "confirmed": [
+   "title",
+   "date_published",
+   "status"
+  ],
+  "status_reasoning": "Library page and the 17 Oct PDF copy still present the guidelines, with no replacement. The page's last-update date of 31 Jan 2024 is a page edit, not a new version, so date_last_updated stays null. official_identifier stays null."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}

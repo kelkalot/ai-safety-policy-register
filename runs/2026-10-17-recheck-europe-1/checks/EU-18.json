@@ -1,0 +1,60 @@
+{
+ "cand_id": "EU-18",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  },
+  "official_identifier": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_in_force": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "High-risk application moved to 2 Dec 2027 (Annex III) and 2 Aug 2028 (Annex I)",
+   "verdict": "supported",
+   "locator": "recital on Article 113; Article 113(c)"
+  },
+  {
+   "claim": "AI Office exclusively competent for AI systems built on the provider own GPAI model and for VLOP/VLOSE-integrated systems",
+   "verdict": "supported",
+   "locator": "new Article 75(1)(a), (b)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "EU-14",
+  "EU-15",
+  "EU-19"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Quotes pass. Title, signature 8 July 2026, OJ L 2026/1744 of 24.7.2026, entry into force on 27 July 2026, high-risk dates 2 Dec 2027 / 2 Aug 2028, new Art 5(1)(ba)/(bb) from 2 Dec 2026, AI Office competence under Art 75(1), SME/SMC extension, sandbox and Art 111(4) dates are in the stored OJ text; the proposal details are in the stored COM(2025) 836. Unsupported v1 vote counts and trilogue dates were removed. Notes are long but contain only instrument content."
+}

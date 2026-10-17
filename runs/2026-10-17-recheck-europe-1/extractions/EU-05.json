@@ -1,0 +1,209 @@
+{
+ "cand_id": "EU-05",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "EU-05",
+ "record": {
+  "summary": "Replaces the 1985 Product Liability Directive with no-fault liability rules under which software, including AI systems, is a product and integrated digital services are covered. Manufacturers stay liable for defects due to software updates or upgrades, missing safety updates or substantial modifications within their control, and defectiveness is assessed taking into account a product's ability to keep learning after it is placed on the market. Defendants can be required to disclose relevant evidence, and courts presume defectiveness or causation where technical or scientific complexity makes them excessively difficult to prove and the claimant shows they are likely.",
+  "safety_topics": [
+   "accountability & liability",
+   "transparency & labelling"
+  ],
+  "notes": "Adopted on 23 October 2024 and published in the Official Journal (OJ L, 2024/2853) on 18 November 2024; it entered into force on 8 December 2024, the twentieth day after publication. Member States must transpose it by 9 December 2026. It applies to products placed on the market or put into service after 9 December 2026; Directive 85/374/EEC is repealed with effect from that date but continues to apply to products placed on the market or put into service before it. The Commission's product liability page says the Directive applies to products placed on the market as of 9 December 2026. The Commission is to evaluate the Directive by 9 December 2030 and every five years after.",
+  "verification": {
+   "note": "Stored and read in this run: the EUR-Lex page with the Official Journal text (snapshot of 11 Oct 2026, unchanged on 17 Oct), which gives the title, adoption at Strasbourg on 23 October 2024, publication in OJ L 2024/2853 of 18 November 2024, Article 23 (entry into force on the twentieth day after publication) and Articles 2, 9, 10, 11, 20, 21 and 22; and the Commission's (DG GROW) page on liability for defective products (alt-official), which gives entry into force on 8 December 2024 and transposition by 9 December 2026. EUR-Lex shows 'In force: This act has been changed' but lists only the consolidated version of 18/11/2024, so no amendment is shown. A second topic, 'transparency & labelling', was added for the disclosure-of-evidence rules (Art. 9), which the recitals tie to the information asymmetry about how a product operates and to proof that would require explaining the inner workings of an AI system."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/EU-05/2026-10-11/official-2.html",
+    "sha256": "7e2483f19285ccfaedd95fb839d86f2b6e89fd26c3ecbb8a21a5972488046bdf",
+    "locator": "document title",
+    "quote": "Directive (EU) 2024/2853 of the European Parliament and of the Council of 23 October 2024 on liability for defective products and repealing Council Directive 85/374/EEC (Text with EEA relevance)",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/EU-05/2026-10-11/official-2.html",
+    "sha256": "7e2483f19285ccfaedd95fb839d86f2b6e89fd26c3ecbb8a21a5972488046bdf",
+    "locator": "signature, after Article 24",
+    "quote": "Done at Strasbourg, 23 October 2024.",
+    "source_kind": "official"
+   }
+  ],
+  "date_in_force": [
+   {
+    "file": "archive/EU-05/2026-10-11/official-2.html",
+    "sha256": "7e2483f19285ccfaedd95fb839d86f2b6e89fd26c3ecbb8a21a5972488046bdf",
+    "locator": "Article 23",
+    "quote": "This Directive shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-05/2026-10-11/secondary-2.html",
+    "sha256": "628d896e27dba049309d48430ad836879cb38277ceec5e11c1643e2318b2b8d6",
+    "locator": "Timeline",
+    "quote": "The new Product Liability Directive entered into force on 8 December 2024. EU countries will have until 9 December 2026 to transpose this directive into national law.",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/EU-05/2026-10-11/official-2.html",
+    "sha256": "7e2483f19285ccfaedd95fb839d86f2b6e89fd26c3ecbb8a21a5972488046bdf",
+    "locator": "document information, legal status",
+    "quote": "In force: This act has been changed. Current consolidated version: 18/11/2024",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-05/2026-10-11/official-2.html",
+    "sha256": "7e2483f19285ccfaedd95fb839d86f2b6e89fd26c3ecbb8a21a5972488046bdf",
+    "locator": "Article 2(1)",
+    "quote": "This Directive shall apply to products placed on the market or put into service after 9 December 2026.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/EU-05/2026-10-11/official-2.html",
+    "sha256": "7e2483f19285ccfaedd95fb839d86f2b6e89fd26c3ecbb8a21a5972488046bdf",
+    "locator": "document title",
+    "quote": "Directive (EU) 2024/2853 of the European Parliament and of the Council of 23 October 2024 on liability for defective products",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/EU-05/2026-10-11/official-2.html",
+    "sha256": "7e2483f19285ccfaedd95fb839d86f2b6e89fd26c3ecbb8a21a5972488046bdf",
+    "locator": "Article 22(1)",
+    "quote": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 9 December 2026.",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/EU-05/2026-10-11/official-2.html",
+    "sha256": "7e2483f19285ccfaedd95fb839d86f2b6e89fd26c3ecbb8a21a5972488046bdf",
+    "locator": "document information",
+    "quote": "OJ L, 2024/2853, 18.11.2024, ELI: http://data.europa.eu/eli/dir/2024/2853/oj",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/EU-05/2026-10-11/official-2.html",
+    "sha256": "7e2483f19285ccfaedd95fb839d86f2b6e89fd26c3ecbb8a21a5972488046bdf",
+    "locator": "recital 13",
+    "quote": "it should be clarified in this Directive that software is a product for the purposes of applying no-fault liability",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-05/2026-10-11/official-2.html",
+    "sha256": "7e2483f19285ccfaedd95fb839d86f2b6e89fd26c3ecbb8a21a5972488046bdf",
+    "locator": "Article 4(1)",
+    "quote": "‘product’ means all movables, even if integrated into, or inter-connected with, another movable or an immovable; it includes electricity, digital manufacturing files, raw materials and software;",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-05/2026-10-11/official-2.html",
+    "sha256": "7e2483f19285ccfaedd95fb839d86f2b6e89fd26c3ecbb8a21a5972488046bdf",
+    "locator": "Article 7(2)(c)",
+    "quote": "the effect on the product of any ability to continue to learn or acquire new features after it is placed on the market or put into service;",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-05/2026-10-11/official-2.html",
+    "sha256": "7e2483f19285ccfaedd95fb839d86f2b6e89fd26c3ecbb8a21a5972488046bdf",
+    "locator": "Article 11(2)",
+    "quote": "software, including software updates or upgrades;",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-05/2026-10-11/official-2.html",
+    "sha256": "7e2483f19285ccfaedd95fb839d86f2b6e89fd26c3ecbb8a21a5972488046bdf",
+    "locator": "Article 9(1)",
+    "quote": "the defendant is required to disclose relevant evidence that is at the defendant’s disposal",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-05/2026-10-11/official-2.html",
+    "sha256": "7e2483f19285ccfaedd95fb839d86f2b6e89fd26c3ecbb8a21a5972488046bdf",
+    "locator": "Article 10(4)(a)",
+    "quote": "the claimant faces excessive difficulties, in particular due to technical or scientific complexity, in proving the defectiveness of the product or the causal link between its defectiveness and the damage, or both",
+    "source_kind": "official"
+   }
+  ],
+  "safety_topics": [
+   {
+    "file": "archive/EU-05/2026-10-11/official-2.html",
+    "sha256": "7e2483f19285ccfaedd95fb839d86f2b6e89fd26c3ecbb8a21a5972488046bdf",
+    "locator": "recital 48",
+    "quote": "would require the claimant to explain the inner workings of an AI system",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-05/2026-10-11/official-2.html",
+    "sha256": "7e2483f19285ccfaedd95fb839d86f2b6e89fd26c3ecbb8a21a5972488046bdf",
+    "locator": "recital 42",
+    "quote": "It is therefore necessary to facilitate claimants’ access to evidence to be used in legal proceedings.",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/EU-05/2026-10-11/official-2.html",
+    "sha256": "7e2483f19285ccfaedd95fb839d86f2b6e89fd26c3ecbb8a21a5972488046bdf",
+    "locator": "document information",
+    "quote": "OJ L, 2024/2853, 18.11.2024, ELI: http://data.europa.eu/eli/dir/2024/2853/oj",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-05/2026-10-11/official-2.html",
+    "sha256": "7e2483f19285ccfaedd95fb839d86f2b6e89fd26c3ecbb8a21a5972488046bdf",
+    "locator": "Article 21",
+    "quote": "Directive 85/374/EEC is repealed with effect from 9 December 2026. However, it shall continue to apply with regard to products placed on the market or put into service before that date.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-05/2026-10-11/secondary-2.html",
+    "sha256": "628d896e27dba049309d48430ad836879cb38277ceec5e11c1643e2318b2b8d6",
+    "locator": "Timeline",
+    "quote": "PLD will apply to products placed on the market as of 9 December 2026.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-05/2026-10-11/official-2.html",
+    "sha256": "7e2483f19285ccfaedd95fb839d86f2b6e89fd26c3ecbb8a21a5972488046bdf",
+    "locator": "Article 20",
+    "quote": "The Commission shall by 9 December 2030, and every five years thereafter, evaluate the application of this Directive",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "rewritten from Articles 4, 7, 9, 10 and 11 and recital 13; adds the disclosure of evidence and states the presumptions as the Directive does",
+   "safety_topics": "a second topic was needed (two to six); 'transparency & labelling' added for disclosure of evidence (Art. 9; recital 42 ties it to information asymmetry about how a product operates, recital 48 to proof that would require explaining the inner workings of an AI system)",
+   "notes": "application date corrected to the Directive's wording ('after 9 December 2026', Art. 2(1)); the Commission page's 'as of 9 December 2026' is noted as a discrepancy; repeal and evaluation dates added",
+   "verification.note": "rewritten for the files stored in this run; the OJ date now comes from the stored EUR-Lex page"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "date_in_force",
+   "status",
+   "issuing_body",
+   "legal_force",
+   "official_identifier"
+  ],
+  "status_reasoning": "Published in the OJ on 18 November 2024; Article 23 puts entry into force on the twentieth day after publication, 8 December 2024, which the Commission's page confirms. EUR-Lex marks it 'In force'. Its rules apply only to products placed on the market or put into service after 9 December 2026, which is still ahead on 17 October 2026; the notes say so. 'In force' stands.",
+  "scope_reasoning": "Not AI-specific, but it is the EU's operative liability instrument for AI systems (software, including AI systems, is a product); in with the existing scope_note, as in pipeline/scope-decisions.md."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

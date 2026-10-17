@@ -1,0 +1,50 @@
+{
+ "cand_id": "EU-16",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "title": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Section 1: digitally signed metadata and imperceptible watermarking",
+   "verdict": "supported",
+   "locator": "page 9, Measure 1.1"
+  },
+  {
+   "claim": "Section 2: deployers label deep fakes and AI-generated text on matters of public interest",
+   "verdict": "supported",
+   "locator": "table of contents; policy page, working group 2"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Quotes pass. Title, 10 June 2026 publication, two sections and their measures, adequacy of 8 July 2026 and AI Board assessment the next day, 190 signatories by end of July 2026 and the two task forces are in stored official pages and the 38-page code. date_last_updated emptied appropriately (page update of 12 Oct 2026 marks signatory changes)."
+}

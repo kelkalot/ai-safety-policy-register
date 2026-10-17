@@ -1,0 +1,193 @@
+{
+ "cand_id": "EU-04",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "EU-04",
+ "record": {
+  "date_last_updated": "2026-10-16",
+  "summary": "A Commission initiative that helps organisations prepare for the AI Act before its rules apply. Under Pillar I, any stakeholder can join a network that shares experience and best practices, including through AI Office webinars. Under Pillar II, companies sign voluntary pledges to adopt an AI governance strategy, map AI systems likely to be high-risk and promote AI literacy among staff, and may add commitments such as identifying risks to health, safety and fundamental rights, ensuring human oversight, marking AI-generated content and labelling deepfakes. Signatories agree to report on their progress twelve months after their commitments are published.",
+  "safety_topics": [
+   "risk-based classification",
+   "human oversight",
+   "transparency & labelling",
+   "deepfakes & synthetic media"
+  ],
+  "notes": "The Commission announced over a hundred companies as the first signatories of the pledges on 25 September 2024; the text of the pledges, drafted by the AI Office, is dated September 2024. The pledges are not legally binding and can be signed until the AI Act fully applies. The page's signatory list, updated as new pledges are signed, names 300 signatories at the update of 16 October 2026. The page marks the Pact's first anniversary in December 2025, and says that the AI Office and national authorities assumed enforcement powers on 2 August 2026 and that some high-risk requirements apply only from December 2027.",
+  "verification": {
+   "note": "Stored and read in this run: the Commission's AI Pact page (snapshots of 11 and 17 Oct 2026; the second adds two signatories and shows a last update of 16 October 2026, the first one of 5 October 2026), its printable PDF, the text of the pledges (AI Office, September 2024, linked from the page) and the Commission's press release of 25 September 2024 on the first signatories. The count of 300 signatories was made from the list on the page of 17 Oct 2026. Version 1's last update of 17 Sept 2026 is not shown on any stored snapshot. 'Accountability & liability' was dropped: the pledges are best-effort commitments with no accountability or liability provision; 'transparency & labelling' and 'deepfakes & synthetic media' were added for the pledges on marking AI-generated content and labelling deepfakes."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/EU-04/2026-10-17/official.html",
+    "sha256": "d216fddd4c2bd63fd604a5abd2638bf2a62c37c43201d2731a1143ccb73f457b",
+    "locator": "page introduction",
+    "quote": "The AI Pact encourages and supports organisations to plan ahead for the implementation of AI Act measures.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-04/2026-10-11/document-2.pdf",
+    "sha256": "7eb978ee83201bb54c9ece503d1d87b21e2fd7b3813fed1437ee228f78972cb5",
+    "locator": "page 1",
+    "quote": "within the framework of the AI Pact, the AI Office calls on all organisations to proactively work towards implementing some of the key provisions of the AI Act",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/EU-04/2026-10-17/official.html",
+    "sha256": "d216fddd4c2bd63fd604a5abd2638bf2a62c37c43201d2731a1143ccb73f457b",
+    "locator": "Voluntary Pledges, Signature of the pledges",
+    "quote": "On 25 September 2024, the Commission convened key industry stakeholders in Brussels to celebrate the first signatories of the pledges.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-04/2026-10-11/secondary.html",
+    "sha256": "26f1190262ea9b306f1aec747a1f6c474afdd5297a795ea8189f64e8fbc64f4e",
+    "locator": "press release",
+    "quote": "Publication 25 September 2024",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/EU-04/2026-10-17/official.html",
+    "sha256": "d216fddd4c2bd63fd604a5abd2638bf2a62c37c43201d2731a1143ccb73f457b",
+    "locator": "page footer",
+    "quote": "Last update 16 October 2026",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/EU-04/2026-10-17/official.html",
+    "sha256": "d216fddd4c2bd63fd604a5abd2638bf2a62c37c43201d2731a1143ccb73f457b",
+    "locator": "Voluntary Pledges",
+    "quote": "These pledges are not legally binding and do not impose any legal obligations on participants. Companies will be able to sign them at any moment until the AI Act fully applies.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/EU-04/2026-10-17/official.html",
+    "sha256": "d216fddd4c2bd63fd604a5abd2638bf2a62c37c43201d2731a1143ccb73f457b",
+    "locator": "What is the AI Pact?",
+    "quote": "In this context, the Commission is promoting the AI Pact, to help stakeholders prepare for the implementation of the AI Act.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-04/2026-10-11/document-2.pdf",
+    "sha256": "7eb978ee83201bb54c9ece503d1d87b21e2fd7b3813fed1437ee228f78972cb5",
+    "locator": "page 1, header",
+    "quote": "AI Office – September 2024",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/EU-04/2026-10-17/official.html",
+    "sha256": "d216fddd4c2bd63fd604a5abd2638bf2a62c37c43201d2731a1143ccb73f457b",
+    "locator": "Voluntary Pledges",
+    "quote": "These pledges are not legally binding and do not impose any legal obligations on participants.",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/EU-04/2026-10-17/official.html",
+    "sha256": "d216fddd4c2bd63fd604a5abd2638bf2a62c37c43201d2731a1143ccb73f457b",
+    "locator": "Pillar I",
+    "quote": "Under Pillar I, participants contribute to the creation of a collaborative community, sharing their experiences and knowledge.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-04/2026-10-11/document-2.pdf",
+    "sha256": "7eb978ee83201bb54c9ece503d1d87b21e2fd7b3813fed1437ee228f78972cb5",
+    "locator": "page 1, core commitments",
+    "quote": "carry out to the extent feasible a mapping of AI systems provided or deployed in areas that would be considered high-risk under the AI Act;",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-04/2026-10-11/document-2.pdf",
+    "sha256": "7eb978ee83201bb54c9ece503d1d87b21e2fd7b3813fed1437ee228f78972cb5",
+    "locator": "page 2",
+    "quote": "implement concrete measures to ensure human oversight over the operation of high -risk AI systems as defined by the AI-Act;",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-04/2026-10-11/document-2.pdf",
+    "sha256": "7eb978ee83201bb54c9ece503d1d87b21e2fd7b3813fed1437ee228f78972cb5",
+    "locator": "page 2",
+    "quote": "design generative AI systems so that AI-generated content is marked and detectable as artificially generated or manipulated through technical solutions, such as watermarks and metadata identifiers;",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-04/2026-10-11/document-2.pdf",
+    "sha256": "7eb978ee83201bb54c9ece503d1d87b21e2fd7b3813fed1437ee228f78972cb5",
+    "locator": "page 3",
+    "quote": "report on the outcome of the implementation of these commitments twelve months after the publication of their commitments",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/EU-04/2026-10-11/secondary.html",
+    "sha256": "26f1190262ea9b306f1aec747a1f6c474afdd5297a795ea8189f64e8fbc64f4e",
+    "locator": "press release",
+    "quote": "The Commission announced over a hundred companies that are the first signatories of the EU artificial intelligence (AI) Pact and its voluntary pledges.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-04/2026-10-17/official.html",
+    "sha256": "d216fddd4c2bd63fd604a5abd2638bf2a62c37c43201d2731a1143ccb73f457b",
+    "locator": "Signatories of the pledges",
+    "quote": "Some signatories may not appear immediately, but we are making sure to continuously update the list as new pledges are signed.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-04/2026-10-17/official.html",
+    "sha256": "d216fddd4c2bd63fd604a5abd2638bf2a62c37c43201d2731a1143ccb73f457b",
+    "locator": "page introduction",
+    "quote": "December 2025 marked the 1-year anniversary of the AI Pact.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-04/2026-10-17/official.html",
+    "sha256": "d216fddd4c2bd63fd604a5abd2638bf2a62c37c43201d2731a1143ccb73f457b",
+    "locator": "What is the AI Pact?",
+    "quote": "the AI Office and national authorities assumed enforcement powers on 2 August 2026. However, some requirements on the high-risk AI systems and other provisions will only be applicable from December 2027.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-04/2026-10-17/official.html",
+    "sha256": "d216fddd4c2bd63fd604a5abd2638bf2a62c37c43201d2731a1143ccb73f457b",
+    "locator": "Voluntary Pledges",
+    "quote": "The text of the pledges (.pdf), initially drafted by the AI Office, was shared with the relevant stakeholders in the AI Pact network to gather feedback and insights.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "date_last_updated": "the page now shows 'Last update 16 October 2026' (5 October 2026 on the snapshot of 11 Oct); version 1's 17 Sept 2026 is on neither",
+   "summary": "fuller account of both pillars and the optional pledges, from the page and the text of the pledges",
+   "safety_topics": "'accountability & liability' dropped (no such provision); 'transparency & labelling' and 'deepfakes & synthetic media' added for the optional pledges on marking AI-generated content and labelling deepfakes",
+   "notes": "signatory count updated to the page of 16 October 2026; anniversary and enforcement dates from the page",
+   "verification.note": "rewritten for the files stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "A voluntary initiative; the page of 16 October 2026 still invites signatures ('Companies will be able to sign them at any moment until the AI Act fully applies'), and the AI Act does not fully apply until the Annex I high-risk rules apply in 2028. 'Published (non-binding, current)' stands.",
+  "scope_reasoning": "The pledges are a voluntary code that the AI Office drafted and the Commission publishes, so the record falls under government voluntary codes (in, no note) rather than under company commitments a government only brokered; no scope_note, as before."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

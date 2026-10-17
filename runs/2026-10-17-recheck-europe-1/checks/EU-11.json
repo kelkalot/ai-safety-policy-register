@@ -1,0 +1,53 @@
+{
+ "cand_id": "EU-11",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "title": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "date_last_updated": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Compute above 10^23 FLOP and ability to generate language/text-to-image/text-to-video",
+   "verdict": "supported",
+   "locator": "extra explainer, GPAI models"
+  },
+  {
+   "claim": "Systemic-risk providers must assess and mitigate and notify the AI Office",
+   "verdict": "supported",
+   "locator": "extra explainer"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Quotes pass. Title, date 18 July 2025, non-binding character, 24 language versions, last update 20 April 2026, compute criterion 10^23 FLOP, modification/provider, open-source exemption and the enforcement timeline are in stored official pages. Identifier left empty correctly (C(2025) 5045 not in a stored official file). No newer version found."
+}

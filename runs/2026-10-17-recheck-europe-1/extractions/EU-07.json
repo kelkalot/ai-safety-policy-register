@@ -1,0 +1,150 @@
+{
+ "cand_id": "EU-07",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "EU-07",
+ "record": {
+  "summary": "Non-binding Commission guidelines that explain how to apply the AI Act's legal definition of an 'AI system', to help providers and other relevant persons determine whether a software system is an AI system and so falls within the Act's rules, which sort AI systems into risk categories: prohibited practices, high-risk systems and systems subject to transparency obligations. They were issued as the definition, AI literacy and the prohibitions began to apply on 2 February 2025, and are to be updated in light of practical experience, new questions and use cases.",
+  "safety_topics": [
+   "risk-based classification",
+   "prohibited practices"
+  ],
+  "notes": "Published on 6 February 2025, in addition to the guidelines on prohibited AI practices (EU-06), to facilitate the application of the AI Act's first rules, which have applied since 2 February 2025. The Commission approved the draft guidelines by a Communication; they are available in the 24 official EU languages. The Commission says they will be updated as necessary, in light of practical experience, new questions and use cases; the page shows a last update of 8 April 2026 without saying what changed.",
+  "verification": {
+   "note": "Stored and read in this run: the Commission's library page for the guidelines (snapshot of 11 Oct 2026, unchanged on 17 Oct), which gives the title, publication on 6 February 2025, the non-binding nature, the 24 language versions and a last update of 8 April 2026, and its printable PDF. The guidelines themselves and the approving Communication are not stored, because the site's robots.txt does not allow automated downloads of them; the summary rests on the library page, and official_identifier (the Communication's C(2025) number) stays null. The summary was below the 250-character minimum and has been extended from the page; 'prohibited practices' was added as a second topic because the page presents the guidelines as support for the first rules, which include the prohibitions. Version 1's remark that the C(2025) number was not verified moved here from the notes."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/EU-07/2026-10-11/official.html",
+    "sha256": "b9e8cf5f88adfb3ae501728a1c9d732f730f5d5037820305d13eb25e49572795",
+    "locator": "Downloads",
+    "quote": "Communication to the Commission on the approval of the draft Guidelines on the definition of an artificial intelligence system established by the AI Act",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-07/2026-10-11/official.html",
+    "sha256": "b9e8cf5f88adfb3ae501728a1c9d732f730f5d5037820305d13eb25e49572795",
+    "locator": "Downloads",
+    "quote": "Guidelines on the definition of an artificial intelligence system established by Regulation (EU) 20241689 (AI Act) (English)",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/EU-07/2026-10-11/official.html",
+    "sha256": "b9e8cf5f88adfb3ae501728a1c9d732f730f5d5037820305d13eb25e49572795",
+    "locator": "below the heading",
+    "quote": "Publication 06 February 2025",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/EU-07/2026-10-11/official.html",
+    "sha256": "b9e8cf5f88adfb3ae501728a1c9d732f730f5d5037820305d13eb25e49572795",
+    "locator": "page footer",
+    "quote": "Last update 8 April 2026",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/EU-07/2026-10-11/official.html",
+    "sha256": "b9e8cf5f88adfb3ae501728a1c9d732f730f5d5037820305d13eb25e49572795",
+    "locator": "page text",
+    "quote": "The guidelines on the AI system definition are not binding. They are designed to evolve over time and will be updated as necessary, in particular in light of practical experiences, new questions and use cases that arise.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/EU-07/2026-10-11/official.html",
+    "sha256": "b9e8cf5f88adfb3ae501728a1c9d732f730f5d5037820305d13eb25e49572795",
+    "locator": "heading",
+    "quote": "The Commission publishes guidelines on AI system definition to facilitate the first AI Act’s rules application",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/EU-07/2026-10-17/document-1.pdf",
+    "sha256": "7eff30775b3ba68abec42a7d14a66433657e1400f812af1c84faccc11ea69d46",
+    "locator": "page 1",
+    "quote": "The guidelines on the AI system definition are not binding.",
+    "source_kind": "official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/EU-07/2026-10-11/official.html",
+    "sha256": "b9e8cf5f88adfb3ae501728a1c9d732f730f5d5037820305d13eb25e49572795",
+    "locator": "page text",
+    "quote": "By issuing guidelines on the AI system definition, the Commission aims to assist providers and other relevant persons in determining whether a software system constitutes an AI system to facilitate the effective application of the rules.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-07/2026-10-11/official.html",
+    "sha256": "b9e8cf5f88adfb3ae501728a1c9d732f730f5d5037820305d13eb25e49572795",
+    "locator": "page text",
+    "quote": "classifies AI systems into different risk categories, including prohibited, high-risk, and those subject to transparency obligations",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-07/2026-10-11/official.html",
+    "sha256": "b9e8cf5f88adfb3ae501728a1c9d732f730f5d5037820305d13eb25e49572795",
+    "locator": "page text",
+    "quote": "These include the AI system definition, AI literacy, and a very limited number of prohibited AI use cases that pose unacceptable risks in the EU, as outlined in the AI Act.",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/EU-07/2026-10-11/official.html",
+    "sha256": "b9e8cf5f88adfb3ae501728a1c9d732f730f5d5037820305d13eb25e49572795",
+    "locator": "page text",
+    "quote": "The Commission has published these guidelines in addition to the Guidelines on prohibited artificial intelligence (AI) practices, as defined by the AI Act.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-07/2026-10-11/official.html",
+    "sha256": "b9e8cf5f88adfb3ae501728a1c9d732f730f5d5037820305d13eb25e49572795",
+    "locator": "page text",
+    "quote": "As of Sunday, 2 February, the first rules under the Artificial Intelligence Act (AI Act) have started to apply.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-07/2026-10-11/official.html",
+    "sha256": "b9e8cf5f88adfb3ae501728a1c9d732f730f5d5037820305d13eb25e49572795",
+    "locator": "Downloads",
+    "quote": "Guidelines on the definition of an artificial intelligence system established by Regulation (EU) 20241689 (AI Act) (Swedish)",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "version 1's summary was below 250 characters; extended from the stored page (purpose, risk categories, the first rules of 2 February 2025, updates)",
+   "safety_topics": "a second topic was needed; 'prohibited practices' added: the page presents the guidelines as support for the first rules, which include the prohibitions, and they were issued with the prohibited-practices guidelines",
+   "notes": "research remark on the C(2025) number moved to verification.note; 'together with' replaced by the page's 'in addition to'; language versions added",
+   "verification.note": "rewritten for the files stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "date_last_updated",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "Non-binding guidelines published on 6 February 2025; the page (unchanged between 11 and 17 Oct 2026) shows no withdrawal or replacement and a last update of 8 April 2026. The AI Omnibus did not amend the Article 3(1) definition the guidelines explain (EU-18's stored text amends Article 3 only at point (14) and adds points (14a) and (14b)). 'Published (non-binding, current)' stands.",
+  "scope_reasoning": "Commission guidelines implementing the AI Act; in scope with no note."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [
+  "The guidelines' own text and the approving Communication are not stored, so the summary rests on the library page, and official_identifier (the Communication's C(2025) number) stays null."
+ ]
+}

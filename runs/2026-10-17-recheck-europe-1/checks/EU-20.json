@@ -1,0 +1,50 @@
+{
+ "cand_id": "EU-20",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "title": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "notes": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "summary": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Seven key requirements incl. fall back plan and accountability with auditability and redress",
+   "verdict": "supported",
+   "locator": "library page, key requirements"
+  },
+  {
+   "claim": "Trustworthy AI is lawful, ethical and robust",
+   "verdict": "supported",
+   "locator": "library page, introduction"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Report of an independent expert group convened and published by the Commission; existing scope_note kept."
+ },
+ "overall": "accept",
+ "note": "Quotes pass. Title, 8 April 2019 presentation, December 2018 draft with over 500 comments, three components, seven key requirements, pilot 26 June to 1 Dec 2019, ALTAI July 2020 (public 17 July 2020) and 23 language versions (23 codes in the stored page) are supported. The extractor removed claims resting on the unstored guidelines text. Blind extraction agrees on all compared fields. Existing scope_note stays; borderline."
+}

@@ -1,0 +1,261 @@
+{
+ "cand_id": "EU-19",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "EU-19",
+ "record": {
+  "official_url": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems",
+  "date_last_updated": null,
+  "summary": "Non-binding Commission guidelines, issued under Article 96(1)(d) of the AI Act, on the transparency obligations of Article 50, which apply from 2 August 2026. They explain who must comply and how: informing people that they are interacting with an AI system, machine-readable marking and detection of AI-generated or manipulated content, informing people exposed to emotion recognition or biometric categorisation, and labelling deep fakes and AI-generated text on matters of public interest. They cover exceptions, the horizontal requirements of Article 50(5) on clear, timely and accessible information, and enforcement.",
+  "notes": "The guidelines are the annex to a Communication to the Commission approving their content, C(2026) 5054 final of 20 July 2026. Their drafting drew on a broad consultation, input from the Member States in the AI Board and comments on draft guidelines published for consultation on 8 May 2026. They complement the Code of Practice on Transparency of AI-generated Content (EU-16): providers and deployers may rely on a code assessed as adequate to demonstrate compliance. Under the AI Omnibus (EU-18), providers of generative AI systems placed on the market before 2 August 2026 have until 2 December 2026 to meet the Article 50(2) marking obligation, while the disclosure obligation for interactive systems applies from 2 August 2026; content generated before 2 August 2026 need not be marked or labelled retroactively. The Commission will review the guidelines as necessary and may withdraw or amend them.",
+  "verification": {
+   "note": "Stored and read: the guidelines' text (51-page PDF on the Commission's AI Act Service Desk), which gives the exact title, 'Brussels, 20.7.2026', C(2026) 5054 final, their non-binding character and their content; and the Commission's news item of 20 July 2026 on digital-strategy.ec.europa.eu, which gives the publication. Stored in this run: the Commission's library page for the guidelines, proposed as official_url, which gives the titles of the guidelines and of the approving Communication, publication on 20 July 2026 and that the Commission adopted them; and the Commission's policy page on the Code of Practice on Transparency of AI-generated Content, whose timeline dates the draft guidelines to 8 May 2026."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-19/extra-6c3efae2cf/2026-10-17/official.html",
+    "sha256": "2f0787eb2a1b6aba579b5edab3dfffcb0966524fd6da52cbbbce8e2c19616362",
+    "locator": "Downloads",
+    "quote": "1 - Guidelines on the implementation of the transparency obligations for certain AI systems under Article 50 of the AI Act",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-19/2026-10-11/secondary.pdf",
+    "sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+    "locator": "page 1",
+    "quote": "Guidelines on the implementation of the transparency obligations for certain AI systems under Article 50 of Regulation (EU) 2024/1689 (the 'AI Act')",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-19/2026-10-11/official.html",
+    "sha256": "208bf4e272efcb242e76a932b1552ec55a9c13c2bef0e46899fa311df5222c53",
+    "locator": "page heading",
+    "quote": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-19/extra-6c3efae2cf/2026-10-17/official.html",
+    "sha256": "2f0787eb2a1b6aba579b5edab3dfffcb0966524fd6da52cbbbce8e2c19616362",
+    "locator": "publication line",
+    "quote": "Publication 20 July 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-19/2026-10-11/official.html",
+    "sha256": "208bf4e272efcb242e76a932b1552ec55a9c13c2bef0e46899fa311df5222c53",
+    "locator": "publication line",
+    "quote": "Publication 20 July 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-19/2026-10-11/secondary.pdf",
+    "sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+    "locator": "page 1",
+    "quote": "Brussels, 20.7.2026 C(2026) 5054 final",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-19/extra-6c3efae2cf/2026-10-17/official.html",
+    "sha256": "2f0787eb2a1b6aba579b5edab3dfffcb0966524fd6da52cbbbce8e2c19616362",
+    "locator": "body",
+    "quote": "The Commission adopted these guidelines to offer practical guidance to competent authorities, as well as providers and deployers of AI systems.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-19/2026-10-11/official.html",
+    "sha256": "208bf4e272efcb242e76a932b1552ec55a9c13c2bef0e46899fa311df5222c53",
+    "locator": "body",
+    "quote": "The European Commission has published guidelines to assist providers and deployers of artificial intelligence (AI) systems in meeting the AI Act's transparency obligations, which start to apply on 2 August 2026.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-19/2026-10-11/secondary.pdf",
+    "sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+    "locator": "page 4, paragraph 5",
+    "quote": "These Guidelines are non -binding. Any authoritative interpretation of the AI Act may ultimately only be given by the Court of Justice of the European Union",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/EU-19/2026-10-11/secondary.pdf",
+    "sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+    "locator": "page 4, paragraph 5",
+    "quote": "These Guidelines are non -binding. Any authoritative interpretation of the AI Act may ultimately only be given by the Court of Justice of the European Union",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-19/extra-6c3efae2cf/2026-10-17/official.html",
+    "sha256": "2f0787eb2a1b6aba579b5edab3dfffcb0966524fd6da52cbbbce8e2c19616362",
+    "locator": "body",
+    "quote": "The Commission adopted these guidelines to offer practical guidance",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-19/2026-10-11/official.html",
+    "sha256": "208bf4e272efcb242e76a932b1552ec55a9c13c2bef0e46899fa311df5222c53",
+    "locator": "body",
+    "quote": "The European Commission has published guidelines",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-19/2026-10-11/secondary.pdf",
+    "sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+    "locator": "page 4, paragraph 3",
+    "quote": "Pursuant to Article 96(1)(d) AI Act, these Commission Guidelines are issued with the aim to serve as practical guidance",
+    "source_kind": "alt-official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/EU-19/2026-10-11/secondary.pdf",
+    "sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+    "locator": "page 1",
+    "quote": "Brussels, 20.7.2026 C(2026) 5054 final ANNEX",
+    "source_kind": "alt-official"
+   }
+  ],
+  "summary": [
+   {
+    "file": "archive/EU-19/2026-10-11/secondary.pdf",
+    "sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+    "locator": "page 4, paragraph 2",
+    "quote": "These transparency obligations apply two years after the entry into force of the AI Act, i.e. as from 2 August 2026.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-19/2026-10-11/official.html",
+    "sha256": "208bf4e272efcb242e76a932b1552ec55a9c13c2bef0e46899fa311df5222c53",
+    "locator": "body",
+    "quote": "Under the AI Act, AI providers will have to design AI systems to inform users when they are directly interacting with an AI and they will have to add machine-readable marks to enable the detection of AI-generated or manipulated content.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-19/2026-10-11/official.html",
+    "sha256": "208bf4e272efcb242e76a932b1552ec55a9c13c2bef0e46899fa311df5222c53",
+    "locator": "body",
+    "quote": "Deployers will also have to inform people when they are exposed to deep fakes, to AI-generated content on matters of public interests without human review or editorial control, and to emotion recognition or biometric categorisation systems.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-19/2026-10-11/secondary.pdf",
+    "sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+    "locator": "page 3 (table of contents)",
+    "quote": "7. Horizontal Requirements Applicable to the Information Provided under Article 50(5) AI Act",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-19/2026-10-11/secondary.pdf",
+    "sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+    "locator": "page 3 (table of contents)",
+    "quote": "7.1. Information provision in a clear and distinguishable manner",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-19/2026-10-11/secondary.pdf",
+    "sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+    "locator": "page 3 (table of contents)",
+    "quote": "7.3. Compliance with applicable accessibility requirements",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-19/2026-10-11/secondary.pdf",
+    "sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+    "locator": "page 3 (table of contents)",
+    "quote": "8. Enforcement of Article 50 AI Act",
+    "source_kind": "alt-official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-19/extra-6c3efae2cf/2026-10-17/official.html",
+    "sha256": "2f0787eb2a1b6aba579b5edab3dfffcb0966524fd6da52cbbbce8e2c19616362",
+    "locator": "Downloads",
+    "quote": "2 - Communication to the Commission - Approval of the content of the Guidelines on the implementation of the transparency obligations for certain AI systems under Article 50 of the AI Act",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-19/2026-10-11/secondary.pdf",
+    "sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+    "locator": "page 1",
+    "quote": "COMMUNICATION TO THE COMMISSION Approval of the content of the draft Communication from the Commission - Guidelines",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-europe-1/EU-19/extra-a9e3e225db/2026-10-17/official.html",
+    "sha256": "4a7d7e298bcccb868b03a78bd4391957dd54a4d12f33a8999e3709d1f1dce9a3",
+    "locator": "Timeline",
+    "quote": "08 May 2026 Publication of the draft guidelines Consultation on the draft guidelines",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/EU-19/2026-10-11/secondary.pdf",
+    "sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+    "locator": "page 4, paragraph 4",
+    "quote": "The drafting of these Guidelines was informed by input from a variety of stakeholders collected during a broad consultation organised by the Commission and input from the Member States in the AI Board",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-19/2026-10-11/secondary.pdf",
+    "sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+    "locator": "page 51, paragraph 153",
+    "quote": "It gives providers of those existing systems a transitional period to bring their systems in conformity by 2 December 2026.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-19/2026-10-11/secondary.pdf",
+    "sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+    "locator": "page 51, paragraph 154",
+    "quote": "which have been generated or manipulated before 2 August 2026 do not need to be marked or labelled retroactively.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/EU-19/2026-10-11/secondary.pdf",
+    "sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+    "locator": "page 51, paragraph 155",
+    "quote": "During such a review, the Commission may decide to withdraw or amend these Guidelines.",
+    "source_kind": "alt-official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "official_url": "the Commission's library page for the guidelines themselves (title, publication 20 July 2026, the guidelines and the approving Communication as downloads), linked from the Commission's policy page on the guidelines and stored in this run, in place of the news item announcing them",
+   "date_last_updated": "27 July 2026 is the news page's 'Last update', a web page edit, not a new version of the guidelines",
+   "summary": "checked against the guidelines: their legal basis, the obligations as the guidelines frame them, and the horizontal requirements of Article 50(5) (clear and distinguishable information, first interaction, accessibility) instead of 'horizontal accessibility requirements'",
+   "notes": "the draft guidelines dated to 8 May 2026 from the timeline on the Commission's policy page for the code of practice, stored in this run; the Omnibus transition and the absence of retroactive marking now come from the guidelines' own section 8.4",
+   "verification.note": "rewritten for the files stored and read"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "legal_force",
+   "issuing_body",
+   "official_identifier"
+  ],
+  "status_reasoning": "Approved by C(2026) 5054 final of 20 July 2026 and published that day; the guidelines say they are non-binding and that the Commission may review, withdraw or amend them, but no stored source shows a withdrawal or a new version. 'Published (non-binding, current)' stands.",
+  "scope_reasoning": "Commission guidelines under the AI Act; in scope with no note."
+ },
+ "extra_urls": [
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems",
+   "reason": "the Commission's library page for the guidelines (digital-strategy.ec.europa.eu), linked from the Commission's policy page on the guidelines: their title, publication on 20 July 2026 and that the Commission adopted them; proposed as official_url. Its two download links are under ec.europa.eu/newsroom/dae/, which robots.txt disallows, so they are not requested (stored in this run)"
+  },
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content",
+   "reason": "the Commission's policy page on the Code of Practice on Transparency of AI-generated Content, linked from the stored news item: its timeline gives '08 May 2026 Publication of the draft guidelines / Consultation on the draft guidelines', the only official source found for the date of the draft (stored in this run)"
+  }
+ ],
+ "leads": [],
+ "open_questions": []
+}
