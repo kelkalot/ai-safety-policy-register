@@ -179,7 +179,7 @@ def robots_allow(rp, url):
 def audit_robots(root=ROOT, out=None):
     """Read-only: every stored file (records' local copies and runs' sources) whose URL its site's robots.txt
     disallows when read as RFC 9309 says. Files stored before the archiver read robots.txt that way can be among
-    them; nothing is changed or deleted, the list is for a person to decide about."""
+    them. Nothing is changed or deleted: robots.txt decides what the archiver downloads, not what the register keeps."""
     import glob
     import concurrent.futures as cf
     items = []
@@ -410,10 +410,11 @@ class _Redirects(urllib.request.HTTPRedirectHandler):
 
 class Result:
     def __init__(self, url, ok, status=None, final_url=None, headers=None, body=b"", error=None, code=None,
-                 method="http"):
+                 method="http", robots=False):
         self.url, self.ok, self.status, self.final_url = url, ok, status, final_url
         self.headers = headers or {}
         self.body, self.error, self.code, self.method = body, error, code, method
+        self.robots = robots  # not attempted because of robots.txt (it disallows the URL, or could not be read)
 
     @property
     def content_type(self):
@@ -530,7 +531,7 @@ class Fetcher:
             rp, note, rcode = self._robots_for(url)
             if not robots_allow(rp, url):
                 return Result(url, False, error=note or "The site's robots.txt does not allow automated downloads of this page",
-                              code=rcode)
+                              code=rcode, robots=True)
         host = urllib.parse.urlsplit(url).netloc
         last_err = None
         for attempt in range(self.retries + 1):
@@ -721,13 +722,15 @@ class RecordJob:
         sums.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     def keep_unchanged(self, role_key):
-        """Keep an earlier copy as the current one, unflagged: used when robots.txt now refuses to fetch it again.
-        The document is not gone, the archiver only does not download it again."""
+        """Keep an earlier copy as the current one, unflagged: used when robots.txt keeps the archiver from fetching it
+        again (it disallows the URL, or could not be read). The document is not gone, the archiver only does not
+        download it again. Returns the kept file, or None."""
         prev = self.prev_files.get(role_key)
         if prev and (ROOT / prev.get("path", "")).is_file():
-            self.files.append({k: v for k, v in prev.items() if k not in ("stale", "last_failed", "last_error")})
-            return True
-        return False
+            f = {k: v for k, v in prev.items() if k not in ("stale", "last_failed", "last_error")}
+            self.files.append(f)
+            return f
+        return None
 
     def keep_previous(self, role_key, error):
         prev = self.prev_files.get(role_key)
@@ -844,8 +847,8 @@ def run_http(job, fetcher, args):
                         job.store(key, "document", r2)
                     elif r2.ok:
                         job.notes.append("A linked file (%s) was not a PDF and was skipped." % link)
-                    elif r2.code == "robots" and job.keep_unchanged(key):
-                        pass  # stored earlier; robots.txt now refuses a new download, so the copy stays as it is
+                    elif r2.robots and job.keep_unchanged(key):
+                        pass  # stored earlier; robots.txt keeps the archiver from trying it again, so the copy stays as it is
                     elif job.keep_previous(key, r2.error):
                         job.notes.append("A linked PDF saved earlier can no longer be downloaded (%s: %s); "
                                          "the earlier copy is kept." % (link, r2.error))
@@ -855,9 +858,18 @@ def run_http(job, fetcher, args):
             if res.ok and not res.body:
                 res.error = "The server returned an empty response"
             job.official_error = res.error or ("HTTP %s" % res.status)
-            for key in [k for k in job.prev_files if k.startswith(("official", "document-"))]:
-                job.keep_previous(key, job.official_error)
-            job.need_browser = res.code not in ("robots", "bad-url", "dns", "timeout", "private-host")
+            keys = [k for k in job.prev_files if k.startswith(("official", "document-"))]
+            if res.robots and any(job.prev_files[k].get("url") == res.url for k in keys if k.startswith("official")):
+                # Stored earlier from this URL; robots.txt now keeps the archiver from trying it again, which says nothing
+                # about the document. The copies, and the documents linked from the page, stay current as they were,
+                # with the warning that decided their status.
+                kept = {k: job.keep_unchanged(k) for k in keys}
+                cur = kept.get("official-rendered") or kept.get("official")
+                job.official_warnings = [cur["warning"]] if cur and cur.get("warning") else []
+            else:
+                for key in keys:
+                    job.keep_previous(key, job.official_error)
+            job.need_browser = not res.robots and res.code not in ("bad-url", "dns", "timeout", "private-host")
     sec = rec.get("secondary_url")
     if sec and not args.no_secondary:
         r3 = fetcher.get(sec)
@@ -874,6 +886,9 @@ def run_http(job, fetcher, args):
             job.store("secondary", "secondary", r3, "; ".join(sec_warnings) or None)
             if sec_warnings:
                 job.notes.append("The secondary source is a bot-check or empty page (%s)." % "; ".join(sec_warnings))
+        elif r3.robots and prev_sec and prev_sec.get("url") == r3.url and job.keep_unchanged("secondary"):
+            if prev_sec.get("warning"):  # stored earlier; robots.txt keeps the archiver from trying it again, so it stays as it is
+                job.notes.append("The secondary source is a bot-check or empty page (%s)." % prev_sec["warning"])
         elif job.keep_previous("secondary", r3.error):
             job.notes.append("The secondary source can no longer be downloaded (%s); the earlier copy is kept."
                              % r3.error)
