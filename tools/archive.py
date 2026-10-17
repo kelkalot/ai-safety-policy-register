@@ -720,6 +720,15 @@ class RecordJob:
         lines = [l for l in lines if not l.endswith("  " + name)] + ["%s  %s" % (digest, name)]
         sums.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
+    def keep_unchanged(self, role_key):
+        """Keep an earlier copy as the current one, unflagged: used when robots.txt now refuses to fetch it again.
+        The document is not gone, the archiver only does not download it again."""
+        prev = self.prev_files.get(role_key)
+        if prev and (ROOT / prev.get("path", "")).is_file():
+            self.files.append({k: v for k, v in prev.items() if k not in ("stale", "last_failed", "last_error")})
+            return True
+        return False
+
     def keep_previous(self, role_key, error):
         prev = self.prev_files.get(role_key)
         if prev and (ROOT / prev.get("path", "")).is_file():
@@ -835,6 +844,8 @@ def run_http(job, fetcher, args):
                         job.store(key, "document", r2)
                     elif r2.ok:
                         job.notes.append("A linked file (%s) was not a PDF and was skipped." % link)
+                    elif r2.code == "robots" and job.keep_unchanged(key):
+                        pass  # stored earlier; robots.txt now refuses a new download, so the copy stays as it is
                     elif job.keep_previous(key, r2.error):
                         job.notes.append("A linked PDF saved earlier can no longer be downloaded (%s: %s); "
                                          "the earlier copy is kept." % (link, r2.error))
