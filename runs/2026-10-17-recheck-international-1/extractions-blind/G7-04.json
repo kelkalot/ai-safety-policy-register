@@ -1,0 +1,70 @@
+{
+ "cand_id": "G7-04",
+ "decision": "update",
+ "target_id": "G7-04",
+ "record": {
+  "notes": "Adopted in Paris on 29 May 2026 under the French G7 Presidency. Japan's Ministry of Internal Affairs and Communications confirms the year and describes the declaration as the meeting's outcome document. Also encourages AI procurement guidelines and support for France's open-source 'Meta-detector' synthetic-content tool. The June 2026 G7 Leaders' Summit outcome on AI was not checked."
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/G7-04/2026-10-11/official.pdf",
+    "sha256": "101316653594a6c0711dca2672308f63f808b6699f9a2c0b67f9441f831488b3",
+    "locator": "page 1",
+    "quote": "G7 Ministerial Declaration on Digital & Technology",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-04/extra-c193312eec/2026-10-17/official.html",
+    "sha256": "b8ed0daad0bcbbe88d9ddeaac0ea661b5898034b5fb6efaf79b54b8212e3379b",
+    "locator": "body",
+    "quote": "On Friday, May 29, 2026, the G7 Digital and Tech Ministerial Meeting was held in Paris, France.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/G7-04/2026-10-11/official.pdf",
+    "sha256": "101316653594a6c0711dca2672308f63f808b6699f9a2c0b67f9441f831488b3",
+    "locator": "page 1",
+    "quote": "We, the G7 Digital and Technology Ministers, met on May 29 in Paris, under France",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-04/extra-c193312eec/2026-10-17/official.html",
+    "sha256": "b8ed0daad0bcbbe88d9ddeaac0ea661b5898034b5fb6efaf79b54b8212e3379b",
+    "locator": "body",
+    "quote": "The Ministerial Declaration was adopted as the outcome document.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/G7-04/2026-10-11/official.pdf",
+    "sha256": "101316653594a6c0711dca2672308f63f808b6699f9a2c0b67f9441f831488b3",
+    "locator": "page 1",
+    "quote": "We, the G7 Digital and Technology Ministers, met on May 29 in Paris, under France",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "notes": "year 2026 now stated in the MIC page, so the inference sentence is dropped"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body"
+  ],
+  "status_reasoning": "Adopted 29 May 2026; nothing later found."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}

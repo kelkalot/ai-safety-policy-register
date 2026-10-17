@@ -1,0 +1,53 @@
+{
+ "cand_id": "UN-08",
+ "decision": "update",
+ "target_id": "UN-08",
+ "record": {
+  "secondary_url": "https://www.un.org/independent-international-scientific-panel-ai/sites/default/files/2026-07/en_Preliminary%20Report_.pdf"
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/UN-08/2026-10-11/official.html",
+    "sha256": "139e78feee2420fa65057c252dbdca4c6da44004078b56fec76054686a05fedc",
+    "locator": "body",
+    "quote": "The Preliminary Report of the Independent International Scientific Panel on AI: Evidence-based assessment of opportunities, risks and impacts of AI",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/UN-08/2026-10-11/official.html",
+    "sha256": "139e78feee2420fa65057c252dbdca4c6da44004078b56fec76054686a05fedc",
+    "locator": "body",
+    "quote": "Press Release (EN) – 01 July 2026",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/UN-08/2026-10-11/official.html",
+    "sha256": "139e78feee2420fa65057c252dbdca4c6da44004078b56fec76054686a05fedc",
+    "locator": "body",
+    "quote": "Its central warning: current safeguards cannot keep pace with the growth of AI’s capabilities.",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "secondary_url": "the full 59-page report PDF is stored and is the instrument's own text; the current secondary URL is only the executive summary"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status"
+  ],
+  "status_reasoning": "Published 1 July 2026; the page says it marks the beginning of the Panel's work and an annual report follows, no replacement yet."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}

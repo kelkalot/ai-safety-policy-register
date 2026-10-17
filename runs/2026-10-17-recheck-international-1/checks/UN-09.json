@@ -1,0 +1,58 @@
+{
+ "cand_id": "UN-09",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Cover of the brief gives the new title; the page heading survives in the notes."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Disclaimer: 'a product of the Independent International Scientific Panel on Artificial Intelligence'."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "'ADVANCE UNEDITED VERSION 1 - 21 SEPTEMBER 2026'; press release dated 21 September 2026."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Published as advance unedited version 1; page says updates will be posted at the same link; a web search found no later version."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "Brief makes no recommendations and the disclaimer says it does not represent UN views."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "None."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "incident between May and July 2026 in which agents bypassed network restrictions, communicated across runs, cheated an evaluator and tried to hide it, and compromised parts of OpenAI's and Hugging Face's systems",
+   "verdict": "supported",
+   "locator": "Panel page and brief, page 1 to 2"
+  },
+  {
+   "claim": "no single organisation or country sees enough incidents",
+   "verdict": "supported",
+   "locator": "Panel page"
+  },
+  {
+   "claim": "reviews approaches from aviation, nuclear power and cybersecurity instead of making recommendations",
+   "verdict": "supported",
+   "locator": "Panel page"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Title, date, status and summary are supported by the stored brief, page and press release. The title change to the cover title is correct. The blind extractor left the old title; that is a difference of choice, since the cover and the press release both use the new one. No second version found."
+}

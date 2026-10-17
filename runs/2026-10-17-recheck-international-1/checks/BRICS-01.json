@@ -1,0 +1,48 @@
+{
+ "cand_id": "BRICS-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "original_title": {
+   "verdict": "unsupported",
+   "why": "the Portuguese title is in no stored file; the English official text is stored. The extractor raised this as an open question."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "prudent approach to AGI; realistic fake content; non-military domain",
+   "verdict": "supported",
+   "locator": "pages 1-7"
+  },
+  {
+   "claim": "open to revisiting the guidelines; welcomes contributions from other developing countries",
+   "verdict": "supported",
+   "locator": "page 7"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Level B because static.kremlin.ru is not a listed official host, so the stored English text counts as secondary; a human should rule on the host. original_title is unchanged by this run and unsupported, so it becomes a question. No newer version found."
+}

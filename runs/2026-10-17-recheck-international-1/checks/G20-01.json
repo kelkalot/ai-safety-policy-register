@@ -1,0 +1,46 @@
+{
+ "cand_id": "G20-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "UNESCO-01"
+ ],
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "AI section paragraphs 44-47; para 46 UNESCO TPAF; para 122 presidencies 2026-2028",
+   "verdict": "supported",
+   "locator": "pages 12-13, 30"
+  },
+  {
+   "claim": "adopted at start of summit in absence of US",
+   "verdict": "supported",
+   "locator": "SAnews"
+  }
+ ],
+ "scope": {
+  "assessment": "borderline",
+  "note": "General summit declaration with AI in four paragraphs; the extractor scope_note is apt."
+ },
+ "overall": "accept",
+ "note": "Supported. Date 22 Nov 2025 rests on the South African Presidency address. Press reports on Argentina were removed as unstored."
+}

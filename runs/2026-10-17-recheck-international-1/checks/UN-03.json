@@ -1,0 +1,55 @@
+{
+ "cand_id": "UN-03",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "HLAB report footnote 3 gives the title with '(78/311)'."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "The HLAB report calls them General Assembly resolutions; A/RES/79/325 lists it among 'its resolutions'."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "A/RES/79/325: '78/311 of 1 July 2024'."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "A/RES/79/325 preamble: '78/311 of 1 July 2024'."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Recalled by A/RES/79/325 in 2025; no stored text shows it withdrawn or replaced."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "UN General Assembly resolution; recommendatory by nature ('calls on', 'encourages'), consistent with the other UN resolution records."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "one of the two resolutions on AI the General Assembly adopted in 2024, with 78/265",
+   "verdict": "supported",
+   "locator": "HLAB final report, paragraph 70, page 43: 'The two General Assembly resolutions on AI adopted in 2024 so far'"
+  },
+  {
+   "claim": "the HLAB read the two as acknowledging that representation gaps in international AI governance need to be addressed",
+   "verdict": "supported",
+   "locator": "HLAB final report, paragraph 70 (read against the stored text)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "UN-07"
+ ],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Capacity-building resolution with limited safety content: AI appears in the title and the register's safety topic is international cooperation. Version 1 already carried it without a note; the precedents (an instrument with AI in the title whose content is mainly about something else) call for a scope_note."
+ },
+ "overall": "accept-with-fixes",
+ "note": "Title, identifier, date and status are supported by A/RES/79/325 (un.org) and the HLAB report. The summary was cut to what those files show; it is short but supported. safety_topics has one value, below the minimum of two, because no stored file shows a second topic; the resolution's text is needed. I propose a scope_note, since the instrument is borderline under section 10."
+}

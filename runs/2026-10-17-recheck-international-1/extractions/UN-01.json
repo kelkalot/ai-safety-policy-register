@@ -1,0 +1,51 @@
+{
+ "cand_id": "UN-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "UN-01",
+ "record": {
+  "notes": "The follow-up resolution on lethal autonomous weapons systems of December 2024 is UN-06. Discussions on these systems continue in the Group of Governmental Experts on emerging technologies in the area of lethal autonomous weapons systems under the Convention on Certain Conventional Weapons. In his 2023 New Agenda for Peace the Secretary-General recommended that States conclude, by 2026, a legally binding instrument to prohibit lethal autonomous weapon systems that function without human control or oversight and to regulate all other types of autonomous weapons systems.",
+  "verification": {
+   "note": "PARTIAL. No stored file shows this resolution's title, date or text. The official_url (docs.un.org) is a JavaScript document viewer whose stored copies hold only the language menu; the resolution's PDF on documents.un.org is closed to automated downloads by robots.txt; the UN Digital Library returns a bot-check page; and the press.un.org meeting coverage of the First Committee (GA/DIS/3731) and of the plenary of 22 December 2023 (GA/12578), requested in this run, returned a JavaScript 'Client Challenge' page also in a browser. Stored in this run: UNODA's page on lethal autonomous weapon systems, which supports the notes on the Group of Governmental Experts and the New Agenda for Peace. Title, date, status, summary and the vote rest on version 1 and need the resolution's text. Version 1's 'Austria-led' and the Secretary-General's report 'A/79/88, symbol unverified' are not shown by any stored file and were removed from the notes."
+  }
+ },
+ "evidence": {},
+ "judgment": {
+  "changes": {
+   "notes": "'Austria-led' and 'A/79/88, symbol unverified' removed (no stored file shows them; the second was a research remark); the CCW Group of Governmental Experts and the New Agenda for Peace recommendation now quoted from UNODA's page; the link to UN-06 added",
+   "verification.note": "rewritten for what this run could and could not store"
+  },
+  "confirmed": [],
+  "status_reasoning": "Not settled by any stored file. Nothing stored shows the resolution replaced or withdrawn; the published status 'Published (non-binding, current)' is left as it is.",
+  "scope_reasoning": "A General Assembly resolution on lethal autonomous weapons systems, an AI-safety question in the military domain; in scope with no note.",
+  "notes_check": "UNODA's page: 'In his 2023 New Agenda for Peace, the Secretary-General reiterated this call, recommending that States conclude, by 2026, a legally binding instrument to prohibit lethal autonomous weapon systems that function without human control or oversight, ... and to regulate all other types of autonomous weapons systems', and 'Group of Governmental Experts of the High Contracting Parties related to emerging technologies in the area of lethal autonomous weapons systems (GGE on LAWS)'."
+ },
+ "extra_urls": [
+  {
+   "url": "https://disarmament.unoda.org/en/our-work/emerging-challenges/lethal-autonomous-weapon-systems",
+   "reason": "UNODA's page on lethal autonomous weapon systems (stored in this run): backs the notes."
+  },
+  {
+   "url": "https://unidir.org/wp-content/uploads/2025/03/UN_General_Assembly_A_RES_79_239-EN.pdf",
+   "reason": "The text of A/RES/79/239 (24 December 2024), already stored in this run as a source of UN-10. Its preamble takes note of 'the report of the Secretary-General submitted pursuant to United Nations General Assembly resolution 78/241 of 22 December 2023 on lethal autonomous weapons systems', with footnote 'A/79/88'. A General Assembly document citing the resolution by symbol and date, for title, date_published, status and the notes. The host is UNIDIR's (a UN institute), which pipeline/official-sites.json does not list, so the evidence script will count it as secondary until a person records the host."
+  }
+ ],
+ "leads": [
+  {
+   "title": "Lethal autonomous weapons systems, General Assembly resolution 80/57 (1 December 2025), the third resolution on this agenda item after 78/241 and 79/62",
+   "url": "https://press.un.org/en/2025/ga12736.doc.htm",
+   "note": "Seen in a web search: draft A/C.1/80/L.41, adopted in December 2025. Not in the register; the press.un.org page cannot be stored by the archiver."
+  },
+  {
+   "title": "Report of the Secretary-General on lethal autonomous weapons systems (A/79/88, 2024), requested by resolution 78/241",
+   "url": null,
+   "note": "Not in the register; the text is on documents.un.org, which robots.txt closes to the archiver."
+  }
+ ],
+ "open_questions": [
+  "title, date_published and status have no stored evidence. The only reachable official document that cites the resolution by symbol and date is A/RES/79/239 on unidir.org, requested above; even when stored it counts as secondary (level C) unless a person records unidir.org as an official host. Otherwise the resolution's text needs to be provided by a person (AGENTS.md section 7.8).",
+  "The summary (first resolution on the topic; concerns from humanitarian, legal, security, technological and ethical perspectives; the request for a report of the Secretary-General gathering views) rests on version 1 and on no stored file; it is left as published until the text can be read.",
+  "The press.un.org pages GA/12578 and GA/DIS/3731 cannot be stored by the archiver, even in a browser."
+ ]
+}

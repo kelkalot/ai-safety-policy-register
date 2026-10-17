@@ -1,0 +1,49 @@
+{
+ "cand_id": "G7-04",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "secure AI first priority with CBRN and cyber misuse risks",
+   "verdict": "supported",
+   "locator": "page 2"
+  },
+  {
+   "claim": "comparing AI risk-assessment frameworks with the International Network and OECD",
+   "verdict": "supported",
+   "locator": "page 3"
+  },
+  {
+   "claim": "minors, chatbots, AI-generated CSAM, deepfakes",
+   "verdict": "supported",
+   "locator": "minors section"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Year 2026 is supported by the MIC press release and the gov.uk title; declaration itself omits it. The dropped topic public-sector use is a defensible choice (procurement is only mentioned in notes). Blind sample record; agreement table not weighed."
+}

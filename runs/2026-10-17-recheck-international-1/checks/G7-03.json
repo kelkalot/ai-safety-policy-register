@@ -1,0 +1,49 @@
+{
+ "cand_id": "G7-03",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "first successful international framework of guiding principles and code of conduct",
+   "verdict": "supported",
+   "locator": "page 3"
+  },
+  {
+   "claim": "users of open-sourced advanced AI are not exempt",
+   "verdict": "supported",
+   "locator": "page 4"
+  },
+  {
+   "claim": "work plan: monitoring tools for accountability",
+   "verdict": "supported",
+   "locator": "work plan"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Supported. Documents page dates the Canadian declaration 10 Dec 2025 against 9 Dec in the text; the notes use the declaration date, which is right."
+}

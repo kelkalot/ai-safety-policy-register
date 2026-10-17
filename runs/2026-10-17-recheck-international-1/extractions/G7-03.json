@@ -1,0 +1,168 @@
+{
+ "cand_id": "G7-03",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "G7-03",
+ "record": {
+  "summary": "Framework endorsed by the G7 Digital and Tech Ministers as the outcome of the Hiroshima AI Process under Japan's 2023 presidency, described as the first successful international framework of guiding principles and a code of conduct for advanced AI. Its four elements are the OECD report towards a G7 common understanding on generative AI, the Guiding Principles extended to all AI actors with a 12th principle on responsible use, digital literacy and sharing information on emerging risks, the Code of Conduct for organisations developing advanced AI systems, and project-based cooperation on content authentication, labelling of AI-generated content and countering disinformation.",
+  "notes": "Agreed at a virtual meeting of the G7 Digital & Tech Ministers on 1 Dec 2023, with a work plan for 2024 under the Italian presidency that includes developing monitoring tools to help organisations stay accountable for applying the Code of Conduct; G7 Leaders endorsed the framework and the work plan in their statement of 6 Dec 2023. The framework states that users of open-sourced advanced AI are not exempt from the relevant principles. Later G7 texts that continue the Hiroshima AI Process include the Italian presidency's ministerial declaration with an annex on advancing its outcomes (15 Mar 2024), the Canadian presidency's industry, digital and technology ministerial declaration (Dec 2025) and the French presidency's ministerial declaration of May 2026 (G7-04). The HAIP Friends Group adopted an action plan in March 2026 (INT-20), and the OECD runs the HAIP Reporting Framework (OECD-02).",
+  "related": [
+   "G7-01",
+   "G7-02",
+   "OECD-02",
+   "G7-04",
+   "G7-05",
+   "INT-20"
+  ],
+  "verification": {
+   "note": "Stored and read in this run: the Ministers' Statement of 1 Dec 2023 with the attached framework and Annex 1 (soumu.go.jp, official), which confirms the title, the date, the four elements, the 12th principle and the work plan; the G7 Leaders' Statement of 6 Dec 2023 (soumu.go.jp), which confirms the Leaders' endorsement of the framework and the work plan; and MIC Japan's HAIP documents page (stored 11 Oct 2026), which lists the 2023 documents and the later Italian, Canadian and French texts and the Friends Group Action Plan 2026. The documents page dates the Canadian ministerial declaration 10 Dec 2025; the declaration itself, stored for G7-05, gives 9 Dec 2025."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/G7-03/2026-10-11/official.pdf",
+    "sha256": "58bc49facb8d1ca4f46553ce224e77ba12a0bb8c8fd89e78fca7d26244f3b128",
+    "locator": "page 1",
+    "quote": "Hiroshima AI Process G7 Digital & Tech Ministers' Statement (December 1, 2023)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/G7-03/2026-10-11/official.pdf",
+    "sha256": "58bc49facb8d1ca4f46553ce224e77ba12a0bb8c8fd89e78fca7d26244f3b128",
+    "locator": "page 3",
+    "quote": "(Attachment) Hiroshima AI Process Comprehensive Policy Framework",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/G7-03/2026-10-11/official.pdf",
+    "sha256": "58bc49facb8d1ca4f46553ce224e77ba12a0bb8c8fd89e78fca7d26244f3b128",
+    "locator": "page 1",
+    "quote": "Hiroshima AI Process G7 Digital & Tech Ministers' Statement (December 1, 2023)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-03/extra-c9d9df7542/2026-10-17/official.pdf",
+    "sha256": "a22c3a1e8220c15419fb513fc46dd68f285b463dcbf010c541dd465666843b72",
+    "locator": "page 13",
+    "quote": "We endorse the outcomes of the G7 Digital and Tech Ministers' Meeting on December 1, 2023",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/G7-03/2026-10-11/official.pdf",
+    "sha256": "58bc49facb8d1ca4f46553ce224e77ba12a0bb8c8fd89e78fca7d26244f3b128",
+    "locator": "page 3",
+    "quote": "The Hiroshima AI Process Comprehensive Policy Framework aims to promote safe, secure and trustworthy AI worldwide",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/G7-03/2026-10-11/secondary.html",
+    "sha256": "a2ebdff0dba81688bb91211b52c1f8ffb51f669dfcc00590112d7d336bc2abba",
+    "locator": "Documents of Achievement",
+    "quote": "These documents will be reviewed and updated as necessary, taking advantage of opportunities for multi-stakeholder consultation, in response to rapid technological developments.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/G7-03/2026-10-11/secondary.html",
+    "sha256": "a2ebdff0dba81688bb91211b52c1f8ffb51f669dfcc00590112d7d336bc2abba",
+    "locator": "Documents of Achievement, 2026 (France)",
+    "quote": "G7 Ministerial Declaration on Digital & Technology",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-03/extra-c9d9df7542/2026-10-17/official.pdf",
+    "sha256": "a22c3a1e8220c15419fb513fc46dd68f285b463dcbf010c541dd465666843b72",
+    "locator": "page 13",
+    "quote": "We look forward to further advancing the Hiroshima AI Process in accordance with the work plan developed by relevant Ministers.",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/G7-03/2026-10-11/official.pdf",
+    "sha256": "58bc49facb8d1ca4f46553ce224e77ba12a0bb8c8fd89e78fca7d26244f3b128",
+    "locator": "page 1",
+    "quote": "We, the G7 Digital and Tech Ministers, and knowledge partners",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/G7-03/2026-10-11/secondary.html",
+    "sha256": "a2ebdff0dba81688bb91211b52c1f8ffb51f669dfcc00590112d7d336bc2abba",
+    "locator": "Documents of Achievement, 2023 (Japan)",
+    "quote": "G7 Leaders' Statement (December 6, 2023)",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-03/extra-c9d9df7542/2026-10-17/official.pdf",
+    "sha256": "a22c3a1e8220c15419fb513fc46dd68f285b463dcbf010c541dd465666843b72",
+    "locator": "page 13",
+    "quote": "We endorse the outcomes of the G7 Digital and Tech Ministers' Meeting on December 1, 2023, notably the Hiroshima AI Process Comprehensive Policy Framework and the Work Plan to advance Hiroshima AI Process.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-03/extra-c9d9df7542/2026-10-17/official.pdf",
+    "sha256": "a22c3a1e8220c15419fb513fc46dd68f285b463dcbf010c541dd465666843b72",
+    "locator": "page 1",
+    "quote": "G7 Leaders' Statement December 6, 2023",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/G7-03/2026-10-11/official.pdf",
+    "sha256": "58bc49facb8d1ca4f46553ce224e77ba12a0bb8c8fd89e78fca7d26244f3b128",
+    "locator": "page 4",
+    "quote": "policymaking efforts, following a risk -based approach, as we develop more enduring and/or detailed regulatory and governance regimes on advanced AI systems",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "'the G7's first international framework' restated as the Ministers' own description; the 12th principle for all AI actors added",
+   "notes": "the 2024 work plan, the open-source sentence and the later G7 texts listed on MIC Japan's HAIP page added; 'a HAIP Friends Group of non-G7 supporters' corrected (the stored page lists the Friends Group Action Plan 2026 without describing its members) and linked to INT-20",
+   "related": "INT-20 (Friends Group Action Plan 2026), G7-04 and G7-05 added; G7-04 and G7-05 already link here",
+   "verification.note": "rewritten for the sources stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "A non-binding ministerial framework, endorsed by the Leaders on 6 Dec 2023. MIC Japan's HAIP page (stored 11 Oct 2026) presents the framework as the main achievement of the process and lists later G7 texts through May 2026 that build on it; none replaces it. 'Published (non-binding, current)' stands."
+ },
+ "extra_urls": [
+  {
+   "url": "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document06_en.pdf",
+   "reason": "G7 Leaders' Statement of 6 Dec 2023, linked from MIC Japan's HAIP documents page (stored): the Leaders' endorsement of the Comprehensive Policy Framework and the work plan, given in issuing_body and notes"
+  }
+ ],
+ "leads": [
+  {
+   "title": "G7 Industry, Technology and Digital Ministerial Declaration, Annex 3 'Advancing the Outcomes of the Hiroshima Artificial Intelligence Process (HAIP)' (15 Mar 2024)",
+   "url": "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document07_en.pdf",
+   "seen_in": "archive/G7-03/2026-10-11/secondary.html (Documents of Achievement, 2024 (Italy))",
+   "why": "Italian presidency's HAIP follow-up (the mandate for the Reporting Framework); no record in the register."
+  },
+  {
+   "title": "G7 2025 Industry, Digital and Technology Ministerial Declaration (Montréal, Dec 2025)",
+   "url": "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document15_en.pdf",
+   "seen_in": "archive/G7-03/2026-10-11/secondary.html (Documents of Achievement, 2025 (Canada))",
+   "why": "Canadian presidency's ministerial outcome on AI adoption, trust and the HAIP Reporting Framework; no record in the register."
+  },
+  {
+   "title": "Toolkit for Small and Medium-sized Enterprises (SMEs) deploying Artificial Intelligence (AI)",
+   "url": "https://www.soumu.go.jp/main_content/001044890.pdf",
+   "seen_in": "archive/G7-03/2026-10-11/secondary.html (Documents of Achievement, 2025 (Canada))",
+   "why": "G7 guidance on deploying AI responsibly for SMEs, published under the Canadian presidency; no record in the register."
+  }
+ ],
+ "open_questions": []
+}

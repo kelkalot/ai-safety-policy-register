@@ -1,0 +1,139 @@
+{
+ "cand_id": "G7-05",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "G7-05",
+ "record": {
+  "summary": "G7 Leaders' statement committing to drive innovation and adoption of 'secure, responsible, and trustworthy AI' that benefits people, mitigates negative externalities and promotes national security. It covers public-sector AI adoption that respects human rights and privacy and promotes transparency, fairness and accountability (a G7 GovAI Grand Challenge and a G7 AI Network), the 2024 G7 action plan on safe, secure and trustworthy AI in the world of work, a workplan on AI and energy, and partnerships with developing countries. An annexed G7 AI Adoption Roadmap for SMEs includes trust-building tools based on the Hiroshima AI Process and its OECD-run reporting framework.",
+  "notes": "Issued on 17 June 2025 at the Kananaskis summit, Alberta, under the Canadian G7 Presidency. The statement tasks ministers with a workplan on AI and energy before the end of 2025; the annexed G7 AI Adoption Roadmap commits to an AI Adoption Blueprint prepared with the OECD, a toolkit for AI deployers and raising awareness of the HAIP Code of Conduct Reporting Framework. The G7 Industry, Digital and Technology Ministerial Declaration of 9 December 2025 (Montréal) reports on delivering the Roadmap, including the SME AI Adoption Blueprint launched by the Canadian Presidency, the Toolkit for SMEs Deploying Artificial Intelligence and the G7 AI Network of public-sector AI leaders, and the ministers' statement on the Blueprint of the same date responds to this statement. The French presidency continued the work in the May 2026 ministerial declaration (G7-04).",
+  "verification": {
+   "note": "Stored and read in this run: the statement on the Prime Minister of Canada's website (pm.gc.ca, official), which confirms the title, 17 June 2025, Kananaskis, the commitments and the annexed AI Adoption Roadmap; the G7 Research Group's reprint (g7.utoronto.ca, not an official host), which carries the same text; and, from MIC Japan's HAIP site (soumu.go.jp), the G7 2025 Industry, Digital and Technology Ministerial Declaration and the Ministerial Statement on the SME AI Adoption Blueprint (both Montréal, 9 Dec 2025), which confirm the follow-up given in notes. The earlier sentences on a Kananaskis quantum statement and a Research 7+ meeting, and the remark that the summit had no final communiqué, rested on unstored secondary pages and were removed."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/G7-05/2026-10-11/official.html",
+    "sha256": "3eefb3c29fb1cebbce267a54cb6e0923850de4c21892cd6df180a4b5b80afdfc",
+    "locator": "page title",
+    "quote": "G7 Leaders' Statement on AI for Prosperity | Prime Minister of Canada",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/G7-05/2026-10-11/official.html",
+    "sha256": "3eefb3c29fb1cebbce267a54cb6e0923850de4c21892cd6df180a4b5b80afdfc",
+    "locator": "dateline",
+    "quote": "June 17, 2025 Kananaskis, Alberta",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/G7-05/2026-10-11/official.html",
+    "sha256": "3eefb3c29fb1cebbce267a54cb6e0923850de4c21892cd6df180a4b5b80afdfc",
+    "locator": "statement",
+    "quote": "To fully realize the potential of AI for our publics and our partners, we commit to:",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/G7-05/2026-10-11/official.html",
+    "sha256": "3eefb3c29fb1cebbce267a54cb6e0923850de4c21892cd6df180a4b5b80afdfc",
+    "locator": "statement, first paragraph",
+    "quote": "We, the Leaders of the G7, recognize the potential of a human-centric approach to artificial intelligence (AI) to grow prosperity",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/G7-05/2026-10-11/official.html",
+    "sha256": "3eefb3c29fb1cebbce267a54cb6e0923850de4c21892cd6df180a4b5b80afdfc",
+    "locator": "statement",
+    "quote": "To fully realize the potential of AI for our publics and our partners, we commit to:",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-05/extra-4b24ea391d/2026-10-17/official.pdf",
+    "sha256": "57580ecc384b1392c60873f8dc9d1b6964c88f00548aabc7e2b6e8c36a9ca904",
+    "locator": "page 1",
+    "quote": "December 9, 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-05/extra-4b24ea391d/2026-10-17/official.pdf",
+    "sha256": "57580ecc384b1392c60873f8dc9d1b6964c88f00548aabc7e2b6e8c36a9ca904",
+    "locator": "page 1",
+    "quote": "Building upon the commitments in the G7 Leaders' Statement on AI for Prosperity we focused our",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-05/extra-4b24ea391d/2026-10-17/official.pdf",
+    "sha256": "57580ecc384b1392c60873f8dc9d1b6964c88f00548aabc7e2b6e8c36a9ca904",
+    "locator": "page 1",
+    "quote": "Canadian Presidency launching the SME AI Adoption Blueprint",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-05/extra-4b24ea391d/2026-10-17/official.pdf",
+    "sha256": "57580ecc384b1392c60873f8dc9d1b6964c88f00548aabc7e2b6e8c36a9ca904",
+    "locator": "page 1",
+    "quote": "Deploying Artificial Intelligence that provides guidance to help businesses and organizations of",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-05/extra-4b24ea391d/2026-10-17/official.pdf",
+    "sha256": "57580ecc384b1392c60873f8dc9d1b6964c88f00548aabc7e2b6e8c36a9ca904",
+    "locator": "page 2",
+    "quote": "This year we launched the G7 AI Network, bringing together our public sector AI leaders.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-05/extra-da9d260004/2026-10-17/official.pdf",
+    "sha256": "51383f469cb39b44ca4f3d6939afdcdbaa86799c6ae58c8feda4f518ca55de68",
+    "locator": "page 1",
+    "quote": "Statement on AI for Prosperity, we present concrete actions that businesses, business",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "'one of the few consensus texts of a summit without a final communiqué' removed (no stored source); 'There is no frontier-risk section' removed (an evaluation); the GovAI Grand Challenge and the G7 AI Network added",
+   "notes": "the AI Adoption Blueprint and the AI-energy workplan attributed correctly (the Blueprint is in the annex, the energy workplan in the statement); the December 2025 ministerial follow-up added; the quantum and Research 7+ sentences and the evaluative sentence on safety content removed",
+   "verification.note": "rewritten for the sources stored in this run; the duplicated unconfirmed text removed"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "A leaders' statement of political commitments, not binding. Its follow-up (the December 2025 ministerial texts and the May 2026 declaration, G7-04) implements it without replacing it. 'Published (non-binding, current)' stands."
+ },
+ "extra_urls": [
+  {
+   "url": "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document15_en.pdf",
+   "reason": "G7 2025 Industry, Digital and Technology Ministerial Declaration (Montréal, 9 Dec 2025), linked from MIC Japan's HAIP documents page (stored for G7-03): reports delivery of the AI Adoption Roadmap (SME AI Adoption Blueprint, Toolkit for SMEs, G7 AI Network), given in notes"
+  },
+  {
+   "url": "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document16_en.pdf",
+   "reason": "G7 Industry, Digital and Technology Ministerial Statement on the SME AI Adoption Blueprint (9 Dec 2025), linked from the same page: responds to the commitments in this statement, given in notes"
+  }
+ ],
+ "leads": [
+  {
+   "title": "G7 Industry, Digital and Technology Ministerial Statement on the SME AI Adoption Blueprint (Montréal, 9 Dec 2025)",
+   "url": "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document16_en.pdf",
+   "seen_in": "archive/G7-03/2026-10-11/secondary.html (Documents of Achievement, 2025 (Canada))",
+   "why": "Ministerial follow-up to this statement on secure, responsible and trustworthy AI adoption by SMEs; probably a scope_note case (adoption focus); no record in the register."
+  }
+ ],
+ "open_questions": []
+}

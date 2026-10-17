@@ -1,0 +1,135 @@
+{
+ "cand_id": "UN-08",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "UN-08",
+ "record": {
+  "summary": "The first report of the Independent International Scientific Panel on AI, which the General Assembly established by resolution 79/325, assessing the capabilities, opportunities, risks and impacts of AI. Its central warning is that current safeguards cannot keep pace with the growth of AI capabilities, and it describes an evidence dilemma: by the time the evidence exists, it may be too late to act. It reports findings in seven domains, including security, human rights and democracy, and child safety, and finds that reliable methods for retaining control over highly autonomous AI systems are lacking and that evaluation methods remain underdeveloped.",
+  "safety_topics": [
+   "general-purpose / frontier AI",
+   "catastrophic risk",
+   "evaluation & testing",
+   "child safety",
+   "research priorities",
+   "international cooperation"
+  ],
+  "language": "Arabic, Chinese, English, French, Russian, Spanish",
+  "notes": "Released on 1 Jul 2026 to inform the inaugural Global Dialogue on AI Governance in Geneva (6-7 Jul 2026). Mandated by A/RES/79/325. The Panel calls it the beginning of its work, to be updated progressively with thematic briefs on emerging issues, and says its next annual report will inform the second Global Dialogue in New York in May 2027; the Panel's site lists a first thematic brief, on AI agents and the risk of losing human control (UN-09). The report states that it represents a broad consensus of the Panel's members, who serve in their personal capacities, and does not represent the views of the United Nations.",
+  "verification": {
+   "note": "Stored copies (un.org, 11 Oct 2026; the archiver found them unchanged on 17 Oct 2026): the Panel's Preliminary Report page, the full report PDF (59 pages), the Co-Chairs' message dated 1 July 2026 and the executive summary PDF, stored as the record's secondary source. The page confirms the title, the release materials dated 01 July 2026, the six language versions of the report and the seven domains; the full report confirms the title, the July 2026 date, the Panel's authorship and its establishment by resolution 79/325, the disclaimer and the findings in the summary. The stored page lists no updated version of the report. The summary no longer speaks of an 'evidence timing problem', a phrase the report does not use; it calls this an evidence dilemma."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/UN-08/2026-10-11/official.html",
+    "sha256": "139e78feee2420fa65057c252dbdca4c6da44004078b56fec76054686a05fedc",
+    "locator": "page body",
+    "quote": "The Preliminary Report of the Independent International Scientific Panel on AI: Evidence-based assessment of opportunities, risks and impacts of AI is a first-of-its-kind independent scientific assessment",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/UN-08/2026-10-11/document-1.pdf",
+    "sha256": "7939c552f36bdc05896b90f512da3faefe32987a2d5cb83f6ee0a0f2c673ba31",
+    "locator": "page 2",
+    "quote": "Preliminary Report of the Independent International Scientific Panel on AI: Evidence-based assessment of opportunities, risks and impacts of artificial intelligence Copyright",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/UN-08/2026-10-11/document-1.pdf",
+    "sha256": "7939c552f36bdc05896b90f512da3faefe32987a2d5cb83f6ee0a0f2c673ba31",
+    "locator": "page 6",
+    "quote": "The report is authored by the Independent International Scientific Panel on Artificial Intelligence, a body established by the General Assembly in its resolution 79/325 in 2025.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/UN-08/2026-10-11/document-2.pdf",
+    "sha256": "68bde9e9c5573ec2f404d1221cd87db1a4fdd6c5f9619f7950dffc49fcc79fe7",
+    "locator": "page 3",
+    "quote": "Yoshua Bengio and Maria Ressa Co-Chairs, UN Independent International Scientific Panel on Artificial Intelligence",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/UN-08/2026-10-11/official.html",
+    "sha256": "139e78feee2420fa65057c252dbdca4c6da44004078b56fec76054686a05fedc",
+    "locator": "Resources",
+    "quote": "Secretary-General's remarks on release of the Preliminary Report – 01 July 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/UN-08/2026-10-11/official.html",
+    "sha256": "139e78feee2420fa65057c252dbdca4c6da44004078b56fec76054686a05fedc",
+    "locator": "Resources",
+    "quote": "Press Release (EN) – 01 July 2026",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/UN-08/2026-10-11/document-2.pdf",
+    "sha256": "68bde9e9c5573ec2f404d1221cd87db1a4fdd6c5f9619f7950dffc49fcc79fe7",
+    "locator": "page 3",
+    "quote": "Co-Chairs, UN Independent International Scientific Panel on Artificial Intelligence 1 July 2026",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/UN-08/2026-10-11/document-1.pdf",
+    "sha256": "7939c552f36bdc05896b90f512da3faefe32987a2d5cb83f6ee0a0f2c673ba31",
+    "locator": "page 6",
+    "quote": "The present report is a product of the Independent International Scientific Panel on Artificial Intelligence which is responsible for the content and publication of the report.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/UN-08/2026-10-11/official.html",
+    "sha256": "139e78feee2420fa65057c252dbdca4c6da44004078b56fec76054686a05fedc",
+    "locator": "page body",
+    "quote": "This Preliminary Report marks the beginning of the Panel's work.",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/UN-08/2026-10-11/document-1.pdf",
+    "sha256": "7939c552f36bdc05896b90f512da3faefe32987a2d5cb83f6ee0a0f2c673ba31",
+    "locator": "page 6",
+    "quote": "operating under a strictly scientific, non-political mandate to document international scientific consensus and disagreements while remaining policy-relevant but not policy-prescriptive",
+    "source_kind": "official"
+   }
+  ],
+  "language": [
+   {
+    "file": "archive/UN-08/2026-10-11/official.html",
+    "sha256": "139e78feee2420fa65057c252dbdca4c6da44004078b56fec76054686a05fedc",
+    "locator": "Preliminary Report",
+    "quote": "Read the Full Report EN AR ES FR RU ZH",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "A report published by the Panel on 1 July 2026 (page resources and the Co-Chairs' message). The report says it will be updated progressively, but the stored page (unchanged at the archiver's check on 17 Oct 2026) lists no new version and no annual report, so it stays 'Published (non-binding, current)'. A scientific assessment that is 'policy-relevant but not policy-prescriptive' is non-binding.",
+  "scope_reasoning": "In scope without a note: a scientific report commissioned by the General Assembly (resolution 79/325) on AI risks, like other government-commissioned scientific reports (AGENTS.md section 10).",
+  "changes": {
+   "summary": "The phrase 'evidence timing problem' is not in the report (it speaks of an 'evidence dilemma'); rewritten from the stored report, with the control and evaluation findings of its executive summary.",
+   "safety_topics": "Added 'catastrophic risk' (the gap between capabilities and risk management 'may lead to catastrophic outcomes') and 'evaluation & testing' (evaluation methods underdeveloped; independent assessment institutions embryonic).",
+   "language": "The page offers the full report, executive summary and message in all six UN languages (EN, AR, ES, FR, RU, ZH), not only English, French and Spanish.",
+   "notes": "Added what the report says about its own updating, the next annual report, the thematic brief and its disclaimer; all from the stored page and report.",
+   "verification.note": "Rewritten to say what the stored copies confirm; the old note said the executive summary PDF had not been fetched, but it is now stored."
+  },
+  "confirmed": [
+   "title",
+   "issuing_body",
+   "date_published",
+   "status",
+   "legal_force"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}

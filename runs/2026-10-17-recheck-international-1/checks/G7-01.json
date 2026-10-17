@@ -1,0 +1,44 @@
+{
+ "cand_id": "G7-01",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "11 principles, living document building on OECD AI Principles",
+   "verdict": "supported",
+   "locator": "page 1"
+  },
+  {
+   "claim": "12th principle added in the All AI Actors version",
+   "verdict": "supported",
+   "locator": "page 2"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Title, 30 Oct 2023 date (Leaders statement and the principles document) and non-binding living-document status are supported by stored official texts. No newer edition found in a search."
+}

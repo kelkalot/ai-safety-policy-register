@@ -1,0 +1,78 @@
+{
+ "cand_id": "OECD-01",
+ "decision": "update",
+ "target_id": "OECD-01",
+ "record": {},
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/OECD-01/2026-10-17/official-print.pdf",
+    "sha256": "620ff14bbdba734f74ff5846c8f47457b91fccef0353f01cde4e5bfbed683eb0",
+    "locator": "page 1",
+    "quote": "Recommendation of the Council on Artificial Intelligence",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/OECD-01/2026-10-17/official-print.pdf",
+    "sha256": "620ff14bbdba734f74ff5846c8f47457b91fccef0353f01cde4e5bfbed683eb0",
+    "locator": "page 1",
+    "quote": "Adopted on: 22/05/2019",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/OECD-01/2026-10-17/official-print.pdf",
+    "sha256": "620ff14bbdba734f74ff5846c8f47457b91fccef0353f01cde4e5bfbed683eb0",
+    "locator": "page 1",
+    "quote": "Amended on: 03/05/2024",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/OECD-01/2026-10-17/official-print.pdf",
+    "sha256": "620ff14bbdba734f74ff5846c8f47457b91fccef0353f01cde4e5bfbed683eb0",
+    "locator": "page 1",
+    "quote": "OECD/LEGAL/0449",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/OECD-01/2026-10-17/official-print.pdf",
+    "sha256": "620ff14bbdba734f74ff5846c8f47457b91fccef0353f01cde4e5bfbed683eb0",
+    "locator": "page 1",
+    "quote": "In force Recommendation Digital",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/OECD-01/2026-10-17/official-print.pdf",
+    "sha256": "620ff14bbdba734f74ff5846c8f47457b91fccef0353f01cde4e5bfbed683eb0",
+    "locator": "Background information",
+    "quote": "the Recommendation was revised by the OECD Council meeting at Ministerial level on 3 May 2024",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "confirmed": [
+   "title",
+   "date_published",
+   "date_last_updated",
+   "official_identifier",
+   "status",
+   "issuing_body"
+  ],
+  "status_reasoning": "Compendium shows In force; latest amendment 3 May 2024."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,168 @@
+{
+ "cand_id": "G7-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "G7-01",
+ "record": {
+  "secondary_url": "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document01_en.pdf",
+  "notes": "Welcomed by the G7 Leaders in their Statement on the Hiroshima AI Process of 30 Oct 2023, together with the Code of Conduct (G7-02); the statement says that both documents will be reviewed and updated as necessary and instructs ministers to develop the Hiroshima AI Process Comprehensive Policy Framework by the end of 2023. That framework (G7-03, Dec 2023) includes the 'Hiroshima Process International Guiding Principles for All AI Actors', which apply the 11 principles to all AI actors and add a 12th, on promoting the trustworthy and responsible use of advanced AI systems.",
+  "verification": {
+   "note": "Stored and read in this run: the English text on mofa.go.jp (official) and the same text on MIC Japan's HAIP site (soumu.go.jp), which confirm the title, the 11 principles, the non-binding call on organisations and the 'living document' wording but give no date; the G7 Leaders' Statement on the Hiroshima AI Process (soumu.go.jp, dated 30 Oct 2023), which confirms the date, the Leaders' welcome of the principles and the review clause; and the Hiroshima Process International Guiding Principles for All AI Actors (soumu.go.jp), which dates the principles '(October 30, 2023)' and adds the 12th principle. MIC Japan's HAIP documents page, stored for G7-03 on 11 Oct 2026, lists no revised edition of the principles."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/G7-01/2026-10-11/official.pdf",
+    "sha256": "b0e9c18d94d13d4937764be7dacbce1c17ea1cf9eb1d42b557ed11de0c002cff",
+    "locator": "page 1",
+    "quote": "The Hiroshima Process International Guiding Principles for Organizations Developing Advanced AI Systems aims to promote safe, secure, and trustworthy AI worldwide",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/G7-01/2026-10-11/secondary.pdf",
+    "sha256": "b7385a63fbf31c8be6b55714e2a474044e5b635a11f97c0bd7a84c650b28fc60",
+    "locator": "page 1",
+    "quote": "The Hiroshima Process International Guiding Principles for Organizations Developing Advanced AI Systems aims to promote safe, secure, and trustworthy AI worldwide",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/G7-01/2026-10-11/official.pdf",
+    "sha256": "b0e9c18d94d13d4937764be7dacbce1c17ea1cf9eb1d42b557ed11de0c002cff",
+    "locator": "page 1",
+    "quote": "This non-exhaustive list of guiding principles is discussed and elaborated as a living document to build on the existing OECD AI Principles",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/G7-01/2026-10-11/official.pdf",
+    "sha256": "b0e9c18d94d13d4937764be7dacbce1c17ea1cf9eb1d42b557ed11de0c002cff",
+    "locator": "page 1",
+    "quote": "as part of the comprehensive policy framework, with input from other nations and wider stakeholders",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-01/extra-9d8be394bd/2026-10-17/official.pdf",
+    "sha256": "f85d2ded7625850c0af499d06202d390d8a22971c9dbbc8266d0b8d8245f9b09",
+    "locator": "page 1",
+    "quote": "they will be reviewed and updated as necessary, including through ongoing inclusive multistakeholder consultations",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/G7-01/2026-10-11/official.pdf",
+    "sha256": "b0e9c18d94d13d4937764be7dacbce1c17ea1cf9eb1d42b557ed11de0c002cff",
+    "locator": "page 1",
+    "quote": "We call on organizations in consultation with other relevant stakeholders to follow these actions",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/G7-01/2026-10-11/official.pdf",
+    "sha256": "b0e9c18d94d13d4937764be7dacbce1c17ea1cf9eb1d42b557ed11de0c002cff",
+    "locator": "page 1",
+    "quote": "while governments develop more enduring and/or detailed governance and regulatory approaches",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-01/extra-9d8be394bd/2026-10-17/official.pdf",
+    "sha256": "f85d2ded7625850c0af499d06202d390d8a22971c9dbbc8266d0b8d8245f9b09",
+    "locator": "page 1",
+    "quote": "G7 Leaders' Statement on the Hiroshima AI Process October 30, 2023",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-01/extra-a520cf7aa6/2026-10-17/official.pdf",
+    "sha256": "96b32342c04b66a64d19a6f858015e36ff64b754ec19397f137b00d43730551e",
+    "locator": "page 1",
+    "quote": "Developing Advanced AI Systems (October 30, 2023)",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-01/extra-9d8be394bd/2026-10-17/official.pdf",
+    "sha256": "f85d2ded7625850c0af499d06202d390d8a22971c9dbbc8266d0b8d8245f9b09",
+    "locator": "page 1",
+    "quote": "we welcome the Hiroshima Process International Guiding Principles for Organizations Developing Advanced AI Systems",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-01/extra-9d8be394bd/2026-10-17/official.pdf",
+    "sha256": "f85d2ded7625850c0af499d06202d390d8a22971c9dbbc8266d0b8d8245f9b09",
+    "locator": "page 1",
+    "quote": "We, the Leaders of the Group of Seven (G7), stress the innovative opportunities",
+    "source_kind": "official"
+   }
+  ],
+  "notes": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-01/extra-9d8be394bd/2026-10-17/official.pdf",
+    "sha256": "f85d2ded7625850c0af499d06202d390d8a22971c9dbbc8266d0b8d8245f9b09",
+    "locator": "page 1",
+    "quote": "We instruct relevant ministers to accelerate the process toward developing the Hiroshima AI Process Comprehensive Policy Framework",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-01/extra-a520cf7aa6/2026-10-17/official.pdf",
+    "sha256": "96b32342c04b66a64d19a6f858015e36ff64b754ec19397f137b00d43730551e",
+    "locator": "page 1",
+    "quote": "should be applied to all AI actors when and as relevant and appropriate",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-01/extra-a520cf7aa6/2026-10-17/official.pdf",
+    "sha256": "96b32342c04b66a64d19a6f858015e36ff64b754ec19397f137b00d43730551e",
+    "locator": "page 2",
+    "quote": "AI actors should follow the 12th principle.",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-01/extra-a520cf7aa6/2026-10-17/official.pdf",
+    "sha256": "96b32342c04b66a64d19a6f858015e36ff64b754ec19397f137b00d43730551e",
+    "locator": "page 2",
+    "quote": "Promote and contribute to trustworthy and responsible use of advanced AI systems",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "secondary_url": "the G7 Leaders' Statement on the Hiroshima AI Process (MIC Japan), the official source that dates the principles and shows the Leaders welcomed them; the old secondary URL was a second copy of the same undated text",
+   "notes": "rewritten: the Leaders' statement of 30 Oct 2023 and its review clause, and the extension to all AI actors with the 12th principle",
+   "verification.note": "rewritten for the sources stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "A non-binding set of principles that G7 governments call on organisations to follow while they develop regulation; the text calls itself a living document. Nothing stored shows a revision or replacement: the HAIP documents page stored on 11 Oct 2026 (G7-03) still lists this edition, and the Dec 2023 framework extends it to all AI actors without replacing it. 'Published (non-binding, current)' stands.",
+  "summary_check": "The summary matches the text: 11 principles, pre- and post-deployment risk measures, transparency reports, information sharing and incident reporting, governance and risk policies, security controls, content authentication and provenance, safety research, international standards, building on the OECD AI Principles, applying while governments develop regulation."
+ },
+ "extra_urls": [
+  {
+   "url": "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document01_en.pdf",
+   "reason": "G7 Leaders' Statement on the Hiroshima AI Process (30 Oct 2023), linked from MIC Japan's HAIP documents page (stored for G7-03): the date of the principles and the Leaders as issuing body; proposed as secondary_url so the dated source stays in the record's local copy"
+  },
+  {
+   "url": "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document03_en.pdf",
+   "reason": "Hiroshima Process International Guiding Principles for All AI Actors, linked from the same page: dates the principles '(October 30, 2023)' and supports the note on the extension to all AI actors and the 12th principle"
+  }
+ ],
+ "leads": [
+  {
+   "title": "G7 Leaders' Statement on the Hiroshima AI Process (30 Oct 2023)",
+   "url": "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document01_en.pdf",
+   "seen_in": "archive/G7-03/2026-10-11/secondary.html (Documents of Achievement, 2023 (Japan))",
+   "why": "The Leaders' statement that welcomed the Guiding Principles and the Code of Conduct and set the review clause; not a record of its own in the register."
+  }
+ ],
+ "open_questions": []
+}

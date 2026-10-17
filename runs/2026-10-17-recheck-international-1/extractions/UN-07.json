@@ -1,0 +1,151 @@
+{
+ "cand_id": "UN-07",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "UN-07",
+ "record": {
+  "official_url": "https://www.un.org/pga/wp-content/uploads/sites/110/2025/12/A_RES_79_325-EN.pdf",
+  "date_last_updated": null,
+  "summary": "Establishes within the UN the Independent International Scientific Panel on Artificial Intelligence, 40 experts serving in their personal capacity who issue an annual evidence-based assessment of the opportunities, risks and impacts of AI and thematic briefs, and the Global Dialogue on AI Governance, a yearly meeting of governments and stakeholders that alternates between Geneva and New York. The Dialogue covers safe, secure and trustworthy AI, capacity gaps, interoperability of governance approaches, human rights, and transparency, accountability and human oversight of AI. Both are limited to the non-military domain.",
+  "safety_topics": [
+   "international cooperation",
+   "research priorities",
+   "human oversight"
+  ],
+  "notes": "Adopted by consensus at the 89th plenary meeting on 26 August 2025, without reference to a Main Committee (draft A/79/L.118, negotiated in a process co-facilitated by Costa Rica and Spain); the document is dated 27 August 2025. It sets the terms of reference that the Global Digital Compact (UN-05) called for. The Dialogue was launched on 25 September 2025 during the high-level week of the General Assembly's 80th session. The General Assembly appointed the Panel's 40 members in February 2026, and the Panel held its inaugural meeting on 3 March 2026. The first Global Dialogue was held in Geneva on 6 and 7 July 2026 (its Co-Chairs' Summary is UN-13); a further session is planned for New York in 2027. Paragraph 12 lets the General Assembly decide on continuing the terms of reference at the high-level review of the Global Digital Compact at its 82nd session.",
+  "verification": {
+   "note": "Stored in this run: the text of A/RES/79/325 as published on the website of the President of the General Assembly (un.org PDF), which gives the title, the adoption on 26 August 2025, the document date of 27 August 2025, the draft A/79/L.118 and the 89th plenary meeting, and is proposed as the new official_url because the UN Digital Library record returns a bot-check page to automated downloads; and the Scientific Panel's FAQ page (un.org), for the adoption by consensus, the launch of the Dialogue on 25 September 2025, the appointment of the members in February 2026, the inaugural meeting on 3 March 2026 and the first Dialogue in July 2026. The co-facilitators are from the Global Digital Compact's page on the negotiation (un.org, the record's secondary source). Version 1's date_last_updated (the last day of the first Dialogue) and the Secretary-General's statement of 12 February 2026 are not supported as such and were removed."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-07/extra-b7f01f7b52/2026-10-17/official.pdf",
+    "sha256": "99f17e7202d3692d107a8c979660e8db2af7107937ca583199d84a8325c56e5c",
+    "locator": "page 1, heading",
+    "quote": "79/325. Terms of reference and modalities for the establishment and functioning of the Independent International Scientific Panel on Artificial Intelligence and the Global Dialogue on Artificial Intelligence Governance",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/UN-07/2026-10-11/secondary.html",
+    "sha256": "c6bee097e69203b21c326c97c6622d5986beea5f9993370b8a51efafde7c685e",
+    "locator": "Resources",
+    "quote": "Terms of Reference and Modalities for the Establishment and Functioning of the Independent International Scientific Panel on Artificial Intelligence and the Global Dialogue on Artificial Intelligence Governance – A/RES/79/325 (26 August 2025)",
+    "source_kind": "alt-official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-07/extra-b7f01f7b52/2026-10-17/official.pdf",
+    "sha256": "99f17e7202d3692d107a8c979660e8db2af7107937ca583199d84a8325c56e5c",
+    "locator": "page 1, heading",
+    "quote": "Resolution adopted by the General Assembly on 26 August 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/UN-07/2026-10-11/secondary.html",
+    "sha256": "c6bee097e69203b21c326c97c6622d5986beea5f9993370b8a51efafde7c685e",
+    "locator": "AI Panel & Dialogue – Terms of Reference & Modalities",
+    "quote": "On 26 August 2025, the United Nations General Assembly established theIndependent International Scientific Panel on Artificial Intelligence and the Global Dialogue on Artificial Intelligence Governance in Resolution A/RES/79/325",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-07/extra-b7f01f7b52/2026-10-17/official.pdf",
+    "sha256": "99f17e7202d3692d107a8c979660e8db2af7107937ca583199d84a8325c56e5c",
+    "locator": "page 1, heading",
+    "quote": "Resolution adopted by the General Assembly on 26 August 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-07/extra-b7f01f7b52/2026-10-17/official.pdf",
+    "sha256": "99f17e7202d3692d107a8c979660e8db2af7107937ca583199d84a8325c56e5c",
+    "locator": "page 4, end of text",
+    "quote": "89th plenary meeting 26 August 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/UN-07/2026-10-11/secondary.html",
+    "sha256": "c6bee097e69203b21c326c97c6622d5986beea5f9993370b8a51efafde7c685e",
+    "locator": "Key Dates",
+    "quote": "Independent International Scientific Panel on Artificial Intelligence and Global Dialogue on Artificial Intelligence Governance established by United Nations General Assembly in Resolution A/RES/79/325",
+    "source_kind": "alt-official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-07/extra-b7f01f7b52/2026-10-17/official.pdf",
+    "sha256": "99f17e7202d3692d107a8c979660e8db2af7107937ca583199d84a8325c56e5c",
+    "locator": "page 1, symbol",
+    "quote": "United Nations A/RES/79/325 General Assembly Distr.: General 27 August 2025",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/UN-07/2026-10-11/secondary.html",
+    "sha256": "c6bee097e69203b21c326c97c6622d5986beea5f9993370b8a51efafde7c685e",
+    "locator": "Resources",
+    "quote": "Governance – A/RES/79/325 (26 August 2025)",
+    "source_kind": "alt-official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-07/extra-b7f01f7b52/2026-10-17/official.pdf",
+    "sha256": "99f17e7202d3692d107a8c979660e8db2af7107937ca583199d84a8325c56e5c",
+    "locator": "page 1, heading",
+    "quote": "Resolution adopted by the General Assembly on 26 August 2025 [without reference to a Main Committee ( A/79/L.118 )]",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/UN-07/2026-10-11/secondary.html",
+    "sha256": "c6bee097e69203b21c326c97c6622d5986beea5f9993370b8a51efafde7c685e",
+    "locator": "AI Panel & Dialogue – Terms of Reference & Modalities",
+    "quote": "On 26 August 2025, the United Nations General Assembly established",
+    "source_kind": "alt-official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-07/extra-b7f01f7b52/2026-10-17/official.pdf",
+    "sha256": "99f17e7202d3692d107a8c979660e8db2af7107937ca583199d84a8325c56e5c",
+    "locator": "page 3, paragraph 11",
+    "quote": "Encourages States, as well as the private sector, financial institutions, foundations and other donors in a position to do so, to support the effective functioning of the Panel and Dialogue",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "official_url": "the resolution's own text (A/RES/79/325, English) on un.org, which the archiver can store; the UN Digital Library record returns a bot-check page",
+   "date_last_updated": "the resolution has not been amended or reissued; 2026-07-07 was the last day of the first Global Dialogue session, an implementation event that belongs in the notes",
+   "summary": "rewritten from the resolution's operative paragraphs 1, 4 and 5 and its first preambular paragraph: the Panel's composition and outputs, the Dialogue's frequency, venues and topics, and the non-military limit",
+   "safety_topics": "'human oversight' added: paragraph 4 (f) lists transparency, accountability and robust human oversight of AI systems among the Dialogue's topics",
+   "notes": "adoption by consensus and the 89th plenary meeting from the resolution and the Panel's FAQ; the Secretary-General's statement of 12 February 2026, which no stored file shows, removed; the co-chairs of the first Dialogue left to UN-13; the inaugural meeting on 3 March 2026 and paragraph 12 on the 2027 review added; 'next session on 3-4 May 2027' replaced by the FAQ's 'New York in 2027'",
+   "verification.note": "rewritten for the files stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "official_identifier",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "Adopted on 26 August 2025 at the 89th plenary meeting (the resolution's own text); it has not been amended or replaced, and both mechanisms are working (members appointed February 2026, first Dialogue July 2026, per the Panel's FAQ). Paragraph 12 only allows the Assembly to reconsider the terms of reference at its 82nd session. 'Published (non-binding, current)' stands; legal_force stays 'Non-binding': the resolution sets up UN bodies and encourages, but does not oblige, States to support them (paragraph 11).",
+  "scope_reasoning": "The General Assembly resolution that sets up the UN's scientific panel on AI risks and its global dialogue on AI governance; in scope with no note."
+ },
+ "extra_urls": [
+  {
+   "url": "https://www.un.org/pga/wp-content/uploads/sites/110/2025/12/A_RES_79_325-EN.pdf",
+   "reason": "The resolution's own text, A/RES/79/325, on the website of the President of the General Assembly (stored in this run); proposed as official_url."
+  },
+  {
+   "url": "https://www.un.org/independent-international-scientific-panel-ai/en/faq",
+   "reason": "The Scientific Panel's FAQ (stored in this run): adoption by consensus, launch of the Dialogue, appointment and inaugural meeting of the Panel."
+  }
+ ],
+ "leads": [],
+ "open_questions": []
+}

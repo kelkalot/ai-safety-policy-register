@@ -1,0 +1,55 @@
+{
+ "cand_id": "UN-11",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Two UNODA documents quote the title with 80/58 (secondary host)."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Note verbale: 'adopted by the General Assembly'; the 'on the report of the First Committee' part rests on the plenary page, which does not name 80/58."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "'resolution 80/58' in the note verbale (secondary host)."
+  },
+  "date_published": {
+   "verdict": "unsupported",
+   "why": "2025-12-01 is unchanged. The quote is the 52nd plenary meeting page, which does not name 80/58. The only stored document that names the resolution and a date, UNODA's note verbale, says 5 December 2025, so stored sources differ; the resolution text or GA/12736 would settle it. A web search reports 1 December in the text and 5 December as the document date, but I could not open or store either."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Informal exchanges under the resolution held 15-17 June 2026 per UNODA's agenda; no sign of replacement."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "UN General Assembly resolution; recommendatory by nature ('calls on', 'encourages'), consistent with the other UN resolution records."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "decides to convene informal exchanges in Geneva, a three-day meeting in 2026, open to Member and observer States, organisations, ICRC, academia, civil society, scientific and technical community and industry; UNODA supports and gives a written factual summary to the First Committee at its eighty-first session",
+   "verdict": "supported",
+   "locator": "note verbale ODA-2026-00045, page 1, quoting operative paragraphs 9 and 10"
+  },
+  {
+   "claim": "takes up the Secretary-General's report A/80/78",
+   "verdict": "supported",
+   "locator": "agenda of the June 2026 exchanges, page 1"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "UN-12"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept-with-fixes",
+ "note": "The run cut the summary and notes to what stored UNODA documents show, and what remains matches them. The unchanged date_published of 2025-12-01 is not tied to the resolution by its quote, and the note verbale gives 5 December 2025; this should be an open question. The vote and the other operative paragraphs rest on unstored text. Collector leads: 80/57 (LAWS) and a resolution on AI in nuclear command and control are not in the register."
+}

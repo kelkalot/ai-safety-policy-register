@@ -1,0 +1,44 @@
+{
+ "cand_id": "G7-05",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "G7 AI Network and 2024 action plan on AI in the world of work",
+   "verdict": "supported",
+   "locator": "statement"
+  },
+  {
+   "claim": "9 Dec 2025 Montreal declaration follow-up (Blueprint, Toolkit, AI Network)",
+   "verdict": "supported",
+   "locator": "page 1-2"
+  }
+ ],
+ "scope": {
+  "assessment": "borderline",
+  "note": "Adoption and prosperity statement; safety appears as secure, responsible and trustworthy AI and risk governance in public-sector use. Included under the inclusive rule."
+ },
+ "overall": "accept-with-fixes",
+ "note": "Supported. Extractor gave no scope_note; adoption-focused content makes it borderline, so a scope_note is added."
+}

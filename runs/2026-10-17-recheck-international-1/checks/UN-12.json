@@ -1,0 +1,57 @@
+{
+ "cand_id": "UN-12",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "UNODA page: 'the Secretary-General submitted a substantive report (A/80/78)' on the topic of resolution 79/239."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Same UNODA page: 'Pursuant to a mandate contained in the resolution, the Secretary-General submitted'."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "A/80/78 in the UNODA page and in the June 2026 agenda."
+  },
+  "date_published": {
+   "verdict": "unsupported",
+   "why": "2025-06-05 is unchanged and no stored file shows it."
+  },
+  "date_last_updated": {
+   "verdict": "unsupported",
+   "why": "2026-02-04 is unchanged and no stored file shows it."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "The UNODA page and the June 2026 agenda treat the report as current."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "Report of the Secretary-General; no operative force."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "submitted under a mandate in resolution 79/239, focused on areas other than lethal autonomous weapons systems, with an annex of views of States, organisations, ICRC, civil society, scientific community and industry",
+   "verdict": "supported",
+   "locator": "UNODA page on AI in the military domain"
+  },
+  {
+   "claim": "covers convergence of AI with ICT, biology, chemistry and nuclear weapons",
+   "verdict": "supported",
+   "locator": "agenda of the June 2026 exchanges, page 6"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept-with-fixes",
+ "note": "The new summary and notes only say what the stored UNODA page and agenda show, and they match. Both dates are left as published with no stored evidence and should become open questions until the report's PDF is provided. The record rests on an alt-official page only, so its level is not A."
+}

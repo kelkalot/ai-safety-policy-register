@@ -1,0 +1,44 @@
+{
+ "cand_id": "BRICS-02",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "paragraph 81 safety, security, inclusiveness and reliability; implement the 2025 statement",
+   "verdict": "supported",
+   "locator": "paragraph 81"
+  },
+  {
+   "claim": "paragraph 48 malicious software, cybercrime, disinformation, deepfakes; paragraph 140 China chairship 2027",
+   "verdict": "supported",
+   "locator": "paragraphs 48, 140"
+  }
+ ],
+ "scope": {
+  "assessment": "borderline",
+  "note": "General summit declaration; extractor scope_note is apt."
+ },
+ "overall": "accept",
+ "note": "Supported by the DIRCO copy and SAnews report; Indian host unreachable."
+}

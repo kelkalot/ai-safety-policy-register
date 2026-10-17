@@ -1,0 +1,125 @@
+{
+ "run_id": "2026-10-17-recheck-international-1",
+ "generated": "2026-10-17",
+ "compared": 5,
+ "pending": [],
+ "overall_field_agreement": 0.0,
+ "fields": {
+  "decision": {
+   "compared": 5,
+   "agree": 5,
+   "rate": 1.0
+  },
+  "title": {
+   "compared": 1,
+   "agree": 0,
+   "rate": 0.0
+  },
+  "original_title": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "issuing_body": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "official_identifier": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_published": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_in_force": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "date_last_updated": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "status": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "legal_force": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "instrument_type": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "jurisdiction_level": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "region": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "country": {
+   "compared": 0,
+   "agree": 0,
+   "rate": null
+  },
+  "safety_topics": {
+   "compared": 2,
+   "agree": 0,
+   "rate": 0.0
+  }
+ },
+ "disagreements": {
+  "G20-02": [],
+  "G7-04": [
+   {
+    "field": "safety_topics",
+    "first": [
+     "general-purpose / frontier AI",
+     "catastrophic risk",
+     "evaluation & testing",
+     "deepfakes & synthetic media",
+     "child safety",
+     "international cooperation"
+    ],
+    "blind": null
+   }
+  ],
+  "OECD-01": [],
+  "UN-08": [
+   {
+    "field": "safety_topics",
+    "first": [
+     "general-purpose / frontier AI",
+     "catastrophic risk",
+     "evaluation & testing",
+     "child safety",
+     "research priorities",
+     "international cooperation"
+    ],
+    "blind": null
+   }
+  ],
+  "UN-09": [
+   {
+    "field": "title",
+    "first": "AI Agents, Misalignment and the Risk of Losing Human Control: Evidence from the OpenAI-Hugging Face Incident",
+    "blind": null
+   }
+  ]
+ },
+ "resulting_record_agreement": 0.981,
+ "resulting_record_fields": 52
+}

@@ -1,0 +1,66 @@
+{
+ "cand_id": "UN-02",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Spokesperson's briefing of the PGA, 21 March 2024, quotes the full title; A/RES/79/325 and the HLAB report give 78/265 with the title."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "'the General Assembly adopted the draft resolution'."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "A/RES/79/325 preamble: '78/265 of 21 March 2024'."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "UN News and the UN Photo caption give 21 March 2024; A/RES/79/325 agrees."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Adopted without a vote (UN News); recalled by A/RES/79/325 in 2025; not superseded."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "UN General Assembly resolution; recommendatory by nature ('calls on', 'encourages'), consistent with the other UN resolution records."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "first General Assembly resolution on regulating AI",
+   "verdict": "supported",
+   "locator": "UN News 21 March 2024: 'the first time the Assembly has adopted a resolution on regulating the emerging field'"
+  },
+  {
+   "claim": "calls on States and stakeholders to refrain from or cease use of AI systems that cannot be operated in compliance with international human rights law",
+   "verdict": "supported",
+   "locator": "UN News, 'Same rights, online and offline'"
+  },
+  {
+   "claim": "urges States, private sector, civil society, research organisations and media to develop and support regulatory and governance approaches",
+   "verdict": "supported",
+   "locator": "UN News"
+  },
+  {
+   "claim": "help developing countries close the digital divide",
+   "verdict": "supported",
+   "locator": "UN News, 'Closing the digital divide'"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "UN-07",
+  "UN-04"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "All changed fields are backed by un.org pages stored in this run (PGA spokesperson's briefing, UN News, UN Photo caption, A/RES/79/325, HLAB report). The summary is written from the operative text as UN News quotes it and each claim checked is found. The resolution's own text is not stored, so provisions on transparency and accountability that version 1 tagged cannot be confirmed; the extractor removed those topics, which is the right call."
+}

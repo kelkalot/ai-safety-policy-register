@@ -1,0 +1,58 @@
+{
+ "cand_id": "UN-13",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "PDF title page and page 2."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "Co-Chairs El Salvador and Estonia; Joint Secretariat of ITU, UNESCO and UN ODET (PDF pages 2 and 3)."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "The 17 October copy of the AI Dialogue page says '(released 8 September 2026)'; the PDF has no date, so 2026-09-08 is supported at alt-official level and the move from 2026-09 is right."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Final chair's summary; no later version seen."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "'The themes do not constitute negotiated outcomes or consensus positions' (page 14)."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "None."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "delegations from 163 countries",
+   "verdict": "supported",
+   "locator": "PDF page 2"
+  },
+  {
+   "claim": "AI Dialogue Partnerships Hub showcased more than 350 commitments",
+   "verdict": "supported",
+   "locator": "PDF section VIII"
+  },
+  {
+   "claim": "safety frameworks too often developed without the evidence needed; shared minimum baseline; third-party testing and incident reporting",
+   "verdict": "supported",
+   "locator": "PDF, thematic cluster 3 on safe, secure and trustworthy AI"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "The only change is the date: the secondary page gives the release date of 8 September 2026. The notes were checked against the PDF and the page (3-4 May 2027, 350 commitments). Dropping the BRICS sentence is right because no stored source of this record supports it."
+}

@@ -1,0 +1,75 @@
+{
+ "cand_id": "UN-07",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "fields": {
+  "title": {
+   "verdict": "supported",
+   "why": "Resolution heading, page 1, matches the record title exactly."
+  },
+  "issuing_body": {
+   "verdict": "supported",
+   "why": "'Resolution adopted by the General Assembly on 26 August 2025'."
+  },
+  "official_identifier": {
+   "verdict": "supported",
+   "why": "'A/RES/79/325 ... Distr.: General 27 August 2025'."
+  },
+  "date_published": {
+   "verdict": "supported",
+   "why": "Adopted 26 August 2025 (heading and page 4)."
+  },
+  "date_last_updated": {
+   "verdict": "supported",
+   "why": "Set to null: version 1's 2026-07-07 is not shown by any stored file and is not an amendment of the resolution."
+  },
+  "status": {
+   "verdict": "supported",
+   "why": "Adopted resolution; Panel and Dialogue operating (FAQ: Panel appointed February 2026, Dialogue held 6-7 July 2026); paragraph 12 only provides for later review."
+  },
+  "legal_force": {
+   "verdict": "supported",
+   "why": "UN General Assembly resolution; recommendatory by nature ('calls on', 'encourages'), consistent with the other UN resolution records."
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "Panel of 40 members serving in personal capacity issuing an annual assessment and thematic briefs",
+   "verdict": "supported",
+   "locator": "paragraph 1 and 1(a), page 1"
+  },
+  {
+   "claim": "Dialogue alternates between Geneva and New York",
+   "verdict": "supported",
+   "locator": "paragraph 5 or 6, page 2 to 3 ('between Geneva and New York')"
+  },
+  {
+   "claim": "Dialogue topics include safe, secure and trustworthy AI, capacity gaps, interoperability, human rights, transparency, accountability and human oversight",
+   "verdict": "supported",
+   "locator": "paragraph 4(a) to (f)"
+  },
+  {
+   "claim": "both limited to the non-military domain",
+   "verdict": "supported",
+   "locator": "preamble, page 1"
+  },
+  {
+   "claim": "members appointed in February 2026; inaugural meeting 3 March 2026; first Dialogue Geneva 6-7 July 2026",
+   "verdict": "supported",
+   "locator": "Scientific Panel FAQ (un.org)"
+  }
+ ],
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [
+  "UN-02",
+  "UN-03"
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "The resolution's own text is now stored (un.org PDF), which settles the title, identifier and date at official level; every summary claim checked matches. The notes on later events rest on the Panel's FAQ page. The removal of date_last_updated is correct."
+}

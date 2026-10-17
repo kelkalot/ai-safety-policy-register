@@ -1,0 +1,44 @@
+{
+ "cand_id": "G7-06",
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5",
+ "checked_on": "2026-10-17",
+ "newer_versions": [],
+ "extra_urls": [],
+ "related_missing": [],
+ "fields": {
+  "title": {
+   "verdict": "supported"
+  },
+  "date_published": {
+   "verdict": "supported"
+  },
+  "status": {
+   "verdict": "supported"
+  },
+  "legal_force": {
+   "verdict": "supported"
+  },
+  "issuing_body": {
+   "verdict": "supported"
+  }
+ },
+ "summary_claims": [
+  {
+   "claim": "supported by Brazil, Egypt, India, Kenya and Republic of Korea",
+   "verdict": "supported",
+   "locator": "call text"
+  },
+  {
+   "claim": "nine unanimous statements, working lunch on AI, September ministerial",
+   "verdict": "supported",
+   "locator": "Macron press conference"
+  }
+ ],
+ "scope": {
+  "assessment": "core",
+  "note": ""
+ },
+ "overall": "accept",
+ "note": "Supported by the Elysee page and press conference snapshot. September meeting outcome not stored; the lead is recorded by the extractor."
+}

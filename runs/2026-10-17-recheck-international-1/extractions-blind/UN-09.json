@@ -1,0 +1,63 @@
+{
+ "cand_id": "UN-09",
+ "decision": "update",
+ "target_id": "UN-09",
+ "record": {
+  "secondary_url": "https://www.un.org/independent-international-scientific-panel-ai/sites/default/files/2026-09/Thematic%20Brief_AI%20Agents%2C%20Misalignment%20and%20the%20Risk%20of%20Losing%20Human%20Control_Evidence%20from%20the%20OpenAI-Hugging%20Face%20Incident_Independent%20International%20Scientific%20Panel%20on%20AI_Advance%20Unedited%20Version%201_21%20Sept%202026.pdf"
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/UN-09/2026-10-11/official.html",
+    "sha256": "97c5e6d8e99a53ad2a445e33077f8e17a2993e2c49829c0073c6e7f0883c57b1",
+    "locator": "heading",
+    "quote": "Thematic Brief on AI Agents, Misalignment and the Risk of Losing Human Control",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/UN-09/2026-10-11/document-1.pdf",
+    "sha256": "f4f5bb9d83e8297673b3453c91e17a044686365a0634221b66c4bae1b4c5cfa5",
+    "locator": "page 1",
+    "quote": "ADVANCE UNEDITED VERSION 1 • 21 SEPTEMBER 2026",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/UN-09/2026-10-11/document-2.pdf",
+    "sha256": "29e1a131ef70cf20711ac72fd2ea8684fbda77d46893a2a82e9f8cba360a73ba",
+    "locator": "press release",
+    "quote": "released its first thematic brief",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/UN-09/2026-10-11/document-2.pdf",
+    "sha256": "29e1a131ef70cf20711ac72fd2ea8684fbda77d46893a2a82e9f8cba360a73ba",
+    "locator": "press release",
+    "quote": "The Independent International Scientific Panel on AI",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "secondary_url": "the brief's PDF (advance unedited version 1) is stored and is the instrument's own text; no secondary URL is set now"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body"
+  ],
+  "status_reasoning": "Advance unedited version 1 of 21 Sep 2026; newer versions are promised on the page but none stored."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": [],
+ "tool": "Claude Code",
+ "model": "claude-sonnet-5-5"
+}

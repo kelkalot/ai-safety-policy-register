@@ -1,0 +1,109 @@
+{
+ "cand_id": "UN-12",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "UN-12",
+ "record": {
+  "summary": "Report of the Secretary-General submitted under a mandate in resolution 79/239 on the opportunities and challenges posed to international peace and security by the application of AI in the military domain, with specific focus on areas other than lethal autonomous weapons systems. It is based on the views of Member States, which it annexes together with those of international and regional organizations, the ICRC, civil society, the scientific community and industry. It covers the convergence of AI with other technologies, including information and communication technologies, biology, chemistry and nuclear weapons.",
+  "safety_topics": [
+   "national security & military",
+   "catastrophic risk",
+   "international cooperation"
+  ],
+  "notes": "Resolution 80/58 (UN-11) took up the report for the informal exchanges in Geneva in June 2026: UNODA's agenda for 15-17 June 2026 opened with an overview of the report and built its sessions on it, including one on the convergence of AI with other technologies and one on next steps for multilateral dialogue. AI and autonomy are also discussed in the Secretary-General's annual report on current developments in science and technology and their potential impact on international security and disarmament efforts.",
+  "verification": {
+   "note": "The report's own text cannot be stored: documents.un.org is closed to the archiver by robots.txt (attempts on 11, 16 and 17 Oct 2026), and the UN Digital Library returns a bot-check page. Stored copies: the UNODA page on AI in the military domain (disarmament.unoda.org, 11 Oct 2026, the record's secondary source), which confirms that the Secretary-General submitted the substantive report A/80/78 under a mandate in resolution 79/239, its focus on areas other than lethal autonomous weapons systems and its annex of views; and the agenda of the June 2026 informal exchanges (unodaweb-meetings.unoda.org, stored 17 Oct 2026, a UNODA host not yet recorded as official, so its quotes count as secondary), which names the report and describes its coverage of AI's convergence with other technologies. Neither gives the report's date. The dates (5 June 2025, reissued 4 February 2026), the page count, the number and list of submitting States and the Secretary-General's observations were read in version 1 from the documents.un.org PDF, which was never stored; they are left out of the summary and notes until it is."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/UN-12/2026-10-11/secondary.html",
+    "sha256": "21064515a00a38cf824fbf7c611b263e587c3ce1e95d034f54411cde81b6802f",
+    "locator": "Artificial intelligence in the military domain in the General Assembly",
+    "quote": "the Secretary-General submitted a substantive report (A/80/78) on the opportunities and challenges posed to international peace and security by the application of AI in the military domain, with specific focus on areas other than lethal autonomous weapons systems",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-12/extra-b4fee462fc/2026-10-17/official.pdf",
+    "sha256": "3a7dd7f7e56add7c73bae6917e3d674560f8db3db586798f1eb7ecad96800d8a",
+    "locator": "page 1",
+    "quote": "General Assembly Resolution 80/58, entitled \"Artificial intelligence in the military domain and its implications for international peace and security\" and provide an overview of the Secretary-General's report (A/80/78) on the same subject.",
+    "source_kind": "secondary"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/UN-12/2026-10-11/secondary.html",
+    "sha256": "21064515a00a38cf824fbf7c611b263e587c3ce1e95d034f54411cde81b6802f",
+    "locator": "Artificial intelligence in the military domain in the General Assembly",
+    "quote": "the Secretary-General submitted a substantive report (A/80/78)",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-12/extra-b4fee462fc/2026-10-17/official.pdf",
+    "sha256": "3a7dd7f7e56add7c73bae6917e3d674560f8db3db586798f1eb7ecad96800d8a",
+    "locator": "page 6",
+    "quote": "The Secretary-General's report (A/80/78) covers convergences of AI with other technologies.",
+    "source_kind": "secondary"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/UN-12/2026-10-11/secondary.html",
+    "sha256": "21064515a00a38cf824fbf7c611b263e587c3ce1e95d034f54411cde81b6802f",
+    "locator": "Artificial intelligence in the military domain in the General Assembly",
+    "quote": "Pursuant to a mandate contained in the resolution, the Secretary-General submitted a substantive report (A/80/78)",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/UN-12/2026-10-11/secondary.html",
+    "sha256": "21064515a00a38cf824fbf7c611b263e587c3ce1e95d034f54411cde81b6802f",
+    "locator": "Artificial intelligence in the military domain in the General Assembly",
+    "quote": "The report contains an annex with the views of Member States upon which the report was based, as well as the views of international and regional organizations, the International Committee of the red Cross, civil society, the scientific community and industry.",
+    "source_kind": "alt-official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/UN-12/extra-b4fee462fc/2026-10-17/official.pdf",
+    "sha256": "3a7dd7f7e56add7c73bae6917e3d674560f8db3db586798f1eb7ecad96800d8a",
+    "locator": "page 1",
+    "quote": "provide an overview of the Secretary-General's report (A/80/78) on the same subject",
+    "source_kind": "secondary"
+   }
+  ]
+ },
+ "judgment": {
+  "status_reasoning": "The UNODA page says the Secretary-General submitted the report A/80/78 under resolution 79/239, and UNODA's agenda of June 2026 uses it as the basis of the informal exchanges under resolution 80/58. A report of the Secretary-General is non-binding and nothing replaces it; it stays 'Published (non-binding, current)'. Its date cannot be confirmed from the stored files.",
+  "scope_reasoning": "In scope without a note: a report of the Secretary-General requested by the General Assembly on AI in the military domain (AGENTS.md section 10).",
+  "changes": {
+   "summary": "Cut to what the stored files support: the mandate under 79/239, the focus beyond lethal autonomous weapons systems and the annex of views (UNODA page), and the convergence of AI with other technologies (UNODA agenda). 'First', the 151 pages, the 31 States, the EU, the catalogue of normative proposals and the Secretary-General's quoted observations rest on the unstored report and went out (open_questions).",
+   "safety_topics": "'human oversight' and 'accountability & liability' dropped (they came from the Secretary-General's observations, which are not stored); 'catastrophic risk' kept for the convergence of AI with biology, chemistry and nuclear weapons.",
+   "notes": "Rewritten from the stored files: the report's use in the June 2026 exchanges and the companion science-and-technology report named on the UNODA page. The reissue, the list of submitting States, the absence of a US submission, 80/58 'noting' the report, the REAIM 2026 citation and the annex languages rest on unstored sources and went out (open_questions).",
+   "verification.note": "Rewritten to say what each stored file confirms and what still rests on the version 1 reading."
+  },
+  "confirmed": [
+   "title",
+   "official_identifier",
+   "issuing_body",
+   "status"
+  ]
+ },
+ "extra_urls": [],
+ "leads": [
+  {
+   "title": "Report of the Secretary-General on current developments in science and technology and their potential impact on international security and disarmament efforts (A/80/237)",
+   "url": null,
+   "seen_in": "UNODA page on AI in the military domain ('AI and autonomy are also discussed in the annual report of the Secretary-General on current developments in science and technology'); symbol A/80/237 from search results",
+   "why": "A Secretary-General report that discusses AI and autonomy; possibly in scope with a scope_note as a general science-and-technology report."
+  }
+ ],
+ "open_questions": [
+  "date_published (2025-06-05) and date_last_updated (2026-02-04, reissue for technical reasons) are not supported by any stored file; they stay as published until the report itself is stored.",
+  "summary: taken out because no stored file supports them: that it is the first such report; its 151 pages; submissions from 31 States and the EU; that it catalogues normative proposals and summarises views on next steps; the Secretary-General's observations (human responsibility and accountability as the chief challenge, machines with discretion to take human lives 'politically unacceptable and morally repugnant', nuclear-use decisions to be made by humans, AI lowering barriers to chemical and biological weapons).",
+  "notes: taken out because no stored file supports them: dated 5 June 2025 and reissued for technical reasons on 4 February 2026; the list of 31 States whose submissions are annexed and that the United States did not submit; that resolution 80/58 'notes' the report; that the REAIM 2026 Pathways to Action cites it; that A/80/237 is a companion document; the annex languages (Chinese, English, French, Russian, Spanish).",
+  "URLs: neither official_url (documents.un.org) nor secondary_url (the UNODA topic page) can give the record a stored copy of the report; no other storable UN host with its text was found. A human may want to provide the PDF (archive.py --provide). Host decision: unodaweb-meetings.unoda.org is not yet recorded as official."
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "cand_id": "G7-02",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "G7-02",
+ "record": {
+  "secondary_url": "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document01_en.pdf",
+  "summary": "Voluntary code that turns the Guiding Principles into 11 actions for organisations developing advanced AI systems. They call for internal and independent external testing such as red-teaming at several points in the lifecycle, with attention to chemical, biological, radiological and nuclear risks, offensive cyber capabilities, self-replicating models and chain-reaction events; post-deployment monitoring and incident sharing; and public transparency reports. Other actions cover risk management and governance policies, security of model weights and insider threats, content authentication such as watermarking, safety research, international standards and data protection.",
+  "safety_topics": [
+   "general-purpose / frontier AI",
+   "evaluation & testing",
+   "catastrophic risk",
+   "incident reporting",
+   "transparency & labelling",
+   "deepfakes & synthetic media"
+  ],
+  "notes": "Welcomed by the G7 Leaders in their Statement on the Hiroshima AI Process of 30 Oct 2023, which calls on organisations developing advanced AI systems to commit to applying the Code and says it will be reviewed and updated as necessary. The Code is part of the Hiroshima AI Process Comprehensive Policy Framework (G7-03). Organisations report on how they apply it through the OECD's HAIP Reporting Framework (OECD-02), launched in February 2025; G7 digital ministers commended a revised Reporting Framework in May 2026 (G7-04). The Seoul Declaration of May 2024 (INT-04) says its signatories continue to focus on supporting the operationalisation of the Code.",
+  "verification": {
+   "note": "Stored and read in this run: the English text on mofa.go.jp (official) and the same text on MIC Japan's HAIP site (soumu.go.jp), which confirm the title, the voluntary character, the review clause and the 11 actions but give no date; and the G7 Leaders' Statement on the Hiroshima AI Process (soumu.go.jp, dated 30 Oct 2023), which confirms the date, the Leaders' welcome of the Code and their call on organisations to commit to it. MIC Japan's HAIP documents page, stored for G7-03 on 11 Oct 2026, lists no revised edition of the Code. The sentences on OECD-02, G7-04 and INT-04 rest on those records' stored sources."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/G7-02/2026-10-11/official.pdf",
+    "sha256": "1830bb44354349621fed760e31c748e1dd1ce150334c6216457750860bd130a2",
+    "locator": "page 1",
+    "quote": "the Hiroshima Process International Code of Conduct for Organizations Developing Advanced AI Systems aims to promote safe, secure, and trustworthy AI worldwide",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/G7-02/2026-10-11/secondary.pdf",
+    "sha256": "14cfe36633502daa48231b49ca7f186c53a72add181b328047665763ecb13ac4",
+    "locator": "page 1",
+    "quote": "the Hiroshima Process International Code of Conduct for Organizations Developing Advanced AI Systems aims to promote safe, secure, and trustworthy AI worldwide",
+    "source_kind": "alt-official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/G7-02/2026-10-11/official.pdf",
+    "sha256": "1830bb44354349621fed760e31c748e1dd1ce150334c6216457750860bd130a2",
+    "locator": "page 1",
+    "quote": "This document will be reviewed and updated as necessary, including through ongoing inclusive multistakeholder consultations",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/G7-02/2026-10-11/official.pdf",
+    "sha256": "1830bb44354349621fed760e31c748e1dd1ce150334c6216457750860bd130a2",
+    "locator": "page 1",
+    "quote": "This non-exhaustive list of actions is discussed and elaborated as a living document",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-02/extra-9d8be394bd/2026-10-17/official.pdf",
+    "sha256": "f85d2ded7625850c0af499d06202d390d8a22971c9dbbc8266d0b8d8245f9b09",
+    "locator": "page 1",
+    "quote": "they will be reviewed and updated as necessary, including through ongoing inclusive multistakeholder consultations",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/G7-02/2026-10-11/official.pdf",
+    "sha256": "1830bb44354349621fed760e31c748e1dd1ce150334c6216457750860bd130a2",
+    "locator": "page 1",
+    "quote": "will provide voluntary guidance for actions by organizations developing the most advanced AI systems",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-02/extra-9d8be394bd/2026-10-17/official.pdf",
+    "sha256": "f85d2ded7625850c0af499d06202d390d8a22971c9dbbc8266d0b8d8245f9b09",
+    "locator": "page 1",
+    "quote": "We call on organizations developing advanced AI systems to commit to the application of the International Code of Conduct.",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-02/extra-9d8be394bd/2026-10-17/official.pdf",
+    "sha256": "f85d2ded7625850c0af499d06202d390d8a22971c9dbbc8266d0b8d8245f9b09",
+    "locator": "page 1",
+    "quote": "G7 Leaders' Statement on the Hiroshima AI Process October 30, 2023",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-02/extra-9d8be394bd/2026-10-17/official.pdf",
+    "sha256": "f85d2ded7625850c0af499d06202d390d8a22971c9dbbc8266d0b8d8245f9b09",
+    "locator": "page 1",
+    "quote": "the Hiroshima Process International Code of Conduct for Organizations Developing Advanced AI Systems (Attached)",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/_runs/2026-10-17-recheck-international-1/G7-02/extra-9d8be394bd/2026-10-17/official.pdf",
+    "sha256": "f85d2ded7625850c0af499d06202d390d8a22971c9dbbc8266d0b8d8245f9b09",
+    "locator": "page 1",
+    "quote": "We, the Leaders of the Group of Seven (G7), stress the innovative opportunities",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "secondary_url": "the G7 Leaders' Statement on the Hiroshima AI Process (MIC Japan), the official source that dates the Code and shows the Leaders welcomed it; the old secondary URL was a second copy of the same undated text",
+   "summary": "the stored text lists the specific risks testing must attend to (CBRN, offensive cyber, self-replication, chain reactions); 'testing before and after deployment' and 'weapons misuse' were imprecise",
+   "safety_topics": "seven values, above the limit of six; 'accountability & liability' dropped (the Code has no liability provision)",
+   "notes": "the Leaders' statement of 30 Oct 2023 and the review clause added; the revised Reporting Framework (May 2026) added; the Seoul Declaration sentence restated in its own words",
+   "verification.note": "rewritten for the sources stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "A voluntary code that the text says will be reviewed and updated as necessary. Nothing stored shows a revised edition: the HAIP documents page stored on 11 Oct 2026 (G7-03) still lists this one, and the May 2026 ministerial declaration (G7-04) commends a revised Reporting Framework, not a revised Code. 'Published (non-binding, current)' stands."
+ },
+ "extra_urls": [
+  {
+   "url": "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document01_en.pdf",
+   "reason": "G7 Leaders' Statement on the Hiroshima AI Process (30 Oct 2023), linked from MIC Japan's HAIP documents page (stored for G7-03): the date of the Code, the Leaders as issuing body and their call on organisations to commit to it; proposed as secondary_url so the dated source stays in the record's local copy"
+  }
+ ],
+ "leads": [],
+ "open_questions": []
+}

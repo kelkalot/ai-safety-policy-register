@@ -1,0 +1,115 @@
+{
+ "cand_id": "OECD-01",
+ "tool": "Claude Code",
+ "model": "claude-opus-5-5",
+ "decision": "update",
+ "target_id": "OECD-01",
+ "record": {
+  "summary": "The first intergovernmental standard on AI, adopted by the OECD Council at Ministerial level: five values-based principles for trustworthy AI and five recommendations to Adherents for national policies and international co-operation. Principle 1.4 says AI systems should be robust, secure and safe throughout their lifecycle, in normal use, foreseeable use or misuse, with mechanisms to override, repair or safely decommission systems that risk undue harm. Other principles call for human agency and oversight, transparency, traceability and a systematic risk-management approach across the AI system lifecycle.",
+  "notes": "Adopted on 22 May 2019 (C(2019)34). On 8 November 2023 the Council revised the definition of 'AI system'; on 3 May 2024 the Council meeting at Ministerial level revised the Recommendation to address misinformation and information integrity in the context of generative AI, uses outside the intended purpose and misuse, and the safe override and decommissioning of AI systems. The Compendium lists no later amendment. The G20 AI Principles, welcomed at the Osaka Summit in June 2019, were drawn from it. The Compendium lists the 38 OECD members, 12 non-members (most recently Cambodia and Croatia, on 15 May 2026) and the European Union as Adherents; the OECD.AI overview page gives 47 adherents.",
+  "verification": {
+   "note": "The Compendium page of OECD/LEGAL/0449 needs JavaScript: the plain download holds only the navigation, so the page was also stored rendered in a browser (11 Oct 2026) and printed to PDF (17 Oct 2026). The printed page gives the title, the identifier, 'In force', adoption on 22/05/2019 by the Council at Ministerial level, the amendments of 08/11/2023 and 03/05/2024 with their references, the full text, the background on both revisions and the list of Adherents. OECD.AI's AI Principles page (stored 17 Oct 2026) still gives 47 adherents and lists fewer non-members than the Compendium. The earlier note's remark on the political weight of OECD Recommendations is not in the stored files and was dropped from the notes."
+  }
+ },
+ "evidence": {
+  "title": [
+   {
+    "file": "archive/OECD-01/2026-10-17/official-print.pdf",
+    "sha256": "620ff14bbdba734f74ff5846c8f47457b91fccef0353f01cde4e5bfbed683eb0",
+    "locator": "page 1, heading",
+    "quote": "Recommendation of the Council on Artificial Intelligence",
+    "source_kind": "official"
+   }
+  ],
+  "official_identifier": [
+   {
+    "file": "archive/OECD-01/2026-10-17/official-print.pdf",
+    "sha256": "620ff14bbdba734f74ff5846c8f47457b91fccef0353f01cde4e5bfbed683eb0",
+    "locator": "page 1",
+    "quote": "OECD/LEGAL/0449",
+    "source_kind": "official"
+   }
+  ],
+  "date_published": [
+   {
+    "file": "archive/OECD-01/2026-10-17/official-print.pdf",
+    "sha256": "620ff14bbdba734f74ff5846c8f47457b91fccef0353f01cde4e5bfbed683eb0",
+    "locator": "page 1",
+    "quote": "Adopted on: 22/05/2019",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/OECD-01/2026-10-17/official-print.pdf",
+    "sha256": "620ff14bbdba734f74ff5846c8f47457b91fccef0353f01cde4e5bfbed683eb0",
+    "locator": "page 5, Background information",
+    "quote": "was adopted by the OECD Council meeting at Ministerial level on 22 May 2019",
+    "source_kind": "official"
+   }
+  ],
+  "date_last_updated": [
+   {
+    "file": "archive/OECD-01/2026-10-17/official-print.pdf",
+    "sha256": "620ff14bbdba734f74ff5846c8f47457b91fccef0353f01cde4e5bfbed683eb0",
+    "locator": "page 1",
+    "quote": "Amended on: 03/05/2024",
+    "source_kind": "official"
+   },
+   {
+    "file": "archive/OECD-01/2026-10-17/official-print.pdf",
+    "sha256": "620ff14bbdba734f74ff5846c8f47457b91fccef0353f01cde4e5bfbed683eb0",
+    "locator": "page 5, Background information",
+    "quote": "the Recommendation was revised by the OECD Council meeting at Ministerial level on 3 May 2024",
+    "source_kind": "official"
+   }
+  ],
+  "status": [
+   {
+    "file": "archive/OECD-01/2026-10-17/official-print.pdf",
+    "sha256": "620ff14bbdba734f74ff5846c8f47457b91fccef0353f01cde4e5bfbed683eb0",
+    "locator": "page 1, instrument header",
+    "quote": "In force Recommendation Digital",
+    "source_kind": "official"
+   }
+  ],
+  "issuing_body": [
+   {
+    "file": "archive/OECD-01/2026-10-17/official-print.pdf",
+    "sha256": "620ff14bbdba734f74ff5846c8f47457b91fccef0353f01cde4e5bfbed683eb0",
+    "locator": "page 5, Background information",
+    "quote": "was adopted by the OECD Council meeting at Ministerial level on 22 May 2019 on the proposal of the Digital Policy Committee",
+    "source_kind": "official"
+   }
+  ],
+  "legal_force": [
+   {
+    "file": "archive/OECD-01/2026-10-17/official-print.pdf",
+    "sha256": "620ff14bbdba734f74ff5846c8f47457b91fccef0353f01cde4e5bfbed683eb0",
+    "locator": "page 2, paragraph II",
+    "quote": "RECOMMENDS that Members and non-Members adhering to this Recommendation",
+    "source_kind": "official"
+   }
+  ]
+ },
+ "judgment": {
+  "changes": {
+   "summary": "Principle 1.4 says AI systems 'should' be safe (a recommendation, not a requirement); the oversight, traceability and risk-management provisions of principles 1.2 b) and 1.5 b)-c), which the topics rest on, added",
+   "notes": "adherents now from the Compendium (38 members, 12 non-members including Cambodia and Croatia on 15 May 2026, and the EU), with OECD.AI's lower count of 47 kept as a discrepancy; the 2024 revision described as the Compendium's background does; the unsupported sentence on the political weight of OECD Recommendations removed",
+   "verification.note": "rewritten for the files stored in this run"
+  },
+  "confirmed": [
+   "title",
+   "date_published",
+   "status",
+   "date_last_updated",
+   "official_identifier",
+   "issuing_body",
+   "legal_force"
+  ],
+  "status_reasoning": "The Compendium page printed on 17 Oct 2026 marks the instrument 'In force' and lists its last amendment as 03/05/2024; the list of dates and references has no later amendment. A Recommendation of the Council that is current is recorded as 'Published (non-binding, current)'. The coordinator's hint that the AI Principles were revised is the 2023 and 2024 revisions, which the record already carries; date_last_updated 2024-05-03 stands.",
+  "scope_reasoning": "AI-specific intergovernmental standard; in scope with no note.",
+  "summary_check": "The new summary follows paragraphs II-V and principles 1.2 b), 1.3, 1.4 and 1.5 of the printed text and the Compendium's scope note ('five high-level values-based principles and five recommendations for national policies and international co-operation')."
+ },
+ "extra_urls": [],
+ "leads": [],
+ "open_questions": []
+}
